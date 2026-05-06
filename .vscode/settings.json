@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "python.defaultInterpreterPath": "./venv/Scripts/python.exe",
+  "files.trimTrailingWhitespace": true,
+  "editor.rulers": [79]
+}
