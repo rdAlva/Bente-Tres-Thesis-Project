@@ -1,0 +1,16 @@
+rank,doc1,doc2,cosine_score,jaccard_unigram,jaccard_bigram,jaccard_trigram,combined_score,cosine_label,jaccard_label,decision,flagged
+1,Case-8.Greenwood-Resources.txt,Variant2_HP.txt,0.9149,0.7526,0.6378,0.5414,0.7117,very similar,very similar,PROMOTE,False
+2,Attitudes-of-Filipino-Millenials-towards-luxury-brands.txt,Plagiarized_Variant_Luxury_Brands.txt,0.9297,0.5011,0.2481,0.1729,0.463,very similar,weak similarity,PROMOTE,False
+3,Variant1_PP.txt,Variant2_HP.txt,0.4427,0.2285,0.0527,0.022,0.1865,weak similarity,no similarity,PROMOTE,False
+4,Case-8.Greenwood-Resources.txt,Variant1_PP.txt,0.4223,0.2057,0.0462,0.0177,0.173,weak similarity,no similarity,PROMOTE,False
+5,Attitudes-of-Filipino-Millenials-towards-luxury-brands.txt,DeterminantsofStudentsMotivationonEntrepreneurship-SPCF.txt,0.0884,0.1499,0.0079,0.003,0.0623,no similarity,no similarity,PROMOTE,False
+6,DeterminantsofStudentsMotivationonEntrepreneurship-SPCF.txt,Plagiarized_Variant_Luxury_Brands.txt,0.0712,0.1187,0.0059,0.0027,0.0496,no similarity,no similarity,PROMOTE,False
+7,Case-8.Greenwood-Resources.txt,DeterminantsofStudentsMotivationonEntrepreneurship-SPCF.txt,0.0415,0.0782,0.0037,0.0011,0.0311,no similarity,no similarity,PROMOTE,False
+8,Attitudes-of-Filipino-Millenials-towards-luxury-brands.txt,Case-8.Greenwood-Resources.txt,0.0451,0.075,0.0026,0.0007,0.0308,no similarity,no similarity,PROMOTE,False
+9,Attitudes-of-Filipino-Millenials-towards-luxury-brands.txt,Variant2_HP.txt,0.0461,0.0685,0.0011,0.0,0.0289,no similarity,no similarity,PROMOTE,False
+10,DeterminantsofStudentsMotivationonEntrepreneurship-SPCF.txt,Variant2_HP.txt,0.0322,0.0722,0.0019,0.0,0.0266,no similarity,no similarity,PROMOTE,False
+11,Plagiarized_Variant_Luxury_Brands.txt,Variant1_PP.txt,0.0372,0.0631,0.0011,0.0,0.0253,no similarity,no similarity,PROMOTE,False
+12,Case-8.Greenwood-Resources.txt,Plagiarized_Variant_Luxury_Brands.txt,0.039,0.0565,0.0023,0.0006,0.0246,no similarity,no similarity,PROMOTE,False
+13,Plagiarized_Variant_Luxury_Brands.txt,Variant2_HP.txt,0.0418,0.0541,0.0009,0.0,0.0242,no similarity,no similarity,PROMOTE,False
+14,DeterminantsofStudentsMotivationonEntrepreneurship-SPCF.txt,Variant1_PP.txt,0.0302,0.0595,0.0006,0.0,0.0226,no similarity,no similarity,PROMOTE,False
+15,Attitudes-of-Filipino-Millenials-towards-luxury-brands.txt,Variant1_PP.txt,0.022,0.0535,0.0003,0.0,0.0189,no similarity,no similarity,PROMOTE,False

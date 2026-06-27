@@ -1,37 +1,37 @@
 import os
-import pathlib
+from pathlib import Path
 import pymupdf
 
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-pdf_folder = os.path.join(BASE_DIR, "static", "file")
-txt_folder = os.path.join(BASE_DIR, "utils", "txtFileUpload")
-os.makedirs(txt_folder, exist_ok=True)
+# Consistent path management using Pathlib
+BASE_DIR = Path(__file__).resolve().parent.parent
+pdf_folder = BASE_DIR / "static" / "file"
+txt_folder = BASE_DIR / "utils" / "txtFileUpload"
 
-# loop through PDFs
-for filename in os.listdir(pdf_folder):
+# Create destination folder if it doesn't exist
+txt_folder.mkdir(parents=True, exist_ok=True)
 
-    if filename.endswith(".pdf"):
+def extract_pdfs():
+    if not pdf_folder.exists():
+        print(f"Source folder not found: {pdf_folder}")
+        return
 
-        pdf_path = os.path.join(pdf_folder, filename)
+    for pdf_path in pdf_folder.glob("*.pdf"):
+        txt_path = txt_folder / f"{pdf_path.stem}.txt"
 
-        # extract PDF text
-        with pymupdf.open(pdf_path) as doc:
+        # Efficiency: Skip files already converted
+        if txt_path.exists():
+            continue
 
-            text = chr(12).join(
-                [page.get_text() for page in doc]
-            )
+        try:
+            with pymupdf.open(pdf_path) as doc:
+                # Use newline joiner for better sentence boundaries in NLP
+                text = "\n".join([page.get_text() for page in doc])
 
-        # create txt filename
-        txt_filename = os.path.splitext(filename)[0] + ".txt"
+            txt_path.write_text(text, encoding="utf-8")
+            print(f"Converted: {pdf_path.name} -> {txt_path.name}")
 
-        txt_path = os.path.join(
-            txt_folder,
-            txt_filename
-        )
+        except Exception as e:
+            print(f"Error converting {pdf_path.name}: {e}")
 
-        # save txt file
-        pathlib.Path(txt_path).write_bytes(
-            text.encode()
-        )
-
-        print(f"Converted: {filename} -> {txt_filename}")
+if __name__ == "__main__":
+    extract_pdfs()

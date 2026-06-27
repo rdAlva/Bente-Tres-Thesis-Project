@@ -3,5 +3,10 @@
   "editor.tabSize": 4,
   "python.defaultInterpreterPath": "./venv/Scripts/python.exe",
   "files.trimTrailingWhitespace": true,
-  "editor.rulers": [79]
+  "editor.rulers": [
+    79
+  ],
+  "python.analysis.extraPaths": [
+    "./app/nlp"
+  ]
 }
