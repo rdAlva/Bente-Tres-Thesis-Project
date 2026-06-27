@@ -1,5 +1,5 @@
 from pathlib import Path
-from preprocessing import preprocess_text
+from app.nlp.preprocessing import preprocess_text
 
 def generate_ngrams(text, n):
     tokens = text.split()

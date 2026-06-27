@@ -1,6 +1,6 @@
 from pathlib import Path
 from sklearn.feature_extraction.text import TfidfVectorizer
-from preprocessing import preprocess_text
+from app.nlp.preprocessing import preprocess_text
 
 # Path to txt files
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -16,7 +16,7 @@ for txt_file in directory_path.glob("*.txt"):
 
     corpus.append(processed_text)
     filenames.append(txt_file.name)
-    
+
     print(f"Loaded: {txt_file.name}")
 
 # TF-IDF
