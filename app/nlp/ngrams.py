@@ -10,12 +10,20 @@ def generate_ngrams(text, n):
 # Directory Processing Logic
 SCRIPT_DIR = Path(__file__).resolve().parent
 directory_path = SCRIPT_DIR.parent / "utils" / "txtFileUpload"
+corpus_path = SCRIPT_DIR.parent.parent / "corpus" / "promoted"
 
 corpus = []
 filenames = []
 
 # Read ALL txt files
 for txt_file in directory_path.glob("*.txt"):
+
+    processed_text = preprocess_text(txt_file)
+
+    corpus.append(processed_text)
+    filenames.append(txt_file.name)
+
+for txt_file in corpus_path.glob("*.txt"):
 
     processed_text = preprocess_text(txt_file)
 

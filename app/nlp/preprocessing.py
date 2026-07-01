@@ -6,6 +6,7 @@ from nltk.corpus import stopwords
 
 # Pre-load resources
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 def preprocess_text(file_path):
@@ -26,7 +27,6 @@ def preprocess_text(file_path):
                 filtered = [w for w in words if w not in stop_words]
                 document_tokens.extend(filtered)
 
-            # IMPORTANT:
             # Convert token list back to string
             return " ".join(document_tokens)
     except Exception as e:
@@ -36,8 +36,14 @@ def preprocess_text(file_path):
 # Directory Processing Logic
 SCRIPT_DIR = Path(__file__).resolve().parent
 directory_path = SCRIPT_DIR.parent / "utils" / "txtFileUpload"
+corpus_path = SCRIPT_DIR.parent.parent / "corpus" / "promoted"
 
 if directory_path.exists():
     for txt_file in directory_path.glob("*.txt"):
+        tokens = preprocess_text(txt_file)
+        print(f"Processed {txt_file.name}: {len(tokens)} tokens.")
+
+if corpus_path.exists():
+    for txt_file in corpus_path.glob("*.txt"):
         tokens = preprocess_text(txt_file)
         print(f"Processed {txt_file.name}: {len(tokens)} tokens.")
