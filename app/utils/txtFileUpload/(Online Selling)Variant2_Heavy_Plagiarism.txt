@@ -1,0 +1,195 @@
+VARIANT 2: HEAVY/LAZY PLAGIARISM 
+(Low-Effort Word-Spinning Simulation) 
+The Relationship between Online Selling Through Social Media and Impulse 
+Purchases among Young Professionals 
+Abstract 
+The aim of this study is to determine if there is a connection between online selling via social media and 
+impulse purchases. The steps in the methodology are as follows: Quantitative research, particularly 
+descriptive research, is used to design research that seeks to describe the current state of variables. With a 
+total of 387 Young Professional respondents from Angeles City, Pampanga, the researchers also gave 
+self-made questionnaires and used a Likert scale as the basis for answering the survey. To examine the 
+link between social commerce and impulsive purchase decisions, the data were analyzed using statistical 
+analysis using mean rating and Pearson r correlation. It was found that the Young Professional's impulse 
+purchase behavior and social commerce (hedonic and social) had a significant association. The 
+researchers recommended that social commerce be more reliable to gain trust and credibility, that sales 
+promotions be created to improve customer retention, and that good customer service is provided to give 
+customers a more enjoyable experience and add value. The findings point to the need for more research 
+into other factors that influence social commerce. 
+Keywords: Social Commerce, Hedonic Value, Utilitarian Value, Impulse Buying Decision. 
+ 
+Introduction and Review of Related Literature 
+Social media has penetrated every area of people's lives. It becomes a tool for society, allowing people to 
+connect and communicate. It should come as no surprise that, with the fast advancement of technology, 
+people's shopping behaviors have changed as well. Social networking has developed into a tool for 
+marketing and commerce, known as Social Commerce. The use of social networking sites like Facebook, 
+Instagram, and Twitter to promote and sell products and services is known as social commerce 
+(Dollarhide, 2020). 
+Impulse Buying Behavior is acknowledged by marketers and academics all around the world. Customer 
+shopping behavior is influenced by both the retail environment and impulsive purchases. Customers are 
+usually thought to be more influenced by the main items and services on offer when making purchase 
+decisions (Akram et al., 2016). Impulsive purchase behavior is a serious issue in the retail business and 
+marketing, according to Saad et al., (2015). It's a habit that makes up a significant part of all things sold 
+each year across a wide range of industries. 
+Consumers' online purchase behavior is affected by information found in online reviews, according to 
+Khem et al., (2018). According to the research, consumers' perceived hedonic value from reading internet 
+reviews increases their browsing activity. Customers' tendency to buy impulsively and, as a result, their 
+impulse purchasing behavior is positively influenced by browsing. Furthermore, customers with high 
+impulsiveness place a greater value on the hedonic worth of online reviews, whereas consumers with low 
+impulsiveness value utilitarian value more. Customers with a high level of impulsivity find that browsing 
+has a stronger influence on their tendency to make impulsive purchases. 
+The aim of the study is to determine if there is a connection between social commerce and impulse 
+purchases. The researchers are interested in the respondents' demographic profile as well as the 
+
+relationship between social commerce characteristics and impulse purchase decisions based on hedonic 
+and utilitarian values. 
+ 
+Methods 
+Research Design 
+Quantitative research, namely descriptive research, was used by the researchers. This research requires 
+quantitative data collected from spontaneous purchases made by young professionals in Angeles City. To 
+answer the questions and achieve the study's goals, the researchers used a survey research method to 
+gather data. 
+Participants of the Study 
+The respondents were selected using a purposive sampling approach by the researchers. The researchers 
+needed 387 people to complete the study. The views, attitudes, and opinions of respondents from Angeles 
+City, specifically millennial or generation Y workers between the ages of 23 and 35, were chosen as the 
+focus of the study. 
+Data Gathering 
+The survey questionnaire was used as the study instrument. Respondents could use the Likert scale 
+method to choose their responses. Purposive sampling strategies are used to distribute surveys to 
+individual respondents in Angeles City using Google Forms uploaded via Facebook Messenger. 
+Procedure for Data Processing and Analysis 
+The data is assessed to see if the hypotheses are valid. Statistical Analysis is used to address research 
+questions by describing data using analytical methods (i.e. text, numerical). In order to respond to the 
+research challenge, the researchers used a Likert scale. To examine the data, the researchers used Mean 
+Rating and Pearson-R Correlation as statistical tools. The average of sample data is calculated based on 
+the items of relative significance, and Pearson-R Correlation determines whether and how strongly two 
+variables are related. 
+Reliability Statistics: Cronbach's Alpha = .903; N of Items = 15 
+ 
+Results and Discussion 
+According to the findings, there are 127 (32.8 percent) men and 260 (67.2 percent) women. The 
+demographic profile "11,691–23,381" had the highest frequency of 147 (38.0 percent), while the 
+demographic profile "46,762 and above" had the lowest frequency of 55 (14.2 percent). 
+"As I browse in Social Commerce, it fulfills my curiosity" received the highest mean rating of 3.36 with 
+the descriptive rating of "Strongly Agree," while "As I browsed in Social Commerce, I truly felt satisfied 
+and relaxed" received the lowest mean rating of 3.01 with the descriptive rating of "Agree." Overall, 
+Hedonic Value has a mean of 3.18 and a descriptive rating of "Agree." 
+The statement "I explore Social Commerce's (Facebook, Instagram, or Twitter) product/s or service/s 
+because it is helpful" was shown to have the highest Utilitarian Value. On the other hand, the statement "I 
+explore in Social Commerce because I can get more value on the stated product/s or service/s" had the 
+highest mean rating of 3.41 with the descriptive rating of "Strongly Agree." With the descriptive rating of 
+
+"Agree," it had the lowest mean rating of 3.06. Overall, the mean Utilitarian Value score is 3.18, with a 
+descriptive score of "Agree." 
+Notably, the result shows that the statement "When I browse on Social Commerce apps, I have a desire to 
+buy things that are not included in my specified purchasing goal" is connected with Impulse Buying 
+Decision. The statement "When I browse through Social Commerce, I sometimes buy product/s or 
+service/s irresponsibly" had the highest mean rating of 2.95 with the descriptive rating of "Agree." The 
+descriptive rating of "Agree" had the lowest mean rating of 2.65. Overall, the mean score for Impulse 
+Buying Decision is 2.75, using "Agree" as the descriptive rating. 
+The p-value of 0.001 is lower than the significance level/alpha level of 0.05 (p<0.05) in the test done to 
+examine the relationship between social commerce and impulse buying decision, showing that there is a 
+significant relationship between social commerce's hedonic value and impulse buying decision. 
+Furthermore, there was a slight positive connection between the hedonic value of social commerce and 
+impulse purchase decisions. 
+Based on a study that looked at the link between social commerce and impulsive purchases there is a 
+significant relationship between social commerce's utilitarian value and impulsive buying behavior, with a 
+p-value of 0.001, which is lower than the significance threshold/alpha level of 0.05 (p<0.05). 
+Furthermore, there was a slight positive link between the utilitarian value of social commerce and impulse 
+purchase decisions. 
+ 
+Correlation Matrix – Pearson's Correlation 
+ 
+AHV 
+AUV 
+AIB 
+AHV 
+— 
+— 
+ 
+AUV 
+0.611 *** 
+— 
+— 
+AIB 
+0.345 *** 
+0.405 *** 
+— 
+Note. * p < .05, ** p < .01, *** p < .001 
+ 
+Conclusion 
+The study examined the link between social commerce and impulse purchases among Angeles City's 
+young professionals. The dependent variables: hedonic and utilitarian value, as well as the demographic 
+profile: sex, and monthly income, are used to analyze and confirm the underlying factor in impulsive 
+purchase behavior in this study. The study arrives at the following conclusion based on its findings: 
+The male had the lowest frequency of 127 with a 32.8 percentile, while the female had the highest 
+frequency of 260 with a 67.2 percentile. According to Pradhan (2016), male and female customers 
+experience impulse buying differently, with female shoppers experiencing it more frequently due to their 
+similarity and quick exposure to things. 
+In terms of monthly income, "46,762 and above" received the lowest frequency of 55, accounting for 14.2 
+percent of the total. Young Professionals with a higher salary are less likely to be impulsive buyers, 
+according to the findings. The lower the frequency and proportion of the demographic description, 
+according to Akram et al (2018), the greater the income. With the descriptive rating of "Agree," the 
+statement "As I browsed on Social Commerce, I felt satisfied and relaxed" obtained the lowest mean 
+rating of 3.01. Consumers feel uncomfortable when browsing Social Commerce, as shown in the results 
+
+because there is no assurance that their expectations will be met, which can lead to confusion or, worse, 
+dissatisfaction. 
+"I explore in Social Commerce since I can get more value on the stated product/s or service/s" had the 
+lowest mean rating of 3.06 and the descriptive rating of "Agree." Because the majority of sellers in social 
+commerce are small business owners, the results show that the items or services sold in social commerce 
+do not offer much value when compared to physical stores. According to the findings, social commerce's 
+hedonic and utilitarian values have a significant relationship with impulsive purchasing decisions but are 
+not as strong as that of a physical shop. When consumers come across a product online, they are less 
+likely to make spontaneous or impulsive purchases. They may look at it out of curiosity, but they are less 
+likely to buy it. 
+ 
+Recommendations 
+To avoid misleading customers, it is important that product or service information advertised be realistic 
+or truthful to make them feel satisfied and calm. To build reliability and trust, sellers should show genuine 
+product photographs rather than enhanced versions. Customers should be given discounts and encouraged 
+to fill out comment coupons, which will work as reviews of their experience after they purchase the 
+goods. Other potential clients will have a reference point in terms of the online seller's credibility as a 
+result of this action. Because people learn about the quality of a product or service by reading evaluations 
+from other customers, this may help build confidence with the target buyers. Furthermore, the researchers 
+suggest offering free shipping above a certain number of things, since logistics services may add value, 
+and improving product packaging to highlight the best features of the product to provide more extra value 
+to the products or services offered in Social Commerce. Consumers rate items based on the uniqueness of 
+their packaging, according to the survey, and are willing to try products that are nicely wrapped. 
+Customers can reach the vendor directly if they have any questions or complaints about the goods, and the 
+seller will respond as fast as possible. Customers develop trust and loyalty when they receive excellent 
+customer service. 
+Consumers should also be aware of their behavior and check customer reviews to assess the reliability of 
+items or services provided in Social Commerce, as well as post feedback afterward, according to the 
+study. Finally, similar research should be conducted to support these findings, and while conducting a 
+survey, the number of participants should be equally distributed in terms of demographic profile: Sex, 
+Age, and Gender (Male and Female). It will be easy to determine which Sex is more likely to engage in 
+Social Commerce's Impulse Buying Decision using this information. 
+ 
+References 
+Akram, H., Hui, P., Khan, M., Yan, C., & Akram, Z. (2018). Factors affecting online impulse buying: evidence from 
+Chinese Social Commerce Environment. Beijing Institute of Technology. 
+Aragoncillo L., & Orus, C. (2018). Impulse buying behaviour: an online-offline comparative and the impact of 
+social media. doi: 10.1108/SJME-03-2018-007. 
+Chan, T., Cheung, C., & Lee, Z. (2017). The state of online impulse-buying research: A literature analysis. 
+Information & Management, 54(2), 204-217. 
+Dollarhide, M. E. (2020). Social Commerce. Investopedia. 
+Khem, Z. K., Xu, H., Zhao, S., & Yu, Y. (2018). Online reviews and impulse buying behaviour: The role of 
+browsing and impulsiveness. Internet Research, 28(3), 522-534. 
+
+Khokhar, A. G., Kazi, A. G., Qureshi, P. A., & Murtaza, F. (2019). The Impact of Social Media on Impulse Buying 
+Behaviour in Hyderabad Sindh Pakistan. International Journal of Entrepreneurial Research. 
+Lee, J. K., & Lee, Y. K. (2019). Customers' Perceived Experiential Value: Case of Social Commerce Context. 
+Journal of Marketing Management, 7(1), 135-144. 
+Pradha, V. (2016). Study on Impulsive Buying Behavior among Consumers in Supermarket in Kathmandu Valley. 
+Journal of Business and Social Sciences Research, 1(2), 215-233. 
+Sojung K., & Zongya, L. (2018). Understanding Social-Commerce Shopping Behavior: A Study in the Chinese 
+Context. International Journal of Contents, 14(4). 
+Waani, R. C., & Tumbuan, W. J. (2015). The Influence of Price Discount, Bonus Pack, and In-Store Display on 
+Impulse Buying Decision. Journal EMBA. 
+Wahab, Z., Shihab, M. S., Hanafi, A., & Febria, H. (2018). The Influence of Online Shopping Motivation and 
+Product Browsing Toward Impulsive Buying Of Fashion Products On A Social Commerce. International 
+Journal of Scientific and Research Publications. 
+Zheng, X., Men, J., & Gong, X. (2019). Understanding impulse buying in mobile commerce: An investigation into 
+hedonic and utilitarian browsing. International Journal of Information Management. 

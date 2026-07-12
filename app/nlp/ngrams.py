@@ -1,5 +1,7 @@
 from pathlib import Path
 from app.nlp.preprocessing import preprocess_text
+from app.nlp.loader import load_corpus
+
 
 def generate_ngrams(text, n):
     tokens = text.split()
@@ -16,20 +18,7 @@ corpus = []
 filenames = []
 
 # Read ALL txt files
-for txt_file in directory_path.glob("*.txt"):
-
-    processed_text = preprocess_text(txt_file)
-
-    corpus.append(processed_text)
-    filenames.append(txt_file.name)
-
-for txt_file in corpus_path.glob("*.txt"):
-
-    processed_text = preprocess_text(txt_file)
-
-    corpus.append(processed_text)
-    filenames.append(txt_file.name)
-
+corpus, filenames = load_corpus()
 
 # Only runs if this file is executed directly
 if __name__ == "__main__":

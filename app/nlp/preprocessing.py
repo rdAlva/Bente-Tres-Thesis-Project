@@ -3,11 +3,14 @@ import string
 from pathlib import Path
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
 
 # Pre-load resources
 nltk.download('punkt')
 nltk.download('punkt_tab')
 nltk.download('stopwords')
+
+stemmer = PorterStemmer()
 
 def preprocess_text(file_path):
     try:
@@ -24,7 +27,11 @@ def preprocess_text(file_path):
             for sentence in sentences:
                 words = word_tokenize(sentence)
                 # Filter stop words and non-alphanumeric noise
-                filtered = [w for w in words if w not in stop_words]
+                filtered = [
+                    stemmer.stem(w)
+                    for w in words
+                    if w not in stop_words and w.isalnum()
+                ]
                 document_tokens.extend(filtered)
 
             # Convert token list back to string

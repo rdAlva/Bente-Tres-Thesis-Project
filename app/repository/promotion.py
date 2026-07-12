@@ -121,3 +121,4 @@ for pair in to_promote:
             print(f"Promoted PDF: {pdf_name}")
 
         moved_files.add(filename)
+

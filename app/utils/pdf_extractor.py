@@ -19,7 +19,7 @@ def extract_pdfs():
         txt_path = txt_folder / f"{pdf_path.stem}.txt"
 
         # Efficiency: Skip files already converted
-        if txt_path.exists():
+        if txt_path.exists() and txt_path.stat().st_mtime >= pdf_path.stat().st_mtime:
             continue
 
         try:

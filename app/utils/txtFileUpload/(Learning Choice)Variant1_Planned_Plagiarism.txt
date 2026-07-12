@@ -1,0 +1,844 @@
+CONSUMER DECISION-MAKING APPROACHES AND BEHAVIORAL 
+REWARD MECHANISMS: 
+AN EMPIRICAL INVESTIGATION OF M.A.C COSMETICS AT SM CITY 
+CLARK BRANCH 
+Alcantara, M.M.R. / David, J.T. / Estabillo, R.R.K. / Kim, M.R. / Santos, K.P. 
+ 
+Abstract 
+Establishing the association between consumer decision-making approaches and behavioral 
+reward mechanisms as observed among M.A.C cosmetics patrons constituted the central objective of this 
+inquiry. A sample of 306 participants was systematically derived from an estimated population of 1,500 
+through the Raosoft online calculator at a 95% confidence interval and 5% margin of error. 
+Researcher-constructed survey instruments were employed to measure seven documented consumer 
+decision-making approaches. Among these approaches, cost-based and assortment-seeking orientations 
+registered the most elevated composite scores, thereby suggesting that purchasing patterns among M.A.C 
+consumers are predominantly shaped by price sensitivity and the pursuit of novel product experiences. 
+In contrast, the habitual orientation emerged as the dimension attaining the lowest aggregate 
+score. When examined through Pearson's correlational analysis, each of the seven consumer 
+decision-making dimensions demonstrated a statistically significant yet modestly positive relationship 
+with behavioral reward outcomes. Brand devotion orientation generated the strongest correlational 
+coefficient at r = 0.475, whereas habitual orientation produced the weakest at r = 0.244. These findings 
+collectively suggest that despite M.A.C's stature as a globally recognized cosmetics authority, its market 
+penetration relative to consumer reinforcement remains comparatively limited. The researchers 
+consequently recommend that strategic prioritization be directed toward skin-type-specific customization, 
+ingredient transparency, consistent service quality, and the implementation of structured loyalty 
+mechanisms as pathways toward enhancing brand visibility and revenue generation. 
+ 
+Key Concepts: Consumer Decision Approaches, Behavioral Reward Mechanisms, Cost-Based 
+Orientation, Assortment-Seeking Behavior, Habitual Buying, Brand Devotion, Experiential Variety. 
+ 
+Introduction and Review of Related Literature 
+The historical origins of cosmetic application are conventionally attributed to ancient Egyptian 
+civilization, wherein excavated burial chambers have consistently yielded containers and implements 
+associated with personal adornment. Notable among ancient cosmetic practices, Cleopatra was recorded 
+
+as having derived lipstick pigmentation from pulverized carmine beetles, while contemporaneous women 
+employed clay-and-water mixtures as labial colorants. Broadly defined, cosmetics constitute substances 
+applied externally to the face, body, or hair for purposes of aesthetic enhancement or visual 
+transformation. The category encompasses foundational products, ocular preparations, blush formulations, 
+and lip colorants, among others. Women historically employed such items to augment their attractiveness, 
+while theatrical performers utilized them to achieve character-specific transformations (Edmonds, 2018). 
+Make-Up Art Cosmetics, more widely recognized by its abbreviated designation M.A.C, has 
+secured its position as the foremost global authority in professional cosmetic application, an achievement 
+rooted in its unmatched proficiency in the art of makeup. 
+The brand's commercial origins trace to the early 1980s, when M.A.C Cosmetics was established 
+and rapidly gained traction in the marketplace. Under the creative direction of Toskan and with Angelo 
+serving as the executive responsible for marketing, operations were initially conducted from a kitchen 
+space situated at the rear of one of Angelo's boutique establishments. The eventual inclusion of Toskan's 
+brother-in-law, a chemist by the name of Vic Casale, proved instrumental in producing the brand's 
+inaugural lipstick formulation—a product conceptualized from the vivid pink hue of a Crayola crayon 
+designated Flamingo. Toskan himself identified the product as the first matte lip formulation to render 
+identically on the lip surface as it appeared within its cylindrical container. Following its favorable 
+reception, the product line was extended to encompass 23 additional pastel-inspired shades, along with a 
+limited assortment of pencils, base products, and powders. 
+Among cosmetics enterprises that have retained sustained commercial and cultural appeal, M.A.C 
+stands as a particularly enduring example. The brand has consistently distinguished itself through a 
+commitment to bold creative campaigns and unconventional collaborative ventures. Embracing an ethos 
+of inclusivity, M.A.C's founding directors deliberately recruited individuals of unconventional aesthetic 
+expression—employees of varying gender identities who prominently featured vivid hair colorations, 
+body piercings, and tattoos. As the first cosmetics brand in the industry's history to formalize investment 
+in staff training and consumer education at the point of sale, M.A.C distinguished itself further by 
+foregoing traditional promotional mechanisms such as complimentary purchase incentives and sampling 
+programs. Instead, the organization placed its confidence in its meticulously crafted formulations and its 
+visually arresting brand identity. Serving a broad spectrum of gender expressions and skin tones, the 
+Canadian company effectively redefined the conceptual boundaries of cosmetic beauty. 
+As conceptualized by Hoyer and MacInnis (2008), Learning Choice Tactics represent condensed 
+cognitive heuristics employed by consumers to navigate purchasing decisions with minimal cognitive 
+expenditure. The applicability of these tactics tends to vary according to product classification and is most 
+
+pronounced in contexts characterized by repeated acquisition, low elaboration, and relatively automatic 
+decision-making. 
+Within the domain of consumer decision-making, choice tactics may be categorized along two 
+principal axes: those grounded in cognitive evaluation, encompassing performance assessment, habitual 
+behavior, brand devotion, price sensitivity, and normative influence; and those anchored in emotional 
+experience, including affective response, variety-seeking tendencies, and impulse orientation. Repeated 
+purchase behavior serves as the mechanism through which these tactics are internalized, a process 
+consistent with operant conditioning principles. 
+When consumers were surveyed regarding the determinants of their brand selection, several 
+recurring strategic categories were identified. These included price-driven rationales, affective 
+preferences, performance evaluations, social influence, habitual repetition, brand allegiance, and 
+novelty-seeking motivations. Responses ranged from cost-based explanations to expressions of personal 
+affinity and habitual loyalty. 
+Hoyer and MacInnis (2008) further observe that cost-oriented heuristics are most frequently 
+activated when consumers perceive little meaningful differentiation among available brands and maintain 
+low involvement with the choice set. Paradoxically, though price is a primary decision criterion for many 
+consumers, price data is seldom retained in memory even following a completed purchase. This occurs 
+because pricing information remains consistently accessible within the retail environment, thereby 
+diminishing the cognitive motivation to memorize it. Notably, consumers whose decision-making is 
+governed by loss aversion demonstrate heightened price sensitivity, whereas those oriented toward 
+anticipated gains evaluate brand features alongside pricing considerations as components of perceived 
+value. 
+According to Alton (2018), pricing decisions rank among the most consequential yet frequently 
+underexamined dimensions of business management. A firm's price point exerts influence across virtually 
+every operational dimension. Prices set too low may generate volume but undermine profitability; prices 
+positioned too high may preserve margins while suppressing unit movement to levels insufficient for 
+covering personnel costs. Pricing, in this sense, transcends its numerical expression. 
+Gencler (2017) contends that effective pricing strategy extends considerably beyond simple 
+competitive matching. Organizations equipped with robust competitive intelligence capabilities and an 
+analytical approach to rival monitoring are positioned to achieve meaningful market advantages. Six 
+specific tactical frameworks are identified as mechanisms for establishing sustainable differentiation. 
+
+According to Hoyer and MacInnis (2008), emotionally-driven choice tactics function through a 
+process of categorical affect retrieval, wherein consumers draw upon stored emotional associations when 
+evaluating brand options. This process, termed affect referral or the 'How do I feel about it?' heuristic, is 
+illustrated through the Starbucks example: upon encountering the brand name, consumers activate 
+pre-existing positive emotional residue, which may then guide selection without engaging in systematic 
+attribute evaluation. Research supports this mechanism, demonstrating that under conditions of time 
+pressure, consumers preferentially select the option with the strongest affective valence. When afforded 
+greater deliberative opportunity, however, rational evaluation reasserts its influence. Affective responses 
+to promotional stimuli have also been shown to generalize beyond the advertised offering to encompass 
+otherwise unrelated products. 
+Vizcaino (2018) documents that affect-oriented merchandising tactics, particularly the strategic 
+deployment of window signage, serve a dual communicative function: enhancing visual attractiveness and 
+conveying store-specific promotional information. Empirical evidence drawn from both naturalistic and 
+experimental settings confirms that window displays generate favorable consumer inferences regarding 
+store image and promotional value, which in turn shape patronage intentions. A supplementary 
+mechanism is proposed wherein such signage cultivates a sense of place identity, a perception that 
+partially mediates the relationship between consumer attitudes toward the display and their resultant 
+behavioral intentions. 
+Performance-related choice tactics, as documented by Hoyer and MacInnis (2008), are activated 
+when the outcome of prior consumption produces positive reinforcement, thereby orienting subsequent 
+decision-making toward performance-based criteria. These criteria may manifest as generalized quality 
+assessments or as evaluations of specific functional attributes. Consumer satisfaction functions as the 
+central mechanism in this dynamic: satisfied purchasers are disposed to internalize positive brand 
+appraisals and to engage in repeat purchase behavior accordingly. 
+Fallon (2017) situates performance tracking within a broader organizational management 
+framework, noting that virtually all enterprises maintain some form of performance metric. Such 
+measurement systems provide the evaluative foundation upon which managers and employees establish 
+shared expectations, developmental goals, and role alignment with organizational objectives. 
+Normative tactics, according to Hoyer and MacInnis (2008), reflect the capacity of social actors 
+to shape consumer decision-making, particularly among those with limited experience in a product 
+category. Three distinct influence pathways are identified: direct influence, in which others actively seek 
+to shape behavior; observational influence, in which consumer behavior is modeled on that of others; and 
+indirect influence, in which the anticipated assessments of others constrain choices. The prominence of 
+
+normative influence in digital environments is amplified by the ease with which consumers can access 
+one another's expressed opinions. Organizations may capitalize on this dynamic through advertising 
+strategies that foreground social validation and stimulate word-of-mouth dissemination. 
+Nolan (2014) further contextualizes normative social influence within consumer behavior, noting 
+that the phenomenon of social conformity directly shapes purchasing decisions. Practitioners engaged in 
+marketing and advertising must develop an understanding of how normative influence operates, as this 
+awareness enables the construction of promotional strategies that resonate with prevailing social norms. 
+Human beings are, by nature, creatures of routine. As Hoyer and MacInnis (2008) observe, once a 
+satisfactory behavioral pattern is established, repetition occurs with minimal deliberation. Daily routines, 
+travel patterns, and shopping preferences exemplify this dispositional tendency. Such regularity simplifies 
+cognitive demands and enhances manageability in everyday life. 
+Habitual decision-making represents one of the most cognitively economical forms of consumer 
+behavior, characterized by negligible information-seeking activity and virtually no comparative 
+evaluation of alternatives. Importantly, habituation does not require strong brand preference; rather, it is 
+sustained by behavioral repetition and routine purchasing. Decision-making governed by habit 
+simultaneously reduces perceived risk, as repeated positive experiences with a brand provide confidence 
+in its continued suitability. Evidence in support of habitual purchasing behavior is particularly robust in 
+contexts involving low-cost, frequently purchased items. However, extended intervals between purchases 
+within a product category are associated with reduced likelihood of habitual brand repetition. 
+Lindsay (2014) frames habitual purchasing as fundamentally a mechanism for cognitive 
+simplification. Consumers who have internalized routinized buying patterns value the reduction in 
+decision-making demands that such patterns afford. The failure to adequately account for habit as a 
+primary behavioral driver may explain why many marketing initiatives fail to achieve their intended 
+return on investment. When brand growth depends on converting consumers from a competitor's product, 
+what is effectively being requested is behavioral habit disruption—a substantially more complex 
+undertaking than standard persuasion. 
+Brand loyalty, in the formulation of Hoyer and MacInnis (2008), emerges when consumers 
+engage in deliberate comparative evaluation and determine that a particular brand satisfies their 
+requirements more fully than available alternatives, subsequently committing to repeated acquisition of 
+that brand. This disposition arises not merely from habitual inertia but from affirmatively reinforced 
+performance-based evaluation. Brand loyalty may also crystallize as a function of increasing consumer 
+proficiency with a specific offering, such as a financial management software platform. Confronted with 
+
+the learning investment required for brand switching, the loyal consumer is inclined toward continued 
+commitment—a phenomenon attributable to cognitive lock-in. 
+Kopp (2019) characterizes brand loyalty as the positive attachment consumers form with specific 
+products or commercial entities. Consumers exhibiting brand loyalty demonstrate sustained commitment 
+to a preferred offering, maintaining their patronage even when exposed to competitive inducements. 
+Rouse and Shadley (2019) describe brand loyalty as an affective bond that motivates continued 
+and expanded purchasing within a brand's portfolio. Organizations harness brand loyalty as a mechanism 
+for driving incremental sales across both existing product lines and brand extensions. This loyalty-based 
+commitment establishes behavioral patterns that transcend singular repurchase and extend to 
+cross-category purchasing within the same organizational family. In doing so, brand loyalty 
+simultaneously functions as a competitive barrier by disinclining consumers from migrating to alternative 
+brands. 
+According to Hoyer and MacInnis (2008), variety-seeking is a recognized low-effort consumer 
+decision strategy characterized by the desire to explore alternatives beyond one's established 
+preferences—a phenomenon technically described as assortment exploration. A consumer who habitually 
+selects a particular coffee brand may, without any dissatisfaction with that brand, elect to sample a 
+competing product before returning to the preferred option. Consumers engage in variety-seeking 
+behavior for two primary reasons: satiation and tedium. The experience of satiation, arising from repeated 
+consumption of an identical product or stimulus, motivates behavioral diversification. Similarly, repetitive 
+decision-making may generate monotony, prompting switching behavior even when the habitual option 
+would have produced greater immediate gratification. Social considerations also motivate variety-seeking, 
+as consumers may perceive their diversified selections to be evaluated more favorably by external 
+observers. Additionally, the perceived cost of switching is a key moderator: consumers who regard brand 
+transition as low-cost are more inclined toward variety-seeking than those who do not. 
+Adomavicius, Bockstedt, and Curley (2015) document that in the domain of consumable goods, 
+variety preference is consistently amplified when selections are made simultaneously as a bundled unit 
+rather than as a series of sequential individual choices. 
+Positive reinforcement, as explicated by Hoyer and MacInnis (2008), originates principally from 
+the subjective experience of fulfillment that arises when a consumer perceives their needs to have been 
+adequately addressed. This reinforcing experience amplifies the probability that the same brand will be 
+selected in subsequent purchasing occasions. Following the application of any of the seven established 
+decision-making tactics, consumers evaluate their acquired brand during the consumption phase, 
+
+generating outcomes that may be categorized as reinforcement (positive affect coupled with repurchase 
+intention), absence of reinforcement, or negative reinforcement. 
+Reinforcement, in its technical behavioral sense, refers to any stimulus that is contingent upon a 
+specific behavior and that functions to increase the probability of that behavior being replicated (Smith, 
+2017). In its most straightforward conceptual rendering, positive reinforcement involves the introduction 
+of a pleasurable stimulus following the execution of a particular behavior (Cherry, 2018). 
+As a foundational construct within Operant Conditioning theory developed by B.F. Skinner, 
+positive reinforcement describes the process by which rewarding consequences strengthen behavioral 
+repetition. Skinner's experiments with laboratory rodents demonstrated that consistent delivery of a food 
+reward following lever activation resulted in progressively more frequent lever-pressing behavior. The 
+parallel for human consumers is direct: when a particular purchasing behavior yields satisfying 
+consequences, repetition of that behavior is substantially more probable (Cherry, 2018). 
+ 
+Statement of the Problem 
+The central aim of this investigation was to determine the nature and magnitude of the association 
+between consumer decision-making approaches and behavioral reinforcement outcomes as evidenced 
+among M.A.C cosmetics patrons. Specifically, the study sought to address the following inquiries: 
+1. In what manner can each of the following consumer decision-making dimensions be characterized: 
+   a. Cost-based orientation 
+   b. Affect-based orientation 
+   c. Performance-based orientation 
+   d. Normative orientation 
+   e. Habitual orientation 
+   f. Brand devotion orientation 
+   g. Assortment-seeking orientation 
+2. How may the positive reinforcement profile of surveyed participants be generally characterized? 
+3. Does a statistically meaningful association exist between consumer decision-making orientations and 
+positive reinforcement outcomes? 
+ 
+
+Research Hypotheses 
+H1: Cost-based orientation and positive reinforcement share no significant association. 
+H2: Affect-based orientation and positive reinforcement share no significant association. 
+H3: Performance-based orientation and positive reinforcement share no significant association. 
+H4: Normative orientation and positive reinforcement share no significant association. 
+H5: Habitual orientation and positive reinforcement share no significant association. 
+H6: Brand devotion orientation and positive reinforcement share no significant association. 
+H7: Assortment-seeking orientation and positive reinforcement share no significant association. 
+ 
+Conceptual Framework 
+The analytical model underlying this investigation operationalizes consumer decision-making as a 
+multi-dimensional independent construct composed of seven discrete orientations: cost-based, 
+affect-based, performance-based, normative, habitual, brand devotion, and assortment-seeking. Each 
+dimension is posited to exert a measurable directional influence upon the dependent construct of positive 
+reinforcement. The framework positions these seven orientations as antecedents of reinforcement 
+outcomes, with the strength and nature of each relationship empirically assessed through correlational 
+analysis. 
+ 
+Significance of the Study 
+The present inquiry carries meaningful implications for multiple constituencies. Its primary utility 
+lies in advancing understanding of how low-effort consumer decision-making frameworks operate within 
+the cosmetics sector, with particular relevance to M.A.C patrons. The study yields value for the following 
+stakeholders: 
+For M.A.C Cosmetics: The findings provide actionable intelligence for refining customer 
+satisfaction strategies and strengthening the structural conditions for sustained repeat patronage through 
+relationship-based communication. 
+For Commercial Enterprises Broadly: The study offers transferable insights into how 
+decision-making heuristics function across product categories, facilitating more strategically informed 
+business development. 
+
+For Consumers: An empirically grounded understanding of the cognitive and behavioral 
+mechanisms underlying purchasing choices equips consumers with improved self-awareness in their 
+consumption decisions. 
+For Prospective Researchers: The study contributes to the cumulative scholarly record on 
+consumer behavior and reinforcement dynamics, serving as a reference foundation for future 
+investigations. 
+ 
+Scope and Limitation 
+The scope of the present study was delimited to the examination of consumer decision-making 
+orientation factors as they influence purchasing behavior specifically among M.A.C cosmetics patrons at 
+the SM City Clark branch. The study's findings are therefore bounded by the specific characteristics of 
+this consumer population and are not intended for generalization beyond it. While the seven factors 
+examined constitute an analytically sufficient basis for informing M.A.C's strategic direction, it is 
+acknowledged that additional variables may exert influence on consumer choice and reinforcement 
+outcomes that fall outside the parameters of this inquiry. 
+ 
+Method 
+Research Design 
+A quantitative descriptive methodology was employed in this investigation to assess the 
+functional role of consumer decision-making orientations as predictors of reinforcement outcomes within 
+the M.A.C cosmetics context. Descriptive quantitative designs are distinguished by their capacity to 
+characterize relationships between independent and dependent variables without the manipulation 
+inherent to experimental designs. The present inquiry did not seek causal inference but rather the 
+systematic documentation of associational patterns. 
+ 
+Participants of the Study 
+Survey instruments were administered to 306 patrons of the M.A.C brand at SM City Clark. The 
+sample was derived using the Raosoft online calculator, which yielded a recommended sample size of 306 
+based on a 95% confidence level, a 5% margin of error, a population proportion of 50%, and an estimated 
+total population of 1,500 individuals. Through their responses, participants provided empirical data on 
+how each of the seven decision-making orientations influenced their purchasing behavior and their 
+subsequent reinforcement experiences relative to M.A.C products. 
+
+ 
+Research Instruments 
+Data collection was conducted through a researcher-constructed survey questionnaire specifically 
+designed to capture the perceptions and experiences of M.A.C cosmetics consumers. The instrument was 
+structured to elicit responses across all seven decision-making dimensions, with items completed via a 
+checkmark system indicating the respondent's level of agreement. 
+ 
+Data Gathering Procedure 
+Prior to data collection, formal authorization was sought and obtained from the store management 
+of the M.A.C branch at SM City Clark. A pilot study utilizing 40 survey instruments was conducted to 
+assess the reliability of the questionnaire prior to full-scale deployment. Following confirmation of 
+instrument reliability, surveys were distributed, and completed responses were systematically collected, 
+verified, and tallied. 
+ 
+Data Processing and Analysis Procedure 
+Survey responses were quantified using a four-point Likert scale, operationalized as follows: 1 = 
+Strongly Disagree; 2 = Disagree; 3 = Agree; 4 = Strongly Agree. Weighted mean scores were computed 
+for each item and dimension to characterize consumer perceptions. Pearson's product-moment correlation 
+coefficient was subsequently applied to examine the directional strength and statistical significance of the 
+relationship between each decision-making orientation and positive reinforcement outcomes. 
+ 
+Table 1. Mean Rating Scale 
+Value Scale 
+Mean Range 
+Descriptive Rating 
+4 
+3.25 – 4.00 
+Strongly Agree 
+3 
+2.50 – 3.24 
+Agree 
+2 
+1.75 – 2.49 
+Disagree 
+1 
+1.00 – 1.74 
+Strongly Disagree 
+ 
+Table 2. Strength of Correlation 
+p-value 
+Correlation Classification 
+1.00 
+Perfect Correlation 
++.80 < +1.0 
+Very Strong Positive Correlation 
+
++.60 < +.80 
+Strong Positive Correlation 
++.50 < +.60 
+Moderate Positive Correlation 
++.20 < +.50 
+Weak Positive Correlation 
++.01 < +.20 
+Very Weak Positive Correlation 
+0 
+No Correlation 
+ 
+Results and Discussion 
+The highest mean score recorded under the Price Tactic dimension was 3.45, corresponding to the 
+item indicating that M.A.C is more cost-accessible than competing brands, classified as Strongly Agree. 
+Conversely, the lowest mean of 3.38 was associated with the promotional purchasing item. The aggregate 
+mean for the Price Tactic dimension was 3.42, rated as Strongly Agree. 
+ 
+Table 3 – Price Tactic 
+Price Tactic Statement 
+Mean 
+Rating 
+Despite its price point, M.A.C cosmetics constitutes a quality 
+offering. 
+3.42 
+Strongly Agree 
+M.A.C is more cost-accessible relative to comparable brands. 
+3.45 
+Strongly Agree 
+The pricing structure of M.A.C cosmetics reflects underlying 
+product value. 
+3.44 
+Strongly Agree 
+M.A.C cosmetics are acquired primarily during promotional sale 
+events. 
+3.43 
+Strongly Agree 
+Incentive-based promotions such as complimentary gifts 
+influence M.A.C purchases. 
+3.38 
+Strongly Agree 
+COMPOSITE MEAN 
+3.42 
+Strongly Agree 
+ 
+The Affect Tactic dimension registered a peak mean of 3.42 for the item expressing enhanced 
+satisfaction beyond expectations, classified as Strongly Agree, while the lowest mean of 3.26 was 
+assigned to the item concerning product dependency. The composite mean for this dimension was 3.36, 
+classified as Strongly Agree. 
+ 
+Table 4 – Affect Tactic 
+Affect Tactic Statement 
+Mean 
+Rating 
+A strong personal attachment to M.A.C products characterizes 
+my purchasing behavior. 
+3.26 
+Strongly Agree 
+
+Quality considerations occasionally motivate selection of the 
+M.A.C brand. 
+3.35 
+Strongly Agree 
+M.A.C products enhance the perceived attractiveness of the 
+consumer's appearance. 
+3.38 
+Strongly Agree 
+Products from the M.A.C brand contribute to personal comfort 
+and well-being. 
+3.40 
+Strongly Agree 
+Sustained preference for M.A.C is reinforced by a sense of 
+satisfaction exceeding expectations. 
+3.42 
+Strongly Agree 
+COMPOSITE MEAN 
+3.36 
+Strongly Agree 
+ 
+Within the Performance-related Tactic dimension, the highest mean of 3.46 was recorded for the 
+item concerning superior customer service as a purchase driver, while the lowest mean of 3.33 
+corresponded to product safety relative to hazardous materials. The composite mean for this dimension 
+was 3.39, classified as Strongly Agree. 
+ 
+Table 5 – Performance-related Tactic 
+Performance-related Tactic Statement 
+Mean 
+Rating 
+M.A.C products are formulated to exclude harmful lead 
+compounds. 
+3.33 
+Strongly Agree 
+M.A.C products demonstrate superior durability relative to 
+comparable offerings. 
+3.37 
+Strongly Agree 
+Consistent product reliability is a defining characteristic of the 
+M.A.C brand. 
+3.37 
+Strongly Agree 
+Exceptional customer service is a primary determinant of M.A.C 
+purchase intention. 
+3.46 
+Strongly Agree 
+The verified quality assurance profile of M.A.C products 
+reinforces purchase decisions. 
+3.43 
+Strongly Agree 
+COMPOSITE MEAN 
+3.39 
+Strongly Agree 
+ 
+For the Normative Tactic dimension, the peak mean of 3.46 was observed for the item addressing 
+peer-endorsed recommendations, while the lowest mean of 3.28 corresponded to social media influence. 
+The composite mean for this dimension was 3.36, classified as Strongly Agree. 
+ 
+Table 6 – Normative Tactic 
+Normative Tactic Statement 
+Mean 
+Rating 
+Digital marketing platforms exert influence on M.A.C purchasing 
+decisions. 
+3.28 
+Strongly Agree 
+
+Celebrity endorsement arrangements shape preferences toward 
+the M.A.C brand. 
+3.31 
+Strongly Agree 
+Peer recommendations citing M.A.C's prestige and prominence 
+motivate purchase. 
+3.33 
+Strongly Agree 
+M.A.C is strongly endorsed within social circles as a superior 
+cosmetic option. 
+3.46 
+Strongly Agree 
+Peer opinion is consulted before committing to a M.A.C 
+purchase. 
+3.41 
+Strongly Agree 
+COMPOSITE MEAN 
+3.36 
+Strongly Agree 
+ 
+Within the Habit Tactic dimension, the highest mean of 3.29 was noted for the item reflecting 
+need-satisfaction as a purchase driver, while the lowest mean of 3.24 was recorded for weekly or monthly 
+purchasing frequency—the only item to fall within the Agree rather than Strongly Agree descriptive 
+classification. The composite mean for this dimension was 3.26, classified as Strongly Agree. 
+ 
+Table 7 – Habit Tactic 
+Habit Tactic Statement 
+Mean 
+Rating 
+New product launches from M.A.C trigger routine repurchase 
+behavior. 
+3.26 
+Strongly Agree 
+M.A.C purchases are driven by habitual need fulfillment patterns. 
+3.29 
+Strongly Agree 
+New brand introductions prompt routine information-seeking 
+about M.A.C. 
+3.26 
+Strongly Agree 
+Retail proximity serves as a trigger for habitual M.A.C 
+purchasing. 
+3.25 
+Strongly Agree 
+M.A.C products are acquired on a regularized weekly or monthly 
+schedule. 
+3.24 
+Agree 
+COMPOSITE MEAN 
+3.26 
+Strongly Agree 
+ 
+The Brand Loyalty Tactic dimension produced a peak mean of 3.39 for the item addressing color 
+range as a purchase rationale. The lowest mean of 3.27 was associated with sustained brand exclusivity 
+over time. The composite mean was 3.33, classified as Strongly Agree. 
+ 
+Table 8 – Brand Loyalty Tactic 
+Brand Loyalty Tactic Statement 
+Mean 
+Rating 
+Long-term exclusive commitment to the M.A.C brand 
+characterizes purchasing history. 
+3.27 
+Strongly Agree 
+
+A deeply held brand preference underpins M.A.C product 
+acquisition. 
+3.32 
+Strongly Agree 
+The brand's demonstrated commitment to its customers motivates 
+continued patronage. 
+3.28 
+Strongly Agree 
+The breadth of M.A.C's color offerings motivates continued 
+brand engagement. 
+3.39 
+Strongly Agree 
+Formulation compatibility with sensitive skin profiles reinforces 
+M.A.C loyalty. 
+3.38 
+Strongly Agree 
+COMPOSITE MEAN 
+3.33 
+Strongly Agree 
+ 
+The Variety Seeking Tactic dimension registered the highest mean of 3.48 for the item 
+distinguishing M.A.C foundation by texture and scent, while the lowest mean of 3.36 was recorded for the 
+item concerning lipstick shade exploration. The composite mean was 3.42, classified as Strongly Agree. 
+ 
+Table 9 – Variety Seeking Tactic 
+Variety Seeking Tactic Statement 
+Mean 
+Rating 
+Exploration of the M.A.C range of lip color shades motivates 
+purchase. 
+3.36 
+Strongly Agree 
+Novel product acquisitions from M.A.C are pursued for 
+experiential variety. 
+3.42 
+Strongly Agree 
+The diversity of M.A.C blush options satisfies variety-seeking 
+purchase patterns. 
+3.41 
+Strongly Agree 
+Unique olfactory and textural properties of M.A.C foundation 
+distinguish the brand. 
+3.48 
+Strongly Agree 
+The breadth of M.A.C foundation shades accommodates diverse 
+skin tones. 
+3.44 
+Strongly Agree 
+COMPOSITE MEAN 
+3.42 
+Strongly Agree 
+ 
+With respect to Positive Reinforcement, the highest mean of 3.52 was associated with the item 
+addressing personality alignment, while the lowest of 3.40 was recorded for the quality and texture item. 
+The overall composite mean was 3.46, classified as Strongly Agree. 
+ 
+Table 10 – Positive Reinforcement 
+Positive Reinforcement Statement 
+Mean 
+Rating 
+Superior product quality and textural characteristics reinforce 
+M.A.C purchase intention. 
+3.40 
+Strongly Agree 
+
+The ingredient profile of M.A.C products supports sustained 
+dermal health. 
+3.51 
+Strongly Agree 
+M.A.C's affordability and color selection position it as a 
+trustworthy brand. 
+3.46 
+Strongly Agree 
+M.A.C's capacity to meet consumer needs and its market 
+recognition reinforce loyalty. 
+3.42 
+Strongly Agree 
+The compatibility of M.A.C offerings with the consumer's 
+personal identity reinforces repurchase. 
+3.52 
+Strongly Agree 
+COMPOSITE MEAN 
+3.46 
+Strongly Agree 
+ 
+Correlation of Consumer Decision-Making Orientations and Positive Reinforcement 
+A statistically significant positive association was established between the cost-based orientation 
+and positive reinforcement (p = .001, r = 0.408). H1 is accordingly rejected. The relationship is 
+categorized as a Weak Positive Correlation. 
+Table 11 – Price (Cost-Based) Tactic 
+Decision-Making Strategy 
+Pearson's r 
+Significance 
+Conclusion 
+Cost-Based Orientation 
+0.408 
+.001 
+Weak Positive 
+Correlation 
+R
+e
+j
+e
+c
+t 
+H
+1 
+ 
+A statistically significant positive association was likewise confirmed between the affect-based 
+orientation and positive reinforcement (p = .001, r = 0.414). H2 is accordingly rejected. The relationship 
+is categorized as a Weak Positive Correlation. 
+Table 12 – Affect Tactic 
+Decision-Making Strategy 
+Pearson's r 
+Significance 
+Conclusion 
+Affect-Based Orientation 
+0.414 
+.001 
+Weak Positive 
+Correlation 
+R
+e
+j
+e
+c
+t 
+H
+2 
+ 
+
+The performance-based orientation also demonstrated a statistically significant positive 
+relationship with reinforcement outcomes (p = .001, r = 0.320). H3 is accordingly rejected. The 
+relationship is categorized as a Weak Positive Correlation. 
+Table 13 – Performance-related Tactic 
+Decision-Making Strategy 
+Pearson's r 
+Significance 
+Conclusion 
+Performance-Based Orientation 
+0.320 
+.001 
+Weak Positive 
+Correlation 
+R
+e
+j
+e
+c
+t 
+H
+3 
+ 
+A statistically significant positive association between the normative orientation and positive 
+reinforcement was confirmed (p = .001, r = 0.388). H4 is accordingly rejected. The relationship is 
+categorized as a Weak Positive Correlation. 
+Table 14 – Normative Tactic 
+Decision-Making Strategy 
+Pearson's r 
+Significance 
+Conclusion 
+Normative Orientation 
+0.388 
+.001 
+Weak Positive 
+Correlation 
+R
+e
+j
+e
+c
+t 
+H
+4 
+ 
+The habitual orientation demonstrated a statistically significant positive association with positive 
+reinforcement (p = .001, r = 0.244). H5 is accordingly rejected. The relationship is categorized as a Weak 
+Positive Correlation. 
+Table 15 – Habit Tactic 
+Decision-Making Strategy 
+Pearson's r 
+Significance 
+Conclusion 
+Habitual Orientation 
+0.244 
+.001 
+Weak Positive 
+Correlation 
+R
+e
+j
+e
+c
+t 
+
+H
+5 
+ 
+Brand devotion orientation demonstrated the most robust statistically significant positive 
+association with positive reinforcement (p = .001, r = 0.475). H6 is accordingly rejected. The relationship 
+is categorized as a Weak Positive Correlation. 
+Table 16 – Brand Loyalty Tactic 
+Decision-Making Strategy 
+Pearson's r 
+Significance 
+Conclusion 
+Brand Devotion Orientation 
+0.475 
+.001 
+Weak Positive 
+Correlation 
+R
+e
+j
+e
+c
+t 
+H
+6 
+ 
+The assortment-seeking orientation demonstrated a statistically significant positive association 
+with reinforcement outcomes (p = .001, r = 0.443). H7 is accordingly rejected. The relationship is 
+categorized as a Weak Positive Correlation. 
+Table 17 – Variety Seeking Tactic 
+Decision-Making Strategy 
+Pearson's r 
+Significance 
+Conclusion 
+Assortment-Seeking Orientation 
+0.443 
+.001 
+Weak Positive 
+Correlation 
+R
+e
+j
+e
+c
+t 
+H
+7 
+ 
+Conclusion 
+Analysis of the data revealed that the cost-based and assortment-seeking orientations attained the 
+highest composite means among all consumer decision-making dimensions examined, both registering an 
+aggregate value of 3.42, classified as Strongly Agree. Within the cost-based dimension, the item 
+addressing relative affordability achieved the peak item-level mean of 3.45, while the item addressing 
+promotional incentives registered the lowest item-level mean of 3.38. Within the assortment-seeking 
+dimension, the item pertaining to foundation texture and scent produced the highest item-level mean of 
+3.48, while the lipstick shade exploration item yielded the lowest at 3.36. 
+
+By contrast, the habitual orientation achieved the lowest composite mean across all seven 
+dimensions at 3.26, also classified as Strongly Agree. Within this dimension, the item addressing need 
+fulfillment registered the highest item-level score at 3.29, while the weekly or monthly frequency item 
+recorded the lowest at 3.24—uniquely classified as Agree rather than Strongly Agree. 
+Correlational analysis identified the brand devotion orientation as producing the strongest 
+association with positive reinforcement (r = 0.475, p = 0.001, Weak Positive Correlation), while the 
+habitual orientation generated the weakest associative coefficient (r = 0.244, p = 0.001, Weak Positive 
+Correlation). At the aggregate level, all consumer decision-making orientations collectively exhibited a 
+Weak Positive Correlation with positive reinforcement. 
+ 
+Recommendation 
+M.A.C occupies a pre-eminent position in the professional cosmetics market by virtue of its 
+unmatched expertise in cosmetic artistry. Despite this standing, the findings indicate that M.A.C does not 
+hold an uncontested position of dominance within the broader market, as competing brands also command 
+significant consumer patronage. In response to these findings, the researchers put forward the following 
+strategic recommendations: 
+The brand should develop formalized consumer loyalty programs designed to incentivize and 
+sustain regular customer engagement through the provision of meaningful benefits to high-frequency 
+patrons. Exclusive rewards for regular customers would not only elevate their experiential satisfaction but 
+would also catalyze organic social dissemination. Research conducted as part of this study consistently 
+revealed that product packaging constitutes a meaningful point of consumer evaluation. M.A.C is 
+therefore encouraged to invest in packaging designs that communicate product attributes effectively and 
+attract consumer attention. Furthermore, the development and promotion of environmentally responsible 
+product formulations aligned with consumer preferences for sustainability is recommended as a means of 
+broadening the brand's appeal and reinforcing its value proposition. 
+ 
+Definition of Terms 
+Consumer Decision-Making Approaches – Abbreviated cognitive heuristics employed by 
+purchasers to facilitate low-exertion selections. 
+Cost-Based Orientation – A purchasing heuristic predicated upon price as the dominant 
+evaluative criterion. 
+
+Affect-Based Orientation – A purchasing approach governed by emotional or affective states. 
+Performance-Based Orientation – A purchasing approach anchored in functional assessment, 
+feature evaluation, or brand appraisal. 
+Normative Orientation – A purchasing approach wherein selections are shaped by the actual or 
+perceived opinions of significant others. 
+Habitual Orientation – Behavioral repetition of a previously established purchasing pattern 
+without deliberative evaluation. 
+Brand Devotion Orientation – Sustained commitment to a specific brand driven by strong 
+affective or performance-based preference. 
+Assortment-Seeking Orientation – A disposition toward exploring novel or differentiated product 
+options. 
+Positive Reinforcement – A behavioral outcome arising from the perceived fulfillment of 
+consumer needs, which increases the probability of repurchase. 
+ 
+References 
+Adomavicius, G., Bockstedt, J., & Curley, S. P. (2015). Bundling effects on variety seeking for digital 
+information goods. Journal of Management Information Systems. 
+Alton, L. (2018). The problematic pricing plague. Small Business Trends. 
+Black, K. (2001). Business statistics: Contemporary decision making. South-Western. 
+Cherry, K. (2018). What is positive reinforcement? Positive Psychology. 
+Edmonds, M. (2018). How makeup works. HowStuffWorks. 
+Fallon, N. (2017). What is performance management? Business News Daily. 
+Gencler, M. (2017). Pricing tactics: 6 competitive strategies. Prisync Blog. 
+Hoyer, W. D., & MacInnis, D. J. (2008). Consumer behavior (2nd ed.). Houghton Mifflin. 
+Hoyer, W. D., MacInnis, D. J., & Pieters, R. (2017). Consumer behavior (7th ed.). Cengage. 
+Kopp, C. (2019). Brand loyalty. Investopedia. 
+Lindsay, M. (2014). Marketers need to make a habit of understanding habit. CMO. 
+Nolan, D. (2014). Normative social influence and buyer behavior. Udemy Blog. 
+
+Rouse, M., & Shadley, S. (2019). Brand loyalty. TechTarget. 
+Smith, J. (2017). Positive reinforcement in teaching and education. Positive Psychology. 
+Vizcaino, F. V. (2018). Beyond window signs: Understanding the affect-based effects on store patronage 
+intentions. Journal of Marketing. 

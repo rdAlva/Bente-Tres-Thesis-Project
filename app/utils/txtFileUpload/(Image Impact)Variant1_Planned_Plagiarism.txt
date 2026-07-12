@@ -1,0 +1,399 @@
+Variant 1: Planned Plagiarism 
+(High-Effort Evasion Variant) 
+Entrepreneurial Inclinations Among University Undergraduates in 
+Oman: 
+Examining the Influence of Institutional Image, Mentorship Figures, 
+Pedagogical Strategies, 
+Academic Syllabus Design, and Instructional Modalities 
+Joefrelin Collado Ines, Marilou Q. Tolentino, Cirilo E. Mirano Jr., Reynald A. Funtinilla 
+Abstract 
+Conducted at the University of Technology and Applied Sciences (UTAS) during the first 
+semester of Academic Year 2020–2021 — a period coinciding with the height of the 
+COVID-19 health crisis — this investigation examined undergraduate students' 
+orientations toward enterprise creation. The central analytical objective was to uncover 
+the primary determinants shaping respondents' propensity to pursue self-employment. 
+Five distinct dimensions were interrogated: the perceived societal standing of 
+entrepreneurship as a vocation, the influence exerted by mentorship figures and 
+entrepreneurial role models, the design and content of the relevant academic 
+curriculum, the nature of personal independent learning orientations, and the holistic 
+attitudinal dispositions of participants with respect to undertaking entrepreneurial 
+ventures amidst pandemic conditions. 
+Analytically, descriptive statistics were employed to characterize the dataset, Cronbach 
+Alpha coefficients were computed to establish instrument reliability, and multivariate 
+tests of distributional normality — specifically skewness and kurtosis assessments — 
+were conducted to confirm data suitability. A non-parametric Mann-Whitney U test was 
+subsequently applied to determine the statistical significance of the results. Broadly, the 
+examined constructs generated favorable responses; the evidence suggests an 
+increased disposition among students to engage in business creation and 
+entrepreneurial activity. 
+Keywords: Entrepreneurial Motivation, Pedagogical Approach, Syllabus Content, 
+Course Delivery, University Students, Oman. 
+ 
+1. Introduction 
+For recent graduates or individuals who have grown dissatisfied or fatigued by 
+conventional organizational employment, the prospect of launching small enterprises or 
+pursuing independent business ventures presents itself as a perpetually available 
+alternative. Across Oman's economic sectors, discourse surrounding entrepreneurship 
+has gained considerable momentum; governmental bodies have championed numerous 
+
+initiatives designed to cultivate entrepreneurial interest, while stakeholders including 
+policymakers, private enterprises, commercial chambers, women's development 
+organizations, academic institutions, and university students have each expressed 
+active engagement with the concept. Given that unemployment continues to constitute a 
+structural concern within Oman, self-directed employment has emerged as not merely a 
+viable option but, for many — particularly among the university-educated population — 
+a more fulfilling and rewarding professional trajectory. 
+Entrepreneurship occupies a foundational position in the architecture of national 
+economic growth, technological innovation, and competitive positioning within the global 
+marketplace (Scarborough and Zimmerer, 2003; Kuratko and Hodgetts, 2004). Its 
+academic and policy prominence has intensified: as Lee, Chang, and colleagues (2005) 
+observed, the subject has ascended to among the most heavily researched domains 
+within management and business scholarship, precisely because of growing recognition 
+of its contributions to employment generation and productivity. In response, students 
+globally have demonstrated heightened interest in acquiring the skills necessary to 
+operate ventures or generate employment independently (Brown, 1999; Henry, 2003). 
+Accordingly, higher education institutions across the world have moved deliberately 
+toward embedding entrepreneurship as both an academic discipline and a recognized 
+professional pathway (Postigo and Tamborini, 2002). 
+The principal aim of this investigation was to systematically analyze the entrepreneurial 
+motivational structures of students enrolled at the University of Technology and Applied 
+Sciences. The study profiles the respondent cohort, evaluates the forces propelling 
+students toward entrepreneurial ambition, and identifies the specific characteristics and 
+exposures that drive or inhibit such aspirations. The significance of the entrepreneurship 
+subject itself in channeling and reinforcing these orientations was also assessed. 
+Outcomes of the study are intended to inform institutional strategies for cultivating 
+entrepreneurial interest and readiness among the student population. 
+Entrepreneurship education has been widely recognized as the foundational 
+mechanism through which academic institutions stimulate and operationalize 
+entrepreneurial intent among students (Linan, 2004). Its integration into formal curricula 
+reflects a broader institutional recognition that entrepreneurship must not only be 
+theorized but actively taught, practiced, and internalized (EC, 2008). The discipline has 
+accordingly been embedded across multiple institutional contexts and program levels. 
+Across developing and lower-income nations, entrepreneurship has increasingly been 
+examined as a potential structural remedy for entrenched poverty and economic 
+exclusion (Resurrection, 2011). Governmental actors in these contexts have been active 
+in constructing programmatic supports and institutional frameworks designed to 
+mobilize entrepreneurial energy — particularly among younger demographics — as a 
+mechanism for economic participation and social uplift. Progress has nonetheless been 
+uneven, with students' orientations remaining shaped in significant part by concerns 
+relating to economic access and stability. 
+Academic institutions face a substantial challenge in translating entrepreneurial 
+competency development into pedagogical practice, particularly in reconciling 
+curriculum design with effective instructional methodology (Garavan and O'Cinneide, 
+
+1994). Entrepreneurship, when properly positioned, affords students a dual benefit: the 
+attainment of financial autonomy and a meaningful contribution to the broader 
+socioeconomic fabric through job creation, innovation stimulation, and economic 
+expansion. Within the Omani context specifically, the development of entrepreneurial 
+culture among graduates and students is regarded as a strategic lever for economic 
+diversification, enabling young people to function not merely as participants in the 
+workforce but as generators of it. 
+ 
+2. Methodology 
+The methodological framework for this investigation integrated reliability assessment 
+with normality testing and inferential statistical analysis. Instrument dependability was 
+evaluated through Cronbach Alpha reliability coefficients applied across the study's key 
+measurement variables. Distributional normality was examined through both univariate 
+and multivariate skewness and kurtosis calculations to ensure the appropriateness of 
+the analytical approach. Because parametric assumptions were not fully met, the 
+Mann-Whitney U non-parametric test was selected as the primary inferential tool, 
+enabling p-value computation for evaluating evidence against the formulated research 
+objectives. 
+Participants 
+The study drew its participant base from students concurrently enrolled in 
+Entrepreneurship coursework during the third semester of Academic Year 2020–2021 at 
+the University of Technology and Applied Sciences, Shinas campus, Oman. The Google 
+Forms-based survey instrument was distributed to 94 eligible and targeted respondents 
+via digital link. Following a validation process that excluded submissions with critical 
+unanswered items, 88 responses were confirmed as analytically usable. 
+Data Analysis 
+Descriptive analysis techniques were applied to tabulate and initially evaluate the 
+collected responses. Reliability was quantified through the Cronbach Alpha scale, while 
+normality was verified across both univariate and multivariate dimensions using 
+skewness and kurtosis diagnostics. The Mann-Whitney U non-parametric test 
+generated the inferential p-values used to evaluate the weight of evidence relative to the 
+study's research propositions. All closed-ended questionnaire items were anchored to a 
+five-point Likert scale, ranging from 1 (strongly disagree) through 5 (strongly agree), 
+with a midpoint of 3 (no opinion). 
+ 
+3. Results 
+Of the 94 questionnaires distributed, 88 were accepted as valid for analytical purposes. 
+Male respondents (49) outnumbered female respondents (39), yielding a gender 
+
+distribution of 55.7% male to 44.3% female. Disciplinary composition was dominated by 
+Engineering students, who constituted 58 respondents (65.9%), with the remaining 30 
+respondents (34.1%) drawn from Information Technology programs. 
+Reliability Analysis 
+Cronbach Alpha coefficients were calculated for each of the six primary construct 
+variables included in the study's instrument. The results confirmed high internal 
+consistency across all dimensions. The lowest reliability coefficient was registered for 
+the Personal Independent Learning construct (PIL = 0.769), while the Entrepreneurial 
+Curriculum and Content construct recorded the strongest reliability (ECC = 0.949). All 
+other constructs — Entrepreneurial Inclination (EI = 0.827), Image of Entrepreneurship 
+(IE = 0.869), Role Models (RM = 0.837), and Entrepreneurship Internship Programs 
+(EIP = 0.875) — fell within an acceptable to strong reliability range. These values affirm 
+that the variables selected for subsequent correlation analysis are methodologically 
+sound. 
+ 
+S. No. 
+Key Variable 
+Alpha Coefficient 
+1 
+Entrepreneurial Inclination (EI) 
+0.827 
+2 
+Image of Entrepreneurship (IE) 
+0.869 
+3 
+Role Models (RM) 
+0.837 
+4 
+Entrepreneurial Curriculum and 
+Content (ECC) 
+0.949 
+5 
+Personal Independent Learning 
+Approach (PIL) 
+0.769 
+6 
+Entrepreneurship Internship 
+Programs (EIP) 
+0.875 
+Table 1: Cronbach Alpha Reliability Coefficients by Construct Variable 
+Central Tendency Measurements 
+Mean and standard deviation values were computed for four composite constructs. 
+Professional Development (PD) registered the widest range: the highest mean item was 
+4.333 (SD = 0.9337) and the lowest was 3.555 (SD = 0.6794). This mean interval of 
+3.555–4.333 situates respondent opinions within the range from neutral to strongly 
+agreeing. For Professional Skills (PDS), the mean range was considerably compressed 
+at 4.1852–4.2593, with standard deviations between 0.55726 and 0.66559 — indicating 
+consistent and affirmative responses across all PDS items. 
+Personal Growth (PR) item means fell between 3.7778 (SD = 0.62017) and 4.3333 (SD 
+= 0.89156), placing respondent views uniformly within the 'agree' category across this 
+construct's items. Personal Capabilities (PRS) showed the narrowest range and highest 
+means overall: 4.2222 to 4.4444, with standard deviations ranging from 0.56488 to 
+0.72403, reflecting consistent agreement leaning toward strong agreement for items 
+relating to personal aptitude. 
+
+Multivariate Normality Assessment 
+The study applied the conventional thresholds of ±3 for skewness and ±10 for kurtosis 
+as boundaries for acceptable distributional normality. Computed kurtosis values across 
+the relevant items ranged from a minimum of −1.123 (observed for EIP3) to a maximum 
+of −0.014 (observed for EIP1). Skewness values spanned from −0.782 (EI5) to +0.159 
+(EIP5). Since all computed values for both distributional indicators fell comfortably within 
+the accepted thresholds, the dataset was confirmed to be normally distributed for the 
+purposes of further analysis. 
+ 
+Item 
+Mean 
+Std. Deviation 
+Skewness 
+Kurtosis 
+EI5 
+3.9886 
+1.11926 
+-.782 
+-.402 
+IE2 
+3.7841 
+1.10847 
+-.491 
+-.693 
+IE3 
+3.9773 
+1.05020 
+-.746 
+-.140 
+EIP1 
+3.7159 
+.97023 
+-.479 
+-.014 
+EIP2 
+3.7045 
+.93660 
+-.316 
+-.334 
+EIP3 
+3.8068 
+.96916 
+-.142 
+-1.123 
+EIP4 
+3.8409 
+1.01581 
+-.413 
+-.667 
+EIP5 
+2.8068 
+1.34641 
+.159 
+-1.056 
+Table 2: Skewness and Kurtosis Values by Item 
+Non-Parametric Test Outcomes 
+Application of the Mann-Whitney U test produced a substantive body of evidence 
+supporting the original research propositions. Across every tested construct — role 
+model influence, the perceived societal image of entrepreneurship, academic curriculum 
+and content quality, independent learning orientation, and the holistic attitudinal 
+disposition of respondents — a consistent motivational effect on entrepreneurial 
+engagement was identified. Students' affirmative stance toward entrepreneurship as a 
+viable professional trajectory — both within the pandemic period and extending beyond 
+it — was robustly affirmed. 
+The range of significance values extended from 0.052 (observed for EI2) to 0.996 (for 
+ECC7). While the majority of p-values fell comfortably above the conventional 
+significance threshold, the broad pattern of results reinforces the general directional 
+finding that students maintained positive entrepreneurial orientations. 
+ 
+Statisti
+c 
+EI1 
+EI2 
+EI6 
+IE1 
+IE2 
+RM1 
+RM2 
+ECC2 
+ECC7 
+Mann-
+Whitne
+y U 
+848 
+656 
+869 
+827 
+859 
+808 
+836 
+869 
+870 
+
+Wilcox
+on W 
+2559 
+2367 
+2580 
+1292 
+2570 
+2519 
+2547 
+2580 
+1335 
+Z 
+-.203 
+-1.946 
+-.009 
+-.404 
+-.105 
+-.568 
+-.315 
+-.009 
+-.005 
+Asymp. 
+Sig. 
+(2-taile
+d) 
+.839 
+.052 
+.993 
+.687 
+.916 
+.570 
+.753 
+.993 
+.996 
+Table 3: Mann-Whitney U Test Results 
+ 
+4. Conclusion 
+Within the unprecedented context of a global health pandemic, this investigation 
+systematically analyzed the multiple factors bearing upon entrepreneurial motivation 
+among students at the University of Technology and Applied Sciences. Taken 
+collectively, the study's findings corroborate the established scholarly position that 
+entrepreneurship education, institutional image cultivation, mentorship exposure, 
+curriculum quality, preferred learning styles, and instructional delivery mechanisms all 
+function as meaningful drivers of entrepreneurial engagement (Edwards and Muir, 2005; 
+Postigo, Iacobucci, et al., 2006; Nurmi and Paasio, 2007). 
+This pattern of association is interpretable through the lens of students' escalating 
+demand for academically rigorous, vocationally relevant instruction from institutions 
+capable of equipping them with the entrepreneurial competencies required for 
+professional relevance. The evidence further demonstrates that higher education 
+institutions can serve as incubators for entrepreneurial cultural formation during the 
+formative years of students' academic development. It follows, therefore, that Higher 
+Education Institutions (HEIs) bear a structural obligation to architect institutional 
+environments that not only tolerate but actively cultivate and sustain an 
+entrepreneurship-oriented culture. 
+Exposure to entrepreneurship-specific coursework has been shown to meaningfully 
+shape students' enthusiasm and readiness for independent business creation. The 
+evidence underscores the centrality of academic institutions in galvanizing 
+self-employment as a viable and desirable outcome. Universities play a concrete 
+developmental role in shaping an entrepreneurially oriented mindset among their 
+students. HEIs seeking to translate this potential into action must build environments 
+where entrepreneurial risk-taking is normalized and supported. Entrepreneurship should 
+be woven into the fabric of the teaching and learning experience rather than positioned 
+as an elective or supplementary dimension, with students actively supported in 
+conceptualizing and preparing their own ventures. 
+Programmatic design that integrates student-centered needs alongside industry-aligned 
+expectations will significantly strengthen students' motivation to pursue business 
+creation. Immersive, experiential learning modalities — through which students are 
+exposed to working enterprises and entrepreneurial practitioners — generate a catalytic 
+effect on entrepreneurial intent. HEIs' instructional portfolios should thus include 
+
+structured business visits, practitioner engagement through guest lectures, and the 
+coordination of co-curricular entrepreneurial activities designed to ignite and sustain 
+student interest. 
+Curriculum design must evolve beyond passive lecture-based instruction toward active, 
+applied pedagogical formats. Course materials and content should be dynamically 
+aligned with the prevailing business environment, reflecting both local market realities 
+and global trends. Competency-based pedagogical models — emphasizing student 
+agency, applied problem-solving, and reflective practice — should be embedded within 
+all entrepreneurship modules. The value orientation required for entrepreneurship must 
+be treated not as supplementary but as a constitutive dimension of every relevant 
+curriculum component. Perhaps most importantly, academic institutions must reframe 
+entrepreneurship not as a fallback career option but as a primary and mainstream 
+employment pathway — one that is systematically normalized, resourced, and 
+celebrated within the institutional culture. 
+ 
+References 
+Al-Ani, W. T., Al Musawi, A. S., & Osman, M. E. T. (2020). Development of a scale for 
+measuring university students' attitudes toward entrepreneurship in Oman. International 
+Journal of Humanities and Social Science, 7(01), 1–11. 
+Edwards, L. J., & Muir, E. J. (2005). Promoting entrepreneurship at the University of 
+Glamorgan through formal and informal learning. Journal of Small Business and 
+Enterprise Development, 12(4), 613–626. 
+Fayolle, A., & Degeorge, J. M. (2006). Attitudes, intentions, and behavior: New 
+approaches to evaluating entrepreneurship education. In A. K. Fayolle & H. Klandt 
+(Eds.), International Entrepreneurship Education: Issues and Newness. Edward Elgar 
+Publishing. 
+Garavan, T. N., & O'Cinneide, B. (1994). Entrepreneurship education and training 
+programmes: A review and evaluation – Part 1. Journal of European Industrial Training, 
+18(8), 3–12. 
+Goel, A., Neharika, V., Liyan, Z., & Bhupinder, A. (2007). Attitudes of the youth towards 
+entrepreneurs and entrepreneurship: A cross-cultural comparison of India and China. 
+Working Paper No. 2007-01-06. 
+Gupta, S., & Hoda, N. (2021). Perceived motivators and barriers for entrepreneurship: 
+An empirical study of SMEs in Oman. The Journal of Asian Finance, Economics and 
+Business, 8(5), 863–872. 
+Hisrich, R. D., & Peters, M. P. (2005). Entrepreneurship. McGraw-Hill Irwin. 
+Ibrahim, O. A., Devesh, S., & Ubaidullah, V. (2017). Implication of attitude of graduate 
+students in Oman towards entrepreneurship: An empirical study. Journal of Global 
+Entrepreneurship Research, 7(1). 
+
+Kuratko, D. F., & Hodgetts, R. M. (2004). Entrepreneurship: Theory, process, and 
+practice (6th ed.). Thomson. 
+Lee, L., Chua, B. L., & Chen, J. (2004). Antecedents for entrepreneurial propensity and 
+intention: Findings from Singapore, Taiwan, and Hong Kong. Working Paper. National 
+University of Singapore Entrepreneurship Centre. 
+Lee, L., Wong, P. K., Foo, M. D., & Leung, A. (2011). Entrepreneurial intentions: The 
+influence of organizational and individual factors. Journal of Business Venturing, 26, 
+124–136. 
+Lena, L., & Wong, P. K. (2003). Attitude towards entrepreneurship education and new 
+venture creation. Journal of Enterprising Culture, 11, 339–357. 
+Liñán, F., & Chen, Y. (2009). Development and cross-cultural application of a specific 
+instrument to measure entrepreneurial intentions. Entrepreneurship Theory and 
+Practice, 33(3), 593–617. 
+Saeed, S., Yousafzai, S., Yani-De-Soriano, M., & Muffatto, M. (2018). The role of 
+perceived university support in the formation of students' entrepreneurial intention. In 
+Sustainable Entrepreneurship (pp. 3–23). Routledge. 
+Veciana, J. M., Aponte, M., & Urbano, D. (2005). University students' attitudes towards 
+entrepreneurship: A two countries comparison. International Entrepreneurship and 
+Management Journal, 1, 165–182. 
