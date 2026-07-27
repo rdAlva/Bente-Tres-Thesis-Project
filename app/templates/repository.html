@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% block title %}
+Repository Management
+{% endblock %}
+
+{% block content %}
+
+<div class="text-center">
+
+    <h1 class="display-5 fw-bold">
+        Repository Management
+    </h1>
+
+    <p class="lead">
+        Upload verified original PDF documents directly into the plagiarism repository.
+    </p>
+
+</div>
+
+<div class="card shadow-lg mt-5">
+
+    <div class="card-body p-5">
+
+        <form method="POST" enctype="multipart/form-data">
+
+            {{ form.hidden_tag() }}
+
+            <div class="mb-4">
+
+                <label class="form-label">
+
+                    Select Verified PDF File(s)
+
+                </label>
+
+                {{ form.files(class="form-control", multiple=True) }}
+
+            </div>
+
+            <div class="d-grid">
+
+                {{ form.submit(class="btn btn-success btn-lg") }}
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+{% if uploaded_files %}
+
+<br>
+
+<div class="card shadow">
+
+    <div class="card-header">
+
+        <h4>
+            Repository Upload Summary
+        </h4>
+
+    </div>
+
+    <div class="card-body">
+
+        <p>
+
+            <strong>{{ uploaded_files|length }}</strong>
+            document(s) successfully added to the repository.
+
+        </p>
+
+        <ul class="list-group">
+
+            {% for file in uploaded_files %}
+
+            <li class="list-group-item">
+
+                {{ file }}
+
+            </li>
+
+            {% endfor %}
+
+        </ul>
+
+    </div>
+
+</div>
+
+{% endif %}
+
+{% endblock %}

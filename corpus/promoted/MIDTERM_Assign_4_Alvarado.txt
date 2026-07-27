@@ -1,0 +1,48 @@
+Alvarado, Rafael Allan D. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+2126-6IMSOFTENG CS-302 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+8/15/2025 
+ 
+Based on the video, answer the following questions using at least 3 sentences. Use the given rubric as 
+your guide. 
+1. How does the video define/describe "software architecture" versus "software design"? 
+Software architecture refers to the overall structure of a software system. It involves identifying 
+the business requirements for the project and understanding how the different components of the 
+software interact with each other. In contrast, software design focuses on the detailed planning 
+and implementation of individual components. It outlines how specific features and 
+functionalities will be developed within the software. 
+2. Explain how your project's software architecture guides your design decisions.  
+In our project, Vendwise, we have decided to adopt a mobile-based approach for our core 
+structure. We will utilize Flutter for our frontend development, Spring Boot for our backend, and 
+SQLite for our database. This decision will shape the overall architecture of our system and 
+define how each component interacts with the others. By establishing a solid software 
+architecture for our application, we can enhance the efficiency of its processes. Given our focus 
+on a mobile-based approach, we can also take advantage of the accessibility features that mobile 
+applications offer. 
+ 
+ 
+ 
+Reference 
+Scott Duffy @ GetCloudSkills. (2015, October 14). Difference between software architecture and 
+software design | Scott Duffy [Video]. YouTube. 
+https://www.youtube.com/watch?v=i7aKW7YNOxY 
+ 
+ 

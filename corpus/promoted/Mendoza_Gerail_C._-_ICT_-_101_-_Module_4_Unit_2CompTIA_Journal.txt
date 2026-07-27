@@ -1,0 +1,33 @@
+Mendoza, Gerail C. 
+ICT – 101  
+Module 4 Unit 2(CompTIA) Journal 
+ 
+1.  Ethernet switch. - It is a central hub that allows multiple devices to communicate with 
+each other by forwarding data packets between them. They are typically used in both 
+home and business networks, and they come in a variety of sizes and configurations to 
+meet the needs of different environments. 
+ 
+2.  Your home network and your internet service provider (ISP) are connected via a 
+modem. It transforms your ISP's signals into a language that your devices can 
+understand. Coaxial cables or phone lines are the two common ways that modems are 
+connected. While A router is a device that shares your modem's internet connection with 
+every device connected to your home network. Additionally, it enables inter-device 
+communication on your network. 
+ 
+3.  Digital Subscriber Line (DSL), Cable/Hybrid Fiber Coax (HFC), Fiber to the Curb 
+(FTTC), Satellite and Cellular Radio 
+ 
+4. Wi-Fi 6 (IEEE 802.11ac), the most recent Wi-Fi standard, utilizes both the 2.4 GHz and 
+5 GHz frequency bands. 
+ 
+5. You must be aware of the SSID (Service Set Identifier), also known as the wireless 
+network's name, in order to manually setup a wireless connection and for the wireless 
+network's encryption method, such as WPA2-PSK, which is utilized for security.   
+ 
+6. Someone may intercept data on an open network. operating the network or by other 
+computers linked to the network. Make sure the online store utilizes a secure connection 
+(HTTPS) 
+ 
+7. The term "attenuation" refers to how a signal weakens as it travels farther. must move 
+around. Different distance constraints are set via attenuation. forms of network media. 
+ 

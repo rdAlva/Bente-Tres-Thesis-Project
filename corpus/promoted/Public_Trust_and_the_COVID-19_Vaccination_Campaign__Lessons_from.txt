@@ -1,0 +1,409 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Government Publications 
+Ateneo School of Government 
+8-19-2021 
+Public Trust and the COVID-19 Vaccination Campaign: Lessons 
+Public Trust and the COVID-19 Vaccination Campaign: Lessons 
+from the Philippines as it Emerges from the Dengvaxia 
+from the Philippines as it Emerges from the Dengvaxia 
+Controversy 
+Controversy 
+Ronald U. Mendoza 
+Ateneo School of Government, Ateneo de Manila University, rumendoza@ateneo.edu 
+Manuel M. Dayrit 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, mdayrit@ateneo.edu 
+Cenon R. Alfonso 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, calfonso@ateneo.edu 
+Madeline Mae A. Ong 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, mmong@ateneo.edu 
+Follow this and additional works at: https://archium.ateneo.edu/asog-pubs 
+ Part of the Medicine and Health Sciences Commons, and the Public Affairs, Public Policy and Public 
+Administration Commons 
+Custom Citation 
+Custom Citation 
+Mendoza, R. U., Dayrit, M. M., Alfonso, C. R., & Ong, M. M. A. (2021). Public trust and the COVID-19 
+vaccination campaign: Lessons from the Philippines as it emerges from the Dengvaxia controversy. The 
+International Journal of Health Planning and Management, 36(6), 2048–2055. https://doi.org/10.1002/
+hpm.3297 
+This Article is brought to you for free and open access by the Ateneo School of Government at Archīum Ateneo. It 
+has been accepted for inclusion in Ateneo School of Government Publications by an authorized administrator of 
+Archīum Ateneo. For more information, please contact research@ateneo.edu. 
+
+1School of Government, Ateneo de Manila 
+University, Quezon City, Philippines
+2School of Medicine and Public Health, Ateneo 
+de Manila University, Pasig City, Philippines
+Correspondence
+Ronald U. Mendoza, School of Government, 
+Ateneo de Manila University, Quezon City, 
+Philippines.
+Email: ronmendoza@post.harvard.edu
+Abstract
+While the entire world prepares and begins to roll out COV-
+ID-19 vaccines, the Philippines is still reeling from the conse-
+quences of the Dengvaxia controversy in 2016. Those highly 
+political events led to the erosion of public trust in leaders 
+and a significant damage to vaccine confidence in the coun-
+try, now potentially impacting the uptake of COVID-19 
+vaccines. We discuss how public trust and confidence can 
+be rehabilitated through accountability, transparency, and 
+proper communication from the most trusted sources of the 
+population. We also highlight key lessons for policymakers 
+and leaders on allowing science to take the front seat, and 
+politics behind, for the safety and well-being of the people 
+during this public health crisis.
+K E Y W O R D S
+COVID-19 vaccines, Dengvaxia, Philippines, trust, vaccine 
+hesitancy
+P E R S P E C T I V E
+Public trust and the COVID-19 vaccination 
+campaign: lessons from the Philippines as it 
+emerges from the Dengvaxia controversy
+Ronald U. Mendoza1 
+| 
+Manuel M. Dayrit2 
+| 
+ 
+Cenon R. Alfonso2 
+| 
+Madeline Mae A. Ong2 
+DOI: 10.1002/hpm.3297
+Received: 23 January 2021        Revised: 24 June 2021        Accepted: 28 July 2021
+1 
+| 
+INTRODUCTION
+When the pharmaceutical firm Pfizer announced last November 2020 that its COVID-19 vaccine was found to be 
+90% efficacious, this created excited discussions on possibilities for mass vaccination by 2021—for many, light at the 
+end of the “coronavirus tunnel.” Within a few weeks, at least six vaccines emerged—Oxford University-AstraZeneca, 
+Moderna, Johnson and Johnson, Sputnik V, and Sinovac. Countries all over the world have already begun to roll out 
+vaccination campaigns, albeit in varied speediness.1
+1
+Int J Health Plann Mgmt. 2021;1–8.
+© 2021 John Wiley & Sons Ltd.
+wileyonlinelibrary.com/journal/hpm
+
+This will be the most important vaccination campaign ever embarked by mankind. Nations are now quickly dis-
+covering that vaccines are necessary but insufficient for successful mass vaccination campaigns—another equally im-
+portant ingredient is trust in the vaccine and the health officials and system that will be tasked to roll it out. However, 
+during a time of populism and disinformation, it would seem that trust may be in shorter supply soon compared to the 
+vaccine itself which is already being mass produced. The Philippines has some stark lessons to share on vaccine roll 
+out, drawing on its still controversial Dengvaxia vaccination campaign against dengue fever.
+2 
+| 
+DENGVAXIA WEAPONIZED
+Even prior to COVID-19, vaccine confidence and uptake was already declining in many parts of the world—including 
+the Philippines.2 Various factors could be influencing this trend, such as anti-vaccine campaigns based on disproved 
+studies linking vaccines to autism spectrum disorder, or on suspicions over corrupt schemes of pharmaceutical com-
+panies. In the Philippines, the controversy surrounding Dengvaxia, Sanofi's dengue vaccine, that flared-up in 2017 
+has certainly impacted the population's trust in vaccines, and is likely to affect the country's COVID-19 vaccination 
+prospects.
+Dengvaxia is the first dengue vaccine to be approved after more than two decades in development. Between 2014 
+and 2015, results of Phase III trials in Asia and Latin America including more than 31,000 healthy children revealed 
+substantial efficacy in preventing Dengue fever, but posed an increased risk of hospitalization and severe dengue 
+among children 2-5 years old.3–5 At this time, it was unclear whether this increased risk was attributable to a higher 
+prevalence of seronegativity (i.e. has never had dengue fever) in this age-group. Clinically, the second infection from 
+dengue has a higher risk of severe disease than the first. That the vaccine can act like a first infection for seronegative 
+children, and thus pose an increased risk of severe dengue when infected after vaccination, was only theoretical at 
+this point due to the lack of empirical data. Modelling studies showed that if this were true, the benefits of vaccination 
+would be highest and would outweigh risks in the long-term when given to populations with high seropositivity (i.e. 
+has had dengue fever before).6
+Based on the results of these studies, in June 2016, the Strategic Advisory Group of Experts on Immunization 
+(SAGE) and the WHO endorsed the vaccine for use among 9 – 45 year-olds in endemic countries.7 By late 2016, eleven 
+countries had granted regulatory approval of the vaccine, including the Philippines and Brazil, where publicly-funded 
+vaccination campaigns were rolled-out. Brazil aimed to vaccinate 500,000 individuals. The Philippines aimed to cover 
+one million nine year-old children in three regions with the highest dengue incidence through a school-based vacci-
+nation program.8
+In November 2017, as more data became available for a stratified analysis by serostatus, Sanofi publicly an-
+nounced that the vaccine increased the risk of severe dengue for seronegative individuals.9 By this time, 800,000 Fili-
+pino children had been vaccinated.10 Now under new political leadership, allegations of corruption and negligence tar-
+geted at health officials of the previous administration surfaced, “weaponizing” Dengvaxia. Several reported deaths 
+of children allegedly linked to Dengvaxia surfaced as well. Relatives—and particularly mothers—of alleged Dengvaxia 
+victims were organized and were given a strong platform in mainstream and social media, further propagating deep 
+concerns on vaccination for children among parents (and perhaps critically among mothers).11 A senior official of the 
+Public Attorney's Office, sensationally led the investigation of these deaths, and claimed that Dengvaxia was to blame, 
+even as many independent scientific assessments questioned these claims.12–14
+The public health issue had become a political controversy, which thrived on mainstream discourse for many 
+months as the reported deaths of children continued to viscerally upset the public.15 As late as last November 2020 
+(already during the pandemic), several incumbent and previous government officials in the Department of Health 
+faced a fresh wave of Dengvaxia-linked legal cases filed against them. The Public Attorney's Office reported that 99 
+relatives of Filipino children who allegedly died from severe dengue due to Dengvaxia filed cases against the sitting 
+MENDOZA et al.
+2
+
+and previous Health Secretary, along with 39 other government officials. These cases include “reckless imprudence 
+resulting in homicide” and “torture of children.”16
+In the midst of the noise, some facts may have been overlooked. The vaccination program and its target population 
+were coherent with the WHO recommendations at that time. Legally, the vaccine was granted approval for use by the 
+Food and Drug Administration (FDA) prior to vaccine roll-out, on the basis of available scientific evidence on safety 
+and efficacy.
+Following the Sanofi report in 2017, SAGE reconvened to deliberate on two vaccination strategies: (1) to vacci-
+nate populations with high seroprevalence rates (above 80%), or (2) to screen prior to vaccination and vaccinate only 
+seropositive individuals in endemic areas. Upon weighing the individual risks and population benefits, SAGE decided 
+on the latter, and WHO updated its recommendations accordingly. It is notable that discontinuing vaccination in en-
+demic areas was not a consideration. Given the vaccine's proven efficacy, withholding it would be inflicting harm by 
+omission to seropositive individuals. Evidence showed that at the population level, vaccinating 1 million children in 
+settings with 80% prevalence would prevent 11,000 hospitalizations and 2800 severe dengue cases in five years.6
+In spite of this, the Philippines suspended the dengue vaccination program in December 2017, and permanently 
+banned the vaccine in 2019.8 Meanwhile, the vaccine was approved by the European Medicines Agency in 2018 and 
+by the United States FDA soon after.17 In 2019, the WHO added Dengvaxia to its model list of essential medicines.18 
+Other countries including Brazil, Mexico, Indonesia, Thailand, and Singapore continue to make the dengue vaccine 
+available in conformity with WHO recommendations. The highly politicized handling of the Dengvaxia controversy 
+in the Philippines led many Filipinos to distrust Dengvaxia even as the rest of the world proceeded to embrace that 
+vaccine. The continued controversy surrounding Denvgaxia during the COVID-19 pandemic is likely further eroding 
+vaccine confidence, as lingering governance issues continue to erode trust in the government.
+3 
+| 
+DAMAGE TO VACCINE CONFIDENCE
+There was a steep decline in vaccine confidence among Filipinos as the Dengvaxia controversy raged. In 2015, 93% of 
+Filipinos strongly agreed that vaccines were important. This plummeted to only 32% by 2018.19 Distrust in vaccines 
+was not limited to Dengvaxia. Measles vaccine uptake dropped from 88% in 2014 to 55% in 2018. Inevitably, a measles 
+outbreak ensued in the country. In 2017, there were only 2400 reported measles cases, 18,000 in 2018, and 48,871 in 
+2019—a 2,000% increase in two years.20,21
+Unsurprisingly, a nationally representative survey by the Social Weather Stations (SWS), a private non-profit 
+polling body, conducted in September 2020 revealed that about one-third of Filipinos demonstrate vaccine hesitan-
+cy when asked about Dengvaxia.22 Another survey by SWS from April to May 2021, showed that a similar share of 
+Filipinos demonstrates hesitancy against any COVID-19 vaccine. Only around 32% of Filipinos are willing to get a 
+COVID-19 vaccine, while 35% are undecided (see Figure 1).23
+In another survey conducted by the Massachusetts Institute of Technology (MIT) and Facebook from July 2020 
+to March 2021 including over 30,000 Filipinos, 41% of the respondents said they would not get COVID-19 vaccine 
+when it becomes available. The same survey was implemented in Southeast Asian nations. A comparison of the results 
+reveals that Indonesia suffers the highest vaccine hesitancy (42% would not get the vaccine), but the Philippines is a 
+close second. This in stark contrast to Vietnam where only 17% would not get the vaccine, 23% in Thailand, and 27% 
+in Malaysia.24
+It is important to note that these surveys do not indicate a particular vaccine type or brand. It is possible that 
+vaccine hesitancy is much more acute for certain vaccine brands by virtue of their reputation, or by association, the 
+countries where they are manufactured, and emerging news of side-effects. Some brands are likely to be preferred 
+over others, as revealed when vaccination sites were suddenly crowded as soon as a few Pfizer doses became availa-
+ble.25 There could be many additional factors weakening trust in vaccines, but there is little doubt among experts that 
+the controversy surrounding Dengvaxia worsened (and is still worsening) the situation.
+MENDOZA et al.
+3
+
+4 
+| 
+BUILDING BACK TRUST
+Moving forward, the value of the COVID-19 vaccine can be enforced by proper communication through trusted 
+sources. The MIT Global Survey on COVID-19 showed that local health workers, the WHO, and scientists were the 
+most trusted sources by Filipinos when it comes to COVID-19 news and information (see Figure 2).13 These channels 
+can be leveraged to improve COVID-19 vaccine uptake. However, the health department must recognize that the pop-
+ulation is still reeling from the Dengvaxia controversy. Underlying the population's concerns is wariness over whether 
+the government or health department, which inoculated Filipino children with the “deadly” Dengvaxia, can or will do 
+it again.
+In order to gain the population's trust, political personalities must learn to be consistent with the message of 
+the health department, which serves as the authority in public health. For instance, it was not helpful that while the 
+government pushed for Sinovac and purchased it in bulk for the population, the president himself chose to delay his 
+MENDOZA et al.
+4
+F I G U R E  1  
+SWS Survey Data on COVID-19 and Dengvaxia vaccine willingness. The survey questions for 
+COVID-19 vaccine and the Dengvaxia were not identical. For COVID-19, the exact question was “If you have a chance 
+to be given a free vaccine that can prevent Covid-19 which has been approved by the Food and Drug Administration or FDA, 
+would you...”For Dengvaxia, the exact question was “Are you WILLING or UNWILLING to have any member of your family be 
+vaccinated with Dengvaxia?”
+Ateneo Policy Center Analysis using data from Social Weather Stations.
+F I G U R E  2  
+Trust among Filipinos on COVID-19 sources of information
+
+vaccination because he preferred another brand.26 At the same time, where the government is unable to provide the 
+population's preferred vaccine, the health department must assuredly communicate the efficacy and safety of the 
+other brands. Clearly, political personalities must also refrain from weaponizing Dengvaxia to attack the those from 
+the opposing party, if the present administration is to stand a chance at effectively rolling out the vaccination against 
+COVID-19.
+Another critically important strategy has to do with increased transparency and accountability. In determining 
+the allocation of limited vaccines, for example, the Department of Health has determined priority groups to receive 
+the vaccine first based on risk and vulnerability. This is aligned with the WHO's Fair Allocation Framework for COV-
+ID-19.27 The transparent use of guidelines helps builds trust in the fairness of vaccine allocation, and prevents influ-
+ential persons from receiving the vaccine first based on authority, power or money. Any hint at unfairness will likely 
+debilitate trust and put more pressure on the vaccine roll out.
+Unfortunately, the brouhaha over the controversial admission of some public sector officials, notably the Presi-
+dential Security Group, that they already vaccinated themselves using an unregulated and as yet unapproved vaccines 
+from China has likely set back trust-building, and has in fact exposed how government protocols are flaunted by some 
+officials in power. As noted by Professor Noel De Dios of the University of the Philippines: “The incident is a scandal 
+because it is a big slap in the face of government that pretends to any attempt at a fair social prioritization and orderly 
+distribution of scarce life-saving vaccines.”28
+Further fanning the flames of distrust due to rule- and regulation-flaunting, a whistle-blower exposed to media in 
+early January 2021 that about 100,000 mainland Chinese workers of Philippine Offshore Gaming Operators (POGO) 
+were able to vaccinate themselves in the Philippines using unregulated and unapproved drugs smuggled into the 
+country. Her exposé confirmed what many suspected would be a thriving black market for COVID-19 vaccines, given 
+that other countries in Asia already had access to these life-saving vaccines and the Philippines appeared to lag in its 
+negotiations and vaccine roll out.29–32
+5 
+| 
+LEAVE VACCINATION TO THE MEDICAL EXPERTS
+Learning from the negative consequences of politicizing life-saving health interventions, there is obvious risk when 
+politicians instead of medical experts take the center stage in vaccine-related communications.33 The COVID-19 vac-
+cine must not be attached to political personalities or parties; the distribution of vaccines must not be used for polit-
+ical gain.
+In order for the vaccination campaign to withstand political cycles, the face of the vaccine must be science, pref-
+erably represented by non-partisan experts, and any disputes regarding the COVID-19 vaccine must be based on sci-
+entific evidence. Already, there have been emerging news of vaccine side effects. The health department and medical 
+expert groups must handle and communicate these carefully, so as not to weaken trust and undermine the vaccination 
+campaign itself, as what happened with the Dengvaxia program.34 Other expert and regulatory groups like the Food 
+and Drug Administration (FDA) and the Health Technology Assessment Council (HTAC) are in the best positions to 
+evaluate the safety and cost-effectiveness of the vaccines. These groups must endeavor to preserve their credibility 
+and relevance by being unreserved and transparent about their recommendations regardless of whether they are in 
+consonance with the government's stance or opinions. Their transparency is an opportunity to rehabilitate the pub-
+lic's trust and will allow the public to hold the government to account on sound bases.
+Despite requirements for nondisclosure agreements in securing some vaccine deals, officials who handle vaccine 
+procurement should also strive to practice as much transparency as possible especially given already existing mistrust 
+and allegations of corruption. The health department, government agencies, medical societies, and media organiza-
+tions must vigorously control and counteract the spread of disinformation, notably the politicized kind. These persons 
+and organizations are already present on social media. Their reputable and authoritative presence can help counter-
+act disinformation propagated in various social media platforms.
+MENDOZA et al.
+5
+
+Finally, it is important to note that there could be differentiated public responses to COVID-19 vaccines depend-
+ing on the perceptions on the manufacturers. Some pharmaceutical companies have an extensive history of successful 
+medicine and vaccine development, which are also based in countries with solid regulatory institutions pushing the 
+strictest standards. On the other hand at least one of the pharmaceutical companies in China is still struggling with 
+a recent history of corruption allegations.35 These preferences cannot simply be belittled as citizens being “choosy” 
+or showing “colonial mentality,” as one official has noted.36 Pharmaceutical companies following the right protocols 
+and largely detached from allegations of using vaccines as political leverage are more likely to successfully earn the 
+public's trust.
+The country's policymakers and leaders must not forget that it is dealing with a population that is still shaken from 
+the events of the Dengvaxia controversy. The success of the COVID-19 vaccination program now hangs by a weak 
+thread of public trust. Soon it will break unless they learn to respect and value science, deal transparently, and act in 
+good faith for the safety and well-being of the people.
+ACKNOWLEDGEMENTS
+We thank Mr. Jurel Yap of the Ateneo Policy Center for supplying some of the figures in this article.
+CONFLICT OF INTEREST
+The authors declare no conflicts of interest.
+ETHICS STATEMENT
+The authors have no potential competing interests to declare.
+DATA AVAILABILITY STATEMENT
+The data that support the findings of this study are available from the Social Weather Stations (SWS) and the 
+Massachusetts Institute of Technology (MIT). The data from SWS are openly available in https://urldefense.
+com/v3/__http://www.sws.org.ph/swsmain/artcldisppage/?artcsyscode=ART-20201119203953__;!!N11eV2i-
+wtfs!8nSMWmfb099EFXmax1gmXYXs149F0cHP9HhHmrz6PNeY7wH7xr7uT085PJ91IuwI$. The data from MIT 
+are openly available at https://urldefense.com/v3/__https://covidsurvey.mit.edu/dashboard.html__;!!N11eV2iwtfs!8 
+nSMWmfb099EFXmax1gmXYXs149F0cHP9HhHmrz6PNeY7wH7xr7uT085PEjNIQA-$.
+ORCID
+Madeline Mae A. Ong 
+ https://orcid.org/0000-0002-4092-2152
+REFERENCES
+1.	 Oxford Martin School, University of Oxford, Global Change Data Lab. Our world in data: coronavirus (COVID-19) vacci-
+nations. Accessed January 20, 2021. https://ourworldindata.org/covid-vaccinations
+2.	 De Figueiredo A, Simas C, Karafillakis E, Paterson P, Larson HJ. Mapping global trends in vaccine confidence and investi-
+gating barriers to vaccine uptake: a large-scale retrospective temporal modelling study. Lancet. 2020;396(10255):898-
+908. https://doi.org/10.1016/s0140-6736(20)31558-0
+3.	 Capeding MR, Tran NH, Hadinegoro SRS, et al. Clinical efficacy and safety of a novel tetravalent dengue vaccine in healthy 
+children in Asia: a phase 3, randomised, observer-masked, placebo-controlled trial. Lancet. 2014;384(9951):1358-1365. 
+https://doi.org/10.1016/s0140-6736(14)61060-6
+4.	 Villar L, Dayan GH, Arredondo-García JL, et al. Efficacy of a tetravalent dengue vaccine in children in Latin America. N 
+Engl J Med. 2015;372(2):113-123. https://doi.org/10.1056/nejmoa1411037
+5.	 Flasche S, Wilder-Smith A, Hombach J, Smith PG. Estimating the proportion of vaccine-induced hospitalized den-
+gue cases among Dengvaxia vaccinees in the Philippines. Wellcome Open Res. 2019;4:165. https://doi.org/10.12688/
+wellcomeopenres.15507.1
+6.	 Wilder-Smith A, Hombach J, Ferguson N, et  al. Deliberations of the strategic Advisory Group of Ex-
+perts on Immunization on the use of CYD-TDV dengue vaccine. Lancet Infect Dis. 2019;19(1):e31-e38. 
+https://doi.org/10.1016/s1473-3099(18)30494-8
+MENDOZA et al.
+6
+
+7.	 Meeting of the strategic Advisory Group of Experts on immunization, April 2016 – conclusions and recommendations. 
+Releve Epidemiol Hebd. 2016;91(21):266–284.
+8.	 Dayrit MM, Mendoza RU, Valenzuela SA. The importance of effective risk communication and transparency: les-
+sons from the dengue vaccine controversy in the Philippines. J Public Health Policy. 2020;41(3):252-267. https://doi.
+org/10.1057/s41271-020-00232-3
+9.	 Sanofi. 
+Sanofi 
+updates 
+information 
+on 
+dengue 
+vaccine. 
+2017. 
+https://www.sanofi.com/en/media-room/
+press-releases/2017/2017-11-29-17-36-30
+10.	 Fatima K, Syed NI. Dengvaxia controversy: impact on vaccine hesitancy. J Glob Health. 2018;8(2):010312. https://doi.
+org/10.7189/jogh.08-020312
+11.	 Mason J, Smith R. Vaccine case study: exploring the controversy around Dengvaxia and vaccine misin-
+formation in the Philippines. First Draft. 2021, February 25. https://firstdraftnews.org/long-form-article/
+exploring-the-controversy-around-dengvaxia-and-vaccine-misinformation-in-the-philippines-draft/
+12.	 University of the Philippines. Findings of the 14 Deaths with Prior Dengvaxia® Vaccination by the DOH-Commissioned Inde-
+pendent Evaluation Team of Physicians, the Philippine General Hospital Dengue Investigative Task Force (PGH DITF): An Interim 
+Report. 2018. https://up.edu.ph/executive-summary-report-of-the-pgh-dengue-investigative-task-force/
+13.	 Cepeda M. Garin-allied pathologist discredits PAO findings on Dengvaxia cases. Rappler. 2018, November 21. Accessed 
+January 20, 2021. https://www.rappler.com/nation/garin-pathologist-discredits-pao-autopsy-findings-dengvaxia
+14.	 Tupas E. Medical experts: stop Dengvaxia autopsies. Philippine Star. 2018, February 4. Accessed January 20, 2021. 
+https://www.philstar.com/headlines/2018/02/04/1784406/medical-experts-stop-dengvaxia-autopsies
+15.	 Lasco G, Larson HJ. Medical populism and immunisation programmes: illustrative examples and consequences for public 
+health. Glob Publ Health. 2019;15(3):334-344. https://doi.org/10.1080/17441692.2019.1680724
+16.	 Lalu GP. Duque, Garin face new complaints over Dengvaxia Issue. Inquirer. 2021, November 26. Accessed January 20, 
+2021. 
+https://newsinfo.inquirer.net/1364991/duque-ex-secretary-garin-other-doh-officials-face-new-complaints-
+from-dengvaxia-issue
+17.	 https://www.ema.europa.eu/en/news/first-vaccine-prevention-dengue
+18.	 World Health Organization. 2019. World Health Organization Model List of Essential Medicines. Accessed Janu-
+ary 
+21, 
+2021. 
+https://apps.who.int/iris/bitstream/handle/10665/325771/WHO-MVP-EMP-IAU-2019.06-eng.
+pdf?sequence=1&isAllowed=y
+19.	 Larson HJ, Hartigan-Go K, de Figueiredo A. Vaccine confidence plummets in the Philippines following dengue vaccine 
+scare: why it matters to pandemic preparedness [published correction appears in Hum Vaccin Immunother. 2019 Jun 
+18;1]. Hum Vaccin Immunother. 2019;15(3):625-627. https://doi.org/10.1080/21645515.2018.1522468
+20.	 International Federation of Red Cross. Operations Update Philippines: Re-emergence of vaccine preventable diseases – Mea-
+sles outbreak. 2020. https://reliefweb.int/sites/reliefweb.int/files/resources/MDRPH03212m_measles.pdf
+21.	 Dyer O. Philippines measles outbreak is deadliest yet as vaccine scepticism spurs disease comeback. Br Med J. 
+2019;l739:l739. https://doi.org/10.1136/bmj.l739
+22.	 Social Weather Stations. SWS September 17-20, 2020 National Mobile Phone Survey—Report No. 17: 66% of Adult 
+Filipinos are Willing to Get Covid-19 Vaccine. 2020. Accessed January 21, 2020. http://www.sws.org.ph/swsmain/
+artcldisppage/?artcsyscode=ART-20201119203953
+23.	 Social Weather Stations. First Quarter 2021 Social Weather Survey: 51% of adult Filipinos are confident, 17% are 
+not confident about the government’s evaluation of Covid-19 vaccines. 2021. https://www.sws.org.ph/swsmain/
+artcldisppage/?artcsyscode=ART-20210520103851
+24.	 Massachusetts Institute of Technology and Facebook. COVID-19 Beliefs, Behaviors & Norms Survey. Ateneo Policy Center 
+Staff Calcuations using MIT-Facebook Dataset. Accessed December 15, 2020. https://covidsurvey.mit.edu
+25.	 DOH to enforce “brand agnostic” policy to prevent overcrowding in vaccination sites. CNN. 2021, May 19. https://cnn-
+philippines.com/news/2021/5/19/DOH-brand-agnostic-policy.html?_=1621406221249
+26.	 Cruz, ED. Philippines receives Chinese vaccine, but Duterte prefers another brand U.S. 2021. https://www.reuters.com/
+article/us-health-coronavirus-philippines-vaccin-idUSKCN2AS09I
+27.	 World Health Organization. Fair allocation mechanism for COVID-19 vaccines through the COVAX Facility. 2020. https://
+www.who.int/publications/m/item/fair-allocation-mechanism-for-covid-19-vaccines-through-the-covax-facility
+28.	 De Dios ES. Vaccine ethics. Business World. 2021, January 3. Accessed January 20, 2021. https://www.bworldonline.com/
+vaccine-ethics/?fbclid=IwAR1Wdld1tJhzxhgSVBL8QEl2JF82lD9mOGWAvuKRHx_MVT6rai_r_LGaRSY
+29.	 Lopez, V. Thousands of Chinese national received COVID-19 vaccine in Philippines—civic leader. GMA News Online. 2021, 
+January 4. Accessed January 20, 2021. https://www.gmanetwork.com/news/news/nation/770342/thousands-of-chi-
+nese-nationals-received-covid-19-vaccine-in-philippines-civic-leader/story/?utm_source=GMANews&utm_medium=-
+Facebook&fbclid=IwAR2kUze4Bl9u5MiA0yIcoI6LqRFvsKjQ0ogD5KeNgBpHReHXICGvTZou2ww
+30.	 Jiao C, Aditya A. Indonesia begins COVID-19 vaccine rollout – and Jokowi is first to get jab. Time. 2021, January 13. 
+Accessed January 20, 2021. https://time.com/5929160/indonesia-vaccine-rollout-jokowi/
+MENDOZA et al.
+7
+
+31.	 Choong J. Report: Malaysia to begin Covid-19 vaccine rollout in Feb, one million to receive Pfizer jab, says health minis-
+ter. Malay Mail. 2021, January 3. Accessed January 21, 2021. https://www.malaymail.com/news/malaysia/2021/01/03/
+report-malaysia-to-begin-covid-19-vaccine-rollout-in-feb-one-million-to-rec/1936821
+32.	 Davidson H, Standaert M. New year, new outbreak: China rushes to vaccinate 50 million as holiday looms. Guardian. 
+January. 2021 15. Accessed January 21, 2021. https://www.theguardian.com/global-development/2021/jan/15/
+new-year-new-outbreak-china-rushes-to-vaccinate-50-million-as-holiday-season-looms
+33.	 Lasco G, Yu VG. Communicating COVID-19 vaccines: lessons from the dengue vaccine controversy in the Philippines. 
+BMJ Glob Health. 2021;6(3):e005422. https://doi.org/10.1136/bmjgh-2021-005422
+34.	 Clark T. Anaphylaxis Following m-RNA COVID-19 Vaccine Receipt. Center for Disease Control. Accessed January 21, 
+2021. 
+https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2020-12/slides-12-19/05-COVID-CLARK.
+pdf?fbclid=IwAR2h8Cq6S4U_EDOU0rLTPoJZV_JeAIXcRjJA0asxbf4G92E-cdsFH-iDYKk
+35.	 Dou E. As China nears a coronavirus vaccine, bribery cloud hangs over drugmaker Sinovac. Washington Post. 2020, De-
+cember 4. Accessed January 21, 2021. https://www.washingtonpost.com/world/asia_pacific/coronavirus-vaccine-chi-
+na-bribery-sinovac/2020/12/04/7c09ae68-28c6-11eb-9c21-3cc501d0981f_story.html
+36.	 Del Rosario D. ‘Never about colonial mentality’: Netizens rip roque for crass vaccine remark. In-
+quirer. 
+2021, 
+January 
+12. 
+Accessed 
+January 
+21, 
+2021. 
+https://newsinfo.inquirer.net/1382747/
+never-about-colonial-mentality-netizens-rip-roque-for-crass-vaccine-remark
+How to cite this article: Mendoza RU, Dayrit MM, Alfonso CR, Ong MMA. Public trust and the COVID-19 
+vaccination campaign: lessons from the Philippines as it emerges from the Dengvaxia controversy. Int J 
+Health Plann Mgmt. 2021;1–8. https://doi.org/10.1002/hpm.3297
+MENDOZA et al.
+8

@@ -1,0 +1,168 @@
+{% extends "base.html" %}
+
+{% block title %}
+Detection Results
+{% endblock %}
+
+{% block content %}
+
+<div class="container mt-4">
+    <div class="text-center mb-5">
+        <h1 class="display-5 fw-bold">
+            Plagiarism Detection Results
+        </h1>
+        <p class="lead">
+            Analysis completed successfully.
+        </p>
+    </div>
+    <div class="card shadow">
+        <div class="card-header">
+            <h4>
+                Processing Summary
+            </h4>
+        </div>
+        <br>
+        <div class="card shadow">
+            <div class="card-header">
+                <h4>
+                    Uploaded Files
+                </h4>
+            </div>
+            <div class="card-body">
+                <ul class="list-group">
+
+                    {% for file in uploaded_files %}
+
+                    <li class="list-group-item">
+                        {{ file }}
+                    </li>
+
+                    {% endfor %}
+
+                </ul>
+            </div>
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <tr>
+                    <th>Uploaded Files</th>
+
+                    <td>{{ total_uploaded }}</td>
+                </tr>
+                <tr>
+                    <th>Repository Documents</th>
+
+                    <td>{{ total_repository }}</td>
+                </tr>
+                <tr>
+                    <th>Status</th>
+                    <td>
+                        <span class="badge bg-success">
+
+                            Completed
+
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br>
+    <div class="card shadow">
+        <div class="card-header">
+            <h4>
+
+                Detection Results
+
+            </h4>
+        </div>
+        <div class="card-body">
+            {% for result in results %}
+
+            <div class="border rounded p-3 mb-4">
+                <h5>
+
+                    {{ result.uploaded_filename }}
+
+                </h5>
+
+                {% if result.flagged %}
+
+                <span class="badge bg-danger">
+                    REVIEW
+                </span>
+
+                {% else %}
+
+                <span class="badge bg-success">
+                    PROMOTED
+                </span>
+
+                {% endif %}
+
+                <hr>
+                <strong>Highest Match</strong>
+
+                {% if result.all_pairs %}
+
+                <table class="table table-sm mt-2">
+                    <thead>
+                        <tr>
+                            <th>Repository Document</th>
+                            <th>Similarity</th>
+                            <th>Decision</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+
+                                {{ result.all_pairs[0].doc2.replace(".txt","") }}
+
+                            </td>
+
+                            <td>
+
+                                {{ "%.2f"|format(result.all_pairs[0].combined_score * 100) }}%
+
+                            </td>
+                            <td>
+                                {{ result.all_pairs[0].decision }}
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                {% endif %}
+                {% if result.flagged %}
+                <div class="text-end mt-3">
+
+                    <a href="{{ url_for('review',
+                            filename=result.uploaded_filename) }}" class="btn btn-warning">
+
+                        <i class="bi bi-search"></i>
+
+                        Review Document
+
+                    </a>
+
+                </div>
+
+                {% endif %}
+            </div>
+
+            {% endfor %}
+
+        </div>
+    </div>
+    <br>
+
+    <div class="text-center">
+
+        <a href="{{ url_for('home') }}" class="btn btn-primary">
+            Upload Another Document
+        </a>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,943 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+4-18-2025 
+Air Temperature and Gastroenteritis Among Rohingya Populations 
+Air Temperature and Gastroenteritis Among Rohingya Populations 
+in Bangladesh Refugee Camps 
+in Bangladesh Refugee Camps 
+Takuya Takata 
+Hokkaido University 
+Xerxes Seposo 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, xseposo@ateneo.edu 
+Nasif Hossain 
+Nagasaki University 
+Kayo Ueda 
+Nagasaki University 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Community Health and Preventive Medicine Commons, and the Gastroenterology 
+Commons 
+Custom Citation 
+Custom Citation 
+Takata T, Seposo X, Hossain N, Ueda K. Air Temperature and Gastroenteritis Among Rohingya 
+Populations in Bangladesh Refugee Camps. JAMA Netw Open. 2025;8(4):e255768. doi:10.1001/
+jamanetworkopen.2025.5768 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+Original Investigation | Environmental Health
+Air Temperature and Gastroenteritis Among Rohingya Populations
+in Bangladesh Refugee Camps
+Takuya Takata, MPH; Xerxes Seposo, PhD; Nasif Hossain, PhD; Kayo Ueda, PhD
+Abstract
+IMPORTANCE The Rohingya displaced population in Bangladesh is the largest stateless population
+in the world. Infectious diseases, such as gastroenteritis, respiratory infections, and fever, are among
+the major health problems the Rohingya population has faced. Although associations between
+gastroenteritis and air temperature have been reported in various regions, no study has yet been
+carried out among the displaced populations.
+OBJECTIVES To evaluate the association between air temperature and risk of gastroenteritis among
+the forcibly displaced Rohingya population in refugee camps in Bangladesh.
+DESIGN, SETTING, AND PARTICIPANTS In this cross-sectional study, daily time series data
+derived from facility-based case reports were collected in 2 clinics organized by the UNHCR
+(United Nations High Commissioner for Refugees) in Kutupalong and Nayapara registered camps
+from January 1, 2019, to December 31, 2021. Statistical analysis was conducted from April 2023 to
+September 2024.
+EXPOSURE Hourly 2-m air temperature from ERA5-Land by the European Centre for
+Medium-Range Weather Forecasts.
+MAIN OUTCOMES AND MEASURES The daily number of gastroenteritis cases recorded in the
+camp clinics was the main outcome measure. Nonlinear lagged associations between daily
+temperature and gastroenteritis cases were modeled using a quasi-Poisson generalized linear model
+to account for overdispersion coupled with a distributed lag nonlinear model including a maximum
+21-day lag. Covariates from the literature were adjusted in the model.
+RESULTS A total of 33 280 gastroenteritis cases (95% among individuals aged 5 years; 71%
+female) were recorded in Kutupalong and 31 165 gastroenteritis cases (99% among individuals aged
+5 years; 67% female) were recorded in Nayapara. Further examination revealed a potential
+U-shaped curve in Kutupalong with minimum risk temperature (MRT) set at 26 °C. Cumulative
+relative risk (RR) at the 10th percentile temperature (21.1 °C) was 2.31 (95% CI, 1.18-4.65), while RR at
+90th percentile temperature (28.5 °C) was 1.78 (95% CI, 1.24-2.56) relative to MRT. In Nayapara, a
+nearly linear risk increase was observed with decreasing temperature. Cumulative RR at the 10th
+percentile temperature (21 °C) was 1.32 (95% CI, 0.78-2.24), while the RR at the 90th percentile
+temperature (28.3 °C) was 0.75 (95% CI, 0.56-0.99). Lagged effects were delayed in nature. In
+Kutupalong, cold temperatures (10th percentile) were associated with statistically significant
+gastroenteritis risks at approximately 15 to 20 days (range: RR, 1.06 [95% CI, 1.00-1.13] to RR, 1.10
+[95% CI, 1.00-1.21]). In Nayapara, gastroenteritis risks were correspondingly higher at longer lags
+(lag, 18 days; RR, 1.05 [95% CI, 1.00-1.10]).
+(continued)
+Key Points
+Question How is air temperature
+associated with the risk of
+gastroenteritis among refugee
+populations?
+Findings In this cross-sectional study
+that included 64 445 gastrointestinal
+cases among 2 Bangladesh refugee
+camps (33 280 gastroenteritis cases in
+Kutupalong and 31 165 gastroenteritis
+cases in Nayapara), the risk of
+gastroenteritis generally increased in
+colder temperatures.
+Meaning As the refugee population is
+expected to grow in the coming years, it
+is crucial to understand the climate-
+related health risks they face to protect
+their well-being in the face of the
+escalating threats posed by a
+changing climate.
++ Supplemental content
+Author affiliations and article information are
+listed at the end of this article.
+Open Access. This is an open access article distributed under the terms of the CC-BY License.
+JAMA Network Open. 2025;8(4):e255768. doi:10.1001/jamanetworkopen.2025.5768
+(Reprinted)
+April 18, 2025
+1/13
+Downloaded from jamanetwork.com by guest on 05/15/2025
+
+Abstract (continued)
+CONCLUSIONS AND RELEVANCE In this cross-sectional study of the Rohingya displaced
+population in Bangladesh, cold temperatures were associated with an increase in the risk of
+gastroenteritis. It is important to understand the association of climatic factors with the health of
+displaced communities, whose population is expected to grow in the future.
+JAMA Network Open. 2025;8(4):e255768. doi:10.1001/jamanetworkopen.2025.5768
+Introduction
+Forced displacement, driven by conflict, human rights violations, persecution, and disasters,
+continues to rise. A recent report by the United Nations High Commissioner for Refugees (UNHCR)1
+revealed that more than 100 million people were forcibly displaced in 2022. Of these, 35.3 million
+people are refugees, with 29.4 million under UNHCR’s mandate and 5.9 million classified as Palestine
+refugees under the mandate of the United Nations Relief and Works Agency for Palestine Refugees
+in the Near East. Approximately 9.8 million reside in settlements managed by the UNHCR.2 In
+addition, projections indicate that approximately 1.2 billion individuals could face displacement by
+2050 due to climate change–related events.3
+Despite the looming threat, research on climate vulnerabilities among forcibly displaced
+persons (FDPs) remains scarce. Displaced populations tend to have higher crude death rates
+compared with nondisplaced populations, especially during the early phases of displacement and
+emergencies, due to factors such as poor living conditions, lack of access to health care, and
+increased risk of infectious diseases.4,5 Infectious diseases remain significant health threats to FDPs.
+The Rohingya are among the largest stateless populations, comprising one-seventh of the
+global stateless populations.6 They are not considered to be citizens by the Myanmar government,
+and they migrated primarily to neighboring countries, notably Bangladesh, Malaysia, and Thailand
+(Forcibly Displaced Myanmar Nationals). Bangladesh has hosted several waves of Rohingya arrivals
+since 1948.7 In 2021, the escalation of unrest in Myanmar prompted a large number of Rohingya
+people to seek refuge in Bangladesh, bringing the total number of new arrivals to an estimated
+918 898.8 In Cox’s Bazar, Bangladesh, there are 34 camps for the Rohingya population.9 These
+camps’ population density reaches 60 000 people per square kilometer, creating severe public
+health challenges.10
+A recent study conducted at public health sector hospitals highlighted the prevalence of
+infectious diseases such as respiratory infections, abdominal ailments, viral fever, and diarrhea in
+Rohingya camps.11 Overcrowded and unsanitary living conditions, combined with the use of
+contaminated shallow wells and limited water sources during the dry season, exacerbate these
+health issues. A 2018 survey revealed that approximately 75% of household water sources were
+contaminated with fecal coliforms, with one-third containing Escherichia coli.12
+Air temperature is significantly associated with diarrhea and enteric infections.13,14 A systematic
+review found that low air temperatures are associated with increased risk of viral gastroenteritis,
+including norovirus, rotavirus, and adenovirus,14 while in a different study, high air temperatures
+were associated with heightened risk of bacterial gastroenteritis caused by organisms such as
+Salmonella and Campylobacter.15 However, these findings were based on data from the general,
+nondisplaced population, which has little implication to FDP settings in refugee camps. Given the
+projected increase of FDPs and their health challenges, understanding the association of climate
+change with health is essential. Such insights will enable better preparedness for both FDPs and host
+community health systems in effectively responding to these climate-related health risks. Against
+this backdrop, this study aimed to evaluate the association between air temperature and
+gastroenteritis in FDP camps in Bangladesh.
+JAMA Network Open | Environmental Health
+Air Temperature and Gastroenteritis in Bangladesh Refugee Camps
+JAMA Network Open. 2025;8(4):e255768. doi:10.1001/jamanetworkopen.2025.5768
+(Reprinted)
+April 18, 2025
+2/13
+Downloaded from jamanetwork.com by guest on 05/15/2025
+
+Methods
+Data Sources
+Study Setting
+This is a retrospective observational cross-sectional study of daily historical records of gastroenteritis
+and mean air temperature in 2 camp clinics in the Kutupalong and Nayapara camps from January 1,
+2019, to December 31, 2021. Patients who visited the 2 clinics run by the UNHCR at Kutupalong and
+Nayapara, 2 government-run Rohingya camps sites in Ukhia and Teknaf Upazila, and Cox’s Bazar in
+Bangladesh (eFigure 1 in Supplement 1) were included in this study. During the midstudy period in
+2020, the population size was 16 855 in Kutupalong and 22 589 in Nayapara.16 This study adhered to
+the Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) reporting
+guideline for cross-sectional studies. Data used in this study were deidentified; thus the study was
+waived for ethics review per the Japanese Ethical Guidelines for Life Science and Medical Research
+Involving Human Subjects. Consent was not obtained because the data in this study come from a
+deidentified secondary dataset. Primary data collection was not done in this study.
+Health Outcome Data
+The health outcome was the daily number of gastroenteritis cases recorded in the camp clinics. Study
+data were registered using District Health Information Software 2 (DHIS2)17 obtained from the
+Ministry of Health and Family Welfare of the Bangladesh government18 with the registration system
+developed by the University of Oslo. Gastroenteritis was defined operationally as moderate to severe
+diarrhea, following World Health Organization (WHO) guidelines. Moderate diarrhea was
+characterized by a few to 10 loose or watery stools in a 24-hour period, while severe diarrhea
+involved more than 10 loose or watery stools within the same time frame. Diagnosis was based on the
+presence of symptoms, including moderate to severe diarrhea and, in some cases, additional
+manifestations, such as blood in the stool (bacillary dysentery), vomiting, abdominal pain, and fever.
+These criteria align with WHO standards for diagnosing and evaluating the severity of
+gastroenteritis.19
+Environmental Data
+Exposure data comprised the hourly 2-m air temperature from ERA5-Land by the European Centre
+for Medium-Range Weather Forecasts accessed through the Copernicus Climate Change Service
+Climate Data Store.20 ERA5-Land provides meteorological data at a 0.1-degree (approximately 9-km)
+gridded resolution. Total precipitation from ERA5-Land was adjusted as a potential confounder in
+the temperature-gastroenteritis association.21 Hourly time series from Coordinated Universal Time
+(UTC) ± 00:00 was converted to UTC + 06:00 to match the temporal timing of the exposure and
+was subsequently aggregated into daily mean values.
+Temperature data generated from the ERA-5 Land reanalysis were validated with the National
+Oceanic and Atmospheric Administration monitoring data of the closest station (Shah Amanat
+International Airport, which is approximately 100 km north of the camp locations). A strong
+correlation (r = 0.955) was observed in the seasonality-adjusted model residuals (eFigure 2 in
+Supplement 1).
+Covariates
+Covariates, such as precipitation, long-term time trend, day of the week, holiday, population,
+COVID-19 pandemic, and reporting system indicator terms, sourced from the literature were
+adjusted in the model. Although the UNHCR has ensured access to basic health services during the
+COVID-19 pandemic,22,23 we decided to include a binary variable to address the potential association
+of the COVID-19 pandemic with case reporting, whereby the days before March 11, 2020 (when the
+pandemic was declared), were coded 0 and the days thereafter were coded 1.24 In addition, holidays
+JAMA Network Open | Environmental Health
+Air Temperature and Gastroenteritis in Bangladesh Refugee Camps
+JAMA Network Open. 2025;8(4):e255768. doi:10.1001/jamanetworkopen.2025.5768
+(Reprinted)
+April 18, 2025
+3/13
+Downloaded from jamanetwork.com by guest on 05/15/2025
+
+were identified based on the Bangladesh government calendar, and for days of the week, a
+categorical variable was used, defining the country’s weekends as Friday and Saturday.
+Statistical Analysis
+Statistical analysis was conducted from April 2023 to September 2024. The validation of exposure
+data was assessed through correlational analysis. Descriptive statistics for both exposure and health
+data from the camp clinics were summarized using mean and median values. Nonlinear lagged
+associations between daily temperature and gastroenteritis cases were modeled using a quasi-
+Poisson generalized linear model to account for overdispersion coupled with a distributed lag
+nonlinear model,25-27 which is parameterized as follows: log [E(Y)] = α + cb(Temp lag) + ns(Prcep,
+df = 3) + ns(Time, df = 7/y) + Nholiday + DOW + COVID19 + Reporting_indicator + offset
+[log (population)] + Y(t −1), where E(Y) is the expected number of daily reported cases of
+gastroenteritis; α is the intercept; cb(Temp∙lag) is the cross-basis function for the DLNM, with natural
+cubic splines of daily mean temperature and lags with a maximum lag of 21 days28-30 parameterized
+with 3 internal knots at the 10th, 75th, and 90th percentiles of the temperature distributions;
+ns(Prcep) is daily cumulative precipitation with a natural cubic spline of 3 df21; ns(Time) is a term for
+adjustment of long-term trend and seasonality with natural cubic spline of 7 df per year27,31; DOW is
+day of the week; and COVID19 is a binary variable indicating before and after the WHO characterized
+COVID-19 as a pandemic on March 11, 2020. Reporting_indicator is the reporting system indicator
+term to represent the change in the reporting system on May 20, 2019. In brief, after the
+implementation of the change in reporting system, there were several symptoms that ceased to be
+reported or were reported significantly less often before or after this period. However, this was not
+the case for gastroenteritis reports because the number of cases did not change (eFigure 3 in
+Supplement 1). Nevertheless, this term was included to account for potential unmeasured effects
+due to reporting. An adjustment was made for the log of the population to account for potential
+population changes, along with incorporating the previous day’s number of gastroenteritis cases,
+which is believed to be strongly correlated with same-day cases. Residuals of the parameterized
+model showed indications of homoscedasticity (eFigure 4 in Supplement 1). In this study, low and
+high temperature effects, relative to the minimum risk temperature (MRT), are represented by the
+10th and 90th temperature percentiles, respectively. The concept of MRT draws inspiration from
+temperature-mortality studies’ minimum mortality temperature. As the name implies, MRT
+represents the minimum temperature at which the risk, whether associated with mortality or
+morbidity, is at its lowest. Furthermore, lagged association was examined in both the 10th and 90th
+temperature percentiles of the respective camps (eFigure 5 in Supplement 1).
+All statistical analyses were conducted using R statistical software, version 4.3.2, with the
+packages dlnm and glm (R Project for Statistical Computing). Statistical significance was defined with
+P < .05.
+For a sensitivity analysis, temperature, precipitation, and long-term trend degrees of freedom,
+as well as the maximum number of lag days, were varied in assessing the association with the risk
+curve. Maximum lags were also varied between 7 and 35 days to understand how the risk curve
+changes and assess the optimal maximum lag subject to a viable interpretation of the results.32 The
+quasi-Akaike information criterion (qAIC) was calculated and used to assess each generated quasi-
+Poisson generalized linear model for goodness of fit.33
+Results
+Descriptive Statistics
+A total of 33 280 gastroenteritis cases (95% among individuals aged 5 years; 71% female and 29%
+male) were recorded in Kutupalong and 31 165 gastroenteritis cases (99% among individuals aged
+5 years; 67% female and 33% male) were recorded in Nayapara (Table). A significant majority,
+95%, of gastroenteritis cases were observed in individuals aged 5 years or older, with the remaining
+JAMA Network Open | Environmental Health
+Air Temperature and Gastroenteritis in Bangladesh Refugee Camps
+JAMA Network Open. 2025;8(4):e255768. doi:10.1001/jamanetworkopen.2025.5768
+(Reprinted)
+April 18, 2025
+4/13
+Downloaded from jamanetwork.com by guest on 05/15/2025
+
+5% occurring among those aged 4 years or younger. Temperature and precipitation patterns
+(Figure 1) were identical for both camps, with temperatures of approximately 26 °C. Seasonality was
+apparent for both temperature and total precipitation with nearly similar peaks, with temperature
+peaking around May just 2 months before the peak of precipitation in July.
+Table. Descriptive Summary of the Gastroenteritis Cases in Kutupalong and Nayapara Camps
+Characteristic
+Kutupalong UNHCR-RHU clinic
+Nayapara UNHCR-RHU clinic
+No. of cases (%)
+No. of cases,
+daily mean (SD)
+No. of cases,
+median (IQR)
+No. of cases (%)
+No. of cases,
+daily mean (SD)
+No. of cases,
+median (IQR)
+All cases
+33 280 (100)
+30.5 (20.8)
+29 (13-43.25)
+31 165 (100)
+28.8 (16.3)
+30 (15-40)
+Age group, ya
+≤4
+1650 (5)
+1.5 (2.7)
+0 (0-2)
+224 (1)
+0.2 (1.0)
+0 (0-0)
+≥5
+31 582 (95)
+28.9 (20.1)
+28 (12-41)
+30 888 (99)
+28.5 (16.2)
+30 (15-40)
+Sex
+Male
+9525 (29)
+8.7 (7.3)
+7 (3-12)
+10 399 (33)
+9.6 (6.1)
+9 (5-14)
+Female
+23 755 (71)
+21.7 (15.3)
+21 (8-31)
+20 766 (67)
+19.2 (10.9)
+20 (10-27)
+Abbreviation: UNHCR-RHU, Refugee Housing Unit of United Nations High
+Commissioner for Refugees.
+a There are records where age data were not collected, including 48 cases in the
+Kutupalong clinic and 53 cases in the Nayapara clinic with unknown age.
+Figure 1. Time Series of the Number of Gastroenteritis Cases, Daily Mean Temperature, Daily Precipitation, 2019-2021
+180
+160
+140
+120
+100
+80
+Total gastroenteritis cases, No.
+60
+40
+20
+2019
+2021
+2022
+Year
+2020
+Gastroenteritis cases in Kutupalong camp
+A
+Temperature and precipitation in Kutupalong camp
+B
+Total precipitation, mm
+2019
+2020
+2021
+2022
+60
+50
+40
+30
+20
+10
+0
+Mean temperature, °C
+Year
+60
+50
+40
+30
+20
+10
+0
+0
+Temperature
+Precipitation
+120
+100
+80
+Total gastroenteritis cases, No.
+60
+40
+20
+2019
+2021
+2022
+Year
+2020
+Gastroenteritis cases in Nayapara camp
+C
+Temperature and precipitation in Nayapara camp
+D
+Total precipitation, mm
+2019
+2020
+2021
+2022
+60
+50
+40
+30
+20
+10
+0
+Mean temperature, °C
+Year
+60
+50
+40
+30
+20
+10
+0
+0
+A, Gastroenteritis cases in Kutupalong camp. B, Temperature and precipitation in
+Kutupalong camp. C, Gastroenteritis cases in Nayapara camp. D, Temperature and
+precipitation in Nayapara camp. Reporting indicator on May 20, 2019, with blue dotted
+line; COVID-19 pandemic declaration by World Health Organization on March 11, 2020,
+with blue dashed line.
+JAMA Network Open | Environmental Health
+Air Temperature and Gastroenteritis in Bangladesh Refugee Camps
+JAMA Network Open. 2025;8(4):e255768. doi:10.1001/jamanetworkopen.2025.5768
+(Reprinted)
+April 18, 2025
+5/13
+Downloaded from jamanetwork.com by guest on 05/15/2025
+
+Exposure-Response Association
+The 2 camp clinics exhibited varying cumulative temperature-gastroenteritis risk patterns. In
+Kutupalong, the risk curve resembled a U-shaped pattern, whereas in Nayapara, the risk of
+gastroenteritis increased as the temperature decreased. To facilitate a comparison between the
+temperature-gastroenteritis risk curves of both camps, MRT was set at 26 °C.
+The temperature-gastroenteritis association and the temperature distribution are shown in
+Figure 2. In Kutupalong, the relative risk (RR) at the 10th temperature percentile (21.1 °C) was 2.31
+(95% CI, 1.18-4.65), whereas the RR at the 90th temperature percentile (28.5 °C) was 1.78 (95% CI,
+1.24-2.56), both relative to the MRT. In Nayapara, increased risk of gastroenteritis was associated
+with with increasing temperature. The RR at the 10th temperature percentile (21 °C) was 1.32 (95%
+CI, 0.78-2.24), while the RR at the 90th temperature percentile (28.3 °C) was 0.75 (95% CI,
+0.56-0.99), relative to the MRT.
+Amid varying degrees of freedom and maximum lags, the risk curves remained minimally
+affected. In particular, there were no substantial differences in the qAIC between the models; qAICs
+are described in eTables 1 to 4 in Supplement 1.
+Lag-Response Association
+In Kutupalong, cold temperature (10th percentile), although noticeable at around 2 days of onset,
+was associated with a statistically significant risk of gastroenteritis at around 15 to 20 days (range; RR,
+1.06 [95% CI, 1.00-1.13] to RR, 1.10 [95% CI, 1.00-1.21]), as shown in Figure 3. On the other hand, a
+borderline and marginal increment in risk was associated with warm temperatures (90th percentile)
+at a lag of 8 days (RR, 1.02 [95% CI, 1.00-1.04]). In Nayapara (Figure 3), a similar association was
+Figure 2. Temperature and Gastroenteritis Risk Curves in Kutupalong and Nayapara Camp Sites, Cox’s Bazar, Bangladesh
+0.25
+Temperature distribution
+0.20
+0.15
+0.10
+0.05
+0
+0.25
+Temperature distribution
+0.20
+0.15
+0.10
+0.05
+0
+3.00
+2.50
+Relative risk
+2.00
+1.50
+1.00
+28
+26
+24
+22
+18
+30
+20
+28
+26
+24
+22
+20
+Risk of gastroenteritis cases in Kutupalong camp
+A
+0.50
+0.45
+18
+30
+Mean temperature, °C
+3.00
+2.50
+Relative risk
+2.00
+1.50
+1.00
+28
+26
+24
+22
+18
+30
+20
+28
+26
+24
+22
+20
+Risk of gastroenteritis in Nayapara camp
+B
+0.50
+0.45
+18
+30
+Mean temperature, °C
+Overall cumulative summary and the 95% CI are reported as shaded areas. The dashed
+vertical lines indicate the minimum risk temperature at 26 °C in both Kutupalong (A) and
+Nayapara (B). The blue line indicates lower temperature risks, whereas the orange line
+indicates higher temperature risks, relative to the minimum-risk temperature. The
+bottom shaded areas indicate the temperature distribution in Kutupalong camp (A) and
+Nayapara camp (B).
+JAMA Network Open | Environmental Health
+Air Temperature and Gastroenteritis in Bangladesh Refugee Camps
+JAMA Network Open. 2025;8(4):e255768. doi:10.1001/jamanetworkopen.2025.5768
+(Reprinted)
+April 18, 2025
+6/13
+Downloaded from jamanetwork.com by guest on 05/15/2025
+
+observed between cold temperatures and an immediately increased risk of gastroenteritis, although
+statistically not significant, for same-day exposure. Gastroenteritis risks were correspondingly higher
+at longer lags (lag, 18 days; RR, 1.05 [95% CI, 1.00-1.10]). Warm temperatures were not associated
+with risk of gastroenteritis across the lag range, with the lag-response curve hovering around the null.
+Discussion
+To our knowledge, this study is the first attempt to evaluate the association of temperature with
+gastroenteritis in the context of FDPs in refugee camps. Here, temperature-associated
+gastroenteritis risk varied across the 2 large Rohingya refugee camps in Bangladesh. In both
+Kutupalong and Nayapara, gastroenteritis risks were observed to increase as temperatures
+decreased. However, beyond the MRT, there was no consistent pattern of temperature-associated
+gastroenteritis risk.
+Our findings suggest a heightened gastroenteritis risk associated with both low and high
+temperatures, with noted inconsistencies. Studies conducted in Asia,21,29,34-36 Africa,37-39 South
+America,40,41 and Oceania42 have shown that higher temperatures were associated with elevated
+gastroenteritis risk. In Bangladesh,21,36 increasing temperatures were associated with risk of
+noncholera gastroenteritis. However, studies in Japan,32 China,43-45 Spain,46 and the Philippines28
+reported increased risk with both low and high temperatures.
+Kutupalong exhibited a nonlinear U-shaped risk function, whereas Nayapara’s risk curve was
+linear (inverse), as shown in Figure 2; both findings are in concurrence with previous studies. In a
+study in Bangladesh, gastroenteritis risk increased with increasing temperature.21 On the other hand,
+in Japan,32 the Philippines,28 and Spain,46 a U-shaped risk function was found, with increasing
+gastroenteritis risks with decreasing and increasing temperatures relative to the MRT. Also, an
+M-shape association with 2 peaks was documented using data from 270 Chinese cities.45 The
+variation in the temperature-gastroenteritis risk function can be partially explained by the role of
+temperature in the pathogen-specific diarrheal types.14 Increased risk of viral gastroenteritis is more
+Figure 3. Lag-Response Curves for Forcibly Displaced Persons in Kutupalong and Nayapara at the 10th and 90th
+Temperature Percentiles Relative to the Minimum Risk Temperature
+1.75
+1.50
+Relative risk
+1.25
+1.00
+20
+15
+10
+0
+25
+Lag, d
+5
+Kutupalong camp
+A
+0.50
+0.75
+1.75
+1.50
+Relative risk
+1.25
+1.00
+20
+15
+10
+0
+25
+Lag, d
+5
+Nayapara camp
+B
+0.50
+0.75
+Percentile
+10th
+90th
+The blue and orange lines indicate the central
+estimates, and the shaded areas indicate the 95% CIs.
+The horizontal dotted line at a relative risk of 1.00
+indicates the null association. The lag-response
+association is examined per day with a maximum
+length of 21 days.
+JAMA Network Open | Environmental Health
+Air Temperature and Gastroenteritis in Bangladesh Refugee Camps
+JAMA Network Open. 2025;8(4):e255768. doi:10.1001/jamanetworkopen.2025.5768
+(Reprinted)
+April 18, 2025
+7/13
+Downloaded from jamanetwork.com by guest on 05/15/2025
+
+prominent at low temperatures, whereas risk of bacterial gastroenteritis is discernible at high
+temperatures, which has also been reported in a similar pathogen-specific study in Korea.15
+Consistent in both camps, cold temperatures tended to have a longer lagged association, with
+gastroenteritis risks peaking at around 18 days (or 2.5 weeks), as shown in Figure 3. Sung and
+colleagues15 documented that at cold temperatures, the risk for viral gastroenteritis was particularly
+high at around 2 to 3 weeks from onset. Similarly, the lagged effect for cold temperatures may be
+mostly associated with the specific pathogen that causes gastroenteritis. In this case, viral pathogens
+tend to thrive better in colder conditions where prognosis can be longer at around 2 weeks. Warmer
+temperatures deter viral pathogens; however, they can be conducive for bacterial pathogens to be
+more active, with a typical prognosis lasting from a couple of days to a week. A similar phenomenon
+was noted in Kutupalong, where warm temperature–related gastroenteritis risks peaked at a lag of
+8 days. In Spain, Morral-Puigmal and colleagues46 noted an even shorter period at around 1 to 5 days,
+with the warm temperature–related risk of gastroenteritis hospitalizations peaking on the same day
+and thereafter decreasing until the risk approached the null on the sixth day. The authors
+furthermore found that foodborne gastroenteritis, typically bacterial in nature, was associated with
+warm temperatures.
+The results of these epidemiologic studies are consistent with the associations reported in in
+vitro studies. For bacterial pathogens such as Salmonella, Shigella, Campylobacter, and E coli, several
+in vitro research studies found that these bacteria grow optimally at around 37 °C, and all of these
+bacteria can survive at temperatures higher than 40 °C.47-51 Factors other than temperature are also
+associated with bacterial survival. Although isolates have shown reduced survival at high
+temperatures,52-55 increases in these bacteria at high temperatures have been reported in natural
+environments, such as in food. Unlike bacterial pathogens, rotavirus and norovirus generally survive
+better at low rather than high temperatures.56,57 For norovirus, viral infectivity was significantly
+reduced at room temperature compared with at 4 °C.58,59
+Strengths and Limitations
+This study has some strengths. It is the first study that examined the association between
+gastroenteritis and temperature among FDPs. Although health challenges arising from vulnerability
+and exposure to climatic conditions in FDP camps are becoming increasingly concerning,60,61 reports
+examining the association between environmental factors and the health conditions at camp sites
+are still relatively scarce. Although there is 1 study in Ethiopia that examined the cross-sectional
+association between gastroenteritis and diarrhea among displaced populations,62 the time-
+unadjusted results may prove to have limited interpretation due to the cross-sectional nature of the
+study. In contrast, our study provides, apart from an increased statistical power due to an increased
+number of observations, a more robust examination of the associations of temperature with
+gastroenteritis after adjusting for temporally changing, be it short-term or long-term, trends that may
+confound the association.
+This study also has some limitations. Although our study has provided an in-depth examination
+of the association between temperature and risk of gastroenteritis in FDP camps, the results of this
+study are limited to the context of Rohingya camps. Living conditions, such as the presence or
+absence of a sanitary environment, as well as the existing vulnerability of the population, may vary
+between camps, which may modify the association.60,63 Similarly, due to the absence of camp-
+specific data, other potential socioeconomic covariates that could influence the association,64,65
+particularly water, sanitation, and hygiene factors (such as the type of sanitation facility, accessibility
+to clean water resources, and water treatment practices), were not adjusted in the analysis.
+Individual-level data, such as comorbidities, were also lacking. These variabilities, spatial, time
+varying, and time invariant, when included in the analyses, would provide a better understanding of
+the temperature-gastroenteritis association.
+Also, because the health outcome data in this study are derived from symptom-based registries,
+examination and comparison with other pathogen-specific studies are limited. Likewise, the use of
+JAMA Network Open | Environmental Health
+Air Temperature and Gastroenteritis in Bangladesh Refugee Camps
+JAMA Network Open. 2025;8(4):e255768. doi:10.1001/jamanetworkopen.2025.5768
+(Reprinted)
+April 18, 2025
+8/13
+Downloaded from jamanetwork.com by guest on 05/15/2025
+
+predetermined grouping, such as age, made it not viable to do age-specific analysis. A previous study
+among Rohingya refugees by Hossain and colleagues66 revealed that bacterial and viral pathogens
+of gastroenteritis varied across age groups. This finding suggests that age-specific characteristics or
+behaviors may be associated with the risk of gastroenteritis and its potential temperature-related
+effects; thus, future studies would benefit if anonymized data could be obtained per visit.
+Furthermore, because this is a vulnerable population–specific study, comparison of the temperature-
+gastroenteritis risk with that of the host and general populations is a noteworthy topic that remains
+to be explored at a later time subject to data availability.
+Contrary to expectations, there were fewer cases of gastroenteritis in the population younger
+than 5 years than in the population 5 years or older, which may be due to the dispersed access of the
+population younger than 5 years to other health facilities apart from those in the study. There are
+other health facilities that are operating concurrently with the UNCHR clinics that are mostly donor
+operated. There is potential that the cases that were reported in the other clinics had more patients
+younger than 5 years than the UNCHR clinics. However, due to the nature of these clinics, with most
+of them having ceased to exist due to discontinuation of funding during the COVID-19 pandemic, we
+were not able to fully examine the effect of this selection bias on the current association.
+Last, the data of 2 clinics in Cox’s Bazar were used. Health data were collected across multiple
+clinics by multiple camps and organizations. However, there were only 2 datasets collected from 2
+clinics organized by the government of Bangladesh continuously over 3 years, due to the loss of
+temporary clinics and restrictions on internal and external movement imposed by the COVID-19
+pandemic.67 Increasing the number of camp sites, subject to data availability, would be ideal in
+further providing more robust risk function shapes.
+Conclusions
+In this cross-sectional study, air temperature was found to be associated with gastroenteritis, with
+risks noted to be higher at lower temperatures among FDPs. As the number of FDPs will
+prospectively increase in the future, determining the extent of how weather-related factors are
+associated with their health conditions is an important milestone in climate proofing the forcibly
+displaced camp’s health response.
+ARTICLE INFORMATION
+Accepted for Publication: February 15, 2025.
+Published: April 18, 2025. doi:10.1001/jamanetworkopen.2025.5768
+Open Access: This is an open access article distributed under the terms of the CC-BY License. © 2025 Takata T
+et al. JAMA Network Open.
+Corresponding Author: Xerxes Seposo, PhD, Department of Hygiene, Faculty of Medicine, Graduate School of
+Medicine, Hokkaido University, Kita 15, Nishi 7, Kita-ku, Sapporo, 060-8638, Japan (seposo.xerxestesro@pop.med.
+hokudai.ac.jp).
+Author Affiliations: Department of Hygiene, Faculty of Medicine, Graduate School of Medicine, Hokkaido
+University, Sapporo, Japan (Takata, Seposo, Ueda); School of Tropical Medicine and Global Health, Nagasaki
+University, Nagasaki, Japan (Seposo, Hossain); Ateneo Center for Research and Innovation, Ateneo School of
+Medicine and Public Health, Ateneo de Manila University, Pasig, Philippines (Seposo); Nutrition and Clinical
+Services Division, International Centre for Diarrhoeal Diseases Research, Bangladesh, Dhaka,
+Bangladesh (Hossain).
+Author Contributions: Dr Seposo had full access to all of the data in the study and takes responsibility for the
+integrity of the data and the accuracy of the data analysis. Mr Takata and Dr Seposo are co–first authors.
+Concept and design: Takata, Seposo.
+Acquisition, analysis, or interpretation of data: All authors.
+Drafting of the manuscript: Takata, Seposo, Hossain.
+JAMA Network Open | Environmental Health
+Air Temperature and Gastroenteritis in Bangladesh Refugee Camps
+JAMA Network Open. 2025;8(4):e255768. doi:10.1001/jamanetworkopen.2025.5768
+(Reprinted)
+April 18, 2025
+9/13
+Downloaded from jamanetwork.com by guest on 05/15/2025
+
+Critical review of the manuscript for important intellectual content: Seposo, Hossain, Ueda.
+Statistical analysis: Takata, Seposo, Hossain.
+Supervision: Ueda.
+Conflict of Interest Disclosures: None reported.
+Funding/Support: This study is supported by the Environment Research and Technology Development Fund S-20
+(JPMEERF21S12006), the 1-2307 (JPMEERF20231007) of the Environmental Restoration and Conservation
+Agency provided by the Ministry of Environment of Japan, and Japan Society for the Promotion of Science
+KAKENHI grant 22K17374.
+Role of the Funder/Sponsor: The funders had no role in the design and conduct of the study; collection,
+management, analysis, and interpretation of the data; preparation, review, or approval of the manuscript; and
+decision to submit the manuscript for publication.
+Data Sharing Statement: See Supplement 2.
+Additional Contributions: We would like to acknowledge the assistance of Microsoft’s Bing Copilot (free version;
+June-October 2023) in proofreading this manuscript. However, it is important to note that all ideas, manuscript
+structure, and analyses presented herein are the sole work of the researchers. The authors assume full
+responsibility for upholding the integrity of the content presented in this manuscript.
+REFERENCES
+1. Global trends: forced displacement in 2022. United Nations High Commissioner for Refugees. June 14, 2023.
+Accessed July 10, 2024. https://www.unhcr.org/sites/default/files/2023-06/global-trends-report-2022.pdf
+2. Friedrich HK, Van den Hoek J. Breaking ground: automated disturbance detection with Landsat time series
+captures rapid refugee settlement establishment and growth in North Uganda. Comput Environ Urban. 2020;82:
+101499. doi:10.1016/j.compenvurbsys.2020.101499
+3. Over one billion people at threat of being displaced by 2050 due to environmental change, conflict and civil
+unrest. Institute for Economics & Peace. September 9, 2020. Accessed July 15, 2024. https://www.
+economicsandpeace.org/wp-content/uploads/2020/09/Ecological-Threat-Register-Press-Release-27.08-
+FINAL.pdf
+4. Madi F, Ismail H, Fouad FM, et al. Death, dying, and end-of-life experiences among refugees: a scoping review.
+J Palliat Care. 2019;34(2):139-144. doi:10.1177/0825859718812770
+5. Rosewell A, Clark G, Mabong P, et al. Concurrent outbreaks of cholera and peripheral neuropathy associated
+with high mortality among persons internally displaced by a volcanic eruption. PLoS One. 2013;8(9):e72566. doi:
+10.1371/journal.pone.0072566
+6. Kiragu E, Rosi AL, Morris T. States of denial: a review of UNHCR’s response to the protracted situation of
+stateless Rohingya refugees in Bangladesh. United Nations High Commissioner for Refugees, Policy Development
+and Evaluation Service. December 2011. Accessed September 10, 2024. https://www.unhcr.org/us/media/states-
+denial-review-unhcrs-response-protracted-situation-stateless-rohingya-refugees
+7. Wali N, Chen W, Rawal LB, Amanullah ASM, Renzaho AMN. Integrating human rights approaches into public
+health practices and policies to address health needs amongst Rohingya refugees in Bangladesh: a systematic
+review and meta-ethnographic analysis. Arch Public Health. 2018;76:59. doi:10.1186/s13690-018-0305-1
+8. Refugee data finder. United Nations High Commissioner for Refugees. 2021. Accessed September 15, 2024. https://
+www.unhcr.org/refugee-statistics/download/?url=60Oce1
+9. Hossain MA, Huda MN, Ullah AKMA, Renzaho A. Risk factors, contemporary challenges and psychological well-
+being of the Rohingya refugees in Bangladesh: policy implications. Int J Health Plann Manage. 2022;37(4):
+1912-1917. doi:10.1002/hpm.3472
+10. Rohingya refugee response: WFP Bangladesh information booklet. World Food Programme. April 2022.
+Accessed November 28, 2023. https://reliefweb.int/attachments/322831eb-950c-458b-bc92-22e9a86e3f42/
+2022.04%20CXB%20Q1%20Infobook.pdf
+11. Rashid R, Uddin AMS, Nu PC, et al. A descriptive study of Forcefully Displaced Myanmar Nationals (FDMN)
+presenting for care at public health sector hospitals in Bangladesh. Glob Health Action. 2021;14(1):1968124. doi:10.
+1080/16549716.2021.1968124
+12. Mahmud ZH, Islam MS, Imran KM, et al. Occurrence of Escherichia coli and faecal coliforms in drinking water at
+source and household point-of-use in Rohingya camps, Bangladesh. Gut Pathog. 2019;11(1):52. doi:10.1186/
+s13099-019-0333-6
+13. Carlton EJ, Woster AP, DeWitt P, Goldstein RS, Levy K. A systematic review and meta-analysis of ambient
+temperature and diarrhoeal diseases. Int J Epidemiol. 2016;45(1):117-130. doi:10.1093/ije/dyv296
+JAMA Network Open | Environmental Health
+Air Temperature and Gastroenteritis in Bangladesh Refugee Camps
+JAMA Network Open. 2025;8(4):e255768. doi:10.1001/jamanetworkopen.2025.5768
+(Reprinted)
+April 18, 2025
+10/13
+Downloaded from jamanetwork.com by guest on 05/15/2025
+
+14. Chua PLC, Ng CFS, Tobias A, Seposo XT, Hashizume M. Associations between ambient temperature and enteric
+infections by pathogen: a systematic review and meta-analysis. Lancet Planet Health. 2022;6(3):e202-e218. doi:
+10.1016/S2542-5196(22)00003-1
+15. Sung J, Cheong HK, Kwon HJ, Kim JH. Pathogen-specific response of infectious gastroenteritis to ambient
+temperature: National surveillance data in the Republic of Korea, 2015-2019. Int J Hyg Environ Health. 2022;240:
+113924. doi:10.1016/j.ijheh.2022.113924
+16. Rohingya refugee response/Bangladesh: age and gender breakdown by camp. United Nations High
+Commissioner for Refugees. 2020. Accessed February 1, 2025. https://data.unhcr.org/ar/documents/
+download/109211
+17. District Health Information Software 2 (DHIS2). University of Oslo. Accessed March 3, 2025. https://dhis2.org/
+18. Ministry of Health and Family Welfare of the Bangladesh Government. Accessed March 3, 2025. https://old.
+dghs.gov.bd/index.php/bd/
+19. Diarrhoeal disease. World Health Organization. 2017. Accessed November 29, 2023. https://www.who.int/
+news-room/fact-sheets/detail/diarrhoeal-disease
+20. Climate reanalysis. Copernicus. Accessed March 3, 2025. https://climate.copernicus.eu/climate-reanalysis
+21. Hashizume M, Armstrong B, Hajat S, et al. Association between climate variability and hospital visits for
+non-cholera diarrhoea in Bangladesh: effects and vulnerable groups. Int J Epidemiol. 2007;36(5):1030-1037. doi:
+10.1093/ije/dym148
+22. Protection factsheet & dashboard, UNHCR, Bangladesh, Cox’s Bazar—as of December 2020. United Nations
+High Commissioner for Refugees. 2021. Accessed February 1, 2025. https://data.unhcr.org/en/documents/
+details/84918
+23. Public health during COVID-19. United Nations High Commissioner for Refugees. 2024. Accessed December
+28, 2024. https://www.unhcr.org/my/what-we-do/safeguard-human-rights/public-health/public-health-during-
+covid-19
+24. WHO Director-General’s opening remarks at the media briefing on COVID-19—11 March 2020. World Health
+Organization. 2020. Accessed 23 October, 2023. https://www.who.int/director-general/speeches/detail/who-
+director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020
+25. Gasparrini A, Guo Y, Hashizume M, et al. Mortality risk attributable to high and low ambient temperature:
+a multicountry observational study. Lancet. 2015;386(9991):369-375. doi:10.1016/S0140-6736(14)62114-0
+26. Gasparrini A. Distributed lag linear and non-linear models in R: the package dlnm. J Stat Softw. 2011;43
+(8):1-20. doi:10.18637/jss.v043.i08
+27. Gasparrini A, Armstrong B, Kenward MG. Distributed lag non-linear models. Stat Med. 2010;29(21):
+2224-2234. doi:10.1002/sim.3940
+28. Chua PLC, Ng CFS, Madaniyazi L, et al. Projecting temperature-attributable mortality and hospital admissions
+due to enteric infections in the Philippines. Environ Health Perspect. 2022;130(2):27011. doi:10.1289/EHP9324
+29. Onozuka D, Hashizume M, Hagihara A. Effects of weather variability on infectious gastroenteritis. Epidemiol
+Infect. 2010;138(2):236-243. doi:10.1017/S0950268809990574
+30. Onozuka D, Hashizume M. Weather variability and paediatric infectious gastroenteritis. Epidemiol Infect. 2011;
+139(9):1369-1378. doi:10.1017/S0950268810002451
+31. Wang H, Di B, Zhang T, et al. Association of meteorological factors with infectious diarrhea incidence in
+Guangzhou, southern China: A time-series study (2006-2017). Sci Total Environ. 2019;672:7-15. doi:10.1016/j.
+scitotenv.2019.03.330
+32. Onozuka D, Gasparrini A, Sera F, Hashizume M, Honda Y. Modeling future projections of temperature-related
+excess morbidity due to infectious gastroenteritis under climate change conditions in Japan. Environ Health
+Perspect. 2019;127(7):77006. doi:10.1289/EHP4731
+33. Gasparrini A, Armstrong B. Reducing and meta-analysing estimates from distributed lag non-linear models.
+BMC Med Res Methodol. 2013;13(1):1-10. doi:10.1186/1471-2288-13-1
+34. Zhou X, Zhou Y, Chen R, Ma W, Deng H, Kan H. High temperature as a risk factor for infectious diarrhea in
+Shanghai, China. J Epidemiol. 2013;23(6):418-423. doi:10.2188/jea.JE20130012
+35. Phung D, Huang C, Rutherford S, et al. Association between climate factors and diarrhoea in a Mekong Delta
+area. Int J Biometeorol. 2015;59(9):1321-1331. doi:10.1007/s00484-014-0942-1
+36. Rahaman MR, Dear K, Satter SM, et al. Short-term effects of climate variability on childhood diarrhoea in
+Bangladesh: multi-site time-series regression analysis. Int J Environ Res Public Health. 2023;20(13):6279. doi:10.
+3390/ijerph20136279
+JAMA Network Open | Environmental Health
+Air Temperature and Gastroenteritis in Bangladesh Refugee Camps
+JAMA Network Open. 2025;8(4):e255768. doi:10.1001/jamanetworkopen.2025.5768
+(Reprinted)
+April 18, 2025
+11/13
+Downloaded from jamanetwork.com by guest on 05/15/2025
+
+37. Horn LM, Hajat A, Sheppard L, et al. Association between precipitation and diarrheal disease in Mozambique.
+Int J Environ Res Public Health. 2018;15(4):709. doi:10.3390/ijerph15040709
+38. Kunene Z, Kapwata T, Mathee A, et al. Exploring the association between ambient temperature and daily
+hospital admissions for diarrhea in Mopani District, Limpopo Province, South Africa. Healthcare (Basel). 2023;11
+(9):1251. doi:10.3390/healthcare11091251
+39. Musengimana G, Mukinda FK, Machekano R, Mahomed H. Temperature variability and occurrence of
+diarrhoea in children under five-years-old in Cape Town metropolitan sub-districts. Int J Environ Res Public Health.
+2016;13(9):859. doi:10.3390/ijerph13090859
+40. Checkley W, Epstein LD, Gilman RH, et al. Effect of El Niño and ambient temperature on hospital admissions
+for diarrhoeal diseases in Peruvian children. Lancet. 2000;355(9202):442-450. doi:10.1016/S0140-6736(00)
+82010-3
+41. Delahoy MJ, Cárcamo C, Huerta A, et al. Meteorological factors and childhood diarrhea in Peru, 2005-2015:
+a time series analysis of historic associations, with implications for climate change. Environ Health. 2021;20(1):22.
+doi:10.1186/s12940-021-00703-4
+42. Singh RB, Hales S, de Wet N, Raj R, Hearnden M, Weinstein P. The influence of climate variation and change on
+diarrheal disease in the Pacific Islands. Environ Health Perspect. 2001;109(2):155-159. doi:10.1289/ehp.01109155
+43. Wang HT, Liu ZD, Lao JH, Zhao Z, Jiang BF. Lag effect and influencing factors of temperature on other
+infectious diarrhea in Zhejiang province. Article in Chinese. Zhonghua Liu Xing Bing Xue Za Zhi. 2019;40(8):
+960-964. doi:10.3760/cma.j.issn.0254-6450.2019.08.016
+44. Wang Q, Zhao Q, Wang G, et al. The association between ambient temperature and clinical visits for
+inflammation-related diseases in rural areas in China. Environ Pollut. 2020;261:114128. doi:10.1016/j.envpol.2020.
+114128
+45. Wang H, Liu Z, Xiang J, et al. Effect of ambient temperatures on category C notifiable infectious diarrhea in
+China: an analysis of national surveillance data. Sci Total Environ. 2021;759:143557. doi:10.1016/j.scitotenv.2020.
+143557
+46. Morral-Puigmal C, Martínez-Solanas È, Villanueva CM, Basagaña X. Weather and gastrointestinal disease in
+Spain: A retrospective time series regression study. Environ Int. 2018;121(pt 1):649-657. doi:10.1016/j.envint.2018.
+10.003
+47. Bronikowski AM, Bennett AF, Lenski RE. Evolutionary adaptation to temperature: VIII, effects of temperature
+on growth rate in natural isolates of Escherichia coli and Salmonella enterica from different thermal
+environments. Evolution. 2001;55(1):33-40. doi:10.1554/0014-3820(2001)055[0033:EATTVE]2.0.CO;2
+48. El-Gayar K, El-Kholy I, Abd-Elmonem Y, Abushady H. Application of Salmonella typhi’s outer membrane (OMP)
+in diagnosis of typhoid. Int J Curr Res. 2013;5(8):2037-2042. Accessed February 25, 2025. https://journalcra.com/
+article/application-salmonella-typhi%E2%80%99s-outer-membrane-omp-diagnosis-typhoid
+49. Lampel KA. Shigella. In: Juneja VK, Sofos JN, eds. Pathogens and Toxins in Foods: Challenges and
+Interventions. Wiley; 2009:131-145.
+50. Duffy L, Dykes GA. Growth temperature of four Campylobacter jejuni strains influences their subsequent
+survival in food and water. Lett Appl Microbiol. 2006;43(6):596-601. doi:10.1111/j.1472-765X.2006.02019.x
+51. Kumar P, Libchaber A. Pressure and temperature dependence of growth and morphology of Escherichia coli:
+experiments and stochastic model. Biophys J. 2013;105(3):783-793. doi:10.1016/j.bpj.2013.06.029
+52. Hellberg RS, Chu E. Effects of climate change on the persistence and dispersal of foodborne bacterial
+pathogens in the outdoor environment: a review. Crit Rev Microbiol. 2016;42(4):548-572. doi:10.3109/1040841X.
+2014.972335
+53. Liu C, Hofstra N, Franz E. Impacts of climate change on the microbial safety of pre-harvest leafy green
+vegetables as indicated by Escherichia coli O157 and Salmonella spp. Int J Food Microbiol. 2013;163(2-3):119-128.
+doi:10.1016/j.ijfoodmicro.2013.02.026
+54. Pachepsky YA, Blaustein RA, Whelan G, Shelton DR. Comparing temperature effects on Escherichia coli,
+Salmonella, and Enterococcus survival in surface waters. Lett Appl Microbiol. 2014;59(3):278-283. doi:10.1111/
+lam.12272
+55. Sterk A, Schijven J, de Nijs T, de Roda Husman AM. Direct and indirect effects of climate change on the risk of
+infection by water-transmitted pathogens. Environ Sci Technol. 2013;47(22):12648-12660. doi:10.1021/es403549s
+56. Rzeżutka A, Cook N. Survival of human enteric viruses in the environment and food. FEMS Microbiol Rev.
+2004;28(4):441-453. doi:10.1016/j.femsre.2004.02.001
+57. Sánchez G, Bosch A. Survival of enteric viruses in the environment and food. In: Goyal SM, Cannon JL, eds.
+Viruses in Foods. Springer; 2016:367-392.
+JAMA Network Open | Environmental Health
+Air Temperature and Gastroenteritis in Bangladesh Refugee Camps
+JAMA Network Open. 2025;8(4):e255768. doi:10.1001/jamanetworkopen.2025.5768
+(Reprinted)
+April 18, 2025
+12/13
+Downloaded from jamanetwork.com by guest on 05/15/2025
+
+58. Lee SJ, Si J, Yun HS, Ko G. Effect of temperature and relative humidity on the survival of foodborne viruses
+during food storage. Appl Environ Microbiol. 2015;81(6):2075-2081. doi:10.1128/AEM.04093-14
+59. Zhu S, Barnes C, Bhar S, et al. Survival of human norovirus surrogates in water upon exposure to thermal and
+non-thermal antiviral treatments. Viruses. 2020;12(4):461. doi:10.3390/v12040461
+60. Mitu K, Jones N, Vintges J, Devonald M. Climate risks and truncated opportunities: how do environmental
+challenges intersect with economic and social disadvantages for Rohingya adolescents in Bangladesh?
+Sustainability. 2022;14(8):4466. doi:10.3390/su14084466
+61. Owen M, Kruczkiewicz A, Van Den Hoek J. Indexing climatic and environmental exposure of refugee camps
+with a case study in East Africa. Sci Rep. 2023;13(1):7533. doi:10.1038/s41598-023-31140-7
+62. Mekonnen GK, Alemu BM, Mulat W, Sahilu G, Kloos H. Risk factors for acute childhood diarrhea: a cross-
+sectional study comparing refugee camps and host communities in Gambella Region, Ethiopia. Travel Med Infect
+Dis. 2019;31:101385. doi:10.1016/j.tmaid.2019.02.003
+63. Faruque A, Alam B, Nahar B, et al. Water, sanitation, and hygiene (WASH) practices and outreach services in
+settlements for Rohingya population in Cox’s Bazar, Bangladesh, 2018–2021. Int J Environ Res Public Health. 2022;
+19(15):9635. doi:10.3390/ijerph19159635
+64. Ante-Testard PA, Rerolle F, Nguyen AT, et al. WASH interventions and child diarrhea at the interface of climate
+and socioeconomic position in Bangladesh. Nat Commun. 2024;15(1):1556. doi:10.1038/s41467-024-45624-1
+65. Dimitrova A, Gershunov A, Levy MC, Benmarhnia T. Uncovering social and environmental factors that increase
+the burden of climate-sensitive diarrheal infections on children. Proc Natl Acad Sci U S A. 2023;120(3):
+e2119409120. doi:10.1073/pnas.2119409120
+66. Hossian ME, Islam MM, Miah M, et al. Viral etiology of acute gastroenteritis among forcibly displaced Myanmar
+nationals and adjacent host population in Bangladesh. J Infect Dis. 2021;224(12)(suppl 2):S864-S872. doi:10.
+1093/infdis/jiab466
+67. Islam MM, Yunus MY. Rohingya refugees at high risk of COVID-19 in Bangladesh. Lancet Glob Health. 2020;8
+(8):e993-e994. doi:10.1016/S2214-109X(20)30282-5
+SUPPLEMENT 1.
+eFigure 1. Map of Cox’s Bazar (Right: Enlargement) in Bangladesh (Left), the Study Area
+eFigure 2. Correlation of Daily Mean Temperatures Between NOAA Monitoring Data and ERA5-Land Reanalysis
+Data at Shah Amanat International Airport, Using Date and Temperature With Generalized Linear Models for NOAA
+and ERA5-Land Each Daily Mean Temperature Data
+eFigure 3. Bar Plots for Each Covariate
+eFigure 4. Residual Plots in Generarized Linear Model With DLNM to Analyze Association Between Temperature
+and Gastroenteritis
+eFigure 5. Temperature-Gastroenteritis Association Displayed the Bidimensional Surface of the Fitted Relative
+Risk (RR) in a 3-D Graph, Predicted for the Grid of Temperature and Lag Values
+eTable 1. The qAIC for the Number of Knots in Cross-Basis Function of Temperature in DLNM
+eTable 2. The qAIC for the Maximum Lag Days in Cross-Basis Function of Temperature in DLNM
+eTable 3. The qAIC for the Degree of Freedom in Natural-Cubic Spline of Precipitation
+eTable 4. The qAIC for the Degree of Freedom/Year in Natural-Cubic Spline of Seasonality
+eReferences.
+SUPPLEMENT 2.
+Data Sharing Statement
+JAMA Network Open | Environmental Health
+Air Temperature and Gastroenteritis in Bangladesh Refugee Camps
+JAMA Network Open. 2025;8(4):e255768. doi:10.1001/jamanetworkopen.2025.5768
+(Reprinted)
+April 18, 2025
+13/13
+Downloaded from jamanetwork.com by guest on 05/15/2025

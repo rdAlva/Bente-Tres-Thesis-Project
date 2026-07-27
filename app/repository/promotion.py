@@ -1,12 +1,7 @@
 import pandas as pd
-
-from app.nlp.similarity import rank_document_pairs
-from app.nlp.vectorizer import tfidf_matrix, filenames
-from app.nlp.ngrams import corpus
-from sklearn.metrics.pairwise import cosine_similarity
 from pathlib import Path
 import shutil
-
+from app.nlp.similarity import compare_uploaded_document
 
 # Path to files
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -20,105 +15,134 @@ destinationFlag_path = SCRIPT_DIR.parent.parent / "corpus" / "review"
 destinationProm_path = SCRIPT_DIR.parent.parent / "corpus" / "promoted"
 source_logs = SCRIPT_DIR.parent.parent / "logs"
 
-# set instructor threshold
-threshold = 0.11
+# THRESHOLD VALUE
+threshold = 0.35
 
-# get similarity matrix
-similarity_matrix = cosine_similarity(tfidf_matrix)
+def run_promotion(
+    uploaded_filename,
+    uploaded_processed,
+    uploaded_original,
 
-
-# get ranked results
-all_pairs, flagged, to_promote,similarity_report ,= rank_document_pairs(
-    filenames,
-    similarity_matrix,
-    corpus,
+    promoted_filenames,
+    promoted_processed,
+    promoted_original,
+):
+    (
+    all_pairs,
+    flagged,
+    to_promote,
+    similarity_report,
+    uploaded_document_html,
+    repository_document_html,
+) = compare_uploaded_document(
+    uploaded_filename,
+    uploaded_processed,
+    uploaded_original,
+    promoted_filenames,
+    promoted_processed,
+    promoted_original,
     threshold,
 )
+    print("\n" + "=" * 70)
+    print(f"SUMMARY FOR: {uploaded_filename}")
+    print("=" * 70)
 
-# Save CSV to logs folder
-df_results = pd.DataFrame(all_pairs)
-df_results.to_csv(
-    source_logs / "DocumentSimilarity_results.csv",
-    index=False)
+    print(f"\nFLAGGED PAIRS ({len(flagged)} found):")
 
-df_sentences = pd.DataFrame(similarity_report)
-df_sentences.to_csv(
-    source_logs / "SimilarSentencesReport.csv",
-    index=False
+    for pair in flagged:
+
+        print(
+            f"  Rank {pair['rank']}: "
+            f"{pair['doc2']} "
+            f"→ {pair['combined_score']} "
+            f"({pair['decision']})"
+        )
+
+    print(f"\nTO PROMOTE ({len(to_promote)} found):")
+
+    for pair in to_promote:
+
+        print(
+            f"  Rank {pair['rank']}: "
+            f"{pair['doc2']} "
+            f"→ {pair['combined_score']} "
+            f"({pair['decision']})"
+        )
+
+    print("=" * 70)
+
+    # Save CSV to logs folder
+    df_results = pd.DataFrame(all_pairs)
+    results_file = source_logs / "DocumentSimilarity_results.csv"
+
+    df_results.to_csv(
+        results_file,
+        mode="a",
+        header=not results_file.exists(),
+        index=False
     )
 
-# Prevent moving the same file twice
-moved_files = set()
+    df_sentences = pd.DataFrame(similarity_report)
+    sentences_file = source_logs / "SimilarSentencesReport.csv"
 
-print(f"FLAGGED PAIRS ({len(flagged)} found):")
-
-for pair in flagged:
-    print(
-        f"  Rank {pair['rank']}: "
-        f"{pair['doc1']} vs {pair['doc2']} "
-        f"→ {pair['combined_score']} ({pair['decision']})"
+    df_sentences.to_csv(
+        sentences_file,
+        mode="a",
+        header=not sentences_file.exists(),
+        index=False
     )
 
-    for filename in [pair['doc1'], pair['doc2']]:
+    return {
+        "uploaded_filename": uploaded_filename,
+        "all_pairs": all_pairs,
+        "flagged": flagged,
+        "to_promote": to_promote,
+        "similarity_report": similarity_report,
+        "uploaded_document_html": uploaded_document_html,
+        "repository_document_html": repository_document_html,
+    }
 
-        if filename in moved_files:
-            continue
+def move_to_promoted(filename):
 
-        txt_file = source_pathTxt / filename
+    txt_file = source_pathTxt / filename
 
-        if txt_file.is_file():
-            shutil.move(
-                str(txt_file),
-                str(destinationFlag_path / filename)
-            )
-            print(f"Moved TXT: {filename}")
+    if txt_file.exists():
+        shutil.move(
+            str(txt_file),
+            str(destinationProm_path / filename)
+        )
+        print(f"Promoted TXT: {filename}")
 
-        pdf_name = Path(filename).stem + ".pdf"
-        pdf_file = source_pathPdf / pdf_name
+    pdf_name = Path(filename).stem + ".pdf"
+    pdf_file = source_pathPdf / pdf_name
 
-        if pdf_file.is_file():
-            shutil.move(
-                str(pdf_file),
-                str(destinationFlag_path / pdf_name)
-            )
-            print(f"Moved PDF: {pdf_name}")
+    if pdf_file.exists():
+        shutil.move(
+            str(pdf_file),
+            str(destinationProm_path / pdf_name)
+        )
+        print(f"Promoted PDF: {pdf_name}")
 
-        moved_files.add(filename)
+def move_to_review(filename):
+
+    txt_file = source_pathTxt / filename
+
+    if txt_file.exists():
+        shutil.move(
+            str(txt_file),
+            str(destinationFlag_path / filename)
+        )
+        print(f"Moved TXT: {filename}")
+
+    pdf_name = Path(filename).stem + ".pdf"
+    pdf_file = source_pathPdf / pdf_name
+
+    if pdf_file.exists():
+        shutil.move(
+            str(pdf_file),
+            str(destinationFlag_path / pdf_name)
+        )
+        print(f"Moved PDF: {pdf_name}")
 
 
-# print pairs to promote
-print(f"\nTO PROMOTE ({len(to_promote)} documents):")
-
-for pair in to_promote:
-    print(
-        f"  Rank {pair['rank']}: "
-        f"{pair['doc1']} vs {pair['doc2']} "
-        f"→ {pair['combined_score']} ({pair['decision']})"
-    )
-
-    for filename in [pair['doc1'], pair['doc2']]:
-
-        if filename in moved_files:
-            continue
-
-        txt_file = source_pathTxt / filename
-
-        if txt_file.is_file():
-            shutil.move(
-                str(txt_file),
-                str(destinationProm_path / filename)
-            )
-            print(f"Promoted TXT: {filename}")
-
-        pdf_name = Path(filename).stem + ".pdf"
-        pdf_file = source_pathPdf / pdf_name
-
-        if pdf_file.is_file():
-            shutil.move(
-                str(pdf_file),
-                str(destinationProm_path / pdf_name)
-            )
-            print(f"Promoted PDF: {pdf_name}")
-
-        moved_files.add(filename)
 

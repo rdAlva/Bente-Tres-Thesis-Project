@@ -1,0 +1,70 @@
+Mendoza, Gerail C.  
+ICT – 101  
+Module 5 Unit 1 Journal  
+ 
+1. Discuss the 3 pillars of Information Assurance in relation to safeguarding information 
+or data  
+ 
+         Confidentiality - It guarantees that only authorized people can access information.    
+This includes protecting the information from illegal access, disclosure, or theft. It is 
+essential for protecting delicate information, such as private information, financial 
+information, or confidential data.  
+ 
+          Integrity – assures the truthfulness, precision, and integrity of the information. In 
+other words, data must be safeguarded against illegal change, deletion, or corruption. It is 
+crucial for preserving the accuracy and credibility of information. 
+ 
+          Availability - guarantees that data is available and useable when required. This entails 
+safeguarding data against interruptions, outages, and denial-of-service assaults. It is crucial 
+for making sure that authorized users get prompt access to the data they require. 
+ 
+2. Briefly explain the attack methods on how these 3 pillars can be compromised. 
+ 
+ 
+Hacking and Data leaks compromises Confidentiality, these individuals gain access 
+to sensitive data by exploiting system vulnerabilities or using stolen credentials. 
+Confidential information is accidentally or intentionally released to unauthorized parties.  
+ 
+Malware Infections and Unauthorized Changes compromises Integrity, attackers 
+modify, delete, or corrupt data, compromising its accuracy and reliability and Unauthorized 
+individuals make unauthorized modifications to data, compromising its integrity. 
+ 
+Ransomware Attacks and Hardware Failures compromises Availability, attackers 
+encrypt data and demand payment for decryption, rendering information inaccessible and 
+Hardware malfunctions or outages can disrupt access to information systems and data. 
+ 
+
+3. Explain how Authentication Authorization and Accounting contribute to Information 
+assurance 
+ 
+ 
+By implementing access control, tracking user behavior, and upholding 
+responsibility, the crucial architecture of authentication, authorization, and accounting 
+(AAA) greatly helps to information assurance (IA).  
+Authentication, it confirms the user identities and limiting access to those who 
+have been given permission. This procedure promotes availability by ensuring that 
+authorized users may access resources without being hindered, protects integrity by 
+lowering the danger of data tampering, and enhances confidentiality by preventing 
+unauthorized access to sensitive data. 
+ For Authorization, it limits the users to only the information they are authorized 
+to view or alter by specifying access privileges. This approach ensures availability by 
+making sure resources are distributed properly, upholds integrity by preventing 
+unauthorized actions, and enforces confidentiality by restricting access to sensitive data.  
+For Accounting, it promotes availability by proactively identifying potential 
+performance issues that could influence system uptime, ensures integrity by detecting 
+unauthorized changes, and enhances confidentiality by enabling the detection of 
+unwanted access attempts. 
+ Organizations may successfully safeguard their information assets, uphold the 
+confidentiality, integrity, and availability of data, and improve overall information 
+assurance by employing AAA techniques. 
+ 
+4. Think of an asset that is in your possessions or an application that you use that holds 
+confidential information. What security measures or practices have you done to 
+safeguard your data? 
+ 
+ 
+I would’ve done Data Encryption, use Strong passwords and Access Controls to 
+protect my Data. I work to safeguard the confidentiality, integrity, and accessibility of the 
+information entrusted to me by putting these security measures into place and abiding by 
+best practices. 
+ 

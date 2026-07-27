@@ -1,16 +1,11 @@
-import os
-from pathlib import Path
 import re
-
-import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from app.nlp.vectorizer import tfidf_matrix
-from app.nlp.vectorizer import filenames
-from app.nlp.ngrams import generate_ngrams, corpus , filenames
+from app.nlp.ngrams import generate_ngrams
+import html
 
-#Cosine-Similarity
-similarity = cosine_similarity(tfidf_matrix)
+def compute_similarity(tfidf_matrix):
+    return cosine_similarity(tfidf_matrix)
 
 def cosine_similarity_score(similarity_score):
     if similarity_score == 1.0:
@@ -24,42 +19,28 @@ def cosine_similarity_score(similarity_score):
     elif similarity_score >= 0.0:
         return "no similarity"
     else:
-        print("Error")
+        return "Error"
 
-def jaccard_similarity1(txt1, txt2, n=1):
+def jaccard_similarity(txt1, txt2, n):
     ngrams1 = set(generate_ngrams(txt1, n))
     ngrams2 = set(generate_ngrams(txt2, n))
 
-    intersection = len(ngrams1.intersection(ngrams2))
-    union = len(ngrams1.union(ngrams2))
+    intersection = len(ngrams1 & ngrams2)
+    union = len(ngrams1 | ngrams2)
 
     if union == 0:
-        return 0
-
-    return intersection / union
-def jaccard_similarity2(txt1, txt2, n=2):
-    ngrams1 = set(generate_ngrams(txt1, n))
-    ngrams2 = set(generate_ngrams(txt2, n))
-
-    intersection = len(ngrams1.intersection(ngrams2))
-    union = len(ngrams1.union(ngrams2))
-
-    if union == 0:
-        return 0
+        return 0.0
 
     return intersection / union
 
-def jaccard_similarity3(txt1, txt2, n=3):
-    ngrams1 = set(generate_ngrams(txt1, n))
-    ngrams2 = set(generate_ngrams(txt2, n))
+def jaccard_similarity1(txt1, txt2):
+    return jaccard_similarity(txt1, txt2, 1)
 
-    intersection = len(ngrams1.intersection(ngrams2))
-    union = len(ngrams1.union(ngrams2))
+def jaccard_similarity2(txt1, txt2):
+    return jaccard_similarity(txt1, txt2, 2)
 
-    if union == 0:
-        return 0
-
-    return intersection / union
+def jaccard_similarity3(txt1, txt2):
+    return jaccard_similarity(txt1, txt2, 3)
 
 def jaccard_similarity_score(J_score):
     if 0.0 <= J_score <=0.2:
@@ -71,42 +52,171 @@ def jaccard_similarity_score(J_score):
     elif 0.8 < J_score <= 1.0:
         return "Identical"
     else:
-        print("Error")
+        return "Error"
+
+def highlight_common_words(sentence1, sentence2):
+    """
+    Highlights words appearing in both sentences.
+    Returns HTML strings.
+    """
+
+    words1 = sentence1.split()
+    words2 = sentence2.split()
+
+    common = {
+        word.lower().strip(",.;:!?()[]{}\"'")
+        for word in words1
+    } & {
+        word.lower().strip(",.;:!?()[]{}\"'")
+        for word in words2
+    }
+
+    highlighted1 = []
+
+    for word in words1:
+
+        clean = word.lower().strip(",.;:!?()[]{}\"'")
+
+        if clean in common:
+            highlighted1.append(f"<mark>{word}</mark>")
+        else:
+            highlighted1.append(word)
+
+    highlighted2 = []
+
+    for word in words2:
+
+        clean = word.lower().strip(",.;:!?()[]{}\"'")
+
+        if clean in common:
+            highlighted2.append(f"<mark>{word}</mark>")
+        else:
+            highlighted2.append(word)
+
+    return (
+        " ".join(highlighted1),
+        " ".join(highlighted2),
+    )
+
+def highlight_document(document, matched_sentences):
+    """
+    Highlights only matched sentences while preserving
+    the original document formatting.
+    """
+
+    matched = {
+        sentence.strip().lower()
+        for sentence in matched_sentences
+    }
+
+    # Split while keeping punctuation
+    parts = re.split(r'([.!?]+)', document)
+
+    html_output = []
+
+    i = 0
+
+    while i < len(parts):
+
+        sentence = parts[i]
+
+        punctuation = ""
+
+        if i + 1 < len(parts):
+
+            punctuation = parts[i + 1]
+
+        full_sentence = sentence + punctuation
+
+        normalized = sentence.strip().lower()
+
+        escaped = html.escape(full_sentence)
+
+        if normalized in matched:
+
+            html_output.append(
+
+                f'<mark class="sentence-highlight">{escaped}</mark>'
+
+            )
+
+        else:
+
+            html_output.append(escaped)
+
+        i += 2
+
+    return "".join(html_output).replace("\n", "<br>")
 
 def get_similar_sentences(doc1, doc2, threshold):
 
-    sentences1 = [s.strip() for s in re.split(r'[.!?]+', doc1) if s.strip()]
-    sentences2 = [s.strip() for s in re.split(r'[.!?]+', doc2) if s.strip()]
+    sentences1 = [
+        s.strip()
+        for s in re.split(r'[.!?]+', doc1)
+        if s.strip()
+    ]
+
+    sentences2 = [
+        s.strip()
+        for s in re.split(r'[.!?]+', doc2)
+        if s.strip()
+    ]
+
+    if not sentences1 or not sentences2:
+        return []
+
+    try:
+
+        vectorizer = TfidfVectorizer()
+
+        # OPTIMIZATION FIX
+        # all_sentences = sentences1 + sentences2
+        # tfidf = vectorizer.fit_transform(all_sentences)
+        # cosine_matrix = cosine_similarity(tfidf)
+
+        tfidf1 = vectorizer.fit_transform(sentences1)
+        tfidf2 = vectorizer.transform(sentences2)
+
+        cosine_matrix = cosine_similarity(tfidf1, tfidf2)
+
+    except ValueError:
+        return []
 
     matches = []
 
-    for s1 in sentences1:
-        for s2 in sentences2:
 
-            try:
-                vectorizer = TfidfVectorizer()
+    for i, sentence1 in enumerate(sentences1):
+        for j, sentence2 in enumerate(sentences2):
 
-                tfidf = vectorizer.fit_transform([s1, s2])
+            score = float(cosine_matrix[i][j])
 
-                score = cosine_similarity(tfidf)[0][1]
+            if score >= threshold:
 
-                if score >= threshold:
-                    matches.append({
-                        "sentence1": s1,
-                        "sentence2": s2,
-                        "score": round(score, 4)
-                    })
+                highlight1, highlight2 = highlight_common_words(
+                sentence1,
+                sentence2
+            )
 
-            except ValueError:
-                continue
+                matches.append({
 
-    return sorted(matches, key=lambda x: x["score"], reverse=True)
+                    "sentence1": sentence1,
+                    "sentence2": sentence2,
 
+                    "sentence1_html": highlight1,
+                    "sentence2_html": highlight2,
 
-SCRIPT_DIR = Path(__file__).resolve().parent
-source_logs = SCRIPT_DIR.parent.parent / "logs"
+                    "score": round(float(score),4)
 
-def rank_document_pairs(filenames, similarity_matrix,corpus, threshold ,n_gram=2):
+            })
+
+    matches.sort(
+        key=lambda x: x["score"],
+        reverse=True
+    )
+
+    return matches
+
+def rank_document_pairs(filenames, similarity_matrix,corpus, threshold):
     """
     Ranks all document pairs by combined similarity score.
     Returns flagged and non-flagged pairs separately.
@@ -119,9 +229,9 @@ def rank_document_pairs(filenames, similarity_matrix,corpus, threshold ,n_gram=2
 
             # get scores
             cosine_score = similarity_matrix[i][j]
-            j1 = jaccard_similarity1(corpus[i], corpus[j], n=1)
-            j2 = jaccard_similarity2(corpus[i], corpus[j], n=2)
-            j3 = jaccard_similarity3(corpus[i], corpus[j], n=3)
+            j1 = jaccard_similarity1(corpus[i], corpus[j])
+            j2 = jaccard_similarity2(corpus[i], corpus[j])
+            j3 = jaccard_similarity3(corpus[i], corpus[j])
 
             # combined average score
             combined_score = (cosine_score + j1 + j2 + j3) / 4
@@ -146,7 +256,9 @@ def rank_document_pairs(filenames, similarity_matrix,corpus, threshold ,n_gram=2
                         "document_2": filenames[j],
                         "sentence_similarity": match["score"],
                         "sentence_from_doc1": match["sentence1"],
-                        "sentence_from_doc2": match["sentence2"]
+                        "sentence_from_doc2": match["sentence2"],
+                        "sentence_from_doc1_html": match["sentence1_html"],
+                        "sentence_from_doc2_html": match["sentence2_html"],
                     })
 
             ranked_pairs.append({
@@ -179,36 +291,169 @@ def rank_document_pairs(filenames, similarity_matrix,corpus, threshold ,n_gram=2
 
     return ranked_pairs, flagged_pairs, non_flagged_pairs, similarity_report
 
-print(" ")
-print("Cosine-Similarity")
-for i in range(len(filenames)):
-    for j in range(i + 1, len(filenames)):
-        similarity_score = similarity[i][j]
-        result = cosine_similarity_score(similarity_score)
-        print(f"{i+1} {filenames[i]} = {j+1} {filenames[j]} => {similarity_score:.4f}")
-        print(f"RESULT: {result}")
+def compare_uploaded_document(
+    uploaded_filename,
 
-print(" ")
-print("Jaccard-Similarity UNIGRAMS")
-for i in range(len(filenames)):
-    for j in range(i + 1, len(filenames)):
-        J_score = jaccard_similarity1(corpus[i], corpus[j], n=1)
-        result = jaccard_similarity_score(J_score)
-        print(f"{i+1} {filenames[i]} = {j+1} {filenames[j]} => {J_score:.4f}")
-        print(f"RESULT: {result}")
-print(" ")
-print("Jaccard-Similarity BIGRAMS")
-for i in range(len(filenames)):
-    for j in range(i + 1, len(filenames)):
-        J_score = jaccard_similarity2(corpus[i], corpus[j], n=2)
-        result = jaccard_similarity_score(J_score)
-        print(f"{i+1} {filenames[i]} = {j+1} {filenames[j]} => {J_score:.4f}")
-        print(f"RESULT: {result}")
-print(" ")
-print("Jaccard-Similarity TRIGRAMS")
-for i in range(len(filenames)):
-    for j in range(i + 1, len(filenames)):
-        J_score = jaccard_similarity3(corpus[i], corpus[j], n=3)
-        result = jaccard_similarity_score(J_score)
-        print(f"{i+1} {filenames[i]} = {j+1} {filenames[j]} => {J_score:.4f}")
-        print(f"RESULT: {result}")
+    uploaded_processed,
+    uploaded_original,
+
+    promoted_filenames,
+
+    promoted_processed,
+    promoted_original,
+
+    threshold,
+):
+
+    ranked_pairs = []
+    similarity_report = []
+
+    processed_documents = [uploaded_processed] + promoted_processed
+
+    vectorizer = TfidfVectorizer()
+
+    tfidf_matrix = vectorizer.fit_transform(processed_documents)
+
+    similarity_matrix = compute_similarity(tfidf_matrix)
+    uploaded_unigrams = set(generate_ngrams(uploaded_processed, 1))
+    uploaded_bigrams = set(generate_ngrams(uploaded_processed, 2))
+    uploaded_trigrams = set(generate_ngrams(uploaded_processed, 3))
+
+
+    for i in range(len(promoted_processed)):
+
+        cosine_score = similarity_matrix[0][i + 1]
+
+        repo_unigrams = set(generate_ngrams(promoted_processed[i], 1))
+        repo_bigrams = set(generate_ngrams(promoted_processed[i], 2))
+        repo_trigrams = set(generate_ngrams(promoted_processed[i], 3))
+
+        j1 = len(uploaded_unigrams & repo_unigrams) / len(uploaded_unigrams | repo_unigrams) if (uploaded_unigrams | repo_unigrams) else 0
+        j2 = len(uploaded_bigrams & repo_bigrams) / len(uploaded_bigrams | repo_bigrams) if (uploaded_bigrams | repo_bigrams) else 0
+        j3 = len(uploaded_trigrams & repo_trigrams) / len(uploaded_trigrams | repo_trigrams) if (uploaded_trigrams | repo_trigrams) else 0
+
+        combined_score = (cosine_score + j1 + j2 + j3) / 4
+        print(
+            f"{uploaded_filename} vs {promoted_filenames[i]}"
+        )
+        print(
+            f"Cosine={cosine_score:.4f} "
+            f"J1={j1:.4f} "
+            f"J2={j2:.4f} "
+            f"J3={j3:.4f} "
+            f"Combined={combined_score:.4f}"
+        )
+        print("-" * 60)
+
+        if combined_score >= threshold:
+            decision = "WITHHOLD"
+            flagged = True
+        else:
+            decision = "PROMOTE"
+            flagged = False
+
+
+
+        ranked_pairs.append({
+
+            "rank": 0,
+            "repo_index": i,
+            "doc1": uploaded_filename,
+            "doc2": promoted_filenames[i],
+
+            "cosine_score": round(cosine_score, 4),
+            "jaccard_unigram": round(j1, 4),
+            "jaccard_bigram": round(j2, 4),
+            "jaccard_trigram": round(j3, 4),
+
+            "combined_score": round(combined_score, 4),
+
+            "cosine_label": cosine_similarity_score(cosine_score),
+            "jaccard_label": jaccard_similarity_score(combined_score),
+
+            "decision": decision,
+            "flagged": flagged,
+        })
+
+    ranked_pairs.sort(
+        key=lambda x: x["combined_score"],
+        reverse=True
+    )
+
+    # Assign ranks
+    for index, pair in enumerate(ranked_pairs):
+        pair["rank"] = index + 1
+
+    flagged_pairs = [
+        p for p in ranked_pairs
+        if p["flagged"]
+    ]
+
+    promoted_pairs = [
+        p for p in ranked_pairs
+        if not p["flagged"]
+    ]
+
+    # ----------------------------------------------------
+    # Only compare sentences with the BEST matching paper
+    # ----------------------------------------------------
+
+    uploaded_document_html = ""
+    repository_document_html = ""
+
+    if flagged_pairs:
+
+        top_match = flagged_pairs[0]
+
+        repo_index = top_match["repo_index"]
+
+        similar_sentences = get_similar_sentences(
+            uploaded_original,
+            promoted_original[repo_index],
+            threshold
+        )
+        matched_doc1 = [
+            m["sentence1"]
+            for m in similar_sentences
+        ]
+
+        matched_doc2 = [
+            m["sentence2"]
+            for m in similar_sentences
+        ]
+
+        uploaded_document_html = highlight_document(
+            uploaded_original,
+            matched_doc1
+        )
+
+        repository_document_html = highlight_document(
+            promoted_original[repo_index],
+            matched_doc2
+        )
+
+        for match in similar_sentences:
+
+            similarity_report.append({
+
+                "document_1": uploaded_filename,
+
+                "document_2": top_match["doc2"],
+
+                "sentence_similarity": match["score"],
+
+                "sentence_from_doc1": match["sentence1"],
+
+                "sentence_from_doc2": match["sentence2"],
+                "sentence_from_doc1_html": match["sentence1_html"],
+                "sentence_from_doc2_html": match["sentence2_html"]
+            })
+
+    return (
+        ranked_pairs,
+        flagged_pairs,
+        promoted_pairs,
+        similarity_report,
+        uploaded_document_html,
+        repository_document_html,
+    )

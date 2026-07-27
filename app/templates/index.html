@@ -1,14 +1,124 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>PDF upload FLASK WEB</h1>
-    <form method="POST" , enctype="multipart/form-data">
-      {{form.hidden_tag()}} {{form.file()}} {{form.submit()}}
+{% extends "base.html" %}
+
+{% block title %}
+HAUcademic Check
+{% endblock %}
+
+{% block content %}
+
+<div class="text-center">
+
+  <h1 class="display-5 fw-bold">
+
+    Plagiarism Detection System
+
+  </h1>
+
+  <p class="lead">
+
+    Upload one or more PDF documents for plagiarism detection.
+
+  </p>
+  <div class="mt-3">
+
+    <h6>Selected Files</h6>
+
+    <ul id="selectedFiles" class="list-group">
+
+      <li class="list-group-item text-muted">
+        No files selected.
+      </li>
+
+    </ul>
+
+  </div>
+</div>
+
+<div class="card shadow-lg mt-5">
+
+  <div class="card-body p-5">
+
+    <form method="POST" enctype="multipart/form-data">
+
+      {{ form.hidden_tag() }}
+
+      <div class="mb-4">
+        <label class="form-label fw-semibold">
+          Select PDF File(s)
+        </label>
+
+        {{ form.files(
+        class="form-control",
+        multiple=True,
+        accept=".pdf",
+        id="files"
+        ) }}
+
+        <div class="form-text">
+          Hold <strong>Ctrl</strong> to select multiple files, or
+          <strong>Shift</strong> to select a range.
+        </div>
+
+      </div>
+
+      <div class="d-grid gap-2">
+
+        {{ form.submit(
+        class="btn btn-primary btn-lg",
+        id="uploadButton"
+        ) }}
+
+        <div id="uploadStatus" class="text-center text-muted" style="display:none;">
+
+          Processing documents...
+          Please wait.
+
+        </div>
+
+      </div>
+
     </form>
-  </body>
-</html>
+
+  </div>
+
+</div>
+<script>
+
+  const fileInput = document.getElementById("files");
+  const fileList = document.getElementById("selectedFiles");
+  const uploadButton = document.getElementById("uploadButton");
+  const uploadStatus = document.getElementById("uploadStatus");
+
+  fileInput.addEventListener("change", function () {
+
+    fileList.innerHTML = "";
+
+    if (this.files.length === 0) {
+
+      fileList.innerHTML =
+        '<li class="list-group-item text-muted">No files selected.</li>';
+
+      return;
+    }
+
+    for (const file of this.files) {
+
+      fileList.innerHTML +=
+        `<li class="list-group-item">${file.name}</li>`;
+
+    }
+
+  });
+
+  document.querySelector("form").addEventListener("submit", function () {
+
+    uploadButton.disabled = true;
+
+    uploadButton.value = "Processing...";
+
+    uploadStatus.style.display = "block";
+
+  });
+
+</script>
+{% endblock %}

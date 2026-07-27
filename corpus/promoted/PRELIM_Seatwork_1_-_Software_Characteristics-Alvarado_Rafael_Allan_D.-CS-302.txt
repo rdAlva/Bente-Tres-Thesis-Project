@@ -1,0 +1,36 @@
+Rafael Allan D. Alvarado 
+CS-302 
+ 
+INSTRUCTIONS: 
+Answer the following questions concisely and supported with details, using at least 5 sentences. Use the 
+given rubric as your guide. Each answer is worth 5 points.  
+ 
+1. Provide your own real-life experience that illustrates the concept of the statement: 'Software 
+doesn't wear out.' Explain how the scenario demonstrated this principle. 
+ 
+I enjoy listening to music, which is why I always use Spotify. I have spent countless hours 
+listening to my favorite Korean and Japanese songs. Even though it has been years since I started 
+using this app, it still provides excellent service. Even though my old phone's hardware degrades, 
+this app continues to deliver the same service. This shows that software doesn’t wear out, even if 
+the hardware it runs on fails. 
+ 
+2. Among the three criteria of a good software product (operational, transitional, and 
+maintenance), which do you think is the most important for a developer/engineer to 
+consider? Explain why. 
+ 
+The operational criteria of a good software product are the most important for a developer or 
+engineer to consider because the operational aspects of the software determine whether the other 
+two criteria remain relevant. A good software product must fulfill its purpose and operate reliably. 
+Users care about its functionality more than the other two criteria. Without a solid system 
+structure, it will eventually fail or crash, especially if the user wants to transfer the product to 
+another system. They are part of the final system. They are distributed to customers as part of a 
+project or product (Operational software, n.d.). A successful software passes the operational 
+criteria and is loved by the user. 
+ 
+Reference 
+Operational software. (n.d.). ScienceDirect Topics. Elsevier. Retrieved June 24, 2025, from 
+https://www.sciencedirect.com/topics/computer-science/operational-software 
+OpenAI. ChatGPT. 24 June 2025, https://chat.openai.com/. 
+ 
+ 
+ 

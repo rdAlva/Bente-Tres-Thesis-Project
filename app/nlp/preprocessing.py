@@ -45,12 +45,13 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 directory_path = SCRIPT_DIR.parent / "utils" / "txtFileUpload"
 corpus_path = SCRIPT_DIR.parent.parent / "corpus" / "promoted"
 
-if directory_path.exists():
-    for txt_file in directory_path.glob("*.txt"):
-        tokens = preprocess_text(txt_file)
-        print(f"Processed {txt_file.name}: {len(tokens)} tokens.")
+if __name__ == "__main__":
+    if directory_path.exists():
+        for txt_file in directory_path.glob("*.txt"):
+            tokens = preprocess_text(txt_file)
+            print(f"Processed {txt_file.name}: {len(tokens)} tokens.")
 
-if corpus_path.exists():
-    for txt_file in corpus_path.glob("*.txt"):
-        tokens = preprocess_text(txt_file)
-        print(f"Processed {txt_file.name}: {len(tokens)} tokens.")
+    if corpus_path.exists():
+        for txt_file in corpus_path.glob("*.txt"):
+            tokens = preprocess_text(txt_file)
+            print(f"Processed {txt_file.name}: {len(tokens)} tokens.")

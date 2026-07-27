@@ -1,0 +1,1293 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Development Studies Faculty Publications 
+Development Studies Department 
+2022 
+Participant Use of Digital Diaries in Qualitative Research: A Strong 
+Participant Use of Digital Diaries in Qualitative Research: A Strong 
+Structuration Analysis 
+Structuration Analysis 
+Maureen L. Seguin 
+London School of Hygiene and Tropical Medicine 
+Jhaki A. Mendoza 
+University of the Philippines Manila 
+Eunice Mallari 
+University of the Philippines Manila 
+Gideon Lasco 
+Ateneo de Manila University, pdlasco@up.edu.ph 
+Arianna Maever L. Amit 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, aamit@ateneo.edu 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/dev-stud-faculty-pubs 
+ Part of the Analytical, Diagnostic and Therapeutic Techniques and Equipment Commons, Cardiology 
+Commons, and the Cardiovascular Diseases Commons 
+Custom Citation 
+Custom Citation 
+Seguin, M., Mendoza, J., Mallari, E., Lasco, G., Amit, A.M.L., Palileo-Villanueva, L.M., Palafox, B., Renedo, A., 
+McKee, M., & Balabanova, D. (2022). Participant Use of Digital Diaries in Qualitative Research: A Strong 
+Structuration Analysis. International Journal of Qualitative Methods, 21. https://doi.org/10.1177/
+16094069221124725 
+This Article is brought to you for free and open access by the Development Studies Department at Archīum Ateneo. 
+It has been accepted for inclusion in Development Studies Faculty Publications by an authorized administrator of 
+Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+Authors 
+Authors 
+Maureen L. Seguin, Jhaki A. Mendoza, Eunice Mallari, Gideon Lasco, Arianna Maever L. Amit, Lia M. 
+Palileo-Villanueva, Benjamin Palafox, Alicia Renedo, Martin McKee, and Dina Balabanova 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/dev-stud-faculty-pubs/123 
+
+Regular Article
+International Journal of Qualitative Methods
+Volume 21: 1–12
+© The Author(s) 2022
+DOI: 10.1177/16094069221124725
+journals.sagepub.com/home/ijq
+Participant Use of Digital Diaries in
+Qualitative Research: A Strong
+Structuration Analysis
+Maureen Seguin1, Jhaki Mendoza2, Eunice Mallari2, Gideon Lasco3,4,
+Arianna Maever L Amit2,5, Lia M Palileo-Villanueva2, Benjamin Palafox1, Alicia Renedo6,
+Martin McKee1, and Dina Balabanova7
+Abstract
+Lived experiences of chronic conditions are marked by ﬂuidity and change, which should be considered if care is to be truly
+patient-centered. Seeking to capture this ﬂuidity, we used digital diaries via mobile phones to communicate with hypertensive
+patients in the Philippines over approximately 12 months. This paper draws on Strong Structuration Theory to conceptualize
+the complex array of factors shaping participants’ usage (and non-usage) of the diaries, thereby offering a comprehensive
+understanding of how the diaries were perceived and used. We draw on qualitative data from 42 participants (73 baseline/
+follow-up interviews and 37 digital diaries), purposively selected from a larger pool of quantitative participants, as well as existing
+literature and our own study documents. The Philippines ‘digital divide’ presented barriers to the usage of the diaries, stemming
+from a lack of access and mobile signal especially in socioeconomically marginalized rural areas. Within this context, the sharing
+of mobile phones both enabled and constricted diary participation. Guided by Strong Structuration Theory, we observed three
+cycles of structuration evident in participants’ usage of diaries. The ﬁrst pertained to the frequency and mode of engagement. A
+low level of engagement was observed, stemming from negative or ambivalent attitudes toward texting and other factors.
+Conversely, mobile phone ‘top-ups’ enabled participation. Participant usage of the diaries as tools for monitoring hypertension
+and to request health advice comprise the second and third structuration cycles. These usages contrast with researchers’
+intended usage of the diaries and with the original brief given to participants. The conﬂict between participants’ and researchers’
+understanding of the appropriate uses of the diaries represents the dynamic ﬁeld of position-practice relations, wherein agents
+are situated and interact, either perpetuating or challenging existing societal structures. Our ﬁndings underline the importance
+of considering macro- and meso-level factors when considering or conducting research using digital diaries.
+Keywords
+critical realism, ethnography, methods in qualitative inquiry, observational research, qualitative evaluation
+1Centre for Global Chronic Conditions, London School of Hygiene and Tropical Medicine, London, UK
+2College of Medicine, University of the Philippines Manila, Philippines
+3Development Studies Program, Ateneo de Manila University, Philippines
+4Department of Anthropology, University of the Philippines Diliman, Philippines
+5School of Medicine and Public Health, Ateneo de Manila University, Philippines
+6Department of Social and Environmental Health Research, London School of Hygiene and Tropical Medicine, London, UK
+7Department of Global Health & Development, London School of Hygiene and Tropical Medicine, London, UK
+Corresponding Author:
+Maureen Seguin, Centre for Global Chronic Conditions, London School of Hygiene and Tropical Medicine, 15-17 Tavistock Place, London WC1H 9SH, UK.
+Email: Maureen.seguin@lshtm.ac.uk
+Creative Commons CC BY: This article is distributed under the terms of the Creative Commons Attribution 4.0 License (https://
+creativecommons.org/licenses/by/4.0/) which permits any use, reproduction and distribution of the work without further
+permission provided the original work is attributed as speciﬁed on the SAGE and Open Access pages (https://us.sagepub.com/en-us/nam/
+open-access-at-sage).
+
+Background
+Lived experiences with chronic conditions are characterised
+by ﬂuidity and change as patients proceed through different
+stages in the illness and treatment journey (Bernays et al.,
+2014; Bokhour et al., 2012; Paturzo et al., 2016; Russell &
+Seeley, 2010; Siegal & Lekas, 2002). Seeking to capture this
+nuance, we used digital diaries enabled via mobile phones to
+communicate with hypertensive patients in the Philippines over
+approximately 12 months. Such participant diaries offer an
+alternative method to capture longitudinal data (Chen, 2011) and
+have been used in research focused on chronic conditions such
+as diabetes (Broekhuis et al., 2020), dementia (Herron et al.,
+2019) and HIV (Bernays et al., 2014, 2019). They can ac-
+commodate different response modes (i.e. hand written, audio
+recorded, text messaging, images) (Herron et al., 2019) and can
+be structured (or unstructured) to allow the respondent to pri-
+oritize what to share (Elliott, 1997). Capturing nuance and
+patient experiences over time is difﬁcult through commonly-
+used qualitative methods such as one-off interviews and focus
+group discussions, as they are cross-sectional.
+The digital diaries we report on in this paper were used
+within the larger mixed-methods Responsive and Equitable
+Health Systems—Partnership on NonCommunicable Dis-
+eases (RESPOND) study, which has generated evidence on the
+barriers to effective hypertension management faced by poor
+households in Malaysia and the Philippines (Palafox et al.,
+2018). The RESPOND study focused speciﬁcally on poor
+households due to evidence that the poorest individuals in the
+lowest wealth quintiles are especially disadvantaged in
+awareness, treatment and control of hypertension (Palafox
+et al., 2016). Along with repeat semi-structured interviews,
+participants enrolled in the qualitative component of the study
+were invited to complete digital diaries over a period of ap-
+proximately 12 months (Palafox et al., 2018). The digital
+diaries used in our research consisted of 2-way communi-
+cation via text messages between researchers and hypertensive
+patients. The aim of the diaries was to elicit longitudinal (over
+12 months), nuanced narratives of hypertensive patients’
+experiences managing their hypertension and seeking (or not
+seeking) care for their condition.
+An earlier paper from this study described the content of
+data shared via digital diaries, levels of participant engage-
+ment, and researchers’ experiences when engaging partici-
+pants (Mendoza et al., 2021). That paper reported trends in
+participant usage of the diaries (categorizing participants into
+active, semi-active and infrequent users), and ﬂagged the
+difﬁculty in using diaries to capture in-depth narratives from
+participants about their experiences with hypertension. This
+paper complements that work, aiming to conceptualize the
+complex array of factors shaping participants’ usage of the
+diaries by drawing on Strong Structuration Theory. The ap-
+plication of this sociological approach provides a vantage
+point to interpret participant actions vis-`a-vis the diaries, along
+with meso- and macro-level factors driving action, yielding a
+comprehensive account of how the diaries were perceived and
+used.
+Theoretical Approach
+We draw on elements of Strong Structuration Theory (SST)
+(Stones, 2005) to interpret the complex factors shaping the
+adoption (or non-adoption) of digital diaries and how they
+were used by participants. Through his original articulation of
+Structuration Theory, Giddens (1984) sought to provide an
+account of human agency which recognized individuals as
+purposeful actors who understood their actions and the impact
+actions have on social structures. Giddens conceived of social
+structures as consisting of the ‘rules and resources’ from
+which human action and interaction arise (Giddens, 1976).
+These structures are internalized into individual views of the
+social world, which then inform action, or the choices made by
+individuals. Yet actions are not wholly determined by struc-
+ture. Structures are both enabling and constricting; individuals
+can either perpetuate structures by acting in accordance with
+them or transgress structures by acting in unexpected ways.
+Giddens’ Structuration Theory has been reﬁned by Stones
+(2005) to operationalize the concepts of structure and agency
+and make the concepts amenable to empirical work. With
+Strong Structuration Theory (SST), he suggests a ‘quadri-
+partite’ cycle of structuration consisting of external structures,
+internal structures, action, and outcomes (Stones, 2005).
+External structures are conditions for action. They refer to the
+physical, social and economic context within which action is
+contemplated and enacted. As the ‘terrain of action,’ external
+structures include social norms, laws, policies, rules, and
+instructions. Like Giddens (1984), Stones (2005) argues that
+these structures become internalized by individuals. These
+‘internal structures’ are conceived as two elements in SST.
+First, conjuncturally-speciﬁc knowledge (or conjunctural
+knowledge) refers to perceptions individuals have of the social
+world (the terrain of action) and how they are expected to act
+within it. Second, general dispositions are individual world-
+views, personal morals, attitudes and beliefs. ‘Conjunctures’
+between these two types of internal structures informs re-
+sultant action; individuals draw on what they know about the
+social world (conjunctural knowledge) and their personal
+attitudes to make choices on how to act in a given situation.
+These actions then impact both external and internal structures
+(by perpetuating or disrupting them), in an everlasting re-
+cursive loop of structuration between structure and agency. In
+the ‘analytic approach’ section below, we outline how these
+concepts were utilized to understand and interpret our data.
+Methods
+This paper focuses exclusively on the participants of the
+qualitative research component in the larger mixed-method
+RESPOND study. Qualitative participants were purposively
+selected from a larger pool of respondents (n = 444) in a
+2
+International Journal of Qualitative Methods
+
+quantitative survey and screening exercise to cover a range of
+ages (aged 35 to 70), sex (male and female), location (rural and
+urban).
+As described elsewhere (Seguin et al., 2022), the quali-
+tative element of the study drew on two interviews per par-
+ticipant:
+a
+baseline
+interview
+followed
+approximately
+12 months later by a follow-up interview. The interviews were
+conducted by JM and GL and focused broadly on constructing
+a retrospective ‘patient pathway’ from symptoms and diag-
+nosis to current treatment (or no treatment), identifying bar-
+riers and facilitators to hypertension control. Qualitative
+participants were invited to keep digital diaries using their
+mobile phones over a period of 12 months in the interim
+between interviews. Diary methods have been used in pre-
+vious health research to track healthcare experiences, with
+proponents suggesting diaries provide rich data and mitigate
+recall issues which impact interview data collection (Thomas,
+2015). Though diary methods have traditionally featured
+handwritten accounts of participants, digital research diaries
+recorded on devices such as mobile phones are now being
+increasingly used. The digital diaries in this study involved
+communication between participants and two local re-
+searchers (JM and EM) through text messages, focused
+broadly on their every-day experiences with hypertension. For
+instance, researchers used text messages to gain insights on
+medication commencement/cessation, notable health events
+(such as hospitalization or diagnosis of other conditions) and
+engage participants discussions on challenges in controlling
+their hypertension. Interviews and digital diaries were com-
+pleted in 2018-19, mainly in Tagalog.
+The digital diaries were supported by a bespoke online
+platform co-developed with ‘On Our Radar’, an organization
+that builds platforms to enable communities to share their
+experiences digitally (On Our Radar, 2021). Texts submitted
+by both researchers and participants were automatically up-
+loaded onto the online platform, allowing researchers to re-
+spond to individual or multiple participants. Digital diary
+messages and interviews were anonymized, transcribed in the
+original language and then translated into English. Transcripts
+were exported into NVivo for coding.
+Analytic Approach
+Following Giddens (1984) and Stones (2005), we used
+‘methodological bracketing’ as a tool to delineate between an
+agent’s conduct analysis, and an agent’s context analysis.
+Context analysis focuses on external structures, or the ‘terrain
+of action’ which provides the rules and resources (and pos-
+sibilities and limitations) within which action takes place.
+Considering context allows researchers to acknowledge the
+causal powers and inﬂuences independent to the agent.
+Consistent with other SST theorists (Greenhalgh & Stones,
+2010; Rushforth & Greenhalgh, 2020) we differentiate be-
+tween macro- and meso-levels of external structures in our
+approach. We conceive of the digital landscape in the
+Philippines and our research study within it as macro- and
+meso-level external structures respectively. We drew on ex-
+isting empirical work and grey literature to outline the main
+features of the Filipino digital landscape. Study documents
+(including consent forms, participants information sheets and
+digital diary infographic) explaining the rationale and ‘rules’
+for the diaries, along with initial conversations with partici-
+pants about the diaries are outlined in this section.
+We follow the context analysis with conduct analysis which
+draws primarily on digital diary and interview data. Conduct
+analysis focuses on the agent, in this case, the research par-
+ticipant, and their actions, general dispositions and con-
+junctural knowledge. The action of interest is whether and
+how participants used the digital diaries. Participants’ actions,
+dispositions, and knowledge about external structures were
+coded in NVivo, following a deductive process. Throughout
+the conduct analysis, we draw upon existing research to locate
+our observations within the wider literature, possible relevant
+external structures, and potential outcomes of their action (i.e,
+impact on internal and internal structures). This analytic
+process yields ‘cycles of structuration’ consisting of linked
+actions, internal and external structures, and outcomes.
+Ethical Approval
+Ethical approval for the study was granted by the Observa-
+tional Research Ethics Committee at the London School of
+Hygiene and Tropical Medicine and the Research Ethics
+Board at the University of the Philippines Manila. Written
+informed consent was provided by all participants prior to
+their baseline interview.
+Findings
+We drew upon data from 42 participants consisting of 42
+baseline interviews, 31 follow-up interviews and 37 digital
+diaries. Thirty-one completed both interviews and a diary.
+Participants ranged from 39–69 in age, with an average age
+of 54. Twenty-six were female and 16 male. Twenty-two
+lived in an urban area and 20 in a rural area. All resided in
+poor areas in Quezon Province and Valenzuela City in the
+Philippines.
+Participants’ frequency of engagement was presented in
+our previous study (Mendoza et al., 2021), with participants
+classiﬁed into three categories: active users (those who
+regularly sent entries), semi-active users (those who sent
+entries once or twice a week) and infrequent users (those
+who sent entries occasionally). We employ this categori-
+zation in our ﬁndings below. Pseudonyms are used to refer
+to participants. In passages containing quotes, ‘Int’ refers to
+interviewer and ‘P’ to participant. Participants commonly
+referred to their prescribed medication as ‘maintenance,’
+and the act of ingesting medication to ‘drinking’ it, and used
+the term ‘high blood’ to refer to hypertension (Lasco et al.,
+2022).
+Seguin et al.
+3
+
+Context Analysis
+In keeping with Giddens’ (1984) and Stones’ (2005) brack-
+eting approach, this context analysis focuses on the ‘terrain of
+action’ consisting of the rules and resources, possibilities and
+limitations, within which action occurs. We focus on two
+levels of context: the macro and the meso.
+The Philippines digital landscape: Digital divide in the
+world texting capital
+The Philippines is sometimes called the ‘texting capital of the
+world’ (Paule, 2004; Uy-Tioco & Cabañes, 2021). There is a
+high level of phone ownership (Silver et al., 2019), with an
+estimated number of mobile connections equivalent to 138.2%
+of the population in 2021 (reﬂecting multiple connections for
+some citizens) (We Are Social, 2021). These statistics paint a
+picture of ubiquitous mobile phone usage, an environment
+presumably conducive to a research methodology dependent
+on participants communicating with researchers via mobile
+phone.
+However, these statistics obscure a pervasive ‘mobile
+divide’ regarding phone usage and digital literacy within
+the Philippines. Usage and digital literacy are strongly
+socially stratiﬁed, with disparities disproportionately af-
+fecting the socioeconomically (Uy-Tioco, 2019; Uy-Tioco
+& Cabañes, 2021). Despite the high number of mobile
+connections, approximately 20% of Filipinos lack access
+to mobile phones (even shared), while 7% share a phone
+with others (Silver, et al., 2019b). Sharing of mobile
+phones between family members is especially common
+among the urban poor in the Philippines, as the cost of the
+phone and credit is prohibitive for many families (Portus,
+2008). Unreliable phone signals (especially in rural areas)
+are an issue for over half of Filipino citizens (Silver, et al.,
+2019b). Unaffordability remains a problem; over a quarter
+of Filipinos reported difﬁculty paying for their phone use
+in 2018 (Silver, et al., 2019b). In fact, the vast majority of
+mobile connections (96.7%) are pre-paid accounts. Access
+to electricity to charge a phone is a further problem for
+approximately one-third of Filipinos (Silver, et al.,
+2019b).
+The research study: Rules governing digital diary use
+The ‘rules’ pertaining to the usage of digital diaries were
+communicated to participants through study documents
+(participant information sheet, consent form and diary info-
+graphic), during face-to-face interviews, and through text
+messaging. The information sheet stated that keeping a digital
+diary was optional (not mandatory) and that it was up to
+participants whether to initiate contact with the research team
+and whether to respond to messages sent by the research team
+(see Appendix A for the English-language version). Partici-
+pants were informed that they would receive mobile credit to
+enable participation, and that a carer could submit entries on
+their behalf.
+Participants were provided with this sheet at the conclusion
+of their baseline interview during a conversation with a re-
+searcher about the diary. Below is a sample of a conversation
+introducing the digital diary to a participant:
+We will return next year to talk to you again, in 2019. But in the
+middle of that, starting from now till next year, we want to invite
+you to take part in the digital diaries, we have a cellphone number
+that you can text about anything you experienced with your high
+blood. Just text your experiences about your high blood. And
+every month we will send you load [mobile phone credit].
+Consistent with the information sheet, the consent form
+signed by all participants stipulated that they did not have to
+submit anything they did not want to share and could stop
+keeping the diary at any time without giving a reason (See
+Appendix B for English-language version). Participants re-
+ceived a copy of the information sheet and signed consent
+form for their records.
+Participants opting into the digital diaries were given an
+infographic providing further instructions for using the diary
+(see Appendix C for English-language version). The info-
+graphic contained the mobile number to be used for sub-
+missions and instructed participants to share their personal
+experiences with and/or feelings about hypertension, and their
+experiences as patients in settings including local health
+centres and hospitals. It explained that participants would
+receive mobile credit to enable them to participate and stated
+that the diaries were not intended to be used to get medical
+assistance. It advised participants to visit their health centre,
+clinic or hospital if they felt unwell, rather than attempting to
+use the diary to access assistance.
+The initial message sent to elicit diary entries focused on
+exploring topics raised by the participant during their baseline
+interview. The following message was typical:
+“Good morning/afternoon, this is the RESPOND project, thank
+you for joining the text diary. [insert tailored message about
+something interesting/relevant that came up in the interview].”
+The protocol for researchers speciﬁed that the following
+message would be sent each week until a reply was received:
+“Good morning/afternoon, this is the RESPOND project, wel-
+come to the text diary. We are looking forward to your ﬁrst entry.
+How are you doing today?” If after approximately 1 month no
+reply was received, the following message was sent on a monthly
+basis: “Hi, we are very interested in your thoughts on high blood!
+We are looking forward to your ﬁrst entry. How are you doing
+today?”
+The monthly messages sent by researchers were combined
+with a conﬁrmatory message stating that ‘load’ (mobile credit)
+4
+International Journal of Qualitative Methods
+
+had been sent. Credit was sent to all participants on a weekly
+basis in the amount of 60 PHP (US$ 1.20), regardless of
+whether they sent messages. A thorough description of our
+approach to communicating with participants is published
+elsewhere (Mendoza et al., 2021). Though the frequency of
+participant engagement ﬂuctuated, contact from the research
+team took place at least monthly for non-responsive partici-
+pants, and more frequently for responsive participants. Re-
+searchers were instructed to direct participants away from
+providing clinical information (including blood pressure
+readings), and instead elicit information on their views of
+causes of symptoms and of treatment, and their experiences of
+living with hypertension and of accessing the health system.
+The digital landscape and ‘rules’ of the digital diaries form
+the strategic terrain of action which bear upon the three cycles
+of structuration detailed in the conduct analysis below.
+Conduct analysis
+In each cycle of structuration outlined below, we start by
+identifying participants’ actions regarding the digital diaries.
+We are speciﬁcally interested in whether and how participants
+used them. We contextualize these actions within the internal
+structures of participants: their general dispositions and
+conjunctural knowledge. Messages from the study team acted
+as a moment of conjuncture, where participants drew upon
+their perceptions and their conjuncturally-speciﬁc knowledge
+of external structures to act. These internal structures are then
+contextualized within the external structures above, as well as
+other external structures relevant to the cycle. For each cycle,
+we suggest how the actions may perpetuate or disrupt the
+internal and external structures which informed the action.
+Cycle of structuration: Frequency and mode
+of engagement
+The dominant action observed regarding the digital diaries
+was an overall (though not universal) low level of partici-
+pation, as also described elsewhere (Mendoza et al., 2021).
+This may be due to the lack of signal discussed above. For
+instance, Benilda (51-year-old female), who lived in a rural
+area, noted lack of signal sometimes prevented her from
+sending and receiving messages. It is possible that other
+participants (especially those in rural areas) may have been
+discouraged
+from
+communicating
+due
+to
+unreliable
+connectivity.
+Some participants agreed to keep a diary yet warned re-
+searchers at the outset (during the discussion about diaries at
+the end of the ﬁrst interview) that texting did not appeal to
+them. For instance, during the introduction to digital diaries in
+her baseline interview, Rosario (56-year-old female, infre-
+quent user) explained “I only use calls, I don’t text [laughs]. I
+only use the calls [laughs] [….] I just call, I don’t text.” Jose
+(61-year-old male, infrequent user) had a similar reaction,
+stating that he only used his phone in emergencies, and “I do
+not use the text.” Predictably, both participants were very
+infrequent diary users.
+The low frequency of messages from most participants
+was linked to their general dispositions towards the sending
+of text messages. Negative or ambivalent attitudes towards
+texting were evident, especially when compared to other
+modes of communication. In her follow-up interview, Angela
+(53-year-old female, infrequent user) stated that it was easier
+to “tell a story” through a voice message than text message.
+Cecilia (45-year-old female, infrequent user) shared this
+preference, commenting “talking to a person is better than
+just texting with each other.” In our earlier study we observed
+that participants aged 50–70 were more engaged in the di-
+aries than those aged 49 and younger (Mendoza et al., 2021),
+which suggests that older age was not a barrier to texting.
+At the outset of the study, the potential inability or un-
+willingness of some participants to engage via SMS was
+anticipated, and the messaging platform was intended to in-
+clude a voicemail option for participants. However, platform
+developers encountered technical issues in the Philippines
+which meant that voicemail entries could not be submitted.
+This technical issue negatively impacted the amount and
+arguably the depth of messages received by the research team.
+Though a very high use of SMS is evident in the Philippines
+(Capistrano, 2013), it is being superseded by other forms of
+social networking (Magno, 2018), including Facebook mes-
+senger which is available almost free of charge to Philippine
+smartphone users (Consunji, 2013). It is plausible that par-
+ticipants would have submitted more entries over messenger
+or other apps, or through our platform had it been equipped to
+handle voice messages.
+Participants’ assumptions about the type of information the
+researchers wanted to collect may have also contributed to the
+low
+frequency
+of
+messages.
+This
+points
+to
+their
+conjuncturally-speciﬁc knowledge of the research study; they
+may have assumed reporting on a condition which is largely
+asymptomatic would be of little interest (Lasco et al., 2022).
+This assumption may be rooted in local concepts of hyper-
+tension as a condition which comes and goes, rather than a
+chronic condition which is present even when symptoms are
+absent (Lasco et al., 2020). The ‘rules’ of the digital diaries,
+which invited participants to ‘share their experience’ and/or
+feeling about living with hypertension, and reinforced by
+messages from the study team, did not shift participants’
+understanding of what kind of data was worthwhile to send.
+Consistent with Giddens’ (1984) conceptualization of
+structure, the sharing of mobile phones was both enabling and
+constricting for digital diary participation. Phone-sharing
+interfered with participation for some participants. Angela
+(53-year-old female, infrequent user), who shared a phone
+with her sister-in-law, was quite disengaged from the diary,
+sending very few responses to prompts from the researchers. It
+is plausible that she was unable to send messages because she
+did not have regular access to her shared phone. However,
+Seguin et al.
+5
+
+sharing did not necessarily hinder participation. Jasmine (42-
+year-old female, semi-active user) shared a phone with her
+husband, who worked as a seaman and was often away from
+home for long periods of time. She stated, “I rarely hold my
+cellphone.” Nonetheless, Jasmine was fairly responsive to the
+messages sent by researchers. For some, participation in the
+study was actively facilitated by the person sharing the phone.
+Jomel (64-year-old male), who was very engaged in the digital
+diaries, revealed in an interview that he dictated the messages
+to his son, who typed them and sent them on his behalf.
+Similarly, Bernard (39-year-old male, semi-active user), who
+did not know how to use his phone to send text messages, had
+his wife text with the researchers. Had these men not shared
+their phones, few or no messages may have been sent. The
+sharing of phones and the submission of messages through
+family members reﬂects and perpetuates the collective,
+family-oriented approach toward treatment of chronic con-
+ditions often seen in South Asian cultures including the
+Philippines (Sohal et al., 2015). Conceived here as an external
+structure, this collective orientation implies a close link be-
+tween individual and familial identity (Bhandari & Titzmann,
+2017), where family members are expected to support their
+loved ones to manage their health.
+The overall low level of involvement led to the re-
+structuring of certain elements of the research practices and
+procedures for the use of the diaries, representing a shift in the
+external structure subsequent to participant (in)action. The
+researchers sought to increase participation by adding a rafﬂe
+draw for additional mobile credit, with participants sending
+more messages having a better chance of winning. This did not
+discernibly increase participation, which may indicate par-
+ticipants’ internal structures (notably their ambivalence to-
+wards texting and personal understanding of the type of
+information the researchers wanted) were more important in
+shaping behavior than monetary incentives.
+Though overall participation was relatively low, some
+participants were semi-active or active users (Mendoza et al.,
+2021). For these participants, the ‘mobile load’ was viewed as
+enabling participation. As Imeda (48-year-old female, infre-
+quent user) noted in her interview, “I only can send a text
+message when I have a load.” Though the load was appre-
+ciated by many, it was not necessarily required to enable
+participation. For instance, Fernandez stated “I told you that
+you don’t have to bother sending a load since I can afford it
+and I feel embarrassed” (64-year-old male, semi-active user).
+In the sections below, we turn to an analysis of the ways in
+which the diaries were used by participants: as tools to monitor
+hypertension and obtain health advice.
+Cycle of structuration: Digital diaries as tool to
+monitoring hypertension
+Participants used the digital diaries as a tool to monitor their
+hypertension. This was evident in the large proportion of diary
+entries featuring blood pressure readings and reports of
+medication being taken, with some participants incorporated
+such entries into their daily routine. James, a 64-year-old male
+‘active user’ explains:
+I will check my blood pressure and take my maintenance after the
+text diaries. And that’s what I like about it. […] [Int]: So, you
+usually take your medicine in the morning? [P]: Yes, I take it in the
+morning so that I won’t forget. Together with the diary, it’s in-
+cluded there [laugh] […] [Int]: So, let’s talk about the text diaries.
+How is your experience in using it? [P]: It’s good because I can
+keep track of my health by sending information to you. […]
+Because I joined the text diaries, […] I felt more responsible in
+checking my body.
+Consistent with these remarks, James’ almost-daily diary
+messages were heavily focused on reporting the results of
+various blood tests and blood pressure readings. He sent
+dozens of messages simply stating his name, date, time, and
+reading, such as: “March 16, 2019 6:35 Am The BP I have 116
+over 95.” In response to this speciﬁc message, the researcher
+asked a question about any contacts with their physician or
+other type of health provider, marking an attempt to shift the
+conversation to their experiences with their management of
+hypertension. Nonetheless, the next day James sent another
+blood pressure reading, along with an extensive list of results
+from a recent blood test.
+These monitoring activities/submissions reﬂected a belief
+amongst participants that the digital diaries represented a tool
+which enabled them to monitor their hypertension and
+treatment. They seemed to view the messages sent by the
+research team as a reminder to take their medication, seem-
+ingly regardless of the content of the researcher’s message.
+This view is exempliﬁed in a quote from Jomel, a 64-year-old
+male ‘active user.’ He stated, “They [the researchers] monitor
+my condition while I’m still alive. […] It’s like they keep on
+reminding me.” This is despite the lack of messages from
+researchers explicitly reminding participants to take their
+medication.
+Some participants perceived an obligation to take blood
+pressure readings and report them to researchers. This reﬂects
+their conjuncturally-speciﬁc knowledge of the research study
+and their place in it, as compliant patients expected to report
+their medication-taking behavior and blood pressure readings.
+For instance, Antonio, a 44-year-old male and semi-active
+user, frequently checked his blood pressure speciﬁcally to
+provide an update to the study team. In his follow-up inter-
+view, he stated, “I have to check my blood pressure every
+week in order to give you an update, right? […] [I]t was
+helpful. Instead of me not checking my blood pressure, I was
+urged to in order to give you an update.” Though the re-
+searchers did not ask for his blood pressure readings, various
+statements in his diary show the participant viewed the
+messages from researchers as prompts to take them, such as
+“Good evening. Thank you for the reminders. My BP is okay,
+130/80” (italics added).
+6
+International Journal of Qualitative Methods
+
+It is perhaps unsurprising that many participants seemingly
+viewed communication from the research team as a reminder
+to take responsibility for their own condition. A 2020 meta-
+analysis
+on
+mHealth
+technologies
+to
+promote
+self-
+management of hypertension found that tailored 2-way
+communication was associated with better management (Li
+et al., 2020). Though our study was not designed as an in-
+tervention, the frequency of contact from researchers (per-
+ceived as ‘reminders’ by participants) and the tailored
+approach may have encouraged monitoring behaviour.
+Participants’ internal structures reﬂect the promotion of
+self-management of chronic conditions in the Philippines,
+conceived here as an external structure. The self-management
+of diabetes has been encouraged as a cost-effective way to
+prevent, control and monitor diabetes (Ku & Kegels, 2014),
+particularly in resource-constrained rural locations (Ardeˇna
+et al., 2010; Paz-Pacheco et al., 2017). Some authors perceived
+this focus on self-management of chronic conditions to be a
+part of a larger neoliberal rationale emphasizing individual
+responsibility in self-improvement (Ellis et al., 2017), shifting
+attention away from the duty of state and healthcare providers
+to ensuring good health outcomes (Renedo & Marston, 2015).
+Participants’ views and usage of the diary as a monitoring tool
+is entirely consistent within an environment where individual
+responsibility for their own care is encouraged. Their usage
+both reﬂect and perpetuates the ideals of self-management and
+individual responsibility as a value and good disease control
+practice.
+Cycle of Structuration: Digital diaries as tool to obtain
+Health Advice
+Many participants used the digital diaries to ask for health
+advice. For instance, Beth, a 45-year-old female and a semi-
+active user, asked “I just wanna ask if my BP is high, can I
+drink medicine even if I already drank earlier this morning?”
+As set out in the protocol (which had been approved by ethics
+committees), the researcher replied that they could not give
+medical advice yet approximately a month later Beth again
+asked for health information: “why do I feel like my head is
+heavy and there’s a jolting pain in it?” Again, this prompted
+the researcher to remind them that they were not able to
+provide medical advice.
+Beth’s actions are consistent with an underlying belief that
+the digital diaries represented a line of communication for
+health advice. This underlying belief was evident in state-
+ments made in interviews. Fernandez, a 64-year-old male
+semi-active user, was asked about his perceptions of the digital
+diary in his follow-up interview. He responded, “I think that
+I’m able to take care of myself more because I can get advice
+from you. [Int]: You get advice from us. [P]: Yes. […] To be
+more health conscious. [Int]: Do you want to get advice from
+us? [P]: No, I’m already getting from you.” This statement
+implies that Fernanez viewed the diary as a tool to obtain
+advice; he even recalls receiving advice from the researchers.
+The fact that no such advice had been provided speaks to the
+strength of his belief, which was held despite a lack of health
+advice provided or even requested. Fernandez’s messages
+focused on his blood pressure readings, interaction with the
+health system, and eating habits; he did not request health
+advice. Nonetheless, his response in his interview reveals that
+he believed he could use the diary to get it.
+As implied above, when asked for health advice, re-
+searchers followed our ethics-approved protocol and ex-
+plained that they could not provide it. Their response
+represents an attempt to shift participant’s conjunctural un-
+derstanding of external structures, from their belief that the
+diaries could be used to access health advice to a belief which
+matched the general dispositions of researchers: that the di-
+aries were for recording experiences living with hypertension.
+The lack of impact of the researchers’ clariﬁcations on
+subsequent participant behaviour was telling; many partici-
+pants requested health advice on several occasions despite
+consistently being told this is a research study that cannot
+provide them with advice. In fact, some participants disputed
+this challenge to their understanding of the diaries by sug-
+gesting researchers should provide health advice. Jasmine, a
+42-year-old female semi-active diary user, implies below that
+by sharing her experiences, it was a reasonable expectation to
+be provided with health advice. She noted in her follow-up
+interview,
+[P]:
+Since you are studying this, I think it is better if you can
+give us a feedback or response when I share something.
+[Int]: You want to receive advice from us.
+[P]:
+Yes. Since we share our experiences and our diseases,
+it is better if you will give us feedback. Since you are
+always asking, and we are always responding.
+[Int]: So, if we can use the text diaries in order to talk to the
+patients and give advice?
+[P]:
+It’s better. Since you study those things, maybe you can
+come across the solutions that you can share with us
+when we share [with] you our experiences. We know
+that you know the answer to the questions that we ask,
+so it is better if you can give us a feedback or response.
+[Int]: It is better if we have advice? […]
+[P]:
+Of course, since it is a disease and we know that you
+have knowledge about the solutions to it. […] Since
+you are researchers, maybe you have connections with
+the doctors who can answer our questions and give us
+advice.
+Jasmine seemed to perceive that medical advice was
+being withheld (‘we know that you know the answer to the
+questions that we ask’) by the researcher. Her statement
+reveals her view of the researcher as someone who knew
+the answers to her medical questions (possibly a clinician),
+or at least had contacts with doctors who could provide
+advice.
+Seguin et al.
+7
+
+Jasmine’s statement (and similar statements made by other
+participants) represents an attempt to alter the external
+structure formed by the research study. Her statement chal-
+lenges researcher’s understanding of their own role and
+represents resistance to adopting the researcher’s under-
+standing of the digital diaries. It also speaks to the positionality
+of the researchers vis-`a-vis the participants. On positionality,
+there were several physicians on the research team, a fact
+known to at least some participants (though no physicians
+were involved in communicating with participants in the
+diaries). Moreover, the participant information sheet explained
+that the study was being conducted by health-focused de-
+partments at universities. Based on these features of the ex-
+ternal structure, participants may have reasonably viewed the
+research as a clinical activity, and therefore asked clinical
+questions and submitted clinical data (see section above).
+Similar to the structuration cycle above, the neoliberal ideal
+of individual responsibility in self-improvement, of being
+proactive in one’s own health care matters, acts here as an
+external structure. This ideal is consistent with requesting
+health advice through the digital diary. A second relevant
+external structure is the relative lack of access to care for many
+Filipinos (especially poor Filipinos) (El Omari & Karasneh,
+2021), especially in rural areas. A systematic review on the
+inﬂuence of health systems on hypertension awareness,
+treatment and control shows the importance of having a
+regular care provider and health care facility on hypertension
+outcomes (Maimaris et al., 2013). Participants’ usage of the
+diaries to attempt to access health advice from a small team of
+researchers with whom they communicate and form a con-
+nection over 12 months is understandable, in consideration of
+a context characterized by a relative lack of regular care
+providers. Being denied health advice from the research team
+perpetuated the ‘rules’ governing the digital diaries, which
+stipulated that the diaries were not to be used to seek health
+advice. We found no evidence that participants chose to use
+the study as an alternative to seeking medical help, so we have
+no reason to suspect that anyone suffered physical harm by
+participating.
+Discussion
+This paper represents a comprehensive examination of the
+usage of digital diaries via mobile phones amongst socio-
+economically marginalized people with hypertension in the
+Philippines. Progressing beyond a dichotomized analysis of
+barriers and facilitators of their usage, we have instead drawn
+upon Strong Structuration Theory to contextualize partici-
+pants’ digital diary usage within their internal structures, as
+well as the external structures of the research and the wider
+social context shaping their perception and use of the diaries.
+Further, we have suggested how participants’ actions have in
+turn perpetuated or changed the external structures, ac-
+knowledging the recursive relationship between structure and
+agency.
+Observations on Engagement
+We observed a relatively low level of participation in the
+diaries. This is perhaps unsurprising considering the details of
+the digital landscape in the Philippines, with a lack of access to
+mobile connections and the sharing of phones amongst the
+socioeconomically marginalized, along with unreliable mo-
+bile signal especially in rural areas (Silver, et al., 2019b).
+However, we note that sharing a phone did not necessarily
+prevent participation. In fact, the submissions of some par-
+ticipants were regularly facilitated by family members, re-
+ﬂecting the collective, familial approach to the management of
+illness especially in Asian cultures (Pamungkas et al., 2017;
+Sohal et al., 2015).
+The relatively low level of engagement could have been
+mitigated by more intense co-production in developing the
+communication platform and the engagement strategy, with
+greater involvement of end users speciﬁcally aged 35–70 in
+co-designing the platform. Issues such as the weak mobile
+signal in some remote areas of data collection could have been
+brought to the attention to researchers through this strategy.
+There were changes in the technical speciﬁcations of the
+Filipino telephone service after the study started, which re-
+stricted the ability to leave audio messages. However, future
+studies using diaries should explore whether this function
+could be enabled to be more inclusive for those participants
+who prefer leaving voice messages to texting. Co-production
+could have also shed light on participants’ internal structures
+which may have discouraged participation, such as uncer-
+tainty over whether details about their asymptomatic condition
+were of interest to researchers.
+On this topic, the low level of engagement may stem from
+the lack of perceptible changes while living with hyperten-
+sion; it is possible for people with hypertension to live for
+years with the condition and experience no discernible change
+in symptoms or treatment. As others have suggested, diaries
+are particularly well-suited to capturing changes in the process
+of living with chronic illnesses (Sargeant & Gross, 2011). The
+exploration of hypertension with digital diaries may not have
+been the best methodological approach. The comparatively
+high level of engagement observed amongst patients involved
+in studies using diaries focused on other, more acute condi-
+tions supports this point (Bernays et al., 2014; Furness &
+Garrud, 2010; Woodall et al., 2016). Thus, a digital diary
+method may not be suited to study patient experiences with
+chronic health conditions that are perceived to be part of
+normal life which do not signiﬁcantly disrupt day-to-day lives.
+This is especially so for poorer groups facing acute daily
+disruptions in all areas of their life that take precedence over
+their largely asymptomatic condition.
+Participants appreciated the mobile phone ‘top-up’ aspect
+of the diaries. This was evidenced by the many messages of
+thanks received via the diary submissions. Unfortunately, it
+appeared that some participants felt they ‘owed’ diary sub-
+missions in return for mobile credit top-ups (load), though
+8
+International Journal of Qualitative Methods
+
+they were informed at the outset they could contribute as much
+as they liked. Also, it is possible that some participants were
+motivated to take part in digital diaries to receive the top-up.
+The ethical issues that arise speak to a long-standing debate on
+paying subjects to participate in research. Though monetary
+incentives make subjects more willing to participate, there is
+concern that payments induce individuals to take part in
+studies (and expose themselves to risks) that they would not
+participated in otherwise (Bentley & Thacker, 2004; McNeill,
+1997). Some argue that research participants should be
+compensated for inconvenience and their time dedicated to
+projects, but the payment should not be so large as to be an
+inducement to participate (Wilkinson & Moore, 1997). The
+issue of incentives is especially sensitive when participants are
+poor, living in low-middle income countries (Angell, 1988;
+Del Rio, 1998). The participants in this study were deliber-
+ately recruited because they resided in poor areas and were
+therefore assumed to be low-income. The monthly mobile
+phone ‘top-up’ may have represented a signiﬁcant ﬁnancial
+beneﬁt to some participants (though we note that some par-
+ticipants insisted they did not require the top-up).
+There is ethical guidance to inform use of incentives, and
+how to calculate the amount, speciﬁcally for economically
+vulnerable research participants (Gelinas et al., 2020). The fact
+that payment motivates someone to participate in research is
+not problematic. It is concerning only when the incentive
+distorts participant decision-making which invalidates their
+ability to give informed consent (Gelinas et al., 2020). Though
+it is difﬁcult for us to gauge whether the offer of mobile top-
+ups impacted on participant decision-making in this project,
+evidence from other studies suggests no correlation between
+offers of payment and participant perceptions of risk involved
+in study participation (Bentley & Thacker, 2004; Cryder et al.,
+2010). Moreover, not providing fair compensation to eco-
+nomically vulnerable participants could amount to exploita-
+tion, given the time taken to devote to research (and away from
+other tasks) (Gelinas et al., 2020). As such, we are reasonably
+conﬁdent that though the offer of mobile top-ups may have
+motivated participants to take part in the diary study, this did
+not cloud their judgement to the extent that their consent was
+invalidated.
+The Field of Contested Position-Practice Relations
+The diaries were used by participants in two main ways: as a
+tool for monitoring their blood pressure readings and treat-
+ment, and as a means for asking for health advice. This speaks
+to the gap between researchers’ understanding and assump-
+tions about what the diaries were for, versus participant un-
+derstandings and assumptions. Stones (2005) advises that
+amongst groups of agents (in this case, participants and re-
+searchers), the quadripartite process of structuration is hap-
+pening in many places at the same time, with each agent
+uniquely situated in relation to external structures. Their
+position is constantly in ﬂux as they interact with other agents.
+It is their interaction within this ﬁeld of ‘position-practice
+relations’ that structures arise, change or dissipate. The gulf in
+understanding between researchers and participants represent
+the dynamism of this ﬁeld as structures are perpetuated or
+diminished through agent’s interaction.
+This dynamic ﬁeld is evident through the actions of
+participants (their continued use of the diaries as monitoring
+tools and to request health advice) and researchers (re-
+minding participants of the intended usage for the diaries)
+within the meso-level external structure of the research study.
+The researchers valued the diaries as ways to generate re-
+search data, speciﬁcally data on longitudinal day-to-day
+experiences and perceptions missed in the limited time
+frame that tends to be captured in interviews or focus group
+discussions, a position reinforced by existing literature (see
+Bernays et al., 2014; Broekhuis et al., 2020; Chen, 2011;
+Elliott, 1997; Herron et al., 2019; Jacelon & Imperio, 2005).
+The procedures for managing the diaries were articulated
+through information sheets, consent forms and an info-
+graphic, discussion at the conclusion of the baseline inter-
+views, and throughout the digital diary data collection phase
+of 12 months (in interacting with individual participants if
+they transgressed the rules).
+However, these rules only partially informed how partic-
+ipants understood the research and their place in it (i.e., their
+conjunctural knowledge of the study). Participant behaviour
+was informed by external structures which existed prior to the
+research study, such as the promotion of self-management of
+chronic conditions in the Philippines (especially in resource-
+constrained rural areas) that reﬂects to an extent a poorly
+resourced health system and the neoliberal ideal encouraging
+individual responsibility. The relative lack of access to care
+especially in rural areas (El Omari & Karasneh, 2021), paired
+with the beneﬁcial outcomes associated with having a regular
+healthcare provider for hypertension (Maimaris et al., 2013)
+may have encouraged participants to seek medical advice.
+Based on participant actions, it seems these external factors
+were much stronger in informing behaviour than the rules
+introduced by the research study.
+Behavior may have been informed too by features of the
+research study which may have been perceived to contradict
+information in study documents and from researchers that the
+diaries were for recording personal experiences with hyper-
+tension. The fact that some researchers were also medical
+doctors, and that the research was being conducted by
+medically focused university departments may have left the
+impression that the diaries were for recording clinical matters,
+and clinical advice may reasonably be expected.
+Moreover, participants may have perceived that using the
+diaries for monitoring and asking for health advice did rep-
+resent aspects of their experiences and feelings about hy-
+pertension, and therefore were within the rules governing the
+digital diaries. For participants with a largely asymptomatic
+condition, monitoring through blood pressure readings and
+taking their medication may be some of their most prominent
+Seguin et al.
+9
+
+‘experiences’ related to their hypertension. Within a resource-
+constrained health environment, asking for advice about their
+condition may have also represented curiosity, worry, or other
+‘feelings’ about their condition. Researchers instead assumed
+that experiences of living with hypertension would include
+details of their daily life, rationalizations for treatment (or non-
+treatment), any health system contacts and/or health emer-
+gencies, and how they are feeling about their hypertension
+(aside from any direct symptoms), and impact of their diag-
+nosis on other areas of life (i.e., their family and/or livelihood).
+Divergent views on diaries between researchers and par-
+ticipants has been noted elsewhere; Bernays et al. (2019)
+found that HIV positive adolescents in Uganda using dia-
+ries occasionally diverged from providing messages about
+their condition and treatment, instead sending messages about
+other aspects of their lives. As research participants inevitably
+reﬂexively engage with qualitative methodologies, including
+not only diaries but commonly-used semi-structured inter-
+views (Knapik, 2006; Wolgemuth et al., 2015), the agency
+shown by research participants by using the diary as a
+monitoring tool demonstrates their engagement with the
+method.
+Conclusion
+This paper illuminated the complex array of factors shaping
+participants’ usage of diaries, informed by Strong Structur-
+ation Theory. We identiﬁed three structuration cycles: a low
+level of engagement driven by negative or ambivalent atti-
+tudes towards text messaging, and usage of the diaries as tools
+for hypertension monitoring and to request health advice. We
+also suggest how participants’ actions impacted on the very
+structures which shaped their action, consistent with the re-
+cursive relationship between structure and agency espoused
+by Structuration Theory. This was particularly evident with
+regard to participants using the diaries to request health ad-
+vice. Though they were informed that the diaries were not
+intended to be used for this purpose, some participants dis-
+puted this and frequently asked for health information.
+Though this was a small qualitative study, our overall ﬁndings
+on the critical role of macro- and meso-level factors on
+shaping how (or whether) diaries are used by research par-
+ticipants may be useful in informing future work utilising
+digital diaries used to capture personal experiences with long-
+term health conditions, or indeed to capture research partic-
+ipant experiences beyond the purview of public health.
+Acknowledgments
+We would like to thank the ‘On Our Radar’ group for their critical role
+in developing the platform supporting the digital diaries.
+Declaration of Conﬂicting Interests
+The author(s) declared the following potential conﬂicts of interest
+with respect to the research, authorship, and/or publication of this
+article: LMP-V has been involved in clinical trials of antihypertensive
+medications that receive some funding from industry.
+Funding
+The authors disclose receipt of the following ﬁnancial support for the
+research, authorship, and/or publication of this article: Wellcome
+Trust/Newton Fund-MRC Humanities & Social Science Collabora-
+tive Award scheme [grant number 200346/Z/15/Z].
+Ethical Approval
+Ethical approval for the study was granted by the Observational
+Research Ethics Committee at the London School of Hygiene and
+Tropical Medicine and the Research Ethics Board at the University of
+the Philippines Manila. Written informed consent was provided by all
+participants prior to their baseline interview.
+ORCID iDs
+Maureen Seguin https://orcid.org/0000-0003-4786-9400
+Jhaki Mendoza https://orcid.org/0000-0002-8063-290X
+Arianna Maever L Amit https://orcid.org/0000-0003-4571-400X
+Benjamin Palafox https://orcid.org/0000-0003-3775-4415
+Supplemental Material
+Supplemental material for this article is available online.
+References
+Angell, M. (1988). Ethical imperialism? Ethics in international
+collaborative clinical research. New England Journal of Med-
+icine, 319(16), 1081–1083. https://doi.org/10.1056/
+nejm198810203191608
+Ardeˇna, G., Paz-Pacheco, E., Jimeno, C., Lantion-Ang, F., Paterno,
+E., & Juban, N. (2010). Knowledge, attitudes and practices of
+persons with type 2 diabetes in a rural community: phase I of the
+community-based
+Diabetes
+Self-Management
+Education
+(DSME) Program in San Juan, Batangas, Philippines. Diabetes
+Research & Clinical Practice, 90(2), 160–166. https://doi.org/
+10.1016/j.diabres.2010.08.003
+Bentley, J., & Thacker, P. (2004). The inﬂuence of risk and monetary
+payment on the research participation decision making process.
+Journal of Medical Ethics, 30(3), 293–298. https://doi.org/10.
+1136/jme.2002.001594
+Bernays, S., Paparini, S., Namukwaya, S., & Seeley, J. (2019). A
+failed method? Reﬂections on using audio diaries in Uganda
+with young people growing up with HIV in the BREATHER
+trial. Qualitative Health Research, 29(5), 719–730. https://doi.
+org/10.1177/1049732318813534
+Bernays, S., Rhodes, T., & Terzic, K. (2014). Embodied accounts of
+HIV and hope: Using audio diaries with interviews. Qualitative
+Health Research, 24(5), 629–640. https://doi.org/10.1177/
+1049732314528812
+Bhandari, P., & Titzmann, F.-M. (2017). Introduction. Family real-
+ities in South asia: Adaptations and resilience. South Asia
+10
+International Journal of Qualitative Methods
+
+Multidisciplinary Academic Journal, 17(16). https://doi.org/10.
+4000/samaj.4365
+Bokhour, B., Cohn, E., Cort´es, D., Solomon, J., Fix, G., Elwy, R.,
+Mueller, N., Katz, L., Haidet, P., Green, A., Borzecki, A., &
+Kressin, N. (2012). The role of patients’ explanatory models and
+daily-lived
+experience
+in
+hypertension
+self-management.
+Journal of General Internal Medicine, 27(12), 1626–1634.
+https://doi.org/10.1007/s11606-012-2141-2
+Broekhuis, M., van Velsen, L., De Franco, D., Pease, A., & Hermens,
+H. (2020). Contextual health information behavior in the daily
+lives of people with type 2 diabetes: A diary study in scotland
+(pp. 1–13). Health Communication. Nov 1(Epub ahead of print).
+Capistrano, E. (2013). Investigating product involvement issues for
+mobile phone services: A study of Filipino mobile phone users.
+Philippine Management Review, 20, 1–16.
+Chen, G. (2011). Mobile research: Beneﬁts, applications and out-
+looks Internationalization. Design and Global Development.
+Consunji, B. (2013). Facebook rolls out zero data charge access in
+the Philippines. Mashable. https://mashable.com/archive/
+facebook-philippines
+Cryder, C., London, A., Volpp, K., & Loewenstein, G. (2010). In-
+formative inducement: Study payment as a signal of risk. Social
+Science & Medicine, 70(3), 455–464. https://doi.org/10.1016/j.
+socscimed.2009.10.047
+Del Rio, C. (1998). Is ethical research feasible in developed and
+developing countries? Bioethics, 12(4), 328–330. https://doi.
+org/10.1111/1467-8519.00122
+Elliott, H. (1997). The use of diaries in sociological research on health
+experience. Sociological Research Online, 2(2), 38–48. https://
+doi.org/10.5153/sro.38
+Ellis, J., Boger, E., Latter, S., Kennedy, A., Jones, F., Foster, C., & Demain,
+S. (2017). Conceptualisation of the ‘good’ self-manager: A quali-
+tative investigation of stakeholder views on the self-management of
+long-term health conditions. Social Science & Medicine, 176,
+25–33. https://doi.org/10.1016/j.socscimed.2017.01.018
+El Omari, S., & Karasneh, M. (2021). Social health insurance in the
+Philippines: Do the poor really beneﬁt? Journal of Economics
+and Finance, 45(1), 171–187. https://doi.org/10.1007/s12197-
+020-09525-5
+Furness, P., & Garrud, P. (2010). Adaptation after facial surgery:
+Using the diary as a research tool. Qualitative Health Research,
+20(2), 262–272. https://doi.org/10.1177/1049732309357571
+Gelinas, L., White, S., & Bierer, B. (2020). Economic vulnerability
+and payment for research participation. Clinical Trials, 17(3),
+264–272. https://doi.org/10.1177/1740774520905596
+Giddens, A. (1976). New rules of sociological method: A positive
+critique of interpretative sociologies. Hutchison.
+Giddens, A. (1984). The constitution of society: Outline of the theory
+of structuration. University of California Press.
+Greenhalgh, T., & Stones, R. (2010). Theorising big IT programmes
+in healthcare: Strong structuration theory meets actor-network
+theory. Social Science & Medicine, 70(9), 1285–1294. https://
+doi.org/10.1016/j.socscimed.2009.12.034
+Herron, R., Dansereau, L., Wrathall, M., Funk, L., & Spencer, D.
+(2019). Using a ﬂexible diary method rigorously and sensitively
+with
+family
+carers.
+Qualitative
+Health
+Research, 29(7),
+1004–1015. https://doi.org/10.1177/1049732318816081
+Jacelon, C., & Imperio, K. (2005). Participant diaries as a source of
+data in research with older adults. Qualitative Health Re-
+search, 15(7), 991–997. https://doi.org/10.1177/
+1049732305278603
+Knapik, M. (2006). The qualitative research interview: Participants’
+responsive participation in knowledge making. International
+Journal of Qualitative Methods, 5(3), 77–93. https://doi.org/10.
+1177/160940690600500308
+Ku, G., & Kegels, G. (2014). Effects of the ﬁrst line diabetes care
+(FiLDCare) self-management education and support project on
+knowledge, attitudes, perceptions, self-management practices
+and glycaemic control: A quasi-experimental study conducted in
+the northern Philippines. BMJ Open, 4(8), Article e005317.
+https://doi.org/10.1136/bmjopen-2014-005317
+Lasco, G, Mendoza, J, Renedo, A, Seguin, M, Palafox, B, Palileo-
+Villanueva, L, Amit, A, Dans, A, Balabanova, D, & McKee, M
+(2020). Nasa dugo (“It’s in the blood”): A qualitative study of
+lay conceptions of hypertension as a transient illness in the
+Philippines. BMJ Global Health, 5(7), e002295.
+Lasco, G, Renedo, A, Mendoza, J, Seguin, M, Palafox, B,
+Balabanova, D, Palileo-Villanueva, L, & McKee, M (2022).
+‘Doing’ hypertension: Experiential knowledge and practice in
+the self-management of ‘high blood’ in the Philippines. Soci-
+ology of Health & Illness, 44(7), 1167–1181.
+Li, R., Liang, N., Bu, F., & Hesketh, T. (2020). The effectiveness of
+self-management of hypertension in adults using mobile health:
+Systematic review and meta-analysis. Journal of Medical In-
+ternet Research Mhealth and Uhealth, 8(3), Article e17776.
+https://doi.org/10.2196/17776
+Magno, F. (2018). E-government and philippine development.
+Journal of Asia Paciﬁc Studies, 9(2), 1–24.
+Maimaris, W, Paty, J, Perel, P, Legido-Quigley, H, Balabanova, D,
+Nieuwlaat, R, & McKee, M (2013). The Inﬂuence of Health
+Systems on Hypertension Awareness, Treatment, and Control: A
+Systematic Literature Review. PLoS Med, 10(7), e1001490.
+McNeill, P. (1997). Paying people to participate in research: Why
+not? A response to wilkinson and Moore. Bioethics, 11(5),
+390–396. https://doi.org/10.1111/1467-8519.00079
+Mendoza, J, Seguin, M, Lasco, G, Palileo-Villanueva, L, Alamit, A,
+Renedo, A, & McKee, M (2021). Strengths and weaknesses of
+digital diaries as a means to study patient pathways: Experiences
+with a study of hypertension in the Philippines. International
+Journal of Qualitative Methods, 20, 1-11.
+On Our Radar (2021). From the margins to the front page: Amplifying
+stories for social change. https://onourradar.org/
+Palafox, B, McKee, M, Balabanova, D, AlHabib, KF, Avezum, AJ,
+Bahonar, A, Ismail, N, et al. (2016). Wealth and cardiovascular
+health: a cross-sectional study of wealth-related inequalities in
+the awareness, treatment and control of hypertension in high-,
+middle- and low-income countries. International Journal for
+Equity in Health, 15(1), 199.
+Palafox, B, Seguin, M, McKee, M, Dans, A, Yusoff, K, Candari, C,
+Idris, K, et al. (2018). The Responsive and Equitable Health
+Seguin et al.
+11
+
+Systems – Partnership on Non-Communicable Diseases (RE-
+SPOND) study: A mixed-methods, longitudinal, observational
+study on treatment seeking for hypertension in Malaysia and the
+Philippines. BMJ Open, 8, e024000.
+Pamungkas, R., Chamroonsawasdi, K., & Vatanasomboon, P. (2017).
+A systematic review: Family support integrated with diabetes
+self-management among uncontrolled type II diabetes mellitus
+patients. Behavioral Sciences, 7(3), 62. https://doi.org/10.3390/
+bs7030062
+Paturzo, M., Petruzzo, A., Bert`o, L., Mottola, A., Cohen, M., Alvaro,
+R., & Vellone, E. (2016). The lived experience of adults with
+heart failure: A phenomenological study. Annali di Igiene,
+28(4), 263–273. https://doi.org/10.7416/ai.2016.2105
+Paule, M. (2004). “‘SMS’ capital of the world” : A political economy of
+a wireless revolution in the Philippines. Simon Fraser University.
+Paz-Pacheco, E., Sandoval, M., Ardena, G., Paterno, E., Juban, N.,
+Lantion-Ang, F., Jimeno, C., Patal, P., & Bongon, J. (2017).
+Effectiveness of a community-based diabetes self-management
+education (DSME) program in a rural agricultural setting.
+Primary Health Care Research & Development, 18(1), 35–49.
+https://doi.org/10.1017/s1463423616000335
+Portus, L. (2008). How the urban poor acquire and give meaning to
+the mobile phone. In J. Katz (Ed), Handbook of mobile com-
+munication studies. MIT Press.
+Renedo, A., & Marston, C. (2015). Developing patient-centred care:
+An ethnographic study of patient perceptions and inﬂuence on
+quality improvement. BMC Health Services Research, 15(122).
+https://doi.org/10.1186/s12913-015-0770-y
+Rushforth, A., & Greenhalgh, T. (2020). Personalized medicine,
+disruptive innovation, and “trailblazer” guidelines: Case study
+and theorization of an unsuccessful change effort. The Milbank
+Quarterly, 98(2), 581–617. https://doi.org/10.1111/1468-0009.
+12455
+Russell, S., & Seeley, J. (2010). The transition to living with HIVas a
+chronic condition: Working to create order and control on anti-
+retroviral therapy. Social Science & Medicine, 70(3), 375–382.
+https://doi.org/10.1016/j.socscimed.2009.10.039
+Sargeant, S., & Gross, H. (2011). Young people learning to live with
+inﬂammatory bowel disease: Working with an “unclosed” diary.
+Qualitative Health Research, 21(10), 1360–1370. https://doi.
+org/10.1177/1049732311407211
+Seguin, M, Mendoza, J, Lasco, G, Palileo-Villanueva, L, Palafox, B,
+Renedo, A, McKee, M, & Balabanova, D (2022). Strong
+Structuration analysis of adherence patterns to hypertensive
+medication. Social Science and Medicine – Qualitative Re-
+search in Health, 2(100104).
+Siegal, K., & Lekas, H. (2002). AIDS as a chronic illness: Psy-
+chosocial implications. AIDS, 16, S69–S76. https://doi.org/10.
+1097/00002030-200216004-00010
+Silver, L., Smith, A., Johnson, C., Jiang, J., Anderson, M., & Rainie,
+L. (2019a). Use of smartphones and social media is common
+across most emerging economies. Pew Research Center. https://
+www.pewresearch.org/internet/2019/03/07/use-of-
+smartphones-and-social-media-is-common-across-most-
+emerging-economies/
+Silver, L., Vogels, E., Mordecai, M., Cha, J., Rasmussen, R., &
+Rainie, L. (2019b). Mobile Divides in Emerging Economies:
+Some still do not have mobile phones, and even phone owners
+struggle with connectivity and costs; they also face security
+issues.
+Sohal, T., Sohal, P., King-Shier, K., & Khan, N. (2015). Barriers and
+facilitators for type-2 diabetes management in South asians: A
+systematic review. Plos ONE, 10(9), Article e0136202. https://
+doi.org/10.1371/journal.pone.0136202
+Stones, R. (2005). Structuration theory. Palgrave Macmillan.
+Thomas, J. (2015). Using unstructured diaries for primary data
+collection. Nursing Research, 22(5), 25–29. https://doi.org/10.
+7748/nr.22.5.25.e1322
+Uy-Tioco, C. (2019). Good enough’ access: Digital inclusion, social
+stratiﬁcation, and the reinforcement of class in the Philippines.
+Communication Research and Practice, 5(2), 156–171. https://
+doi.org/10.1080/22041451.2019.1601492
+Uy-Tioco, C., & Cabañes, J. (2021). Glocal intimacies and the
+contradictions of mobile media access in the Philippines. Media
+International Australia, 179(1), 9–22. https://doi.org/10.1177/
+1329878x20985962
+We Are Social (2021). Digital 2021: The Philippines. https://
+datareportal.com/reports/digital-2021-philippines
+Wilkinson, M., & Moore, A. (1997). Inducement in research. Bio-
+ethics, 11(5), 373–389. https://doi.org/10.1111/1467-8519.
+00078
+Wolgemuth, J., Erdil-Moody, Z., Opsal, T., Cross, J., Kaanta, T.,
+Dickmann, E., & Colomer, S. (2015). Participants’ experiences
+of the qualitative interview: Considering the importance of
+research paradigms. Qualitative Research, 15(3), 351–372.
+https://doi.org/10.1177/1468794114524222
+Woodall, J., Surr, C., Kinsella, K., & Bunyan, A.-M. (2016). An
+independent evaluation of ‘Dementia Diaries.
+12
+International Journal of Qualitative Methods

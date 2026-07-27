@@ -1,0 +1,499 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+7-1-2023 
+Factors Affecting Treatment Adherence Among Leprosy Patients: 
+Factors Affecting Treatment Adherence Among Leprosy Patients: 
+Perceptions of Healthcare Providers 
+Perceptions of Healthcare Providers 
+Veincent Christian F. Pepito 
+Ateneo de Manila University 
+Arianna Maever Loreche 
+Ateneo de Manila University 
+Rae Erica D. Samontina 
+Ateneo de Manila University 
+Sarah Jane A. Abdon 
+University of the Philippines Manila 
+David Norman L. Fuentes 
+University of the Philippines Manila 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Infectious Disease Commons 
+Custom Citation 
+Custom Citation 
+Pepito VCF, Loreche AM, Samontina RED, Abdon SJA, Fuentes DNL, Saniel OP. Factors affecting treatment 
+adherence among leprosy patients: Perceptions of healthcare providers. Heliyon. 2023 Jul 6;9(7):e17975. 
+doi: 10.1016/j.heliyon.2023.e17975. PMID: 37501956; PMCID: PMC10368771. 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+Authors 
+Authors 
+Veincent Christian F. Pepito, Arianna Maever Loreche, Rae Erica D. Samontina, Sarah Jane A. Abdon, David 
+Norman L. Fuentes, and Ofelia P. Saniel 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/asmph-pubs/128 
+
+Heliyon 9 (2023) e17975
+Available online 6 July 2023
+2405-8440/© 2023 The Authors.
+Published by Elsevier Ltd.
+This is an open access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Factors affecting treatment adherence among leprosy patients: 
+Perceptions of healthcare providers 
+Veincent Christian F. Pepito a,b,*, Arianna Maever Loreche a,b,c, 
+Rae Erica D. Samontina a,b, Sarah Jane A. Abdon a,d, David Norman L. Fuentes a,e, 
+Ofelia P. Saniel a,f 
+a College of Public Health, University of the Philippines Manila, Manila, Philippines 
+b School of Medicine and Public Health, Ateneo de Manila University, Pasig City, Philippines 
+c National Clinical Trials and Translation Center, National Institutes of Health, University of the Philippines Manila 
+d Department of Internal Medicine, Mandaluyong City Medical Center, Mandaluyong City, Philippines 
+e Institute for Neurosciences, St. Luke’s Medical Center, Quezon City, Philippines 
+f Symmetrix Research Consultancy Company, Manila, Philippines   
+A R T I C L E  I N F O   
+Keywords: 
+Treatment adherence 
+Leprosy 
+Healthcare providers 
+Primary care 
+Qualitative study 
+Philippines 
+A B S T R A C T   
+Background: Treatment adherence is a vital aspect in the management of chronic diseases like 
+leprosy; however, most studies on treatment adherence focus on patients. This study aims to 
+examine the perceptions of healthcare providers on factors that can promote or prevent patients 
+from adhering to treatment. 
+Methods: We conducted three focus group discussions (FGDs) with healthcare providers who have 
+at least one year experience in managing leprosy in three large leprosy case-holding hospitals in 
+Metro Manila, Philippines. We audio-recorded, transcribed, translated the FGD proceedings, and 
+analyzed the transcripts thematically to identify patient-intrinsic and patient-extrinsic enablers 
+and barriers to treatment adherence of leprosy patients. 
+Results: Patient-intrinsic motivators to complete treatment include innate desire to be cured, fear 
+of infecting family and friends, fear of disability, good knowledge about the disease, need for 
+medical clearance to be considered fit to work, and experiencing leprosy reactions. Patient- 
+extrinsic motivators to complete treatment include free treatment, immediate and sufficient 
+counselling, flexibility in treatment, follow-up and motivation of healthcare workers, and pres­
+ence of Hansen’s Club and support groups. Patient-intrinsic barriers to good treatment adherence 
+include distance between residence and hospital, financial and opportunity costs, adverse drug 
+reactions, misconceptions about being cured, disabilities and presence of leprosy reactions, 
+stubbornness and/or laziness, and undergoing clinical depression. Patient-extrinsic barriers to 
+good treatment adherence include poor availability of MDT, transfer to other leprosy treatment 
+facilities without informing current facility, and stigma. 
+Conclusion: Healthcare providers perceive that patient-intrinsic and patient-extrinsic factors in­
+fluence the treatment adherence of leprosy patients through different mechanisms. We highlight 
+the role of healthcare provider attitudes, stigma, and support groups in promoting treatment 
+adherence.  
+* Corresponding author. School of Medicine and Public Health, Ateneo de Manila University, Pasig City, Philippines. 
+E-mail address: vpepito@ateneo.edu (V.C.F. Pepito).  
+Contents lists available at ScienceDirect 
+Heliyon 
+journal homepage: www.cell.com/heliyon 
+https://doi.org/10.1016/j.heliyon.2023.e17975 
+Received 13 December 2022; Received in revised form 28 June 2023; Accepted 4 July 2023   
+
+Heliyon 9 (2023) e17975
+2
+1. Introduction 
+Treatment adherence, which is the extent to which patients follow the recommendations for prescribed treatment, has significant 
+impact on population health [1]. It is also an important facet in the management of chronic diseases such as leprosy [2]. In leprosy, 
+poor treatment adherence is reported to be associated with relapse and antimicrobial resistance [3–7] and may also explain the 
+continued plateauing in incidence and prevalence of leprosy in many endemic countries in Asia, Africa, and South America [8–10]. The 
+Philippines, for example, continues to record the highest number of leprosy cases in the Western Pacific Region [11,12], and this could 
+be partly explained by the poor treatment adherence of patients in the country [5,13,14]. Forty percent of new multibacillary leprosy 
+cases in the country do not complete the prescribed World Health Organization Multiple Drug Therapy for the disease [15], providing a 
+steady pool of infected people who can continue to spread the disease [14]. 
+Many qualitative and quantitative studies on treatment adherence had previously been conducted on tuberculosis [16,17], HIV 
+[18], hypertension [19–22], and even leprosy [5,14,23–25]. A systematic review of systematic reviews on treatment adherence has 
+found that social determinants of health play an important role in promoting treatment adherence across different diseases [26]. 
+Another systematic review of studies in leprosy has identified some demographic variables including socio-economic factors, edu­
+cation level of the patient, knowledge about the disease, inefficient health care delivery, adverse drug reactions, alcoholism, and other 
+personal and medical factors that could affect treatment adherence for the disease [27]. However, most of the studies included in these 
+systematic reviews are usually quantitative in nature, thus preempting a thorough and deep understanding of treatment adherence as a 
+phenomenon and how the factors that affect treatment adherence interact with each other. Another common shortcoming is that many 
+studies focus on patients, which fails to acknowledge the role of healthcare providers in treatment adherence. In recent years, the role 
+of healthcare providers in treatment adherence is starting to be studied and documented. In Brazil, a study identified four main themes 
+that affect treatment adherence of leprosy patients: personal factors, external factors, clinical factors, and the healthcare professional – 
+patient – caregiver relationship [23]. To date, there are no studies in the Philippines that explore the perceptions of healthcare pro­
+viders on the factors that could affect treatment adherence of leprosy patients. 
+This study aims to explore the perceptions of healthcare providers involved in the day-to-day care of leprosy patients on what they 
+think are the factors that positively and negatively influence the treatment adherence of leprosy patients. In doing so, we enable a more 
+nuanced understanding of treatment adherence of leprosy patients as perceived by healthcare providers. 
+2. Methods 
+2.1. Study design and population 
+This qualitative study reports the results of three focus group discussions (FGDs) conducted between February and June 2015 with 
+healthcare providers (physicians, nurses, nursing assistants) with at least one year of experience in the day-to-day diagnosis and 
+management of multibacillary leprosy patients in three large leprosy case-holding urban hospitals in Metro Manila, Philippines. This 
+study is a part of a larger project which aimed to study the factors affecting treatment adherence of multibacillary leprosy patients, of 
+which manuscripts have been published [14,28]. 
+2.2. Data collection 
+The topic guide for the FGDs covered usual procedures for managing leprosy patients, reasons for treatment completion and 
+default, and recommendations to improve treatment adherence. The results on treatment completion and default and recommenda­
+tions to improve treatment adherence were published in another manuscript [28]. The FGDs were conducted by trained moderators 
+and lasted for 1–2 h. Depending on the preference of the participants, English and Filipino were used in the FGDs. The FGDs were audio 
+recorded. One FGD was conducted in each hospital after a brief introduction and signing of informed consent forms. 
+2.3. Data management and analysis 
+The audio-recoded proceedings of the three FGDs were transcribed verbatim and translated to English when necessary. These 
+transcripts were then analyzed thematically by the researchers (VCFP, AML, REDS, SJAA, DNLF) who determined patient-intrinsic and 
+patient-extrinsic factors that affected treatment adherence positively or negatively. The basis for these classifications are previous 
+studies, one of which classified factors into patient factors and medical factors [27,29]. However, a more recent study has found this 
+classification scheme deficient [23]. For our study, we designated as ‘patient-intrinsic’ the factors that act on the level of the patient to 
+influence to complete MDT, while ‘patient-extrinsic’ factors act external to the patient that influence them to finish MDT. This clas­
+sification was used so that interventions can be targeted at the appropriate levels. 
+We individually coded the transcripts via NVivo 10 [30], and when differences in coding occur, we elevated the issue to our senior 
+author (OPS) who facilitated to arrive at a consensus on the final themes to use. 
+2.4. Reflexivity 
+VCFP and AML are junior researchers in epidemiology and health systems and have done quantitative and qualitative studies on 
+V.C.F. Pepito et al.                                                                                                                                                                                                     
+
+Heliyon 9 (2023) e17975
+3
+leprosy, hypertension, infant and young child feeding, and self-care. REDS is an emergency medicine resident physician, DNLF is a 
+neurosciences resident physician while, SJAA is an internal medicine physician. The study was conducted while they were all un­
+dergraduate students at the University of the Philippines Manila. OPS is a professor emeritus of epidemiology at the University of the 
+Philippines Manila and has served as principal investigator for mixed-methods and qualitative studies on infant and young child 
+feeding, maternal mortality, and sexual and reproductive health. All researchers are fluent in the languages used in the focus group 
+discussions and are based in the Philippines. 
+2.5. Ethics 
+Ethical approval to conduct the study was obtained from the University of the Philippines Manila Research Ethics Board (Reference 
+No.: UPMREB 2015-092-UND, dated January 30, 2015). Ethical approval to conduct the study was also obtained from each of the 
+participating hospitals prior to the conduct of the study; however, the identities of these hospitals are withheld to maintain their 
+anonymity. 
+3. Results 
+3.1. Description of study participants 
+We conducted one FGD each with three nurses in Hospital A, five resident physicians training on dermatology in Hospital B, and 14 
+resident physicians and one nursing assistant in Hospital C. All three hospitals are public hospitals, but only Hospitals A and C are 
+managed by the Philippine Department of Health. Hospitals B and C are training hospitals for physicians intending to specialize in 
+dermatology, with affiliations to the Philippine Dermatological Society. Most of the participants are female. Resident physicians have 
+one to three years of experience in managing multi-bacillary leprosy patients, while nurses and nursing aides have managed leprosy 
+patients from one year to more than twenty years. 
+3.2. Patient-intrinsic factors that encourage treatment completion 
+These factors are perceived by health professionals as motivators that encourage patients to complete their treatment that directly 
+act at the patient level. These factors include:  
+• Innate desire to be cured. Patients inherently want to be cured of the disease, so they take their medicines and attend scheduled 
+consultations religiously.  
+• Fear of infecting family and friends. Another frequently cited reason by healthcare providers as a reason why patients religiously 
+complete treatment is that they are afraid that they will infect their family and friends, most especially their children.  
+• Fear of disability. Another reason mentioned by health professionals as to why patients complete MDT is their fear of disability. This 
+reason is emphasized by health professionals to motivate patients to complete their treatment: 
+“We do health education. We show them pictures (of leprosy patients with disabilities). And we emphasize to them ‘if you do not 
+complete the treatment, you will go blind, or your feet will just fall off’”. - Nurse from Hospital A   
+• Good knowledge about the disease. Health professionals always emphasize to their patients that leprosy is not caused by "God’s 
+wrath and punishment for sinners" and the disease is curable as long as they complete MDT. They also emphasize to patients that 
+taking the first few doses of MDT greatly reduce the patients’ chance of infecting their family and friends. They note that patients 
+are more adherent to treatment if patients know more about the disease.  
+• Need for medical clearance to prove that they are fit to work. Despite the outpatient nature of MDT treatment and the high 
+prevalence of people with immunity to leprosy [31], some employers still require patients to finish treatment before they are 
+allowed to come back to work: 
+“I had one patient whose main reason for finishing treatment was job-related because no matter what kind of clearance I give to him to 
+certify that he can still work despite his condition, the company wants him to finish treatment first. He is the sole breadwinner of his 
+family. He really had no choice but to complete the treatment.” - Resident dermatologist from Hospital B   
+• Experiencing leprosy reactions. Experiencing reactions was considered by health professionals as a major factor that may enhance 
+treatment adherence among patients because patients with reactions return more frequently for consults: 
+“When patients with reactions see me, I usually tell the patients that ‘When you have reactions, it doesn’t mean that the medicines are not 
+working. We will also treat the reactions’. Usually they’re compliant, because if there is a reaction, follow-up becomes every two weeks, 
+so they become more compliant with the treatment.” - Resident dermatologist from Hospital C 
+V.C.F. Pepito et al.                                                                                                                                                                                                     
+
+Heliyon 9 (2023) e17975
+4
+3.3. Patient-extrinsic factors that encourage treatment completion 
+These factors are perceived by health professionals as motivators that encourage patients to complete their treatment. These factors 
+are outside the level of the patient and oftentimes they operate at the level of the healthcare provider or the health system. These 
+factors include:  
+• Free treatment. MDT is provided for free in public hospitals in the Philippines. Considering that many leprosy patients in the 
+country are indigent, providing free treatment ensures that even the poorest patients have access to essential medicines. 
+• Immediate and sufficient counselling. Once a patient is diagnosed with leprosy, he/she is immediately counselled by health pro­
+fessionals about the disease, emphasizing its curability and the benefits of getting treatment.  
+• Flexibility in treatment. Ideally, MDT packs are given to the patients monthly to provide health professionals the opportunity to 
+monitor how their patients respond to treatment. However, considering that some patients find these hospital visits too expensive 
+or time-consuming, health professionals often give some leeway to patients. Many health professionals give at most three MDT 
+packs if the patient asks for it. In this case, it is emphasized to the patients that they should return to the hospital once their MDT 
+supply is depleted, or if they experience leprosy reactions. 
+“The maximum is three months but there are exceptions like those who work overseas. We did not have a choice. He is working in Saudi 
+(Arabia) and we had to give him one year worth of medication. But there are conditions where we told him to return, like if the condition 
+got worse. But I think his condition did not worsen because if it did, he would have returned. When he returned after a year, he is already 
+doing fine.” - Nurse from Hospital A   
+• Follow-up and motivation of health workers. Nurses from Hospital A go as far as reminding their patients via Short Messaging 
+Service (SMS) to have their monthly check-up and complete their treatment. For some cases, this is seen to contribute to treatment 
+adherence.  
+• Hansen’s Clubs and support groups. Each hospital maintains an active support group for their leprosy patients. Often called 
+Hansen’s Club, this is a way for healthcare providers to conduct group counselling and health education, and for patients to share 
+experiences, provide moral support, and socialize with each other: 
+“Regarding ways to improve treatment compliance, we have Hansen’s Club. The Hansen’s Club … we’re fortunate enough that we are 
+being funded by the Philippine Leprosy Mission and so after three months of consecutive attendance, the patients are entitled to PhP 50 
+(~US$ 1) transportation fee. So they come back on Wednesdays. They get seen by their doctors and they get to attend the Hansen’s Club. 
+They see a lot of other patients, they are going through the same thing and at the same time, snacks are served. There is food. It is a way of 
+fellowship with one another.” - Resident dermatologist from Hospital B 
+“We have leprosy clubs. Almost every month, we have activities for the patients, such as spiritual discussions, meetings, and livelihood 
+programs. This is one factor why patients persevere with the treatment because they feel that they are not alone. Older members 
+emphasize to the newer members ‘That happened to me before, but the doctors were able to manage it.’ That motivates them to continue 
+with treatment or go back (to taking treatment) because they have an assurance that whatever happens to them, it can be managed.” - 
+Resident dermatologist from Hospital C 
+3.4. Patient-intrinsic factors that discourage treatment completion 
+These factors are perceived by health professionals as factors that discourage patients from completing their treatment that act at 
+the level of the patient. These factors include:  
+• Distance between patient’s residence and hospital. Some patients live far from hospitals or health facilities where MDT is available. 
+Other patients go to relatively distant treatment facilities even if there is one near them, to ensure that they cannot be recognized. 
+According to the health professionals, the latter phenomenon can be attributed to stigma. Regardless, travel costs and time spent 
+travelling act as a disincentive to getting treatment: 
+“I remembered a patient from Baguio (City; 261 km away from Manila) who actually insists on coming all the way here because he does 
+not want to see anyone that he knows. It is possible to get medicines from a treatment facility closer to home, and that would probably 
+improve compliance, but because he is embarrassed, he only wants to come here.” - Resident dermatologist from Hospital B   
+• Financial and opportunity costs. Some patients are either students or employees and may not be in a position to miss even a single 
+day at school or work. Employees will miss a day’s salary if they will be absent at work for their checkup or to get drugs. Even if the 
+medicines are given for free, visits to the hospital to get their medicines will entail costs.  
+• Adverse drug reactions. Another frequently cited reason for poor treatment adherence is adverse drug reactions, most especially 
+skin discoloration due to clofazimine. Often found by patients to be cosmetically unacceptable, some patients stop taking MDT 
+V.C.F. Pepito et al.                                                                                                                                                                                                     
+
+Heliyon 9 (2023) e17975
+5
+altogether. To address this problem, health professionals explain that these negative side effects are relatively rare and that there 
+are alternative drugs (e.g., Rifampicin-Ofloxacin-Minocycline (ROM) regimen) that will not cause skin discoloration. Unfortu­
+nately, these alternative drugs are not available for free. Resident dermatologists from Hospital C report that most patients who 
+initially opt to take ROM revert to taking MDT after a while because the former is expensive.  
+• Misconceptions about being cured. Few months after taking MDT, leprosy patients experience an improved feeling of well-being, 
+causing them to think that they are already cured. Because of this, they stop taking MDT prematurely and they only come back to 
+the hospital once they experience the symptoms again or when they experience leprosy reactions.  
+• Disabilities and/or presence of leprosy reactions. In some cases, the presence of leprosy reactions acts to improve treatment 
+adherence; however, some patients sometimes feel too sick or weak to get the drugs themselves. Patients with disabilities may also 
+find it unacceptable and inconvenient to go to the hospital to get MDT.  
+• Perceived stubbornness and/or laziness. A few health professionals perceive that some patients are stubborn (or lazy) to continue 
+treatment despite repeated reminders, education, and counselling efforts of health workers: 
+“Some patients are stubborn. They get lazy in getting treatment, especially if they feel well already. We always emphasize, explain that 
+even if they feel well, as long as they don’t finish 12 months of treatment, they are still not considered cured. The bacteria are still in your 
+body. Very stubborn. If they feel well, they will no longer return.” - Nurse from Hospital A   
+• Undergoing clinical depression. One health professional recounted her experience with a patient who had depression and how it 
+affected the latter’s treatment adherence: 
+“He was undergoing treatment for quite a long time. His treatment was extended for another six months. He came here regularly but I 
+noticed he was losing weight. He was no longer eating meals regularly. He got diagnosed with clinical depression. Even if he was getting 
+the drugs from us, he is not drinking it. I really took the time to talk to him. I had him referred to another institution that can handle his 
+psychiatric needs but emphasized that he can still get his (leprosy) medicines here and he should start taking it again.” - Resident 
+dermatologist from Hospital C 
+3.5. Patient-extrinsic factors that discourage treatment completion 
+There are factors that are perceived by healthcare providers to work beyond the patient’s control that discourage treatment 
+completion. Two factors act at the level of the health facility (poor availability of MDT drugs and transfer to other leprosy treatment 
+facilities), while one factor acts at the societal level (stigma):  
+• Poor availability of MDT. Many government health facilities no longer report leprosy cases in their communities. As a result, they 
+no longer receive supplies of MDT packs. When a patient from that community is diagnosed with leprosy, he/she may need to go to 
+distant treatment facilities just to get their drugs and this situation negatively affects treatment adherence.  
+• Transfer to other leprosy treatment facilities without informing current treatment facility. This phenomenon artificially creates 
+poor adherence from the perspective of the current facility as it increases the number of patients defaulting from treatment, even if 
+the patient may have actually completed treatment elsewhere. Furthermore, it affects leprosy statistics in the country: 
+“Many patients transfer to other facilities without giving us prior notice. Of course, here, we count it as default. What’s wrong is that they 
+are counted twice. If there is a census of leprosy patients in the Philippines, that patient is counted here and in the facility he/she transfers 
+to.” - Nurse from Hospital A   
+• Stigma. Health professionals have always emphasized that the stigma of leprosy has been present since biblical times and this 
+contributes to poor treatment adherence: 
+“What the patients usually do is that they go see us, they tell us their supposed addresses, but it’s not really true. This is due to stigma. 
+They don’t want us to know where they live. That’s what the DOH (i.e., Department of Health) would like to avoid because patient 
+monitoring and contact tracing can’t be performed. Sometimes, it is really difficult; many patients do not provide us with the right in­
+formation. Some do not give addresses or contact numbers at all.” - Resident dermatologist from Hospital C 
+4. Discussion 
+We identified patient-intrinsic and extrinsic factors that, in the healthcare providers’ opinion, affect treatment adherence. Patient 
+intrinsic motivators to complete treatment include innate desire to be cured, fear of infecting family and friends, fear of disability, good 
+knowledge about the disease, need for medical clearance to be considered fit to work, and experiencing leprosy reactions. Patient 
+extrinsic motivators to complete treatment include free treatment, immediate and sufficient counselling, flexibility in treatment, 
+follow-up and motivation of healthcare workers, and Hansen’s Club and support groups. On the other hand, patient intrinsic barriers to 
+good treatment adherence include distance, financial and opportunity costs, adverse drug reactions, misconceptions about treatment 
+V.C.F. Pepito et al.                                                                                                                                                                                                     
+
+Heliyon 9 (2023) e17975
+6
+duration and cure, disabilities and presence of leprosy reactions, stubbornness and/or laziness, and experiencing clinical depression. 
+Lastly, patient-extrinsic barriers to good treatment adherence include poor availability of MDT, transfer to other leprosy treatment 
+facilities without informing current facility, and stigma. Most of these factors corroborate previous research in Brazil [23,27], how­
+ever, some differences remain. For example, misdiagnosis and lack of symptomatic relief were identified as barriers to treatment 
+adherence in Brazil but were not mentioned in this study [23]. However, some of the perceived factors have to be discussed in greater 
+detail considering the importance of healthcare providers in treatment adherence [32–34]. 
+One of the factors, which is perceived by the healthcare providers that can adversely affect treatment adherence, is patients’ 
+stubbornness and laziness. While it is certain that some patients have poor health-seeking behavior, the way the respondents phrased it 
+highlights the negative attitudes of some healthcare providers towards some patients. Such reported negative attitudes of healthcare 
+providers in Philippine government healthcare facilities have also been documented even in studies on maternal care, highlighting a 
+systemic problem [35]. While the vignette highlights the common frustration of healthcare providers on the failure of patients to 
+adhere to treatment despite persistent information, education and communication efforts, healthcare providers should become more 
+tolerant and understanding with their patients. They should get to the level of the patient and understand the patient’s motivations, 
+belief systems, and values, and leverage these information to improve health-seeking behavior and medication adherence [1]. This 
+implies that health education, while there are common key messages, should be individually tailored to each patient, considering that 
+each patient has different motivations, beliefs, and values. However, this would entail additional investments in training, specifically 
+in providing counselling services and health education, which the respondents have recognized [28]. This is also important as some 
+leprosy patients may also be suffering from clinical depression and this condition has been recognized as a major deterrent towards 
+patients’ treatment adherence [23,36]. It is also vital to ensure that there are adequate health human resources, equipment, and 
+medicines to provide an optimum care to patients [35]. The importance of these investments cannot be overemphasized especially for 
+leprosy, whose stigmatizing nature and being a ‘neglected’ tropical disease, could mean that healthcare providers at first contact might 
+be the only link patients have to the continuum of care [37]. 
+The word ‘stigma’ has always been associated with leprosy [24,37–39], but as shown, it can act both as a motivator and a deterrent 
+towards treatment adherence. Utilizing stigma to promote treatment adherence (i.e., through health information, education, and 
+communication (IEC) materials depicting discrimination, disability, or disfigurement due to leprosy) should be considered carefully as 
+it may have unintended consequences. Many anecdotes show that stigma due to leprosy persists across different sectors of Philippine 
+society – with one vignette showing discrimination that prevented the patient from having gainful employment. The Philippine 
+Constitution explicitly states that while Filipinos have equal protection under the law and that the state guarantees full respect of 
+human rights [40], the absence of an enabling law means that those who discriminate according to leprosy status, especially in the 
+private sector, cannot be prosecuted. Measures to criminalize discrimination according to medical status, among others, have been 
+filed in the Philippine Congress [41]; such measures are vital to address the stigma of leprosy in the country. On a smaller scale, 
+medical societies and health advocates should take the lead in correcting misconceptions of people regarding leprosy; specifically, 
+misconceptions that leprosy is highly contagious, that leprosy is due to bad luck or an act of God, and that leprosy is not curable. Such 
+misconceptions remain common, as shown in recent studies conducted in India, Ethiopia, Nepal, and the Philippines [42–45]. 
+Hansen’s Clubs and similar support groups provide a relatively stigma-free environment where people with leprosy can empathize 
+and socialize with each other. As demonstrated, these support groups are vital in improving treatment adherence, and can be improved 
+further by also involving the family members of leprosy patients in these support groups. Involving family members, friends, and peers 
+of leprosy patients in these support groups will help reduce stigma, correct misconceptions, facilitate management of the condition, 
+and improve the well-being of leprosy patients [46,47]. Such support groups can benefit from collaborations with government, other 
+non-government agencies such as medical societies, and the private sector through corporate social responsibility initiatives. Such 
+collaborations can focus on correcting misconceptions of the public on leprosy as well as providing measures to provide livelihood and 
+re-integrate leprosy patients to mainstream society. 
+It should be kept in mind that perceptions of different individuals or groups on the same phenomenon could vary significantly [48]. 
+This study documents the factors that were perceived by healthcare providers to affect treatment adherence. Had the FGDs been 
+conducted with patients, only the factors that could affect their own adherence to treatment may be brought to light. Nevertheless, it 
+examined one perspective often overlooked when studying factors that influence treatment adherence of patients, that is, the 
+perspective of health professionals. 
+This study has limitations. First, the responses have not yet considered the effect of the COVID-19 pandemic, which have adversely 
+affected treatment adherence as lockdowns have limited patients’ access to health facilities for follow-up and to obtain medication 
+[49]. Second, we were unable to inquire about the monitoring of drug resistance and the follow-up of other regimens such as ROM as 
+this was beyond the scope of our study. Lastly, due to varying cultural contexts in leprosy, caution should be exercised in generalizing 
+the findings of the study to other contexts [27]. 
+5. Conclusions 
+Patient-intrinsic and patient-extrinsic factors influence treatment adherence in different but interconnected ways. Patient intrinsic 
+factors, such as the intrinsic motivation to get cured, and their desire to prevent their friends and family from being infected and 
+preventing disability could be used as key messages to improve treatment adherence. Healthcare providers should individualize health 
+education approaches to get to the level of the patient and leverage the latter’s motivations, belief systems and values to promote 
+treatment adherence. Support groups have a vital role in promoting treatment adherence but can be expanded to include family and 
+friends of leprosy patients and should be scaled-up through collaborations with government, medical societies, and corporate social 
+V.C.F. Pepito et al.                                                                                                                                                                                                     
+
+Heliyon 9 (2023) e17975
+7
+responsibility arms of the private sector. Lastly, further research is needed to follow-up treatment outcomes and adherence in other 
+leprosy treatment regimens, and to establish how other stakeholders like primary care providers, disease control program officers, non- 
+government organizations, and the private sector could play a role in strengthening prevention and control and treatment adherence 
+interventions to mitigate the burden of leprosy as the Philippines transitions to Universal Healthcare [50]. 
+Other information 
+The results of this study have been presented via a poster presentation in the 20th International Leprosy Congress held at Manila, 
+Philippines on September 10–13, 2019. 
+Funding sources 
+This study has received financial support from the Student Researcher Grant (Project Code: NIH 2014-046) of the University of the 
+Philippines Manila. The funding agency did not have any role in the design and conduct of the study, nor in the data analysis and 
+interpretation of results. We also acknowledge publication support from the University of the Philippines Manila and the Ateneo de 
+Manila University. 
+Author contribution statement 
+Veincent Christian Pepito: Ofelia Pardo Saniel: Conceived and designed the experiments; Performed the experiments; Analyzed and 
+interpreted the data; Contributed reagents, materials, analysis tools or data; Wrote the paper. Arianna Maever Loreche: Analyzed and 
+interpreted the data; Contributed reagents, materials, analysis tools or data; Wrote the paper. Rae Erica D. Samontina: Sarah Jane A. 
+Abdon: David Norman L. Fuentes: Conceived and designed the experiments; Performed the experiments; Analyzed and interpreted the 
+data; Contributed reagents, materials, analysis tools or data. 
+Data availability statement 
+Data will be made available on request. 
+Declaration of competing interest 
+VCFP and AML received funding from Sanofi Consumer Healthcare to conduct research on self-care. They have also received 
+funding from the International Initiative for Impact Evaluation, Inc. (3ie) to propose a study on programs designed by the Philippine 
+Health Insurance Corporation. VCFP is an advisory board member of Heliyon. Other authors have no conflicts of interest to disclose. 
+Acknowledgements 
+We thank the healthcare providers from the three hospitals who joined our study for sharing their insights and expertise to promote 
+treatment adherence of leprosy patients. 
+References 
+[1] M.T. Brown, J. Bussell, S. Dutta, K. Davis, S. Strong, S. Mathew, Medication adherence: truth and consequences, Am. J. Med. Sci. 351 (2016) 387–399, https:// 
+doi.org/10.1016/j.amjms.2016.01.010. 
+[2] C.I. Fernandez-Lazaro, J.M. García-Gonz´alez, D.P. Adams, D. Fernandez-Lazaro, J. Mielgo-Ayuso, A. Caballero-Garcia, et al., Adherence to treatment and related 
+factors among patients with chronic conditions in primary care: a cross-sectional study, BMC Fam. Pract. 20 (2019) 132, https://doi.org/10.1186/s12875-019- 
+1019-3. 
+[3] C. Chaptini, G. Marshman, Leprosy: a review on elimination, reducing the disease burden, and future research, Lepr. Rev. 86 (2015) 307–315. 
+[4] M. Matsuoka, Drug resistance in leprosy, Jpn. J. Infect. Dis. 63 (2010) 1–7. 
+[5] E.R. Honrado, V. Tallo, A.C. Balis, G.P. Chan, S.N. Cho, Noncompliance with the World health organization-multidrug therapy among leprosy patients in cebu, 
+Philippines: its causes and implications on the leprosy control program, Dermatol. Clin. 26 (2008) 221–229, https://doi.org/10.1016/j.det.2007.11.007. 
+[6] E. Cambau, P. Saunderson, M. Matsuoka, S.T. Cole, M. Kai, P. Suffys, et al., Antimicrobial resistance in leprosy: results of the first prospective open survey 
+conducted by a WHO surveillance network for the period 2009–15, Clin. Microbiol. Infect. 24 (2018) 1305–1310, https://doi.org/10.1016/j.cmi.2018.02.022. 
+[7] D. Weiand, J. Thoulass, W.C.S. Smith, Assessing and improving adherence with multidrug therapy, Lepr. Rev. 83 (2012) 282–291. 
+[8] L.C. Rodrigues, D.N. Lockwood, Leprosy now: epidemiology, progress, challenges, and research gaps, Lancet Infect. Dis. 11 (2011) 464–470, https://doi.org/ 
+10.1016/S1473-3099(11)70006-8. 
+[9] C.S. Smith, A. Aerts, P. Saunderson, J. Kawuma, E. Kita, M. Virmond, Multidrug therapy for leprosy: a game changer on the path to elimination, Lancet Infect. 
+Dis. 17 (2017) e293–e297, https://doi.org/10.1016/S1473-3099(17)30418-8. 
+[10] M.C. Williams, How can adherence with multi-drug therapy in leprosy be improved? Lepr. Rev. 76 (2005) 160–161. 
+[11] B. Kritz, Leprosy Remains a Stubborn, Unseen Problem in the Philippines, accessed August 28, 2020, Inter Press Service, 2019, https://www.ipsnews.net/2019/ 
+03/leprosy-remains-stubborn-unseen-problem-philippines/. 
+[12] World Leprosy Day, Tackling stigma and discrimination in the Philippines n.d, accessed December 5, 2022, https://www.who.int/philippines/news/feature- 
+stories/detail/world-leprosy-day-2016-tackling-stigma-and-discrimination-in-the-philippines, 2016. 
+[13] E.B. Handog, M.T.G. Gabriel, C.C. Co, Leprosy in the Philippines: a review, Int. J. Dermatol. 50 (2011) 573–581, https://doi.org/10.1111/j.1365- 
+4632.2011.05044.x. 
+V.C.F. Pepito et al.                                                                                                                                                                                                     
+
+Heliyon 9 (2023) e17975
+8
+[14] V.C.F. Pepito, A.M.L. Amit, R.E.D. Samontina, S.J.A. Abdon, D.N.L. Fuentes, O.P. Saniel, Patterns and determinants of treatment completion and default among 
+newly diagnosed multibacillary leprosy patients: a retrospective cohort study, Heliyon 7 (2021), https://doi.org/10.1016/j.heliyon.2021.e07279. 
+[15] World Health Organization, Guidelines for the diagnosis, treatment and prevention of leprosy, accessed August 28, 2020, https://apps.who.int/iris/bitstream/ 
+handle/10665/274127/9789290226383-eng.pdf?ua=1, 2018. 
+[16] A. Pachi, D. Bratis, G. Moussas, A. Tselebis, Psychiatric morbidity and other factors affecting treatment adherence in pulmonary tuberculosis patients, Tubercul. 
+Res. Treatment 2013 (2013), e489865, https://doi.org/10.1155/2013/489865. 
+[17] E.O. Masini, O. Mansour, C.E. Speer, V. Addona, C.L. Hanson, J.K. Sitienei, et al., Using survival analysis to identify risk factors for treatment interruption among 
+new and retreatment tuberculosis patients in Kenya, PLoS One 11 (2016), e0164172, https://doi.org/10.1371/journal.pone.0164172. 
+[18] M.A. Chesney, Factors affecting adherence to antiretroviral therapy, Clin. Infect. Dis. 30 (2000) S171–S176, https://doi.org/10.1086/313849. 
+[19] F. Alsolami, X.-Y. Hou, I. Correa-Velez, Factors affecting antihypertensive treatment adherence: a Saudi arabian perspective, Curr. Med. Dialog CMD 2 (2012) 
+27–32, https://doi.org/10.5923/j.cmd.20120204.02. 
+[20] M. Seguin, J. Mendoza, G. Lasco, L.M. Palileo-Villanueva, B. Palafox, A. Renedo, et al., Strong structuration analysis of patterns of adherence to hypertension 
+medication, SSM - Qualitative Res. Health 2 (2022), 100104, https://doi.org/10.1016/j.ssmqr.2022.100104. 
+[21] J.A. Mendoza, G. Lasco, A. Renedo, L. Palileo-Villanueva, M. Seguin, B. Palafox, et al., (De)constructing ‘therapeutic itineraries’ of hypertension care: a 
+qualitative study in the Philippines, Soc. Sci. Med. 300 (2022), 114570, https://doi.org/10.1016/j.socscimed.2021.114570. 
+[22] L.M. Palileo-Villanueva, B. Palafox, A.M.L. Amit, V.C.F. Pepito, F. Ab-Majid, F. Ariffin, et al., Prevalence, determinants and outcomes of traditional, 
+complementary and alternative medicine use for hypertension among low-income households in Malaysia and the Philippines, BMC Complement Med. Ther. 22 
+(2022) 252, https://doi.org/10.1186/s12906-022-03730-x. 
+[23] D. Khanna, G. de Wildt, L.A.M. de Souza Duarte Filho, M. Bajaj, J.F. Lai, E. Gardiner, et al., Improving treatment outcomes for leprosy in Pernambuco, Brazil: a 
+qualitative study exploring the experiences and perceptions of retreatment patients and their carers, BMC Infect. Dis. 21 (2021) 282, https://doi.org/10.1186/ 
+s12879-021-05980-5. 
+[24] I.A. Susanti, N.G.P. Mahardita, R. Alfianto, I.M.I.W.C. Sujana, Susanto T. Siswoyo, Social stigma, adherence to medication and motivation for healing: a cross- 
+sectional study of leprosy patients at Jember Public Health Center, Indonesia, J Taibah Univ Med Sci 13 (2017) 97–102, https://doi.org/10.1016/j. 
+jtumed.2017.06.006. 
+[25] K.B. Lira, J.J.G. Leite, D.C.B.S.C. Maia, R. de MF. Freitas, A.R. Feij˜ao, Knowledge of the patients regarding leprosy and adherence to treatment, Braz. J. Infect. 
+Dis. 16 (2012) 472–475, https://doi.org/10.1016/j.bjid.2012.04.002. 
+[26] A. Gast, T. Mathes, Medication adherence influencing factors—an (updated) overview of systematic reviews, Syst. Rev. 8 (2019) 112, https://doi.org/10.1186/ 
+s13643-019-1014-8. 
+[27] R.J.S. Gir˜ao, N.L.R. Soares, J.V. Pinheiro, G. da P. Oliveira, S.M.F. de Carvalho, L.C. de Abreu, et al., Leprosy treatment dropout: a systematic review, Int. Arch. 
+Med. 6 (2013) 34, https://doi.org/10.1186/1755-7682-6-34. 
+[28] V.C.F. Pepito, A.M.L. Amit, R.E.D. Samontina, S.J.A. Abdon, D.N.L. Fuentes, O.P. Saniel, Variations in the clinical management of multibacillary leprosy patients 
+in selected hospitals in Metro Manila, Acta Med. Philipp. 52 (2018) 9. 
+[29] P.S.S. Rao, A study on non-adherence to MDT among leprosy patients, Indian J. Lepr. 80 (2008) 149–154. 
+[30] QSR International, NVivo 10, 2013. 
+[31] J.C. Last´oria, M.A.M.M. de Abreu, Leprosy: review of the epidemiological, clinical, and etiopathogenic aspects - Part 1, An. Bras. Dermatol. 89 (2014) 205–218, 
+https://doi.org/10.1590/abd1806-4841.20142450. 
+[32] J.K. Bussell, E. Cha, Y.E. Grant, D.D. Schwartz, L.A. Young, Ways health care providers can promote better medication adherence, Clin. Diabetes 35 (2017) 
+171–177, https://doi.org/10.2337/cd016-0029. 
+[33] B. Jimmy, J. Jose, Patient medication adherence: measures in daily practice, Oman Med. J. 26 (2011) 155–159, https://doi.org/10.5001/omj.2011.38. 
+[34] Promoting Treatment Adherence. SAGE Publications Inc 2022. https://us.sagepub.com/en-us/nam/promoting-treatment-adherence/book226732 (accessed 
+December 8, 2022). 
+[35] M.S.F.S. Cagayan, V.C. Pepito, R. Ang-Bon, E. Clark, Experiences and satisfaction of high-risk mothers who gave birth in select facilities in Legazpi City, 
+Philippines, Int. J. Publ. Health Sci. 9 (2020) 137–144, https://doi.org/10.11591/ijphs.v9i2.20381. 
+[36] P. Somar, M. Waltz, W. van Brakel, The impact of leprosy on the mental wellbeing of leprosy-affected persons and their family members – a systematic review, 
+Glob Ment Health (Camb) 7 (2020) e15, https://doi.org/10.1017/gmh.2020.3. 
+[37] W.H. van Brakel, R. Peters, Z. Da Silva Pereira, Stigma Related to Leprosy – A Scientific View, International Textbook of Leprosy, 2016. 
+[38] S. Sermrittirong, W.H. Van Brakel, Stigma in leprosy: concepts, causes and determinants, Lepr. Rev. 85 (2014) 36–47. 
+[39] S. Sermrittirong, W.H. Van Brakel, J.F.G. Bunbers-Aelen, How to reduce stigma in leprosy–a systematic literature review, Lepr. Rev. 85 (2014) 149–157. 
+[40] The Constitution of the Republic of the Philippines | GOVPH. Official Gazette of the Republic of the Philippines n.d. https://www.officialgazette.gov.ph/ 
+constitutions/1987-constitution/ (accessed December 8, 2022). 
+[41] F.M. Cervantes, Anti-discrimination Bill Filed in House, accessed December 8, 2022, Philippine News Agency, 2022, https://www.pna.gov.ph/articles/ 
+1181225. 
+[42] R. Singh, B. Singh, S. Mahato, Community knowledge, attitude, and perceived stigma of leprosy amongst community members living in Dhanusha and Parsa 
+districts of Southern Central Nepal, PLoS Neglected Trop. Dis. 13 (2019), e0007075, https://doi.org/10.1371/journal.pntd.0007075. 
+[43] S. Gopalakrishnan, G.A. Grace, P. Sujitha, V.M. Anantha Eashwar, Knowledge, attitude, and health seeking behavior on leprosy among urban adults in 
+Kancheepuram district of Tamil Nadu: a Community-based cross-sectional study, J. Fam. Med. Prim. Care 10 (2021) 1895–1903, https://doi.org/10.4103/ 
+jfmpc.jfmpc_2086_20. 
+[44] K. Urgesa, K. Bobosha, B. Seyoum, B. Geda, F. Weldegebreal, A. Mihret, et al., Knowledge of and attitude toward leprosy in a leprosy endemic district, eastern 
+Ethiopia: a community-based study, Risk Manag. Healthc. Pol. 13 (2020) 1069–1077, https://doi.org/10.2147/RMHP.S254625. 
+[45] C.P. Chavez, M.H.P. Lopez, CE de Guia, M.J.B. Tapales, A.A. Venida-Tablizo, Knowledge and attitudes on leprosy of healthcare workers in a tertiary government 
+hospital in the Philippines, Lepr. Rev. 93 (2022) 26–37, https://doi.org/10.47276/lr.93.1.26. 
+[46] A.T. van’t Noordende, Z. Bakirtzief da Silva Pereira, P. Kuipers, Key sources of strength and resilience for persons receiving services for Hansen’s disease 
+(leprosy) in Porto Velho, Brazil: what can we learn for service development? Int. Health 13 (2021) 527–535, https://doi.org/10.1093/inthealth/ihab001. 
+[47] A. Nasir, A. Yusuf, M.Y. Listiawan, M. Makhfudli, The life experience of leprosy families in maintaining interaction patterns in the family to support healing in 
+leprosy patients in Indonesian society. A phenomenological qualitative study, PLoS Neglected Trop. Dis. 16 (2022), e0010264, https://doi.org/10.1371/journal. 
+pntd.0010264. 
+[48] D. Moya, M. Guilabert, R. Manzanera, G. G´alvez, M. Torres, A. L´opez-Pineda, et al., Differences in perception of healthcare management between patients and 
+professionals, Int. J. Environ. Res. Publ. Health 20 (2023) 3842, https://doi.org/10.3390/ijerph20053842. 
+[49] B. de Barros, S.M. Lambert, E. Negera, G.R. de Arquer, A.M. Sales, J. Darlong, et al., An assessment of the reported impact of the COVID-19 pandemic on leprosy 
+services using an online survey of practitioners in leprosy referral centres, Trans. R. Soc. Trop. Med. Hyg. 115 (2021) 1456–1461, https://doi.org/10.1093/ 
+trstmh/trab084. 
+[50] Amit A.M. L., Pepito V.C.F., Dayrit M.M., Advancing Universal Health Coverage in the Philippines through self-care interventions, Lancet Reg Health West Pac. 
+26 (2022) 100579, doi: https://doi.org/10.1016/j.lanwpc.2022.100579. 
+V.C.F. Pepito et al.                                                                                                                                                                                                     

@@ -1,0 +1,276 @@
+{% extends "base.html" %}
+
+{% block title %}
+Review Report
+{% endblock %}
+
+{% block content %}
+
+<div class="container mt-4">
+
+    <div class="text-center mb-5">
+
+        <h1 class="display-5 fw-bold">
+
+            Document Review
+
+        </h1>
+
+        <p class="lead">
+
+            Detailed similarity analysis.
+
+        </p>
+
+    </div>
+
+    {% if review.summary %}
+    <div class="row mb-4">
+
+        <div class="col-md-3">
+
+            <div class="card text-center shadow-sm">
+
+                <div class="card-body">
+
+                    <h6>Cosine</h6>
+
+                    <h3>
+
+                        {{ review.summary.cosine_score }}
+
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-3">
+
+            <div class="card text-center shadow-sm">
+
+                <div class="card-body">
+
+                    <h6>Unigram</h6>
+
+                    <h3>
+
+                        {{ review.summary.jaccard_unigram }}
+
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-3">
+
+            <div class="card text-center shadow-sm">
+
+                <div class="card-body">
+
+                    <h6>Bigram</h6>
+
+                    <h3>
+
+                        {{ review.summary.jaccard_bigram }}
+
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-3">
+
+            <div class="card text-center shadow-sm">
+
+                <div class="card-body">
+
+                    <h6>Trigram</h6>
+
+                    <h3>
+
+                        {{ review.summary.jaccard_trigram }}
+
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    {% endif %}
+    <div class="card shadow mb-4">
+
+        <div class="card-header">
+
+            <h4>
+                Full Document Comparison
+            </h4>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <h5 class="mb-3 text-primary">
+
+                        Uploaded Document
+
+                    </h5>
+
+                    <div class="document-view">
+
+                        {{ review.uploaded_html | safe }}
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <h5 class="mb-3 text-success">
+
+                        Repository Document
+
+                    </h5>
+
+                    <div class="document-view">
+
+                        {{ review.repository_html | safe }}
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- <div class="card shadow">
+
+        <div class="card-header d-flex justify-content-between align-items-center">
+
+            <h4 class="mb-0">
+
+                Similar Sentences
+
+            </h4>
+
+            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#sentenceMatches">
+
+                Show / Hide Matches
+            </button>
+
+        </div>
+
+        <div class="collapse" id="sentenceMatches">
+
+            <div class="card-body">
+
+                {% if review.matches %}
+
+                {% for match in review.matches %}
+
+                <div class="card shadow-sm border-0 mb-4">
+
+                    <div class="card-header d-flex justify-content-between align-items-center">
+
+                        <strong>
+
+                            Sentence Match
+
+                        </strong>
+
+                        <span class="badge bg-primary">
+
+                            {{ "%.2f"|format(match.sentence_similarity * 100) }}%
+
+                        </span>
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <h6>
+
+                            Uploaded Document
+
+                        </h6>
+
+                        <div class="bg-body-secondary p-3 rounded">
+
+                            {{ match.sentence_from_doc1_html | safe }}
+
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <h6>
+
+                            Repository Document
+
+                        </h6>
+
+                        <div class="bg-info-subtle p-3 rounded">
+
+                            {{ match.sentence_from_doc2_html | safe }}
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                {% endfor %}
+
+                {% else %}
+
+                <div class="alert alert-success">
+
+                    No similar sentences were found.
+
+                </div>
+
+                {% endif %}
+
+            </div>
+
+        </div>
+
+    </div> -->
+    <div class="text-center mt-4">
+
+        <a href="{{ url_for('results') }}" class="btn btn-secondary me-2">
+
+            ← Back to Results
+
+        </a>
+
+        <a href="{{ url_for('home') }}" class="btn btn-primary">
+
+            Back to Home
+
+        </a>
+
+    </div>
+
+</div>
+
+{% endblock %}

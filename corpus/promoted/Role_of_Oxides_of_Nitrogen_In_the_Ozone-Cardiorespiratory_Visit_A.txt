@@ -1,0 +1,760 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+1-15-2023 
+Role of Oxides of Nitrogen In the Ozone-Cardiorespiratory Visit 
+Role of Oxides of Nitrogen In the Ozone-Cardiorespiratory Visit 
+Association 
+Association 
+Xerxes Seposo 
+Ateneo de Manila University 
+Kayo Ueda 
+Graduate School of Engineering 
+Chris Fook Sheng Ng 
+Nagasaki University 
+Lina Madaniyazi 
+Nagasaki University 
+Seiji Sugata 
+National Institute for Environmental Studies of Japan 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Cardiology Commons, Environmental Public Health Commons, and the Pulmonology 
+Commons 
+Custom Citation 
+Custom Citation 
+Seposo X, Ueda K, Fook Sheng Ng C, Madaniyazi L, Sugata S, Yoshino A, Takami A. Role of oxides of 
+nitrogen in the ozone-cardiorespiratory visit association. Environ Pollut. 2023 Jan 15;317:120802. doi: 
+10.1016/j.envpol.2022.120802. Epub 2022 Dec 3. PMID: 36473642. 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+Authors 
+Authors 
+Xerxes Seposo, Kayo Ueda, Chris Fook Sheng Ng, Lina Madaniyazi, Seiji Sugata, Ayako Yoshino, and 
+Akinori Takami 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/asmph-pubs/143 
+
+Environmental Pollution 317 (2023) 120802
+Available online 3 December 2022
+0269-7491/© 2022 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-
+nc-nd/4.0/).
+Role of oxides of nitrogen in the ozone-cardiorespiratory visit association☆ 
+Xerxes Seposo a,g,h,*, Kayo Ueda b,c,g, Chris Fook Sheng Ng a,d, Lina Madaniyazi a,e, Seiji Sugata f, 
+Ayako Yoshino f, Akinori Takami f 
+a School of Tropical Medicine and Global Health, Nagasaki University, Japan 
+b Environmental Health Division, Department of Environmental Engineering, Graduate School of Engineering, Kyoto University, Japan 
+c Environmental Health Sciences, Department of Global Ecology, Graduate School of Global Environmental Sciences, Kyoto University, Japan 
+d School of International Health, Graduate School of Medicine, The University of Tokyo, Japan 
+e Institute of Tropical Medicine, Nagasaki University, Japan 
+f Regional Environment Conservation Division, National Institute for Environmental Studies, Japan 
+g Department of Hygiene, Graduate School of Medicine, Hokkaido University, Japan 
+h Ateneo Center for Research and Innovation, Ateneo School of Medicine and Public Health, Atene de Manila University, Philippines   
+A R T I C L E  I N F O   
+Keywords: 
+Ozone 
+Oxides of nitrogen 
+Cardiorespiratory clinic visit 
+Non-linear 
+Threshold 
+A B S T R A C T   
+Ozone (O3)-induced health effects vary in terms of severity, from deterioration of lung function and hospitali­
+zation to death. Several studies have reported a linear increase in health risks after O3 exposure. However, 
+current evidence suggests a non-linear U- and J-shaped concentration-response (C-R) function. The potential 
+increasing risks with decreasing O3 concentrations may seem counterintuitive from the traditional standpoint 
+that decreasing exposure should lead to decreasing health risks. Tus, the question of whether the increasing risks 
+with decreasing concentrations are truly O3-induced or might be from other C-R mechanisms. If these potential 
+risks were not accounted for, this may have contributed to the risks observed at the low ozone concentration 
+range. In this study, we examined the short-term effects of photochemical oxidant (Ox, parts per billiion) on 
+outpatient cardiorespiratory visits in 21 Japanese cities after adjusting for other air pollutant-specific C-R 
+functions. Daily cardiorespiratory visits from January 1, 2014 to December 31, 2016 were obtained from the 
+Japanese Medical Data Center Co. Ltd. Similar period of meteorological and air pollution variables were obtained 
+from relevant data sources. We utilized a time-stratified case crossover design coupled with the generalized 
+additive mixed model (TSCC-GAMM) to estimate the association between Ox and cardiorespiratory outpatient 
+visits, after adjusting for several covariates. A total of 2,588,930 visits were recorded across the study period, 
+with a mean of 111.87 and a standard deviation of 138.75. The results revealed that crude Ox-cardiorespiratory 
+visits exhibited a U-shaped pattern. However, adjustment of the oxides of nitrogen, particularly nitrogen mon­
+oxide (NO), attenuated the lower risk curve and subsequently altered the shape of the C-R function, with a 
+substantial reduction observed during winter. NO- and nitrogen dioxide (NO2)-adjusted Ox-cardiorespiratory 
+associations increased nearly linearly, without an apparent threshold. Current evidence suggests the importance 
+of adjusting the oxides of nitrogen in estimating the Ox C-R risk functions.   
+1. Introduction 
+Ozone (O3)-induced health effects vary in terms of severity, from 
+lung function deterioration, and hospitalization to death (Nuvolone 
+et al., 2018). These health risks, in turn, translate into a disease burden 
+in terms of morbidity and mortality. Malley et al. (2017) noted a global 
+estimate of 1.04–1.23 million respiratory deaths attributable to O3 
+exposure, whereas Anenberg et al. (2018) estimated that 9–23 million 
+annual asthma emergency room visits globally in 2015 were attributed 
+to O3. In Japan, country-led air pollution reduction efforts have been 
+instrumental in the decline of annual concentrations of particulate 
+matter with 2.5 μm or less in diameter (PM2.5); however, annual O3 
+concentrations have remained mostly unchanged with annual maximum 
+1-h daytime O3 concentrations hovering between 109.9 and 118.5 parts 
+per billion (ppb) from 1990 to 2018 (Ito et al., 2021). These unchanged 
+concentration range elicit an array of short- and long-term toxicological 
+☆This paper has been recommended for acceptance by Admir Cr´eso Targino. 
+* Corresponding author. Department of Hygiene Graduate School of Medicine Hokkaido University, Japan. 
+E-mail address: seposo.xerxestesoro@pop.med.hokudai.ac.jp (X. Seposo).  
+Contents lists available at ScienceDirect 
+Environmental Pollution 
+journal homepage: www.elsevier.com/locate/envpol 
+https://doi.org/10.1016/j.envpol.2022.120802 
+Received 24 November 2021; Received in revised form 30 November 2022; Accepted 30 November 2022   
+
+Environmental Pollution 317 (2023) 120802
+2
+and epidemiological effects in the exposed population. 
+Several epidemiological studies have revealed both short- and long- 
+term positive associations between O3 and human mortality, which is a 
+result of the oxidative stress caused by O3 exposure (Hulo et al., 2011; 
+Sunil et al., 2013). In Japan, Ng et al. (2013) noticed a statistically 
+significant short-term O3 effect on all-cause mortality (0.69%; 95% CI: 
+0.27–1.10) during the intermediate season between summer and winter. 
+In addition to mortality, several studies have documented both 
+short-term and long-term effects on morbidity outcomes such as hospi­
+talizations (Lin et al., 2008; Luong et al., 2018) and emergency room 
+visits (Carlsen et al., 2013; Tian et al., 2018). 
+Health risks associated with exposure to O3 are largely driven by 
+underlying physiological mechanisms, which are usually illustrated 
+through concentration-response (C-R) curves. However, studies 
+regarding O3-health outcome C-R curves have been largely inconsistent, 
+reporting a combination of linear (Chen et al., 2017) and non-linear C-R 
+(Bae et al., 2015; Faustini et al., 2019; Huang et al., 2019) functional 
+shapes. The motivation behind the linear fit is the conservative 
+assumption of linearity in the first instance, driven by data, with further 
+optimization whenever the data warrants a non-linear treatment. 
+Studies utilizing a linear fit have mostly observed an increasing risk with 
+increasing concentrations (Bell et al., 2004; Gryparis et al., 2004; 
+Vicedo-Cabrera et al., 2020). In several instances, O3-health outcome 
+associations potentially exhibit thresholds, with risks increasing beyond 
+a set point concentration (Kim et al., 2004). However, several current 
+studies suggest that there are increasing health risks to the left and right 
+sides of the set point concentration (where risks are assumed to be the 
+lowest), which are apparent in either J- or U-shaped C-R curves (Bae 
+et al., 2015; Faustini et al., 2019; Huang et al., 2019). The increasing risk 
+with decreasing O3 concentration, based on a J- and U-shaped C-R curve, 
+may seem counterintuitive from the standpoint of exposure science 
+because decreasing exposure is tantamount to decreasing health risk. 
+However, there is a plausible mechanism that entails photochemical 
+processes involving nitrogen oxides, namely nitrogen dioxide (NO2) and 
+nitrogen monoxide (NO), and their role in the titration of O3 (Han et al., 
+2011; Song et al., 2011). Several studies have noted that the adjustment 
+of nitrogen oxides lead to a reduction in O3-related health risks (Faustini 
+et al., 2019; Tao et al., 2012). 
+Against this backdrop, we sought to understand this phenomenon by 
+determining the short-term effects of O3 on cardiorespiratory visits, 
+particularly considering the potential role of nitrogen oxides. Owing to 
+the seasonal variation in O3, we further examined the season-specific 
+associations. 
+2. Methods 
+2.1. Study areas 
+The 21 study areas are located across the country as shown in Fig. 1. 
+All cities, excluding Tokyo, are ordinance-designated cities (ODC) 
+established by the Japanese government. ODC cities are characterized 
+by 1) population size greater than 500,000, 2) a population density of 
+greater than 2000 population per km2, 3) being considered as a major 
+city in their region, and 4) having less than 10% of their employment in 
+primary industries (Ohsugi, 2011; Steiner, 1965). ODCs differ from or­
+dinary cities because they can execute functions that are originally 
+performed or delegated to prefectural governments (Jacobs, 2011). 
+2.2. Health outcome data 
+Daily cardiorespiratory visits of 21 cities from January 1, 2014 to 
+December 31, 2016 were obtained from the Japanese Medical Data 
+Center (JMDC) Co. Ltd. The anonymized information was based on the 
+health insurance claims of the specific treatments and other de­
+mographic variables for employees of Japanese companies and their 
+familiees, most of them were aged 65 years or younger (Kimura et al., 
+2010). Cardiorespiratory visits were coded using the International 
+Classification of Disease (ICD) 10 for cardiovascular (I00–I99) and res­
+piratory (J00-J99) diseases. Cardiorespiratory outpatient visits in July, 
+August, and September were categorized as summer-related visits, 
+whereas winter months included December, January, and February. 
+Hereafter, we refer to these visits as cardiorespiratory outpatient visits, 
+unless otherwise stated. This study was approved by the Ethics Com­
+mittee of the Graduate School of Engineering, Kyoto University with the 
+Institutional Review Board (IRB) No. 201714. 
+Fig. 1. Geographical location of the 21 cities included in the study, Study sites are distributed across the country from the Northernmost city of Sapporo down to the 
+southern city of Fukuoka. Cities are indicated in red. (For interpretation of the references to colour in this figure legend, the reader is referred to the Web version of 
+this article.) 
+X. Seposo et al.                                                                                                                                                                                                                                  
+
+Environmental Pollution 317 (2023) 120802
+3
+2.3. Air pollution data 
+Air pollution data from January 1, 2014 to December 31, 2016, were 
+obtained from the National Institute for Environmental Studies (NIES). 
+Hourly air pollution data were obtained from background monitoring 
+stations located within each city. Background monitoring stations with 
+continuous and non-missing air pollution data were used in this study. 
+The number of eligible background monitoring stations per city is pre­
+sented in Table S1. For locations with more than one eligible back­
+ground monitoring station, the mean across these locations was used. 
+We took the 24-h mean concentration of NO (ppb; parts per billion), NO2 
+(ppb) and PM2.5 (μg/m3). When monitoring stations with more than four 
+out of the 24 missing data points, these were assumed to be missing data 
+days. For O3, we used photochemical oxidant (Ox) (ppb). In Japan, 
+because O3 is the major component of Ox, the Japanese Ministry of 
+Environment decided to equate O3 concentrations with Ox concentra­
+tions in 1996 (Fukunaga et al., 2021). Several studies have also used Ox 
+in lieu of O3when examining ozone-related effects on health (Chen et al., 
+2014; Ng et al., 2013; Vicedo-Cabrera et al., 2020). Ox is defined as an 
+oxidizing substance produced mainly through photochemical reactions 
+based on the potassium iodide (KI) method, a wet chemical method that 
+responds to photochemical oxidants, primarily ozone (≥90%), followed 
+by peroxyacetyl nitrate (PAN), hydrogen peroxide (H2O2), and organic 
+hydroperoxides (Akimoto, 2017). 
+Specifically, we utilized the maximum 8-hour moving mean ozone of 
+the day. Days with missing values were interpolated utilizing the in­
+formation of the neighboring days’ data via the k-nearest neighbor 
+interpolation (Daberdaku et al., 2020). 
+2.4. Meteorological data 
+Daily mean ambient air temperature (◦C) and relative humidity (%) 
+during the same study period were obtained from NIES. The summary 
+statistics for the air pollution and meteorological variables are shown in 
+Table S1. 
+2.5. Statistical analyses 
+We utilized a time-stratified case crossover design coupled with the 
+generalized additive mixed model (TSCC-GAMM) to estimate the asso­
+ciation between ozone and cardiorespiratory outpatient visits in the 21 
+cities after adjusting for the relevant covariates (as shown in Equation 
+(1)). 
+Briefly, a case-crossover (CCO) study is a self-matched case-control 
+study as proposed by Maclure (1991), wherein the exposure at each 
+event is matched with the exposures for the same subject at his/her 
+referent times. This is further expanded by Lumley and Levy (2000) to a 
+time-stratified CCO, which takes referent times within the same stratum 
+(i.e., month and day of the week) (Carracedo-Martínez et al., 2010). A 
+more detailed specification of the study design is discussed elsewhere 
+(Carracedo-Martínez et al., 2010; Janes et al., 2005; Lumley and Levy, 
+2000). 
+yi,t ∼Quasipoisson
+(1)  
+yi,t = β0 + ns(ozonet, 3) + ns(airpolt, df) + β1hodt + β2stratumt + influenzat
++ ns
+(
+tempLag0−4, 5
+)
++ ns(RHavet, 3) + random(1|city)
+The daily cardiorespiratory outpatient visits (yi,t) of city (i) in time (t) 
+followed a Poisson distribution with a logarithmic link function. A quasi- 
+Poisson distribution was used for overdispersion in the health outcomes. 
+The outpatient visit (yi,t) was modeled with the intercept (β0), linear 
+terms for holidays (hodt), and binary influenza epidemic term 
+(influenzat), whereby we coded weeks (and eventually converted to 
+days) by taking the influenza count over the study period exceeding 80% 
+as 1, otherwise, 0 (Wang et al., 2017). The stratum of year, month, and 
+day of the week (stratumt) was used to represent the time-stratification 
+within the case-crossover design. Non-linear terms included the natu­
+ral cubic spline for same-day ozone, ns(ozone,3), with three degrees of 
+freedom (df), 3-day lagged mean air temperature with 5df, and 3df for 
+relative humidity. The oxides of nitrogen, NO and NO2, were further 
+adjusted in the model via the ns(airpolt,df), with 4 df and 3 df (based on 
+the sensitivity analysis in Table S2), respectively. In subsequent sections, 
+we draw comparisons among the three models, namely the ozone-only 
+(crude), NO-adjusted, and NO2-adjusted models. Since TSCC-GAMM or 
+mixed models, in general, generated a pooled estimate of the 21 cities 
+(Spieler and Schumacher, 2019), the succeeding results presented in this 
+study are for the pooled association. 
+Based on our initial analysis, we observed a non-linear association 
+between ozone concentration and visits. Thus, we defined the minimum 
+risk point (MRP) as the concentration at which the risk of a cardiore­
+spiratory visit was the lowest. Further preliminary results also revealed 
+that accounting for the oxides of nitrogen yielded a candidate threshold 
+model for the ozone-cardiorespiratory visit association. To ascertain 
+whether a threshold existed, we followed the threshold analysis imple­
+mented in previous studies (Bell et al., 2006; Chen et al., 2017). In brief, 
+the threshold analysis assumes that the ozone-cardiorespiratory risk 
+below a potential threshold is null, whereas risks beyond (the potential 
+threshold) are amonotonically increasing. We performed a potential 
+threshold analysis for each city at each potential threshold over a range 
+of concentrations from 0 to 80 ppb in 1 ppb increments. For each po­
+tential city and potential threshold, we estimated model performance 
+using the Akaike Information Criterion for quasi-Poisson models (qAIC) 
+(Akaike, 1974). We then calculated the mean of the qAIC values per 
+potential threshold (Bell et al., 2006). The rationale of this approach is to 
+simply compare the mean qAIC when the potential threshold is equal to 
+zero, equivalent to the no-threshold model, with the lowest potential 
+threshold across the range of potential thresholds. If a threshold exists, 
+the mean qAIC will be lower than that of the no-threshold model. A 
+lower qAIC value indicates a better fit. Specifically, if the difference 
+between the potential threshold at 0 and the lowest potential threshold 
+is more than two, there is likely to be a difference in the model fit 
+(Burnham and Anderson, 2004; Chen et al., 2017). We further adjusted 
+for the non-linear terms of same-day NO and NO2 with 4df and 3df, 
+respectively. The df specifications for the non-linear terms included in 
+the model are summarized in Table S2. 
+In view of the seasonal variability of ozone, we also conducted a 
+season-specific analysis in summer and winter. In addition, we used the 
+1st and 99th percentiles of the C-R curve to illustrate the changes below 
+and above the MRP, respectively. Similarly, we utilized the season- 
+specific 1st and 99th percentiles in determining the season-specific 
+risks below and above the MRP. All analyses were performed using R 
+Statistical Programming version 4.2.2 (R Core Team, 2019). 
+3. Results 
+3.1. Descriptive statistics 
+A total of 2,588,930 visits were recorded across 21 cities during the 
+study period, with a mean of 111.87 and a standard deviation of 138.75 
+(Table 1). The 21 Japanese cities are located across the country, 
+including the Sapporo (in the north) and the southern city of Kumamoto, 
+highlighted in Fig. 1. Northern cities are relatively colder with Sapporo 
+recording a year-round daily mean air temperature of 9.55 ◦C compared 
+to southern cities, which are approximately 7 ◦C higher (Table S1). Air 
+pollution concentrations are well below the daily national standards. 
+Year-round, 24-h mean NO2 concentrations as well as the mean 8-h 
+maximum Ox during the study period are below the national daily 
+standards of 40–60 ppb (for NO2) and 60 ppb (for Ox), respectively. A 
+year-round correlational association revealed a statistically weak 
+negative correlation between Ox and cardiorespiratory visits (r = -0.05), 
+whereas a moderately-weak and positive association was observed with 
+X. Seposo et al.                                                                                                                                                                                                                                  
+
+Environmental Pollution 317 (2023) 120802
+4
+either NO or NO2 (r = 0.16) (Fig S1). 
+3.2. Overall Ox -visit association 
+We observed a U-shaped crude association between Ox and visits, 
+with a minimal risk at 32 ppb, as shown in Fig. 2. After adjusting for NO2 
+(grey, triangular central estimates), changes, though apparent, were 
+minimal and not statistically different from the Ox -only model (in 1st 
+percentile, Figure S2). However, NO-adjustment (grey, square-shaped 
+central estimates) resulted in a substantial and statistically significant 
+(p-value < 0.001) reduction in the lower risk curve, suggesting the 
+probable importance of NO exposure on cardiorespiratory clinic visits. 
+While we observed an increasing risk with increasing concentration 
+beyond the MRP, at the 99th percentile all pollutant-adjusted models 
+were not statistically different from the Ox -only model (Fig S2). Visu­
+ally, NO- or NO2-adjusted Ox -cardiorespiratory associations exhibited a 
+potential threshold model, with a linear increase beyond the MRP. 
+However, the results from the threshold analysis indicated a lack of 
+evidence for a threshold (Fig S5). 
+3.3. Season-specific Ox C-R associations 
+As shown in Fig. 3, the Ox -related risks in summer increased nearly 
+linearly with increasing Ox concentrations. During winter, the Ox C-R 
+function included a null association at the upper concentrations, with a 
+departure from the null association at the lower concentrations. How­
+ever, we noted a substantial reduction in the risks at the lower con­
+centration range after adjustment for NO and NO2, with a more evident 
+reduction with NO, which approached the null association during 
+winter. This is supported by the significant reduction in the lower risk 
+curve (represented by the 1st percentile, as shown in Fig S3) after 
+adjusting for NO (p-value = 0.02) during winter. We did not observe any 
+difference between the crude model and the adjusted models for the 1st 
+percentile in either summer or winter, or in the 99th percentile of winter. 
+4. Discussion 
+A crude Ox -cardiorespiratory visit exhibited a U-shaped pattern. 
+However, adjustment of the oxides of nitrogen, particularly NO, atten­
+uated the lower risk curve and subsequently altered the shape of the 
+crude Ox C-R function. Season-specific analysis revealed the relative 
+importance of specific oxides of nitrogen in the attenuation of the Ox C-R 
+function. 
+4.1. Non-linearity of the crude Ox-health association 
+In the current study, the crude Ox-cardiorespiratory association has 
+showed an indication of a potential threshold around 32 ppb, similar to 
+Table 1 
+Descriptive statistics for daily cardiorespiratory clinic visits, meteorological and air pollution variables.   
+Mean 
+Standard deviation 
+Minimum 
+P25a 
+P50a 
+P75a 
+Maximum 
+Cardiorespiratory clinic visit 
+111.87 
+138.75 
+0 
+26 
+51 
+140 
+892 
+Ox (ppb) 
+41.83 
+15.05 
+2.44 
+31.59 
+39.84 
+51.08 
+122.78 
+NO (ppb) 
+3.47 
+4.87 
+0 
+1.08 
+1.93 
+3.82 
+73.14 
+NO2 (ppb) 
+12.72 
+6.84 
+1.18 
+7.65 
+11.41 
+16.35 
+56.61 
+Mean temperature (◦C) 
+16.06 
+8.2 
+−9.2 
+8.8 
+16.8 
+22.9 
+32.6 
+Relative Humidity (%) 
+67.84 
+13.78 
+19 
+59 
+68 
+78 
+100 
+Ox: photochemical oxidant (ozone); NO: nitric oxide; NO2: nitrogen dioxide; ppb: parts per billion; μg/m3: microgram per cubic meter; ◦C: degrees Celsius; %: percent. 
+a P25: 25th percentile; P50: 50th percentile; P75: 75th percentile. 
+Fig. 2. Pooled, year-round ozone-cardiorespiratory associations, Ozone-only model is represented by solid, red circles, whereas NO- and NO2-adjusted models are 
+shown in grey square and triangles, respectively. Vertical dashed line indicates the location of the candidate threshold at 32 ppb. Horizontal dashed line indicates the 
+null association when relative risk is at 1. (For interpretation of the references to colour in this figure legend, the reader is referred to the Web version of this article.) 
+X. Seposo et al.                                                                                                                                                                                                                                  
+
+Environmental Pollution 317 (2023) 120802
+5
+previous studies (Bae et al., 2015; Faustini et al., 2019; Huang et al., 
+2019; Wang et al., 2020). Bae et al. (2015) noted a threshold point, or in 
+this case, the MRP, of approximately 30–40 ppb for 13 Japanese and 
+Korean cities. In the USA, Stylianou and Nicolich (2009) similarly 
+observed non-linear O3 and all-cause mortality associations with 
+thresholds ranging from 21 to 44 ppb. Across the non-linear risk curve, 
+we noted substantial statistical uncertainties at the extremes, with wider 
+confidence intervals in the upper extreme concentrations than in the 
+lower extreme concentrations. These wide uncertainties at the extremes 
+are potentially due to sparse data, which have also been observed in 
+other studies (Bae et al., 2015; Faustini et al., 2019). 
+There is no clear physiological mechanism, however, which may 
+explain how low Ox concentrations, particularly those approaching zero 
+would lead to an increase in the risk. This leads to an inquiry as to 
+whether the estimated incremental risk with decreasing Ox concentra­
+tion is a true association or an artefact of the limited modeling flexibility 
+in covariate adjustment across the exposure range. After adjusting for 
+several C-R functions, we found that adjustment for either NO or NO2 led 
+to a substantial reduction in the Ox-visit risk curve, particularly in the 
+lower concentration range (Fig. 2). The observed reduction may be 
+related to the chemical mechanism, specifically, the photochemical 
+process involved in the Ox and oxides of nitrogen titration. 
+4.2. Photochemical processes of Ox alongside NO and NO2 
+Photochemical processes involved in the production of tropospheric 
+O3 include precursors such as NO and NO2, as well as volatile organic 
+compounds (VOCs). NO2 and NO, in particular, titrate O3, hence in high 
+NO2 and NO concentrations, O3 is depleted (Han et al., 2011; Song et al., 
+2011). More detailed photochemical processes have been discussed 
+previously (Crutzen, 1979; Wu et al., 1973). A large body of evidence 
+has linked oxides of nitrogen exposure to various physiological inflam­
+matory responses (Persinger et al., 2001; Ricciardolo et al., 2004; van 
+der Vliet et al., 2000), and which may lead to the development of 
+short-/long-term morbidity outcomes (Gillespie-Bennett et al., 2011; 
+Studnicka et al., 1997), and even death (Faustini et al., 2014; Samoli 
+et al., 2006). The high concentration of the oxides of nitrogen, during 
+the low Ox concentration period, together with the documented health 
+risks, posits a candidate mechanism, which may partially explain the 
+observed health risks at low Ox concentrations. This is further high­
+lighted in the following section in relation to the season-specific 
+analysis. 
+4.3. Ox C-R functions by season 
+In Fig. 3, we observed a generally increasing risk during summer and 
+a weakly decreasing risk during winter. Several studies have also noted 
+similar yet inconsistent trends of increasing risks during summer and 
+statistically significant and non-significant reduced risks during winter 
+(Chen et al., 2014; Zanobetti and Schwartz, 2008). Such trends may be 
+related to photochemical processes leading to different exposure range 
+and thus a difference in the risks, as mentioned in the earlier section. It is 
+noteworthy that the adjustment of NO or NO2 did not substantially 
+change the crude Ox C-R function during summer. However, this was not 
+the case for winter, when an apparent reduction in the risk, especially in 
+the lower part of the crude Ox C-R function, was observed. Williams et al. 
+(2014) noted that changes in O3-related mortality risks after adjusting 
+for NO2 were more apparent in winter than in summer, in London. On 
+the contrary, Bero Bedada et al. (2016) noted a larger risk reduction in 
+summer than in winter after NO2 adjustment in Stockholm County. To 
+date, there is no conclusive evidence on the direction of the risks related 
+to the oxides of nitrogen-adjusted Ox-health outcomes during summer 
+and winter, and thus this remains to be further elucidated in future 
+studies. 
+4.4. Impact of NO on the Ox C-R association 
+It is noteworthy that the NO-adjustment led to an even greater 
+attenuation of the lower risk curve than the NO2-adjustment, as shown 
+in Figs. 2 and 3. The adjustment diminished the lower risk curve, which 
+crossed the null association below the MRP, while maintaining a positive 
+and near-linear increase in risk above the MRP. There is no existing 
+Fig. 3. Pooled, season-round ozone-cardiorespiratory associations, Ozone-only model is represented by solid, red circles, whereas NO- and NO2-adjusted models are 
+shown in grey square and triangles, respectively. Horizontal dashed line indicates the null association when relative risk is at 1. (For interpretation of the references 
+to colour in this figure legend, the reader is referred to the Web version of this article.) 
+X. Seposo et al.                                                                                                                                                                                                                                  
+
+Environmental Pollution 317 (2023) 120802
+6
+plausible pathophysiological mechanism which could explain, at the 
+current time, why there is a difference in the risk, however, we presume 
+that this may be due to the difference in the C-R curves between NO and 
+NO2. 
+As shown in Fig S4 (upper panel), both the NO and NO2 C-R functions 
+have similar and overlapping functional shapes. However, there is a 
+notable divergence between the two C-R functions beyond the 96th 
+percentile (Fig S4, lower panel), with NO having a higher risk than NO2. 
+These results suggest that the higher risks of NO over NO2 in the extreme 
+concentration range, if adjusted accordingly, would correspond to the 
+difference in the magnitude of reduction observed in the lower Ox 
+concentration range for either NO or NO2, as previously shown in Fig. 2 
+or in the 1st percentile of Fig S2. 
+In the subsequent sensitivity analysis, we examined the impact of the 
+oxides of nitrogen on the lagged Ox exposure-response associations (as 
+shown in Figs S7 and S8). The impact of NO and NO2 was limited to the 
+same-day association (lag 0) and exhibited minimal to no impact from 
+the subsequent lags from lag 1 to 7. The immediate effect of the oxides of 
+nitrogen adjustment on the Ox exposure-response association may be 
+related to the titration process between nitrogen and Ox, which occurs 
+over a short period of time. 
+4.5. Linearity of the Ox-cardiorespiratory visit: no evidence of a threshold 
+The lowest potential threshold was 32 ppb (Fig S5). The potential 
+threshold (at 32 ppb) offered a marginally better model fit than the no- 
+threshold model, with a meager difference of 0.21 between the two 
+models. However, because the difference was less than 2, compelling 
+evidence of a threshold is lacking in this case. This concurs with previous 
+studies whereby in contiguous 98 US urban communities, Bell et al. 
+(2006) noted that amidst the use of a spline approach, there was a 
+monotonic linear increase in the risk from the minimum concentration 
+range towards the uppermost exposure range. Chen et al. (2017) shares a 
+similar observation in Jiangsu, China, where the potential threshold at 
+90 ppb offered a minimally better fit than the no-threshold model, but 
+ultimately within a 2 qAIC difference. 
+5. Limitations 
+Although we have employed rigorous statistical modeling techniques 
+to adjust for the relevant covariates and conducted several sensitivity 
+analyses to establish the robustness of our results, there are still several 
+key limitations to which succeeding studies can refer and build upon. 
+The current study is limited to clinic visit information aggregated at the 
+city level, which may have affected exposure matching. We crudely 
+assumed that these clinic visits occur in populated areas in the city 
+where these monitoring stations are co-located. However, with the lack 
+of granular data, we cannot fully ascertain this assumption; hence, there 
+is a need for more detailed address information whenever available. 
+More detailed data in terms of sex, age and cause-specific categories 
+would provide deeper insights into the role of possible effect modifiers. 
+Concurrent with the limited number of cities is a generalization of the 
+results. Caution should be exercised with the interpretation of results, 
+particularly regarding the generalization to other cities across the 
+country. After a sensitivity analysis adjusting for particulate matter with 
+a size of 2.5 μm or less in diameter (PM2.5), the risk curve remained 
+unchanged (Fig S6). However, there may be other pollutants or aerosols 
+that may impact the C-R curve due to data unavailability; these effects 
+could not be explored. Finally, we offer only a partial explanation of the 
+difference in the C-R functions for NO and NO2 from a data-driven 
+perspective. It is reasonable to believe that the functional C-R shapes 
+are driven by differential toxicity, especially at the upper extreme con­
+centrations. Future studies could benefit from relevant toxicological 
+studies (i.e. mouse models) to explore this phenomenon. 
+6. Conclusions 
+After adjusting for NO, the risk of cardiorespiratory visits after Ox 
+exposure increased linearly with no apparent evidence of a threshold. 
+Contrary to expectations, NO adjustment led to a statistically significant 
+reduction in Ox-cardiorespiratory risks in the low concentration range 
+compared with NO2-adjustment. The observed differences after the 
+respective adjustments and their impact on the Ox-cardiorespiratory C-R 
+curve may, in part, be related to the differential toxicity of the expo­
+sures. Further investigation of the role of differential toxicity, in relation 
+to NO and NO2 exposure is required to elucidate these results. 
+Credit author statement 
+Xerxes Seposo: Conceptualization, Methodology, Formal analysis, 
+Writing – original draft, Writing – review & editing, Visualization, 
+Investigation; Kayo Ueda: Conceptualization, Writing – original draft, 
+Writing – review & editing, Funding acquisition, Resources; Chris Fook 
+Sheng Ng: Formal analysis, Writing – original draft, Writing – review & 
+editing, Visualization; Lina Madaniyazi: Formal analysis, Writing – 
+original draft, Writing – review & editing, Visualization; Seiji Sugata: 
+Writing – original draft, Writing – review & editing, Resources; Ayako 
+Yoshino: Writing – original draft, Writing – review & editing, Re­
+sources; Akinori Takami: Writing – original draft, Writing – review & 
+editing, Resources. 
+Funding 
+This study was supported by the Environmental Research and 
+Technology Development Fund (5–1751) of the Environmental Resto­
+ration and Conservation Agency of Japan. The funding body had no role 
+in the conception, design, planning, or writing of the study. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Data availability 
+The authors do not have permission to share data. 
+Acknowledgements 
+We would like to thank Dr. Itano Yasuyuki and Mr. Hiroshi Hase­
+gawa for their insights in the initial run of the analysis. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.envpol.2022.120802. 
+References 
+Akaike, H., 1974. A new look at the statistical model identification. IEEE Trans. Automat. 
+Control 19, 716–723. 
+Akimoto, H., 2017. Overview of Policy Actions and Observational Data for PM2.5 and O3 
+in Japan: A Study of Urban Air Quality Improvement in Asia, Working Papers 137. 
+JICA Research Institute. 
+Anenberg, S.C., Henze, D.K., Tinney, V., Kinney, P.L., Raich, W., Fann, N., Malley, C.S., 
+Roman, H., Lamsal, L., Duncan, B., Martin, R.V., van Donkelaar, A., Brauer, M., 
+Doherty, R., Jonson, J.E., Davila, Y., Sudo, K., Kuylenstierna, J.C.I., 2018. Estimates 
+of the global burden of ambient PM2.5, ozone, and NO2 on asthma incidence and 
+emergency room visits. Environ. Health Perspect. 126, 107004. 
+Bae, S., Lim, Y.H., Kashima, S., Yorifuji, T., Honda, Y., Kim, H., Hong, Y.C., 2015. Non- 
+linear concentration-response relationships between ambient ozone and daily 
+mortality. PLoS One 10, e0129423. 
+X. Seposo et al.                                                                                                                                                                                                                                  
+
+Environmental Pollution 317 (2023) 120802
+7
+Bell, M.L., McDermott, A., Zeger, S.L., Samet, J.M., Dominici, F., 2004. Ozone and short- 
+term mortality in 95 US urban communities, 1987-2000. JAMA 292, 2372–2378. 
+Bell, M.L., Peng, R.D., Dominici, F., 2006. The exposure-response curve for ozone and 
+risk of mortality and the adequacy of current ozone regulations. Environ Health 
+Perspect. 114, 532–536. 
+Bero Bedada, G., Raza, A., Forsberg, B., Lind, T., Ljungman, P., Pershagen, G., 
+Bellander, T., 2016. Short-term exposure to ozone and mortality in subjects with and 
+without previous cardiovascular disease. Epidemiology 27, 663–669. 
+Burnham, K.P., Anderson, D.R., 2004. Multimodel inference:understanding AIC and BIC 
+in model selection. Socio. Methods Res. 33, 261–304. 
+Carlsen, H.K., Forsberg, B., Meister, K., Gislason, T., Oudin, A., 2013. Ozone is associated 
+with cardiopulmonary and stroke emergency hospital visits in Reykjavik, Iceland 
+2003-2009. Environ Health vol. 12. 
+Carracedo-Martínez, E., Taracido, M., Tobias, A., Saez, M., Figueiras, A., 2010. Case- 
+crossover analysis of air pollution health effects: a systematic review of methodology 
+and application. Environ Health Perspect. 118, 1173–1182. 
+Chen, R., Cai, J., Meng, X., Kim, H., Honda, Y., Guo, Y.L., Samoli, E., Yang, X., Kan, H., 
+2014. Ozone and daily mortality rate in 21 cities of east asia: how does season 
+modify the association? Am. J. Epidemiol. 180, 729–736. 
+Chen, K., Zhou, L., Chen, X., Bi, J., Kinney, P.L., 2017. Acute effect of ozone exposure on 
+daily mortality in seven cities of Jiangsu Province, China: No clear evidence for 
+threshold. Environ. Res. 155, 235–241. 
+Crutzen, P.J., 1979. The role of NO and NO2 in the chemistry of the troposphere and 
+stratosphere. Annu. Rev. Earth Planet Sci. 7, 443–472. 
+Daberdaku, S., Tavazzi, E., Di Camillo, B., 2020. A combined interpolation and weighted 
+K-nearest neighbours approach for the imputation of longitudinal ICU laboratory 
+data. J Healthcare Inf Res. 4, 174–188. 
+Faustini, A., Rapp, R., Forastiere, F., 2014. Nitrogen dioxide and mortality: review and 
+meta-analysis of long-term studies. Eur. Respir. J. 44, 744–753. 
+Faustini, A., Stafoggia, M., Williams, M., Davoli, M., Forastiere, F., 2019. The effect of 
+short-term exposure to O3, NO2, and their combined oxidative potential on 
+mortality in Rome. Air Quality, Atmosphere & Health 12, 561–571. 
+Fukunaga, A., Sato, T., Fujita, K., Yamada, D., Ishida, S., Wakamatsu, S., 2021. 
+Relationship between changes over time in factors, including the impact of 
+meteorology on photochemical oxidant concentration and causative atmospheric 
+pollutants in kawasaki. Atmosphere 12, 446. 
+Gillespie-Bennett, J., Pierse, N., Wickens, K., Crane, J., Howden-Chapman, P., 2011. The 
+respiratory health effects of nitrogen dioxide in children with asthma. Eur. Respir. J. 
+38, 303–309. 
+Gryparis, A., Forsberg, B., Katsouyanni, K., Analitis, A., Touloumi, G., Schwartz, J., 
+Samoli, E., Medina, S., Anderson, H.R., Niciu, E.M., Wichmann, H.-E., Kriz, B., 
+Kosnik, M., Skorkovsky, J., Vonk, J.M., D¨ortbudak, Z., 2004. Acute effects of ozone 
+on mortality from the “air pollution and health. Am. J. Respir. Crit. Care Med. 170, 
+1080–1087. 
+Han, S., Bian, H., Feng, Y., Liu, A., Li, X., Zeng, F., Zhang, X., 2011. Analysis of the 
+relationship between O3, NO and NO2 in tianjin, China. Aerosol Air Qual. Res. 11, 
+128–139. 
+Huang, W.H., Chen, B.Y., Kim, H., Honda, Y., Guo, Y.L., 2019. Significant effects of 
+exposure to relatively low level ozone on daily mortality in 17 cities from three 
+Eastern Asian Countries. Environ. Res. 168, 80–84. 
+Hulo, S., Tiesset, H., Lancel, S., Louis Edm´e, J.J., Viollet, B., Sobaszek, A., Nevi`ere, R., 
+2011. AMP-activated protein kinase deficiency reduces ozone-induced lung injury 
+and oxidative stress in mice. Respir. Res. 12, 64. 
+Ito, A., Wakamatsu, S., Morikawa, T., Kobayashi, S., 2021. 30 Years of air quality trends 
+in Japan. Atmosphere 12, 1072. 
+Jacobs, A.J., 2011. Japan’s evolving nested municipal hierarchy: the race for local power 
+in the 2000s. Urban Studies Res 2011, 692764. 
+Janes, H., Sheppard, L., Lumley, T., 2005. Case–crossover analyses of air pollution 
+exposure data: referent selection strategies and their implications for bias. 
+Epidemiology 16, 717–726. 
+Kim, S.-Y., Lee, J.-T., Hong, Y.-C., Ahn, K.-J., Kim, H., 2004. Determining the threshold 
+effect of ozone on daily mortality: an analysis of ozone and mortality in Seoul, Korea, 
+1995–1999. Environ. Res. 94, 113–119. 
+Kimura, S., Sato, T., Ikeda, S., Noda, M., Nakayama, T., 2010. Development of a database 
+of health insurance claims: standardization of disease classifications and anonymous 
+record linkage. J. Epidemiol. 20, 413–419. 
+Lin, S., Bell, E.M., Liu, W., Walker, R.J., Kim, N.K., Hwang, S.A., 2008. Ambient ozone 
+concentration and hospital admissions due to childhood respiratory diseases in New 
+York State, 1991-2001. Environ. Res. 108, 42–47. 
+Lumley, T., Levy, D., 2000. Bias in the case – crossover design: implications for studies of 
+air pollution. Environmetrics 11, 689–704. 
+Luong, L.M.T., Phung, D., Dang, T.N., Sly, P.D., Morawska, L., Thai, P.K., 2018. Seasonal 
+association between ambient ozone and hospital admission for respiratory diseases 
+in Hanoi, Vietnam. PLoS One 13. 
+Maclure, M., 1991. The case-crossover design: a method for studying transient effects on 
+the risk of acute events. Am. J. Epidemiol. 133, 144–153. 
+Malley, C.S., Henze, D.K., Kuylenstierna, J.C.I., Vallack, H.W., Davila, Y., Anenberg, S.C., 
+Turner, M.C., Ashmore, M.R., 2017. Updated global estimates of respiratory 
+mortality in adults >/=30Years of age attributable to long-term ozone exposure. 
+Environ. Health Perspect. 125, 087021. 
+Ng, C.F., Ueda, K., Nitta, H., Takeuchi, A., 2013. Seasonal variation in the acute effects of 
+ozone on premature mortality among elderly Japanese. Environ. Monit. Assess. 185, 
+8767–8776. 
+Nuvolone, D., Petri, D., Voller, F., 2018. The effects of ozone on human health. Environ. 
+Sci. Pollut. Res. Int. 25, 8074–8088. 
+Ohsugi, S., 2011. The Large City System of Japan, Papers on the Local Governance 
+System and its Implementation in Selected Fields in Japan. Council of Local 
+Authorities for International Relations (CLAIR). 
+Persinger, R.L., Blay, W.M., Heintz, N.H., Hemenway, D.R., Janssen-Heininger, Y.M., 
+2001. Nitrogen dioxide induces death in lung epithelial cells in a density-dependent 
+manner. Am. J. Respir. Cell Mol. Biol. 24, 583–590. 
+R Core Team, 2019. R: A Language and Environment for Statistical Computing. R 
+Foundation for Statistical Computing, Vienna, Austria.  
+Ricciardolo, F.L.M., Sterk, P.J., Gaston, B., Folkerts, G., 2004. Nitric oxide in health and 
+disease of the respiratory system. Physiol. Rev. 84, 731–765. 
+Samoli, E., Aga, E., Touloumi, G., Nisiotis, K., Forsberg, B., Lefranc, A., Pekkanen, J., 
+Wojtyniak, B., Schindler, C., Niciu, E., Brunstein, R., Dodiˇc Fikfak, M., Schwartz, J., 
+Katsouyanni, K., 2006. Short-term effects of nitrogen dioxide on mortality: an 
+analysis within the APHEA project. Eur. Respir. J. 27, 1129–1138. 
+Song, F., Young Shin, J., Jusino-Atresino, R., Gao, Y., 2011. Relationships among the 
+springtime ground–level NOx, O3 and NO3 in the vicinity of highways in the US East 
+Coast. Atmos. Pollut. Res. 2, 374–383. 
+Spieler, D., Schumacher, E., 2019. New Methods in Cognitive Psychology, first ed. 
+Routledge. 
+Steiner, K., 1965. Local Government in Japan. Stanford University Press, Stanford, CA.  
+Studnicka, M., Hackl, E., Pischinger, J., Fangmeyer, C., Haschke, N., Kuhr, J., 
+Urbanek, R., Neumann, M., Frischer, T., 1997. Traffic-related NO2 and the 
+prevalence of asthma and respiratory symptoms in seven year olds. Eur. Respir. J. 
+10, 2275–2278. 
+Stylianou, M., Nicolich, M.J., 2009. Cumulative effects and threshold levels in air 
+pollution mortality: data analysis of nine large US cities using the NMMAPS dataset. 
+Environ. Pollut. 157, 2216–2223. 
+Sunil, V.R., Vayas, K.N., Massa, C.B., Gow, A.J., Laskin, J.D., Laskin, D.L., 2013. Ozone- 
+induced injury and oxidative stress in bronchiolar epithelium are associated with 
+altered pulmonary mechanics. Toxicol. Sci. : An off J Soc Toxicol 133, 309–319. 
+Tao, Y., Huang, W., Huang, X., Zhong, L., Lu, S.E., Li, Y., Dai, L., Zhang, Y., Zhu, T., 2012. 
+Estimated acute effects of ambient ozone and nitrogen dioxide on mortality in the 
+Pearl River Delta of southern China. Environ. Health Perspect. 120, 393–398. 
+Tian, Y., Xiang, X., Juan, J., Song, J., Cao, Y., Huang, C., Li, M., Hu, Y., 2018. Short-term 
+effect of ambient ozone on daily emergency room visits in beijing, China. Sci. Rep. 8, 
+2775. 
+Vicedo-Cabrera, A.M., Sera, F., Liu, C., Armstrong, B., Milojevic, A., Guo, Y., Tong, S., 
+Lavigne, E., Kyselý, J., Urban, A., Orru, H., Indermitte, E., Pascal, M., Huber, V., 
+Schneider, A., Katsouyanni, K., Samoli, E., Stafoggia, M., Scortichini, M., 
+Hashizume, M., Honda, Y., Ng, C.F.S., Hurtado-Diaz, M., Cruz, J., Silva, S., 
+Madureira, J., Scovronick, N., Garland, R.M., Kim, H., Tobias, A., ´I˜niguez, C., 
+Forsberg, B., Åstr¨om, C., Ragettli, M.S., R¨o¨osli, M., Guo, Y.-L.L., Chen, B.-Y., 
+Zanobetti, A., Schwartz, J., Bell, M.L., Kan, H., Gasparrini, A., 2020. Short term 
+association between ozone and mortality: global two stage time series study in 406 
+locations in 20 countries. BMJ 368, m108. 
+van der Vliet, A., Eiserich, J.P., Cross, C.E., 2000. Nitric oxide: a pro-inflammatory 
+mediator in lung disease? Respir. Res. 1, 1. 
+Wang, R., Jiang, Y., Michael, E., Zhao, G., 2017. How to select a proper early warning 
+threshold to detect infectious disease outbreaks based on the China infectious disease 
+automated alert and response system (CIDARS). BMC Publ. Health 17, 570. 
+Wang, Z., Peng, J., Liu, P., Duan, Y., Huang, S., Wen, Y., Liao, Y., Li, H., Yan, S., 
+Cheng, J., Yin, P., 2020. Association between short-term exposure to air pollution 
+and ischemic stroke onset: a time-stratified case-crossover analysis using a 
+distributed lag nonlinear model in Shenzhen, China. Environ. Health 19, 1. 
+Williams, M.L., Atkinson, R.W., Anderson, H.R., Kelly, F.J., 2014. Associations between 
+daily mortality in London and combined oxidant capacity, ozone and nitrogen 
+dioxide. Air Quality, Atmosphere & Health 7, 407–414. 
+Wu, C.H., Morris, E.D., Niki, H., 1973. Reaction of nitrogen dioxide with ozone. J. Phys. 
+Chem. 77, 2507–2511. 
+Zanobetti, A., Schwartz, J., 2008. Is there adaptation in the ozone mortality relationship: 
+a multi-city case-crossover analysis. Environ. Health 7, 22. 
+X. Seposo et al.                                                                                                                                                                                                                                  

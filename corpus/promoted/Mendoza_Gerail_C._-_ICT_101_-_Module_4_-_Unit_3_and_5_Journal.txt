@@ -1,0 +1,57 @@
+Mendoza, Gerail C.  
+ICT – 101 
+Module 4: Unit 3 and 5 Journal 
+Unit 3 
+1.  
+Trojan Horse - A Trojan horse is a type of malware that disguises itself as legitimate software. 
+Once installed on a computer, a Trojan horse can perform a variety of malicious Trojan horses are 
+often spread through phishing emails or malicious websites. When a user clicks on a malicious 
+link or opens an infected attachment, the Trojan horse is installed on their computer without their 
+knowledge. actions, such as stealing data, installing other malware, or disrupting system 
+operations. there are some signs that may indicate that a computer is infected with a Trojan horse, 
+like Slow computer performance, unexpected pop-up ads, Frequent crashes, or freezes, 
+Disappearing files, Changes to your system settings. 
+Adware - Adware is unwanted software that displays advertisements on the user's computer. 
+Adware can be bundled with other software, downloaded from malicious websites, or installed 
+through drive-by downloads. Adware is not as dangerous as some other types of malwares, but it 
+can be annoying and intrusive. Adware can also slow down your computer and make it difficult to 
+browse the web.  
+Spyware - Spyware is software that collects information about the user's computer activity without 
+their knowledge or consent. Spyware can track the user's browsing history, keystrokes, and 
+passwords. It can also steal personal information, such as credit card numbers and social security 
+numbers. Spyware is often spread through malicious websites or phishing emails. When a user 
+clicks on a malicious link or opens an infected attachment, the spyware is installed on their 
+computer without their knowledge. However, there are some signs that may indicate that a 
+computer is infected with spyware, such as, Slow computer performance, unexpected pop-up ads, 
+Frequent crashes or freezes, Changes to your browser settings, Disappearing files, Unexplained 
+internet activity. 
+ 
+2.  Keep your software up to date, use a firewall and Anti-virus software, be careful on links and 
+attachments you open, Download software from trusted sources only. Be cautious about what you 
+share online, use strong passwords, and always use HTTPS.  
+ 
+ 
+ 
+ 
+ 
+
+Unit 5 
+ 
+1. These taps, Tap-and-hold, swiping, pinch-and-stretch, and sliding are gesture typically used on 
+a mobile device. Modern mobile devices use capacitive touchscreens. These capacitive displays 
+support multitouch, meaning that gestures can be interpreted as events and responded to by 
+software in a particular way. 
+2. Speech recognition is another important interface for controlling a mobile device. Speech 
+recognition is one part of allowing hands free use of a mobile device. Using a Bluetooth or wired 
+headset also means that the device can be kept in a pocket (while walking for instance) or used in 
+a motor vehicle safely. Therefore, it can control a device that is connected via Bluetooth and by 
+commanding the device using the user’s voice. 
+3. Password locks, screen locks and full device encryption. The encryption key is derived from the 
+PIN or password. A simple passcode requires the user to enter a PIN. Some devices can use 
+biometric authentication via a fingerprint reader. 
+4. Airplane mode disables all wireless features (cellular data, Wi-Fi, GPS, and Bluetooth). Most 
+airlines prevent flyers from using radio-based devices while onboard a plane.  
+5. Mobile device synchronization refers to copying data back and forth between a PC and phone 
+or tablet. This method can be used to share email, calendar, and contacts with a locally installed 
+mail application. It can be used to share media files between devices—camera pictures, 
+downloaded music tracks or videos, and so on 

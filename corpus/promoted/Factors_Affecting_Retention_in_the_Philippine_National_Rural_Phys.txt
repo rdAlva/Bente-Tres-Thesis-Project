@@ -1,0 +1,1150 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+11-5-2021 
+Factors Affecting Retention in the Philippine National Rural 
+Factors Affecting Retention in the Philippine National Rural 
+Physician Deployment Program From 2012 to 2019: A Mixed 
+Physician Deployment Program From 2012 to 2019: A Mixed 
+Methods Study 
+Methods Study 
+Erika Louise L. Flores 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University 
+Edric Matthew R. Manahan 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University 
+Miguel Paulo B. Lacanilao 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University 
+Isabella Ma. Beatriz T. Ladaw 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University 
+Mico Martin B. Mallillin 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Health Services Administration Commons, Human Resources Management Commons, 
+and the Public Affairs, Public Policy and Public Administration Commons 
+Custom Citation 
+Custom Citation 
+Flores, E. L. L., Manahan, E. M. R., Lacanilao, M. P. B., Ladaw, I. Ma. B. T., Mallillin, M. M. B., Mappatao, N. T. 
+Q., Leonardia, J. A., & Pepito, V. C. F. (2021). Factors affecting retention in the Philippine National Rural 
+Physician Deployment Program from 2012 to 2019: A mixed methods study. BMC Health Services 
+Research, 21(1), 1201. https://doi.org/10.1186/s12913-021-07219-0 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact research@ateneo.edu. 
+
+Authors 
+Authors 
+Erika Louise L. Flores, Edric Matthew R. Manahan, Miguel Paulo B. Lacanilao, Isabella Ma. Beatriz T. 
+Ladaw, Mico Martin B. Mallillin, Nikolai Thadeus Q. Mappatao, Juan Alfonso Leonardia, and Veincent 
+Christian F. Pepito 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/asmph-pubs/45 
+
+RESEARCH
+Open Access
+Factors affecting retention in the Philippine
+National Rural Physician Deployment
+Program from 2012 to 2019: a mixed
+methods study
+Erika Louise L. Flores1, Edric Matthew R. Manahan1, Miguel Paulo B. Lacanilao1, Isabella Ma. Beatriz T. Ladaw1,
+Mico Martin B. Mallillin1, Nikolai Thadeus Q. Mappatao1, Juan Alfonso Leonardia2 and Veincent Christian F. Pepito1*
+Abstract
+Background: To address the maldistribution of healthcare providers and the shortage of physicians in
+geographically isolated and disadvantaged areas of the Philippines, the Philippine National Rural Physician
+Deployment Program, or more commonly known as the Doctors to the Barrios (DTTB) program was established in
+1993. However, as of 2011, only 18% of the DTTBs chose to stay in their assigned municipalities after their two-year
+deployment, termed retention. This study aims to identify the individual, local, work, national, and international
+factors affecting the retention of DTTBs in their assigned communities after their two-year deployment.
+Methods: A descriptive, mixed-methods, explanatory design was used. For the quantitative part, the modified and
+updated Stayers Questionnaire was given to all current DTTBs present in a Continuing Medical Education session in
+the Development Academy of the Philippines. Descriptive statistics were then presented. For the qualitative part,
+individual, semi-structured key informant interviews were conducted in-person or via phone with current and
+alumni DTTBs from 2012 to 2019. Proceedings of the interviews were transcribed, translated, and analyzed
+thematically.
+Results: 102 current DTTBs participated in the quantitative part of our study, while 10 current and former DTTBs
+participated in the interviews. Demographic factors and location, personal beliefs, well-being, friends and family
+dynamics, and perceptions about work were the individual factors identified to affect retention. Social working
+conditions, career development, and infrastructure, medical equipment, and supplies were among the work factors
+identified to affect retention. Geography, living conditions, local social needs, and technology were among the local
+factors identified to affect retention. Compensation, the recently signed Universal Healthcare Law, and Safety and
+Security were identified as national factors that could affect retention. International factors did not seem to
+discourage DTTBs from staying in their communities.
+© The Author(s). 2021 Open Access This article is licensed under a Creative Commons Attribution 4.0 International License,
+which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material in this article are included in the article's Creative Commons
+licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons
+licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain
+permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+The Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the
+data made available in this article, unless otherwise stated in a credit line to the data.
+* Correspondence: vpepito@ateneo.edu
+1School of Medicine and Public Health, Ateneo de Manila University, Ortigas
+Ave., Pasig City, Philippines
+Full list of author information is available at the end of the article
+Flores et al. BMC Health Services Research         (2021) 21:1201 
+https://doi.org/10.1186/s12913-021-07219-0
+
+Conclusions: A host of individual, work-related, local, national, and international factors influence the DTTB’s
+decision to be retained in different, complex, interconnected, and dynamic ways. We also identified implementation
+issues in the DTTB program and suggested interventions to encourage retention.
+Keywords: Retention, Doctors to the barrios, Rural health, Health workforce, Human resources for health,
+Philippines, Health services, Public health
+Introduction
+There is a significant shortage of human resources for
+health in low and middle-income countries, including
+the Philippines [1–4]. As of 2011, there are only around
+two physicians per 10,000 population in the country [5].
+Further aggravating the problem is the maldistribution
+of healthcare providers, including doctors, throughout
+the country; most of them being concentrated in urban
+areas. As a result, far-flung areas in the country have
+very few healthcare providers, with some areas only hav-
+ing one physician per 20,000 population [4–6]. To ad-
+dress the shortage and maldistribution of healthcare
+providers, it is essential not just to recruit additional
+healthcare workers, but also to ensure their equitable
+distribution throughout the countries affected by these
+crises
+[7,
+8].
+To
+address
+both
+problems
+in
+the
+Philippines, the country’s Department of Health (DOH)
+formulated the Philippine National Rural Physician De-
+ployment Program, more commonly known as the Doc-
+tors to the Barrios (DTTB) program.
+Implemented since 1993, the DTTB program aims
+to
+attract
+competent,
+committed
+and
+community-
+oriented medical doctors to render health services in
+geographically
+isolated
+and
+disadvantaged
+areas
+(GIDA) throughout the country which lack physicians
+[9].
+The
+physicians
+serve
+for
+two
+years
+in
+their
+assigned areas where they were given competitive pay
+(the current gross monthly compensation is around
+Php 90,000 or USD 1870), additional hazard pay for
+doctors assigned to areas with humanitarian conflict,
+scholarship for a Master’s degree in Public Manage-
+ment – Major in Health Systems Delivery (MPM-
+HSD)
+from
+the
+Development
+Academy
+of
+the
+Philippines,
+and
+benefits
+described
+in
+the
+Magna
+Carta for Public Health Workers such as subsistence
+and laundry allowance, housing and insurance, among
+others. After their two-year deployment, they could
+either practice as an epidemiologist, do public health
+research, undergo residency training in public or pri-
+vate hospitals, or remain in their assigned municipal-
+ity; the last outcome would be the most ideal to
+ensure that these GIDAs would have at least one
+physician in their locality [9–11].
+However, retention in the program, or DTTBs’ choos-
+ing to stay and work in the localities where they were
+assigned to after the two-year contract, has been a
+continuing challenge. From 1993 to 2011, only 18% had
+chosen to stay in the program due to various reasons,
+such as personal satisfaction, working environment, and
+career development [12]. However, many developments,
+such as increase in coverage and utilization of internet
+and social media [13], and incidents where two current
+or former DTTBs have been killed in the line of duty,
+have occurred since then [14]. Furthermore, the previous
+study has not looked at the psychosocial experiences of
+these health practitioners while deployed in the rural
+municipalities, and the impact of international factors on
+retention. These issues highlight the need to revisit the
+factors affecting retention among DTTBs to help in the
+development of effective interventions to address the
+needs of the DTTBs and to encourage them to continue
+working in their assigned rural areas. Thus, this study
+aimed to identify the enabling factors and barriers affect-
+ing the retention of DTTBs in their assigned locality
+after their two-year deployments.
+Methods
+A. Study design, population, and data collection
+A descriptive, explanatory design was used in this study.
+We started with a quantitative design to measure the
+proportion of DTTBs experiencing implementation is-
+sues which could affect retention. To further explain, ex-
+pand,
+and
+give
+context
+to
+the
+findings
+from
+the
+quantitative survey, we followed-up with a qualitative
+design. The latter design also allowed us to solicit rec-
+ommendations to improve the Program from the DTTBs
+themselves [15].
+For the quantitative part, we conducted a survey with
+all currently deployed DTTBs present at the DAP Con-
+vention Center, Tagaytay City, during a Continuing
+Medical Education (CME) session in May 2019. The sur-
+vey utilized a self-administered questionnaire (SAQ),
+specifically an updated version of the validated modified
+Stayers Questionnaire by Leonardia et al. [12], which
+was pre-tested on 15 doctors with at least one year of
+experience working in different Philippine provinces and
+updated accordingly [16]. The final version of the Ques-
+tionnaire used in the study is attached as Additional file
+1. Prior to the distribution of the SAQ, the DTTBs were
+oriented by the researchers and given informed consent
+forms. After the DTTBs have given their consent to par-
+ticipate, the respondents were given 45 min to complete
+Flores et al. BMC Health Services Research         (2021) 21:1201 
+Page 2 of 11
+
+the questionnaire; after which, they dropped it in a se-
+cure drop box to ensure their anonymity.
+For the qualitative data, both currently deployed and
+former DTTBs from 2012 to 2019 were interviewed. The
+current DTTBs were recruited through the CME session
+while the former DTTBs were recruited through refer-
+rals by other former DTTBs. The number of inter-
+viewees was based on a recommendation by Creswell
+and Morse, to have at least six participants to ensure sat-
+uration [17–19]. The collection of qualitative data lasted
+from May to September 2019 and used the pre-tested
+interview guides (attached as Additional file 2). This
+entailed
+key
+informant
+interviews
+using
+a
+semi-
+structured interview guide with respondents in the DAP
+or in different venues in Metro Manila at their choice
+and comfort. However, since some of the participants
+were currently working in the provinces, they also have
+the option to participate in the study through a phone
+interview. Regardless of whether the interview was con-
+ducted in person or over the phone, the proceedings of
+the interview were audio-recorded, then transcribed.
+The average interview time was one hour.
+Prior to conducting the study, we sought approval
+from the DOH – Health Human Resources Develop-
+ment Board, the government agency overseeing the
+DTTBs. The research protocol was approved by the
+technical review board and ethics committee of the Ate-
+neo de Manila University School of Medicine and Public
+Health.
+B. Data analysis
+The quantitative data from the SAQs were encoded
+through Epi Info 7 [20] and analyzed through Microsoft
+Excel [21]. Frequencies and proportions were used to
+describe categorical data, and measures of central ten-
+dency and dispersion were used to describe continuous
+data.
+The transcribed interview proceedings, together with
+the responses to the open-ended questions in the SAQ,
+were translated into English and were analyzed themat-
+ically using NVivo [22]. Each open-ended questionnaire
+and transcription were coded by at least two researchers
+to minimize any bias in the analysis. Standardized codes,
+based on the literature and conceptual framework, were
+used (e.g., well-being, technology, compensation). Emer-
+gent codes were also considered. In the event of dis-
+agreement between coders, the researchers discussed
+thoroughly to agree on which sub-theme and/or main
+theme these codes belonged.
+C. Conceptual framework
+The themes used in this paper are based on a conceptual
+framework adapted from Lehmann et al. [23]. This
+framework theorizes that a rural health worker’s decision
+to stay in or leave a job relies on the complex interplay
+of retention factors within the individual, working, local,
+national, and international environments. Briefly, the in-
+dividual environment refers to factors that work at the
+personal level such as demographic factors and well-
+being. The working environment pertains to factors such
+as working conditions, infrastructure and equipment,
+and relationship with colleagues. Local environment per-
+tains to how their living conditions affect retention. Na-
+tional environment pertains to how government policies
+and events affect their retention. Lastly, the international
+environment pertains to how factors beyond the country
+where the health worker resides affect their tendency to
+stay in their current community [23–25]. Organizing re-
+tention factors according to environments make it easier
+for policymakers and other relevant parties to pinpoint
+areas for intervention without losing sight of the whole
+retention picture [23].
+Results
+A. Description of study participants
+A total of 102 out of 108 (94.4%) DTTBs answered the
+SAQ; six (5.6%) DTTBs did not participate due to their
+absence during the CME session. Three participants had
+missing data on work environment, local environment,
+and national environment factors. Most participants
+were female, less than 30 years old, single, spent their
+youth in rural areas, educated in medical schools in
+Metro Manila, and do not have any return service obli-
+gation (Table 1). For the interviews, a total of ten
+DTTBs participated; one alumnus each from Batch 2012
+and Batch 2014, two alumni from Batch 2015, and six
+from Batch 2017. Nine out of 10 interview participants
+were male.
+B. Individual environment
+Demographic factors and location
+Three out of ten interviewees highlighted marital status
+and proximity to hometown (i.e., being married and far
+from home) made staying less desirable:
+"My area is 1 hour and 30 minutes away by boat, 3
+hours away by land travel from my area of resi-
+dence. I just got married, so the distance is really a
+factor in assessing (whether to stay or not). That is
+one of the factors I’m looking into if I’m planning to
+extend." (DTTB # 2)
+Personal beliefs
+Most respondents found fulfillment in serving in their
+respective areas (94%) and found work as meaningful
+and stimulating (83%). The majority of the interviewed
+DTTBs weighed in service to country and personal
+growth on their decision to be retained. Regarding
+Flores et al. BMC Health Services Research         (2021) 21:1201 
+Page 3 of 11
+
+service to the country, the DTTBs said a “higher pur-
+pose” – the need to serve and impact the public health
+system – brought them back to their community and
+would make them stay.
+Meanwhile, according to one DTTB, the current gen-
+eration values personal growth more than rooting down,
+hence fewer DTTBs stay now compared to those from
+older batches. Another respondent mentioned that one
+should become and remain a DTTB because of the
+benefit of holistic personal development.
+Well-being
+Well-being was repeatedly discussed by the majority of
+the interviewed DTTBs. Central to well-being was the
+experience of burnout, which was managed through
+various coping strategies. Mental health, particularly de-
+pression, and the sense of stability (i.e., family and finan-
+cial stability) also emerged as influencing factors on the
+DTTBs’ decision to stay.
+The interviewed DTTBs highlighted the following cop-
+ing strategies: [a] taking breaks, [b] having a support sys-
+tem,
+[c]
+emotional
+detachment,
+[d]
+problem
+prioritization, and [e] human resource management. The
+DTTBs discussed taking breaks by emphasizing the im-
+portance of leisure and “returning to normalcy” (e.g., go-
+ing to the mall) to temporarily escape from the stresses
+of work. Their support system consists of other currently
+deployed DTTBs, DTTB alumni who frequently become
+mentors, friends, and “family”. Emotional detachment al-
+lows the DTTB to go through the two-year deployment
+without
+expending
+all
+emotional
+energy.
+Problem
+prioritization involves discerning then choosing the win-
+nable battles and letting go of the futile ones. Finally,
+managing work relationships involves knowing how to
+approach or interact with people in such a way that they
+can be swayed to aid the DTTB in reaching his/her goals
+for the municipality.
+One interviewed DTTB was diagnosed with major de-
+pressive disorder (MDD) during his tenure as a DTTB,
+while another DTTBs discussed how depressive feelings
+interfered or could possibly interfere with their work.
+Feelings of hopelessness, loss of purpose, and blunted
+affect can discourage functionality in society, thus, dis-
+courage retention:
+"I questioned why I was doing this. I like what I’m
+doing but it’s not rewarding in my opinion at that
+time in my area ... It’s like I’m constantly depleted. I
+feel like I’m always giving to the community, but, in
+the end, I become depleted. It looks like you are
+doing good, but it seems like nothing good is happen-
+ing to you." (DTTB # 6)
+Friends and family dynamics
+Around three quarters of respondents reported that their
+families supported their decision to become a DTTB
+Table 1 Demographics of the SAQ participants (n = 102)
+Demographic Factor
+Number (%)
+Sex
+Male
+40 (39.2%)
+Female
+62 (60.8%)
+Age
+Mean Age (Std. dev)
+28.68 years old (± 2.77)
+Min/Max
+24/40 years old
+Civil Status
+Single
+86 (84.3%)
+Married
+16 (15.7%)
+Permanent Residence
+Within NCR (National Capital Region)
+16 (15.7%)
+Outside of NCR
+85 (83.3%)
+Missing information
+1 (1.0%)
+Dependents
+With
+33 (32.4%; 1.85 dependents per DTTB)
+Without
+69 (67.6%)
+Spent their youth in rural areas
+Yes
+63 (61.8%)
+No
+39 (38.2%)
+Rural upbringing influenced their decision to apply for DTTB
+Yes
+49/63 (77.8%)
+No
+14/63 (22.2%)
+Medical School Education
+Within NCR
+60 (58.8%)
+Outside of NCR
+42 (41.2%)
+Return Service Agreement
+With
+37 (36.3%)
+Without
+65 (63.7%)
+Flores et al. BMC Health Services Research         (2021) 21:1201 
+Page 4 of 11
+
+(73%). This is remarkable considering that relationships
+with friends and family, particularly having a significant
+other, children, nostalgia for family, and actual family
+dynamics were important in the DTTBs’ decision to stay
+or leave.
+One DTTB said that distance from a significant other
+became an issue in their relationship. Another DTTB
+said that she would consider staying because it is easier
+to start a family as a DTTB rather than as a resident
+physician in a hospital, given that work arrangements
+(e.g., leave credits, relaxed pace, fewer demands, thus,
+more personal time) are more flexible as a DTTB. This
+same DTTB went on to share that it would be good for
+her child to see her as a DTTB, as it would educate the
+child about the public health situation of the Philippines.
+Furthermore, one DTTB talked about how he missed
+his mother cooking for him. Some DTTBs also added
+that a supportive and less demanding family encourages
+retention. Conversely, a high-strung, excessively worried
+family makes retention less appealing.
+Perceptions about work
+Two perceptions were particularly influential in the
+DTTBs’ decision to stay or leave: the multiple roles of a
+DTTB, and the “I wish I could do more” mentality.
+The majority of the interviewed DTTBs stated that
+they found their workload to be heavy and tiring due to
+the multiple roles that they must adopt: physician, public
+health manager, and MPM-HSD student. The adminis-
+trative work is particularly difficult for them because
+they feel that they were not adequately trained by their
+medical school and the DOH for this role. In some
+cases, such workload has led to burnout and ultimately
+decreased well-being. Nevertheless, the workload has
+also led to professional skills development, which en-
+courages the DTTBs to stay.
+Many of the interviewed DTTBs feel that they were
+not able to fulfill their goals (e.g., complete a project) as
+a DTTB. Consequently, the DTTBs think “I wish I could
+do more,” which makes them want to stay longer in
+their localities to fulfill these goals.
+C. Work-related environment
+Many DTTBs feel that their opinion is valued and
+respected (83%), that their community appreciates their
+effort (82%), and that they have good friends at work
+(80%). However, only a quarter of DTTBs reported hav-
+ing adequate supplies (25%) and time to eat (25%). Less
+than 30% feel that they are satisfied with the support of
+their host municipal government and less than 35% feel
+satisfied with the support of the DOH. Poor social work-
+ing conditions and perceived lack of support could ad-
+versely affect retention (Fig. 1).
+Social working conditions
+Among all the work-related influencers, social working
+conditions (i.e., related to people like the staff and lead-
+ership) emerged as the most talked-about factor for the
+majority of the interviewed DTTBs. Four main condi-
+tions served to shape the DTTBs’ thoughts regarding
+staying
+in
+their
+assigned
+municipalities:
+[a]
+the
+organization
+of
+the
+DOH-Local
+Government
+Unit
+(LGU)-DTTB system, [b] informal social networks, [c]
+Fig. 1 Percentage of DTTBs, who agree or strongly agree with work-related factors (n = 102)
+Flores et al. BMC Health Services Research         (2021) 21:1201 
+Page 5 of 11
+
+relationship with subordinates, and [d] relationships with
+patients.
+The haphazard interaction between DOH, the LGU,
+and the DTTB are characterized by inefficient communi-
+cation (e.g., faulty emergency referral system to tertiary
+hospitals), and disparate expectations regarding the role
+of the DTTB in the rural health unit (i.e., municipal
+health officer or rural health physician). Furthermore,
+the differences in goals for the municipality between the
+LGU and DTTB, and feelings of lack of DOH and LGU
+support make it difficult for DTTBs to fulfill their tasks
+and help the municipality, leading to stress and discour-
+aging retention.
+Being able to form and navigate informal social net-
+works (i.e., professional connections not defined by the
+official organizational structure) helps in accomplishing
+work or making it easier. These include dealing with the
+health center staff, local government officials, DOH offi-
+cials, and other local health stakeholders on a day-to-day
+basis. Successful informal social networks and having
+good relationships and being appreciated by patients
+make retention more feasible. On the other hand, some
+DTTBs talked about health center staff whom they felt
+were unprofessional, under-skilled, insubordinate, insuf-
+ficient in number, unnecessarily absent and poorly moti-
+vated,
+among
+other
+reasons.
+These
+unsatisfactory
+relationships with health center staff discourage reten-
+tion. Moreover, compromising work-life balance due to
+the workload makes retention less appealing.
+Career development
+The availability or lack of opportunities leading to career
+growth in the assigned municipalities influence the
+DTTBs decision to either stay or leave, respectively.
+Some DTTBs, however, were more aware of career op-
+portunities than others. Additionally, the majority of the
+interviewed DTTBs felt that they have learned from the
+DTTB experience, particularly with regards administra-
+tion, human resource management, and inventory man-
+agement, among other skills, which they feel would help
+them throughout their careers.
+Infrastructure, medical equipment, and supplies
+The DTTBs think that infrastructure, medical equip-
+ment, and supplies in the community are insufficient, in-
+adequate, and substandard; nevertheless, these were not
+considered enough to discourage retention. They merely
+referred to these shortcomings as “challenging”.
+D. Local environment
+Many DTTBs report that they have accommodations
+that are comfortable for sleeping (85%) and have a clean
+toilet and shower (84%). However, less than half of them
+have clean running water (46%) and regular electricity
+(45%) in their workplace. Lastly, only 31% have sufficient
+options for leisure and entertainment; such local envir-
+onment factors also play a role in their decision to stay
+in their locality (Fig. 2).
+Geography
+Only three out of ten interviewees talked about this fac-
+tor, largely because of the variations in geography across
+the different municipalities. Nonetheless, geography is a
+noteworthy influencer on the decision to stay because it
+shapes work logistics (e.g., transportation and supplies
+delivery), and thus, the DTTB’s opportunity and ability
+to manage patients. Losing the sense of agency to help
+patients discourage retention:
+"There was a time that they brought a patient to
+me in the middle of the night and there was no
+electricity, no oxygen. The patient was highly dis-
+tressed, but we could not transport him because
+number one, he did not want to be transported,
+and number two, there was no boat [to cross the
+sea]." (DTTB # 9)
+Living conditions
+Despite it being stipulated in their deployment contract,
+there are sometimes no set accommodations and finan-
+cial aid for living expenses for DTTBs. This is exacer-
+bated by lack of food choices, scarcity of electricity and
+potable water, and limited transportation (i.e., once a
+day boat ride). Such unsatisfactory living conditions may
+discourage retention.
+Local social needs
+Due to their daily workload, there is evidently less time
+for DTTBs to spend with their close friends and family.
+This is exacerbated by the lack of options for leisure and
+entertainment, potentially discouraging retention.
+Technology
+Because DTTBs are often assigned to areas far from
+friends and family, they rely on technology to communi-
+cate with them. Communication devices/media used by
+the DTTBs for this purpose include mobile phones, so-
+cial media applications (e.g., Facebook®, Twitter®), and
+other
+online
+telecommunications
+applications
+like
+Viber®, Messenger®, Skype®, and FaceTime®. Therefore,
+the availability of a cellphone signal and internet con-
+nectivity are among the main considerations of DTTBs
+on whether to stay in their area after deployment. Hav-
+ing a poor cellphone signal or internet connection may
+discourage retention.
+Flores et al. BMC Health Services Research         (2021) 21:1201 
+Page 6 of 11
+
+E. National environment
+Majority of the respondents believe that their wages
+(86%) and benefit packages (71%) are fair. However,
+only few respondents report that their work is not af-
+fected by recent political conflict in their area of de-
+ployment
+(39%), which could discourage retention
+(Fig. 3).
+Compensation
+Out of all the factors discussed in this study, the DTTBs
+considered good compensation as one of the most im-
+portant in their decision to be retained. While most of
+the DTTBs interviewed mentioned that their salary is
+high considering that being a DTTB is an entry-level
+profession, some still do not feel that this salary is com-
+mensurate to the amount of work that the DTTBs do.
+Additionally, there are often delays in the processing of
+salaries of the DTTBs, sometimes up to four months.
+While this issue has been mentioned several times to the
+central DOH office, several DTTBs report that no tan-
+gible solutions have been made so far.
+Furthermore, no executive medical check-ups are
+given to the DTTBs. This is despite the DTTBs’ men-
+tioning that they think it is essential for them to have
+these medical consultations, especially since they are ex-
+posed to several infectious diseases in the community
+such as tuberculosis and malaria. The DTTBs also com-
+plained that vaccinations are not made available to
+them.
+Universal health care (UHC) act
+The Universal Health Care Act seeks to give Filipinos in-
+creased access to health-related services by enrolling all
+Filipino citizens into the National Health Insurance Pro-
+gram of the Philippine Health Insurance Corporation.
+The UHC act was considered as an important factor in
+the DTTBs’ decision to be retained as this may eventu-
+ally lead to higher priority for DTTBs and their respect-
+ive health projects. A former DTTB cited that he may
+have stayed longer in his area if the UHC act had been
+implemented while he was still in the program, since this
+may make it easier to attain the DOH-set health
+Fig. 2 Percentage of DTTBs that agree or strongly agree with local factors (n = 102)
+Fig. 3 Percentage of DTTBs that agree or strongly agree with national factors (n = 102)
+Flores et al. BMC Health Services Research         (2021) 21:1201 
+Page 7 of 11
+
+indicators and goals for the community. Other current
+DTTBs also talked about how the full implementation of
+the UHC act would facilitate their work and overall ex-
+perience as DTTBs (e.g., gain more respect from staff,
+local government officials, etc.), encouraging retention.
+Another said that being a DTTB allows her to make
+contributions to the UHC act. Hence, she can impact
+the Philippine public health system as a DTTB, which
+makes her want to stay.
+Safety and security
+Being assured that they are safe while being deployed to
+the community is one of the top priorities of the DTTBs
+for retention in the program. However, according to
+them, there is no existing safety and security protocol
+from the DOH in instances of social unrest/conflict
+within their area. This protocol is important, especially
+since many of the DTTBs are assigned to rural areas
+with terrorists and/or insurgents. DTTBs are also often
+caught in between conflicting political parties, which af-
+fects their safety and ability to work. Nevertheless, some
+areas were noted to be free from socio-political unrest.
+Some also noted the lack of or delayed monitoring of
+DTTBs in the communities, especially in times of nat-
+ural disasters which commonly affect the country.
+F. International environment
+Opportunities such as higher rates of remuneration,
+more satisfying working conditions, higher quality of life,
+a safer working environment, and better educational and
+career development opportunities were the common
+reasons as to why DTTBs would prefer to work abroad.
+However, some DTTBs identify the current Philippine
+health system to be a great avenue to practice public
+health, encouraging retention in the program.
+Discussion and recommendations
+A host of individual, work-related, local, national, and
+international factors influence the DTTB’s decision to be
+retained in different, complex, interconnected, and dy-
+namic ways. Some of these factors, such as the sense of
+fulfillment, being a respected member of the community,
+social support systems, competitive compensation, car-
+eer development in their community after their tenure,
+and enactment of new laws to strengthen public health
+in the Philippines encourage DTTBs to stay in their
+communities even after deployment. On the other hand,
+geographic isolation, burn-out, poor access to electricity,
+telecommunications, and potable water, lack of support
+from their host LGUs and from the national govern-
+ment, and safety and security issues hinder DTTBs from
+staying in their communities after serving their two-year
+contract. Some of these findings have been corroborated
+by one scoping review of factors to increase the supply
+of rural health physicians, but some factors are context-
+specific and were not touched upon in the review yet
+[26]. Improving retention of rural health physicians re-
+quire the implementation of interventions on education,
+regulation, financial incentives, and professional and per-
+sonal support [27, 28]. Monitoring and evaluation is also
+key in ensuring that such interventions work [27].
+The multiple roles a DTTB plays, coupled with the
+emotional and mental demands of the job, could make
+them susceptible to burnout and depression. As such,
+there should be mental health interventions from the
+government, such as regular counselling, debriefing, and
+coaching and mentoring sessions. This is particularly ne-
+cessary as there seems to be no mental health interven-
+tions to safeguard the mental well-being of DTTBs at
+present. Such interventions are becoming increasingly
+important as it has been found that improved coping
+skills have been associated with rural health worker re-
+tention [29]. With the recent signing of the Philippine
+Mental Health Law [30], hopefully, the DTTBs’ mental
+health will be prioritized, protected, and actively man-
+aged by the DOH such that the DTTBs feel like they are
+being cared for.
+DTTBs, especially those that have good experiences
+with their host community, often find the two years of
+DTTB to be insufficient for them to enact their vision
+for their communities. Thus, it might therefore be favor-
+able to have the option to extend their duration of de-
+ployment from the current two years to three. Such an
+extension will allow DTTBs who want to be retained in
+their communities a better chance of doing so because
+they will now become eligible for the next higher pos-
+ition – being a municipal health officer - after meeting
+the minimum of three years of work experience required
+for it.
+In some cases, there is a mismatch between the prior-
+ities of some LGUs, which may not include health, and
+ensuring that health targets of the DOH are being met,
+which leaves the DTTB confused and frustrated as to
+who will be prioritized. As a result, the DTTBs feel that
+they do not get the support they need to implement
+public health programs in the community. Lack of sup-
+portive leadership and poor relationships with colleagues
+have been found to contribute to poor retention [23, 26,
+31–33]. Because of this, the roles and responsibilities of
+the DTTB to both DOH and the LGU should be clari-
+fied, and the DOH, being the national agency, should
+play a more active role in ensuring that DTTBs can im-
+plement their programs for their communities.
+There are also instances where stipulations in the
+DTTB contract are not met. While it is the responsibility
+of the government to provide them with accommodation
+in their place of assignment, sometimes, the DTTB had
+to look for their own accommodation upon arrival.
+Flores et al. BMC Health Services Research         (2021) 21:1201 
+Page 8 of 11
+
+Some accommodations provided have poor access to
+quality food, internet, cellphone signal, and even potable
+water. Unsatisfactory living conditions not only make it
+challenging for the DTTBs to live in their communities
+but ultimately, it can interfere with their capacity to
+work. In the DTTB contract, the DTTBs are supposed
+to have a living allowance, but this is sometimes not
+provided. There are also delays in the processing of their
+salaries, which make living in a community away from
+home difficult. To improve retention, the DOH should
+ensure that they satisfy their end of the contract, provide
+comfortable accommodation to DTTBs, give the requis-
+ite living allowances, and ensure that the DTTBs are
+paid on time.
+Natural disasters, together with insurgencies and the
+recent killings of former and current DTTBs, have
+highlighted the lack of a safety and security protocol
+from the DOH for DTTBs and health workers in gen-
+eral.
+All
+health
+workers,
+particularly
+DTTBs,
+can
+benefit from a protocol outlining what should be
+done by them, the DOH, and the LGUs during insur-
+gencies, and natural disasters. There should also be a
+mechanism for DTTBs to report any issues they en-
+counter at work to the DOH which they feel could
+threaten their lives. There should also be a way for
+the
+DOH
+to
+respond
+to
+these
+threats
+to
+their
+personnel.
+The recently signed UHC law is still beginning to
+be implemented as of writing; nevertheless, if the law
+is implemented fully, there are positive implications
+for retention in the DTTB program. For example, the
+law provides for the creation of a National Health
+Human Resource Master Plan which guarantees per-
+manent
+employment
+and
+competitive
+salaries
+to
+health workers to ensure continuity in the provision
+of health programs and services. It also provides for
+the creation of a National Health Workforce Support
+System which shall support local public health sys-
+tems like rural health units in addressing human re-
+source needs. Organization of Local Health Systems
+through provisions such as the Integration of Local
+Health
+Systems
+into
+Province-wide
+and
+City-wide
+Health System may also benefit DTTBs in streamlin-
+ing efforts from different agencies within their area of
+assignment [34, 35].
+Consistent with previous studies on health care practi-
+tioners in international destinations [23], the DTTBs
+also consider going abroad due to higher rates of remu-
+neration, more satisfying working conditions, higher
+quality of life, a safer working environment, and better
+educational and career opportunities. However, it must
+be considered that some DTTBs are restricted from
+leaving the country due to their return service agree-
+ment which are imposed on graduates of some public
+medical schools in the country. Furthermore, despite in-
+efficiencies in the health system of the Philippines com-
+pared to other countries, the DTTBs would still choose
+to stay in the country to be an active participant in the
+development of the country’s public health system. Thus,
+international factors do not seem significant to discour-
+age DTTB retention.
+Limitations of the study
+We only had the opportunity to administer the SAQ to
+a single batch of DTTBs and had a relatively limited
+pool of interview participants. This would make our
+study
+non-representative
+throughout
+the
+different
+batches
+of
+the
+program
+and
+would
+limit
+the
+generalizability of our findings to DTTBs from 2012 to
+2019. Considering the self-report nature of the data col-
+lected, there could be significant Hawthorne effect [36],
+and the validity of the findings of the study are as good
+as those that are reported by the participants.
+Conclusions
+This study found the interplay of various personal, work,
+local, national, and international environments influen-
+cing retention in the Philippine National Rural Physician
+Deployment Program. Several issues in the implementa-
+tion of the DTTB program in each of these environ-
+ments which could discourage retention were noted, and
+interventions to address these issues were given. Provid-
+ing an option to prolong the duration of employment
+from two to three years was suggested to encourage re-
+tention. Furthermore, there is a need to create mental
+health interventions, provide annual physical examina-
+tions, and vaccinations to ensure the health and well-
+being of DTTBs. There is also a need to clarify and en-
+force the relationship between the DTTB, the LGU and
+the DOH. There is also a need to provide comfortable
+accommodation and timely compensation to DTTBs.
+Lastly, there is a need for a safety protocol for health
+workers which should describe what DTTBs should do
+in the case of emergencies or natural disasters and when
+they encounter threats to their safety. By doing these
+proposed interventions, we can ensure that DTTBs are
+cared for and are supported in their undertakings in the
+community, encouraging them to stay in the communi-
+ties they serve and addressing inequities in the distribu-
+tion of physicians in the Philippines.
+Abbreviations
+CME: Continuing Medical Education; DTTB: Doctors to the Barrios;
+DOH: Department of Health (Philippines); GIDA: Geographically Isolated and
+Disadvantaged Areas; LGU: Local Government Unit; MPM-HSD: Master in
+Public Management major in Health Systems and Development;
+NCR: National Capital Region; SAQ: Self-Administered Questionnaire;
+UHC: Universal Health Care
+Flores et al. BMC Health Services Research         (2021) 21:1201 
+Page 9 of 11
+
+Supplementary Information
+The online version contains supplementary material available at https://doi.
+org/10.1186/s12913-021-07219-0.
+Additional file 1. Modified Stayers Questionnaire
+Additional file 2. Interview Questions
+Acknowledgments
+We would like to thank the DTTBs and DTTB alumni who participated in our
+study. We also want to thank Mr. Jefferson Pauli and the DOH Health Human
+Resource Development Bureau, and Dr. Noel Bernardo of DTTB Perlas (Batch
+35) for helping us implement our study. Lastly, we want to acknowledge the
+faculty of the Ateneo de Manila University School of Medicine and Public
+Health who gave critical feedback to this study.
+Authors’ contributions
+All authors have contributed to the study concept and design, and
+interpretation. ELLF, EMRM, MPBL, IMBTL, MMBM, NTQM collected and
+analyzed the data and wrote the first draft of the manuscript. JAL and VCFP
+gave feedback to the first draft of the manuscript. VCFP supervised the
+conduct of the study. All authors have read and approved the final version
+of the manuscript.
+Funding
+The authors have received research funding and publication support from
+the Ateneo de Manila University School of Medicine and Public Health
+Center for Research and Innovation - Research Grant for Students. The
+funding agency did not have any role in the implementation and analysis of
+this study.
+Availability of data and materials
+The datasets and transcripts used and/or analyzed are available from the
+corresponding author (vpepito@ateneo.edu) on reasonable request.
+Declarations
+Ethics approval and consent to participate
+The authors confirm that all methods were performed in accordance with
+the Declaration of Helsinki. The research protocol of the study (Protocol ID:
+SMPH 2019 Group 25) was approved by the research board and the ethics
+committee of Ateneo de Manila University School of Medicine and Public
+Health.
+Consent for publication
+Not Applicable.
+Competing interests
+The authors declare that they have no competing interests to disclose.
+Author details
+1School of Medicine and Public Health, Ateneo de Manila University, Ortigas
+Ave., Pasig City, Philippines. 2Deutsche Gesellschaft für Internationale
+Zusammenarbeit (GIZ), Makati City, Philippines.
+Received: 20 July 2021 Accepted: 14 September 2021
+References
+1.
+Global Health Workforce Alliance, World Health Organization. A Universal
+Truth: No Health Without a Workforce. 2014 [cited 2021 Sep 5]. Available
+from: https://www.who.int/workforcealliance/knowledge/resources/
+GHWA-a_universal_truth_report.pdf?ua=1
+2.
+Portela GZ, Fehn AC, Ungerer RLS, Poz MRD. Human resources for health:
+global crisis and international cooperation. Ciênc Saúde Colet. 2017;22:
+2237–46.
+3.
+Dayrit MM, Dolea C, Dreesch N. Addressing the human resources for health
+crisis in countries: how far have we gone? What can we expect to achieve
+by 2015? Rev Peru Med Exp Salud Publica. 2011;28:327–36.
+4.
+Dayrit M, Lagrada L, Picazo O, Pons M, Villaverde M. The Philippines health
+system review, vol. 18; 2018. [cited 2020 Aug 28]. Available from: https://a
+pps.who.int/iris/handle/10665/274579
+5.
+World Health Organization Regional Office for the Western Pacific. Human
+resources for health country profiles: Philippines. Manila: WHO Regional
+Office for the Western Pacific; 2013. Available from: https://iris.wpro.who.int/
+bitstream/handle/10665.1/7869/9789290616245_eng.pdf
+6.
+Abrigo MRM, Ortiz DAP. Who are the health workers and where are they?
+Revealed preferences in location decision among health care professionals
+in the Philippines. Philippine Institute for Development Studies; 2019.
+Available from: https://pidswebs.pids.gov.ph/CDN/PUBLICATIONS/pidsdps1
+932.pdf
+7.
+Dussault G, Franceschini MC. Not enough there, too many here:
+understanding geographical imbalances in the distribution of the health
+workforce. Hum Resour Health. 2006;4:12.
+8.
+World Health Organization. WHO | The human resources for health crisis.
+WHO. World Health Organization; [cited 2021 Sep 5]. Available from: https://
+www.who.int/workforcealliance/about/hrh_crisis/en/
+9.
+Department of Health (Philippines). DOH DTTB: What is the objective of
+the program? | Department of Health website. [cited 2021 Sep 5].
+Available from: https://doh.gov.ph/faqs/What-is-the-objective-of-the-
+program-DTTB
+10.
+Department of Health (Philippines). DOH DTTB: What are the available areas
+for deployment? What are the categories of these areas? | Department of
+Health website. [cited 2021 Sep 5]. Available from: https://doh.gov.ph/Wha
+t-are-the-available-areas-for-deployment-What-are-the-categories-of-these-a
+reas-DTTB
+11.
+Republic Act 7305: Magna Carta of Public Health Workers | Philippine
+Commission on Women. Available from: https://pcw.gov.ph/republic-act-73
+05-magna-carta-of-public-health-workers/
+12.
+Leonardia JA, Prytherch H, Ronquillo K, Nodora RG, Ruppel A. Assessment of
+factors influencing retention in the Philippine National Rural Physician
+Deployment Program. BMC Health Serv Res. 2012;12(1):411.
+13.
+Kemp S. Digital 2020: The Philippines — DataReportal – Global Digital
+Insights. [cited 2021 Sep 5]. Available from: https://datareportal.com/reports/
+digital-2020-philippines
+14.
+Sy M. Probe into barrio doctors’ killings sought | Philstar.com. 2017 [cited
+2020 Dec 29]. Available from: https://www.philstar.com/nation/2017/04/21/1
+687613/probe-barrio-doctors-killings-sought
+15.
+Creswell JW, Plano Clark DVL. Designing and conducting mixed methods
+research. 1st ed. Thousand Oaks: Sage Publications, Inc; 2006. 296 p.
+16.
+Ruel E, Wagner WE, Gillespie BJ. The Practice of Survey Research: Theory
+and Applications. Thousand Oaks: SAGE Publications, Inc; 2016. [cited 2021
+Sep 5]. Available from: http://methods.sagepub.com/book/the-practice-of-
+survey-research
+17.
+Creswell JW. Qualitative Inquiry and Research Design: Choosing among Five
+Traditions. Thousand Oaks: Sage Publications, Inc; 1997. [cited 2021 Sep 5].
+Available from: https://www.abebooks.com/first-edition/Qualitative-Inquiry-
+Research-Design-Choosing-among/30856846271/bd
+18.
+Sargeant J. Qualitative research part II: participants, analysis, and quality
+assurance. J Graduate Med Educ. 2012;4(1):1–3.
+19.
+Morse JM. Designing funded qualitative research. In: handbook of
+qualitative research. Thousand Oaks: Sage Publications, Inc; 1994.
+20.
+Centers for Disease Control and Prevention. EpiInfo 7. Atlanta: Centers for
+Disease Control and Prevention; 2017. Available from: https://www.cdc.gov/
+epiinfo/pc.html
+21.
+Microsoft. Microsoft Excel: Spreadsheet Software. Microsoft; Available from:
+https://www.microsoft.com/en-ww/microsoft-365/excel
+22.
+QSR International. NVivo 10. Melbourne, Victoria, Australia: QSR International;
+Available from: https://www.qsrinternational.com/nvivo-qualitative-data-ana
+lysis-software/home
+23.
+Lehmann U, Dieleman M, Martineau T. Staffing remote rural areas in
+middle- and low-income countries: a literature review of attraction and
+retention. BMC Health Serv Res. 2008;8(1):19.
+24.
+Belaid L, Dagenais C, Moha M, Ridde V. Understanding the factors affecting
+the attraction and retention of health professionals in rural and remote
+areas: a mixed-method study in Niger. Hum Resour Health. 2017;15(1):60.
+25.
+Araujo E, Maeda A. How to recruit and retain health workers in rural and
+remote areas in developing countries: A guidance note. World Bank; 2013
+[cited 2021 Sep 5]. Available from: https://openknowledge.worldbank.org/
+bitstream/handle/10986/16104/78506.pdf?sequence=1&isAllowed=y
+Flores et al. BMC Health Services Research         (2021) 21:1201 
+Page 10 of 11
+
+26.
+Putri LP, O’Sullivan BG, Russell DJ, Kippen R. Factors associated with
+increasing rural doctor supply in Asia-Pacific LMICs: a scoping review. Hum
+Resour Health. 2020;18(1):93.
+27.
+Dayrit MM, Dolea C, Braichet J-M. One piece of the puzzle to solve the
+human resources for health crisis. Bull World Health Organ. 2010;88(5):322-A.
+28.
+Migriño JR. Work Preferences in Rural Health Job Posting Among Medical
+Interns in a Lower Middle-Income Country— a Discrete Choice Experiment.
+Cent Asian J Glob Health. 2020 [cited 2021 Sep 13];9(1). https://doi.org/10.51
+95/cajgh.2020.344.
+29.
+Vesel L, Waller K, Dowden J, Fotso JC. Psychosocial support and resilience
+building among health workers in Sierra Leone: interrelations between
+coping skills, stress levels, and interpersonal relationships. BMC Health Serv
+Res. 2015;15(Suppl 1):S3.
+30.
+Department of Health (Philippines). Implementing Rules and Regulations of
+Republic Act No. 11036 otherwise known as the Mental Health Act
+[Internet]. 2019 [cited 2021 Sep 6]. Available from: https://doh.gov.ph/sites/
+default/files/health_advisory/IRR%20of%20RA%2011036.pdf
+31.
+Mbemba GIC, Gagnon M-P, Hamelin-Brabant L. Factors influencing
+recruitment and retention of healthcare Workers in Rural and Remote Areas
+in developed and developing countries: an overview. J Public Health Africa.
+2016;7(2):565.
+32.
+Ojakaa D, Olango S, Jarvis J. Factors affecting motivation and retention of
+primary health care workers in three disparate regions in Kenya. Hum
+Resour Health. 2014;12:33.
+33.
+Willis-Shattuck M, Bidwell P, Thomas S, Wyness L, Blaauw D, Ditlopo P.
+Motivation and retention of health workers in developing countries: a
+systematic review. BMC Health Serv Res. 2008;8(1):247.
+34.
+World Health Organization (Philippines). UHC Act in the Philippines: a new
+dawn for health care. 2019 [cited 2020 Aug 22]. Available from: https://
+www.who.int/philippines/news/feature-stories/detail/uhc-act-in-the-
+philippines-a-new-dawn-for-health-care
+35.
+Department of Health (Philippines). Implementing Rules and Regulations of
+the Universal Health Care Act (Republic Act No. 11223). 2019 [cited 2021
+Sep 6]. Available from: https://www.philhealth.gov.ph/about_us/UHC-IRR_
+Signed.pdf
+36.
+McCambridge J, Witton J, Elbourne DR. Systematic review of the Hawthorne
+effect: new concepts are needed to study research participation effects. J
+Clin Epidemiol. 2014;67(3):267–77.
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in
+published maps and institutional affiliations.
+Flores et al. BMC Health Services Research         (2021) 21:1201 
+Page 11 of 11

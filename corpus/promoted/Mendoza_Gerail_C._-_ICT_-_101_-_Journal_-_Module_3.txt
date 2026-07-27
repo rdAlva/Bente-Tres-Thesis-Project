@@ -1,0 +1,53 @@
+Mendoza, Gerail C.                                                                                                                                                CFUN  
+ICT – 101  
+Journal Module 3: Unit 3 
+ 
+1. In that they diverge from the starting program route in response to a logical condition, loops and 
+branches share this trait.  Loops are an effective feature that may be used to streamline programs 
+and make them easier to read. They can be used to carry out repetitive operations, manage a 
+program's flow, and improve program effectiveness.  With a loop, on the other hand, you may tell 
+your computer to carry out or repeat an action up until a condition is satisfied. 
+ 
+2. A function returns a value, whereas a procedure does not, and this is the primary distinction 
+between the two. 
+ 
+3. Attributes (fields), properties, and methods 
+ 
+4. Batch files, Windows PowerShell, and Visual Basic Scripting Edition (VBScript). 
+ 
+Batch files - Batch files are a straightforward programming language used to automate processes. 
+They are composed of a string of orders that are carried out one after the other. Frequently, 
+repetitive actions like backing up files or altering system settings are carried out using batch files. 
+Windows PowerShell - Based on.NET, Windows PowerShell is a more robust scripting language. 
+It offers a large variety of cmdlets (commands) that can be used to manage resources, automate 
+operations, and communicate with Windows. System administrators frequently use Windows 
+PowerShell to carry out difficult administrative tasks. 
+Visual Basic Scripting Edition (VBScript) - A scripting language based on Visual Basic is called 
+VBScript. Despite having less power than Windows PowerShell, it can still be useful for 
+automating processes. Developers frequently use VBScript to produce scripts that communicate 
+with Windows programs. 
+ 
+5. The information is kept on a server connected to the company's network. As a result of not being 
+accessible via the public internet, the data is more secure and readily available. 
+ 
+ 
+
+Journal Module 3: Unit 4 
+ 
+1.  The rows, columns, and data types in the database table are crucial for providing the consistency 
+and accuracy of the data. 
+ 
+2. A query is used to retrieve data from a database, but it can also be used to do computations on 
+the data or to retrieve specific data in order to see information quickly. 
+ 
+3. An RDBMS is a preferable option if you need to store a huge dataset and want great performance 
+and security. Microsoft Excel is a better option if you require flexibility in the data storage and 
+manipulation processes. 
+ 
+4. SQL is a standard language used to access and alter data in relational databases. It is used to 
+manage and query data in the database. 
+ 
+5. A foreign key is a column that points to the primary key of another table in one database. The 
+primary key column's primary key column must match the data type of the foreign key column. 
+The amount of rows in each table that can be linked to one another determines the kind of 
+relationship that exists between them. 

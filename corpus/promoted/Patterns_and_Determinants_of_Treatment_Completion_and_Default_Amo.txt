@@ -1,0 +1,1108 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+6-1-2021 
+Patterns and Determinants of Treatment Completion and Default 
+Patterns and Determinants of Treatment Completion and Default 
+Among Newly Diagnosed Multibacillary Leprosy Patients: A 
+Among Newly Diagnosed Multibacillary Leprosy Patients: A 
+Retrospective Cohort Study 
+Retrospective Cohort Study 
+Veincent Christian F. Pepito 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, vpepito@ateneo.edu 
+Arianna Maever L. Amit 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, aamit@ateneo.edu 
+Rae Erica D. Samontina 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University 
+Sarah Jane A. Abdon 
+University of the Philippines Manila 
+David Norman L. Fuentes 
+University of the Philippines Manila 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Immunology and Infectious Disease Commons, and the Public Health Commons 
+Custom Citation 
+Custom Citation 
+Pepito, V. C. F., Amit, A. M. L., Samontina, R. E. D., Abdon, S. J. A., Fuentes, D. N. L., & Saniel, O. P. (2021). 
+Patterns and determinants of treatment completion and default among newly diagnosed multibacillary 
+leprosy patients: A retrospective cohort study. Heliyon, 7(6). https://doi.org/10.1016/
+j.heliyon.2021.e07279 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact research@ateneo.edu. 
+
+Authors 
+Authors 
+Veincent Christian F. Pepito, Arianna Maever L. Amit, Rae Erica D. Samontina, Sarah Jane A. Abdon, David 
+Norman L. Fuentes, and Ofelia P. Saniel 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/asmph-pubs/40 
+
+Research article
+Patterns and determinants of treatment completion and default among
+newly diagnosed multibacillary leprosy patients: A retrospective
+cohort study
+Veincent Christian F. Pepito a,b,*, Arianna Maever L. Amit a,b, Rae Erica D. Samontina a,b,
+Sarah Jane A. Abdon a,c, David Norman L. Fuentes a,d, Ofelia P. Saniel a,e
+a College of Public Health, University of the Philippines Manila, Manila, Philippines
+b School of Medicine and Public Health, Ateneo de Manila University, Pasig City, Philippines
+c College of Medicine, San Beda University, Manila, Philippines
+d Institute for Neurosciences, St. Luke's Medical Center, Quezon City, Philippines
+e Symmetrix Research Consultancy Company, Manila, Philippines
+A R T I C L E I N F O
+Keywords:
+Treatment adherence
+Multibacillary leprosy
+Multiple drug therapy
+Survival analysis
+Cohort study
+Philippines
+A B S T R A C T
+Background: Poor treatment adherence among leprosy patients contribute to relapse, development of antimicro-
+bial resistance, and the eventual plateauing of the prevalence and incidence of leprosy not just in the Philippines,
+but also worldwide. For this reason, we aimed to identify the patterns and determinants affecting treatment
+completion and default among multibacillary leprosy patients.
+Methods: We conducted a retrospective cohort study involving three large hospitals in Metro Manila, Philippines.
+Patients who started the World Health Organization - Multiple Drug Therapy for multibacillary leprosy between
+January 1, 2007 and December 31, 2013 were included in the study. Selected socio-demographic and clinical data
+were abstracted from the patient treatment records. Survival analysis and proportional hazards regression were
+used to analyze the data.
+Results: Records of 1,034 patients with a total follow-up time of 12,287 person-months were included in the
+analysis. Most patients were male, younger than 45 years old, had an initial bacterial index between 1 and 4, and
+were residents of Metro Manila. Less than 20% had their treatment duration extended to more than 12 months.
+Treatment adherence of the patients was poor with less than 60% completing treatment. Most patients complete
+their treatment within 12 months, but treatment duration may be extended for up to three years. Patients who
+default from treatment usually do so a few months after initiating it. After adjusting for other variables, hospital,
+initial bacterial index, and non-extended treatment duration were associated with treatment completion. These
+factors, in addition to age, were also found to be associated with treatment default.
+Conclusion: This study provides quantitative evidence that there might be marked variations in how doctors in
+particular hospitals manage their patients, and these ﬁndings underscore the need to revisit and re-evaluate
+clinical practice guidelines to improve treatment outcomes and adherence.
+1. Introduction
+Poor treatment adherence among leprosy patients is associated with
+relapse and the occurrence of antimicrobial resistance [1]. It has also
+been reported to contribute to the plateauing incidence and prevalence of
+leprosy in the Philippines [2], and worldwide [3, 4, 5, 6]. A perceived
+reason for poor treatment adherence is the long duration of the World
+Health Organization (WHO) multiple drug therapy (MDT) regimen,
+lasting a year for multibacillary leprosy patients [7, 8], which could even
+be extended for up to three years [9, 10]. In addition to the long duration
+of treatment, a host of psychosocial, economic, medical and health ser-
+vice, as well as personal factors were found to affect treatment adherence
+[11]. Two earlier reviews reported the following factors to be associated
+with poor treatment adherence: socio-economic status; educational
+attainment; gender; alcohol consumption; knowledge about leprosy;
+stigma associated with the disease; cultural factors; transportation costs;
+* Corresponding author.
+E-mail address: vcfpepito12345@gmail.com (V.C.F. Pepito).
+Contents lists available at ScienceDirect
+Heliyon
+journal homepage: www.cell.com/heliyon
+https://doi.org/10.1016/j.heliyon.2021.e07279
+Received 28 August 2020; Received in revised form 26 January 2021; Accepted 3 June 2021
+2405-8440/© 2021 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-
+nc-nd/4.0/).
+Heliyon 7 (2021) e07279
+
+remoteness of residence; ﬁnancial concerns; adverse effects of MDT;
+source of MDT; MDT drug shortages; poor relationship between patient
+and healthcare provider; and occurrence of leprosy reactions [1, 12].
+A systematic review of factors associated with poor treatment
+adherence showed that cohort studies are not frequently used in studying
+this phenomena, not to mention, the use of survival analysis to analyze
+treatment adherence data [12]. Survival analysis is an analytic tool that
+deals with time-to-event data, appropriate for studying varying lengths of
+follow-up time to an event of interest [13]. In studying the determinants
+of treatment adherence, cohort studies are preferred over the more
+commonly-used cross-sectional or case-control designs, as the former
+research design allows examination of temporal direction between
+exposure and outcome [14]. Furthermore, the beneﬁt of using of survival
+analysis to analyze treatment adherence data lies in its ability to account
+for varying treatment durations due to defaulting (i.e., dropping out),
+extending treatment, or irregular intake of MDT. Survival analysis to
+study determinants of treatment adherence has been used to analyze data
+on major depressive disorders [15], and on tuberculosis [16, 17] but
+none on leprosy, let alone leprosy among Filipino patients. In the Western
+Paciﬁc Region, the Philippines has the highest incidence of leprosy, with
+around 1,700 new cases being diagnosed each year [18].
+Considering the lack of studies on treatment adherence among
+leprosy patients, this study investigates treatment completion and
+defaulting patterns by using survival analysis. The study also examines
+the factors that are associated with treatment completion and treatment
+default among newly diagnosed multibacillary leprosy patients in
+selected hospitals in Metro Manila, Philippines.
+2. Methods
+2.1. Study design, population and variables
+We utilized a retrospective cohort study by reviewing the clinic re-
+cords of all newly diagnosed multibacillary leprosy patients aged 15 and
+above who commenced WHO-MDT between January 1, 2007 and
+December 31, 2013 in three large hospitals (A, B, and C) in Metro Manila,
+Philippines. Using the patient charts, we ‘followed’ them up until the end
+of their treatment, or until March 1, 2015, whichever came ﬁrst. We
+included all patients who met the criteria and for whom we had access to
+their records to ensure that we have adequate sample size for our
+analyses.
+From the patient records, we were given permission to collect the
+following data: hospital where they got treatment; age; sex; place of
+residence (i.e., Metro Manila or outside); estimated treatment duration
+(from the start of treatment to date when they stopped taking MDT);
+treatment outcome (i.e., completed treatment, defaulted, transferred-out,
+died, or still under treatment by March 1, 2015); and recorded bacterial
+index (BI) readings (i.e., initial and subsequent BI data).
+2.2. Data management and analysis
+To facilitate analyses of possible linear trends, we assigned ‘scores’ to
+quantitative categorical variables, such as age of patient and BI. Using the
+midpoint of each age group as ‘score’, we categorized the age of patient
+into three age groups (15–29, 30–44, and 45 and above) to ensure
+adequate sample size per strata [19]. Owing to substantial missing data
+on subsequent BI measurements, only the initial BI reading was included
+in this analysis. The initial BI data was recoded into three categories
+corresponding to the following cut-off values: zero (0); low (1–3); and
+high BI [4, 5, 6] which were assigned ‘scores’ of 0, 2, and 5, respectively.
+The hospitals included in this study have similar deﬁnitions for
+treatment completion but had varying deﬁnitions for treatment default
+[9]. Therefore, to ensure consistency, we deﬁned treatment completion
+as a patient who has been declared by the hospital as having completed
+the MDT, as long as they completed the minimum of 12 doses of treat-
+ment taken over a maximum of 18 months; if the treatment is extended to
+18 months, all the doses should be taken over a 24-month period, and so
+on.
+On the other hand, treatment default is deﬁned as a patient who has
+not completed treatment within the prescribed duration with a six-month
+grace period (e.g., if a patient failed to complete 12 MDT doses in 18
+months, then that person is considered a defaulter). This deﬁnition was
+also applied to patients whose treatment duration was extended to more
+than 12 months (e.g., if a patient's treatment was extended to 24 MDT
+doses upon the recommendation of his/her physician but failed to take
+all 24 doses in 30 months, then the patient will also be considered a
+defaulter). While the date of treatment completion should be recorded in
+the patient charts and/or logbooks, this data was not often found in
+either the patient chart or clinic logbook, especially among defaulters. To
+address this problem, we assumed that the date of patient default was the
+projected date when the patient would have consumed all the medicines
+received during his/her last visit to the clinic. The assumption was one
+blister pack would last 28 days (e.g., if the patient last visited on January
+31, 2014, and has only claimed an MDT pack for one month, then the
+date of default will be listed as February 28, 2014).
+We performed survival analysis and conducted separate analyses for
+treatment completion and treatment default. If the outcome for the an-
+alyses was treatment completion, patients who experienced other out-
+comes (e.g., died, defaulted, transferred-out, and in-treatment) were
+censored. Similarly, if the outcome for the analyses was treatment
+default, those who experienced other outcomes (e.g., died, completed
+treatment, transferred-out and in-treatment) were likewise censored. For
+both outcomes, we considered the following exposure variables: age; sex;
+place of residence; the hospital where they got treatment; initial bacterial
+index; and treatment extension. The distribution of the study participants
+according to categories of each exposure variable and the outcome var-
+iable were examined. Kaplan-Meier curves were used to describe treat-
+ment completion and defaulting patterns. We used number of months as
+the time scale for the analysis of duration of treatment adherence. The
+rates of occurrence of each outcome were determined for each level of
+the different exposure variables. Any difference in the survival functions
+between each level of the exposure variable was assessed using the log-
+rank test [20]. The crude rate ratio for each exposure was determined
+using the Mantel-Haenszel method. Once the crude rate ratio for each
+exposure variable was estimated, patients with missing data for the
+relevant variables were dropped from subsequent analyses. Afterwards,
+we used Cox proportional hazards regression to study the effect/s of the
+exposures on the outcome variables [21]. For the variables age and BI, we
+performed tests for departure-from-linearity-assumption using the like-
+lihood ratio test. We formally tested the proportional hazards assumption
+of each resulting model by assessing their Schoenfeld residuals [22].
+Should the proportional hazards assumption be violated in any of the
+models, Lexis expansion was used to stratify the follow-up time into in-
+tervals such that the proportional hazards assumption is satisﬁed [23]. In
+this case, separate Cox regression models were made for each interval.
+For all statistical tests, a level of signiﬁcance of 0.05 was used [24]. Data
+were initially encoded in EpiInfo 3.5.4 [25], while cleaning and data
+analyses was carried out in Stata/IC 14.0 [26].
+2.3. Ethics
+Only anonymized data were accessed and collected; thus, it was un-
+necessary to obtain informed consent from individual patients. This study
+has received ethical approval from the University of the Philippines
+Manila Research Ethics Board (Reference No.: UPMREB 2015-092-UND).
+The study has also received ethics approval from each of the participating
+hospitals; however, the names of the participating hospitals are not dis-
+closed to maintain their anonymity.
+V.C.F. Pepito et al.
+Heliyon 7 (2021) e07279
+2
+
+3. Results
+3.1. Description of study participants
+The cohort consisted of 1,034 records of newly diagnosed multi-
+bacillary leprosy patients from the three hospitals that were included in
+the study. These patients had a total of 12,286.6 person-months of
+observation time and the duration of follow-up ranged from 0 to 39.9
+months. Although the number of new leprosy patients seen in each
+hospital per year was not available, we describe the patients according to
+a few demographic and relevant clinical characteristics (Table 1). Around
+three-fourths of the patients were male, while more than two-thirds have
+consulted Hospital C. The age of the patients ranged from 15 to 90 years
+old, but most were below 45 years old. Initial Bacterial Index (BI) varied
+from 0 and 6þ, with 396 (38.3%) having low initial BI, and almost a
+similar number, 391 (37.8%), having high initial BI. From the 391 pa-
+tients who had high initial BI, 103 (26.3%) were advised by their
+physician to extend treatment. These 103 patients, together with 74
+others, made up the 177 (17%) patients in the entire cohort who were
+advised by their physician to extend duration of treatment to 18, 24, 30
+or 36 months. This treatment duration is beyond the 12 months of
+treatment prescribed by the WHO. Regardless of treatment duration,
+around 57% of the patients completed treatment, and 37% defaulted; the
+rest experienced other outcomes (i.e., died, ‘transferred out’ to other
+treatment facilities, or were still in-treatment as of March 1, 2015).
+3.2. Patterns and determinants of treatment completion
+The
+median
+time-to-treatment-completion
+was
+13.4
+months
+(Figure 1). This curve shows the cumulative probability of treatment
+completion among those who completed MDT regardless of treatment
+duration. In this ﬁgure, each step increase in the curve indicates a patient
+completing treatment, while black marks indicate patients who have
+experienced outcomes other than treatment completion (i.e., censored
+observations). Most of the patients were treated for 12 months, but there
+were also some who completed treatment beyond the prescribed 12-
+month period as decided by their physician. The large increase shortly
+after the 24th month represent those patients whose treatment duration
+was extended to 24 months and who completed the treatment. The
+longest recorded duration of treatment was 39.9 months. Without con-
+trolling for other variables, and among the exposure variables studied,
+the hospital where patients got treatment (p < 0.01), sex (p < 0.01),
+initial BI (p < 0.01), and treatment extension status (p < 0.01) were all
+signiﬁcantly associated with treatment completion (Table 2).
+Prior to doing multivariate analysis, we excluded some 108 (10.4%)
+patients who did not have any data for initial BI. Thus, in the multivariate
+analysis, we only included data from 926 (89.6%) patients who had
+complete data for all the exposure variables of interest. The proportional
+hazards model for treatment completion showed that after adjusting for
+potential confounders, there was strong evidence that the hospital where
+treatment was obtained, initial BI, and treatment extension were all
+associated with treatment completion (Table 3). Speciﬁcally, patients
+from Hospital C had 28% lower instantaneous rate of treatment
+completion (adjusted hazard ratio (aHR): 0.72; 95% Conﬁdence Interval
+(CI): 0.59–0.87) compared to those from Hospital A. Similarly, patients
+whose treatment was extended had 98% lower instantaneous rate of
+treatment completion (aHR: 0.02; 95% CI: 0.01–0.04) compared to those
+whose treatment was not extended. Furthermore, the relationship be-
+tween initial BI readings and treatment completion also did not show a
+departure from the linearity assumption (p ¼ 0.58), hence a common
+hazard ratio is reported. Each unit increase in initial BI reading translated
+to around 7% (aHR: 0.93; 95% CI: 0.89–0.98) decrease in the instanta-
+neous rate of treatment completion. Lastly, the relationship between age
+group and treatment completion did not show departure from the line-
+arity assumption (p ¼ 0.89). Thus, a common hazard ratio (aHR: 1.00;
+95% CI (CI): 0.99–1.00) estimating a 0.005% decrease in the instanta-
+neous rate of treatment completion per unit increase in age is shown in
+the table. There was no strong evidence that the proportional hazards
+assumption was violated in this model (p ¼ 0.20).
+3.3. Patterns and determinants of treatment default
+Many patients who dropped-out from treatment did so within a few
+months after initiating it as shown by the steep rise early in the follow-up
+(median time to default ¼ 3.6 months; Figure 2). In this ﬁgure, each step
+increase in the curve indicates a patient defaulting from treatment, while
+black marks indicate patients who have experienced outcomes other than
+treatment default. The last patient to drop-out of treatment did so after
+about 26 months of follow-up, after he/she failed to ﬁnish the treatment
+after his/her treatment duration was extended to 24 months. Unlike
+Figure 1, the cumulative probability of treatment default never reached 1
+in this Figure because the person with the longest observation time (i.e.,
+at 39.9 months) did not default from treatment; the patient actually
+completed treatment. Without controlling for other variables and among
+the variables considered, only treatment extension status was strongly
+associated with treatment default (p < 0.01). Speciﬁcally, patients whose
+treatment was not extended had signiﬁcantly higher instantaneous rate
+Table 1. Distribution of study participants by selected characteristics (n ¼
+1,034).
+Variable
+Frequency (%)
+Hospital
+A
+238 (23.0)
+B
+99 (9.6)
+C
+697 (67.4)
+Age group
+15–29
+358 (34.6)
+30–44
+386 (37.3)
+45þ
+290 (28.1)
+Sex of Patient
+Male
+769 (74.4)
+Female
+265 (25.6)
+Place of Residence
+Within Metro Manila
+633 (61.2)
+Outside Metro Manila
+401 (38.4)
+Initial Bacterial Index
+0
+139 (13.4)
+1–3
+396 (38.3)
+4-6þ
+391 (37.8)
+Missing
+108 (10.4)
+Year started treatment
+2007
+94 (9.1)
+2008
+149 (14.4)
+2009
+140 (13.5)
+2010
+197 (19.1)
+2011
+172 (16.6)
+2012
+151 (14.6)
+2013
+131 (12.7)
+Treatment extension
+No treatment extension
+857 (82.9)
+Yes, treatment extended
+177 (17.1)
+Treatment outcome
+Completed Treatment
+590 (57.1)
+Died while in treatment
+5 (0.5)
+Transfer-out
+38 (3.7)
+Defaulted/dropped-out
+383 (37.0)
+In-treatment as of March 1, 2015
+18 (1.7)
+V.C.F. Pepito et al.
+Heliyon 7 (2021) e07279
+3
+
+of treatment default compared to those whose treatment was extended
+(Table 4).
+In the initial model for this outcome, the proportional hazards
+assumption was violated (p < 0.01). Hence, we split follow-up time into
+the ﬁrst six months of treatment, and the subsequent 6.1–39.9 months of
+observation. To identify the determinants of treatment default for the
+ﬁrst six months of follow-up, respondents from Hospital B or those who
+had treatment extension, were excluded in the analysis for the reason
+mentioned above. For the ﬁrst six months of follow-up, there was no
+departure from the linearity assumption for the association between BI
+and treatment default (p ¼ 0.21); thus, a common hazard ratio (aHR:
+1.02; 95% CI: 0.95–1.10) is reported. After adjusting for confounding
+variables, there was a 2% increase in the instantaneous rate of treatment
+default per unit increase in initial bacterial index, but this result was not
+statistically signiﬁcant. In contrast, there was a departure from the
+linearity assumption between age and treatment default (p ¼ 0.04). For
+this reason, age-speciﬁc hazard ratios are presented (Table 5). For the
+ﬁrst six months of follow-up, there was a strong evidence that being
+30–44 years old was protective (aHR: 0.72; 95% CI: 0.53–0.99) against
+treatment default. There was no strong evidence that the model for the
+ﬁrst six months of follow-up violated the proportional hazards assump-
+tion (p ¼ 0.49).
+For six months or longer follow-up, we included in the analysis pa-
+tients from Hospital B and those who had treatment extension. There was
+strong evidence that after adjusting for confounders, instantaneous rates
+of treatment default differ by hospital, initial bacterial index, and treat-
+ment extension. Speciﬁcally, the instantaneous rate of treatment default
+was higher in Hospital B (aHR: 2.80; 95% CI: 1.08–7.30) as compared to
+Hospital A. There was no departure from the linearity assumption for
+initial bacterial index (p ¼ 0.15), and so a common hazard ratio (aHR:
+1.15; 95% CI: 1.03–1.29) was used to describe a 15% increase in the
+instantaneous rate of treatment default per unit increase in bacterial
+index reading. Likewise, there was no departure from the linearity
+assumption for age, and a common hazard ratio (aHR: 1.00; 95% CI:
+0.98–1.01) is reported to describe the 0.003% decrease in the instanta-
+neous rate of treatment default per year increase in age. Lastly, the
+instantaneous rate of treatment default was 81% lower (aHR: 0.19; 95%
+CI: 0.10–0.36) among those whose treatment was extended compared to
+those whose treatment was not extended. There was no strong evidence
+that the proportional hazards assumption was violated by the model for
+this period of follow-up (p ¼ 0.18).
+4. Discussion
+This study shows that treatment adherence of newly diagnosed
+multibacillary leprosy patients in selected hospitals in Metro Manila,
+Philippines is unsatisfactory, with less than 60% completing treatment
+and almost 40% defaulting from it. The study also demonstrates that
+treatment duration of leprosy patients is sometimes extended, dis-
+regarding WHO guidelines [7]. Results also show that many patients who
+leave treatment did so in the ﬁrst few months after its start. The study
+also provides evidence that the hospital where patients get their treat-
+ment, initial BI readings, and having their treatment extended signiﬁ-
+cantly affected treatment compliance. In addition to age of the patient,
+these same variables were also associated with treatment default. While
+most of these ﬁndings only corroborate what is already known from other
+similar studies about the determinants of treatment adherence in leprosy
+Figure 1. Treatment completion pattern of the cohort (n ¼ 1,034).
+Table 2. Rates of treatment completion and comparison of treatment completion patterns for each level of exposure of interest.
+Exposure variable
+Number (%) of
+Treatment Completers
+Person-time
+(100 person-months)
+Rate of treatment completion
+(per 100 person-months) (95% CI)
+p-value of
+logrank test
+Hospital
+<0.01
+A
+155 (65.1)
+27.37
+5.66 (4.84–6.63)
+B
+53 (53.5)
+16.21
+3.27 (2.50–4.28)
+C
+382 (54.8)
+79.29
+4.82 (4.36–5.33)
+Age Group
+0.85
+15–29
+187 (52.2)
+40.62
+4.60 (3.99–5.31)
+30–44
+232 (60.1)
+47.55
+4.88 (4.29–5.55)
+45þ
+171 (59.0)
+34.69
+4.93 (4.24–5.73)
+Sex of patient
+<0.01
+Male
+428 (55.7)
+92.44
+4.63 (4.21–5.09)
+Female
+162 (61.1)
+30.42
+5.33 (4.57–6.21)
+Place of residence
+0.31
+Within Metro Manila
+372 (58.8)
+75.55
+4.92 (4.45–5.45)
+Outside Metro Manila
+218 (54.4)
+47.29
+4.61 (4.04–5.26)
+Initial Bacteria Index Value
+<0.01
+0
+96 (69.1)
+15.94
+6.02 (4.93–7.35)
+1–3
+241 (60.9)
+43.47
+5.54 (4.89–6.29)
+4-6þ
+205 (52.4)
+50.24
+4.08 (3.56–4.68)
+Missing
+48 (44.4)
+13.22
+3.63 (2.74–4.82)
+Treatment Extension
+<0.01
+No treatment extension
+457 (53.3)
+80.93
+5.65 (5.15–6.19)
+Yes, treatment extended
+133 (75.1)
+41.93
+3.17 (2.68–3.76)
+V.C.F. Pepito et al.
+Heliyon 7 (2021) e07279
+4
+
+[1, 5, 11, 12], the ﬁndings of our study provide quantitative empirical
+evidence that underscores the need to re-evaluate the current clinical
+management of multibacillary leprosy patients [9, 27].
+It has been previously documented that there are variations in how
+hospitals diagnose, manage, and treat the multibacillary leprosy patients,
+despite the guidelines from the WHO and the Philippine Department of
+Health [9]. This study corroborates and provides quantitative evidence
+that such variations result to differences in treatment adherence and
+defaulting patterns. Rates of treatment completion are highest, while
+rates of treatment default are lowest among patients of Hospital A. The
+opposite can be said about Hospital B, however. These ﬁndings support
+the need to assess the effectiveness of the different management practices
+of leprosy patients, as well as to re-visit clinical practice guidelines in
+managing multibacillary leprosy patients to encourage, if not ensure,
+good treatment adherence.
+The duration of treatment for multibacillary leprosy patients is
+sometimes extended by their attending physicians when the latter believe
+that reduction in BI levels after 12 months of treatment is insufﬁcient
+(i.e., ‘persisters’), or that relapse is highly likely [9, 10]. This practice of
+extending treatment beyond 12 months is based on the guidelines of the
+Northern Territories of Australia [10] and the United States [27], which
+suggest that treatment duration be extended up to 24 months to ensure
+that ‘persisters’ and relapses are minimized. In this study, physicians in
+Hospitals B and C were more likely to extend the duration of treatment of
+their multibacillary leprosy patients compared to doctors in Hospital A.
+This is despite the most recent treatment guidelines of the WHO which
+prescribes that MDT should only be taken for 12 months [10]. Currently,
+there is conﬂicting evidence on the supposed reduction in the risk of
+relapse as a result of extending MDT to more than the prescribed 12
+months duration [27, 28, 29, 30, 31, 32]. However, there is evidence that
+the incidence, severity, and duration of leprosy reactions are decreased
+by prolonging the duration of MDT to two years [33]. On the other hand,
+it is also worth considering that extending the duration of treatment
+would entail more MDT doses per patient. Given that the supply of MDT
+is limited, especially in low-income settings, extending the duration of
+treatment of many patients might lead to MDT shortage. MDT shortage
+has been frequently mentioned to adversely affect treatment adherence
+[1,
+12].
+Nevertheless,
+these
+controversies
+in
+treatment
+duration
+demonstrate the need for studies that look at costs and beneﬁts of
+treatment extension vis-a-vis the risk of relapse, reactions, and/or being a
+‘persister’. Such studies are essential to make deﬁnite recommendations
+on how multibacillary leprosy patients, especially those with high BI,
+should be managed after completing the prescribed 12 months of MDT
+[9, 27].
+The prevention of treatment default can be approached from
+multiple perspectives, including facility-based efforts to encourage
+treatment adherence. Healthcare providers at Hospital A send periodic
+Short Messaging Service (SMS) to remind their patients to seek
+treatment [9]. This could partly explain why the hospital had the
+lowest rate of treatment default and the highest rate of treatment
+completion. The use of SMS to improve treatment adherence has been
+found to be effective among tuberculosis patients [34], but similar
+studies among leprosy patients are absent. Due to disruptions brought
+about by the COVID-19 pandemic, we further anticipate a greater role
+Table 3. Association of hospital, age category, sex address, initial BI category, and treatment extension with treatment completion.
+Crude Rate Ratio (95% CI)
+p-value
+Adjusteda Hazard Ratio (n ¼ 926) (95% CI)
+p-value
+Hospital
+A
+1 (baseline)
+1 (baseline)
+B
+0.58 (0.42–0.79)
+<0.01
+0.61 (0.34–1.08)
+0.09
+C
+0.85 (0.71–1.03)
+0.09
+0.72 (0.59–0.87)
+<0.01
+Age Group
+15–29
+1 (baseline)
+1 (baseline)
+30–44
+1.06 (0.87–1.29)
+0.55
+1.00b (0.99–1.00)
+0.24
+45þ
+1.07 (0.87–1.32)
+0.52
+Sex
+Male
+1 (baseline)
+1 (baseline)
+Female
+1.15 (0.96–1.38)
+0.13
+0.98 (0.80–1.19)
+0.83
+Place of residence
+Within Metro Manila
+1 (baseline)
+1 (baseline)
+Outside Metro Manila
+0.94 (0.79–1.11)
+0.44
+0.94 (0.79–1.12)
+0.51
+Initial BI
+0
+1 (baseline)
+1 (baseline)
+1–3
+0.92 (0.73–1.17)
+0.50
+0.93b (0.89–0.98)
+<0.01
+4-6þ
+0.68 (0.53–0.86)
+<0.01
+Treatment extension
+Not extended
+1 (baseline)
+1 (baseline)
+Extended
+0.56 (0.46–0.68)
+<0.01
+0.02 (0.01–0.04)
+<0.01
+a Adjusted for other variables listed in the table.
+b Common linear effect.
+Figure 2. Treatment default pattern of the cohort (n ¼ 1,034).
+V.C.F. Pepito et al.
+Heliyon 7 (2021) e07279
+5
+
+of e-health interventions in improving medication adherence [35].
+However, such efforts are encumbered by the reluctance of some pa-
+tients to provide accurate contact details to health providers which
+prevent the latter from sending reminders to patients about their clinic
+visit schedules [9]. In the end, improving health worker-patient rela-
+tionship,
+family/community
+involvement,
+more
+effective
+patient
+counseling, patient information, education and communication, and
+addressing stigma can all be effective strategies to improve treatment
+adherence [6, 36].
+A strength of our study is the use of a cohort design, with data from
+more than 1,000 patients and 12,000 person-months of follow-up, which
+allowed us to quantify, with relatively precise conﬁdence intervals, the
+extent of and the correlates of treatment adherence [37]. We also
+considered treatment completion and treatment default as separate
+Table 4. Rates of default and results of log-rank test for each exposure stratum (n ¼ 1,034).
+Exposure variables
+Number (%) of Defaulters
+Person-time (100 person-months)
+Rate of treatment default (95% CI)
+p-value of logrank test
+Hospital
+0.37
+A
+79 (33.2)
+27.37
+2.89 (2.32–3.60)
+B
+41 (41.4)
+16.21
+2.53 (1.86–3.44)
+C
+263 (37.7)
+79.29
+3.32 (2.94–3.74)
+Age Group
+0.21
+15–29
+143 (39.9)
+40.62
+3.52 (2.99–4.15)
+30–44
+133 (34.5)
+47.55
+2.80 (2.36–3.32)
+45þ
+107 (36.9)
+34.69
+3.08 (2.55–3.73)
+Sex
+0.53
+Male
+291 (37.8)
+92.44
+3.15 (2.81–3.53)
+Female
+92 (34,7)
+30.42
+3.02 (2.47–3.71)
+Place of residence
+0.50
+Within Metro Manila
+229 (36.2)
+75.57
+3.03 (2.66–3.45)
+Outside Metro Manila
+154 (38.4)
+47.29
+3.26 (2.78–3.81)
+Initial Bacterial Index Value
+0.14
+0
+37 (26.6)
+15.94
+2.32 (1.68–3.20)
+1–3
+141 (35.6)
+43.47
+3.24 (2.75–3.83)
+4-6þ
+151 (38.6)
+50.24
+3.01 (2.56–3.53)
+Missing
+54 (50.0)
+13.22
+4.09 (3.13–5.33)
+Treatment extension
+<0.01
+No treatment extension
+352 (41.1)
+80.93
+4.35 (3.92–4.83)
+Yes, treatment was extended
+31 (17.5)
+41.93
+0.74 (0.52–1.05)
+Table 5. Association of hospital, age category, sex, address, initial BI category, and treatment extension, with treatment default.
+Crude rate ratio
+0–6 mos follow-up (n ¼ 902)
+>6 mos follow-up (n ¼ 677)
+Crude rate ratio (95% CI)
+p-value
+Adjusteda Hazard Ratio (95% CI)
+p-value
+Adjustedb Hazard Ratio (95% CI)
+p- value
+Hospital
+A
+1 (baseline)
+1 (baseline)
+1 (baseline)
+B
+0.88 (0.60–1.28)
+0.49
+(excluded)
+2.80 (1.08–7.30)
+0.04
+C
+1.15 (0.89–1.48)
+0.28
+1.02 (0.75–1.38)
+0.91
+1.56 (0.94–2.58
+0.08
+Age Group
+15–29
+1 (baseline)
+1 (baseline)
+1 (baseline)
+30–44
+0.79 (0.63–1.01)
+0.06
+0.72 (0.53–0.99)
+0.04
+1.00c (0.98–1.01)
+0.79
+45þ
+0.88 (0.68–1.13)
+0.30
+0.94 (0.68–1.30)
+0.71
+Sex
+Male
+1 (baseline)
+1 (baseline)
+1 (baseline)
+Female
+0.96 (0.76–1.21)
+0.74
+0.90 (0.66–1.23)
+0.52
+0.84 (0.52–1.35)
+0.46
+Address
+Within Metro Manila
+1 (baseline)
+1 (baseline)
+1 (baseline)
+Outside Metro Manila
+1.08 (0.88–1.32)
+0.49
+1.02 (0.78–1.34)
+0.89
+0.94 (0.63–1.40)
+0.78
+Initial BI
+0.00
+1 (baseline)
+1 (baseline)
+1 (baseline)
+0.01–3.99
+1.40 (0.97–2.00)
+0.07
+1.02c (0.95–1.10)
+0.57
+1.15c (1.03–1.29)
+0.01
+4.00þ
+1.30 (0.90–1.86)
+0.16
+Treatment extension
+Not extended
+1 (baseline)
+1 (baseline)
+1 (baseline)
+Extended
+0.17 (0.12–0.25)
+<0.01
+(excluded)
+0.19 (0.10–0.36)
+<0.01
+a Adjusted for Hospital (but excluding Hospital B), Age Group, Sex, Address, and Initial BI.
+b Adjusted for Hospital, Age Group, Sex, Address, Initial BI, and Treatment Extension.
+c Common linear effect.
+V.C.F. Pepito et al.
+Heliyon 7 (2021) e07279
+6
+
+outcomes because we wanted to identify possible points of intervention
+to encourage treatment completion and prevent treatment default; two
+outcomes which may not necessarily measure the same facet of treatment
+adherence.
+Our study has several limitations. Substantial missing data on sub-
+sequent BI readings, as well as lack of data on the number of patients seen
+by each hospital per year, implies that the state of record-keeping is poor.
+As a result, we cannot rule out selection bias as a result of including only
+available records in the analysis. Furthermore, around 10% of re-
+spondents were not included in the regression analyses due to missing
+data on initial BI. This may have also resulted to selection bias if absence
+of data on BI is related to either treatment completion or defaulting. This
+limitation highlights the need to improve patient-record keeping and if
+necessary, re-train healthcare providers. In addition to selection bias,
+misclassiﬁcation could also be a problem in our study. Some patients
+failed to notify the hospital when they transferred to other health facility,
+and as a result, these patients are erroneously classiﬁed as ‘defaulters’ by
+the hospital. As a result, our study also classiﬁed these patients as ‘de-
+faulters’, when in fact, they should be classiﬁed as ‘transferees’. There-
+fore, the number of those who dropped out from treatment may be
+overestimated, while the number of those who left may be artiﬁcially
+low. Since it is impossible to ascertain the true treatment status of some
+patients (i.e., whether they really defaulted or just went to other clinics),
+the effect of this misclassiﬁcation on the results of the study cannot be
+ascertained. More importantly, these misclassiﬁed patients artiﬁcially
+inﬂate the prevalence of leprosy in the country because they are counted
+twice. To address this problem, we recommend that patients should be
+informed early about proper procedures to take in case they need to
+transfer to other health facilities. Doing this will hopefully reduce un-
+documented transfers and improve the accuracy of leprosy statistics in
+the Philippines. A centralized registry of leprosy patients that is acces-
+sible throughout the country can also help address this problem. Lastly,
+our study may also have residual confounding of the results as data on
+many of the variables associated with treatment adherence (e.g., socio-
+economic status, education, occurrence of adverse drug reactions, ery-
+thema nodosum leprosum, and leprosy reactions, etc.) were not
+collected. Thus, the effect of these variables on the outcomes were not
+controlled for in the regression analysis.
+5. Conclusions
+Adherence to MDT among newly diagnosed multibacillary leprosy
+patients in Metro Manila was low with less than 60% completing treat-
+ment and almost 40% defaulting treatment. While many patients com-
+plete treatment within the prescribed 12-month period, treatment
+duration was extended for some because healthcare providers think that
+the prescribed treatment duration was inadequate to cure the patient or
+to prevent reactions and relapse. However, this practice of extending
+treatment might contribute to drug shortages especially in resource-poor
+settings. Many patients who leave treatment do so within a few months
+after they start treatment. After adjusting for confounders, there was a
+strong evidence that signiﬁcant variations exist in the way clinicians in
+different hospitals manage their patients. Treatment completion and
+default rates of patients varied according to initial BI readings, and
+whether the duration of treatment of a patient was extended by the
+doctor. Hospitals, where health providers reminded patients through
+electronic messaging, about their clinic visit schedules, tended to have
+patients who continue treatment and had signiﬁcantly lower rates of
+treatment default compared to patients of hospitals who do not adopt this
+practice. The results suggest that this practice could be adopted to pro-
+mote better treatment adherence, like telemedicine which is widely used
+during the COVID-19 pandemic. In addition, improving doctor-patient
+relationship, more effective counselling, and IEC about the disease,
+which also address stigma, are interventions that may improve treatment
+adherence. As part of improving counselling, it is important to emphasize
+to patients that they should not stop treatment even if their symptoms
+improve. The leprosy control program should be able to manage conti-
+nuity of patient care by coming up with a centralized database of patients
+and improving the patient referral system between treatment facilities.
+Protocols for transferring to other treatment facilities should be empha-
+sized to patients at the start of treatment. Future studies can build on our
+research by doing a prospective cohort study that would address the
+weaknesses of our study including possible selection bias, residual con-
+founding, and limited generalizability. Future studies could also inves-
+tigate the management of multibacillary leprosy patients after 12 months
+of MDT, especially those who still have high BI, to come up with clear
+recommendations on their duration of treatment and how they should be
+managed.
+6. Other information
+The results of this study have been presented orally in the 20th In-
+ternational Leprosy Congress held at Manila, Philippines on September
+10–13, 2019.
+Declarations
+Author contribution statement
+Veincent Christian F. Pepito: Conceived and designed the experi-
+ments; Performed the experiments; Analyzed and interpreted the data;
+Contributed reagents, materials, analysis tools or data; Wrote the paper.
+Rae Erica D. Samontina: Conceived and designed the experiments;
+Performed the experiments; Contributed reagents, materials, analysis
+tools or data; Wrote the paper.
+Sarah Jane A. Abdon and David Norman L. Fuentes: Conceived and
+designed the experiments; Performed the experiments; Contributed re-
+agents, materials, analysis tools or data.
+Ofelia P. Saniel: Conceived and designed the experiments; Analyzed
+and interpreted the data; Contributed reagents, materials, analysis tools
+or data; Wrote the paper.
+Arianna Maever L. Amit: Analyzed and interpreted the data; Wrote
+the paper.
+Funding statement
+This work was supported by the University of the Philippines Manila
+Student Researcher Grant
+(Grant No.:
+NIH
+2014-046). We
+also
+acknowledge publication support from the University of the Philippines
+Manila, the Philippine Council for Health Research and Development,
+and the Ateneo de Manila University.
+Data availability statement
+The authors do not have permission to share data.
+Declaration of interests statement
+The authors declare no conﬂict of interest.
+Additional information
+No additional information is available for this paper.
+Acknowledgements
+The researchers thank the participating hospitals and their respective
+health professionals who allowed us to conduct this study. The re-
+searchers are also grateful to Prof. Kim L. Cochon of the College of Public
+Health, University of the Philippines Manila for her help on the statistical
+analysis of the study. Lastly, the authors thank Dr. Venus Oliva Cloma-
+Rosales of 101HealthResearch, Inc. and Dr. Jose Florencio Lape~na of
+V.C.F. Pepito et al.
+Heliyon 7 (2021) e07279
+7
+
+the Philippine General Hospital for their suggestions on an earlier version
+of the manuscript.
+References
+[1] C. Chaptini, G. Marshman, Leprosy: a review on elimination, reducing the disease
+burden, and future research, Lepr. Rev. 86 (4) (2015 Dec) 307–315.
+[2] E.B. Handog, M.T.G. Gabriel, C.C. Co, Leprosy in the Philippines: a review, Int. J.
+Dermatol. 50 (5) (2011 May) 573–581.
+[3] L.C. Rodrigues, D.N. Lockwood, Leprosy now: epidemiology, progress, challenges,
+and research gaps, Lancet Infect. Dis. 11 (6) (2011 Jun) 464–470.
+[4] C.S. Smith, A. Aerts, P. Saunderson, J. Kawuma, E. Kita, M. Virmond, Multidrug
+therapy for leprosy: a game changer on the path to elimination, Lancet Infect. Dis.
+17 (9) (2017) e293–e297.
+[5] E.R. Honrado, V. Tallo, A.C. Balis, G.P. Chan, S.N. Cho, Noncompliance with the
+World health organization-multidrug therapy among leprosy patients in cebu,
+Philippines: its causes and implications on the leprosy control program, Dermatol.
+Clin. 26 (2) (2008 Apr 1) 221–229.
+[6] M.C. Williams, How can adherence with multi-drug therapy in leprosy be
+improved? Lepr. Rev. 76 (2) (2005 Jun 1) 160–161.
+[7] World Health Organization, Guidelines for the Diagnosis, Treatment and Prevention
+of Leprosy [Internet], 2018 [cited 2020 Aug 28]. Available from: https://apps.wh
+o.int/iris/bitstream/handle/10665/274127/9789290226383-eng.pdf?ua¼1.
+[8] World Health Organization, WHO | WHO recommended MDT regimens, 2018
+[Internet]. WHO. World Health Organization; [cited 2020 Aug 28]. Available from:
+http://www.who.int/lep/mdt/regimens/en/.
+[9] V.C.F. Pepito, A.M.L. Amit, R.E.D. Samontina, S.J.A. Abdon, D.N.L. Fuentes,
+O.P. Saniel, Variations in the clinical management of multibacillary leprosy patients
+in selected hospitals in Metro Manila, Acta Med. Philipp. 52 (3) (2018) 268–276.
+[10] Northern Territory (Australia) Department of Health, Guidelines for the Control of
+Leprosy in the Northern Territory [Internet], 2018 [cited 2020 Aug 28]. Available
+from: https://digitallibrary.health.nt.gov.au/prodjspui/bitstre
+am/10137/526/3/Control of Leprosy in the Northern Territory Guidelines.pdf.
+[11] A. Kumar, A. Girdhar, J.K. Chakma, B.K. Girdhar, WHO multidrug therapy for
+leprosy: epidemiology of default in treatment in agra district, Uttar Pradesh, India,
+BioMed Res. Int. 2015 (2015) 1–6.
+[12] R.J.S. Gir~ao, N.L.R. Soares, J.V. Pinheiro, P. Oliveira G da, S.M.F. de Carvalho,
+L.C. de Abreu, et al., Leprosy treatment dropout: a sistematic review, Int. Arch. Med.
+6 (1) (2013 Aug 30) 34.
+[13] C. Kartsonaki, Survival analysis, Diagn. Histopathol. 22 (7) (2016 Jul 1) 263–270.
+[14] J.W. Song, K.C. Chung, Observational studies: cohort and case-control studies, Plast.
+Reconstr. Surg. 126 (6) (2010 Dec) 2234–2242.
+[15] J.M. Haro, D. Novick, W. Montgomery, V. Moneta, X. Peng, R. Brugnoli,
+Antidepressant medication treatment patterns in Asian patients with major
+depressive disorder, Pati. Prefer. Adherence 9 (2015 Mar) 421–428.
+[16] G.M. Akessa, M. Tadesse, G. Abebe, Survival analysis of loss to follow-up treatment
+among tuberculosis patients at Jimma University Specialized Hospital, Jimma,
+Southwest Ethiopia, Int. J. Stat. Mech. 2015 (2015).
+[17] E.O. Masini, O. Mansour, C.E. Speer, V. Addona, C.L. Hanson, J.K. Sitienei, et al.,
+Using survival analysis to identify risk factors for treatment interruption among
+new and retreatment tuberculosis patients in Kenya, PloS One 11 (10) (2016 Oct 5),
+e0164172.
+[18] B. Kritz, Leprosy Remains a Stubborn, Unseen Problem in the Philippines [Internet],
+Inter Press Service, 2020 [cited 2020 Aug 28]. Available from: http://www.ipsnews
+.net/2019/03/leprosy-remains-stubborn-unseen-problem-philippines/.
+[19] D. Clayton, M. Hills, Statistical Models in Epidemiology, ﬁrst ed., Oxford University
+Press, 1993.
+[20] R. Peto, J. Peto, Asymptotically efﬁcient rank invariant test procedures, J. R. Stat.
+Soc. Ser. Gen. 135 (2) (1972) 185–207.
+[21] D.R. Cox, Regression models and life-tables, J. R. Stat. Soc. Ser. B Methodol. 34 (2)
+(1972) 187–220.
+[22] D. Schoenfeld, Partial residuals for the proportional hazards regression model,
+Biometrika 69 (1) (1982 Apr 1) 239–241.
+[23] N. Nitika, S.S. Mishra, P. Lohani, Lexis Expansion: a prerequisite for analyzing time
+changing variables in a cohort study, Nepal J. Epidemiol. 7 (2) (2017 Aug 8)
+681–684.
+[24] K.J. Rothman, No adjustments are needed for multiple comparisons, Epidemiol.
+Camb. Mass 1 (1) (1990 Jan) 43–46.
+[25] Centers for Disease Control and Prevention, EpiInfo 3.5.4 [Internet]. Atlanta, GA,
+2015. Available from: ftp://ftp.cdc.gov/pub/Software/epi_info/Setup.exe
+#x2122;%20%3C/a%3E.
+[26] StataCorp. Stata 14.0 IC, StataCorp, College Station, TX, 2015.
+[27] M. Malathi, D.M. Thappa, Fixed-duration therapy in leprosy: limitations and
+opportunities, Indian J. Dermatol. 58 (2) (2013) 93–100.
+[28] A. Kumar, A. Girdhar, B.K. Girdhar, Twelve months ﬁxed duration WHO multidrug
+therapy for multibacillary leprosy: incidence of relapses in Agra ﬁeld based cohort
+study, Indian J. Med. Res. 138 (4) (2013 Oct) 536–540.
+[29] P. Manickam, S.M. Mehendale, B. Nagaraju, K. Katoch, A. Jamesh, R. Kutaiyan, et
+al., International open trial of uniform multidrug therapy regimen for leprosy
+patients: ﬁndings & implications for national leprosy programmes, Indian J. Med.
+Res. 144 (4) (2016 Oct) 525–535.
+[30] B.K. Girdhar, A. Girdhar, A. Kumar, Relapses in multibacillary leprosy patients:
+effect of length of therapy, Lepr. Rev. 71 (2) (2000 Jun) 144–153.
+[31] M.I. Guerrero-Guerrero, S. Muvdi-Arenas, C.I. Leon-Franco, Relapses in
+multibacillary leprosy patients: a retrospective cohort of 11 years in Colombia,
+Lepr. Rev. 83 (3) (2012 Sep) 247–260.
+[32] P. Jamet, B. Ji, Relapse after long-term follow up of multibacillary patients treated
+by WHO multidrug regimen. Marchoux Chemotherapy Study Group, Int. J. Lepr.
+Mycobact. Dis. Off. Organ Int. Lepr. Assoc. 63 (2) (1995 Jun) 195–201.
+[33] M.V.F. Balagon, R.H. Gelber, R.M. Abalos, R.V. Cellona, Reactions following
+completion of 1 and 2 Year multidrug therapy (MDT), Am. J. Trop. Med. Hyg. 83
+(3) (2010 Sep) 637–644.
+[34] Q. Liu, K. Abba, M.M. Alejandria, D. Sinclair, V.M. Balanag, M.A.D. Lansang,
+Reminder systems to improve patient adherence to tuberculosis clinic appointments
+for diagnosis and treatment, Cochrane Database Syst. Rev. (11) (2014 Nov 18),
+CD006594.
+[35] I.A. Kretchy, M. Asiedu-Danso, J.-P. Kretchy, Medication management and
+adherence during the COVID-19 pandemic: perspectives and experiences from low-
+and middle-income countries, Res. Soc. Adm. Pharm. 17 (1) (2021 Jan) 2023–2026.
+[36] I.A. Susanti, N.G.P. Mahardita, R. Alﬁanto, I.M.I.W.C. Sujana, Susanto T. Siswoyo,
+Social stigma, adherence to medication and motivation for healing: a cross-sectional
+study of leprosy patients at Jember Public Health Center, Indonesia, J. Taibah.
+Univ. Med. Sci. 13 (1) (2017 Jul 25) 97–102.
+[37] E. Vittinghoff, C.E. McCulloch, Relaxing the rule of ten events per variable in
+logistic and Cox regression, Am. J. Epidemiol. 165 (6) (2007 Mar 15) 710–718.
+V.C.F. Pepito et al.
+Heliyon 7 (2021) e07279
+8

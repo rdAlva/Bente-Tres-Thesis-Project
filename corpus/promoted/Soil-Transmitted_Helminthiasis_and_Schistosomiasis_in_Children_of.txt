@@ -1,0 +1,1044 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Mathematics Faculty Publications 
+Mathematics Department 
+2017 
+Soil-Transmitted Helminthiasis and Schistosomiasis in Children 
+Soil-Transmitted Helminthiasis and Schistosomiasis in Children 
+of Poor Families in Leyte, Philippines: Lessons for Disease 
+of Poor Families in Leyte, Philippines: Lessons for Disease 
+Prevention and Control 
+Prevention and Control 
+Harvy Joy Liwanag 
+Ateneo de Manila School of Medicine and Public Health 
+Jhanna Uy 
+Ateneo de Manila University 
+Janis Ruth Gatchalian 
+Betty De La Calzada 
+Justine Alessandra Uy 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/mathematics-faculty-pubs 
+ Part of the Mathematics Commons, and the Public Health Commons 
+Custom Citation 
+Custom Citation 
+Harvy Joy Liwanag, Jhanna Uy, Ramil Bataller, Janis Ruth Gatchalian, Betty De La Calzada, Justine 
+Alessandra Uy, Manuel Dayrit, Soil-Transmitted Helminthiasis and Schistosomiasis in Children of Poor 
+Families in Leyte, Philippines: Lessons for Disease Prevention and Control, Journal of Tropical Pediatrics, 
+Volume 63, Issue 5, October 2017, Pages 335–345, https://doi.org/10.1093/tropej/fmw078 
+This Article is brought to you for free and open access by the Mathematics Department at Archīum Ateneo. It has 
+been accepted for inclusion in Mathematics Faculty Publications by an authorized administrator of Archīum 
+Ateneo. For more information, please contact research@ateneo.edu. 
+
+Authors 
+Authors 
+Harvy Joy Liwanag, Jhanna Uy, Janis Ruth Gatchalian, Betty De La Calzada, Justine Alessandra Uy, 
+Manuel Dayrit, and Ramil T. Bataller 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/mathematics-faculty-pubs/4 
+
+Soil-Transmitted Helminthiasis and
+Schistosomiasis in Children of Poor Families in
+Leyte, Philippines: Lessons for Disease
+Prevention and Control
+by Harvy Joy Liwanag,1,2 Jhanna Uy,1 Ramil Bataller,3
+Janis Ruth Gatchalian,1 Betty De La Calzada,4 Justine Alessandra Uy,5
+and Manuel Dayrit1,2
+1Ateneo Center for Health Evidence, Action, and Leadership (A-HEALS), Ateneo de Manila University, Ortigas Campus, 1605 Pasig City,
+Metro Manila, Philippines
+2Ateneo School of Medicine and Public Health, Ateneo de Manila University, Ortigas Campus, 1605 Pasig City, Metro Manila, Philippines
+3Department of Mathematics, School of Science and Engineering, Ateneo de Manila University, Loyola Heights Campus, 1108 Quezon City,
+Metro Manila, Philippines
+4Schistosomiasis Research and Training Center, Department of Health Regional Ofﬁce 8, 6501 Palo, Leyte, Philippines
+5Department of Pathology and Laboratory Medicine, The Medical City, Ortigas Avenue, 1605 Pasig City, Metro Manila, Philippines
+Correspondence: Harvy Joy Liwanag, Swiss Tropical and Public Health Institute, Socinstrasse 57, P.O. Box CH-4002, Basel, Switzerland.
+E-mails <harvy.liwanag@unibas.ch> or < hliwanag@ateneo.edu>
+ABSTRACT
+Objective:
+Neglected tropical diseases (NTDs) continue to be a public health problem in the
+Philippines. We assessed the association of soil-transmitted helminthiasis (STH) and schistosomiasis
+with selected health-related and socioeconomic variables in four villages in Leyte, Philippines.
+Methods:
+Stool specimens from 418 adults and 533 of their children from 209 families were
+examined through the Kato-Katz technique.
+Results:
+STH and schistosomiasis were present in 64.6% and 12.5%, respectively, of study partici-
+pants. Analysis through the generalized linear mixed model revealed a number of associations be-
+tween infection in parents and their children. Findings indicate that years of disease prevention and
+control efforts in these areas have been unable to bring down prevalence in children and their par-
+ents. Eliminating NTDs as public health problems will require a systems thinking approach beyond
+implementation of vertical control programs alone.
+KEYWORDS: helminthiasis, neglected diseases, Philippines, poverty, public health, schistosomiasis.
+V
+C The Author [2017]. Published by Oxford University Press. All rights reserved. For Permissions, please email: journals.permissions@oup.com
+
+335
+Journal of Tropical Pediatrics, 2017, 63, 335–345
+doi: 10.1093/tropej/fmw078
+Advance Access Publication Date: 24 January 2017
+Original paper
+Downloaded from https://academic.oup.com/tropej/article-abstract/63/5/335/2939778 by Ateneo de Manil user on 19 February 2020
+
+INTRODUCTION
+Neglected tropical diseases (NTDs) are considered
+a
+proxy
+for
+poverty
+[1].
+The
+World
+Health
+Organization (WHO) estimates that NTDs affect
+more than a billion people worldwide [2]. Soil-
+transmitted helminthiasis (STH) and schistosomiasis
+rank first and second, respectively, among NTDs
+in terms of contribution to years lived with disability
+[3]. STH refers to a group of parasitic diseases, namely,
+ascariasis, trichuriasis and the hookworm infections,
+caused by nematode worms that are transmitted to
+humans
+through
+fecal-contaminated
+soil
+[4].
+Schistosomiasis is a disease resulting from infection
+with
+parasitic
+trematode
+worms
+of
+the
+genus
+Schistosoma and is acquired when free-swimming para-
+sitic larvae (cercariae) penetrate the skin of people
+exposed to infested freshwater [5].
+In the Philippines, ascariasis is widespread, with
+many areas estimated to have prevalence rates of>50%
+[6]. Schistosomiasis due to Schistosoma japonicum is
+known to be endemic in 28 provinces [7]. Data involv-
+ing >10 000 individuals in the province of Northern
+Samar have revealed prevalence rates of 77% and 27%
+for STH and schistosomiasis, respectively, despite the
+implementation of mass drug administration (MDA)
+of anthelmintics in the past 5 years [8]. It has been rec-
+ognized that elimination of STH and schistosomiasis as
+public health problems cannot be achieved through
+MDA alone but will require Water, Sanitation and
+Hygiene (WASH) interventions that are integrated
+into disease prevention and control activities [9].
+However, in practice, the integration of WASH is rarely
+realized, as country programs in the Philippines [10]
+still rely on MDA as the major prevention and control
+strategy, notwithstanding that good treatment coverage
+rates are difficult to attain in many settings where the
+local health system is weak [11].
+The Sustainable Development Goals (SDGs) in-
+clude ending the epidemic of NTDs by 2030 under
+Goal 3, among 16 other goals that include achieving
+Universal Health Coverage (UHC) [12]. Effective pre-
+vention and control of NTDs can also be considered as
+a sensitive indicator of progress toward UHC [2, 13].
+In the Philippines, the government adopted UHC
+in 2010 as the national policy to improve the health
+of Filipinos [14, 15]. Before 2010, the national social
+health insurance program was estimated to cover
+76% of the Philippine population [16]. Efforts to
+achieve UHC received a boost with the implementa-
+tion of the sin tax reform law in 2012 that increased
+taxes on tobacco and alcohol products. Revenues
+from sin tax were used to increase resource alloca-
+tion for disease prevention and control programs, as
+well as support enrollment of more Filipinos into the
+national social health insurance program [17, 18].
+The Philippine government has also scaled-up the
+conditional cash transfer (CCT) program, which pro-
+vides cash to poor families subject to compliance with
+conditionalities, including a requirement for school-age
+children to take anthelmintics during MDA [19, 20].
+An impact evaluation study of the CCT program has
+concluded that school-age children from enrolled fami-
+lies were more likely to have taken anthelmintics when
+compared with children in other villages where poor
+families were not enrolled [20].
+In recent years, the Philippines has also been
+attaining one of the highest growth rates in Asia
+[21]. Ironically, Southeast Asia is also a region where
+many poor people continue to suffer the burden of a
+number of NTDs [22].
+We aimed to determine the prevalence of STH
+and schistosomiasis in a sample of families in four
+villages in Leyte, Philippines. Consequently, we as-
+sessed the association of infection with selected
+health-related and socioeconomic variables. Lastly,
+we proposed recommendations to overcome the
+burden of these diseases.
+METHODS
+This cross-sectional study was conducted from
+March to April 2015 in four barangays or villages
+purposively selected in the municipality of Palo in
+the province of Leyte, Philippines (Fig. 1).
+The Sampling method was based on the guidelines
+by the WHO for evaluating STH and schistosomiasis at
+the community level [23, 24]. A minimum sample size
+of 50 families per village was targeted to obtain a sam-
+ple of 250 individuals per village (i.e. 50 5). Families
+were randomly selected per village through the use of
+random numbers generated in Microsoft Excel 2013.
+Nurses who spoke the local language were trained
+as data collectors. Each family in the randomly gener-
+ated list was visited and included in the survey. Both
+the father and the mother were interviewed about
+336
+
+Soil-Transmitted Helminthiasis and Schistosomiasis
+Downloaded from https://academic.oup.com/tropej/article-abstract/63/5/335/2939778 by Ateneo de Manil user on 19 February 2020
+
+previous treatment for STH and schistosomiasis as
+part of MDA. The height and weight of the children
+were also measured during the visit [25]. The nurses
+inspected the family’s house for a set of characteristics
+and possessions based on the household questionnaire
+used in the National Demographic and Health Survey
+of 2013 [26]. Information from this inspection was
+used to assess the socioeconomic status following the
+asset-based approach [27].
+Stool collection, processing and analysis
+Stool specimens were subsequently collected and de-
+livered to the laboratory for processing and examin-
+ation using two aliquots through the Kato-Katz
+technique, or the Kato thick technique for specimens
+with insufficient amounts [28]. Each slide was exam-
+ined by licensed microscopists for the presence of
+helminth ova. Detection of helminth ova in one ali-
+quot was considered sufficient to make a diagnosis.
+The intensity of infection was categorized following
+the WHO classification for STH [4] and schistosom-
+iasis [5] (Table 1). Ten percent of all slides exam-
+ined were randomly selected and re-examined by a
+professional pathologist as part of quality control
+measures, as well as to minimize intra- and inter-
+observer variability.
+Data for each individual were double-encoded in
+Epi InfoTM 7 (CDC, Atlanta, Georgia, USA). Data
+analysis was completed using R version 3.2.0 (The R
+Foundation for Statistical Computing). Prevalence
+rates for the presence and intensity of infection were
+calculated. Nutritional status of the child participants
+was assessed following the CDC Growth Charts
+[29]. Principal component analysis was used to ob-
+tain a wealth index for each family [27]. The associ-
+ation of infection with selected health-related and
+socioeconomic variables was determined by calculat-
+ing p-values at 95% level of significance through the
+generalized linear mixed model [30]. Odds ratios
+(ORs) for variables with a statistically significant as-
+sociation were calculated using the Wald test.
+Ethics review
+The study protocol was approved by the Ateneo
+School of Medicine and Public Health Research
+Ethics Committee.
+RESULTS
+This study included 209 families (22.7% of the total
+number of families in the villages), with 951 partici-
+pants, 418 (44.0%) and 533 (56.0%) of whom were
+adults and children, respectively (Table 2).
+Fig. 1. Map showing the four barangays/villages in the municipality of Palo in the island province of Leyte, Philippines,
+where the study was conducted from March to April 2015 (modiﬁed map from https://maps.google.com/).
+Soil-Transmitted Helminthiasis and Schistosomiasis
+
+337
+Downloaded from https://academic.oup.com/tropej/article-abstract/63/5/335/2939778 by Ateneo de Manil user on 19 February 2020
+
+Table 1. Categories of intensity of infection as deﬁned for STH [4] and schistosomiasis [5] for
+stool specimens examined through the Kato-Katz technique
+Organism
+Light-intensity infections
+Moderate-intensity infections
+Heavy-intensity infections
+Soil-transmitted helminths
+Ascaris lumbricoides
+1–4999 epg
+5000–49 999 epg
+50 000 epg
+Trichuris trichuria
+1–999 epg
+1000–9999 epg
+10 000 epg
+Hookworms (Necator
+americanus or
+Ancyclostoma
+duodenale)
+1–1999 epg
+2000–3999 epg
+4000 epg
+Schistosoma japonicum
+1–99 epg
+100–399 epg
+400 epg
+epg: eggs per gram.
+Table 2. Total number of families residing in the four barangays/villages included in this study,
+number of study participants in each village disaggregated into adults, children, age and sex and
+number of stool specimens examined
+Cabarasan Daku
+Canhidoc
+San Agustin
+San Antonio
+Total
+No. (%)
+No. (%)
+No. (%)
+No. (%)
+No. (%)
+Total number of
+familiesa
+188
+178
+289
+266
+921
+Number of families
+included in this
+studyb
+52 (27.7)
+52 (29.2)
+52 (18.0)
+53 (19.9)
+209 (22.7)
+Mean number of
+study participants
+per family
+4.6
+4.7
+4.3
+4.7
+4.6
+Total number of
+study participants
+240
+242
+221
+248
+951
+Total number of stool
+specimens
+examinedc
+240 (100.0)
+240 (99.2)
+218 (98.6)
+229 (92.3)
+927 (97.5)
+Number of adult
+participants
+104 (43.3)
+104 (43.0)
+104 (47.1)
+106 (42.7)
+418 (44.0)
+Mean aged
+37.6 (35.9, 40.4) 38.5 (36.5, 41.5) 36.1 (34.1, 39.1) 36.9 (35.2, 39.7) 37.3 (36.3, 38.2)
+Males
+52
+52
+52
+53
+209
+Females
+52
+52
+52
+53
+209
+Number of child
+participantse
+136 (56.7)
+138 (57.0)
+117 (52.9)
+142 (57.3)
+533 (56.0)
+Mean aged
+8.8 (8.1, 11.2)
+8.7 (8.0, 11.0)
+7.5 (6.9, 9.8)
+8.8 (8.1, 11.1)
+8.5 (8.1, 8.8)
+Males
+73
+75
+64
+69
+281
+Females
+63
+63
+53
+73
+252
+aBased on the ofﬁcial list of families as of January 2015 provided by the local government unit.
+bRandomly selected from the ofﬁcial list of families.
+cBy Kato-Katz and Kato thick techniques.
+dMean with standard deviation at 95% CI.
+e2–16 years old.
+338
+
+Soil-Transmitted Helminthiasis and Schistosomiasis
+Downloaded from https://academic.oup.com/tropej/article-abstract/63/5/335/2939778 by Ateneo de Manil user on 19 February 2020
+
+Schistosomiasis was present in 12.5% of stool speci-
+mens, most of which were light-intensity infections
+(9.7% of total stool specimens) (Table 3). Stools from
+adults and children were positive for schistosomiasis in
+13.7% and 11.6% of total specimens, respectively. On
+the other hand, 64.6% of total stool specimens were
+positive for any type of STH, most of which were
+light-intensity infections (39.5% of total stool speci-
+mens). Stools from adults were positive for any type
+of STH in 64.0% of total specimens, while stools from
+children were positive in 65.1%. Most of the STH
+diagnosed were due to trichuriasis (53.1% of total
+stool specimens), followed by ascariasis (31.5%) and
+hookworm infections (5.9%). Co-infection with schis-
+tosomiasis and any type of STH was found in 9.7% of
+total stool specimens (Fig. 2). The quality control
+measure revealed a mean sensitivity and specificity of
+95.8% and 92.9%, respectively, among the microscop-
+ists who examined the slides.
+Only 60.0% and 67.8% of study participants re-
+ported receiving previous treatment as part of MDA
+for schistosomiasis and STH, respectively. Only
+47.7% of study participants reported receiving previ-
+ous treatment for both diseases.
+Height and weight measurements revealed that
+54.9% of child participants had normal body mass
+index for age. However, 35.5% were underweight.
+Among adults and children, 54.5% and 64.4%, re-
+spectively, were part of a family enrolled in the CCT
+program, while 59.3% and 75.2%, respectively, had
+social health insurance coverage.
+Most families have a negative wealth index.
+Socioeconomic status of the families did not vary sig-
+nificantly across the four villages (Fig. 3).
+Table 3. Total number, prevalence and intensity of schistosomiasis, STH and co-infection in stool
+specimens examined from adults and children in the four barangays/villages
+Prevalence and Intensity
+Adults
+Children
+Total
+No. (%)
+No. (%)
+No. (%)
+Prevalencea of schistosomiasis
+56 (13.7)
+60 (11.6)
+116 (12.5)
+Heavy intensityb
+2 (0.5)
+10 (1.9)
+12 (1.3)
+Moderate intensity
+6 (1.5)
+8 (1.6)
+14 (1.5)
+Light intensity
+47 (11.6)
+42 (8.2)
+89 (9.7)
+Prevalence of STH
+261 (64.0)
+338 (65.1)
+599 (64.6)
+Heavy intensity
+16 (4.0)
+44 (8.6)
+60 (6.5)
+Moderate intensity
+57 (14.1)
+114 (22.2)
+171 (18.6)
+Light intensity
+186 (45.9)
+177 (34.4)
+363 (39.5)
+Prevalence of Ascaris infection
+110 (27.0)
+182 (35.1)
+292 (31.5)
+Heavy intensity
+6 (1.5)
+23 (4.5)
+29 (3.2)
+Moderate intensity
+40 (9.9)
+86 (16.7)
+126 (13.7)
+Light intensity
+62 (15.3)
+72 (14.0)
+134 (14.6)
+Prevalence of Trichuris infection
+206 (50.5)
+286 (55.1)
+492 (53.1)
+Heavy intensity
+10 (2.5)
+22 (4.3)
+32 (3.5)
+Moderate intensity
+31 (7.7)
+67 (13.0)
+98 (10.7)
+Light intensity
+163 (40.2)
+194 (37.7)
+357 (38.8)
+Prevalence of hookworm infections
+41 (10.0)
+14 (2.7)
+55 (5.9)
+Heavy intensity
+0 (0.0)
+0 (0.0)
+0 (0.0)
+Moderate intensity
+2 (0.5)
+0 (0.0)
+2 (0.2)
+Light intensity
+39 (9.6)
+14 (2.7)
+53 (5.8)
+Prevalence of co-infection with schistosomiasis
+and any type of STH
+43 (10.5)
+47 (9.1)
+90 (9.7)
+aPrevalence of infection was based on the total number of stool specimens examined through the Kato-Katz and Kato thick techniques.
+bPrevalence of intensity of infection was based on the number of stool specimens examined through the Kato-Katz technique only.
+Soil-Transmitted Helminthiasis and Schistosomiasis
+
+339
+Downloaded from https://academic.oup.com/tropej/article-abstract/63/5/335/2939778 by Ateneo de Manil user on 19 February 2020
+
+Schistosomiasis in an adult was associated with any
+type of STH in the same adult [OR¼ 2.45, 95% con-
+fidence interval (CI): 1.09–5.51] and, conversely, STH
+in an adult was associated with schistosomiasis in the
+same adult (OR¼ 2.39, 95% CI: 1.09–5.21) (Table 4).
+On the other hand, schistosomiasis in a child was asso-
+ciated with STH in the same child (OR¼ 2.11, 95%
+CI: 1.04–4.27) and, conversely, STH in a child was
+associated with schistosomiasis in the same child
+(OR¼ 4.67, 95% CI: 1.95–11.21) (Table 5).
+Schistosomiasis in an adult was associated with
+schistosomiasis in at least one of his/her children
+(OR ¼ 13.79, 95% CI: 2.78–68.37) and, likewise,
+STH in an adult was associated with STH in at least
+one of his/her children (OR ¼ 4.56, 95% CI: 2.17–
+9.56). Co-infection in an adult was associated with
+co-infection in at least one child (OR ¼ 16.93, 95%
+CI: 1.77–162.26) (Table 4). Schistosomiasis in a
+child was associated with schistosomiasis in at least
+one sibling (OR ¼ 5.78, 95% CI: 3.10–10.80) and,
+Fig. 2. Bar graph showing the prevalence and intensity of schistosomiasis, STH and co-infection in the stool specimens
+from adults and children from the four barangays/villages included in this study.
+Fig. 3. The distribution of the wealth index of each family in the four barangays/villages, indicating that most families
+have a negative wealth index or a poor socioeconomic status. The socioeconomic status of the families did not vary
+signiﬁcantly across the four villages.
+340
+
+Soil-Transmitted Helminthiasis and Schistosomiasis
+Downloaded from https://academic.oup.com/tropej/article-abstract/63/5/335/2939778 by Ateneo de Manil user on 19 February 2020
+
+likewise, co-infection in a child was associated with
+co-infection in at least one sibling (OR ¼ 4.80, 95%
+CI: 2.45–9.40). However, STH in a child was not
+associated with STH in a sibling (Table 5).
+Schistosomiasis (OR ¼ 0.77, 95% CI: 0.64–0.92)
+and co-infection (OR ¼ 0.78, 95% CI: 0.63–0.96) in
+adults, as well as STH in children (OR ¼ 0.81, 95%
+CI: 0.71–0.92), were inversely associated with a
+higher wealth index. Finally, co-infection in adults
+(OR ¼ 2.54, 95% CI: 1.08–5.94) was associated with
+social health insurance coverage. In children, schisto-
+somiasis (OR ¼ 2.94, 95% CI: 1.43–6.04) and co-
+infection (OR ¼ 2.77, 95% CI: 1.27–6.07) were
+associated with being part of a family enrolled in the
+CCT program.
+DISCUSSION
+The WHO considers STH eliminated as a public
+health problem when the prevalence of moderate-
+heavy intensity infections among school-age chil-
+dren is <1% and has also set a target of at least 75%
+MDA coverage of the population at risk [4]. The
+prevalence of moderate and heavy intensity infec-
+tions (22.2%, 8.6%) and MDA coverage rate for
+STH (67.8%) in the villages are clearly far from this
+target despite the establishment of a prevention and
+Table 4. Summary of selected variables grouped according to health-related and socioeconomic
+variables and their association with schistosomiasis, STH and co-infection in the adult participants
+based on p-values generated from the generalized linear mixed model. The ORs of variables with a
+statistically signiﬁcant association (p < 0.05) were calculated using the Wald test
+Selected Variables
+Adult has schistosomiasis
+Adult has STH
+Adult has co-infection
+p-value OR (95% CI)
+p-value
+OR (95% CI)
+p-value OR (95% CI)
+Health-related variables
+Adult also has STH
+0.030 2.45 (1.09, 5.51)
+NA
+NA
+At least one child has
+schistosomiasis
+0.001 13.79 (2.78, 68.37) NA
+NA
+Adult had previous
+treatment for
+schistosomiasis
+NS
+NA
+NA
+NA
+Adult also has
+schistosomiasis
+NA
+0.029
+2.39 (1.09, 5.21) NA
+At least one child has
+STH
+NA
+6.02  105 4.56 (2.17, 9.56) NA
+Adult had previous
+treatment for STH
+NA
+NS
+NA
+NA
+At least one child has
+co-infection
+NA
+NA
+0.014 16.93 (1.77, 162.26)
+Adult had previous
+treatment for both
+diseases
+NA
+NA
+NS
+NA
+Socioeconomic variables
+Wealth index
+0.005 0.77 (0.64, 0.92)
+NS
+NA
+0.018 0.78 (0.63, 0.96)
+Family is enrolled
+in the CCT program
+NS
+NA
+NS
+NA
+NS
+NA
+Adult has social health
+insurance coverage
+NS
+NA
+NS
+NA
+0.032 2.54 (1.08, 5.94)
+NS: not signiﬁcant; NA: not applicable.
+Soil-Transmitted Helminthiasis and Schistosomiasis
+
+341
+Downloaded from https://academic.oup.com/tropej/article-abstract/63/5/335/2939778 by Ateneo de Manil user on 19 February 2020
+
+control program in the municipality. These villages
+remain as high-risk areas with prevalence of any type
+of STH >50% and therefore require intensified pre-
+vention and control measures. Moreover, expanding
+the STH prevention and control program to include
+not only preschool-age and school-age children but
+also the adult population especially in moderate-high
+risk areas should be considered, as this strategy has
+been demonstrated to be cost-efficient [31]. Thus,
+the global target to eliminate STH as a public health
+Table 5. Summary of selected variables grouped according to health-related and socioeconomic
+variables and their association with schistosomiasis, STH and co-infection in the child participants
+based on p-values generated from the generalized linear mixed model. The ORs of variables with a
+statistically signiﬁcant association (p < 0.05) were calculated using the Wald test
+Selected Variables
+Child has schistosomiasis
+Child has STH
+Child has co-infection
+p-value
+OR (95% CI)
+p-value OR (95% CI)
+p-value
+OR (95% CI)
+Health-related
+variables
+Child also has
+STH
+0.038
+2.11 (1.04, 4.27)
+NA
+NA
+At least one sibling
+has schistosomiasis
+3.69  108 5.78 (3.10, 10.80) NA
+NA
+Child had previous
+treatment for
+schistosomiasis
+NS
+NA
+NA
+NA
+Child also has
+schistosomiasis
+NA
+0.0006 4.67 (1.95, 11.21) NA
+At least one sibling
+has STH
+NA
+NS
+NA
+NA
+Child had previous
+treatment for STH
+NA
+NS
+NA
+NA
+At least one sibling
+has co-infection
+NA
+NA
+4.64  106 4.80 (2.45, 9.40)
+Child had previous
+treatment for both
+diseases
+NA
+NA
+NS
+NA
+Child is
+underweight
+NS
+NA
+NS
+NA
+NS
+NA
+Socioeconomic
+variables
+Wealth index
+NS
+NA
+0.0009 0.81 (0.71, 0.92)
+NS
+NA
+Family is en-
+rolled in the
+CCT program
+0.003
+2.94 (1.43, 6.04)
+NS
+NA
+0.011
+2.77 (1.27, 6.07)
+Child has social
+health insurance
+coverage
+NS
+NA
+NS
+NA
+NS
+NA
+NS: not signiﬁcant; NA: not applicable.
+342
+
+Soil-Transmitted Helminthiasis and Schistosomiasis
+Downloaded from https://academic.oup.com/tropej/article-abstract/63/5/335/2939778 by Ateneo de Manil user on 19 February 2020
+
+problem by 2030 may be too ambitious a target [32]
+if high prevalence rates for STH are still being
+observed in villages like those included in this study.
+The WHO considers schistosomiasis eliminated as
+a public health problem when the prevalence of heavy-
+intensity infections in the population at risk is<1%
+and likewise classifies a community with 10% to <50%
+prevalence rate in school-age children as a moderate-
+risk community [5]. Following this definition, the
+prevalence rate (11.6%) observed in this study classifies
+the villages as moderate risk; however, the goal of elim-
+ination may be considered within reach (with heavy in-
+tensity at 1.3%). On the other hand, when populations,
+whether adults or children, remain infected no matter
+what level of intensity, they serve as a hidden reservoir
+that continue to drive reinfection [33].
+Results also indicate a high likelihood of STH and
+schistosomiasis occurring in the same individuals, a
+finding which is consistent with the tendency for
+these infections to share similar risk factors [34].
+Consequently, the WHO has long campaigned for
+the integration of STH and schistosomiasis programs
+to maximize impact as integrated community-wide
+MDA
+targeting
+both
+diseases
+have
+also
+been
+shown to be a cost-effective strategy [31]. In the
+Philippines, the integration of prevention and con-
+trol programs for STH and schistosomiasis has to be
+established to maximize efficiency and impact.
+Results likewise indicate the presence of families
+with co-infections. This finding is not surprising, as
+families in these rural settings are usually exposed to
+the same risk factors [35]. These families are often
+the poorest families as validated by the association of
+infection status with a lower wealth index. The asso-
+ciation of infection in children with membership of
+the family in the CCT program is an interesting find-
+ing. The possibility of confounding is difficult to rule
+out, as those families enrolled in the CCT program
+are usually the poorest families who are also most at
+risk for STH or schistosomiasis. Nevertheless, this
+result may suggest that the children from these fami-
+lies continue to suffer the burden of helminth infec-
+tions despite the inclusion of deworming as a
+conditionality for families enrolled in the CCT pro-
+gram. Therefore, parameters for an accurate evalu-
+ation of the impact of the CCT program may
+include parasitological assessment of the children in
+enrolled families. The association of co-infection in
+adults with social health insurance coverage is an-
+other interesting finding that puts to test the pro-
+gress made toward the goal of UHC. As this is a
+cross-sectional study, we are unable to establish clear
+temporality between social health insurance coverage
+and infection status. Further studies, specifically
+qualitative studies, are recommended to explore this
+interplay between social health insurance coverage
+or membership in the CCT program and the persist-
+ence of STH or schistosomiasis.
+CONCLUSION
+To end the epidemic of NTDs by 2030 as stated in
+the SDGs, prevention and control efforts must focus
+on settings that likely suffer the highest burden of
+NTDs. These efforts need to include increasing MDA
+coverage and integration of WASH interventions. In
+the Philippines, there is an excellent opportunity to
+take advantage of the increased resources for health
+services provided. Eliminating STH and schistosomia-
+sis as public health problems will require a health sys-
+tems approach that goes beyond the implementation
+of vertical disease control programs alone.
+FUNDING
+This study was funded by the Ateneo de Manila University.
+ACKNOWLEDGEMENTS
+We thank Bienvenido Nebres for initiating this study; the
+Department of Health Regional Ofﬁce 8, local government
+unit of Palo and Gawad Kalinga for supporting and assisting
+in this study; Elva Sarte for providing graphic design assist-
+ance; and Amihan Perez for providing administrative support.
+REFERENCES
+1.
+Working to overcome the global impact of neglected trop-
+ical diseases: ﬁrst WHO report on neglected tropical dis-
+eases, 171. World Health Organization, 2010. http://apps.
+who.int/iris/bitstream/10665/44440/1/9789241564090
+_eng.pdf
+2.
+Investing to overcome the global impact of neglected trop-
+ical diseases: third WHO report on neglected tropical dis-
+eases, 191. World Health Organization, 2015. http://
+www.who.int/neglected_diseases/9789241564861/en/
+3.
+Hotez PJ, Alvardo M, Basa~nez MG, et al. The global bur-
+den of disease study 2010: interpretation and implications
+for the neglected tropical diseases. PLoS Negl Trop Dis
+2014;8:e2865.
+Soil-Transmitted Helminthiasis and Schistosomiasis
+
+343
+Downloaded from https://academic.oup.com/tropej/article-abstract/63/5/335/2939778 by Ateneo de Manil user on 19 February 2020
+
+4.
+Eliminating soil-transmitted helminthiases as a public
+health problem in children: Progress report 2001-2010
+and
+strategic
+plan
+2011-2020,
+78.
+World
+Health
+Organization, 2012. <http://apps.who.int/iris/bitstream/
+10665/44804/1/9789241503129_eng.pdf>
+5.
+Schistosomiasis: Progress report 2001-2011 and strategic
+plan 2012-2020, 74. World Health Organization, 2013.
+<http://apps.who.int/iris/handle/10665/78074>.
+6.
+Soares Magalh~aes RJ, Salamt MS, Leonardo L, et al.
+Mapping the risk of soil-transmitted helminthic infections
+in the Philippines. PLoS Negl Trop Dis 2015;9:e0003915.
+7.
+Soares Magalh~aes RJ, Salamt MS, Leonardo L, et al.
+Geographical distribution of human Schistosoma japonicum
+infection in The Philippines: tools to support disease control
+and further elimination. Int J Parasitol 2014;44:977–84.
+8.
+Ross AGP, Olveda RM, Chy D, et al. Can mass drug ad-
+ministration lead to the sustainable control of schistosom-
+iasis? J Infect Dis 2015;211:283–9.
+9.
+Freeman MC, Ogden S, Jacobson J, et al. Integration of
+water, sanitation, and hygiene for the prevention and con-
+trol of neglected tropical diseases: a rationale for inter-
+sectoral collaboration. PLoS Negl Trop Dis 2013;7:e2439.
+10. Guidelines on the Implementation of the National School
+Deworming
+Day,
+2015.
+http://home.doh.gov.ph/up
+loads/issuances/DOH_INTRANET_ao20150030_
+111624.pdf
+11. Webster JP, Molyneux DH, Hotez PJ, et al. The contribu-
+tion of mass drug administration to global health: past, pre-
+sent and future. Phil Trans R Soc B 2014;369:20130434.
+12. Sustainable Development Knowledge Platform: Goal 3.
+https://sustainabledevelopment.un.org/sdg3. (16 February
+2016, date last accessed).
+13. Holmes P, WHO Strategic and Advisory Group on
+Neglected Tropical Diseases. Neglected tropical diseases
+in the post-2015 health agenda. Lancet Lond Engl
+2014;383:1803.
+14. Acuin CS, Lim BAT, Lasco PGD. Universal health care for
+ﬁlipinos: a proposal. Acta Med Philipp 2010;44:14–21.
+15. The Aquino Health Agenda: Achieving Universal Health
+Care for All Filipinos, 2010. http://www.doh.gov.ph/
+sites/default/ﬁles/basic-page/aquino-health-agenda-uni
+versal-health-care.pdf.
+16. Tangcharoensathien V, Patcharanarumol W, Ir P, et al.
+Health-ﬁnancing reforms in southeast Asia: challenges
+in
+achieving
+universal
+coverage.
+The
+Lancet
+2011;377:863–73.
+17. WHO.
+‘Sin
+Tax’
+Expands
+Health
+Coverage
+in
+the
+Philippines. WHO. http://www.who.int/features/2015/ncd-
+philippines/en/. (18 February 2016, date last accessed).
+18. Sin Tax Law Incremental Revenue for Health Annual
+Report CY 2015: Details on Expenditure of the Amounts
+Earmarked for Health, 2015. http://www.gov.ph/down
+loads/2015/SIN-TAX-LAW-INCREMENTAL-REVENU
+E-FOR-HEALTH-CY-2015-ANNUAL-REPORT.pdf.
+19. Fernandez L, Olﬁndo R. Overview of the Philippines’
+Conditional
+Cash
+Transfer
+Program:
+The
+Pantawid
+Pamilyang Pilipino Program (Pantawid Pamilya), 2011.
+http://www-wds.worldbank.org/external/default/WDSC
+ontentServer/WDSP/IB/2011/07/08/000333038_2011
+0708021205/Rendered/PDF/628790BRI0Phil0me0abstr
+act0as0no010.pdf.
+20. Philippine conditional cash transfer program impact evalu-
+ation, 2012, 80. The World Bank, 2014. https://open
+knowledge.worldbank.org/bitstream/handle/10986/
+13244/755330REVISED000Revised0June0402014.pdf?
+sequence¼8&isAllowed¼y.
+21. Asian Development Outlook 2015: Financing Asia’s
+Future Growth, 304. Asian Development Bank, 2015.
+http://www.adb.org/sites/default/ﬁles/publication/
+154508/ado-2015.pdf.
+22. Hotez PJ, Bottazzi ME, Strych U, et al. Neglected tropical
+diseases among the Association of Southeast Asian
+Nations (ASEAN): overview and update. PLoS Negl Trop
+Dis 2015;9:e0003575.
+23. Montresor A, Crompton DW, Hall A, et al. Guidelines for
+the Evaluation of Soil-transmitted Helminthiasis and
+Schistosomiasis at Community Level, 1998. http://apps.
+who.int/iris/bitstream/10665/63821/1/WHO_CTD_
+SIP_98.1.pdf.
+24. Lwanga SK, Lemeshow S. Sample Size Determination
+in Health Studies: A Practical Manual. World Health
+Organization,
+1991.
+http://apps.who.int/iris/handle/
+10665/40062.
+25. Belizario VY, Liwanag HJ, Naig JR, et al. Parasitological
+and nutritional status of school-age and preschool-age
+children in four villages in Southern Leyte, Philippines:
+Lessons for monitoring the outcome of Community-Led
+Total Sanitation. Acta Trop 2015;141:16–24.
+26. Philippines National Demographic and Health Survey,
+2013, 335. Philippine Statistics Authority and ICF
+International, 2014. https://dhsprogram.com/pubs/pdf/
+FR294/FR294.pdf.
+27. Filmer D, Pritchett LH. Estimating wealth effects without ex-
+penditure data–or tears: an application to educational enroll-
+ments in states of India. Demography 2001;38:115–32.
+28. Bench Aids for the Diagnosis of Intestinal Parasites. World
+Health Organization, 1994. <http://apps.who.int/iris/bit
+stream/10665/37323/1/9789241544764_eng.pdf>.
+29. Kuczmarski RJ, Ogden CL, Guo SS, et al. 2000 CDC
+growth charts for the United States: methods and develop-
+ment. Vital Health Stat 2002:11:1–190.
+30. McCullagh P, Nelder JA, Generalized Linear Models, 2nd
+edn. Florida: CRC Press, 1989.
+31. Lo NC, Bogoch II, Blackburn BG, et al. Comparison of
+community-wide, integrated mass drug administration
+strategies for schistosomiasis and soil-transmitted hel-
+minthiasis: a cost-effectiveness modelling study. Lancet
+Glob Health 2015;3:e629–38.
+344
+
+Soil-Transmitted Helminthiasis and Schistosomiasis
+Downloaded from https://academic.oup.com/tropej/article-abstract/63/5/335/2939778 by Ateneo de Manil user on 19 February 2020
+
+32. Fenwick
+A,
+Jourdan
+P.
+Schistosomiasis
+elimination
+by 2020 or 2030? Int J Parasitol 2016;46:385–8.
+doi:10.1016/j.ijpara.2016.01.004
+33. Lo NC, Bogoch II, Utzinger J, Andrews JR. Cost-
+effectiveness of community-wide treatment for hel-
+minthiasis – Authors’ reply. Lancet Glob Health
+2016;4:e157–8.
+34. Hotez PJ, Remme JH, Buss P, et al. Disease Control
+Priorities in Developing Countries. In: Jamison DT,
+Breman JG, Measham AR, et al. (eds). Washington (DC):
+World Bank, 2006.
+35. Anuar TS, Salleh FM, Moktar N. Soil-transmitted hel-
+minth infections and associated risk factors in three orang
+asli tribes in Peninsular Malaysia. Sci Rep 2014;4:4101.
+Soil-Transmitted Helminthiasis and Schistosomiasis
+
+345
+Downloaded from https://academic.oup.com/tropej/article-abstract/63/5/335/2939778 by Ateneo de Manil user on 19 February 2020
