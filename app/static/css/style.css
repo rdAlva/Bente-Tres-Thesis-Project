@@ -1,91 +1,598 @@
-body {
+/* ============================================================
+   HAUdemicCheck — Institutional Theme
+   Maroon (#6B0F1A) / Gold (#C5A028)
+   ============================================================ */
 
-    background: #f5f7fb;
+:root {
+    --hau-maroon: #6B0F1A;
+    --hau-maroon-dark: #4A0A12;
+    --hau-maroon-light: #8A1B27;
+    --hau-gold: #C5A028;
+    --hau-gold-light: #E0C468;
+    --hau-cream: #FAF6EC;
+    --hau-text: #2A2321;
+    --hau-text-muted: #6B5F5B;
 
+    --hau-radius: 0.5rem;
+    --hau-shadow: 0 2px 8px rgba(107, 15, 26, 0.15);
 }
+
+body {
+    background-color: var(--hau-cream);
+    color: var(--hau-text);
+}
+
+/* ---------------- Navbar ---------------- */
 
 .navbar {
-
-    background: #173f7a;
-
+    background-color: var(--hau-maroon);
+    border-bottom: 3px solid var(--hau-gold);
 }
 
-.navbar-brand {
-
-    font-size: 1.2rem;
-
+.navbar-brand,
+.navbar-brand:hover {
+    color: var(--hau-gold-light);
+    letter-spacing: 0.02em;
 }
 
-.card {
-
-    border: none;
-
-    border-radius: 12px;
-
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 500;
+    transition: color 0.15s ease;
 }
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: var(--hau-gold-light);
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--hau-gold);
+    border-bottom: 2px solid var(--hau-gold);
+}
+
+/* ---------------- Buttons ---------------- */
 
 .btn-primary {
+    background-color: var(--hau-maroon);
+    border-color: var(--hau-maroon);
+}
 
-    background: #1e5eff;
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--hau-maroon-dark);
+    border-color: var(--hau-maroon-dark);
+}
 
+.btn-outline-primary {
+    color: var(--hau-maroon);
+    border-color: var(--hau-maroon);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--hau-maroon);
+    border-color: var(--hau-maroon);
+}
+
+.btn-gold,
+.btn-accent {
+    background-color: var(--hau-gold);
+    border-color: var(--hau-gold);
+    color: var(--hau-maroon-dark);
+    font-weight: 600;
+}
+
+.btn-gold:hover,
+.btn-accent:hover {
+    background-color: var(--hau-gold-light);
+    border-color: var(--hau-gold-light);
+    color: var(--hau-maroon-dark);
+}
+
+/* ---------------- Links ---------------- */
+
+a {
+    color: var(--hau-maroon);
+}
+
+a:hover {
+    color: var(--hau-maroon-light);
+}
+
+/* ---------------- Cards / panels ---------------- */
+
+.card {
+    border: 1px solid rgba(107, 15, 26, 0.1);
+    border-radius: var(--hau-radius);
+    box-shadow: var(--hau-shadow);
+}
+
+.card-header {
+    background-color: var(--hau-maroon);
+    color: #fff;
+    border-bottom: 2px solid var(--hau-gold);
+    border-top-left-radius: var(--hau-radius);
+    border-top-right-radius: var(--hau-radius);
+}
+
+/* ---------------- Alerts ---------------- */
+
+.alert-primary {
+    background-color: rgba(107, 15, 26, 0.08);
+    border-color: var(--hau-maroon);
+    color: var(--hau-maroon-dark);
+}
+
+/* ---------------- Upload drop zone ---------------- */
+
+.drop-zone {
+    position: relative;
+    border: 2px dashed rgba(107, 15, 26, 0.35);
+    border-radius: var(--hau-radius);
+    background-color: rgba(197, 160, 40, 0.05);
+    padding: 2.5rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.drop-zone:hover {
+    border-color: var(--hau-maroon);
+    background-color: rgba(197, 160, 40, 0.1);
+}
+
+.drop-zone-active {
+    border-color: var(--hau-maroon);
+    background-color: rgba(197, 160, 40, 0.15);
+}
+
+.drop-zone-icon {
+    font-size: 2.5rem;
+    color: var(--hau-maroon);
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+/* The real file input is stretched over the drop zone but made invisible;
+   clicking anywhere in the styled box opens the native file picker. */
+.drop-zone-input {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.drop-zone-input.is-invalid~.drop-zone-icon,
+.drop-zone.has-error {
+    border-color: #b3261e;
+}
+
+/* Gold badge, distinct enough from the flat Bootstrap secondary gray */
+
+.badge-gold {
+    background-color: var(--hau-gold-light);
+    color: var(--hau-maroon-dark);
+    font-weight: 600;
+}
+
+/* ---------------- Dashboard: stat cards ---------------- */
+
+.stat-card {
+    border-left: 4px solid var(--hau-maroon);
+}
+
+.stat-card-flag {
+    border-left-color: var(--hau-gold);
+}
+
+.stat-card-clickable {
+    cursor: pointer;
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.stat-card-clickable:hover {
+    box-shadow: var(--hau-shadow);
+    transform: translateY(-2px);
+}
+
+.stat-card-clickable.filter-active {
+    outline: 2px solid var(--hau-maroon);
+    outline-offset: -1px;
+}
+
+.stat-icon {
+    font-size: 1.5rem;
+    color: var(--hau-maroon);
+    margin-bottom: 0.5rem;
+}
+
+.stat-card-flag .stat-icon {
+    color: #9A7A16;
+    /* darker gold for sufficient contrast on white */
+}
+
+.stat-value {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--hau-text);
+    line-height: 1.2;
+    margin: 0;
+}
+
+.stat-label {
+    color: var(--hau-text-muted);
+    font-size: 0.875rem;
+}
+
+.stat-delta {
+    font-size: 0.8rem;
+    margin-top: 0.35rem;
+    font-weight: 600;
+}
+
+.stat-delta-up {
+    color: var(--hau-maroon);
+}
+
+.stat-delta-down {
+    color: #1E5A22;
+}
+
+.stat-delta-neutral {
+    color: var(--hau-text-muted);
+    font-weight: 400;
+}
+
+/* ---------------- Action required banner ---------------- */
+
+.action-required {
+    border-left: 4px solid #B3261E;
+    background-color: rgba(179, 38, 30, 0.04);
+}
+
+.action-required-icon {
+    font-size: 1.5rem;
+    color: #B3261E;
+}
+
+/* ---------------- Role badge ---------------- */
+
+.role-badge {
+    background-color: var(--hau-maroon);
+    color: #fff;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+/* ---------------- Status pills ---------------- */
+/* Filled background + white/dark text + icon: never color alone.
+   Ratios checked against WCAG AA (4.5:1 for text, 3:1 for the pill
+   against its surrounding background). */
+
+.status-pill {
+    font-weight: 600;
+    padding: 0.35em 0.75em;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    border-radius: 999px;
+}
+
+.status-clear {
+    background-color: #1E8E3E;
+    color: #fff;
+}
+
+.status-review {
+    background-color: #A66A00;
+    /* darkened from raw gold to clear 4.5:1+ white-text contrast */
+    color: #fff;
+}
+
+.status-flagged {
+    background-color: #B3261E;
+    color: #fff;
+}
+
+/* ---------------- Golden Standard Repository module ---------------- */
+/* Visually separated so it reads as a distinct utility panel, not an
+   extension of the main analysis feed. */
+
+.repository-module {
+    background-color: #F8F9FA;
+    border-left: 4px solid var(--hau-gold);
+}
+
+/* ---------------- Sortable table headers ---------------- */
+
+.sort-btn {
+    background: none;
     border: none;
-
+    padding: 0;
+    font: inherit;
+    font-weight: 600;
+    color: inherit;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
 }
 
-.btn-primary:hover {
+/* ---------------- Progress bar track ---------------- */
 
-    background: #174fd8;
-
+.progress {
+    background-color: rgba(107, 15, 26, 0.08);
+    height: 0.6rem;
 }
+
+/* ----- Pipeline Diagram Styles ----- */
+.pipeline-card .card-body {
+    padding: 1.5rem 1rem;
+}
+
+.pipeline-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.pipeline-node {
+    flex: 1 1 180px;
+    min-width: 140px;
+    max-width: 220px;
+    background: #f8f9fa;
+    border: 2px solid #dee2e6;
+    border-radius: 1rem;
+    padding: 0.75rem 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.15rem;
+    position: relative;
+    background: #ffffff;
+    font-family: inherit;
+    line-height: 1.2;
+    border-color: #ced4da;
+}
+
+.pipeline-node:hover,
+.pipeline-node:focus-visible {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-color: #0d6efd;
+    outline: 2px solid #0d6efd;
+    outline-offset: 2px;
+}
+
+.pipeline-node:active {
+    transform: scale(0.97);
+}
+
+.pipeline-node .node-icon {
+    font-size: 1.8rem;
+    line-height: 1;
+    margin-bottom: 0.15rem;
+}
+
+.pipeline-node .node-title {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #212529;
+    letter-spacing: 0.02em;
+}
+
+.pipeline-node .node-count {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #0d6efd;
+}
+
+.pipeline-node .node-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #6c757d;
+}
+
+.pipeline-node .node-sub {
+    font-size: 0.7rem;
+    color: #495057;
+    background: #e9ecef;
+    padding: 0.1rem 0.5rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-top: 0.1rem;
+}
+
+.pipeline-node .node-breakdown {
+    display: flex;
+    gap: 0.25rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: 0.1rem 0;
+}
+
+.pipeline-node .breakdown-item {
+    padding: 0.1rem 0.4rem;
+    border-radius: 0.25rem;
+    background: #e9ecef;
+    color: #212529;
+}
+
+.pipeline-node .breakdown-item.clear {
+    background: #d1e7dd;
+    color: #0a3622;
+}
+
+.pipeline-node .breakdown-item.review {
+    background: #fff3cd;
+    color: #664d03;
+}
+
+.pipeline-node .breakdown-item.flagged {
+    background: #f8d7da;
+    color: #58151c;
+}
+
+/* Node-specific colors */
+.pipeline-node-incoming {
+    border-color: #6c757d;
+}
+
+.pipeline-node-incoming .node-count {
+    color: #0d6efd;
+}
+
+.pipeline-node-analysis {
+    border-color: #6c757d;
+}
+
+.pipeline-node-analysis .node-count {
+    color: #6c757d;
+}
+
+.pipeline-node-reviewgate {
+    border-color: #B3261E;
+}
+
+.pipeline-node-reviewgate .node-count {
+    color: #dc3545;
+}
+
+.pipeline-node-golden {
+    border-color: #ffc107;
+}
+
+.pipeline-node-golden .node-count {
+    color: #d39e00;
+}
+
+/* Active state (filter applied) */
+.pipeline-node.active {
+    border-color: #0d6efd;
+    background: #e7f1ff;
+    box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.25);
+}
+
+/* Arrow between nodes */
+.pipeline-arrow {
+    font-size: 1.8rem;
+    color: #adb5bd;
+    display: flex;
+    align-items: center;
+    padding: 0 0.25rem;
+    flex: 0 0 auto;
+    align-self: center;
+}
+
+/* Pulse dot for Review Gate */
+.pulse-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #dc3545;
+    border-radius: 50%;
+    margin-top: 0.2rem;
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.4;
+        transform: scale(1.3);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .pipeline-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pipeline-node {
+        max-width: 280px;
+        width: 100%;
+    }
+
+    .pipeline-arrow {
+        transform: rotate(90deg);
+        padding: 0.25rem 0;
+    }
+}
+
+/* ---------------- Focus visibility (accessibility) ---------------- */
+/* Explicit rule for buttons/links in addition to the global one, since
+   some Bootstrap components (like plain <button> cards) reset outline. */
+
+.btn:focus-visible,
+.stat-card-clickable:focus-visible,
+.sort-btn:focus-visible {
+    outline: 3px solid var(--hau-gold) !important;
+    outline-offset: 2px;
+}
+
+
+/* ---------------- Progress bars (similarity scores) ---------------- */
+/* Colorblind-safe: pair color with a text label/percentage, not color alone */
+
+.progress-bar-low {
+    background-color: #2E7D32;
+    /* safe green */
+}
+
+.progress-bar-medium {
+    background-color: var(--hau-gold);
+    color: var(--hau-text);
+}
+
+.progress-bar-high {
+    background-color: var(--hau-maroon);
+}
+
+/* ---------------- Footer ---------------- */
 
 footer {
-
-    color: #888;
-
+    color: var(--hau-text-muted);
+    border-top: 1px solid rgba(107, 15, 26, 0.1);
 }
 
-.document-view {
+/* ---------------- Focus visibility (accessibility) ---------------- */
 
-    height: 700px;
-
-    overflow-y: auto;
-
-    background: #fafafa;
-
-    border: 1px solid #dcdcdc;
-
-    border-radius: 10px;
-
-    padding: 20px;
-
-    line-height: 1.8;
-
-    white-space: pre-wrap;
-
-    font-family: "Segoe UI", sans-serif;
-
-    font-size: 15px;
-
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .08);
-
+a:focus-visible,
+button:focus-visible,
+.nav-link:focus-visible,
+.form-control:focus-visible {
+    outline: 3px solid var(--hau-gold);
+    outline-offset: 2px;
 }
 
-.sentence-highlight {
-
-    background: #ffe082;
-
-    color: #000;
-
-    font-weight: 600;
-
-    padding: 2px 3px;
-
-    border-radius: 4px;
-
+/* ---------------- Utility classes ---------------- */
+.bg-maroon {
+    background-color: var(--hau-maroon) !important;
 }
 
-mark {
-
-    background: #ffd43b;
-
+.text-maroon {
+    color: var(--hau-maroon) !important;
 }
