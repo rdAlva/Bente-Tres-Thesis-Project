@@ -1,8 +1,16 @@
 import re
+from collections import defaultdict, deque
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from app.nlp.ngrams import generate_ngrams
 import html
+import nltk
+from nltk.tokenize import sent_tokenize
+
+try:
+    nltk.data.find("tokenizers/punkt")
+except LookupError:
+    nltk.download("punkt", quiet=True)
 
 def compute_similarity(tfidf_matrix):
     return cosine_similarity(tfidf_matrix)
@@ -98,67 +106,198 @@ def highlight_common_words(sentence1, sentence2):
         " ".join(highlighted2),
     )
 
+def _normalize_text(document):
+    document = document.replace('\r\n', '\n').replace('\r', '\n')
+    return document.strip()
+
+
+def _is_list_line(line):
+    return bool(re.match(r'^\s*([*•\u2022\-–—]|\d+[\.)]|[a-zA-Z][\.)])\s+', line))
+
+
+def _is_table_block(lines):
+    if len(lines) < 2:
+        return False
+
+    pipe_like = any('|' in line for line in lines)
+    tab_like = any('\t' in line for line in lines)
+    space_aligned = sum(1 for line in lines if re.search(r' {3,}', line)) >= 2
+    return pipe_like or tab_like or space_aligned
+
+
+def _collapse_paragraph_lines(lines):
+    collapsed = []
+
+    for line in lines:
+        stripped = line.strip()
+        if not stripped:
+            continue
+
+        if collapsed and collapsed[-1].endswith('-'):
+            collapsed[-1] = collapsed[-1][:-1] + stripped.lstrip()
+        else:
+            collapsed.append(stripped)
+
+    return ' '.join(collapsed)
+
+
+def _normalize_match_text(text):
+    return re.sub(r'\s+', ' ', text.strip()).lower()
+
+
+def _normalize_text_with_index(text):
+    normalized_chars = []
+    index_map = []
+    in_space = False
+
+    for index, char in enumerate(text):
+        if char.isspace():
+            if not in_space:
+                normalized_chars.append(' ')
+                index_map.append(index)
+                in_space = True
+        else:
+            normalized_chars.append(char.lower())
+            index_map.append(index)
+            in_space = False
+
+    # Trim leading and trailing normalized spaces to match _normalize_match_text
+    if normalized_chars and normalized_chars[0] == ' ':
+        normalized_chars.pop(0)
+        index_map.pop(0)
+
+    if normalized_chars and normalized_chars[-1] == ' ':
+        normalized_chars.pop()
+        index_map.pop()
+
+    return ''.join(normalized_chars), index_map
+
+
+def _build_match_id_map(matched_sentences):
+    match_ids = defaultdict(deque)
+
+    for idx, sentence in enumerate(matched_sentences):
+        normalized = _normalize_match_text(sentence)
+        if normalized:
+            match_ids[normalized].append(str(idx))
+
+    return match_ids
+
+
+def _find_next_match(block_norm, match_ids, start_pos):
+    best_key = None
+    best_pos = len(block_norm) + 1
+
+    for key, queue in match_ids.items():
+        if not queue:
+            continue
+
+        idx = block_norm.find(key, start_pos)
+        if idx == -1:
+            continue
+
+        if idx < best_pos or (idx == best_pos and len(key) > len(best_key or '')):
+            best_pos = idx
+            best_key = key
+
+    return best_key, best_pos if best_key is not None else -1
+
+
+def _highlight_text_block(text, match_ids):
+    block_norm, index_map = _normalize_text_with_index(text)
+
+    if not block_norm or not any(match_ids.values()):
+        return html.escape(text)
+
+    highlights = []
+    search_pos = 0
+
+    while True:
+        match_key, start = _find_next_match(block_norm, match_ids, search_pos)
+        if match_key is None:
+            break
+
+        end = start + len(match_key)
+        orig_start = index_map[start]
+        orig_end = index_map[end - 1] + 1
+        match_id = match_ids[match_key].popleft()
+        highlights.append((orig_start, orig_end, match_id))
+        search_pos = end
+
+    if not highlights:
+        return html.escape(text)
+
+    html_output = []
+    last = 0
+
+    for orig_start, orig_end, match_id in sorted(highlights, key=lambda x: x[0]):
+        html_output.append(html.escape(text[last:orig_start]))
+        html_output.append(
+            f'<mark class="match-prose" data-match-id="{match_id}">{html.escape(text[orig_start:orig_end])}</mark>'
+        )
+        last = orig_end
+
+    html_output.append(html.escape(text[last:]))
+    return ''.join(html_output)
+
+
+def _split_document_blocks(document):
+    normalized = _normalize_text(document)
+    raw_blocks = re.split(r'\n\s*\n+', normalized)
+    blocks = []
+
+    for raw_block in raw_blocks:
+        lines = raw_block.split('\n')
+        cleaned_lines = [line.rstrip() for line in lines if line.strip()]
+        if not cleaned_lines:
+            continue
+
+        if _is_table_block(cleaned_lines):
+            blocks.append(('table', '\n'.join(cleaned_lines)))
+        elif any(_is_list_line(line) for line in cleaned_lines):
+            blocks.append(('list', '\n'.join(cleaned_lines)))
+        else:
+            blocks.append(('paragraph', _collapse_paragraph_lines(cleaned_lines)))
+
+    return blocks
+
+
 def highlight_document(document, matched_sentences):
     """
     Highlights only matched sentences while preserving
     the original document formatting.
     """
 
-    matched = {
-        sentence.strip().lower()
-        for sentence in matched_sentences
-    }
-
-    # Split while keeping punctuation
-    parts = re.split(r'([.!?]+)', document)
-
+    match_ids = _build_match_id_map(matched_sentences)
+    blocks = _split_document_blocks(document)
     html_output = []
 
-    i = 0
+    for block_type, block_text in blocks:
+        block_html = _highlight_text_block(block_text, match_ids)
 
-    while i < len(parts):
-
-        sentence = parts[i]
-
-        punctuation = ""
-
-        if i + 1 < len(parts):
-
-            punctuation = parts[i + 1]
-
-        full_sentence = sentence + punctuation
-
-        normalized = sentence.strip().lower()
-
-        escaped = html.escape(full_sentence)
-
-        if normalized in matched:
-
-            html_output.append(
-
-                f'<mark class="sentence-highlight">{escaped}</mark>'
-
-            )
-
+        if block_type == 'paragraph':
+            html_output.append(f'<p class="doc-paragraph">{block_html}</p>')
+        elif block_type == 'list':
+            html_output.append('<div class="doc-list">' + block_html.replace('\n', '<br>') + '</div>')
+        elif block_type == 'table':
+            escaped_table = block_html.replace('\n', '<br>')
+            html_output.append(f'<div class="doc-table">{escaped_table}</div>')
         else:
+            html_output.append(block_html)
 
-            html_output.append(escaped)
-
-        i += 2
-
-    return "".join(html_output).replace("\n", "<br>")
+    return ''.join(html_output)
 
 def get_similar_sentences(doc1, doc2, threshold):
 
     sentences1 = [
         s.strip()
-        for s in re.split(r'[.!?]+', doc1)
+        for s in sent_tokenize(doc1)
         if s.strip()
     ]
 
     sentences2 = [
         s.strip()
-        for s in re.split(r'[.!?]+', doc2)
+        for s in sent_tokenize(doc2)
         if s.strip()
     ]
 
@@ -168,11 +307,6 @@ def get_similar_sentences(doc1, doc2, threshold):
     try:
 
         vectorizer = TfidfVectorizer()
-
-        # OPTIMIZATION FIX
-        # all_sentences = sentences1 + sentences2
-        # tfidf = vectorizer.fit_transform(all_sentences)
-        # cosine_matrix = cosine_similarity(tfidf)
 
         tfidf1 = vectorizer.fit_transform(sentences1)
         tfidf2 = vectorizer.transform(sentences2)
@@ -185,30 +319,64 @@ def get_similar_sentences(doc1, doc2, threshold):
     matches = []
 
 
+    # Build every possible candidate
+    candidates = []
     for i, sentence1 in enumerate(sentences1):
         for j, sentence2 in enumerate(sentences2):
 
             score = float(cosine_matrix[i][j])
 
             if score >= threshold:
+                candidates.append(
+                    (score, i, j, sentence1, sentence2)
+                )
 
-                highlight1, highlight2 = highlight_common_words(
+    best_doc1 = {}
+    best_doc2 = {}
+
+    for score, i, j, sentence1, sentence2 in candidates:
+
+        if i not in best_doc1 or score > best_doc1[i][0]:
+            best_doc1[i] = (
+                score,
+                j,
                 sentence1,
                 sentence2
             )
 
-                matches.append({
+        if j not in best_doc2 or score > best_doc2[j][0]:
+            best_doc2[j] = (
+                score,
+                i,
+                sentence1,
+                sentence2
+            )
 
-                    "sentence1": sentence1,
-                    "sentence2": sentence2,
+    for i, (score, j, sentence1, sentence2) in best_doc1.items():
 
-                    "sentence1_html": highlight1,
-                    "sentence2_html": highlight2,
+        # Is sentence i also the favorite match of sentence j?
+        if j not in best_doc2:
+            continue
 
-                    "score": round(float(score),4)
+        if best_doc2[j][1] != i:
+            continue
 
-            })
+        highlight1, highlight2 = highlight_common_words(
+            sentence1,
+            sentence2
+        )
 
+        matches.append({
+
+            "sentence1": sentence1,
+            "sentence2": sentence2,
+
+            "sentence1_html": highlight1,
+            "sentence2_html": highlight2,
+
+            "score": round(score, 4)
+
+        })
     matches.sort(
         key=lambda x: x["score"],
         reverse=True

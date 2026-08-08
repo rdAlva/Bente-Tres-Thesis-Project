@@ -2,6 +2,7 @@ from pathlib import Path
 import shutil
 
 from app.utils.pdf_extractor import extract_pdfs
+from app.nlp.preprocessing import preprocess_text
 
 # --------------------------------------------------
 # Paths
@@ -14,6 +15,7 @@ UPLOAD_TXT = SCRIPT_DIR.parent / "utils" / "txtFileUpload"
 
 PROMOTED_PDF = SCRIPT_DIR.parent.parent / "corpus" / "promoted"
 PROMOTED_TXT = SCRIPT_DIR.parent.parent / "corpus" / "promoted"
+PROCESSED_TXT = SCRIPT_DIR.parent.parent / "corpus" / "processed"
 
 
 def upload_repository():
@@ -32,6 +34,9 @@ def upload_repository():
     # Convert PDFs into TXT files
     extract_pdfs()
 
+    # Make sure processed corpus folder exists
+    PROCESSED_TXT.mkdir(parents=True, exist_ok=True)
+
     uploaded_files = []
 
     for txt_file in UPLOAD_TXT.glob("*.txt"):
@@ -42,14 +47,20 @@ def upload_repository():
 
         print(f"Adding {pdf_name} to repository...")
 
-        # Move TXT
+        # ----------------------------------------------
+        # Move original TXT into promoted repository
+        # ----------------------------------------------
+
+        promoted_txt_file = PROMOTED_TXT / txt_file.name
 
         shutil.move(
             str(txt_file),
-            str(PROMOTED_TXT / txt_file.name)
+            str(promoted_txt_file)
         )
 
-        # Move PDF
+        # ----------------------------------------------
+        # Move original PDF into promoted repository
+        # ----------------------------------------------
 
         if pdf_file.exists():
 
@@ -57,6 +68,19 @@ def upload_repository():
                 str(pdf_file),
                 str(PROMOTED_PDF / pdf_name)
             )
+
+        # ----------------------------------------------
+        # Preprocess trusted document ONCE
+        # ----------------------------------------------
+
+        processed_text = preprocess_text(promoted_txt_file)
+
+        processed_file = PROCESSED_TXT / txt_file.name
+
+        processed_file.write_text(
+            processed_text,
+            encoding="utf-8"
+        )
 
         uploaded_files.append(pdf_name)
 

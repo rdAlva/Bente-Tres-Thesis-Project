@@ -49,7 +49,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Initial state
         if (fileListContainer) fileListContainer.style.display = 'none';
-        uploadStatus.style.display = 'none';
+        uploadStatus.classList.add('d-none');
+        uploadStatus.hidden = true;
+        if (processingNote) {
+            processingNote.classList.add('d-none');
+            processingNote.hidden = true;
+        }
 
         fileInput.addEventListener('change', () => renderFileList(fileInput.files));
 
@@ -75,16 +80,24 @@ document.addEventListener('DOMContentLoaded', () => {
             uploadForm.addEventListener('submit', () => {
                 uploadButton.disabled = true;
                 uploadButton.value = 'Processing...';
-                uploadStatus.style.display = 'flex';
-                if (processingNote) processingNote.style.display = 'block';
+                uploadStatus.classList.remove('d-none');
+                uploadStatus.hidden = false;
+                if (processingNote) {
+                    processingNote.classList.remove('d-none');
+                    processingNote.hidden = false;
+                }
             });
         }
 
         window.addEventListener('pageshow', () => {
             uploadButton.disabled = false;
             uploadButton.value = 'Upload Files';
-            uploadStatus.style.display = 'none';
-            if (processingNote) processingNote.style.display = 'none';
+            uploadStatus.classList.add('d-none');
+            uploadStatus.hidden = true;
+            if (processingNote) {
+                processingNote.classList.add('d-none');
+                processingNote.hidden = true;
+            }
             if (fileInput.files.length === 0) renderFileList([]);
         });
     }

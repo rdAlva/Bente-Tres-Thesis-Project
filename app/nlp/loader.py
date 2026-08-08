@@ -1,3 +1,4 @@
+import time
 from pathlib import Path
 import logging
 
@@ -17,9 +18,11 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 
 directory_path = SCRIPT_DIR.parent / "utils" / "txtFileUpload"
 corpus_path = SCRIPT_DIR.parent.parent / "corpus" / "promoted"
+processed_corpus_path = SCRIPT_DIR.parent.parent / "corpus" / "processed"
 
 
 def load_corpus():
+    overall_start = time.perf_counter()
     """
     Ensures all uploaded PDFs are converted to text before loading the corpus.
 
@@ -33,7 +36,6 @@ def load_corpus():
     # --------------------------------------------------------------
     try:
         extract_pdfs()
-
     except FileNotFoundError:
         print("[ERROR] PDF source folder was not found.")
         logging.exception("PDF source folder not found.")
@@ -59,20 +61,31 @@ def load_corpus():
     uploaded_original = []
     promoted_original = []
 
+    uploaded_read_time = 0
+    uploaded_preprocess_time = 0
+
+    repo_read_time = 0
+
     # --------------------------------------------------------------
     # Load TXT files from upload folder and promoted corpus
     # --------------------------------------------------------------
     if not directory_path.exists():
         print(f"[WARNING] Upload folder not found: {directory_path}")
+    upload_start = time.perf_counter()
     for txt_file in sorted(directory_path.glob("*.txt")):
         try:
-
+            read_start = time.perf_counter()
             original_text = txt_file.read_text(
                 encoding="utf-8",
                 errors="ignore"
             )
+            uploaded_read_time += time.perf_counter() - read_start
 
+            preprocess_start = time.perf_counter()
             processed_text = preprocess_text(txt_file)
+            uploaded_preprocess_time += (
+                time.perf_counter() - preprocess_start
+            )
 
             if not processed_text.strip():
                 continue
@@ -84,19 +97,52 @@ def load_corpus():
         except Exception as e:
             print(f"[ERROR] Failed to process {txt_file.name}: {e}")
             logging.exception(e)
+    upload_time = time.perf_counter() - upload_start
 
     if not corpus_path.exists():
         print(f"[WARNING] Repository folder not found: {corpus_path}")
+
+    if not processed_corpus_path.exists():
+        print(
+            f"[WARNING] Processed repository folder not found: "
+            f"{processed_corpus_path}"
+        )
+
+    repo_start = time.perf_counter()
+
     for txt_file in sorted(corpus_path.glob("*.txt")):
 
         try:
+            # ----------------------------------------------------------
+            # Load original repository text
+            # Used for review/highlighting/display
+            # ----------------------------------------------------------
+            read_start = time.perf_counter()
 
             original_text = txt_file.read_text(
                 encoding="utf-8",
                 errors="ignore"
             )
 
-            processed_text = preprocess_text(txt_file)
+            repo_read_time += time.perf_counter() - read_start
+
+            # ----------------------------------------------------------
+            # Load already-processed repository text
+            # DO NOT preprocess again
+            # ----------------------------------------------------------
+            processed_file = processed_corpus_path / txt_file.name
+
+            if not processed_file.exists():
+                print(
+                    f"[WARNING] Processed file missing for "
+                    f"{txt_file.name}: {processed_file}"
+                )
+                continue
+
+            processed_text = processed_file.read_text(
+                encoding="utf-8",
+                errors="ignore"
+            )
 
             if not processed_text.strip():
                 continue
@@ -106,8 +152,31 @@ def load_corpus():
             promoted_filenames.append(txt_file.name)
 
         except Exception as e:
-            print(f"[ERROR] Failed to process {txt_file.name}: {e}")
+            print(f"[ERROR] Failed to load {txt_file.name}: {e}")
             logging.exception(e)
+
+    repo_time = time.perf_counter() - repo_start
+    overall_time = time.perf_counter() - overall_start
+
+    # FOR DEBUGGING PURPOSES, PRINT THE LOADING TIMES AND COUNTS
+    # print("\n========== Corpus Loading Breakdown ==========")
+
+    # print(f"Uploaded Files        : {len(uploaded_filenames)}")
+    # print(f"Uploaded Read         : {uploaded_read_time:.3f} sec")
+    # print(f"Uploaded Preprocess   : {uploaded_preprocess_time:.3f} sec")
+    # print(f"Uploaded Total        : {upload_time:.3f} sec")
+
+    # print()
+
+    # print(f"Repository Files      : {len(promoted_filenames)}")
+    # print(f"Repository Read       : {repo_read_time:.3f} sec")
+    # print(f"Repository Total      : {repo_time:.3f} sec")
+
+    # print()
+
+    # print(f"Overall Loading Time  : {overall_time:.3f} sec")
+
+    # print("==============================================\n")
 
     return (
         uploaded_filenames,

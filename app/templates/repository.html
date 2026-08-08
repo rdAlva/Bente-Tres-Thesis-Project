@@ -12,6 +12,40 @@
         outline: 2px solid var(--hau-gold);
         outline-offset: 2px;
     }
+
+    .collapse-content {
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: max-height 0.25s ease, opacity 0.25s ease;
+    }
+
+    .collapse-content.expanded {
+        max-height: 9999px;
+        opacity: 1;
+    }
+
+    #repositoryToggle {
+        color: #fff;
+        font-weight: 600;
+    }
+
+    #repositoryToggle:hover,
+    #repositoryToggle:focus {
+        color: var(--hau-gold);
+        text-decoration: none;
+    }
+
+    .repository-table {
+        table-layout: fixed;
+        width: 100%;
+    }
+
+    .repository-table .repository-file {
+        min-width: 0;
+        white-space: normal;
+        word-break: break-word;
+    }
 </style>
 {% endblock %}
 
@@ -83,8 +117,8 @@
 
                 <!-- Loading state -->
                 <div id="uploadStatus"
-                     class="text-center text-muted d-flex align-items-center justify-content-center gap-2"
-                     role="status" aria-live="polite" style="display:none;">
+                     class="text-center text-muted d-flex align-items-center justify-content-center gap-2 d-none"
+                     role="status" aria-live="polite" hidden>
                     <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
                     <span>Adding to repository...</span>
                 </div>
@@ -113,46 +147,54 @@
 <!-- ===== REPOSITORY DOCUMENT LIST ===== -->
 <div class="card shadow mt-4">
     <div class="card-header d-flex justify-content-between align-items-center">
-        <h2 class="h5 mb-0">Repository Documents</h2>
+        <button type="button" id="repositoryToggle"
+                class="btn btn-link text-decoration-none text-start p-0 d-flex align-items-center gap-2"
+                aria-expanded="false"
+                aria-controls="repositoryList">
+            <span id="repositoryToggleLabel">Show Repository Documents</span>
+            <i id="repositoryToggleIcon" class="bi bi-chevron-down"></i>
+        </button>
         <span class="badge badge-gold">{{ repository_files|default([])|length }} documents</span>
     </div>
-    <div class="card-body p-0">
-        {% set repository_files = repository_files|default([]) %}
-        {% if repository_files %}
-            <div class="table-responsive">
-                <table class="table table-hover align-middle mb-0">
-                    <caption class="visually-hidden">List of documents in the Golden Standard Repository</caption>
-                    <thead>
-                        <tr>
-                            <th scope="col">Document</th>
-                            <th scope="col">Added</th>
-                            <th scope="col"><span class="visually-hidden">Actions</span></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {% for file in repository_files %}
-                        <tr>
-                            <td>
-                                <i class="bi bi-file-earmark-pdf text-muted me-1"></i>
-                                {{ file.filename }}
-                            </td>
-                            <td class="text-muted small">{{ file.date_added|default("Unknown") }}</td>
-                            <td class="text-end">
-                                <button class="btn btn-sm btn-outline-danger" title="Remove from repository">
-                                    <i class="bi bi-trash"></i> Remove
-                                </button>
-                            </td>
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
-            </div>
-        {% else %}
-            <div class="p-5 text-center text-muted">
-                <i class="bi bi-folder2-open fs-2 d-block mb-2"></i>
-                No documents in the repository yet. Upload verified PDFs above to get started.
-            </div>
-        {% endif %}
+    <div id="repositoryList" class="collapse-content">
+        <div class="card-body p-0">
+            {% set repository_files = repository_files|default([]) %}
+            {% if repository_files %}
+                <div class="table-responsive repository-list-table">
+                    <table class="table table-hover align-middle mb-0 repository-table">
+                        <caption class="visually-hidden">List of documents in the Golden Standard Repository</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Document</th>
+                                <th scope="col">Added</th>
+                                <th scope="col"><span class="visually-hidden">Actions</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for file in repository_files %}
+                            <tr>
+                                <td class="repository-file">
+                                    <i class="bi bi-file-earmark-pdf text-muted me-1"></i>
+                                    {{ file.filename }}
+                                </td>
+                                <td class="text-muted small">{{ file.date_added|default("Unknown") }}</td>
+                                <td class="text-end">
+                                    <button class="btn btn-sm btn-outline-danger" title="Remove from repository">
+                                        <i class="bi bi-trash"></i> Remove
+                                    </button>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            {% else %}
+                <div class="p-5 text-center text-muted">
+                    <i class="bi bi-folder2-open fs-2 d-block mb-2"></i>
+                    No documents in the repository yet. Upload verified PDFs above to get started.
+                </div>
+            {% endif %}
+        </div>
     </div>
 </div>
 
@@ -168,6 +210,10 @@
     const fileListContainer = document.getElementById("selectedFilesContainer");
     const uploadButton = document.getElementById("uploadButton");
     const uploadStatus = document.getElementById("uploadStatus");
+    const repositoryToggle = document.getElementById("repositoryToggle");
+    const repositoryList = document.getElementById("repositoryList");
+    const repositoryToggleLabel = document.getElementById("repositoryToggleLabel");
+    const repositoryToggleIcon = document.getElementById("repositoryToggleIcon");
     const form = document.querySelector("form");
 
     function formatSize(bytes) {
@@ -203,7 +249,14 @@
 
     // Initial state
     if (fileListContainer) fileListContainer.style.display = "none";
-    uploadStatus.style.display = "none";
+    if (uploadStatus) {
+        uploadStatus.classList.add('d-none');
+        uploadStatus.hidden = true;
+    }
+    if (repositoryList) {
+        repositoryList.classList.remove('expanded');
+        repositoryList.style.display = 'block';
+    }
 
     fileInput.addEventListener("change", () => renderFileList(fileInput.files));
 
@@ -227,16 +280,32 @@
     form.addEventListener("submit", () => {
         uploadButton.disabled = true;
         uploadButton.value = "Adding...";
-        uploadStatus.style.display = "flex";
+        if (uploadStatus) {
+            uploadStatus.classList.remove('d-none');
+            uploadStatus.hidden = false;
+        }
     });
 
     // Reset on back navigation
     window.addEventListener("pageshow", () => {
         uploadButton.disabled = false;
         uploadButton.value = "Add to Repository";
-        uploadStatus.style.display = "none";
+        if (uploadStatus) {
+            uploadStatus.classList.add('d-none');
+            uploadStatus.hidden = true;
+        }
         if (fileInput && fileInput.files.length === 0) renderFileList([]);
     });
+
+    if (repositoryToggle && repositoryList) {
+        repositoryToggle.addEventListener('click', () => {
+            const expanded = repositoryToggle.getAttribute('aria-expanded') === 'true';
+            repositoryToggle.setAttribute('aria-expanded', String(!expanded));
+            repositoryToggleLabel.textContent = expanded ? 'Show Repository Documents' : 'Hide Repository Documents';
+            repositoryToggleIcon.className = expanded ? 'bi bi-chevron-down' : 'bi bi-chevron-up';
+            repositoryList.classList.toggle('expanded');
+        });
+    }
 })();
 </script>
 {% endblock %}

@@ -17,6 +17,7 @@ from wtforms.validators import InputRequired
 from app.services.detector import run_detection
 from app.services.review import load_review_report
 from app.services.repository import upload_repository
+from app.nlp.preprocessing import preprocess_text
 
 app = Flask(
     __name__,
@@ -46,6 +47,24 @@ TXT_UPLOAD_FOLDER = (
     Path(__file__).resolve().parent.parent
     / "utils"
     / "txtFileUpload"
+)
+
+REVIEW_FOLDER = (
+    Path(__file__).resolve().parent.parent.parent
+    / "corpus"
+    / "review"
+)
+
+PROMOTED_FOLDER = (
+    Path(__file__).resolve().parent.parent.parent
+    / "corpus"
+    / "promoted"
+)
+
+PROCESSED_FOLDER = (
+    Path(__file__).resolve().parent.parent.parent
+    / "corpus"
+    / "processed"
 )
 
 logger.info("Flask app created.")
@@ -159,8 +178,11 @@ def home():
             file.save(save_path)
             logger.info("Saved: %s -> %s", filename, save_path)
 
+        threshold = float(request.form.get("threshold", 0.30))
+        logger.info("Selected threshold: %.2f", threshold)
+
         try:
-            results = run_detection()
+            results = run_detection(threshold)
         except Exception:
             logger.exception("run_detection() failed")
             return render_template(
@@ -240,6 +262,127 @@ def review(filename):
     report = load_review_report(filename)
     return render_template("review.html", review=report)
 
+@app.route("/review/<filename>/dismiss", methods=["POST"])
+@login_required
+def dismiss_flag(filename):
+    txt_source = REVIEW_FOLDER / filename
+    txt_destination = PROMOTED_FOLDER / filename
+    pdf_name = Path(filename).stem + ".pdf"
+    pdf_source = REVIEW_FOLDER / pdf_name
+    pdf_destination = PROMOTED_FOLDER / pdf_name
+    moved_successfully = False
+
+    try:
+        # ----------------------------------------------
+        # Move TXT from review -> promoted
+        # ----------------------------------------------
+        if txt_source.exists():
+
+            shutil.move(
+                str(txt_source),
+                str(txt_destination)
+            )
+
+            print(f"Promoted TXT: {filename}")
+
+            # ------------------------------------------
+            # Create persistent processed copy
+            # ------------------------------------------
+
+            PROCESSED_FOLDER.mkdir(
+                parents=True,
+                exist_ok=True
+            )
+
+            processed_text = preprocess_text(
+                txt_destination
+            )
+
+            processed_file = PROCESSED_FOLDER / filename
+
+            processed_file.write_text(
+                processed_text,
+                encoding="utf-8"
+            )
+
+            print(f"Processed TXT: {filename}")
+
+        # ----------------------------------------------
+        # Move PDF from review -> promoted
+        # ----------------------------------------------
+
+        if pdf_source.exists():
+            shutil.move(
+                str(pdf_source),
+                str(pdf_destination)
+            )
+            print(f"Promoted PDF: {pdf_name}")
+
+        moved_successfully = True
+        flash(
+            "Document promoted to repository.",
+            "success"
+        )
+
+    except Exception as e:
+        logger.exception(e)
+        flash(
+            "Unable to move the document.",
+            "danger"
+        )
+
+    # ----------------------------------------------
+    # Remove promoted document from current results
+    # ----------------------------------------------
+
+    if moved_successfully:
+        sid = get_session_id()
+        if sid in RESULTS_STORE:
+            session_results = RESULTS_STORE[sid]
+            session_results["uploaded_files"] = [
+                f
+                for f in session_results["uploaded_files"]
+                if f != filename
+            ]
+
+            session_results["results"] = [
+                r
+                for r in session_results["results"]
+                if r["uploaded_filename"] != filename
+            ]
+
+            session_results["total_uploaded"] = len(
+                session_results["uploaded_files"]
+            )
+    return redirect(url_for("results"))
+
+@app.route("/review/<filename>/confirm", methods=["POST"])
+@login_required
+def confirm_flag(filename):
+    """
+    Instructor confirmed plagiarism.
+    Leave files in corpus/review.
+    """
+
+    flash("Document confirmed as flagged.", "warning")
+    sid = get_session_id()
+    if sid in RESULTS_STORE:
+
+        session_results = RESULTS_STORE[sid]
+
+        session_results["uploaded_files"] = [
+            f for f in session_results["uploaded_files"]
+            if f != filename
+        ]
+
+        session_results["results"] = [
+            r for r in session_results["results"]
+            if r["uploaded_filename"] != filename
+        ]
+
+        session_results["total_uploaded"] = len(session_results["uploaded_files"])
+    return redirect(url_for("results"))
+
 
 @app.route("/results")
 @login_required
@@ -269,43 +412,50 @@ def repository():
             logger.info("Repository upload: %s", filename)
 
         uploaded_files = upload_repository()
-        # After a successful upload, we still need to pass the current repository list
-        # so the page shows the newly added files.
-        # We'll fetch the repository files from the promoted folder.
-        base_dir = Path(__file__).resolve().parent.parent.parent
-        corpus_promoted = base_dir / "corpus" / "promoted"
-        repo_files = []
-        if corpus_promoted.exists():
-            for f in corpus_promoted.iterdir():
-                if f.is_file():
-                    repo_files.append({
-                        "filename": f.name,
-                        "date_added": f.stat().st_mtime,   # you may format this in the template
-                    })
+        # After a successful upload, pass the current repository list so the page
+        # shows the newly added files with the same authoritative count as results.
+        repository_files = _load_repository_files()
         return render_template(
             "repository.html",
             form=form,
             uploaded_files=uploaded_files,
-            repository_files=repo_files
+            repository_files=repository_files
         )
 
     # GET request: show the current repository list
-    base_dir = Path(__file__).resolve().parent.parent.parent
-    corpus_promoted = base_dir / "corpus" / "promoted"
-    repo_files = []
-    if corpus_promoted.exists():
-        for f in corpus_promoted.iterdir():
-            if f.is_file():
-                repo_files.append({
-                    "filename": f.name,
-                    "date_added": f.stat().st_mtime,
-                })
+    repository_files = _load_repository_files()
     return render_template(
         "repository.html",
         form=form,
         uploaded_files=[],
-        repository_files=repo_files
+        repository_files=repository_files
     )
+
+
+def _load_repository_files():
+    base_dir = Path(__file__).resolve().parent.parent.parent
+    corpus_promoted = base_dir / "corpus" / "promoted"
+    repository_files = {}
+
+    if corpus_promoted.exists():
+        for f in sorted(corpus_promoted.iterdir(), key=lambda p: p.name.lower()):
+            if not f.is_file():
+                continue
+
+            stem = f.stem
+            current = repository_files.get(stem)
+            if current is None:
+                repository_files[stem] = f
+            elif current.suffix.lower() == ".txt" and f.suffix.lower() == ".pdf":
+                repository_files[stem] = f
+
+    return [
+        {
+            "filename": file.name,
+            "date_added": file.stat().st_mtime,
+        }
+        for file in sorted(repository_files.values(), key=lambda p: p.name.lower())
+    ]
 
 
 # ============================================================

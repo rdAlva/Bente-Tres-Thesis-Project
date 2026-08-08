@@ -8,8 +8,23 @@
         word-break: break-word;
         max-width: 300px;
     }
+
     .progress-bar-min {
         min-width: 4px;
+    }
+
+    .btn-outline-gold {
+        color: var(--hau-gold);
+        background-color: rgba(197, 160, 40, 0.14);
+        border-color: rgba(197, 160, 40, 0.5);
+        font-weight: 600;
+    }
+
+    .btn-outline-gold:hover,
+    .btn-outline-gold:focus {
+        background-color: var(--hau-gold-light);
+        color: var(--hau-maroon-dark);
+        border-color: var(--hau-gold);
     }
 </style>
 {% endblock %}
@@ -21,261 +36,270 @@
     <p class="lead">
         Analysis completed.
         {% if results %}
-            <span class="badge badge-gold ms-2">{{ results|length }} file{{ 's' if results|length != 1 else '' }} analysed</span>
+        <span class="badge badge-gold ms-2">{{ results|length }} file{{ 's' if results|length != 1 else '' }}
+            analyzed</span>
         {% endif %}
     </p>
 </div>
 
 {% if not results %}
-    <div class="text-center py-5">
-        <i class="bi bi-inbox fs-1 text-muted d-block mb-3"></i>
-        <p class="text-muted">No detection results available.</p>
-        <a href="{{ url_for('home') }}" class="btn btn-primary">Upload Documents</a>
-    </div>
+<div class="text-center py-5">
+    <i class="bi bi-inbox fs-1 text-muted d-block mb-3"></i>
+    <p class="text-muted">No detection results available.</p>
+    <a href="{{ url_for('home') }}" class="btn btn-primary">Upload Documents</a>
+</div>
 {% else %}
-    <!-- ===== RESTORED SUMMARY CARDS ===== -->
-    <div class="row g-3 mb-5">
-        <div class="col-6 col-md-3">
-            <div class="card stat-card h-100">
-                <div class="card-body">
-                    <div class="stat-icon"><i class="bi bi-file-earmark-arrow-up"></i></div>
-                    <h3 class="stat-value">{{ total_uploaded }}</h3>
-                    <div class="stat-label">Uploaded Files</div>
-                </div>
-            </div>
-        </div>
-        <div class="col-6 col-md-3">
-            <div class="card stat-card h-100">
-                <div class="card-body">
-                    <div class="stat-icon"><i class="bi bi-collection"></i></div>
-                    <h3 class="stat-value">{{ total_repository }}</h3>
-                    <div class="stat-label">Repository Docs</div>
-                </div>
+<!-- ===== RESTORED SUMMARY CARDS ===== -->
+<div class="row g-3 mb-5">
+    <div class="col-6 col-md-3">
+        <div class="card stat-card h-100">
+            <div class="card-body">
+                <div class="stat-icon"><i class="bi bi-file-earmark-arrow-up"></i></div>
+                <h3 class="stat-value">{{ total_uploaded }}</h3>
+                <div class="stat-label">Uploaded Files</div>
             </div>
         </div>
     </div>
-
-    {% for result in results %}
-    <div class="card shadow mb-5">
-        <!-- ===== VERDICT BANNER (top of each file) ===== -->
-        {% set top_pair = result.all_pairs[0] if result.all_pairs else None %}
-        <div class="card-header d-flex flex-wrap justify-content-between align-items-center
-                    {{ 'bg-danger text-white' if result.flagged else 'bg-success text-white' }}">
-            <div>
-                <h2 class="h5 mb-1">
-                    {{ result.uploaded_filename }}
-                </h2>
-                <p class="mb-0 small opacity-75">
-                    {% if result.flagged %}
-                        <i class="bi bi-exclamation-triangle-fill me-1"></i>
-                        <strong>Flagged</strong> — highest match {{ "%.1f"|format(top_pair.combined_score * 100) }}% with {{ top_pair.doc2.replace('.txt','') }}
-                    {% else %}
-                        <i class="bi bi-check-circle-fill me-1"></i>
-                        Clear — highest similarity {{ "%.1f"|format(top_pair.combined_score * 100) }}% (below threshold)
-                    {% endif %}
-                </p>
+    <div class="col-6 col-md-3">
+        <div class="card stat-card h-100">
+            <div class="card-body">
+                <div class="stat-icon"><i class="bi bi-collection"></i></div>
+                <h3 class="stat-value">{{ total_repository }}</h3>
+                <div class="stat-label">Repository Docs</div>
             </div>
-            {% if result.flagged %}
-                <a href="{{ url_for('review', filename=result.uploaded_filename) }}"
-                   class="btn btn-light btn-sm mt-2 mt-md-0">
-                    <i class="bi bi-search"></i> Review Document
-                </a>
-            {% endif %}
+        </div>
+    </div>
+</div>
+
+{% for result in results %}
+<div class="card shadow mb-5">
+    <!-- ===== VERDICT BANNER (top of each file) ===== -->
+    {% set top_pair = result.all_pairs[0] if result.all_pairs else None %}
+    <div class="card-header d-flex flex-wrap justify-content-between align-items-center
+                    {{ 'bg-danger text-white' if result.flagged else 'bg-success text-white' }}">
+        <div>
+            <h2 class="h5 mb-1">
+                {{ result.uploaded_filename }}
+            </h2>
+            <p class="mb-0 small opacity-75">
+                {% if result.flagged %}
+                <i class="bi bi-exclamation-triangle-fill me-1"></i>
+                <strong>Flagged</strong> — highest match {{ "%.1f"|format(top_pair.combined_score * 100) }}% with {{
+                top_pair.doc2.replace('.txt','') }}
+                {% else %}
+                <i class="bi bi-check-circle-fill me-1"></i>
+                Clear — highest similarity {{ "%.1f"|format(top_pair.combined_score * 100) }}% (below threshold)
+                {% endif %}
+            </p>
+        </div>
+        {% if result.flagged %}
+        <a href="{{ url_for('review', filename=result.uploaded_filename) }}" class="btn btn-light btn-sm mt-2 mt-md-0">
+            <i class="bi bi-search"></i> Review Document
+        </a>
+        {% endif %}
+    </div>
+
+    <div class="card-body">
+        {% if result.all_pairs %}
+        <div class="d-flex flex-wrap justify-content-between align-items-center mb-3 gap-2">
+            <h3 class="h6 mb-0">All Matches ({{ result.all_pairs|length }})</h3>
+            <div class="d-flex gap-2 align-items-center">
+                <label for="thresholdFilter{{ loop.index }}" class="form-label small mb-0 text-nowrap">Show ≥</label>
+                <select id="thresholdFilter{{ loop.index }}" class="form-select form-select-sm w-auto threshold-filter"
+                    data-table="matchesTable{{ loop.index }}">
+                    <option value="similar" selected>Similar Documents</option>
+                    <option value="all">All Documents</option>
+                </select>
+                <input type="search" class="form-control form-control-sm w-auto table-search"
+                    placeholder="Search repo doc..." data-table="matchesTable{{ loop.index }}">
+            </div>
         </div>
 
-        <div class="card-body">
-            {% if result.all_pairs %}
-                <div class="d-flex flex-wrap justify-content-between align-items-center mb-3 gap-2">
-                    <h3 class="h6 mb-0">All Matches ({{ result.all_pairs|length }})</h3>
-                    <div class="d-flex gap-2 align-items-center">
-                        <label for="thresholdFilter{{ loop.index }}" class="form-label small mb-0 text-nowrap">Show ≥</label>
-                        <select id="thresholdFilter{{ loop.index }}" class="form-select form-select-sm w-auto threshold-filter" data-table="matchesTable{{ loop.index }}">
-                            <option value="0">All</option>
-                            <option value="25">≥ 25%</option>
-                            <option value="50" selected>≥ 50%</option>
-                            <option value="75">≥ 75%</option>
-                        </select>
-                        <input type="search" class="form-control form-control-sm w-auto table-search"
-                               placeholder="Search repo doc..." data-table="matchesTable{{ loop.index }}">
-                    </div>
-                </div>
-
-                <div class="table-responsive" tabindex="0" aria-label="Similarity matches table, scroll right for more columns" style="max-height: 500px; overflow-y: auto;">
-                    <table class="table table-hover align-middle mb-0" id="matchesTable{{ loop.index }}">
-                        <caption class="visually-hidden">Repository document matches for {{ result.uploaded_filename }}</caption>
-                        <thead class="table-light sticky-top">
-                            <tr>
-                                <th scope="col" data-sort="text" aria-sort="none" style="width:40%;">
-                                    <button type="button" class="sort-btn">Repository Document <i class="bi bi-arrow-down-up"></i></button>
-                                </th>
-                                <th scope="col" data-sort="numeric" aria-sort="none" style="min-width:140px;">
-                                    <button type="button" class="sort-btn">Similarity <i class="bi bi-arrow-down-up"></i></button>
-                                </th>
-                                <th scope="col" data-sort="text" aria-sort="none" class="text-center">
-                                    <button type="button" class="sort-btn">Decision <i class="bi bi-arrow-down-up"></i></button>
-                                </th>
-                                <th scope="col"><span class="visually-hidden">Actions</span></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {% for pair in result.all_pairs %}
-                            <tr data-percentage="{{ (pair.combined_score * 100)|round(1) }}" data-decision="{{ pair.decision }}">
-                                <td class="filename-cell" data-value="{{ pair.doc2 }}" title="{{ pair.doc2.replace('.txt','') }}">
-                                    <i class="bi bi-file-earmark-text text-muted me-1"></i>
-                                    {{ pair.doc2.replace('.txt','') | replace('_', ' ') }}
-                                </td>
-                                <td data-value="{{ (pair.combined_score * 100)|round(1) }}">
-                                    <div class="d-flex align-items-center gap-2">
-                                        <div class="progress flex-grow-1" role="progressbar"
-                                             aria-valuenow="{{ (pair.combined_score * 100)|round(1) }}"
-                                             aria-valuemin="0" aria-valuemax="100"
-                                             aria-label="Similarity {{ "%.2f"|format(pair.combined_score * 100) }}%">
-                                            <div class="progress-bar
+        <div class="table-responsive" tabindex="0" aria-label="Similarity matches table, scroll right for more columns"
+            style="max-height: 500px; overflow-y: auto;">
+            <table class="table table-hover align-middle mb-0" id="matchesTable{{ loop.index }}">
+                <caption class="visually-hidden">Repository document matches for {{ result.uploaded_filename }}
+                </caption>
+                <thead class="table-light sticky-top">
+                    <tr>
+                        <th scope="col" data-sort="text" aria-sort="none" style="width:40%;">
+                            <button type="button" class="sort-btn">Repository Document <i
+                                    class="bi bi-arrow-down-up"></i></button>
+                        </th>
+                        <th scope="col" data-sort="numeric" aria-sort="none" style="min-width:140px;">
+                            <button type="button" class="sort-btn">Similarity <i
+                                    class="bi bi-arrow-down-up"></i></button>
+                        </th>
+                        <th scope="col" data-sort="text" aria-sort="none" class="text-center">
+                            <button type="button" class="sort-btn">Decision <i class="bi bi-arrow-down-up"></i></button>
+                        </th>
+                        <th scope="col"><span class="visually-hidden">Actions</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for pair in result.all_pairs %}
+                    <tr data-percentage="{{ (pair.combined_score * 100)|round(1) }}" data-decision="{{ pair.decision }}"
+                        data-flagged="{{ 'true' if pair.flagged else 'false' }}">
+                        <td class="filename-cell" data-value="{{ pair.doc2 }}"
+                            title="{{ pair.doc2.replace('.txt','') }}">
+                            <i class="bi bi-file-earmark-text text-muted me-1"></i>
+                            {{ pair.doc2.replace('.txt','') | replace('_', ' ') }}
+                        </td>
+                        <td data-value="{{ (pair.combined_score * 100)|round(1) }}">
+                            <div class="d-flex align-items-center gap-2">
+                                <div class="progress flex-grow-1" role="progressbar"
+                                    aria-valuenow="{{ (pair.combined_score * 100)|round(1) }}" aria-valuemin="0"
+                                    aria-valuemax="100" aria-label="Similarity {{ " %.2f"|format(pair.combined_score *
+                                    100) }}%">
+                                    <div class="progress-bar
                                                 {{ 'progress-bar-high' if pair.combined_score >= 0.5
                                                    else ('progress-bar-medium' if pair.combined_score >= 0.25
                                                    else 'progress-bar-low') }}
                                                 progress-bar-min"
-                                                style="width: {{ (pair.combined_score * 100)|round(1) }}%;">
-                                            </div>
-                                        </div>
-                                        <span class="small text-muted">{{ "%.2f"|format(pair.combined_score * 100) }}%</span>
+                                        style="width: {{ (pair.combined_score * 100)|round(1) }}%;">
                                     </div>
-                                </td>
-                                <td data-value="{{ pair.decision }}" class="text-center">
-                                    <span class="badge status-pill
+                                </div>
+                                <span class="small text-muted">{{ "%.2f"|format(pair.combined_score * 100) }}%</span>
+                            </div>
+                        </td>
+                        <td data-value="{{ pair.decision }}" class="text-center">
+                            <span class="badge status-pill
                                         {{ 'status-flagged' if pair.decision == 'Flagged'
                                            else ('status-review' if pair.decision == 'Review'
                                            else 'status-clear') }}">
-                                        <i class="bi
+                                <i class="bi
                                             {{ 'bi-x-circle-fill' if pair.decision == 'Flagged'
                                                else ('bi-exclamation-circle-fill' if pair.decision == 'Review'
                                                else 'bi-check-circle-fill') }}"></i>
-                                        {{ pair.decision }}
-                                    </span>
-                                </td>
-                                <td class="text-end">
-                                    {% if pair.decision == 'Flagged' or pair.decision == 'Review' %}
-                                        <a href="{{ url_for('review', filename=result.uploaded_filename) }}"
-                                           class="btn btn-sm btn-outline-gold">
-                                            <i class="bi bi-search"></i> View Evidence
-                                        </a>
-                                    {% endif %}
-                                </td>
-                            </tr>
-                            {% endfor %}
-                        </tbody>
-                    </table>
-                </div>
-                <div class="no-results-message text-muted small mt-2" style="display:none;">
-                    No matches above the selected threshold.
-                </div>
-            {% else %}
-                <div class="alert alert-success">
-                    <i class="bi bi-check-circle-fill me-2"></i>
-                    No similar documents found.
-                </div>
-            {% endif %}
+                                {{ pair.decision }}
+                            </span>
+                        </td>
+                        <td class="text-end">
+                            {% if pair.decision == 'Flagged' or pair.decision == 'Review' %}
+                            <a href="{{ url_for('review', filename=result.uploaded_filename) }}"
+                                class="btn btn-sm btn-outline-gold">
+                                <i class="bi bi-search"></i> View Evidence
+                            </a>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
         </div>
+        <div class="no-results-message text-muted small mt-2" style="display:none;">
+            No matches above the selected threshold.
+        </div>
+        {% else %}
+        <div class="alert alert-success">
+            <i class="bi bi-check-circle-fill me-2"></i>
+            No similar documents found.
+        </div>
+        {% endif %}
     </div>
-    {% endfor %}
+</div>
+{% endfor %}
 
-    <div class="text-center mt-4">
-        <a href="{{ url_for('home') }}" class="btn btn-primary btn-lg">
-            <i class="bi bi-upload"></i> Upload Another Batch
-        </a>
-    </div>
+<div class="text-center mt-4">
+    <a href="{{ url_for('home') }}" class="btn btn-primary btn-lg">
+        <i class="bi bi-upload"></i> Upload Another Batch
+    </a>
+</div>
 {% endif %}
 
 {% endblock %}
 
 {% block scripts %}
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    // ----- Threshold filter + search for each table -----
-    document.querySelectorAll('.threshold-filter').forEach(function(select) {
-        const tableId = select.dataset.table;
-        const table = document.getElementById(tableId);
-        if (!table) return;
+    document.addEventListener('DOMContentLoaded', function () {
+        // ----- Threshold filter + search for each table -----
+        document.querySelectorAll('.threshold-filter').forEach(function (select) {
+            const tableId = select.dataset.table;
+            const table = document.getElementById(tableId);
+            if (!table) return;
 
-        const tbody = table.querySelector('tbody');
-        const rows = Array.from(tbody.querySelectorAll('tr'));
-        const searchInput = document.querySelector(`.table-search[data-table="${tableId}"]`);
-        const noResultsMsg = table.parentElement.nextElementSibling;
+            const tbody = table.querySelector('tbody');
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+            const searchInput = document.querySelector(`.table-search[data-table="${tableId}"]`);
+            const noResultsMsg = table.parentElement.nextElementSibling;
 
-        function applyFilters() {
-            const minPercent = parseFloat(select.value) || 0;
-            const query = (searchInput?.value || '').toLowerCase().trim();
-            let visibleCount = 0;
+            function applyFilters() {
+                const mode = select.value;
+                const query = (searchInput?.value || '').toLowerCase().trim();
+                let visibleCount = 0;
 
-            rows.forEach(function(row) {
-                const percent = parseFloat(row.dataset.percentage) || 0;
-                const docName = row.querySelector('td[data-value]')?.dataset.value?.toLowerCase() || '';
-                const matchesSearch = !query || docName.includes(query);
-                const meetsThreshold = percent >= minPercent;
-                const show = meetsThreshold && matchesSearch;
-
-                row.style.display = show ? '' : 'none';
-                if (show) visibleCount++;
-            });
-
-            if (noResultsMsg) {
-                noResultsMsg.style.display = visibleCount === 0 ? 'block' : 'none';
-            }
-        }
-
-        select.addEventListener('change', applyFilters);
-        if (searchInput) {
-            searchInput.addEventListener('input', applyFilters);
-        }
-
-        applyFilters();  // initial filter (≥ 50%)
-    });
-
-    // ----- Column sorting -----
-    document.querySelectorAll('table[id^="matchesTable"]').forEach(function(table) {
-        const tbody = table.querySelector('tbody');
-        if (!tbody) return;
-        const rows = Array.from(tbody.querySelectorAll('tr'));
-
-        table.querySelectorAll('th[data-sort]').forEach(function(th, index) {
-            const button = th.querySelector('.sort-btn');
-            if (!button) return;
-            const icon = button.querySelector('i');
-
-            button.addEventListener('click', function() {
-                const currentDir = th.getAttribute('aria-sort');
-                const nextDir = currentDir === 'ascending' ? 'descending' : 'ascending';
-
-                table.querySelectorAll('th[data-sort]').forEach(function(h) {
-                    h.setAttribute('aria-sort', 'none');
-                    const i = h.querySelector('.sort-btn i');
-                    if (i) i.className = 'bi bi-arrow-down-up';
-                });
-
-                th.setAttribute('aria-sort', nextDir);
-                if (icon) {
-                    icon.className = nextDir === 'ascending' ? 'bi bi-arrow-up' : 'bi bi-arrow-down';
-                }
-
-                const type = th.dataset.sort;
-                const sorted = rows.slice().sort(function(a, b) {
-                    let aVal, bVal;
-                    if (type === 'numeric') {
-                        aVal = parseFloat(a.children[index]?.dataset?.value) || 0;
-                        bVal = parseFloat(b.children[index]?.dataset?.value) || 0;
-                    } else {
-                        aVal = (a.children[index]?.dataset?.value || '').toLowerCase();
-                        bVal = (b.children[index]?.dataset?.value || '').toLowerCase();
+                rows.forEach(function (row) {
+                    const percent = parseFloat(row.dataset.percentage) || 0;
+                    const docName = row.querySelector('td[data-value]')?.dataset.value?.toLowerCase() || '';
+                    const matchesSearch = !query || docName.includes(query);
+                    let show = matchesSearch;
+                    if (mode === "similar") {
+                        show = matchesSearch &&
+                            row.dataset.flagged === "true";
                     }
-                    if (aVal < bVal) return -1 * (nextDir === 'ascending' ? 1 : -1);
-                    if (aVal > bVal) return 1 * (nextDir === 'ascending' ? 1 : -1);
-                    return 0;
+
+                    row.style.display = show ? '' : 'none';
+                    if (show) visibleCount++;
                 });
 
-                sorted.forEach(function(row) { tbody.appendChild(row); });
+                if (noResultsMsg) {
+                    noResultsMsg.style.display = visibleCount === 0 ? 'block' : 'none';
+                }
+            }
+
+            select.addEventListener('change', applyFilters);
+            if (searchInput) {
+                searchInput.addEventListener('input', applyFilters);
+            }
+
+            applyFilters();  // initial filter (≥ 50%)
+        });
+
+        // ----- Column sorting -----
+        document.querySelectorAll('table[id^="matchesTable"]').forEach(function (table) {
+            const tbody = table.querySelector('tbody');
+            if (!tbody) return;
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+
+            table.querySelectorAll('th[data-sort]').forEach(function (th, index) {
+                const button = th.querySelector('.sort-btn');
+                if (!button) return;
+                const icon = button.querySelector('i');
+
+                button.addEventListener('click', function () {
+                    const currentDir = th.getAttribute('aria-sort');
+                    const nextDir = currentDir === 'ascending' ? 'descending' : 'ascending';
+
+                    table.querySelectorAll('th[data-sort]').forEach(function (h) {
+                        h.setAttribute('aria-sort', 'none');
+                        const i = h.querySelector('.sort-btn i');
+                        if (i) i.className = 'bi bi-arrow-down-up';
+                    });
+
+                    th.setAttribute('aria-sort', nextDir);
+                    if (icon) {
+                        icon.className = nextDir === 'ascending' ? 'bi bi-arrow-up' : 'bi bi-arrow-down';
+                    }
+
+                    const type = th.dataset.sort;
+                    const sorted = rows.slice().sort(function (a, b) {
+                        let aVal, bVal;
+                        if (type === 'numeric') {
+                            aVal = parseFloat(a.children[index]?.dataset?.value) || 0;
+                            bVal = parseFloat(b.children[index]?.dataset?.value) || 0;
+                        } else {
+                            aVal = (a.children[index]?.dataset?.value || '').toLowerCase();
+                            bVal = (b.children[index]?.dataset?.value || '').toLowerCase();
+                        }
+                        if (aVal < bVal) return -1 * (nextDir === 'ascending' ? 1 : -1);
+                        if (aVal > bVal) return 1 * (nextDir === 'ascending' ? 1 : -1);
+                        return 0;
+                    });
+
+                    sorted.forEach(function (row) { tbody.appendChild(row); });
+                });
             });
         });
     });
-});
 </script>
 {% endblock %}

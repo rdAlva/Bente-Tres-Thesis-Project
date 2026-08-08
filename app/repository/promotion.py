@@ -2,6 +2,7 @@ import pandas as pd
 from pathlib import Path
 import shutil
 from app.nlp.similarity import compare_uploaded_document
+from app.nlp.preprocessing import preprocess_text
 
 # Path to files
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -13,10 +14,11 @@ source_pathPdf = SCRIPT_DIR.parent / "static" / "file"
 
 destinationFlag_path = SCRIPT_DIR.parent.parent / "corpus" / "review"
 destinationProm_path = SCRIPT_DIR.parent.parent / "corpus" / "promoted"
+destinationProcessed_path = SCRIPT_DIR.parent.parent / "corpus" / "processed"
 source_logs = SCRIPT_DIR.parent.parent / "logs"
 
-# THRESHOLD VALUE
-threshold = 0.35
+# # THRESHOLD VALUE
+# threshold = 0.35
 
 def run_promotion(
     uploaded_filename,
@@ -26,14 +28,17 @@ def run_promotion(
     promoted_filenames,
     promoted_processed,
     promoted_original,
+
+    threshold,
 ):
+    print(f"run_promotion() received threshold = {threshold:.2f}")
     (
-    all_pairs,
-    flagged,
-    to_promote,
-    similarity_report,
-    uploaded_document_html,
-    repository_document_html,
+        all_pairs,
+        flagged,
+        to_promote,
+        similarity_report,
+        uploaded_document_html,
+        repository_document_html,
 ) = compare_uploaded_document(
     uploaded_filename,
     uploaded_processed,
@@ -105,13 +110,32 @@ def run_promotion(
 def move_to_promoted(filename):
 
     txt_file = source_pathTxt / filename
-
     if txt_file.exists():
+
+        promoted_txt_file = destinationProm_path / filename
         shutil.move(
             str(txt_file),
-            str(destinationProm_path / filename)
+            str(promoted_txt_file)
         )
         print(f"Promoted TXT: {filename}")
+
+        # ----------------------------------------------
+        # Create processed repository copy
+        # ----------------------------------------------
+
+        destinationProcessed_path.mkdir(
+            parents=True,
+            exist_ok=True
+        )
+
+        processed_text = preprocess_text(promoted_txt_file)
+        processed_file = destinationProcessed_path / filename
+        processed_file.write_text(
+            processed_text,
+            encoding="utf-8"
+        )
+
+        print(f"Processed TXT: {filename}")
 
     pdf_name = Path(filename).stem + ".pdf"
     pdf_file = source_pathPdf / pdf_name

@@ -8,8 +8,10 @@
 
     /* Stronger, WCAG‑compliant drop‑zone border */
     .drop-zone {
-        border-color: rgba(107, 15, 26, 0.55) !important;   /* maroon at 55% opacity – passes 3:1 against cream */
-        padding-top: 1.5rem !important;                      /* tighter vertical space */
+        border-color: rgba(107, 15, 26, 0.55) !important;
+        /* maroon at 55% opacity – passes 3:1 against cream */
+        padding-top: 1.5rem !important;
+        /* tighter vertical space */
         padding-bottom: 1.5rem !important;
     }
 
@@ -21,10 +23,13 @@
 
     /* Override Bootstrap’s blue helper‑text; force consistent muted tone */
     .form-text {
-        color: var(--hau-text-muted) !important;   /* #6B5F5B, already in style.css */
+        color: var(--hau-text-muted) !important;
+        /* #6B5F5B, already in style.css */
     }
+
     .form-text strong {
-        color: inherit !important;                 /* prevents browser‑default blue */
+        color: inherit !important;
+        /* prevents browser‑default blue */
     }
 </style>
 {% endblock %}
@@ -32,10 +37,7 @@
 {% block content %}
 
 <div class="text-center">
-    <img src="{{ url_for('static', filename='images/logo.png') }}"
-         alt="HAUdemicCheck logo"
-         class="mb-4"
-         width="120">
+    <img src="{{ url_for('static', filename='images/logo.png') }}" alt="HAUdemicCheck logo" class="mb-4" width="120">
     <h1 class="display-5 fw-bold">HAUdemicCheck</h1>
     <p class="lead">
         Upload one or more PDF documents for academic similarity detection.
@@ -64,21 +66,21 @@
                     <p class="mb-0 text-muted small">Only .pdf files are accepted</p>
 
                     {{ form.files(
-                        class="drop-zone-input" ~ (" is-invalid" if form.files.errors else ""),
-                        multiple=True,
-                        accept=".pdf",
-                        id="files",
-                        aria_describedby="filesHelp",
-                        aria_invalid="true" if form.files.errors else "false"
+                    class="drop-zone-input" ~ (" is-invalid" if form.files.errors else ""),
+                    multiple=True,
+                    accept=".pdf",
+                    id="files",
+                    aria_describedby="filesHelp",
+                    aria_invalid="true" if form.files.errors else "false"
                     ) }}
                 </div>
 
                 {% if form.files.errors %}
-                    <div class="invalid-feedback d-block">
-                        {% for error in form.files.errors %}
-                            {{ error }}
-                        {% endfor %}
-                    </div>
+                <div class="invalid-feedback d-block">
+                    {% for error in form.files.errors %}
+                    {{ error }}
+                    {% endfor %}
+                </div>
                 {% endif %}
 
                 <!-- Helper text – now consistently muted, no blue -->
@@ -96,22 +98,59 @@
                 </ul>
                 <div id="selectedFilesStatus" class="visually-hidden" aria-live="polite"></div>
             </div>
+            <hr class="my-4">
+
+            <div class="mb-4">
+                <label class="form-label fw-semibold">
+                    Similarity Threshold
+                </label>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="threshold" id="thresholdHigh" value="0.25">
+
+                    <label class="form-check-label" for="thresholdHigh">
+                        High Sensitivity (0.25)
+                        <small class="text-muted d-block">
+                            Detects more potential plagiarism.
+                        </small>
+                    </label>
+                </div>
+
+                <div class="form-check mt-2">
+                    <input class="form-check-input" type="radio" name="threshold" id="thresholdMedium" value="0.30"
+                        checked>
+
+                    <label class="form-check-label" for="thresholdMedium">
+                        Balanced (0.30)
+                        <small class="text-muted d-block">
+                            Recommended for general use.
+                        </small>
+                    </label>
+                </div>
+
+                <div class="form-check mt-2">
+                    <input class="form-check-input" type="radio" name="threshold" id="thresholdLow" value="0.35">
+
+                    <label class="form-check-label" for="thresholdLow">
+                        Strict (0.35)
+                        <small class="text-muted d-block">
+                            Reduces false positives.
+                        </small>
+                    </label>
+                </div>
+            </div>
 
             <div class="d-grid gap-2">
                 {{ form.submit(class="btn btn-primary btn-lg", id="uploadButton") }}
 
-                <!-- Processing state – hidden on load, only shown on submit -->
                 <div id="uploadStatus"
-                     class="text-center text-muted d-flex align-items-center justify-content-center gap-2"
-                     role="status"
-                     aria-live="polite"
-                     style="display:none;">
+                    class="text-center text-muted d-flex align-items-center justify-content-center gap-2 d-none"
+                    role="status" aria-live="polite" hidden>
                     <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
                     <span>Processing documents. Please wait.</span>
                 </div>
 
-                <!-- Next‑step guidance (visible only during processing) -->
-                <p id="processingNote" class="text-center text-muted small mt-1" style="display:none;">
+                <p id="processingNote" class="text-center text-muted small mt-1 d-none" hidden>
                     This may take a few moments. You’ll be redirected to your results automatically.
                 </p>
             </div>
