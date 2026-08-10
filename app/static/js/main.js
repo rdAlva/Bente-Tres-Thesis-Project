@@ -102,6 +102,22 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    const passwordToggles = document.querySelectorAll('[data-password-toggle]');
+    if (passwordToggles.length > 0) {
+        passwordToggles.forEach(button => {
+            button.addEventListener('click', () => {
+                const input = document.getElementById(button.dataset.passwordToggle);
+                if (!input) return;
+
+                const isHidden = input.type === 'password';
+                input.type = isHidden ? 'text' : 'password';
+                button.textContent = isHidden ? 'Hide' : 'Show';
+                button.setAttribute('aria-label', isHidden ? 'Hide password' : 'Show password');
+                button.setAttribute('aria-pressed', String(isHidden));
+            });
+        });
+    }
+
     // ========================
     // 2. Dashboard table (dashboard.html) – only if #analysesTable exists
     // ========================
