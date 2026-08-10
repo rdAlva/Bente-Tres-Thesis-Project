@@ -3,74 +3,116 @@
 {% block title %}Sign In — HAUdemicCheck{% endblock %}
 
 {% block content %}
-<div class="row justify-content-center">
-    <div class="col-md-5 col-lg-4">
 
-        <div class="text-center mb-4">
-            <img src="{{ url_for('static', filename='images/logo.png') }}"
-                 alt="HAUdemicCheck logo"
-                 width="100">
-            <h1 class="h3 fw-bold mt-2">HAUdemicCheck</h1>
-            <p class="text-muted small">Academic similarity detection system</p>
+    <div class="text-center mb-4">
+        <img src="{{ url_for('static', filename='images/logo.png') }}"
+             alt="HAUdemicCheck logo"
+             width="100">
+
+        <h1 class="h3 fw-bold mt-2">HAUdemicCheck</h1>
+        <p class="text-muted small">Academic similarity detection system</p>
+    </div>
+
+    <div class="card shadow">
+        <div class="card-header">
+            <h2 class="h5 mb-0">Sign In</h2>
         </div>
 
-        <div class="card shadow">
-            <div class="card-header">
-                <h2 class="h5 mb-0">Sign In</h2>
-            </div>
-            <div class="card-body p-4">
+        <div class="card-body p-4">
 
-                <form method="POST" novalidate>
-                    {{ form.hidden_tag() }}
+            <form method="POST" novalidate>
+                {{ form.hidden_tag() }}
 
-                    <div class="mb-3">
-                        <label for="username" class="form-label fw-semibold">
-                            {{ form.username.label.text }}
-                        </label>
-                        {{ form.username(
-                            class="form-control" ~ (" is-invalid" if form.username.errors else ""),
-                            id="username",
-                            placeholder="Enter your username"
-                        ) }}
-                        {% for error in form.username.errors %}
-                            <div class="invalid-feedback d-block">{{ error }}</div>
-                        {% endfor %}
-                    </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label fw-semibold">
+                        {{ form.email.label.text }}
+                    </label>
 
-                    <div class="mb-3">
-                        <label for="password" class="form-label fw-semibold">
-                            {{ form.password.label.text }}
-                        </label>
+                    {{ form.email(
+                        class="form-control" ~ (" is-invalid" if form.email.errors else ""),
+                        id="email",
+                        placeholder="Enter your email"
+                    ) }}
+
+                    {% for error in form.email.errors %}
+                        <div class="invalid-feedback d-block">
+                            {{ error }}
+                        </div>
+                    {% endfor %}
+                </div>
+
+                <div class="mb-3">
+                    <label for="password" class="form-label fw-semibold">
+                        {{ form.password.label.text }}
+                    </label>
+
+                    <div class="input-group">
                         {{ form.password(
                             class="form-control" ~ (" is-invalid" if form.password.errors else ""),
                             id="password",
                             placeholder="Enter your password"
                         ) }}
-                        {% for error in form.password.errors %}
-                            <div class="invalid-feedback d-block">{{ error }}</div>
-                        {% endfor %}
-                    </div>
 
-                    <div class="d-grid mt-4">
-                        {{ form.submit(class="btn btn-primary btn-lg") }}
-                    </div>
-                </form>
-
-                <div class="text-center mt-3">
-                    <small class="text-muted">
-                        Demo credentials: <strong>admin</strong> / <strong>admin</strong>
-                    </small>
+                        <button
+                            type="button"
+                            class="btn btn-outline-secondary"
+                            onclick="togglePassword('password', this)"
+                            aria-label="Show password"
+                        >
+                            Show
+                        </button>
                 </div>
 
+                {% for error in form.password.errors %}
+                    <div class="invalid-feedback d-block">
+                        {{ error }}
+                    </div>
+                {% endfor %}
+
+                <div class="text-end mt-2">
+                    <a href="{{ url_for('forgot_password') }}" class="small">
+                        Forgot Password?
+                    </a>
+                </div>
             </div>
-        </div>
 
-        <div class="text-center mt-3">
-            <a href="{{ url_for('home') }}" class="text-muted small">
-                ← Back to Home
-            </a>
-        </div>
+                <div class="d-grid mt-4">
+                    {{ form.submit(class="btn btn-primary btn-lg") }}
+                </div>
 
+            </form>
+
+        </div>
     </div>
-</div>
+
+    <div class="text-center mt-3">
+        <span class="text-muted small">
+            Don't have an account?
+        </span>
+
+        <a href="{{ url_for('register') }}" class="small">
+            Register
+        </a>
+    </div>
+
+    <div class="text-center mt-3">
+        <a href="{{ url_for('home') }}" class="text-muted small">
+            ← Back to Home
+        </a>
+    </div>
+    <script>
+        function togglePassword(inputId, button) {
+            const input = document.getElementById(inputId);
+
+            if (input.type === "password") {
+                input.type = "text";
+                button.textContent = "Hide";
+                button.setAttribute("aria-label", "Hide password");
+            } else {
+                input.type = "password";
+                button.textContent = "Show";
+                button.setAttribute("aria-label", "Show password");
+            }
+        }
+    </script>
 {% endblock %}

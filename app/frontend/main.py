@@ -14,6 +14,9 @@ from werkzeug.utils import secure_filename
 from wtforms import FileField, SubmitField, MultipleFileField, StringField, PasswordField
 from wtforms.validators import InputRequired
 
+from supabase import create_client, Client
+
+
 from app.services.detector import run_detection
 from app.services.review import load_review_report
 from app.services.repository import upload_repository
@@ -107,10 +110,23 @@ class RepositoryUploadForm(FlaskForm):
 
 
 class LoginForm(FlaskForm):
-    username = StringField('Username', validators=[InputRequired()])
-    password = PasswordField('Password', validators=[InputRequired()])
+    email = StringField("Email", validators=[InputRequired()])
+    password = PasswordField("Password", validators=[InputRequired()])
     submit = SubmitField('Sign In')
 
+class RegisterForm(FlaskForm):
+    email = StringField("Email", validators=[InputRequired()])
+    password = PasswordField("Password", validators=[InputRequired()])
+    submit = SubmitField("Sign Up")
+    
+# ============================================================
+# Supabase Settings
+# ============================================================
+app.secret_key = "supersecretkey"  # Replace with a secure key in production
+
+SUPABASE_URL = "https://xtwdtizzumzahucsbpyc.supabase.co"
+SUPABASE_KEY = "sb_publishable_Ri2NBu5O4D9lkVxDlJYxMg_j6LYnzlT"
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # ============================================================
 # Authentication
@@ -124,35 +140,199 @@ def login_required(f):
         return f(*args, **kwargs)
     return decorated_function
 
-
 # ============================================================
 # Routes
 # ============================================================
+@app.route('/')
+def home_login():
+    if "user" in session:
+        return redirect(url_for("home"))
+
+    return redirect(url_for("login"))
+
+
+@app.route('/register', methods=['GET', 'POST'])
+def register():
+    form = RegisterForm()
+
+    if form.validate_on_submit():
+        email = form.email.data
+        password = form.password.data
+
+        try:
+            response = supabase.auth.sign_up({
+                "email": email,
+                "password": password
+            })
+
+            if response.user:
+                flash(
+                    "Registration successful! Please log in.",
+                    "success"
+                )
+                return redirect(url_for("login"))
+
+            flash(
+                "Registration failed. Please try again.",
+                "danger"
+            )
+
+        except Exception as e:
+            flash(f"Registration failed: {str(e)}", "danger")
+
+    return render_template("register.html", form=form)
+
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
+
     if form.validate_on_submit():
-        username = form.username.data
+        email = form.email.data
         password = form.password.data
 
-        # ---------- MOCK AUTH ----------
-        valid_users = {
-            'admin': 'admin',
-            'instructor': 'instructor',
-            'student': 'student'
-        }
-        if username in valid_users and valid_users[username] == password:
-            session['logged_in'] = True
-            session['username'] = username
-            # Optionally set a role (can be extended later)
-            session['role'] = 'Instructor'
-            flash(f'Welcome back, {username}!', 'success')
-            return redirect(url_for('home'))
-        else:
-            flash('Invalid username or password.', 'danger')
+        try:
+            response = supabase.auth.sign_in_with_password({
+                "email": email,
+                "password": password
+            })
 
-    return render_template('login.html', form=form)
+            if response.user:
+                session['logged_in'] = True
+                session['user'] = response.user.email
 
+                flash(
+                    f"Welcome back, {response.user.email}!",
+                    "success"
+                )
+
+                return redirect(url_for("home"))
+
+            flash(
+                "Invalid email or password.",
+                "danger"
+            )
+
+        except Exception:
+            flash(
+                "Invalid email or password.",
+                "danger"
+            )
+
+    return render_template("login.html", form=form)
+
+@app.route('/forgot-password', methods=['GET', 'POST'])
+def forgot_password():
+    if request.method == 'POST':
+        email = request.form.get('email', '').strip()
+
+        if not email:
+            flash("Please enter your email.", "danger")
+            return redirect(url_for('forgot_password'))
+
+        try:
+            reset_url = url_for(
+                'reset_password',
+                _external=True
+            )
+
+            print("RESET REDIRECT URL:", reset_url)
+
+            response = supabase.auth.reset_password_for_email(
+                email,
+                options={
+                    "redirect_to": reset_url
+                }
+            )
+
+            print("SUPABASE RESET RESPONSE:", response)
+
+            flash(
+                "If an account exists with that email, "
+                "a password reset link has been sent.",
+                "success"
+            )
+
+            return redirect(url_for('login'))
+
+        except Exception as e:
+            print("SUPABASE RESET ERROR:", repr(e))
+
+            flash(
+                f"Password reset failed: {str(e)}",
+                "danger"
+            )
+
+            return redirect(url_for('forgot_password'))
+
+    return render_template('forgot_password.html')
+  
+  
+@app.route('/reset-password', methods=['GET', 'POST'])
+def reset_password():
+
+    if request.method == 'POST':
+
+        password = request.form.get('password')
+        confirm_password = request.form.get('confirm_password')
+
+        access_token = request.form.get('access_token')
+        refresh_token = request.form.get('refresh_token')
+
+        if not access_token or not refresh_token:
+            flash(
+                "Invalid or expired password reset link.",
+                "danger"
+            )
+            return redirect(url_for('forgot_password'))
+
+        if not password or not confirm_password:
+            flash(
+                "Please enter and confirm your new password.",
+                "danger"
+            )
+            return redirect(url_for('reset_password'))
+
+        if password != confirm_password:
+            flash(
+                "Passwords do not match.",
+                "danger"
+            )
+            return redirect(url_for('reset_password'))
+
+        try:
+
+            # Establish the recovery session
+            supabase.auth.set_session(
+                access_token,
+                refresh_token
+            )
+
+            # Update the password
+            supabase.auth.update_user({
+                "password": password
+            })
+
+            flash(
+                "Password reset successful! Please log in.",
+                "success"
+            )
+
+            return redirect(url_for('login'))
+
+        except Exception as e:
+
+            print("PASSWORD RESET ERROR:", repr(e))
+
+            flash(
+                "Unable to reset your password. "
+                "The reset link may have expired.",
+                "danger"
+            )
+
+            return redirect(url_for('forgot_password'))
+
+    return render_template('reset_password.html')
 
 @app.route('/logout')
 def logout():

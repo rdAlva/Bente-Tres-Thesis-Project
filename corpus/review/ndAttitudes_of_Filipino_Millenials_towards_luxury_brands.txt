@@ -1,0 +1,1001 @@
+Attitudes of Filipino Millennials Towards Purchase and Consumption of
+Luxury Brands: Actual and Ideal Self-Congruity on Brand Attitude
+Prof. Marilou Q. Tolentino, DBA
+Dean, College of Business
+Systems Plus College Foundation, Angeles City, Philippines
+Abstract
+This study set out to uncover what drives the attitudes of Filipino millennials when it comes to buying and
+using luxury brands. A wide body of research from other countries, spanning different demographics and
+cultural settings, has already given useful insight into how buyers elsewhere view luxury purchasing and
+use. Here, though, the central focus is on how Filipino millennials' own sense of actual versus ideal
+self-congruity shapes their attitude toward luxury — in other words, pinpointing exactly what pushes or
+pulls Filipino millennials toward buying and using these brands.
+The study also brought in materialistic value and status value as additional angles, examining how much
+weight these carry in shaping consumer motivation. Both the research questions and the hypotheses were
+tackled and answered using a quantitative approach. A structured survey questionnaire was handed out to
+university students, recent graduates, and young professionals across a range of organizations, all falling
+under the millennial bracket. The findings revealed that ideal self-congruity carries noticeably more weight
+than actual self-congruity in shaping how Filipino millennial consumers feel about luxury brands. This
+influence came through clearly in how respondents valued materialism and prestige.
+What this study contributes should be useful on both the business and academic side. Since Filipino
+millennials make up roughly a third of the country's population and about half its labor force, the results
+offer a solid, evidence-based starting point for understanding their brand attitudes — a topic that hadn't
+been examined in much depth within the Philippine context before. The findings should also be of practical
+use to luxury brand managers looking for direction on the right marketing mix and strategy when targeting
+this generation of consumers.
+Keywords: consumer attitude, luxury brand, Filipino millennials, actual & ideal self-congruity, purchase
+and consumption, motivational factors
+Paper presented at the International Conference on Marketing, Tourism and Hospitality (ICT19), Las Vegas
+Conference, Las Vegas, USA. May 24-26, 2019.
+
+Introduction
+Bain's tracking of the luxury industry covers both luxury goods and luxury experiences, spanning nine
+segments in total. Of these, luxury cars, luxury hospitality, and personal luxury goods together make up
+more than 80% of the overall market. In 2018 the global luxury market grew by 5%, reaching an estimated
+€1.2 trillion, with most segments posting gains. Luxury car sales remained the market's biggest driver,
+climbing 5% at constant exchange rates to €495 billion. Experience-based luxury also held strong appeal,
+with hospitality sales up 5%, gourmet food and fine dining up 6%, and luxury cruises up 7%. Online sales
+climbed to an 8% market share, while discounted sales made up as much as 37% of total sales (D'Arpizio
+et al., 2016). Meanwhile, younger buyers — Generation Y, or millennials, born in the 1980s and 1990s —
+have been developing an appetite for luxury goods earlier in life than traditional luxury shoppers ever did,
+and their share of luxury purchases has grown substantially (The Economist, 2014).
+These younger buyers also behave very differently at the point of purchase: more impulsive, more willing
+to experiment, and more inclined to try new brands, in contrast to older luxury consumers who tend to
+spend consistently and stay loyal to established brands (Jay, 2012). Projections suggest millennials will
+become the dominant luxury buyers by 2026, meaning brand managers will need to rework their
+marketing and brand strategies to capture this large, fast-growing segment and stay ahead of competitors
+(The Economist, 2014).
+Brand plays a central role in how consumers make decisions, yet research into what actually drives luxury
+consumption and how luxury brands should be managed remains fairly thin. In particular, the link between
+how consumers perceive luxury and what actually pushes them to buy luxury brands is still not well
+understood or explored (Hennigs et al., 2013) — and the Philippines is a clear example of this gap. Luxury
+brands meet both psychological and functional needs through a blend of four value dimensions: financial,
+operational, individual, and social (Wiedmann et al., 2007). These four dimensions allow customers to be
+grouped as either personally-oriented or socially-oriented — essentially, whether someone buys luxury for
+personal enjoyment or to show off success (Kapferer & Bastien, 2009). This means luxury brands have to
+deliver value that matches each customer's own expectations and perceptions (Hennigs et al., 2013).
+Millennials themselves have become a popular research subject, largely because they puzzle older
+generations. They are deeply connected socially, and heavily reliant on social media and digital tools.
+Roughly a third of Filipinos fall into the millennial bracket, aged 15 to 35. While millennials broadly share
+certain values and identities, these come in different layers, meaning there isn't just one type of millennial
+— it depends on how they want to present themselves to the world. Given this, brands need to engage
+millennials more directly to build marketability and affiliation with them. Millennials, more than previous
+generations, 
+place 
+their 
+trust 
+in 
+shared 
+experience 
+rather 
+than 
+in 
+authority 
+alone
+(http://pana.com.ph/decoding-millennials/).
+
+Literature Review
+The word "luxury" gets used constantly, yet no single, fixed definition of it exists — what counts as luxury
+for one person may not for another (Kapferer & Bastien, 2014). Still, certain traits are commonly used to
+define it: excellent quality, high price, scarcity and uniqueness, aesthetics and polysensuality, ancestral
+heritage and personal history, and superfluousness (Dubois et al., 2001).
+Luxury isn't the same thing as fashion or as "premium," even though the concepts overlap and borrow
+from one another (Kapferer & Bastien, 2014). Simply having one of the traits above — high price, for
+instance — isn't enough on its own to qualify something as luxury, which is why upper-range premium
+products are often mistaken for luxury goods. For premium products, price tracks functionality,
+performance, and quality; for true luxury, price tracks scarcity, brand, and storytelling instead (Turunen,
+2015). At the same time, many luxury brands borrow behaviors from fashion brands, just as fashion
+brands try to associate themselves with luxury to boost their own status (Kapferer & Bastien, 2014).
+Luxury goods are also tied to the idea of a dream, whereas essential goods answer a need, and branded
+goods in between answer a passing desire and can usually be substituted. Dreams go beyond need or
+want, and it's this dream-like quality that luxury goods respond to and that sets them apart from non-luxury
+goods (Kapferer & Bastien, 2014). Buying a luxury item is really buying into that dream, and such
+purchases tend to be impulsive, emotional, or extravagant (Dubois & Paternault, 1995). This is part of why
+the luxury industry runs on unusually high profitability and margins — strong brand equity and reputation
+add extra value to already expensive, high-quality products (Kapferer, 1997).
+Luxury brands can also be sorted by how accessible they are — available, intermediate, or inaccessible
+(De Barnier et al., 2011). Other classification schemes drawn from earlier literature (Vigneron & Johnson,
+1999; Kapferer, 2008; Corbellini & Saviolo, 2009) are summarized elsewhere (Turunen, 2015). One
+reason luxury has become harder to define cleanly is that brands keep extending into new categories;
+when a luxury brand launches a cheaper line-extension — a perfume, say — it gives consumers a taste of
+the brand at a more accessible price point (Patrick & Prokopec, 2015). Understanding what motivates
+luxury purchases really comes down to understanding what value the product holds for the person using it
+(Ballantyne & Varey, 2006). People consume differently, and the personal and social behaviors behind
+luxury consumption vary from one consumer to the next (Holt, 1995). Consumers look to build a
+meaningful life around their identity and relationships, so that what they consume adds to their quality of
+life through the enjoyment that comes from owning and using products and experiences (Pollay, 1983;
+Solomon et al., 2016). How a consumer perceives a luxury brand therefore shapes how relevant that
+consumption feels to them; understanding a person's broader consumption values helps explain how they
+individualize their views on luxury and how luxury brands end up shaping their daily lives (Seo &
+Buchanan-Oliver, 2014).
+Kapferer and Bastien (2014) split luxury consumers into heavy users and occasional users. Up until
+around 2000, the luxury market grew mainly because large numbers of middle-class shoppers bought
+luxury items now and then. Today, though, the bulk of luxury purchases comes from frequent buyers.
+Western middle classes, worried about their financial futures, increasingly feel poorer and are drifting
+toward less affluent spending categories, while wealthier buyers have stayed optimistic and now account
+for most of the luxury market. This split has let luxury brands grow their entry-level, "masstige" product
+lines aimed at middle-class shoppers who still aspire to luxury but spend more cautiously. Young Chinese
+middle-class consumers show the opposite pattern — despite having less money overall, their income
+keeps rising, leaving them feeling optimistic and prosperous, which has made China's luxury market
+
+especially dynamic. A similar dynamic may help explain the rising number of Gen-Y luxury buyers,
+particularly since the 2008 recession, as this generation increasingly turns to luxury consumption as a
+form of self-indulgence (Jay, 2012).
+Kapferer's 1998 research on an international sample of affluent young consumers identified four distinct
+types of luxury buyers, based on what luxury means to them and which qualities they value most. The first
+group values the beauty, excellence, and uniqueness of the product itself. The second cares most about
+creativity and sensuality. The third bases luxury value on timelessness and international reputation —
+luxury as a "safe" choice. The fourth group focuses on rarity and the most exclusive, hard-to-get products,
+and tends to buy the priciest items available. Interestingly, this fourth group skewed mostly male, while the
+second skewed mostly female — suggesting that men lean toward visible signs of success, while women
+place more weight on creativity, sensuality, and beauty. Young men, in this sense, consume luxury mainly
+to display their progress. The third group, meanwhile, responds to active, visible signals and well-known
+brand names, while the second group is more focused on individuality, and the first sees itself as
+connoisseurs capable of appreciating truly exceptional products.
+Han et al. (2010) offer another way of segmenting luxury consumers, this time based on how much a
+consumer relies on brand prominence — that is, how visible the logo is — to signal status. The stronger
+someone's need for status, the more they lean on "loud" signals like conspicuous logos. Those with less
+need for status tend to do the opposite. Wealthy consumers with a lower need for status prefer quiet
+signals — premium products without an obvious logo, recognizable mainly to others within the same social
+circle. Wealthy consumers who do need status, on the other hand, use loud luxury products specifically to
+distinguish themselves from those less well-off, while less affluent consumers with a high need for status
+often turn to counterfeit luxury goods to mimic higher social standing since they can't afford the real thing.
+This dynamic shows how consumers are shaped by the groups they aspire to belong to, as well as the
+ones they want to distance themselves from (Han et al., 2010).
+Veblen (1965) argued that simply accumulating wealth doesn't automatically confer status — it's visible
+evidence of that wealth that does. This helps explain conspicuous luxury consumption as a symbol of
+success. People often define others, and even themselves, through the objects they own, treating
+possessions as extensions of their own identity. A person might use luxury goods specifically to express
+who they are, or to signal belonging to a certain group. Material possessions offer people happiness and
+serve as reminders of experiences, achievements, and relationships — they carry a sense of one's past,
+showing who someone is, where they've come from, and where they're headed (Belk, 1988).
+Not every brand carries the same degree of luxury, and, as already noted, there's no single fixed definition
+of luxury to begin with. Even the same brand's perceived luxury level can shift depending on the product
+category or situation — Cartier, for example, may feel more luxurious in jewelry than in apparel or
+fragrance, and Rolls-Royce is seen as luxury in the automotive world but not in aircraft engines (Vigneron
+& Johnson, 2004; Kapferer & Bastien, 2014).
+To help sort luxury brands more systematically, Vigneron and Johnson (2004) built a valuation model —
+the Brand Luxury Index (BLI) — made up of five perceived dimensions. Three of these are non-personal:
+perceived conspicuousness, perceived uniqueness, and perceived quality. The other two are personal:
+perceived hedonism and perceived extended self. According to the authors, all five dimensions need to be
+tracked and managed for a luxury brand to endure, since a brand has to balance both personal and
+interpersonal perceptions to succeed financially over the long run (Kapferer & Bastien, 2014).
+
+These five factors are interconnected and sit underneath how consumers decide whether to buy into a
+luxury brand. All five matter to consumers generally, though different customers weigh them differently.
+The BLI scale can also be used to compare brands against each other and spot competitive advantages
+within a given market (Vigneron & Johnson, 2004).
+Berthon et al. (2009) break consumer perceptions of luxury down into three value dimensions instead:
+functional, experiential, and symbolic. Vickers and Renand (2003) similarly argue that luxury brands differ
+fundamentally from non-luxury brands along these lines, since consumers simply expect more from
+luxury. Because these three dimensions are shaped by context, they can shift over time depending on the
+individual and the surrounding culture, effectively being co-created between the brand and its consumers
+(Tynan et al., 2010).
+The functional dimension covers the material, core benefits of a product — quality, functionality, reliability,
+durability, craftsmanship — with quality standing out as especially important since it signals how well a
+product performs.
+The experiential dimension reflects individual, subjective value — a person's own taste and where they
+find hedonic enjoyment in a brand. This can be triggered by design, packaging, communication, and
+environment, all of which shape a consumer's sensations, feelings, perceptions, and behavior (Berthon et
+al., 2009). Luxury products, in this sense, deliver consumption experiences that satisfy needs or wants
+(Holbrook, 1999). Because luxury is seen as rare, precious, and unique, it can also shape thoughts and
+feelings through a consumer's desire for uniqueness, on top of pure hedonic motives (Hung et al., 2011).
+In short, the experiential dimension answers what the brand means to the individual.
+The symbolic dimension, meanwhile, is about what the brand signals to others — its meaning within the
+broader social group (Berthon et al., 2009). This nominal value conveys conspicuousness, expense, and
+wealth (Hung et al., 2011), and matters enormously for premium products since it carries the brand's
+dream and story. It covers what the brand communicates about the person using it — wealth, prestige,
+performance, style — to others (other-directed signaling), as well as what that signaling does for the
+person doing the signaling, extending their sense of self (Belk, 1988). That said, a brand's symbolic value
+only really works within the community that recognizes it; outside that community, its social meaning
+fades.
+This symbolic dimension matters a great deal for how global luxury brands manage and market
+themselves, since social influence strongly shapes purchase intent, especially among socially-oriented
+consumers (Tsai, 2005). Luxury brands need to balance all three dimensions rather than overemphasizing
+one at the expense of the others — a brand's quality, for instance, shouldn't suffer just because its
+symbolic appeal gets all the attention. Ideally, luxury brands combine the material (objective, functional),
+individual (subjective, experiential), and social (collective, symbolic) spheres (Berthon et al., 2009).
+Wiedmann et al. (2007) built a conceptual framework showing that financial, functional, individual, and
+social dimensions all shape how consumers perceive and consume luxury value. These four dimensions
+are closely related but distinct, and each feeds into a consumer's overall sense of luxury value. Within
+them sit sub-dimensions: price value under financial value; usability, quality, and uniqueness under
+functional value; self-identity, hedonic, and materialistic value under individual value; and
+conspicuousness and prestige value under social value. Even when a brand's overall luxury level is
+perceived similarly across different customer groups, these underlying dimensions can be weighed quite
+differently. This model helps explain what drives luxury perception and, by extension, consumer behavior
+— useful not just for understanding customers but also for creating, marketing, and monitoring luxury
+
+brands.
+Wiedmann et al.'s (2007) framework is generally regarded as the most thorough and complete of its kind,
+though later research has proposed additions. Ciornea et al. (2011), for instance, added investment value
+to the financial dimension and heritage value to the functional dimension, along with other possible
+sub-dimensions like superfluousness, which ties closely to materialism. There's also room to look more
+closely at how the individual and social value dimensions shape both overall perceived luxury value and
+purchase intent — questions this study explores further in the sections that follow.
+Filipino millennials are known for their attachment to gadgets, which drains their finances to some degree,
+though they also lean on technology to find deals and discounts on airfare, food, travel packages, and
+more.
+Visa's research found that 80% of Filipino millennials still prefer cash over credit cards, largely because
+they distrust the credit card system over concerns about privacy and confidentiality — suggesting a need
+for 
+greater 
+financial 
+literacy 
+around 
+credit 
+card 
+use
+(https://www.ecomparemo.com/info/who-are-the-filipino-millennials-and-what-are-their-spending-habits/).
+According to Madelaine B. Miraflor, millennials' purchasing power is rising quickly, showing up in growing
+retail spending on personal care, home care, and food items. Kantar Worldpanel backs this up, noting that
+Filipino millennials' capacity to spend on personal and household cleanliness, convenience, and
+enjoyment 
+keeps 
+climbing
+(https://business.mb.com.ph/2016/11/19/millennials-purchasing-power-growing-study/).
+
+Background of the Study
+Given how little research exists on the attitudes of Filipino millennials toward buying and using luxury
+brands, this study was built to establish a scientific foundation that future research can build on,
+contributing to both business and academic understanding.
+Within the Philippine context specifically, the variables examined here have barely been studied, since this
+subject area had not been thoroughly researched at the time this work was conducted.
+Significance of the Study
+The findings offer a scientific foundation for understanding the brand attitudes of Filipino millennials — a
+group that makes up about a third of the country's population and roughly half its labor force.
+Objectives of the Study
+This study looks at how actual and ideal self-congruity shape millennial consumers' attitudes toward luxury
+brands, along with how materialistic and status-value dimensions factor into those attitudes.
+It aims to build a fuller picture of young consumers' brand attitudes and buying behavior toward luxury
+goods, with the goal of helping brands unlock the commercial potential of this segment and meet the
+specific needs of Gen-Y consumers among Filipino millennials. Specifically, the study aims to:
+1. Determine what motivates Filipino millennials to buy and use luxury brands, in terms of actual and ideal
+self-congruity.
+2. Identify which variables — across education, income, gender, and age groups — significantly affect the
+purchase and consumption of luxury brands among Filipino millennials.
+3. Determine how materialistic value, status value, and social desirability scores affect the purchase and
+use of luxury brands among Filipino millennials.
+Statement of the Problem
+This study centers on how actual and ideal self-congruity — that is, how closely a consumer's self-image
+matches a luxury brand's image — shapes brand attitude. The ideal self-image refers to how a person
+wants to be, or wishes to be seen, including the attitudes, perceptions, and feelings they hope others will
+associate with them (Ross, 1971; Schenk & Holman, 1980).
+Consuming luxury brands can help someone move closer to their ideal self by projecting the image and
+symbolic meaning tied to those brands, reinforcing a more perfect self-image.
+Because self-concept matters so much to individuals, behavior is often geared toward reinforcing one's
+own self-concept — consuming luxury goods and brands as symbols that communicate meaning both to
+oneself and to others (Grubb & Grathwohl, 1967).
+Brand attitude plays a central role in a brand's overall equity. It reflects an individual's overall evaluation of
+a brand, shaped mainly by how they perceive it (Aaker, 1997). Self-congruity, in turn, helps explain and
+predict both brand attitude and purchase intent (Sirgy et al., 1997; Helgeson & Supphellen, 2004).
+Self-identity value, materialistic value, and status value are all closely tied together (Richins & Dawson,
+
+1992; Dittmar, 1994; Webster & Beatty, 1997).
+1. To what extent are Filipino millennials motivated to purchase and consume luxury brands in terms of
+actual and ideal self-congruity?
+2. What effect do materialistic value and status value have on the purchase and consumption of luxury
+brands among Filipino millennials?
+3. Which variables — across education, income, gender, and age groups — significantly affect the
+purchase and consumption of luxury brands among Filipino millennials?
+4. Which items show significant correlations with the purchase and consumption of luxury brands among
+Filipino millennials?
+
+Methodology
+This study looks at how actual and ideal self-congruity shape attitudes toward luxury brands, using a
+descriptive research design meant to examine the relationship between variables within the Philippine
+setting. A survey was the main tool used, with data gathered through a questionnaire and later
+standardized for easier comparison. Both primary and secondary data were used, with the primary data
+collected specifically to answer the research questions and meet the study's objectives. The questionnaire
+relied entirely on closed, pre-set questions rather than open-ended ones — a highly structured format that
+kept respondents' own wording to a minimum.
+To help respondents distinguish luxury from non-luxury, the questionnaire opened by presenting several
+well-known Philippine brands in both categories, giving respondents a concrete brand to picture before
+answering the questions that followed. A five-point Likert scale was used throughout, running from
+strongly disagree to strongly agree. The study also included a shortened version of the Crowne-Marlowe
+social desirability scale (Crowne & Marlowe, 1960) to gauge how much respondents cared about social
+approval, since social desirability bias is one of the most common distortions in survey research (King &
+Bruner, 2000). A lower score on this scale suggests a respondent is less worried about social approval
+and more likely to answer honestly and represent themselves accurately (Crowne & Marlowe, 1960).
+Respondents were Filipino millennials drawn from a higher education institution, along with young
+entrepreneurs, employees, employers, and graduates who consume luxury brands, since this was the
+population the study was interested in. The sample totaled 134 respondents — a number considered
+sufficient to meet the standards of efficiency, representativeness, reliability, and flexibility that Kothari
+(2004) sets out for an optimal sample.
+Non-probability convenience sampling was used, chosen for how easy it made gathering responses; this
+combined self-selection sampling with convenience sampling. OJT students and alumni helped distribute
+the questionnaire as enumerators.
+Data Analysis
+Survey data was processed using SPSS, relying mainly on descriptive statistics to describe and compare
+variables numerically.
+
+Results
+Descriptive statistics were run first to build a picture of the participants. The hypotheses were then tested
+to check the relationship between actual and ideal self-congruity, materialistic value, and status value, and
+how these shape brand attitudes toward both luxury and non-luxury brands. In total, 134 respondents took
+part in the study.
+This section covers the demographic makeup of the sample as well as the results of the Marlowe-Crowne
+social desirability scale.
+Frequency Table – Age
+Age
+Frequency
+Percent
+Valid Percent
+Cumulative Percent
+18-25
+38
+28.4
+28.4
+28.4
+26-30
+51
+38.1
+38.1
+66.4
+35 up
+45
+33.6
+33.6
+100.0
+Total
+134
+100.0
+100.0
+Frequency Table – Gender
+Gender
+Frequency
+Percent
+Valid Percent
+Cumulative Percent
+Male
+64
+47.8
+47.8
+47.8
+Female
+70
+52.2
+52.2
+100.0
+Total
+134
+100.0
+100.0
+Frequency Table – Education
+Education
+Frequency
+Percent
+Valid Percent
+Cumulative Percent
+Secondary
+19
+14.2
+14.2
+14.2
+Bachelor
+69
+51.5
+51.5
+65.7
+Master
+10
+7.5
+7.5
+73.1
+PhD
+5
+3.7
+3.7
+76.9
+Other
+31
+23.1
+23.1
+100.0
+Total
+134
+100.0
+100.0
+Frequency Table – Income
+Income
+Frequency
+Percent
+Valid Percent
+Cumulative Percent
+below 15,000
+30
+22.4
+22.4
+22.4
+15,001 - 30,000
+30
+22.4
+22.4
+44.8
+30,001 - 50,000
+37
+27.6
+27.6
+72.4
+50,001 - 75,000
+21
+15.7
+15.7
+88.1
+75,001 - 100,000
+16
+11.9
+11.9
+100.0
+Total
+134
+100.0
+100.0
+
+The sample split fairly evenly by gender, with 47.8% (64) male respondents and 52.2% (70) female
+respondents.
+In terms of education — whether currently enrolled or the highest degree completed — the sample was
+51.5% (69) Bachelor's degree holders, 7.5% (10) Master's, 3.7% (5) PhD, 14.2% (19) Secondary level,
+and 23.1% (31) falling into an "other" category. Ages ranged from 18 to 37, with a median of 25 and a
+mean of 27.5. The gender split held up well, and the sample included a notably high share of respondents
+with a master's degree. The age spread was also reasonably good, capturing millennial consumers across
+different life stages. Income levels weren't unusually high, largely because many respondents were
+full-time students at the time — so income wasn't factored into the analysis.
+The table below shows the Marlowe-Crowne social desirability scale results. More responses landed on
+the socially desirable side, suggesting the survey results are reasonably reliable, though respondents did
+show some tendency toward socially desirable answers.
+Marlowe-Crowne Social Desirability Scale Results
+Question
+T
+F
+a) I have never intensely disliked anyone.
+88
+46
+b) Sometimes feel resentful when I don't get my way.
+50
+84
+c) Always careful about my manner of dress.
+114
+20
+d) If I could get into a movie without paying and be sure I was not seen, I would probably do it.
+17
+117
+e) I don't find it particularly challenging to get along with loudmouthed, obnoxious people.
+66
+68
+f) I sometimes think when people have a misfortune, they only got what they deserved.
+32
+102
+g) I am sometimes irritated by people who ask favors of me.
+7
+127
+Sum of total answers — Socially Undesirable: 240 (25.58%); Socially Desirable: 698 (74.42%).
+Descriptive Statistics
+Minimum
+Maximum
+Mean
+Std. Deviation
+ASCL
+7
+15
+11.78
+2.179
+ASCLN
+5
+15
+12.07
+2.511
+ISCL
+7
+15
+11.97
+2.278
+ISCLN
+5
+15
+11.73
+2.636
+ASCL – Actual Self Congruity on Luxury Brand; ASCLN – Actual Self Congruity on Non-Luxury Brand; ISCL – Ideal
+Self Congruity on Luxury Brand; ISCLN – Ideal Self Congruity on Non-Luxury Brand.
+The ISCL mean (11.97) came in higher than the ASCL mean (11.78), meaning respondents' attitude
+toward buying and using luxury brands leans more on ideal self-congruity than actual self-congruity. For
+non-luxury brands, the pattern flips: the ASCLN mean (12.07) outpaced the ISCLN mean (11.73), showing
+respondents are driven more by actual self-congruity when it comes to non-luxury purchases.
+Mean Values for the Variables Across Different Age Groups
+AGE
+ASCL
+MTV
+ASCLN
+ISCL
+ISCLN
+SV
+SDR
+1
+12.21
+29.11
+12.37
+12.34
+12.11
+22.18
+11.53
+2
+11.51
+27.61
+11.86
+11.75
+11.41
+21.80
+11.06
+
+3
+11.71
+27.87
+12.04
+11.91
+11.78
+21.58
+11.11
+Total
+11.78
+28.12
+12.07
+11.97
+11.73
+21.84
+11.21
+Across every variable, the 18-25 age bracket posted the highest mean scores, showing they are more
+motivated than other age groups to buy and use both luxury and non-luxury brands, whether driven by
+actual or ideal self-congruity. They also placed more weight on materialistic values, social values, and
+social desirability compared to older respondents.
+Mean Values for the Variables Across Different Gender Groups
+GENDER
+ASCL
+MTV
+ASCLN
+ISCL
+ISCLN
+SV
+SDR
+1
+11.98
+30.53
+12.36
+12.20
+11.92
+24.09
+12.08
+2
+11.59
+25.91
+11.80
+11.76
+11.56
+19.77
+10.41
+Total
+11.78
+28.12
+12.07
+11.97
+11.73
+21.84
+11.21
+Male respondents scored higher than female respondents across every variable measured. Men appear
+more motivated to buy luxury brands based on both actual and ideal self-congruity, and place more value
+on materialistic factors (functionality), social factors (prestige, image, reputation), and social desirability
+than women do — though both genders still align in the overall pattern across variables.
+Mean Values for the Variables Across Different Education Groups
+EDUC
+ASCL
+MTV
+ASCLN
+ISCL
+ISCLN
+SV
+SDR
+1
+11.84
+26.11
+11.79
+11.95
+11.47
+18.53
+10.16
+2
+11.70
+28.64
+12.07
+11.97
+11.62
+22.74
+11.43
+3
+12.40
+26.60
+12.50
+12.20
+12.10
+22.30
+11.10
+4
+11.40
+32.40
+12.20
+11.80
+11.80
+26.80
+12.80
+5
+11.77
+28.00
+12.06
+11.94
+12.00
+20.90
+11.13
+Total
+11.78
+28.12
+12.07
+11.97
+11.73
+21.84
+11.21
+Respondents with a master's degree posted the highest means for ASCL, ASCLN, ISCL, and ISCLN,
+while those with a doctorate scored highest on materialistic value, social value, and social desirability. In
+other words, master's degree holders are more motivated to buy and use luxury brands based on
+self-congruity, while doctorate holders lean more on materialistic and social value along with social
+desirability.
+Mean Values for the Variables Across Different Income Groups
+INCOME
+ASCL
+MTV
+ASCLN
+ISCL
+ISCLN
+SV
+SDR
+1
+11.73
+25.20
+12.20
+12.23
+11.90
+18.30
+10.00
+2
+12.07
+28.77
+12.33
+12.20
+12.07
+22.67
+11.47
+3
+12.05
+30.73
+12.51
+12.30
+12.11
+24.03
+12.08
+4
+11.14
+29.19
+11.05
+11.24
+10.90
+23.05
+11.71
+5
+11.50
+24.94
+11.63
+11.25
+11.00
+20.25
+10.31
+Total
+11.78
+28.12
+12.07
+11.97
+11.73
+21.84
+11.21
+
+Respondents earning between 15,000-30,000 and 30,001-50,000 showed the strongest motivation to buy
+and use both luxury and non-luxury brands, whether based on actual or ideal self-congruity, compared to
+other income brackets. Materialistic value, social value, and social desirability as motivators peaked
+instead among the 30,001-50,000 and 50,001-75,000 income brackets. Overall, middle-income Filipino
+millennials appear more motivated to buy and use luxury brands, with a stronger focus on functionality,
+image or prestige, and social acceptance in their purchase and consumption decisions.
+ANOVA – Age
+Mean Square
+F
+Sig.
+ASCL
+5.489
+1.159
+.317
+MTV
+26.577
+.726
+.486
+ASCLN
+2.802
+.441
+.645
+ISCL
+3.999
+.768
+.466
+ISCLN
+5.309
+.761
+.469
+SV
+3.830
+.121
+.886
+SDR
+2.704
+.616
+.542
+None of the variables showed a statistically significant relationship with age.
+ANOVA – Gender
+Mean Square
+F
+Sig.
+ASCL
+5.313
+1.120
+.292
+MTV
+712.666
+22.759
+.000
+ASCLN
+10.461
+1.668
+.199
+ISCL
+6.650
+1.285
+.259
+ISCLN
+4.448
+.638
+.426
+SV
+624.608
+23.345
+.000
+SDR
+92.554
+25.056
+.000
+Gender showed a significant relationship with materialistic value, social value, and social desirability as
+motivators for purchase and consumption. Consistent with the mean values above, male respondents
+were more strongly motivated by materialistic value, social value, and social desirability than female
+respondents.
+ANOVA – Education
+Mean Square
+F
+Sig.
+ASCL
+1.282
+.264
+.900
+MTV
+52.690
+1.466
+.216
+ASCLN
+.857
+.132
+.970
+ISCL
+.180
+.034
+.998
+ISCLN
+1.422
+.200
+.938
+SV
+104.184
+3.594
+.008
+
+SDR
+9.371
+2.228
+.070
+Education showed no significant relationship with most variables, though it came close to significance for
+social value and social desirability. This suggests that as respondents attain higher levels of education,
+social value and social desirability start to play more of a role in their purchase and consumption
+decisions.
+ANOVA – Income
+Mean Square
+F
+Sig.
+ASCL
+3.772
+.790
+.534
+MTV
+176.612
+5.504
+.000
+ASCLN
+8.746
+1.404
+.236
+ISCL
+6.794
+1.322
+.265
+ISCLN
+8.096
+1.171
+.327
+SV
+161.124
+5.918
+.000
+SDR
+23.051
+6.094
+.000
+Income showed a significant relationship with materialistic value, social value, and social desirability — as
+income rises, respondents appear more motivated to buy and consume based on functionality, prestige,
+and social acceptance.
+Correlations
+S.N.
+Variables
+1
+2
+3
+4
+5
+6
+1
+ASCL
+2
+MTV
+0.16
+3
+ASCLN
+.891**
+0.12
+4
+ISCL
+.876**
+0.15
+.927**
+5
+ISCLN
+.872**
+0.12
+.942**
+.899**
+6
+SV
+0.14
+.893**
+0.11
+0.14
+0.10
+7
+SDR
+0.09
+.954**
+0.06
+0.08
+0.06
+.948**
+** Correlation is significant at the 0.01 level (2-tailed).
+ASCL correlates with ASCLN, ISCL, and ISCLN, meaning the motivation to buy and use luxury brands
+based on actual self-congruity is linked to ideal self-congruity attitudes toward both luxury and non-luxury
+brands, as well as to actual self-congruity toward non-luxury brands. In short, Filipino millennials' purchase
+and consumption patterns are interconnected regardless of whether the brand is luxury or non-luxury, or
+whether the motivation is actual or ideal self-congruity. Materialistic value also correlates strongly with
+social value and social desirability, indicating that respondents are strongly motivated by functionality,
+prestige/image/reputation, and social desirability or acceptance in their purchase and consumption
+choices.
+
+Conclusion
+The Filipino millennials' attitude toward buying and using luxury brands leans more heavily on ideal
+self-congruity than on actual self-congruity. Marketers should keep in mind that Filipino millennials are
+driven to buy and use luxury brands based on how they want to see themselves, which means they:
+– Want to picture themselves as part of the luxury brand's world
+– Want the people they admire to also use the luxury brand
+– Want to be associated with the kind of people who consume that luxury brand
+Recommendation
+Since Filipino millennials are motivated to buy and use luxury brands mainly through ideal self-congruity,
+marketers should consider the following:
+1. Luxury brands should feel relatable and consistent with, and should align closely with, the millennial
+consumer's ideal self.
+2. Marketers should choose endorsers, models, and advertising themes or slogans that align with Filipino
+millennials' ideal self — emphasizing functionality, image or reputation, and social desirability — across
+promotional strategy, packaging, and distribution channels that come across as upscale and refined.
+Because Filipino millennials' attitude toward luxury brand purchase and consumption is driven more by
+ideal self-congruity than actual self-congruity, marketers should keep this consistently in mind when
+shaping their strategy, since millennials:
+– Want to picture themselves as part of the luxury brand's world
+– Want the people they admire to also use the luxury brand
+– Want to be associated with the kind of people who consume that luxury brand
+One limitation worth noting is the absence of open-ended questions, which could have let respondents
+explain their views in more depth and offered a fuller picture of what really drives luxury consumption. That
+said, allowing open responses could also have produced answers only tangentially related to the specific
+luxury value dimensions under study, given how many other dimensions exist beyond those examined
+here. Open-ended questions were therefore left out to keep the survey from becoming too long.
+Future research could also take a qualitative approach instead, offering broader insight into the
+phenomenon and letting respondents express their views more freely. This could then be paired with a
+follow-up survey questionnaire built around whatever themes emerge from the qualitative findings, helping
+to zero in on the most relevant aspects of the phenomenon and surface new research directions.
+Luxury brand consumption remains a large and growing area, and there is plenty of room for further
+research into it.
+
+References
+Aaker, D. (1997). Managing Brand Equity (2nd ed.). New York, NY: Free Press.
+Ahuvia, A. & Wong, N. (2002). Personality and Values-Based Materialism: Their Relationship and Origins. Journal of
+Consumer Psychology, 12(4), 389-402.
+D'Arpizio, C., Levato, F., Zito, D., Kamel, M., & de Montgolfier, J. (2016). Luxury Goods Worldwide Market Study,
+fall-winter 2016: As Luxury Resets to a New Normal, Strategy Becomes Paramount. Bain & Company. Retrieved 9
+February 2017, from http://www.bain.com/Images/REPORT_Luxury_Goods_Worldwide_Market_Study_2016.pdf
+Ballantyne, D. & Varey, R. (2006). Creating Value-in-Use Through Marketing Interaction: The Exchange Logic of
+Relating, Communicating, and Knowing. Marketing Theory, 6(3), 335-348.
+De Barnier, V., Falcy, S., & Valette-Florence, P. (2012). Do Consumers Perceive Three Levels of Luxury? A
+Comparison of Accessible, Intermediate and Inaccessible Luxury Brands. Journal of Brand Management, 19(7),
+623-636.
+Bastien, V. (2015). Marketing to a High-End Consumer, Using The Luxury Strategy. Entrepreneur. Retrieved 19
+February 2017, from https://www.entrepreneur.com/article/250745
+Berthon, P., Pitt, L., Parent, M., & Berthon, J. (2009). Aesthetics and Ephemerality: Observing and Preserving the
+Luxury Brand. California Management Review, 52(1), 45-66.
+Brand Image & Equity. (2017). Rdagroup.com. Retrieved 12 March 2017, from
+http://www.rdagroup.com/FieldsofExpertise/AdditionalAreasofExpertise/BrandImageEquity.aspx
+Ciornea, R., Pop, D., BIcilI, M., & Drule, A. (2011). Measuring Luxury Value Perception:
+Corbellini, E. & Saviolo, S. (2009). Managing Fashion and Luxury Companies. Milan: Etas.
+Crowne, D., & Marlowe, D. (1960). A New Scale of Social Desirability Independent of Psychopathology. Journal of
+Consulting Psychology, 24(4), 349-354.
+Csikszentmihalyi, M. & Rochberg-Halton, E. (1978). Reflections on Materialism. University of Chicago Magazine,
+70(3), 6-15.
+Dubois, B., Laurent, G. & Czellar, S. (2001). Consumer Rapport to Luxury: Analyzing Complex and Ambivalent
+Attitudes. Les Cahiers de Recherche, 31(1), 1-56.
+Fionda, A. & Moore, C. (2009). The Anatomy of the Luxury Fashion Brand. Journal of Brand Management, 16(5-6),
+347-363.
+Giovannini, S., Xu, Y., & Thomas, J. (2015). Luxury Fashion Consumption and Generation Y Consumers. Journal of
+Fashion Marketing and Management: An International Journal, 19(1), 22-40.
+Han, Y., Nunes, J., & Drèze, X. (2010). Signaling Status with Luxury Goods: The Role of Brand Prominence. Journal
+of Marketing, 74(4), 15-30.
+Heine, K. (2012). The Concept of Luxury Brands. Retrieved 18 February 2017, from
+http://www.conceptofluxurybrands.com/content/Heine_TheConceptofLuxuryBrands.pdf
+Helgeson, J. & Supphellen, M. (2004). A Conceptual and Measurement Comparison of Self-Congruity and Brand
+Personality; The Impact of Socially Desirable Responding. International Journal of Market Research, 46(2),
+205-236.
+Hennigs, N., Wiedmann, K., Klarmann, C., & Behrens, S. (2015). The Complexity of Value in the Luxury Industry.
+International Journal of Retail & Distribution Management, 43(10/11), 922-939.
+Husic, M., & Cicic, M. (2009). Luxury Consumption Factors. Journal of Fashion Marketing and Management: An
+International Journal, 13(2), 231-245.
+Jung Choo, H., Moon, H., Kim, H., & Yoon, N. (2012). Luxury Customer Value. Journal of Fashion Marketing and
+Management: An International Journal, 16(1), 81-101.
+
+Kapferer, J. & Bastien, V. (2014). The Luxury Strategy: Break the Rules of Marketing to Build Luxury Brands (2nd
+ed.). London: Kogan Page.
+Marques for Millennials. (2014). The Economist. Retrieved 9 February 2017, from http://www.economist.com/news/sp
+ecial-report/21635762-young-people-choose-and-buy-differently-marques-millennials
+Seo, Y. & Buchanan-Oliver, M. (2015). Luxury Branding: The Industry, Trends, and Future Conceptualizations. Asia
+Pacific Journal of Marketing and Logistics, 27(1), 82-98.
+Solomon, M., Barmossy, G., Askegaard, S., & Hogg, M. (2016). Consumer Behaviour: A European Perspective (12th
+ed.). Harlow: Pearson.
+Turunen, L. (2015). Challenging the Hierarchical Categorization of Luxury Fashion Brands. Nordic Journal of
+Business, 64(2), 119-138.
+Tynan, C., McKechnie, S., & Chhuon, C. (2010). Co-Creating Value for Luxury Brands. Journal of Business Research,
+63(11), 1156-1163.
+Vigneron, F. & Johnson, L. (2004). Measuring Perceptions of Brand Luxury. Journal of Brand Management, 11(6),
+484-506.
+Wiedmann, K., Hennigs, N., & Siebels, A. (2007). Measuring Consumers' Luxury Value Perception: A Cross-Cultural
+Framework. Academy of Marketing Science, 7, 1-21.
+Zeithaml, V. (1988). Consumer Perceptions of Price, Quality, and Value: A Means-End Model and Synthesis of
+Evidence. Journal of Marketing, 52(3), 2-22.
