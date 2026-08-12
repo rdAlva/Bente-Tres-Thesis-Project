@@ -165,12 +165,18 @@ def login_required(f):
 # ============================================================
 # Routes
 # ============================================================
+@app.route('/admin')
+def admin_dashboard():
+    return render_template("admin_dashboard.html")
+
 @app.route('/')
 def home_login():
     if "user" in session:
         return redirect(url_for("home"))
 
     return redirect(url_for("login"))
+
+
 
 
 @app.route('/register', methods=['GET', 'POST'])
@@ -211,26 +217,51 @@ def login():
     if form.validate_on_submit():
         email = form.email.data.strip()
         password = form.password.data
+
         try:
             response = supabase.auth.sign_in_with_password({
                 "email": email,
                 "password": password
             })
+
             if response.user:
+
+                profile_response = (
+                    supabase
+                    .table("profiles")
+                    .select("role")
+                    .eq("id", response.user.id)
+                    .single()
+                    .execute()
+                )
+
+                role = profile_response.data["role"]
+
+                print("USER ROLE:", role)
+
                 session['logged_in'] = True
                 session['user'] = response.user.email
+                session['user_id'] = response.user.id
+                session['role'] = role
+
                 flash(
                     f"Welcome back, {response.user.email}!",
                     "success"
                 )
+                
+                print("USER ROLE:", role)
+                # Redirect based on role
+                if role == "admin":
+                    return redirect(url_for("admin_dashboard"))
+
                 return redirect(url_for("home"))
+
             flash(
                 "Invalid email or password.",
                 "danger"
             )
         except Exception as e:
             print("LOGIN ERROR:", repr(e))
-
             flash(
                 "Invalid email or password.",
                 "danger"
@@ -322,6 +353,7 @@ def reset_password():
             )
             return redirect(url_for('forgot_password'))
     return render_template('reset_password.html')
+
 
 @app.route('/logout')
 def logout():
