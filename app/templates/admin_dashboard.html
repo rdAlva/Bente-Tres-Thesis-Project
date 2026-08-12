@@ -1,40 +1,2740 @@
 {% extends "base.html" %}
 
-{% block title %}Admin Dashboard — HAUdemicCheck{% endblock %}
+{% block title %}Admin Panel — HAUdemicCheck{% endblock %}
 
 {% block content %}
 
-<div class="container mt-4">
+<div class="admin-panel">
 
-    <div class="text-center mb-4">
-        <h1 class="h3 fw-bold">Admin Dashboard</h1>
-        <p class="text-muted">
-            Welcome, {{ session['user'] }}
-        </p>
+    <!-- Header Section -->
+    <div class="admin-header">
+        <div class="admin-title-section">
+            <h1 class="admin-title">ADMIN PANEL</h1>
+            <p class="admin-subtitle">
+                Manage users, similarity settings, repository, and system health.
+            </p>
+        </div>
+
+        <button id="refreshBtn" class="btn-refresh" title="Refresh statistics">
+            <span class="refresh-icon">↻</span>
+            Refresh
+        </button>
     </div>
 
-    <div class="card shadow">
-        <div class="card-body p-4">
+    <!-- Top Statistics Cards -->
+    <div class="stats-grid">
 
-            <h2 class="h5">Administrator</h2>
+        <div class="stat-card">
+            <div class="stat-label">TOTAL USERS</div>
+            <div class="stat-value" id="totalUsers">—</div>
+            <div class="stat-sublabel">
+                <span id="activeUsers">—</span> active
+            </div>
+        </div>
 
-            <p>
-                You are logged in as an administrator.
+        <div class="stat-card">
+            <div class="stat-label">REPOSITORY DOCUMENTS</div>
+            <div class="stat-value" id="repoDocuments">—</div>
+            <div class="stat-sublabel">
+                <span id="reviewDocuments">—</span> in review
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-label">SIMILARITY THRESHOLD</div>
+            <div class="stat-value" id="thresholdValue">0.30</div>
+            <div class="stat-sublabel">
+                <span id="thresholdLabel">Balanced</span>
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-label">REPOSITORY HEALTH</div>
+            <div class="stat-value">
+                <span id="healthValue">—</span>/<span id="healthTotal">—</span>
+            </div>
+            <div class="stat-sublabel">
+                <span id="healthStatus">—</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Similarity Configuration -->
+    <div class="admin-section">
+
+        <h2 class="section-title">SIMILARITY CONFIGURATION</h2>
+
+        <div class="config-content">
+
+            <div class="threshold-display">
+                <span class="threshold-label">Similarity Threshold</span>
+                <span class="threshold-current" id="thresholdDisplay">0.30</span>
+            </div>
+
+            <div class="slider-container">
+
+                <div class="slider-labels">
+                    <span class="slider-label-min">0.25</span>
+                    <span class="slider-label-max">0.35</span>
+                </div>
+
+                <input
+                    type="range"
+                    id="thresholdSlider"
+                    class="threshold-slider"
+                    min="0.25"
+                    max="0.35"
+                    step="0.01"
+                    value="0.30"
+                    aria-label="Similarity Threshold"
+                    aria-valuemin="0.25"
+                    aria-valuemax="0.35"
+                    aria-valuenow="0.30"
+                    aria-valuetext="Balanced (0.30) - Recommended for general use"
+                >
+
+                <div class="slider-labels-reference">
+                    <span class="label-ref">High Sensitivity</span>
+                    <span class="label-ref">Balanced</span>
+                    <span class="label-ref">Strict</span>
+                </div>
+
+            </div>
+
+            <div class="threshold-descriptions">
+
+                <div class="threshold-desc-item">
+                    <div class="desc-value">0.25</div>
+                    <div class="desc-title">HIGH SENSITIVITY</div>
+                    <div class="desc-text">
+                        Detects more potential similarity cases.
+                    </div>
+                </div>
+
+                <div class="threshold-desc-item">
+                    <div class="desc-value">0.30</div>
+                    <div class="desc-title">BALANCED</div>
+                    <div class="desc-text">
+                        Recommended/default configuration for general use.
+                    </div>
+                </div>
+
+                <div class="threshold-desc-item">
+                    <div class="desc-value">0.35</div>
+                    <div class="desc-title">STRICT</div>
+                    <div class="desc-text">
+                        Requires a higher similarity score before withholding/reviewing a document.
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="threshold-status">
+                Current Configuration:
+                <strong>
+                    <span id="currentConfig">Balanced (0.30)</span>
+                </strong>
+            </div>
+
+            <button id="saveThresholdBtn" class="btn-primary">
+                Save Threshold
+            </button>
+
+            <div id="thresholdMessage" class="threshold-message"></div>
+
+        </div>
+    </div>
+
+    <!-- Current Similarity Algorithm -->
+    <div class="admin-section">
+
+        <h2 class="section-title">CURRENT SIMILARITY ALGORITHM</h2>
+
+        <div class="algorithm-content">
+
+            <div class="algorithm-formula">
+                <div class="formula-title">Combined Similarity Score</div>
+
+                <div class="formula-math">
+                    <div class="formula-line">
+                        S<sub>combined</sub> =
+                        <span class="formula-fraction">
+                            (C + J₁ + J₂ + J₃) / 4
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="algorithm-components">
+
+                <div class="component">
+                    <strong>C</strong> = TF-IDF Cosine Similarity
+                </div>
+
+                <div class="component">
+                    <strong>J₁</strong> = Unigram Jaccard Similarity
+                </div>
+
+                <div class="component">
+                    <strong>J₂</strong> = Bigram Jaccard Similarity
+                </div>
+
+                <div class="component">
+                    <strong>J₃</strong> = Trigram Jaccard Similarity
+                </div>
+
+            </div>
+
+            <p class="algorithm-explanation">
+                The system calculates the final document similarity score by
+                averaging the TF-IDF cosine similarity and the three Jaccard
+                similarity scores.
             </p>
 
-            <p>
-                Role:
-                <strong>{{ session['role'] }}</strong>
-            </p>
+            <div class="decision-rule">
 
-            <a href="{{ url_for('logout') }}"
-               class="btn btn-danger">
-                Log Out
-            </a>
+                <div class="rule-title">DECISION RULE</div>
+
+                <div class="rule-condition">
+                    If:
+                    <strong>S<sub>combined</sub> ≥ Threshold</strong>
+                    →
+                    <span class="badge status-pill status-flagged">
+                        WITHHOLD / REVIEW
+                    </span>
+                </div>
+
+                <div class="rule-condition">
+                    If:
+                    <strong>S<sub>combined</sub> &lt; Threshold</strong>
+                    →
+                    <span class="badge status-pill status-clear">
+                        PROMOTE
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Repository Health -->
+    <div class="admin-section">
+
+        <h2 class="section-title">REPOSITORY HEALTH</h2>
+
+        <div class="health-content">
+
+            <div class="health-metrics">
+
+                <div class="metric-item">
+                    <div class="metric-label">Promoted Documents</div>
+                    <div class="metric-value" id="promotedCount">—</div>
+                </div>
+
+                <div class="metric-item">
+                    <div class="metric-label">Persistent Processed Copies</div>
+                    <div class="metric-value" id="processedCount">—</div>
+                </div>
+
+                <div class="metric-item">
+                    <div class="metric-label">Missing Processed Copies</div>
+                    <div class="metric-value" id="missingCount">—</div>
+                </div>
+
+            </div>
+
+            <div class="health-status-box" id="healthStatusBox">
+                <span class="status-indicator">✓</span>
+                <span id="healthStatusText">Repository Synchronized</span>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Repository Documents -->
+    <div class="admin-section">
+
+        <h2 class="section-title">REPOSITORY DOCUMENTS</h2>
+
+        <div class="repo-content">
+
+            <div class="repo-header">
+
+                <div class="repo-count" id="repoDocCount">
+                    0 documents
+                </div>
+
+                <div class="repo-search">
+
+                    <div class="search-input-wrapper">
+
+                        <i
+                            class="bi bi-search search-icon"
+                            aria-hidden="true"
+                        ></i>
+
+                        <input
+                            type="text"
+                            id="repoSearchInput"
+                            class="search-input"
+                            placeholder="Search repository documents..."
+                        >
+
+                        <button
+                            id="clearSearchBtn"
+                            class="btn-clear-search"
+                            style="display: none;"
+                            aria-label="Clear search"
+                            type="button"
+                        >
+                            ✕
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="repo-table-container">
+
+                <table class="repo-table">
+
+                    <thead class="table-head">
+                        <tr>
+                            <th>DOCUMENT</th>
+                            <th>ADDED</th>
+                            <th class="text-end">ACTION</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="repoTableBody" class="table-body">
+
+                        <tr class="table-loading">
+                            <td colspan="3">
+                                Loading documents...
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <div
+                id="noResultsMessage"
+                class="no-results"
+                style="display: none;"
+            >
+                <i class="bi bi-folder2-open"></i>
+                <p>No matching documents found.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- User Management Section -->
+    <div class="admin-section">
+        <h2 class="section-title">USER MANAGEMENT</h2>
+
+        <div class="user-content">
+            <div class="user-header">
+                <div id="userCount" class="user-count">0 users</div>
+
+                <button id="addUserBtn" class="btn-add-user" title="Add a new user">
+                    <i class="bi bi-plus"></i> Add User
+                </button>
+            </div>
+
+            <div class="user-table-container">
+                <table class="user-table">
+                    <thead class="table-head">
+                        <tr>
+                            <th>USER</th>
+                            <th>ROLE</th>
+                            <th class="text-end">ACTION</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="userTableBody" class="table-body">
+                        <tr class="table-loading">
+                            <td colspan="3">Loading users...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- System Status -->
+    <div class="admin-section">
+
+        <h2 class="section-title">SYSTEM STATUS</h2>
+
+        <div class="status-grid">
+
+            <div class="status-item" id="authStatus">
+                <span class="status-indicator status-operational">✓</span>
+                <span class="status-label">User Authentication</span>
+            </div>
+
+            <div class="status-item" id="uploadStatus">
+                <span class="status-indicator status-operational">✓</span>
+                <span class="status-label">Document Upload</span>
+            </div>
+
+            <div class="status-item" id="preStatus">
+                <span class="status-indicator status-operational">✓</span>
+                <span class="status-label">Text Preprocessing</span>
+            </div>
+
+            <div class="status-item" id="simStatus">
+                <span class="status-indicator status-operational">✓</span>
+                <span class="status-label">Similarity Analysis</span>
+            </div>
+
+            <div class="status-item" id="repoStatus">
+                <span class="status-indicator status-operational">✓</span>
+                <span class="status-label">Repository</span>
+            </div>
+
+            <div class="status-item" id="procStatus">
+                <span class="status-indicator status-operational">✓</span>
+                <span class="status-label">Persistent Processing</span>
+            </div>
 
         </div>
     </div>
 
 </div>
+
+<!-- Confirmation Modal -->
+<div
+    id="confirmModal"
+    class="modal"
+    style="display: none;"
+    role="alertdialog"
+    aria-modal="true"
+    aria-labelledby="confirmTitle"
+    aria-describedby="confirmMessage"
+>
+
+    <div class="modal-content">
+
+        <div class="modal-header">
+            <h3 id="confirmTitle">Confirm Action</h3>
+        </div>
+
+        <div class="modal-body">
+            <p id="confirmMessage"></p>
+        </div>
+
+        <div class="modal-footer">
+            <button id="confirmCancel" class="btn-secondary" type="button">
+                Cancel
+            </button>
+
+            <button id="confirmOk" class="btn-danger" type="button">
+                Confirm
+            </button>
+        </div>
+
+    </div>
+</div>
+
+<!-- Add User Modal -->
+<div
+    id="addUserModal"
+    class="modal"
+    style="display: none;"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="addUserModalTitle"
+>
+
+    <div class="modal-content">
+
+        <div class="modal-header">
+
+            <h3 id="addUserModalTitle">
+                Add New User
+            </h3>
+
+            <button
+                class="modal-close"
+                type="button"
+                aria-label="Close"
+            >
+                &times;
+            </button>
+
+        </div>
+
+        <form id="addUserForm" class="modal-form">
+
+            <div class="modal-body">
+
+                <div class="form-group">
+                    <label for="addUserName">Name:</label>
+
+                    <input
+                        type="text"
+                        id="addUserName"
+                        name="name"
+                        autocomplete="name"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="addUserEmail">Email:</label>
+
+                    <input
+                        type="email"
+                        id="addUserEmail"
+                        name="email"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="addUserPassword">Password:</label>
+
+                    <input
+                        type="password"
+                        id="addUserPassword"
+                        name="password"
+                        autocomplete="new-password"
+                        required
+                    >
+
+                    <small class="form-hint">
+                        Minimum 8 characters, include uppercase, lowercase,
+                        and numbers.
+                    </small>
+                </div>
+
+                <div class="form-group">
+                    <label for="addUserRole">Role:</label>
+
+                    <select
+                        id="addUserRole"
+                        name="role"
+                        required
+                    >
+                        <option value="">Select a role</option>
+                        <option value="instructor">Instructor</option>
+                        <option value="admin">Admin</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+
+                <button
+                    type="button"
+                    class="btn-secondary modal-close-btn"
+                >
+                    Cancel
+                </button>
+
+                <button
+                    type="submit"
+                    class="btn-primary"
+                >
+                    Create User
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+</div>
+
+
+<style>
+
+/* =========================================================
+   HAUdemicCheck Admin Panel
+   ========================================================= */
+
+:root {
+    --hau-maroon: #6B0F1A;
+    --hau-maroon-dark: #4A0A12;
+    --hau-maroon-light: #8A1B27;
+
+    --hau-gold: #C5A028;
+    --hau-gold-light: #E0C468;
+
+    --hau-cream: #FAF6EC;
+
+    --hau-text: #2A2321;
+    --hau-text-muted: #6B5F5B;
+
+    --card-bg: #FFFFFF;
+
+    --border-color: rgba(107, 15, 26, 0.15);
+    --border-color-subtle: rgba(0, 0, 0, 0.06);
+
+    --success-color: #1E8E3E;
+    --success-bg: #E8F5E9;
+
+    --warning-color: #A66A00;
+    --warning-bg: #FFF3CD;
+
+    --error-color: #B3261E;
+    --error-bg: #FFEBEE;
+
+    --shadow-sm: 0 1px 3px rgba(107, 15, 26, 0.08);
+    --shadow-md: 0 4px 12px rgba(107, 15, 26, 0.1);
+    --shadow-lg: 0 8px 24px rgba(107, 15, 26, 0.15);
+
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+
+    --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --font-main:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+
+    --font-mono:
+        "SFMono-Regular",
+        Consolas,
+        "Liberation Mono",
+        Menlo,
+        monospace;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+.admin-panel {
+    font-family: var(--font-main);
+    color: var(--hau-text);
+    background-color: var(--hau-cream);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+.admin-panel {
+    min-height: 100vh;
+    padding: 2.5rem 1.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+}
+
+.admin-title {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: var(--hau-maroon);
+    margin: 0;
+    letter-spacing: -0.5px;
+}
+
+.admin-subtitle {
+    font-size: 0.95rem;
+    color: var(--hau-text-muted);
+    margin: 0.35rem 0 0;
+}
+
+.btn-refresh {
+    background-color: var(--hau-maroon);
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: var(--transition);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-refresh:hover {
+    background-color: var(--hau-maroon-dark);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-refresh:active {
+    transform: translateY(0);
+}
+
+/* Statistics */
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.stat-card {
+    background-color: var(--card-bg);
+    border-left: 4px solid var(--hau-maroon);
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.stat-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--hau-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.5rem;
+}
+
+.stat-value {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: var(--hau-maroon);
+    line-height: 1.1;
+    margin-bottom: 0.35rem;
+}
+
+.stat-sublabel {
+    font-size: 0.85rem;
+    color: var(--hau-text-muted);
+}
+
+/* Sections */
+
+.admin-section {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 1.75rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.admin-section-row {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(350px, 1fr)
+    );
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.admin-section-half {
+    margin-bottom: 0;
+}
+
+.section-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--hau-maroon);
+    margin: 0 0 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--hau-gold);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Configuration */
+
+.config-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.threshold-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.25rem;
+    background: var(--hau-cream);
+    border-radius: var(--radius-sm);
+}
+
+.threshold-label {
+    font-weight: 600;
+}
+
+.threshold-current {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var(--hau-maroon);
+}
+
+.slider-container {
+    width: 100%;
+}
+
+.slider-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.4rem;
+}
+
+.threshold-slider {
+    width: 100%;
+    accent-color: var(--hau-maroon);
+    cursor: pointer;
+    height: 6px;
+}
+
+.threshold-slider:focus-visible {
+    outline: 2px solid var(--hau-gold);
+    outline-offset: 4px;
+}
+
+.slider-labels-reference {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--hau-text-muted);
+}
+
+.threshold-descriptions {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(140px, 1fr)
+    );
+    gap: 1rem;
+}
+
+.threshold-desc-item {
+    background: #FAF9F6;
+    border-left: 3px solid var(--hau-maroon);
+    padding: 1rem;
+    border-radius: var(--radius-sm);
+}
+
+.desc-value {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--hau-maroon);
+}
+
+.desc-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0.25rem;
+}
+
+.desc-text {
+    font-size: 0.8rem;
+    color: var(--hau-text-muted);
+    margin-top: 0.25rem;
+}
+
+.threshold-status {
+    background: var(--hau-cream);
+    padding: 0.85rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+}
+
+.threshold-message {
+    font-size: 0.85rem;
+    padding: 0.85rem;
+    border-radius: var(--radius-sm);
+    display: none;
+    font-weight: 500;
+}
+
+.threshold-message.success {
+    display: block;
+    background: var(--success-bg);
+    color: var(--success-color);
+}
+
+.threshold-message.error {
+    display: block;
+    background: var(--error-bg);
+    color: var(--error-color);
+}
+
+/* Algorithm */
+
+.algorithm-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.algorithm-formula {
+    background: #FAF9F6;
+    border-left: 4px solid var(--hau-gold);
+    padding: 1.25rem;
+    border-radius: var(--radius-sm);
+}
+
+.formula-title {
+    font-weight: 700;
+    color: var(--hau-maroon);
+    margin-bottom: 0.5rem;
+}
+
+.formula-math {
+    font-family: var(--font-mono);
+    background: #fff;
+    padding: 0.85rem 1rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-color-subtle);
+    overflow-x: auto;
+}
+
+.formula-line {
+    font-size: 0.95rem;
+}
+
+.algorithm-components {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(180px, 1fr)
+    );
+    gap: 0.75rem;
+}
+
+.component {
+    background: #FAF9F6;
+    padding: 0.85rem;
+    border-left: 3px solid var(--hau-maroon);
+    border-radius: var(--radius-sm);
+    font-size: 0.85rem;
+}
+
+.algorithm-explanation {
+    color: var(--hau-text-muted);
+}
+
+.decision-rule {
+    background: rgba(197, 160, 40, 0.15);
+    border-left: 4px solid var(--hau-gold);
+    padding: 1.25rem;
+    border-radius: var(--radius-sm);
+}
+
+.rule-title {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--hau-maroon-dark);
+}
+
+.rule-condition {
+    margin: 0.5rem 0;
+}
+
+/* Badges */
+
+.status-pill {
+    font-weight: 600;
+    font-size: 0.75rem;
+    padding: 0.35em 0.85em;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 9999px;
+}
+
+.status-flagged {
+    background-color: var(--error-color);
+    color: #fff;
+}
+
+.status-clear {
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+/* Health */
+
+.health-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.health-metrics {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(140px, 1fr)
+    );
+    gap: 1rem;
+}
+
+.metric-item {
+    background: #FAF9F6;
+    text-align: center;
+    padding: 1.25rem 1rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-color-subtle);
+}
+
+.metric-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--hau-text-muted);
+    margin-bottom: 0.5rem;
+}
+
+.metric-value {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var(--hau-maroon);
+}
+
+.health-status-box {
+    background: var(--success-bg);
+    border-left: 4px solid var(--success-color);
+    padding: 0.85rem 1rem;
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-weight: 500;
+}
+
+.health-status-box.warning {
+    background: var(--warning-bg);
+    border-left-color: var(--warning-color);
+}
+
+.health-status-box.error {
+    background: var(--error-bg);
+    border-left-color: var(--error-color);
+}
+
+/* Tables */
+
+.repo-header,
+.user-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.repo-count,
+.user-count {
+    font-weight: 600;
+    color: var(--hau-text-muted);
+    font-size: 0.9rem;
+}
+
+.repo-search {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search-input-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 0.85rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--hau-text-muted);
+    pointer-events: none;
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.65rem 2.5rem 0.65rem 2.4rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+    background: #fff;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--hau-maroon);
+    box-shadow: 0 0 0 3px rgba(107, 15, 26, 0.12);
+}
+
+.btn-clear-search {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--hau-text-muted);
+}
+
+.repo-table-container,
+.user-table-container {
+    overflow: auto;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+}
+
+.repo-table-container {
+    max-height: 400px;
+}
+
+.user-table-container {
+    max-height: 320px;
+}
+
+.repo-table,
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table-head th {
+    background: #F4F1EA;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    padding: 0.85rem 1rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: var(--hau-text-muted);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.table-body td {
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid var(--border-color-subtle);
+    font-size: 0.9rem;
+}
+
+.table-body tr:hover {
+    background-color: rgba(107, 15, 26, 0.02);
+}
+
+.text-end {
+    text-align: right;
+}
+
+.doc-info,
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.doc-icon {
+    font-size: 1.25rem;
+    color: var(--hau-maroon);
+}
+
+.date-added {
+    font-size: 0.85rem;
+    color: var(--hau-text-muted);
+}
+
+.table-empty {
+    text-align: center;
+    color: var(--hau-text-muted);
+}
+
+.table-empty td {
+    padding: 3rem 1rem;
+}
+
+.table-empty i {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 0.5rem;
+    opacity: 0.4;
+}
+
+/* Buttons */
+
+.btn-icon {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 0.35rem 0.5rem;
+    border-radius: var(--radius-sm);
+    transition: var(--transition);
+}
+
+.btn-remove,
+.btn-delete {
+    color: var(--error-color);
+}
+
+.btn-remove:hover,
+.btn-delete:hover {
+    background-color: var(--error-bg);
+}
+
+.btn-edit {
+    color: var(--hau-text-muted);
+}
+
+.btn-edit:hover {
+    background-color: #EFEFEF;
+}
+
+.btn-add-user {
+    background-color: var(--hau-maroon);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.btn-add-user:hover {
+    background-color: var(--hau-maroon-dark);
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-danger {
+    padding: 0.6rem 1.25rem;
+    border: none;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: var(--hau-maroon);
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: var(--hau-maroon-dark);
+}
+
+.btn-secondary {
+    background: #6C757D;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background: #5A6268;
+}
+
+.btn-danger {
+    background: var(--error-color);
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background: #961F18;
+}
+
+/* Users */
+
+.user-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.user-avatar {
+    width: 36px;
+    height: 36px;
+    background-color: var(--hau-maroon);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.user-name {
+    display: block;
+    font-weight: 600;
+}
+
+.user-email {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--hau-text-muted);
+}
+
+.role-badge {
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.3em 0.8em;
+    border-radius: 9999px;
+}
+
+.role-admin {
+    background-color: var(--hau-maroon);
+    color: #fff;
+}
+
+.role-instructor {
+    background-color: var(--hau-gold-light);
+    color: var(--hau-maroon-dark);
+}
+
+/* Activity */
+
+.activity-timestamp {
+    font-size: 0.8rem;
+    color: var(--hau-text-muted);
+}
+
+.activity-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 0.85rem 0;
+    border-bottom: 1px solid var(--border-color-subtle);
+}
+
+.activity-item:last-child {
+    border-bottom: none;
+}
+
+.activity-icon {
+    font-size: 1.25rem;
+    color: var(--hau-maroon);
+}
+
+.activity-description {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.activity-timestamp {
+    font-size: 0.8rem;
+    color: var(--hau-text-muted);
+}
+
+.activity-loading {
+    color: var(--hau-text-muted);
+    padding: 1rem 0;
+}
+
+/* System Status */
+
+.status-grid {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(180px, 1fr)
+    );
+    gap: 1rem;
+}
+
+.status-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.85rem;
+    background: #FAF9F6;
+    border-left: 3px solid var(--success-color);
+    border-radius: var(--radius-sm);
+}
+
+.status-item.warning {
+    border-left-color: var(--warning-color);
+}
+
+.status-item.error {
+    border-left-color: var(--error-color);
+}
+
+.status-operational {
+    color: var(--success-color);
+}
+
+.status-warning {
+    color: var(--warning-color);
+}
+
+.status-error {
+    color: var(--error-color);
+}
+
+.status-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/* Modals */
+
+.modal {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(42, 35, 33, 0.6);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    padding: 1rem;
+}
+
+.modal-content {
+    background: #fff;
+    border-radius: var(--radius-md);
+    max-width: 500px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: var(--shadow-lg);
+}
+
+.modal-header {
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid var(--border-color-subtle);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header h3 {
+    margin: 0;
+    color: var(--hau-maroon);
+}
+
+.modal-close {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--hau-text-muted);
+}
+
+.modal-body {
+    padding: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1.25rem;
+}
+
+.form-group:last-child {
+    margin-bottom: 0;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-bottom: 0.4rem;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 0.65rem 0.85rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: var(--hau-maroon);
+    box-shadow: 0 0 0 3px rgba(107, 15, 26, 0.1);
+}
+
+.form-hint {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--hau-text-muted);
+    margin-top: 0.35rem;
+}
+
+.modal-footer {
+    padding: 1rem 1.5rem;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.75rem;
+    background-color: #FAF9F6;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .admin-panel {
+        padding: 1.25rem 0.85rem;
+    }
+
+    .admin-section-row {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-title {
+        font-size: 1.8rem;
+    }
+
+    .stat-value {
+        font-size: 1.85rem;
+    }
+
+    .repo-header,
+    .user-header {
+        align-items: stretch;
+    }
+
+    .repo-search {
+        justify-content: stretch;
+    }
+
+    .search-input-wrapper {
+        max-width: none;
+    }
+
+    .admin-section {
+        padding: 1.25rem;
+    }
+}
+
+</style>
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+    initializeAdminPanel();
+});
+
+
+function initializeAdminPanel() {
+
+    loadStats();
+    loadRepositoryFiles();
+    loadUsers();
+    loadSystemStatus();
+
+    document
+        .getElementById("refreshBtn")
+        .addEventListener("click", refreshAll);
+
+    document
+        .getElementById("thresholdSlider")
+        .addEventListener("input", updateThresholdDisplay);
+
+    document
+        .getElementById("saveThresholdBtn")
+        .addEventListener("click", saveThreshold);
+
+    document
+        .getElementById("repoSearchInput")
+        .addEventListener("input", debounce(searchRepository, 300));
+
+    document
+        .getElementById("clearSearchBtn")
+        .addEventListener("click", clearSearch);
+
+    document
+        .getElementById("addUserBtn")
+        .addEventListener("click", openAddUserModal);
+
+    document
+        .querySelectorAll(".modal-close, .modal-close-btn")
+        .forEach(function (btn) {
+            btn.addEventListener("click", closeAddUserModal);
+        });
+
+    document
+        .getElementById("addUserModal")
+        .addEventListener("click", function (event) {
+            if (event.target === this) {
+                closeAddUserModal();
+            }
+        });
+
+    document
+        .getElementById("addUserForm")
+        .addEventListener("submit", submitAddUser);
+
+    document.addEventListener("keydown", function (event) {
+
+        if (event.key !== "Escape") {
+            return;
+        }
+
+        const addModal = document.getElementById("addUserModal");
+        const confirmModal = document.getElementById("confirmModal");
+
+        if (addModal.style.display === "flex") {
+            closeAddUserModal();
+        }
+
+        if (confirmModal.style.display === "flex") {
+            confirmModal.style.display = "none";
+        }
+    });
+}
+
+
+/* =========================================================
+   Statistics
+   ========================================================= */
+
+function loadStats() {
+
+    fetch("/api/admin/stats")
+        .then(handleResponse)
+        .then(function (data) {
+
+            const totalUsers =
+                Number(data.total_users) || 0;
+
+            const activeUsers =
+                Number(data.active_users) || 0;
+
+            const repositoryDocuments =
+                Number(data.repository_documents) || 0;
+
+            const reviewDocuments =
+                Number(data.review_documents) || 0;
+
+            const threshold =
+                Number(data.similarity_threshold ?? 0.30);
+
+            const promotedCopies =
+                Number(data.promoted_copies) || 0;
+
+            const processedCopies =
+                Number(data.processed_copies) || 0;
+
+            const missingCopies =
+                Number(data.missing_copies) || 0;
+
+            document.getElementById("totalUsers").textContent =
+                totalUsers;
+
+            document.getElementById("activeUsers").textContent =
+                activeUsers;
+
+            document.getElementById("repoDocuments").textContent =
+                repositoryDocuments;
+
+            document.getElementById("reviewDocuments").textContent =
+                reviewDocuments;
+
+            document.getElementById("thresholdValue").textContent =
+                threshold.toFixed(2);
+
+            document.getElementById("thresholdDisplay").textContent =
+                threshold.toFixed(2);
+
+            document.getElementById("thresholdSlider").value =
+                threshold;
+
+            updateThresholdLabel(threshold);
+
+            document.getElementById("promotedCount").textContent =
+                promotedCopies;
+
+            document.getElementById("processedCount").textContent =
+                processedCopies;
+
+            document.getElementById("missingCount").textContent =
+                missingCopies;
+
+            document.getElementById("healthValue").textContent =
+                processedCopies;
+
+            document.getElementById("healthTotal").textContent =
+                promotedCopies;
+
+            updateHealthStatus(missingCopies);
+        })
+        .catch(function (error) {
+            console.error("Stats error:", error);
+        });
+}
+
+
+function updateHealthStatus(missingCopies) {
+
+    const healthBox =
+        document.getElementById("healthStatusBox");
+
+    const healthText =
+        document.getElementById("healthStatusText");
+
+    const healthStatus =
+        document.getElementById("healthStatus");
+
+    if (missingCopies > 0) {
+
+        healthBox.className =
+            "health-status-box warning";
+
+        healthText.textContent =
+            missingCopies + " processed copies missing";
+
+        healthStatus.textContent =
+            "Warning";
+
+    } else {
+
+        healthBox.className =
+            "health-status-box";
+
+        healthText.textContent =
+            "Repository Synchronized";
+
+        healthStatus.textContent =
+            "Healthy";
+    }
+}
+
+
+/* =========================================================
+   Threshold
+   ========================================================= */
+
+function updateThresholdLabel(value) {
+
+    let label = "Custom";
+
+    if (Math.abs(value - 0.25) < 0.001) {
+        label = "High Sensitivity";
+    } else if (Math.abs(value - 0.30) < 0.001) {
+        label = "Balanced";
+    } else if (Math.abs(value - 0.35) < 0.001) {
+        label = "Strict";
+    }
+
+    document.getElementById("thresholdLabel").textContent =
+        label;
+
+    document.getElementById("currentConfig").textContent =
+        label + " (" + value.toFixed(2) + ")";
+
+    return label;
+}
+
+
+function updateThresholdDisplay() {
+
+    const slider =
+        document.getElementById("thresholdSlider");
+
+    const value =
+        parseFloat(slider.value);
+
+    document.getElementById("thresholdDisplay").textContent =
+        value.toFixed(2);
+
+    const label =
+        updateThresholdLabel(value);
+
+    slider.setAttribute(
+        "aria-valuenow",
+        value.toFixed(2)
+    );
+
+    slider.setAttribute(
+        "aria-valuetext",
+        label + " (" + value.toFixed(2) + ")"
+    );
+}
+
+
+function saveThreshold() {
+
+    const value =
+        parseFloat(
+            document.getElementById("thresholdSlider").value
+        );
+
+    fetch("/api/admin/threshold", {
+
+        method: "POST",
+
+        headers: {
+            "Content-Type": "application/json"
+        },
+
+        body: JSON.stringify({
+            threshold: value
+        })
+
+    })
+        .then(handleResponse)
+
+        .then(function (data) {
+
+            if (data.success) {
+
+                showMessage(
+                    "Threshold updated successfully.",
+                    "success"
+                );
+
+                document.getElementById("thresholdValue")
+                    .textContent = value.toFixed(2);
+
+            } else {
+
+                showMessage(
+                    data.error || "Error saving threshold.",
+                    "error"
+                );
+            }
+        })
+
+        .catch(function (error) {
+
+            console.error("Threshold error:", error);
+
+            showMessage(
+                "Network error while saving threshold.",
+                "error"
+            );
+        });
+}
+
+
+/* =========================================================
+   Repository
+   ========================================================= */
+
+function loadRepositoryFiles() {
+
+    fetch("/api/admin/repository")
+        .then(handleResponse)
+        .then(function (files) {
+
+            if (!Array.isArray(files)) {
+                files = [];
+            }
+
+            displayRepositoryFiles(files);
+
+            updateRepositoryCount(files.length);
+        })
+
+        .catch(function (error) {
+
+            console.error("Repository error:", error);
+
+            document.getElementById("repoTableBody").innerHTML = `
+                <tr class="table-empty">
+                    <td colspan="3">
+                        <i class="bi bi-exclamation-circle"></i>
+                        <p>Error loading repository.</p>
+                    </td>
+                </tr>
+            `;
+        });
+}
+
+
+function updateRepositoryCount(count) {
+
+    document.getElementById("repoDocCount").textContent =
+        count + " document" + (count !== 1 ? "s" : "");
+}
+
+
+function displayRepositoryFiles(files) {
+
+    const tbody =
+        document.getElementById("repoTableBody");
+
+    const noResults =
+        document.getElementById("noResultsMessage");
+
+    tbody.innerHTML = "";
+
+    if (!files || files.length === 0) {
+
+        tbody.innerHTML = `
+            <tr class="table-empty">
+                <td colspan="3">
+                    <i class="bi bi-folder2-open"></i>
+                    <p>No documents in repository</p>
+                </td>
+            </tr>
+        `;
+
+        return;
+    }
+
+    noResults.style.display = "none";
+
+    files.forEach(function (file) {
+
+        const row =
+            document.createElement("tr");
+
+        const filename =
+            String(file.filename || "Unknown");
+
+        const date =
+            file.date_added
+                ? new Date(file.date_added).toLocaleDateString()
+                : "Unknown";
+
+        row.innerHTML = `
+            <td>
+                <div class="doc-info">
+                    <i class="bi bi-file-earmark-pdf doc-icon"></i>
+                    <span>${escapeHtml(filename)}</span>
+                </div>
+            </td>
+
+            <td>
+                <span class="date-added">
+                    ${escapeHtml(date)}
+                </span>
+            </td>
+
+            <td class="text-end">
+                <button
+                    class="btn-icon btn-remove"
+                    type="button"
+                    title="Remove document"
+                    data-filename="${escapeHtml(filename)}"
+                >
+                    <i class="bi bi-trash"></i>
+                </button>
+            </td>
+        `;
+
+        const deleteButton =
+            row.querySelector(".btn-remove");
+
+        deleteButton.addEventListener(
+            "click",
+            function () {
+                deleteDocument(filename);
+            }
+        );
+
+        tbody.appendChild(row);
+    });
+}
+
+
+function deleteDocument(filename) {
+
+    showConfirmDialog(
+        'Remove document "' +
+            filename +
+            '" from the repository? This action cannot be undone.',
+
+        function () {
+
+            fetch(
+                "/api/admin/repository/" +
+                    encodeURIComponent(filename),
+                {
+                    method: "DELETE"
+                }
+            )
+
+                .then(handleResponse)
+
+                .then(function (data) {
+
+                    if (data.error) {
+                        throw new Error(data.error);
+                    }
+
+                    showMessage(
+                        "Document removed successfully.",
+                        "success"
+                    );
+
+                    loadRepositoryFiles();
+                    loadStats();
+                })
+
+                .catch(function (error) {
+
+                    console.error(
+                        "Delete document error:",
+                        error
+                    );
+
+                    showMessage(
+                        error.message ||
+                            "Error removing document.",
+                        "error"
+                    );
+                });
+        }
+    );
+}
+
+
+/* =========================================================
+   Repository Search
+   ========================================================= */
+
+function searchRepository() {
+
+    const query =
+        document
+            .getElementById("repoSearchInput")
+            .value
+            .trim();
+
+    const clearButton =
+        document.getElementById("clearSearchBtn");
+
+    const noResults =
+        document.getElementById("noResultsMessage");
+
+    if (!query) {
+
+        clearSearch();
+
+        return;
+    }
+
+    clearButton.style.display = "block";
+
+    fetch(
+        "/api/admin/repository/search?q=" +
+            encodeURIComponent(query)
+    )
+
+        .then(handleResponse)
+
+        .then(function (files) {
+
+            if (!Array.isArray(files)) {
+                files = [];
+            }
+
+            if (files.length === 0) {
+
+                document.getElementById(
+                    "repoTableBody"
+                ).innerHTML = "";
+
+                noResults.style.display = "block";
+
+            } else {
+
+                noResults.style.display = "none";
+
+                displayRepositoryFiles(files);
+            }
+
+            document.getElementById(
+                "repoDocCount"
+            ).textContent =
+                "Showing " +
+                files.length +
+                " result(s)";
+        })
+
+        .catch(function (error) {
+
+            console.error(
+                "Repository search error:",
+                error
+            );
+        });
+}
+
+
+function clearSearch() {
+
+    document.getElementById(
+        "repoSearchInput"
+    ).value = "";
+
+    document.getElementById(
+        "clearSearchBtn"
+    ).style.display = "none";
+
+    document.getElementById(
+        "noResultsMessage"
+    ).style.display = "none";
+
+    loadRepositoryFiles();
+}
+
+
+/* =========================================================
+   Users
+   ========================================================= */
+
+function loadUsers() {
+
+    fetch("/api/admin/users")
+
+        .then(handleResponse)
+
+        .then(function (data) {
+
+            const users =
+                Array.isArray(data) ? data : [];
+
+            const tbody =
+                document.getElementById(
+                    "userTableBody"
+                );
+
+            tbody.innerHTML = "";
+
+            document.getElementById(
+                "userCount"
+            ).textContent =
+                users.length +
+                " user" +
+                (users.length !== 1 ? "s" : "");
+
+            if (users.length === 0) {
+
+                tbody.innerHTML = `
+                    <tr class="table-empty">
+                        <td colspan="3">
+                            <i class="bi bi-people"></i>
+                            <p>No users found</p>
+                        </td>
+                    </tr>
+                `;
+
+                return;
+            }
+
+            users.forEach(function (user) {
+
+                const name =
+                    user.name ||
+                    user.email ||
+                    "Unknown";
+
+                const email =
+                    user.email || "";
+
+                const role =
+                    user.role || "instructor";
+
+                const initials =
+                    name.charAt(0).toUpperCase();
+
+                const roleClass =
+                    role === "admin"
+                        ? "role-admin"
+                        : "role-instructor";
+
+                const row =
+                    document.createElement("tr");
+
+                row.innerHTML = `
+                    <td>
+                        <div class="user-info">
+
+                            <span class="user-avatar">
+                                ${escapeHtml(initials)}
+                            </span>
+
+                            <div>
+                                <span class="user-name">
+                                    ${escapeHtml(name)}
+                                </span>
+
+                                <span class="user-email">
+                                    ${escapeHtml(email)}
+                                </span>
+                            </div>
+
+                        </div>
+                    </td>
+
+                    <td>
+                        <span class="role-badge ${roleClass}">
+                            ${escapeHtml(role)}
+                        </span>
+                    </td>
+
+                    <td class="text-end">
+
+                        <button
+                            class="btn-icon btn-edit"
+                            type="button"
+                            title="Edit user"
+                        >
+                            <i class="bi bi-pencil"></i>
+                        </button>
+
+                        <button
+                            class="btn-icon btn-delete"
+                            type="button"
+                            title="Delete user"
+                        >
+                            <i class="bi bi-trash"></i>
+                        </button>
+
+                    </td>
+                `;
+
+                const deleteButton =
+                    row.querySelector(".btn-delete");
+
+                deleteButton.addEventListener(
+                    "click",
+                    function () {
+
+                        if (user.id) {
+                            deleteUser(user.id, name);
+                        } else {
+                            showMessage(
+                                "This user does not have a valid ID.",
+                                "error"
+                            );
+                        }
+                    }
+                );
+
+                tbody.appendChild(row);
+            });
+        })
+
+        .catch(function (error) {
+
+            console.error(
+                "Users error:",
+                error
+            );
+
+            document.getElementById(
+                "userTableBody"
+            ).innerHTML = `
+                <tr class="table-loading">
+                    <td colspan="3">
+                        Error loading users.
+                    </td>
+                </tr>
+            `;
+
+            document.getElementById(
+                "userCount"
+            ).textContent = "0 users";
+        });
+}
+
+
+/* =========================================================
+   Delete User
+   ========================================================= */
+
+function deleteUser(userId, userName) {
+
+    showConfirmDialog(
+        'Delete user "' +
+            userName +
+            '"? This action cannot be undone.',
+
+        function () {
+
+            fetch(
+                "/api/admin/users/" +
+                    encodeURIComponent(userId),
+                {
+                    method: "DELETE"
+                }
+            )
+
+                .then(handleResponse)
+
+                .then(function (data) {
+
+                    if (data.error) {
+                        throw new Error(data.error);
+                    }
+
+                    showMessage(
+                        "User deleted successfully.",
+                        "success"
+                    );
+
+                    loadUsers();
+                    loadStats();
+                })
+
+                .catch(function (error) {
+
+                    console.error(
+                        "Delete user error:",
+                        error
+                    );
+
+                    showMessage(
+                        error.message ||
+                            "Error deleting user.",
+                        "error"
+                    );
+                });
+        }
+    );
+}
+
+
+/* =========================================================
+   System Status
+   ========================================================= */
+
+function loadSystemStatus() {
+
+    fetch("/api/admin/system-status")
+
+        .then(handleResponse)
+
+        .then(function (status) {
+
+            Object.keys(status).forEach(function (key) {
+
+                const element =
+                    document.getElementById(
+                        key + "Status"
+                    );
+
+                if (!element) {
+                    return;
+                }
+
+                const indicator =
+                    element.querySelector(
+                        ".status-indicator"
+                    );
+
+                const value =
+                    status[key];
+
+                element.classList.remove(
+                    "warning",
+                    "error"
+                );
+
+                if (value === "operational") {
+
+                    indicator.textContent = "✓";
+
+                    indicator.className =
+                        "status-indicator status-operational";
+
+                } else if (value === "warning") {
+
+                    element.classList.add("warning");
+
+                    indicator.textContent = "⚠";
+
+                    indicator.className =
+                        "status-indicator status-warning";
+
+                } else if (value === "error") {
+
+                    element.classList.add("error");
+
+                    indicator.textContent = "✕";
+
+                    indicator.className =
+                        "status-indicator status-error";
+                }
+            });
+        })
+
+        .catch(function (error) {
+
+            console.error(
+                "System status error:",
+                error
+            );
+        });
+}
+
+
+/* =========================================================
+   Add User Modal
+   ========================================================= */
+
+function openAddUserModal() {
+
+    const modal =
+        document.getElementById(
+            "addUserModal"
+        );
+
+    modal.style.display = "flex";
+
+    document.getElementById(
+        "addUserName"
+    ).focus();
+}
+
+
+function closeAddUserModal() {
+
+    const modal =
+        document.getElementById(
+            "addUserModal"
+        );
+
+    modal.style.display = "none";
+
+    document.getElementById(
+        "addUserForm"
+    ).reset();
+
+    document.getElementById(
+        "addUserBtn"
+    ).focus();
+}
+
+
+/* =========================================================
+   Create User
+   ========================================================= */
+
+function submitAddUser(event) {
+
+    event.preventDefault();
+
+    const name =
+        document.getElementById(
+            "addUserName"
+        ).value.trim();
+
+    const email =
+        document.getElementById(
+            "addUserEmail"
+        ).value.trim();
+
+    const password =
+        document.getElementById(
+            "addUserPassword"
+        ).value;
+
+    const role =
+        document.getElementById(
+            "addUserRole"
+        ).value;
+
+    if (!name || !email || !password || !role) {
+
+        showMessage(
+            "All fields are required.",
+            "error"
+        );
+
+        return;
+    }
+
+    if (password.length < 8) {
+
+        showMessage(
+            "Password must be at least 8 characters.",
+            "error"
+        );
+
+        return;
+    }
+
+    if (
+        !/[A-Z]/.test(password) ||
+        !/[a-z]/.test(password) ||
+        !/[0-9]/.test(password)
+    ) {
+
+        showMessage(
+            "Password must include uppercase, lowercase, and numbers.",
+            "error"
+        );
+
+        return;
+    }
+
+    showConfirmDialog(
+        "Create new " +
+            role +
+            " account for " +
+            email +
+            "?",
+
+        function () {
+
+            fetch("/api/admin/users", {
+
+                method: "POST",
+
+                headers: {
+                    "Content-Type": "application/json"
+                },
+
+                body: JSON.stringify({
+                    name: name,
+                    email: email,
+                    password: password,
+                    role: role
+                })
+
+            })
+
+                .then(handleResponse)
+
+                .then(function (data) {
+
+                    if (!data.success) {
+
+                        throw new Error(
+                            data.error ||
+                                "Unable to create user."
+                        );
+                    }
+
+                    showMessage(
+                        "User created successfully.",
+                        "success"
+                    );
+
+                    closeAddUserModal();
+
+                    loadUsers();
+                    loadStats();
+                })
+
+                .catch(function (error) {
+
+                    console.error(
+                        "Create user error:",
+                        error
+                    );
+
+                    showMessage(
+                        error.message ||
+                            "Error creating user.",
+                        "error"
+                    );
+                });
+        }
+    );
+}
+
+
+/* =========================================================
+   Confirmation Dialog
+   ========================================================= */
+
+function showConfirmDialog(
+    message,
+    onConfirm
+) {
+
+    const modal =
+        document.getElementById(
+            "confirmModal"
+        );
+
+    document.getElementById(
+        "confirmMessage"
+    ).textContent = message;
+
+    modal.style.display = "flex";
+
+    const confirmButton =
+        document.getElementById(
+            "confirmOk"
+        );
+
+    const cancelButton =
+        document.getElementById(
+            "confirmCancel"
+        );
+
+    confirmButton.focus();
+
+    confirmButton.onclick = function () {
+
+        modal.style.display = "none";
+
+        if (typeof onConfirm === "function") {
+            onConfirm();
+        }
+    };
+
+    cancelButton.onclick = function () {
+
+        modal.style.display = "none";
+    };
+
+    modal.onclick = function (event) {
+
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    };
+}
+
+
+/* =========================================================
+   Messages
+   ========================================================= */
+
+function showMessage(message, type) {
+
+    const element =
+        document.getElementById(
+            "thresholdMessage"
+        );
+
+    element.textContent = message;
+
+    element.className =
+        "threshold-message " +
+        (type === "success"
+            ? "success"
+            : "error");
+
+    clearTimeout(
+        showMessage.timeout
+    );
+
+    showMessage.timeout =
+        setTimeout(function () {
+
+            element.textContent = "";
+
+            element.className =
+                "threshold-message";
+
+        }, 4000);
+}
+
+
+/* =========================================================
+   Refresh
+   ========================================================= */
+
+function refreshAll() {
+
+    loadStats();
+    loadRepositoryFiles();
+    loadUsers();
+    loadSystemStatus();
+}
+
+
+/* =========================================================
+   Utilities
+   ========================================================= */
+
+function handleResponse(response) {
+
+    if (!response.ok) {
+
+        return response
+            .json()
+            .catch(function () {
+                return {};
+            })
+            .then(function (data) {
+
+                throw new Error(
+                    data.error ||
+                    "Request failed with status " +
+                    response.status
+                );
+            });
+    }
+
+    return response.json();
+}
+
+
+function escapeHtml(value) {
+
+    const div =
+        document.createElement("div");
+
+    div.textContent =
+        value == null
+            ? ""
+            : String(value);
+
+    return div.innerHTML;
+}
+
+
+function debounce(func, delay) {
+
+    let timeout;
+
+    return function () {
+
+        const context = this;
+        const args = arguments;
+
+        clearTimeout(timeout);
+
+        timeout = setTimeout(
+            function () {
+                func.apply(context, args);
+            },
+            delay
+        );
+    };
+}
+
+</script>
 
 {% endblock %}

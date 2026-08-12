@@ -2,12 +2,14 @@ import logging
 import os
 import shutil
 import uuid
+import json
 from pathlib import Path
 from functools import wraps
+from datetime import datetime
 
 from flask import (
     Flask, render_template, request, redirect, url_for,
-    session, flash
+    session, flash, jsonify
 )
 from flask_wtf import FlaskForm
 from werkzeug.utils import secure_filename
@@ -21,6 +23,7 @@ from app.services.detector import run_detection
 from app.services.review import load_review_report
 from app.services.repository import upload_repository
 from app.nlp.preprocessing import preprocess_text
+from app.config import load_config, save_config, get_threshold, set_threshold
 
 app = Flask(
     __name__,
@@ -140,7 +143,7 @@ class RegisterForm(FlaskForm):
     )
 
     submit = SubmitField("Sign Up")
-    
+
 # ============================================================
 # Supabase Settings
 # ============================================================
@@ -162,10 +165,23 @@ def login_required(f):
         return f(*args, **kwargs)
     return decorated_function
 
+def admin_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if not session.get('logged_in'):
+            flash('Please log in to access this page.', 'warning')
+            return redirect(url_for('login'))
+        if session.get('role') != 'admin':
+            flash('You do not have permission to access this page.', 'danger')
+            return redirect(url_for('home'))
+        return f(*args, **kwargs)
+    return decorated_function
+
 # ============================================================
 # Routes
 # ============================================================
 @app.route('/admin')
+@admin_required
 def admin_dashboard():
     return render_template("admin_dashboard.html")
 
@@ -248,7 +264,7 @@ def login():
                     f"Welcome back, {response.user.email}!",
                     "success"
                 )
-                
+
                 print("USER ROLE:", role)
                 # Redirect based on role
                 if role == "admin":
@@ -301,7 +317,7 @@ def forgot_password():
             )
             return redirect(url_for('forgot_password'))
     return render_template('forgot_password.html')
-  
+
 @app.route('/reset-password', methods=['GET', 'POST'])
 def reset_password():
 
@@ -379,7 +395,7 @@ def home():
             file.save(save_path)
             logger.info("Saved: %s -> %s", filename, save_path)
 
-        threshold = float(request.form.get("threshold", 0.30))
+        threshold = float(request.form.get("threshold", get_threshold()))
         logger.info("Selected threshold: %.2f", threshold)
 
         try:
@@ -657,6 +673,241 @@ def _load_repository_files():
         }
         for file in sorted(repository_files.values(), key=lambda p: p.name.lower())
     ]
+
+
+# ============================================================
+# Admin API Routes
+# ============================================================
+
+@app.route('/api/admin/stats', methods=['GET'])
+@admin_required
+def get_admin_stats():
+    """Get admin panel statistics."""
+    base_dir = Path(__file__).resolve().parent.parent.parent
+
+    # Count users from Supabase
+    try:
+        users_response = supabase.table("profiles").select("*").execute()
+        total_users = len(users_response.data) if users_response.data else 0
+        active_users = sum(1 for u in (users_response.data or []) if u.get('active', True))
+    except:
+        total_users = 0
+        active_users = 0
+
+    # Count repository documents
+    corpus_promoted = base_dir / "corpus" / "promoted"
+    corpus_review = base_dir / "corpus" / "review"
+    corpus_processed = base_dir / "corpus" / "processed"
+
+    promoted_count = 0
+    review_count = 0
+    processed_count = 0
+
+    if corpus_promoted.exists():
+        promoted_count = len([f for f in corpus_promoted.iterdir() if f.is_file() and f.suffix.lower() == '.txt'])
+
+    if corpus_review.exists():
+        review_count = len([f for f in corpus_review.iterdir() if f.is_file() and f.suffix.lower() == '.txt'])
+
+    if corpus_processed.exists():
+        processed_count = len([f for f in corpus_processed.iterdir() if f.is_file()])
+
+    # Current threshold
+    current_threshold = get_threshold()
+
+    # Repository health
+    missing_count = max(0, promoted_count - processed_count)
+    is_synchronized = missing_count == 0
+
+    return jsonify({
+        "total_users": total_users,
+        "active_users": active_users,
+        "repository_documents": promoted_count,
+        "review_documents": review_count,
+        "similarity_threshold": current_threshold,
+        "processed_copies": processed_count,
+        "promoted_copies": promoted_count,
+        "missing_copies": missing_count,
+        "is_synchronized": is_synchronized
+    })
+
+@app.route('/api/admin/threshold', methods=['GET', 'POST'])
+@admin_required
+def manage_threshold():
+    """Get or update the similarity threshold."""
+    if request.method == 'GET':
+        return jsonify({
+            "threshold": get_threshold()
+        })
+
+    # POST request - update threshold
+    data = request.get_json()
+    threshold = data.get('threshold')
+
+    if threshold is None:
+        return jsonify({"error": "Threshold value required"}), 400
+
+    try:
+        threshold = float(threshold)
+    except (ValueError, TypeError):
+        return jsonify({"error": "Invalid threshold value"}), 400
+
+    if threshold < 0.25 or threshold > 0.35:
+        return jsonify({"error": "Threshold must be between 0.25 and 0.35"}), 400
+
+    try:
+        set_threshold(threshold, updated_by=session.get('user', 'unknown'))
+        return jsonify({
+            "success": True,
+            "threshold": threshold,
+            "message": "Similarity threshold updated successfully"
+        })
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/api/admin/repository', methods=['GET'])
+@admin_required
+def get_repository_files():
+    """Get list of repository documents."""
+    base_dir = Path(__file__).resolve().parent.parent.parent
+    corpus_promoted = base_dir / "corpus" / "promoted"
+
+    files = []
+    if corpus_promoted.exists():
+        for f in sorted(corpus_promoted.iterdir()):
+            if f.is_file() and f.suffix.lower() == '.txt':
+                stat = f.stat()
+                files.append({
+                    "filename": f.name,
+                    "date_added": datetime.fromtimestamp(stat.st_mtime).isoformat(),
+                    "size": stat.st_size
+                })
+
+    return jsonify(files)
+
+@app.route('/api/admin/repository/<filename>', methods=['DELETE'])
+@admin_required
+def delete_repository_file(filename):
+    """Delete a document from the repository."""
+    base_dir = Path(__file__).resolve().parent.parent.parent
+    corpus_promoted = base_dir / "corpus" / "promoted"
+    corpus_processed = base_dir / "corpus" / "processed"
+
+    # Validate filename to prevent directory traversal
+    filename = Path(filename).name
+
+    txt_file = corpus_promoted / filename
+    pdf_file = corpus_promoted / (Path(filename).stem + ".pdf")
+    processed_file = corpus_processed / filename
+
+    try:
+        if txt_file.exists() and txt_file.is_file():
+            txt_file.unlink()
+
+        if pdf_file.exists() and pdf_file.is_file():
+            pdf_file.unlink()
+
+        if processed_file.exists() and processed_file.is_file():
+            processed_file.unlink()
+
+        return jsonify({
+            "success": True,
+            "message": f"Document '{filename}' removed from repository"
+        })
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/api/admin/repository/search', methods=['GET'])
+@admin_required
+def search_repository():
+    """Search repository documents by filename."""
+    query = request.args.get('q', '').lower()
+
+    base_dir = Path(__file__).resolve().parent.parent.parent
+    corpus_promoted = base_dir / "corpus" / "promoted"
+
+    files = []
+    if corpus_promoted.exists():
+        for f in sorted(corpus_promoted.iterdir()):
+            if f.is_file() and f.suffix.lower() == '.txt':
+                if query in f.name.lower():
+                    stat = f.stat()
+                    files.append({
+                        "filename": f.name,
+                        "date_added": datetime.fromtimestamp(stat.st_mtime).isoformat(),
+                        "size": stat.st_size
+                    })
+
+    return jsonify(files)
+
+@app.route('/api/admin/users', methods=['GET'])
+@admin_required
+def get_users():
+    """Get list of all users."""
+    try:
+        users_response = supabase.table("profiles").select("id,email,role,active").execute()
+        users = users_response.data or []
+        return jsonify(users)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/api/admin/system-status', methods=['GET'])
+@admin_required
+def get_system_status():
+    """Get system health status."""
+    base_dir = Path(__file__).resolve().parent.parent.parent
+
+    status = {
+        "authentication": "operational",
+        "upload": "operational",
+        "preprocessing": "operational",
+        "similarity_analysis": "operational",
+        "repository": "operational",
+        "persistent_processing": "operational"
+    }
+
+    # Check if key folders exist
+    try:
+        if not (base_dir / "corpus" / "promoted").exists():
+            status["repository"] = "warning"
+        if not (base_dir / "corpus" / "processed").exists():
+            status["persistent_processing"] = "warning"
+    except:
+        pass
+
+    return jsonify(status)
+
+@app.route('/api/admin/activity', methods=['GET'])
+@admin_required
+def get_recent_activity():
+    """Get recent system activity."""
+    base_dir = Path(__file__).resolve().parent.parent.parent
+    activity = []
+
+    # Get config history
+    try:
+        config = load_config()
+        last_update = config.get("last_updated", "")
+        updated_by = config.get("updated_by", "system")
+        if last_update:
+            activity.append({
+                "type": "threshold_changed",
+                "description": f"Similarity threshold configured",
+                "timestamp": last_update,
+                "icon": "⚙️"
+            })
+    except:
+        pass
+
+    # Placeholder for activity - in a production system, you would log all actions
+    activity.append({
+        "type": "system_status",
+        "description": "Admin panel initialized",
+        "timestamp": datetime.now().isoformat(),
+        "icon": "✓"
+    })
+
+    return jsonify(sorted(activity, key=lambda x: x["timestamp"], reverse=True)[:10])
 
 
 # ============================================================
