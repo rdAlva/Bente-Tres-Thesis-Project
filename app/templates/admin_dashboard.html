@@ -478,18 +478,6 @@
             <div class="modal-body">
 
                 <div class="form-group">
-                    <label for="addUserName">Name:</label>
-
-                    <input
-                        type="text"
-                        id="addUserName"
-                        name="name"
-                        autocomplete="name"
-                        required
-                    >
-                </div>
-
-                <div class="form-group">
                     <label for="addUserEmail">Email:</label>
 
                     <input
@@ -1551,6 +1539,75 @@ body,
 
 <script>
 
+document.getElementById("addUserForm").addEventListener("submit", async function (event) {
+    event.preventDefault();
+
+    const form = event.target;
+
+    const userData = {
+        email: form.email.value.trim(),
+        password: form.password.value,
+        role: form.role.value
+    };
+
+    console.log("Sending user data:", {
+        email: userData.email,
+        role: userData.role
+    });
+
+    try {
+        const response = await fetch("/api/admin/users", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(userData)
+        });
+
+        const text = await response.text();
+
+        console.log("HTTP STATUS:", response.status);
+        console.log("SERVER RESPONSE:", text);
+
+        let result;
+
+        try {
+            result = JSON.parse(text);
+        } catch {
+            result = {
+                error: text || "Server returned an invalid response."
+            };
+        }
+
+        if (!response.ok) {
+            alert(
+                "Failed to create user:\n\n" +
+                (result.error || "Unknown error")
+            );
+            return;
+        }
+
+        alert("User created successfully!");
+
+        form.reset();
+
+        document.getElementById("addUserModal").style.display = "none";
+
+        if (typeof loadUsers === "function") {
+            loadUsers();
+        }
+
+    } catch (error) {
+        console.error("CREATE USER ERROR:", error);
+
+        alert(
+            "Unable to create user.\n\n" +
+            "Check the browser console and Flask terminal for the actual error."
+        );
+    }
+});
+    
+
 document.addEventListener("DOMContentLoaded", function () {
     initializeAdminPanel();
 });
@@ -2213,6 +2270,11 @@ function loadUsers() {
                             class="btn-icon btn-edit"
                             type="button"
                             title="Edit user"
+                            onclick="editUser(
+                                '${user.id}',
+                                '${user.email}',
+                                '${user.role}'
+                            )"
                         >
                             <i class="bi bi-pencil"></i>
                         </button>
@@ -2221,6 +2283,10 @@ function loadUsers() {
                             class="btn-icon btn-delete"
                             type="button"
                             title="Delete user"
+                            onclick="deleteUser(
+                                '${user.id}',
+                                '${user.email}'
+                            )"
                         >
                             <i class="bi bi-trash"></i>
                         </button>
@@ -2274,6 +2340,84 @@ function loadUsers() {
 }
 
 
+/* =========================================================
+   Edit User
+   ========================================================= */
+function editUser(userId, email, role) {
+
+    const newEmail = prompt("Enter new email:", email);
+
+    if (newEmail === null) {
+        return;
+    }
+
+    const newRole = prompt(
+        "Enter role (admin or instructor):",
+        role
+    );
+
+    if (newRole === null) {
+        return;
+    }
+
+    const updatedEmail = newEmail.trim();
+    const updatedRole = newRole.trim().toLowerCase();
+
+    if (!updatedEmail) {
+        showMessage("Email is required.", "error");
+        return;
+    }
+
+    if (!["admin", "instructor"].includes(updatedRole)) {
+        showMessage(
+            "Role must be admin or instructor.",
+            "error"
+        );
+        return;
+    }
+
+    fetch(
+        "/api/admin/users/" + encodeURIComponent(userId),
+        {
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                email: updatedEmail,
+                role: updatedRole
+            })
+        }
+    )
+        .then(handleResponse)
+        .then(function (data) {
+
+            if (data.error) {
+                throw new Error(data.error);
+            }
+
+            showMessage(
+                "User updated successfully.",
+                "success"
+            );
+
+            loadUsers();
+            loadStats();
+        })
+        .catch(function (error) {
+
+            console.error(
+                "Edit user error:",
+                error
+            );
+
+            showMessage(
+                error.message ||
+                    "Error updating user.",
+                "error"
+            );
+        });
+}
 /* =========================================================
    Delete User
    ========================================================= */
