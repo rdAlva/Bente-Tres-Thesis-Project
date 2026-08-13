@@ -276,6 +276,36 @@ a:hover {
     font-weight: 400;
 }
 
+/* ============================================================
+   Index page – upload drop zone & accessibility enhancements
+   ============================================================ */
+
+.drop-zone {
+    border-color: rgba(107, 15, 26, 0.55) !important;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.drop-zone:focus-within {
+    outline: 2px solid var(--hau-gold);
+    outline-offset: 2px;
+}
+
+.form-text {
+    color: var(--hau-text-muted) !important;
+
+}
+
+.form-text strong {
+    color: inherit !important;
+}
+
+
+#selectedFilesContainer .list-group-item {
+    background-color: var(--hau-cream);
+    border-color: rgba(107, 15, 26, 0.15);
+}
+
 /* ---------------- Action required banner ---------------- */
 
 .action-required {

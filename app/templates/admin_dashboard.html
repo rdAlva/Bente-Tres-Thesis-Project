@@ -545,66 +545,78 @@
     </div>
 </div>
 
+<!-- ==================== EDIT USER MODAL ==================== -->
+<div
+    id="editUserModal"
+    class="modal"
+    style="display: none;"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="editUserModalTitle"
+>
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 id="editUserModalTitle">Edit User</h3>
+            <button class="modal-close" type="button" aria-label="Close">&times;</button>
+        </div>
+
+        <form id="editUserForm" class="modal-form">
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="editUserEmail">Email:</label>
+                    <input type="email" id="editUserEmail" name="email" autocomplete="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="editUserRole">Role:</label>
+                    <select id="editUserRole" name="role" required>
+                        <option value="instructor">Instructor</option>
+                        <option value="admin">Admin</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn-secondary modal-close-btn">Cancel</button>
+                <button type="submit" class="btn-primary">Update User</button>
+            </div>
+        </form>
+    </div>
+</div>
+
 
 <style>
-
 /* =========================================================
-   HAUdemicCheck Admin Panel
+   HAUdemicCheck Admin Panel - Styles (unchanged)
    ========================================================= */
 
 :root {
     --hau-maroon: #6B0F1A;
     --hau-maroon-dark: #4A0A12;
     --hau-maroon-light: #8A1B27;
-
     --hau-gold: #C5A028;
     --hau-gold-light: #E0C468;
-
     --hau-cream: #FAF6EC;
-
     --hau-text: #2A2321;
     --hau-text-muted: #6B5F5B;
-
     --card-bg: #FFFFFF;
-
     --border-color: rgba(107, 15, 26, 0.15);
     --border-color-subtle: rgba(0, 0, 0, 0.06);
-
     --success-color: #1E8E3E;
     --success-bg: #E8F5E9;
-
     --warning-color: #A66A00;
     --warning-bg: #FFF3CD;
-
     --error-color: #B3261E;
     --error-bg: #FFEBEE;
-
     --shadow-sm: 0 1px 3px rgba(107, 15, 26, 0.08);
     --shadow-md: 0 4px 12px rgba(107, 15, 26, 0.1);
     --shadow-lg: 0 8px 24px rgba(107, 15, 26, 0.15);
-
     --radius-sm: 6px;
     --radius-md: 10px;
     --radius-lg: 16px;
-
     --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-
-    --font-main:
-        system-ui,
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Roboto,
-        Helvetica,
-        Arial,
-        sans-serif;
-
-    --font-mono:
-        "SFMono-Regular",
-        Consolas,
-        "Liberation Mono",
-        Menlo,
-        monospace;
+    --font-main: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
 }
 
 *,
@@ -630,7 +642,6 @@ body,
 }
 
 /* Header */
-
 .admin-header {
     display: flex;
     justify-content: space-between;
@@ -680,7 +691,6 @@ body,
 }
 
 /* Statistics */
-
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -725,7 +735,6 @@ body,
 }
 
 /* Sections */
-
 .admin-section {
     background-color: var(--card-bg);
     border: 1px solid var(--border-color);
@@ -733,20 +742,6 @@ body,
     padding: 1.75rem;
     margin-bottom: 2rem;
     box-shadow: var(--shadow-sm);
-}
-
-.admin-section-row {
-    display: grid;
-    grid-template-columns: repeat(
-        auto-fit,
-        minmax(350px, 1fr)
-    );
-    gap: 2rem;
-    margin-bottom: 2rem;
-}
-
-.admin-section-half {
-    margin-bottom: 0;
 }
 
 .section-title {
@@ -761,7 +756,6 @@ body,
 }
 
 /* Configuration */
-
 .config-content {
     display: flex;
     flex-direction: column;
@@ -819,10 +813,7 @@ body,
 
 .threshold-descriptions {
     display: grid;
-    grid-template-columns: repeat(
-        auto-fit,
-        minmax(140px, 1fr)
-    );
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 1rem;
 }
 
@@ -880,7 +871,6 @@ body,
 }
 
 /* Algorithm */
-
 .algorithm-content {
     display: flex;
     flex-direction: column;
@@ -915,10 +905,7 @@ body,
 
 .algorithm-components {
     display: grid;
-    grid-template-columns: repeat(
-        auto-fit,
-        minmax(180px, 1fr)
-    );
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 0.75rem;
 }
 
@@ -952,7 +939,6 @@ body,
 }
 
 /* Badges */
-
 .status-pill {
     font-weight: 600;
     font-size: 0.75rem;
@@ -973,7 +959,6 @@ body,
 }
 
 /* Health */
-
 .health-content {
     display: flex;
     flex-direction: column;
@@ -982,10 +967,7 @@ body,
 
 .health-metrics {
     display: grid;
-    grid-template-columns: repeat(
-        auto-fit,
-        minmax(140px, 1fr)
-    );
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 1rem;
 }
 
@@ -1033,7 +1015,6 @@ body,
 }
 
 /* Tables */
-
 .repo-header,
 .user-header {
     display: flex;
@@ -1180,7 +1161,6 @@ body,
 }
 
 /* Buttons */
-
 .btn-icon {
     background: transparent;
     border: none;
@@ -1265,7 +1245,6 @@ body,
 }
 
 /* Users */
-
 .user-content {
     display: flex;
     flex-direction: column;
@@ -1313,53 +1292,10 @@ body,
     color: var(--hau-maroon-dark);
 }
 
-/* Activity */
-
-.activity-timestamp {
-    font-size: 0.8rem;
-    color: var(--hau-text-muted);
-}
-
-.activity-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-    padding: 0.85rem 0;
-    border-bottom: 1px solid var(--border-color-subtle);
-}
-
-.activity-item:last-child {
-    border-bottom: none;
-}
-
-.activity-icon {
-    font-size: 1.25rem;
-    color: var(--hau-maroon);
-}
-
-.activity-description {
-    font-size: 0.9rem;
-    font-weight: 500;
-}
-
-.activity-timestamp {
-    font-size: 0.8rem;
-    color: var(--hau-text-muted);
-}
-
-.activity-loading {
-    color: var(--hau-text-muted);
-    padding: 1rem 0;
-}
-
 /* System Status */
-
 .status-grid {
     display: grid;
-    grid-template-columns: repeat(
-        auto-fit,
-        minmax(180px, 1fr)
-    );
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 1rem;
 }
 
@@ -1399,7 +1335,6 @@ body,
 }
 
 /* Modals */
-
 .modal {
     position: fixed;
     inset: 0;
@@ -1497,15 +1432,9 @@ body,
 }
 
 /* Mobile */
-
 @media (max-width: 768px) {
-
     .admin-panel {
         padding: 1.25rem 0.85rem;
-    }
-
-    .admin-section-row {
-        grid-template-columns: 1fr;
     }
 
     .admin-title {
@@ -1533,85 +1462,17 @@ body,
         padding: 1.25rem;
     }
 }
-
 </style>
 
 
 <script>
-
-document.getElementById("addUserForm").addEventListener("submit", async function (event) {
-    event.preventDefault();
-
-    const form = event.target;
-
-    const userData = {
-        email: form.email.value.trim(),
-        password: form.password.value,
-        role: form.role.value
-    };
-
-    console.log("Sending user data:", {
-        email: userData.email,
-        role: userData.role
-    });
-
-    try {
-        const response = await fetch("/api/admin/users", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(userData)
-        });
-
-        const text = await response.text();
-
-        console.log("HTTP STATUS:", response.status);
-        console.log("SERVER RESPONSE:", text);
-
-        let result;
-
-        try {
-            result = JSON.parse(text);
-        } catch {
-            result = {
-                error: text || "Server returned an invalid response."
-            };
-        }
-
-        if (!response.ok) {
-            alert(
-                "Failed to create user:\n\n" +
-                (result.error || "Unknown error")
-            );
-            return;
-        }
-
-        alert("User created successfully!");
-
-        form.reset();
-
-        document.getElementById("addUserModal").style.display = "none";
-
-        if (typeof loadUsers === "function") {
-            loadUsers();
-        }
-
-    } catch (error) {
-        console.error("CREATE USER ERROR:", error);
-
-        alert(
-            "Unable to create user.\n\n" +
-            "Check the browser console and Flask terminal for the actual error."
-        );
-    }
-});
-    
+// ============================================================
+// All JavaScript – corrected and enhanced with Edit User modal
+// ============================================================
 
 document.addEventListener("DOMContentLoaded", function () {
     initializeAdminPanel();
 });
-
 
 function initializeAdminPanel() {
 
@@ -1645,7 +1506,7 @@ function initializeAdminPanel() {
         .addEventListener("click", openAddUserModal);
 
     document
-        .querySelectorAll(".modal-close, .modal-close-btn")
+        .querySelectorAll("#addUserModal .modal-close, #addUserModal .modal-close-btn")
         .forEach(function (btn) {
             btn.addEventListener("click", closeAddUserModal);
         });
@@ -1658,26 +1519,37 @@ function initializeAdminPanel() {
             }
         });
 
+    // SINGLE submit handler for the add-user form (fixed)
     document
         .getElementById("addUserForm")
         .addEventListener("submit", submitAddUser);
 
-    document.addEventListener("keydown", function (event) {
+    // ========== NEW: Edit User form handler ==========
+    document.getElementById("editUserForm").addEventListener("submit", submitEditUser);
 
-        if (event.key !== "Escape") {
-            return;
+    // Modal close handlers for Edit User
+    document.querySelectorAll("#editUserModal .modal-close, #editUserModal .modal-close-btn")
+        .forEach(function (btn) {
+            btn.addEventListener("click", closeEditUserModal);
+        });
+
+    document.getElementById("editUserModal").addEventListener("click", function (event) {
+        if (event.target === this) {
+            closeEditUserModal();
         }
+    });
+
+    // Global Escape key handler – close both modals
+    document.addEventListener("keydown", function (event) {
+        if (event.key !== "Escape") return;
 
         const addModal = document.getElementById("addUserModal");
+        const editModal = document.getElementById("editUserModal");
         const confirmModal = document.getElementById("confirmModal");
 
-        if (addModal.style.display === "flex") {
-            closeAddUserModal();
-        }
-
-        if (confirmModal.style.display === "flex") {
-            confirmModal.style.display = "none";
-        }
+        if (addModal.style.display === "flex") closeAddUserModal();
+        if (editModal.style.display === "flex") closeEditUserModal();
+        if (confirmModal.style.display === "flex") confirmModal.style.display = "none";
     });
 }
 
@@ -2175,32 +2047,15 @@ function clearSearch() {
    ========================================================= */
 
 function loadUsers() {
-
     fetch("/api/admin/users")
-
         .then(handleResponse)
-
         .then(function (data) {
-
-            const users =
-                Array.isArray(data) ? data : [];
-
-            const tbody =
-                document.getElementById(
-                    "userTableBody"
-                );
-
+            const users = Array.isArray(data) ? data : [];
+            const tbody = document.getElementById("userTableBody");
             tbody.innerHTML = "";
-
-            document.getElementById(
-                "userCount"
-            ).textContent =
-                users.length +
-                " user" +
-                (users.length !== 1 ? "s" : "");
+            document.getElementById("userCount").textContent = users.length + " user" + (users.length !== 1 ? "s" : "");
 
             if (users.length === 0) {
-
                 tbody.innerHTML = `
                     <tr class="table-empty">
                         <td colspan="3">
@@ -2209,215 +2064,143 @@ function loadUsers() {
                         </td>
                     </tr>
                 `;
-
                 return;
             }
 
             users.forEach(function (user) {
+                const name = user.name || user.email || "Unknown";
+                const email = user.email || "";
+                const role = user.role || "instructor";
+                const initials = name.charAt(0).toUpperCase();
+                const roleClass = role === "admin" ? "role-admin" : "role-instructor";
 
-                const name =
-                    user.name ||
-                    user.email ||
-                    "Unknown";
-
-                const email =
-                    user.email || "";
-
-                const role =
-                    user.role || "instructor";
-
-                const initials =
-                    name.charAt(0).toUpperCase();
-
-                const roleClass =
-                    role === "admin"
-                        ? "role-admin"
-                        : "role-instructor";
-
-                const row =
-                    document.createElement("tr");
-
+                const row = document.createElement("tr");
                 row.innerHTML = `
                     <td>
                         <div class="user-info">
-
-                            <span class="user-avatar">
-                                ${escapeHtml(initials)}
-                            </span>
-
+                            <span class="user-avatar">${escapeHtml(initials)}</span>
                             <div>
-                                <span class="user-name">
-                                    ${escapeHtml(name)}
-                                </span>
-
-                                <span class="user-email">
-                                    ${escapeHtml(email)}
-                                </span>
+                                <span class="user-name">${escapeHtml(name)}</span>
+                                <span class="user-email">${escapeHtml(email)}</span>
                             </div>
-
                         </div>
                     </td>
-
-                    <td>
-                        <span class="role-badge ${roleClass}">
-                            ${escapeHtml(role)}
-                        </span>
-                    </td>
-
+                    <td><span class="role-badge ${roleClass}">${escapeHtml(role)}</span></td>
                     <td class="text-end">
-
-                        <button
-                            class="btn-icon btn-edit"
-                            type="button"
-                            title="Edit user"
-                            onclick="editUser(
-                                '${user.id}',
-                                '${user.email}',
-                                '${user.role}'
-                            )"
-                        >
+                        <button class="btn-icon btn-edit" type="button" title="Edit user"
+                                data-userid="${escapeHtml(user.id)}"
+                                data-email="${escapeHtml(email)}"
+                                data-role="${escapeHtml(role)}">
                             <i class="bi bi-pencil"></i>
                         </button>
-
-                        <button
-                            class="btn-icon btn-delete"
-                            type="button"
-                            title="Delete user"
-                            onclick="deleteUser(
-                                '${user.id}',
-                                '${user.email}'
-                            )"
-                        >
+                        <button class="btn-icon btn-delete" type="button" title="Delete user"
+                                data-userid="${escapeHtml(user.id)}"
+                                data-username="${escapeHtml(name)}">
                             <i class="bi bi-trash"></i>
                         </button>
-
                     </td>
                 `;
 
-                const deleteButton =
-                    row.querySelector(".btn-delete");
+                // Edit button event
+                const editBtn = row.querySelector(".btn-edit");
+                editBtn.addEventListener("click", function () {
+                    const uid = this.dataset.userid;
+                    const email = this.dataset.email;
+                    const role = this.dataset.role;
+                    openEditUserModal(uid, email, role);
+                });
 
-                deleteButton.addEventListener(
-                    "click",
-                    function () {
-
-                        if (user.id) {
-                            deleteUser(user.id, name);
-                        } else {
-                            showMessage(
-                                "This user does not have a valid ID.",
-                                "error"
-                            );
-                        }
-                    }
-                );
+                // Delete button event
+                const deleteBtn = row.querySelector(".btn-delete");
+                deleteBtn.addEventListener("click", function () {
+                    const uid = this.dataset.userid;
+                    const name = this.dataset.username;
+                    deleteUser(uid, name);
+                });
 
                 tbody.appendChild(row);
             });
         })
-
         .catch(function (error) {
-
-            console.error(
-                "Users error:",
-                error
-            );
-
-            document.getElementById(
-                "userTableBody"
-            ).innerHTML = `
+            console.error("Users error:", error);
+            document.getElementById("userTableBody").innerHTML = `
                 <tr class="table-loading">
-                    <td colspan="3">
-                        Error loading users.
-                    </td>
+                    <td colspan="3">Error loading users.</td>
                 </tr>
             `;
-
-            document.getElementById(
-                "userCount"
-            ).textContent = "0 users";
+            document.getElementById("userCount").textContent = "0 users";
         });
 }
 
 
 /* =========================================================
-   Edit User
+   Edit User – Modal functions
    ========================================================= */
-function editUser(userId, email, role) {
 
-    const newEmail = prompt("Enter new email:", email);
+var currentEditUserId = null;
 
-    if (newEmail === null) {
+function openEditUserModal(userId, email, role) {
+    currentEditUserId = userId;
+    document.getElementById("editUserEmail").value = email;
+    document.getElementById("editUserRole").value = role;
+    document.getElementById("editUserModal").style.display = "flex";
+    document.getElementById("editUserEmail").focus();
+}
+
+function closeEditUserModal() {
+    document.getElementById("editUserModal").style.display = "none";
+    document.getElementById("editUserForm").reset();
+    currentEditUserId = null;
+}
+
+function submitEditUser(event) {
+    event.preventDefault();
+
+    const userId = currentEditUserId;
+    if (!userId) {
+        showMessage("No user selected for editing.", "error");
         return;
     }
 
-    const newRole = prompt(
-        "Enter role (admin or instructor):",
-        role
-    );
+    const email = document.getElementById("editUserEmail").value.trim();
+    const role = document.getElementById("editUserRole").value;
 
-    if (newRole === null) {
-        return;
-    }
-
-    const updatedEmail = newEmail.trim();
-    const updatedRole = newRole.trim().toLowerCase();
-
-    if (!updatedEmail) {
+    if (!email) {
         showMessage("Email is required.", "error");
         return;
     }
 
-    if (!["admin", "instructor"].includes(updatedRole)) {
-        showMessage(
-            "Role must be admin or instructor.",
-            "error"
-        );
-        return;
-    }
+    // --- CLOSE the edit modal FIRST ---
+    closeEditUserModal();
 
-    fetch(
-        "/api/admin/users/" + encodeURIComponent(userId),
-        {
-            method: "PATCH",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                email: updatedEmail,
-                role: updatedRole
+    // Now show the confirmation dialog (it will appear on top)
+    showConfirmDialog(
+        "Update user " + email + "?",
+        function () {
+            fetch("/api/admin/users/" + encodeURIComponent(userId), {
+                method: "PATCH",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ email: email, role: role })
             })
+                .then(handleResponse)
+                .then(function (data) {
+                    if (!data.success) {
+                        throw new Error(data.error || "Unable to update user.");
+                    }
+                    showMessage("User updated successfully.", "success");
+                    // No need to close edit modal again (already closed)
+                    loadUsers();
+                    loadStats();
+                })
+                .catch(function (error) {
+                    console.error("Edit user error:", error);
+                    showMessage(error.message || "Error updating user.", "error");
+                });
         }
-    )
-        .then(handleResponse)
-        .then(function (data) {
-
-            if (data.error) {
-                throw new Error(data.error);
-            }
-
-            showMessage(
-                "User updated successfully.",
-                "success"
-            );
-
-            loadUsers();
-            loadStats();
-        })
-        .catch(function (error) {
-
-            console.error(
-                "Edit user error:",
-                error
-            );
-
-            showMessage(
-                error.message ||
-                    "Error updating user.",
-                "error"
-            );
-        });
+    );
 }
+
+
 /* =========================================================
    Delete User
    ========================================================= */
@@ -2562,7 +2345,7 @@ function openAddUserModal() {
     modal.style.display = "flex";
 
     document.getElementById(
-        "addUserName"
+        "addUserEmail"
     ).focus();
 }
 
@@ -2587,17 +2370,12 @@ function closeAddUserModal() {
 
 
 /* =========================================================
-   Create User
+   Create User - FIXED (no 'name' field)
    ========================================================= */
 
 function submitAddUser(event) {
 
     event.preventDefault();
-
-    const name =
-        document.getElementById(
-            "addUserName"
-        ).value.trim();
 
     const email =
         document.getElementById(
@@ -2614,7 +2392,7 @@ function submitAddUser(event) {
             "addUserRole"
         ).value;
 
-    if (!name || !email || !password || !role) {
+    if (!email || !password || !role) {
 
         showMessage(
             "All fields are required.",
@@ -2666,7 +2444,6 @@ function submitAddUser(event) {
                 },
 
                 body: JSON.stringify({
-                    name: name,
                     email: email,
                     password: password,
                     role: role
@@ -2878,7 +2655,6 @@ function debounce(func, delay) {
         );
     };
 }
-
 </script>
 
 {% endblock %}

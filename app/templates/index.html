@@ -2,38 +2,6 @@
 
 {% block title %}HAUdemicCheck{% endblock %}
 
-{% block head %}
-<style>
-    /* === AUDIT FIXES === */
-
-    /* Stronger, WCAG‑compliant drop‑zone border */
-    .drop-zone {
-        border-color: rgba(107, 15, 26, 0.55) !important;
-        /* maroon at 55% opacity – passes 3:1 against cream */
-        padding-top: 1.5rem !important;
-        /* tighter vertical space */
-        padding-bottom: 1.5rem !important;
-    }
-
-    /* Visible focus ring when tabbing to the hidden file input */
-    .drop-zone:focus-within {
-        outline: 2px solid var(--hau-gold);
-        outline-offset: 2px;
-    }
-
-    /* Override Bootstrap’s blue helper‑text; force consistent muted tone */
-    .form-text {
-        color: var(--hau-text-muted) !important;
-        /* #6B5F5B, already in style.css */
-    }
-
-    .form-text strong {
-        color: inherit !important;
-        /* prevents browser‑default blue */
-    }
-</style>
-{% endblock %}
-
 {% block content %}
 
 <div class="text-center">
@@ -59,7 +27,7 @@
                     Select PDF File(s)
                 </label>
 
-                <!-- Drop zone (tighter padding, stronger border) -->
+                <!-- Drop zone -->
                 <div id="dropZone" class="drop-zone">
                     <i class="bi bi-cloud-arrow-up drop-zone-icon" aria-hidden="true"></i>
                     <p class="mb-1 fw-semibold">Drag files here or click to browse</p>
@@ -83,69 +51,58 @@
                 </div>
                 {% endif %}
 
-                <!-- Helper text – now consistently muted, no blue -->
                 <div id="filesHelp" class="form-text mt-2">
                     Hold <strong>Ctrl</strong> (or <strong>Cmd</strong> on Mac) to select multiple
                     files, or <strong>Shift</strong> to select a range.
                 </div>
             </div>
 
-            <!-- Selected files panel – hidden until files chosen -->
+            <!-- Selected files panel -->
             <div class="mb-4" id="selectedFilesContainer" style="display:none;">
                 <h2 class="h6" id="selectedFilesLabel">Selected Files</h2>
                 <ul id="selectedFiles" class="list-group" aria-live="polite">
-                    <!-- File items appear here dynamically -->
+                    <!-- dynamically added -->
                 </ul>
                 <div id="selectedFilesStatus" class="visually-hidden" aria-live="polite"></div>
             </div>
+
             <hr class="my-4">
 
-            <div class="mb-4">
-                <label class="form-label fw-semibold">
-                    Similarity Threshold
-                </label>
+            <!-- Threshold fieldset -->
+            <fieldset class="mb-4">
+                <legend class="form-label fw-semibold">Similarity Threshold</legend>
 
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="threshold" id="thresholdHigh" value="0.25">
-
                     <label class="form-check-label" for="thresholdHigh">
                         High Sensitivity (0.25)
-                        <small class="text-muted d-block">
-                            Detects more potential plagiarism.
-                        </small>
+                        <small class="text-muted d-block">Detects more potential plagiarism.</small>
                     </label>
                 </div>
 
                 <div class="form-check mt-2">
-                    <input class="form-check-input" type="radio" name="threshold" id="thresholdMedium" value="0.30"
-                        checked>
-
+                    <input class="form-check-input" type="radio" name="threshold" id="thresholdMedium" value="0.30" checked>
                     <label class="form-check-label" for="thresholdMedium">
                         Balanced (0.30)
-                        <small class="text-muted d-block">
-                            Recommended for general use.
-                        </small>
+                        <small class="text-muted d-block">Recommended for general use.</small>
                     </label>
                 </div>
 
                 <div class="form-check mt-2">
                     <input class="form-check-input" type="radio" name="threshold" id="thresholdLow" value="0.35">
-
                     <label class="form-check-label" for="thresholdLow">
                         Strict (0.35)
-                        <small class="text-muted d-block">
-                            Reduces false positives.
-                        </small>
+                        <small class="text-muted d-block">Reduces false positives.</small>
                     </label>
                 </div>
-            </div>
+            </fieldset>
 
             <div class="d-grid gap-2">
                 {{ form.submit(class="btn btn-primary btn-lg", id="uploadButton") }}
 
                 <div id="uploadStatus"
-                    class="text-center text-muted d-flex align-items-center justify-content-center gap-2 d-none"
-                    role="status" aria-live="polite" hidden>
+                     class="text-center text-muted d-flex align-items-center justify-content-center gap-2 d-none"
+                     role="status" aria-live="polite" hidden>
                     <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
                     <span>Processing documents. Please wait.</span>
                 </div>
