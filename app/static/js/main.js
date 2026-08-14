@@ -117,6 +117,48 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
+    // ========================
+    // Similarity Threshold Slider (index.html)
+    // ========================
+    const thresholdSlider = document.getElementById('thresholdSlider');
+    const thresholdDisplay = document.getElementById('thresholdDisplay');
+
+    if (thresholdSlider && thresholdDisplay) {
+
+        function updateThresholdDisplay() {
+            const value = parseFloat(thresholdSlider.value);
+
+            thresholdDisplay.textContent = value.toFixed(2);
+
+            thresholdSlider.setAttribute(
+                'aria-valuenow',
+                value.toFixed(2)
+            );
+
+            let label = 'Custom';
+
+            if (Math.abs(value - 0.25) < 0.001) {
+                label = 'High Sensitivity';
+            } else if (Math.abs(value - 0.30) < 0.001) {
+                label = 'Balanced';
+            } else if (Math.abs(value - 0.35) < 0.001) {
+                label = 'Strict';
+            }
+
+            thresholdSlider.setAttribute(
+                'aria-valuetext',
+                `${label} (${value.toFixed(2)})`
+            );
+        }
+
+        thresholdSlider.addEventListener(
+            'input',
+            updateThresholdDisplay
+        );
+
+        // Set initial display
+        updateThresholdDisplay();
+    }
 
     // ========================
     // 2. Dashboard table (dashboard.html) – only if #analysesTable exists

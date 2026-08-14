@@ -23,7 +23,6 @@ from app.services.detector import run_detection
 from app.services.review import load_review_report
 from app.services.repository import upload_repository
 from app.nlp.preprocessing import preprocess_text
-from app.config import load_config, save_config, get_threshold, set_threshold
 
 app = Flask(
     __name__,
@@ -438,9 +437,6 @@ def get_admin_stats():
             if f.is_file()
         ])
 
-    # Current similarity threshold
-    current_threshold = get_threshold()
-
     # Repository health
     missing_count = max(
         0,
@@ -454,61 +450,11 @@ def get_admin_stats():
         "active_users": active_users,
         "repository_documents": promoted_count,
         "review_documents": review_count,
-        "similarity_threshold": current_threshold,
         "processed_copies": processed_count,
         "promoted_copies": promoted_count,
         "missing_copies": missing_count,
         "is_synchronized": is_synchronized
     })
-
-@app.route('/api/admin/threshold', methods=['GET', 'POST'])
-@admin_required
-def manage_threshold():
-    """Get or update the similarity threshold."""
-
-    # GET - retrieve current threshold
-    if request.method == 'GET':
-        return jsonify({
-            "threshold": get_threshold()
-        })
-
-    # POST - update threshold
-    data = request.get_json()
-    threshold = data.get('threshold')
-
-    if threshold is None:
-        return jsonify({
-            "error": "Threshold value required"
-        }), 400
-
-    try:
-        threshold = float(threshold)
-    except (ValueError, TypeError):
-        return jsonify({
-            "error": "Invalid threshold value"
-        }), 400
-
-    if threshold < 0.25 or threshold > 0.35:
-        return jsonify({
-            "error": "Threshold must be between 0.25 and 0.35"
-        }), 400
-
-    try:
-        set_threshold(
-            threshold,
-            updated_by=session.get('user', 'unknown')
-        )
-
-        return jsonify({
-            "success": True,
-            "threshold": threshold,
-            "message": "Similarity threshold updated successfully"
-        })
-
-    except Exception as e:
-        return jsonify({
-            "error": str(e)
-        }), 500
 
 @app.route('/api/admin/repository', methods=['GET'])
 @admin_required
@@ -633,7 +579,7 @@ def get_users():
         return jsonify({
             "error": str(e)
         }), 500
-        
+
 @app.route('/api/admin/users', methods=['POST'])
 @admin_required
 def create_admin_user():
@@ -712,7 +658,7 @@ def create_admin_user():
         return jsonify({
             "error": str(e)
         }), 500
-        
+
 @app.route('/api/admin/system-status', methods=['GET'])
 @admin_required
 def get_system_status():
@@ -749,26 +695,6 @@ def get_recent_activity():
 
     activity = []
 
-    # Get configuration history
-    try:
-        config = load_config()
-
-        last_update = config.get("last_updated", "")
-        updated_by = config.get("updated_by", "system")
-
-        if last_update:
-            activity.append({
-                "type": "threshold_changed",
-                "description": "Similarity threshold configured",
-                "timestamp": last_update,
-                "updated_by": updated_by,
-                "icon": "⚙️"
-            })
-
-    except Exception as e:
-        print("ACTIVITY CONFIG ERROR:", repr(e))
-
-    # System initialization activity
     activity.append({
         "type": "system_status",
         "description": "Admin panel initialized",
@@ -777,7 +703,6 @@ def get_recent_activity():
         "icon": "✓"
     })
 
-    # Return latest 10 activities
     return jsonify(
         sorted(
             activity,
@@ -900,7 +825,7 @@ def home():
             file.save(save_path)
             logger.info("Saved: %s -> %s", filename, save_path)
 
-        threshold = float(request.form.get("threshold", get_threshold()))
+        threshold = float(request.form.get("threshold", 0.30))
         logger.info("Selected threshold: %.2f", threshold)
 
         try:
