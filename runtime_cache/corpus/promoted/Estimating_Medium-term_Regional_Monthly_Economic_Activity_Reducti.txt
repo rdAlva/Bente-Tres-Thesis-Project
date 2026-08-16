@@ -1,0 +1,1454 @@
+Estimating medium-term regional monthly economic activity reductions
+during the COVID-19 pandemic using nighttime light data
+Ma. Flordeliza P. Del Castillo a,b,*, Toshio Fujimi a,c, Hirokazu Tatano a,c
+a Department of Social Informatics, Graduate School of Informatics, Kyoto University, Kyoto, Japan
+b Geomatics for Environment and Development, Manila Observatory, Ateneo de Manila University, Quezon City, Philippines
+c Disaster Prevention Research Institute, Kyoto University, Kyoto, Japan
+A R T I C L E I N F O
+Keywords:
+Economic impact assessment
+Regression
+Remote sensing
+Spatiotemporal
+Spatial error model
+Philippines
+A B S T R A C T
+Economic impact estimates of the initial lockdowns due to the COVID-19 pandemic showed a significant
+reduction in economic activities globally. However, the succeeding impacts and their spatiotemporal distribution
+within countries remain unknown. Studies showed that nighttime light data (NTL) has effectively revealed the
+spatiotemporal dimensions of the economic effects of COVID-19. Thus, this study used NTL data to determine the
+medium-term regional monthly economic impacts of the pandemic in the Philippines in terms of the Economic
+Activity Reduction (EAR) index. We generated a spatial error model, regressing pre-pandemic NTL on mean
+temperature, maximum rainfall, and built-up area. This model explained 81.6% of the pre-pandemic NTL and
+was used to estimate the counterfactual NTL. We subtracted the actual from the counterfactual to compute the
+EAR. Then, the EAR was regressed on regional factors to determine which ones influence the impacts. Results
+showed uneven distribution of EAR across space and time. The EAR was generally higher in urban regions than in
+rural ones. Overall, more regions in the south had higher EAR. Temporally, the EAR showed a dynamic pattern,
+increasing in less urban regions and decreasing in highly urbanized regions. Regional analysis showed that ur-
+banization level, population density, and poverty incidence had a significant positive relationship with the EAR.
+Beyond the immediate impacts, NTL effectively revealed spatiotemporal dimensions of the economic effects of a
+long-term global hazard.
+1. Introduction
+The coronavirus disease 2019 (COVID-19) spread rapidly across
+countries and contracted the global economy by approximately −3.4 %
+in 2020 (World Bank Group, 2022). Immediate macroeconomic losses
+due to COVID-19 were estimated for various countries using conven-
+tional methods (Kim et al. 2022; Betho et al. 2021; Santos et al. 2022).
+However, these data and methods face limitations in determining the
+subnational level dynamic impacts across years, delaying full recovery
+in local communities.
+Beyond the country-level impacts, researchers pointed out the
+importance of subnational impact estimates for a proportionate resource
+distribution (Lopez Ochoa et al. 2021) and high-frequency data to
+monitor effects for timely policy implementation (Fezzi and Fanghella,
+2020). In addressing this, a growing number of studies have been using
+high-resolution and high-frequency datasets to estimate near-real-time
+subnational
+impacts.
+For
+instance,
+researchers
+used
+electronic
+payments (Carvalho et al. 2021), electricity consumption (Beyer et al.
+2021; Fezzi and Fanghella, 2020), mobility data (Yang et al. 2022), and
+night-time light (NTL) data (Alahmadi et al. 2021, 2023; Beyer et al.
+2021; Xu et al. 2021) to analyze subnational high-frequency economic
+impacts.
+Among these datasets, NTL is frequently used in determining COVID-
+19 impacts. NTL constitutes satellite data that records nocturnal light
+brightness across the earth’s surface and have been used in a broad
+range of cases, from socioeconomic to meteorological, and environ-
+mental applications (Li et al. 2017; Miller et al. 2013). Among its ap-
+plications, one critical niche for NTL is mapping economic variables,
+such as the GDP (Chen and Nordhaus, 2019; Zhao et al. 2017). Earlier
+studies (Doll et al. 2000; Henderson et al. 2012) statistically established
+the relationship of NTL with economic variables, paving the way for its
+wider acceptance as a tool for mapping economic activities. Subsequent
+papers supported these earlier findings using NTL for mapping spatial
+patterns of economic variables (Wu et al. 2013; Mellander et al. 2015).
+* Corresponding author at: S-543D, Kyoto University Uji Campus, Gokasho, Uji, Kyoto 611-0011, Japan.
+E-mail address: fpdelcastillo@observatory.ph (Ma.F.P. Del Castillo).
+Contents lists available at ScienceDirect
+International Journal of Applied Earth
+Observation and Geoinformation
+journal homepage: www.elsevier.com/locate/jag
+https://doi.org/10.1016/j.jag.2024.104223
+Received 7 May 2024; Received in revised form 12 September 2024; Accepted 12 October 2024
+International Journal of Applied Earth Observation and Geoinformation 135 (2024) 104223 
+Available online 11 November 2024 
+1569-8432/© 2024 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/by- 
+nc/4.0/ ). 
+
+Recent papers capitalized on its unique capacity for detecting human
+activities and furthered its function to estimate losses from natural di-
+sasters and monitor recovery (Jia et al. 2023; Qiang et al. 2020). The
+advantages of NTL include fine spatial details, global coverage, exten-
+sive temporal record (Jia et al. 2023), free access, minimum release
+delay, objective physical measurement (Schippers and Botzen, 2023),
+and frequent and regular data acquisition.
+Continuous monitoring of regional economic impacts from COVID-
+19 would be crucial to navigating recovery paths. COVID-19 case
+surges resulted in dynamic responses and impacts lasting beyond initial
+lockdowns. With the economic impacts predicted to last beyond this
+current generation (Jorda et al. 2020), region-specific measures are
+necessary for communities to recover. However, medium-term local
+dynamic impacts and the regional factors shaping them have been rarely
+studied as most studies focused on immediate consequences.
+Hence, this study estimates the medium-term spatiotemporal distri-
+bution of economic activity reduction (EAR) during the COVID-19
+pandemic in the Philippines using regional monthly NTL. Specifically,
+it addresses three research questions:
+1) Is EAR due to COVID-19 evenly distributed across all regions?
+2) If not, how had EAR temporally spread across regions?
+3) What types of regional attributes influence EAR?
+We propose an approach that allows subnational impact mapping
+and monthly monitoring covering three years. This approach entails a
+model estimating the pre-pandemic NTL and using this model to esti-
+mate the counterfactual NTL. The difference between this counterfactual
+and actual NTL gives the EAR. Then, we identified the regional factors
+that significantly influence regional EARs. Through this method, we can
+estimate the medium-term regional monthly distribution of the impacts
+and understand the influencing factors.
+2. Literature Review
+2.1. COVID-19 in the Philippines
+The Philippines implemented one of the strictest and longest COVID-
+19 lockdowns worldwide (Hapal, 2021). This country registered the
+highest economic losses among Southeast Asian countries in 2020
+(Zhang et al. 2022; World Bank Group, 2022). Starting March 12, 2020,
+Metro Manila was under a partial lockdown. By March 16, 2020, the
+entire Luzon Island was under Enhanced Community Quarantine,
+restricting gatherings and closing public transportation, schools, and
+non-essential businesses (Amit et al. 2021). In April 2020, over half of
+the population was subject to these measures (Del Castillo et al. 2024).
+Around mid-May 2020, the government began easing restrictions, with
+exceptions for high-risk areas. However, different quarantine levels
+were implemented across local government units as cases surged in the
+following months. The impacts of these case surges and interventions
+were unknown as most studies focused on the initial impacts.
+Studies that have assessed COVID-19 economic losses in the
+Philippines used economic data from statistics and surveys. A linear
+probability model was employed to ascertain the likelihood of short-
+term COVID-19 business impacts based on survey data on MSMEs
+(Shinozaki and Rao 2021) noting greater probability of economic
+reduction in urban regions than in rural ones. Another study applied the
+persistent inoperability input–output method and identified the worst-
+hit sectors (Yu et al. 2020). Others derived a compartmentalized dy-
+namic transmission model to estimate the economic and health tradeoffs
+for different scenarios in selected regions (de Lara-Tuprio et al. 2022). A
+recent study estimated a total loss amounting to 2.9 trillion PhP in 2020
+and 3.2 trillion PhP in 2021 due to COVID-19 in the Philippines (Del
+Castillo et al. 2024). However, the regional monthly economic impacts
+of COVID-19 across time remain unknown.
+2.2. COVID-19 economic impact estimation methods
+Internationally, COVID-19 impacts have been estimated in various
+countries using traditional methods such as the social accounting matrix
+for Mozambique (Betho et al. 2021), computable general equilibrium in
+South Korea (Kim et al. 2022), and input–output models in the
+Philippines (Santos et al. 2022). With the need for near-real-time impact
+estimation, other researchers used high-frequency datasets. Carvalho
+et al. (2021) used electronic payment data to analyze the regional eco-
+nomic impacts of COVID-19 in Portugal, finding central and densely
+populated municipalities suffering a worse economic decline. Fezzi and
+Fanghella (2020) used daily electricity consumption data to estimate the
+immediate daily economic impacts of COVID-19 in Italy. Yang et al.
+(2022) used daily mobility data for losses and recovery rate assessment
+during the initial lockdown for cities in China.
+Other studies revealed the spatial distribution of impacts using NTL,
+as an established proxy for economic activities given the lack of local
+high-frequency economic data. Most NTL-based studies employed a
+before-and-after comparison method (Ghosh et al. 2020; Beyer et al.
+2021; Alahmadi et al. 2021, 2023; Xu et al. 2021). Alahmadi et al.
+(2021) observed pandemic-related NTL brightness reduction in parts of
+Saudi Arabia after comparing 2019 and 2020 NTL images. Beyer et al.
+(2021) mapped out the impacts of COVID-19 lockdowns per district in
+India from April to August 2020 using VIIRS data. Xu et al. (2021)
+compared spatial and temporal changes of NTL brightness in 20 selected
+megacities using NASA’s Black Marble NTL, identifying Mumbai, Dhaka,
+and Manila as the megacities with the highest nighttime brightness
+reduction. Other studies developed regression models (Roberts, 2021;
+Lin and Rybnikova, 2023) and used machine learning methods
+(Dasgupta, 2022). Lin and Rybnikova (2023) provided evidence that
+NTL can be used in estimating GDP under the impact of COVID-19 and
+showed the different recovery rates across U.S. states. While numerous
+studies have proven the utility of NTL data and other high-resolution/
+high-frequency datasets, most of them focused on the immediate ef-
+fects covering the first few months after the lockdown.
+3. Materials and methods
+3.1. Study Site
+The Philippines is an archipelagic country in South East Asia (Fig. 1).
+It has three main island groups: Luzon, Visayas, and Mindanao, and four
+administrative division levels: regional, provincial, municipal or city,
+and barangay. These administrative divisions demarcate resources,
+services, and policies. National services are organized in the regional
+units, while the barangays govern local communities.
+During the COVID-19 pandemic, the National Government initially
+enforced lockdowns. Later, each local administrative unit implemented
+additional measures. These units vary in demographic, socioeconomic,
+and geopolitical characteristics, which could affect how the economic
+impacts of the pandemic spread. Understanding these differences is
+essential for developing region-specific recovery strategies. One key
+factor influencing economic impact is urbanization level, defined as the
+proportion of the urban population relative to the total population
+within an administrative unit (Philippine Statistics Authority, 2020).
+In this study, we generated the model using provincial-level datasets
+to meet the minimum data point requirements for the spatial regression
+method. We aggregated the estimated provincial impacts at the regional
+level for interpretability. We ranked and labeled the regions according
+to their urbanization level, with R1 representing the most urbanized and
+R17 the least urbanized. This ranking helps highlight differences in
+urban-rural regional impacts and simplifies interpretation.
+3.2. Data
+Table 1 lists the data inputs used in the study with their
+Ma.F.P. Del Castillo et al.
+International Journal of Applied Earth Observation and Geoinformation 135 (2024) 104223 
+2 
+
+corresponding sources, spatial and temporal resolutions and level of
+aggregation. Each dataset is explained in the subsequent subsections.
+Table 2 presents the statistical summary of the data inputs.
+3.2.1. Nighttime light
+Monthly and annual NTL composites were downloaded from the
+Earth Observation Group of the Payne Institute for Public Policy,
+Colorado School of Mines (Earth Observation Group 2021, Elvidge et al.
+2013). The Earth Observation Group preprocesses NTL data from the
+Suomi National Polar-orbiting Partnership, Visible and Infrared Imaging
+Suite Day and Night Band to eliminate unnecessary light emissions
+(Elvidge et al. 2017). Monthly and annual radiance average bands were
+then produced from the preprocessed datasets (Elvidge et al. 2021).
+Additional preprocessing steps via filtering and substitution were
+Fig. 1. Location of the Philippines and its regions ranked according to urbanization level. Note: Regional names are also provided together with abbreviations.
+Ma.F.P. Del Castillo et al.
+International Journal of Applied Earth Observation and Geoinformation 135 (2024) 104223 
+3 
+
+performed on the NTL data to remove negative values, unstable light,
+and clouds as per Del Castillo et al. (2024). After these pre-processing
+steps, the sum of lights was computed by adding all cloud-corrected
+pixel values within the region. Fig. 2 shows the provinces with high
+and low average NTL from January 2013 to December 2022.
+3.2.2. Built-up areas
+Built-up areas represent impervious surfaces as sources of NTL
+emission. The built-up area was obtained from MCD12Q1.061 MODIS
+Land Cover Type Yearly Global of NASA LP DAAC at USGS EROS Center
+(Friedl and Sulla-Menashe, 2022). The LC_Type1 includes 17 classes.
+The class of interest was built-up areas, which are spaces with an over
+30 % impervious surface. We extracted the built-up class from the data,
+converted the built-up pixels classified into polygons, and computed the
+built-up area per province (Fig. 2). The data was downloaded through
+Google
+Earth
+Engine
+https://developers.google.com/earth-engine/
+datasets/catalog/MODIS_061_MCD12Q1.
+3.2.3. Weather
+Previous studies have shown a significant positive correlation
+Table 1
+List of data.
+Symbol
+Variable Description
+(years covered)
+Data Source
+Raw Spatial
+resolution
+Raw Temporal
+resolution
+Level of
+aggregation
+NTL
+Nighttime light
+(2013–2022)
+Suomi-NPP VIIRS DNB band from Earth Observation Group, Payne
+Institute for Public Policy, Colorado School of Mines
+https://eogdata.mines.edu/nighttime_light/monthly/v10/
+~500 m
+Monthly
+Average monthly
+provincial
+meantemp
+Average daytime land
+surface temperature
+(2013–2022)
+MOD11A1 V6.1 from NASA LP DAAC, USGS EROS Center
+https://lpdaac.usgs.gov/products/mod11a1v061/
+~1000 m
+Daily
+Average monthly
+provincial
+maxrainfall
+Daily total rainfall
+(2013–2022)
+Climate Hazards Center Infrared Precipitation with Station Data (Version
+2.0 Final) from Climate Hazards Center, UC Santa Barbara
+https://developers.google.com/earth-engine/datase
+ts/catalog/UCSB-CHG_CHIRPS_DAILY#description
+5566 m
+Daily
+Maximum total
+monthly provincial
+builtarea
+Land cover type
+(2013–2022)
+MCD12Q1.061 MODIS Land Cover Type Yearly Global from NASA LP
+DAAC at USGS EROS Center
+https://lpdaac.usgs.gov/products/mcd12q1v061/
+500 m
+Annual
+Provincial built-up
+area
+caseperH
+COVID-19 case per
+hospital
+(2020–2022)
+Department of Health
+https://data.gov.ph/index/public/dataset/covid-19-doh-data-drop-(janu
+ary-01,-2022)/n9j4ekug-owr5-qmhx-6dot-4fe99tdkuw7z
+https://nhfr.doh.gov.ph/StatHfRegionalList
+City/Region
+Daily
+Regional monthly
+LI
+Lockdown index
+(2020–2022)
+Inter-Agency Task Forces for the Management of Emerging Infectious
+Diseases Resolutions
+Province
+~ Monthly
+Regional monthly
+urblev
+Urbanization level
+(2020)
+2020 Census of Population and Housing (PSA, 2022b)
+https://psa.gov.ph/content/urban-population-philippines-2020-cen
+sus-population-and-housing
+Region
+Annual
+Regional Annual
+popden
+Population density
+(2020)
+2020 Census of Population and Housing (PSA, 2021)
+https://psa.gov.ph/content/2020-census-population-and-housing-2020-
+cph-population-counts-declared-official-president
+Region
+5 years
+Regional 5 years
+popgr
+Population growth rate
+(2020)
+2020 Census of Population and Housing (PSA, 2021)
+https://psa.gov.ph/content/2020-census-population-and-housing-2020-
+cph-population-counts-declared-official-president
+Region
+5 years
+Regional 5 years
+regmov
+Percent regional
+movers
+(2020)
+2020 Census of Population and Housing (PSA, 2023b)
+https://psa.gov.ph/content/migration-and-overseas-workers-2020-cen
+sus-population-and-housing-2020-cph
+Region
+5 years
+Regional 5 years
+povinc
+Poverty incidence
+(2021)
+Philippine Statistics Authority (PSA, 2022a)
+https://psa.gov.ph/content/proportion-poor-filipinos-was-recorded-181-
+percent-2021
+Region
+3 years
+Regional 3 years
+litrate
+Literacy rate
+(2020)
+2020 Census of Population and Housing (PSA, 2023a)
+https://psa.gov.ph/content/literacy-rate-and-educational-attainment-a
+mong-persons-five-years-old-and-over-philippines
+Region
+5 years
+Regional 5 years
+Table 2
+Statistical summary of data inputs.
+Scale
+Data
+Minimum
+Maximum
+Range
+Sum
+Median
+Mean
+SE.mean
+Variance
+Std.dev.
+Count
+Provincial Monthly
+NTL
+0
+35,505
+35,505
+40,798,121
+1,226
+3,908
+6,009
+36,111,197
+6,009
+10,440
+meantemp
+19
+42
+24
+297,189
+28
+28
+3
+9
+3
+10,440
+maxrainfall
+2
+1,779
+1,778
+3,444,551
+288
+330
+235
+55,194
+235
+10,440
+builtarea
+0
+263
+263
+402,394
+12
+39
+55
+2,994
+55
+10,440
+Regional monthly
+LI
+0
+4
+4
+842
+1
+1
+1
+0
+1
+612
+caseperH
+0
+1,828
+1,828
+43,773
+22
+72
+137
+18,865
+137
+612
+Regional ~five-year
+popden
+95
+21,510
+21,416
+957,414
+268
+1,564
+4,994
+24,943,296
+4,990
+612
+popgr
+1
+3
+3
+944
+1
+2
+1
+0
+1
+612
+regmov
+0
+5
+5
+1,300
+2
+2
+1
+1
+1
+612
+povinc
+2
+30
+28
+9,860
+15
+16
+8
+57
+8
+612
+litrate
+86
+99
+13
+58,892
+97
+96
+3
+8
+3
+612
+urblev
+15
+100
+85
+27,292
+38
+45
+21
+462
+21
+612
+Ma.F.P. Del Castillo et al.
+International Journal of Applied Earth Observation and Geoinformation 135 (2024) 104223 
+4 
+
+between NTL and land surface temperature, attributed to thermal and
+brightness effects in urban settings (Li et al. 2019, Li et al. 2022). Mean
+temperature data from MOD11A1.061 Terra Land Surface Temperature
+and Emissivity Daily Global 1-km dataset were used to estimate NTL.
+These data were acquired from NASA LP DAAC at the USGS EROS Center
+(Wan et al. 2021). Specifically, we used the daytime land surface tem-
+perature band (LST_Day_1km) with a grid size of 1,200 km. Daily land
+surface temperature values were averaged monthly for each province.
+Conversely, rainfall, indicative of cloud cover, tends to diminish
+NTL, resulting in a negative relationship. Therefore, including maximum
+rainfall data in the model indirectly accounts for cloud effects. Addi-
+tionally, we collected daily rainfall data from the Climate Hazards Group
+Infrared Precipitation with Station Data Version 2.0 (Funk, et al. 2015),
+using a precipitation band measured in millimeters per day, with a
+resolution of 5,566 m. The daily rainfall data were summed up into
+monthly datasets for each province. Both mean temperature and rainfall
+datasets were obtained through Google Earth Engine.
+3.2.4. Ancillary data
+Data on the daily COVID-19 case count (Department of Health
+2022b) and the annual count of hospitals (Department of Health 2022a)
+for each region were obtained from the Department of Health. The daily
+COVID-19 case data were aggregated from a daily to monthly scale.
+Additionally, various factors were examined to identify regional char-
+acteristics associated with EAR as shown in Fig. 3. Specific regional data
+were sourced from the PSA for parameters including population growth
+rate, population density (PSA 2021), urbanization level (PSA 2022b),
+regional movers (PSA 2023b), poverty incidence (PSA 2022a), and lit-
+eracy rate (PSA 2023a). Regional movers, also known as “domestic long-
+distance movers” refer to the population relocating from one province to
+another within the past five years (PSA 2023b). In this study, the
+regional mover population was divided by the total regional population.
+Poverty incidence represents the percentage of the population falling
+below the poverty line (PSA 2020).
+Lockdown levels in the Philippines ranged from Level 1 with the least
+stringent measures to Level 4 with the strictest restrictions. To analyze
+them, we computed a Lockdown Index LI. This involved recording the
+number of days d in a given month m during which each province p was
+under each of these four quarantine levels l. We then determined the
+lockdown duration, LD, for each level by multiplying the number of days
+by the corresponding lockdown weight, LW. Lockdown weights were
+assigned as follows: 0.25 for Level 1, 0.5 for Level 2, 0.75 for Level 3, and
+1 for Level 4. Finally, we computed the LI for each province and aver-
+aged it across each region r as shown in Equation (1). We mapped the
+annual regional COVID-19 cases and the average lockdown index in
+Fig. 4.
+LIm,r = 1
+p
+∑
+k
+p=1
+1
+d
+∑
+n
+d=1
+(
+LDd,p*LWd,p
+)
+(1)
+3.3. Methods
+3.3.1. Framework
+Our approach involves developing a model estimating the pre-
+pandemic NTL. Using this model, we calculated a counterfactual
+NTL—what the NTL would have been if the pandemic had not occurred.
+This counterfactual becomes the baseline for calculating the economic
+impact, represented by the EAR index. We then used regression analysis
+to identify the regional factors influencing the EAR. The overall process
+is illustrated in Fig. 5.
+Fig. 2. Provincial data from 2013 to 2022 a) average NTL, b) average built-up area.
+Ma.F.P. Del Castillo et al.
+International Journal of Applied Earth Observation and Geoinformation 135 (2024) 104223 
+5 
+
+3.3.2. Data exploration and preparation
+We began by analyzing the distribution of the dataset values. The
+histograms (Fig. 5) revealed a skewed data distribution. To address this,
+we applied the natural logarithm to the input datasets to normalize the
+distribution. Subsequently, we separated the data into the pre-pandemic
+and pandemic subsets, with March 2020 marking the start of the
+pandemic.
+3.3.3. NTL model development
+For model development, we first tested the NTL data for spatial
+autocorrelation using Moran’s I to avoid biased estimates. The
+computed Moran’s I was 0.928 (p-value < 0.01), indicating significant
+positive spatial autocorrelation. This means that spatial regression
+models had to be used instead of OLS to obtain unbiased results. We then
+performed Lagrange multiplier (LM) tests to determine which spatial
+regression model to use. The results showed significant spatial depen-
+dence in both the error and the dependent variable so we performed the
+robust LM. Both had significant p-values but the spatial error model
+(SEM) had a higher test statistic (Rao score = 25,888; p-value= <0.000)
+than the spatial lag model (Rao score = 8.36; p-value < 0.004). This
+means that the residual has greater spatial dependence than the
+dependent variable.
+Based on this, we developed the SEM model where the error term ε of
+the OLS model was multiplied by the spatial weight matrix W and an
+autoregressive coefficient λ, thus, isolating an identically and indepen-
+dently distributed error term u. Then, the pre-pandemic NTL, lnNTL, was
+modeled based on the average temperature lnmeantemp, maximum
+rainfall lnmaxrainfall, and buil-up area lnbuiltarea. Additionally, we
+Fig. 3. Regional datasets a) Population density, b) population growth rate, c) regional mover, d) poverty incidence, e) literacy rate, f) urbanization level.
+Ma.F.P. Del Castillo et al.
+International Journal of Applied Earth Observation and Geoinformation 135 (2024) 104223 
+6 
+
+incorporated the count of holidays holidays to capture the impact of
+seasonal festivities on NTL. Finally, we added regional dummy variables
+R and year component to control for the regional variations and capture
+the effect of passing years on NTL, respectively, as shown in Equation
+(2):
+lnNTL = β0 + β1lnmeantemp + β2lnmaxrainfall + β3lnbuiltarea
++ β4holidays + year + R + λWε + u
+(2)
+where, β0, β1, β2, β3, and β4 are the parameters estimated in the
+model. To determine whether multicollinearity among the explanatory
+variables exists, we computed the variance inflation factor which falls
+within an acceptable value (VIF < 3.54).
+3.3.4. NTL estimation
+We then estimated the provincial monthly NTL by inputting the
+pandemic period data into the developed SEM. The counterfactual was
+then estimated using Equation (3).
+lncNTL = ̂β0 + ̂β1lnmeantemp + ̂β2lnmaxrainfall + ̂β3lnbuiltarea
++ ̂β4holidays + year + R + λWε
+(3)
+Here, cNTL represents the counterfactual NTL. ̂β0, ̂β1, ̂β2, ̂β3, and ̂β4
+are the coefficients obtained from Equation (2).
+3.3.5. EAR computation
+For the EAR, we aggregated the actual provincial monthly NTL NTLp
+into regional monthly NTL NTLr (Equation (4)):
+lnNTLr =
+∑k
+p=1lnNTLp
+(4)
+where k stands for the total number of province p in region r.
+Similarly, the counterfactual NTL cNTLp was aggregated into
+regional level as represented by Equation (5):
+Fig. 4. Total annual regional COVID-19 cases and average annual regional lockdown indices.
+Ma.F.P. Del Castillo et al.
+International Journal of Applied Earth Observation and Geoinformation 135 (2024) 104223 
+7 
+
+Fig. 5. Overall process flow.
+Ma.F.P. Del Castillo et al.
+International Journal of Applied Earth Observation and Geoinformation 135 (2024) 104223 
+8 
+
+lncNTLr =
+∑k
+p=1lncNTLp
+(5)
+To compute for the EAR per region r, we subtracted the actual NTL
+from the counterfactual NTL and divided the difference by the coun-
+terfactual NTL (Equation (6)).
+EARr =
+(lncNTLr −lnNTLr
+lncNTLr
+)
+(6)
+Here, EAR is the ratio of economic activity reduction considered as an
+index of economic impact.
+3.3.6. Regional analysis
+We then regressed the EAR on the following factors to determine
+which factor(s) influence the EAR as represented in Equation (7).
+lnEARr = δ0 + δ1lncaseperHr + δ2lnLIr + δ3lnurblevr + δ4lnpopdenr
++ δ5lnpopgrr + δ6lnregmovr + δ7lnpovincr + δ8lnlitrater
++ λWε + u
+(7)
+In this equation, lncaseperHr represents the natural logarithm of the
+ratio of COVID-19 cases per hospital. This ratio was selected because
+economic impacts are influenced not only by the proportion of the
+infected population but also by the capacity of healthcare institutions to
+accommodate patients requiring medical care. lnLIr refers to the natural
+logarithm of the lockdown index (Equation (1)). Other regional factors,
+such as urbanization level Urblev, population density Popden, population
+growth rate Popgr, proportion of regional movers Regmov, poverty
+incidence Povinc, and literacy rate Litrate, could also attenuate or
+magnify the economic impacts. Previous studies have linked the eco-
+nomic impacts to urbanization level (Carvalho et al. 2021, Hamman
+et al. 2023) and population density (Khan et al. 2023). Furthermore,
+regional movers could capture the changes in economic activity owing
+to the urban exodus that occurred during the lockdown period, espe-
+cially under the Balik Probinsya or Return to Province program (UPPI
+and DRDF, 2020). Regions with more regional movers, wealth, and
+higher education levels can also affect the EAR distribution (Carvalho
+et al. 2021).
+4. Results
+4.1. Pre-pandemic NTL model
+Table 3 presents the results of spatial regression models generated to
+estimate the pre-pandemic provincial monthly NTL. As shown, we
+generated three models with varying sets of explanatory variables.
+Model 1, based on mean temperature, maximum rainfall, built-up areas,
+and holidays, all variables significant at 1 %, explains 72 % of the pre-
+pandemic NTL. The year was added in Model 2, effectively increasing
+the R2 value to 0.816. Adding the regional dummy variables in Model 3
+did not improve the R2 but slightly lowered the Akaike Information
+Criterion (AIC), which measures the model quality based on its fit and
+complexity. Having the lowest AIC, model 3 estimated the counterfac-
+tual NTL.
+4.2. Estimated NTL
+We estimated the NTL per province using Model 3. For ease of
+interpretation, we aggregated the provincial actual and estimated NTL
+to the regional level. Fig. 6 plots the estimated monthly regional NTL in
+blue and the actual NTL in black. As shown, the estimated NTL exhibits
+an ascending trend across the years. It also follows a fluctuating pattern,
+reflecting seasons controlled by the temperature and rainfall datasets.
+Focusing on the pre-pandemic period, the estimated NTL generally fol-
+lowed the actual NTL, suggesting that the model can capture the NTL
+values. However, the modeled values could not capture steep momen-
+tary drops possibly due to disasters or power outages and temporary
+peaks of the actual NTL which occurred in regions surrounding Marawi
+city during the Marawi Siege.
+Regarding the pandemic period, the gaps between the actual and
+counterfactual NTL represent the economic impacts. During this period,
+two patterns emerged. The first pattern showed that counterfactual
+values of R1 to R10 were higher than the actual NTL, indicating eco-
+nomic activity reduction. The second pattern can be observed from R11
+to R17 where the actual NTL was higher than the counterfactual, rep-
+resenting economic activity gain.
+4.3. EAR
+4.3.1. Regional monthly EAR
+We computed the regional monthly EAR using Equation (6). EAR
+values indicate the economic impact based on NTL, as a measure of
+economic activities. EAR values ranged from −1 to 1 but were
+Table 3
+SEM results.
+Dependent Variable: lnNTL
+1
+2
+3
+lnmeantemp
+1.185***
+1.179***
+1.177***
+(0.076)
+(0.063)
+(0.063)
+lnmaxrainfall
+−0.089***
+−0.065***
+−0.065***
+(0.005)
+(0.004)
+(0.004)
+lnbuiltarea
+1.747***
+1.484***
+1.589***
+(0.091)
+(0.091)
+(0.108)
+holidays
+0.028***
+0.005*
+0.005*
+(0.003)
+(0.003)
+(0.003)
+R1
+​
+​
+0.049
+​
+​
+(0.451)
+R2
+​
+​
+0.388
+​
+​
+(0.427)
+R3
+​
+​
+0.657
+​
+​
+(0.429)
+R4
+​
+​
+−0.328
+​
+​
+(0.396)
+R5
+​
+​
+0.244
+​
+​
+(0.427)
+R6
+​
+​
+0.382
+​
+​
+(0.446)
+R7
+​
+​
+0.608
+​
+​
+(0.434)
+R8
+​
+​
+0.505
+​
+​
+(0.413)
+R9
+​
+​
+0.293
+​
+​
+(0.459)
+R10
+​
+​
+1.012**
+​
+​
+(0.447)
+R11
+​
+​
+−0.213
+​
+​
+(0.436)
+R12
+​
+​
+−0.416
+​
+​
+(0.429)
+R13
+​
+​
+−0.091
+​
+​
+(0.447)
+R15
+​
+​
+0.258
+​
+​
+(0.414)
+R16
+​
+​
+−0.764*
+​
+​
+(0.426)
+R17
+​
+​
+0.381
+​
+​
+(0.421)
+year
+​
+0.114***
+0.114***
+​
+(0.002)
+(0.002)
+Constant
+−2.550***
+−230.881***
+−231.114***
+(0.407)
+(3.861)
+(3.876)
+Observations
+7,482
+7,482
+7,482
+Log Likelihood
+−4,166.71
+−2,725.27
+−2,708.75
+R2
+0.719
+0.816
+0.816
+adj-R2
+0.718
+0.816
+0.816
+Akaike Inf. Crit.
+8,347.42
+5,466.53
+5,465.50
+Note: Standard errors are shown between parentheses. Significance levels: *p <
+0.1; **p < 0.05; ***p < 0.01.
+Data coverage: 2013–2019 regional monthly.
+Ma.F.P. Del Castillo et al.
+International Journal of Applied Earth Observation and Geoinformation 135 (2024) 104223 
+9 
+
+multiplied by 100 to improve readability. + EAR corresponds to a
+reduction in economic activities and −EAR reflecting an increase in
+economic activities. Our computation yielded EAR values from −8.65 to
+25.13. Fig. 6 shows the computed EAR values per region and month. The
+columns represent the region categorized by urbanization ranking,
+while the rows represent the years and months. EARs were color-coded
+with yellow for negative and blue for positive values. The graph shows
+how EAR values within a region change across months. It also shows
+which regions have the highest EAR for each month. We averaged the
+EARs for 2020, 2021, and 2022, highlighting regions with worse eco-
+nomic reduction for the year. Then, we averaged the EARs across all
+months to identify the worst affected regions. We also averaged the EAR
+per month to determine the months with the greatest economic
+reduction.
+4.3.2. Spatial distribution of EAR
+We analyzed the spatial distribution of EARs and identified two key
+patterns. First, the monthly regional EARs showed a clear urban–rural
+divide. As illustrated in Fig. 7, urban regions (R1–R10) generally expe-
+rienced + EARs, while rural ones (R11–R17) mostly saw −
+EARs. This
+finding indicates that economic impacts varied by region, with urban
+areas seeing economic reductions, while rural areas, experiencing gains.
+Fig. 6. Monthly actual and estimated NTL values per region.
+Ma.F.P. Del Castillo et al.
+International Journal of Applied Earth Observation and Geoinformation 135 (2024) 104223 
+10 
+
+Second, the southern regions showed higher EARs. As shown in
+Fig. 8d, which maps the average EAR per region over three years,
+Mindanao had significantly more regions with positive EARs—nearly 80
+% of the island—compared to only about a third of Luzon and the
+Visayas. This finding suggests that Mindanao was more severely affected
+than Luzon and Visayas within the three years.
+4.3.3. Temporal distribution of EAR
+The three-year-long temporal analysis of EAR values generally
+showed monthly fluctuations within a region. Specifically, Fig. 7 shows
+the timing of EAR peaks for each region, each peak occurring at varying
+months. Two patterns emerged after comparing the timing of regional
+EAR peaks. The first pattern pertains to the transfer of peaks from re-
+gions with high urbanization level to those with lower urbanization
+level. We highlighted the EAR peaks per region in red boxes (Fig. 7). As
+shown, the first regional peak occurred in R1 in August 2020. The next
+peak occurred in R2, then in the less urban regions. Interestingly, this
+pattern showed that as time passed, the EAR intensified and transferred
+from the most urbanized regions to less urbanized ones such as R9, R7,
+and R6.
+The second pattern showed a southward movement of the peaks,
+initially starting in Luzon and moving to Visayas and Mindanao. The
+peaks in Luzon regions generally occurred within the first year.
+Contrarily, EAR peaks in Visayas and Mindanao regions occurred in the
+Fig. 7. Regional monthly EAR. L-Luzon, V-Visayas, M-Mindanao. Please refer to Fig. 1 for the regional names and abbreviations. The regions were ranked according
+to urbanization levels, with R1 having the highest and R17, the lowest. Note: The reported values were multiplied by 100 to improve readability. Red box marks the
+EAR peaks per region.
+Ma.F.P. Del Castillo et al.
+International Journal of Applied Earth Observation and Geoinformation 135 (2024) 104223 
+11 
+
+second and third years. Fig. 8a to 8c show the average annual regional
+EAR for 2020 to 2022. Fig. 8a shows that in 2020, regions with + EAR
+(blue-colored regions) were in Luzon and Mindanao. However, by 2021,
+blue regions decreased in Luzon as they expanded and intensified in
+Mindanao. In 2022, blue regions further increased in Mindanao and
+Visayas.
+Aside from monthly EAR fluctuations, EAR values also reveal re-
+covery trends. Fig. 8e and 8f display the annual average EAR per region
+for those with positive and negative EAR, respectively. These figures
+help pinpoint regions showing signs of recovery. Among regions with
+positive EAR (Fig. 8e), R2 and R4 showed a decline in their annual
+average EAR, indicating gradual recovery, though none have fully
+reached their counterfactual values. Contrarily, regions with negative
+EAR (Fig. 8f), such as R11, R13, R16, and R17, displayed increasing
+EAR, signaling economic decline despite earlier gains.
+4.4. Regional factors
+Table 4 presents the result of the regional analysis where lnEAR was
+regressed on several regional attributes to determine the significant
+factors. We formulated four models. Model 1 covers all data from 2020
+to 2022. In Model 1, lnurblev and lnpovinc were significant at 1 % and 5
+%, respectively. The coefficient signs show that lnurblev and lnpovinc
+increased the EAR. Although Model 1 indicated insignificance for both
+lncaseperH and lnLI, it may have held significance across the years.
+Investigating this possibility, we divided the data by year and generated
+Models 2–4. In 2020 and 2021, only lnurblev held significance. By 2022,
+lnurblev remained significant while lncaseperH became significant at 5 %,
+which might reflect the emergence of the Omicron variant. At this time,
+lnpovinc was also significant, suggesting that, across time, the economic
+impacts spread in poorer regions. The significance of lnurblev in all four
+models supports the finding of spatial analysis regarding the separation
+between urban and rural regions.
+Fig. 8. EAR annual average maps a) 2020, b) 2021, c) 2022 d) 2020 to 2022 and annual EAR trends for e) regions with positive EAR and f) regions with -EAR.
+Ma.F.P. Del Castillo et al.
+International Journal of Applied Earth Observation and Geoinformation 135 (2024) 104223 
+12 
+
+5. Discussions
+The results revealed that EARs varied across space and time,
+depending on certain regional factors. EARs were generally higher in
+urban areas than in rural ones, aligning with the findings of other re-
+searchers (Carvalho et al. 2021; Hamman et al. 2023). Our regional
+analysis confirmed this, with lnurblev consistently significant across all
+models (Table 4). The study also found that while Luzon experienced a
+substantial initial economic impact following the Luzon lockdowns, the
+overall medium-term EAR was higher in Mindanao. EARs shifted over
+time, with peaks moving from the most urbanized regions in the first
+year to less urbanized ones in the second and third years. EAR peaks also
+migrated from Luzon to Mindanao. Additionally, the three-year analysis
+revealed the recovery status of the regions. Key factors linked to EAR
+included urbanization level, poverty incidence, and number of cases per
+hospital.
+This study demonstrated a counterfactual-based approach to esti-
+mating economic impacts, enabling the calculation of medium-term
+EAR. This method complements the widely-used change detection
+technique of analyzing NTL datasets. The change detection method
+measures the difference between pre-and post-event images (Ghosh
+et al. 2020; Beyer et al. 2021; Alahmadi et al. 2023; Xu et al. 2021) and is
+appropriate for immediate impact assessment. However, it may under-
+estimate long-term effects, as it does not account for the trend. In
+contrast, our counterfactual-based approach allows for long-term
+impact estimation and recovery tracking. Some studies (Lin and Ryb-
+nikova, 2023) have used pre-pandemic levels as the recovery point.
+Alternatively, the counterfactual value can serve as the recovery point in
+estimating the recovery of losses rather than temporal changes. In the
+counterfactual approach, recovery is achieved when the actual EAR
+reaches the counterfactual value (EAR = 0). Although the results show
+that some regions are moving toward recovery, many still experience
+positive EAR, and regions with negative EAR show a worsening trend.
+Hence, continuous monitoring of EAR is crucial for authorities to iden-
+tify regions in need of further support and to allocate resources effec-
+tively for recovery.
+Medium-term impacts revealed that the most economically stricken
+regions due to the pandemic were not always the most urbanized re-
+gions, which is not covered by studies focusing on the initial lockdown
+periods (Carvalho et al., 2021; Shinozaki and Rao, 2021). As COVID-19
+was a dynamic hazard lasting for several years, the severity of economic
+impacts fluctuated. This finding implies the need for continuous impact
+monitoring. Highly urbanized regions often incur more absolute eco-
+nomic loss in the short run than urbanizing regions. Although the ab-
+solute losses are lower for urbanizing regions, the impacts to them could
+be more devastating in the long run as the losses constitute a significant
+portion of their economy. Neglecting the longer-term impacts could
+leave these urbanizing regions without support, leading to further
+decline of their economies, making poorer regions poorer, as implied by
+poverty incidence having significant positive relationship with EAR in
+2022.
+We acknowledge several limitations of this study. First, the method
+requires more data and computation, making it more time-consuming
+than the simpler change detection approach. Second, the results only
+reflect economic impacts from NTL-emitting sectors, thus, agricultural
+impacts are not captured. Third, smaller events, unrelated to the
+pandemic, may influence the EAR. For example, sudden drops in NTL
+could be caused by weather disturbances, reduced activity, or power
+outages. In contrast, the NTL peaks in Mindanao in 2017 might be linked
+to population displacement during the Marawi Siege. These smaller
+events were not factored into the pre-pandemic model. Finally, the
+method assumes no other hazards occurred during the pandemic,
+though some natural disasters did take place. Nevertheless, these events
+were short-lived and affected only a few regions, meaning this method is
+not suited for estimating the impacts of multiple hazards. This implies
+that EARs were not purely the effect of COVID-19 alone but could also
+include effects of minor events. Future research could address these
+limitations by accounting for multiple hazards and integrating multi-
+spectral images to capture agricultural losses.
+6. Conclusions
+The COVID-19 pandemic resulted in global economic activity
+changes observable from space through NTL data. This study estimated
+the subnational economic activity reductions at monthly intervals for
+three years and identified regional factors influencing the changes. We
+generated a model estimating the pre-pandemic NTL based on explan-
+atory variables including mean temperature, maximum rainfall, built-up
+area, holidays, trend, and regional dummy variables. The model was
+able to explain over 81.6 % of the pre-pandemic NTL. Based on the
+regression model results, we estimated the counterfactual NTL. The pre-
+pandemic regional estimated NTL closely followed the actual NTL. The
+regional monthly EARs were then computed. Finally, the regional fac-
+tors influencing the EARs were identified through regression.
+This study’s contribution centers on estimating the regional medium-
+term EAR due to the COVID-19 pandemic using NTL. Our results
+revealed that EAR was higher in urban regions than in rural regions. EAR
+was not static over time as shown by the increased impact in less urban
+and southern regions in the second and third years. The regional analysis
+showed that urbanization level, COVID-19 cases per hospital, and
+poverty incidence had a significant positive relationship with EARs. This
+study showed that impacts differ across space and fluctuate across time
+depending on regional characteristics. It is important to understand
+these spatiotemporal dimensions and continuously monitor their long-
+term impacts. In this regard, NTL holds great potential in understand-
+ing these dimensions beyond the immediate impacts.
+CRediT authorship contribution statement
+Ma. Flordeliza P. Del Castillo: Conceptualization, Data curation,
+Formal analysis, Methodology, Visualization, Writing – original draft,
+Writing
+–
+review
+&
+editing.
+Toshio
+Fujimi:
+Conceptualization,
+Table 4
+Regional analysis results.
+lnEAR
+2020–2022
+2020
+2021
+2022
+lncaseperH
+0.002
+0.002
+−0.003
+0.010**
+(0.002)
+(0.006)
+(0.003)
+(0.005)
+lnLI
+0.184
+−0.222
+−0.475
+−0.086
+(0.134)
+(0.136)
+(0.327)
+(0.503)
+lnurblev
+0.173***
+0.127***
+0.180***
+0.213***
+(0.056)
+(0.043)
+(0.061)
+(0.069)
+lnpopden
+−0.002
+0.001
+−0.003
+−0.005
+(0.007)
+(0.005)
+(0.007)
+(0.008)
+lnpopgr
+−0.73
+−0.051
+−0.904
+−1.122
+(1.026)
+(0.779)
+(1.11)
+(1.264)
+lnregmov
+0.03
+0.084
+0.068
+−0.012
+(0.493)
+(0.374)
+(0.533)
+(0.608)
+lnpovinc
+0.216**
+0.127
+0.18
+0.333**
+(0.108)
+(0.082)
+(0.117)
+(0.133)
+lnlitrate
+−0.037
+−0.054
+0.077
+−0.099
+(0.524)
+(0.398)
+(0.567)
+(0.647)
+Constant
+5.314
+4.509
+8.549
+8.115
+(7.076)
+(5.374)
+(7.748)
+(9.012)
+Observations
+612
+204
+204
+204
+Log Likelihood
+1,441.08
+528.213
+472.143
+463.231
+sigma2
+0.001
+0.0003
+0.001
+0.001
+AIC
+−2,860.15
+−1,034.43
+−922.285
+−904.462
+Wald Test (df = 1)
+556.070***
+112.771***
+144.553***
+188.073***
+LR Test (df = 1)
+276.292***
+66.625***
+77.816***
+97.631***
+Note: Standard errors are shown between parentheses. Significance levels: *p <
+0.1; **p < 0.05; ***p < 0.01.
+Data coverage: 2020–2022 regional annual data.
+Ma.F.P. Del Castillo et al.
+International Journal of Applied Earth Observation and Geoinformation 135 (2024) 104223 
+13 
+
+Methodology, Resources, Supervision, Writing – original draft, Writing –
+review, editing, Fuding acquisition. Hirokazu Tatano: Conceptualiza-
+tion, Resources, Supervision.
+Declaration of competing interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Acknowledgements
+We would like to thank the Innovative Asia Program of Japan In-
+ternational Cooperation Agency, the Ministry of Education, Culture,
+Sports, Science and Technology, and Kyoto University for supporting
+this research.
+Data availability
+Data will be made available on request.
+References
+Alahmadi, M., Mansour, S., Dasgupta, N., Martin, D., 2021. Using daily nighttime lights
+to monitor spatiotemporal patterns of human lifestyle under COVID-19: The case of
+Saudi Arabia. Remote Sens. 13 (22), 4633. https://doi.org/10.3390/rs13224633.
+Alahmadi, M., Mansour, S., Dasgupta, N., Martin, D., 2023. Using nighttime lights data to
+assess the resumption of religious and socioeconomic activities post-COVID-19.
+Remote Sens. 15 (4), 1064. https://doi.org/10.3390/rs15041064.
+Amit, A.M.L., Pepito, V.C.F., Dayrit, M.M., 2021. Early response to COVID-19 in the
+Philippines. WPSAR 12 (1), 1–5. https://doi.org/10.5365/wpsar.2020.11.1.014.
+Betho, R., Chelengo, M., Jones, S., Keller, M., Mussagy, I., van Seventer, D., Tarp, F.,
+2021. The macroeconomic impact of COVID-19 in Mozambique: A social accounting
+matrix approach. J. Int. Dev. 17 (34), 823–860. https://doi.org/10.1002/jid.3601.
+Beyer, R., Franco-Bedoya, S., Galdo, V., 2021. Examining the economic impact of COVID-
+19 in India through daily electricity consumption and nighttime light intensity.
+World Dev. 140, 105287. https://doi.org/10.1016/j.worlddev.2020.105287.
+Carvalho, B.P., Peralta, S., dos Santos, J.P., 2021. Regional and sectorial impacts of the
+Covid-19 crisis: Evidence from electronic payments. J. Reg. Sci. 62, 757–798.
+https://doi.org/10.1111/jors.12575.
+Chen, X., Nordhaus, W.D., 2019. VIIRS nighttime lights in the estimation of cross-
+sectional and time-series GDP. Remote Sens. 11, 1057. https://doi.org/10.3390/
+rs11091057.
+Dasgupta, N., 2022. Using satellite images of nighttime lights to predict the economic
+impact of COVID-19 in India. Adv. Space Res. 70, 863–879. https://doi.org/
+10.1016/j.asr.2022.05.039.
+de Lara-Tuprio, E.P., Estuar, M.E., Sescon, J.T., Lubangco, C., Castillo, R.T., Teng, T.Y.,
+Vedeja, G.M., 2022. Economic losses from COVID-19 cases in the Philippines: A
+dynamic model of health and economic policy trade-offs. Humanit. Soc. Sci.
+Commun. 9 (1), 1–10. https://doi.org/10.1057/s41599-022-01125-4.
+Del Castillo, M.F.P., Fujimi, T., Tatano, H., 2024. Estimating sectoral COVID-19
+economic losses in the Philippines using nighttime light and electricity consumption
+data. Front. Publ. Health. 12, 1308301. https://doi.org/10.3389/
+fpubh.2024.1308301.
+Department of Health. 2022b. COVID-19 Data Drop. https://data.gov.ph/index/publi
+c/dataset (accessed 11 July 2023).
+Department of Health. 2022a. Philippine Regional Health Facilities Details. https://nhfr.
+doh.gov.ph/StatHfRegionalList (accessed 7 November 2023).
+Doll, C.N.H., Muller, J.-P., Elvidge, C.D., 2000. Night-time imagery as a tool for global
+mapping of socioeconomic parameters and greenhouse gas emissions. Ambio 29 (3),
+157–162. https://doi.org/10.1579/0044-7447-29.3.157.
+Earth Observation Group. 2021. See the World at Night. https://eogdata.mines.edu/prod
+ucts/vnl/ (accessed 28 October 2022).
+Elvidge, C.D., Baugh, K.E., Zhizhin, M., Hsu, F.-C., 2013. Why VIIRS data are superior to
+DMSP for mapping nighttime lights. Asia-Pac. Adv. Network. 62. https://doi.org/
+10.7125/APAN.35.7.
+Elvidge, C.D., Baugh, K., Zhizhin, M., Hsu, F., Ghosh, T., 2017. VIIRS night-time lights.
+Int. J. Remote Sens. 38 (21), 5860–5879. https://doi.org/10.1080/
+01431161.2017.1342050.
+Elvidge, C.D., Zhizhin, M., Ghosh, T., Hsu, F.-C., Taneja, J., 2021. Annual time series of
+global VIIRS nighttime lights derived from monthly averages: 2012–2019. Remote
+Sens. 13 (5), 922. https://doi.org/10.3390/rs13050922.
+Fezzi, C., Fanghella, V., 2020. Real-time estimation of the short-run impact of COVID-19
+on economic activity using electricity market data. Environ. Res. Econ. 76, 885–900.
+https://doi.org/10.1007/s10640-020-00467-4.
+Friedl, M. and Sulla-Menashe, D. 2022. MODIS/Terra+Aqua Land Cover Type Yearly L3
+Global 500m SIN Grid V061. http://dx.doi.org/10.5067/MODIS/MOD12Q1.006
+(accessed 28 July 20240).
+Funk, C., Peterson, P., Landsfeld, M., Pedreros, D., Verdin, J., Shukla, S., Michaelsen, J.,
+2015. The climate hazards infrared precipitation with stations-a new environmental
+record for monitoring extremes. Sci. Data 2, 150066. https://doi.org/10.1038/
+sdata.2015.66.
+Ghosh, T., Elvidge, C.D., Hsu, F.-C., Zhizhin, M., Bazilian, M., 2020. The dimming of
+lights in India during the COVID-19 Pandemic. Remote Sens. 12 (20), 3289. https://
+doi.org/10.3390/rs12203289.
+Hamman, S., Niebuhr, A., Roth, D., Sieglen, G., 2023. How does the Covid-19 pandemic
+affect regional labor markets and why do large cities suffer most? J. Reg. Sci. 63 (5),
+1228–1250. https://doi.org/10.1111/jors.12662.
+Hapal, K., 2021. The Philippines’ COVID-19 response: Securitising the pandemic and
+disciplining the pasaway. J. Curr. Southeast Asian Aff. 40, 224–244. https://doi.org/
+10.1177/1868103421994261.
+Henderson, J.V., Storeygard, A., Weil, D.N., 2012. Measuring economic growth from
+outer space. Am. Econ. Rev. 102 (2), 994–1028. https://doi.org/10.1257/
+aer.102.2.994.
+Jia, M., Gong, Y., Belabbes, S., Dell’Oro, L., 2023. Estimating natural disaster loss using
+improved daily night-time light data. Int. J. Appl. Earth Obs. Geoinf. 120, 103359.
+https://doi.org/10.1016/j.jag.2023.103359.
+Jorda, O., Singh, S.R., Taylor, A.M. 2020. The long economic handover of pandemics. htt
+ps://www.imf.org/en/Publications/fandd/issues/2020/06/long-term-economic-im
+pact-of-pandemics-jorda (accessed 31 August 2024).
+Khan, A.M., Park, H., Roberts, M., Wibisana, P.S., 2023. Lights out: The economic
+impacts of Covid-19 on cities globally. J. Reg. Sci. 63 (5), 1251–1283. https://doi.
+org/10.1111/jors.12661.
+Kim, E., Jin, D., Lee, H., Jiang, M., 2022. The economic damage of COVID-19 in regional
+economies: an application of a spatial computable general equilibrium model to
+South Korea. Ann. Reg. Sci. 71, 243–268. https://doi.org/10.1007/s00168-022-
+01160-8.
+Li, X., Elvidge, C., Zhou, Y., Cao, C., Warner, T., 2017. Remote sensing of night-time
+light. Int. J. Remote Sens. 38 (21), 5855–5859. https://doi.org/10.1080/
+01431161.2017.1351784.
+Li, Z., Wu, F., Ma, H., Wu, Z., Wang, S., 2022. Spatiotemporal Evolution and relationship
+between night time light and land surface temperature: A case study of Beijing,
+China. Land 11 (4), 548. https://doi.org/10.3390/land11040548.
+Li, L., Yu, T., Zhao, L., Zhan, Y., Zheng, F., Zhang, Y., Wang, C., 2019. Characteristics and
+trend analysis of the relationship between land surface temperature and nighttime
+light intensity levels over China. Infrared Phys. Technol. 97, 381–390. https://doi.
+org/10.1016/j.infrared.2019.01.018.
+Lin, T., Rybnikova, N., 2023. Changes in the association between GDP and night-time
+lights during COVID-19 pandemic: A subnational-level analysis for the US.
+Geomatics 3, 156–173. https://doi.org/10.3390/geomatics3010008.
+Lopez Ochoa, E., Eberhard, J., Aroca, P., 2021. COVID-19 and employment relief
+programs: A tale of spatially blind policies for a spatially driven pandemic. J. Reg.
+Sci. 63, 864–897. https://doi.org/10.1111/jors.12642.
+Mellander, C., Lobo, J., Stolarick, K., Matheson, Z., 2015. Night-time light data: A good
+proxy measure for economic activity? PLOS ONE 10 (10), 1–18. https://doi.org/
+10.1371/journal.pone.0139779.
+Miller, S.D., Straka, W.I., Mills, S.P., Elvidge, C.D., Lee, T.F., Solbrig, J., Weiss, S.C.,
+2013. Illuminating the capabilities of the Suomi National Polar-Orbiting Partnership
+(NPP) VIsible Infrared Imaging Radiometer Suite (VIIRS) Day/Night Band. Remote
+Sens. 5 (12), 6717–6766. https://doi.org/10.3390/rs5126717.
+Philippine Statistics Authority. 2020. Technical Notes 2020 Census of Population and
+Housing (2020 CPH). https://psa.gov.ph/system/files/phcd/2022-12/1_Technical%
+2520Notes_Urban%2520Population_RML_063022_ONS.pdf (accessed 9 September
+2024).
+PSA. 2021. 2020 Census of Population and Housing (2020 CPH) Population Counts
+Declared Official by the President. https://psa.gov.ph/content/2020-census-popu
+lation-and-housing-2020-cph-population-counts-declared-official-president
+(accessed 8 August 2023).
+PSA. 2022b. Urban Population of the Philippines (2020 Census of Population and
+Housing). https://psa.gov.ph/content/urban-population-philippines-2020-cen
+sus-population-and-housing (accessed 8 August 2023).
+PSA. 2022a. Proportion of Poor Filipinos was Recorded at 18.1 Percent in 2021. htt
+ps://psa.gov.ph/content/proportion-poor-filipinos-was-recorded-181-percent-2021
+(accessed 8 August 2023).
+PSA. 2023b. Migration and Overseas Workers 2020 Census of Population and Housing
+(2020 CPH). https://psa.gov.ph/content/migration-and-overseas-workers-2020-cen
+sus-population-and-housing-2020-cph (accessed 17 January 2024).
+PSA. 2023a. Literacy Rate and Educational Attainment Among Persons Five Years Old
+and Over in the Philippines (2020 Census of Population and Housing). https://psa.
+gov.ph/content/literacy-rate-and-educational-attainment-among-persons-five-years-
+old-and-over-philippines (accessed 21 January 2024).
+PSA. 2020. Poverty incidence (PI). https://psa.gov.ph/content/poverty-incidence-pi#:%
+E2%88%BC:text=Definition%20%3A,total%20number%20of%20families%2Fin
+dividuals (accessed 8 August 2023).
+Qiang, Y., Huang, Q., Xu, J., 2020. Observing community resilience from space: Using
+nighttime lights to model economic disturbance and recovery pattern in natural
+disaster. Sust. Cities Soc. 57, 102115. https://doi.org/10.1016/j.scs.2020.102115.
+Roberts, M., 2021. Tracking economic activity in response to the COVID-19 crisis using
+nighttime lights—The case of Morocco. Dev. Eng. 26, 1–14. https://doi.org/
+10.1016/j.deveng.2021.100067.
+Santos, J.R., Tapia, J.F., Lamberte, A., Solis, C.A., Tan, R.R., Aviso, K.B., Byrd, K., 2022.
+Macroeconomic consequences of the COVID-19 pandemic. Economies 10 (8), 1–18.
+https://doi.org/10.3390/economies10080202.
+Ma.F.P. Del Castillo et al.
+International Journal of Applied Earth Observation and Geoinformation 135 (2024) 104223 
+14 
+
+Schippers, V., Botzen, W., 2023. Uncovering the veil of night light changes in times of
+catastrophe. Nat. Hazards Earth Syst. Sci. 23, 179–204. https://doi.org/10.5194/
+nhess-23-179-2023.
+Shinozaki, S., Rao, L. 2021. COVID-19 Impact on micro, small, and medium-sized
+enterprises under the lockdown: Evidence from a rapid survey in the Philippines.
+ADB Working Paper 1216. https://doi.org/10.2139/ssrn.3807080.
+UPPI and DRDF. 2020. Balik Probinsya in Time of COVID-19. https://www.uppi.upd.ed
+u.ph/research/covid-19/rb5 (accessed: 18 January 2024).
+Wan, Z., Hook, S., Hulley, G. 2021. MODIS/Terra Land Surface Temperature/Emissivity
+Daily L3 Global 1 km SIN Grid V061 (LST Day 1km). https://doi.org/10.5067/MO
+DIS/MOD11A1.061 (accessed 8 June 2023).
+World Bank Group. 2022. Global Economic Prospects. [Online] Available at: https://th
+edocs.worldbank.org/en/doc/cb15f6d7442eadedf75bb95c4fdec1b3-035
+0012022/original/Global-Economic-Prospects-January-2022.pdf. (accessed 9
+September 2024).
+Wu, J., Wang, Z., Li, W., Peng, J., 2013. Exploring factors affecting the relationship
+between light consumption and GDP based on DMSP/OLS nighttime satellite
+imagery. Remote Sens. Environ. 28, 111–119. https://doi.org/10.1016/j.
+rse.2013.03.001.
+Xu, G., Xiu, T., Li, X., Liang, X., Jiao, L., 2021. Lockdown induced night-time light
+dynamics during the COVID-19 epidemic in global megacities. Int. J. Appl. Earth
+Obs. Geoinf. 102, 1–10. https://doi.org/10.1016/j.jag.2021.102421.
+Yang, L., Wei, C., Jiang, X., Ye, Q., Tatano, H., 2022. Estimating the economic effects of
+the early COVID-19 emergency response in cities using intracity travel intensity
+data. Int. J. Disaster Risk Sci. 13 (1), 125–138. https://doi.org/10.1007/s13753-
+022-00393-7.
+Yu, K.D., Aviso, K.B., Santos, J.R., Tan, R.R., 2020. The economic impact of lockdowns: A
+persistent inoperability input-output approach. Economies 8 (4), 1–14. https://doi.
+org/10.3390/economies8040109.
+Zhang, H., You, S., Zhang, M., Chen, A., Hu, Z., Liu, Y., Tan, Y., 2022. Empirical study of
+monthly economic losses assessments for “standard unit lockdown” due to COVID-
+19. Front. Publ. Health 10, 1–11. https://doi.org/10.3389/fpubh.2022.859751.
+Zhao, M., Cheng, W., Zhou, C., Li, M., Wang, N., Liu, Q., 2017. GDP spatialization and
+economic differences in South China based on NPP-VIIRS Nighttime light imagery.
+Remote Sens. 9 (673), 1–20. https://doi.org/10.3390/rs9070673.
+Ma.F.P. Del Castillo et al.
+International Journal of Applied Earth Observation and Geoinformation 135 (2024) 104223 
+15 

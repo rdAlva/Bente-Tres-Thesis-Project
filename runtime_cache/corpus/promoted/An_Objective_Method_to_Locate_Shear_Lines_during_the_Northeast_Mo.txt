@@ -1,0 +1,1772 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+SOSE Affiliate: Manila Observatory 
+School of Science and Engineering Research 
+Centers 
+11-25-2025 
+An Objective Method to Locate Shear Lines during the Northeast 
+An Objective Method to Locate Shear Lines during the Northeast 
+Monsoon Season in the Philippines 
+Monsoon Season in the Philippines 
+Lyndon Mark P. Olaguera 
+Manila Observatory, Ateneo de Manila University, lolaguera@ateneo.edu 
+John A. Manalo 
+Department of Science and Technology– Philippine Atmospheric, Geophysical, and Astronomical 
+Services Administration, john.manalo1234@gmail.com 
+Jun Matsumoto 
+Tokyo Metropolitan University, jun@tmu.ac.jp 
+Faye Abigail T. Cruz 
+Manila Observatory, Ateneo de Manila University, fcruz@observatory.ph 
+Jose Ramon T. Villarin 
+Manila Observatory, Ateneo de Manila University, jvillarin@ateneo.edu 
+Follow this and additional works at: https://archium.ateneo.edu/manila-observatory 
+ Part of the Atmospheric Sciences Commons, Climate Commons, Data Science Commons, 
+Environmental Monitoring Commons, Hydrology Commons, and the Meteorology Commons 
+Custom Citation 
+Custom Citation 
+Lyndon Mark P. Olaguera, John A. Manalo, Jun Matsumoto, Faye Abigail T. Cruz, Jose Ramon T. Villarin, 
+An Objective Method to Locate Shear Lines during the Northeast Monsoon Season in the Philippines, 
+SOLA, Article ID 21C-003, Advance online publication November 25, 2025, Online ISSN 1349-6476, 
+https://doi.org/10.2151/sola.21C-003, https://www.jstage.jst.go.jp/article/sola/advpub/0/
+advpub_21C-003/_article/-char/en 
+This Article is brought to you for free and open access by the School of Science and Engineering Research Centers 
+at Archīum Ateneo. It has been accepted for inclusion in SOSE Affiliate: Manila Observatory by an authorized 
+administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+ 
+The Meteorological 
+Society of 
+Japan 
+Scientific Online Letters on the Atmosphere (SOLA) 
+ 
+ 
+EARLY ONLINE RELEASE 
+ 
+This is a PDF of a manuscript that has been peer-reviewed 
+and accepted for publication. As the article has not yet been 
+formatted, copy edited or proofread, the final published 
+version may be different from the early online release. 
+ 
+This pre-publication manuscript may be downloaded, 
+distributed and used under the provisions of the Creative 
+Commons Attribution 4.0 International (CC BY 4.0) license. 
+It may be cited using the DOI below. 
+ 
+The DOI for this manuscript is 
+ 
+DOI: 10.2151/sola.21C-003. 
+ 
+J-STAGE Advance published date: November 25, 2025 
+ 
+The final manuscript after publication will replace the 
+preliminary version at the above DOI once it is available. 
+ 
+ 
+ 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+1 
+An Objective Method to Locate Shear Lines during the Northeast Monsoon 
+1 
+Season in the Philippines 
+2 
+ 
+3 
+Lyndon Mark P. Olaguera1,2*, John A. Manalo3, Jun Matsumoto2,4,5, Faye Abigail T. Cruz2, Jose 
+4 
+Ramon T. Villarin1,2 
+5 
+ 
+6 
+1Department of Physics, School of Science and Engineering, Ateneo de Manila University, 
+7 
+Loyola Heights, Quezon City, Philippines 
+8 
+ 
+9 
+2Manila Observatory, Ateneo de Manila University Campus, Loyola Heights, Quezon City, 
+10 
+Philippines 
+11 
+ 
+12 
+3Department of Science and Technology, Philippine Atmospheric, Geophysical and 
+13 
+Astronomical Services Administration, Quezon City, Philippines 
+14 
+ 
+15 
+4Department of Geography, Tokyo Metropolitan University, Tokyo, Japan 
+16 
+5Typhoon Science and Technology Research Center, Yokohama National University, 
+17 
+Yokohama, Japan 
+18 
+ 
+19 
+*Corresponding author: Lyndon Mark P. Olaguera, Department of Physics, School of Science and 
+20 
+Engineering, Ateneo de Manila University, Loyola Heights, Quezon City, Philippines. Email: 
+21 
+lolaguera@ateneo.edu 
+22 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+2 
+Abstract 
+23 
+ 
+24 
+The shear line is a narrow zone of maximum horizontal wind shear, typically identified as a 
+25 
+confluence zone of low-level wind streams. Previous studies showed that this system can trigger 
+26 
+heavy to extreme rainfall events in the Philippines during the northeast monsoon season. However, 
+27 
+a research gap remains in objectively identifying and locating this system. Thus, this study 
+28 
+develops a detection method that may be used for monitoring and forecasting the location of shear 
+29 
+lines. Results show that the gradient of meridional winds in the y-direction (
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+ ), the boundary 
+30 
+layer moisture flux convergence, and the 925 hPa relative vorticity may be used to estimate the 
+31 
+location of the shear line. These parameters are then utilized in the detection algorithm. Applying 
+32 
+the detection algorithm to reanalysis data from 1979 to 2022 for the northeast monsoon season 
+33 
+revealed that shear lines contribute up to 20% of the total extreme rainfall days, with the greatest 
+34 
+influence observed in November and December. This system is also best depicted in the 925 hPa 
+35 
+and 850 hPa levels. The detection method developed in this study may be useful for improving the 
+36 
+forecast of heavy to extreme rainfall events in the Philippines, especially during this season. 
+37 
+ 
+38 
+Keywords: shear line, confluence zone, col, gradient of meridional winds, heavy rainfall 
+39 
+ 
+40 
+1. Introduction 
+41 
+During the southwest monsoon season in the Philippines (May to September), tropical cyclones 
+42 
+(TCs; Cinco et al. 2016; Bagtasa 2017; Basconcillo and Moon 2020; Petilla et al. 2025), low-
+43 
+pressure systems (LPS) that are weaker than TCs (Olaguera et al. 2023), the Boreal Summer Intra-
+44 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+3 
+Seasonal Oscillation (BSISO; Olaguera et al. 2022), and enhanced southwest monsoon by TCs 
+45 
+(Cayanan et al. 2011; Bathan et al. 2025) are reported to contribute to rainfall extremes in this 
+46 
+season. For example, during the active and strong phases of the BSISO, the probability of extreme 
+47 
+rainfall occurrence in the Philippines can increase to as much as 80% in some regions. The active 
+48 
+phases of the BSISO can also facilitate the development of more TCs over the western North 
+49 
+Pacific that will eventually affect the Philippines. On the other hand, systems such as LPS 
+50 
+(Olaguera et al. 2023), the Madden Julian Oscillation (MJO; Pullen et al. 2015; Bagtasa et al. 2020; 
+51 
+Olaguera et al. 2024a), cold surges (Lim et al. 2017; Abdillah et al. 2022), and shear lines 
+52 
+(Olaguera and Matsumoto 2020; Olaguera et al. 2021a, b; Reyes et al. 2024) contribute to the 
+53 
+rainfall extremes during the northeast monsoon season (November to March), particularly along 
+54 
+the eastern coast of the Philippines. Olaguera et al. (2024) quantified the contribution of MJO to 
+55 
+be as much as 16% of the rainfall extremes in some stations along the eastern coast of the country 
+56 
+in this season. TCs also contribute to the extremes during the northeast monsoon season (e.g., 
+57 
+Espinueva et al. 2012; Petilla et al. 2025), although they are less frequent compared to those during 
+58 
+the southwest monsoon season (e.g., Cinco et al. 2016; Bagtasa 2017). 
+59 
+A shear line is a narrow zone of maximum horizontal wind shear, typically identified by a 
+60 
+confluence of air streams on the equatorward side of a col (Ramage 1995; Pielke 2013). This zone 
+61 
+is termed as a shear line because the winds across it may blow in opposite directions or display 
+62 
+sharp differences in horizontal wind speed (Pielke 2013). A col represents a saddle-like pressure 
+63 
+pattern, located between two low-pressure systems and two high-pressure systems 
+64 
+(https://glossary.ametsoc.org/wiki/Col). Shear lines commonly form when mid-latitude cold fronts 
+65 
+intrude into the tropics, where their thickness gradients weaken upon encountering the warm 
+66 
+tropical oceans. Low-level convergence, aided by convective activity, may persist during the 
+67 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+4 
+conversion process of the cold front to a shear line (Yokoi and Matsumoto 2008; Pielke 2013). It 
+68 
+can also interact with a low-level cyclonic vortex in the central and southern Philippines, which 
+69 
+hinders its southward propagation (Olaguera et al. 2021; Reyes et al. 2024). Therefore, determining 
+70 
+the location of the shear line is crucial for identifying areas that are at risk of heavy and extreme 
+71 
+rainfall.  
+72 
+However, the impact and mechanism of this system have only been recently examined by a few 
+73 
+studies (Faustino-Eslava et al. 2011; Olaguera and Matsumoto 2020; Olaguera et al. 2021a,b; 
+74 
+Reyes et al. 2024) despite the catastrophic impact that they may bring. Reyes et al. (2024) recently 
+75 
+examined the heavy rainfall events (HREs) during the northeast monsoon season in the Philippines. 
+76 
+They identified three patterns of HREs associated with a strong East Asian Winter Monsoon and 
+77 
+the interaction of a shear line with a low-level cyclonic vortex in the vicinity of the Philippines. 
+78 
+However, there is no available index or method that can be used to locate the shear line objectively. 
+79 
+Therefore, the purpose of this study is to develop a detection algorithm that may be used for 
+80 
+monitoring the shear line. This detection method will also be useful for quantifying the 
+81 
+contribution of shear lines to the rainfall extremes during the northeast monsoon season in the 
+82 
+Philippines, for identifying areas that are more likely to experience heavy to extreme rainfall events, 
+83 
+and for improving our understanding of how this system evolves. The rest of the paper is organized 
+84 
+as follows. The data used in this study are briefly presented in Section 2. The development of the 
+85 
+shear line detection algorithm is then discussed in Section 3. The climatological features of shear 
+86 
+lines and their contribution to rainfall extremes in the Philippines are described in Section 4. 
+87 
+Finally, summary and concluding remarks are presented in Section 5. 
+88 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+5 
+2. Data 
+89 
+The 6-hourly reanalysis data of zonal winds, meridional winds, specific humidity, surface pressure, 
+90 
+temperature, and relative humidity at multiple pressure levels from the Japan Meteorological 
+91 
+Agency (JMA) 55-year reanalysis (JRA55; Kobayashi et al. 2015) were used to characterize and 
+92 
+detect the shear line. This reanalysis data set has a 1.25° × 1.25° horizontal grid resolution.  
+93 
+Daily rainfall records from 11 weather stations (Figure 1) provided by the Department of Science 
+94 
+and 
+Technology—Philippine 
+Atmospheric, 
+Geophysical, 
+and 
+Astronomical 
+Services 
+95 
+Administration (henceforth, simply referred to as PAGASA) for the period 1979–2022 were used 
+96 
+to quantify the contribution of shear lines to extreme rainfall events along the eastern coast of the 
+97 
+Philippines. The extreme rainfall days were obtained per month from November to March and 
+98 
+were defined as the days that exceeded the 95th percentile rainfall amount per month. 
+99 
+3. Development of a Shear Line Detection Algorithm 
+100 
+3.1. The January 16, 2017 extreme rainfall event as a case study 
+101 
+On January 16, 2017, an extreme rainfall event occurred in eastern Philippines, which was 
+102 
+triggered by a shear line that interacted with a low-level cyclonic vortex over Mindanao (Olaguera 
+103 
+et al. 2021a). Figure 2 shows the large-scale circulation features at 06 UTC on January 16, 2017. 
+104 
+The confluence zone stretching southwestward from the col (indicated by the + mark at 
+105 
+approximately 152.5°E, 17°N) and a low-level vortex located over Mindanao can be seen in 
+106 
+Figures 2a and 2b. A clear contrast in wind speeds can be seen across the confluence zone, with 
+107 
+stronger meridional (V925hPa; Figure 2a) and zonal (U925hPa; Figure 2b) wind speeds located to the 
+108 
+north of the confluence zone. The maximum V925hPa and U925hPa to the north of the confluence zone 
+109 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+6 
+are –12.4 m s-1 and –16.2 m s-1, respectively. The zero contour line of the V925hPa lies near the 
+110 
+confluence zone. The equivalent daily wind fields from January 15 to 17 are shown in Figures S5. 
+111 
+The interaction of the shear line and the low-level vortex appear short-lived. The low-level vortex 
+112 
+can be depicted on January 15 and 16 over Mindanao. By January 17, this vortex weakened, and 
+113 
+northeasterly winds are dominant over the entire Philippines. 
+114 
+The lower boundary of the negative meridional gradient of equivalent potential temperature 
+115 
+(
+𝜕𝜕𝜃𝜃𝜃𝜃925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+) can be used to depict the boundary of air masses. However, the zero and negative one 
+116 
+contour lines of this variable are spread across the domain (Figure 2c). In addition, shear lines 
+117 
+may also be located ahead of a cold front (https://rammb2.cira.colostate.edu/wp-
+118 
+content/uploads/2024/07/Fronts_and_Shearlines_Caribbean_20201209.pdf). Thus, this variable 
+119 
+alone may not be enough for depicting the location of the shear line but may be useful for depicting 
+120 
+the boundary of the cold front (Olaguera and Matsumoto 2020). High values of the boundary layer 
+121 
+moisture flux convergence (VIMFC; integrated from 1000 hPa to 925 hPa) can also be seen along 
+122 
+the confluence zone (Figure 2d), another characteristic of the shear line (Olaguera et al. 2021a, b; 
+123 
+Reyes et al. 2024). This parameter can be used as a proxy for rainfall, since areas with high VIMFC 
+124 
+experience high amounts of rainfall (Olaguera et al. 2021a, b).  
+125 
+A shear line is characterized by an abrupt change in the horizontal wind component parallel to it. 
+126 
+To determine the regions with such abrupt changes in the horizontal wind component, we first 
+127 
+look at the spatial distribution of the gradients of the zonal and meridional winds at 925 hPa 
+128 
+(Figure 3). Positive 
+𝜕𝜕𝑈𝑈925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+, 
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+,  and negative 
+𝜕𝜕𝑈𝑈925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+, 
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+ can be seen along the 
+129 
+confluence zone, suggesting that it is characterized by strong zonal and meridional gradients. This 
+130 
+is consistent with the fact that the winds shift direction and speed along the confluence zone. 
+131 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+7 
+Magnitude-wise, we can see the gradients of the U and V winds in the y-direction (i.e., 
+𝜕𝜕𝑈𝑈925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+ 
+132 
+and 
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+) are more defined and continuous compared to those along the x-direction. Also, 
+133 
+notice the negative  
+𝜕𝜕𝑈𝑈925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+ stretching from western Mindanao to the west of the Philippines 
+134 
+(~12°N) without a clear confluence in this region.  According to Reyes et al. (2024), a shear line 
+135 
+is identified by an area of directional wind confluence at the equatorward side of the col area where 
+136 
+the front terminates. In Figure 3, the col is located approximately at 152.5°E, 17°N. Hence, that 
+137 
+diagonal region 
+𝜕𝜕𝑈𝑈925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+  to the west of the Philippines should no longer be part of the shear line. 
+138 
+In addition, the 
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+  is positive and 
+𝜕𝜕𝑈𝑈925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+  is negative. This indicates that the relative 
+139 
+vorticity (RV925hPa) along the shear line is also positive (Figure 2e), which could be a result of the 
+140 
+strong stretching term in the vorticity budget equation. 
+141 
+Are negative 
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+, positive VIMFC and positive RV925hPa common features along the shear 
+142 
+lines? To answer this question, we looked at other cases triggered by a shear line, as shown in 
+143 
+Supplement 1 (Figures S2 to S5). The list of dates was obtained from the website of the Disaster 
+144 
+Response Operations Management, Information and Communication, a division of the Disaster 
+145 
+Response Management Bureau in the Philippines (https://dromic.dswd.gov.ph; last accessed April 
+146 
+28, 2025). This agency collects information on places and people affected by different hazards 
+147 
+affecting the Philippines, including the shear line. The extreme event on January 13, 2009, which 
+148 
+was discussed in Faustino-Eslava et al. (2011) was also included. In this event, the rainfall peaked 
+149 
+on January 13, 2009, in some PAGASA stations in Mindanao. Negative  
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+ and positive 
+150 
+VIMFC can be seen in all cases, like those in the January 2017 case. Also, notice the low-level 
+151 
+cyclonic circulation to the south and near the western edge of the negative 
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+. This low-level 
+152 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+8 
+cyclonic circulation could facilitate the enhancement of the moist easterly/southwesterly winds 
+153 
+that are interacting with the cold northerly/northeasterly winds. Thus, the above conditions seem 
+154 
+to be common features of shear lines. The VIMFC and RV925hPa are also distinguishable along the 
+155 
+region of negative 
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+, suggesting that these are key parameters in detecting the shear line. 
+156 
+3.2. Detecting the shear line 
+157 
+The shear line is detected through the following steps, which is also shown in Figure S6. For 
+158 
+illustrative purposes, we demonstrate the detection of the shear line at 06 UTC on January 16, 
+159 
+2017.  
+160 
+(a) First, the candidate points per longitude are identified within 115–135°E, 5–22°N. This 
+161 
+domain is similar to the Philippine Area of Responsibility but with a small latitudinal extent 
+162 
+(i.e., 22°N instead of 25°N). This domain was used to filter out the shear lines that are not 
+163 
+directly influencing the Philippines, such as those near Taiwan between 22–25°N. The 
+164 
+candidate points are the latitude coordinates with at least   
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+ ≤ –1 × 10–5 s–1, 
+165 
+VIMFC > 0, and RV925hPa > 0. The VIMFC condition was added since we are only interested 
+166 
+in rainfall inducing shear lines. The 
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+ threshold value was determined by trial and 
+167 
+error. A sensitivity test of the results to this parameter is discussed in Supplement 2.  
+168 
+(b) Second, the candidate grid points were grouped using a simple clustering by proximity (i.e., 
+169 
+Single-Linkage clustering; Martinez and Martinez, 2005). A justification for using this 
+170 
+clustering methodology is discussed in Supplement 2. Each coordinate is assigned to an 
+171 
+initial empty cluster. Then, their distances from one another are computed using the 
+172 
+Haversine formula. When the distance of one coordinate from another is less than 2.5° (2 
+173 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+9 
+grid points or ~277.5 km for the JRA55 data set), they are assigned to the same cluster. 
+174 
+Otherwise, a new cluster is created, and the distances are recomputed. This procedure is 
+175 
+looped through all the candidate coordinates. Finally, the clusters with at least 10 degrees 
+176 
+longitude in extent are obtained. This will filter out the short shear lines. 
+177 
+(c) Third, the clusters in (b) that are at least 555 km (5°) from the zero contour line of the 925 
+178 
+hPa meridional wind are extracted. This was added to the condition since the shear line is 
+179 
+close to this zero contour line, as shown in Figure 2a. 
+180 
+(d) A 1-dimensional Gaussian filter is then applied to both filtered latitude and longitude points 
+181 
+in (c). We used a value of 3 for the standard deviation of the Gaussian function, which 
+182 
+controls the smoothing of the shear line.  
+183 
+The detected shearline at 925 hPa can be seen in Figure 4a. It is located to the north of Mindanao, 
+184 
+extending from (122°E, 10°N) to (134°E, 12°N). The detection algorithm using the same criteria 
+185 
+above was applied at 1000 hPa, 975 hPa, 950 hPa, and 850 hPa pressure levels to determine 
+186 
+whether this system is best depicted at 925 hPa. The shearline seems to be detectable at these four 
+187 
+pressure levels. At 1000 hPa (Figure 4b), 975 hPa (Figure 4b), and 950 hPa (Figure 4c) the shear 
+188 
+lines are less smooth than those at 925 hPa and 850 hPa. The  
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+ appears strongest at 925 hPa 
+189 
+level.  
+190 
+All seven shear line cases shown in Supplement 1 were detected by the algorithm (Figure 
+191 
+S5), indicating its good performance. We also compared detected shear line days with those 
+192 
+obtained by Reyes et al. (2024; personal communication). About 72% of their detected shear line 
+193 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+10 
+days matched with that obtained in this study. More discussions on this discrepancy are provided 
+194 
+in Supplement 2. 
+195 
+4. Climatology of detected shear lines and their contribution to extreme rainfall 
+196 
+Figure 5 shows the density map of the detected shear lines from 1979 to 2022. A total of 2,432 
+197 
+days with shear lines (i.e., shear line days) were detected, which is about 36.5% of the total days 
+198 
+(6,504 days). About 51%, 46%, 38%, 30%, and 22% of the total days in November, December, 
+199 
+January, February, and March, have shear lines that are within the domain in Figure 5, 
+200 
+respectively. Spatially, shear lines appear more frequently to the north of 10°N, particularly in 
+201 
+November and December, compared to its southern region. We also counted the “shear line 
+202 
+events,” where shear lines were tracked across space and time, with a unique ID assigned to 
+203 
+consecutive occurrence in time at least 555 km (5°) apart (i.e., this identifies the same shear line that is 
+204 
+propagating in space in time and assigned with only one unique ID). This yielded 17, 14, 13, 11, and 11 
+205 
+shear line events per month for November, December, January, February, and March, respectively. 
+206 
+The contribution of shear lines to extreme rainfall along the eastern coast of the Philippines was 
+207 
+examined. A shear line is considered to have contributed to the extreme rainfall days in a station 
+208 
+if it is located within a 150 km radius centered at the station location. The percentage contribution 
+209 
+is the ratio of the extreme rainfall days associated with the shear lines to the total number of 
+210 
+extreme rainfall days, expressed as a percentage in each station (Table 1). Overall, shear lines 
+211 
+account for up to 20% of the total number of extreme rainfall days. Specifically, stations in Luzon 
+212 
+(Casiguran, Infanta, Daet, Alabat, Tayabas, Virac, and Legazpi City) experience higher extreme 
+213 
+rainfall days triggered by the shear line during November and December, while those in the 
+214 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+11 
+Visayas (Catarman and Guiuan) and Mindanao (Surigao City) experience more extreme rainfall 
+215 
+days from November to January. A higher percentage of extreme days associated with shear lines 
+216 
+occurs in January at Hinatuan station in Mindanao, which is the southernmost station along the 
+217 
+eastern coast and the wettest location in the Philippines (Olaguera and Manalo, 2024a). 
+218 
+5. Summary and Conclusions 
+219 
+Shear lines can trigger heavy to extreme rainfall events during the northeast monsoon season in 
+220 
+the Philippines. Therefore, it is important to monitor its location for improved forecasting and 
+221 
+disaster mitigation. Using the January 16, 2017 heavy rainfall event as a case study, the results 
+222 
+show that the  
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+ is a parameter that can be used in determining the location of the shear line. 
+223 
+A clear shear zone characterized by a strong negative  
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+  was identified. Since enhanced 
+224 
+convergence can be seen along the shear line, this parameter may be combined with the VIMFC. 
+225 
+In addition, the RV925hPa appears to be strong along the region of negative  
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+  suggesting that 
+226 
+this is another parameter that could be used for the detection of the shear line. We also noticed that 
+227 
+the shear line lies near the zero contour line of the 925 hPa meridional winds (V925hPa). 
+228 
+ A shear line detection algorithm was developed using a threshold value of   
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+ ≤
+229 
+1 × 10−5 𝑠𝑠−1, positive VIMFC, positive RV925hPa, and a length condition (i.e., the shear line must 
+230 
+be at least 10 degrees longitude in length). The detected candidate grid points must also be close 
+231 
+to the zero contour line of the 925 hPa (i.e., at least 555 km (5°) from the V925hPa = 0 contour line). 
+232 
+The shear line is best depicted at 925 hPa and 850 hPa. It is detectable at other pressure levels but 
+233 
+appears less smooth. When the detection algorithm was applied to climatological data, shear lines 
+234 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+12 
+were found to occur more frequently between November and January, with a peak in November. 
+235 
+This coincides with the onset of the northeast monsoon season along the eastern coast of the 
+236 
+Philippines (Kubota et al. 2017; Matsumoto et al. 2020). They are also more frequent to the north 
+237 
+of 10°N (i.e., in Visayas and Luzon), particularly in December, compared to the south (i.e., in 
+238 
+Mindanao). Furthermore, shear lines account for no more than 20% of the total incidence of 
+239 
+extreme rainfall days observed at eastern coastal stations in the Philippines. To test the 
+240 
+effectiveness of the detection algorithm, we demonstrate that it can be applied to a forecast of a 
+241 
+heavy rainfall event in the Philippines, as explained in Supplement 3. The algorithm was able to 
+242 
+depict the forecast position of the shear line that induced heavy rainfall along the eastern coast of 
+243 
+the Philippines on January 9, 2025.  
+244 
+There are still some areas to explore in future work. As mentioned in the discussion, only 72% of 
+245 
+the shear line days analyzed by Reyes et al. (2024) were detected by the developed detection 
+246 
+algorithm. Perhaps additional criteria such as the gradient of the divergence field (e.g., Berry and 
+247 
+Reeder, 2014) may be added to improve the detection of shear lines. The performance of the 
+248 
+detection algorithm on high-resolution datasets also needs to be tested further in future works. As 
+249 
+demonstrated in Supplement 3, the smoothing function was adjusted since the wind fields are 
+250 
+noisier in the high-resolution data. The precise evolution of the shear line and its interaction with 
+251 
+other systems were not examined in detail in this study. Furthermore, not all shear lines may cause 
+252 
+heavy to extreme rainfall in the Philippines. The conditions responsible for shear line-induced 
+253 
+heavy to extreme rainfall warrant further investigation. 
+254 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+13 
+Acknowledgements 
+255 
+L.M.P. Olaguera, F.A.T. Cruz, and J.R.T. Villarin are supported by the High-definition Clean 
+256 
+Energy, Climate, and Weather Forecasts for the Philippines project of the Manila Observatory. 
+257 
+Part of this study was supported by Grant-in-Aid for Scientific Research 22H04938; PI Kei 
+258 
+Yoshimura of the University of Tokyo, and No. 24K00172; PI Yoshiyuki Kajikawa of Kobe 
+259 
+University. We are also grateful to Dr. Sheilla Mae Reyes for generously providing the shear line 
+260 
+dates from her study. Finally, we sincerely appreciate the insightful comments and suggestions 
+261 
+from the two anonymous reviewers, which greatly contributed to improving the manuscript. 
+262 
+Supplements 
+263 
+Supplement 1 
+264 
+ 
+265 
+Figure S1. Spatial distribution of daily mean zonal winds at 925 hPa (U925hPa; shades; m s–
+266 
+1), the zero U925hPa contour line (blue contour line), and winds at 925 hPa (WINDS925hPa; 
+267 
+streams; m s–1) (a, c, e) from January 15 to 17, 2017. Fig. S1 (b, d, and f) are for the 
+268 
+meridional winds at 925 hPa (V925hPa). 
+269 
+Figure S2. Spatial distribution of the 925 hPa meridional gradient of meridional winds 
+270 
+(
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+; ×10–5 s–1). The streamlines are the winds at 925 hPa.  
+271 
+Figure S3. As in Fig. S2, but for the boundary layer moisture flux convergence (integrated 
+272 
+from 1000 hPa to 925 hPa; VIMFC; ×10–4 kg m–2 s–1). 
+273 
+Figure S4. As in Fig. S2, but for the 925 hPa relative vorticity (RV925hPa; ×10–5 s–1). 
+274 
+Figure S5. The detected shearlines in the dates shown in Figs. S2, S3, and S4. 
+275 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+14 
+ 
+276 
+Supplement 2 Additional information on the detection algorithm. 
+277 
+Figure S6. The methodology for estimating the location of the shear line. 
+278 
+Figure S7. Spatial distribution of (a) 
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+ (×10–5 s–1), (b) VIMFC (×10–4 kg m–2 s–1), 
+279 
+and (c) RV925hPa (×10–5 s–1) on January 25, 2022, 2 PM LST. The green dot-dashed line is 
+280 
+the shearline detected without the RV925hPa criteria. The dark blue line in (a) is the zero 
+281 
+contour line of the meridional wind at 925 hPa.  
+282 
+Figure S8. Spatial distribution of 6-hourly accumulated rainfall from the gauge-adjusted 
+283 
+Global Satellite Mapping of Precipitation version 8 (GSMaP v8; Kubota et al. 2020). The 
+284 
+buffer lines represent the radius from the coastline, ranging from 50 to 300 km, at 50 km 
+285 
+intervals. The 150 km buffer zone is represented by the thick solid line. 
+286 
+Figure S9. The detected shear lines (green dot-dashed line) at 06 UTC of January 16, 2017, 
+287 
+using different values of  
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+.  
+288 
+Supplement 3 Application of the detection algorithm on a heavy rainfall forecast. 
+289 
+Figure S10. Spatial maps of forecast (a) 
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+  (shades; ×10–5 s–1), (b) Precipitation 
+290 
+rate (mm hr–1), and (c) boundary moisture flux convergence (VIMFC; integrated from 
+291 
+1000 hPa to 925 hPa; ×10–4 kg m–2 s–1) at 11 PM of January 9, 2025. The forecast was 
+292 
+initialized at 8 AM (00 UTC) on January 7, 2025. The streamlines are the winds at 925 
+293 
+hPa (m s–1). The light green dot-dashed line indicates the location of the shear line. The 
+294 
+black areas in (a) are elevations above 760 m (925 hPa). 
+295 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+15 
+References 
+296 
+ 
+297 
+Abdillah, M.R., Y. Kanno, T. Iwasaki, J. Matsumoto, 2021: Cold surge pathways in East Asia and 
+298 
+their tropical impacts. J. Clim., 34(1), 157–170. 
+299 
+Bagtasa, G., 2017: Contribution of tropical cyclones to rainfall in the Philippines. J. Clim., 30(10), 
+300 
+3621–3633. 
+301 
+Bagtasa, G., 2020: Influence of Madden–Julian oscillation on the intraseasonal variability of 
+302 
+summer and winter monsoon rainfall in the Philippines. J. Clim., 33(22), 9581–9594. 
+303 
+Basconcillo, J., I.J. Moon, 2021: Recent increase in the occurrences of Christmas typhoons in the 
+304 
+Western North Pacific. Sci. Rep.., 11(1), 7416. 
+305 
+Bathan, A.A.L., L.M.P. Olaguera, F.A.T. Cruz, J.R.T. Villarin, J.T. Maquiling, M.O.L. Cambaliza, 
+306 
+J.A. Manalo, J. Matsumoto: 2025. Influence of tropical cyclones, southwest monsoon, and tropical 
+307 
+cyclone-enhanced southwest monsoon on rainfall variability over the western coast of the 
+308 
+Philippines. Atmos. Res., 326,108273. 
+309 
+Berry, G., M.J. Reeder: 2014. Objective identification of the intertropical convergence zone: 
+310 
+climatology and trends from the ERA-Interim. J. Clim., 27, 1894–1909. 
+311 
+Cayanan, E.O., T.C. Chen, J.C. Argete, M.C. Yen, P.D. Nilo, 2011: The effect of tropical cyclones 
+312 
+on southwest monsoon rainfall in the Philippines. J. Meteor. Soc. Jpn, 89, 123–139. 
+313 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+16 
+Cinco, T.A., R.G. de Guzman, A.M.D. Ortiz, R.J.P. Delfino, R.D. Lasco, F.D. Hilario, E.D. Ares, 
+314 
+2016: Observed trends and impacts of tropical cyclones in the Philippines. Int. J. Climatol., 36(14), 
+315 
+4638–4650. 
+316 
+Espinueva, S.R., E.O. Cayanan, N.C. Nievares, 2012: A retrospective on the devastating impacts 
+317 
+of Tropical Storm Washi. Trop. Cyclone Res. Rev., 1(2), 163–176. 
+318 
+Ester, M., H.P. Kriegel, J. Sander, X. Xu, 1996: A density-based algorithm for discovering clusters 
+319 
+in large spatial databases with noise. In kdd, 96, 226–231. 
+320 
+Schubert, E., J. Sander, M. Ester, H.P. Kriegel, X. Xu, 2017: DBSCAN revisited, revisited: why 
+321 
+and how you should (still) use DBSCAN. ACM Transactions on Database Systems (TODS), 42, 
+322 
+1–21. 
+323 
+Faustino-Eslava, D.V., G.P. Yumul Jr, N.T. Servando, C.B. Dimalanta, 2011: The January 2009 
+324 
+anomalous precipitation associated with the “Tail-end of the Cold Front” weather system in 
+325 
+Northern and Eastern Mindanao (Philippines): Natural hazards, impacts and risk reductions. 
+326 
+Global Planet. Change, 76(1-2), 85–94. 
+327 
+Kobayashi, S., Y. Ota, Y. Harada, A. Ebita, M. Moriya, H. Onoda, K. Onogi, H. Kamahori, C. 
+328 
+Kobayashi, H. Endo, K. Miyaoka, 2015: The JRA-55 reanalysis: General specifications and basic 
+329 
+characteristics.J. Meteor. Soc. Jpn., 93(1), 5–48. 
+330 
+Kubota, H., R. Shirooka, J. Matsumoto, E.O. Cayanan, F.D. Hilario, 2017: Tropical cyclone 
+331 
+influence on the long-term variability of Philippine summer monsoon onset. Prog. Earth  Planet. 
+332 
+Sci., 4(1), 27. 
+333 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+17 
+Kubota, T., K. Aonashi, T. Ushio, S. Shige, Y.N. Takayabu, M. Kachi, Y. Arai, T. Tashima, T. 
+334 
+Masaki, N. Kawamoto, T. Mega, M.K. Yamamoto, A. Hamada, M. Yamaji, G. Liu, R. Oki, 2020: 
+335 
+Global Satellite Mapping of Precipitation (GSMaP) products in the GPM era. In: Levizzani, V., 
+336 
+Kidd, C., Kirschbaum, D.B., Kummerow, C.D., Nakamura, K., Turk, F.J. (eds) Satellite 
+337 
+Precipitation Measurement. Advances in Global Change Research, vol 67. Springer, Cham. 
+338 
+https://doi.org/10.1007/978-3-030-24568-9_20. 
+339 
+Lim, S.Y.,  C. Marzin, P. Xavier, C.P. Chang, B. Timbal, 2017: Impacts of boreal winter monsoon 
+340 
+cold surges and the interaction with MJO on Southeast Asia rainfall. J. Clim., 30(11), 4267–4281. 
+341 
+Matsumoto, J., L.M.P. Olaguera, D. Nguyen‐Le, H. Kubota, M.Q. Villafuerte, 2020: 
+342 
+Climatological seasonal changes of wind and rainfall in the Philippines. Int. J. Climatol., 40(11), 
+343 
+4843–4857. 
+344 
+Martinez, W.L., A.R. Martinez, 2005: Exploratory data analysis with MATLAB. Chapman and 
+345 
+Hall/CRC, New York, 131–135 pp. 
+346 
+Olaguera, L.M.P., J. Matsumoto, 2020: A climatological study of the wet and dry conditions in the 
+347 
+pre‐summer monsoon season of the Philippines. Int. J. Climatol., 40(9), 4203-4217. 
+348 
+Olaguera, L.M.P., J. Matsumoto, J.M.B. Dado, G.T.T. Narisma, 2021a: Non-tropical cyclone 
+349 
+related winter heavy rainfall events over the Philippines: climatology and mechanisms. Asia Pac. 
+350 
+J. Atmos. Sci., 57, 17–33. 
+351 
+Olaguera, L.M.P., M.E. Caballar, J.C. De Mata, L.A.T Dagami, J. Matsumoto, H. Kubota, 2021b: 
+352 
+Synoptic conditions and potential causes of the extreme heavy rainfall event of January 2009 over 
+353 
+Mindanao Island, Philippines. Nat. Haz., 109, 2601–2620. 
+354 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+18 
+Olaguera, L.M.P., J.A. Manalo, J. Matsumoto, 2022: Influence of boreal summer intraseasonal 
+355 
+oscillation on rainfall extremes in the Philippines. Int. J. Climatol., 42(9), 4656–4668. 
+356 
+Olaguera, L.M.P., J. Matsumoto, J.A. Manalo, 2023: The contribution of non‐tropical cyclone 
+357 
+vortices to the rainfall of the Philippines. Int. J. Climatol. 43(4), 1871–1885. 
+358 
+Olaguera, L.M.P., J.A. Manalo, A. Bathan, J. Matsumoto, 2024: Quantifying the influence of the 
+359 
+Madden–Julian oscillation on rainfall extremes during the northeast monsoon season of the 
+360 
+Philippines. Atmos. Sci. Lett., 25(7), e1232. 
+361 
+Olaguera, L.M.P., J.A. Manalo, 2024a: Climatological analysis of rainfall over Hinatuan, Surigao 
+362 
+del Sur in eastern Mindanao—the wettest location in the Philippines. Theo. Appl. Climatol., 
+363 
+155(12),10069–10085. 
+364 
+Petilla, C.E.R., L.M.P. Olaguera, F.A.T. Cruz, J.R.T. Villarin, H. Fudeyasu, R. Yoshida, J. 
+365 
+Matsumoto, 2025: The unique features of Typhoon Rai (2021): an observational study. Nat. Haz., 
+366 
+1–25. 
+367 
+Pielke, R.A., 2013: Mesoscale Meteorological Modeling, Academic Press, Elsevier, Amsterdam, 
+368 
+560 pp. 
+369 
+Pullen, J., A.L. Gordon, M. Flatau, J.D. Doyle, C. Villanoy, O. Cabrera, 2015: Multiscale 
+370 
+influences on extreme winter rainfall in the Philippines. J. Geophys. Res.-Atmos., 120(8), 3292–
+371 
+3309. 
+372 
+Ramage, C.S., 1995: Forecasters guide to tropical meteorology: AWS TR 240 updated. Air 
+373 
+Weather Service. 213 pp. https://apps.dtic.mil/sti/pdfs/ADA302314.pdf. 
+374 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+19 
+Reyes, S.M., S. Lee, S.K. Park, 2024: Shear lines trigger heavy rainfalls in the Philippines during 
+375 
+the winter monsoon. npj Clim. Atmos. Sci., 7(1), 229. 
+376 
+Yokoi, S., J. Matsumoto, 2008: Collaborative effects of cold surge and tropical depression–type 
+377 
+disturbance on heavy rainfall in central Vietnam. Mon. Wea. Rev., 136(9), 3275–3287. 
+378 
+ 
+379 
+ 
+380 
+ 
+381 
+ 
+382 
+ 
+383 
+ 
+384 
+ 
+385 
+ 
+386 
+ 
+387 
+ 
+388 
+ 
+389 
+ 
+390 
+ 
+391 
+ 
+392 
+ 
+393 
+ 
+394 
+ 
+395 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+20 
+List of Figures 
+396 
+ 
+397 
+ 
+398 
+Figure 1.  Location of the 11 PAGASA stations used in this study. The extent of the domain shown 
+399 
+here was used in detecting the shear lines. The broken lines divide the Philippines into three major 
+400 
+island groups: Luzon, Visayas, and Mindanao. 
+401 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+21 
+  
+402 
+Figure 2. Spatial distribution of the 925 hPa (a) meridional (V925hPa; shades; m s–1) and (b) zonal 
+403 
+winds (U925hPa; shades; m s–1), (c) meridional gradient of equivalent potential temperature 
+404 
+(
+𝜕𝜕𝜃𝜃𝜃𝜃925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+; × 10–5 K m–1), (d) boundary layer moisture flux convergence (integrated from 1000 hPa 
+405 
+to 925 hPa; VIMFC; ×10–4 kg m–2 s–1), and (e) 925 hPa relative vorticity (RV925hPa; ×10–5 s–1) at 06 
+406 
+UTC of January 16, 2017. The streamlines in (a) and (b) are the winds at 925 hPa. The thick blue 
+407 
+lines are the zero value of the meridional and zonal winds. The solid (dashed) black line in (c) 
+408 
+indicates the zero (negative one) contour line of  
+𝜕𝜕𝜃𝜃𝜃𝜃925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+. The green “+” in (a) and (b) indicates 
+409 
+the approximate location of the col. 
+410 
+ 
+411 
+ 
+412 
+ 
+413 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+22 
+ 
+414 
+ 
+415 
+ 
+416 
+ 
+417 
+ 
+418 
+ 
+419 
+Figure 3. Spatial maps of (a) 
+𝜕𝜕𝑈𝑈925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+, (b) 
+𝜕𝜕𝑈𝑈925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+, (c) 
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+, and (d) 
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+ at 06 UTC of 
+420 
+January 16, 2017. The unit is in ⋅10–5 s–1. The streamlines are the 925 hPa winds. The blue “+” 
+421 
+mark indicates the approximate location of the col. 
+422 
+ 
+423 
+ 
+424 
+ 
+425 
+ 
+426 
+ 
+427 
+ 
+428 
+ 
+429 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+23 
+ 
+430 
+ 
+431 
+ 
+432 
+ 
+433 
+ 
+434 
+Figure 4. The detected shear line (green dot-dashed line) at (a) 925 hPa, (b) 1000 hPa, (c) 975 hPa, 
+435 
+(d) 950 hPa, and (e) 850 hPa at 06 UTC of January 16, 2017. The streamlines are the winds at each 
+436 
+pressure level. The shaded areas are the 
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+  ≤ –1 × 10–5 s–1. The black areas are the masked 
+437 
+elevations at each pressure level.  
+438 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+24 
+ 
+439 
+Figure 5. Spatial distribution of detected shear lines frequency (i.e., 
+440 
+here defined as the total number of unique days with shear lines in a 
+441 
+month divided by the total number of days in a month expressed as 
+442 
+percentage) at 925 hPa from November to March. The frequency of shear 
+443 
+lines is accumulated at each 1.25°×1.25° grid boxes between 115°−135°E, 
+444 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+25 
+5°−22°N. The percentage of days with unique shear lines per month is 
+445 
+enclosed in parentheses. Grid boxes with no values are colored white. 
+446 
+ 
+447 
+ 
+448 
+List of Tables 
+449 
+ 
+450 
+Table 1. Percentage contribution of shear lines to the 95th percentile extremes across 11 PAGASA 
+451 
+stations along the eastern coast of the Philippines. The stations are arranged from north to south. 
+452 
+Station/Month 
+January 
+February 
+March 
+November December 
+Casiguran 
+0.0 
+1.2 
+0.6 
+10.4 
+13.4 
+Infanta 
+0.5 
+1.4 
+0.5 
+8.4 
+12.1 
+Alabat 
+1.8 
+1.2 
+1.8 
+9.4 
+12.9 
+Tayabas 
+0.0 
+1.7 
+0.6 
+12.8 
+8.1 
+Daet 
+4.5 
+2.0 
+3.5 
+12.4 
+16.9 
+Virac (Synop) 
+9.5 
+3.6 
+1.2 
+14.2 
+19.5 
+Legazpi City 
+5.5 
+5.0 
+3.0 
+9.0 
+17.1 
+Catarman 
+16.4 
+5.6 
+5.6 
+14.6 
+19.2 
+Guiuan 
+16.4 
+10.5 
+7.3 
+8.2 
+12.3 
+Surigao City 
+17.5 
+11.2 
+6.3 
+4.9 
+11.7 
+Hinatuan 
+12.3 
+6.1 
+2.6 
+0.9 
+6.6 
+ 
+453 
+ 
+454 
+ 
+455 
+ 
+456 
+ 
+457 
+ 
+458 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+26 
+ 
+459 
+ 
+460 
+ 
+461 
+Statements and Declarations 
+462 
+  
+463 
+Competing Interests 
+464 
+The authors declare that they have no competing interests.  
+465 
+Declaration of Interests 
+466 
+The authors declare that they have no known competing financial interests or personal 
+467 
+relationships that could have influenced the work reported in this paper. 
+468 
+ 
+469 
+ 
+470 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+1 
+SUPPLEMENT 1 
+1 
+ 
+2 
+ 
+3 
+Figure S1. Spatial distribution of daily mean zonal winds at 925 hPa (U925hPa; shades; m s–1), the 
+4 
+zero U925hPa contour line (blue contour line), and winds at 925 hPa (WINDS925hPa; streams; m s–1) 
+5 
+(a, c, e) from January 15 to 17, 2017. Fig. S1 (b, d, and f) are for the meridional winds at 925 hPa 
+6 
+(V925hPa). 
+7 
+ 
+8 
+ 
+9 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+2 
+ 
+10 
+ 
+11 
+Figure S2. Spatial distribution of the 925 hPa meridional gradient of meridional winds (
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+; 
+12 
+×10–5 s–1). The streamlines are the winds at 925 hPa.  
+13 
+ 
+14 
+ 
+15 
+ 
+16 
+ 
+17 
+ 
+18 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+3 
+ 
+19 
+Figure S3. As in Fig. S2, but for the boundary layer moisture flux convergence (integrated from 
+20 
+1000 hPa to 925 hPa; VIMFC; ×10–4 kg m–2 s–1). 
+21 
+ 
+22 
+ 
+23 
+ 
+24 
+ 
+25 
+ 
+26 
+ 
+27 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+4 
+ 
+28 
+ 
+29 
+Figure S4. As in Fig. S2, but for the 925 hPa relative vorticity (RV925hPa; ×10–5 s–1). The dark blue 
+30 
+line is the zero contour of the 925 hPa meridional wind. 
+31 
+ 
+32 
+ 
+33 
+ 
+34 
+ 
+35 
+ 
+36 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+5 
+ 
+37 
+Figure S5. The detected shearlines in the dates shown in Figs. S2, S3, and S4. 
+38 
+ 
+39 
+ 
+40 
+ 
+41 
+ 
+42 
+ 
+43 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+6 
+ 
+44 
+SUPPLEMENT 2 
+45 
+Additional information on the detection algorithm 
+46 
+In this section, we discuss the methodology and the sensitivity tests that we conducted in 
+47 
+developing the detection algorithm. Determining the appropriate radius for estimating the extreme 
+48 
+rainfall contribution of shear lines is also discussed. 
+49 
+S2.1. The flowchart of the shear line detection algorithm 
+50 
+ 
+51 
+Figure S6. The methodology for estimating the location of the shear line. 
+52 
+As outlined in Section 3 in the main text, the shear line was detected through the following steps, 
+53 
+as shown in Figure S6. The 06 UTC on January 16, 2017 was used as a test case.  
+54 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+7 
+Step 1: First, the candidate points per longitude are identified within 115–135°E, 5–22°N. 
+55 
+These candidate points are the latitude coordinates with at least   
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+ ≤ –1 × 10–5 s–
+56 
+1, VIMFC > 0, and RV925hPa > 0. These candidate grid points were then grouped using a 
+57 
+simple clustering by proximity (i.e., Single-Linkage clustering). Then, their distances from 
+58 
+one another are computed using the Haversine formula. When the distance of one 
+59 
+coordinate from another is less than 2.5° (2 grid points or ~277.5 km), they are assigned to 
+60 
+the same cluster. Otherwise, a new cluster is created, and the distances are recomputed. 
+61 
+This procedure is looped through all the candidate coordinates. Finally, the shear lines with 
+62 
+at least 10 degrees longitude are obtained. 
+63 
+Step 2: The clusters in (b) that are close to the zero contour line of the 925 hPa meridional 
+64 
+winds are extracted.  
+65 
+Step 3: A 1-dimensional Gaussian filter was then applied to filtered latitude and longitude 
+66 
+points obtained in Step 2.  
+67 
+S2.2. The choice of the clustering technique  
+68 
+We tested another clustering method, the Density-Based Spatial Clustering of Applications with 
+69 
+Noise (DBSCAN; Ester et al., 1996; Schubert et al., 2017), in addition to the Single-Linkage 
+70 
+Clustering (SLC). This method is used for spatial clustering and can cluster points with different 
+71 
+shapes and densities. However, two key input parameters require tuning when using this method: 
+72 
+the radius of the neighborhood (eps parameter) and the minimum number of points required to 
+73 
+form a dense region (minpts). For the January 16, 2017, case, we found that eps = 2 and minpts = 
+74 
+2 are enough to detect the shear line on this date. These values may vary per year and need to be 
+75 
+estimated when applied to climatological data. This will not be practical for forecasting 
+76 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+8 
+applications. The k-means clustering, on the other hand, which is another popular clustering 
+77 
+technique, assumes that the shape of the clusters is spherical, which is not appropriate for detecting 
+78 
+shear lines. The SLC used in this study does not require the eps and minpts conditions, unlike 
+79 
+DBSCAN. The SLC method may also be used for clustering elongated or chain-like clusters, 
+80 
+whose density may not be enough to be recognized by DBSCAN.  
+81 
+ 
+82 
+S2.3. Inclusion of the VIMFC in the detection criteria 
+83 
+ 
+84 
+We used the VIMFC as a proxy for rainfall, focusing specifically on shear lines associated with 
+85 
+heavy to extreme precipitation. It can also be seen in the seven cases in Supplement 1, and the case 
+86 
+study on January 16, 2017, the region with  
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+ ≤ –1 × 10–5 s–1 coincides with the region 
+87 
+with VIMFC > 0. The VIMFC condition is important for filtering the rainfall-inducing shearlines.  
+88 
+ 
+89 
+S2.4. Inclusion of 925 hPa Relative Vorticity (RV925hPa) in the criteria 
+90 
+ 
+91 
+In the January 16, 2017 event, as well as in the seven shear line cases in Supplement 1, a positive 
+92 
+relative vorticity at 925 hPa (i.e., RV925hPa  > 0) can be seen along the shear line. About 3117 unique 
+93 
+shear line days are detected by the algorithm that does not incorporate this condition. After 
+94 
+including this condition, the number of detected shear lines is reduced to 2432. We show an 
+95 
+example of a case on January 25, 2022, 2PM Local Standard Time (LST) that was detected by the 
+96 
+algorithm without the RV925hPa condition (Figure S7). To the best of our knowledge, there was no 
+97 
+recorded shear line warning or event issued on this day. It can be seen that there is no positive 
+98 
+RV925hPa at the location of the detected shear line, particularly to the northeast of Visayas. The 
+99 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+9 
+RV925hPa can be used as an indicator of the low-level convergence that maintains the shear line 
+100 
+(Pielke, 2013). Therefore, the RV925hPa > 0 eliminates the cases with no low-level convergence 
+101 
+along the shear line. 
+102 
+ 
+103 
+ 
+104 
+Figure S7. Spatial distribution of (a) 
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+ (×10–5 s–1), (b) VIMFC (×10–4 kg m–2 s–1), and (c) 
+105 
+RV925hPa (×10–5 s–1) on January 25, 2022, 2 PM LST. The green dot-dashed line is the shearline 
+106 
+detected without the RV925hPa criteria. The dark blue line in (a) is the zero contour line of the 
+107 
+meridional wind at 925 hPa.  
+108 
+S2.5. Estimating the radius for extreme rainfall analysis 
+109 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+10 
+The composite map of 6-hourly accumulated rainfall for the days with shear lines from the gauge-
+110 
+adjusted Global Satellite Mapping of Precipitation version 8 (GSMaP v8; Kubota et al., 2020) data 
+111 
+set from 2000 to 2022 is shown in Figure S8. Buffer zones ranging from 50 to 300 km at 50 km 
+112 
+intervals were created from the coastline to determine the optimal radius for assessing the influence 
+113 
+of shear lines on extreme rainfall at various stations. It appears that a 150 km buffer zone is enough 
+114 
+since the maximum rainfall (~5 mm) along the eastern coast is within this zone. 
+115 
+S1.6. Sensitivity to the 
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+ threshold 
+116 
+ 
+117 
+Figure S8. Spatial distribution of 6-hourly accumulated rainfall from the gauge-adjusted Global 
+118 
+Satellite Mapping of Precipitation version 8 (GSMaP v8; Kubota et al. 2020). The buffer lines 
+119 
+represent the radius from the coastline, ranging from 50 to 300 km, at 50 km intervals. The 150 
+120 
+km buffer zone is represented by the thick solid line. 
+121 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+11 
+Figure S9 shows the impact of varying the threshold of the  
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+. When the value of this 
+122 
+parameter is less than 0, the detected shear line appears wavy. This behavior lessens upon 
+123 
+decreasing the value to –1 ×10-5 s–1. A straight line is achieved when this is set to –3 ×10-5 s–1. No 
+124 
+shear lines were detected for the –4 ×10-5 s–1. This is because the area with the <–4 ×10-5 s–1 is 
+125 
+already small (i.e., less than 10°). In this study, we used –1 ×10-5 s–1 since it appears to give already 
+126 
+a nearly straight line and all the shear lines shown in Figure S5 were detected. 
+127 
+ 
+128 
+Figure S9. The detected shear lines (green dot-dashed line) at 06 UTC of January 16, 2017, using 
+129 
+different values of  
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+.  
+130 
+S2.7. Comparison of detected shear line dates with literature 
+131 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+12 
+We obtained the dates of the HREs associated with shear lines for the period 2003–2022 from 
+132 
+Reyes et al. (2024; personal communication). Their analysis identified a total of 152 HREs using 
+133 
+a threshold of 50 mm day–1. They applied principal component analysis to the observed data, 
+134 
+extracting 18 principal components, which were subsequently grouped into three clusters. The 
+135 
+synoptic conditions based on the fifth-generation European Centre for Medium-Range Weather 
+136 
+Forecasts (ERA5) reanalysis data associated with each cluster were then examined. Upon 
+137 
+comparison, about 72% of the dates (109 unique shear line dates) they identified matched those 
+138 
+found in our analysis. Notably, their study was based on daily data. In contrast, our approach differs 
+139 
+significantly. In this study, we first objectively detected shear lines using the 6-hourly JRA55 
+140 
+reanalysis data, before identifying the corresponding dates, which is nearly the reverse of their 
+141 
+methodology. Further investigation into why some of the days in Reyes et al. (2024) were not 
+142 
+detected by the objective method developed in this study reveals that this is due to the threshold 
+143 
+set for the 
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+. When we set it to 
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+ < 0, all dates matched, but some shear lines appeared 
+144 
+wavy, indicating that the algorithm is detecting some noise (not shown). 
+145 
+ 
+146 
+ 
+147 
+ 
+148 
+ 
+149 
+ 
+150 
+ 
+151 
+ 
+152 
+ 
+153 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+13 
+ 
+154 
+ 
+155 
+SUPPLEMENT 3 
+156 
+Application of the detection algorithm on a heavy rainfall forecast 
+157 
+In this section, the detection algorithm was applied to higher-resolution forecast data to 
+158 
+demonstrate its effectiveness in depicting the shear line. On January 9, 2025, a shear line was 
+159 
+reported 
+to 
+be 
+affecting 
+southern 
+Luzon 
+and 
+some 
+parts 
+of 
+eastern 
+Visayas 
+160 
+(https://ndrrmc.gov.ph/attachments/article/4281/Progress_Report_No_7_for_the_Effects_of_She
+161 
+ar_Line_in_Bicol_Region.pdf). Flooding incidents were reported in these areas. 
+162 
+We used the forecast data from the National Centers for Environmental Prediction’s Global 
+163 
+Forecast 
+System 
+(NCEP-GFS; 
+for 
+brevity, 
+simply 
+referred 
+to 
+as 
+GFS) 
+164 
+(https://www.nco.ncep.noaa.gov/pmb/products/gfs/). This data set has a resolution of 
+165 
+0.25° × 0.25°. The forecasts are initialized four times a day at 00, 06, 12, and 18 UTC. Data from 
+166 
+the operational forecasts are available at hourly intervals, while the archived forecasts are only 
+167 
+available at 3-hourly intervals for the first 240 time steps. We used the archived forecasts in this 
+168 
+study. 
+169 
+The distance condition in identifying unique shear lines was adjusted to 50 km (2 grid points, same 
+170 
+as in the JRA55 data set) and the standard deviation of the Gaussian filter was adjusted to seven 
+171 
+in the tracking algorithm. As can be seen in Figure S10, there are more areas with ≤ –
+172 
+1 × 10–5 s–1;  hence, more candidate grid points for the shear lines. The flooding on January 9, 
+173 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+14 
+2025, was caused by the shear line extending from the central Philippines to the northeast. High 
+174 
+VIMFC can be seen along the shear line (Figure S10c). Positive RV925hPa is also distinguishable 
+175 
+along the shear line. More importantly, the GFS data was able to capture the high precipitation 
+176 
+amounts over eastern Visayas. This suggests that this event is predictable. 
+177 
+ 
+178 
+ 
+179 
+Figure S10. Spatial maps of forecast (a) 
+𝜕𝜕𝑉𝑉925ℎ𝑃𝑃𝑃𝑃
+𝜕𝜕𝜕𝜕
+ (shades; ×10–5 s–1), (b) Precipitation rate (mm hr–
+180 
+1), (c) boundary moisture flux convergence (VIMFC; integrated from 1000 hPa to 925 hPa; ×10–4 
+181 
+kg m–2 s–1), and 925 hPa relative vorticity (RV925hPa; ×10–4 s–1) at 11 PM of January 9, 2025. The 
+182 
+forecast was initialized at 8 AM (00 UTC) on January 7, 2025. The streamlines are the winds at 
+183 
+925 hPa (m s–1). The light green dot-dashed line indicates the location of the shear line. The black 
+184 
+areas in (a) are elevations above 760 m (925 hPa). 
+185 
+
+Olaguera et al., Objective Identification of Shear Lines in the Philippines 
+ 
+15 
+ 
+186 

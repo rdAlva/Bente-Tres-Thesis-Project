@@ -1,0 +1,953 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+1-22-2025 
+Impact of Primary Care Benefits on Healthcare Utilisation and 
+Impact of Primary Care Benefits on Healthcare Utilisation and 
+Estimated Out-of-pocket Expenses in Urban, Rural and Remote 
+Estimated Out-of-pocket Expenses in Urban, Rural and Remote 
+Settings in the Philippines 
+Settings in the Philippines 
+Janelle Micaela S. Panganiban 
+University of the Philippines Diliman 
+Romelei Camiling-Alfonso 
+University of the Philippines Diliman 
+Josephine T. Sanchez 
+University of the Philippines Diliman 
+Regine Ynez H. De Mesa 
+University of the Philippines Diliman 
+Gillian Sandigan 
+University of the Philippines Diliman 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Health Services Administration Commons 
+Custom Citation 
+Custom Citation 
+Janelle Micaela S Panganiban, Romelei Camiling-Alfonso, Josephine T Sanchez, Regine Ynez H De Mesa, 
+Gillian Sandigan, Arianna Maever L Amit, Mia P Rey, Johanna Faye E Lopez, Noleen Marie Fabian, Cara 
+Lois T Galingana, Nannette Bernal-Sundiang, Maria Rhodora N Aquino, Chad Lester Lastrilla, Miguel Callo, 
+Carol Stephanie Chua Tan-Lim, Leonila F Dans, Jose Rafael A Marfori, Ramon Pedro Paterno, Antonio L 
+Dans - Impact of primary care benefits on healthcare utilisation and estimated out-of-pocket expenses in 
+urban, rural and remote settings in the Philippines: BMJ Open Quality 2025;14:e002676. 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+Authors 
+Authors 
+Janelle Micaela S. Panganiban, Romelei Camiling-Alfonso, Josephine T. Sanchez, Regine Ynez H. De 
+Mesa, Gillian Sandigan, Arianna Maever L. Amit, Mia P. Rey, Johanna Faye E. Lopez, Noleen Marie Fabian, 
+Cara Lois T. Galingana, Nannette Bernal-Sundiang, Maria Rhodora N. Aquino, Chad Lester Lastrilla, Miguel 
+Callo, Carol Stephanie Chua Tan-Lim, Leonila F. Dans, Jose Rafael A. Marfori, Ramon Pedro Paterno, and 
+Antonio L. Dans 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/asmph-pubs/298 
+
+
+1
+Panganiban JMS, et al. BMJ Open Quality 2025;14:e002676. doi:10.1136/bmjoq-2023-002676
+Open access
+Impact of primary care benefits on 
+healthcare utilisation and estimated out-­of-­
+pocket expenses in urban, rural and 
+remote settings in the Philippines
+Janelle Micaela S Panganiban,1 Romelei Camiling-­Alfonso,1 Josephine T Sanchez,1 
+Regine Ynez H De Mesa  ‍ ‍ ,1 Gillian Sandigan,1 Arianna Maever L Amit,2,3 
+Mia P Rey,1,4 Johanna Faye E Lopez,1 Noleen Marie Fabian  ‍ ‍ ,1,5 
+Cara Lois T Galingana,1 Nannette Bernal-­Sundiang,1 Maria Rhodora N Aquino,1 
+Chad Lester Lastrilla,1 Miguel Callo,1 Carol Stephanie Chua Tan-­Lim  ‍ ‍ ,1,6 
+Leonila F Dans,1 Jose Rafael A Marfori,1,6 Ramon Pedro Paterno,1 
+Antonio L Dans1,7 
+To cite: Panganiban JMS, 
+Camiling-­Alfonso R, Sanchez JT, 
+et al. Impact of primary care 
+benefits on healthcare utilisation 
+and estimated out-­of-­pocket 
+expenses in urban, rural 
+and remote settings in the 
+Philippines. BMJ Open Quality 
+2025;14:e002676. doi:10.1136/
+bmjoq-2023-002676
+	
+►Additional supplemental 
+material is published online only. 
+To view, please visit the journal 
+online (https://​doi.​org/​10.​1136/​
+bmjoq-​2023-​002676).
+Received 2 November 2023
+Accepted 9 January 2025
+For numbered affiliations see 
+end of article.
+Correspondence to
+Noleen Marie Fabian;  
+​nmcfabian@​gmail.​com
+Original research
+© Author(s) (or their 
+employer(s)) 2025. Re-­use 
+permitted under CC BY-­NC. No 
+commercial re-­use. See rights 
+and permissions. Published by 
+BMJ Group.
+ABSTRACT
+Background  This study aimed to determine the effects 
+of primary care interventions on healthcare utilisation and 
+estimated out-­of-­pocket (OOP) expenses in selected urban, 
+rural and remote settings in the Philippines.
+Methodology  Context-­specific measures relating to 
+expanding healthcare provider networks, augmenting the 
+health human workforce and subsidising transportation 
+costs were implemented to strengthen primary care 
+systems. In this study, two key outcomes were monitored: 
+(1) monthly healthcare utilisation measured by the total 
+number of outpatient consultations per site and (2) change 
+in OOP expenses from baseline to endline within a 1 year 
+study period.
+Results  All sites had a positive trend in monthly 
+outpatient consultations in healthcare utilisation over 
+1 year. The remote site had the steepest increase in 
+outpatient consultations, with a 401% increase compared 
+with the baseline during the peak of consultations at 
+month 7. The urban site had a 62% increase in outpatient 
+consultations from baseline to month 6, while the rural site 
+had a 251% increase from baseline to month 11, which 
+corresponded to the peak month in terms of the number 
+of outpatient consultations. The rural site had the largest 
+decrease in estimated OOP expenses (50.3% reduction, 
+95% CI −88 to –13), followed by the remote site (33.2% 
+reduction, 95% CI −67,+1) and the urban site (16.0% 
+reduction, 95% CI −65,+33).
+Conclusion  The rural site showed a significant reduction 
+in estimated OOP expenses and an increase in healthcare 
+utilisation. The remote site had the steepest increase 
+in utilisation, but the reduction in estimated OOP 
+expenses was not statistically significant. The urban site 
+experienced the lowest increase in utilisation, and the 
+smallest reduction in estimated OOP expenses, which was 
+also not statistically significant. Implementing primary 
+care benefits will necessitate contextualised approaches 
+to avoid the inadvertent aggravation of inequities in 
+healthcare.
+INTRODUCTION
+Inequitable access to health services remains 
+a significant concern in the Philippines.1 
+Social, economic and geographic barriers 
+give rise to variations in access to quality 
+healthcare services, resulting in meagre 
+improvements in health outcomes across 
+regions and economic strata.2 Despite the 
+implementation of policies to expand the 
+coverage of health services, such as the 
+National Health Insurance Act of 2013, the 
+persistence of barriers to accessing quality 
+healthcare services and high financial costs 
+discourages healthcare utilisation particularly 
+in resource-­limited and GIDAs.3–8
+In 2018, the government passed the 
+Universal Healthcare (UHC) Law to address 
+these gaps and strengthen primary care in the 
+country.9 10 To support the implementation of 
+the UHC Law, the Philippine Primary Care 
+Studies (PPCS) programme piloted primary 
+care strengthening interventions in urban, 
+WHAT IS ALREADY KNOWN ON THIS TOPIC
+	
+⇒Primary care resources are finite. This study ex-
+plores how resources can be used while preserving 
+sustainability.
+WHAT THIS STUDY ADDS
+	
+⇒This study explores factors that may cause utilisa-
+tion behaviours to vary across sites. It also explores 
+how external actors change the utilisation behav-
+iours of healthcare consumers.
+HOW THIS STUDY MIGHT AFFECT RESEARCH, 
+PRACTICE OR POLICY
+	
+⇒This study enables policymakers to explore potential 
+strategies to increase utilisation in varying localities.
+BMJ Open Quality: first published as 10.1136/bmjoq-2023-002676 on 22 January 2025. Downloaded from https://bmjopenquality.bmj.com on 7 April 2025 by guest.
+Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.
+
+2
+Panganiban JMS, et al. BMJ Open Quality 2025;14:e002676. doi:10.1136/bmjoq-2023-002676
+Open access
+rural and remote settings in the Philippines to inform 
+the government of strategies to realise and enable true 
+universal health coverage for the country. The exposition 
+of working models in selected urban, rural and remote 
+sites aims to demonstrate to policymakers how to invest in 
+primary care systems that are feasible, efficient, effective 
+and equitable.
+The primary care interventions are intended to address 
+existing gaps in healthcare utilisation and health expen-
+diture. Levesque et al explained that healthcare utilisa-
+tion is a ‘realised access’ to care.11 Additionally, Banaag et 
+al state that reducing out-­of-­pocket (OOP) expenditure 
+as a percentage of total health expenditure is pertinent 
+in evaluating the efficiency of public financing schemes.2 
+Therefore, these variables should become vital in evalu-
+ating the successful implementation of universal health-
+care in the Philippines.
+A previous study12 conducted a survey to determine 
+the baseline health benefit utilisation and OOP expenses 
+in the three primary care settings of the PPCS prior to 
+the implementation of the primary care strengthening 
+interventions. This is a follow-­up study to describe the 
+observed changes in healthcare utilisation and estimated 
+OOP expenses pre- and post-­implementation of primary 
+care interventions across selected settings in the Phil-
+ippines. The specific objectives of the study are (1) to 
+determine the effect of primary care interventions on 
+healthcare utilisation across three study sites, an urban, 
+rural and remote site and (2) to compare the change in 
+estimated OOP expenses across the study sites pre- and 
+post-­intervention. It borrows Levesque et al’s Conceptual 
+Framework on Access to Health, which elucidates supply-­
+side and demand-­side factors that impact healthcare 
+utilisation.11
+Levesque’s conceptualisation of healthcare access 
+considers the systemic variations between geographic 
+locations, which closely aligns with the healthcare land-
+scape in the Philippines. It highlights the study’s interest 
+in evaluating interventions to promote the equitable 
+implementation of primary care services that consider 
+the specific population’s characteristics, resources and 
+geographic location.11 From a health equity perspective, 
+structural barriers must be addressed so that interven-
+tions that intend to improve primary care systems can 
+equitably impact communities across urban, rural and 
+remote areas.13–16 Assessing and comparing these experi-
+ences among urban, rural and remote patients will inform 
+how context-­specific barriers impact the full realisation of 
+UHC and the promotion of health equity in the country.
+METHODOLOGY
+Study sites
+The urban site was an academic institution in Metro 
+Manila, which has a 25-­bed outpatient facility that served 
+31 000 university-­based students, faculty, employees and 
+residents. The facility was affiliated with diagnostic and 
+pharmacy providers within the university system, where 
+most referrals were directly fulfilled. Outside of the facility, 
+patients also had immediate access to other primary care 
+providers within the metropolitan area.
+The rural site was a fourth-­class municipality (ie, 
+municipalities with an average annual income of 
+$60 000–1 00 000) with 35 298 residents across 14 baran-
+gays (administrative districts).
+The remote site is a geographically isolated and disad-
+vantaged area (GIDA), which, in the Philippines, is 
+defined as a community with a marginalised population 
+that is physically and socio-­economically isolated from 
+mainstream society.17 The remote site had 23 932 resi-
+dents across 24 barangays. Transportation and internet 
+connectivity were challenges for this site.
+For both rural and remote sites, there is a rural health 
+unit (RHU) and barangay health stations (BHS) for its 
+constituents. These public facilities had limited diagnostic 
+capacity and pharmaceutical offerings. A physician super-
+vised the RHU, while the BHS was staffed by barangay 
+health workers (BHWs). Staffing for both sites was 
+limited, with only one municipal health officer supported 
+by midwives, nurses and BHWs before the study. Patients 
+had limited access to other healthcare providers outside 
+these public healthcare facilities.
+Primary care interventions
+PPCS introduced interventions to strengthen the primary 
+care system in these three sites. These were implemented 
+in the urban site from 2016 to 2017 and, subsequently, in 
+the rural and remote areas from 2019 to 2020.
+To address health financing problems, the study intro-
+duced a primary care benefit package worth PhP 350 per 
+capita, with a Php 2000 spending cap per patient over 1 
+year. The amount could be used for any condition, that 
+is, it was ‘disease-­agnostic’. It was also comprehensive 
+because it could be used for consultations, diagnostic 
+tests or prescribed medications. Patients were regis-
+tered opportunistically at the point of care during their 
+first consult. This contrasts with PhilHealth’s existing 
+process of prior registration, which is repetitive, resource-­
+intensive and inefficient.16
+An electronic health record (EHR) system was estab-
+lished to unify patient records and centralise medical 
+information. Healthcare personnel used the system 
+for triaging, referrals, medicine and laboratory request 
+printing, medical certificate printing, drug dispensing, 
+laboratory results releasing, financial tracking, patient 
+census and record management.
+Technical training on the most common primary care 
+conditions was conducted for the healthcare workers, 
+including healthcare professionals (doctors, nurses and 
+midwives) and community health workers. They were also 
+given free subscriptions and training on how to use a clin-
+ical decision support tool (UpToDate) to assist them in 
+performing their duties.
+Community engagement activities for patients were 
+also conducted. Promotional materials such as brochures, 
+tarpaulins and social media pages were cascaded to 
+BMJ Open Quality: first published as 10.1136/bmjoq-2023-002676 on 22 January 2025. Downloaded from https://bmjopenquality.bmj.com on 7 April 2025 by guest.
+Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.
+
+
+3
+Panganiban JMS, et al. BMJ Open Quality 2025;14:e002676. doi:10.1136/bmjoq-2023-002676
+Open access
+inform patients of the importance of primary care. 
+Town hall meetings and information campaigns were 
+also conducted to manage community expectations on 
+primary care and prevent benefit misuse.
+Context-­specific interventions were implemented in 
+rural and remote sites. Partnerships with private labora-
+tories and pharmacies were established due to the limita-
+tions of public facilities in fulfilling the needed healthcare 
+services. Additional healthcare providers were recruited 
+due to the lack of physician staffing for both sites. Trans-
+portation costs were subsidised to address the geograph-
+ical barriers in the remote area. These interventions are 
+summarised in table 1.
+Study design and overview
+Descriptive trend analysis was used for healthcare utili-
+sation. Healthcare utilisation was measured as the total 
+number of outpatient consultations recorded in the EHR 
+system at each site. These consultations included curative 
+and preventive visits and were reported monthly.
+Pre-­post evaluation for OOP expenses. OOP expenses 
+were measured using a healthcare benefit utilisation and 
+financial risk protection questionnaire that was pre-­tested 
+and implemented in a prior study.17 The follow-­up period 
+was October 2016 to September 2017 for the urban site, 
+April 2019 to March 2020 for the rural site and May 2019 
+to April 2020 for the remote site. The start of the study 
+period coincided with initiating and implementing the 
+primary care interventions. Due to the urgency of dissem-
+inating the results on the impact of primary care inter-
+ventions on these two critical outcomes to inform policy, 
+we analysed and reported the results within a 1 year study 
+period for each site.
+Preparation of questionnaire for OOP expenses
+A healthcare benefit utilisation and financial risk protec-
+tion questionnaire was previously created to assess 
+patients’ previous consultations, admissions and expenses 
+incurred within a prescribed recall period (online supple-
+mental appendix 1).
+For this study, we only extracted data on outpatient 
+expenses. Participants were asked to estimate how much 
+they spent on outpatient care, specifically consultations, 
+diagnostic tests and medicines. They were also requested 
+to identify their respective financing sources, such as 
+OOP, national health insurance (provided through the 
+study) or other sources. To minimise recall bias, a recall 
+period of 3 months was set.
+Sampling and survey distribution for OOP expenses
+In the baseline study published in 2024, the sample size 
+was calculated based on the two outcomes, namely, utili-
+sation and OOP expenses. Since the sample size require-
+ments were larger for the utilisation parameter, this was 
+the sample size requirement used in the baseline study.12 
+Simple random sampling was done for the urban site, 
+while stratified sampling was done for the rural and 
+remote sites where heads of the households were sampled 
+from each barangay (stratum).
+In this follow-­up study, total enumeration was done for 
+the utilisation outcome. The total number of outpatient 
+consultations in each of the research sites was reported. 
+For the OOP expense outcome, we invited the same 
+respondents who answered the baseline survey to partic-
+ipate in the follow-­up study. Respondents who refused to 
+participate or could not be contacted were replaced with 
+new respondents. The new respondents for replacement 
+were matched by employment category and department 
+in the urban site, and by sex, age and household site in 
+the rural and remote sites.
+All endline surveys were done at least 1 year after imple-
+menting the interventions. Written and verbal informed 
+consent was collected from each respondent before 
+survey administration.
+Data analysis
+Healthcare utilisation was measured by the number of 
+outpatient consultations reflected on the EHR records 
+across each site. The total number of monthly outpatient 
+consultations was collected for each site and is presented 
+Table 1  Summary of primary care interventions
+Intervention
+Urban
+Rural
+Remote
+Health financing: implementation of a primary care benefit package that covered patient consults, 
+medicines and laboratory services of up to Php 2000 per patient.
+✓
+✓
+✓
+Health information system: development of an electronic health record (EHR) system that 
+centralised patient records and referral systems.
+✓
+✓
+✓
+Healthcare worker training: technical training on primary care and clinical practice guidelines and 
+the provision of a clinical decision-­making platform.
+✓
+✓
+✓
+Community engagement: dissemination of print and digital materials to raise public awareness of 
+primary care, provider networks and risk sharing.
+✓
+✓
+✓
+Healthcare provider networks: expansion of provider availability through partnerships with private 
+laboratories and pharmacies.
+✓
+✓
+Health human resources: augmentation of health workforce by hiring additional physicians.
+✓
+✓
+Transportation: subsidised transportation costs to and from the health facility.
+✓
+BMJ Open Quality: first published as 10.1136/bmjoq-2023-002676 on 22 January 2025. Downloaded from https://bmjopenquality.bmj.com on 7 April 2025 by guest.
+Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.
+
+4
+Panganiban JMS, et al. BMJ Open Quality 2025;14:e002676. doi:10.1136/bmjoq-2023-002676
+Open access
+using a line graph. Meanwhile, estimated OOP expenses 
+were based on questionnaire data. These were summa-
+rised in absolute values and percentage changes from 
+baseline to endline periods. Data collected were encoded 
+and processed using Microsoft Excel. The percentage 
+change from baseline to endline was computed as
+	﻿‍
+% change =
+average OOP expense per capita at endline
+−average OOP expense per capita at baseline
+average OOP expense per capita at endline
+‍
+Conceptual framework of access to healthcare
+In 2013, Levesque et al proposed a conceptual frame-
+work for understanding healthcare access.11 The frame-
+work highlights five supply-­side determinants namely: (1) 
+approachability, which refers to the ability of individuals 
+with health needs to recognise the existence of available 
+services, access them and benefit from their impact on 
+their health; (2) acceptability, which involves cultural and 
+social factors that influence people’s willingness to accept 
+certain aspects of a service, such as the provider’s sex or 
+social group, and the beliefs related to medical systems; 
+(3) Availability and Accommodation, which mean that 
+health services, including the physical facilities and 
+healthcare professionals, can be accessed both physically 
+and promptly; (4) Affordability, which indicates people’s 
+financial ability to allocate resources and time to access 
+appropriate services; and (5) Appropriateness, which 
+refers to how well services meet clients’ needs, including 
+their timeliness, the thoroughness of health problem 
+assessments, the accuracy of treatments and the technical 
+and interpersonal quality of the services provided.
+Meanwhile, five demand-­side determinants also shape 
+healthcare utilisation and access, which complements the 
+five supply-­side determinants, respectively. Levesque iden-
+tifies the following: (1) the ability to perceive, influenced 
+by factors such as health literacy, knowledge about health 
+and beliefs related to health and illness; (2) the ability 
+to seek, which pertains to personal autonomy and the 
+capacity to choose to pursue care; (3) the ability to reach, 
+which involves personal mobility, access to transportation, 
+occupational flexibility and awareness of health services, 
+all of which enable an individual to physically access 
+service providers; (4) the ability to pay, which refers to 
+the capacity to generate economic resources without 
+incurring catastrophic expenses that would jeopardise 
+the ability to meet basic necessities; and 5) the ability to 
+engage, which involves client’s participation in decision-­
+making and treatment choices.
+For this study, Levesque’s framework was used to 
+examine the influence of study interventions on health-
+care utilisation. Supply-­side interventions of the study 
+respond to identified site-­specific gaps among the deter-
+minants of healthcare utilisation (figure 1). Self-­reported 
+OOP expenses are considered a proxy for patients’ ability 
+to pay (demand side) in response to the primary care 
+benefit package introduced by the study (supply side).
+RESULTS
+Healthcare utilisation
+Figure 2 summarises the monthly outpatient consultations 
+in each of the research sites. The urban site had a positive 
+trend in outpatient consultations throughout the 1 year 
+study period. There were 510 consultations recorded at 
+baseline (month 1). At endline (month 12), there were 
+663 consultations, with a total of 7664 consults recorded 
+within the 1 year study period. Monthly variations in the 
+number of outpatient consultations can be observed. A 
+62% increase in utilisation was observed between baseline 
+and March 2017 (month 6), when the number of outpa-
+tient consultations peaked.
+The rural site also had a positive trend in outpatient 
+consultations in the first year of the implementation of 
+Figure 1  Levesque’s conceptual framework of access to healthcare.11
+BMJ Open Quality: first published as 10.1136/bmjoq-2023-002676 on 22 January 2025. Downloaded from https://bmjopenquality.bmj.com on 7 April 2025 by guest.
+Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.
+
+
+5
+Panganiban JMS, et al. BMJ Open Quality 2025;14:e002676. doi:10.1136/bmjoq-2023-002676
+Open access
+primary care interventions. There were 1460 consulta-
+tions recorded at baseline (month 1). At endline (month 
+12), there were 2779 consultations. A total of 37 818 
+consultations were recorded in the 1 year study period for 
+the rural site, which is the highest among the three sites. 
+The number of consultations peaked in February 2020 
+(month 11), with a 251% increase in outpatient consul-
+tations compared with the baseline. Like the urban site, 
+there are monthly variations in outpatient consultations.
+The remote site had a positive trend in the number of 
+monthly outpatient consultations, with monthly variations 
+noted as well. There were 287 consultations recorded at 
+baseline (month 1). At endline (month 12), there were 
+1209 consultations. A total of 10 727 consultations were 
+recorded in the 1 year study period for the remote site. 
+The number of consultations peaked in November 2019 
+(month 7) at 1439, a 401% increase from baseline.
+Pre- and post-intervention evaluation of estimated OOP 
+expenses
+The number of respondents at baseline and endline is 
+summarised in table  2. The urban sample comprised 
+faculty members, employees and contractual workers, 
+while the rural and remote samples included household 
+heads in the catchment populations. At endline, we only 
+had 202 urban respondents despite attempts to replace 
+respondents.
+Table  3 summarises the change in estimated OOP 
+expenses from baseline to endline periods across the 
+study sites. Compared with baseline, the rural site had 
+the largest decrease in estimated OOP expenses, with a 
+50.3% reduction. The remote site had a 33.2% decrease, 
+while the urban site had the smallest decrease (16.0%) in 
+estimated OOP expenses compared with baseline. Only 
+the rural site had a statistically significant reduction in 
+estimated OOP expenses at endline.
+DISCUSSION
+The rural site had the highest number of cumulative 
+outpatient consultations (37 818 consultations), the 
+largest decrease in average estimated outpatient OOP 
+expense from baseline to endline (−50.3%). The urban 
+site had the smallest increase in outpatient consultations 
+and smallest reduction in estimated outpatient OOP 
+expense from baseline to endline.
+Urban healthcare utilisation and estimated OOP expenses
+The urban site had minimal increases in monthly outpa-
+tient consultations throughout the study period. Two 
+things might explain this lack of response. First, intro-
+ducing relatively small subsidies for primary care may not 
+significantly alter healthcare utilisation in a community 
+with regular access. Second, the baseline utilisation may 
+already represent the optimised healthcare use for the 
+site.
+The urban site has an open and pluralistic system, high-
+lighting the multiplicity and availability of stakeholders 
+engaged in healthcare services.17 Multiple health service 
+providers exist outside the urban site, where patients may 
+opt to avail of their health services. This can explain the 
+minimal increase in the number of outpatient consulta-
+tions for the site. Moreover, the urban site, relative to its 
+rural and remote counterparts, may already have better 
+health outcomes due to better access to health services. 
+Figure 2  Monthly outpatient consultations across research sites (year 1). The solid lines represent the number of outpatient 
+consults per site. The dotted lines represent the slopes of the lines per site.
+Table 2  Number of study participants at baseline and 
+endline
+Baseline Endline
+Sample composition
+Urban
+358
+202
+University-­based faculty, 
+employees, contractual workers
+Rural
+228
+228
+Household heads
+Remote
+202
+202
+Household heads
+Total
+788
+632
+BMJ Open Quality: first published as 10.1136/bmjoq-2023-002676 on 22 January 2025. Downloaded from https://bmjopenquality.bmj.com on 7 April 2025 by guest.
+Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.
+
+6
+Panganiban JMS, et al. BMJ Open Quality 2025;14:e002676. doi:10.1136/bmjoq-2023-002676
+Open access
+Vlahov et al explore the urban health ‘advantage’ phenom-
+enon and argue that health indicators are better in urban 
+areas due to socioeconomic heterogeneity, higher levels 
+of social support and higher access to necessities of life.18 
+This likely reduces the need for patients to visit the urban 
+site, compared with rural and remote sites. Grounded on 
+the health access framework by Levesque et al, we see that 
+the urban healthcare system, with present and substan-
+tial resources under the Availability and Accommodation 
+domain, led to stability in healthcare utilisation for the 
+urban site.
+Varied results were noted for the average estimated 
+OOP expense of patients in the urban site. While the 
+average estimated OOP expenses reduced by 16.0% from 
+baseline to year 1, the percentage of estimated OOP 
+expense at the end of year 1 remains high at 53.7%. We 
+can attribute the reduction in estimated OOP expenses 
+to the Php 2000 benefit package provided by the 
+programme to increase patients’ ability to pay.11 However, 
+it is still likely that some patients did not maximise their 
+benefits at the urban site clinic and instead acquired care 
+from other service providers not covered by the benefit 
+package. Similarly, this can be explained by the open and 
+pluralistic system of the urban site, where patients are not 
+obliged to seek care from one provider alone.
+Rural healthcare utilisation and estimated OOP expenses
+The rural site had a steep increase in monthly outpatient 
+consultations, demonstrating higher utilisation. This site 
+also had a large reduction in estimated OOP expenses. 
+Considering Levesque et al’s health access framework, 
+we may relate this to the supply-­side interventions of the 
+study targeting the areas of Approachability, Availability 
+and Accommodation, and Affordability.
+Approachability towards the healthcare site was 
+improved using promotional activities, such as the 
+cascade of flyers and town hall meetings. The structure 
+of these activities included presenting the basic concepts 
+surrounding primary care and emphasising its impor-
+tance in improving patient health. These methods likely 
+encouraged patients to visit the clinic more. Gupta et al 
+describe the importance of health education materials, 
+mainly through social marketing, to improve patient 
+behaviour in seeking primary care.19 Moreover, addi-
+tional RHU physicians were recruited in partnership 
+with the local government unit. The support of the local 
+government was crucial in ensuring that the supply of 
+healthcare providers was sufficient to meet healthcare 
+demands.16 An EHR system was also implemented, opti-
+mising the time spent by healthcare staff serving patients 
+instead of managing patient records.
+Improved average estimated OOP expense was also 
+observed in the rural site between baseline and year 1, 
+where the average estimated OOP expense was reduced 
+by 50.3%. The percentage of estimated OOP expense at 
+the rural site was the lowest across all sites at 18.3%. Like 
+the urban site, these improvements can be attributed 
+to providing a Php 2000 benefit package. Patients likely 
+maximised this benefit, thus decreasing their OOP 
+expenses. Furthermore, the study expanded the health-
+care provider network of the rural site by partnering with 
+laboratory and diagnostic providers. With additional 
+providers in the system, patients’ needs from these facil-
+ities were likely covered by the benefit package, thus 
+decreasing their OOP expenses. These interventions can 
+explain the improvement in OOP expense for health 
+services.11
+Remote healthcare utilisation and estimated OOP expenses
+The remote site had fluctuating utilisation, as shown 
+in their monthly outpatient consultations. The varying 
+levels of health utilisation can be related to similar study 
+interventions identified at the rural site. These initiatives 
+targeted the areas of Approachability, Availability and 
+Accommodation, and Affordability. However, the impact 
+on the remote site is not as large as observed on the rural 
+site. The existing structural barriers can largely explain 
+this difference for the remote site.
+The EHR system was not fully optimised due to poor 
+internet connection. An effective EHR system is expected 
+to support service delivery networks by (1) centralising 
+patient information, (2) making comprehensive data 
+available at every point of patient care and (3) ensuring 
+accessibility from multiple locations and units.20 Effective 
+EHR implementation necessitates sufficient infrastruc-
+ture.21 The rural site had a good internet connection since 
+the provincial government installed additional towers 
+with long-­distance routers to integrate the entire munici-
+pality under one network.16 However, this was not feasible 
+in the remote site due to its dense and mountainous land-
+scape.22 As a result, the remote site experienced consid-
+erable delays in addressing internet connectivity issues, 
+Table 3  Change in estimated out-­of-­pocket expenses (PhP) from baseline to endline (Y1)
+Average estimated outpatient out-­of-­pocket expense per capita per year
+Baseline in Php (95% CI)*
+Endline in Php (95% CI)
+Change in % (95% CI)
+Urban (N=202)
+521 (379, 663)
+438 (225, 650)
+−16.0 (-­65,+33)
+Rural (N=228)
+308 (207, 409)
+153 (99, 207)
+−50.3 (-­88, -13)
+Remote (N=202)
+555 (406, 705)
+371 (254, 483)
+−33.2 (-­67,+1)
+*The baseline values slightly differ from the previously published study. Values were recalculated based on the actual average household size 
+in the rural and remote sites and the PhilHealth data on average household size for the urban site. The previously published study used rough 
+estimates of household size.12
+BMJ Open Quality: first published as 10.1136/bmjoq-2023-002676 on 22 January 2025. Downloaded from https://bmjopenquality.bmj.com on 7 April 2025 by guest.
+Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.
+
+
+7
+Panganiban JMS, et al. BMJ Open Quality 2025;14:e002676. doi:10.1136/bmjoq-2023-002676
+Open access
+limiting access to operational community health stations 
+and primary care services. Subsidised transportation costs 
+to and from the health facility became crucial in ensuring 
+primary care accessibility at the remote site. In contrast, 
+the rural site could activate its community health stations 
+through EHR implementation, embodying the essence 
+of primary care of being as close to the community as 
+possible.23
+A 33.2% decrease in the average estimated OOP 
+expense was noted between baseline and endline. Similar 
+to the rural site, these improvements can be attributed 
+to the provision of the Php 2000 benefit package that 
+decreased the OOP expenses of patients. The healthcare 
+provider network of the remote site was also expanded 
+through partnerships with laboratory and diagnostic 
+providers, allowing patients’ needs from these facilities to 
+be covered by the benefit package.
+However, OOP expenses remained high at endline 
+similar to the urban site. It is important to contextu-
+alise that healthcare spending in the remote site was 
+low at baseline compared with the rural and urban sites. 
+Therefore, health services were likely underused at the 
+beginning, and patients were more likely to have more 
+severe or complicated conditions. Chen et al highlighted 
+geographical disparities in the utilisation of preventive 
+care services, which can explain this underutilisation.24 
+When patients were encouraged to consult more, health 
+expenditures from outpatient consultations, laboratory 
+services and medicines likely increased. The expansion 
+of healthcare provider networks could have been the cost 
+driver, such that some expenses from laboratories and 
+pharmacies probably exceeded patient benefits.
+Implications for UHC implementation
+Equitable implementation of UHC in the Philippines 
+should consider the variations in health system readiness 
+across site-­specific contexts. The contexts of each site are 
+different, where the most disadvantaged remote site was 
+already predisposed to equity concerns, specifically poor 
+infrastructure.
+The existing infrastructure impacts primary care utilisa-
+tion across sites. Infrastructure elements, such as internet 
+connectivity and geographical characteristics, affect the 
+proliferation of primary care access points. These issues 
+are most pressing in the remote site, where primary care 
+options remained limited at baseline and endline because 
+of the inefficient implementation of the EHR due to poor 
+internet connectivity. Meanwhile, the rural site resolved 
+this and activated more access points through community 
+health stations. On the other hand, the urban site already 
+had multiple primary care access points outside the study 
+setting where patients could have otherwise received care.
+Returning to Levesque et al’s framework for health-
+care access,11 existing infrastructure problems at the 
+remote site limited the impact of the study’s inter-
+ventions under the Availability and Accommodation 
+domain. With this domain not fully implemented, it is 
+also likely that the effect of the Affordability domain, 
+which follows it, remains unmet. Each domain of the 
+framework must be addressed to achieve our vision for 
+optimised healthcare utilisation and improved health-
+care access. This calls for additional funding to ensure 
+health system readiness across different geographic 
+regions to adopt primary care and universal health 
+coverage.
+Limitations
+The scope of this study is limited to outpatient consulta-
+tions in RHUs for rural and remote sites and a primary 
+care clinic in an urban site. Future studies may include 
+data from community health stations, diagnostic labo-
+ratories and pharmacies. Another limitation is that 
+not all consultation data points can be considered 
+independent, as several individuals may likely have 
+consulted several times during the study period. Clus-
+tering within households in the rural and remote may 
+also have affected the number of consultations, since 
+the observation units for this variable are individuals, 
+while the sampling units are households. Moreover, 
+the OOP expenses are estimated by patients through 
+survey data. Recall bias might occur for some of these 
+metrics. The potential impact of socio-­demographic 
+factors (eg, ethnicity, income level, family size) on the 
+resulting data set remains outside the study’s scope. 
+Future studies may want to explore external factors 
+that may ultimately contribute to patients’ care utili-
+sation. Lastly, the COVID-­19 pandemic was declared 
+in March 2020, which likely affected healthcare utili-
+sation and OOP expenses towards the tail end of the 
+first year of primary care implementation for the rural 
+and remote sites.
+CONCLUSION
+This study measured healthcare utilisation and esti-
+mated OOP expenses across urban, rural and remote 
+settings in the Philippines after introducing primary 
+care interventions. The rural site showed the most 
+promising results at the end of the study period for 
+healthcare utilisation and estimated OOP expenses. 
+In contrast, the urban site had a minimal increase in 
+utilisation. This may be due to an open and plural-
+istic healthcare system, which provided several other 
+options for healthcare. Due to existing infrastructure 
+problems, the remote site could not fully optimise the 
+interventions provided despite the provision of equal 
+funds for primary care services. Such pre-­existing 
+problems in access may require the allocation of 
+greater funds for disadvantaged areas and may neces-
+sitate contextualised approaches to avoid the inad-
+vertent aggravation of inequities in healthcare access 
+and utilisation.
+Author affiliations
+1Program on Health Systems Development - Philippine Primary Care Studies, Center 
+for Integrative and Development Studies, University of the Philippines Diliman, 
+Quezon City, Philippines
+BMJ Open Quality: first published as 10.1136/bmjoq-2023-002676 on 22 January 2025. Downloaded from https://bmjopenquality.bmj.com on 7 April 2025 by guest.
+Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.
+
+8
+Panganiban JMS, et al. BMJ Open Quality 2025;14:e002676. doi:10.1136/bmjoq-2023-002676
+Open access
+2National Clinical Trials and Translation Center, National Institutes of Health, 
+University of the Philippines Manila, Manila, Philippines
+3Center for Research and Innovation, School of Medicine and Public Health, Ateneo 
+de Manila University, Pasig City, Philippines
+4Department of Accounting and Finance, Cesar E A Virata School of Business, 
+University of the Philippines Diliman, Quezon City, Philippines
+5University of the East Ramon Magsaysay Memorial Medical Center Inc, Quezon 
+City, Philippines
+6Department of Clinical Epidemiology, College of Medicine, University of the 
+Philippines Manila, Manila, Philippines
+7College of Medicine, University of the Philippines Manila, Manila, Philippines
+Acknowledgements  The authors would like to express their gratitude to the staff 
+of the University Health Service of the University of the Philippines Diliman, the 
+local government unit of the Municipality of Samal, Province of Bataan and the local 
+government unit of the Municipality of Bulusan, Province of Sorsogon, in supporting 
+the success of this study.
+Contributors  JMSP and RCA spearheaded the conceptualisation and drafting 
+of the manuscript. JTS, RYHDM, GS, AMLA, MPR, JFEL, NMF, CSCT-­L and CLTG 
+contributed in drafting the manuscript. NB-­S, MRNA, CLL, MC, LFD, JRAM, RPP and 
+ALD provided their insights during the data gathering and analysis stage. ALD will 
+also serve as the guarantor of this manuscript.
+Funding  The study was supported by The Philippine Department of Health 
+(DOH), the Philippine Health Insurance Corporation (PhilHealth), the Emerging 
+Interdisciplinary Research Program (EIDR), the Center for Integrative and 
+Development Studies (CIDS), and the Philippine Council for Health Research and 
+Development (PCHRD).
+Competing interests  None declared.
+Patient and public involvement  Patients and/or the public were not involved in 
+the design, conduct, reporting or dissemination plans of this research.
+Patient consent for publication  Not applicable.
+Ethics approval  This study involves human participants and was approved by the 
+University of the Philippines Manila Research Ethics Board (UPMREB); Research No. 
+20-­15-­489-­01. Participants gave informed consent to participate in the study before 
+taking part.
+Provenance and peer review  Not commissioned; externally peer reviewed.
+Data availability statement  Data are available upon reasonable request.
+Supplemental material  This content has been supplied by the author(s). It has 
+not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been 
+peer-­reviewed. Any opinions or recommendations discussed are solely those 
+of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and 
+responsibility arising from any reliance placed on the content. Where the content 
+includes any translated material, BMJ does not warrant the accuracy and reliability 
+of the translations (including but not limited to local regulations, clinical guidelines, 
+terminology, drug names and drug dosages), and is not responsible for any error 
+and/or omissions arising from translation and adaptation or otherwise.
+Open access  This is an open access article distributed in accordance with the 
+Creative Commons Attribution Non Commercial (CC BY-­NC 4.0) license, which 
+permits others to distribute, remix, adapt, build upon this work non-­commercially, 
+and license their derivative works on different terms, provided the original work is 
+properly cited, appropriate credit is given, any changes made indicated, and the use 
+is non-­commercial. See: http://creativecommons.org/licenses/by-nc/4.0/.
+ORCID iDs
+Regine Ynez H De Mesa http://orcid.org/0000-0001-8011-8567
+Noleen Marie Fabian http://orcid.org/0000-0002-8028-6242
+Carol Stephanie Chua Tan-­Lim http://orcid.org/0000-0001-8815-4191
+REFERENCES
+	 1	 Dayrit MM, Lagrada LP, Picazo OF, et al. The Philippines health 
+system review. Health Syst Transit 2018;8. Available: https://apps.​
+who.int/iris/handle/10665/274579
+	 2	 Banaag MS, Dayrit MM, Mendoza RU. Health inequity in the 
+Philippines. In: Batabyal A, Higano Y, Nijkamp P, eds. Disease, 
+Human Health, and Regional Growth and Development in Asia. 
+New Frontiers in Regional Science: Asian Perspectives. Singapore: 
+Springer, 2019: 163–74.
+	 3	 Alipio M. A path analysis examining the relationship between 
+access barriers to health services and healthcare utilization among 
+the publicly insured: insights from a multiprovince survey in the 
+philippines. Public Health d6vbm [Preprint] 2020. 
+	 4	 Hodge A, Firth S, Bermejo R 3rd, et al. Utilisation of health services 
+and the poor: deconstructing wealth-­based differences in facility-­
+based delivery in the Philippines. BMC Public Health 2016;16:523. 
+	 5	 Sigua JA, Ong MM, Nuevo CE, et al. An introduction to the Philippine 
+universal health care law, 2020. Available: https://thinkwell.global/​
+wp-content/uploads/2020/05/PH-UHC-Law-Series_Brief-1.pdf 
+[Accessed 23 Nov 2022].
+	 6	 Philippine Statistics Authority, Republic of the Philippines. Philippine 
+national health accounts. n.d. Available: https://psa.gov.ph/statistics/​
+pnha
+	 7	 Lasco G, Yu VG, David CC. The Lived Realities of Health Financing: 
+A Qualitative Exploration of Catastrophic Health Expenditure in 
+the Philippines. Acta Med Philipp 2022;56. Available: https://​
+actamedicaphilippina.upm.edu.ph/index.php/acta/article/view/​
+2389
+	 8	 Ulep VGT, Uy J, Casas LDD. Primary health care for 
+noncommunicable diseases in the Philippines. Philippine Institute 
+for Developmental Studies; 2020. Available: https://pidswebs.pids.​
+gov.ph/CDN/PUBLICATIONS/pidsdps2039.pdf [Accessed 28 Feb 
+2024].
+	 9	 Congress of the Philippines. Republic act no. 11223 - an act 
+instituting universal health care for all filipinos, prescribing reforms 
+in the health care system, and appropriating funds therefor. 2018. 
+Available: https://www.officialgazette.gov.ph/2019/02/20/republic-​
+act-no-11223/ [Accessed 23 Nov 2022].
+	10	 Department of Health Philippines. UHC. n.d. Available: https://doh.​
+gov.ph/uhc/
+	11	 Levesque JF, Harris MF, Russell G. Patient-­centred access to health 
+care: conceptualising access at the interface of health systems and 
+populations. Int J Equity Health 2013;12:18. 
+	12	 Dans LF, Marfori JRA, De Mesa RYH, et al. Health Benefit 
+Utilization and Out-­of-­Pocket Expenses in Outpatient Care and 
+Hospitalizations: Baseline Surveys of Three Primary Care Sites in the 
+Philippines. Acta Med Philipp 2024;58:133–40. 
+	13	 Dutton D. Financial, organizational and professional factors affecting 
+health care utilization. Soc Sci Med 1986;23:721–35. 
+	14	 Jacobs B, Ir P, Bigdeli M, et al. Addressing access barriers to 
+health services: an analytical framework for selecting appropriate 
+interventions in low-­income Asian countries. Health Policy Plan 
+2012;27:288–300. 
+	15	 Naria-­Maritana MJN, Borlongan GR, Zarsuelo M-­AM, et al. 
+Addressing Primary Care Inequities in Underserved Areas of the 
+Philippines: A Review. Acta Med Philipp 2020;54. 
+	16	 Bernal-­Sundiang N, Mesa RYH, Marfori JRA, et al. Governance in 
+Primary Care Systems: Experiences and Lessons from Urban, Rural, 
+and Remote Settings in the Philippines. Acta Med Philipp 2023;57. 
+	17	 Han GS. The Myth of Medical Pluralism: A Critical Realist 
+Perspective. Sociol Res Online 2002;6:65–80. 
+	18	 Vlahov D, Galea S, Freudenberg N. The urban health “advantage”.  
+J Urban Health 2005;82:1–4. 
+	19	 Gupta A, Naidu NK, Kakkar R. Role of social marketing in promoting 
+primary care to succeed in current era. J Family Med Prim Care 
+2019;8:3086. 
+	20	 Alipour J, Erfannia L, Karimi A, et al. Electronic Health Record 
+Acceptance: A Descriptive Study in Zahedan, Southeast Iran.  
+J Health Med Inform 2013;04:2–5. 
+	21	 Haux R. Health information systems - past, present, future. Int J Med 
+Inform 2006;75:268–81. 
+	22	 Binaday J, Amarga A, Barrameda E, et al. Amphibians and reptiles in 
+the vicinity of Bulusan lake, Bulusan Volcano natural park, Sorsogon, 
+Philippines. Philipp J Sci 2017;146:339–51.
+	23	 Safran DG. Defining the future of primary care: what can we learn 
+from patients? Ann Intern Med 2003;138:248–55. 
+	24	 Chen L, Lu Y, Cao Q. The demand for preventive care services 
+of residents in China and its influencing factors. Chinese General 
+Practice 2015;18:428–32.
+BMJ Open Quality: first published as 10.1136/bmjoq-2023-002676 on 22 January 2025. Downloaded from https://bmjopenquality.bmj.com on 7 April 2025 by guest.
+Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies.

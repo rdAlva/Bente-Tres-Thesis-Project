@@ -8,32 +8,10 @@
     .drop-zone {
         border-color: rgba(107, 15, 26, 0.55) !important;
     }
+
     .drop-zone:focus-within {
         outline: 2px solid var(--hau-gold);
         outline-offset: 2px;
-    }
-
-    .collapse-content {
-        max-height: 0;
-        overflow: hidden;
-        opacity: 0;
-        transition: max-height 0.25s ease, opacity 0.25s ease;
-    }
-
-    .collapse-content.expanded {
-        max-height: 9999px;
-        opacity: 1;
-    }
-
-    #repositoryToggle {
-        color: #fff;
-        font-weight: 600;
-    }
-
-    #repositoryToggle:hover,
-    #repositoryToggle:focus {
-        color: var(--hau-gold);
-        text-decoration: none;
     }
 
     .repository-table {
@@ -52,10 +30,7 @@
 {% block content %}
 
 <div class="text-center">
-    <img src="{{ url_for('static', filename='images/logo.png') }}"
-         alt="HAUdemicCheck logo"
-         class="mb-4"
-         width="120">
+    <img src="{{ url_for('static', filename='images/logo.png') }}" alt="HAUdemicCheck logo" class="mb-4" width="120">
     <h1 class="display-5 fw-bold">Repository Management</h1>
     <!-- Fix for multi‑colored subtitle: force single muted color -->
     <p class="lead text-muted">
@@ -85,23 +60,24 @@
                     <p class="mb-0 text-muted small">Only .pdf files are accepted</p>
 
                     {{ form.files(
-                        class="drop-zone-input" ~ (" is-invalid" if form.files.errors else ""),
-                        multiple=True,
-                        accept=".pdf",
-                        id="repoFiles",
-                        aria_describedby="repoFilesHelp",
-                        aria_invalid="true" if form.files.errors else "false"
+                    class="drop-zone-input" ~ (" is-invalid" if form.files.errors else ""),
+                    multiple=True,
+                    accept=".pdf",
+                    id="repoFiles",
+                    aria_describedby="repoFilesHelp",
+                    aria_invalid="true" if form.files.errors else "false"
                     ) }}
                 </div>
 
                 {% if form.files.errors %}
-                    <div class="invalid-feedback d-block">
-                        {% for error in form.files.errors %}{{ error }}{% endfor %}
-                    </div>
+                <div class="invalid-feedback d-block">
+                    {% for error in form.files.errors %}{{ error }}{% endfor %}
+                </div>
                 {% endif %}
 
                 <div id="repoFilesHelp" class="form-text text-muted mt-2">
-                    Hold <strong class="text-muted">Ctrl</strong> (or <strong class="text-muted">Cmd</strong>) to select multiple files.
+                    Hold <strong class="text-muted">Ctrl</strong> (or <strong class="text-muted">Cmd</strong>) to select
+                    multiple files.
                 </div>
             </div>
 
@@ -117,8 +93,8 @@
 
                 <!-- Loading state -->
                 <div id="uploadStatus"
-                     class="text-center text-muted d-flex align-items-center justify-content-center gap-2 d-none"
-                     role="status" aria-live="polite" hidden>
+                    class="text-center text-muted d-flex align-items-center justify-content-center gap-2 d-none"
+                    role="status" aria-live="polite" hidden>
                     <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
                     <span>Adding to repository...</span>
                 </div>
@@ -144,168 +120,326 @@
 </div>
 {% endif %}
 
-<!-- ===== REPOSITORY DOCUMENT LIST ===== -->
+<!-- ===== MY UPLOADED DOCUMENTS ===== -->
 <div class="card shadow mt-4">
+
     <div class="card-header d-flex justify-content-between align-items-center">
-        <button type="button" id="repositoryToggle"
-                class="btn btn-link text-decoration-none text-start p-0 d-flex align-items-center gap-2"
-                aria-expanded="false"
-                aria-controls="repositoryList">
-            <span id="repositoryToggleLabel">Show Repository Documents</span>
-            <i id="repositoryToggleIcon" class="bi bi-chevron-down"></i>
-        </button>
-        <span class="badge badge-gold">{{ repository_files|default([])|length }} documents</span>
-    </div>
-    <div id="repositoryList" class="collapse-content">
-        <div class="card-body p-0">
-            {% set repository_files = repository_files|default([]) %}
-            {% if repository_files %}
-                <div class="table-responsive repository-list-table">
-                    <table class="table table-hover align-middle mb-0 repository-table">
-                        <caption class="visually-hidden">List of documents in the Golden Standard Repository</caption>
-                        <thead>
-                            <tr>
-                                <th scope="col">Document</th>
-                                <th scope="col">Added</th>
-                                <th scope="col"><span class="visually-hidden">Actions</span></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {% for file in repository_files %}
-                            <tr>
-                                <td class="repository-file">
-                                    <i class="bi bi-file-earmark-pdf text-muted me-1"></i>
-                                    {{ file.filename }}
-                                </td>
-                                <td class="text-muted small">{{ file.date_added|default("Unknown") }}</td>
-                                <td class="text-end">
-                                    <button class="btn btn-sm btn-outline-danger" title="Remove from repository">
-                                        <i class="bi bi-trash"></i> Remove
-                                    </button>
-                                </td>
-                            </tr>
-                            {% endfor %}
-                        </tbody>
-                    </table>
-                </div>
-            {% else %}
-                <div class="p-5 text-center text-muted">
-                    <i class="bi bi-folder2-open fs-2 d-block mb-2"></i>
-                    No documents in the repository yet. Upload verified PDFs above to get started.
-                </div>
-            {% endif %}
+
+        <div>
+            <h2 class="h5 mb-0">
+                My Uploaded Documents
+            </h2>
         </div>
+
+        <span class="badge badge-gold">
+            {{ user_documents|default([])|length }} documents
+        </span>
+
     </div>
+
+    <div class="card-body p-0">
+
+        {% set user_documents = user_documents|default([]) %}
+
+        {% if user_documents %}
+
+        <div class="table-responsive repository-list-table">
+
+            <table class="table table-hover align-middle mb-0 repository-table">
+
+                <caption class="visually-hidden">
+                    Documents uploaded by the current user
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">
+                            Document
+                        </th>
+
+                        <th scope="col">
+                            Source
+                        </th>
+
+                        <th scope="col">
+                            Status
+                        </th>
+
+                        <th scope="col">
+                            Uploaded
+                        </th>
+
+                        <th scope="col">
+                            <span class="visually-hidden">
+                                Actions
+                            </span>
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    {% for document in user_documents %}
+
+                    <tr>
+
+                        <!-- Document -->
+                        <td class="repository-file">
+
+                            <i class="bi bi-file-earmark-pdf text-muted me-1"></i>
+
+                            {{ document.filename }}
+
+                        </td>
+
+                        <!-- Source -->
+                        <td>
+
+                            {% if document.source == "plagiarism_check" %}
+
+                            Plagiarism Check
+
+                            {% elif document.source == "repository" %}
+
+                            Repository Upload
+
+                            {% else %}
+
+                            {{ document.source }}
+
+                            {% endif %}
+
+                        </td>
+
+                        <!-- Status -->
+                        <td>
+
+                            {% if document.status == "flagged" %}
+
+                            <span class="badge bg-danger">
+                                Flagged
+                            </span>
+
+                            {% elif document.status == "original" %}
+
+                            <span class="badge bg-success">
+                                Original
+                            </span>
+
+                            {% else %}
+
+                            <span class="badge bg-secondary">
+                                {{ document.status }}
+                            </span>
+
+                            {% endif %}
+
+                        </td>
+
+                        <!-- Uploaded -->
+                        <td class="text-muted small">
+                            {% if document.uploaded_at %}
+                            {{ document.uploaded_at[:10] }}
+                            {% else %}
+                            —
+                            {% endif %}
+                        </td>
+
+                        <!-- Action -->
+                        <td class="text-end">
+                            <button class="btn btn-sm btn-outline-danger delete-document-btn" title="Delete document"
+                                type="button" data-filename="{{ document.filename }}">
+                                <i class="bi bi-trash"></i>
+                                Delete
+                            </button>
+
+                        </td>
+
+                    </tr>
+
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+        {% else %}
+
+        <div class="p-5 text-center text-muted">
+
+            <i class="bi bi-folder2-open fs-2 d-block mb-2"></i>
+
+            <p class="mb-0">
+                You have not uploaded any documents yet.
+            </p>
+
+        </div>
+
+        {% endif %}
+
+    </div>
+
 </div>
 
 {% endblock %}
 
 {% block scripts %}
 <script>
-(function () {
-    const fileInput = document.getElementById("repoFiles");
-    const dropZone = document.getElementById("dropZone");
-    const fileList = document.getElementById("selectedFiles");
-    const fileListStatus = document.getElementById("selectedFilesStatus");
-    const fileListContainer = document.getElementById("selectedFilesContainer");
-    const uploadButton = document.getElementById("uploadButton");
-    const uploadStatus = document.getElementById("uploadStatus");
-    const repositoryToggle = document.getElementById("repositoryToggle");
-    const repositoryList = document.getElementById("repositoryList");
-    const repositoryToggleLabel = document.getElementById("repositoryToggleLabel");
-    const repositoryToggleIcon = document.getElementById("repositoryToggleIcon");
-    const form = document.querySelector("form");
+    (function () {
+        const fileInput = document.getElementById("repoFiles");
+        const dropZone = document.getElementById("dropZone");
+        const fileList = document.getElementById("selectedFiles");
+        const fileListStatus = document.getElementById("selectedFilesStatus");
+        const fileListContainer = document.getElementById("selectedFilesContainer");
+        const uploadButton = document.getElementById("uploadButton");
+        const uploadStatus = document.getElementById("uploadStatus");
+        const form = document.querySelector("form");
 
-    function formatSize(bytes) {
-        if (bytes < 1024) return bytes + " B";
-        if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + " KB";
-        return (bytes / (1024 * 1024)).toFixed(1) + " MB";
-    }
-
-    function renderFileList(files) {
-        fileList.innerHTML = "";
-        if (!files || files.length === 0) {
-            if (fileListContainer) fileListContainer.style.display = "none";
-            if (fileListStatus) fileListStatus.textContent = "No files selected.";
-            return;
+        function formatSize(bytes) {
+            if (bytes < 1024) return bytes + " B";
+            if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + " KB";
+            return (bytes / (1024 * 1024)).toFixed(1) + " MB";
         }
-        if (fileListContainer) fileListContainer.style.display = "block";
-        for (const file of files) {
-            const item = document.createElement("li");
-            item.className = "list-group-item d-flex justify-content-between align-items-center";
-            const nameSpan = document.createElement("span");
-            nameSpan.textContent = file.name;
-            const sizeBadge = document.createElement("span");
-            sizeBadge.className = "badge badge-gold rounded-pill";
-            sizeBadge.textContent = formatSize(file.size);
-            item.appendChild(nameSpan);
-            item.appendChild(sizeBadge);
-            fileList.appendChild(item);
+
+        function renderFileList(files) {
+            fileList.innerHTML = "";
+            if (!files || files.length === 0) {
+                if (fileListContainer) fileListContainer.style.display = "none";
+                if (fileListStatus) fileListStatus.textContent = "No files selected.";
+                return;
+            }
+            if (fileListContainer) fileListContainer.style.display = "block";
+            for (const file of files) {
+                const item = document.createElement("li");
+                item.className = "list-group-item d-flex justify-content-between align-items-center";
+                const nameSpan = document.createElement("span");
+                nameSpan.textContent = file.name;
+                const sizeBadge = document.createElement("span");
+                sizeBadge.className = "badge badge-gold rounded-pill";
+                sizeBadge.textContent = formatSize(file.size);
+                item.appendChild(nameSpan);
+                item.appendChild(sizeBadge);
+                fileList.appendChild(item);
+            }
+            if (fileListStatus) {
+                fileListStatus.textContent = files.length + (files.length === 1 ? " file selected." : " files selected.");
+            }
         }
-        if (fileListStatus) {
-            fileListStatus.textContent = files.length + (files.length === 1 ? " file selected." : " files selected.");
-        }
-    }
 
-    // Initial state
-    if (fileListContainer) fileListContainer.style.display = "none";
-    if (uploadStatus) {
-        uploadStatus.classList.add('d-none');
-        uploadStatus.hidden = true;
-    }
-    if (repositoryList) {
-        repositoryList.classList.remove('expanded');
-        repositoryList.style.display = 'block';
-    }
-
-    fileInput.addEventListener("change", () => renderFileList(fileInput.files));
-
-    ["dragenter", "dragover"].forEach(ev => {
-        dropZone.addEventListener(ev, (e) => { e.preventDefault(); dropZone.classList.add("drop-zone-active"); });
-    });
-    ["dragleave", "drop"].forEach(ev => {
-        dropZone.addEventListener(ev, (e) => { e.preventDefault(); dropZone.classList.remove("drop-zone-active"); });
-    });
-
-    dropZone.addEventListener("drop", (e) => {
-        const droppedFiles = e.dataTransfer.files;
-        if (droppedFiles.length > 0) {
-            const dt = new DataTransfer();
-            for (const file of droppedFiles) dt.items.add(file);
-            fileInput.files = dt.files;
-            renderFileList(fileInput.files);
-        }
-    });
-
-    form.addEventListener("submit", () => {
-        uploadButton.disabled = true;
-        uploadButton.value = "Adding...";
-        if (uploadStatus) {
-            uploadStatus.classList.remove('d-none');
-            uploadStatus.hidden = false;
-        }
-    });
-
-    // Reset on back navigation
-    window.addEventListener("pageshow", () => {
-        uploadButton.disabled = false;
-        uploadButton.value = "Add to Repository";
+        // Initial state
+        if (fileListContainer) fileListContainer.style.display = "none";
         if (uploadStatus) {
             uploadStatus.classList.add('d-none');
             uploadStatus.hidden = true;
         }
-        if (fileInput && fileInput.files.length === 0) renderFileList([]);
-    });
 
-    if (repositoryToggle && repositoryList) {
-        repositoryToggle.addEventListener('click', () => {
-            const expanded = repositoryToggle.getAttribute('aria-expanded') === 'true';
-            repositoryToggle.setAttribute('aria-expanded', String(!expanded));
-            repositoryToggleLabel.textContent = expanded ? 'Show Repository Documents' : 'Hide Repository Documents';
-            repositoryToggleIcon.className = expanded ? 'bi bi-chevron-down' : 'bi bi-chevron-up';
-            repositoryList.classList.toggle('expanded');
+        fileInput.addEventListener("change", () => renderFileList(fileInput.files));
+
+        ["dragenter", "dragover"].forEach(ev => {
+            dropZone.addEventListener(ev, (e) => { e.preventDefault(); dropZone.classList.add("drop-zone-active"); });
         });
-    }
-})();
+        ["dragleave", "drop"].forEach(ev => {
+            dropZone.addEventListener(ev, (e) => { e.preventDefault(); dropZone.classList.remove("drop-zone-active"); });
+        });
+
+        dropZone.addEventListener("drop", (e) => {
+            const droppedFiles = e.dataTransfer.files;
+            if (droppedFiles.length > 0) {
+                const dt = new DataTransfer();
+                for (const file of droppedFiles) dt.items.add(file);
+                fileInput.files = dt.files;
+                renderFileList(fileInput.files);
+            }
+        });
+
+        form.addEventListener("submit", () => {
+            uploadButton.disabled = true;
+            uploadButton.value = "Adding...";
+            if (uploadStatus) {
+                uploadStatus.classList.remove('d-none');
+                uploadStatus.hidden = false;
+            }
+        });
+
+        // Reset on back navigation
+        window.addEventListener("pageshow", () => {
+            uploadButton.disabled = false;
+            uploadButton.value = "Add to Repository";
+            if (uploadStatus) {
+                uploadStatus.classList.add('d-none');
+                uploadStatus.hidden = true;
+            }
+            if (fileInput && fileInput.files.length === 0) renderFileList([]);
+        });
+
+        document.querySelectorAll(".delete-document-btn").forEach(button => {
+
+            button.addEventListener("click", async () => {
+
+                const filename = button.dataset.filename;
+
+                if (!filename) {
+                    return;
+                }
+
+                const confirmed = window.confirm(
+                    `Are you sure you want to delete "${filename}"?`
+                );
+
+                if (!confirmed) {
+                    return;
+                }
+
+                button.disabled = true;
+
+                const originalHTML = button.innerHTML;
+
+                button.innerHTML =
+                    '<span class="spinner-border spinner-border-sm me-1" aria-hidden="true"></span>Deleting...';
+
+                try {
+
+                    const response = await fetch(
+                        `/api/my-documents/${encodeURIComponent(filename)}`,
+                        {
+                            method: "DELETE",
+                        }
+                    );
+
+                    const data = await response.json();
+
+                    if (!response.ok || !data.success) {
+
+                        throw new Error(
+                            data.error || "Unable to delete document."
+                        );
+                    }
+
+                    // Reload so the deleted row disappears
+                    // from My Uploaded Documents.
+                    window.location.reload();
+
+                } catch (error) {
+
+                    console.error(
+                        "Delete document error:",
+                        error
+                    );
+
+                    alert(
+                        error.message ||
+                        "Unable to delete the document."
+                    );
+
+                    button.disabled = false;
+                    button.innerHTML = originalHTML;
+                }
+
+            });
+
+        });
+    })();
 </script>
 {% endblock %}

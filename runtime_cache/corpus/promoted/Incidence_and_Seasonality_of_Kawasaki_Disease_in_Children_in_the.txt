@@ -1,0 +1,978 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+4-22-2024 
+Incidence and Seasonality of Kawasaki Disease in Children in the 
+Incidence and Seasonality of Kawasaki Disease in Children in the 
+Philippines, and Its Association with Ambient Air Temperature 
+Philippines, and Its Association with Ambient Air Temperature 
+Aden Kay Celis-Seposo 
+Nagasaki University 
+Lina Madaniyazi 
+Nagasaki University 
+Xerxes Seposo 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, xseposo@ateneo.edu 
+Masahiro Hashizume 
+The University of Tokyo 
+Lay Myint Yoshida 
+Nagasaki University 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Cardiovascular Diseases Commons, Environmental Public Health Commons, and the 
+Pediatrics Commons 
+Custom Citation 
+Custom Citation 
+Celis-Seposo AK, Madaniyazi L, Seposo X, Hashizume M, Yoshida LM and Toizumi M (2024) Incidence 
+and seasonality of Kawasaki disease in children in the Philippines, and its association with ambient air 
+temperature. Front. Pediatr. 12:1358638. doi: 10.3389/fped.2024.1358638 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+Authors 
+Authors 
+Aden Kay Celis-Seposo, Lina Madaniyazi, Xerxes Seposo, Masahiro Hashizume, Lay Myint Yoshida, and 
+Michiko Toizumi 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/asmph-pubs/155 
+
+EDITED BY
+Rakesh Kumar Pilania,
+Post Graduate Institute of Medical Education
+and Research (PGIMER), India
+REVIEWED BY
+Prabal Barman,
+Post Graduate Institute of Medical Education
+and Research (PGIMER), India
+Takayuki Hoshina,
+University of Occupational and Environmental
+Health Japan, Japan
+*CORRESPONDENCE
+Aden Kay Celis-Seposo
+abcelisseposo@alum.up.edu.ph
+Michiko Toizumi
+toizumi@nagasaki-u.ac.jp
+RECEIVED 20 December 2023
+ACCEPTED 08 April 2024
+PUBLISHED 22 April 2024
+CITATION
+Celis-Seposo AK, Madaniyazi L, Seposo X,
+Hashizume M, Yoshida LM and Toizumi M
+(2024) Incidence and seasonality of Kawasaki
+disease in children in the Philippines, and its
+association with ambient air temperature.
+Front. Pediatr. 12:1358638.
+doi: 10.3389/fped.2024.1358638
+COPYRIGHT
+© 2024 Celis-Seposo, Madaniyazi, Seposo,
+Hashizume, Yoshida and Toizumi. This is an
+open-access article distributed under the
+terms of the Creative Commons Attribution
+License (CC BY). The use, distribution or
+reproduction in other forums is permitted,
+provided the original author(s) and the
+copyright owner(s) are credited and that the
+original publication in this journal is cited, in
+accordance with accepted academic practice.
+No use, distribution or reproduction is
+permitted which does not comply with these
+terms.
+Incidence and seasonality of
+Kawasaki disease in children in
+the Philippines, and its
+association with ambient air
+temperature
+Aden Kay Celis-Seposo
+1*, Lina Madaniyazi
+1,2, Xerxes Seposo
+3,4,
+Masahiro Hashizume
+5, Lay Myint Yoshida
+1,6 and
+Michiko Toizumi
+1,6*
+1School of Tropical Medicine and Global Health, Nagasaki University, Nagasaki, Japan, 2Japan
+Environment and Children’s Study Programme Ofﬁce, National Institute for Environmental Studies,
+Tsukuba, Japan, 3Department of Hygiene, Graduate School of Medicine, Hokkaido University,
+Hokkaido, Japan, 4Ateneo Center for Research and Innovation, Ateneo School of Medicine and Public
+Health, Ateneo de Manila University, Pasig, Philippines, 5Department of Global Health Policy, Graduate
+School of Medicine, The University of Tokyo, Tokyo, Japan, 6Department of Pediatric Infectious
+Diseases, Institute of Tropical Medicine, Nagasaki University, Nagasaki, Japan
+Background: Despite an unknown cause, Kawasaki disease (KD) is currently the
+primary leading cause of acquired heart disease in developed countries in
+children and has been increasing in recent years. Research efforts have explored
+environmental factors related to KD, but they are still unclear especially in the
+tropics. We aimed to describe the incidence of KD in children, assess its
+seasonality, and determine its association with ambient air temperature in the
+National Capital Region (NCR), Philippines from January 2009 to December 2019.
+Methods: Monthly number of KD cases from the Philippine Pediatric Society
+(PPS) disease registry was collected to determine the incidence of KD. A
+generalized linear model (GLM) with quasi-Poisson regression was utilized to
+assess the seasonality of KD and determine its association with ambient air
+temperature after adjusting for the relevant confounders.
+Results: The majority of KD cases (68.52%) occurred in children less than ﬁve
+years old, with incidence rates ranging from 14.98 to 23.20 cases per 100,000
+population, and a male-to-female ratio of 1.43:1. Seasonal variation followed a
+unimodal shape with a rate ratio of 1.13 from the average, peaking in March
+and reaching the lowest in September. After adjusting for seasonality and
+long-term trend, every one-degree Celsius increase in the monthly mean
+temperature signiﬁcantly increased the risk of developing KD by 8.28% (95%
+CI: 2.12%, 14.80%). Season-speciﬁc analysis revealed a positive association
+during the dry season (RR: 1.06, 95% CI: 1.01, 1.11), whereas no evidence of
+association was found during the wet season (RR: 1.10, 95% CI: 0.95, 1.27).
+Conclusion: We have presented the incidence of KD in the Philippines which is
+relatively varied from its neighboring countries. The unimodal seasonality of KD
+and its linear association with temperature, independent of season and secular
+trend, especially during dry season, may provide insights into its etiology and
+may support enhanced KD detection efforts in the country.
+KEYWORDS
+Kawasaki disease, seasonality, temperature, environmental epidemiology, children’s
+environmental health, Philippines
+TYPE Original Research
+PUBLISHED 22 April 2024
+|
+DOI 10.3389/fped.2024.1358638
+Frontiers in Pediatrics
+01
+frontiersin.org
+
+Introduction
+Kawasaki disease (KD), an acute and self-limited febrile illness
+of childhood, stands as the foremost cause of acquired heart disease
+in children in developed countries (1–3). Despite being recognized
+over 50 years ago, the precise causative agent of KD remains elusive
+(4). Genetic susceptibility, infection, and immune damage, are
+considered important factors in the pathogenesis of the disease
+(5). Notably, children of Filipino descent are more likely to
+experience aneurysms in KD and are reported to have the
+highest recurrence rates among non-Asians and non-Filipino
+Asian communities (6, 7). However, further studies are needed to
+elucidate the genetic and immunologic factors inﬂuencing these
+ﬁndings in this population (6). Recent research efforts have
+intensiﬁed, focusing on infectious triggers and environmental
+stressors that may potentially activate an immune response in
+genetically susceptible children (8, 9).
+Kawasaki disease is known to exhibit distinct seasonal patterns:
+higher incidence during the winter season in certain locations,
+while in others, it peaks during the summer season (10, 11).
+Although the incidence rates of KD in tropical countries are
+generally lower compared to Japan, South Korea, and Taiwan,
+there has been an upward trend in recent years, at least before
+the Coronavirus Disease 2019 (COVID-19) pandemic in 2020
+(10, 12–14). Ambient air temperature, a signiﬁcant determinant
+of various health outcomes, has been associated with adverse
+health effects and mortality (15, 16). Although a few studies have
+explored the relationship between temperature and KD, the
+ﬁndings have been inconsistent (17–19). One of the limitations
+of previous research on KD seasonality and its association with
+temperature is the predominant focus on developed countries
+like Japan and South Korea, with limited evidence from tropical
+regions such as the Philippines (10, 11). Moreover, due to
+distinct climate and population characteristics, ﬁndings from
+other regions cannot be directly extrapolated to tropical countries
+(11).
+Therefore,
+in
+this
+study,
+we
+aim
+to
+describe
+the
+epidemiology of KD, to assess its seasonality, and to estimate the
+association between temperature and KD in the Philippines.
+Materials and methods
+This was an ecological study that utilized readily available
+secondary data obtained from the Philippine Pediatric Society
+(PPS)
+disease
+registry
+website
+and
+National
+Oceanic
+and
+Atmospheric Administration (NOAA) website for KD cases in the
+National Capital Region, Philippines, and ambient air temperature
+data, respectively, from January 2009 to December 2019.
+Monthly number of KD cases by age group and sex among
+children 0–18 years old was collected from the PPS disease
+registry using the International Classiﬁcation of Diseases-version
+10
+(ICD-10)
+code,
+M30.3
+[Mucocutaneous
+lymph
+node
+syndrome (Kawasaki)] (20). KD was set as primary discharge
+diagnosis under the NCR chapter from January 1, 2009 to
+December 31, 2019. The PPS disease registry has been an
+established disease registry by the PPS since May 2006, and is
+composed
+of
+110
+Philippine
+Pediatric
+Society-Hospital
+Accreditation Board (PPS-HAB) accredited pediatric residency
+training hospitals, as of 2020. It has been the repository of
+hospital ward discharges from these pediatric training hospitals
+across the country and has served as the main reference of these
+hospitals for the reported childhood diseases (21, 22). This study
+also utilized population data during the period of 2009 to 2019
+from the Philippine Statistics Authority (PSA) (23).
+Ambient air temperature (hereafter temperature) data was
+obtained from the Global Summary of the Day (GSOD), Version
+1 dataset of NOAA (24). The daily temperature dataset used
+came from the three background monitoring stations in NCR,
+i.e., Manila Port, Ninoy Aquino International Airport (NAIA),
+and Science Garden (Supplementary Figure S1). Daily mean
+temperature data were averaged across the three stations and
+were converted from degrees Fahrenheit to degrees Celsius. Then
+it was aggregated to a monthly scale to match the temporal scale
+of the outcome of interest. Time series plot of monthly number
+of KD and monthly mean ambient temperature was generated to
+show possible association graphically (Supplementary Figure S2).
+Statistical analyses
+To determine the incidence of KD in children, we utilized the
+annual number of KD cases and the population of children for
+different age groups, i.e., 0–4, 5–9, 10–14 and 15–18 years old, as
+the numerator and denominator, respectively. Since the available
+annual population data from PSA were 2010, 2015, 2016, 2017,
+2018 and 2019 only, we calculated the annual population in 2009
+and 2011–2014 using linear interpolation (25, 26). Next, we used
+a generalized linear model (GLM) with Poisson regression
+accounting for overdispersion (via quasi-likelihood estimation) to
+assess the seasonality of KD and estimate its association with
+temperature (27, 28).
+Assessing seasonality of Kawasaki disease
+We used a pair of sine and cosine functions to assess
+seasonality of KD in annual cycle based on monthly data (27)
+using Equation 1:
+Yt ≏Quasi-poisson(E(Yt))
+log(E(Yt))¼aþccos(vt)þssin(vt)þbYearþ1,t¼1,...,12, (1)
+where Yt was the monthly KD cases on time t following a quasi-
+Poisson distribution; a was the intercept; vt was the radians
+transformed from 2pft, where ft ¼(montht1)=12, since we were
+estimating the annual cycle using monthly data; c and s were the
+coefﬁcients derived from ccos(vt)þssin(vt), respectively; Year
+was a linear function controlling for the long-term trend; 1 was
+the error term. We summarized the seasonality of KD from its
+shape, timings (i.e., peak and trough), and size: (a) we used sine
+and cosine coefﬁcients to derive predicted seasonal shape, (b) the
+month with maximum and minimum estimates of KD cases
+were identiﬁed as peak and trough, respectively, and (c) the
+difference in the maximum estimates of KD cases and the
+Celis-Seposo et al.
+10.3389/fped.2024.1358638
+Frontiers in Pediatrics
+02
+frontiersin.org
+
+minimum estimates of KD cases was calculated to measure the
+amplitude (both in relative and absolute scale) (29).
+Assessing association between temperature
+and KD
+Then, we included a linear function for temperature in the model
+above to estimate the association between temperature and KD:
+Yt ≏Quasi-poisson(E(Yt))
+log(E(Yt))¼aþb1Tempþccos(vt)þssin(vt)þbYearþ1 (2)
+where Temp was a linear function for main exposure variable:
+temperature. We further restricted the analysis to dry (June to
+November) and wet seasons (December to May) and examined the
+association in two seasons separately by using the same model
+in Equation 2.
+To examine the potential nonlinearity of the temperature-KD
+association, we utilized natural cubic splines for the temperature
+with varying degrees of freedom (df ¼ 2, 3, 4, 5) and compared
+the linear and nonlinear parameters for temperature by using
+Quasi Akaike’s Information Criterion (QAIC).
+All statistical analyses were performed with R (version 4.1.1)
+using season and dplyr packages (R core team, 2021). The
+2-sided statistical tests were considered signiﬁcant with p-value
+less than 0.05.
+Ethical approval was obtained from the Ethics Committee of
+Nagasaki University School of Tropical Medicine and Global
+Health (IRB Approval No. 202).
+Results
+A total of 3,625 KD cases from NCR were recorded in the
+period of January 2009 to December 2019. Among these, 2,484
+(68.53%) cases belonged to the age group of zero to four
+years old, with 2,134 (58.87%) cases being males. The male:
+female ratio was 1.43:1. The monthly mean temperature in
+NCR during the study period was 28.08°C, with the wet season
+having a higher mean temperature than the dry season (Table 1).
+The annual incidence of KD during the study period was 14.98–
+23.20 cases per 100,000 population of children less than 5 years
+old (Figure 1). The incidence of KD among other age groups was
+comparatively lower (Supplementary Table S1).
+Figure 2 showed the estimated annual seasonal pattern of KD
+cases. We found that the seasonal pattern of KD displayed a
+unimodal shape with a marked increase of cases at the onset of
+the dry season (from December to May). The highest number of
+cases was reported in March (i.e., peak), with cases declining
+during the wet season (from June to November), reaching its
+lowest in the month of September (i.e., trough). The average
+number of cases was 27.35 cases per month. The amplitude was
+at 1.13 in relative scale which meant that rate ratio of KD cases
+was 1.13 times higher than the average in March; and 1.13 times
+lower than the average in September.
+Table 2 illustrated the linear association between temperature
+and KD. The result showed a statistically signiﬁcant positive
+association between the two, with an 8.28% (95% CI: 2.12%,
+14.80%) increase in monthly KD cases for every one-degree
+Celsius rise in the monthly mean temperature, after adjusting for
+seasonality and long-term trend. Similarly, a positive association
+was observed during the dry season, with a 6.0% (95% CI: 1.0%–
+11.0%) increase in monthly KD cases for every one-degree
+Celsius increase in monthly mean temperature. Whereas during
+the wet season, there was insufﬁcient evidence to show an
+association (RR = 1.10, 95% CI: 0.95–1.27). Finally, we explored
+the potential nonlinearity of temperature-KD association and
+found that the linear model provided the best ﬁt (Supplementary
+Table S2).
+TABLE 1 Summary statistics of monthly number of Kawasaki disease cases in children and ambient air temperature in the National Capital Region,
+Philippines, from 2009 to 2019.
+N (%)
+Monthly number of KD cases
+Mean
+Min
+25th
+50th
+75th
+Max
+Total
+3,625 (100.00)
+27.46
+10.00
+20.00
+27.50
+33.25
+51.00
+Sex
+Male
+2,134 (58.87)
+16.17
+5.00
+11.75
+16.00
+20.00
+34.00
+Female
+1,491 (41.13)
+11.30
+0.00
+8.00
+11.00
+14.25
+21.00
+Age group (in years)
+0–4
+2,484 (68.52)
+18.82
+7.00
+14.00
+18.00
+23.00
+37.00
+5–9
+949 (26.18)
+7.19
+1.00
+4.00
+7.00
+9.00
+20.00
+10–14
+172 (4.74)
+1.30
+0.00
+0.00
+1.00
+2.00
+7.00
+15–18
+20 (0.55)
+0.15
+0.00
+0.00
+0.00
+0.00
+2.00
+Temperature (°C)
+Mean
+Min
+25th
+50th
+75th
+Max
+All-year round
+–
+28.08
+25.15
+27.45
+27.96
+28.63
+31.12
+Season-speciﬁc
+Dry seasona
+–
+28.02
+25.15
+26.84
+27.68
+29.37
+31.12
+Wet seasona
+–
+28.14
+27.02
+27.69
+28.04
+28.39
+30.01
+aDry season, December to May; Wet season, June to November.
+Celis-Seposo et al.
+10.3389/fped.2024.1358638
+Frontiers in Pediatrics
+03
+frontiersin.org
+
+FIGURE 1
+Annual number of Kawasaki disease cases in children in the National Capital Region, Philippines, and its incidence rates per age group from 2009
+through 2019.
+FIGURE 2
+Estimated annual seasonal pattern of Kawasaki disease cases from the National Capital Region, Philippines.
+Celis-Seposo et al.
+10.3389/fped.2024.1358638
+Frontiers in Pediatrics
+04
+frontiersin.org
+
+Discussion
+Our study described the annual KD incidence in the Philippines
+which showed variability when compared to other countries
+worldwide. Additionally, we found that KD cases exhibit unimodal
+seasonality with its peak occurring in March and the trough in
+September. The effect of year-round ambient air temperature was
+linearly associated with monthly number of KD cases, with
+noticeable effect particularly during the dry season of December to
+May. However, no such association was observed during the wet
+season. To the best of our knowledge, this is the ﬁrst population-
+based study in the Philippines to investigate the seasonality of KD
+and its association with temperature.
+Similar to studies previously conducted (9, 30, 31), majority of KD
+in children in the Philippines belong to less than ﬁve years old age
+group. One major factor that the scientiﬁc community sees as
+contributing to the higher incidence of KD in younger age groups is
+the predominance of innate immunity in these age groups and
+subsequent inﬂammatory responses linked to the disease (32, 33).
+Activation of the innate immune system, particularly the endothelial
+Nlrp3 inﬂammasome induced by certain triggers, may lead to the
+development of coronary arteritis, which is a key feature in KD
+vasculitis (32, 34). Some studies also underscore the increased
+exposure of these children to several infectious agents, supporting a
+possible infectious etiology of the disease (35). A review of the
+hygiene hypothesis by Lee (36) has shown that the age group of
+6 months to 2 years old has low levels of immunoglobulin G (IgG)
+due
+to waning
+maternal
+antibody
+levels
+and
+low
+immune
+development. This, in turn, increases their risk of developing KD
+due to poor antibody-mediated B cell immunity. On the other hand,
+the cause of gender predominance in KD has yet to be elucidated.
+This study provides evidence of the incidence of KD in children
+in the Philippines, which shows substantial variation compared to its
+neighboring countries. For instance, Thailand reported a lower
+incidence rate with 2.14 to 3.43 cases per 100,000 children aged
+0 to 5 years old from 1998 to 2002 (37), while Malaysia and
+Singapore showed a relatively similar incidence with 14.8 cases in
+2006–2019 and 51.4 cases per 100,000 population of less than 5
+years old, respectively, during 2006–2019 and 2021 (38, 39). This
+difference in the rates of occurrence may be attributed to various
+methodologies employed, as some countries have estimated the
+occurrence rates based on available isolated hospital records or
+existing national surveillance systems (10). While Japan, South
+Korea, and Taiwan have used robust nationwide data which have
+contributed signiﬁcantly to the epidemiological investigations of
+KD, developing countries, particularly those in Southeast Asia,
+have limited accurate nationwide data reporting due to the
+absence of centralized data linkages (10, 40). It is suggested that
+active nationwide surveys and national health insurance data
+management be utilized to gain a comprehensive understanding of
+the origin of KD and provide useful insights for future research (31).
+Seasonal clustering of KD has been widely explored for its
+potential to elucidate the etiology of the disease; however, the results
+are inconsistent. A comprehensive review by Burns et al. (11) on KD
+seasonality across the globe has highlighted no distinguishable
+seasonal variation in the tropics
+and Southern Hemisphere
+extratropics primarily due to scarcity of time-series studies and
+diverse climates across the study locations. Our study showed
+increasing KD cases at the onset of the dry season, peaking in
+March, and reaching its nadir in September. This pattern mirrors
+the incidence observed in several countries. For example, in Taiwan,
+the peak season is from April to June, while in Japan, it is from
+January to March (10, 11, 41). In Mainland China, the peak
+incidence occurs during spring (March to May) and summer (June
+to August) (42). The disease is most prevalent in San Diego in late
+winter and early spring (January to March) (43). The Philippines,
+characterized as a tropical country, experiences two distinct seasons:
+the wet season, which spans from May to November, and the dry
+season, from December to April, which can be further divided into
+the cool, dry season (December to February), and the hot, dry
+season (March to April) (44). During the latter season, the
+temperatures are mild and increase sharply towards the end of April
+or the beginning of May, with relatively low humidity, providing a
+more conducive climate for outdoor activities (44, 45). The peak
+incidence of KD in the aforementioned countries may be attributed
+to the cool temperatures and low relative humidity during these
+months. Compared with those studies conducted in locations with
+similar climates; however, our result is different. For instance, a
+study conducted in Malaysia revealed that the highest number of
+KD cases were reported during the rainy season, from October to
+December (38). In Singapore, KD cases peaked in April, with the
+lowest number between February and March, coinciding with
+frequent rainfall during this season (46). These disparities in
+seasonality indicate that not only climate, but also other factors such
+as large-scale tropospheric wind patterns, environmental exposures,
+and host genetics, can inﬂuence the seasonality of KD (11).
+Speciﬁcally, the seasonal patterns of KD are inﬂuenced by airborne
+triggers carried by wind currents from central Asia (47), exposure to
+infectious agents or allergens in the environment leading to KD
+occurrence
+based
+on
+the
+child’s
+genetic
+background
+and
+susceptibility (9, 10, 48), variations in infectious disease activity in
+each season (49, 50), dynamic population activity exposing the
+vulnerable to the infectious agents in the environment (8), and effect
+of meteorological factors such as large-scale tropospheric wind
+patterns and ambient temperature (11, 47, 51). Nonetheless, these
+theories are yet to be directly conﬁrmed in several studies.
+Seasonal patterns of infectious diseases are also inﬂuenced by
+several factors such as meteorological conditions, host-pathogen
+interactions, and human behavior (52). Studies conducted in the
+Philippines have shown that some infectious diseases display
+discernible seasonality. However, the present study has found no
+TABLE 2 Estimates from the linear association of ambient air temperature
+and Kawasaki disease cases from the National Capital Region, Philippines
+using quasi-poisson regression.
+Temperature
+RR (95% CI)b
+p-value
+All-year round
+1.08 (1.02–1.15)
+0.01
+Season-speciﬁc
+Dry seasona
+1.06 (1.01–1.11)
+0.01
+Wet seasona
+1.10 (0.95–1.27)
+0.22
+Bold values indicate signiﬁcantly associated estimates.
+aDry season, December to May; Wet season, June to November.
+bRR, relative risk; 95% CI, 95% conﬁdence interval.
+Celis-Seposo et al.
+10.3389/fped.2024.1358638
+Frontiers in Pediatrics
+05
+frontiersin.org
+
+clear correlation between the dry season peak of KD and
+seasonality of speciﬁc infectious diseases in the country. Notably,
+leptospirosis, dengue fever, and infectious diarrhea usually occur
+during the rainy season from July to November, a period that
+provides ideal conditions for pathogen transmission (53, 54). In
+another study, community-acquired pneumonia incidence in
+infants reaches its seasonal peak after a period of undernutrition
+also typically during the rainy season (55). Conversely, the
+respiratory syncytial virus presents a robust seasonal peak during
+the cold and dry months of January and February in the country
+(56). Nevertheless, further studies are needed to elucidate a clear
+relationship between these infectious agents and KD. While there
+are a few studies on KD seasonality and its etiology in the
+tropical region, the results of this study could add to the existing
+evidence of seasonal variation from a tropical country.
+Studies related to the association between temperature and KD
+incidence are sparse and demonstrate considerable variation across
+countries worldwide (17, 19, 50). Our ﬁndings have provided
+compelling evidence that suggests that as temperature increases,
+the risk of occurrence of KD also increases. Several mechanisms
+have been postulated to explain this increased risk of developing
+KD in higher temperature (50, 57). These include enhanced
+spread of infectious agents such as fungi and bacteria in high
+ambient temperature, increased exposure to infectious agents due
+to children spending more time outside during summertime,
+efﬁcient release of inﬂammatory mediators upon exposure to high
+temperature causing systemic inﬂammatory response and vascular
+endothelial dysfunction, and increased incubation of infectious
+agents in the environment during hot weather (8, 50, 57, 58). In
+contrast, studies conducted in Japan, San Diego, and Michigan
+have shown that there is an inverse relationship between daily
+average temperature and the number of admissions for KD
+(17, 19, 59, 60). While there are limited studies on temperature
+and seasonality in KD, the contrasting evidence, probably due to
+varied methodologies, underscores the complexity of its etiology.
+Furthermore,
+the
+impact
+of
+short-term
+variations
+in
+other
+meteorologic conditions such as relative humidity, wind patterns,
+and amount of rainfall on KD occurrence remain inconclusive
+(17, 19, 61, 62). Therefore, further research is needed to look into
+the interaction of these meteorological factors, microbial infection,
+and environmental triggers on KD occurrence.
+Our study has several strengths and limitations that warrant
+attention. First, its novelty is highlighted as this is the ﬁrst
+epidemiological study of KD conducted in the Philippines. Second,
+the investigation on the seasonality and temperature association
+with KD in a tropical country is also a signiﬁcant contribution to the
+existing knowledge gap. However, it is important to note several
+limitations which include the use of administrative health data in
+this study that had limited health categories since the country has no
+centralized reporting system for KD. This could have led to an
+under or overestimation of the number of KD cases throughout the
+study period. Also, the current data from the registry only represent
+cases from the NCR and may not represent the whole population in
+the Philippines. Moreover, individual-level exposure to temperature
+could not be measured or estimated as it is an ecological study,
+hence the result of this study should be carefully interpreted. Finally,
+due to limited availability of health data from the registry, the use of
+monthly data may have restricted us from exploring the potential
+delayed effects of temperature on KD.
+Conclusion
+In conclusion, we have presented the annual incidence of KD in
+NCR, Philippines and highlighted its variation with its neighboring
+countries attributable to differences in methodologies employed.
+The occurrence of KD showed a unimodal seasonal variation with a
+linear association to temperature, especially during the dry season
+from
+December
+to
+May.
+These
+ﬁndings
+may
+aid
+ongoing
+investigations regarding the etiology of KD and the environmental
+factors that inﬂuence its occurrence. Additionally, the results of this
+study may improve disease recognition in the Philippines, leading to
+timely management and prevention of long-term complications.
+Data availability statement
+The datasets presented in this study can be found in online
+repositories. The names of the repository/repositories and accession
+number(s) can be found below: https://pps.ivant.com/search.do,
+https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/
+gov.noaa.ncdc%3AC00516/html#.
+Ethics statement
+The studies involving humans were approved by Institutional
+Review Board Nagasaki University School of Tropical Medicine and
+Global Health. The studies were conducted in accordance with the
+local legislation and institutional requirements. Written informed
+consent for participation was not required from the participants or
+the participants’ legal guardians/next of kin in accordance with the
+national legislation and institutional requirements.
+Author contributions
+ACS:
+Conceptualization,
+Data
+curation,
+Formal
+Analysis,
+Investigation, Methodology, Validation, Visualization, Writing –
+original draft, Writing – review & editing. LM: Conceptualization,
+Methodology, Supervision, Validation, Visualization, Writing –
+original draft, Writing – review & editing. XS: Methodology,
+Writing – review & editing. MH: Supervision, Writing – review &
+editing. LY: Conceptualization, Methodology, Supervision, Validation,
+Visualization, Writing – original draft, Writing – review & editing.
+MT:
+Conceptualization,
+Methodology,
+Supervision,
+Validation,
+Visualization, Writing – original draft, Writing – review & editing.
+Funding
+The author(s) declare that no ﬁnancial support was received for
+the research, authorship, and/or publication of this article.
+Celis-Seposo et al.
+10.3389/fped.2024.1358638
+Frontiers in Pediatrics
+06
+frontiersin.org
+
+Acknowledgments
+The authors would like to thank the Philippine Statistics
+Authority for providing the population data. The abstract of this
+study was presented in the 35th Annual Conference of the
+International
+Society
+for
+Environmental
+Epidemiology
+last
+September 18, 2023.
+Conﬂict of interest
+The authors declare that the research was conducted in the
+absence of any commercial or ﬁnancial relationships that could
+be construed as a potential conﬂict of interest.
+Publisher’s note
+All claims expressed in this article are solely those of the
+authors and do not necessarily represent those of their afﬁliated
+organizations, or those of the publisher, the editors and the
+reviewers. Any product that may be evaluated in this article, or
+claim that may be made by its manufacturer, is not guaranteed
+or endorsed by the publisher.
+Supplementary material
+The Supplementary Material for this article can be found
+online at: https://www.frontiersin.org/articles/10.3389/fped.2024.
+1358638/full#supplementary-material
+References
+1. Newburger JW, Takahashi M, Gerber MA, Gewitz MH, Tani LY, Burns JC, et al.
+Diagnosis, treatment, and long-term management of Kawasaki disease: a statement for
+health professionals from the Committee on Rheumatic Fever, Endocarditis and
+Kawasaki Disease, Council on Cardiovascular Disease in the Young, American
+Heart Association. Pediatrics. (2004) 110(17):2747–71. doi: 10.1161/01.CIR.00001
+45143.19711.78
+2. McCrindle BW, Rowley AH, Newburger JW, Burns JC, Bolger AF, Gewitz M,
+et al. Diagnosis, treatment, and long-term management of Kawasaki disease: a
+scientiﬁc statement for health professionals from the American Heart Association.
+Circulation. (2017) 135(17):e927–e999. doi: 10.1161/CIR.0000000000000484
+3. Kliegman R. Nelson Textbook of Pediatrics. Philadelphia, PA: Elsevier (2016).
+4. Kobayashi T, Ayusawa M, Suzuki H, Abe J, Ito S, Kato T, et al. Revision of
+diagnostic guidelines for Kawasaki disease (6th revised edition). Pediatr Int. (2020)
+62(10):1135–8. doi: 10.1111/ped.14326
+5. Wang F, Jiao F, Liu Y-L, Liu J. Progress related in genetic research on Kawasaki
+disease. Int J Trop Dis Health. (2022) 43(2):18–25. doi: 10.9734/ijtdh/2022/v43i230576
+6. Tremoulet AH, Devera G, Best BM, Jimenez-Fernandez S, Sun X, Jain S, et al.
+Increased incidence and severity of Kawasaki disease among Filipino-Americans in
+San Diego county. Pediatr Infect Dis J. (2011) 30(10):909–11. doi: 10.1097/INF.
+0b013e31821e52c6
+7. Skochko SM, Jain S, Sun X, Sivilay N, Kanegaye JT, Pancheri J, et al. Kawasaki
+disease outcomes and response to therapy in a multiethnic community: a 10-year
+experience. J Pediatr. (2018) 203:408–15.e3. doi: 10.1016/j.jpeds.2018.07.090
+8. Oh J, Lee JH, Kim E, Kim S, Kim HS, Ha E. Is short-term exposure to PM2.5
+relevant to childhood Kawasaki disease? Int J Environ Res Public Health. (2021) 18
+(3):924. doi: 10.3390/ijerph18030924
+9. Rife E, Gedalia A. Kawasaki disease: an update. Curr Rheumatol Rep. (2020) 22
+(10):75. doi: 10.1007/s11926-020-00941-4
+10. Elakabawi K, Lin J, Jiao F, Guo N, Yuan Z. Kawasaki disease: global burden and
+genetic background. Cardiol Res. (2020) 11(1):9–14. doi: 10.14740/cr993
+11. Burns JC, Herzog L, Fabri O, Tremoulet AH, Rodo X, Uehara R, et al.
+Seasonality of Kawasaki disease: a global perspective. PLoS One. (2013) 8(9):e74529.
+doi: 10.1371/journal.pone.0074529
+12. Ae R, Makino N, Kuwabara M, Matsubara Y, Kosami K, Sasahara T, et al.
+Incidence of Kawasaki disease before and after the COVID-19 pandemic in Japan:
+results of the 26th nationwide survey, 2019 to 2020. JAMA Pediatr. (2022) 176
+(12):1217–24. doi: 10.1001/jamapediatrics.2022.3756
+13. Shulman S, Geevarghese B, Kim KY, Rowley A. The impact of social distancing
+for COVID-19 upon diagnosis of Kawasaki disease. J Pediatric Infect Dis Soc. (2021)
+10(6):742–4. doi: 10.1093/jpids/piab013
+14. Yang YL, Kuo HC. Public health interventions for COVID-19 reduce Kawasaki
+disease in Taiwan. Children (Basel). (2021) 8(8):623. doi: 10.3390/children8080623
+15. Madaniyazi L, Armstrong B, Chung Y, Ng CFS, Seposo X, Kim Y, et al. Seasonal
+variation in mortality and the role of temperature: a multi-country multi-city study.
+Int J Epidemiol. (2021) 51(1):122–33. doi: 10.1093/ije/dyab143
+16. Gasparrini A, Guo Y, Hashizume M, Lavigne E, Zanobetti A, Schwartz J, et al.
+Mortality risk attributable to high and low ambient temperature: a multicountry
+observational study. Lancet. (2015) 386(9991):369–75. doi: 10.1016/S0140-6736(14)
+62114-0
+17. Chang CL, Wong CS, Yang YC, Chiu NC. Inﬂuence of latitude on the prevalence
+of Kawasaki disease: a retrospective cohort study from the Taiwan national health
+insurance database and review of the literature. Int J Environ Res Public Health.
+(2018) 15(5):845. doi: 10.3390/ijerph15050845
+18. Lin MT, Wu MH. The global epidemiology of Kawasaki disease: review and
+future perspectives. Glob Cardiol Sci Pract. (2017) 2017(3):e201720. doi: 10.21542/
+gcsp.2017.20
+19. Abrams JY, Blase JL, Belay ED, Uehara R, Maddox RA, Schonberger LB, et al.
+Increased Kawasaki disease incidence associated with higher precipitation and lower
+temperatures, Japan, 1991–2004. Pediatr Infect Dis J. (2018) 37(6):526–30. doi: 10.
+1097/INF.0000000000001838
+20. Philippine Pediatric Society Inc. Registry of Childhood Disease (ICD-10)
+(2021) [[DATASET]]. Available online at: https://pps.ivant.com/search.do; https://
+pps.org.ph/council-and-committees/council-on-research-publications/icd-10-registry/
+(Accessed December 15–31, 2021).
+21. Philippine Pediatric Society Inc. Committee on Registry of Childhood Disease
+(ICD-10) (2022) [updated 2022]. Available online at: https://pps.org.ph/council-
+and-committees/council-on-research-publications/icd-10-registry/
+22. Philippine Pediatric Society Inc. Accreditation and Curriculum Manual of
+Pediatric Residency Program (2019). Quezon City: Philippine Pediatric Society, Inc
+(2019).
+23. Philippine Statistics Authority. Population Projection Statistics (2021). Available
+online at: https://psa.gov.ph/statistics/census/projected-population (Accessed March
+15–16, 2022).
+24. National Centers for Environmental Information. Global Surface Summary of
+the Day database: National Oceanic and Atmospheric Administration (2022).
+Available
+online
+at:
+https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/
+item/gov.noaa.ncdc%3AC00516/html# (Accessed December 26–27, 2021).
+25. Kwong SL, Chen MS Jr., Snipes KP, Bal DG, Wright WE. Asian Subgroups and
+cancer incidence and mortality rates in California. Cancer. (2005) 104(12):2975–81.
+doi: 10.1002/cncr.21511
+26. Kong Q, Siauw T, Bayen AM. Chapter 17—interpolation. In: Kong Q, Siauw T,
+Bayen AM, editors. Python Programming and Numerical Methods. Cambridge, MA:
+Academic Press (2021). p. 295–313.
+27. Barnett AG, Dobson AJ, editors. Analysing Seasonal Health Data. 1st ed.
+Heidelberg: Springer Berlin (2010). Vol. XIII, p. 65–6, 75–6.
+28. Bhaskaran K, Gasparrini A, Hajat S, Smeeth L, Armstrong B. Time series
+regression studies in environmental epidemiology. Int J Epidemiol. (2013) 42
+(4):1187–95. doi: 10.1093/ije/dyt092
+29. Madaniyazi L, Tobias A, Kim Y, Chung Y, Armstrong B, Hashizume M.
+Assessing seasonality and the role of its potential drivers in environmental
+epidemiology: a tutorial. Int J Epidemiol. (2022) 51(5):1677–86. doi: 10.1093/ije/
+dyac115
+30. Lucas R, Dennington P, Wood E, Murray KJ, Cheng A, Burgner D, et al.
+Epidemiology of Kawasaki disease in Australia using two nationally complete
+datasets. J Paediatr Child Health. (2022) 58(4):674–82. doi: 10.1111/jpc.15816
+Celis-Seposo et al.
+10.3389/fped.2024.1358638
+Frontiers in Pediatrics
+07
+frontiersin.org
+
+31. Kim GB, Eun LY, Han JW, Kim SH, Yoon KL, Han MY, et al. Epidemiology of
+Kawasaki disease in South Korea: a nationwide survey 2015–2017. Pediatr Infect Dis J.
+(2020) 39(11):1012–6. doi: 10.1097/INF.0000000000002793
+32. Hara T, Nakashima Y, Sakai Y, Nishio H, Motomura Y, Yamasaki S. Kawasaki
+disease: a matter of innate immunity. Clin Exp Immunol. (2016) 186(2):134–43.
+doi: 10.1111/cei.12832
+33. Kloc M, Ghobrial RM, Kuchar E, Lewicki S, Kubiak JZ. Development of child
+immunity
+in
+the
+context
+of
+COVID-19
+pandemic.
+Clin
+Immunol.
+(2020)
+217:108510. doi: 10.1016/j.clim.2020.108510
+34. Wang W-T, He M, Shimizu C, Croker BA, Hoffman HM, Tremoulet AH, et al.
+Inﬂammasome activation in children with Kawasaki disease and multisystem
+inﬂammatory syndrome. Arterioscler, Thromb, Vasc Biol. (2021) 41(9):2509–11.
+doi: 10.1161/ATVBAHA.121.316210
+35. Makino N, Nakamura Y, Yashiro M, Kosami K, Matsubara Y, Ae R, et al.
+Nationwide epidemiologic survey of Kawasaki disease in Japan, 2015–2016. Pediatr
+Int. (2019) 61(4):397–403. doi: 10.1111/ped.13809
+36. Lee JK. Hygiene hypothesis as the etiology of Kawasaki disease: dysregulation of
+early B cell development. Int J Mol Sci. (2021) 22(22):12334. doi: 10.3390/
+ijms222212334
+37. Durongpisitkul K, Sangtawesin C, Khongphatthanayopthin A, Panamonta M,
+Sopontammarak S, Sittiwangkul R, et al. Epidemiologic study of Kawasaki disease
+and cases resistant to IVIG therapy in Thailand. Asian Pac J Allergy Immunol.
+(2006) 24(1):27–32. PMID: 16913186.
+38. Mat Bah MN, Alias EY, Razak H, Sapian MH, Foo FH, Abdullah N.
+Epidemiology, clinical characteristics, and immediate outcome of Kawasaki disease:
+a population-based study from a tropical country. Eur J Pediatr. (2021) 180
+(8):2599–606. doi: 10.1007/s00431-021-04135-7
+39. Chandra AM. Kawasaki Disease: Complications and Treatment KK Women’s and
+Children’s Hospital: SingHealth (2021). Available online at: https://www.healthxchange.
+sg/children/childhood-conditions/kawasaki-disease-complications-treatment (Accessed
+June 10, 2022).
+40. Singh S, Vignesh P, Burgner D. The epidemiology of Kawasaki disease: a global
+update. Arch Dis Child. (2015) 100(11):1084–8. doi: 10.1136/archdischild-2014-307536
+41. Huang YH, Lin KM, Ho SC, Yan JH, Lo MH, Kuo HC. Increased incidence of
+Kawasaki disease in Taiwan in recent years: a 15 years nationwide population-based
+cohort study. Front Pediatr. (2019) 7:121. doi: 10.3389/fped.2019.00121
+42. Xie LP, Yan WL, Huang M, Huang MR, Chen S, Huang GY, et al. Epidemiologic
+features of Kawasaki disease in Shanghai from 2013 through 2017. J Epidemiol. (2020)
+30(10):429–35. doi: 10.2188/jea.JE20190065
+43. Rypdal M, Rypdal V, Burney JA, Cayan D, Bainto E, Skochko S, et al. Clustering
+and climate associations of Kawasaki disease in San Diego county suggest
+environmental triggers. Sci Rep. (2018) 8(1):16140. doi: 10.1038/s41598-018-33124-4
+44. Manalo JA, Matsumoto J, Takahashi HG, Villafuerte MQ, Olaguera LMP, Ren
+G, et al. The effect of urbanization on temperature indices in the Philippines. Int
+J Climatol. (2021) 42(2):850–67. doi: 10.1002/joc.7276
+45. Matsumoto J, Olaguera LMP, Nguyen-Le D, Kubota H, Villafuerte Ii MQ.
+Climatological seasonal changes of wind and rainfall in the Philippines. Int
+J Climatol. (2020) 40(11):4843–57. doi: 10.1002/joc.6492
+46. Chong CY, Tan NWH, Yung CF, Nadua K, Kam KQ, Li J, et al. Pediatric
+Kawasaki disease trends prior to and during COVID-19 outbreak in Singapore.
+J Pediatric Infect Dis Soc. (2021) 10(11):1029–32. doi: 10.1093/jpids/piab047
+47. Rodó X, Curcoll R, Robinson M, Ballester J, Burns JC, Cayan DR, et al.
+Tropospheric winds from northeastern China carry the etiologic agent of Kawasaki
+disease from its source to Japan. Proc Natl Acad Sci USA. (2014) 111(22):7952.
+doi: 10.1073/pnas.1400380111
+48. Cohen E, Sundel R. Kawasaki disease at 50 years. JAMA Pediatr. (2016) 170
+(11):1093–9. doi: 10.1001/jamapediatrics.2016.1446
+49. Chang LY, Lu CY, Shao PL, Lee PI, Lin MT, Fan TY, et al. Viral infections
+associated with Kawasaki disease. J Formos Med Assoc. (2014) 113(3):148–54.
+doi: 10.1016/j.jfma.2013.12.008
+50. Lin Z, Meng X, Chen R, Huang G, Ma X, Chen J, et al. Ambient air pollution,
+temperature and Kawasaki disease in Shanghai, China. Chemosphere. (2017)
+186:817–22. doi: 10.1016/j.chemosphere.2017.08.054
+51. Rodo X, Ballester J, Cayan D, Melish ME, Nakamura Y, Uehara R, et al.
+Association of Kawasaki disease with tropospheric wind patterns. Sci Rep. (2011)
+1:152. doi: 10.1038/srep00152
+52. Altizer S, Dobson A, Hosseini P, Hudson P, Pascual M, Rohani P. Seasonality
+and the dynamics of infectious diseases. Ecol Lett. (2006) 9(4):467–84. doi: 10.1111/
+j.1461-0248.2005.00879.x
+53. Hattori T, Chagan-Yasutan H, Shiratori B, Egawa S, Izumi T, Kubo T, et al.
+Development of point-of-care testing for disaster-related infectious diseases. Tohoku
+J Exp Med. (2016) 238(4):287–93. doi: 10.1620/tjem.238.287
+54. Bravo L, Roque VG, Brett J, Dizon R, L’Azou M. Epidemiology of dengue disease
+in the Philippines (2000–2011): a systematic literature review. PLoS Negl Trop Dis.
+(2014) 8(11):e3027. doi: 10.1371/journal.pntd.0003027
+55. Paynter S, Ware RS, Lucero MG, Tallo V, Nohynek H, Simoes EA, et al.
+Poor growth and pneumonia seasonality in infants in the Philippines: cohort and
+time series studies. PLoS One. (2013) 8(6):e67528. doi: 10.1371/journal.pone.
+0067528
+56. Lestari FB, Vongpunsawad S, Wanlapakorn N, Poovorawan Y. Rotavirus
+infection in children in Southeast Asia 2008–2018: disease burden, genotype
+distribution, seasonality, and vaccination. J Biomed Sci. (2020) 27(1):66. doi: 10.
+1186/s12929-020-00649-8
+57. Fujii F, Egami N, Inoue M, Koga H. Weather condition, air pollutants, and
+epidemics as factors that potentially inﬂuence the development of Kawasaki disease.
+Sci Total Environ. (2020) 741:140469. doi: 10.1016/j.scitotenv.2020.140469
+58. Rowley AH, Shulman ST. The epidemiology and pathogenesis of Kawasaki
+disease. Front Pediatr. (2018) 6(December):1–4. doi: 10.3389/fped.2018.00374
+59. Abuhammour WM, Hasan RA, Eljamal A, Asmar B. Kawasaki disease
+hospitalizations in a predominantly African-American population. Clin Pediatr
+(Phila). (2005) 44(8):721–5. doi: 10.1177/000992280504400812
+60. Bronstein DE, Dille AN, Austin JP, Williams CM, Palinkas LA, Burns JC.
+Relationship of climate, ethnicity and socioeconomic status to Kawasaki disease in
+San Diego county, 1994 through 1998. Pediatr Infect Dis J. (2000) 19(11):1087–91.
+doi: 10.1097/00006454-200011000-00012
+61. Corinaldesi E, Pavan V, Andreozzi L, Fabi M, Selvini A, Frabboni I, et al.
+Environmental factors and Kawasaki disease onset in Emilia-Romagna, Italy. Int
+J Environ Res Public Health. (2020) 17(5):1529. doi: 10.3390/ijerph17051529
+62. Manlhiot C, Mueller B, O’Shea S, Majeed H, Bernknopf B, Labelle M, et al.
+Environmental
+epidemiology
+of
+Kawasaki
+disease:
+linking
+disease
+etiology,
+pathogenesis and global distribution. PLoS One. (2018) 13(2):e0191087. doi: 10.
+1371/journal.pone.0191087
+Celis-Seposo et al.
+10.3389/fped.2024.1358638
+Frontiers in Pediatrics
+08
+frontiersin.org

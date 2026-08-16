@@ -1,0 +1,992 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+SOSE Affiliate: Manila Observatory 
+School of Science and Engineering Research 
+Centers 
+1-1-2025 
+Spatiotemporal Economic Impact Analysis of the Taal Volcano 
+Spatiotemporal Economic Impact Analysis of the Taal Volcano 
+Eruption Using Electricity Consumption and Nighttime Light Data 
+Eruption Using Electricity Consumption and Nighttime Light Data 
+Ma Flordeliza P. Del Castillo 
+Manila Observatory 
+Toshio Fujimi 
+Kyoto University 
+Hirokazu Tatano 
+Kyoto University 
+Follow this and additional works at: https://archium.ateneo.edu/manila-observatory 
+ Part of the Environmental Monitoring Commons, Geology Commons, Geophysics and Seismology 
+Commons, and the Other Earth Sciences Commons 
+Custom Citation 
+Custom Citation 
+Del Castillo, Ma. F. P., Fujimi, T., & Tatano, H. (2025). Spatiotemporal economic impact analysis of the Taal 
+Volcano eruption using electricity consumption and nighttime light data. Geomatics, Natural Hazards and 
+Risk, 16(1). https://doi.org/10.1080/19475705.2024.2445626 
+This Article is brought to you for free and open access by the School of Science and Engineering Research Centers 
+at Archīum Ateneo. It has been accepted for inclusion in SOSE Affiliate: Manila Observatory by an authorized 
+administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+Geomatics, Natural Hazards and Risk
+ISSN: (Print) (Online) Journal homepage: www.tandfonline.com/journals/tgnh20
+Spatiotemporal economic impact analysis of the Taal
+Volcano eruption using electricity consumption and
+nighttime light data
+Ma. Flordeliza P. Del Castillo, Toshio Fujimi & Hirokazu Tatano
+To cite this article: Ma. Flordeliza P. Del Castillo, Toshio Fujimi & Hirokazu Tatano (2025)
+Spatiotemporal economic impact analysis of the Taal Volcano eruption using electricity
+consumption and nighttime light data, Geomatics, Natural Hazards and Risk, 16:1, 2445626,
+DOI: 10.1080/19475705.2024.2445626
+To link to this article:  https://doi.org/10.1080/19475705.2024.2445626
+© 2025 The Author(s). Published by Informa
+UK Limited, trading as Taylor & Francis
+Group.
+View supplementary material 
+Published online: 03 Jan 2025.
+Submit your article to this journal 
+Article views: 413
+View related articles 
+View Crossmark data
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=tgnh20
+
+Spatiotemporal economic impact analysis of the Taal 
+Volcano eruption using electricity consumption and 
+nighttime light data
+Ma. Flordeliza P. Del Castilloa,b 
+, Toshio Fujimia,c and Hirokazu Tatanoa,c 
+aDepartment of Social Informatics, Graduate School of Informatics, Kyoto University, Kyoto, Japan; 
+bGeomatics for Environment and Development, Manila Observatory, Ateneo de Manila University, 
+Quezon City, Philippines; cDisaster Prevention Research Institute, Kyoto University, Kyoto, Japan 
+ABSTRACT 
+Analyzing the spatiotemporal dimension of the economic impacts 
+of disasters is critical for providing timely and proportionate sup­
+port. However, traditional economic impact measures often lack 
+spatiotemporal details. Hence, we estimated the daily electricity 
+consumption (EC) loss using high-frequency EC data and analyzed 
+temporal dimensions of the immediate impacts of Taal Volcano’s 
+eruption on January 12, 2020. Subsequently, we computed the 
+nighttime light (NTL) change using high-resolution NTL data to 
+analyze the spatial distribution of these impacts. The temporal 
+analysis revealed two EC loss peaks. The first peak coincided with 
+the power outage and decreased energy demand, followed by a 
+brief recovery after power restoration. The second peak emerged 
+upon the influx of the affected population, evacuees, earthquake 
+occurrences, and road closures. Major assistance distribution 
+spurred recovery towards the end of the analysis period. The spa­
+tial analysis showed significant NTL reductions where ashfall inter­
+sected built-up areas. The municipalities with the worst NTL 
+reduction included Talisay, Laurel, Santa Teresita, Agoncillo, 
+Lemery, San Nicolas, Taal, and Balete. This study demonstrates an 
+alternative method that uses high-frequency EC to reveal daily 
+temporal fluctuations of immediate non-agricultural economic 
+impacts and map out the areas worst affected by a volcanic 
+eruption.
+ARTICLE HISTORY 
+Received 30 April 2024 
+Accepted 17 December 2024 
+KEYWORDS 
+SNPP VIIRS DNB; 
+Philippines; regression; 
+remote sensing; disaster 
+loss and damage; Taal 
+Volcano 2020 eruption   
+1. Introduction
+Spatiotemporal dimensions are critical for the proportionate and timely distribution 
+of resources in disaster-affected areas. Assessments of volcanic eruption impacts, 
+however prompt, often lack these spatiotemporal dimensions. Spatiotemporally blind 
+CONTACT Ma. Flordeliza P. Del Castillo 
+fpdelcastillo@observatory.ph 
+Supplemental data for this article can be accessed online at https://doi.org/10.1080/19475705.2024.2445626. 
+ß 2025 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group. 
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/ 
+licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is 
+properly cited. The terms on which this article has been published allow the posting of the Accepted Manuscript in a repository by 
+the author(s) or with their consent.
+GEOMATICS, NATURAL HAZARDS AND RISK 
+2025, VOL. 16, NO. 1, 2445626 
+https://doi.org/10.1080/19475705.2024.2445626
+
+economic impact assessment may stem from a lack of data. Typical measures like 
+GDP data are available at the national and quarterly scale, often aggregating the 
+impacts across large areas. Further, immediate on-site data collection can be challeng­
+ing due to safety reasons. Consequently, temporally blind assessments could delay a 
+response and conceal recovery trends, while spatially blind estimates lead to possible 
+mismatched and biased resource allocation (Brucal et al. 2020; Malik 2022).
+A possible solution to this lack of data is to use alternative high-frequency electri­
+city consumption (EC) and high-resolution nighttime light (NTL) datasets. Both data­
+sets exhibit a strong relationship with GDP, as shown in the regression model results 
+(Online Appendix A) and previous studies (Doll et al. 2000; Ghosh et al. 2010; 
+Henderson et al. 2012; Al-mulali and Mohammed 2015; Faisal et al. 2017; Khan and 
+Kong 2020; Chen et al. 2022).
+Several studies have used EC data to assess economic impacts of the COVID-19 
+pandemic (Fezzi and Fanghella 2020; Beyer et al. 2021; Wang et al. 2021; Ai et al. 
+2022; Del Castillo et al. 2024). EC data also showed a decline following a volcanic 
+eruption (Wilson et al. 2012). However, no research has yet applied this data to esti­
+mate the impacts of local disasters.
+NTL data have been used to map economic impacts of local disasters such as 
+typhoons, earthquakes, and floods (Qiang et al. 2020; Tveit et al. 2022; Jia et al. 2023; 
+Zhou et al. 2024). Although NTL data’s continuous acquisition is ideal for long-term 
+impact analysis of volcanic eruptions, no studies have yet utilized NTL to map the 
+impacts of volcanic eruptions.
+This study uses EC and NTL data to analyze spatiotemporal distributions of the eco­
+nomic impacts of the Taal Volcano eruption on January 12, 2020. It adopts the following 
+research questions: (1) How were the economic impacts based on EC data distributed 
+across time, and (2) which municipalities were worst affected, based on NTL data?
+To answer the first research question, we estimated the daily economic impacts 
+using daily EC data. First, we generated a regression model of pre-eruption daily EC 
+to estimate a counterfactual EC, then subtracted the actual EC from it to compute 
+the daily EC loss (ECL) as a measure of economic impact. Assuming that actual EC 
+data were only affected by the eruption, the analysis covered 18 days, ending on 
+January 30, 2020, when COVID-19 was first detected in the Philippines. Extending 
+the period could introduce pandemic-related influences beyond the study’s scope. For 
+the second research question, NTL was used to identify the most affected municipal­
+ities by computing the NTL change (NTLC) as the difference between the average 
+NTL of previous years and the eruption month’s NTL.
+This study presents a novel approach to estimating the immediate impacts of vol­
+canic eruptions. To our knowledge, no study has used EC data to assess the economic 
+effects of natural disasters, making this the first to apply EC data for short-term 
+impact analysis after a local disaster. Additionally, our analysis using NTL data identi­
+fies the most affected municipalities and is the first to use NTL data to map the 
+impacts of a volcanic eruption. While EC and NTL data were analyzed separately 
+due to resolution differences, we propose a method for remotely assessing the daily 
+and municipal distribution of economic impacts, which can be applied even while sig­
+nificant hazards persist onsite.
+2
+M. F. P. DEL CASTILLO ET AL.
+
+The remainder of this article is organized as follows. Section 2 offers background 
+information on the Taal Volcano, and Section 3 describes the datasets and methods 
+used. Sections 4 and 5 present and discuss the results, respectively. Section 6 con­
+cludes the article.
+2. The 2020 eruption of the Taal Volcano
+The Taal Volcano, located in the Southern Luzon Region of the Philippines 
+(Figure 1), erupted phreatomagmatically in 2020, affecting an estimated 8,600 km2 
+with ashfall (Balangue-Tarriela et al. 2022) and impacting over 700,000 people 
+(NDRRMC 2020). The eruption caused significant damage to agriculture, aquaculture, 
+residences, and infrastructure, disrupted transportation, education, work, air travel, 
+and affected the air quality (Del Castillo et al. 2020; Lim et al. 2022; Santos et al. 
+2023). It resulted in damage costing over 8.4 billion PhP (NEDA IVA, 2020). Weaker 
+explosions continued for 10 days (Balangue-Tarriela et al. 2022). The most affected 
+areas included Agoncillo, Alitagtag, Balete, Cuenca, Laurel, Lemery, Lipa City, 
+Malvar, Mataas na Kahoy, San Nicolas, Santa Teresita, Taal, Talisay, Tanauan, and 
+Tagaytay (NEDA IVA, 2020).
+3. Materials and methods
+3.1. Materials
+3.1.1. EC
+EC represents the total energy used over a given period. For this study, the daily EC 
+covers the hourly electric load data from the National Grid Corporation of the 
+Philippines (NGCP, 2023), which tracks EC across three grids: Luzon, Visayas, and 
+Mindanao (Figure 2). Electricity loads per hour h and grid g ELg,h were summed to 
+obtain total EC per grid ECg, d per day d (Equation 1).
+ECg, d ¼
+X
+24
+h¼1
+ELg, h
+(1) 
+We focused on the Luzon electric grid which covers the Taal Volcano. This grid 
+includes both affected and unaffected regions. Due to the lack of daily EC data with 
+finer spatial resolution, we assumed that EC in unaffected regions remained normal. 
+Any reduction in EC was attributed solely to the eruption, as it was the only signifi­
+cant event for that month on the island during the study period.
+Following Equation (1), daily Luzon EC was computed from January 1, 2013 
+through January 30, 2020. Figure 3 shows an ascending daily EC trend and noticeable 
+irregularities that could indicate power interruptions, disaster events, or holiday peri­
+ods such as Christmas, New Year, and other annual religious and cultural occasions.
+Figure 4 plots the average daily EC in Luzon across months in 2019. As shown, 
+EC peaks in the warmest months of May and June and plummets in the dry cold 
+months of January and February. Generally, it fluctuates weekly, peaking on weekdays 
+or workdays and dropping on rest days (i.e. Sundays).
+GEOMATICS, NATURAL HAZARDS AND RISK
+3
+
+3.1.2. Temperature
+The temperature is a significant variable in residential energy consumption in the 
+Philippines (Bayudan-Dacuycuy 2017; Dacuycuy 2019; Santos 2020; Sabado et al. 
+2022). Up to 56% of household energy consumption in the country comes from space 
+cooling and refrigeration (Department of Energy 2018), both related to temperature.
+We collected the daily mean temperature data per monitoring station from the 
+Philippine Atmospheric, Geophysical, and Astronomical Services Administration 
+(PAGASA 2023). The average of the daily mean temperature of all the monitoring 
+Figure 1. Location of Taal Volcano and municipalities within the 17-km danger zone.
+4
+M. F. P. DEL CASTILLO ET AL.
+
+Figure 2. Electricity grids in the Philippines and Taal Volcano location.
+Figure 3. Daily electricity consumption in Luzon from January 1, 2013 to January 30, 2020. Data 
+source: (NGCP 2023).
+GEOMATICS, NATURAL HAZARDS AND RISK
+5
+
+stations in Luzon meantempL, d was computed (Equation 2) to match the scale of EC 
+data.
+meantempL, d ¼
+Pn
+s¼1temps, d
+S
+(2) 
+where, temps, d is the mean temperature of monitoring station s on day d over the 
+total number of monitoring stations in Luzon S.
+Figure 5 presents the meantempL, d data from January 1, 2013, to January 30, 2020, 
+showing how the mean temperature peaks from April to June and drops in January 
+and February, coinciding with the daily EC patterns.
+3.1.3. NTL
+NTL is a three-decade-long satellite dataset of global nocturnal light emissions from 
+natural and artificial sources. NTL is valuable as a proxy for mapping economic activ­
+ity (Ghosh et al. 2010) and estimating disaster impacts (Tveit et al. 2022) and recov­
+ery (Qiang et al. 2020) because it reveals the spatial details of an economy (Zheng 
+et al. 2023) due to its 500 m resolution. However, its application, which is still lim­
+ited in the Philippines, has focused on determining the impacts of typhoons and 
+floods (Strobl 2019; Cheng and Han 2022; Pagaduan 2022).
+For this study, we downloaded NTL data captured by the Suomi National Polar- 
+Orbiting Partnership Visible Infrared Imaging Radiometer Suite Day and Night Band 
+Figure 4. Daily average EC in Luzon per month from January 1, 2019 to December 31, 2019. Data 
+source: (NGCP 2023).
+Figure 5. Daily mean temperature in Luzon. Data coverage: January 1, 2013 to January 30, 2020. 
+Data source: (PAGASA 2023).
+6
+M. F. P. DEL CASTILLO ET AL.
+
+sensor and pre-processed by the Earth Observation Group of the Payne Institute for 
+Public Policy, Colorado School of Mines (Elvidge et al. 2013; Earth Observation 
+Group 2021). Pre-processing removed the extraneous luminosity (Elvidge et al. 2017) 
+and composited the images into monthly and annual datasets (Elvidge et al. 2021). 
+Following Del Castillo et al. (2024), these were further processed to remove negative 
+values and address the noise and cloud issues via filtering methods. We used 
+monthly, instead of daily data, to reduce the effects of clouds or ashfall obstructing 
+light detection after the eruption.
+Figure 6 shows the pre-processed NTL data from January 2017 to January 2020. 
+The blue areas indicate low NTL values, while yellow areas indicate high NTL values. 
+Comparing these annual images reveals changes in nighttime brightness. Post-erup­
+tion dimming occurred within the 14-km danger zone, particularly in Talisay, Laurel, 
+Agoncillo, Taal, and San Nicolas. Conversely, bright areas expanded outside the 
+17-km danger zone, especially in Tanauan, Calamba, Malvar, Mataas na Kahoy, and 
+Lipa City.
+3.2. Methods
+We used high-frequency EC and high-resolution NTL datasets as proxies for eco­
+nomic activity to analyze the spatiotemporal distribution of the eruption impacts. 
+Initially, we examined the relationship of EC and NTL with a usual measure of eco­
+nomic activity, being GDP. Due to the lack of high-frequency and high-resolution 
+GDP data, we aggregated the EC and NTL data to the national quarterly scale and 
+performed a regression analysis (Online Appendix A). The results indicated that EC 
+and NTL effectively explain national quarterly GDP. Additionally, we found a strong 
+relationship between EC and NTL, reinforcing their use as measures of economic 
+activity.
+Based on the established relationship, we analyzed the temporal and spatial distri­
+bution of Taal Volcano’s economic impacts using daily EC and monthly NTL data­
+sets. Due to differing data scales, we conducted separate analyses to maximize spatial 
+and temporal details from each data. We analyzed the temporal distribution of 
+impacts using daily EC data through electricity consumption loss (ECL) estimation 
+involving three steps: pre-eruption EC modeling, counterfactual EC estimation, and 
+ECL computation. Subsequently, we analyzed the spatial distribution of impacts using 
+monthly NTL data through NTLC computation, aggregation, and mapping.
+3.2.1. ECL estimation process
+Figure 7 illustrates the ECL estimation process. We estimated the daily economic 
+activity loss in terms of ECL by subtracting the actual EC from the counterfactual EC 
+estimated using a model generated based on the pre-eruption EC data. This model 
+established the relationship between the explanatory variables and pre-eruption EC 
+under normal conditions. This relationship would persist had there been no eruption. 
+Under this condition, we use the pre-eruption model to estimate the counterfactual 
+EC. Then, ECL was computed by subtracting the actual from the counterfactual.
+GEOMATICS, NATURAL HAZARDS AND RISK
+7
+
+This approach resembles the method of Beyer et al. (2021), who assessed the 
+impact of COVID-19 lockdowns in India. They demonstrated that national quarterly 
+EC and NTL data could serve as proxies for GDP. To estimate daily pre-pandemic 
+EC by district, they used maximum temperatures for cooling and heating and incor­
+porated quarter-fixed effects and trend components to adjust for seasonal variations 
+and time effects. Using this model, they predicted daily EC during the pandemic and 
+compared it to actual EC to measure the impacts.
+Figure 6. Pre-processed NTL data for January 2017 to January 2020.
+8
+M. F. P. DEL CASTILLO ET AL.
+
+We used mean temperature instead of maximum temperature for cooling and 
+heating due to the positive linear relationship between EC and temperature, unlike 
+the U-shaped correlation observed in India (Online Appendix B). Key features of this 
+study include validating the method from previous research and extending its applica­
+tion to a different study site and to the context of a volcanic eruption.
+3.2.1.1 Pre-eruption EC modeling. The first step in the ECL estimation process was 
+to generate the pre-eruption EC model that captured the relationship between the 
+dependent variable EC and the independent variables before the eruption. For this, 
+we divided the daily Luzon datasets into pre- and post-eruption subsets.
+We regressed the natural logarithm of the pre-eruption EC lnECL, d for Luzon L per 
+day d on the natural logarithm of mean temperature lnmeantempL, d using pre-eruption 
+data. Mean temperature was chosen as an explanatory variable due to its influence on 
+energy use (Bayudan-Dacuycuy 2017; Dacuycuy 2019; Santos 2020; Sabado et al. 2022) 
+and its stability during the eruption (Ramirez 2020), enabling a counterfactual or 
+“business-as-usual” estimate. EC patterns varied by day (Figure 4), with higher consump­
+tion on weekdays and lower consumption on weekends. To account for this effect, we 
+included the day-of-the-week dummy variable DW. We also included a holiday dummy 
+variable Holiday to capture the reduced EC on national holidays (Figure 3), coding holi­
+days as 1 and non-holidays as 0. Certain holidays and seasons, such as the Holy Week 
+and Christmas, have extended effects, which were accounted for by adding a week of the 
+year fixed effects WYfe. Additionally, we included a trend variable to account for the 
+annual increase in EC, as shown in Figure 3. The resulting pre-eruption model was then 
+represented in Equation (3), where the parameters to be estimated were denoted by b0 
+and b1; and E was the error term.
+lnECL, d ¼ b0 þ b1lnmeantempL, d þ Holiday þ DW þ WYfe þ trend þ e
+(3) 
+3.2.1.2 Counterfactual EC estimation. In the second step, we estimated the counter­
+factual EC, or cEC, which was the EC if the eruption had not occurred. Without the 
+eruption, we assumed that the relationship between EC and its explanatory variables 
+Figure 7. Illustration of the ECL estimation process.
+GEOMATICS, NATURAL HAZARDS AND RISK
+9
+
+in Equation (3) would remain the same. Thus, we plugged the post-eruption data 
+into the model represented by Equation (4) to compute the cEC.
+lncECL, d ¼ ^b0 þ ^b1lnmeantempL, d þ Holiday þ DW þ WYfe þ trend
+(4) 
+We estimated the natural logarithm of counterfactual EC lncECL, d based on the 
+natural logarithm of the post-eruption’s mean temperature. ^b0 and ^b1 were the coeffi­
+cients estimated using Equation (3).
+3.2.1.3 ECL computation. The last step was to estimate the ECLL, d; by taking the dif­
+ference between the actual EC aECL, d and the counterfactual EC cECL, d; computed 
+from lncECL, d: ECL measures the economic impact per day through EC as an indica­
+tor of economic activity based on its relationship with GDP. Equation (5) provides 
+the economic impact in terms of ECL per day d in Luzon.
+ECLL, d ¼ cECL, d −aECL, d
+(5) 
+3.2.2. NTLC analysis
+NTLC analysis determines the spatial distribution of economic impacts using monthly 
+NTL data as an indicator of economic activity based on its relationship with GDP. 
+NTLC measures the change in nocturnal brightness from a pre- to post-eruption time.
+3.2.2.1 NTLC computation. The existing literature offers two main approaches in detect­
+ing changes: difference and ratio. In the difference approach, NTL in the disaster month is 
+subtracted from either the previous year’s NTL, the previous month’s NTL (Lin and 
+Rybnikova 2023), or the average NTL of prior years (Beyer et al. 2021). The ratio approach 
+calculates the post-disaster NTL as a portion of the pre-disaster NTL (Sarkar 2021).
+We carried out all these methods mentioned above but found that the difference 
+between the eruption month and the average of the previous years had the most 
+meaningful results. Therefore, we computed NTLCp; which represented the change in 
+emitted light brightness per pixel p by subtracting the average NTL per pixel for 
+January 2017 NTLp, 2017; January 2018 NTL p, 2018; and January 2019 NTL p, 2019 from 
+the NTL in January 2020 NTLp, 2020 (Equation 6).
+NTLCp ¼ NTLp, 2020 −
+NTLp, 2017 þ NTLp, 2018 þNTLp, 2019
+3
+
+
+(6) 
+3.2.2.2 Municipal NTLC aggregation. NTLCm was computed from the sum of the 
+NTLC values of all the pixels p in municipality m (Equation 7) using zonal statistics. 
+The resulting value allowed for the comparison of economic impacts across municipal 
+units to determine the municipality with the greatest NTL reduction.
+NTLCm ¼
+X
+n
+p¼1
+NTLCp
+(7) 
+10
+M. F. P. DEL CASTILLO ET AL.
+
+4. Results
+4.1. Pre-eruption EC model
+Four pre-eruption EC regression models were generated to compare the explanatory 
+power of the variables (Table 1). The lnEC1 model showed that the trend could 
+explain 69.7% of the pre-eruption EC. Adding the DW dummy variables in lnEC2 
+increased the R2 to 0.808. Including the Holiday dummy variable in lnEC3 further 
+raised the R2 to 0.859. The addition of the lnmeantemp variable in lnEC4 boosted the 
+explanatory power of the model, explaining 90.5% of the pre-eruption EC. Of the 
+four models, lnEC4 had the highest R2 value and was used to estimate the counterfac­
+tual EC.
+4.2. Counterfactual EC
+Post-eruption data were plugged into the lnEC4 model to estimate cEC. The com­
+puted cEC is for the entire Luzon Island. Table 2 reports the daily cEC estimates.
+The computed cEC was plotted with aEC for comparison. Figure 8 shows that cEC 
+is higher than aEC in the first two weeks after the eruption, indicating loss. However, 
+aEC increased in the third week exceeding the cEC, suggesting recovery.
+4.3. Daily ECL
+Subtracting aEC from cEC yielded the daily ECL. ECL was highest on the day after 
+the eruption (Figure 9), briefly recovered on days 6 and 7, increased again on day 8 
+reached its second peak on day 11, dropped on day 12, and further dropped to nega­
+tive values on day 13, only to rise again the following day. Subsequently, ECL 
+decreased until the end of the observation period.
+Table 1. Regression models for pre-eruption EC estimation.
+lnEC1
+lnEC2
+lnEC3
+lnEC4
+trend
+0.057
+0.057
+0.058
+0.057
+(0.001)
+(0.001)
+(0.001)
+(0.0004)
+MON
+0.112
+0.117
+0.116
+(0.005)
+(0.004)
+(0.003)
+TUE
+0.133
+0.133
+0.133
+(0.005)
+(0.004)
+(0.003)
+WED
+0.134
+0.134
+0.133
+(0.005)
+(0.004)
+(0.003)
+THURS
+0.135
+0.136
+0.135
+(0.005)
+(0.004)
+(0.003)
+FRI
+0.128
+0.130
+0.130
+(0.005)
+(0.004)
+(0.003)
+SAT
+0.077
+0.079
+0.080
+(0.005)
+(0.004)
+(0.003)
+HOLIDAY
+−0.146
+−0.140
+(0.005)
+(0.004)
+lnmeantemp
+0.043
+(0.001)
+WYfe
+YES
+YES
+YES
+YES
+Observations
+2,567
+2,567
+2,567
+2,567
+R2
+0.697
+0.808
+0.859
+0.905
+Adjusted R2
+0.691
+0.803
+0.855
+0.903
+Data coverage: January 1, 2013 to January 11, 2020. Source: (NGCP 2023; PAGASA 2023).
+GEOMATICS, NATURAL HAZARDS AND RISK
+11
+
+4.4. NTLC
+We plotted the differences between pre- and post-eruption NTL by pixel to identify 
+areas of reduced economic activity. Figure 10 shows NTL reductions in blue and 
+increases in yellow. Most of the 14-km danger zone experienced decreased brightness, 
+with the brightness levels of Talisay and Laurel showing intense decline, and 
+Table 2. Computed counterfactual daily EC and EC loss.
+Days from
+Day of
+ECL
+%ECL
+Cumulative ECL
+Date
+eruption
+the week
+cEC
+aEC
+MWh
+ECL/cEC
+MWh
+1/12/2020
+0
+Sun
+173,312
+172,606
+706
+0.41
+706
+1/13/2020
+1
+Mon
+191,241
+177,517
+13,724
+7.18
+14,431
+1/14/2020
+2
+Tue
+198,935
+187,122
+11,813
+5.94
+26,244
+1/15/2020
+3
+Wed
+200,305
+192,796
+7,509
+3.75
+33,753
+1/16/2020
+4
+Thurs
+204,412
+197,928
+6,484
+3.17
+40,237
+1/17/2020
+5
+Fri
+204,258
+200,594
+3,664
+1.79
+43,901
+1/18/2020
+6
+Sat
+190,530
+191,766
+−1,236
+−0.65
+42,665
+1/19/2020
+7
+Sun
+173,917
+174,723
+−806
+−0.46
+41,859
+1/20/2020
+8
+Mon
+195,260
+189,502
+5,758
+2.95
+47,616
+1/21/2020
+9
+Tues
+197,074
+191,250
+5,824
+2.96
+53,440
+1/22/2020
+10
+Wed
+201,833
+191,473
+10,360
+5.13
+63,800
+1/23/2020
+11
+Thurs
+205,055
+194,000
+11,055
+5.39
+74,854
+1/24/2020
+12
+Fri
+197,619
+190,571
+7,048
+3.57
+81,903
+1/25/2020
+13
+Sat
+164,323
+172,847
+−8,524
+−5.19
+73,379
+1/26/2020
+14
+Sun
+178,724
+173,878
+4,846
+2.71
+78,225
+1/27/2020
+15
+Mon
+197,918
+198,460
+−542
+−0.27
+77,683
+1/28/2020
+16
+Tues
+197,165
+200,771
+−3,606
+−1.83
+74,076
+1/29/2020
+17
+Wed
+195,036
+198,899
+−3,863
+−1.98
+70,213
+1/30/2020
+18
+Thurs
+187,482
+195,495
+−8,013
+−4.27
+62,201
+Figure 8. Counterfactual vs. actual EC per day.
+Figure 9. Daily ECL.
+12
+M. F. P. DEL CASTILLO ET AL.
+
+Agoncillo, Tanauan, and San Nicolas showing moderate reductions. Clusters of 
+dimmed pixels were found between the 14-km and 17-km zones, while isolated 
+dimmed pixels outside the 17-km zone were largely associated with decreased 
+brightness.
+We summed up the NTLC per municipality to determine the most affected units. 
+This gave each municipality a single NTLC value. Negative NTLC sums indicated 
+overall dimming, while positive NTLC sums suggested increased brightness. The 
+results presented in Figure 11 show that Talisay, Laurel, and Santa Teresita had the 
+most NTL reduction, followed by Agoncillo, Lemery, San Nicolas, Taal, and Balete. 
+The rest of the municipalities had an overall increase in NTLC.
+5. Discussion
+5.1. Temporal analysis
+The daily ECL’s temporal pattern revealed two loss peaks and two recovery valleys. 
+Two factors could have contributed to the first peak. One would be power disruption. 
+Ashfall from the eruption resulted in a power shutdown, affecting 24 municipal units 
+in Cavite, Laguna, and Batangas (NDRRMC 2020). Power outages after an eruption 
+are common, as wet ashfall could result in substation insulation flashovers and subse­
+quent power outages (Nagai and Nakada 2022). The second contributor to this first 
+peak could be a decrease in demand. During the eruption, power distributors in 
+Batangas, namely, the Batangas I and Batangas II Electric Cooperatives, reported an 
+electricity demand reduction due to evacuation and business closures (Rivera 2020).
+Power was restored in the affected municipalities after roughly six days (Santos 
+et al. 2023) leading to a brief recovery, but ECL started rising again, reaching its 
+Figure 10. Computed NTLC map.
+GEOMATICS, NATURAL HAZARDS AND RISK
+13
+
+second peak, possibly due to the increase in the affected population and evacuees 
+(NDRRMC 2020) (Online Appendix C). Although the eruption lasted for only 
+10 days, earthquakes kept recurring, and up to 841 earthquakes per day were recorded 
+on day 11 (PHIVOLCS 2020). Further, more roads were closed at the start of day 8 
+due to earthquake damage.
+ECL dropped to its lowest level on day 13, indicating a consumption rise. This 
+drop correlated with the distribution of financial support worth 32 million PhP that 
+day (NDRRMC 2020), possibly stimulating increased EC in the area. The following 
+day, ECL rose again, as assistance dropped to less than one million. On day 15, ECL 
+dropped again, suggesting recovery, while the assistance cost increased by 22 million 
+PhP. From this point onward, ECL continued to decline for the remainder of the 
+study period.
+Over the study period, the average %ECL (1.6%) fell between estimates from other 
+researchers. Santos et al. (2023) estimated a pessimistic scenario through the input- 
+output method, calculating total losses of 3.5 billion PhP over 10 days, or 1.4% of the 
+region’s annual gross regional product (GRP). A government report (NEDA IVA 
+2020) estimated total losses at 8.4 billion PhP, or 3.3% of the Gross Regional Product. 
+Note that our results exclude agricultural losses, as this sector has minimal energy 
+requirements.
+Our results complement the government report by accounting for household 
+losses. Monthly EC data for the Luzon grid (DOE 2020) disaggregates consumption 
+into residential (35.4%), commercial (34.7%), and industrial (28.0%) sectors. Based on 
+this, 0.57% of the computed ECL can be attributed to household loss. Unlike previous 
+estimates (Santos et al. 2023), which show a smooth decline in economic loss, our 
+Figure 11. NTLC per municipality and location of evacuation sites. Annotated numbers show the 
+NTLC sum.
+14
+M. F. P. DEL CASTILLO ET AL.
+
+results reveal dynamic fluctuations in impacts, driven by the progression of the haz­
+ard, population response, and aid distribution. Beyond economic value and sectoral 
+impacts, the temporal analysis sheds light on the population’s reaction to the disaster 
+and assistance, offering insights for responders and authorities to monitor and act 
+swiftly. Additionally, this analysis confirmed that EC data could capture the immedi­
+ate economic impacts of an eruption, extending previous research (Fezzi and 
+Fanghella 2020; Beyer et al. 2021).
+5.2. Spatial analysis
+Spatial analysis revealed uneven NTL reduction, matching the 17-km danger zone, 
+ashfall extent, and built-up areas. The most intensely dimmed spots (Figure 10) were 
+within the 17-km danger zone. Within this zone, the dimming was concentrated in 
+and around built-up areas (see land cover map in Del Castillo et al. 2020) within the 
+ash-covered coasts north and west of Taal Lake (see ashfall extent map in Merin 
+et al. 2021). Although agricultural losses have been reported (NEDA IVA 2020), 
+NTLC was not able to detect these impacts.
+Aggregating the pixels revealed the most affected municipalities, including Talisay, 
+Laurel, Santa Teresita, Agoncillo, Lemery, San Nicolas, Taal, and Balete. This list 
+largely aligns with reports, with two key discrepancies. First, the overestimated NTLC 
+value in Santa Teresita was caused by an anomalous cluster of high NTL pixels in the 
+January 2017 image, which inflated pre-eruption brightness and led to a significant 
+NTL drop in 2020. Since the anomaly occurred in 2017, it was unrelated to the erup­
+tion. Second, our list missed several municipalities identified in government reports 
+(NEDA IVA 2020), including Alitagtag, Cuenca, Lipa City, Malvar, Mataasnakahoy, 
+Tanauan, and Tagaytay. This could be due to increased NTL emissions from evacu­
+ation sites in those areas. Despite these discrepancies, our NTLC map and the munic­
+ipalities identified by our method demonstrate the potential of NTL data for mapping 
+volcanic eruption impacts with fine spatial detail.
+5.3. Policy and research recommendations
+The temporal analysis implies the importance of prompt lifeline restoration and 
+financial-support distribution for recovery. It further signifies that the impacts are 
+not dimensionless values. Beyond the ballpark loss estimate, economic impacts have a 
+temporal dimension shaped by dynamic factors like accompanying hazards, such as 
+earthquakes, damaged infrastructures, and affected population flux, often neglected 
+due to data limitations. This study demonstrated that EC data could fill this data gap. 
+However, gaps still exist, particularly in spatial and sectoral disaggregation of EC 
+data. Hence, it would be helpful for researchers to have more frequently updated EC 
+data with finer spatial resolution and sectoral classification to enable near-real-time 
+impact monitoring and to have further studies investigating how monitoring these 
+impacts could reduce losses and recovery time.
+The spatial analysis from the NTLC maps can guide reconstruction planning. 
+Reconstruction should avoid high-risk zones identified as affected areas in the NTLC 
+GEOMATICS, NATURAL HAZARDS AND RISK
+15
+
+maps, which coincided with those devastated by past eruptions, such as in 1911 
+(Maso 1911). The NTLC map can also serve as a basis for assistance funds applica­
+tion, to which victims can apply based on the state of calamity declaration, often cov­
+ering entire administrative units. Such broad coverage means that support is not 
+always proportionate to the damage suffered. This study highlights the uneven impact 
+distribution within a municipality, suggesting that the NTLC map can help direct aid 
+to the most affected citizens.
+6. Conclusion
+This study analyzed the spatiotemporal distribution of economic impacts using daily 
+EC and monthly NTL data. We computed ECL and NTLC as indicators of economic 
+activity reduction. Results showed dynamic fluctuations and spatial heterogeneity in 
+economic impacts. Temporal analysis showed that ECL had two loss peaks and two 
+recovery valleys, congruent with power outages and restoration, road closures, earth­
+quake occurrences, the number of affected populations, evacuees, and assistance dis­
+tribution. This finding highlights the importance of temporal dimension analysis and 
+frequent data updating to capture the dynamic impact developments. The spatial ana­
+lysis showed significant NTL reductions at the intersection of ashfall extent and built- 
+up areas. This analysis detected the municipalities with the most NTL reduction and 
+mapped the most affected areas within municipalities. This finding can guide recon­
+struction planning and support prioritization.
+We note that the results are limited to non-agricultural economic activities as these 
+do not use substantial energy and emit significant light at night. Further, the results 
+only cover the immediate impacts because the method cannot perform impact esti­
+mates for multiple hazards. This study also featured two separate analyses using EC 
+for temporal distribution and NTL for spatial distribution due to the differences in 
+scales. Future research could lengthen the study period to monitor long-term impacts, 
+use finer resolution data with sectoral classification, and explore other ways to use 
+EC in conjunction with NTL data.
+To conclude, EC and NTL datasets can be alternative methods for analyzing the 
+spatiotemporal distributions of immediate economic impacts from a volcanic erup­
+tion. This method features remote impact assessment for response and recovery plan­
+ning, even with ongoing hazards. Using high-frequency EC and high-resolution NTL 
+data, economic impact estimates of volcanic eruptions can be free from spatiotempo­
+ral blindness.
+Acknowledgments
+We would like to acknowledge the National Grid Corporation of the Philippines for providing 
+the electricity consumption data, the Philippine Atmospheric, Geophysical and Astronomical 
+Services Administration for the requested weather data, and the EFOI portal. We would also 
+like to acknowledge the Innovative Asia Program of Japan International Cooperation Agency, 
+the Ministry of Education, Culture, Sports, Science and Technology, and Kyoto University for 
+their support.
+16
+M. F. P. DEL CASTILLO ET AL.
+
+Disclosure statement
+The authors have no relevant financial or non-financial interests to disclose.
+Funding
+This research did not receive funding.
+ORCID
+Ma. Flordeliza P. Del Castillo 
+http://orcid.org/0000-0003-2468-2301 
+Data availability
+Data will be made available on request.
+References
+Ai H, Zhong T, Zhou Z. 2022. The real economic costs of COVID-19: insights from electricity 
+consumption data in Hunan Province, China. Energy Econ. 105:105747. doi: 10.1016/j. 
+eneco.2021.105747.
+Al-Mulali U, Mohammed A. 2015. The relationship between energy consumption and GDP in 
+emerging countries. Int J Energy Sect Manag. 9(1):77–93. doi: 10.1108/IJESM-04-2013-0006.
+Balangue-Tarriela MIR, Lagmay AMF, Sarmiento DM, Vasquez J, Baldago MC, Yba~nez R, 
+Yba~nez AA, Trinidad JR, Thivet S, Gurioli L, et al. 2022. Analysis of the 2020 Taal Volcano 
+tephra fall deposits from crowdsourced information and field data. Bull Volcanol. 84(3):35. 
+doi: 10.1007/s00445-022-01534-y.
+Bayudan-Dacuycuy C. 2017. Energy consumption, weather variability, and gender in the 
+Philippines: a discrete/continuous approach. Quezon: Philippine Institute for Development 
+Studies. https://pidswebs.pids.gov.ph/CDN/PUBLICATIONS/pidsdps1706.pdf.
+Beyer RC, Franco-Bedoya S, Galdo V. 2021. Examining the economic impact of COVID-19 in 
+India through daily electricity consumption and nighttime light intensity. World Dev. 140: 
+105287. doi: 10.1016/j.worlddev.2020.105287.
+Brucal A, Roezer V, Dookie DS, Byrnes R, Ravago MLV, Cruz F, Narisma G. 2020. Disaster 
+impacts and financing: local insights from the Philippines: policy report. London: Grantham 
+Research Institute on Climate Change and the Environment and Center for Climate Change 
+Economics and Policy, London School of Economics and Political Science. https://www.ate­
+neo.edu/sites/default/files/2022-06/ADMU%20WP%202020-15%20Disaster%20impacts% 
+20and%20financing_Local%20insights%20from%20the%20Philippines.pdf.
+Chen J, Gao M, Cheng S, Hou W, Song M, Liu X, Liu Y. 2022. Global 1km x 1km gridded 
+revised real gross domestic product and electricity consumption during 1992-2019 based on 
+calibrated nighttime light data. Sci Data. 9(1):202. doi: 10.1038/s41597-022-01322-5.
+Cheng Y, Han X. 2022. Assessing the economic loss due to natural disasters from outer space. 
+Clim Serv. 26:1–8. doi: 10.1016/j.cliser.2022.100286.
+Dacuycuy CB. 2019. Energy consumption, weather fluctuation, and household composition in 
+the Philippines. Econ Bull. 39(1):380–394. http://www.accessecon.com/Pubs/EB/2019/ 
+Volume39/EB-19-V39-I1-P39.pdf.
+Del Castillo MFP, Fujimi T, Tatano H. 2024. Estimating sectoral COVID-19 economic losses 
+in the Philippines using nighttime light and electricity consumption data. Front Public 
+Health. 12:1308301. doi: 10.3389/fpubh.2024.1308301.
+Del Castillo MFP, Paraiso PJ, Vicente MCT, Jamero MP, Narisma GT. 2020. Impacts of Taal 
+Volcano Pheatic Eruption (12 January 2020) on the Environment and Population: satellite-Based 
+GEOMATICS, NATURAL HAZARDS AND RISK
+17
+
+Observations Compared with Historical Records. Quezon City: Manila Observatory; [accessed 
+2024 Apr 27]. https://www.observatory.ph/2020/04/20/impacts-of-taal-volcano-phreatic-eruption- 
+12-january-2020-on-the-environment-and-population-satellite-based-observations-compared- 
+with-historical-records/.
+Department of Energy. 2018. Compendium of Philippine energy statistics and information. 
+Taguig: policy Formulation and Research Division, Energy Policy and Planning Bureau, 
+Department of Energy; [accessed 2024 Apr 24]. https://www.doe.gov.ph/energy-information- 
+resources?q=compendium-philippine-energy-statistics-and-information.
+DOE. 2020. 2020 Power Statistics Monthly Electricity Consumption per Sector per Grid; 
+[accessed 2024 Apr 24]. https://doe.gov.ph/energy-statistics/philippine-power-statistics?­
+page=1.
+Doll CN, Muller JP, Elvidge CD. 2000. Night-time imagery as a tool for global mapping of 
+socioeconomic parameters and greenhouse gas emissions. Ambio. 29(3):157–162. doi: 10. 
+1639/0044-7447(2000)029[0157:NTIAAT]2.0.CO;2.
+Earth Observation Group. 2021. See the World at Night. Retrieved from Earth Observation 
+Group Payne Institute for Public Policy; [accessed 2024 Apr 27]. https://eogdata.mines.edu/ 
+products/vnl/.
+Elvidge C, Baugh K, Zhizhin M, Hsu FC. 2013. Why VIIRS data are superior to DMSP for 
+mapping nighttime lights. APAN Proceedings. 35(0):62. doi: 10.7125/APAN.35.7.
+Elvidge CD, Baugh K, Zhizhin M, Hsu F, Ghosh T. 2017. VIIRS night-time lights. Int J 
+Remote Sens. 38(21):5860–5879. doi: 10.1080/01431161.2017.1342050.
+Elvidge CD, Zhizhin M, Ghosh T, Hsu FC, Taneja J. 2021. Annual time series of global VIIRS 
+nighttime lights derived from monthly averages: 2012-2019. Remote Sens. 13(5):1–14. doi: 
+10.3390/rs13050922.
+Faisal F, Tursoy T, Ercantan O. 2017. The relationship between energy consumption and 
+economic growth: evidence from non-Granger causality test. 9th International 
+Conference on Theory and Application of Soft Computing, Computing with Words and 
+Perception, ICSCCW, 2017 (pp. 671–675). Budapest: Procedia Comput Sci. doi: 10.1016/ 
+j.procs.2017.11.294.
+Fezzi C, Fanghella V. 2020. Real-time estimation of the short-run impact of COVID-19 on 
+economic activity using electricity market data. Environ Resour Econ (Dordr). 76(4):885– 
+900. doi: 10.1007/s10640-020-00467-4.
+Ghosh T, Powell R, Elvidge CD, Baugh KE, Sutton P, Anderson S. 2010. Shedding light on the 
+global distribution of economic activity. Open Geogr J. 3:147–160. doi: 10.2174/ 
+1874923201003010147].
+Henderson J, Storeygard A, Weil DN. 2012. Measuring economic growth from outer space. 
+Am Econ Rev. 102(2):994–1028. doi: 10.1257/aer.102.2.994.
+Jia M, Gong Y, Belabbes S, Dell’Oro L. 2023. Estimating natural disaster loss using improved 
+daily night-time light data. Int J Appl Earth Obs Geoinf. 120:1–10. doi: 10.1016/j.jag.2023. 
+103359.
+Khan R, Kong Y. 2020. Effects of energy consumption on GDP: New evidence of 24 countries 
+on their natural resources and production of energy. ECO. 99(1):26–49. doi: 10.15388/Ekon. 
+2020.1.2.
+Lim HR, Lim MB, Rojas AM. 2022. Towards modelling of evacuation behavior and planning 
+for emergency logistics due to the Philippine Taal Volcanic eruption in 2020. Nat Hazards. 
+114(1):553–581. doi: 10.1007/s11069-022-05401-z.
+Lin T, Rybnikova N. 2023. Changes in the association between GDP and Night-time lights 
+during the COVID-19 pandemic: a subnational-level analysis for the US. Geomatics. 3(1): 
+156–173. doi: 10.3390/geomatics3010008.
+Malik I. 2022. Spatial dimension of impact, relief, and rescue of the 2014 flood in Kashimir 
+Valley. Nat Hazards (Dordr). 110(3):1911–1929. doi: 10.1007/s11069-021-05018-8.
+Maso RM. 1911. The Eruption of Taal Volcano: January 30, 1911. Department of the Interior 
+Weather Bureau, 7. In the digital collection The United States and its Territories, 1870 - 
+18
+M. F. P. DEL CASTILLO ET AL.
+
+1925: the Age of Imperialism. University of Michigan Library Digital Collections. [accessed 
+2024 Apr 27]. https://name.umdl.umich.edu/agj1343.0001.001.
+Merin E, Yute A, Sarmiento C, Elazagui E. 2021. Ashfall dispersal mapping of the 2020 Taal 
+Volcano eruption using Diwata-2 Imagery for disaster assessment. Int Arch Photogramm 
+Remote Sens Spatial Inf Sci. XLVI-4/W6-2021:221–226. doi: 10.5194/isprs-archives-XLVI-4- 
+W6-2021-221-2021.
+Nagai M, Nakada S. 2022. Impact on the electric infrastructure due to volcanic ash from 
+hydrovolcanic eruption of Aso volcano in 2016. JDR. 17(5):829–838. doi: 10.20965/jdr.2022. 
+p0829.
+NDRRMC. 2020. NDRRMC Update: situation Report No. 87 re Taal Volcano Eruption. 
+Quezon, Metro Manila, Philippines: National Disaster Risk Reduction and Management 
+Council; [accessed 2024 Apr 27]. https://ndrrmc.gov.ph/attachments/article/4007/Sitrep_No_ 
+87_re_Taal_Volcano_Eruption_as_of_06March2020_8AM.pdf.
+NEDA IVA. 2020. CALABARZON Rehabilitation and recovery program for Taal Volcano 
+Eruption affected areas. National Economic and Development Authority-Region 4A 
+(CALABARZON); [accessed 2024 Apr 27]. https://calabarzon.neda.gov.ph/wp-content/ 
+uploads/2022/04/RRP-for-Taal-Volcano-Eruption_RDRRMC-Approved-with-Investment- 
+Program_resaved-06182021.pdf.
+NGCP. 2023. National Grid Corporation of the Philippines Operations Hourly Demand. 
+[accessed 2024 Apr 27]. https://www.ngcp.ph/operations #operations.
+Pagaduan JA. 2022. Do higher-quality nighttime lights and net primary productivity predict 
+subnational GDP in developing countries? Evidence from the Philippines. Asian Econ J. 
+36(3):288–317. doi: 10.1111/asej.12278.
+PAGASA. 2023. Climatological Data January 1, 2013 to December 31, 2022. Quezon, Metro 
+Manila: Department of Science and Technology Philippine Atmospheric, Geophysical and 
+Astronomical Services Administration Climatology and Agrometeorology Division, Climate 
+and Agrometeorological Data Section; [accessed 2023 Jul 4]. http://bagong.pagasa.dost.gov. 
+ph/climate/climate-data.
+PHIVOLCS. 2020. Earthquake Information. PHIVOLCS [accessed 2024 Apr 27]. https://www. 
+phivolcs.dost.gov.ph/index.php/earthquake/earthquake-information3.
+Qiang Y, Huang Q, Xu J. 2020. Observing community resilience from space: using nighttime 
+lights to model economic disturbance and recovery pattern in natural disaster. Sustain 
+Cities Soc. 57:102115. doi: 10.1016/j.scs.2020.102115.
+Ramirez R. 2020. The Philippines volcanic eruption is harming public health, but not the cli­
+mate—yet [accessed January 23, 2020]. https://grist.org/climate/the-philippines-volcanic- 
+eruption-is-harming-public-health-but-not-the-climate-yet/.
+Rivera D. 2020. Batangas power coops to incur losses due to Taal. The Philippine Star 
+[accessed 2024 Apr 27]. https://www.philstar.com/business/2020/01/20/1986137/batangas- 
+power-coops-incur-losses-due-taal.
+Sabado JF, Albutra JB, Centino SP, Yap WC. 2022. Determinants of energy consumption: a 
+review of the Philippine energy sector. Eur J Econ Fin Res. 6(3):68–102. doi: 10.46827/ejefr. 
+v6i3.1323.
+Santos A. 2020. Forecasting residential electricity demand in the Philippines using an error 
+correction model. PRE. 57(1):121–151. doi: 10.37907/6ERP0202J.
+Santos J, Roquel KZ, Lamberte A, Tan RR, Aviso KB, Tapia JF, Solis CA, Yu KS. 2023. 
+Assessing the economic ripple effects of critical infrastructure failures using the dynamic 
+inoperability input-output model: a case study of the Taal Volcano eruption. Sustain 
+Resilient Infrastruct. 8(sup1):68–84. doi: 10.1080/23789689.2022.2127999.
+Sarkar S. 2021. Rapid assessment of cyclone damage using NPP-VIIRS DNB and ancillary 
+data. Nat Hazards (Dordr). 106(1):579–593. doi: 10.1007/s11069-020-04477-9.
+Strobl E. 2019. The impact of typhoons on economic activity in the Philippines: evidence from 
+nightlight intensity. Mandaluyong: ADB. https://www.adb.org/publications/impact-typhoons- 
+philippines.
+GEOMATICS, NATURAL HAZARDS AND RISK
+19
+
+Tveit T, Skoufias E, Strobl E. 2022. Using VIIRS nightlights to estimate the impact of the 2015 
+Nepal earthquakes. Geoenviron Disasters. 9(1):1–13. doi: 10.1186/s40677-021-00204-z.
+Wang X, Si C, Gu J, Liu G, Liu W, Qiu J, Zhao J. 2021. Electricity-consumption data reveals 
+the economic impact and industry recovery during the pandemic. Sci Rep. 11(1):19960. doi: 
+10.1038/s41598-021-98259-3.
+Wilson TM, Stewart C, Sword-Daniels V, Leonard GS, Johnston DM, Cole JW, Wardman J, 
+Wilson G, Barnard ST. 2012. Volcanic ash impacts on critical infrastructure. Phys Chem 
+Earth. 45-46:5–23. doi: 10.1016/j.pce.2011.06.006.
+Zheng Q, Seto KC, Zhou Y, You S, Weng Q. 2023. Nighttime light remote sensing for urban 
+applications: progress, challenges, and prospects. ISPRS J Photogramm Remote Sens. 202: 
+125–141. doi: 10.1016/j.isprsjprs.2023.05.028.
+Zhou R, Hu Y, Zou L, Cai H, Zhou B. 2024. Understanding the disparate impacts of the 2021 
+Texas winter storm and power outages through mobile phone location data and nighttime 
+light images. Int J Disaster Risk Reduct. 103:104339. doi: 10.1016/j.ijdrr.2024.104339.
+20
+M. F. P. DEL CASTILLO ET AL.

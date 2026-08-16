@@ -1,0 +1,937 @@
+Page 1/30
+Developing Meaning-Based Complexity Indices
+Based on Cognitive-Functional Connectives and
+Validating Their Predictive Utility in Automated
+Writing Evaluation
+Nahyung Kong 
+Yonsei University
+Research Article
+Keywords: academic writing, argumentative writing, academic vocabulary, lexical complexity, native
+Korean writers, automated writing evaluation, argumentative discourse
+Posted Date: September 1st, 2025
+DOI: https://doi.org/10.21203/rs.3.rs-7247858/v1
+License:   This work is licensed under a Creative Commons Attribution 4.0 International License.  
+Read Full License
+Additional Declarations: No competing interests reported.
+
+Page 2/30
+Abstract
+This study develops and validates three meaning-based complexity indices—Academic Diversity (ADiv),
+Academic Weight (AWeight), and Academic Rate (ARate)—to quantify academic vocabulary usage in
+native Korean undergraduate students’ argumentative writing and assess their predictive value in writing
+evaluation. Drawing on a large-scale national writing assessment corpus comprising 2,429 essays from
+two academic prompts, the study investigates how these indices reflect cognitive depth and discourse
+competence in L1 academic writing.
+Regression analyses reveal that AWeight, which captures the semantic sophistication of academic terms
+based on graded difficulty, exhibits a consistently positive relationship with writing scores. Contrary to
+prior assumptions of an inverted-U shape, no detrimental effects of “excessive complexity” were
+observed within the actual learner range. AWeight also emerged as the most effective diagnostic
+indicator for distinguishing high- and low-scoring writers, with a potential benchmark range identified
+between 20–25 points.
+While integrated models incorporating all three indices yielded only marginal improvements in predictive
+power (R² = 0.0574), clustering analyses revealed distinct lexical strategy types, highlighting variation in
+how native speakers deploy academic vocabulary. Notably, a subgroup exhibiting “inappropriate
+complexity”—high lexical sophistication but low scores—suggests that lexical complexity alone is
+insufficient without discourse-level alignment.
+These findings underscore the gatekeeping function of academic vocabulary complexity in automated
+writing evaluation (AWE) systems and call for multi-dimensional assessment frameworks that integrate
+semantic depth, discourse appropriateness, and strategic deployment. The study contributes
+theoretically by reframing lexical complexity as a context-sensitive, functional construct, and practically
+by proposing pedagogically interpretable indices for AWE and learner diagnostics in native academic
+writing contexts.
+1. Introduction
+This study aims to empirically investigate the relationship between academic vocabulary (AV)
+complexity and writing assessment scores, while also exploring the potential of integrated, multi-
+indicator predictive models. With the advancement of Automated Writing Evaluation (AWE) systems,
+there has been growing interest in quantifying linguistic complexity in student writing. However, early
+studies have primarily relied on surface-level features such as sentence length, word frequency, and
+syntactic complexity (Kyle & Crossley, 2015; Lu, 2012), which have been consistently criticized for their
+inability to capture writers' cognitive depth and academic reasoning.
+In the Korean educational context, where academic writing serves as a critical gatekeeping mechanism
+for university advancement and scholarly participation, the strategic deployment of academic vocabulary
+represents more than linguistic competency—it embodies cultural and cognitive dimensions of scholarly
+
+Page 3/30
+discourse deeply embedded in East Asian educational traditions. Unlike Western academic writing that
+often emphasizes clarity and directness, Korean scholarly discourse values lexical sophistication and
+conceptual density as markers of intellectual maturity and cultural literacy. This cultural specificity
+necessitates assessment frameworks that honor indigenous scholarly conventions while maintaining
+methodological rigor.
+To successfully participate in academic discourse communities, writers must effectively employ field-
+specific terminology, articulate abstract concepts with precision, and structure logical reasoning within
+coherent discourse frameworks (Biber & Gray, 2010; Corson, 1997). These abilities are not adequately
+represented by simple metrics like word rarity or length, necessitating meaning-based complexity indices
+that better reflect cognitive and discourse-level sophistication.
+In particular, academic vocabulary—also referred to in the Korean context as 사고도구어 (thinking tool words)—
+has become increasingly essential in university-level writing instruction, where academic literacy is
+emphasized across disciplines. The Korean conceptualization of 사고도구어 extends beyond English-based
+academic word lists to encompass culturally grounded cognitive tools that facilitate abstract reasoning
+and scholarly argumentation within Confucian intellectual traditions. In higher education, writing is not
+only a communicative act but also a cognitive tool for constructing disciplinary knowledge and
+demonstrating epistemic engagement. Accordingly, students are expected to utilize abstract,
+metalinguistic expressions to connect, justify, contrast, or condition arguments—functions that are
+central to both academic persuasion and conceptual organization.
+This focus on Korean L1 writers addresses a significant gap in Asian language testing research, where
+most complexity studies have focused on English L2 writing. By examining native speaker strategic
+variation in academic vocabulary deployment, this study contributes to understanding how cultural and
+linguistic factors shape lexical complexity patterns in ways that transcend simple L1/L2 distinctions.
+This study thus focuses on academic vocabulary as a core construct in developing lexical complexity
+indices that reflect native undergraduate writers' capacity for conceptual development and discourse
+organization. By operationalizing these meaning-oriented indicators, the study aims to capture
+cognitively loaded vocabulary patterns that underlie successful academic writing within the distinctive
+cultural and educational context of Korean higher education.
+Accordingly, this study addresses the following research questions:
+RQ1. What is the relationship between academic vocabulary complexity and writing assessment scores?
+RQ1-1. Does the academic vocabulary sophistication index (AWeight) exhibit a non-linear (e.g.,
+inverted U-shaped) relationship with writing scores?
+RQ1-2. What is the optimal range of AWeight that contributes positively to writing scores, and what
+effects emerge when this range is exceeded?
+
+Page 4/30
+RQ2. Does a composite model integrating academic vocabulary diversity (ADiv), sophistication
+(AWeight), and density (ARate) provide complementary insights and improve the interpretability of
+writing assessment compared to single-indicator models?
+RQ2-1. What interpretive value or diagnostic potential does the integration of multiple indicators
+offer beyond predictive accuracy?
+RQ2-2. How do different indicators contribute to model explanations, and which combinations yield
+the most informative representations of writing performance?
+RQ3. How can academic vocabulary complexity indices help distinguish writing strategies between high-
+scoring and low-scoring groups?
+RQ3-1. What distributional patterns or strategic tendencies are observed in the use of AV indices
+across top and bottom scoring groups?
+RQ3-2. What general patterns or characteristics can be identified in cases where high AV complexity
+coincides with low writing scores?
+2. Literature Review: Academic Vocabulary and Automated Writing
+Assessment
+Academic vocabulary refers to a set of lexical resources that are essential for higher-order thinking and
+academic achievement, particularly in formal and scholarly contexts (Martin, 1976; Nation, 2001). Unlike
+basic conversational vocabulary or domain-specific technical terms, academic vocabulary comprises
+cognitively functional expressions that facilitate complex meaning-making across disciplines. These
+lexical items serve to define abstract concepts, organize logical relations, and construct coherent
+academic discourse.
+One of the key characteristics of academic vocabulary lies in its abstract and metacognitive nature.
+Rather than reflecting surface-level lexical difficulty, these items function as tools for conceptualization,
+classification, analysis, comparison, and justification (Corson, 1997; Coxhead, 2000). Accordingly,
+academic vocabulary plays a crucial role in shaping argumentation and reasoning processes, making it a
+core component of academic literacy.
+For native speakers, academic vocabulary is not merely a communicative tool but a vehicle for
+constructing and manipulating abstract knowledge. It has been classified as both "academic" and
+"cognitive" vocabulary and is distinguished from field-specific jargon by its cross-disciplinary utility
+(Schmitt & Schmitt, 2020). Its role in internalizing and generating academic discourse structures
+imposes substantial cognitive demands—even on native speakers with limited academic literacy (Laufer,
+2013). This study specifically focuses on native Korean undergraduate writers, whose ability to use
+academic vocabulary reflects their discourse-level academic competence, rather than second-language
+acquisition.
+
+Page 5/30
+In academic writing, the use of academic vocabulary is closely tied to writing competence. These
+expressions serve not only as lexical choices but also as strategic devices for constructing claims,
+signaling reasoning structures, and conveying epistemic stance. Thus, the ability to deploy academic
+vocabulary effectively is indicative of a writer’s capacity for organizing arguments, engaging critically
+with content, and producing coherent academic discourse—core dimensions of university-level writing
+performance.
+Despite its importance, academic vocabulary has received limited attention in writing assessment
+research. Traditional studies have relied on surface-level lexical complexity measures such as the Type-
+Token Ratio (TTR), Mean Segmental TTR (MSTTR), lexical diversity, and rare word usage rates (Kyle &
+Crossley, 2015; Lu, 2012). While such indicators are useful for gauging linguistic fluency or lexical range,
+they fail to capture meaning-oriented complexity—such as discourse function, semantic load, and
+strategic deployment within a text (Biber & Gray, 2010).
+In response to these limitations, recent studies have begun to focus more on the functional roles of
+vocabulary within discourse rather than on frequency-based metrics. Academic vocabulary has emerged
+as a central concept in this shift, with empirical research demonstrating its predictive power for reading
+comprehension, critical thinking, and academic success (Libben et al., 2007). Nonetheless, in the domain
+of Automated Writing Evaluation (AWE), research quantifying the strategic use of academic vocabulary
+remains scarce. Most current approaches are limited to detecting basic connectives or calculating
+lexical diversity in a surface-level manner.
+As AWE systems continue to evolve, there is a growing need to integrate more cognitively and
+rhetorically grounded scoring features. However, most existing work has emphasized the educational
+significance of academic vocabulary or its conceptual classification, without sufficiently addressing its
+operationalization within automated assessment models. This study addresses that gap by proposing
+meaning-based complexity indices that capture how academic vocabulary is deployed to construct
+conceptual meaning and discourse structure.
+By incorporating such indices into AWE systems, writing assessment can move beyond structural
+surface features toward evaluating deeper cognitive and rhetorical dimensions. These indicators can
+support high-level functions such as identifying high-performing writers, diagnosing ineffective lexical
+strategies, and providing targeted feedback on discourse construction. This approach holds particular
+promise for profiling native writers’ strategic variation in academic vocabulary use—a dimension often
+overlooked in current automated scoring frameworks.
+3. Research Design
+3.1. Data and Writing Tasks
+This study analyzed two argumentative writing tasks from the 2023 National Corpus for the
+Development of Korean Writing Proficiency Assessment, specifically the “Everyone's Corpus(모두의 말뭉치)”
+
+Page 6/30
+section compiled by the National Institute of the Korean Language (NIKL). Specifically, we used data
+from the “Everyone's Corpus(모두의 말뭉치)” section of the 2023 dataset, which contains a total of 5,000
+student-written texts. For this study, 2,429 essays were analyzed: 1,231 responses to Task Q2 (on legal
+regulations of hate speech) and 1,198 responses to Task Q3 (on restrictions on elderly drivers’ licenses).
+The corpus consists of argumentative texts written by native speakers of Korean enrolled in
+undergraduate academic writing courses at university-level institutions in Korea. The participants were
+all native Korean speakers, primarily first-year students, who were participating in regular curricular
+writing instruction. The writing tasks were administered as part of official coursework during academic
+semesters, under standardized test-like conditions (90-minute limit, no access to external resources).
+These constraints ensured that the essays reflect students’ authentic academic writing competence
+under evaluative pressure. This controlled setting ensures that the resulting texts reflect learners’
+authentic academic writing competence within evaluative constraints.
+Task Q2 required students to write a logical argument regarding whether hate speech should be legally
+regulated. The task prompt was as follows:
+Hate speech refers to verbal or non-verbal acts of public insult, demeaning, contempt, threat, or
+incitement to discrimination and violence against individuals or groups based on unjustifiable hatred. As
+hate speech denies the dignity of targeted individuals or groups and has detrimental effects on society,
+there are increasing calls for its legal regulation. Present your opinion on whether hate speech should be
+legally regulated, and support your view with logical reasoning.
+[Instructions] Write a complete essay with an introduction, body, and conclusion. Do not include a title.
+Length: Approximately 1,000 characters (± 200, including spaces). Time limit: 90 minutes.
+Task Q3 asked students to present their opinions on whether elderly drivers should have their licenses
+restricted. The task prompt was:
+In Korea, anyone aged 18 or older can obtain a driver’s license. However, due to recent traffic accidents
+caused by elderly drivers' slow responses, there are increasing arguments that people should be required
+to relinquish their licenses at a certain age. As Korean society continues to age, this issue can no longer
+be ignored. Present your opinion on whether driver’s licenses for elderly individuals should be restricted,
+and support your view with logical reasoning.
+[Instructions] Write a complete essay with an introduction, body, and conclusion. Do not include a title.
+Length: Approximately 1,000 characters (± 200, including spaces). Time limit: 90 minutes.
+The two tasks share structural characteristics that make them suitable for comparative analysis: they
+are both argumentative essays with similar length and time constraints, employ the same evaluation
+criteria (content, organization, and language use), and explicitly require an introduction–body–
+conclusion format. However, the nature of the topics provides a meaningful contrast for exploring
+
+Page 7/30
+academic vocabulary strategies: Task Q2 involves moral and social value judgments, while Task Q3
+requires more policy-oriented and pragmatic reasoning.
+All texts were provided in JSON format and include individual scores for three dimensions—content
+(eva_score_con), organization (eva_score_org), and language use (eva_score_exp)—as well as a total
+score. This study used the final evaluator’s scores as the basis for analysis. Among the evaluated
+domains, the language use score, which assesses lexical appropriateness, style, and grammatical
+accuracy, was considered most closely related to the use of academic vocabulary.
+3.2. Independent Variables: Academic Vocabulary
+Complexity Indicators
+This study established three complexity indicators as independent variables to quantitatively measure
+the usage patterns of academic vocabulary, which serves as a core lexical resource reflecting writers’
+cognitive competence in academic discourse. The academic vocabulary list was initially derived from
+Shin (2004) and was reclassified by the researcher based on discourse functions (see Kong, 2025). The
+classification criteria included cognitive functions such as causation, justification, condition, contrast,
+and exemplification, and each lexical item was graded according to its functional role and level of
+difficulty.
+The first indicator, Academic Diversity (ADiv), refers to the number of unique academic vocabulary types
+(i.e., type count) that appear in a text without repetition. ADiv captures the breadth of a writer’s academic
+lexical repertoire, reflecting their ability to strategically activate a range of academic concepts beyond
+mere lexical variety. It goes beyond surface-level counts to indirectly measure a writer’s ability to
+strategically activate a diverse range of academic concepts. A high ADiv value implies the use of varied
+thinking strategies and conceptual tools and is positively associated with advanced discourse
+organization abilities (Biber & Gray, 2010).
+The second indicator, Academic Weight (AWeight), is calculated by multiplying each academic term’s
+frequency by its assigned cognitive weight, derived from a four-level difficulty scale within the text. The
+grading system follows the four-level scheme proposed in Shin (2004), ranging from Grade 1 (basic
+conceptual terms) to Grade 4 (highly abstract conceptual terms). This indicator aims to reflect not
+merely the amount but the conceptual complexity and abstractness of the vocabulary used. As such,
+AWeight serves as a proxy for cognitive depth, capturing nuances often missed by frequency-based
+metrics. It also assesses the sophistication and precision of vocabulary usage, which underpin
+academic persuasiveness.
+The third indicator, Academic Rate (ARate), is the proportion (%) of academic vocabulary tokens out of
+the total tokens in a text. It indicates the density of academic vocabulary usage and can serve as a proxy
+for the overall “academicness” of the writing. While ARate helps assess the extent of academic
+discourse tendencies in learners’ language, previous studies (e.g., Hinkel, 2003; Norris & Ortega, 2009)
+
+Page 8/30
+caution that excessive density may reduce readability and clarity. Accordingly, ARate can also be useful
+for detecting overuse or inappropriate complexity.
+Together, these three indicators provide complementary perspectives on academic vocabulary usage
+and offer a multi-dimensional basis for assessing the lexical complexity of learner texts.
+Although both AWeight and ARate are positively correlated, they capture distinct dimensions of
+academic vocabulary use. AWeight emphasizes the semantic weight and cognitive sophistication of
+each vocabulary item, assigning graded difficulty based on its abstractness and functional role. In
+contrast, ARate measures the proportional density of academic vocabulary relative to the total token
+count, providing a coarse-grained indicator of overall lexical register. Thus, AWeight represents
+qualitative complexity—highlighting the strategic use of cognitively demanding terms—whereas ARate
+denotes quantitative saturation of academic vocabulary within a text. Distinguishing these two
+dimensions is essential for a nuanced interpretation of lexical complexity.
+3.3. Analysis Procedures
+3.3.1. Variables and Statistical Assumptions
+Dependent Variables
+The dependent variables were the total writing score and the expression score (eva_score_exp) provided
+by the National Institute of Korean Language. The expression score reflects vocabulary appropriateness,
+grammatical accuracy, and stylistic coherence—dimensions directly related to academic vocabulary
+usage. The total score, aggregating content, organization, and expression components, served as the
+primary indicator of overall writing quality for AWE model evaluation.
+Statistical Assumptions and Preprocessing
+Prior to analysis, we examined distributional properties and statistical assumptions:
+Normality: Shapiro-Wilk tests and Q-Q plots confirmed approximate normality for dependent
+variables
+Multicollinearity: Variance Inflation Factor (VIF) analysis revealed high correlation between AWeight
+and ARate (r = 0.92, VIF > 5), necessitating careful interpretation in integrated models
+Outliers: Values exceeding 3 standard deviations were identified but retained after sensitivity
+analysis showed minimal impact on results
+Missing data: Complete case analysis was employed (n = 2,429 with no missing values)
+3.3.2. Four-Stage Sequential Analysis Design
+Step 1: Nonlinear Relationship Analysis (RQ1)
+
+Page 9/30
+Objective: Investigate linear vs. nonlinear relationships between academic vocabulary complexity and
+writing performance.
+Methods:
+Model Comparison: Linear regression vs. quadratic polynomial models for each indicator (ADiv,
+AWeight, ARate)
+Nonlinearity Testing: Specifically tested inverted U-shaped hypothesis for AWeight using quadratic
+terms
+Model Selection: AIC/BIC criteria and nested F-tests for model comparison
+Validation: 10-fold cross-validation with 80/20 train-test split
+Visualization: Scatter plots with fitted curves and 95% confidence intervals
+Statistical Power: Post-hoc power analysis confirmed adequate sample size (n = 2,429) for detecting
+medium effect sizes (f² ≥ 0.15) with power > 0.80.
+Step 2: Integrated Model Construction (RQ2-1)
+Objective: Evaluate predictive validity and complementary power of combined indicators.
+Model Architecture:
+1. Baseline Linear Model: ADiv + AWeight + ARate as main effects
+2. Enhanced Nonlinear Model: Main effects + AWeight² quadratic term
+3. Regularized Model: Ridge regression (α = 0.1) to address multicollinearity
+Performance Metrics:
+Accuracy: RMSE, MAE, R² with 95% confidence intervals
+Validation: Stratified 10-fold cross-validation with shuffling
+Stability: Bootstrap resampling (n = 1,000) for coefficient confidence intervals
+Interpretability: SHAP (SHapley Additive exPlanations) values for feature importance
+Multicollinearity Management: Given high VIF values, we employed:
+Ridge regression for coefficient stabilization
+Principal Component Analysis (PCA) as alternative dimensionality reduction
+Variance decomposition to isolate unique vs. shared variance contributions
+Step 3: Diagnostic Profiling and Pattern Discovery (RQ2-2)
+Objective: Identify learner subtypes through unsupervised clustering of indicator profiles.
+
+Page 10/30
+Clustering Methodology:
+Algorithm Selection: K-means clustering with elbow method and silhouette analysis for optimal k
+Distance Metric: Euclidean distance on standardized indicators (z-scores)
+Validation: Gap statistic and bootstrap clustering stability (Jaccard coefficient > 0.75)
+Alternative Methods: DBSCAN for density-based clustering comparison
+Cluster Interpretation:
+Internal Validation: Within-cluster sum of squares, silhouette coefficients
+External Validation: ANOVA F-tests for cluster differences in writing scores
+Effect Sizes: Cohen's d for between-cluster comparisons with Bonferroni correction
+Pedagogical Mapping: Cluster characteristics mapped to instructional implications
+Step 4: Strategic Group Analysis (RQ3)
+Objective: Distinguish writing strategies between performance groups and identify inappropriate
+complexity patterns.
+Group Definition:
+High Performers: Top 25th percentile (n = 607, score ≥ 36.0)
+Low Performers: Bottom 25th percentile (n = 607, score ≤ 24.0)
+Inappropriate Complexity: Top 25% AWeight + Bottom 25% total score (n = 106, 4.4%)
+Statistical Comparisons:
+Between-group Tests: Independent t-tests with Welch's correction for unequal variances
+Effect Sizes: Cohen's d with 95% confidence intervals, interpreted using Cohen's (1988) benchmarks
+Distribution Analysis: Kolmogorov-Smirnov tests for distributional differences
+Practical Significance: Minimum meaningful difference thresholds based on score ranges
+Qualitative Integration:
+Text Selection: Systematic sampling of 20 texts per inappropriate complexity case
+Discourse Features: Manual coding for lexical-argument alignment, register consistency, semantic
+precision
+Inter-rater Reliability: Two independent coders with Cohen's κ > 0.80 for qualitative features
+3.3.3. Software and Reproducibility
+
+Page 11/30
+All analyses were conducted in R (v4.3.0) using the packages tidyverse, caret, cluster, SHAP, and
+ggplot2. Anonymized learner data and output files (in Excel format) are available via
+[https://drive.google.com/drive/folders/15rlRytuDy9xOmq9Ts_fHrAy89P35Qniq?usp=drive_link] to
+support transparency and reproducibility. Analysis scripts are available upon request.
+4. Results
+4.1. Descriptive Statistics and Correlation Analysis: Q2–Q3
+Task Comparison
+This section presents a comparative analysis of academic vocabulary complexity indicators—Academic
+Diversity (ADiv), Academic Weight (AWeight), and Academic Rate (ARate)—across two argumentative
+writing tasks: Q2 (“Legal Regulation of Hate Speech”) and Q3 (“Restrictions on Elderly Drivers'
+Licenses”). A total of 2,429 texts were analyzed (Q2: 1,231; Q3: 1,198), and the results are visualized in
+Fig. 1.
+First, regarding Academic Diversity (Fig. 1-a), the Q3 task (M = 5.205, SD = 2.362) yielded a significantly
+higher average than Q2 (M = 4.185, SD = 1.973), with a medium effect size (Cohen’s d = 0.467). The Q3
+distribution is clearly shifted to the right, with a wider spread and a maximum value of 15.0 compared to
+13.0 in Q2. This suggests that the Q3 prompt elicited a broader conceptual range, likely due to its focus
+on policy evaluation and real-life implications, which demand diverse academic vocabulary.
+Second, in terms of Academic Weight (Fig. <link rid="fig2">1</link>-b and 1-e), the mean values were
+relatively similar (Q2: M = 21.096; Q3: M = 22.301), and the effect size was negligible (d = 0.092).
+Figure 1-e shows comparable median AWeight scores across tasks, though Q3 exhibits slightly more
+variability in the upper quartile and a greater number of outliers. This indicates that while both tasks
+required cognitively demanding vocabulary, Q3 allowed for greater individual variation in the depth of
+lexical use.
+Third, the Academic Rate distribution (Fig. 1-c) showed a slightly higher mean for Q2 (M = 0.058, SD = 
+0.032) than for Q3 (M = 0.054, SD = 0.031), with a small effect size (d = 0.125). Notably, Q2 exhibits a
+more peaked distribution around the mode, suggesting more consistent use of academic vocabulary
+among writers, possibly due to the abstract nature of the hate speech topic.
+Fourth, correlation analyses (Fig. 1-d) revealed that AWeight had the strongest relationship with total
+writing scores in Q2 (r = 0.282), while this correlation decreased in Q3 (r = 0.162). This finding indicates
+that conceptually sophisticated vocabulary was more predictive of performance in abstract
+argumentative contexts. ADiv showed consistent but weaker correlations across tasks (Q2: r = 0.174; Q3:
+r = 0.159), while ARate correlated slightly more in Q2 (r = 0.194) than Q3 (r = 0.167).
+Finally, Fig. 1-f presents the effect sizes for each indicator across tasks. ADiv demonstrated the clearest
+task-level differentiation (d = 0.467), underscoring its role in capturing topical breadth. In contrast,
+
+Page 12/30
+AWeight and ARate showed minimal effect sizes, suggesting task-invariant patterns in lexical depth and
+density.
+These findings highlight that academic vocabulary complexity is not uniformly distributed across writing
+tasks and that task characteristics—such as topical abstraction and evaluative demand—can shape the
+deployment and impact of specific lexical strategies. Such variation provides empirical grounding for
+task-sensitive modeling in automated writing evaluation and supports the development of writer-specific
+diagnostic profiles that capture individual patterns of academic vocabulary deployment.
+Building on these insights, these preliminary findings establish the foundation for addressing our
+research questions by demonstrating that academic vocabulary complexity patterns are context-
+dependent, which will inform our subsequent analyses of nonlinear relationships (RQ1), integrated
+modeling approaches (RQ2), and strategic profiling of learner groups (RQ3).
+4.2. Relationship Between Academic Weight (AWeight) and
+Writing Scores
+Academic vocabulary complexity is regarded as a key factor that reflects the sophistication of academic
+reasoning in written discourse. This section analyzes the relationship between one of the complexity
+indicators—Academic Weight (AWeight)—and the overall writing scores, aiming to empirically reveal how
+lexical complexity operates in the actual assessment process. Departing from a purely correlational
+approach, we employed linear and non-linear regression models as well as interval-based analyses to
+explore predictive patterns and identify an optimal range of complexity.
+4.2.1. Functional Relationship Between AWeight and Writing
+Performance
+RQ 1–1 posits that the relationship between academic vocabulary complexity and writing performance
+may follow a non-linear curve, potentially exhibiting an inverted-U shape. To examine this hypothesis,
+both linear (1st-degree) and quadratic (2nd-degree polynomial) regression models were applied, and
+their predictive power was compared using R² values alongside theoretical peak points. The results are
+illustrated in Fig. 2-(a) and (b).
+Scatterplots and bar charts illustrating the relationship between AWeight (weighted academic
+vocabulary index) and total score for Q2 and Q3 tasks. Subfigures (a) and (b) display linear and quadratic
+regression fits, with R² values indicating predictive strength. Subfigures (c) and (d) present mean total
+scores across AWeight intervals with standard deviation bars, showing a general upward trend for Q2 but
+a flatter pattern for Q3.
+For the Q2 task, the linear regression model yielded an R² value of 0.0775, while the quadratic model
+slightly improved to 0.0785 (ΔR² = +0.0010). Similarly, in the Q3 task, the linear model had an R² of
+0.0287 and the quadratic model of 0.0308, showing only a marginal difference (ΔR² = +0.0021) that was
+
+Page 13/30
+not statistically significant (F-test for nested models: Q2: F(1, 1228) = 1.30, p > 0.1; Q3: F(1, 1195) = 2.62,
+p > 0.1). These findings indicate that although AWeight contributes some explanatory power to score
+prediction, the added value of a non-linear model remains statistically negligible.
+As clearly shown in Fig. 2-(a) and (b), the linear and quadratic regression lines nearly overlap across the
+observed AWeight range, visually confirming the minimal benefit of nonlinear modeling. Furthermore, the
+theoretical peak values predicted by the quadratic models were AWeight = 86.08 for Q2 and AWeight = 
+65.89 for Q3—both exceeding the observed learner range (Q2: 0–71; Q3: 0–75). This suggests potential
+model overfitting and limits the interpretability of the curve within the current dataset. Within the
+empirical range, the relationship between AWeight and writing scores appears to be unidirectional and
+positive, with no observed downturn that would support the inverted-U hypothesis.
+To supplement this interpretation, we conducted an interval-based analysis (Fig. 2-(c), (d)). In Q2,
+learners in the lowest AWeight quartile (average = 4.8) achieved a mean score of 26.8, whereas those in
+the highest quartile (average = 41.7) achieved 38.2. In Q3, scores rose from 28.2 (AWeight = 5.5) to 33.1
+(AWeight = 32.1). Crucially, no score decline was observed in the higher AWeight ranges, providing
+insufficient evidence for the claim that excessive lexical complexity negatively impacts assessment
+outcomes.
+In summary, AWeight demonstrates a meaningful positive linear relationship with writing scores. Within
+the observed learner range, higher AWeight values consistently correspond to improved performance.
+While the quadratic models suggest a theoretical peak beyond the observed data, such extrapolated
+interpretations should be treated with caution.
+4.2.2. Optimal Range of AWeight and Pedagogical
+Implications
+RQ 1–2 sought to determine an efficient range of AWeight that contributes most effectively to writing
+performance, offering pedagogical insights for instruction and feedback. To this end, we compared the
+average AWeight of the top and bottom 25% of scorers.
+The analysis revealed that high-scoring learners (top 25%) had an average AWeight of 25.8 in Q2 and
+25.3 in Q3, suggesting a common complexity level associated with strong performance, regardless of
+task type. In contrast, the bottom 25% averaged 17.2 (Q2) and 19.5 (Q3), yielding gaps of 8.6 and 5.8
+points, respectively. These patterns suggest that AWeight values around 20–25 may be associated with
+higher writing proficiency, indicating a potential benchmark for academic vocabulary complexity in
+argumentative writing. Learners exceeding this range tend to achieve higher scores, while those falling
+below it are more likely to underperform.
+This threshold has practical implications: designing instructional strategies and formative feedback
+centered around boosting learners' academic lexical complexity toward the 20–25 range may contribute
+to improved outcomes in writing tasks. Additionally, the greater AWeight gap observed in the Q2 task
+
+Page 14/30
+suggests that lexical complexity is more salient in abstract topics such as "hate speech regulation." This
+underscores the importance of task-specific sensitivity in writing assessment and supports the need for
+differentiated scoring criteria based on cognitive demands. However, these observational findings would
+require validation through longitudinal studies and educational interventions to establish causal
+relationships between vocabulary complexity training and writing improvement.
+4.3. Predictive Performance of the Integrated Model of
+Academic Vocabulary Complexity
+This section addresses RQ 2 by investigating whether an integrated model combining three academic
+vocabulary complexity indicators—Academic Diversity (ADiv), Academic Weight (AWeight), and
+Academic Rate (ARate)—can more effectively explain writing performance than models based on a
+single indicator. To this end, we employed both multiple linear regression and second-degree polynomial
+regression. Correlation analyses, feature importance metrics, and residual diagnostics were conducted
+to evaluate the validity and limitations of the integrated model.
+4.3.1 Performance Evaluation of the Multi-Indicator Model
+In response to RQ 2 − 1, we examined whether the integration of all three indicators yields
+complementary insights and improves predictive power. As illustrated in Fig. 3, the linear multi-indicator
+model produced an R² value of 0.0517, while the second-degree polynomial model slightly improved to
+0.0574. Although this represents an 11.0% relative increase, the absolute gain (ΔR² = 0.0057) was
+marginal and not statistically significant (F-test: p > 0.05). Notably, the integrated model outperformed
+the AWeight-only model (R² = 0.0497) by just 0.002, indicating limited added value from incorporating
+ADiv and ARate.
+This minimal improvement is primarily attributed to severe multicollinearity. As shown in Fig. 3-(a),
+AWeight and ARate were highly correlated (r = 0.92), and a substantial correlation was also observed
+between AWeight and ADiv (r = 0.66). These results suggest that the three indicators largely measure
+overlapping lexical properties rather than capturing independent or complementary dimensions of
+academic vocabulary complexity.
+The instability caused by multicollinearity is evident in the feature importance results in Fig. 3-(c). ARate
+appeared to account for 98.2% of the predictive contribution; however, this dominance is likely an artifact
+of multicollinearity. While ARate showed a positive correlation with writing scores in univariate analysis,
+its regression coefficient in the multi-indicator model was sharply negative (β = − 13.854). While this
+might appear to resemble a suppression effect, it is more accurately characterized as computational
+instability resulting from extreme multicollinearity (r = 0.92). Such computational instability undermines
+the interpretability of feature importance metrics and further highlights the redundancy among
+predictors.
+4.3.2 Model Diagnostics and Theoretical Implications
+
+Page 15/30
+As shown in Fig. 3-(d), the residuals from the regression models were approximately normally
+distributed, with no signs of heteroscedasticity or systematic bias. These results confirm that the basic
+assumptions of regression were met.
+Although the explanatory power of the integrated model remained modest (R² = 0.0574), this should be
+understood in light of the complex, multidimensional nature of writing performance. Writing quality is
+influenced by numerous factors beyond lexical complexity, including discourse coherence, content
+relevance, logical structure, and grammatical accuracy. Accordingly, lexical indicators alone are
+insufficient to account for the full range of evaluative criteria used in writing assessment.
+Nonetheless, the proposed indicators may serve as supplementary diagnostic tools. While their
+predictive accuracy is limited, they offer insights into learners’ strategic use of academic vocabulary—
+particularly in terms of conceptual breadth (ADiv), lexical sophistication (AWeight), and word density
+(ARate). From an instructional perspective, such insights can be valuable in identifying specific areas for
+pedagogical intervention.
+The findings also offer important implications for future modeling. First, the indicators may not fully
+reflect the dimensions most valued by human raters, such as coherence and argument structure.
+Second, the strong intercorrelations among indicators point to the need for designing functionally
+independent measures. Third, future models should expand beyond lexical features to include higher-
+level textual constructs such as authorial stance, epistemic modality, and rhetorical strategy, which are
+central to academic writing but difficult to capture with surface-level features alone.
+In summary, while the integration of academic vocabulary complexity measures did not substantially
+improve predictive accuracy, the analysis uncovered critical issues related to indicator redundancy and
+the limitations of purely lexical models. These findings provide a foundation for refining automated
+writing evaluation systems and underscore the need for more diversified and discourse-sensitive
+approaches to modeling writing quality.
+4.4. Strategic Profiling and Group Differences in Academic
+Vocabulary Use
+This section directly addresses RQ 3 by examining distributional patterns across performance groups
+(RQ3-1) and identifying characteristics of inappropriate complexity cases (RQ3-2). The analysis
+investigates differences in academic vocabulary complexity strategies between high- and low-
+performing learners, aiming to (1) identify complexity levels and strategic patterns that influence writing
+scores, and (2) uncover distinct characteristics of both successful and unsuccessful writers. The
+analysis consists of three components: (1) comparative analysis of complexity indicators across score
+groups, (2) empirical examination of inappropriate complexity patterns, and (3) classification of learner
+strategy types using K-means clustering.
+4.4.1. Complexity Differences Across Performance Groups
+
+Page 16/30
+Writers were divided into three groups based on score quartiles: low (n = 628), middle (n = 1,107), and
+high (n = 694). Statistically significant differences were observed across all three complexity indicators
+(p < 0.001), as visualized in Fig. 4-(a), (b), and (c).
+The average AWeight increased from 18.1 in the low-performing group to 25.5 in the high-performing
+group, corresponding to a medium effect size (Cohen's d = 0.575). ADiv and ARate also showed
+significant differences, though with smaller effect sizes (d = 0.435 and d = 0.490, respectively).
+Compared to the low-performing group, the high-performing group showed a 40.9% increase in AWeight,
+a 22.4% increase in ADiv, and a 30.6% increase in ARate.
+However, greater variance within the high-scoring group—particularly in standard deviations—suggests a
+wide range of strategies even among successful learners. This indicates that strategic adaptability,
+rather than merely increasing complexity, is critical to high performance.
+4.4.2. Analysis of Inappropriate Complexity Patterns
+To address RQ3-2, we examined cases where learners demonstrated high lexical complexity but
+achieved low writing scores, operationally defined as learners falling in the top 25% for AWeight but
+bottom 25% for overall score, in order to capture clear cases of complexity–performance mismatch(n = 
+106; 4.4% of the total sample). As illustrated in Fig. 4-(b), these cases are scattered across the high-
+AWeight range but consistently show low total scores.
+These learners had a mean AWeight of 42.3 and a mean ARate of 0.092, both substantially above the
+overall averages (AWeight = 21.7; ARate = 0.056). However, their total scores averaged only 19.2,
+significantly lower than learners with comparable AWeight but appropriate performance (mean score = 
+34.8; p < 0.001).
+Analysis of representative texts from this group revealed several discourse-level characteristics that
+distinguish inappropriate from effective complexity:
+Lexical-discourse misalignment
+Sophisticated academic vocabulary was often used in contexts where simpler, more precise terms
+would be more appropriate, resulting in stylistic overreach rather than enhanced clarity.
+Argument-vocabulary disconnect
+High-level academic terms were frequently employed without clear integration into the logical structure
+of arguments, creating an impression of surface-level sophistication rather than genuine analytical
+depth.
+Register inconsistency
+
+Page 17/30
+Texts exhibited abrupt shifts between highly formal academic vocabulary and more colloquial
+expressions, disrupting textual coherence and reader comprehension.
+Semantic precision deficits
+While vocabulary items were technically accurate, their deployment often lacked semantic precision
+relative to the specific argumentative context, suggesting strategic vocabulary use without deep
+conceptual understanding.
+These findings indicate that inappropriate complexity stems not from lexical inaccuracy but from
+discourse-level misalignment between vocabulary sophistication and communicative effectiveness.
+4.4.3. Learner Typology via Clustering
+K-means clustering analysis (Fig. 4-(c), (d)) revealed four distinct strategy types based on their academic
+vocabulary usage patterns:
+Cluster 0 (31.4%, n = 762)
+Low-complexity majority - The largest group, characterized by minimal use of academic vocabulary
+(AWeight ≈ 17–20) and correspondingly low performance (mean score ≈ 28). This cluster represents
+learners who have not yet developed substantial academic vocabulary competence.
+Cluster 1 (28.5%, n = 692)
+Efficient complexity users - Learners who achieve stable performance (mean score ≈ 31) with moderate
+complexity (AWeight ≈ 25–30). This group demonstrates balanced strategic use of academic vocabulary,
+avoiding both under- and over-complexity.
+Cluster 2 (14.1%, n = 343)
+High-risk/high-reward strategists - The smallest but highest-performing group (mean score ≈ 35) with
+extreme complexity (AWeight ≈ 40–45). These learners successfully deploy sophisticated academic
+vocabulary to achieve superior outcomes, though such high-complexity strategies may entail risks if not
+accompanied by discourse coherence and precision.
+Cluster 3 (26.0%, n = 632)
+Moderate complexity developers - Learners with intermediate complexity levels (AWeight ≈ 22–28) and
+moderate performance (mean score ≈ 29–30), representing a transitional group with development
+potential.
+A notable finding is the absence of a low-complexity/high-performance group, suggesting that academic
+vocabulary complexity serves as a necessary condition for achieving high scores in the given evaluation
+context. This threshold effect underscores the gatekeeping function of academic vocabulary in writing
+
+Page 18/30
+assessment. Furthermore, the identification of two successful high-complexity strategies (Clusters 1 and
+2) suggests that multiple pathways to effective academic vocabulary use exist.
+4.4.4. Strategic Implications and Pedagogical Insights
+The clustering analysis reveals distinct strategic profiles that have important implications for
+differentiated instruction:
+For Cluster 0 learners
+Priority should be placed on building foundational academic vocabulary repertoires and developing
+confidence in using moderately complex terms.
+For Cluster 1 learners
+Instruction should focus on maintaining strategic balance while gradually expanding vocabulary
+sophistication without compromising communicative effectiveness.
+For Cluster 2 learners
+Advanced learners require guidance in maintaining discourse coherence while employing high-level
+vocabulary, with emphasis on precision and contextual appropriateness.
+For Cluster 3 learners
+This transitional group would benefit from targeted interventions that help them either consolidate
+moderate complexity strategies or develop toward more sophisticated usage patterns.
+4.5. Summary and Implications
+The analyses presented in this section lead to three key conclusions regarding strategic differences in
+academic vocabulary use:
+1. Threshold Effects and Strategic Variation
+2. The complete absence of low-complexity/high-performance learners confirms that academic
+vocabulary complexity serves as a necessary threshold for writing success. However, the
+identification of multiple successful strategies (efficient users vs. high-risk strategists)
+demonstrates that there is no single optimal approach to academic vocabulary deployment.
+3. Discourse-Level Determinants of Effectiveness
+4. The analysis of inappropriate complexity cases reveals that lexical sophistication alone is
+insufficient for writing success. Effectiveness depends critically on discourse-level factors including
+lexical-argument integration, register consistency, and semantic precision. These findings
+emphasize that vocabulary instruction must address not only word knowledge but also strategic
+deployment within coherent discourse structures.
+5. Differentiated Instructional Implications
+
+Page 19/30
+6. The four distinct learner profiles suggest that effective academic vocabulary instruction requires
+differentiated approaches based on learners' current strategic profiles. Rather than uniform
+complexity enhancement, instruction should be tailored to support learners' progression along
+identified developmental pathways while addressing specific weaknesses associated with each
+cluster type.
+These findings provide empirical foundations for developing adaptive writing instruction and enhancing
+automated feedback systems, particularly by enabling the identification of learner strategic profiles and
+tailoring interventions accordingly.
+5. General Discussion
+5.1. Revisiting the Complexity–Performance Relationship:
+Implications for Asian Academic Writing Assessment
+This study empirically examined the influence of academic vocabulary complexity on writing
+performance, re-evaluating the validity of the hypothesized inverted-U relationship often cited in prior
+research. The findings revealed a consistently linear upward trend within the observed range of learner
+data across all complexity indicators (AWeight, ADiv, ARate), with no evidence of performance decline
+due to excessive complexity. These results contrast with concerns raised in earlier studies (Hinkel, 2003;
+Norris & Ortega, 2009) that overuse of complex vocabulary may reduce readability and clarity.
+Within the Korean academic writing context, this linear relationship carries particular significance. In
+East Asian educational systems, where academic writing serves as a gatekeeping mechanism for
+university advancement and scholarly participation, the strategic deployment of academic vocabulary
+represents more than linguistic competency—it embodies cultural and cognitive dimensions of scholarly
+discourse that are deeply embedded in Confucian educational traditions. The absence of detrimental
+effects from high complexity usage suggests that Korean L1 writers, unlike L2 learners, possess
+sufficient linguistic intuition to deploy sophisticated vocabulary without compromising communicative
+effectiveness.
+The theoretically predicted peak points (Q2: 86.08, Q3: 65.89) exceeded the observed range, suggesting
+that the "optimal complexity point" lies beyond learners' current capacities. This finding has profound
+implications for Korean higher education: rather than cautioning against excessive complexity,
+pedagogical efforts should focus on expanding learners' capacity to use sophisticated academic
+vocabulary effectively. The average AWeight of the top 25% of learners remained consistent across tasks
+(25.8 in Q2, 25.3 in Q3), suggesting the presence of a minimum effective complexity threshold that
+functions as a necessary condition for high performance in Korean academic discourse.
+Cross-linguistic implications
+
+Page 20/30
+These findings may extend to other Asian languages that share similar academic writing traditions,
+particularly those influenced by Classical Chinese scholarly conventions (e.g., Japanese, Vietnamese
+academic writing). The emphasis on lexical sophistication as a marker of scholarly competence appears
+to be culturally grounded rather than purely linguistic, suggesting potential applicability of these
+indicators across East Asian academic contexts.
+5.2. Diagnostic Value Over Predictive Accuracy: Reframing
+Multi-Indicator Assessment for Asian Educational Contexts
+This study addressed Research Question 2 by examining whether integrating multiple academic
+vocabulary complexity indicators could provide complementary insights and enhance the interpretability
+of writing assessment. While the integrated model achieved modest improvements in explanatory power
+(R² = 0.0574), this finding actually supports theoretical understanding of writing assessment complexity
+and offers significant advantages for diagnostic applications.
+Diagnostic Specificity as Theoretical Strength
+The focused explanatory power (R² = 0.057) demonstrates that academic vocabulary complexity
+represents a specialized diagnostic dimension rather than a general predictor of writing quality. This
+specificity is theoretically advantageous because it allows for targeted assessment of lexical
+sophistication without confounding effects from other writing dimensions such as content relevance or
+organizational coherence.
+In language testing contexts, such diagnostic precision is more valuable than broad predictive coverage
+because it enables instructors to identify specific areas for intervention. The modest R² values confirm
+that our indicators capture unique variance in writing competence that would otherwise remain invisible
+in holistic scoring systems.
+Theoretical Convergence Discovery: The high correlation between AWeight and ARate (r = 0.92) reveals a
+significant theoretical insight about Korean academic vocabulary acquisition: rather than developing as
+independent dimensions, vocabulary sophistication and density emerge as convergent aspects of a
+unified competence.
+This finding has important implications for understanding L1 academic discourse development. Unlike
+L2 learners who may develop vocabulary breadth and depth separately, native Korean speakers appear
+to develop academic vocabulary as an integrated strategic resource. This convergence suggests that
+successful academic writing in Korean requires not just knowledge of sophisticated terms, but the
+intuitive ability to deploy them with appropriate density—a finding that could only be discovered through
+multi-indicator analysis.
+From a measurement perspective, this convergence validates our theoretical assumption that academic
+vocabulary complexity represents a coherent construct rather than disparate skills.
+
+Page 21/30
+Cultural specificity and universal applicability
+The multicollinearity between indicators may reflect language-specific characteristics of Korean
+academic writing, where dense deployment of sophisticated vocabulary is culturally valued. However, the
+methodological framework—focusing on meaning-based rather than frequency-based complexity—offers
+universal applicability for developing culturally sensitive AWE systems across Asian languages.
+Practical diagnostic advantages
+Despite limited predictive power, the multi-indicator approach enabled identification of four distinct
+learner strategic profiles and detection of inappropriate complexity patterns (4.4% of learners). These
+diagnostic capabilities cannot be achieved through traditional holistic scoring and provide actionable
+insights for individualized instruction. In resource-constrained Asian educational systems, such targeted
+diagnostic information offers significant value for optimizing instructional efficiency.
+AWE system implications
+Rather than seeking to maximize predictive accuracy, future AWE systems for Asian languages should
+prioritize diagnostic granularity and cultural sensitivity. The ability to distinguish between "efficient
+complexity users" and "high-risk strategists" offers pedagogically actionable insights that align with
+Asian educational values emphasizing strategic competence and contextual appropriateness.
+5.3. Strategic Profiling and Cultural Dimensions of
+Academic Vocabulary Deployment
+Research Question 3 examined how academic vocabulary complexity indicators can distinguish writing
+strategies between performance groups and identify characteristics of inappropriate complexity use.
+The analysis revealed systematic patterns in strategic vocabulary deployment that illuminate both
+universal principles and culturally specific dimensions of academic writing competence.
+Threshold Effects and Confucian Educational Values
+The complete absence of low-complexity/high-performance learners confirms that academic vocabulary
+complexity serves as a necessary threshold for writing success. This threshold effect aligns with
+Confucian educational traditions that emphasize mastery of classical forms and sophisticated
+expression as markers of scholarly achievement. In Korean academic culture, the ability to deploy
+complex vocabulary appropriately signals not only linguistic competence but also cultural literacy and
+intellectual maturity.
+Strategic diversity within cultural constraints
+The identification of four distinct strategic profiles—foundational vocabulary builders (31.4%), efficient
+complexity users (28.5%), transitional developers (26.0%), and high-risk strategists (14.1%)—reveals that
+even within shared cultural expectations, learners develop diverse approaches to academic vocabulary
+
+Page 22/30
+use. This finding challenges assumptions about Asian educational uniformity and supports
+differentiated instructional approaches that honor individual strategic preferences while maintaining
+cultural coherence.
+Discourse-level sophistication beyond lexical knowledge
+The analysis of inappropriate complexity cases (n = 106; 4.4% of the sample) revealed that lexical
+sophistication alone does not automatically translate into writing effectiveness. In the Korean context,
+this finding is particularly significant because it demonstrates that memorization-based vocabulary
+acquisition—often criticized in Asian educational systems—is insufficient without discourse-level
+integration skills.
+The four key discourse-level characteristics that distinguished inappropriate from effective complexity
+use reflect universal principles of academic writing that transcend cultural boundaries:
+1. Lexical-discourse alignment: Sophisticated vocabulary must serve clear communicative functions
+2. Argument-vocabulary integration: Academic terms must support rather than obscure logical
+structure
+3. Register consistency: Formal vocabulary must be sustained throughout academic discourse
+4. Semantic precision: Vocabulary choices must demonstrate conceptual understanding
+Implications for Asian language pedagogy
+These findings suggest that vocabulary instruction in Asian educational contexts should shift from
+passive memorization toward active discourse integration. The inappropriate complexity phenomenon
+indicates that traditional approaches emphasizing vocabulary breadth must be supplemented with
+explicit instruction in strategic deployment and contextual appropriateness.
+Cross-cultural transferability
+While the specific threshold values (AWeight 20–25) may be Korean-specific, the strategic profiling
+framework offers transferable insights for other Asian languages. The emphasis on balancing
+sophistication with appropriateness reflects universal academic writing principles that can be adapted to
+diverse linguistic and cultural contexts.
+5.4. Implications for Language Testing and Assessment in
+Asia
+Advancing culturally responsive assessment
+This study contributes to the growing movement toward culturally responsive language assessment in
+Asian contexts. By developing meaning-based complexity indicators that capture Korean-specific
+academic discourse patterns while maintaining methodological rigor, the research demonstrates how
+assessment frameworks can honor cultural traditions while meeting international standards.
+
+Page 23/30
+Technology-enhanced assessment potential
+The diagnostic capabilities demonstrated by these indicators offer significant potential for developing
+adaptive AWE systems tailored to Asian educational contexts. Unlike Western-developed systems that
+may not capture Asian academic discourse conventions, culturally grounded indicators can provide more
+accurate and meaningful feedback for Asian learners.
+Policy implications for Korean higher education
+The finding that vocabulary complexity serves as a necessary threshold for writing success supports
+current emphasis on academic vocabulary instruction in Korean universities. However, the identification
+of inappropriate complexity patterns suggests that curriculum design should balance vocabulary
+expansion with discourse integration training.
+Future directions for Asian language testing research
+This study establishes foundations for expanding similar investigations across Asian languages,
+potentially leading to development of Asia-specific AWE systems that capture shared cultural values
+while accommodating linguistic diversity. The methodological framework—emphasizing meaning over
+frequency, diagnostic value over predictive accuracy, and strategic profiling over aggregate scoring—
+offers promising directions for culturally sensitive language assessment research.
+6. Conclusion
+This study developed and validated three meaning-based complexity indices—Academic Diversity (ADiv),
+Academic Weight (AWeight), and Academic Rate (ARate)—to quantify academic vocabulary usage in
+Korean undergraduate argumentative writing. Using a large-scale corpus of 2,429 essays, the research
+confirmed that lexical complexity functions as a necessary but not sufficient condition for writing
+success, with some learners displaying high sophistication but low performance due to discourse-level
+weaknesses.
+Theoretical and Practical Contributions
+This research makes three key contributions to Asian language testing. First, it establishes a culturally
+grounded complexity framework that conceptualizes academic vocabulary as 사고도구어 (thinking tool words),
+reflecting indigenous Korean scholarly discourse traditions rather than applying Western-developed
+frameworks. Second, it introduces strategic profiling methodology that identifies four distinct learner
+types—foundational builders, efficient users, transitional developers, and high-risk strategists—
+demonstrating strategic diversity even within shared cultural expectations. Third, it emphasizes
+diagnostic precision over predictive breadth, showing that focused indicators (R² = 0.057) enable
+targeted educational interventions particularly valuable for resource-constrained Asian educational
+systems.
+
+Page 24/30
+AWeight emerged as the most robust diagnostic indicator, with a benchmark range of 20–25 points
+identified for effective academic writing in Korean university contexts. The complete absence of low-
+complexity/high-performance learners confirms academic vocabulary complexity serves a gatekeeping
+function, validating current educational emphasis on sophisticated vocabulary while highlighting needs
+for discourse-level integration training.
+Implications for Assessment and Technology
+For automated writing evaluation (AWE), this study provides empirical foundations for developing
+culturally sensitive systems that serve Asian educational contexts more effectively than Western-
+developed tools. The identification of "inappropriate complexity" patterns—high sophistication but low
+performance—demonstrates that effective automated feedback must address discourse-level
+deployment strategies, not merely vocabulary quantity.
+The methodological framework offers replicable approaches for developing language-specific
+complexity indicators across Asian languages sharing similar scholarly traditions, emphasizing
+meaning-based over frequency-based measures and strategic profiling over aggregate scoring.
+Future Directions and Significance
+This research opens avenues for cross-linguistic validation studies across Asian languages, longitudinal
+investigations of strategic profile development, and genre-specific extensions to other academic writing
+types.
+In an era of increasingly Western-centric language assessment, this study demonstrates the vital
+importance of culturally grounded research that honors local educational traditions while contributing to
+global academic discourse. The finding that academic vocabulary complexity serves as a necessary
+threshold, combined with identification of diverse strategic approaches, suggests effective language
+education must balance universal principles with culturally specific applications.
+For Korean higher education, this research provides immediately applicable diagnostic tools while
+validating cultural emphases on lexical sophistication. For Asian language testing broadly, it establishes
+methodological precedents for assessment frameworks achieving both cultural responsiveness and
+international scholarly standards—representing a significant contribution to language assessment in
+increasingly interconnected yet culturally diverse educational contexts.
+Abbreviations
+• ADiv
+Academic Diversity
+• AWeight
+Academic Weight
+• ARate
+
+Page 25/30
+Academic Rate
+• AV
+Academic Vocabulary
+• AWE
+Automated Writing Evaluation
+• JSON
+JavaScript Object Notation
+• L1
+First Language (native language)
+• L2
+Second Language (non-native language)
+• PCA
+Principal Component Analysis
+• RQ
+Research Question
+• SHAP
+SHapley Additive exPlanations
+• VIF
+Variance Inflation Factor
+Declarations
+Ethics approval and consent to participate
+This study utilized a publicly available corpus provided by the National Institute of the Korean Language
+(NIKL), specifically the “Everyone's Corpus (모두의 말뭉치)” section of the 2023 National Corpus for the
+Development of Korean Writing Proficiency Assessment. All data were originally collected as part of
+regular curricular writing instruction, with institutional consent procedures in place. No additional ethical
+approval was required for this secondary analysis of anonymized educational data.
+Consent for publication
+Not applicable.
+Clinical trial number
+Not applicable.
+Funding
+Not applicable.
+
+Page 26/30
+Author Contribution
+N.K. conceptualized and designed the study, performed the data collection and analysis, developed the
+academic vocabulary complexity indices, and wrote the main manuscript text. N.K. also prepared all
+figures and tables. All parts of the manuscript were reviewed and approved by N.K.
+Acknowledgement
+The author gratefully acknowledges the National Institute of the Korean Language (NIKL) for providing
+access to the “Everyone’s Corpus (모두의 말뭉치)” dataset, which served as the foundation for the current
+analysis. Appreciation is also extended to colleagues who provided insightful comments on earlier drafts
+of this work.
+Data Availability
+The data that support the findings of this study are publicly available from the National Institute of the
+Korean Language via the “Everyone’s Corpus (모두의 말뭉치)” section at https://corpus.korean.go.krIn addition,
+the processed data including academic vocabulary complexity indices (ADiv, AWeight, ARate) and the
+analytical scripts used in this study are available at the following permanent Google Drive
+repository:https://drive.google.com/drive/folders/15rlRytuDy9xOmq9Ts_fHrAy89P35Qniq?
+usp=drive_link
+References
+1. Biber, D., & Gray, B. (2010). Challenging stereotypes about academic writing: Complexity, elaboration,
+explicitness. Journal of English for Academic Purposes, 9(1), 2–20.
+https://doi.org/10.1016/j.jeap.2010.01.001
+2. Corson, D. (1997). The learning and use of academic English words. Language Learning, 47(4), 671–
+718. https://doi.org/10.1111/0023-8333.00025
+3. Coxhead, A. (2000). A new academic word list. TESOL Quarterly, 34(2), 213–238.
+https://doi.org/10.2307/3587951
+4. Kong, N. (2025). Development and validation of academic vocabulary complexity indicators for
+meaning-centered approaches in automated writing assessment. Korean Semantics, 88, 263–299.
+5. Kyle, K., & Crossley, S. A. (2015). Automatically assessing lexical sophistication: Indices, tools,
+findings, and application. TESOL Quarterly, 49(4), 757–786. https://doi.org/10.1002/tesq.194
+6. Laufer, B. (2013). Lexical thresholds for reading comprehension: What they are and how they can be
+used for teaching purposes. TESOL Quarterly, 47(4), 867–872. https://doi.org/10.1002/tesq.140
+7. Libben, G. (Ed.). (2007). The representation and processing of compound words. Oxford University
+Press.
+
+Page 27/30
+8. Lu, X. (2012). The relationship of lexical richness to the quality of ESL learners' oral narratives. The
+Modern Language Journal, 96(2), 190–208. https://doi.org/10.1111/j.1540-4781.2011.01232_1.x
+9. Martin, A. V. (1976). Teaching academic vocabulary to foreign graduate students. TESOL Quarterly,
+10(1), 91–97. https://doi.org/10.2307/3585635
+10. Nation, P. (2001). Learning vocabulary in another language. Cambridge University Press.
+https://doi.org/10.1017/CBO9781139524759
+11. Schmitt, N., & Schmitt, D. (2020). Vocabulary in language teaching (2nd ed.). Cambridge University
+Press. https://doi.org/10.1017/9781108569057
+12. Shin, M. S. (2004). A study on Korean academic vocabulary education (Doctoral dissertation). Seoul
+National University, Graduate School, Department of Korean Language Education.
+Figures
+Figure 1
+Q2--Q3 Task Comparison
+Distributions and statistical comparisons of academic vocabulary complexity indicators between Q2 and
+
+Page 28/30
+Q3 writing tasks. Subplots include distribution histograms (a--c), correlation with total score (d), boxplots
+(e), and effect sizes (f).
+Figure 2
+AWeight Nonlinear Relationship Analysis
+Scatterplots and bar charts illustrating the relationship between AWeight (weighted academic
+vocabulary index) and total score for Q2 and Q3 tasks. Subfigures (a) and (b) display linear and quadratic
+regression fits, with R² values indicating predictive strength. Subfigures (c) and (d) present mean total
+scores across AWeight intervals with standard deviation bars, showing a general upward trend for Q2 but
+a flatter pattern for Q3.
+
+Page 29/30
+Figure 3
+Multi-indicator Model Performance
+Visualization of model performance using multiple academic vocabulary complexity indicators. (a)
+Correlation matrix among ADiv, AWeight, ARate, and total score, showing multicollinearity among
+predictors. (b) R² scores from regression models using each indicator individually and in combination
+(linear vs. polynomial). (c) Feature importance analysis indicating ARate as the most influential
+predictor. (d) Residual plot of the best-performing model, demonstrating acceptable error distribution.
+
+Page 30/30
+Figure 4
+Group Differences and Cluster Analysis
+Exploratory analysis of AWeight across performance levels and learner profiles. (a) Distribution of
+AWeight by low, medium, and high scoring groups, with effect size (Cohen's d = 0.516) indicating
+moderate group differences. (b) Identification of learners with disproportionately high AWeight but low
+total scores, defined as cases of inappropriate complexity. (c) Results of K-means clustering using total
+score and AWeight, yielding four distinct learner clusters. (d) Distribution of learners across the four
+clusters, with respective proportions labeled.

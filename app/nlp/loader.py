@@ -4,6 +4,7 @@ import logging
 
 from app.nlp.preprocessing import preprocess_text
 from app.utils.pdf_extractor import extract_pdfs
+from app.storage.supabase_storage import sync_folder_to_local
 
 # ------------------------------------------------------------------
 # Logging Configuration
@@ -19,6 +20,13 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 directory_path = SCRIPT_DIR.parent / "utils" / "txtFileUpload"
 corpus_path = SCRIPT_DIR.parent.parent / "corpus" / "promoted"
 processed_corpus_path = SCRIPT_DIR.parent.parent / "corpus" / "processed"
+
+RUNTIME_CACHE_PATH = (
+    SCRIPT_DIR.parent.parent / "runtime_cache" / "corpus"
+)
+
+runtime_promoted_path = RUNTIME_CACHE_PATH / "promoted"
+runtime_processed_path = RUNTIME_CACHE_PATH / "processed"
 
 
 def load_corpus():
@@ -99,6 +107,38 @@ def load_corpus():
             logging.exception(e)
     upload_time = time.perf_counter() - upload_start
 
+    # --------------------------------------------------------------
+    # Synchronize persistent repository TXT files from Supabase
+    # into the local runtime cache.
+    # --------------------------------------------------------------
+    try:
+        sync_folder_to_local(
+            "promoted",
+            runtime_promoted_path,
+            extensions={".txt"}
+        )
+
+        sync_folder_to_local(
+            "processed",
+            runtime_processed_path,
+            extensions={".txt"}
+        )
+
+    except Exception as e:
+        print(
+            f"[ERROR] Failed to synchronize repository "
+            f"from Supabase Storage: {e}"
+        )
+        logging.exception(e)
+        return (
+            uploaded_filenames,
+            uploaded_corpus,
+            uploaded_original,
+            [],
+            [],
+            []
+        )
+
     if not corpus_path.exists():
         print(f"[WARNING] Repository folder not found: {corpus_path}")
 
@@ -110,7 +150,7 @@ def load_corpus():
 
     repo_start = time.perf_counter()
 
-    for txt_file in sorted(corpus_path.glob("*.txt")):
+    for txt_file in sorted(runtime_promoted_path.glob("*.txt")):
 
         try:
             # ----------------------------------------------------------
@@ -130,7 +170,7 @@ def load_corpus():
             # Load already-processed repository text
             # DO NOT preprocess again
             # ----------------------------------------------------------
-            processed_file = processed_corpus_path / txt_file.name
+            processed_file = runtime_processed_path / txt_file.name
 
             if not processed_file.exists():
                 print(

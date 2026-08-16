@@ -1,0 +1,5152 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+12-2023 
+Global Burden of Cardiovascular Diseases and Risks, 1990-2022 
+Global Burden of Cardiovascular Diseases and Risks, 1990-2022 
+George A. Mensah 
+Center for Translation Research and Implementation Science, National Heart, Lung, and Blood Institute, 
+National Institutes of Health 
+Valentin Fuster 
+Mount Sinai Heart, Icahn School of Medicine at Mount Sinai 
+Christopher J.L. Murray 
+University of Washington - Seattle Campus 
+Gregory A. Roth 
+University of Washington - Seattle Campus 
+Geminn Louis C. Apostol 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, gapostol@ateneo.edu 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Cardiovascular Diseases Commons, and the Public Health Commons 
+Custom Citation 
+Custom Citation 
+Mensah, G, Fuster, V, Murray, C. et al. Global Burden of Cardiovascular Diseases and Risks, 1990-2022. J 
+Am Coll Cardiol. 2023 Dec, 82 (25) 2350–2473. https://doi.org/10.1016/j.jacc.2023.11.007 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+GLOBAL BURDEN OF DISEASES
+Global Burden of Cardiovascular Diseases
+and Risks, 1990-2022
+George A. Mensah, MD,a Valentin Fuster, MD, PHD,b,c Christopher J.L. Murray, MD, DPHIL,d
+Gregory A. Roth, MD, MPH,d,e the Global Burden of Cardiovascular Diseases and Risks Collaborators*
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+Funding was provided by the Bill and Melinda Gates Foundation, and
+the American College of Cardiology Foundation. The authors have
+reported that they have no relationships relevant to the contents of
+this paper to disclose. The contents and views expressed in this
+report are those of the authors and do not necessarily reﬂect the
+ofﬁcial views of the National Institutes of Health, the Department of
+Health and Human Services, the U.S. Government, or the afﬁliated
+institutions.
+ADDRESS FOR CORRESPONDENCE: Dr Gregory A.
+Roth, Institute for Health Metrics and Evaluation,
+3980 15th Avenue NE, UW Campus Box #351615,
+Seattle, Washington 98195, USA. E-mail: rothg@uw.
+edu. #GBDstudy, @IHME_UW, @NHLBI_Translate.
+APPENDIX For a complete list of the Global Burden of Cardiovascular
+Diseases and Risks Collaborators, please see pages 1 to 35 of the
+Supplemental Appendix, available in the online version of this paper.
+Please see pages 36 to 47 of the Supplemental Appendix for more
+detailed information about individual author contributions to the
+research, divided into the following categories: providing data or critical
+feedback on data sources; developing methods or computational
+machinery; providing critical feedback on methods or results; drafting the
+manuscript or revising it critically for important intellectual content; and
+managing the estimation or publications process. For author disclosures,
+please see pages 48 to 56 of the Supplemental Appendix.
+J O U R N A L O F T H E A M E R I C A N C O L L E G E O F C A R D I O L O G Y
+V O L . 8 2 , N O . 2 5 , 2 0 2 3
+© 2 0 2 3 T H E A M E R I C A N C O L L E G E O F C A R D I O L O G Y F O U N D A T I O N .
+P U B L I S H E D B Y E L S E V I E R . A L L R I G H T S R E S E R V E D .
+From the aCenter for Translation Research and Implementation Science, National Heart, Lung, and Blood Institute, National
+Institutes of Health, Bethesda, Maryland, USA; bMount Sinai Heart, Icahn School of Medicine at Mount Sinai, New York, New York,
+USA; cCentro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid, Spain; dDepartment of Health Metrics Sciences,
+Institute for Health Metrics and Evaluation, School of Medicine, University of Washington, Seattle, Washington, USA; and the
+eDivision of Cardiology, Department of Medicine, University of Washington, Seattle, Washington, USA. *For a complete list of the
+Global Burden of Cardiovascular Diseases and Risks Collaborators as well as information about their relationships as they pertain
+to the contents of this paper, please see the Supplemental Appendix.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit the Author Center.
+ISSN 0735-1097/$36.00
+https://doi.org/10.1016/j.jacc.2023.11.007
+
+JOURNAL OF THE AMERICAN COLLEGE OF CARDIOLOGY
+©2023 BY THE AMERICAN COLLEGE OF CARDIOLOGY FOUNDATION
+PUBLISHED BY ELSEVIER
+JACC VOL. 82, NO. 25, 2023
+Cardiovascular Disease in all Regions
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Global map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+46,358,651
+386,947
+575.5
+4.5
+162.5
+Ischemic heart disease
+315,390,626
+9,239,181
+3,610.2
+108.8
+2,275.9
+Ischemic stroke
+86,661,746
+3,542,299
+994.5
+42.3
+819.5
+Intracerebral hemorrhage
+20,509,587
+3,428,876
+237.9
+39.4
+923.8
+Subarachnoid hemorrhage
+9,281,913
+344,872
+107.2
+4.0
+120.7
+Hypertensive heart disease
+13,052,641
+1,353,074
+150.9
+16.1
+292.7
+Non-rheumatic calciﬁc
+aortic valve disease
+13,551,699
+146,199
+156.6
+1.8
+26.8
+Non-rheumatic
+degenerative mitral valve
+disease
+15,592,046
+37,843
+177.9
+0.5
+11.1
+Other non-rheumatic valve
+diseases
+12,130
+2,033
+0.1
+<0.1
+0.6
+Myocarditis
+625,129
+26,702
+7.8
+0.3
+11.8
+Alcoholic cardiomyopathy
+554,214
+62,661
+6.3
+0.7
+24.6
+Other cardiomyopathy
+4,715,332
+295,751
+58.7
+3.5
+99.3
+Pulmonary arterial
+hypertension
+193,710
+20,561
+2.3
+0.2
+7.4
+Atrial ﬁbrillation and ﬂutter
+55,414,434
+362,381
+637.5
+4.5
+102.9
+Aortic aneurysm
+Not estimated
+153,118
+Not estimated
+1.8
+34.6
+Lower extremity peripheral
+arterial disease
+105,980,247
+73,928
+1,213.3
+0.9
+19.6
+Endocarditis
+438,374
+82,402
+5.4
+1.0
+25.8
+Other cardiovascular and
+circulatory diseases
+86,722,785
+221,797
+1,006.1
+2.6
+118.8
+Table 1. Global cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Global cardiovascular disease mortality rate per 100,000 by age
+and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Global estimate indicated by a triangle, loess line in blue with shaded 95% uncertainty
+interval.
+ISSN 0735ǥ1097/$36.00
+Summary: Age-standardized CVD mortality rates by region
+ranged from 73.6 per 100,000 in High-income Asia Paciﬁc to
+432.3 per 100,000 in Eastern Europe in 2022. Global CVD
+mortality decreased by 34.9% from 1990 to 2022. Ischemic
+heart disease had the highest global age-standardized DALYs
+of all diseases at 2,275.9 per 100,000. Intracerebral
+hemorrhage and ischemic stroke were the next highest CVD
+causes for age-standardized DALYs. Age-standardized CVD
+prevalence ranged from 5,881.0 per 100,000 in South Asia to
+11,342.6 per 100,000 in Central Asia. High systolic blood
+pressure accounted for the largest number of attributable
+age-standardized CVD DALYs at 2,564.9 per 100,000
+globally. Of all risks, household air pollution from solid fuels
+had the largest change in attributable age-standardized
+DALYs from 1990 to 2022 with a 65.1% decrease.
+https://doi.org/10.1016/j.jacc.2023.11.007
+2351
+
+Cardiovascular Disease in all Regions
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by region and (B) burden attributable to selected risk
+factors, globally, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and region. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2352
+2351-2352
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in Central Asia
+Cardiovascular Disease in Central Asia
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+618,471
+2,480
+624.3
+2.8
+119.3
+Ischemic heart disease
+7,125,865
+182,604
+8,573.3
+268.9
+5,135.8
+Ischemic stroke
+951,108
+45,226
+1,091.5
+69.6
+1,330.9
+Intracerebral hemorrhage
+184,547
+34,154
+194.0
+45.2
+1,008.4
+Subarachnoid hemorrhage
+102,912
+4,109
+109.7
+5.2
+147.4
+Hypertensive heart disease
+71,919
+12,724
+96.4
+19.0
+337.4
+Non-rheumatic calciﬁc
+aortic valve disease
+117,564
+236
+147.0
+0.3
+8.5
+Non-rheumatic
+degenerative mitral valve
+disease
+375,266
+246
+500.0
+0.3
+14.7
+Other non-rheumatic valve
+diseases
+220
+54
+0.3
+0.1
+1.8
+Myocarditis
+6,279
+303
+6.8
+0.3
+12.0
+Alcoholic cardiomyopathy
+5,279
+861
+5.5
+0.9
+32.5
+Other cardiomyopathy
+54,216
+7,598
+60.3
+8.7
+272.5
+Pulmonary arterial
+hypertension
+2,208
+330
+2.3
+0.4
+13.1
+Atrial ﬁbrillation and ﬂutter
+424,061
+1,571
+565.6
+2.6
+79.6
+Aortic aneurysm
+Not estimated
+1,326
+Not estimated
+1.8
+37.9
+Lower extremity peripheral
+arterial disease
+612,533
+349
+835.5
+0.5
+13.2
+Endocarditis
+854
+177
+0.9
+0.2
+7.5
+Other cardiovascular and
+circulatory diseases
+427,924
+2,008
+497.1
+2.6
+90.7
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in Central Asia ranged from 331.8 to 542.3 per
+100,000 in 2022. CVD mortality decreased by 16.5% from
+1990 to 2022. Of the 21 regions, Central Asia ranked 4th in
+1990 and 2nd in 2022 for age-standardized CVD mortality,
+and 1st in CVD age-standardized prevalence in 2022. After
+ischemic heart disease and all stroke subtypes, hypertensive
+heart disease had the highest age-standardized DALYs in
+2022 at 337.4 per 100,000. High systolic blood pressure had
+the largest number of attributable age-standardized CVD
+DALYs at 4,875.3 per 100,000.
+2353
+2353-2354
+
+Cardiovascular Disease in Central Asia
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2354
+2353-2354
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in Central Europe
+Cardiovascular Disease in Central Europe
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+63,222
+2,976
+30.7
+1.3
+30.7
+Ischemic heart disease
+12,141,290
+338,314
+5,430.8
+141.8
+2,601.9
+Ischemic stroke
+1,841,834
+155,795
+853.9
+63.1
+1,063.1
+Intracerebral hemorrhage
+193,385
+46,002
+121.7
+20.0
+443.8
+Subarachnoid hemorrhage
+177,955
+7,020
+108.0
+3.4
+114.2
+Hypertensive heart disease
+356,261
+66,782
+151.7
+27.6
+444.3
+Non-rheumatic calciﬁc
+aortic valve disease
+869,200
+6,517
+377.5
+2.7
+49.2
+Non-rheumatic
+degenerative mitral valve
+disease
+677,172
+2,486
+288.1
+1.1
+24.2
+Other non-rheumatic valve
+diseases
+1,303
+347
+0.8
+0.2
+3.1
+Myocarditis
+12,887
+1,594
+11.1
+0.8
+19.7
+Alcoholic cardiomyopathy
+42,646
+4,804
+25.2
+2.4
+71.9
+Other cardiomyopathy
+160,289
+20,028
+95.7
+8.6
+169.5
+Pulmonary arterial
+hypertension
+3,515
+445
+2.3
+0.2
+6.1
+Atrial ﬁbrillation and ﬂutter
+1,412,498
+12,606
+604.9
+5.1
+111.8
+Aortic aneurysm
+Not estimated
+6,482
+Not estimated
+2.8
+61.7
+Lower extremity peripheral
+arterial disease
+2,227,532
+7,116
+942.2
+2.9
+50.4
+Endocarditis
+6,884
+1,351
+5.9
+0.7
+20.5
+Other cardiovascular and
+circulatory diseases
+1,879,255
+6,875
+951.1
+3.1
+118.1
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in Central Europe ranged from 132.6 to 581.4 per
+100,000 in 2022; a 4.4 fold diﬀerence. CVD mortality
+decreased by 47.0% from 1990 to 2022. Out of the 21
+regions, Central Europe was ranked 2nd in 1990 and 7th in
+2022 for age-standardized CVD mortality. After ischemic
+heart disease and all stroke subtypes, hypertensive heart
+disease had the highest age-standardized DALYs in 2022 at
+444.3 per 100,000. For all risks, high systolic blood pressure
+accounted for the largest number of attributable age-
+standardized CVD DALYs at 2,963.3 per 100,000.
+2355
+2355-2356
+
+Cardiovascular Disease in Central Europe
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2356
+2355-2356
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in Eastern Europe
+Cardiovascular Disease in Eastern Europe
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+241,126
+3,324
+73.9
+1.0
+28.6
+Ischemic heart disease
+25,389,496
+914,066
+7,243.7
+254.3
+4,882.7
+Ischemic stroke
+3,074,246
+348,195
+924.7
+95.7
+1,642.8
+Intracerebral hemorrhage
+467,843
+90,934
+159.3
+26.4
+680.1
+Subarachnoid hemorrhage
+317,276
+16,751
+108.9
+5.0
+154.7
+Hypertensive heart disease
+171,771
+27,760
+46.8
+7.7
+138.5
+Non-rheumatic calciﬁc
+aortic valve disease
+963,872
+2,470
+266.4
+0.7
+19.2
+Non-rheumatic
+degenerative mitral valve
+disease
+949,952
+832
+259.7
+0.2
+9.6
+Other non-rheumatic valve
+diseases
+395
+131
+0.2
+<0.1
+1.3
+Myocarditis
+17,479
+743
+7.7
+0.2
+8.6
+Alcoholic cardiomyopathy
+177,153
+38,801
+63.6
+13.2
+521.2
+Other cardiomyopathy
+157,875
+25,924
+76.2
+8.9
+339.9
+Pulmonary arterial
+hypertension
+7,722
+117
+2.8
+<0.1
+1.7
+Atrial ﬁbrillation and ﬂutter
+2,384,327
+19,282
+663.1
+5.3
+119.9
+Aortic aneurysm
+Not estimated
+13,936
+Not estimated
+4.0
+93.8
+Lower extremity peripheral
+arterial disease
+4,018,233
+13,208
+1,099.9
+3.6
+66.3
+Endocarditis
+9,142
+3,058
+4.8
+1.1
+48.1
+Other cardiovascular and
+circulatory diseases
+2,914,750
+16,721
+863.9
+4.9
+164.1
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in Eastern Europe ranged from 215.0 to 553.0 per
+100,000 in 2022; a 2.6 fold diﬀerence. CVD mortality
+decreased by 24.3% from 1990 to 2022. Out of the 21
+regions, Eastern Europe was ranked 1st in both 1990 and
+2022 for age-standardized CVD mortality. After ischemic
+heart disease and all stroke subtypes, alcoholic
+cardiomyopathy had the highest age-standardized DALYs in
+2022 at 521.2 per 100,000. For all risks, high systolic blood
+pressure accounted for the largest number of attributable
+age-standardized CVD DALYs at 4,619.4 per 100,000.
+2357
+2357-2358
+
+Cardiovascular Disease in Eastern Europe
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2358
+2357-2358
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in Australasia
+Cardiovascular Disease in Australasia
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+22,224
+638
+52.9
+1.1
+27.1
+Ischemic heart disease
+1,282,122
+29,819
+2,380.2
+47.4
+893.0
+Ischemic stroke
+322,348
+9,651
+625.8
+14.0
+250.4
+Intracerebral hemorrhage
+41,072
+4,199
+95.2
+6.8
+130.1
+Subarachnoid hemorrhage
+34,529
+1,457
+80.0
+2.7
+76.8
+Hypertensive heart disease
+33,550
+1,606
+56.5
+2.4
+39.8
+Non-rheumatic calciﬁc
+aortic valve disease
+198,197
+2,162
+331.3
+3.2
+45.5
+Non-rheumatic
+degenerative mitral valve
+disease
+118,556
+373
+199.4
+0.6
+11.7
+Other non-rheumatic valve
+diseases
+55
+7
+0.1
+<0.1
+0.2
+Myocarditis
+4,306
+73
+14.6
+0.2
+9.0
+Alcoholic cardiomyopathy
+12,654
+470
+27.6
+0.9
+29.8
+Other cardiomyopathy
+39,079
+1,331
+107.7
+2.3
+62.7
+Pulmonary arterial
+hypertension
+1,192
+62
+2.8
+0.1
+3.8
+Atrial ﬁbrillation and ﬂutter
+533,587
+4,748
+918.4
+7.0
+149.8
+Aortic aneurysm
+Not estimated
+1,764
+Not estimated
+2.9
+49.6
+Lower extremity peripheral
+arterial disease
+515,310
+1,056
+878.6
+1.6
+23.3
+Endocarditis
+4,542
+755
+9.7
+1.3
+26.1
+Other cardiovascular and
+circulatory diseases
+1,018,013
+1,335
+2,019.0
+2.3
+152.2
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in Australasia ranged from 92.0 to 122.5 per
+100,000 in 2022; a 1.3 fold diﬀerence. CVD mortality
+decreased by 65.5% from 1990 to 2022. Of the 21 regions,
+Australasia ranked 16th in 1990 and 20th in 2022 for age-
+standardized CVD mortality. After ischemic heart disease and
+all stroke subtypes, other cardiovascular and circulatory
+diseases had the highest age-standardized DALYs in 2022 at
+152.2 per 100,000. High systolic blood pressure had the
+largest number of attributable age-standardized CVD DALYs
+at 777.3 per 100,000.
+2359
+2359-2360
+
+Cardiovascular Disease in Australasia
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2360
+2359-2360
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in High-Income Asia Paciﬁc
+Cardiovascular Disease in High-Income Asia Paciﬁc
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+51,813
+5,344
+15.8
+0.7
+11.6
+Ischemic heart disease
+12,020,073
+160,226
+2,586.8
+26.0
+581.2
+Ischemic stroke
+3,765,022
+115,125
+900.3
+15.5
+347.4
+Intracerebral hemorrhage
+826,618
+55,686
+238.1
+10.1
+249.5
+Subarachnoid hemorrhage
+685,207
+18,210
+186.2
+3.9
+133.5
+Hypertensive heart disease
+310,906
+22,366
+58.4
+3.0
+46.7
+Non-rheumatic calciﬁc
+aortic valve disease
+1,479,296
+20,761
+285.1
+2.5
+32.5
+Non-rheumatic
+degenerative mitral valve
+disease
+1,970,448
+4,122
+390.3
+0.5
+11.8
+Other non-rheumatic valve
+diseases
+326
+31
+0.1
+<0.1
+0.2
+Myocarditis
+27,538
+559
+15.7
+0.2
+8.9
+Alcoholic cardiomyopathy
+13,218
+479
+5.0
+0.1
+4.4
+Other cardiomyopathy
+201,378
+9,689
+81.9
+1.7
+44.0
+Pulmonary arterial
+hypertension
+9,259
+1,137
+3.0
+0.2
+8.8
+Atrial ﬁbrillation and ﬂutter
+2,188,998
+18,040
+461.2
+2.5
+68.1
+Aortic aneurysm
+Not estimated
+26,762
+Not estimated
+4.4
+79.6
+Lower extremity peripheral
+arterial disease
+5,112,414
+2,692
+951.9
+0.4
+9.5
+Endocarditis
+24,892
+5,825
+6.8
+0.8
+14.9
+Other cardiovascular and
+circulatory diseases
+3,392,925
+5,480
+962.4
+1.0
+71.0
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in High-income Asia Paciﬁc ranged from 72.7 to
+252.6 per 100,000 in 2022; a 3.5 fold diﬀerence. CVD
+mortality decreased by 64.2% from 1990 to 2022. Out of the
+21 regions, High-income Asia Paciﬁc was ranked 20th in 1990
+and 21st in 2022 for age-standardized CVD mortality. After
+ischemic heart disease and all stroke subtypes, aortic
+aneurysm had the highest age-standardized DALYs in 2022 at
+79.6 per 100,000. For all risks, high systolic blood pressure
+accounted for the largest number of attributable age-
+standardized CVD DALYs at 762.7 per 100,000.
+2361
+2361-2362
+
+Cardiovascular Disease in High-Income Asia Paciﬁc
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2362
+2361-2362
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in High-Income North America
+Cardiovascular Disease in High-Income North America
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+667,615
+6,262
+104.0
+0.9
+22.5
+Ischemic heart disease
+29,774,092
+545,993
+4,512.7
+75.8
+1,572.4
+Ischemic stroke
+7,310,116
+133,791
+1,243.8
+17.4
+392.9
+Intracerebral hemorrhage
+811,487
+64,618
+161.1
+9.3
+217.9
+Subarachnoid hemorrhage
+424,733
+20,234
+84.2
+3.1
+93.3
+Hypertensive heart disease
+1,030,771
+77,701
+159.5
+11.2
+245.2
+Non-rheumatic calciﬁc
+aortic valve disease
+2,822,210
+26,859
+399.9
+3.5
+51.3
+Non-rheumatic
+degenerative mitral valve
+disease
+3,765,229
+4,250
+531.1
+0.6
+16.3
+Other non-rheumatic valve
+diseases
+712
+78
+0.2
+<0.1
+0.4
+Myocarditis
+55,489
+809
+17.3
+0.2
+11.3
+Alcoholic cardiomyopathy
+94,817
+5,917
+18.1
+1.0
+31.7
+Other cardiomyopathy
+525,115
+23,631
+124.8
+3.6
+95.4
+Pulmonary arterial
+hypertension
+8,771
+1,888
+1.7
+0.3
+7.5
+Atrial ﬁbrillation and ﬂutter
+8,517,878
+43,337
+1,209.9
+5.6
+161.4
+Aortic aneurysm
+Not estimated
+13,625
+Not estimated
+2.0
+42.2
+Lower extremity peripheral
+arterial disease
+12,665,608
+12,402
+1,784.6
+1.7
+33.7
+Endocarditis
+51,368
+10,617
+10.2
+1.6
+36.4
+Other cardiovascular and
+circulatory diseases
+10,519,632
+21,465
+1,884.4
+3.3
+182.8
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in High-income North America ranged from 99.4 to
+191.6 per 100,000 in 2022; a 1.9 fold diﬀerence. CVD
+mortality decreased by 45.9% from 1990 to 2022. High-
+income North America was ranked 17th in both 1990 and in
+2022 for age-standardized CVD mortality. After ischemic
+heart disease and all stroke subtypes, hypertensive heart
+disease had the highest age-standardized DALYs in 2022 at
+245.2 per 100,000. For all risks, high systolic blood pressure
+accounted for the largest number of attributable age-
+standardized CVD DALYs at 1,355.7 per 100,000.
+2363
+2363-2364
+
+Cardiovascular Disease in High-Income North America
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2364
+2363-2364
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in Southern Latin America
+Cardiovascular Disease in Southern Latin America
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+52,634
+1,201
+61.0
+1.3
+26.7
+Ischemic heart disease
+2,609,524
+57,655
+2,920.1
+62.5
+1,287.1
+Ischemic stroke
+528,575
+21,539
+615.0
+22.7
+401.3
+Intracerebral hemorrhage
+204,460
+14,720
+253.2
+16.4
+412.0
+Subarachnoid hemorrhage
+102,243
+3,945
+125.9
+4.5
+144.0
+Hypertensive heart disease
+98,942
+14,678
+107.9
+15.5
+230.0
+Non-rheumatic calciﬁc
+aortic valve disease
+244,711
+2,972
+267.5
+3.2
+53.0
+Non-rheumatic
+degenerative mitral valve
+disease
+128,886
+336
+141.0
+0.4
+9.5
+Other non-rheumatic valve
+diseases
+23
+7
+<0.1
+<0.1
+0.2
+Myocarditis
+3,935
+87
+5.4
+0.1
+3.7
+Alcoholic cardiomyopathy
+2,095
+172
+2.6
+0.2
+5.9
+Other cardiomyopathy
+71,655
+8,491
+97.2
+9.3
+198.6
+Pulmonary arterial
+hypertension
+2,260
+132
+2.8
+0.2
+5.7
+Atrial ﬁbrillation and ﬂutter
+419,791
+4,074
+459.7
+4.3
+87.2
+Aortic aneurysm
+Not estimated
+2,380
+Not estimated
+2.6
+55.4
+Lower extremity peripheral
+arterial disease
+983,138
+567
+1,071.6
+0.6
+14.1
+Endocarditis
+4,242
+1,566
+5.6
+1.7
+41.4
+Other cardiovascular and
+circulatory diseases
+1,700,581
+8,696
+1,970.7
+9.5
+281.0
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in Southern Latin America ranged from 114.9 to
+173.6 per 100,000 in 2022; a 1.5 fold diﬀerence. CVD
+mortality decreased by 51.2% from 1990 to 2022. Of the 21
+regions, Southern Latin America ranked 13th in 1990 and 16th
+in 2022 for age-standardized CVD mortality. After ischemic
+heart disease and all stroke subtypes, other cardiovascular
+and circulatory diseases had the highest age-standardized
+DALYs in 2022 at 281.0 per 100,000. High systolic blood
+pressure had the largest number of attributable age-
+standardized CVD DALYs at 1,486.4 per 100,000.
+2365
+2365-2366
+
+Cardiovascular Disease in Southern Latin America
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2366
+2365-2366
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in Western Europe
+Cardiovascular Disease in Western Europe
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+115,044
+18,447
+14.9
+1.6
+26.5
+Ischemic heart disease
+27,188,008
+576,481
+2,928.5
+49.5
+957.8
+Ischemic stroke
+6,280,537
+228,785
+702.4
+17.4
+312.8
+Intracerebral hemorrhage
+795,635
+95,176
+112.6
+8.5
+170.5
+Subarachnoid hemorrhage
+570,991
+22,622
+84.6
+2.3
+68.3
+Hypertensive heart disease
+1,211,065
+115,009
+108.9
+8.6
+114.2
+Non-rheumatic calciﬁc
+aortic valve disease
+4,297,106
+55,830
+419.1
+4.3
+61.9
+Non-rheumatic
+degenerative mitral valve
+disease
+3,167,713
+9,420
+308.5
+0.8
+15.4
+Other non-rheumatic valve
+diseases
+1,693
+298
+0.2
+<0.1
+0.5
+Myocarditis
+45,972
+1,523
+9.6
+0.2
+5.2
+Alcoholic cardiomyopathy
+95,734
+4,892
+14.4
+0.6
+17.2
+Other cardiomyopathy
+530,824
+31,479
+86.2
+2.7
+58.5
+Pulmonary arterial
+hypertension
+23,892
+1,756
+3.6
+0.2
+4.8
+Atrial ﬁbrillation and ﬂutter
+7,681,289
+81,522
+749.7
+6.1
+128.1
+Aortic aneurysm
+Not estimated
+29,615
+Not estimated
+2.7
+51.0
+Lower extremity peripheral
+arterial disease
+20,564,688
+17,682
+2,099.2
+1.4
+30.4
+Endocarditis
+94,539
+19,801
+12.7
+1.7
+31.4
+Other cardiovascular and
+circulatory diseases
+17,808,574
+32,595
+2,140.9
+3.0
+166.7
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in Western Europe ranged from 80.2 to 199.9 per
+100,000 in 2022; a 2.5 fold diﬀerence. CVD mortality
+decreased by 60.2% from 1990 to 2022. Of the 21 regions,
+Western Europe ranked 15th in 1990 and 19th in 2022 for age-
+standardized CVD mortality. After ischemic heart disease and
+all stroke subtypes, other cardiovascular and circulatory
+diseases had the highest age-standardized DALYs in 2022 at
+166.7 per 100,000. High systolic blood pressure had the
+largest number of attributable age-standardized CVD DALYs
+at 977.2 per 100,000.
+2367
+2367-2368
+
+Cardiovascular Disease in Western Europe
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2368
+2367-2368
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in Andean Latin America
+Cardiovascular Disease in Andean Latin America
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+457,455
+494
+656.7
+0.8
+53.7
+Ischemic heart disease
+1,070,915
+34,037
+1,721.7
+59.0
+1,173.5
+Ischemic stroke
+469,672
+10,679
+756.7
+19.0
+356.2
+Intracerebral hemorrhage
+99,306
+9,357
+150.7
+15.6
+397.3
+Subarachnoid hemorrhage
+155,742
+3,937
+242.6
+6.3
+216.0
+Hypertensive heart disease
+85,773
+5,595
+145.0
+9.9
+169.3
+Non-rheumatic calciﬁc
+aortic valve disease
+80,043
+391
+134.1
+0.7
+17.1
+Non-rheumatic
+degenerative mitral valve
+disease
+16,939
+144
+28.4
+0.2
+6.7
+Other non-rheumatic valve
+diseases
+24
+4
+<0.1
+<0.1
+0.1
+Myocarditis
+3,365
+39
+5.2
+0.1
+2.4
+Alcoholic cardiomyopathy
+27
+3
+<0.1
+<0.1
+0.1
+Other cardiomyopathy
+23,166
+660
+35.9
+1.1
+39.2
+Pulmonary arterial
+hypertension
+1,809
+84
+2.8
+0.1
+5.1
+Atrial ﬁbrillation and ﬂutter
+402,429
+2,532
+684.4
+4.6
+111.4
+Aortic aneurysm
+Not estimated
+563
+Not estimated
+1.0
+20.3
+Lower extremity peripheral
+arterial disease
+502,546
+116
+858.6
+0.2
+7.8
+Endocarditis
+2,992
+221
+4.6
+0.4
+13.6
+Other cardiovascular and
+circulatory diseases
+780,772
+1,237
+1,247.7
+2.1
+118.8
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in Andean Latin America ranged from 96.1 to 187.2.
+per 100,000 in 2022; a 1.9 fold diﬀerence. CVD mortality
+decreased by 39.9% from 1990 to 2022. Out of the 21
+regions, Andean Latin America was ranked 21st in 1990 and
+18th in 2022 for age-standardized CVD mortality. After
+ischemic heart disease and all stroke subtypes, hypertensive
+heart disease had the highest age-standardized DALYs in
+2022 at 169.3 per 100,000. For all risks, high systolic blood
+pressure accounted for the largest number of attributable
+age-standardized CVD DALYs at 1,230.6 per 100,000.
+2369
+2369-2370
+
+Cardiovascular Disease in Andean Latin America
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2370
+2369-2370
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in the Caribbean
+Cardiovascular Disease in the Caribbean
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+261,123
+921
+540.7
+1.8
+110.6
+Ischemic heart disease
+1,659,127
+58,168
+3,058.2
+104.6
+2,235.9
+Ischemic stroke
+490,869
+21,153
+913.3
+38.0
+701.9
+Intracerebral hemorrhage
+105,537
+16,704
+202.2
+30.6
+812.9
+Subarachnoid hemorrhage
+107,267
+2,705
+203.4
+5.1
+192.7
+Hypertensive heart disease
+101,513
+12,193
+185.4
+21.8
+441.6
+Non-rheumatic calciﬁc
+aortic valve disease
+83,167
+473
+151.0
+0.9
+21.6
+Non-rheumatic
+degenerative mitral valve
+disease
+20,214
+214
+36.9
+0.4
+12.6
+Other non-rheumatic valve
+diseases
+34
+10
+0.1
+<0.1
+0.5
+Myocarditis
+3,162
+178
+6.5
+0.4
+21.4
+Alcoholic cardiomyopathy
+9,102
+1,096
+17.2
+2.0
+62.3
+Other cardiomyopathy
+25,868
+2,200
+53.5
+4.2
+138.5
+Pulmonary arterial
+hypertension
+1,233
+106
+2.4
+0.2
+11.6
+Atrial ﬁbrillation and ﬂutter
+388,887
+2,633
+704.9
+4.6
+112.8
+Aortic aneurysm
+Not estimated
+1,189
+Not estimated
+2.2
+41.2
+Lower extremity peripheral
+arterial disease
+602,048
+1,111
+1,087.3
+2.0
+37.5
+Endocarditis
+2,215
+444
+4.6
+0.9
+33.3
+Other cardiovascular and
+circulatory diseases
+586,853
+2,294
+1,101.1
+4.3
+179.7
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in the Caribbean ranged from 97.3 to 459.2 per
+100,000 in 2022; a 4.7 fold diﬀerence. CVD mortality
+decreased by 34.7% from 1990 to 2022. Out of the 21
+regions, the Caribbean was ranked 11th in 1990 and 13th in
+2022 for age-standardized CVD mortality. After ischemic
+heart disease and all stroke subtypes, hypertensive heart
+disease had the highest age-standardized DALYs in 2022 at
+441.6 per 100,000. For all risks, high systolic blood pressure
+accounted for the largest number of attributable age-
+standardized CVD DALYs at 2,605.3 per 100,000.
+2371
+2371-2372
+
+Cardiovascular Disease in the Caribbean
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2372
+2371-2372
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in Central Latin America
+Cardiovascular Disease in Central Latin America
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+2,180,136
+1,085
+818.2
+0.4
+50.5
+Ischemic heart disease
+6,773,869
+266,503
+2,606.2
+108.9
+2,112.4
+Ischemic stroke
+2,013,978
+47,303
+782.1
+19.9
+369.8
+Intracerebral hemorrhage
+414,191
+34,937
+156.5
+13.8
+339.3
+Subarachnoid hemorrhage
+515,867
+11,313
+195.6
+4.4
+145.5
+Hypertensive heart disease
+293,297
+26,580
+119.2
+11.1
+185.0
+Non-rheumatic calciﬁc
+aortic valve disease
+415,329
+1,998
+163.5
+0.8
+20.0
+Non-rheumatic
+degenerative mitral valve
+disease
+94,050
+918
+37.1
+0.4
+9.0
+Other non-rheumatic valve
+diseases
+416
+53
+0.2
+<0.1
+0.5
+Myocarditis
+15,823
+219
+6.2
+0.1
+4.0
+Alcoholic cardiomyopathy
+7,615
+473
+2.8
+0.2
+6.3
+Other cardiomyopathy
+98,861
+3,939
+40.4
+1.6
+50.8
+Pulmonary arterial
+hypertension
+8,503
+223
+3.2
+0.1
+3.2
+Atrial ﬁbrillation and ﬂutter
+1,830,384
+11,672
+731.2
+5.0
+121.3
+Aortic aneurysm
+Not estimated
+3,108
+Not estimated
+1.3
+25.9
+Lower extremity peripheral
+arterial disease
+3,237,956
+906
+1,293.0
+0.4
+13.0
+Endocarditis
+11,943
+1,309
+4.8
+0.5
+17.6
+Other cardiovascular and
+circulatory diseases
+3,451,669
+6,319
+1,330.6
+2.6
+131.7
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in Central Latin America ranged from 109.5 to 329.4
+per 100,000 in 2022; a 3.0 fold diﬀerence. CVD mortality
+decreased by 25.1% from 1990 to 2022. Out of the 21 regions,
+Central Latin America was ranked 19th in 1990 and 14th in
+2022 for age-standardized CVD mortality. After ischemic
+heart disease and all stroke subtypes, hypertensive heart
+disease had the highest age-standardized DALYs in 2022 at
+185.0 per 100,000. For all risks, high systolic blood pressure
+accounted for the largest number of attributable age-
+standardized DALYs at 1,771.4 per 100,000.
+2373
+2373-2374
+
+Cardiovascular Disease in Central Latin America
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2374
+2373-2374
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in Tropical Latin America
+Cardiovascular Disease in Tropical Latin America
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+1,178,179
+3,017
+492.9
+1.2
+59.1
+Ischemic heart disease
+3,706,448
+170,497
+1,397.5
+65.8
+1,467.1
+Ischemic stroke
+2,083,023
+77,319
+795.6
+30.9
+545.1
+Intracerebral hemorrhage
+450,678
+46,943
+173.2
+17.8
+462.2
+Subarachnoid hemorrhage
+394,619
+14,180
+150.2
+5.4
+175.8
+Hypertensive heart disease
+424,780
+34,337
+166.1
+13.6
+245.4
+Non-rheumatic calciﬁc
+aortic valve disease
+377,483
+3,857
+143.7
+1.5
+31.1
+Non-rheumatic
+degenerative mitral valve
+disease
+113,713
+1,459
+43.2
+0.6
+14.2
+Other non-rheumatic valve
+diseases
+477
+73
+0.2
+<0.1
+0.8
+Myocarditis
+16,568
+379
+7.1
+0.2
+6.3
+Alcoholic cardiomyopathy
+19,642
+983
+7.5
+0.4
+13.6
+Other cardiomyopathy
+276,933
+14,154
+118.0
+5.6
+147.0
+Pulmonary arterial
+hypertension
+6,328
+709
+2.5
+0.3
+9.3
+Atrial ﬁbrillation and ﬂutter
+2,055,246
+14,553
+787.2
+5.9
+136.0
+Aortic aneurysm
+Not estimated
+8,909
+Not estimated
+3.4
+74.5
+Lower extremity peripheral
+arterial disease
+2,903,792
+3,707
+1,118.7
+1.5
+30.9
+Endocarditis
+14,833
+2,771
+6.6
+1.1
+33.9
+Other cardiovascular and
+circulatory diseases
+3,621,645
+9,064
+1,403.2
+3.6
+158.2
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in Tropical Latin America ranged from 157.7 to 201.8
+per 100,000 in 2022; a 1.3 fold diﬀerence. CVD mortality
+decreased by 52.6% from 1990 to 2022. Out of the 21
+regions, Tropical Latin America was ranked 12th in 1990 and
+15th in 2022 for age-standardized CVD mortality. After
+ischemic heart disease and all stroke subtypes, hypertensive
+heart disease had the highest age-standardized DALYs in
+2022 at 245.4 per 100,000. For all risks, high systolic blood
+pressure accounted for the largest number of attributable
+age-standardized DALYs at 1,706.2 per 100,000.
+2375
+2375-2376
+
+Cardiovascular Disease in Tropical Latin America
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2376
+2375-2376
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in North Africa and Middle East
+Cardiovascular Disease in North Africa and Middle East
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+2,764,881
+9,411
+420.5
+1.9
+82.2
+Ischemic heart disease
+29,397,709
+770,738
+5,780.2
+196.2
+4,028.1
+Ischemic stroke
+4,390,907
+254,063
+803.4
+71.8
+1,267.9
+Intracerebral hemorrhage
+1,207,552
+112,756
+199.2
+26.0
+631.2
+Subarachnoid hemorrhage
+660,160
+12,513
+115.1
+2.8
+86.9
+Hypertensive heart disease
+1,043,500
+136,843
+240.0
+38.0
+654.8
+Non-rheumatic calciﬁc
+aortic valve disease
+260,404
+3,603
+56.9
+0.9
+20.0
+Non-rheumatic
+degenerative mitral valve
+disease
+271,543
+3,108
+63.3
+0.7
+18.2
+Other non-rheumatic valve
+diseases
+3,516
+338
+0.6
+0.1
+2.0
+Myocarditis
+33,842
+3,336
+5.8
+0.8
+22.0
+Alcoholic cardiomyopathy
+3,065
+124
+0.5
+<0.1
+0.8
+Other cardiomyopathy
+311,277
+7,084
+52.1
+1.5
+53.3
+Pulmonary arterial
+hypertension
+11,860
+1,459
+2.0
+0.3
+11.6
+Atrial ﬁbrillation and ﬂutter
+1,560,144
+11,850
+397.3
+4.0
+78.6
+Aortic aneurysm
+Not estimated
+4,152
+Not estimated
+1.0
+21.5
+Lower extremity peripheral
+arterial disease
+3,580,213
+1,941
+876.0
+0.5
+13.8
+Endocarditis
+17,388
+2,628
+3.0
+0.6
+17.4
+Other cardiovascular and
+circulatory diseases
+8,613,986
+30,165
+1,640.6
+7.2
+271.6
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in North Africa and Middle East ranged from 132.5 to
+578.7 per 100,000 in 2022; a 4.4 fold diﬀerence. CVD
+mortality decreased by 31.6% from 1990 to 2022. Of the 21
+regions, North Africa and Middle East ranked 3rd in 1990 and
+5th in 2022 for age-standardized CVD mortality. After
+ischemic heart disease and all stroke subtypes, hypertensive
+heart disease had the highest age-standardized DALYs in
+2022 at 654.8 per 100,000. High systolic blood pressure had
+the largest number of attributable age-standardized CVD
+DALYs at 3,914.0 per 100,000.
+2377
+2377-2378
+
+Cardiovascular Disease in North Africa and Middle East
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2378
+2377-2378
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in South Asia
+Cardiovascular Disease in South Asia
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+13,791,295
+225,729
+692.5
+15.0
+466.1
+Ischemic heart disease
+36,416,292
+2,021,289
+2,214.6
+147.1
+3,285.4
+Ischemic stroke
+13,333,231
+417,001
+838.0
+34.4
+678.0
+Intracerebral hemorrhage
+4,234,810
+538,372
+242.9
+36.8
+902.9
+Subarachnoid hemorrhage
+1,543,909
+61,635
+85.1
+4.0
+126.8
+Hypertensive heart disease
+1,478,240
+194,286
+111.8
+15.9
+285.1
+Non-rheumatic calciﬁc
+aortic valve disease
+362,863
+10,800
+25.1
+0.9
+16.0
+Non-rheumatic
+degenerative mitral valve
+disease
+505,344
+5,230
+35.6
+0.4
+9.1
+Other non-rheumatic valve
+diseases
+717
+225
+<0.1
+<0.1
+0.4
+Myocarditis
+112,625
+5,127
+6.5
+0.3
+14.2
+Alcoholic cardiomyopathy
+12,545
+1,550
+0.7
+0.1
+3.0
+Other cardiomyopathy
+797,264
+72,352
+48.7
+5.2
+136.8
+Pulmonary arterial
+hypertension
+30,055
+3,646
+1.7
+0.3
+8.3
+Atrial ﬁbrillation and ﬂutter
+7,938,649
+32,239
+589.6
+3.2
+84.7
+Aortic aneurysm
+Not estimated
+12,746
+Not estimated
+1.0
+19.0
+Lower extremity peripheral
+arterial disease
+10,775,328
+3,447
+798.3
+0.3
+9.3
+Endocarditis
+48,426
+11,991
+2.8
+0.8
+23.5
+Other cardiovascular and
+circulatory diseases
+10,705,232
+32,698
+707.4
+2.4
+94.3
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in South Asia ranged from 225.4 to 326.5 per
+100,000 in 2022. CVD mortality decreased by 11.3% from
+1990 to 2022. Of the 21 regions, South Asia ranked 14th in
+1990 and 10th in 2022 for age-standardized CVD mortality.
+After ischemic heart disease and all stroke subtypes,
+rheumatic heart disease had the highest age-standardized
+DALYs in 2022 at 466.1 per 100,000. South Asia had the
+lowest CVD age-standardized prevalence in 2022. High
+systolic blood pressure had the largest number of attributable
+age-standardized CVD DALYs at 2,841.1 per 100,000.
+2379
+2379-2380
+
+Cardiovascular Disease in South Asia
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2380
+2379-2380
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in East Asia
+Cardiovascular Disease in East Asia
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+5,266,540
+75,927
+343.8
+3.7
+89.1
+Ischemic heart disease
+68,751,838
+2,099,130
+3,183.8
+108.4
+1,917.9
+Ischemic stroke
+23,266,169
+1,139,094
+1,064.1
+57.0
+1,072.0
+Intracerebral hemorrhage
+4,923,009
+1,433,592
+239.3
+68.6
+1,361.0
+Subarachnoid hemorrhage
+1,720,413
+91,177
+85.9
+4.3
+111.1
+Hypertensive heart disease
+4,114,002
+331,523
+189.0
+17.4
+269.3
+Non-rheumatic calciﬁc
+aortic valve disease
+751,611
+1,805
+33.5
+0.1
+2.2
+Non-rheumatic
+degenerative mitral valve
+disease
+2,832,655
+1,066
+125.3
+0.1
+2.9
+Other non-rheumatic valve
+diseases
+1,382
+247
+0.1
+<0.1
+0.3
+Myocarditis
+165,695
+9,139
+11.0
+0.5
+17.5
+Alcoholic cardiomyopathy
+32,864
+1,551
+1.8
+0.1
+2.8
+Other cardiomyopathy
+280,309
+12,430
+19.1
+0.7
+20.0
+Pulmonary arterial
+hypertension
+42,191
+6,687
+2.2
+0.3
+7.7
+Atrial ﬁbrillation and ﬂutter
+12,179,180
+67,436
+551.6
+4.0
+88.1
+Aortic aneurysm
+Not estimated
+11,241
+Not estimated
+0.5
+14.3
+Lower extremity peripheral
+arterial disease
+27,223,946
+2,326
+1,197.4
+0.1
+8.3
+Endocarditis
+37,262
+3,171
+2.2
+0.2
+4.8
+Other cardiovascular and
+circulatory diseases
+6,009,279
+12,839
+290.8
+0.7
+31.2
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in East Asia ranged from 91.8 to 352.9 per 100,000
+in 2022; a 3.8 fold diﬀerence. CVD mortality decreased by
+32.4% from 1990 to 2022. Out of the 21 regions, East Asia
+was ranked 7th in 1990 and 11th in 2022 for age-standardized
+CVD mortality. After ischemic heart disease and all stroke
+subtypes, hypertensive heart disease had the highest age-
+standardized DALYs in 2022 at 269.3 per 100,000. For all
+risks, high systolic blood pressure accounted for the largest
+number of attributable age-standardized CVD DALYs at
+2,745.2 per 100,000.
+2381
+2381-2382
+
+Cardiovascular Disease in East Asia
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2382
+2381-2382
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in Oceania
+Cardiovascular Disease in Oceania
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+101,882
+1,468
+700.3
+13.4
+593.7
+Ischemic heart disease
+448,962
+13,551
+5,133.3
+202.7
+4,755.9
+Ischemic stroke
+84,641
+1,802
+985.3
+37.9
+790.5
+Intracerebral hemorrhage
+43,925
+6,451
+414.8
+94.1
+2,226.2
+Subarachnoid hemorrhage
+22,127
+646
+205.4
+7.6
+267.2
+Hypertensive heart disease
+6,669
+1,487
+102.9
+22.6
+505.5
+Non-rheumatic calciﬁc
+aortic valve disease
+1,718
+59
+27.0
+0.9
+22.0
+Non-rheumatic
+degenerative mitral valve
+disease
+4,404
+7
+71.2
+0.1
+3.8
+Other non-rheumatic valve
+diseases
+5
+2
+0.1
+<0.1
+0.6
+Myocarditis
+670
+33
+5.5
+0.2
+14.0
+Alcoholic cardiomyopathy
+20
+6
+0.2
+0.1
+2.0
+Other cardiomyopathy
+2,892
+427
+24.5
+4.5
+159.7
+Pulmonary arterial
+hypertension
+198
+23
+1.8
+0.2
+8.9
+Atrial ﬁbrillation and ﬂutter
+33,404
+185
+542.1
+4.2
+103.8
+Aortic aneurysm
+Not estimated
+118
+Not estimated
+1.9
+40.0
+Lower extremity peripheral
+arterial disease
+65,617
+8
+1,009.2
+0.1
+8.9
+Endocarditis
+450
+252
+4.2
+2.7
+93.4
+Other cardiovascular and
+circulatory diseases
+30,024
+204
+392.8
+2.3
+97.2
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in Oceania ranged from 235.0 to 714.5 per 100,000
+in 2022; a 3.0 fold diﬀerence. CVD mortality decreased by
+16.4% from 1990 to 2022. Out of the 21 regions, Oceania was
+ranked 5th in 1990 and 3rd in 2022 for age-standardized CVD
+mortality. After ischemic heart disease and all stroke
+subtypes, rheumatic heart disease had the highest age-
+standardized DALYs in 2022 at 593.7 per 100,000. For all
+risks, high systolic blood pressure accounted for the largest
+number of attributable age-standardized CVD DALYs at
+4,420.7 per 100,000.
+2383
+2383-2384
+
+Cardiovascular Disease in Oceania
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2384
+2383-2384
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in Southeast Asia
+Cardiovascular Disease in Southeast Asia
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+5,706,614
+11,882
+769.9
+1.7
+113.3
+Ischemic heart disease
+31,693,855
+656,205
+4,589.4
+110.7
+2,501.3
+Ischemic stroke
+9,373,197
+325,362
+1,358.5
+63.4
+1,239.7
+Intracerebral hemorrhage
+3,334,389
+526,960
+441.4
+82.5
+2,002.4
+Subarachnoid hemorrhage
+1,194,567
+38,419
+158.1
+6.0
+186.6
+Hypertensive heart disease
+1,017,714
+132,805
+168.1
+22.9
+458.5
+Non-rheumatic calciﬁc
+aortic valve disease
+157,395
+1,425
+25.6
+0.3
+5.1
+Non-rheumatic
+degenerative mitral valve
+disease
+513,144
+635
+84.3
+0.1
+3.7
+Other non-rheumatic valve
+diseases
+271
+62
+<0.1
+<0.1
+0.2
+Myocarditis
+44,350
+1,369
+6.5
+0.3
+7.6
+Alcoholic cardiomyopathy
+3,649
+333
+0.5
+<0.1
+1.7
+Other cardiomyopathy
+163,221
+14,967
+26.4
+2.7
+62.7
+Pulmonary arterial
+hypertension
+13,615
+661
+1.9
+0.1
+4.0
+Atrial ﬁbrillation and ﬂutter
+3,614,518
+23,517
+597.6
+5.4
+109.4
+Aortic aneurysm
+Not estimated
+7,031
+Not estimated
+1.3
+23.3
+Lower extremity peripheral
+arterial disease
+7,493,846
+821
+1,195.2
+0.1
+9.8
+Endocarditis
+37,970
+7,559
+6.1
+1.2
+35.5
+Other cardiovascular and
+circulatory diseases
+2,746,132
+8,101
+410.2
+1.3
+60.1
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in Southeast Asia ranged from 123.2 to 406.2 per
+100,000 in 2022; a 3.3 fold diﬀerence. CVD mortality
+decreased by 16.9% from 1990 to 2022. Out of the 21 regions,
+Southeast Asia was ranked 8th in 1990 and 6th in 2022 for
+age-standardized CVD mortality. After ischemic heart disease
+and all stroke subtypes, hypertensive heart disease had the
+highest age-standardized DALYs in 2022 at 458.5 per
+100,000. For all risks, high systolic blood pressure accounted
+for the largest number of attributable age-standardized CVD
+DALYs at 3,925.7 per 100,000.
+2385
+2385-2386
+
+Cardiovascular Disease in Southeast Asia
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2386
+2385-2386
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in Central Sub-Saharan Africa
+Cardiovascular Disease in Central Sub-Saharan Africa
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+1,906,645
+3,030
+1,380.7
+5.1
+201.0
+Ischemic heart disease
+2,207,929
+51,104
+3,464.7
+121.9
+2,491.6
+Ischemic stroke
+781,664
+21,875
+1,239.4
+66.7
+1,209.9
+Intracerebral hemorrhage
+225,657
+37,452
+259.0
+76.5
+1,730.8
+Subarachnoid hemorrhage
+66,885
+1,827
+77.0
+3.0
+92.2
+Hypertensive heart disease
+112,616
+23,406
+254.0
+60.4
+1,110.7
+Non-rheumatic calciﬁc
+aortic valve disease
+7,840
+578
+14.4
+1.5
+27.2
+Non-rheumatic
+degenerative mitral valve
+disease
+7,619
+423
+13.8
+0.9
+19.5
+Other non-rheumatic valve
+diseases
+46
+10
+<0.1
+<0.1
+0.4
+Myocarditis
+5,594
+256
+5.1
+0.3
+11.5
+Alcoholic cardiomyopathy
+1,823
+2
+2.1
+<0.1
+0.3
+Other cardiomyopathy
+116,974
+8,352
+112.0
+15.5
+387.0
+Pulmonary arterial
+hypertension
+1,727
+134
+1.8
+0.2
+6.1
+Atrial ﬁbrillation and ﬂutter
+198,070
+1,357
+443.8
+4.8
+98.8
+Aortic aneurysm
+Not estimated
+999
+Not estimated
+2.2
+45.6
+Lower extremity peripheral
+arterial disease
+306,848
+612
+726.1
+1.8
+33.3
+Endocarditis
+6,117
+1,024
+4.4
+1.8
+46.5
+Other cardiovascular and
+circulatory diseases
+1,122,426
+1,897
+1,885.0
+3.5
+178.8
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in Central Sub-Saharan Africa ranged from 323.5 to
+464.6 per 100,000 in 2022; a 1.4 fold diﬀerence. CVD
+mortality decreased by 12.3% from 1990 to 2022. Out of the
+21 regions, Central Sub-Saharan Africa was ranked 6th in 1990
+and 4th in 2022 for age-standardized CVD mortality. After
+ischemic heart disease and all stroke subtypes, hypertensive
+heart disease had the highest age-standardized DALYs in
+2022 at 1,110.7 per 100,000. High systolic blood pressure
+accounted for the largest number of attributable age-
+standardized CVD DALYs at 4,339.8 per 100,000.
+2387
+2387-2388
+
+Cardiovascular Disease in Central Sub-Saharan Africa
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2388
+2387-2388
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in Eastern Sub-Saharan Africa
+Cardiovascular Disease in Eastern Sub-Saharan Africa
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+5,548,728
+6,452
+1,295.3
+3.8
+153.1
+Ischemic heart disease
+6,423,413
+109,091
+3,169.3
+77.6
+1,664.7
+Ischemic stroke
+2,297,408
+61,695
+1,147.3
+54.1
+997.6
+Intracerebral hemorrhage
+734,889
+114,782
+270.5
+72.4
+1,671.9
+Subarachnoid hemorrhage
+213,645
+5,213
+78.6
+2.6
+85.7
+Hypertensive heart disease
+512,396
+46,238
+349.8
+36.4
+676.3
+Non-rheumatic calciﬁc
+aortic valve disease
+23,487
+1,206
+13.8
+0.9
+16.8
+Non-rheumatic
+degenerative mitral valve
+disease
+22,598
+1,266
+13.0
+0.7
+17.9
+Other non-rheumatic valve
+diseases
+273
+23
+0.1
+<0.1
+0.3
+Myocarditis
+18,811
+365
+5.5
+0.1
+5.4
+Alcoholic cardiomyopathy
+9,559
+3
+3.1
+<0.1
+0.3
+Other cardiomyopathy
+498,218
+8,394
+161.4
+3.8
+134.5
+Pulmonary arterial
+hypertension
+6,099
+453
+2.1
+0.2
+6.4
+Atrial ﬁbrillation and ﬂutter
+578,307
+3,044
+400.7
+3.2
+71.7
+Aortic aneurysm
+Not estimated
+2,549
+Not estimated
+1.7
+35.8
+Lower extremity peripheral
+arterial disease
+933,431
+1,280
+675.1
+1.1
+21.9
+Endocarditis
+33,390
+4,027
+7.0
+1.9
+57.3
+Other cardiovascular and
+circulatory diseases
+2,582,036
+5,139
+1,283.6
+2.7
+135.9
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in Eastern Sub-Saharan Africa ranged from 187.8 to
+410.8 per 100,000 in 2022; a 2.2 fold diﬀerence. CVD
+mortality decreased by 23.6% from 1990 to 2022. Of the 21
+regions, Eastern Sub-Saharan Africa ranked 10th in 1990 and
+12th in 2022 for age-standardized CVD mortality. After
+ischemic heart disease and all stroke subtypes, hypertensive
+heart disease had the highest age-standardized DALYs in
+2022 at 676.3 per 100,000. High systolic blood pressure had
+the largest number of attributable age-standardized CVD
+DALYs at 3,193.0 per 100,000.
+2389
+2389-2390
+
+Cardiovascular Disease in Eastern Sub-Saharan Africa
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2390
+2389-2390
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in Southern Sub-Saharan Africa
+Cardiovascular Disease in Southern Sub-Saharan Africa
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+722,444
+1,682
+847.1
+2.5
+133.9
+Ischemic heart disease
+1,857,089
+38,915
+2,992.7
+81.5
+1,680.0
+Ischemic stroke
+800,106
+23,969
+1,339.5
+58.6
+1,038.3
+Intracerebral hemorrhage
+144,626
+26,826
+206.0
+49.0
+1,166.8
+Subarachnoid hemorrhage
+40,248
+1,181
+54.0
+2.0
+63.1
+Hypertensive heart disease
+80,643
+21,221
+153.2
+47.1
+839.6
+Non-rheumatic calciﬁc
+aortic valve disease
+13,379
+545
+23.1
+1.3
+22.0
+Non-rheumatic
+degenerative mitral valve
+disease
+7,705
+232
+12.4
+0.4
+11.6
+Other non-rheumatic valve
+diseases
+22
+8
+<0.1
+<0.1
+0.4
+Myocarditis
+4,353
+94
+5.9
+0.1
+6.3
+Alcoholic cardiomyopathy
+374
+4
+0.5
+<0.1
+0.2
+Other cardiomyopathy
+67,206
+6,134
+91.0
+12.1
+276.7
+Pulmonary arterial
+hypertension
+1,625
+66
+2.3
+0.1
+3.9
+Atrial ﬁbrillation and ﬂutter
+263,389
+1,435
+510.9
+4.2
+89.4
+Aortic aneurysm
+Not estimated
+1,246
+Not estimated
+2.5
+50.5
+Lower extremity peripheral
+arterial disease
+488,286
+940
+973.7
+2.0
+42.8
+Endocarditis
+3,338
+614
+4.1
+0.9
+33.3
+Other cardiovascular and
+circulatory diseases
+1,460,546
+2,386
+2,458.0
+4.7
+225.9
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in Southern Sub-Saharan Africa ranged from 248.3
+to 453.3 per 100,000 in 2022; a 1.8 fold diﬀerence. CVD
+mortality increased by 8.0% from 1990 to 2022. Of the 21
+regions, Southern Sub-Saharan Africa ranked 18th in 1990 and
+9th in 2022 for age-standardized CVD mortality. After
+ischemic heart disease and all stroke subtypes, hypertensive
+heart disease had the highest age-standardized DALYs in
+2022 at 839.6 per 100,000. High systolic blood pressure had
+the largest number of attributable age-standardized CVD
+DALYs at 3,138.2 per 100,000.
+2391
+2391-2392
+
+Cardiovascular Disease in Southern Sub-Saharan Africa
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2392
+2391-2392
+
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Cardiovascular Disease in Western Sub-Saharan Africa
+Cardiovascular Disease in Western Sub-Saharan Africa
+FINDINGS FROM THE GLOBAL BURDEN OF DISEASE STUDY
+Figure 1. Regional map of 2022 age-standardized cardiovascular disease
+mortality rate per 100,000 with quantile classiﬁcation
+Cardiovascular Disease
+Type
+Prevalent Cases
+(Count)
+Deaths
+(Count)
+Prevalence
+(Rate)
+Deaths
+(Rate)
+Disability-Adjusted
+Life Years
+(DALYs, Rate)
+Rheumatic heart disease
+4,640,580
+5,175
+963.3
+2.3
+108.1
+Ischemic heart disease
+7,452,708
+144,797
+3,228.8
+94.4
+1,824.3
+Ischemic stroke
+3,203,095
+82,875
+1,240.4
+60.9
+1,114.1
+Intracerebral hemorrhage
+1,065,970
+118,256
+336.7
+62.8
+1,478.2
+Subarachnoid hemorrhage
+230,618
+5,777
+73.8
+2.5
+81.3
+Hypertensive heart disease
+496,314
+47,933
+289.7
+29.3
+593.8
+Non-rheumatic calciﬁc
+aortic valve disease
+24,823
+1,650
+11.3
+1.1
+19.3
+Non-rheumatic
+degenerative mitral valve
+disease
+28,895
+1,077
+13.0
+0.6
+13.0
+Other non-rheumatic valve
+diseases
+220
+27
+0.1
+<0.1
+0.3
+Myocarditis
+26,383
+478
+6.1
+0.1
+5.8
+Alcoholic cardiomyopathy
+10,332
+139
+3.1
+0.1
+2.1
+Other cardiomyopathy
+312,714
+16,486
+83.9
+8.2
+204.8
+Pulmonary arterial
+hypertension
+9,646
+444
+3.0
+0.1
+5.4
+Atrial ﬁbrillation and ﬂutter
+809,397
+4,749
+474.5
+4.6
+88.4
+Aortic aneurysm
+Not estimated
+3,377
+Not estimated
+2.0
+40.0
+Lower extremity peripheral
+arterial disease
+1,166,933
+1,641
+708.6
+1.3
+23.1
+Endocarditis
+25,587
+3,241
+5.3
+1.4
+39.6
+Other cardiovascular and
+circulatory diseases
+5,350,530
+14,280
+2,502.3
+7.4
+293.3
+Table 1. Regional cardiovascular disease in 2022: counts and age-standardized rates per 100,000.
+Results, uncertainty intervals, and methods available online.
+Figure 2. Regional cardiovascular disease mortality rate per 100,000 by
+age and sex in 1990 vs. 2022
+Figure 3. Age-standardized cardiovascular disease mortality rate per 100,000 by country (circle) in
+2022 by socio-demographic index (0ǥ100), a composite indicator of fertility, income, and
+education. Focus region countries indicated by triangles, loess line in blue with shaded 95%
+uncertainty interval.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+Summary: Age-standardized CVD mortality rates among
+countries in Western Sub-Saharan Africa ranged from 238.1 to
+449.7 per 100,000 in 2022; a 1.9 fold diﬀerence. CVD
+mortality decreased by 19.9% from 1990 to 2022. Of the 21
+regions, Western Sub-Saharan Africa ranked 9th in 1990 and
+8th in 2022 for age-standardized CVD mortality. After
+ischemic heart disease and all stroke subtypes, hypertensive
+heart disease had the highest age-standardized DALYs in
+2022 at 593.8 per 100,000. High systolic blood pressure had
+the largest number of attributable age-standardized CVD
+DALYs at 3,330.4 per 100,000
+2393
+2393-2394
+
+Cardiovascular Disease in Western Sub-Saharan Africa
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+Figure 4. Age-standardized disability-adjusted life years (DALYs) per 100,000 in 2022 for (A) cardiovascular diseases by country and (B) burden attributable to selected risk
+factors, for the region, compared to the theoretical minimum risk exposure level
+Figure 5. Age-standardized mortality rate per 100,000 for cardiovascular diseases in 2022 by cause of death and country. Boxplot shows ﬁrst quartile, median, and third quartile
+of mortality range.
+Institute for Health Metrics and Evaluation - National Heart, Lung, and Blood Institute - American College of Cardiology Foundation
+Global Burden of Cardiovascular Diseases and Risks Collaboration
+Data from Global Burden of Disease Study, Institute for Health Metrics and Evaluation, University of Washington
+www.healthdata.org/gbd
+2394
+2393-2394
+
+Figure 1. Global map of age−standardized cardiovascular disease mortality rate per 100,000 in 2022
+with equal interval classification
+2395
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2395-2396
+
+2396
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2395-2396
+
+Figure 1. Global map of age−standardized rheumatic heart disease mortality rate per 100,000 in 2022
+with equal interval classification
+2397
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2397-2398
+
+2398
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2397-2398
+
+Figure 1. Global map of age−standardized ischemic heart disease mortality rate per 100,000 in 2022
+with equal interval classification
+2399
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2399-2400
+
+2400
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2399-2400
+
+Figure 1. Global map of age−standardized stroke mortality rate per 100,000 in 2022 with equal
+interval classification
+2401
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2401-2402
+
+2402
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2401-2402
+
+Figure 1. Global map of age−standardized ischemic stroke mortality rate per 100,000 in 2022 with
+equal interval classification
+2403
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2403-2404
+
+2404
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2403-2404
+
+Figure 1. Global map of age−standardized intracerebral hemorrhage mortality rate per 100,000 in 2022
+with equal interval classification
+2405
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2405-2406
+
+2406
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2405-2406
+
+Figure 1. Global map of age−standardized subarachnoid hemorrhage mortality rate per 100,000 in 2022
+with equal interval classification
+2407
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2407-2408
+
+2408
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2407-2408
+
+Figure 1. Global map of age−standardized hypertensive heart disease mortality rate per 100,000 in
+2022 with equal interval classification
+2409
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2409-2410
+
+2410
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2409-2410
+
+Figure 1. Global map of age−standardized non−rheumatic valvular heart disease mortality rate per
+100,000 in 2022 with equal interval classification
+2411
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2411-2412
+
+2412
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2411-2412
+
+Figure 1. Global map of age−standardized non−rheumatic calcific aortic valve disease mortality rate
+per 100,000 in 2022 with equal interval classification
+2413
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2413-2414
+
+2414
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2413-2414
+
+Figure 1. Global map of age−standardized non−rheumatic degenerative mitral valve disease mortality
+rate per 100,000 in 2022 with equal interval classification
+2415
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2415-2416
+
+2416
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2415-2416
+
+Figure 1. Global map of age−standardized other non−rheumatic valve diseases mortality rate per
+100,000 in 2022 with equal interval classification
+2417
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2417-2418
+
+2418
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2417-2418
+
+Figure 1. Global map of age−standardized cardiomyopathy and myocarditis mortality rate per 100,000
+in 2022 with equal interval classification
+2419
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2419-2420
+
+2420
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2419-2420
+
+Figure 1. Global map of age−standardized myocarditis mortality rate per 100,000 in 2022 with equal
+interval classification
+2421
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2421-2422
+
+2422
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2421-2422
+
+Figure 1. Global map of age−standardized alcoholic cardiomyopathy mortality rate per 100,000 in 2022
+with equal interval classification
+2423
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2423-2424
+
+2424
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2423-2424
+
+Figure 1. Global map of age−standardized other cardiomyopathy mortality rate per 100,000 in 2022
+with equal interval classification
+2425
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2425-2426
+
+2426
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2425-2426
+
+Figure 1. Global map of age−standardized pulmonary arterial hypertension mortality rate per 100,000
+in 2022 with equal interval classification
+2427
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2427-2428
+
+2428
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2427-2428
+
+Figure 1. Global map of age−standardized atrial fibrillation and flutter mortality rate per 100,000
+in 2022 with equal interval classification
+2429
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2429-2430
+
+2430
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2429-2430
+
+Figure 1. Global map of age−standardized aortic aneurysm mortality rate per 100,000 in 2022 with
+equal interval classification
+2431
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2431-2432
+
+2432
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2431-2432
+
+Figure 1. Global map of age−standardized lower extremity peripheral arterial disease mortality rate
+per 100,000 in 2022 with equal interval classification
+2433
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2433-2434
+
+2434
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2433-2434
+
+Figure 1. Global map of age−standardized endocarditis mortality rate per 100,000 in 2022 with equal
+interval classification
+2435
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2435-2436
+
+2436
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2435-2436
+
+Figure 1. Global map of age−standardized other cardiovascular and circulatory diseases mortality
+rate per 100,000 in 2022 with equal interval classification
+2437
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2437-2438
+
+2438
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2437-2438
+
+Figure 1. Global map of cardiovascular disease mortality attributable to ambient particulate matter
+pollution per 100,000 in 2022 with equal interval classification
+2439
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2439-2440
+
+2440
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2439-2440
+
+Figure 1. Global map of cardiovascular disease mortality attributable to household air pollution
+from solid fuels per 100,000 in 2022 with equal interval classification
+2441
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2441-2442
+
+2442
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2442-2442
+2441-2442
+
+Figure 1. Global map of cardiovascular disease mortality attributable to high temperature per
+100,000 in 2022 with equal interval classification
+2443
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2443-2443
+2443-2444
+
+2444
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2443-2444
+
+Figure 1. Global map of cardiovascular disease mortality attributable to low temperature per 100,000
+in 2022 with equal interval classification
+2445
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2445-2446
+
+2446
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2445-2446
+
+Figure 1. Global map of cardiovascular disease mortality attributable to lead exposure per 100,000
+in 2022 with equal interval classification
+2447
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2447-2448
+
+2448
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2447-2448
+
+Figure 1. Global map of cardiovascular disease mortality attributable to smoking per 100,000 in 2022
+with equal interval classification
+2449
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2449-2450
+
+2450
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2449-2450
+
+Figure 1. Global map of cardiovascular disease mortality attributable to secondhand smoke per
+100,000 in 2022 with equal interval classification
+2451
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2451-2452
+
+2452
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2451-2452
+
+Figure 1. Global map of cardiovascular disease mortality attributable to high alcohol use per
+100,000 in 2022 with equal interval classification
+2453
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2453-2454
+
+2454
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2453-2454
+
+Figure 1. Global map of cardiovascular disease mortality attributable to dietary risks per 100,000
+in 2022 with equal interval classification
+2455
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2455-2456
+
+2456
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2455-2456
+
+Figure 1. Global map of cardiovascular disease mortality attributable to low physical activity per
+100,000 in 2022 with equal interval classification
+2457
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2457-2458
+
+2458
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2457-2458
+
+Figure 1. Global map of cardiovascular disease mortality attributable to high fasting plasma glucose
+per 100,000 in 2022 with equal interval classification
+2459
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2459-2460
+
+2460
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2459-2460
+
+Figure 1. Global map of cardiovascular disease mortality attributable to high LDL cholesterol per
+100,000 in 2022 with equal interval classification
+2461
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2461-2462
+
+2462
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2461-2462
+
+Figure 1. Global map of cardiovascular disease mortality attributable to high systolic blood
+pressure per 100,000 in 2022 with equal interval classification
+2463
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2463-2464
+
+2464
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2463-2464
+
+Figure 1. Global map of cardiovascular disease mortality attributable to high body mass index per
+100,000 in 2022 with equal interval classification
+2465
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2465-2466
+
+2466
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2465-2466
+
+Figure 1. Global map of cardiovascular disease mortality attributable to kidney dysfunction per
+100,000 in 2022 with equal interval classification
+2467
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2467-2468
+
+2468
+Diseases and Risks
+JACC VOL. 82, NO. 25, 2023
+DECEMBER 19/26, 2023:XXXǥXXX
+2467-2468
+
+SUMMARY OF GLOBAL BURDEN OF DISEASE
+STUDY METHODS
+BACKGROUND. The Global Burden of Diseases, In-
+juries, and Risk Factors Study (GBD) is a multinational
+collaborative research study with >10,000 collabora-
+tors around the world. GBD generates a time series of
+summary measures of health, including prevalence,
+cause-speciﬁc mortality (CSMR), years of life lost
+(YLLs),
+years
+lived
+with
+disability
+(YLDs),
+and
+disability-adjusted life years (DALYs) to provide a
+comprehensive view of health burden for a wide
+range of stakeholders including clinicians, public and
+private health systems, ministries of health, and
+other policymakers. These estimates are produced for
+371 causes of death and 88 risk factors according to
+mutually exclusive, collectively exhaustive hierar-
+chies of health conditions and risks. The study is led
+by a principal investigator and governed by a study
+protocol, with oversight from a Scientiﬁc Council, and
+an Independent Advisory Committee.1 GBD is per-
+formed in compliance with Guidelines for Accurate
+and
+Transparent
+Health
+Estimates
+Reporting
+(GATHER).2 GBD uses de-identiﬁed data, and the
+waiver
+of
+informed
+consent
+was
+reviewed
+and
+approved by the University of Washington Institu-
+tional Review Board (study number 9060).
+This almanac presents results for 18 cardiovascular
+diseases (CVD) and the CVD burden attributed to 15
+risk factors (including an aggregate grouping of di-
+etary risks) by GBD region. A summary of methods
+follows. Additional information can be found online
+at
+https://ghdx.healthdata.org/record/ihme-data/
+cvd-1990-2022, including:
+1) detailed methods, including information on the
+GBD location hierarchy, the GBD cause hierarchy,
+mapping of International Classiﬁcation of Disease
+(ICD) codes to the GBD cause list, and health states
+and associated disability weights used in the co-
+morbidity simulation;
+2) mean values and 95% uncertainty intervals for all
+estimates presented in the almanac, by country,
+sex, age group, and year;
+3) cause-speciﬁc
+write-ups
+outlining
+methods
+for
+estimation of mortality with details of model pa-
+rameters for each cause, including selection of
+location-speciﬁc covariates;
+4) cause-speciﬁc
+write-ups
+outlining
+methods
+for
+estimation of prevalence, with details of system-
+atic reviews, input data, all data adjustments,
+modeling
+frameworks,
+and
+model
+parameter
+selection;
+5) risk factor write-ups containing details of system-
+atic reviews, input data, all data adjustments,
+modeling
+frameworks,
+and
+model
+parameter
+selection;
+6) documentation of compliance with GATHER.
+METHODS. Demographic
+groupings. This
+study
+estimated CVD burden for 204 countries and terri-
+tories grouped into 21 regions and 7 super-regions.
+GBD regions are made up of countries and territories
+that are geographically close and epidemiologically
+similar. GBD regions are grouped into super-regions
+based on observed cause of death patterns. Estimates
+presented in this almanac were produced at the sub-
+national level (eg, region, state, or province) for a
+subset of locations including Brazil, China, Ethiopia,
+India, Indonesia, Italy, Iran, Japan, Kenya, Mexico,
+Nigeria, Norway, Pakistan, the Philippines, Russia,
+South Africa, the UK, and the USA. Since GBD 2019,
+the GBD location hierarchy has included all WHO
+member states. Each epidemiological quantity of in-
+terest was estimated for 23 age groups from birth to
+95 years and older; males, females, and both sexes
+combined from 1990 to 2022. Age standardization
+used the direct method with the GBD standard global
+population age structure. This standard population is
+determined by using the population structure of all
+national locations with a population >5 million peo-
+ple. First, the proportion of the location-speciﬁc
+population in each age group is calculated. Second,
+these age-speciﬁc proportions are averaged across
+all locations.3
+Sociodemographic
+index. Results
+are
+also
+pre-
+sented by socio-demographic index (SDI) value. SDI is
+a
+composite
+measure
+of
+overall
+development
+comprised of lag-distributed income per capita (LDI),
+average years of education, and fertility rates among
+females younger than 25 years (TFU25). LDI and ed-
+ucation
+are
+positively
+correlated
+with
+improved
+health outcomes, while TFU25 is negatively corre-
+lated. SDI is thus calculated as the geometric mean of
+LDI, education, and the inverse of TFU25.3
+2469
+J A C C V O L . 8 2 , N O . 2 5 , 2 0 2 3
+Global Burden of Disease Study Methods
+D E C E M B E R 1 9 / 2 6 , 2 0 2 3 : 2 4 6 9 – 2 4 7 3
+
+Cardiovascular disease case deﬁnitions. A set of
+case deﬁnitions was used to consistently identify and
+harmonize data on cardiovascular diseases for all lo-
+cations across the entire time period. CVD case deﬁ-
+nitions used by GBD are shown in Table 1. Of note,
+heart failure is classiﬁed as an impairment rather than
+an underlying cause of death in the GBD classiﬁcation
+system. Heart failure is a structural or functional
+abnormality of the heart that impairs cardiac ﬁlling
+and output and, within the GBD, contributes burden
+to many underlying causes of death including all
+cardiovascular diseases as described with the excep-
+tion of aortic aneurysm and lower extremity periph-
+eral arterial disease. GBD relies on data in which heart
+failure has been diagnosed by clinicians using struc-
+tured criteria, such as the Framingham, European
+Global Burden of Disease Study Methods
+J A C C V O L . 8 2 , N O . 2 5 , 2 0 2 3
+D E C E M B E R 1 9 / 2 6 , 2 0 2 3 : 2 4 6 9 – 2 4 7 3
+2470
+TABLE 1
+Cardiovascular Case Deﬁnitions
+GBD Cause
+Deﬁnition
+Rheumatic heart disease
+Diagnosis by a physician with use of echocardiography. This case deﬁnition for echocardiographic
+conﬁrmation of rheumatic heart disease follows the World Heart Federation criteria for
+echocardiographic diagnosis.12
+Ischemic heart disease
+1) Myocardial infarction as deﬁned in the Fourth Universal Deﬁnition of Myocardial Infarction.13
+2) Coronary artery disease deﬁned as at least moderate (>50%) stenosis of an epicardial coronary
+vessel based on angiographic or functional diagnostic testing.14,15
+3) Heart failure due to ischemic heart disease deﬁned as a clinical diagnosis based on structured
+criteria as described.4
+Ischemic stroke
+Brain imaging showing blood ﬂow to part of the brain being occluded and according to WHO criteria of
+rapidly developing clinical signs of disturbance of cerebral function lasting >24 h or leading to
+death.16,17
+Intracerebral hemorrhage
+Brain imaging showing bleeding into the tissue of the brain and according to WHO criteria of rapidly
+developing clinical signs of disturbance of cerebral function lasting >24 h or leading to death. Only
+nontraumatic events were included.16,17
+Subarachnoid hemorrhage
+Brain imaging or lumbar puncture indicating the rupture of a blood vessel resulting in bleeding into the
+subarachnoid space and according to WHO criteria of rapidly developing clinical signs of disturbance of
+cerebral function lasting >24 h or leading to death. Only nontraumatic events were included.16,17
+Hypertensive heart disease
+Heart condition caused by long-term high blood pressure, resulting in left ventricular hypertrophy,
+diastolic dysfunction, and clinical heart failure with either preserved or reduced systolic function of the
+left ventricle. Clinical diagnosis of heart failure is based on structured criteria as described.4
+Non-rheumatic calciﬁc aortic valve
+disease
+Diagnosis by a physician based on echocardiographic ﬁndings of stenosis or regurgitation caused by
+progressive calciﬁcation of the valve, excluding congenital, rheumatic, or infectious causes but
+including stenosis of a bicuspid aortic valve.18
+Non-rheumatic degenerative mitral
+valve disease
+Diagnosis by a physician based on echocardiographic ﬁndings of myxomatous degeneration or prolapse of
+the mitral valve leading to at least moderate mitral regurgitation, excluding disease due to annular
+dilation, congenital, rheumatic, or infectious causes.18
+Other non-rheumatic valve diseases
+Residual category capturing diagnosis by a physician based on echocardiographic ﬁndings of stenosis or
+regurgitation of pulmonary and tricuspid valves. Valve dysfunction due to congenital, infectious, or
+rheumatic causes was estimated separately.18
+Myocarditis
+Acute myocarditis is deﬁned by symptoms, clinical examination, cardiac imaging such as cardiac MRI, or
+endomyocardial biopsy.19
+Heart failure due to myocarditis is a clinical diagnosis of heart failure based on structured criteria as
+described with a history of myocarditis.4
+Alcoholic cardiomyopathy
+Clinical diagnosis of heart failure based on structured criteria as described due to the toxic effects of
+ingested alcohol.4
+Other cardiomyopathy
+Residual category capturing a clinical diagnosis of heart failure based on structured criteria as described
+without a history of other potential causes of heart failure.4
+Pulmonary arterial hypertension
+Diagnosis by a physician based on ﬁndings of restricted blood ﬂow and elevated pressure in the pulmonary
+arteries based on right heart catheterization or echocardiography.20
+Atrial ﬁbrillation and ﬂutter
+ECG studies demonstrating irregularly irregular RR intervals; and no P waves.21,22
+Aortic aneurysm
+Abdominal or thoracic aorta is abnormally enlarged and weakened due to atherosclerosis, high blood
+pressure, or inﬂammation, which can lead to tearing or rupture of the blood vessel.23 Prevalence and
+YLDs are not currently estimated for aortic aneurysm.
+Lower-extremity peripheral artery
+disease
+An ankle-brachial index #0.90.24
+Endocarditis
+Acute infective endocarditis was diagnosed deﬁned as a clinical diagnosis clinically via based on the Duke
+Criteria, which includes conﬁrmation through clinical signs and blood tests.25
+Heart failure due to endocarditis was based on a clinical diagnosis of heart failure based on structured
+criteria as described with a history of acute infective endocarditis.4
+Other cardiovascular and
+circulatory diseases
+This aggregate cause incorporates less common cardiovascular diseases that are not modelled
+independently; for example, pericarditis. Diagnostic criteria vary based on the underlying condition.
+ECG ¼ echocardiogram; MRI ¼ magnetic resonance imaging; WHO ¼ World Health Organization; YLDs ¼ years lived with disability.
+
+Society of Cardiology, or Universal Deﬁnition and
+Classiﬁcation of Heart Failure criteria. Prevalent heart
+failure is deﬁned as structural heart disease with
+current or previous symptoms of heart failure (ACCF/
+AHA stages C or D).4 As part of the GBD estimation
+process, heart failure burden is included in the
+burden estimates for each etiologic underlying cause
+of death.
+All-cause
+mortality
+and
+population
+estimates. GBD
+produces estimates of all-cause mortality and popu-
+lation; for cause-speciﬁc burden, these are integral
+inputs
+into
+the
+cause-speciﬁc
+estimation
+process.
+Detailed
+methods
+have
+been
+previously
+reported.3
+Cause-speciﬁc mortality. Death records, including
+vital registration for all cardiovascular causes and
+verbal autopsy data for total cardiovascular disease,
+ischemic heart disease, and total stroke, were map-
+ped to the GBD cause list. Records where the under-
+lying cause was considered nonspeciﬁc, intermediate,
+or implausible were reassigned to a valid underlying
+cause of death via redistribution algorithms which
+utilized
+proportional
+information,
+cause-speciﬁc
+priors, or data sets with information on all contrib-
+uting causes of death in addition to the underlying
+cause.5 A counterfactual approach, based on data
+from 2014 to 2019, was used to estimate excess cause-
+speciﬁc deaths in 2020 and 2021 and reclassify them
+as deaths due to COVID-19. A noise reduction algo-
+rithm was applied to mortality data and a Bayesian
+geospatial ensemble regression model (CODEm, the
+cause of death ensemble model, Institute for Health
+Metrics and Evaluation [IHME], Seattle, Washington)
+was used with location-speciﬁc covariates to produce
+smoothed time series for each location, including
+where data was sparse or missing.6 Individual models
+included in the ensemble are weighted according to
+performance
+on
+out-of-sample
+predictive
+validity
+testing.
+CoDCorrect. As each cause-speciﬁc model is esti-
+mated separately, the sum of these models is not
+certain to equal the all-cause mortality estimates. The
+CoDCorrect process rescales each level of the GBD
+cause hierarchy such that the sum of the cause-spe-
+ciﬁc estimates does not exceed the all-cause mortality
+estimates.6 Using the GBD cause hierarchy, this pro-
+cess begins by rescaling the Level 1 causes to match
+the all-cause mortality estimates. Level 2 causes are
+then rescaled to their corrected parent cause esti-
+mates. This process continues for Level 3 and Level 4
+causes such that all levels of the hierarchy are
+rescaled.
+J A C C V O L . 8 2 , N O . 2 5 , 2 0 2 3
+Global Burden of Disease Study Methods
+D E C E M B E R 1 9 / 2 6 , 2 0 2 3 : 2 4 6 9 – 2 4 7 3
+2471
+TABLE 2
+Risk Factor Exposure Deﬁnitions
+Risk Factor
+Deﬁnition
+High systolic blood pressure
+Brachial SBP >105-115 mm Hg in adults >25 years of age.
+High LDL cholesterol
+LDL-cholesterol >0.9-1.4 mmol/L in adults >25 years of age.
+High body mass index
+Body mass index >20-23 kg/m2 in adults >20 years of age.
+High fasting plasma glucose
+Serum fasting plasma glucose >4.9-5.3 mmol/L in adults >25 years of age.
+Kidney dysfunction
+Estimated glomerular ﬁltration rate <60 mL/min/1.73 m2 and/or albumin-to-creatinine ratio #30 mg/g.
+Ambient particulate matter
+pollution
+Population-weighted annual average mass concentration of PM2.5 in a cubic meter of air >2.4-5.9 mg/m3.
+Household air pollution from
+solid fuels
+Proportion of individuals exposed to >2.4-5.9 mg/m3 of PM2.5 due to the use of solid fuels for cooking,
+including coal, charcoal, wood, agricultural residue, and animal dung.
+High temperature
+Exposure to temperatures warmer than the temperature associated with the lowest overall mortality
+attributable to the risk, in a given location and year.
+Low temperature
+Exposure to temperatures colder than the temperature associated with the lowest overall mortality
+attributable to the risk, in a given location and year.
+Lead exposure
+Micrograms of lead per gram of bone greater than the age-speciﬁc TMREL.
+Dietary risks
+Composite risk factor consisting of suboptimal exposure to dietary factors including fruits, vegetables, whole
+grains, nuts and seeds, ﬁber, omega-3 fatty acids, polyunsaturated fatty acids, calcium, milk, legumes, red
+meat, processed meat, sugar-sweetened beverages, trans fatty acids, and sodium.
+Smoking
+Current or former users of any smoked tobacco product on a daily or occasional basis.
+Secondhand smoke
+Current exposure of nonsmokers to secondhand tobacco smoke at home, at work, or in other public places.
+High alcohol use
+Grams per day of pure alcohol consumed among current drinkers greater than the age-, sex-, and region-
+speciﬁc TMREL.
+Low physical activity
+Physical activity performed by adults >25 years of age, for at least 10 minutes at a time, across all domains of
+life (leisure/recreation, work/household, and transport) <3,000-4,500 metabolic equivalent-minutes per
+week.
+LDL ¼ low-density lipoprotein; PM2.5 ¼ particulate matter <2.5 mm in diameter; SBP ¼ systolic blood pressure; TMREL ¼ theoretical minimum risk exposure level.
+
+Prevalence. Prevalence was estimated for each dis-
+ease
+using
+the
+Disease
+Model—Bayesian
+meta-
+regression (DisMod-MR 2.1 [IHME, Seattle, Washing-
+ton]),
+an
+epidemiologic
+state-transition
+disease
+modeling tool. DisMod-MR evaluates all available
+high-quality, population-representative data for dis-
+ease incidence, prevalence, remission, and mortality,
+while enforcing consistency among these various
+parameters.6 Possible input data sources included
+scientiﬁc literature identiﬁed via systematic reviews
+of published literature and expert review, population
+surveys,
+and
+administrative
+health
+facility
+data.
+Where applicable, network meta-analysis was per-
+formed using the meta-regression—Bayesian, regu-
+larized, trimmed software (MR-BRT, IHME, Seattle,
+Washington) to allow adjustment for study-level dif-
+ferences in case deﬁnition or measurement method.7
+If necessary, correction factors were calculated to
+adjust tabulated inpatient-only health facility data to
+account for readmission, nonprimary diagnoses, and
+outpatient visits.
+Risk factors. Deﬁnitions used for each risk factor
+can be found in Table 2.
+Attributable
+burden
+estimation. The GBD esti-
+mates disease burden attributable to risk factors us-
+ing a comparative risk assessment framework.8
+Population-level exposure to each risk factor was
+estimated using statistical models. Most risk expo-
+sure was estimated using spatiotemporal Gaussian
+process
+regression
+(ST-GPR)
+or
+DisMod-MR,
+as
+described. ST-GPR is a geospatial Gaussian process
+regression model that borrows strength between lo-
+cations and over time to generate estimates of mean
+risk factor exposures.8 Input data sources included
+scientiﬁc literature identiﬁed via systematic reviews
+of published literature and expert review, population
+health surveys, and, for ambient air pollution, satel-
+lite data. Person-level data from cohort studies were
+used to determine the standard deviation of the risk
+factor exposure and to estimate the shape of the
+exposure distribution.
+Each risk was assigned outcomes from the GBD
+study list of diseases to form risk-outcome pairs
+based on the availability of convincing or probable
+evidence of a disease-risk association. For each risk
+factor, the level of exposure where disease risk is
+minimized, or theoretical minimum risk exposure
+level (TMREL), was determined.
+Relative risks were estimated for each risk outcome
+pair following the burden of proof (BoP) method,
+previously
+reported.9
+Brieﬂy,
+following
+PRISMA
+guidelines, systematic reviews were performed for
+studies reporting relative risk or hazard ratios, and
+data were extracted using a standardized template.10
+Using MR-BRT, the relative risk between risk and
+disease outcome was modeled, integrating over the
+exposure ranges reported. This approach allows us to
+identify publication or reporting bias and to account
+for between-study heterogeneity and within-study
+correlation. An example of this approach has been
+reported in detail for the relationship between sys-
+tolic blood pressure and ischemic heart disease.11
+Population-attributable fractions (PAF) were then
+calculated
+for
+each
+risk-outcome
+pair
+using
+the
+exposure levels, the estimated relative risk, and the
+TMREL to generate the amount of burden for each
+disease due to risk factor exposure. Attributable
+burden was then estimated as the PAF for that risk-
+outcome pair multiplied by the burden measure of
+interest.
+Summary measures of disease burden. YLDs were
+estimated by multiplying disease prevalence by the
+relevant disability weight after accounting for co-
+morbidity
+in
+a
+simulation
+process.6
+Disability
+weights, which represent the magnitude of health
+loss associated with the outcome were constructed
+based on surveys of the general population, with a
+statistical adjustment made to account for comor-
+bidity.
+YLLs
+due
+to
+premature
+mortality
+were
+computed by multiplying the number of estimated
+deaths by the standard life expectancy at age of
+death.6 The standard life expectancy was determined
+by using the lowest observed age-speciﬁc mortality
+rates by location and sex across all estimation years
+from locations with total populations >5 million in
+2016 to establish a theoretical minimum risk refer-
+ence life table. DALYs were calculated as the sum of
+YLLs and YLDs and represent the total health burden
+associated with each cause. All summary measures
+were estimated using 500 draws, and uncertainty
+intervals were determined as the 2.5th and 97.5th
+values of the posterior distribution of model draws.
+2472
+Global Burden of Disease Study Methods
+J A C C V O L . 8 2 , N O . 2 5 , 2 0 2 3
+D E C E M B E R 1 9 / 2 6 , 2 0 2 3 : 2 4 6 9 – 2 4 7 3
+
+R E F E R E N C E S
+1. Murray CJL. Protocol for the Global Burden Of
+Diseases, Injuries, And Risk Factors Study (GBD).
+Accessed
+November
+10,
+2023.
+https://www.
+healthdata.org/sites/default/ﬁles/ﬁles/Projects/GBD/
+March2020_GBD%20Protocol_v4.pdf
+2. Stevens GA, Alkema L, Black RE, et al. Guide-
+lines for accurate and transparent health esti-
+mates reporting: the GATHER statement. The
+Lancet. 2016;388:e19–e23.
+3. Wang H, Abbas KM, Abbasifard M, et al. Global
+age-sex-speciﬁc fertility, mortality, healthy life
+expectancy (HALE), and population estimates in
+204
+countries
+and
+territories,
+1950–2019:
+a
+comprehensive
+demographic
+analysis
+for
+the
+Global Burden of Disease Study 2019. The Lancet.
+2020;396:1160–1203.
+4. Gibson G, Blumer V, Mentz RJ, Lala A. Universal
+Deﬁnition and Classiﬁcation of Heart Failure: A
+Step in the Right Direction from Failure to Func-
+tion. Accessed November 8, 2023. https://www.
+acc.org/Latest-in-Cardiology/Articles/2021/07/12/
+12/31/Universal-Deﬁnition-and-Classiﬁcation-of-
+Heart-Failure
+5. Johnson SC, Cunningham M, Dippenaar IN, et al.
+Public health utility of cause of death data:
+applying empirical algorithms to improve data
+quality. Accessed November 8, 2023. https://
+bmcmedinformdecismak.biomedcentral.com/
+articles/10.1186/s12911-021-01501-1
+6. Vos T, Lim SS, Abbafati C, et al. Global burden
+of 369 diseases and injuries in 204 countries and
+territories, 1990–2019: a systematic analysis for
+the Global Burden of Disease Study 2019. The
+Lancet. 2020;396:1204–1222.
+7. Zheng P, Barber R, Sorensen RJD, Murray CJL,
+Aravkin AY. Trimmed constrained mixed effects
+models: formulations and algorithms. Journal of
+Computational and Graphical Statistics. 2021;30:
+544–556.
+8. GBD 2019 Risk Factor Collaborators. Global
+burden of 87 risk factors in 204 countries and
+territories, 1990–2019: a systematic analysis for
+the
+Global
+Burden
+of
+Disease
+Study
+2019.
+Accessed
+November
+8,
+2023.
+https://www.
+thelancet.com/journals/lancet/article/PIIS0140-6736
+(20)30752-2/fulltext
+9. Zheng P, Afshin A, Biryukov S, et al. The burden
+of proof studies: assessing the evidence of risk.
+Nat Med. 2022;28:2038–2044.
+10. Page MJ, McKenzie JE, Bossuyt PM, et al. The
+PRISMA 2020 statement: an updated guideline for
+reporting systematic reviews. Syst Rev. 2021;10:
+89.
+11. Razo C, Welgan CA, Johnson CO, et al. Effects
+of elevated systolic blood pressure on ischemic
+heart disease: a burden of proof study. Nat Med.
+2022;28:2056–2065.
+12. Rwebembera J, Marangou J, Mwita JC, et al.
+2023 World Heart Federation guidelines for the
+echocardiographic diagnosis of rheumatic heart
+disease.
+Nat
+Rev
+Cardiol.
+Published
+online
+November
+2,
+2023.
+https://doi.org/10.1038/
+s41569-023-00940-9
+13. Thygesen K, Alpert JS, Jaffe AS, et al. Fourth
+Universal
+Deﬁnition
+of
+Myocardial
+Infarction
+(2018). Accessed November 9, 2023. https://
+www.ahajournals.org/doi/10.1161/CIR.0000000
+000000617
+14. Jones WB, Riley CP, Reeves TJ, Shefﬁeld LT.
+Natural history of coronary artery disease. Bull N Y
+Acad Med. 1972;48:1109–1125.
+15. Raff GL, Abidov A, Achenbach S, et al. SCCT
+guidelines for the interpretation and reporting
+of
+coronary
+computed
+tomographic
+angiog-
+raphy. J Cardiovasc Comput Tomogr. 2009;3:
+122–136.
+16. Donkor ES. Stroke in the 21st century: a
+snapshot of the burden, epidemiology, and quality
+of life. Stroke Res Treat. 2018;2018:3238165.
+17. Aho K, Harmsen P, Hatano S, Marquardsen J,
+Smirnov VE, Strasser T. Cerebrovascular disease in
+the community: results of a WHO collaborative
+study. Bull World Health Organ. 1980;58:113–130.
+18. Otto CM, Nishimura RA, Bonow RO, et al. 2020
+ACC/AHA guideline for the management of pa-
+tients with valvular heart disease: a report of the
+American College of Cardiology/American Heart
+Association Joint Committee on Clinical Practice
+Guidelines. J Am Coll Cardiol. 2021;77:e25–e197.
+19. Ammirati E, Frigerio M, Adler ED, et al. Man-
+agement of acute myocarditis and chronic in-
+ﬂammatory
+cardiomyopathy.
+Circ
+Heart
+Fail.
+2020;13:e007405.
+20. Galiè N, Humbert M, Vachiery J-L, et al.
+2015 ESC/ERS guidelines for the diagnosis and
+treatment of pulmonary hypertension: the Joint
+Task Force for the Diagnosis and Treatment of
+Pulmonary Hypertension of the European Soci-
+ety of Cardiology (ESC) and the European Res-
+piratory Society (ERS): Endorsed by: Association
+for European Paediatric and Congenital Cardiol-
+ogy (AEPC), International Society for Heart and
+Lung
+Transplantation
+(ISHLT).
+Eur
+Heart
+J.
+2016;37:67–119.
+21. Iwasaki Y, Nishida K, Kato T, Nattel S. Atrial
+ﬁbrillation
+pathophysiology:
+implications
+for
+management. Circulation. 2011;124:2264–2274.
+22. Saleh
+K,
+Haldar
+S.
+Atrial
+ﬁbrillation:
+a
+contemporary update. Clin Med (Lond). 2023;23:
+437–441.
+23. Isselbacher EM, Preventza O, Hamilton Black J,
+et al. 2022 ACC/AHA guideline for the diagnosis
+and management of aortic disease: a report of the
+American Heart Association/American College of
+Cardiology Joint Committee on Clinical Practice
+Guidelines. J Am Coll Cardiol. 2022;80:e223–e393.
+24. Criqui MH, Matsushita K, Aboyans V, et al.
+Lower
+extremity
+peripheral
+artery
+disease:
+contemporary epidemiology, management gaps,
+and future directions: a scientiﬁc statement from
+the
+American
+Heart
+Association.
+Circulation.
+2021;144:e171–e191.
+25. Fowler VG, Durack DT, Selton-Suty C, et al.
+The 2023 Duke-International Society for Cardio-
+vascular Infectious Diseases Criteria for infective
+endocarditis: updating the Modiﬁed Duke Criteria.
+Clin Infect Dis. 2023;77:518–526.
+J A C C V O L . 8 2 , N O . 2 5 , 2 0 2 3
+Global Burden of Disease Study Methods
+D E C E M B E R 1 9 / 2 6 , 2 0 2 3 : 2 4 6 9 – 2 4 7 3
+2473

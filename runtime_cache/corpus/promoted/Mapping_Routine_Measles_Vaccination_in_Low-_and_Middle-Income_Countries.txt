@@ -1,0 +1,2293 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+12-16-2020 
+Mapping Routine Measles Vaccination in Low- and Middle-Income 
+Mapping Routine Measles Vaccination in Low- and Middle-Income 
+Countries 
+Countries 
+Alyssa N. Sbarra 
+University of Washington 
+Simon I. Hay 
+University of Washington 
+Stephen S. Lim 
+University of Washington 
+Jonathan F. Mosser 
+University of Washington 
+Veincent Christian F. Pepito 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, vpepito@ateneo.edu 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Medicine and Health Sciences Commons 
+Custom Citation 
+Custom Citation 
+Local Burden of Disease Vaccine Coverage Collaborators. (2020). Mapping routine measles vaccination 
+in low- and middle-income countries. Nature, 589, 415–419. https://doi.org/10.1038/s41586-020-03043-4 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact research@ateneo.edu. 
+
+Authors 
+Authors 
+Alyssa N. Sbarra, Simon I. Hay, Stephen S. Lim, Jonathan F. Mosser, Veincent Christian F. Pepito, Local 
+Burden of Disease Vaccine Coverage Collaborators, and 634 co-authors 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/asmph-pubs/34 
+
+Nature  |  Vol 589  |  21 January 2021  |  415
+Article
+Mapping routine measles vaccination in  
+low- and middle-income countries
+Local Burden of Disease Vaccine Coverage Collaborators*
+The safe, highly effective measles vaccine has been recommended globally since 1974, 
+yet in 2017 there were more than 17 million cases of measles and 83,400 deaths in 
+children under 5 years old, and more than 99% of both occurred in low- and 
+middle-income countries (LMICs)1–4. Globally comparable, annual, local estimates of 
+routine first-dose measles-containing vaccine (MCV1) coverage are critical for 
+understanding geographically precise immunity patterns, progress towards the 
+targets of the Global Vaccine Action Plan (GVAP), and high-risk areas amid disruptions 
+to vaccination programmes caused by coronavirus disease 2019 (COVID-19)5–8. Here 
+we generated annual estimates of routine childhood MCV1 coverage at 5 × 5-km2 pixel 
+and second administrative levels from 2000 to 2019 in 101 LMICs, quantified 
+geographical inequality and assessed vaccination status by geographical remoteness. 
+After widespread MCV1 gains from 2000 to 2010, coverage regressed in more than 
+half of the districts between 2010 and 2019, leaving many LMICs far from the GVAP 
+goal of 80% coverage in all districts by 2019. MCV1 coverage was lower in rural than in 
+urban locations, although a larger proportion of unvaccinated children overall lived in 
+urban locations; strategies to provide essential vaccination services should address 
+both geographical contexts. These results provide a tool for decision-makers to 
+strengthen routine MCV1 immunization programmes and provide equitable disease 
+protection for all children.
+The safe, highly effective vaccine against measles has been recom-
+mended since 1974 by the Expanded Programme on Immunization 
+of the WHO (World Health Organization)1–3. A single valid dose of 
+any MCV is approximately 93% effective in providing individuals 
+with lifelong protection from measles1. Still, in 2017, there were an 
+estimated 17,767,037 new global cases and 83,439 deaths attributa-
+ble to measles in children under 5 years old4. Although high-income 
+regions, such as the USA and Europe, have recently started expe-
+riencing extended measles outbreaks due to a lapse in vaccina-
+tion coverage, more than 99% of cases and deaths still occur in 
+LMICs4,9.
+Low vaccination rates and increasing vaccine hesitancy10–12 contrib-
+ute to the persistence of measles as a major cause of childhood mor-
+bidity and mortality. National-level MCV1 estimates from the Global 
+Burden of Diseases, Injuries and Risk Factors Study (GBD) 2019 identi-
+fied only 72 out of 204 countries in which routine coverage reached 
+approximate herd immunity targets (≥95%) in 2019, and global MCV1 
+coverage4,13 was 84.2%. Even in countries with high national coverage, 
+these estimates mask important subnational heterogeneities that 
+may sustain ongoing disease transmission and increase the risk of 
+outbreaks14–17, especially in light of the current service disruptions 
+associated with the COVID-19 pandemic7,8. Global vaccination initia-
+tives, such as the GVAP and Immunization Agenda 2030, recognize the 
+importance of eliminating subnational coverage disparities, aiming 
+for at least 90% of the target population in every country and 80% in 
+every district to be covered5,6.
+ 
+Subnational routine MCV1 coverage
+Since 2016, the WHO and UNICEF have collected subnational cov-
+erage data through their annual Joint Reporting process, although 
+poor data quality and biases currently limit the use of administrative 
+data to track progress towards GVAP targets18–20. For the 101 countries 
+included in this study, 91 reported subnational data in 2018 in a total of 
+11,311 subnational geographical units. Of these countries, 71 reported 
+MCV1 coverage greater than 100% in at least one unit and 55 reported 
+such coverage in at least a quarter of units. Although researchers have 
+estimated subnational MCV1 coverage in select countries or years 
+for which there have been reliable surveys, to date, no comprehen-
+sive analysis of all available vaccine coverage data to produce sub-
+national estimates of MCV1 coverage annually in all LMICs has been 
+undertaken21–24.
+Building from our previous work mapping diphtheria–tetanus–
+pertussis vaccine coverage in Africa14, here we present mapped 
+high-spatial-resolution estimates of routine MCV1 coverage across 101 
+LMICs from 2000 to 2019, aggregated to policy-relevant second-level 
+administrative units (hereafter districts). Using geolocated data on 
+MCV1 coverage from 354 household-based surveys representing 
+approximately 1.70 million children and a suite of environmental, 
+sociodemographic and health-related geospatial and national-level 
+covariates, we extended model-based geostatistical methods that 
+have been used to map child mortality and its main components 
+and risk factors25–28 to predict MCV1 coverage and uncertainty 
+https://doi.org/10.1038/s41586-020-03043-4
+Received: 1 May 2020
+Accepted: 2 November 2020
+Published online: 16 December 2020
+Open access
+ Check for updates
+*A list of participants and their affiliations appears in the online version of the paper.
+
+416  |  Nature  |  Vol 589  |  21 January 2021
+Article
+(Extended Data Figs. 1, 2), while calibrating estimates to results from 
+GBD 2019. Using these estimates, we assessed trends in geographical 
+inequality, progress towards global targets and differential vaccination 
+status by geographical remoteness.
+Tracking uneven progress
+Despite marked global progress between 2000 and 2019, considerable 
+inequalities in routine MCV1 coverage persist, both between and within 
+countries (Fig. 1, Extended Data Figs. 3–7, see also our visualization 
+tool (https://vizhub.healthdata.org/lbd/mcv)). MCV1 coverage among 
+children living in the 101 countries included in this study was 65.6% (95% 
+uncertainty interval, 64.2–67.1%) in 2000 and 81.0% (95% uncertainty 
+interval, 79.2–82.7%) in 2019. Coverage increased at the national level 
+in 69.9% (95% uncertainty interval, 64.4–75.2%) of countries between 
+2000 and 2019 and in 57.4% (95% uncertainty interval, 50.4–64.6%) of 
+districts (n = 20,795 districts).
+The three districts with the lowest MCV1 coverage in 2000 were 
+located in Hari Rasu, Ethiopia (4.0% (95% uncertainty interval, 1.1–
+9.7%)), Gabi Rasu, Ethiopia (4.8% (95% uncertainty interval, 1.4–11.4%)), 
+and Isa, Nigeria (4.9% (95% uncertainty interval, 1.5–10.8%)). In 2000, 
+60 districts had a coverage below 10%; there was one such district 
+in 2019. The three lowest-coverage districts in 2019 were all located 
+in Afghanistan: Poruns (9.2% (95% uncertainty interval, 2.0–25.5%)), 
+Wama (12.1% (95% uncertainty interval, 2.8–32.6%)) and Waygal (12.7% 
+(95% uncertainty interval, 3.0–34.2%)).
+In the period from 2000 to 2010, there were substantial increases in 
+coverage and progress towards reducing subnational heterogeneity. 
+The period from 2010 to 2019, however, showed slowing progress and, 
+in some cases, regression of coverage compared to the 2000–2010 
+period (Fig. 2). Between 2000 and 2010, 70.5% (95% uncertainty inter-
+val, 66.0–75.4%) of districts increased coverage, but between 2010 
+and 2019, coverage increased in only 40.1% (95% uncertainty interval, 
+34.2–46.9%) of districts (Extended Data Fig. 8). This finding persists 
+even when accounting for the starting level of coverage (Supplementary 
+Information section 2.3).
+Although district-level MCV1 coverage generally increased between 
+2000 and 2019, further gains are required to reach both 80% and 95% key 
+coverage targets (Extended Data Fig. 9). In 2000, 38.4% of districts had a 
+high probability (>95% posterior probability) of reaching the GVAP target 
+of 80% district-level MCV1 coverage, which remained stagnant at 33.2% 
+of districts in 2019. Only 15 countries had a high probability of reaching 
+the GVAP target of greater than 80% district-level coverage in all districts.
+Quantifying geographical inequalities
+To further assess the effect of geographical heterogeneity in MCV1 
+coverage, we computed the absolute geographical inequality, 
+MCV1 coverge (%)
+50
+100
+0
+80
+65
+35
+20
+2000
+2010
+2019
+a
+b
+c
+Fig. 1 | Estimated MCV1 coverage among districts in 101 LMICs, 2000–2019. 
+a–c, MCV1 coverage among target population in districts in 2000 (a), 2010 (b) 
+and 2019 (c). Countries excluded from the analysis and pixels classified as 
+‘barren or sparsely vegetated’ based on European Space Agency Climate 
+Change Initiative (ESA-CCI) satellite data or with fewer than 10 people per 
+1 × 1-km2 pixel based on WorldPop estimates are masked in grey30,50.
+
+Nature  |  Vol 589  |  21 January 2021  |  417
+a Gini-coefficient-derived metric that ranges between zero (perfectly 
+homogenous coverage) and one (perfectly heterogeneous coverage), 
+at the 5 × 5-km2 level. In 2000, nine countries (Cameroon, Democratic 
+Republic of the Congo, Guinea, India, Laos, Madagascar, Mali, Nigeria 
+and Yemen) had high absolute geographical inequality (above 0.15). 
+In 2019, only five countries had high absolute geographical inequal-
+ity (Angola, Ethiopia, Madagascar, Nigeria and Pakistan). Nigeria had 
+absolute geographical inequality above or equal to 0.2 in both 2000 and 
+2019, and 25 countries had increased absolute geographical inequality 
+in 2019 compared with 2000. Notably, absolute geographical inequal-
+ity decreased considerably in India, from 0.23 in 2000 to 0.07 in 2019.
+In general, and as expected, improvements in national-level coverage 
+over time were accompanied by reductions in subnational absolute 
+geographical inequality (Fig. 3). Changes in coverage were negatively 
+correlated (ρ = −0.47, Pearson’s product moment test statistic = −5.36, 
+P < 0.001) with changes in absolute inequality. India is a true exemplar in 
+this trend, with sizeable reductions in inequality occurring as coverage 
+increased. This improvement was not the only pathway for a country, 
+however; some countries with increasing coverage also experienced 
+increasing inequality, such as Chad and Ethiopia. Other countries 
+experienced decreasing coverage alongside increasing inequality, 
+such as Angola.
+Coverage in urban and rural areas
+In a post hoc analysis, we compared vaccination status in urban and 
+remote rural settings, using proxies of travel time of ≤30 min and ≥3 h, 
+respectively, to the nearest major city or settlement29 and the number 
+of children under 5 years old30 from gridded estimates. In 2019, MCV1 
+coverage was relatively lower in remote rural areas: in remote rural 
+locations, 33.3% of children were MCV-unvaccinated, compared with 
+15.2% of children living in urban areas. Owing to the concentration of 
+populations in urban centres, however, more unvaccinated children 
+lived in urban locations (47.9% of all unvaccinated children) than remote 
+rural areas (16.0% of all unvaccinated children) in 2019, although this 
+pattern varied across countries and regions (Fig. 4). For example, in 
+Chad, 19.3% of unvaccinated children lived in urban locations and 44.4% 
+lived in remote rural locations in 2019. In Mexico in 2019, 72.3% of unvac-
+cinated children lived in urban locations and 3.4% lived in remote rural 
+locations (Extended Data Fig. 10).
+Our results show the variability of urban and rural contributions to 
+unvaccinated populations in each country and region. In Latin America 
+and the Caribbean, for example, MCV1 coverage is generally similar 
+between urban and rural settings (Fig. 4); the urban–remote rural 
+distribution of unvaccinated children therefore largely reflects the 
+underlying population distribution. In other regions, the interaction 
+between population and coverage is more complex. In South Asia, 
+for example, 21 times more unvaccinated children live in urban loca-
+tions compared with remote rural locations. Strategies focused solely 
+on reaching the most unvaccinated children possible in that region, 
+therefore, might reasonably prioritize urban areas. Overall, however, 
+MCV1 coverage in urban areas of South Asia averages 90.7%, compared 
+to only 77.4% in remote rural areas. Approaches that focus primarily on 
+reaching urban areas, therefore, would probably exacerbate existing 
+urban–rural coverage inequalities.
+Discussion
+Our MCV1 coverage estimates show overall progress from 2000 to 
+2019, corresponding to the creation of benchmark targets from the 
+Measles and Rubella Initiative and GVAP, as well as substantial financial 
+support for comprehensive vaccination programming generated by 
+the introduction of Gavi, the Vaccine Alliance5,6,31–34. Moreover, 62 out 
+of 101 countries increased national-level MCV1 coverage while reduc-
+ing subnational geographical inequalities over time, a noteworthy 
+achievement.
+This remarkable global progress should be celebrated, but this trend 
+was not universal. Our results show a decline and stagnation in routine 
+MCV1 coverage in certain locations, particularly since 2010, that may be 
+related to conflict, vaccine scepticism, available funding support and 
+supply disruptions35. Among countries with stagnant or declining cov-
+erage rates, the Central African Republic and Nigeria are experiencing 
+2000–2010
+2010–2019
+a
+b
+Change in MCV1
+(percentage points)
+>50
+<–50 
+25
+0
+–25
+Fig. 2 | Estimated absolute changes in MCV1 coverage in the early (2000–
+2010) and late (2010–2019) study periods. a, b, Mean district-level absolute 
+differences in MCV1 coverage from 2000 to 2010 (a) and from 2010 to 2019 (b). 
+Countries excluded from the analysis and pixels classified as ‘barren or 
+sparsely vegetated’ based on ESA-CCI satellite data or with fewer than 10 
+people per 1 × 1-km2 pixel based on WorldPop estimates are masked in grey30,50.
+
+418  |  Nature  |  Vol 589  |  21 January 2021
+Article
+ongoing political instability and conflict, which serve as major barriers 
+to the success of vaccination programmes36–38. Supply disruptions also 
+present a major barrier to achieving and sustaining high levels of MCV 
+coverage. For example, in 2018, the Philippines reported a national-level 
+MCV stockout39. The stockout, alongside waning public confidence in 
+vaccination programmes stemming from misinformation related to 
+risks of the Dengvaxia dengue vaccine, contributed to a national-level 
+drop in coverage from 80% to 69% between 2017 and 201840. In Angola, 
+economic turmoil led to a 28% decrease in governmental health spend-
+ing per capita between 2010 and 2018, which may have also contrib-
+uted to declines in vaccination coverage41. While global immunization 
+initiatives have often focused on low-income countries, districts in 
+middle-income countries also experienced recent declines, emphasiz-
+ing the need for reliable immunization programmes and monitoring in 
+these nations42. In Indonesia, for instance, 3 districts had coverage that 
+reached 95% in 2000, increasing to 13 in 2010, but decreasing back to 
+zero in 2019. In addition, countries with higher than average vaccine 
+scepticism, such as Peru and Moldova, also experienced decreasing 
+coverage rates and increasing within-country inequality43.
+Overlaid on these persistent challenges, the ongoing COVID-19 pan-
+demic has caused the cancellation of supplementary measles immuni-
+zation campaigns and puts the delivery of critical routine immunization 
+services at risk7,8. Baseline subnational estimates of routine MCV1 immu-
+nization in LMICs can help to define the geographical areas of highest 
+vulnerability to pandemic-associated disruptions. To mitigate the risk 
+of measles outbreaks in the setting of the COVID-19 pandemic, the 
+maintenance of routine immunization services is crucial44—particularly 
+in areas with pre-existing routine immunization weaknesses.
+Even before the current pandemic, few countries reached the GVAP 
+target of 80% coverage in all districts by 2019. Stagnant progress 
+between 2010 and 2019 further suggests that new approaches are 
+needed to reach unvaccinated children and resolve geographical 
+inequalities. As the era of GVAP draws to a close and the Immuniza-
+tion Agenda 2030 begins, these results provide a platform to identify 
+successes and inform strategies for the next decade. India, for instance, 
+saw exemplary improvement in both national-level coverage and geo-
+graphical equality over time. This may be attributable to specific inter-
+ventions such as Mission Indradhanush, launched in 2014 with the goal 
+of targeting underserved unvaccinated populations45. In addition, 
+India introduced a second dose of MCV (MCV2) in select subnational 
+geographies with MCV1 coverage below 80% starting in 2008, and 
+expanded MCV2 to cover all districts in 2010 through the strengthening 
+of both routine and supplementary immunization programmes46,47. The 
+introduction of MCV2 into the national schedule may provide a second 
+opportunity for first-dose vaccination among children who missed the 
+scheduled MCV1 dose. Understanding the specific drivers of simultane-
+ous coverage and equality gains may provide critical insights for the 
+immunization agenda in countries and regions that have fallen behind.
+The Equity Reference Group for Immunization highlights the need 
+for increased attention on vaccinating vulnerable children who live in 
+remote rural, urban poor and conflict settings, as well as for equality 
+in coverage by gender48. These recommendations suggest that the 
+agenda to leave no child unvaccinated, set by global partners and the 
+Sustainable Development Goals, should transcend geography types 
+and aim to eliminate coverage gaps among children who live in both 
+urban and remote rural areas49. These geographically resolved MCV1 
+estimates provide a tool for decision-makers to plan supplementary 
+immunization activities and routine immunization strengthening 
+programmes, to reach both the urban and remote rural communities 
+where unvaccinated children live.
+Despite large improvements made in MCV1 coverage from routine 
+immunization programmes between 2000 and 2019, stalling pro-
+gress and substantial subnational variation remain in many LMICs, 
+leaving children at risk of preventable death. Policymakers should 
+note where progress is most critically needed to successfully meet 
+global immunization targets and protect the most-vulnerable children 
+against measles. Our subnational estimates of routine MCV1 coverage 
+at policy-relevant scales provide a tool for decision-makers to use in 
+advocating for strong, sustainable immunization programmes that 
+provide equitable protection for all children.
+0
+0.25
+0.50
+0.75
+1.00
+0
+2.5
+5.0
+7.5
+10.0
+Travel time (h)
+Cumulative proportion of
+unvaccinated children
+a
+0.4
+0.6
+0.8
+1.0
+0
+5
+10
+15
+20
+Travel time (h)
+MCV1 coverage
+b
+LMICs
+North Africa and Middle East
+Sub-Saharan Africa
+Central Europe, Eastern Europe
+and Central Asia
+South Asia
+Latin America and Caribbean
+Southeast Asia, East Asia
+and Oceania
+Fig. 4 | Vaccination status in 2019 and geographical remoteness. 
+Cumulative proportion of unvaccinated children living within the spectrum of 
+the travel time (in hours) to a major city or settlement per region (left) and 
+coverage among children living within the spectrum of travel time to a major 
+city or settlement per region (right). Vertical dashed grey line shows thresholds 
+for ‘urban’ and ‘remote rural’, living within 30 min and at least 3 h from a major 
+city or settlement, respectively.
+Goal trajectory
+Papua New Guinea
+India
+Pakistan
+Angola
+Ethiopia
+Kenya
+Burkina Faso
+Chad
+Liberia
+Nigeria
+↓ Coverage
+↓ Inequality
+↓ Coverage
+↑ Inequality
+↑ Coverage
+↓ Inequality
+↑ Coverage
+↑ Inequality
+–0.1
+0
+0.1
+–0.25
+0
+0.25
+0.50
+Change in MCV1 coverage (2019–2000)
+Change in absolute geographical inequality (2019–2000)
+50 million
+100 million
+150 million
+200 million
+Central Europe, Eastern Europe and Central Asia
+Latin America and Caribbean
+North Africa and Middle East
+South Asia
+Southeast Asia, East Asia and Oceania
+Sub-Saharan Africa
+Fig. 3 | Absolute geographical inequality of MCV1 coverage in 2000 and 
+2019. We compared the change in geographical absolute inequality to change 
+in national-level coverage from 2000 to 2019. Points are sized by under-5 
+population size.
+
+Nature  |  Vol 589  |  21 January 2021  |  419
+Online content
+Any methods, additional references, Nature Research reporting sum-
+maries, source data, extended data, supplementary information, 
+acknowledgements, peer review information; details of author contri-
+butions and competing interests; and statements of data and code avail-
+ability are available at https://doi.org/10.1038/s41586-020-03043-4.
+1.	
+McLean, H. Q., Fiebelkorn, A. P., Temte, J. L. & Wallace, G. S. Prevention of measles, 
+rubella, congenital rubella syndrome, and mumps, 2013: summary recommendations of 
+Advisory Committee on Immunization Practices (ACIP). MMWR Morb. Mortal. Wkly Rep. 
+62, 1–34 (2013).
+2.	
+Keja, K., Chan, C., Hayden, G. & Henderson, R. H. Expanded programme on immunization. 
+World Health Stat. Q. 41, 59–63 (1988).
+3.	
+World Health Assembly. WHO Expanded Programme on Immunization (World Health 
+Organization, 1974).
+4.	
+GBD 2019 Diseases and Injuries Collaborators. Global burden of 369 diseases and injuries 
+in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of 
+Disease Study 2019. Lancet 396, 1204–1222 (2020).
+5.	
+WHO. Global Vaccine Action Plan 2011–2020. http://www.who.int/immunization/global_
+vaccine_action_plan/GVAP_doc_2011_2020/en/ (2012).
+6.	
+WHO. Immunization Agenda 2030: A Global Strategy to Leave No One Behind. http://
+www.who.int/immunization/immunization_agenda_2030/en/ (2020).
+7.	
+Roberts, L. Polio, measles, other diseases set to surge as COVID-19 forces suspension of 
+vaccination campaigns. Science https://www.sciencemag.org/news/2020/04/
+polio-measles-other-diseases-set-surge-covid-19-forces-suspension-vaccination- 
+campaigns (9 April 2020).
+8.	
+Nelson, R. COVID-19 disrupts vaccine delivery. Lancet Infect. Dis. 20, 546 (2020).
+9.	
+WHO. New Measles Surveillance Data from WHO. http://www.who.int/immunization/
+newsroom/new-measles-data-august-2019/en/ (2019).
+10.	
+Center for Disease Control and Prevention. Global Measles Outbreaks. https://www.cdc.
+gov/globalhealth/measles/globalmeaslesoutbreaks.htm (2019).
+11.	
+Glass, K., Kappey, K. & Grenfell, B. T. The effect of heterogeneity in measles vaccination 
+on population immunity. Epidemiol. Infect. 132, 675–683 (2004
+12.	
+Larson, H. J. et al. The state of vaccine confidence 2016: global insights through a 
+67-country survey. EBioMedicine 12, 295–301 (2016).
+13.	
+Plotkin, S., Orenstein, W., Offit, P. & Edwards, K. M. Plotkin’s Vaccines (Elsevier, 2017).
+14.	
+Mosser, J. F. et al. Mapping diphtheria-pertussis-tetanus vaccine coverage in Africa, 
+2000–2016: a spatial and temporal modelling study. Lancet 393, 1843–1855 (2019).
+15.	
+Truelove, S. A. et al. Characterizing the impact of spatial clustering of susceptibility for 
+measles elimination. Vaccine 37, 732–741 (2019).
+16.	
+Verguet, S. et al. Measles control in sub-Saharan Africa: South Africa as a case study. 
+Vaccine 30, 1594–1600 (2012).
+17.	
+Ferrari, M. J., Grenfell, B. T. & Strebel, P. M. Think globally, act locally: the role of local 
+demographics and vaccination coverage in the dynamic response of measles infection to 
+control. Phil. Trans. R. Soc. B 368, 20120141 (2013).
+18.	
+WHO. WHO/UNICEF Joint Reporting Process. http://www.who.int/immunization/
+monitoring_surveillance/routine/reporting/en/ (2019).
+19.	
+Brown, D. W. Definition and use of “valid” district level vaccination coverage to monitor 
+Global Vaccine Action Plan (GVAP) achievement: evidence for revisiting the district 
+indicator. J. Glob. Health 8, 020404 (2018).
+20.	 Lim, S. S., Stein, D. B., Charrow, A. & Murray, C. J. Tracking progress towards universal 
+childhood immunisation and the impact of global initiatives: a systematic analysis of 
+three-dose diphtheria, tetanus, and pertussis immunisation coverage. Lancet 372,  
+2031–2046 (2008).
+21.	
+Utazi, C. E. et al. High resolution age-structured mapping of childhood vaccination 
+coverage in low and middle income countries. Vaccine 36, 1583–1591 (2018).
+22.	 Takahashi, S., Metcalf, C. J. E., Ferrari, M. J., Tatem, A. J. & Lessler, J. The geography of 
+measles vaccination in the African Great Lakes region. Nat. Commun. 8, 15585 (2017).
+23.	 Kundrick, A. et al. Sub-national variation in measles vaccine coverage and outbreak risk: a 
+case study from a 2010 outbreak in Malawi. BMC Public Health 18, 741 (2018).
+24.	 Utazi, C. E. et al. Mapping vaccination coverage to explore the effects of delivery 
+mechanisms and inform vaccination strategies. Nat. Commun. 10, 1633 (2019).
+25.	 Dwyer-Lindgren, L. et al. Mapping HIV prevalence in sub-Saharan Africa between 2000 
+and 2017. Nature 570, 189–193 (2019).
+26.	 Burstein, R. et al. Mapping 123 million neonatal, infant and child deaths between 2000 
+and 2017. Nature 574, 353–358 (2019).
+27.	
+Local Burden of Disease Educational Attainment Collaborators. Mapping disparities in 
+education across low- and middle-income countries. Nature 577, 235–238 (2020).
+28.	 Local Burden of Disease Child Growth Failure Collaborators. Mapping child growth failure 
+across low- and middle-income countries. Nature 577, 231–234 (2020).
+29.	 Weiss, D. J. et al. A global map of travel time to cities to assess inequalities in accessibility 
+in 2015. Nature 553, 333–336 (2018).
+30.	 Tatem, A. J. WorldPop, open data for spatial demography. Sci. Data 4, 170004 (2017).
+31.	
+WHO. Global Measles and Rubella Strategic Plan: 2012–2020. http://apps.who.int/iris/bits
+tream/10665/44855/1/9789241503396%5Feng.pdf (2012).
+32.	 Global Burden of Disease Health Financing Collaborator Network. Past, present, and 
+future of global health financing: a review of development assistance, government, 
+out-of-pocket, and other private spending on health for 195 countries, 1995–2050. Lancet 
+393, 2233–2260 (2019).
+33.	 Muraskin, W. et al. in Public–Private Partnerships for Public Health Ch. 6 (ed. Reich, M. R.) 
+115–168 (Harvard Center for Population and Development Studies, 2002).
+34.	 Ikilezi, G., Augusto, O. J., Dieleman, J. L., Sherr, K. & Lim, S. S. Effect of donor funding for 
+immunization from Gavi and other development assistance channels on vaccine 
+coverage: evidence from 120 low and middle income recipient countries. Vaccine 38, 
+588–596 (2020).
+35.	 Piot, P. et al. Immunization: vital progress, unfinished agenda. Nature 575, 119–129 (2019).
+36.	 Council on Foreign Relations. Violence in the Central African Republic. Global Conflict 
+Tracker https://cfr.org/interactive/global-conflict-tracker/conflict/violence-central-african- 
+republic (2019).
+37.	
+Mashal, T., Nakamura, K., Kizuki, M., Seino, K. & Takano, T. Impact of conflict on infant 
+immunisation coverage in Afghanistan: a countrywide study 2000–2003. Int. J. Health 
+Geogr. 6, 23 (2007).
+38.	 Council on Foreign Relations. Boko Haram in Nigeria. Global Conflict Tracker https://cfr.
+org/interactive/global-conflict-tracker/conflict/boko-haram-nigeria (2019).
+39.	 WHO. Data, Statistics and Graphics. http://www.who.int/immunization/monitoring_
+surveillance/data/en/ (accessed 30 April 2020).
+40.	 Larson, H. J., Hartigan-Go, K. & de Figueiredo, A. Vaccine confidence plummets in the 
+Philippines following dengue vaccine scare: why it matters to pandemic preparedness. 
+Hum. Vaccin. Immunother. 15, 625–627 (2019).
+41.	
+Institute for Health Metrics and Evaluation (IHME). Financing Global Health 2018: 
+Countries and Programs in Transition. http://www.healthdata.org/sites/default/files/files/
+policy_report/FGH/2019/FGH_2018_full-report.pdf (University of Washington, 2019).
+42.	 Berkley, S. Vaccination lags behind in middle-income countries. Nature 569, 309 (2019).
+43.	 Wellcome Trust. Wellcome Global Monitor 2018: How does the World feel about Science 
+and Health? https://wellcome.ac.uk/sites/default/files/wellcome-global-monitor-2018.
+pdf (2019).
+44.	 WHO. Maintaining Essential Health Services: Operational Guidance for the COVID-19 
+Context Interim Guidance. https://www.who.int/publications-detail/covid-19-operational-
+guidance-for-maintaining-essential-health-services-during-an-outbreak (2020).
+45.	 Gurnani, V. et al. Improving vaccination coverage in India: lessons from Intensified 
+Mission Indradhanush, a cross-sectoral systems strengthening strategy. Br. Med. J. 363, 
+k4782 (2018).
+46.	 Centers for Disease Control and Prevention. Progress in implementing measles mortality 
+reduction strategies—India, 2010–2011. MMWR Morb. Mortal. Wkly Rep. 60, 1315–1319 (2011).
+47.	
+Masresha, B. G. et al. Introduction of the second dose of measles containing vaccine in 
+the childhood vaccination programs within the WHO Africa Region – lessons learnt.  
+J. Immunol. Sci. S017, 113–121 (2018).
+48.	 ERG. Equality Reference Group for Immunization: Advocacy Brief. https://sites.google.
+com/view/erg4immunisation (accessed 30 April 2020).
+49.	 United Nations Department of Economic and Social Affairs (UNDESA). Sustainable 
+Development Goals: The 17 Goals. https://sustainabledevelopment.un.org/?menu=1300 (2019).
+50.	 ESA-CCI Project. Land Cover Classification Gridded Maps from 1992 to Present Derived 
+from Satellite Observations. https://cds.climate.copernicus.eu/cdsapp#!/dataset/
+satellite-land-cover?tab=overview (accessed 30 April 2020).
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in 
+published maps and institutional affiliations.
+Open Access This article is licensed under a Creative Commons Attribution 
+4.0 International License, which permits use, sharing, adaptation, distribution 
+and reproduction in any medium or format, as long as you give appropriate 
+credit to the original author(s) and the source, provide a link to the Creative Commons license, 
+and indicate if changes were made. The images or other third party material in this article are 
+included in the article’s Creative Commons license, unless indicated otherwise in a credit line 
+to the material. If material is not included in the article’s Creative Commons license and your 
+intended use is not permitted by statutory regulation or exceeds the permitted use, you will 
+need to obtain permission directly from the copyright holder. To view a copy of this license, 
+visit http://creativecommons.org/licenses/by/4.0/.
+© The Author(s) 2020
+
+Article
+Local Burden of Disease Vaccine Coverage Collaborators
+Alyssa N. Sbarra1, Sam Rolfe1, Jason Q. Nguyen1, Lucas Earl1, Natalie C. Galles1, 
+Ashley Marks1, Kaja M. Abbas2, Mohsen Abbasi-Kangevari3, Hedayat Abbastabar4, 
+Foad Abd-Allah5, Ahmed Abdelalim5, Mohammad Abdollahi6,7, Kedir Hussein Abegaz8,9, 
+Hailemariam Abiy Alemu Abiy10,11, Hassan Abolhassani12,13, Lucas Guimarães Abreu14, 
+Michael R. M. Abrigo15, Abdelrahman I. Abushouk16,17, Manfred Mario Kokou Accrombessi18,19,  
+Maryam Adabi20, Oladimeji M. Adebayo21, Victor Adekanmbi22, Olatunji O. Adetokunboh23,24, 
+Davoud Adham25, Mohsen Afarideh26,27, Mohammad Aghaali28, Tauseef Ahmad29, 
+Raman Ahmadi30,31, Keivan Ahmadi32, Muktar Beshir Ahmed33,34, Fahad Mashhour Alanezi35, 
+Turki M. Alanzi36, Jacqueline Elizabeth Alcalde-Rabanal37, Birhan Tamene Alemnew38, 
+Beriwan Abdulqadir Ali39,40, Muhammad Ali41, Mehran Alijanzadeh42, Cyrus Alinia43, 
+Reza Alipoor44, Vahid Alipour45,46, Hesam Alizade47, Syed Mohamed Aljunid48,49, Ali Almasi50, 
+Amir Almasi-Hashiani51, Hesham M. Al-Mekhlafi52,53, Khalid A. Altirkawi54, Bekalu Amare55, 
+Saeed Amini56, Mostafa Amini-Rarani57, Fatemeh Amiri58, Arianna Maever L. Amit59,60, 
+Dickson A. Amugsi61, Robert Ancuceanu62, Catalina Liliana Andrei63, Mina Anjomshoa64, 
+Fereshteh Ansari65,66, Alireza Ansari-Moghaddam67, Mustafa Geleto Ansha68, 
+Carl Abelardo T. Antonio69,70, Ernoiz Antriyandarti71, Davood Anvari72,73, Jalal Arabloo45, 
+Morteza Arab-Zozani74, Olatunde Aremu75, Bahram Armoon76,77, Krishna K. Aryal78, 
+Afsaneh Arzani79,80, Mehran Asadi-Aliabadi81, Samaneh Asgari82, Zahra Atafar83, 
+Marcel Ausloos84,85, Nefsu Awoke86, Beatriz Paulina Ayala Quintanilla87, Martin Amogre  
+Ayanore88, Yared Asmare Aynalem89, Abbas Azadmehr90, Samad Azari45, Ebrahim Babaee81, 
+Alaa Badawi91,92, Ashish D. Badiye93, Mohammad Amin Bahrami94, Atif Amin Baig95, 
+Ahad Bakhtiari96, Senthilkumar Balakrishnan97, Maciej Banach98,99, Palash Chandra Banik100, 
+Aleksandra Barac101,102, Zahra Baradaran-Seyed103, Adhanom Gebreegziabher Baraki104, 
+Sanjay Basu105,106, Mohsen Bayati107, Yibeltal Tebekaw Bayou108, Neeraj Bedi109,110, 
+Masoud Behzadifar111, Michelle L. Bell112, Dessalegn Ajema Berbada113, Kidanemaryam  
+Berhe114, Suraj Bhattarai115, Zulfiqar A. Bhutta116,117, Ali Bijani118, Minyichil Birhanu119, 
+Donal Bisanzio120,121, Atanu Biswas122, Somayeh Bohlouli123, Srinivasa Rao Bolla124, 
+Shiva Borzouei125, Oliver J. Brady2, Nicola Luigi Bragazzi126, Andrey Nikolaevich Briko127, 
+Nikolay Ivanovich Briko128, Sharath Burugina Nagaraja129, Zahid A. Butt130,131, Luis Alberto  
+Cámera132,133, Ismael R. Campos-Nonato134, Josip Car135,136, Rosario Cárdenas137, Felix  
+Carvalho138, João Maurício Castaldelli-Maia139, Franz Castro140, Vijay Kumar Chattu141, 
+Mohammad Chehrazi142,143, Ken Lee Chin144,145, Dinh-Toi Chu146, Aubrey J. Cook1, 
+Natalie Maria Cormier1, Brandon Cunningham1, Saad M. A. Dahlawi147, Giovanni  
+Damiani148,149, Rakhi Dandona1,150,151, Lalit Dandona1,150,152, M. Carolina Danovaro153, 
+Emily Dansereau154, Farah Daoud1, Aso Mohammad Darwesh155, Amira Hamed Darwish156, 
+Jai K. Das157, Nicole Davis Weaver1, Jan-Walter De Neve158, Feleke Mekonnen Demeke159, 
+Asmamaw Bizuneh Demis160,161, Edgar Denova-Gutiérrez162, Assefa Desalew163, Aniruddha  
+Deshpande1, Desilu Mahari Desta164, Samath Dhamminda Dharmaratne1,151,165, 
+Govinda Prasad Dhungana166, Mostafa Dianatinasab167,168, Daniel Diaz169,170, Isaac Oluwafemi  
+Dipeolu171, Shirin Djalalinia171, Hoa Thi Do172, Fariba Dorostkar173, Leila Doshmangir174, 
+Kerrie E. Doyle175,176, Susanna J. Dunachie177,178, Andre Rodrigues Duraes179,180, Mohammad  
+Ebrahimi Kalan181, Hamed Ebrahimzadeh Leylabadlo182, Hisham Atan Edinur183, Andem  
+Effiong184, Aziz Eftekhari185,186, Iman El Sayed187, Maysaa El Sayed Zaki188, Teshome Bekele  
+Elema189, Hala Rashad Elhabashy190, Shaimaa I. El-Jaafary5, Aisha Elsharkawy191, 
+Mohammad Hassan Emamian192, Shymaa Enany193, Babak Eshrati81, Khalil Eskandari194,195, 
+Sharareh Eskandarieh196, Saman Esmaeilnejad197,198, Firooz Esmaeilzadeh199, Alireza  
+Esteghamati27, Atkilt Esaiyas Etisso200, Mohammad Farahmand201, Emerito Jose A. Faraon69, 
+Mohammad Fareed202, Roghiyeh Faridnia203, Andrea Farioli204, Farshad Farzadfar205, 
+Nazir Fattahi206, Mehdi Fazlzadeh207,208, Seyed-Mohammad Fereshtehnejad209,210, 
+Eduarda Fernandes211, Irina Filip212,213, Florian Fischer214, Nataliya A. Foigt215, Morenike  
+Oluwatoyin Folayan216, Masoud Foroutan217, Takeshi Fukumoto218, Nancy Fullman1, 
+Mohamed M. Gad16,219, Biniyam Sahiledengle Geberemariyam220, Tsegaye Tewelde  
+Gebrehiwot33, Abiyu Mekonnen Gebrehiwot221, Kidane Tadesse Gebremariam222, 
+Ketema Bizuwork Gebremedhin223, Gebreamlak Gebremedhn Gebremeskel224,225, 
+Assefa Ayalew Gebreslassie226, Getnet Azeze Gedefaw227, Kebede Embaye Gezae228, 
+Keyghobad Ghadiri229,230, Reza Ghaffari231, Fatemeh Ghaffarifar232, Mahsa Ghajarzadeh233, 
+Reza Ghanei Gheshlagh234, Ahmad Ghashghaee45,235, Hesam Ghiasvand236, 
+Asadollah Gholamian237,238, Syed Amir Gilani239,240, Paramjit Singh Gill241, Alem Girmay224, 
+Nelson G. M. Gomes211,242, Sameer Vali Gopalani243,244, Bárbara Niegia Garcia Goulart245, 
+Ayman Grada246, Rafael Alves Guimarães247, Yuming Guo144,248, Rahul Gupta249,250, 
+Nima Hafezi-Nejad251,252, Arvin Haj-Mirzaian253,254, Arya Haj-Mirzaian251, Demelash  
+Woldeyohannes Handiso255, Asif Hanif256, Hamidreza Haririan257, Ahmed I. Hasaballah258, 
+Md Mehedi Hasan259,260, Edris Hasanpoor261, Amir Hasanzadeh262,263, Soheil Hassanipour264,265,  
+Hadi Hassankhani266,267, Reza Heidari-Soureshjani268, Nathaniel J. Henry1,269, Claudiu  
+Herteliu85,270, Fatemeh Heydarpour271, Gillian I. Hollerich1, Enayatollah Homaie Rad272, 
+Praveen Hoogar273, Naznin Hossain274, Mostafa Hosseini275,276, Mehdi Hosseinzadeh277,278, 
+Mowafa Househ279, Guoqing Hu280, Tanvir M. Huda281,282, Ayesha Humayun283, Segun  
+Emmanuel Ibitoye171, Gloria Ikilezi1, Olayinka Stephen Ilesanmi284,285, Irena M. Ilic102, 
+Milena D. Ilic286, Mohammad Hasan Imani-Nasab287, Leeberk Raja Inbaraj288, Usman Iqbal289, 
+Seyed Sina Naghibi Irvani290, Sheikh Mohammed Shariful Islam291,292, M. Mofizul Islam293, 
+Chinwe Juliana Iwu24,294, Chidozie C. D. Iwu295, Farhad Jadidi-Niaragh296, Morteza Jafarinia297, 
+Nader Jahanmehr298,299, Mihajlo Jakovljevic300,301, Amir Jalali302,303, Farzad Jalilian83, 
+Javad Javidnia304, Ensiyeh Jenabi305, Vivekanand Jha306,307, John S. Ji308,309, Oommen  
+John310,311, Kimberly B. Johnson1, Farahnaz Joukar264,265, Jacek Jerzy Jozwiak312, Zubair  
+Kabir313, Ali Kabir314, Hamed Kalani315, Leila R. Kalankesh316, Rohollah Kalhor317,318, 
+Zul Kamal319,320, Tanuj Kanchan321, Neeti Kapoor93, Manoochehr Karami322, Behzad Karami  
+Matin206, André Karch323, Salah Eddin Karimi324, Gbenga A. Kayode325,326, Ali Kazemi  
+Karyani206, Peter Njenga Keiyoro327, Yousef Saleh Khader328, Morteza Abdullatif Khafaie329, 
+Mohammad Khammarnia330, Muhammad Shahzeb Khan331,332, Ejaz Ahmad Khan333, 
+Junaid Khan334, Md Nuruzzaman Khan335, Khaled Khatab336,337, Mona M. Khater338, 
+Mahalaqua Nazli Khatib339, Maryam Khayamzadeh340,341, Mojtaba Khazaei342, 
+Salman Khazaei322, Ardeshir Khosravi343,344, Jagdish Khubchandani345, Neda Kianipour346, 
+Yun Jin Kim347, Ruth W. Kimokoti348, Damaris K. Kinyoki1,151, Adnan Kisa349,350, Sezer Kisa351, 
+Tufa Kolola352, Hamidreza Komaki353,354, Soewarta Kosen355, Parvaiz A. Koul356, 
+Ai Koyanagi357,358, Moritz U. G. Kraemer359,360, Kewal Krishan361, Barthelemy  Kuate Defo362,363, 
+Manasi Kumar364,365, Pushpendra Kumar366, G. Anil Kumar150, Dian Kusuma367,368, Carlo La 
+Vecchia369, Ben Lacey370,371, Sheetal D. Lad372, Dharmesh Kumar Lal150, Felix Lam373, 
+Faris Hasan Lami374, Van Charles Lansingh375,376, Heidi Jane Larson1,2, Savita Lasrado377, 
+Shaun Wen Huey Lee378,379, Paul H. Lee380, Kate E. LeGrand1, Tsegaye Lolaso Lenjebo381, 
+Shanshan Li382, Xiaofeng Liang383, Patrick Y. Liu384, Platon D. Lopukhov128, 
+Daiane Borges Machado385,386, Phetole Walter Mahasha387, Mokhtar Mahdavi Mahdavi76, 
+Mina Maheri388, Narayan B. Mahotra389, Venkatesh Maled390,391, Shokofeh Maleki392, 
+Manzoor Ahmad Malik393,394, Deborah Carvalho Malta395, Fariborz Mansour-Ghanaei264,265, 
+Borhan Mansouri303, Morteza Mansourian396, Mohammad Ali Mansournia275, 
+Francisco Rogerlândio Martins-Melo397, Anthony Masaka398, Benjamin K. Mayala1,399, 
+Man Mohan Mehndiratta400,401, Fereshteh Mehri402, Kala M. Mehta403, Peter T. N. Memiah404, 
+Walter Mendoza405, Ritesh G. Menezes406, Meresa Berwo Mengesha407, Endalkachew Worku  
+Mengesha408, Tomislav Mestrovic409,410, Kebadnew Mulatu Mihretie411, Molly K. Miller-Petrie1,  
+Edward J. Mills412, George J. Milne413, Parvaneh Mirabi414, Erkin M. Mirrakhimov415,416, Roya  
+Mirzaei417,418, Maryam Mirzaei419, Hamid Reza Mirzaei420, Hamed Mirzaei421, Mehdi  
+Mirzaei-Alavijeh83, Babak Moazen158,422, Masoud Moghadaszadeh423,424, Efat Mohamadi344, 
+Dara K. Mohammad425,426, Yousef Mohammad427, Karzan Abdulmuhsin Mohammad428, 
+Naser Mohammad Gholi Mezerji429, Abolfazl Mohammadbeigi28, Abdollah Mohammadian-H
+afshejani430, Reza Mohammadpourhodki431, Shafiu Mohammed158,432, Ammas Siraj  
+Mohammed433, Hussen Mohammed434, Farnam Mohebi205,371, Ali H. Mokdad1,151, 
+Lorenzo Monasta435, Mohammad Amin Moosavi436, Mahmood Moosazadeh437, 
+Ghobad Moradi438,439, Masoud Moradi206, Mohammad Moradi-Joo440, Maziar Moradi-Lakeh81, 
+Rahmatollah Moradzadeh51, Paula Moraga441, Abbas Mosapour442,443, Simin Mouodi118, 
+Seyyed Meysam Mousavi96, Amin Mousavi Khaneghah444, Ulrich Otto Mueller445,446, 
+Atalay Goshu Muluneh104, Sandra B. Munro1, Christopher J. L. Murray1,151, G. V. S. Murthy447, 
+Saravanan Muthupandian448, Mehdi Naderi392, Ahamarshan Jayaraman Nagarajan449,450, 
+Mohsen Naghavi1,151, Vinay Nangia451, Jobert Richie Nansseu452,453, Vinod C. Nayak454, 
+Javad Nazari455, Duduzile Edith Ndwandwe456, Ionut Negoi457,458, Josephine W. Ngunjiri459, 
+Huong Lan Thi Nguyen460, Chuc T. K. Nguyen461, Trang Huyen Nguyen461, Yeshambel  
+T. Nigatu462,463, Rajan Nikbakhsh254, Shekoufeh Nikfar464, Amin Reza Nikpoor465, Dina Nur  
+Anggraini Ningrum466,467, Chukwudi A. Nnaji294,468, In-Hwan Oh469, Morteza Oladnabi470, 
+Andrew T. Olagunju471,472, Jacob Olusegun Olusanya473, Bolajoko Olubukunola Olusanya473, 
+Ahmed Omar Bali474, Muktar Omer Omer475, Obinna E. Onwujekwe476, Aaron E.  
+Osgood-Zimmerman1, Mayowa O. Owolabi477,478, Mahesh P A479, Jagadish Rao Padubidri480, 
+Keyvan Pakshir481, Adrian Pana85,482, Anamika Pandey483, Victoria Pando-Robles484, 
+Tahereh Pashaei485, Deepak Kumar Pasupula486, Angel J. Paternina-Caicedo487, 
+George C. Patton488,489, Hamidreza Pazoki Toroudi490,491, Veincent Christian Filipino  
+Pepito492, Julia Moreira Pescarini385, David M. Pigott1,151, Thomas Pilgrim493, Meghdad  
+Pirsaheb206, Mario Poljak494, Maarten J. Postma495,496, Hadi Pourjafar497,498, Farshad  
+Pourmalek499, Reza Pourmirza Kalhori500, Sergio I. Prada501,502, Sanjay Prakash503, 
+Zahiruddin Quazi Syed504, Hedley Quintana140, Navid Rabiee505, Mohammad Rabiee506, 
+Amir Radfar507, Alireza Rafiei508,509, Fakher Rahim510,511, Fatemeh Rajati206, Muhammed Ahmed  
+Rameto33,512, Kiana Ramezanzadeh513, Chhabi Lal Ranabhat514,515, Sowmya J. Rao516, Davide  
+Rasella517, Prateek Rastogi518, Priya Rathi519, Salman Rawaf136,520, David Laith Rawaf521,522, 
+Lal Rawal523, Reza Rawassizadeh524, Ramu Rawat525, Vishnu Renjith526, Andre M. N.  
+Renzaho527,528, Bhageerathy Reshmi307,529, Melese Abate Reta38,530, Nima Rezaei13,531, 
+Mohammad Sadegh Rezai532, Aziz Rezapour45, Seyed Mohammad Riahi533, Ana Isabel  
+Ribeiro534, Jennifer Rickard535,536, Maria Rios-Blancas37, Carlos Miguel Rios-González537,538, 
+Leonardo Roever539, Morteza Rostamian540, Salvatore Rubino541, Godfrey M. Rwegerera542, 
+Anas M. Saad543, Seyedmohammad Saadatagah544, Siamak Sabour545, Ehsan Sadeghi206, 
+Sahar Saeedi Moghaddam205, Shahram Saeidi83, Rajesh Sagar546, Amirhossein  
+Sahebkar547,548, Mohammad Ali Sahraian196, S. Mohammad Sajadi549,550, Mohammad Reza  
+Salahshoor551, Nasir Salam552, Hosni Salem553, Marwa Rashad Salem554, Joshua A.  
+Salomon555, Hossein Samadi Kafil30, Evanson Zondani Sambala294, Abdallah M. Samy556, 
+Sivan Yegnanarayana Iyer Saraswathy557,558, Rodrigo Sarmiento-Suárez559,560, Satish  
+Saroshe561, Benn Sartorius151,562, Arash Sarveazad563, Brijesh Sathian564,565, Thirunavukkarasu  
+Sathish566, Lauren E. Schaeffer1, David C. Schwebel567, Subramanian Senthilkumaran568, 
+Hosein Shabaninejad569,570, Saeed Shahabi571, Amira A. Shaheen572, Masood Ali Shaikh573, 
+Ali S. Shalash574, Mehran Shams-Beyranvand575, MohammadBagher Shamsi576, Morteza  
+Shamsizadeh577, Kiomars Sharafi206, Hamid Sharifi578, Aziz Sheikh579,580, Abbas  
+Sheikhtaheri581, Ranjitha S. Shetty582, Wondimeneh Shibabaw Shiferaw89, Mika  
+Shigematsu583, Jae Il Shin584, Reza Shirkoohi585,586, Soraya Siabani587,588, Tariq Jamal  
+Siddiqi589, Jonathan I. S. Silverberg590, Biagio Simonetti591,592, Jasvinder A. Singh593,594, 
+Dhirendra Narain Sinha595,596, Abiy H. Sinke597, Amin Soheili598, Anton Sokhan599, 
+Shahin Soltani206, Moslem Soofi83, Muluken Bekele Sorrie113, Ireneous N. Soyiri600, 
+Adel Spotin601, Emma Elizabeth Spurlock1, Chandrashekhar T. Sreeramareddy602, 
+Agus Sudaryanto603, Mu’awiyyah Babale Sufiyan604, Hafiz Ansar Rasul Suleria605, 
+Rizwan Suliankatchi Abdulkader606,607, Amir Taherkhani608, Leili Tapak429,609, 
+Nuno Taveira610,611, Parvaneh Taymoori438,612, Yonatal Mesfin Tefera613,614, Arash Tehrani-Banih
+ashemi81,615, Berhane Fseha Teklehaimanot616, Gebretsadkan Hintsa Tekulu617, Berhe Etsay  
+Tesfay616, Zemenu Tadesse Tessema104, Belay Tessema618, Kavumpurathu Raman  
+Thankappan619, Hamid Reza Tohidinik275,578, Roman Topor-Madry620,621, Marcos Roberto Tova
+ni-Palone622,623, Bach Xuan Tran624, Riaz Uddin625,626, Irfan Ullah627, Chukwuma David  
+Umeokonkwo628, Bhaskaran Unnikrishnan629, Era Upadhyay630, Muhammad Shariq  
+Usman332, Maryam Vaezi631,632, Sahel Valadan Tahbaz633,634, Pascual R. Valdez635,636, 
+Yasser Vasseghian277, Yousef Veisani637, Francesco S. Violante204,638, Sebastian Vollmer639, 
+Yasir Waheed640, Jon Wakefield641,642, Yafeng Wang643, Yuan-Pang Wang139, Girmay Teklay  
+Weldesamuel224, Andrea Werdecker644, Ronny Westerman645, Taweewat Wiangkham646, 
+Kirsten E. Wiens1, Charles Shey Wiysonge294,468, Gebremariam Woldu647, Dawit Zewdu  
+Wondafrash648,649, Tewodros Eshete Wonde10, Ai-Min Wu650, Ali Yadollahpour651, 
+Seyed Hossein Yahyazadeh Jabbari633, Tomohide Yamada652, Sanni Yaya653,654, Vahid Yazdi-F
+eyzabadi655,656, Tomas Y. Yeheyis657, Yigizie Yeshaw104, Christopher Sabo Yilgwan658,659, 
+Paul Yip660,661, Naohiro Yonemoto662,663, Mustafa Z. Younis664,665, Zabihollah Yousefi666, 
+Mahmoud Yousefifard491, Taraneh Yousefinezhadi667, Chuanhua Yu643, Hasan Yusefzadeh43, 
+Siddhesh Zadey668, Telma Zahirian Moghadam669, Leila Zaki232, Sojib Bin Zaman282,670, 
+Mohammad Zamani671, Maryam Zamanian51, Hamed Zandian669,672, Alireza Zangeneh83, 
+
+Fatemeh Zarei673, Taddese Alemu Zerfu674,675, Yunquan Zhang676,677, Zhi-Jiang Zhang678, 
+Xiu-Ju George Zhao679,680, Maigeng Zhou681, Arash Ziapour587, Simon I. Hay1,151,682 ✉, 
+Stephen S. Lim1,151,682 ✉ & Jonathan F. Mosser1,151,682 ✉
+1Institute for Health Metrics and Evaluation, University of Washington, Seattle, WA, USA. 
+2Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical 
+Medicine, London, UK. 3Social Determinants of Health Research Center, Shahid Beheshti 
+University of Medical Sciences, Tehran, Iran. 4Advanced Diagnostic and Interventional 
+Radiology Research Center, Tehran University of Medical Sciences, Tehran, Iran. 5Department 
+of Neurology, Cairo University, Cairo, Egypt. 6The Institute of Pharmaceutical Sciences (TIPS), 
+Tehran University of Medical Sciences, Tehran, Iran. 7School of Pharmacy, Tehran University of 
+Medical Sciences, Tehran, Iran. 8Department of Biostatistics, Near East University, Nicosia, 
+Cyprus. 9Department of Biostatistics and Health Informatics, Madda Walabu University, Bale 
+Robe, Ethiopia. 10Department of Public Health, Debre Markos University, Debre Markos, 
+Ethiopia. 11School of Public Health, Bahir Dar University, Bahir Dar, Ethiopia. 12Department of 
+Laboratory Medicine, Karolinska University Hospital, Huddinge, Sweden. 13Research Center 
+for Immunodeficiencies, Tehran University of Medical Sciences, Tehran, Iran. 14Department of 
+Pediatric Dentistry, Federal University of Minas Gerais, Belo Horizonte, Brazil. 15Department of 
+Research, Philippine Institute for Development Studies, Quezon City, The Philippines. 
+16Department of Cardiovascular Medicine, Cleveland Clinic, Cleveland, OH, USA. 
+17Department of Medicine, Ain Shams University, Cairo, Egypt. 18Department of Disease 
+Control, London School of Hygiene & Tropical Medicine, London, UK. 19Clinical Research and 
+Operations, Foundation for Scientific Research (FORS), Cotonou, Benin. 20Hamadan University 
+of Medical Sciences, Hamadan, Iran. 21College of Medicine, University College Hospital, 
+Ibadan, Ibadan, Nigeria. 22Population Health Sciences, King’s College London, London, UK. 
+23Centre of Excellence for Epidemiological Modelling and Analysis, Stellenbosch University, 
+Stellenbosch, South Africa. 24Department of Global Health, Stellenbosch University, Cape 
+Town, South Africa. 25School of Health, Ardabil University of Medical Science, Ardabil, Iran. 
+26Department of Dermatology, Mayo Clinic, Rochester, MN, USA. 27Endocrinology and 
+Metabolism Research Center, Tehran University of Medical Sciences, Tehran, Iran. 
+28Department of Epidemiology and Biostatistics, Qom University of Medical Sciences, Qom, 
+Iran. 29Department of Epidemiology and Health Statistics, Southeast University, Nanjing, 
+China. 30Drug Applied Research Center, Tabriz University of Medical Sciences, Tabriz, Iran. 
+31Department of Food Science and Technology, University of Tabriz, Tabriz, Iran. 32Lincoln 
+Medical School, Universities of Nottingham & Lincoln, Lincoln, UK. 33Department of 
+Epidemiology, , Jimma University, Jimma, Ethiopia. 34Australian Center for Precision Health, , 
+University of South Australia, Adelaide, South Australia, Australia. 35Imam Abdulrahman Bin 
+Faisal University, Dammam, Saudi Arabia. 36Health Information Management and Technology 
+Department, Imam Abdulrahman Bin Faisal University, Dammam, Saudi Arabia. 37Center for 
+Health System Research, National Institute of Public Health, Cuernavaca, Mexico. 
+38Department of Medical Laboratory Science, Woldia University, Woldia, Ethiopia. 39Erbil 
+Technical Health College, Erbil Polytechnic University, Erbil, Iraq. 40School of Pharmacy, Tishk 
+International University, Erbil, Iraq. 41Department of Biotechnology, Quaid-i-Azam University, 
+Islamabad, Pakistan. 42Social Determinants of Health Research Center, Qazvin University of 
+Medical Sciences, Qazvin, Iran. 43Department of Health Care Management and Economics, 
+Urmia University of Medical Science, Urmia, Iran. 44Student Research Committee, Hormozgan 
+University of Medical Sciences, Bandar Abbas, Iran. 45Health Management and Economics 
+Research Center, Iran University of Medical Sciences, Tehran, Iran. 46Health Economics 
+Department, Iran University of Medical Sciences, Tehran, Iran. 47Infectious and Tropical 
+Disease Research Center, Hormozgan University of Medical Sciences, Bandar Abbas, Iran. 
+48Department of Health Policy and Management, Kuwait University, Safat, Kuwait. 
+49International Centre for Casemix and Clinical Coding, National University of Malaysia, 
+Bandar Tun, Razak, Malaysia. 50Department of Environmental Health Engineering, 
+Kermanshah University of Medical Sciences, Kermanshah, Iran. 51Department of 
+Epidemiology, Arak University of Medical Sciences, Arak, Iran. 52Medical Research Center, 
+Jazan University, Jazan, Saudi Arabia. 53Department of Parasitology, Sana’a University, Sana’a, 
+Yemen. 54Pediatric Intensive Care Unit, King Saud University, Riyadh, Saudi Arabia. 
+55Department of Pharmacology, Mekelle University, Mekelle, Ethiopia. 56Health Services 
+Management Department, Arak University of Medical Sciences, Arak, Iran. 57Health 
+Management and Economics Research Center, Isfahan University of Medical Sciences, 
+Isfahan, Iran. 58Department of Radiology and Nuclear Medicine, Kermanshah University of 
+Medical Sciences, Kermanshah, Iran. 59Department of Epidemiology and Biostatistics, 
+University of the Philippines Manila, Manila, The Philippines. 60School of Public Health, Johns 
+Hopkins University, Baltimore, MD, USA. 61Maternal and Child Wellbeing, African Population 
+and Health Research Center, Nairobi, Kenya. 62Pharmacy Department, Carol Davila University 
+of Medicine and Pharmacy, Bucharest, Romania. 63Cardiology Department, Carol Davila 
+University of Medicine and Pharmacy, Bucharest, Romania. 64Social Determinants of Health 
+Research Center, Rafsanjan University of Medical Sciences, Rafsanjan, Iran. 65Research Center 
+for Evidence Based Medicine, Tabriz University of Medical Sciences, Tabriz, Iran. 66Razi 
+Vaccine and Serum Research Institute, Agricultural Research, Education, and Extension 
+Organization (AREEO), Tehran, Iran. 67Department of Epidemiology and Biostatistics, Zahedan 
+University of Medical Sciences, Zahedan, Iran. 68Department of Public Health, Debre Berhan 
+University, Debre Berhan, Ethiopia. 69Department of Health Policy and Administration, 
+University of the Philippines Manila, Manila, The Philippines. 70Department of Applied Social 
+Sciences, Hong Kong Polytechnic University, Hong Kong, China. 71Agribusiness Study 
+Program, Sebelas Maret University, Surakarta, Indonesia. 72Department of Parasitology, 
+Mazandaran University of Medical Sciences, Sari, Iran. 73Department of Parasitology, Iranshahr 
+University of Medical Sciences, Iranshahr, Iran. 74Social Determinants of Health Research 
+Center, Birjand University of Medical Sciences, Birjand, Iran. 75Department of Public Health, 
+Birmingham City University, Birmingham, UK. 76Social Determinants of Health Research 
+Center, Saveh University of Medical Sciences, Saveh, Iran. 77Social Determinants of Health 
+Research Center, Yasuj University of Medical Sciences, Yasuj, Iran. 78Monitoring Evaluation 
+and Operational Research Project, Abt Associates Nepal, Lalitpur, Nepal. 79School of Nursing 
+and Midwifery, Babol University of Medical Sciences, Babol, Iran. 80Babol University of 
+Medical Sciences, Babol, Iran. 81Preventive Medicine and Public Health Research Center, Iran 
+University of Medical Sciences, Tehran, Iran. 82Prevention of Metabolic Disorders Research 
+Center, Shahid Beheshti University of Medical Sciences, Tehran, Iran. 83Social Development 
+and Health Promotion Research Center, Kermanshah University of Medical Sciences, 
+Kermanshah, Iran. 84School of Business, University of Leicester, Leicester, UK. 85Department of 
+Statistics and Econometrics, Bucharest University of Economic Studies, Bucharest, Romania. 
+86Department of Nursing, Wolaita Sodo University, Wolaita Sodo, Ethiopia. 87The Judith Lumley 
+Centre, La Trobe University, Melbourne, Victoria, Australia. 88Department of Health Policy 
+Planning and Management, University of Health and Allied Sciences, Ho, Ghana. 
+89Department of Nursing, Debre Berhan University, Debre Berhan, Ethiopia. 90Cellular and 
+Molecular Biology Research Center, Babol University of Medical Sciences, Babol, Iran. 
+91Public Health Risk Sciences Division, Public Health Agency of Canada, Toronto, Ontario, 
+Canada. 92Department of Nutritional Sciences, University of Toronto, Toronto, Ontario, 
+Canada. 93Department of Forensic Science, Government Institute of Forensic Science, 
+Nagpur, India. 94Department of Healthcare Management and Education, Shiraz University of 
+Medical Sciences, Shiraz, Iran. 95Unit of Biochemistry, Sultan Zainal Abidin University 
+(Universiti Sultan Zainal Abidin), Kuala Terengganu, Malaysia. 96Department of Health Policy, 
+Management, and Economics, Tehran University of Medical Sciences, Tehran, Iran. 
+97Department of Medical Microbiology, Haramaya University, Harar, Ethiopia. 98Department of 
+Hypertension, Medical University of Lodz, Lodz, Poland. 99Polish Mothers’ Memorial Hospital 
+Research Institute, Lodz, Poland. 100Department of Non-communicable Diseases, Bangladesh 
+University of Health Sciences, Dhaka, Bangladesh. 101Clinic for Infectious and Tropical 
+Diseases, Clinical Center of Serbia, Belgrade, Serbia. 102Faculty of Medicine, University of 
+Belgrade, Belgrade, Serbia. 103Razi Vaccine and Serum Research Institute, Agricultural 
+Research, Education and Extension Organization (AREEO), Karaj, Iran. 104Department of 
+Epidemiology and Biostatistics, University of Gondar, Gondar, Ethiopia. 105Center for Primary 
+Care, Harvard University, Boston, MA, USA. 106School of Public Health, Imperial College 
+London, London, UK. 107Health Human Resources Research Center, Shiraz University of 
+Medical Sciences, Shiraz, Iran. 108Monitoring, Evaluation and Research Department, JSI 
+Research & Training Institute, Addis Ababa, Ethiopia. 109Department of Community Medicine, 
+Gandhi Medical College Bhopal, Bhopal, India. 110Jazan University, Jazan, Saudi Arabia. 
+111Social Determinants of Health Research Center, Lorestan University of Medical Sciences, 
+Khorramabad, Iran. 112School of the Environment, Yale University, New Haven, CT, USA. 
+113Department of Public Health, Arba Minch University, Arba Minch, Ethiopia. 114Department of 
+Nutrition and Dietetics, Mekelle University, Mekelle, Ethiopia. 115Department of Global Health, 
+Global Institute for Interdisciplinary Studies, Kathmandu, Nepal. 116Centre for Global Child 
+Health, University of Toronto, Toronto, Ontario, Canada. 117Centre of Excellence in Women & 
+Child Health, Aga Khan University, Karachi, Pakistan. 118Social Determinants of Health 
+Research Center, Babol University of Medical Sciences, Babol, Iran. 119Department of 
+Pediatrics and Child Health Nursing, Bahir Dar University, Bahir Dar, Ethiopia. 120Global Health 
+Division, Research Triangle Institute International, Research Triangle Park, NC, USA. 121School 
+of Medicine, University of Nottingham, Nottingham, UK. 122Department of Neurology, Institute 
+of Post-Graduate Medical Education and Research and Seth Sukhlal Karnani Memorial 
+Hospital, Kolkata, India. 123Department of Veterinary Medicine, Islamic Azad University, 
+Kermanshah, Iran. 124Department of Biomedical Sciences, Nazarbayev University, Nur-Sultan 
+City, Kazakhstan. 125Department of Endocrinology, Hamadan University of Medical Sciences, 
+Hamadan, Iran. 126University of Genoa, Genoa, Italy. 127Department of Biomedical 
+Technologies, Bauman Moscow State Technical University, Moscow, Russia. 128Department of 
+Epidemiology and Evidence Based Medicine, I. M. Sechenov First Moscow State Medical 
+University, Moscow, Russia. 129Department of Community Medicine, Employee State 
+Insurance Post Graduate Institute of Medical Sciences and Research, Bangalore, India. 
+130School of Public Health and Health Systems, University of Waterloo, Waterloo, Ontario, 
+Canada. 131Al Shifa School of Public Health, Al Shifa Trust Eye Hospital, Rawalpindi, Pakistan. 
+132Internal Medicine Department, Hospital Italiano de Buenos Aires, Buenos Aires, Argentina. 
+133Board of Directors, Argentine Society of Medicine, Buenos Aires, Argentina. 134Health and 
+Nutrition Research Center, National Institute of Public Health, Cuernavaca, Mexico. 135Centre 
+for Population Health Sciences, Nanyang Technological University, Singapore, Singapore. 
+136Department of Primary Care and Public Health, Imperial College London, London, UK. 
+137Department of Health Care, Metropolitan Autonomous University, Mexico City, Mexico. 
+138Research Unit on Applied Molecular Biosciences (UCIBIO), University of Porto, Porto, 
+Portugal. 139Department of Psychiatry, University of São Paulo, São Paulo, Brazil. 140Gorgas 
+Memorial Institute for Health Studies, Panama City, Panama. 141Department of Medicine, 
+University of Toronto, Toronto, Ontario, Canada. 142Department of Biostatistics and 
+Epidemiology, Babol University of Medical Sciences, Babol, Iran. 143Epidemiology Research 
+Center, Royan Institute, Tehran, Iran. 144Department of Epidemiology and Preventive Medicine, 
+Monash University, Melbourne, Victoria, Australia. 145Melbourne Medical School, University of 
+Melbourne, Parkville, Victoria, Australia. 146Faculty of Biology, Hanoi National University of 
+Education, Hanoi, Vietnam. 147Environmental Health Department, Imam Abdulrahman Bin 
+Faisal University, Dammam, Saudi Arabia. 148Clinical Dermatology, IRCCS Istituto Ortopedico 
+Galeazzi, University of Milan, Milan, Italy. 149Department of Dermatology, Case Western 
+Reserve University, Cleveland, OH, USA. 150Public Health Foundation of India, Gurugram, 
+India. 151Department of Health Metrics Sciences, School of Medicine, University of 
+Washington, Seattle, WA, USA. 152Indian Council of Medical Research, New Delhi, India. 
+153Immunization, Vaccines and Biologicals (IVB), World Health Organization (WHO), Geneva, 
+Switzerland. 154Global Delivery Programs, Bill & Melinda Gates Foundation, Seattle, WA, USA. 
+155Department of Information Technology, University of Human Development, Sulaymaniyah, 
+Iraq. 156Department of Pediatrics, Tanta University, Tanta, Egypt. 157Division of Women and 
+Child Health, Aga Khan University, Karachi, Pakistan. 158Heidelberg Institute of Global Health 
+(HIGH), Heidelberg University, Heidelberg, Germany. 159Department of Medical Laboratory 
+Sciences, Bahir Dar University, Bahir Dar, Ethiopia. 160Department of Nursing, Woldia 
+University, Woldia, Ethiopia. 161School of Nursing, Jimma University, Jimma, Ethiopia. 162Center 
+for Nutrition and Health Research, National Institute of Public Health, Cuernavaca, Mexico. 
+163School of Nursing and Midwifery, Haramaya University, Harar, Ethiopia. 164School of 
+Pharmacy, Mekelle University, Mekelle, Ethiopia. 165Department of Community Medicine, 
+University of Peradeniya, Peradeniya, Sri Lanka. 166Department of Microbiology, Far Western 
+University, Mahendranagar, Nepal. 167Department of Epidemiology and Biostatistics, Shahroud 
+University of Medical Sciences, Shahroud, Iran. 168Department of Epidemiology, Shiraz 
+University of Medical Sciences, Shiraz, Iran. 169Center of Complexity Sciences, National 
+Autonomous University of Mexico, Mexico City, Mexico. 170Faculty of Veterinary Medicine and 
+
+Article
+Zootechnics, Autonomous University of Sinaloa, Culiacán Rosales, Mexico. 171Department of 
+Health Promotion and Education, University of Ibadan, Ibadan, Nigeria. 172Institute of Health 
+Economics and Technology, Hanoi, Vietnam. 173Department of Medical Laboratory Sciences, 
+Iran University of Medical Sciences, Tehran, Iran. 174Department of Health Policy and 
+Management, Tabriz University of Medical Sciences, Tabriz, Iran. 175School of Medicine, 
+Western Sydney University, Sydney, New South Wales, Australia. 176Health Sciences, Royal 
+Melbourne Institute of Technology University, Melbourne, Victoria, Australia. 177Centre for 
+Tropical Medicine and Global Health, University of Oxford, Oxford, UK. 178Mahidol-Oxford 
+Tropical Medicine Research Unit, Bangkok, Thailand. 179School of Medicine, Federal University 
+of Bahia, Salvador, Brazil. 180Department of Internal Medicine, Escola Bahiana de Medicina e 
+Saúde Pública, Salvador, Brazil. 181Department of Epidemiology, Florida International 
+University, Miami, FL, USA. 182Department of Bacteriology and Virology, Tabriz University of 
+Medical Sciences, Tabriz, Iran. 183School of Health Sciences, Universiti Sains Malaysia, Kubang 
+Kerian, Malaysia. 184Centre Clinical Epidemiology and Biostatistics, University of Newcastle, 
+Newcastle, New South Wales, Australia. 185Department of Pharmacology and Toxicology, 
+Maragheh University of Medical Sciences, Maragheh, Iran. 186Department of Pharmacology 
+and Toxicology, The John Paul II Catholic University of Lublin, Lublin, Poland. 187Biomedical 
+Informatics and Medical Statistics Department, Alexandria University, Alexandria, Egypt. 
+188Reference Laboratory of Egyptian Universities Hospitals, Ministry of Higher Education and 
+Research, Cairo, Egypt. 189Department of Food Science and Nutrition, Arsi University, Asella, 
+Ethiopia. 190Neurophysiology Department, Cairo University, Cairo, Egypt. 191Endemic Medicine 
+and Hepatogastroentrology Department, Cairo University, Cairo, Egypt. 192Ophthalmic 
+Epidemiology Research Center, Shahroud University of Medical Sciences, Shahroud, Iran. 
+193Department of Microbiology and Immunology, Suez Canal University, Ismailia, Egypt. 
+194Department of Medicinal Chemistry, Kerman University of Medical Sciences, Kerman, Iran. 
+195Pharmaceutics Research Center, Kerman University of Medical Sciences, Kerman, Iran. 
+196Multiple Sclerosis Research Center, Tehran University of Medical Sciences, Tehran, Iran. 
+197Department of Physiology, Tarbiat Modares University, Tehran, Iran. 198Tehran Medical 
+Sciences Branch, Islamic Azad University, Tehran, Iran. 199Department of Public Health, 
+Maragheh University of Medical Sciences, Maragheh, Iran. 200Unit of Medical Physiology, 
+Hawassa University, Hawassa, Ethiopia. 201School of Public Health, Tehran University of 
+Medical Sciences, Tehran, Iran. 202College of Medicine, Imam Mohammad Ibn Saud Islamic 
+University, Riyadh, Saudi Arabia. 203Department of Medical Parasitology, Mazandaran 
+University of Medical Sciences, Sari, Iran. 204Department of Medical and Surgical Sciences, 
+University of Bologna, Bologna, Italy. 205Non-communicable Diseases Research Center, 
+Tehran University of Medical Sciences, Tehran, Iran. 206Research Center for Environmental 
+Determinants of Health, Kermanshah University of Medical Sciences, Kermanshah, Iran. 
+207Department of Environmental Health Engineering, Ardabil University of Medical Science, 
+Ardabil, Iran. 208Department of Environmental Health Engineering, Tehran University of 
+Medical Sciences, Tehran, Iran. 209Department of Neurobiology, Karolinska Institute, 
+Stockholm, Sweden. 210Division of Neurology, University of Ottawa, Ottawa, Ontario, Canada. 
+211Associated Laboratory for Green Chemistry (LAQV), University of Porto, Porto, Portugal. 
+212Psychiatry Department, Kaiser Permanente, Fontana, CA, USA. 213School of Health Sciences, 
+A. T. Still University, Mesa, AZ, USA. 214Institute of Gerontological Health Services and Nursing 
+Research, Ravensburg-Weingarten University of Applied Sciences, Weingarten, Germany. 
+215Institute of Gerontology, National Academy of Medical Sciences of Ukraine, Kyiv, Ukraine. 
+216Department of Child Dental Health, Obafemi Awolowo University, Ile-Ife, Nigeria. 
+217Department of Medical Parasitology, Abadan Faculty of Medical Sciences, Abadan, Iran. 
+218Department of Dermatology, Kobe University, Kobe, Japan. 219Gillings School of Global 
+Public Health, University of North Carolina Chapel Hill, Chapel Hill, NC, USA. 220Department of 
+Public Health, Madda Walabu University, Bale Robe, Ethiopia. 221Menelik-II College of Medical 
+and Health Sciences, Kotebe Metropolitan University, Addis Ababa, Ethiopia. 222School of 
+Public Health, Mekelle University, Mekelle, Ethiopia. 223Department of Nursing and Midwifery, 
+Addis Ababa University, Addis Ababa, Ethiopia. 224Department of Nursing, Aksum University, 
+Aksum, Ethiopia. 225Department of Nursing, Mekelle University, Mekelle, Ethiopia. 
+226Department of Reproductive Health, Mekelle University, Mekelle, Ethiopia. 227Department of 
+Midwifery, Woldia University, Woldia, Ethiopia. 228Department of Biostatistics, Mekelle 
+University, Mekelle, Ethiopia. 229Infectious Disease Research Center, Kermanshah University of 
+Medical Sciences, Kermanshah, Iran. 230Pediatric Department, Kermanshah University of 
+Medical Sciences, Kermanshah, Iran. 231Medical Education Research Center, Tabriz University 
+of Medical Sciences, Tabiz, Iran. 232Department of Parasitology and Entomology, Tarbiat 
+Modares University, Tehran, Iran. 233Department of Neurology, Tehran University of Medical 
+Sciences, Tehran, Iran. 234Faculty of Nursing and Midwifery, Kurdistan University of Medical 
+Sciences, Sanandaj, Iran. 235Student Research Committee, Iran University of Medical 
+Sciences, Tehran, Iran. 236Institute of Health Research, University of Exeter, Exeter, UK. 
+237Young Researchers and Elite Club, Islamic Azad University, Rasht, Iran. 238Department of 
+Biology, Islamic Azad University, Tehran, Iran. 239Faculty of Allied Health Sciences, The 
+University of Lahore, Lahore, Pakistan. 240Afro-Asian Institute, Lahore, Pakistan. 241Medical 
+School, University of Warwick, Coventry, UK. 242Department of Chemistry, University of Porto, 
+Porto, Portugal. 243Hudson College of Public Health, University of Oklahoma Health Sciences 
+Center, Oklahoma City, OK, USA. 244Department of Health and Social Affairs, Government of 
+the Federated States of Micronesia, Palikir, Federated States of Micronesia. 245Postgraduate 
+Program in Epidemiology, Federal University of Rio Grande do Sul, Porto Alegre, Brazil. 
+246Department of Dermatology, Boston University, Boston, MA, USA. 247Institute of Tropical 
+Pathology and Public Health (IPTSP), Federal University of Goias, Goiânia, Brazil. 
+248Department of Epidemiology, Binzhou Medical University, Yantai City, China. 249Medical 
+Resources, March of Dimes, Arlington, VA, USA. 250Health Policy, Management and 
+Leadership, West Virginia University School of Public Health, Morgantown, WV, USA. 
+251Department of Radiology and Radiological Sciences, Johns Hopkins University, Baltimore, 
+MD, USA. 252School of Medicine, Tehran University of Medical Sciences, Tehran, Iran. 
+253Department of Pharmacology, Tehran University of Medical Sciences, Tehran, Iran. 
+254Obesity Research Center, Shahid Beheshti University of Medical Sciences, Tehran, Iran. 
+255Department of Public Health, Wachemo University, Hossana, Ethiopia. 256University Institute 
+of Public Health, The University of Lahore, Lahore, Pakistan. 257Tabriz University of Medical 
+Sciences, Tabriz, Iran. 258Department of Zoology and Entomology, Al Azhar University, Cairo, 
+Egypt. 259Institute for Social Science Research, The University of Queensland, Indooroopilly, 
+Queensland, Australia. 260ARC Centre of Excellence for Children and Families over the Life 
+Course, The University of Queensland, Indooroopilly, Queensland, Australia. 261Department of 
+Healthcare Management, Maragheh University of Medical Sciences, Maragheh, Iran. 
+262Department of Microbiology, Maragheh University of Medical Sciences, Maragheh, Iran. 
+263Department of Microbiology, Tehran University of Medical Sciences, Tehran, Iran. 
+264Gastrointestinal and Liver Diseases Research Center, Guilan University of Medical Sciences, 
+Rasht, Iran. 265Caspian Digestive Disease Research Center, Guilan University of Medical 
+Sciences, Rasht, Iran. 266School of Nursing and Midwifery, Tabriz University of Medical 
+Sciences, Tabriz, Iran. 267Independent Consultant, Tabriz, Iran. 268School of Nursing and 
+Midwifery, Tehran University of Medical Sciences, Tehran, Iran. 269Big Data Institute, University 
+of Oxford, Oxford, UK. 270School of Business, London South Bank University, London, UK. 
+271Medical Biology Research Center, Kermanshah University of Medical Sciences, 
+Kermanshah, Iran. 272Guilan Road Trauma Research Center, Guilan University of Medical 
+Sciences, Rasht, Iran. 273Centre for Bio Cultural Studies (CBiCS), Manipal Academy of Higher 
+Education, Manipal, India. 274Department of Pharmacology, Bangladesh Industrial Gases 
+Limited, Tangail, Bangladesh. 275Department of Epidemiology and Biostatistics, Tehran 
+University of Medical Sciences, Tehran, Iran. 276Pediatric Chronic Kidney Disease Research 
+Center, Tehran University of Medical Sciences, Tehran, Iran. 277Institute of Research and 
+Development, Duy Tan University, Da Nang, Vietnam. 278Department of Computer Science, 
+University of Human Development, Sulaymaniyah, Iraq. 279College of Science and 
+Engineering, Hamad Bin Khalifa University, Doha, Qatar. 280Department of Epidemiology and 
+Health Statistics, Central South University, Changsha, China. 281School of Public Health, 
+University of Sydney, Sydney, New South Wales, Australia. 282Maternal and Child Health 
+Division, International Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, 
+Bangladesh. 283Department of Public Health and Community Medicine, Shaikh Khalifa Bin 
+Zayed Al-Nahyan Medical College, Lahore, Pakistan. 284Department of Community Medicine, 
+University of Ibadan, Ibadan, Nigeria. 285Department of Community Medicine, University 
+College Hospital, Ibadan, Ibadan, Nigeria. 286Department of Epidemiology, University of 
+Kragujevac, Kragujevac, Serbia. 287Department of Public Health, Lorestan University of 
+Medical Sciences, Khorramabad, Iran. 288Division of Community Health and Family Medicine, 
+Bangalore Baptist Hospital, Bangalore, India. 289College of Public Health, Taipei Medical 
+University, Taipei, Taiwan. 290Research Institute for Endocrine Sciences, Shahid Beheshti 
+University of Medical Sciences, Tehran, Iran. 291Institute for Physical Activity and Nutrition, 
+Deakin University, Burwood, Victoria, Australia. 292Sydney Medical School, University of 
+Sydney, Sydney, New South Wales, Australia. 293School of Psychology and Public Health, La 
+Trobe University, Melbourne, Victoria, Australia. 294South African Medical Research Council, 
+Cape Town, South Africa. 295School of Health Systems and Public Health, University of 
+Pretoria, Pretoria, South Africa. 296Department of Immunology, Tabriz University of Medical 
+Sciences, Tabriz, Iran. 297Department of Immunology, Isfahan University of Medical Sciences, 
+Isfahan, Iran. 298School of Management and Medical Education, Shahid Beheshti University of 
+Medical Sciences, Tehran, Iran. 299Safety Promotion and Injury Prevention Research Center, 
+Shahid Beheshti University of Medical Sciences, Tehran, Iran. 300N. A. Semashko Department 
+of Public Health and Healthcare, I. M. Sechenov First Moscow State Medical University, 
+Moscow, Russia. 301Department of Global Health, Economics and Policy, University of 
+Kragujevac, Kragujevac, Serbia. 302Health Institute, Kermanshah University of Medical 
+Sciences, Kermanshah, Iran. 303Substance Abuse Prevention Research Center, Kermanshah 
+University of Medical Sciences, Kermanshah, Iran. 304Department of Medical Mycology, 
+Mazandaran University of Medical Sciences, Sari, Iran. 305Autism Spectrum Disorders 
+Research Center, Hamadan University of Medical Sciences, Hamadan, Iran. 306The George 
+Institute for Global Health, New Delhi, India. 307Manipal Academy of Higher Education, 
+Manipal, India. 308Environmental Research Center, Duke Kunshan University, Kunshan, China. 
+309Nicholas School of the Environment, Duke University, Durham, NC, USA. 310Renal and 
+Cardiovascular Division, The George Institute for Global Health, New Delhi, India. 
+311Department of Medicine, University of New South Wales, Sydney, New South Wales, 
+Australia. 312Department of Family Medicine and Public Health, University of Opole, Opole, 
+Poland. 313School of Public Health, University College Cork, Cork, Ireland. 314Minimally 
+Invasive Surgery Research Center, Iran University of Medical Sciences, Tehran, Iran. 
+315Infectious Diseases Research Center, Golestan University of Medical Sciences, Gorgan, 
+Iran. 316School of Management and Medical Informatics, Tabriz University of Medical 
+Sciences, Tabriz, Iran. 317Institute for Prevention of Non-communicable Diseases, Qazvin 
+University of Medical Sciences, Qazvin, Iran. 318Health Services Management Department, 
+Qazvin University of Medical Sciences, Qazvin, Iran. 319Department of Pharmacy, Shaheed 
+Benazir Bhutto University, Upper Dir, Pakistan. 320School of Pharmacy, Shanghai Jiao Tong 
+University, Shanghai, China. 321Department of Forensic Medicine and Toxicology, All India 
+Institute of Medical Sciences, Jodhpur, India. 322Department of Epidemiology, Hamadan 
+University of Medical Sciences, Hamadan, Iran. 323Institute for Epidemiology and Social 
+Medicine, University of Münster, Münster, Germany. 324Social Determinants of Health 
+Research Center, Tabriz University of Medical Sciences, Tabriz, Iran. 325International Research 
+Center of Excellence, Institute of Human Virology Nigeria, Abuja, Nigeria. 326Julius Centre for 
+Health Sciences and Primary Care, Utrecht University, Utrecht, The Netherlands. 327Open, 
+Distance and eLearning Campus, University of Nairobi, Nairobi, Kenya. 328Department of 
+Public Health, Jordan University of Science and Technology, Irbid, Jordan. 329Social 
+Determinants of Health Research Center, Ahvaz Jundishapur University of Medical Sciences, 
+Ahvaz, Iran. 330Health Promotion Research Center, Zahedan University of Medical Sciences, 
+Zahedan, Iran. 331Department of Internal Medicine, John H. Stroger, Jr Hospital of Cook 
+County, Chicago, IL, USA. 332Department of Internal Medicine, Dow University of Health 
+Sciences, Karachi, Pakistan. 333Department of Epidemiology and Biostatistics, Health Services 
+Academy, Islamabad, Pakistan. 334Department of Population Studies, International Institute for 
+Population Sciences, Mumbai, India. 335Department of Population Science, Jatiya Kabi Kazi 
+Nazrul Islam University, Mymensingh, Bangladesh. 336Faculty of Health and Wellbeing, 
+Sheffield Hallam University, Sheffield, UK. 337College of Arts and Sciences, Ohio University, 
+Zanesville, OH, USA. 338Department of Medical Parasitology, Cairo University, Cairo, Egypt. 
+339Global Evidence Synthesis Initiative, Datta Meghe Institute of Medical Sciences, Wardha, 
+India. 340Shahid Beheshti University of Medical Sciences, Tehran, Iran. 341The Iranian Academy 
+of Medical Sciences, Tehran, Iran. 342Department of Neurology, Hamadan University of 
+Medical Sciences, Hamadan, Iran. 343Deputy for Public Health, Ministry of Health and Medical 
+Education, Tehran, Iran. 344Health Equity Research Center, Tehran University of Medical 
+Sciences, Tehran, Iran. 345Department of Public Health, New Mexico State University, Las 
+
+Cruces, NM, USA. 346Department of Public Health, Kermanshah University of Medical 
+Sciences, Kermanshah, Iran. 347School of Traditional Chinese Medicine, Xiamen University 
+Malaysia, Sepang, Malaysia. 348Department of Nutrition, Simmons University, Boston, MA, 
+USA. 349School of Health Sciences, Kristiania University College, Oslo, Norway. 350Global 
+Community Health and Behavioral Sciences, Tulane University, New Orleans, LA, USA. 
+351Department of Nursing and Health Promotion, Oslo Metropolitan University, Oslo, Norway. 
+352Department of Public Health, Ambo University, Ambo, Ethiopia. 353Neurophysiology 
+Research Center, Hamadan University of Medical Sciences, Hamadan, Iran. 354Brain 
+Engineering Research Center, Institute for Research in Fundamental Sciences, Tehran, Iran. 
+355Independent Consultant, Jakarta, Indonesia. 356Department of Internal and Pulmonary 
+Medicine, Sheri Kashmir Institute of Medical Sciences, Srinagar, India. 357CIBERSAM, San Juan 
+de Dios Sanitary Park, Sant Boi de Llobregat, Spain. 358Catalan Institution for Research and 
+Advanced Studies (ICREA), Barcelona, Spain. 359Department of Zoology, University of Oxford, 
+Oxford, UK. 360Harvard Medical School, Harvard University, Boston, MA, USA. 361Department 
+of Anthropology, Panjab University, Chandigarh, India. 362Department of Demography, 
+University of Montreal, Montreal, Quebec, Canada. 363Department of Social and Preventive 
+Medicine, University of Montreal, Montreal, Quebec, Canada. 364Department of Psychiatry, 
+University of Nairobi, Nairobi, Kenya. 365Division of Psychology and Language Sciences, 
+University College London, London, UK. 366International Institute for Population Sciences, 
+Mumbai, India. 367Imperial College Business School, Imperial College London, London, UK. 
+368Faculty of Public Health, University of Indonesia, Depok, Indonesia. 369Department of 
+Clinical Sciences and Community Health, University of Milan, Milan, Italy. 370Nuffield 
+Department of Population Health, University of Oxford, Oxford, UK. 371National Institute of 
+Health Research (NIHR), Tehran University of Medical Sciences, Tehran, Iran. 372Department of 
+Pediatrics, Post Graduate Institute of Medical Education and Research, Chandigarh, India. 
+373Department of Essential Medicines and Health Products, Clinton Health Access Initiative, 
+Boston, MA, USA. 374Department of Community and Family Medicine, University of Baghdad, 
+Baghdad, Iraq. 375HelpMeSee, New York, NY, USA. 376Mexican Institute of Ophthalmology, 
+Queretaro, Mexico. 377Department of Otorhinolaryngology, Father Muller Medical College, 
+Mangalore, India. 378School of Pharmacy, Monash University, Bandar Sunway, Malaysia. 
+379School of Pharmacy, Taylor’s University Lakeside Campus, Subang Jaya, Malaysia. 380School 
+of Nursing, Hong Kong Polytechnic University, Hong Kong, China. 381School of Public Health, 
+Wolaita Sodo University, Wolaita Sodo, Ethiopia. 382School of Public Health and Preventive 
+Medicine, Monash University, Melbourne, Victoria, Australia. 383Chinese Center for Disease 
+Control and Prevention, Beijing, China. 384David Geffen School of Medicine, University of 
+California Los Angeles, Los Angeles, CA, USA. 385Center for Integration of Data and Health 
+Knowledge, Oswald Cruz Foundation (FIOCRUZ), Salvador, Brazil. 386Centre for Global Mental 
+Health (CGMH), London School of Hygiene & Tropical Medicine, London, UK. 387Grants, 
+Innovation and Product Development Unit, South African Medical Research Council, Cape 
+Town, South Africa. 388Department of Public Health, Urmia University of Medical Science, 
+Urmia, Iran. 389Department of Clinical Physiology, Tribhuvan University, Kathmandu, Nepal. 
+390Department of Forensic Medicine, Rajiv Gandhi University of Health Sciences, Dharwad, 
+India. 391Department of Forensic Medicine, Shri Dharmasthala Manjunatheshwara University, 
+Dharwad, India. 392Clinical Research Development Center, Kermanshah University of Medical 
+Sciences, Kermanshah, Iran. 393Department of Humanities and Social Sciences, Indian 
+Institute of Technology, Roorkee, Roorkee, India. 394Department of Development Studies, 
+International Institute for Population Sciences, Mumbai, India. 395Department of Maternal and 
+Child Nursing and Public Health, Federal University of Minas Gerais, Belo Horizonte, Brazil. 
+396Department of Health Education and Promotion, Iran University of Medical Sciences, 
+Tehran, Iran. 397Campus Caucaia, Federal Institute of Education, Science and Technology of 
+Ceará, Caucaia, Brazil. 398Faculty of Health and Education, Botho University-Botswana, 
+Gaborone, Botswana. 399ICF International, DHS Program, Rockville, MD, USA. 400Neurology 
+Department, Janakpuri Super Specialty Hospital Society, New Delhi, India. 401Department of 
+Neurology, Govind Ballabh Institute of Medical Education and Research, New Delhi, India. 
+402Nutrition Health Research Center, Iran University of Medical Sciences, Hamadan, Iran. 
+403Department of Epidemiology and Biostatistics, University of California San Francisco, San 
+Francisco, CA, USA. 404Institute of Human Virology, University of Maryland, Baltimore, MD, 
+USA. 405Peru Country Office, United Nations Population Fund (UNFPA), Lima, Peru. 406Forensic 
+Medicine Division, Imam Abdulrahman Bin Faisal University, Dammam, Saudi Arabia. 
+407Department of Midwifery, Adigrat University, Adigrat, Ethiopia. 408Department of 
+Reproductive Health and Population Studies, Bahir Dar University, Bahir Dar, Ethiopia. 
+409Clinical Microbiology and Parasitology Unit, Dr Zora Profozic Polyclinic, Zagreb, Croatia. 
+410University Centre Varazdin, University North, Varazdin, Croatia. 411Department of 
+Epidemiology and Biostatistics, Bahir Dar University, Bahir Dar, Ethiopia. 412Department of 
+Health Research Methods, Evidence and Impact, McMaster University, Hamilton, Ontario, 
+Canada. 413Department of Computer Science and Software Engineering, University of 
+Western Australia, Perth, Western Australia, Australia. 414Fatemeh Zahra Infertility and 
+Reproductive Health Center, Babol University of Medical Sciences, Babol, Iran. 415Internal 
+Medicine Programme, Kyrgyz State Medical Academy, Bishkek, Kyrgyzstan. 416Department of 
+Atherosclerosis and Coronary Heart Disease, National Center of Cardiology and Internal 
+Disease, Bishkek, Kyrgyzstan. 417Comprehensive Research Laboratory, Iran University of 
+Medical Sciences, Tehran, Iran. 418Water Quality Research Center, Tehran University of Medical 
+Sciences, Tehran, Iran. 419Department of Rehabilitation and Sports Medicine, Kermanshah 
+University of Medical Sciences, Kermanshah, Iran. 420Department of Medical Immunology, 
+Tehran University of Medical Sciences, Tehran, Iran. 421Research Center for Biochemistry and 
+Nutrition in Metabolic Diseases, Kashan University of Medical Sciences, Kashan, Iran. 
+422Institute of Addiction Research (ISFF), Frankfurt University of Applied Sciences, Frankfurt, 
+Germany. 423Biotechnology Research Center, Tabriz University of Medical Sciences, Tabriz, 
+Iran. 424Molecular Medicine Research Center, Tabriz University of Medical Sciences, Tabriz, 
+Iran. 425Department of Forestry, Salahaddin University-Erbil, Erbil, Iraq. 426Department of 
+Medicine-Huddinge, Karolinska Institute, Stockholm, Sweden. 427Internal Medicine 
+Department, King Saud University, Riyadh, Saudi Arabia. 428Department of Biology, Salahaddin 
+University-Erbil, Erbil, Iraq. 429Department of Biostatistics, Hamadan University of Medical 
+Sciences, Hamadan, Iran. 430Department of Epidemiology and Biostatistics, Shahrekord 
+University of Medical Sciences, Shahrekord, Iran. 431Department of Nursing, Mashhad 
+University of Medical Sciences, Mashhad, Iran. 432Health Systems and Policy Research Unit, 
+Ahmadu Bello University, Zaria, Nigeria. 433School of Pharmacy, Haramaya University, Harar, 
+Ethiopia. 434Department of Public Health, Dire Dawa University, Dire Dawa, Ethiopia. 435Clinical 
+Epidemiology and Public Health Research Unit, Burlo Garofolo Institute for Maternal and 
+Child Health, Trieste, Italy. 436Department of Molecular Medicine, National Institute of Genetic 
+Engineering and Biotechnology, Tehran, Iran. 437Health Sciences Research Center, 
+Mazandaran University of Medical Sciences, Sari, Iran. 438Social Determinants of Health 
+Research Center, Kurdistan University of Medical Sciences, Sanandaj, Iran. 439Department of 
+Epidemiology and Biostatistics, Kurdistan University of Medical Sciences, Sanandaj, Iran. 
+440National Center for Health Insurance Research, Iran Health Insurance Organization, Tehran, 
+Iran. 441Computer, Electrical, and Mathematical Sciences and Engineering Division, King 
+Abdullah University of Science and Technology, Thuwal, Saudi Arabia. 442Department of 
+Clinical Biochemistry, Babol University of Medical Sciences, Babol, Iran. 443Department of 
+Clinical Biochemistry, Tarbiat Modares University, Tehran, Iran. 444Department of Food 
+Science, University of Campinas (Unicamp), Campinas, Brazil. 445Federal Institute for 
+Population Research, Wiesbaden, Germany. 446Center for Population and Health, Wiesbaden, 
+Germany. 447Indian Institute of Public Health, Public Health Foundation of India, Hyderabad, 
+India. 448Department of Microbiology and Immunology, Mekelle University, Mekelle, Ethiopia. 
+449Research and Analytics Department, Initiative for Financing Health and Human 
+Development, Chennai, India. 450Department of Research and Analytics, Bioinsilico 
+Technologies, Chennai, India. 451Suraj Eye Institute, Nagpur, India. 452Department for the 
+Control of Disease, Epidemics, and Pandemics, Ministry of Public Health, Yaoundé, 
+Cameroon. 453Department of Public Heath, University of Yaoundé I, Yaoundé, Cameroon. 
+454Department of Forensic Medicine and Toxicology, Manipal Academy of Higher Education, 
+Manipal, India. 455Department of Pediatrics, Arak University of Medical Sciences, Arak, Iran. 
+456Cochrane South Africa, South African Medical Research Council, Cape Town, South Africa. 
+457Department of General Surgery, Carol Davila University of Medicine and Pharmacy, 
+Bucharest, Romania. 458Department of General Surgery, Emergency Hospital of Bucharest, 
+Bucharest, Romania. 459Department of Biological Sciences, University of Embu, Embu, Kenya. 
+460Institute for Global Health Innovations, Duy Tan University, Da Nang, Vietnam. 461Center of 
+Excellence in Behavioral Medicine, Nguyen Tat Thanh University, Ho Chi Minh City, Vietnam. 
+462Institute for Mental Health and Policy, Centre for Addiction and Mental Health, Toronto, 
+Ontario, Canada. 463Department of Clinical Epidemiology, Institute for Clinical Evaluative 
+Sciences, Ottawa, Ontario, Canada. 464Department of Pharmacoeconomics and 
+Pharmaceutical Administration, Tehran University of Medical Sciences, Tehran, Iran. 
+465Hormozgan University of Medical Sciences, Bandar Abbas, Iran. 466Public Health 
+Department, Universitas Negeri Semarang, Kota Semarang, Indonesia. 467Graduate Institute of 
+Biomedical Informatics, Taipei Medical University, Taipei, Taiwan. 468School of Public Health 
+and Family Medicine, University of Cape Town, Cape Town, South Africa. 469Department of 
+Preventive Medicine, Kyung Hee University, Dongdaemun-gu, South Korea. 470Gorgan 
+Congenital Malformations Research Center, Golestan University of Medical Sciences, 
+Gorgan, Iran. 471Department of Psychiatry and Behavioural Neurosciences, McMaster 
+University, Hamilton, Ontario, Canada. 472Department of Psychiatry, University of Lagos, 
+Lagos, Nigeria. 473Centre for Healthy Start Initiative, Lagos, Nigeria. 474Diplomacy and Public 
+Relations Department, University of Human Development, Sulaimaniyah, Iraq. 475Department 
+of Public Health, Jigjiga University, Jijiga, Ethiopia. 476Department of Pharmacology and 
+Therapeutics, University of Nigeria Nsukka, Enugu, Nigeria. 477Department of Medicine, 
+University of Ibadan, Ibadan, Nigeria. 478Department of Medicine, University College Hospital, 
+Ibadan, Ibadan, Nigeria. 479Department of Respiratory Medicine, Jagadguru Sri 
+Shivarathreeswara Academy of Health Education and Research, Mysore, India. 480Department 
+of Forensic Medicine, Manipal Academy of Higher Education, Mangalore, India. 481Department 
+of Parasitology and Mycology, Shiraz University of Medical Sciences, Shiraz, Iran. 
+482Department of Health Metrics, Center for Health Outcomes & Evaluation, Bucharest, 
+Romania. 483Department of Research, Public Health Foundation of India, Gurugram, India. 
+484Infectious Disease Research Center, National Institute of Public Health, Cuernavaca, 
+Mexico. 485Environmental Health Research Center, Kurdistan University of Medical Sciences, 
+Sanandaj, Iran. 486Division of General Internal Medicine, University of Pittsburgh Medical 
+Center, Pittsburgh, PA, USA. 487School of Medicine, University of Sinu, Cartagena, Colombia. 
+488Department of Pediatrics, University of Melbourne, Melbourne, Victoria, Australia. 
+489Population Health Theme, Murdoch Childrens Research Institute, Melbourne, Victoria, 
+Australia. 490Department of Physiology, Iran University of Medical Sciences, Tehran, Iran. 
+491Physiology Research Center, Iran University of Medical Sciences, Tehran, Iran. 492Center for 
+Research and Innovation, Ateneo De Manila University, Pasig City, The Philippines. 
+493Department of Cardiology, University of Bern, Bern, Switzerland. 494Institute of 
+Microbiology and Immunology, University of Ljubljana, Ljubljana, Slovenia. 495University 
+Medical Center Groningen, University of Groningen, Groningen, The Netherlands. 496School 
+of Economics and Business, University of Groningen, Groningen, The Netherlands. 
+497Department of Nutrition and Food Sciences, Maragheh University of Medical Sciences, 
+Maragheh, Iran. 498Dietary Supplements and Probiotic Research Center, Alborz University of 
+Medical Sciences, Karaj, Iran. 499School of Population and Public Health, University of British 
+Columbia, Vancouver, British Columbia, Canada. 500Department of Emergency Medicine, 
+Kermanshah University of Medical Sciences, Kermanshah, Iran. 501Clinical Research Center, 
+Valle del Lili Foundation (Centro de Investigaciones Clinicas, Fundación Valle del Lili), Cali, 
+Colombia. 502PROESA, ICESI University (Centro PROESA, Universidad ICESI), Cali, Colombia. 
+503Department of Neurology, Smt. B.K.S. Medical Institute and Research Center, Vadodara, 
+India. 504Department of Community Medicine, Datta Meghe Institute of Medical Sciences, 
+Wardha, India. 505Department of Chemistry, Sharif University of Technology, Tehran, Iran. 
+506Biomedical Engineering Department, Amirkabir University of Technology, Tehran, Iran. 
+507College of Medicine, University of Central Florida, Orlando, FL, USA. 508Department of 
+Immunology, Mazandaran University of Medical Sciences, Sari, Iran. 509Molecular and Cell 
+Biology Research Center, Mazandaran University of Medical Sciences, Sari, Iran. 
+510Thalassemia and Hemoglobinopathy Research Center, Ahvaz Jundishapur University of 
+Medical Sciences, Ahvaz, Iran. 511Metabolomics and Genomics Research Center, Tehran 
+University of Medical Sciences, Tehran, Iran. 512College of Medicine & Health Sciences, 
+University of Gondar, Gondar, Ethiopia. 513Department of Pharmacology, Shahid Beheshti 
+University of Medical Sciences, Tehran, Iran. 514Research Department, Policy Research 
+Institute, Kathmandu, Nepal. 515Health and Public Policy Department, Global Center for 
+Research and Development, Kathmandu, Nepal. 516Department of Oral Pathology, Srinivas 
+Institute of Dental Sciences, Mangalore, India. 517Institute of Collective Health, Federal 
+
+424  |  Nature  |  Vol 589  |  21 January 2021
+Article
+University of Bahia, Salvador, Brazil. 518Department of Forensic Medicine and Toxicology, 
+Manipal Academy of Higher Education, Mangalore, India. 519Kasturba Medical College, 
+Mangalore, Manipal Academy of Higher Education, Manipal, India. 520Academic Public Health 
+England, Public Health England, London, UK. 521WHO Collaborating Centre for Public Health 
+Education and Training, Imperial College London, London, UK. 522University College London 
+Hospitals, London, UK. 523School of Health, Medical and Applied Sciences, CQ University, 
+Sydney, New South Wales, Australia. 524Department of Computer Science, Boston University, 
+Boston, MA, USA. 525Department of Mathematical Demography & Statistics, International 
+Institute for Population Sciences, Mumbai, India. 526School of Nursing and Midwifery, Royal 
+College of Surgeons in Ireland - Bahrain, Muharraq Governorate, Bahrain. 527School of Social 
+Sciences and Psychology, Western Sydney University, Penrith, New South Wales, Australia. 
+528Translational Health Research Institute, Western Sydney University, Penrith, New South 
+Wales, Australia. 529Department of Health Information Management, Manipal Academy of 
+Higher Education, Manipal, India. 530Department of Medical Microbiology, University of 
+Pretoria, Pretoria, South Africa. 531Network of Immunity in Infection, Malignancy and 
+Autoimmunity (NIIMA), Universal Scientific Education and Research Network (USAERN), 
+Tehran, Iran. 532Pediatric Infectious Diseases Research Center, Mazandaran University of 
+Medical Sciences, Sari, Iran. 533Cardiovascular Diseases Research Center, Birjand University of 
+Medical Sciences, Birjand, Iran. 534Epidemiology Research Unit Institute of Public Health 
+(EPIUnit-ISPUP), University of Porto, Porto, Portugal. 535Department of Surgery, University of 
+Minnesota, Minneapolis, MN, USA. 536Department of Surgery, University Teaching Hospital of 
+Kigali, Kigali, Rwanda. 537Research Department, Faculty of Medical Sciences, National 
+University of Caaguazu, Coronel Oviedo, Paraguay. 538Department of Research and 
+Publications, National Institute of Health, Asunción, Paraguay. 539Department of Clinical 
+Research, Federal University of Uberlândia, Uberlândia, Brazil. 540School of Medicine, 
+Gonabad University of Medical Sciences, Gonabad, Iran. 541Department of Biomedical 
+Sciences, University of Sassari, Sassari, Italy. 542Department of Internal Medicine, University of 
+Botswana, Gaborone, Botswana. 543Heart and Vascular Institute, Cleveland Clinic, Cleveland, 
+OH, USA. 544Department of Cardiovascular Medicine, Mayo Clinic, Rochester, MN, USA. 
+545Department of Epidemiology, Shahid Beheshti University of Medical Sciences, Tehran, Iran. 
+546Department of Psychiatry, All India Institute of Medical Sciences, New Delhi, India. 547Halal 
+Research Center of IRI, Food and Drug Administration of the Islamic Republic of Iran, Tehran, 
+Iran. 548Neurogenic Inflammation Research Center, Mashhad University of Medical Sciences, 
+Mashhad, Iran. 549Department of Phytochemistry, Soran University, Soran, Iraq. 550Department 
+of Nutrition, Cihan University-Erbil, Erbil, Iraq. 551Department of Anatomical Sciences, 
+Kermanshah University of Medical Sciences, Kermanshah, Iran. 552Department of 
+Microbiology, Central University of Punjab, Bathinda, India. 553Urology Department, Cairo 
+University, Cairo, Egypt. 554Public Health and Community Medicine Department, Cairo 
+University, Giza, Egypt. 555Center for Health Policy & Center for Primary Care and Outcomes 
+Research, Stanford University, Stanford, CA, USA. 556Department of Entomology, Ain Shams 
+University, Cairo, Egypt. 557Department of Community Medicine, PSG Institute of Medical 
+Sciences and Research, Coimbatore, India. 558PSG-FAIMER South Asia Regional Institute, 
+Coimbatore, India. 559Department of Health and Society, Faculty of Medicine, University of 
+Applied and Environmental Sciences, Bogota, Colombia. 560National School of Public Health, 
+Carlos III Health Institute, Madrid, Spain. 561Department of Community Medicine, Mahatma 
+Gandhi Memorial Medical College, Indore, India. 562Faculty of Infectious and Tropical 
+Diseases, London School of Hygiene & Tropical Medicine, London, UK. 563Colorectal Research 
+Center, Iran University of Medical Sciences, Tehran, Iran. 564Department of Geriatrics and 
+Long Term Care, Hamad Medical Corporation, Doha, Qatar. 565Faculty of Health & Social 
+Sciences, Bournemouth University, Bournemouth, UK. 566Population Health Research 
+Institute, McMaster University, Hamilton, Ontario, Canada. 567Department of Psychology, 
+University of Alabama at Birmingham, Birmingham, AL, USA. 568Emergency Department, 
+Manian Medical Centre, Erode, India. 569Population Health Sciences Institute, Newcastle 
+University, Newcastle Upon Tyne, UK. 570Department of Health Services Management, Iran 
+University of Medical Sciences, Tehran, Iran. 571Health Policy Research Center, Shiraz 
+University of Medical Sciences, Shiraz, Iran. 572Public Health Division, An-Najah National 
+University, Nablus, Palestine. 573Independent Consultant, Karachi, Pakistan. 574Neurology 
+Department, Ain Shams University, Cairo, Egypt. 575School of Medicine, Alborz University of 
+Medical Sciences, Karaj, Iran. 576Department of Sports Medicine and Rehabilitation, 
+Kermanshah University of Medical Sciences, Kermanshah, Iran. 577Faculty of Caring Science, 
+Work Life and Social Welfare, University of Borås, Borås, Sweden. 578HIV/STI Surveillance 
+Research Center and WHO Collaborating Center for HIV Surveillance, Kerman University of 
+Medical Sciences, Kerman, Iran. 579Centre for Medical Informatics, University of Edinburgh, 
+Edinburgh, UK. 580Division of General Internal Medicine, Harvard University, Boston, MA, USA. 
+581Health Information Management, Iran University of Medical Sciences, Tehran, Iran. 
+582Department of Community Medicine, Manipal Academy of Higher Education, Manipal, 
+India. 583National Institute of Infectious Diseases, Tokyo, Japan. 584College of Medicine, Yonsei 
+University, Seoul, South Korea. 585Cancer Research Institute, Tehran University of Medical 
+Sciences, Tehran, Iran. 586Cancer Biology Research Center, Tehran University of Medical 
+Sciences, Tehran, Iran. 587Department of Health Education and Health Promotion, Kermanshah 
+University of Medical Sciences, Kermanshah, Iran. 588School of Health, University of 
+Technology Sydney, Sydney, New South Wales, Australia. 589Department of Medicine, Dow 
+University of Health Sciences, Karachi, Pakistan. 590Department of Dermatology, George 
+Washington University, Washington, DC, USA. 591Department of Law, Economics, Management 
+and Quantitative Methods, University of Sannio, Benevento, Italy. 592WSB University in Gdańsk, 
+Gdansk, Poland. 593School of Medicine, University of Alabama at Birmingham, Birmingham, 
+AL, USA. 594Medicine Service, USA Department of Veterans Affairs (VA), Birmingham, AL, USA. 
+595Department of Epidemiology, School of Preventive Oncology, Patna, India. 596Department 
+of Epidemiology, Healis Sekhsaria Institute for Public Health, Mumbai, India. 597Program 
+Services Unit, Pathfinder International, Addis Ababa, Ethiopia. 598Nursing Care Research 
+Center, Semnan University of Medical Sciences, Semnan, Iran. 599Department of Infectious 
+Diseases, Kharkiv National Medical University, Kharkiv, Ukraine. 600Hull York Medical School, 
+University of Hull, Hull, UK. 601Department of Parasitology and Mycology, Tabriz University of 
+Medical Sciences, Tabriz, Iran. 602Division of Community Medicine, International Medical 
+University, Kuala Lumpur, Malaysia. 603Nursing, Muhammadiyah University of Surakarta, 
+Surakarta, Indonesia. 604Department of Community Medicine, Ahmadu Bello University, Zaria, 
+Nigeria. 605Department of Agriculture and Food Systems, University of Melbourne, Melbourne, 
+Victoria, Australia. 606Department of Statistics, Manonmaniam Sundaranar University, 
+Abishekapatti, India. 607National Institute of Epidemiology, Indian Council of Medical 
+Research, Chennai, India. 608Research Center for Molecular Medicine, Hamadan University of 
+Medical Sciences, Hamadan, Iran. 609Non-communicable Diseases Research Center, 
+Hamadan University of Medical Sciences, Hamadan, Iran. 610University Institute ‘Egas Moniz’, 
+Monte da Caparica, Portugal. 611Research Institute for Medicines, University of Lisbon, Lisbon, 
+Portugal. 612Department of Public Health, Kurdistan University of Medical Sciences, Sanandaj, 
+Iran. 613School of Public Health, University of Adelaide, Adelaide, South Australia, Australia. 
+614Department of Environmental Health, Wollo University, Dessie, Ethiopia. 615Department of 
+Community and Family Medicine, Iran University of Medical Sciences, Tehran, Iran. 
+616Department of Public Health, Adigrat University, Adigrat, Ethiopia. 617Department of 
+Pharmacognosy, Mekelle University, Mekelle, Ethiopia. 618Department of Medical 
+Microbiology, University of Gondar, Gondar, Ethiopia. 619Department of Public Health and 
+Community Medicine, Central University of Kerala, Kasaragod, India. 620Institute of Public 
+Health, Jagiellonian University Medical College, Kraków, Poland. 621Agency for Health 
+Technology Assessment and Tariff System, Warsaw, Poland. 622Department of Pathology and 
+Legal Medicine, University of São Paulo, Ribeirão Preto, Brazil. 623Modestum, London, UK. 
+624Department of Health Economics, Hanoi Medical University, Hanoi, Vietnam. 625Institute for 
+Physical Activity and Nutrition, Deakin University, Melbourne, Queensland, Australia. 
+626School of Health and Rehabilitation Sciences, The University of Queensland, Brisbane, 
+Queensland, Australia. 627Department of Allied Health Sciences, Iqra National University, 
+Peshawar, Pakistan. 628Department of Community Medicine, Alex Ekwueme Federal University 
+Teaching Hospital Abakaliki, Abakaliki, Nigeria. 629Kasturba Medical College, Manipal 
+Academy of Higher Education, Mangalore, India. 630Amity Institute of Biotechnology, Amity 
+University Rajasthan, Jaipur, India. 631Alzahra Teaching Hospital, Tabriz University of Medical 
+Sciences, Tabriz, Iran. 632Women’s Reproductive Health Research Center, Tabriz University of 
+Medical Sciences, Tabriz, Iran. 633Clinical Cancer Research Center, Milad General Hospital, 
+Tehran, Iran. 634Department of Microbiology, Islamic Azad University, Tehran, Iran. 635Argentine 
+Society of Medicine, Buenos Aires, Argentina. 636Velez Sarsfield Hospital, Buenos Aires, 
+Argentina. 637Psychosocial Injuries Research Center, Ilam University of Medical Sciences, 
+Ilam, Iran. 638Occupational Health Unit, Sant’Orsola Malpighi Hospital, Bologna, Italy. 
+639Department of Economics, University of Göttingen, Göttingen, Germany. 640Foundation 
+University Medical College, Foundation University Islamabad, Islamabad, Pakistan. 
+641Department of Statistics, University of Washington, Seattle, WA, USA. 642Department of 
+Biostatistics, University of Washington, Seattle, WA, USA. 643Department of Epidemiology and 
+Biostatistics, Wuhan University, Wuhan, China. 644Demographic Change and Aging Research 
+Area, Federal Institute for Population Research, Wiesbaden, Germany. 645Competence Center 
+of Mortality-Follow-Up of the German National Cohort, Federal Institute for Population 
+Research, Wiesbaden, Germany. 646Department of Physical Therapy, Naresuan University, 
+Phitsanulok, Thailand. 647School of Pharmacy, Aksum University, Aksum, Ethiopia. 
+648Department of Pharmacology and Toxicology, Mekelle University, Mekelle, Ethiopia. 
+649Department of Pharmacology, Addis Ababa University, Addis Ababa, Ethiopia. 
+650Department of Orthopaedics, Wenzhou Medical University, Wenzhou, China. 651Psychology 
+Department, University of Sheffield, Sheffield, UK. 652Department of Diabetes and Metabolic 
+Diseases, University of Tokyo, Tokyo, Japan. 653School of International Development and 
+Global Studies, University of Ottawa, Ottawa, Ontario, Canada. 654The George Institute for 
+Global Health, University of Oxford, Oxford, UK. 655Health Services Management Research 
+Center, Kerman University of Medical Sciences, Kerman, Iran. 656Department of Health 
+Management, Policy, and Economics, Kerman University of Medical Sciences, Kerman, Iran. 
+657School of Nursing, Hawassa University, Hawassa, Ethiopia. 658Pediatrics Department, 
+University of Jos, Jos, Nigeria. 659Department of Pediatrics, Jos University Teaching Hospital, 
+Jos, Nigeria. 660Centre for Suicide Research and Prevention, University of Hong Kong, Hong 
+Kong, China. 661Department of Social Work and Social Administration, University of Hong 
+Kong, Hong Kong, China. 662Department of Neuropsychopharmacology, National Center of 
+Neurology and Psychiatry, Kodaira, Japan. 663Department of Public Health, Juntendo 
+University, Tokyo, Japan. 664Department of Health Policy and Management, Jackson State 
+University, Jackson, MS, USA. 665School of Medicine, Tsinghua University, Beijing, China. 
+666Department of Environmental Health, Mazandaran University of Medical Sciences, Sari, 
+Iran. 667Injury Prevention and Safety Promotion Research Center, Shahid Beheshti University of 
+Medical Sciences, Tehran, Iran. 668Duke Global Health Institute, Duke University, Durham, NC, 
+USA. 669Social Determinants of Health Research Center, Ardabil University of Medical Science, 
+Ardabil, Iran. 670The School of Clinical Sciences at Monash Health, Monash University, 
+Melbourne, Victoria, Australia. 671Student Research Committee, Babol University of Medical 
+Sciences, Babol, Iran. 672Department of Community Medicine, Ardabil University of Medical 
+Science, Ardabil, Iran. 673Department of Health Education, Tarbiat Modares University, Tehran, 
+Iran. 674College of Medicine and Health Sciences, Dilla University, Dilla, Ethiopia. 675Public 
+Health Department, University of Edinburgh, Edinburgh, UK. 676School of Public Health, Wuhan 
+University of Science and Technology, Wuhan, China. 677Hubei Province Key Laboratory of 
+Occupational Hazard Identification and Control, Wuhan University of Science and Technology, 
+Wuhan, China. 678School of Medicine, Wuhan University, Wuhan, China. 679School of Biology 
+and Pharmaceutical Engineering, Wuhan Polytechnic University, Wuhan, China. 680School of 
+Health Sciences, Wuhan University, Wuhan, China. 681National Center for Chronic and 
+Noncommunicable Disease Control and Prevention, Chinese Center for Disease Control and 
+Prevention, Beijing, China. 682These authors jointly supervised this work: Simon I. Hay, Stephen 
+S. Lim, Jonathan F. Mosser. ✉e-mail: sihay@uw.edu; stevelim@uw.edu; jmosser@uw.edu
+
+Methods
+Data reporting
+As this is a modelling study, no statistical methods were used to pre-
+determine sample size, the experiments were not randomized and the 
+investigators were not blinded to allocation during experiments and 
+outcome assessment.
+Overview
+Building from our previous study of diphtheria–tetanus–pertussis vac-
+cination coverage in Africa14, we fitted a geostatistical model with cor-
+related errors across space and time to predict 5 × 5-km2 level estimates 
+of MCV1 coverage from 2000 to 2019 using a suite of geospatial and 
+national-level covariates for 101 LMICs. This overall process has been 
+summarized in Extended Data Fig. 1. We spatially aggregated estimates 
+using population-weighted averages to second administrative units 
+from a modified version of the Database of Global Administrative Units 
+(GADM), referred to as districts, and performed post hoc analyses to 
+assess geographical inequality to examine progress towards GVAP 
+targets, absolute geographical inequality and vaccination status as a 
+function of geographical remoteness5. This study is compliant with the 
+Guidelines for Accurate and Transparent Health Estimates Reporting 
+(GATHER) recommendations51 (Supplementary Table 1).
+We defined routine MCV1 coverage as evidence of receipt of at 
+least one dose of a MCV from either a home-based record (HBR) or 
+parental recall among the target population in concordance with 
+country-specific vaccination schedules in 201952. Despite our best 
+efforts to remove doses delivered through supplemental immunizion 
+activities (SIAs) (Supplementary Information section 1.3.4), there is 
+likely to be residual misclassification of some SIA doses due to the 
+limitations of the available data, and these estimates of routine cover-
+age should be viewed in the context of this limitation.
+Countries were selected for this analysis if they were a LMIC or were a 
+‘Decade of Vaccine’ priority country with available subnational survey 
+data on MCV1 coverage between 2000 and 201953. We defined LMICs 
+based on the socio-demographic index, a metric combining education, 
+fertility and income to summarize development, as determined by 
+GBD 201954. For 13 countries (Bhutan, Brazil, China, Dominica, Geor-
+gia, Grenada, Libya, Oman, Palestine, Saint Lucia, Saint Vincent and 
+the Grenadines, Seychelles and Venezuela), no available subnational 
+vaccine coverage data met the inclusion and exclusion criteria; these 
+countries were therefore excluded from this analysis. A full list of 
+included countries is provided in Supplementary Table 3. Countries 
+were assigned to one of 13 continuous geographical modelling regions. 
+These regions were adapted from regions defined by GBD 2019, which 
+are constructed to group countries together by epidemiological simi-
+larity and geographical proximity (Extended Data Fig. 2).
+Data
+Using the Global Health Data Exchange (GHDx)55, we identified and 
+compiled a total of 354 population-based household surveys from 
+101 LMICs from 2000 to 2019 containing individual MCV1 vaccination 
+status and subnational geolocation information. Surveys were included 
+if they contained MCV1 coverage information and subnational geoloca-
+tion, and excluded if they contained areal data and were missing key 
+survey design variables (strata, primary sampling units and design 
+weights), did not include children aged 12–59 months, contained no 
+subnational individual-level geographical information or if coverage 
+estimates were implausible (Supplementary Tables 4, 5).
+Coverage was computed at the cluster level when global position-
+ing system (GPS) data were available. If GPS information was not 
+collected or was not available, we calculated mean coverage at the 
+most-granular geographical area possible while accounting for sam-
+pling weights and survey design. These aggregated coverage esti-
+mates were then included in the geospatial modelling process using a 
+previously described method14,56 that leverages population weights and 
+a k-means clustering algorithm to propose a set of GPS coordinates as 
+a proxy for locations where survey data collection could have occurred 
+(Supplementary Fig. 3). These coordinates were then used to repre-
+sent the areal data in the geospatial model. The following data were 
+extracted from each survey source: vaccine card or HBR doses, parental 
+recall vaccine doses, age (in months), survey weight and design vari-
+ables, and GPS cluster or areal location. Individuals with evidence of 
+vaccination either from HBR or recall were considered to have been 
+vaccinated. Individuals were excluded from the analysis if they were 
+missing age, spatial or survey design information or were outside of 
+the study age or year range. The study included all years between 2000 
+and 2019. A comprehensive overview of data from all study geographies 
+included can be found in Supplementary Figs. 1, 2.
+Individual age, in months, at the time of survey collection was used 
+to assign each child to a birth cohort (12–23 months, 24–35 months, 
+36–47 months and 48–59 months). Data corresponding to each birth 
+cohort were included in the modelling process in the year in which that 
+birth cohort was aged 0–12 months old. For countries recommending 
+MCV1 within the first year of life, we included data from children aged 
+12–47 months. If the first dose was not recommended until the second 
+year of life, we included data from children aged 24–59 months. A full 
+list of schedules by country can be found in Supplementary Table 2. This 
+yielded a dataset of 1,697,570 total children. This method allows the 
+inclusion of additional individuals, which increases overall geographi-
+cal representation but requires assumptions such as negligible catch-up 
+vaccination and no differential mortality or migration. However, the 
+overall influence of including older cohorts in our model on the key find-
+ings appeared to be minor (Supplementary Information section 2.2). 
+Additional information on the benefits and limitations of this approach 
+can be found in the Supplementary Information sections 1.3.4, 2.2, 
+Supplementary Figs. 18–20 and Supplementary Tables 14, 15.
+We included 26 geospatial covariates as possible predictors of MCV1 
+coverage in the modelling process, including maternal education, 
+access to major cities or settlements, a binary urban or rural indica-
+tor, total population and a suite of 22 environmental covariates (Sup-
+plementary Fig. 4 and Supplementary Table 6). Four national-level 
+covariates were also included: lag-distributed income, prevalence of the 
+completion of the fourth antenatal care visit among pregnant women, 
+mortality due to war and terror, and bias-adjusted national-level admin-
+istrative data on MCV1 coverage reported through the WHO/UNICEF 
+Joint Reporting Form (Supplementary Information section 1.5.1). For 
+each region, an optimized set of geospatial covariates was selected 
+from these 26 possible covariates, using a variance inflation factor 
+(VIF) algorithm57 in which covariates were selected with a VIF < 3. This 
+method was used to ensure non-collinearity between covariates within 
+each region to facilitate model convergence. Selected covariates varied 
+by region (Supplementary Table 7).
+Other spatial data used in our analyses included gridded population 
+estimates, administrative boundaries and gridded estimates of travel 
+time to major cities or settlements. These sources are described in 
+detail in Supplementary Information section 1.3.
+Geostatistical model
+First, stacked generalization was used to capture potential nonlin-
+ear and complex relationships between covariates and vaccination 
+coverage. This approach has previously been shown to increase the 
+predictive accuracy of geospatial models58. Using the optimized set of 
+covariates selected for each region by the VIF algorithm, three differ-
+ent child models—generalized additive models, lasso regression and 
+boosted regression trees—were fit, with each model predicting MCV1 
+coverage as the outcome of interest. When fitting boosted regression 
+trees, country-level fixed effects were included to allow relationships 
+between coverage and covariates to differ by country. In this initial 
+modelling step, there were no explicitly defined temporal or spatial 
+
+Article
+effects included in the models beyond those inherently present in the 
+covariate patterns and correlations between covariates.
+Each child model was fit using fivefold cross-validation to avoid over-
+fitting. This generated out-of-sample predictions of coverage for each 
+location and year per region. Each model in each region was also fit 
+using the full set of vaccine coverage outcome data, which yielded a cor-
+responding set of in-sample predictions. The predictions of MCV1 cov-
+erage obtained from each child model were in turn used as predictors in 
+the second-step geostatistical model described below. Out-of-sample 
+predictions from each child model were used as explanatory covari-
+ates when fitting the geostatistical model. In-sample predictions from 
+each model and region were used when generating predictions from 
+the fitted geostatistical model.
+After the first step (stacked generalization), a second-step Bayesian 
+geostatistical modelling framework was used to model vaccination 
+coverage as counts in a binomial space with a logit link through a gen-
+eralized linear regression with explicit spatial and temporal terms. This 
+second step leverages the covariate relationships estimated through 
+stacked generalization while also accounting for additional correlation 
+in coverage across space and time.
+A separate model of MCV1 coverage was fit for each of the 13 regions 
+as defined below:
+∼
+C p
+N
+p
+N
+d
+|
+,
+Binomial(
+,
+)∀observed clusters
+d
+i d
+t d
+d
+i d
+t d
+d
+( ), ( )
+( ), ( )
+p
+β
+X β
+Z
+ϵ
+ϵ
+i
+t
+logit(
+) =
++
++
++
++
+∀
+∈spatial domain ∀
+∈time domain
+i t
+i t
+i t
+i t
+,
+0
+,
+,
+country
+,
+i( )
+∑β = 1
+h
+h
+=1
+3
+(
+)
+ϵ
+N
+σ
+0,
+i t,
+nugget
+2
+∼
+∼(
+)
+ϵ
+N
+σ
+0,
+i
+i
+country( )
+country( )
+2
+Z
+Σ
+Σ
+GP(0,
+⊗
+)
+space
+time
+∼
+Σ
+σ
+Γ ν
+δ D
+Κ
+δ D
+=
+2
+( )
+×
+8
+×
+8
+ν
+ν
+ν
+space
+1−
+space
+2
+
+
+
+
+
+
+
+
+
+
+
+
+ρ
+Σ
+=
+j k
+k j
+,
+time
+−
+This model, adopted from widely used Bayesian hierarchical 
+models59,60, has been described in detail in other work14,25,56,61,62. In brief, 
+this method estimates the number of children, C, in cluster d at location 
+i and time t with sample size N that have been vaccinated with a specific 
+antigen-dose combination. pi(d),t(d) is the proportion of children vac-
+cinated with MCV1 among the target age population in cluster d. Each 
+child model generates a prediction Xi,t for each child model h. Residual 
+terms ϵ⁎ are unique to each particular location in space and time across 
+all modelled geographies and years.
+In this generalized linear regression framework, the proportion of 
+children vaccinated pi,t is modelled using the out-of-sample predic-
+tions of vaccine coverage Xi,t from each of three stacked generaliza-
+tion child models (h) as explanatory variables. The βh coefficients are 
+constrained to sum to 1, via the ‘extraconstr’ R-INLA parameter63, to 
+improve computational tractability58 and are representative of the 
+predictive weighting used in the stacking process.
+ϵ
+i
+country( ) represents a country-level random effect. ϵi t,  represents an 
+independent nugget effect for irreducible error for a given observation, 
+which accounts for true variation that is unable to be captured by the 
+model and variation from measurement error. Zi,t represents a corre-
+lated spatiotemporal error term, for any residual autocorrelation across 
+space and time that remains after accounting for the predictive capac-
+ity of the stacked-modelled covariates, country-specific variation in 
+vaccine coverage and observation-specific irreducible error.
+These additional spatiotemporal residuals Zi,t were modelled as a 
+three-dimensional spatiotemporal Gaussian process with a mean of 
+zero and a covariance matrix formed from the Kronecker product of 
+spatial and temporal covariance kernels. The temporal covariance Σtime 
+was modelled via an annual autoregressive order 1 function from all 
+study years from 2000 to 2019, where ρ is the autocorrelation function 
+and k and j are points in the annual time series. The spatial covariance 
+Σspace was assumed to be an isotropic, stationary Matérn function, where 
+Γ is the gamma function, Κv is the modified Bessel function of the sec-
+ond kind of order v > 0, σspace
+2
+ is the marginal variance, v is a scaling 
+constant, δ is a range parameter with a penalized complexity prior, and 
+D is a spatial distance matrix64, measured along the great circle in kilo-
+metres. The generalized linear model was fitted using an integrated 
+nested Laplace approximation in R-INLA with a stochastic partial dif-
+ferential equation (SPDE) solver in package SPDE65. Additional detailed 
+information on priors, spatial mesh construction and model fitting is 
+provided in Supplementary Information sections 1.4.2–1.4.6 and Sup-
+plementary Fig. 5. This process produces a set of 1,000 posterior draws, 
+each representing an estimate of vaccine coverage for each location 
+and year— in other words, a set of 1000 candidate maps of coverage 
+from 2000 to 2019.
+Post-estimation
+To leverage data from additional national-level sources, including 
+administrative data, and maintain internal consistency, the set of can-
+didate maps was calibrated to MCV1 coverage estimates produced 
+for GBD 2019. This post hoc calibration preserves the overall spatial 
+variation of estimates, while ensuring that the population-weighted 
+averages of the geospatial estimates are equivalent to those produced 
+by GBD4. This step allows for the calibrated estimates to reflect infor-
+mation from data sources that are only available at the national level, 
+such as surveys for which no subnational data are available, which 
+are included in the GBD estimates but excluded from the geospatial 
+model described in the ‘Geostatistical model’ section. A description 
+of the estimation of MCV1 coverage for GBD 2019 can be found in Sup-
+plementary Information section 1.5.1.
+In this calibration process, each 5 × 5-km2 pixel in each modelled 
+region was first assigned to a second-level administrative unit. In loca-
+tions in which boundary definitions transect a given pixel, the frac-
+tion of area of that pixel belonging to each overlapping second-level 
+administrative unit was calculated. Because of the nested hierarchy 
+of administrative units, this additionally allowed for the assignment 
+of pixels and partial pixels to first administrative units and countries. 
+Assuming that the population density within each pixel was uniform, 
+WorldPop population values of children under 5 years old were divided 
+for each whole or partial pixel proportional to fractional area. After 
+pixel and partial pixel populations were assigned, population-level 
+estimates were calibrated to GBD population estimates for each coun-
+try and year.
+Calibration methods similar to those used in this study have 
+been described previously14. To ensure vaccination coverage esti-
+mates post-calibration remained between 0 and 100%, calibra-
+tion was performed in logit space such that for each country c 
+and year t, national-level estimates of coverage from GBD (VGBD,c,t) 
+and population-weighted national averages of coverage from the 
+model-based geostatistical (MBG) model (VMBG,c,t) can be related via a 
+country-year-specific calibration factor (kc,t) in the following equation:
+V
+V
+k
+logit(
+) = logit(
+) +
+c t
+c t
+c t
+GBD, ,
+MBG, ,
+,
+
+Calibration factors were applied to each 5 × 5-km2 pixel and partial 
+pixel per draw per country-year. Pixels that were fractionally assigned 
+to multiple countries were combined using a weighted average pro-
+portional to the fraction of each area. This process resulted in a set of 
+calibrated draw-level estimates of vaccination coverage, which were 
+used for all subsequent analyses.
+Population-weighted averages of coverage for each pixel or partial 
+pixel within a first or second administrative unit were then calculated. 
+Fractional pixel membership was determined as described above. This 
+process was repeated for each of the 1,000 posterior pixel-level draws, 
+which yielded 1,000 posterior draws of MCV1 coverage per administra-
+tive unit per year. Estimates for first and second administrative units 
+with uncertainty were derived from mean, 2.5th and 97.5th percentiles.
+Model validation
+We assessed the predictive performance of the models using fivefold 
+out-of-sample cross-validation. We stratified data by first and second 
+administrative units and ran models leaving out one-fifth of the spatially 
+stratified data at a time. Predicted estimates of MCV1 coverage were 
+then compared to the withheld observed data by calculating the mean 
+error, root mean square error, correlation and other predictive validity 
+metrics for all years for which survey data were available (2000–2018). 
+Fitted model parameters can be found in Supplementary Table 8. Met-
+rics and validity figures can be found in Supplementary Tables 9–12 
+and Supplementary Figs. 6–13, respectively. Additional information 
+regarding uncertainty of estimates can be found in Supplementary 
+Figs. 14–17.
+Post hoc geospatial inequality analyses
+Lorenz curves were generated using the relationship between the 
+number of children and the number of vaccinated children for each 
+pixel. Pixel-level Gini coefficients were calculated for 2000 and 2019 
+from corresponding Lorenz curves66,67 (Supplementary Table 13). 
+Absolute geographical inequality per country was calculated from 
+the national-level Gini coefficients and national MCV1 coverage using 
+the following formula:
+Absolute geographical inequality = 2 × coverage × Gini
+We chose to use the absolute geographical inequality metric to rep-
+resent inequality over the Gini coefficient alone. As the mean is related 
+to Gini, we wanted to account for this relationship. Estimates are scaled 
+by 2 as this puts the absolute geographical inequality coefficient back 
+to the same scale as the mean68.
+Additionally, we assessed vaccination status as a function of geo-
+graphical remoteness. Using a gridded surface of travel time to major 
+cities or settlements, we classified each 5 × 5-km2 pixel as remote rural, 
+urban or neither29. Pixels with travel times of less than 30 min were 
+classified as urban, and pixels with travel times greater than 3 h were 
+classified as remote rural. Overlaid with a gridded population surface 
+from WorldPop30, the number of unvaccinated children per pixel was 
+also calculated.
+We constructed concentration curves of the cumulative proportion 
+of unvaccinated children as well as plots of MCV1 coverage by travel 
+time to assess patterns across countries and regions. Country-specific 
+concentration curves of the cumulative proportion of unvaccinated 
+children as a function of travel time for select countries are shown in 
+Extended Data Fig. 10. Summary metrics, such as the proportion of 
+unvaccinated individuals living in each urban and remote rural loca-
+tion, were computed.
+Limitations
+This work is subject to several limitations. First, the primary data used 
+in this analysis came from child-level survey data with varying degrees 
+of representativeness, consistency, accuracy and comparability, from 
+both HBR and parental recall69,70. The magnitude and direction of recall 
+bias varies, and we therefore were unable to correct for it71. We estimate 
+coverage using data from children aged 12–59 months, and while we 
+accounted for target age at vaccination, this does not fully account 
+for differential mortality due to vaccine status or catch-up vaccina-
+tion. We aim to estimate routine coverage and have excluded doses 
+delivered via SIAs from the analysed survey data wherever possible 
+(Supplementary Information section 1.3.4), but misclassification of SIA 
+doses is still likely, particularly in cases of parental recall—especially 
+for older children—and in cases in which survey methodology does not 
+distinguish clearly between SIA and routine doses.
+In data-sparse areas for which covariate relationships may not fully 
+capture coverage patterns, results may be biased. Additionally, data 
+representativeness among vulnerable populations, such as those living 
+in urban slums or migrant populations, might vary due to data collec-
+tion in survey design. We include as much data on MCV1 coverage as 
+possible, including data that are only geo-resolved to areal locations. 
+The methodology that we used to assign areal data to specific locations 
+for modelling could lead to oversmoothing in final estimates, obscure 
+relationships between coverage and covariates, and underestimate 
+uncertainty, but this method has been shown to have a higher predic-
+tive validity compared with the exclusion of the data72. Limitations due 
+to data availability should not be taken lightly and should reinforce 
+to stakeholders and policymakers the need for additional resources 
+to collect high-quality data that are representative of all populations, 
+especially the most vulnerable for being unvaccinated, and to increase 
+the quality of routinely collected subnational administrative data.
+Because the estimates that we used to assess geographical remote-
+ness in post hoc analyses were also used as spatial covariates in the 
+geospatial model, these results are limited by the possibility of cir-
+cularity and subsequent confounding. In addition, we used a stacked 
+generalization method to allow for complex and nonlinear relation-
+ships between covariates and vaccination coverage. These methods 
+are optimized for prediction, not causal inference. For that reason, 
+these results cannot be used to identify the specific effect of any par-
+ticular covariate on MCV1 coverage. In addition, owing to limitations 
+in the underlying data and computational feasibility, we were unable 
+to incorporate several potentially important sources of uncertainty 
+into this analysis, including from covariates, population estimates, 
+the incorporation of areal data and the stacked generalization process.
+We fitted our geostatistical models using R-INLA, as opposed to a 
+full Markov chain Monte Carlo sampler. Although using a more tradi-
+tional Bayesian model fitting approach that takes true samples from 
+the posterior typically results in increased parameter identifiability, 
+the Laplace approximation approach used by R-INLA is more computa-
+tionally feasible given our current modelling scale. Our model is sepa-
+rable, yet symmetric, across time and space. This approach assumes 
+that, for each region, the covariance has the same functional form 
+between years and locations regardless of the locations themselves; the 
+use of a non-separable covariance function could relax these assump-
+tions73,74. However, owing to the additional computational challenges 
+associated with fitting a non-separable model, as well as data sparsity 
+in several regions throughout space and time, we determined that fit-
+ting a non-separable model would be challenging and complex, and 
+would probably yield little benefit compared to our current modelling 
+approach.
+In some settings with high levels of natural immunity (derived from 
+previous infection), greater than 95% vaccination coverage may not 
+be required to prevent disease transmission75. These estimates only 
+focus on the first routine dose of MCV, and immunity can also be 
+obtained through later vaccination via SIA or natural infection. In an 
+ideal long-term measles elimination scenario, all immunity would be 
+vaccine-derived, and no natural infections would occur. A 95% cov-
+erage target for routine immunization, therefore, still has practical 
+programmatic relevance.
+
+Article
+Finally, our study describes spatial heterogeneity in coverage, but not 
+pockets of low coverage within social or age groupings that can facili-
+tate ongoing disease transmission, particularly in densely populated 
+areas, despite nominally high average vaccine coverage76. Although 
+these results provide a powerful tool for policymakers to identify weak-
+nesses in routine immunization systems and plan for SIA, they should 
+be used in conjunction with other data sources that can be used to make 
+decisions about vaccine policy, including analyses of cost effectiveness, 
+determinants of high or low coverage, and specific coverage initiatives 
+to reduce disease burden.
+Reporting summary
+Further information on research design is available in the Nature 
+Research Reporting Summary linked to this paper.
+Data availability
+The findings of this study are supported by data available in public 
+online repositories and data publicly available upon request from the 
+data provider. A detailed table of data sources and availability can be 
+found in Supplementary Table 4 and at http://ghdx.healthdata.org/
+lbd-publication-data-input-sources. Administrative boundaries were 
+modified from the Database for Global Administrative Areas (GADM) 
+dataset77. Populations were retrieved from WorldPop30, and gridded 
+estimates of travel time to the nearest city or settlement were available 
+online from a previously published study29. This study complies with 
+the GATHER recommendations51.
+Code availability
+This study is compliant with the GATHER recommendations51; as 
+such, all computer code is available from GitHub (https://github.com/
+ihmeuw/lbd/tree/mcv1-lmic-2020). All maps and figures presented in 
+this study are generated by the authors using RStudio (R version 3.6.1), 
+ArcGIS Desktop 10.6 and Python 2.7.
+ 
+51.	
+Stevens, G. A. et al. Guidelines for accurate and transparent health estimates reporting: 
+the GATHER statement. Lancet 388, e19–e23 (2016).
+52.	 World Health Organization. WHO Vaccine-preventable Diseases: Monitoring System. 
+2020 Global Summary. Immunization Schedule by Disease covered by Antigens within 
+Age Range Selection Centre. https://apps.who.int/immunization_monitoring/
+globalsummary/diseases (2019).
+53.	 WHO. Decade of Vaccines — Global Vaccine Action Plan 2011–2020. https://www.who.int/
+immunization/global_vaccine_action_plan/DoV_GVAP_2012_2020/en/ (accessed 30 April 
+2020).
+54.	 GBD 2017 Population and Fertility Collaborators. Population and fertility by age and sex 
+for 195 countries and territories, 1950–2017: a systematic analysis for the Global Burden 
+of Disease Study 2017. Lancet 392, 1995–2051 (2018).
+55.	 Institute for Health Metrics and Evaluation. Global Health Data Exchange (GHDx). http://
+ghdx.healthdata.org/ (2019).
+56.	 Osgood-Zimmerman, A. et al. Mapping child growth failure in Africa between 2000 and 
+2015. Nature 555, 41–47 (2018).
+57.	
+Faraway, J. J. Linear Models with R (Chapman and Hall/CRC, 2009).
+58.	 Bhatt, S. et al. Improved prediction accuracy for disease risk mapping using Gaussian 
+process stacked generalization. J. R. Soc. Interface 14, 20170520 (2017).
+59.	 Banerjee, S., Carlin, B. P. & Gelfand, A. E. Hierarchical Modeling and Analysis for Spatial 
+Data (Chapman and Hall/CRC, 2014).
+60.	 Cressie, N. & Wikle, C. K. Statistics for Spatio-Temporal Data (Wiley, 2011).
+61.	
+Reiner, R. C. Jr et al. Variation in childhood diarrheal morbidity and mortality in Africa, 
+2000–2015. N. Engl. J. Med. 379, 1128–1138 (2018).
+62.	 Golding, N. et al. Mapping under-5 and neonatal mortality in Africa, 2000–15: a baseline 
+analysis for the Sustainable Development Goals. Lancet 390, 2171–2182 (2017).
+63.	 Gomez-Rubio, V. Bayesian Inference with INLA (Chapman and Hall/CRC, 2020).
+64.	 Stein, M. L. Interpolation of Spatial Data: Some Theory for Kriging (Springer-Verlag, 1999).
+65.	 Martins, T. G., Simpson, D., Lindgren, F. & Rue, H. Bayesian computing with INLA: new 
+features. Comput. Stat. Data Anal. 67, 68–83 (2013).
+66.	 De Maio, F. G. Income inequality measures. J. Epidemiol. Community Health 61, 849–852 (2007).
+67.	
+Sen, A. et al. On Economic Inequality (Clarendon, 1997).
+68.	 Ray, D. Development Economics (Princeton Univ. Press, 1998).
+69.	 Cutts, F. T., Claquin, P., Danovaro-Holliday, M. C. & Rhoda, D. A. Monitoring vaccination 
+coverage: defining the role of surveys. Vaccine 34, 4103–4109 (2016).
+70.	 Cutts, F. T., Izurieta, H. S. & Rhoda, D. A. Measuring coverage in MNCH: design, 
+implementation, and interpretation challenges associated with tracking vaccination 
+coverage using household surveys. PLoS Med. 10, e1001404 (2013).
+71.	
+Dansereau, E., Brown, D., Stashko, L. & Danovaro-Holliday, M. C. A systematic review of 
+the agreement of recall, home-based records, facility records, BCG scar, and serology for 
+ascertaining vaccination status in low and middle-income countries. Gates Open Res. 3, 
+923 (2020).
+72.	 Marquez, N. & Wakefield, J. Harmonizing child mortality data at disparate geographic 
+levels. Preprint at https://arxiv.org/abs/2002.00089 (2020).
+73.	 Stein, M. L. Space–time covariance functions. J. Am. Stat. Assoc. 100, 310–321  
+(2005).
+74.	 Gneiting, T. Nonseparable, stationary covariance functions for space–time data. J. Am. 
+Stat. Assoc. 97, 590–600 (2002).
+75.	 Perisic, A. & Bauch, C. T. Social contact networks and disease eradicability under 
+voluntary vaccination. PLOS Comput. Biol. 5, e1000280 (2009).
+76.	 Streefland, P., Chowdhury, A. M. R. & Ramos-Jimenez, P. Patterns of vaccination 
+acceptance. Soc. Sci. Med. 49, 1705–1716 (1999).
+77.	
+Global Administrative Areas. GADM Maps and Data. v.3.6 https://gadm.org/ (2019).
+Acknowledgements This work was primarily supported by grants from the Bill & Melinda 
+Gates Foundation (OPP1182474, OPP11093011 and OPP1132415). S.I.H. is funded by additional 
+grants from the Bill & Melinda Gates Foundation (OPP1119467 and OPP1106023). The opinions 
+expressed in this paper are those of the authors and not necessarily those of the World Health 
+Organization. J.-W.D.N. was supported by the Alexander von Humboldt Foundation. C.H. is 
+partially supported by a grant of the Romanian National Authority for Scientific Research and 
+Innovation, CNDS-UEFISCDI, project number PN-III-P4-ID-PCCF-2016-0084, and a grant 
+co-funded by the European Fund for Regional Development through Operational Program for 
+Competitiveness, Project ID P_40_382. Y.J.K. acknowledges support by the Research 
+Management Centre, Xiamen University Malaysia (XMUMRF/2018-C2/ITCM/0001). K. Krishan is 
+supported by a DST PURSE Grant and UGC Centre of Advanced Study awarded to the 
+Department of Anthropology, Panjab University, Chandigarh, India. B.L. acknowledges support 
+from the NIHR Oxford Biomedical Research Centre and the BHF Centre of Research 
+Excellence, Oxford. M.A.M. acknowledges NIGEB and NIMAD grants. A. Sheikh acknowledges 
+support by Health Data Research UK. S.B.Z. acknowledges support from the Australian 
+Government research training program (RTP) for his academic career.
+Author contributions J.F.M., A.N.S., S.S.L. and S.I.H. conceived and planned the study. A.N.S., 
+J.F.M., S.R., J.Q.N. and N.C.G. identified and vetted data for this analysis. S.R. and J.Q.N. 
+extracted, processed and geo-positioned the data. A.N.S. carried out the statistical analyses 
+with assistance and input from J.F.M., S.S.L. and C.J.L.M. A.N.S., L.E., S.R. and J.Q.N. prepared 
+figures and tables. A.N.S. wrote the first draft of the manuscript with assistance from J.F.M, 
+S.S.L, S.I.H. and M.K.M.-P. and all authors contributed to subsequent revisions. All authors 
+provided intellectual input into aspects of this study.
+Competing interests This study was funded by the Bill & Melinda Gates Foundation. Authors 
+employed by the Bill & Melinda Gates Foundation provided feedback on initial maps and 
+drafts of this manuscript. Otherwise, the funders of the study had no role in study design, 
+data collection, data analysis, data interpretation, or writing of the final report. The 
+corresponding authors had full access to all the data in the study and had final responsibility 
+for the decision to submit for publication. O.O.A. is supported by DSI-NRF Centre of 
+Excellence for Epidemiological Modelling and Analysis (SACEMA). C.A.T.A. reports personal 
+fees from Johnson & Johnson (The Philippines), outside the submitted work. M.L.B. reports 
+grants from the US Environmental Protection Agency, the National Institutes of Health (NIH) 
+and the Wellcome Trust Foundation, during the conduct of the study. M.L.B. also reports 
+honoraria and/or travel reimbursements from the NIH (for the review of grant proposals), 
+American Journal of Public Health (participation as editor), Global Research Laboratory and 
+Seoul National University, Royal Society London UK, Ohio University, Atmospheric Chemistry 
+Gordon Research Conference, Johns Hopkins Bloomberg School of Public Health, Arizona 
+State University, Ministry of the Environment Japan, Hong Kong Polytechnic University, 
+University of Illinois–Champaign, and University of Tennessee–Knoxville. S. Basu reports 
+grants from the NIH, grants from the US Centers for Disease Control and Prevention, grants 
+from the US Department of Agriculture, grants from Robert Wood Johnson Foundation, 
+personal fees from Research Triangle Institute, personal fees from Collective Health, personal 
+fees from KPMG, personal fees from HealthRight360, personal fees from PLOS Medicine, 
+personal fees from The New England Journal of Medicine, outside the submitted work. F.D. 
+reports grants from the Bill & Melinda Gates Foundation, during the conduct of the study.  
+A. Deshpande reports grants from the Bill & Melinda Gates Foundation, during the conduct of 
+the study. S.J.D. reports grants from The Fleming Fund at the UK Department of Health & 
+Social Care, during the conduct of the study. S.M.S.I. received funding from the National 
+Heart Foundation of Australia. J.J.J. reports personal fees from AMGEN, personal fees from 
+ALAB, personal fees from TEVA, personal fees from SYNEXUS, personal fees from 
+BOEHRINGER INGELHEIM and personal fees from VALEANT, outside the submitted work. 
+H.J.L. reports grants from GSK, outside the submitted work. W.M. is Program Analyst in 
+Population and Development at the United Nations Population Fund (UNFPA), an institution 
+which does not necessarily endorse this study. T. Pilgrim reports grants and personal fees 
+from Biotronik, grants and personal fees from Boston Scientific and grants from Edwards 
+Lifesciences, outside the submitted work. M.J.P. reports grants and personal fees from MSD, 
+GSK, Pfizer, Boehringer Ingelheim, BMS, Novavax, Astra Zeneca, Sanofi, IQVIA and other 
+pharmaceutical industries, personal fees from Quintiles, Novartis, Pharmerit and Seqirus, 
+grants from Bayer, BioMerieux, WHO, EU, FIND, Antilope, DIKTI, LPDP, Budi, and other from 
+Ingress Health, Pharmacoeconomics Advice Groningen (PAG Ltd), Asc Academics, outside 
+the submitted work. M.J.P. holds stocks in Ingress Health and PAG Ltd and is advisor to Asc 
+Academics, all of which are pharmacoeconomic consultancy companies, outside of 
+submitted work. J. A. Singh reports personal fees from Crealta/Horizon, Medisys, Fidia, UBM 
+LLC, Trio Health, Medscape, WebMD, Clinical Care Options, Clearview Healthcare Partners, 
+Putnam Associates, Spherix, Practice Point Communications, the NIH and the American 
+College of Rheumatology, personal fees from the speaker’s bureau of Simply Speaking, stock 
+options in Amarin Pharmaceuticals and Viking Pharmaceuticals, non-financial support from 
+the steering committee of OMERACT, an international organization that develops measures 
+
+for clinical trials and receives arm’s length funding from 12 pharmaceutical companies, 
+outside of the submitted work. J. A. Singh serves on the FDA Arthritis Advisory Committee, is a 
+member of the Veterans Affairs Rheumatology Field Advisory Committee, and is the editor 
+and the Director of the UAB Cochrane Musculoskeletal Group Satellite Center on Network 
+Meta-analysis, all outside the submitted work. R.U. reports other financial activities from 
+Deakin University, outside the submitted work. J.F.M. reports grants from the Bill and Melinda 
+Gates Foundation, during the conduct of the study.
+Additional information
+Supplementary information is available for this paper at https://doi.org/10.1038/s41586-020-
+03043-4.
+Correspondence and requests for materials should be addressed to S.I.H., S.S.L. or J.F.M.
+Peer review information Nature thanks C. Edson Utazi and the other, anonymous, reviewer(s) 
+for their contribution to the peer review of this work. Peer reviewer reports are available.
+Reprints and permissions information is available at http://www.nature.com/reprints.
+
+Article
+Extended Data Fig. 1 | Data processing and geospatial modelling flowchart. 
+Survey data and the suite of covariates used in modelling are first compiled and 
+processed (orange and grey). The modelling process (purple) consists of data 
+being used in a stacked generalization ensemble modelling process via 
+boosted regression tree, lasso and generalized additive models, fitting the 
+second-stage spatiotemporal model using integrated nested Laplace 
+approximation, and finally calibration to GBD estimates (blue). Steps in dark 
+green and outputs in yellow indicate the post-estimation process when the full 
+posterior distribution of predications is transformed to both 5 × 5-km2 and first 
+and second administrative-unit-level maps and their various final results. 
+Intermediate outputs throughout the process are shown in blue and overall 
+processes are shown in light green.
+
+Extended Data Fig. 2 | Regions of countries used in modelling. Analyses 
+were divided into 13 regions based on the GBD super-regions to allow for 
+locations similar in data availability and patterns of vaccine coverage to be 
+analysed using similar covariate and modelling relationships. Each colour 
+represents a different region, as described in the legend.
+
+Article
+Extended Data Fig. 3 | National, first- and second-administrative-unit level, 
+and pixel-level MCV1 coverage, 2000. a–d, Posterior means are represented 
+at the national (a), first-administrative-unit (b), second-administrative-unit (c) 
+and 5 × 5-km2 pixel (d) levels. Pixels that are grey in colour are either not 
+included in the analysis, or have been classified as being ‘barren or sparsely 
+vegetated’ or had fewer than 10 people per 1 × 1-km2 pixel30,50.
+
+Extended Data Fig. 4 | National, first- and second-administrative level, and 
+pixel-level MCV1 coverage, 2005. a–d, Posterior means are represented at the 
+national (a), first-administrative-unit (b), second-administrative-unit (c) and 
+5 × 5-km2 pixel (d) levels. Pixels that are grey in colour are either not included in 
+the analysis, or have been classified as being ‘barren or sparsely vegetated’ or 
+had fewer than 10 people per 1 × 1-km2 pixel30,50.
+
+Article
+Extended Data Fig. 5 | National, first- and second-administrative-unit level, 
+and pixel-level MCV1 coverage, 2010. a–d, Posterior means are represented 
+at the national (a), first-administrative-unit (b), second-administrative-unit (c) 
+and 5 × 5-km2 pixel (d) levels. Pixels that are grey in colour are either not 
+included in the analysis, or have been classified as being ‘barren or sparsely 
+vegetated’ or had fewer than 10 people per 1 × 1-km2 pixel30,50.
+
+Extended Data Fig. 6 | National, first- and second-administrative-unit level, 
+and pixel-level MCV1 coverage, 2015. a–d, Posterior means are represented at 
+the national (a), first-administrative-unit (b), second-administrative-unit (c) 
+and 5 × 5-km2 pixel (d) levels. Pixels that are grey in colour are either not 
+included in the analysis, or have been classified as being ‘barren or sparsely 
+vegetated’ or had fewer than 10 people per 1 × 1-km2 pixel30,50.
+
+Article
+Extended Data Fig. 7 | National, first- and second-administrative-unit level, 
+and pixel-level MCV1 coverage, 2019. a–d, Posterior means are represented at 
+the national (a), first-administrative-unit (b), second-administrative-unit (c) 
+and 5 × 5-km2 pixel (d) levels. Pixels that are grey in colour are either not 
+included in the analysis, or have been classified as being ‘barren or sparsely 
+vegetated’ or had fewer than 10 people per 1 × 1-km2 pixel30,50.
+
+Extended Data Fig. 8 | Probability of increased or decreased coverage from 2000 to 2010 and 2010 to 2019. a–d, Probability of an increase in coverage in each 
+district (a, b) and probability of decrease in coverage in each district (c, d) from 2000 to 2010 (a, c) and 2010 to 2019 (b, d).
+
+Article
+Extended Data Fig. 9 | Estimated district-level probabilities of reaching 
+MCV1 coverage targets in 2019. a, b, Probability of districts having achieved 
+80% GVAP and Measles Rubella Initiative targets (a) and 95% critical proportion 
+to immunize coverage targets to reach herd immunity (b). Countries excluded 
+from the analysis and pixels classified as ‘barren or sparsely vegetated’ based 
+on ESA-CCI satellite data or with fewer than 10 people per 1 × 1-km2 pixel based 
+on WorldPop estimates are masked in grey30,50.
+
+Extended Data Fig. 10 | Country examples of concentration curves. Concentration curves of the cumulative proportion of unvaccinated children as a function 
+of travel time (in hours) in Chad (a), Madagascar (b), India (c) and Mexico (d). Curves for both the indicated countries (blue) and all LMICs (grey) are shown.
+
+1
+nature research  |  reporting summary
+October 2018
+Corresponding author(s):
+Jonathan F. Mosser
+Last updated by author(s): Dec 3, 2020
+Reporting Summary
+Nature Research wishes to improve the reproducibility of the work that we publish. This form provides structure for consistency and transparency 
+in reporting. For further information on Nature Research policies, see Authors & Referees and the Editorial Policy Checklist.
+Statistics
+For all statistical analyses, confirm that the following items are present in the figure legend, table legend, main text, or Methods section.
+n/a Confirmed
+The exact sample size (n) for each experimental group/condition, given as a discrete number and unit of measurement
+A statement on whether measurements were taken from distinct samples or whether the same sample was measured repeatedly
+The statistical test(s) used AND whether they are one- or two-sided 
+Only common tests should be described solely by name; describe more complex techniques in the Methods section.
+A description of all covariates tested
+A description of any assumptions or corrections, such as tests of normality and adjustment for multiple comparisons
+A full description of the statistical parameters including central tendency (e.g. means) or other basic estimates (e.g. regression coefficient) 
+AND variation (e.g. standard deviation) or associated estimates of uncertainty (e.g. confidence intervals)
+For null hypothesis testing, the test statistic (e.g. F, t, r) with confidence intervals, effect sizes, degrees of freedom and P value noted 
+Give P values as exact values whenever suitable.
+For Bayesian analysis, information on the choice of priors and Markov chain Monte Carlo settings
+For hierarchical and complex designs, identification of the appropriate level for tests and full reporting of outcomes
+Estimates of effect sizes (e.g. Cohen's d, Pearson's r), indicating how they were calculated
+Our web collection on statistics for biologists contains articles on many of the points above.
+Software and code
+Policy information about availability of computer code
+Data collection
+No primary data collection was carried out for this analysis.
+Data analysis
+This analysis was carried out using R version 3.6.1 and using R-INLA v.20.01.29.9000. Maps were produced using ArcGIS Desktop 10.6 and 
+Python 2.7. All code used for these analyses will be made publicly available upon publication.
+For manuscripts utilizing custom algorithms or software that are central to the research but not yet described in published literature, software must be made available to editors/reviewers. 
+We strongly encourage code deposition in a community repository (e.g. GitHub). See the Nature Research guidelines for submitting code & software for further information.
+Data
+Policy information about availability of data
+All manuscripts must include a data availability statement. This statement should provide the following information, where applicable: 
+- Accession codes, unique identifiers, or web links for publicly available datasets 
+- A list of figures that have associated raw data 
+- A description of any restrictions on data availability
+The findings of this study are supported by data available in public online repositories and data publicly available upon request of the data provider. A detailed table 
+of data sources and availability can be found in Supplementary Table 4 and http://ghdx.healthdata.org/lbd-publication-data-input-sources. Administrative 
+boundaries were modified from the Database for Global Administrative Areas (GADM) dataset. Populations were retrieved from WorldPop and gridded estimates of 
+travel time to nearest city or settlement were available online from work by Weiss, et al 2018. This study complies with the Guidelines for Accurate and Transparent 
+Health Estimates Reporting (GATHER) recommendations. All maps and figures presented in this study are generated by the authors; no permissions are required for 
+publication.
+
+2
+nature research  |  reporting summary
+October 2018
+Field-specific reporting
+Please select the one below that is the best fit for your research. If you are not sure, read the appropriate sections before making your selection.
+Life sciences
+Behavioural & social sciences
+ Ecological, evolutionary & environmental sciences
+For a reference copy of the document with all sections, see nature.com/documents/nr-reporting-summary-flat.pdf
+Life sciences study design
+All studies must disclose on these points even when the disclosure is negative.
+Sample size
+This observational study incorporated all available survey data sources that met the inclusion criteria as described in detail in the manuscript 
+and supplementary information. The combined dataset from 354 household based surveys contained information on vaccination status from 
+1.70 million individual children.
+Data exclusions
+Surveys were excluded due to unrealistic national or geographic trends compared to other surveys in nearby country-years, inability to match 
+the microdata to geographic locations, or non-standard methodology. These criteria were pre-established prior to reviewing the data. A full 
+list of excluded surveys is included in Supplementary Table 5.
+Replication
+All code and data are available publicly for reproducibility.
+Randomization
+As this work is an observational mapping study, there were no experimental groups.
+Blinding
+As this work is an observational mapping study, there was no need for blinding. 
+Reporting for specific materials, systems and methods
+We require information from authors about some types of materials, experimental systems and methods used in many studies. Here, indicate whether each material, 
+system or method listed is relevant to your study. If you are not sure if a list item applies to your research, read the appropriate section before selecting a response. 
+Materials & experimental systems
+n/a Involved in the study
+Antibodies
+Eukaryotic cell lines
+Palaeontology
+Animals and other organisms
+Human research participants
+Clinical data
+Methods
+n/a Involved in the study
+ChIP-seq
+Flow cytometry
+MRI-based neuroimaging

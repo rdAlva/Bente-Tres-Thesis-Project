@@ -1,0 +1,1124 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Development Studies Faculty Publications 
+Development Studies Department 
+6-7-2021 
+Strengths and Weaknesses of Digital Diaries as a Means to Study 
+Strengths and Weaknesses of Digital Diaries as a Means to Study 
+Patient Pathways: Experiences With a Study of Hypertension in 
+Patient Pathways: Experiences With a Study of Hypertension in 
+the Philippines 
+the Philippines 
+Jhaki A. Mendoza 
+University of the Philippines Manila 
+Maureen L. Seguin 
+London School of Hygiene and Tropical Medicine 
+Gideon Lasco 
+Ateneo de Manila University, pdlasco@up.edu.ph 
+Lia M. Palileo-Villanueva 
+University of the Philippines Manila 
+Arianna Maever L. Amit 
+Ateneo School of Medicine and Public Health, aamit@ateneo.edu 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/dev-stud-faculty-pubs 
+ Part of the Cardiovascular Diseases Commons, Communication Technology and New Media 
+Commons, Development Studies Commons, and the Health Communication Commons 
+Custom Citation 
+Custom Citation 
+Mendoza, J., Seguin, M. L., Lasco, G., Palileo-Villanueva, L. M., Amit, A., Renedo, A., McKee, M., Palafox, B., 
+& Balabanova, D. (2021). Strengths and weaknesses of digital diaries as a means to study patient 
+pathways: Experiences with a study of hypertension in the Philippines. International Journal of Qualitative 
+Methods, 20. https://doi.org/10.1177/16094069211002746 
+This Article is brought to you for free and open access by the Development Studies Department at Archīum Ateneo. 
+It has been accepted for inclusion in Development Studies Faculty Publications by an authorized administrator of 
+Archīum Ateneo. For more information, please contact research@ateneo.edu. 
+
+Authors 
+Authors 
+Jhaki A. Mendoza, Maureen L. Seguin, Gideon Lasco, Lia M. Palileo-Villanueva, Arianna Maever L. Amit, 
+Alicia Renedo, Martin McKee, Benjamin Palafox, and Dina Balabanova 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/dev-stud-faculty-pubs/79 
+
+Article
+Strengths and Weaknesses of Digital
+Diaries as a Means to Study Patient
+Pathways: Experiences With a Study
+of Hypertension in the Philippines
+Jhaki Mendoza1 , Maureen L. Seguin2, Gideon Lasco3,
+Lia M. Palileo-Villanueva1, Arianna Amit1 , Alicia Renedo2,
+Martin McKee2, Benjamin Palafox2, and Dina Balabanova2
+Abstract
+The rise of digital mobile communications has made possible novel research methods that can provide a better understanding of
+patients’ experience of non-communicable diseases. This study explores the opportunities and challenges in employing “digital
+diaries” via mobile phones to track the lived experiences of people with hypertension in the Philippines. Following in-depth
+interviews, 40 hypertensive adults were invited to submit digital diaries over 12 months. Mobile phones were found to be an
+efficient way of reaching participants, although it was difficult to collect in-depth narratives about their experiences using the
+medium beyond nominal responses about symptoms and treatment. Possible explanations include the asymptomatic nature of
+hypertension, which limited the participants’ experiences of the illness, as well as the platform itself, which our mostly-elderly,
+low-income participants may not be comfortable with. Despite these challenges, “digital diaries” hold potential for the study of
+other chronic conditions, provided that researchers engage in extensive co-production with participants to understand their
+preferences. Researchers also need more training in the use of these methods appropriately as part of a suite of methods for
+capturing the experience of people living with chronic illness.
+Keywords
+hypertension, non-communicable disease, lived experiences, patient pathways, co-production, digital diary, mobile communica-
+tion, Philippines
+Introduction
+Diaries are well suited in collecting longitudinal data, reducing
+the time between an experience and the account given of it, and
+thus reducing potential recall bias (Alaszewski, 2006; Bolger
+et al., 2003). Diary keeping has been used in health research
+since the 1930s (Keleher & Verrinder, 2003). In this respect, it
+offers advantages over more commonly used research methods,
+such as interviews (Reis, 1994). The use of a diary also elim-
+inates the presence of the researcher, granting the patient auton-
+omy in sharing their lived experiences as they unfold, free from
+some of the biases that can arise when being observed, while
+allowing silence from participants on topics they do not wish to
+share in an interview context (Alaszewski, 2006). The potential
+advantages offered by unsolicited diary entries, with sponta-
+neously recorded accounts of everyday life, has been acknowl-
+edged in studying patients’ health and suffering (Jones, 2000).
+They have been used for chronic health conditions because of
+their ability to track patients’ lived experiences in detail
+(Alaszewski, 2006; Jacelon & Imperio, 2005). Diary methods
+can also capture environmental factors that can shape partici-
+pants’ experiences (Bartlett, 2012). Thus, diary tools are seen
+as having the potential to capture authentic experiences that
+1 College of Medicine, University of the Philippines Manila, Philippines
+2 Centre for Global Chronic Conditions, London School of Hygiene and
+Tropical Medicine, London, United Kingdom
+3 Department of Anthropology, University of the Philippines Diliman, Quezon
+City, Metro Manila, Philippines
+Corresponding Author:
+Benjamin Palafox, Centre for Global Chronic Conditions, London School of
+Hygiene and Tropical Medicine, London, United Kingdom.
+Email: benjamin.palafox@lshtm.ac.uk
+International Journal of Qualitative Methods
+Volume 20: 1–11
+ª The Author(s) 2021
+DOI: 10.1177/16094069211002746
+journals.sagepub.com/home/ijq
+Creative Commons CC BY: This article is distributed under the terms of the Creative Commons Attribution 4.0 License (https://creativecommons.org/licenses/by/4.0/)
+which permits any use, reproduction and distribution of the work without further permission provided the original work is attributed as specified on the SAGE and
+Open Access pages (https://us.sagepub.com/en-us/nam/open-access-at-sage).
+
+reflect individual priorities and values while promoting self-
+reflexivity (Alaszewski, 2006), helping participants to think
+through the problems they face that may be difficult to distill
+in the course of a single interview.
+When used traditionally, however, as in writing notes in a
+journal collected later by researchers, diaries have certain dis-
+advantages. These include the risk of loss or breaches of con-
+fidentiality, forgetting to keep diaries, or losing motivation to
+do so (Bernays et al., 2019; Bolger et al., 2003; Furness &
+Garrud, 2010; Herron et al., 2019; Jones & Woolley, 2014).
+Written diaries may not be appropriate for everyone and can
+exclude certain populations, including those with poor literacy
+and disabilities (Alaszewski, 2006; Griffiths & Jordan, 1998;
+Miller et al., 1999; Milligan et al., 2005; Stopka et al., 2004).
+Diaries using mobile technology are thus seen as a way to
+overcome these challenges (Bernays et al., 2019; Jacelon &
+Imperio, 2005; Stopka et al., 2004), especially with individuals
+who have long-term conditions in which interactions between a
+patient and a researcher are, of necessity, episodic (Alaszewski,
+2006). They are also more flexible, interactive, and can better
+capture non-verbal facets of the everyday lives of participants,
+conveyed through videos, photographs, and audio recordings
+(Bernays et al., 2019; Buchwald et al., 2009; Thompson &
+Oelker, 2013).
+Digital diaries, using mobile devices (e.g. mobile phones,
+tape recorders) do, however, share some of the disadvantages
+of the traditional diary approach, including privacy issues,
+where it may be difficult to make confidential entries, and
+devices being lost or damaged, risking the security of data
+(Bernays et al., 2019). They may also be problematic for those
+with auditory and communication difficulties, as well as those
+who are not technologically skilled (Furness & Garrud, 2010).
+Nonetheless, the rapid pace of technological advances increas-
+ingly provides means by which researchers and research parti-
+cipants can interact in a dynamic and collaborative process
+(Hyers, 2018).
+There has been particular interest in the use of mobile
+phones in low-and middle-income countries (LMICs) (Basta-
+wrous & Armstrong, 2013), where uptake of these devices has
+been rapid, in part representing a response to a lack of fixed
+infrastructure, such as telephone lines, but also a reduction in
+the price of devices and connection charges (World Bank,
+2016). For health research, the revolution in mobile phone use
+worldwide would seem to offer many opportunities. However,
+as we have discovered, these opportunities are accompanied by
+important challenges. Mobile communication is also increas-
+ingly used in clinical research, with growing evidence suggesting
+that text messaging improves adherence to treatment and
+follow-up (de Jongh et al., 2012; Free et al., 2013; Gurol-Urganci
+et al., 2013; Horvath et al., 2012; Whittaker et al., 2019). Studies
+conducted in LMICs, including the Philippines, have identified
+similar effects (Albino et al., 2014; Crankshaw et al., 2010;
+Otieno et al., 2014; Palileo-Villanueva, 2017). However, the use
+of digital technologies to conduct qualitative health research, or
+indeed for qualitative research in general, has not been well
+documented (Garc´ıa et al., 2016).
+Given the ubiquity of mobile phones in LMICs, we examine
+the potential of using a digital diary to collect patient narratives
+about
+hypertension management in the Philippines.
+The Responsive and Equitable Health Systems Partnership on
+Non-Communicable Diseases (RESPOND) is a longitudinal
+study employing mixed-methods to understand barriers to the
+effective management of hypertension at each stage of the
+journey (from pre-diagnosis to ultimate control) among low-
+income households in the Philippines and Malaysia (Palafox
+et al., 2018). We believed that digital diaries via mobile phones
+would be appropriate in the Philippines, which has been called
+the “texting capital of the world” based on its very high use of
+short message services (SMS)—a phenomenon that appears to
+transcend income group (Capistrano, 2013; Celdran, 2002;
+Lallana, 2004; Librero et al., 2007; Pertierra, 2005). The World
+Bank reported a more than doubling of the number of mobile
+subscriptions in just a decade, from 50 million users in 2007 to
+115 million in 2017 (The World Bank, 2020). In 2019, it was
+reported that 89% of the adult population in the Philippines had
+access to some type of mobile phone and, despite very poor
+internet connectivity, Filipinos are among the most intensive
+users of the internet worldwide (We Are Social, 2020).
+One element of the qualitative component applied in the
+Philippines is a digital diary recorded using mobile phones to
+capture the lived and evolving experiences of our hypertensive
+participants during the period between the two sets of in-depth
+interviews. The entries submitted by participants were stored
+on a secure online platform, with researchers accessing, man-
+aging and analyzing the data via a web-based interface. In this
+paper, we draw on our experiences to make recommendations
+on how to adopt this approach for qualitative health research.
+Methodology
+Study Setting and Participants
+The rationale for choosing hypertension as the health condition
+of interest is that our previous research reported lower adher-
+ence to antihypertensive medication among the poor in
+Malaysia and the Philippines (Chow et al., 2013). Poor adher-
+ence partly reflects barriers associated with health systems and
+services common in LMICs (Khatib et al., 2014; Maimaris
+et al., 2013), but patients’ social realities may also affect their
+treatment choices, such as by precipitating “trade-offs” where,
+for instance, one must prioritize family and livelihood over
+hypertension care (Brathwaite et al., 2020). In this analysis,
+we focus our attention on the Philippines where the study was
+fully implemented and has now concluded.
+In the Philippines, 600 adult participants were randomly
+selected from poor communities in an urban and a rural setting
+to participate in the quantitative survey. They were either pre-
+viously diagnosed with hypertension (“aware”) or identified as
+having high blood pressure during the screening for RESPOND
+but not previously diagnosed with hypertension (“unaware”)
+(Palafox et al., 2018). From the quantitative database, 40 indi-
+viduals were selected purposively for the qualitative
+2
+International Journal of Qualitative Methods
+
+component according to age, sex, urbanicity, and awareness.
+The selected individuals were contacted to confirm their par-
+ticipation and to arrange a visit. Written consent was secured
+from participants upon meeting. They underwent an initial
+interview, after which they were briefed about the use of digital
+diaries and were asked to participate for 12–18 months, to be
+followed by another interview. Table 1 provides the character-
+istics of our participants. All had access to a mobile phone,
+either personally owned or shared within their homes.
+Digital Diary Platform
+We used a platform developed by On Our Radar (OOR), an
+innovative, secure, web-based application that collates
+participant-generated content in the form of video, photo,
+audio, and text captured and submitted using their own mobile
+phones (OnOurRadar, 2015). Previous incarnations of the plat-
+form have been used in a variety of settings (the United Kingdom,
+Sierra Leone, Kenya, Nigeria, and India) enabling participants,
+ranging from elderly individuals suffering from early-stage
+dementia in Britain to citizen reporters amid the Ebola outbreak
+in Sierra Leone, to share their daily experiences in both the health
+sector and beyond. Projects that employed the OOR platform
+have worked with isolated and vulnerable community members
+who were able to contribute entries using basic mobile phones,
+thus giving them a voice to shape policies and programs. The
+platform designed specifically for the RESPOND project was
+developedjointlywithOORteammembers,whohaveexperience
+in adapting the application to diverse settings, and aimed to col-
+lect information that would allow a detailed mapping of the steps
+constituting the most common pathways followed by individuals
+to manage their hypertension. The on-screen layout is shown in
+Figures 1 and 2.
+Researchers access the web-based platform via a two-step
+authentication process required to log-in. They may then create
+participant profiles and enroll them onto the platform. Each
+profile requires a designated mobile number, which is linked
+to the participant’s name, location, age, and email address
+(if applicable) in their profile. If a participant changes mobile
+number, a new profile must be created. Participants commu-
+nicate with the platform by placing calls or sending messages to
+a designated locally-registered phone number.
+The OOR platform also allows two-way interaction,
+whereby researchers may communicate with participants by
+replying via text message, for example to request participants
+to elaborate, to follow-up on issues and to encourage
+participation. The platform also incorporates a language trans-
+lation function, which automatically converts participant
+entries from a local language to English. The platform was
+designed for this project in an open-source format, and was
+provided by the developers as a ready-to-use tool that will be
+retained by the partners and local stakeholders after completion
+of the project for use in other research projects.
+Preparations for Participants and Researchers
+To supplement their briefing on the digital diaries, participants
+were given an infographic (see Supplemental Appendix A) in
+the local language (Filipino), providing guidance on the type of
+information to submit; how to contact the research team should
+they have any questions or concerns about the diary or the
+platform; as well as information about the provision of mobile
+phone credit to remove direct financial barriers to study par-
+ticipation. The infographic was intended to serve as a reminder
+for the participants to share their everyday experiences of liv-
+ing with hypertension and sought to clarify what the research-
+ers wanted to know, as there was a risk of “information
+overload” if this point was only communicated verbally.
+The guidance emphasized that all entries were confidential,
+and participants could provide as few or as many entries as
+they felt appropriate. The infographic also clarified that the
+platform was a data collection tool and not a means to discuss
+any legal or medical concerns.
+Before using the platform, the researchers read a manual
+produced by the development team, with advice from the local
+advisory committee in the Philippines (see Supplemental
+Appendix B). The manual contained standard operating proce-
+dures, including guidance on modes of operation, strategies of
+participant engagement, research conduct, and expectations
+related to the digital diaries. It also included advice on how
+to manage submissions that fall beyond the study scope, for
+example, should participants seek medical, legal or financial
+advice. In such cases, the researchers were instructed to
+acknowledge the participants’ concerns and direct them to
+appropriate sources of advice within their community (e.g.,
+local health centers and community halls, or municipal offices).
+It was made clear that the digital diaries would only serve as a
+means to capture the participant narratives related to their
+hypertension and not as a conduit for medical advice.
+The researchers involved in the operation of the platform
+received training, frequent support from the broader team, and
+advice on how to deal with unexpected behaviors or requests.
+Analysis of Diary Entries
+All diary submissions, primarily in SMS text format (total of
+760 messages), were considered primary data and were ana-
+lyzed predominantly using an inductive approach (Thomas,
+2006) guided by grounded theory (Strauss & Corbin, 1994).
+The entries were exported from the platform to identify emer-
+ging themes about participants’ motivations and understanding
+on the use of the platform. Researchers ensured reflexivity in
+Table 1. Sampling Characteristics of Qualitative Participants
+(Philippines).
+Age Group
+Urban
+Rural
+Awareness
+Female Male Female Male Aware Unaware
+30–49
+7
+1
+3
+2
+11
+2
+50–70
+6
+7
+10
+4
+22
+5
+Mendoza et al.
+3
+
+the collection and analysis of diary entries (Finlay, 2008).
+The first author, who is a local researcher, led the open coding
+of textual entries in their original format and language using
+NVivo. As most entries contained colloquial and abbreviated
+terms, looking at the data in their original form ensured that
+social and cultural contexts were maintained (Hymes, 1974).
+Emerging themes were discussed with the research team,
+composed of local and international researchers to identify
+their (often implicit) meaning.
+Another type of diary entry, “call logs,” were collected by
+way of phone calls between researchers and participants.
+The summaries of calls were entered onto the platform by the
+researchers and translated into English. As such, call logs were
+considered as a secondary source of data in our analysis to
+Figure 2. The on-screen layout of On Our Radar platform. Names of the researchers and participants were concealed.
+Figure 1. The on-screen layout of On Our Radar platform. Names of the researchers and participants were concealed.
+4
+International Journal of Qualitative Methods
+
+acknowledge the re-construction of meaning and context that
+resulted from the translation process (Temple et al., 2006).
+Twenty-five call logs were carefully read and contrasted with
+the SMS text entries to show variation in the quality of data
+generated.
+Results
+Engaging Participants
+The techniques used to engage participants in the digital diary
+process are summarized in Table 2. All participants were
+reminded weekly about the diary by sending a text message
+via the platform. Incentives, in the form of mobile credits
+intended to cover the direct costs of submitting diary entries
+in all forms, were provided weekly to the participants. Subse-
+quent prompts and messages from the researchers concerned
+participants’ lived experiences with hypertension (e.g., asking
+how they address their condition if they reported they have high
+blood pressure, how they treat hypertension daily, why and
+how they monitor their blood pressure, what prompted them
+to take their blood pressure, and why they seek care). Success
+was defined as the effectiveness of these strategies in eliciting
+insightful or in-depth data from participants, while also sustain-
+ing their engagement over time, taking into account the fre-
+quency and the quality of received submissions.
+Initially, researchers planned to review collected diary sub-
+missions via the web-based platform interface two or three
+times a month; however, due to the limited engagement and
+depth of data provided by participants, weekly interaction
+became necessary to either remind them to submit diaries
+entries or respond to inquiries or prompts from researchers.
+These weekly messages were effective at increasing submis-
+sion frequency but eliciting data with sufficient depth and to
+explore meaning required scheduled phone calls with partici-
+pants. Because the platform did not integrate an outgoing call
+function, the research team set up a separate telephone phone
+number to conduct these calls, and “call logs” summarizing of
+these conversations were entered contemporaneously onto the
+platform by the researchers, as described above.
+Levels of Engagement
+While all participants initially engaged with the platform, by
+the end of the study only six could be considered to have
+actively engaged throughout, wherein they sent diary entries
+more than once a week, two of whom posted entries almost
+daily even without probing from the researchers (see Table 3).
+Eleven participants were semi-active, sending entries once a
+week or from time to time, especially when they had just
+received their weekly mobile credit. Twenty-three were infre-
+quent users, who engaged with the platform irregularly.
+Four agreed initially to participate, but later reported that they
+did not like sending SMS. Seven participants also changed their
+mobile phone numbers during the study. Weekly messages and
+mobile credits were sent to all participants regardless of level of
+engagement.
+Our experience shows that digital diaries worked better for
+some types of participants than for others. For instance, active
+and semi-active participants tended to be in the older
+(50–70 years) age group; and more reported taking regular
+Table 2. Steps in Interacting via the Platform (See Supplemental Appendix B for More Detailed Information).
+Techniques
+Examples of Prompts
+Effectiveness
+Welcome messages tailored
+to individual participants
+“Good morning/afternoon [name of the participant],
+this is the RESPOND project, thank you for joining
+the text diary. [insert tailored message about
+something interesting/relevant that came up in the
+interview with the participant].”
+Effective in sustaining the relationship. Effective in
+generating insightful data, but not in-depth
+information.
+Weekly messages to
+unresponsive and
+infrequent users
+“Hi [name of the participant], I would like to hear from
+you! In your interview/ you mentioned [something
+interesting]. Any update/development/new
+thoughts?”
+Effective in sustaining the relationship. Moderately
+effective in generating insightful data following-up on
+previous entries, but not in-depth information.
+Phone calls to follow-up on
+infrequent users and probe
+on previous entries
+“Hi, you mentioned [something interesting] in one of
+your entries. I’d like to know more about this.”
+“Hi, how have you been? I’d like to remind you about
+the text diaries. I’d also like to know if you are still
+interested in continuing to participate.”
+Effective in eliciting more in-depth data and following-
+up with previous entries (e.g., participant thought of
+seeking care, but did not submit a follow-up entry).
+This also helped to elicit meaning where entries
+were factual. At least one phone call was made with
+each participant upon confirmation. Important to
+send a message prior to the call to ask about
+preferred schedule and another message to confirm
+and remind of the upcoming call.
+Repeatedly thank participants making frequent submission and sustain dialogue by
+querying any interesting topics that arise.
+Researchers may also prompt on “safe topics,” such as weather and food (depending
+on what is culturally appropriate) to initiate dialogue. These topics may also be used
+to nudge non-responsive participants.
+Effective in eliciting information about daily activities, as
+well as sustaining relationships via the platform.
+Mendoza et al.
+5
+
+medication, having check-ups and frequent blood pressure
+monitoring (data not shown). Because the study was restricted
+only to participants aged 30 or above from low-income house-
+holds, we were unable to assess whether those from richer
+households or younger participants would be more receptive.
+Also, we initially invited a balanced sample by age group and
+sex; however, women and older participants were more likely
+to agree as they were more likely to be at home. Men often
+work away from home for extended periods and were less
+likely to agree to participate.
+Participants’ preferred mode of mobile communication (e.g.,
+text message vs. phone call) also seemed to affect their engage-
+ment with the digital diaries. A final, important reason for a
+lower-than-expected level of sustained engagement, as revealed
+by the participants and despite the strategies enumerated in
+Table 2, relates to the asymptomatic nature of hypertension.
+As participants may feel well most of the time, they may not
+see the need to engage with the platform, and it is only when
+experiencing symptoms that they associate with hypertension
+(e.g., headache, nape pain, fatigue) that they submit diary entries.
+Types of Data Collected
+The textual information submitted fell into six broad typolo-
+gies: (1) biomedical information about hypertension, (2) per-
+ceptions about hypertension, (3) health concerns other than
+hypertension, (4) key events related to their care pathway, (5)
+barriers to sending diary entries, and (6) requests for medical
+consultations. Table 4 provides illustrative quotes for each
+typology.
+Our objective was to collect in-depth patient narratives.
+However, most of the entries were limited to participants’
+symptomatology, blood pressure readings, and laboratory test
+results, including cholesterol and blood sugar levels. We had
+asked them to share their experiences of managing their hyper-
+tension, while not imposing our views on what was important,
+but our open-ended manner seemed to have been interpreted by
+the participants as inviting them to tell us about their medical
+status rather than talking about how they felt about the man-
+agement of their condition in the context of their daily life.
+The flexibility in our approach may also explain the entries
+about other health-related matters and why some participants
+asked for medical advice through the platform, despite being
+informed that researchers could not provide such advice.
+Occasionally, the digital diary was able to capture key
+events in the pathway as they happened in near real-time,
+including the stopping of medication and seeking care. Elicit-
+ing more about the reasons and motivations for such decisions
+typically required calling the participants. As described above
+and in Table 2, this was an effective approach and necessary in
+cases where researchers had to ask many questions to generate
+detailed narratives that participants may otherwise find diffi-
+cult to reflect on and covey via text messages. Some of these
+themes were followed up in greater depth during a second face-
+to-face interview. As illustrated in Table 4, Participant 36
+decided to shift to an alternative treatment and stop taking
+medications. In her call log, she mentioned how “ . . . taking
+medicine can also be costly sometimes since it’s not always free
+at the [health] center. Another reason is that herbal treatment
+is more convenient because of my work. I don’t get to visit the
+[health] center during its operating hours.”
+Methodological Insights
+Strengths and Weaknesses of Digital Diaries via Mobile
+Technology
+A key strength of the digital diary method, also highlighted by
+other studies, is its ability to offer near real-time, two-way
+interaction with participants (Bolger et al., 2003; Garc´ıa
+et al., 2016). The instantaneous exchange offered by mobile
+devices allowed us to immediately monitor data quality, ask for
+elaborations and follow-up on developing issues. In other stud-
+ies, assessing data quality, including learning about the
+concerns of the participants about using the platform, if any,
+happened after diary data collection was completed (Bernays
+et al., 2019; Jacelon & Imperio, 2005). Assessing the accept-
+ability and appropriateness of maintaining digital diaries
+among the participants should also continue alongside assess-
+ments of data quality, given that participants’ enthusiasm might
+be tempered, and they might conceal their ambivalence in the
+research context (Bernays et al., 2019). The instant and two-
+way interaction with the digital diaries and phone calls also
+provided us the opportunity to check on participants, especially
+those who were infrequent or unresponsive users, to repeatedly
+confirm their interest.
+Nonetheless, there are also clear challenges. The method
+required more time and engagement from both participants and
+researchers than traditional diary approaches. Initially,
+researchers were meant to check submissions to the platform
+once or twice a month, but the initial lack of in-depth submis-
+sions meant that weekly checks were necessary. As mentioned
+above, phone calls were also used to elicit more detailed nar-
+ratives, but which required much proactive work from
+researchers. While the platform was designed with the ability
+to accept diary submissions in many forms, including SMS
+text, audio voicemail, photo and video message, and file audio
+messages, changes to the Philippine national telecommunica-
+tion network after the project commenced meant that it was not
+possible to receive formats other than SMS text. This highlights
+Table 3. Levels of Engagement Among Digital Diary Participants by
+Age and Sex.
+Sex
+Age
+Group
+Active
+Semi-Active
+Infrequent
+Urban
+Rural
+Urban
+Rural
+Urban
+Rural
+Female
+30–49
+0
+0
+2
+1
+5
+2
+50–70
+1
+2
+2
+3
+3
+5
+Male
+30–49
+0
+0
+0
+0
+1
+2
+50–70
+2
+1
+2
+1
+3
+2
+6
+International Journal of Qualitative Methods
+
+one important limitation of the digital diary approach: its
+dependence on local infrastructure, even if designed to be com-
+patible with basic mobile phones (i.e., not smart phones). There
+was also a disconnect between the study participants, Filipino
+researchers, and the UK-based application developers, who did
+not have the opportunity to test the software directly with the
+participants, and instead, did so by proxy via the research team.
+Having a dedicated platform for digital diaries that uses
+mobile communications technology also reduces the risk of
+losing data from devices malfunctioning or being misplaced
+(Bolger et al., 2003); however, data continuity and confidenti-
+ality are key issues with mobile phones. Some participants
+needed the help of younger family members to submit entries.
+There were also instances when entries were submitted after
+changing their mobile phone number or using a borrowed
+phone from a relative or a neighbor. While the platform is able
+to receive submissions from unregistered numbers, it was
+unable to link such entries automatically to the participant’s
+Table 4. Types of Data Generated From the Digital Diaries.
+Type of Data
+Illustrative Quotes (Translated by Local Researchers From Filipino to English)
+Biomedical information about hypertension
+Participant 01: Good pm [afternoon], I felt dizzy and I had my BP [blood pressure]
+checked. My blood pressure is 100 over 60.
+Participant 22: My BP today as of 11:26 am of September 13, 2019, is 120/79. Thank you.
+Participant 16: Good morning, ma’am. I had my cholesterol checked, and it is normal,
+the result is 147. FBS is 119, which is a bit higher and then I felt some chest pain.
+Perceptions about hypertension and reports about
+experiencing bodily symptoms
+Participant 18: Thank you for the mobile load. My BP is high again. Maybe due to the
+extreme heat. I wasn’t able to take my medication for a week because I wasn’t feeling
+anything ill but a while ago my nape is aching and my BP is 160/110.
+Participant 27: Good pm. Thank you for the mobile load. Right now I don’t get stressed
+that much and I drink my medication regularly every morning. Maybe that’s why my BP
+is 120/90.
+Participant 42: Thank you ma’am for the mobile load. My BP right now is normal but
+sometimes it goes up then it becomes normal again. Maybe it’s because of the weather.
+Thanks again.
+Other health-related concerns
+Participant02: Good evening, I feel okay right now but I have a mild cough and a runny
+nose. Probably just from the weather.
+Participant 05: Good evening. Apologies I wasn’t able to send texts. I was recovering
+from the flu. I feel better now.
+Participant 08: The other day I felt ill, but turns out it was just due to a lack of sleep.
+Key events related to their pathways of care
+reported near real-time
+Participant 14: Good morning. I went to the health center last week to submit my health
+profile to get free maintenance medication, but sad to tell you that the medicine they
+provided is not enough for monthly consumption.
+Participant 15: I don’t feel good right now. I am currently in x [Hospital] for my diabetes
+and high blood [pressure].
+Participant 31: Recently I stopped taking my maintenance medication. I feel okay. I have
+been taking my medication for three years now. As of now, it’s been a month since I’ve
+last taken my medication. I have been boiling herbs and upon drinking, I’ve been feeling
+pretty good and healthier.
+Participant 36: As of now, I haven’t been drinking medicine for a month. I shifted to
+drinking herbs and I feel better.
+Reasons for not sending entries
+Participant 01: Hi, sorry for not being able to text often. I’m using my niece’s phone. Do
+you have Facebook messenger? I would like to send a voice message.
+Participant 07: Good afternoon, I am one of the grandchildren of [name of the
+participant]. She said she is okay because she always has her BP checked, and her blood
+pressure is normal. She said if it’s okay to call you as a reply because she doesn’t text
+much because she can’t see very well.
+Participant 22: Hi sorry for not texting. My BP is doing okay. If there are any changes I’ll
+text you.
+Participant 32: Hello. Sorry for not being able to text often because I am busy with work
+and I told you before I am lazy with texting so I only use my phone when needed. About
+my high blood, it’s okay. Sorry again for not being able to send texts. Thanks.
+Asking for consultation
+Participant 16: Good morning. Yesterday after the interview I suddenly felt ill. What
+should I do? I often experience palpitations and chest pains.
+Participant28: It’s not bad to drink vitamins, right?
+Participant 42: Hi good pm. The weather right now is very hot and it’s causing me a
+headache. I will have my BP checked later. I just want to ask if I can drink my medicine
+once my BP result is high even if I already took one this morning? Thank you.
+Mendoza et al.
+7
+
+profile, requiring additional work from researchers to rectify.
+Even when participants reported phone number changes to the
+research team, the process of re-registering led to some delays
+and breaks in the continuity of submissions. A study using
+mobile phones to promote adherence among tuberculosis
+patients in the Philippines found that their participants fre-
+quently changed their numbers as it is cheap and easy to do
+(Alejandria et al., 2009).
+Shared ownership of mobile devices within households, a
+phenomenon already noted among the urban poor in the
+Philippines (Portus, 2008), was another factor that affected the
+frequency and continuity of diary submissions in cases where
+spouses working outside the home would take the phone from
+the participant during the day. A further unanticipated problem
+was the frequent use of abbreviations in the SMS text messages
+submitted, which the integrated automatic translation function
+was often unable to recognize. This added further work for
+researchers who manually translated these instances from
+Filipino to English.
+While the platform increased the workload for the research-
+ers in the short term, it did prove useful as an efficient means of
+storing, managing and analyzing participant data in multiple
+formats (i.e., text/audio entries, interview notes). Our experi-
+ence was consistent with previous studies that found digital
+diaries to be a useful component of a suite of methods, rather
+than as self-standing (Bernays et al., 2019; Gibson et al., 2013;
+Herron et al., 2019). In our study, the digital diaries comple-
+mented the in-depth interviews well as we were able to follow
+up on themes that emerged from initial interviews and under-
+take highly personalized follow-up interviews informed by
+diary data. Data generated through digital diaries do, however,
+add to the complexity of analysis (Coxon, 1994). Each entry
+must be seen as a sequential element in an illness narrative,
+rather than a collection of distinct messages. Information on the
+illness pathway must also be juxtaposed against events in the
+participants’ life and changes in the local context. Using digital
+diaries via mobile phone was also an efficient way to maintain
+researcher links with participants and minimize attrition rates
+in longitudinal health research. After a year, we were able to
+reach 31 out of the 40 participants for a follow-up interview.
+Lessons for Future Research
+Our experience with digital diaries offers several lessons for
+those considering this approach. The first concerns the nature
+of the condition being studied. In our study, the fact that hyper-
+tension was not perceived to be a serious and/or chronic con-
+dition requiring constant attention, partly due to local
+conceptions of the illness (Lasco et al., 2020), may have
+resulted in low levels of engagement. Nonetheless, for situa-
+tions or conditions that do have a major impact on the day-to-
+day experiences of participants, digital diaries may provide
+promising insights from individuals as they deal with sympto-
+matic episodes, chronic pain, stress, or discrimination
+(Alaszewski, 2006; Bernays et al., 2014; Furness & Garrud,
+2010; Hensel et al., 2012; Herron et al., 2019; Sargeant &
+Gross, 2011). The experiences of OOR using digital diaries
+in different settings are interesting, but insufficiently documen-
+ted. For example, in the UK, digital diaries worked particularly
+well for people coping with the early stages of dementia and its
+associated stigma. These participants used the platform exten-
+sively and the frequent entries received provided rich data
+(Woodall et al., 2016). But in contrast, for our participants
+having hypertension did not profoundly interfere with their
+daily lives, thereby precipitating fewer opportunities for reflec-
+tion and reducing the insights that might be communicated.
+The minimal attention that our participants dedicate to hyper-
+tension care because of its non-disruptive nature might be the
+major reason for the lower-than-expected levels of engage-
+ment, rather than any lack of interest, commitment or capabil-
+ity, which are usually considered barriers to using diaries for
+qualitative research (Bolger et al., 2003; Hyers, 2018). Thus,
+our experience suggests that digital diaries may not be suited to
+the study of all chronic health conditions.
+A second lesson is that designing and using digital platforms
+for data collection requires an extensive process of
+co-production, involving software developers, researchers,
+study participants, and end users—which was particularly chal-
+lenging given the international composition of our team.
+Although the research team had a deep understanding of the
+health systems in the study sites, a prior emic understanding of
+how participants engage with mobile technology and why
+would have helped to fine-tune the strategies used by research-
+ers to engage, motivate and probe participants (Bolger et al.,
+2003; Hyers, 2018), as would have a better understanding of
+how people communicate about their disease, what they want
+to share, and when (Garc´ıa et al., 2016; Gibson, 2005).
+For example, co-production could have revealed important
+design considerations, such as the preference for different types
+of entries for different issues (e.g., SMS for factual informa-
+tion, and audio for evolving or emotive issues); and the strong
+preference some users had for using voice messages via Face-
+book messenger, despite the widespread use of text messaging.
+Notwithstanding, researchers in the Philippines expended con-
+siderable effort explaining the platform to participants, provid-
+ing continuous support and adapting processes, which all
+proved essential to successful implementation.
+Co-production is also critical for ensuring that digitally
+mediated diaries are culturally appropriate. Diaries were under-
+stood and expected to contain entries made by a single indi-
+vidual (Coxon, 1994), a view we held at the inception of our
+research. However, our early data collection experience
+revealed that mobile phones are often treated as a shared house-
+hold resource in low-income households, and some participants
+also relied on family members to help use them. In some ways,
+this shared ownership facilitated participation, as in our study;
+but it also raises questions around privacy and confidentiality
+that must be appropriately considered in the study design. Also
+as described above, participants may unexpectedly change their
+mobile phone numbers during the year. Thus, protocols must be
+in place to address how such changes are handled to maintain
+contact, data continuity (i.e., with previous diary submission),
+8
+International Journal of Qualitative Methods
+
+and the quality of data, especially if digital diaries are to be
+implemented at a larger scale.
+Finally, balancing the need to elicit quality data against the
+burdening of participants and researchers is an important ethi-
+cal concern, which was also highlighted by earlier diary studies
+(Bolger et al., 2003; Ross et al., 1994; Stopka et al., 2004).
+Despite the added value of being able to conduct prompt qual-
+ity checks through dialogue between researchers and partici-
+pants using mobile phones, it is also important not to contact
+them too frequently and seek excessive clarification.
+The demands on participants’ time are much higher for digital
+diaries than when using other qualitative research methods,
+such as interviews and focused group discussions that last for
+a specified time. Importantly, diary methods seek to shift the
+focus to participants as data creators, giving them autonomy
+over they share and how often, and control over the flow of
+dialogue—including the decision not to respond at times
+(Corti, 1993). It is also crucial to determine which groups are
+best studied to use this method. The participants who engaged
+more actively were ones who tended to follow through with
+their treatment. Thus, digital diaries could potentially exclude
+those facing more challenging health and social situations (e.g.,
+unemployment and lack of family support), or who intermit-
+tently access treatment or follow-up within the health system.
+Even some of the participants who were initially eager were
+less active later on as their life circumstances changed. In the
+future, more attention should be spent on recruitment, briefing
+and supporting all participants throughout the period of
+engagement.
+Conclusion
+Digital diaries via a mobile communication platform appear to
+be a promising means of collecting real-time information and
+following people with complex chronic conditions. In particu-
+lar, the ability to maintain two-way interaction between parti-
+cipants and researchers offers the potential to enhance the
+quality of data obtained over more traditional diary methods,
+and can complement in-depth interviews to capture the
+dynamic experiences of patients with a chronic condition like
+hypertension. However, creating “digital solutions” for data
+collection is not enough, and such tools must be appropriate
+to the type of participant, their health condition, and the infor-
+mation sought. Motivating participants to engage with
+technology-based research methods is a key challenge, and
+preliminary work, including co-production to understand par-
+ticipants’ preferences, is critical. Researchers also must be
+given the requisite training and time to maximize the value
+of the method, using it as one part of an array of methods that
+elicit different dimensions of patient experiences and behavior
+in the context of their everyday lives.
+Authors’ Note
+Portion of this article was presented at the 7th International Jerusalem
+Conference on Health Policy on September 15, 2019 in Jerusalem,
+Israel on the topic, “New Challenges and Threats in the Age of
+Innovation.” The funder had no role in data collection, interpretation
+and reporting.
+Acknowledgment
+The authors would like to thank the research participants, as well as
+the Wellcome Trust/Newton Fund-MRC Humanities & Social Science
+Collaborative Award scheme for providing funding for this research.
+Ethics Approval
+The London School of Hygiene and Tropical Medicine Observational
+Research Ethics Committee and the University of the Philippines
+Manila Research Ethics Board Panel 1 (Ref: 2017-481-01).
+Declaration of Conflicting Interests
+The author(s) declared the following potential conflicts of interest
+with respect to the research, authorship, and/or publication of this
+article: Lia M. Palileo-Villanueva has been and/or is currently
+involved in clinical trials of antihypertensive medications that receive
+some funding from the industry.
+Funding
+The author(s) disclosed receipt of the following financial support for
+the research, authorship and publication of this article: This study was
+supported by a grant from the Wellcome Trust/Newton Fund-MRC
+Humanities & Social Science Collaborative Award scheme (200346/
+Z/15/Z).
+ORCID iD
+Jhaki Mendoza
+https://orcid.org/0000-0002-8063-290X
+Arianna Amit
+https://orcid.org/0000-0003-4571-400X
+Original Protocol for the Study
+Palafox B, Seguin ML, McKee M, Dans AL, Yusoff K, Candari C,
+Idris, K, Ismail JR, Krauss SE, Lasco G, Majid FA, Palileo-Villanueva
+LM, Razak AA, Renedo A, Balabanova D. The Responsive and Equi-
+table Health Systems—Partnership on Non-Communicable Diseases
+(RESPOND) study: A mixed-methods, longitudinal, observational
+study on treatment seeking for hypertension in Malaysia and the Phi-
+lippines. BMJ Open 2018; 8: e024000.
+Supplemental Material
+Supplemental material for this article is available online.
+References
+Alaszewski, A. (2006). Using diaries for social research. Sage.
+Albino, S., Tabb, K.M., Requena, D., Egoavil, M.,Pineros-Leano, M.F.,
+Zunt, J. R., & Garcia, P. J. (2014). Perceptions and acceptability of
+short message services technology to improve treatment adherence
+amongst tuberculosis patients in Peru: A focus group study. PLoS
+One, 9(5), e95770. https://doi.org/10.1371/journal.pone.0095770
+Alejandria, M. M., Amarillo, M. L. E., & Lansang, M. A. D. (2009).
+The accessibility and utilization of mobile phones among TB
+patients: A feasibility survey for short messaging service (SMS)
+as a strategy to improve adherence to TB services. Acta Medica
+Philippina, 43(4), 10–14.
+Bartlett, R. (2012). Modifying the diary interview method to research
+the lives of people with dementia. Qualitative Health Research,
+22(12), 1717–1726. https://doi.org/10.1177/1049732312462240
+Mendoza et al.
+9
+
+Bastawrous, A., & Armstrong, M. J. (2013). Mobile health use in low-
+and high-income countries: An overview of the peer-reviewed
+literature. Journal of the Royal Society of Medicine, 106(4),
+130–142. https://doi.org/10.1177/0141076812472620
+Bernays, S., Paparini, S., Namukwaya, S., & Seeley, J. (2019). A
+failed method? Reflections on using audio diaries in Uganda with
+young people growing up with HIV in the BREATHER trial. Qua-
+litative Health Research, 29(5), 719–730. https://doi.org/10.1177/
+1049732318813534
+Bernays, S., Rhodes, T., & Jankovic Terzic, K. (2014). Embodied
+accounts of HIV and hope: Using audio diaries with interviews.
+Qualitative Health Research, 24(5), 629–640. https://doi.org/10.
+1177/1049732314528812
+Bolger, N., Davis, A., & Rafaeli, E. (2003). Diary methods: Capturing
+life as it lived. Annual Reviews in Psychology, 54, 579–616
+Brathwaite, R., Hutchinson, E., McKee, M., Palafox, B., & Balaba-
+nova, D. (2020). The long and winding road: A systematic litera-
+ture review conceptualising pathways for hypertension care and
+control in low- and middle-income countries. International Jour-
+nal of Health Policy and Management. https://doi.org/10.34172/
+ijhpm.2020.105
+Buchwald, D., Schantz-Laursen, B., & Delmar, C. (2009). Video diary
+data collection in research with children: An alternative method.
+International Journal of Qualitative Methods, 8(1), 12–20.
+Capistrano, E. P. (2013). Investigating product involvement issues for
+mobile phone services: A study of Filipino mobile phone users.
+Philippine Management Review, 20, 1-16.
+Celdran, D. (2002). The Philippines: SMS and citizenship. Develop-
+ment Dialogue, 1, 91–103.
+Chow, C. K., Teo, K. K., Rangarajan, S., Islam, S., Gupta, R., Ave-
+zum, A., Bahonar, A., Chifamba, J., Dagenais, G., Diaz, R., Kazmi,
+K., Lanas, F., Wei, L., Lopez-Jaramillo, P., Fanghong, L., Ismail,
+N. H., Puoane, T., Rosengren, A., Szuba, A., . . . Yusuf, S. (2013).
+Prevalence, awareness, treatment, and control of hypertension in
+rural and urban communities in high-, middle-, and low-income
+countries. JAMA, 310(9), 959–968. https://doi.org/10.1001/jama.
+2013.184182
+Corti, L. (1993). Social research update 2: Using diaries in social
+research. Retrieved August 10, 2020, from http://sru.soc.surrey.ac.
+uk/SRU2.html.
+Coxon, A. P. (1994). Diaries and sexual behaviour: The use of sexual
+diaries as method and substance in researching gay men’s response
+to HIV/AIDS. In M. Boulton (Ed.), Social aspects of AIDS. Chal-
+lenge and innovation: Methodological advances in social research
+on HIV/AIDS (pp. 125–148). Taylor & Francis.
+Crankshaw, T., Corless, I. B., Giddy, J., Nicholas, P. K., Eichbaum, Q.,
+& Butler, L. M. (2010). Exploring the patterns of use and the fea-
+sibility of using cellular phones for clinic appointment reminders
+and adherence messages in an antiretroviral treatment clinic,
+Durban, South Africa. AIDS Patient Care STDS, 24(11), 729–734.
+https://doi.org/10.1089/apc.2010.0146
+de Jongh, T., Gurol-Urganci, I., Vodopivec-Jamsek, V., Car, J., &
+Atun, R. (2012). Mobile phone messaging for facilitating self-man-
+agement of long-term illnesses. Cochrane Database of Systematic
+Reviews, (12). https://doi.org/10.1002/14651858.CD007459.pub2
+Finlay, L. (2008). Reflexivity: A practical guide for researchers in
+health and social sciences. Wiley
+Free, C., Phillips, G., Galli, L., Watson, L., Felix, L., Edwards, P.,
+Patel, V., & Haines, A. (2013). The effectiveness of mobile-health
+technology-based health behaviour change or disease management
+interventions for health care consumers: A systematic review.
+PLoS Medicine, 10(1), e1001362. https://doi.org/10.1371/journal.
+pmed.1001362
+Furness, P. J., & Garrud, P. (2010). Adaptation after facial surgery:
+Using the diary as a research tool. Qualitative Health Research,
+20(2), 262–272. https://doi.org/10.1177/1049732309357571
+Garc´ıa, B., Welford, J., & Smith, B. (2016). Using a smartphone
+app in qualitative research: Tthe good, the bad and the ugly.
+Qualitative Research, 16(5), 508–525. https://doi.org/10.1177/
+1468794115593335
+Gibson, B. E. (2005). Co-producing video diaries: The presence of the
+“absent” researcher. International Journal of Qualitative Methods,
+4(4), 34–43.
+Gibson, B. E., Mistry, B., Smith, B., Yoshida, K. K., Abbott, D., Lindsay,
+S., & Hamdani, Y. (2013). The integrated use of audio diaries, photo-
+graphy, and interviews in research with disabled young men. Inter-
+national Journal of Qualitative Methods, 12(1), 382–402.
+Griffiths, H., & Jordan, S. (1998). Thinking of the future and walking
+back to normal: An exploratory study of patients’ experiences
+during recovery from lower limb fracture. Journal of Advanced
+Nursing, 28(6), 1276–1288. https://doi.org/10.1046/j.1365-2648.
+1998.00847.x
+Gurol-Urganci, I., de Jongh, T., Vodopivec-Jamsek, V., Atun, R., &
+Car, J. (2013). Mobile phone messaging reminders for attendance
+at healthcare appointments. Cochrane Database of Systematic
+Reviews, (12). https://doi.org/10.1002/14651858.CD007458.pub3
+Hensel, D. J., Fortenberry, J. D., Harezlak, J., & Craig, D. (2012). The
+feasibility of cell phone based electronic diaries for STI/HIV
+research. BMC Medical Research Methodology, 12, 75. https://
+doi.org/10.1186/1471-2288-12-75
+Herron, R., Dansereau, L., Wrathall, M., Funk, L., & Spencer, D.
+(2019). Using a flexible diary method rigorously and sensitively
+with family carers. Qualitative Health Research, 29(7),
+1004–1015. https://doi.org/10.1177/1049732318816081
+Horvath, T., Azman, H., Kennedy, G. E., & Rutherford, G. W. (2012).
+Mobile phone text messaging for promoting adherence to antire-
+troviral therapy in patients with HIV infection. Cochrane Database
+of Systematic Reviews, (3). https://doi.org/10.1002/14651858.
+CD009756
+Hyers, L. (2018). Diary methods: Understanding qualitative research.
+Oxford University Press.
+Hymes, D. H. (1974). Foundations in sociolingustics: An ethno-
+graphic approach. University of Pennsylvania Press.
+Jacelon, C., & Imperio, K. (2005). Patient diaries as a source of data in
+research with older adult. Qualitative Health Research, 15(7),
+991–997.
+Jones, A., & Woolley, J. (2014). The e-mail diary: A promising
+research tool for the 21st century? Qualitative Health Research,
+15(6), 705–721
+Jones, R. K. (2000). The unsolicited diary as a qualitative research tool
+for advanced research capacity in the field of health and illness.
+10
+International Journal of Qualitative Methods
+
+Qualitative Health Research, 10(4), 555–567. https://doi.org/10.
+1177/104973200129118543
+Keleher, H. M., & Verrinder, G. K. (2003). Health diaries in a rural
+Australian study. Qualitative Health Research, 13(3), 435–443.
+https://doi.org/10.1177/1049732302250342
+Khatib, R., Schwalm, J. D., Yusuf, S., Haynes, R. B., McKee, M.,
+Khan, M., & Nieuwlaat, R. (2014). Patient and healthcare provider
+barriers to hypertension awareness, treatment and follow up: A
+systematic review and meta-analysis of qualitative and quantitative
+studies. PLoS One, 9(1), e84238. https://doi.org/10.1371/journal.
+pone.0084238
+Lallana, E. C. (2004). SMS in business and government in the Phi-
+lippines. ICT4D Monograph Series.
+Lasco, G., Mendoza, J., Renedo, A., Seguin, M. L., Palafox, B., Pali-
+leo-Villanueva, L. M., Amit, A., Dans, A., Balabanova, D., &
+McKee, M. (2020). Nasa Dugo (‘It’s in the blood’): Lay concep-
+tions of hypertension in the Philippines. BMJ Global Health, 5(7).
+https://doi.org/10.1136/bmjgh-2020-002295
+Librero, F., Ramos, A. J., Ranga, A. I., Trin˜ona, J., & Lambert, D.
+(2007). Uses of the cell phone for education in the Philippines and
+Mongolia. Distance Education, 28(2), 231-244.
+Maimaris, W., Paty, J., Perel, P., Legido-Quigley, H., Balabanova, D.,
+Nieuwlaat, R., & McKee, M. (2013). The Influence of health sys-
+tems on hypertension awareness, treatment, and control: A sys-
+tematic literature review. PLoS Medicine, 10(7), e1001490.
+https://doi.org/10.1371/journal.pmed.1001490
+Miller, J. S., Pinnington, M. A., & Stanley, I. M. (1999). The early
+stages of low back pain: A pilot study of patient diaries as a source
+of data. Family Practice, 16(4), 395–401. https://doi.org/10.1093/
+fampra/16.4.395
+Milligan, C., Bingley, A., & Gatrell, A. (2005). Digging deep: Using
+diary techniques to explore the place of health and well-being
+amongst older people. Social Science & Medicine, 61(9),
+1882–1892. https://doi.org/10.1016/j.socscimed.2005.04.002
+OnOurRadar. (2015). Our tech—On Our Radar. http://www.onourra
+dar.org/our-tech/
+Otieno, G., Githinji, S., Jones, C., Snow, R. W., Talisuna, A., &
+Zurovac, D. (2014). The feasibility, patterns of use and acceptabil-
+ity of using mobile phone text-messaging to improve treatment
+adherence and post-treatment review of children with uncompli-
+cated malaria in Western Kenya. Malaria Journal, 13, 44. https://
+doi.org/10.1186/1475-2875-13-44
+Palafox, B., Seguin, M. L., McKee, M., Dans, A. L., Yusoff, K., Can-
+dari, C. J., Idris, K., Ismail, J. R., Krauss, S., Lasco, G., Majid, F. A.,
+Palileo-Villanueva, L., Razak, A. A., Renedo, A., & Balabanova, D.
+(2018). Responsive and Equitable Health Systems-Partnership on
+Non-Communicable Diseases (RESPOND) study: A mixed-
+methods, longitudinal, observational study on treatment seeking for
+hypertension in Malaysia and the Philippines. BMJ Open, 8(7),
+e024000. https://doi.org/10.1136/bmjopen-2018-024000
+Palileo-Villanueva, L. M. (2017). Effectiveness of SMS text remin-
+ders to improve blood pressure among patients with hypertension.
+https://clinicaltrials.gov/ct2/show/NCT01255436
+Pertierra, R. (2005). Mobile phones, identity and discursive intimacy.
+Human Technology, 1(1), 23-44.
+Portus, L. M. (2008). How the urban poor acquire and give meaning to
+the mobile phone. In J. Katz (Ed.), Handbook of mobile communi-
+cation studies (pp. 105–118). MIT Press.
+Reis, H. T. (1994). Domains of experience: Investigating relationship
+processes from three perspectives. In R. G. R. Erber (Ed.), Theore-
+tical frameworks in personal relationships (pp. 87–110). Erlbaum.
+Ross, M. M., Rideout, E. M., & Carson, M. M. (1994). The use of the
+diary as a data collection technique. Western Journal of Nursing
+Research, 16(4), 414–425.
+Sargeant, S., & Gross, H. (2011). Young people learning to live with
+inflammatory bowel disease: Working with an “unclosed” diary.
+Qualitative Health Research, 21(10), 1360–1370. https://doi.org/
+10.1177/1049732311407211
+Stopka, T. J., Springer, K. W., Khoshnood, K., Shaw, S., & Singer, M.
+(2004). Writing about risk: Use of daily diaries in understanding
+drug-user risk behaviors. AIDS and Behavior, 8(1), 73–85. https://
+doi.org/10.1023/b:aibe.0000017527.25533.f4
+Strauss, A., & Corbin, J. (1994). Grounded theory methodology: An
+overview. In N. K. Denzin & Y. S. Lincoln (Eds.), Handbook of
+qualitative research (pp. 273–285). Sage.
+Temple, B., Edwards, R., & Alexander, C. (2006). Grasping at con-
+text: Cross language qualitative research as secondary qualitative
+data analysis [46 paragraphs]. Forum Qualitative Sozialforschung /
+Forum: Qualitative Social Research, 7(4), Article 10. http://nbn-
+resolving.de/urn:nbn:de:0114-fqs0604107
+Thomas, D. R. (2006). A general inductive approach for analyzing
+qualitative evaluation data. American Journal of Evaluation, 27(2),
+237–246. https://doi.org/10.1177/1098214005283748
+Thompson, M.,& Oelker, A.(2013). Use of participant-generatedphoto-
+graphs versus time use diaries as a method of qualitative data collec-
+tion. International Journal of Qualitative Methods, 12(1), 624–637.
+We Are Social. (2020). Global Digital Report 2019. https://weareso
+cial.com/global-digital-report-2019:
+Whittaker, R., McRobbie, H., Bullen, C., Rodgers, A., Gu, Y., & Dob-
+son, R. (2019). Mobile phone text messaging and app-based inter-
+ventions for smoking cessation. Cochrane Database of Systematic
+Reviews, (10). https://doi.org/10.1002/14651858.CD006611.pub5
+Woodall, J. S. C., Kinsella, K., & Bunyan, A. M. (2016). An indepen-
+dent evaluation of ‘Dementia Diaries’. https://dementiadiaries.org/
+api/wp-content/uploads/2016/09/Dementia-Diaries-Final-Report-
+September-2016.pdf
+World Bank. (2016). World development report 2016: Digital divi-
+dends. http://www.worldbank.org/en/publication/wdr2016
+The World Bank. (2020). World Bank open data. Retrieved December
+6, 2019, from https://data.worldbank.org/indicator/IT.CEL.SETS.
+P2?locations¼PH
+Mendoza et al.
+11

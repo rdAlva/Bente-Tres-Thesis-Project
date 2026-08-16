@@ -1,0 +1,3075 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+10-17-2020 
+Global Burden of 369 Diseases and Injuries in 204 Countries and 
+Global Burden of 369 Diseases and Injuries in 204 Countries and 
+Territories, 1990–2019: A Systematic Analysis for the Global 
+Territories, 1990–2019: A Systematic Analysis for the Global 
+Burden of Disease Study 2019 
+Burden of Disease Study 2019 
+Theo Vos 
+University of Washington 
+Christopher J L Murray 
+University of Washington 
+Arianna Maever L. Amit 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, aamit@ateneo.edu 
+Veincent Christian F. Pepito 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, vpepito@ateneo.edu 
+GBD 2019 Diseases and Injuries Collaborators 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Demography, Population, and Ecology Commons, Diseases Commons, and the Public 
+Health Commons 
+Custom Citation 
+Custom Citation 
+GBD 2019 Diseases and Injuries Collaborators. (2020). Global burden of 369 diseases and injuries in 204 
+countries and territories, 1990–2019: A systematic analysis for the Global Burden of Disease Study 2019. 
+The Lancet, 396(10258), 1204–1222. https://doi.org/10.1016/S0140-6736(20)30925-9 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact research@ateneo.edu. 
+
+Authors 
+Authors 
+Theo Vos, Christopher J L Murray, Arianna Maever L. Amit, Veincent Christian F. Pepito, GBD 2019 
+Diseases and Injuries Collaborators, and 1026 co-authors 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/asmph-pubs/62 
+
+Global Health Metrics
+1204	
+www.thelancet.com   Vol 396   October 17, 2020
+Global burden of 369 diseases and injuries in 204 countries 
+and territories, 1990–2019: a systematic analysis for the 
+Global Burden of Disease Study 2019
+GBD 2019 Diseases and Injuries Collaborators*
+Summary
+Background In an era of shifting global agendas and expanded emphasis on non-communicable diseases and injuries 
+along with communicable diseases, sound evidence on trends by cause at the national level is essential. The Global 
+Burden of Diseases, Injuries, and Risk Factors Study (GBD) provides a systematic scientific assessment of published, 
+publicly available, and contributed data on incidence, prevalence, and mortality for a mutually exclusive and 
+collectively exhaustive list of diseases and injuries.
+Methods GBD estimates incidence, prevalence, mortality, years of life lost (YLLs), years lived with disability (YLDs), and 
+disability-adjusted life-years (DALYs) due to 369 diseases and injuries, for two sexes, and for 204 countries and territories. 
+Input data were extracted from censuses, household surveys, civil registration and vital statistics, disease registries, 
+health service use, air pollution monitors, satellite imaging, disease notifications, and other sources. Cause-specific 
+death rates and cause fractions were calculated using the Cause of Death Ensemble model and spatiotemporal Gaussian 
+process regression. Cause-specific deaths were adjusted to match the total all-cause deaths calculated as part of the GBD 
+population, fertility, and mortality estimates. Deaths were multiplied by standard life expectancy at each age to calculate 
+YLLs. A Bayesian meta-regression modelling tool, DisMod-MR 2.1, was used to ensure consistency between incidence, 
+prevalence, remission, excess mortality, and cause-specific mortality for most causes. Prevalence estimates were 
+multiplied by disability weights for mutually exclusive sequelae of diseases and injuries to calculate YLDs. We considered 
+results in the context of the Socio-demographic Index (SDI), a composite indicator of income per capita, years of 
+schooling, and fertility rate in females younger than 25 years. Uncertainty intervals (UIs) were generated for every 
+metric using the 25th and 975th ordered 1000 draw values of the posterior distribution.
+Findings Global health has steadily improved over the past 30 years as measured by age-standardised DALY rates. After 
+taking into account population growth and ageing, the absolute number of DALYs has remained stable. Since 2010, the 
+pace of decline in global age-standardised DALY rates has accelerated in age groups younger than 50 years compared 
+with the 1990–2010 time period, with the greatest annualised rate of decline occurring in the 0–9-year age group. 
+Six infectious diseases were among the top ten causes of DALYs in children younger than 10 years in 2019: lower 
+respiratory infections (ranked second), diarrhoeal diseases (third), malaria (fifth), meningitis (sixth), whooping cough 
+(ninth), and sexually transmitted infections (which, in this age group, is fully accounted for by congenital syphilis; ranked 
+tenth). In adolescents aged 10–24 years, three injury causes were among the top causes of DALYs: road injuries (ranked 
+first), self-harm (third), and interpersonal violence (fifth). Five of the causes that were in the top ten for ages 10–24 years 
+were also in the top ten in the 25–49-year age group: road injuries (ranked first), HIV/AIDS (second), low back pain 
+(fourth), headache disorders (fifth), and depressive disorders (sixth). In 2019, ischaemic heart disease and stroke were the 
+top-ranked causes of DALYs in both the 50–74-year and 75-years-and-older age groups. Since 1990, there has been a 
+marked shift towards a greater proportion of burden due to YLDs from non-communicable diseases and injuries. 
+In 2019, there were 11 countries where non-communicable disease and injury YLDs constituted more than half of all 
+disease burden. Decreases in age-standardised DALY rates have accelerated over the past decade in countries at the lower 
+end of the SDI range, while improvements have started to stagnate or even reverse in countries with higher SDI.
+Interpretation As disability becomes an increasingly large component of disease burden and a larger component of 
+health expenditure, greater research and development investment is needed to identify new, more effective 
+intervention strategies. With a rapidly ageing global population, the demands on health services to deal with 
+disabling outcomes, which increase with age, will require policy makers to anticipate these changes. The mix of 
+universal and more geographically specific influences on health reinforces the need for regular reporting on 
+population health in detail and by underlying cause to help decision makers to identify success stories of disease 
+control to emulate, as well as opportunities to improve.
+Funding Bill & Melinda Gates Foundation.
+Copyright © 2020 The Author(s). Published by Elsevier Ltd. This is an Open Access article under the CC BY 4.0 license.
+Lancet 2020; 396: 1204–22
+This online publication has been 
+corrected. The corrected version 
+first appeared at thelancet.com 
+on October 23, 2020
+*For the list of Collaborators see 
+Viewpoint Lancet 2020; 
+396: 1135–59
+Correspondence to: 
+Prof Christopher J L Murray, 
+Institute for Health Metrics and 
+Evaluation, University of 
+Washington, Seattle, WA 98195, 
+USA 
+cjlm@uw.edu
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1205
+Introduction
+The Global Burden of Diseases, Injuries, and Risk Factors 
+Study (GBD) provides a systematic scientific assess­ment 
+of published, publicly available, and contributed data on 
+disease and injury incidence, prevalence, and mortality 
+for a mutually exclusive and collectively exhaustive list 
+of diseases and injuries.1–3 In an era of shifting global 
+agendas and expanded emphasis on non-communicable 
+diseases and injuries along with communicable diseases, 
+sound and up-to-date evidence on trends—both progress 
+and adverse patterns—by cause at the national level is 
+essential to reflect effects of public health policy and 
+medical care delivery.4–7
+GBD 2019 provides an opportunity to incorporate 
+newly available datasets, enhance method performance 
+and standardisation, and reflect changes in scientific 
+understanding. Since GBD 2017,1–3 no comprehensive 
+update of descriptive epidemiology levels and trends has 
+been released, to our knowledge. In this study, we 
+summarise GBD methods and present integrated results 
+on fatal and non-fatal outcomes for the GBD disease 
+and injury hierarchical cause list. GBD 2019 includes 
+estimation of numerous different models for disease and 
+injury outcomes. This Article provides a high-level over­
+view of our findings. Results are presented both broadly 
+and in detail for a selection of diseases, injuries, and 
+impairments in two-page summaries with a standard set 
+of tables and figures.
+Methods
+Overview
+The general approach to estimating causes of death and 
+disease incidence and prevalence for GBD 2019 is the 
+same as for GBD 2017.2,3 Appendix 1 provides details on 
+the methods used to model each disease and injury. 
+Here, we provide an overview of the methods, with an 
+Research in context
+Evidence before this study
+The Global Burden of Diseases, Injuries, and Risk Factors Study 
+(GBD) 2017 reported on incidence, prevalence, and mortality 
+from 359 diseases and injuries. Information on prevalence and 
+mortality was also analysed in terms of summary measures: 
+years of life lost (YLLs), years lived with disability (YLDs), 
+disability-adjusted life-years (DALYs), and healthy life 
+expectancy. GBD is the only comprehensive assessment 
+providing time trends for a mutually exclusive and collectively 
+exhaustive list of diseases and injuries. For the first time, 
+GBD 2017 also produced internally consistent estimates of 
+population, fertility, mortality, and migration by age, sex, 
+and year for 1950–2017. GBD 2017 also included subnational 
+assessments for 16 countries at administrative level 1 and for 
+local authorities in England.
+Added value of this study
+GBD 2019 updates and expands beyond GBD 2017 in ten ways. 
+(1) The number of countries for which subnational assessments 
+have been undertaken was expanded to include Italy, Nigeria, 
+Pakistan, the Philippines, and Poland. (2) 12 new causes were 
+added to the GBD modelling framework, including pulmonary 
+arterial hypertension, nine new sites of cancer, and two new 
+sites of osteoarthritis (hand and other joints). (3) For each 
+disease, the preferred or reference case definition or 
+measurement method was clearly defined and stored in a 
+database. For both risks and diseases, the statistical relationship 
+between the alternative and reference measurement method 
+was analysed using network meta-regression using only data 
+where two different approaches were measured in the same 
+location–time period. Although statistical cross-walking 
+between alternative and reference definitions and 
+measurement methods has been a feature in all GBD studies, 
+the approach in GBD 2019 was highly standardised and used 
+improved methods across diseases and risks. (4) Some prior 
+distributions used in DisMod-MR, the Bayesian meta-regression 
+tool used to simultaneously estimate incidence, prevalence, 
+remission, excess mortality, and cause-specific mortality, 
+were revised on the basis of simulation studies showing that 
+less informative priors helped to improve the coverage of 
+uncertainty intervals. (5) Redistribution algorithms for sepsis, 
+heart failure, pulmonary embolism, acute kidney injury, hepatic 
+failure, acute respiratory failure, pneumonitis, and five 
+intermediate causes in the central nervous system were revised 
+according to an analysis of 116 million deaths that were 
+attributed to multiple causes. (6) Processing of clinical 
+informatics data on hospital and clinic visits was revised to 
+better take into account differential access across locations to 
+health-care facilities. (7) To enhance the stability of models in 
+the presence of the addition of subnational data in different 
+GBD cycles, we adopted a set of standard locations for the 
+estimation of covariate effects in models. (8) 7333 national and 
+24 657 subnational vital registration systems, 16 984 published 
+studies, and 1654 household surveys were used in the analysis, 
+including many newly available data sources. (9) Results are 
+presented so as to integrate causes of death, incidence, 
+prevalence, YLDs, YLLs, and DALYs into a comprehensive 
+assessment of each disease and injury. (10) Closer technical 
+coordination with WHO has led to the addition of nine WHO 
+member states to the analysis and revisions of the analytical 
+approach for select diseases.
+Implications of all the available evidence
+GBD 2019 provides the most up-to-date assessment of the 
+descriptive epidemiology of a mutually exclusive and collectively 
+exhaustive list of diseases and injuries for 204 countries and 
+territories from 1990 to 2019. The comprehensive nature of the 
+assessment provides policy-relevant information on the trends 
+of major causes of burden globally, regionally, and by country or 
+territory.
+See Online for appendix 1
+
+Global Health Metrics
+1206	
+www.thelancet.com   Vol 396   October 17, 2020
+emphasis on the main methodology changes since 
+GBD 2017.
+For each iteration of GBD, the estimates for the whole 
+time series are updated on the basis of addition of new 
+data and change in methods where appropriate. Thus, 
+the GBD 2019 results supersede those from previous 
+rounds of GBD.
+GBD 2019 complies with the Guidelines for Accurate 
+and Transparent Health Estimates Reporting (GATHER) 
+statement (appendix 1 section 1.4).8 Analyses were com­
+pleted with Python version 3.6.2, Stata version 13, and 
+R version 3.5.0. Statistical code used for GBD estimation 
+is publicly available online.
+Geographical units, age groups, time periods, and cause 
+levels
+GBD 2019 estimated each epidemiological quantity of 
+interest—incidence, prevalence, mortality, years lived 
+with disability (YLDs), years of life lost (YLLs), and 
+disability-adjusted life-years (DALYs)—for 23 age 
+groups; males, females, and both sexes combined; and 
+204 countries and territories that were grouped into 
+21 regions and seven super-regions. For GBD 2019, 
+nine countries and territories (Cook Islands, Monaco, 
+San Marino, Nauru, Niue, Palau, Saint Kitts and Nevis, 
+Tokelau, and Tuvalu) were added, such that the GBD 
+location hierarchy now includes all WHO member 
+states. GBD 2019 includes subnational analyses for 
+Italy, Nigeria, Pakistan, the Philippines, and Poland, 
+and 16 countries previously estimated at subnational 
+levels (Brazil, China, Ethiopia, India, Indonesia, Iran, 
+Japan, Kenya, Mexico, New Zealand, Norway, Russia, 
+South Africa, Sweden, the UK, and the USA). All 
+subnational analyses are at the first level of admin­
+istrative organisation within each country except for 
+New Zealand (by Māori ethnicity), Sweden (by 
+Stockholm and non-Stockholm), the UK (by local gov­
+ernment authorities), and the Philippines (by province). 
+In this publication, we present subnational estimates 
+for Brazil, India, Indonesia, Japan, Kenya, Mexico, 
+Sweden, the UK, and the USA; given space constraints, 
+these results are presented in appendix 2. At the most 
+detailed spatial resolution, we generated estimates for 
+990 locations. The GBD diseases and injuries analytical 
+framework generated estimates for every year from 
+1990 to 2019.
+Diseases and injuries were organised into a levelled 
+cause hierarchy from the three broadest causes of death 
+and disability at Level 1 to the most specific causes at 
+Level 4. Within the three Level 1 causes—communicable, 
+maternal, neonatal, and nutritional diseases; non-com­mu­
+nicable diseases; and injuries—there are 22 Level 2 causes, 
+174 Level 3 causes, and 301 Level 4 causes (including 
+131 Level 3 causes that are not further disaggregated at 
+Level 4; see appendix 1 sections 3.4 and 4.12 for the full list 
+of causes). 364 total causes are non-fatal and 286 are fatal. 
+For GBD 2019, 12 new causes were added to the modelling 
+framework: pulmonary arterial hypertension, eye cancer, 
+soft tissue and other extraosseous sarcomas, malignant 
+neoplasm of bone and articular cartilage, and neuro­
+blastoma and other peripheral nervous cell tumours at 
+Level 3, and hepatoblastoma, Burkitt lymphoma, other 
+non-Hodgkin lymphoma, retinoblastoma, other eye can­
+cers, and two sites of osteoarthritis (hand and other joints) 
+at Level 4.
+Data
+The GBD estimation process is based on identifying 
+multiple relevant data sources for each disease or injury 
+including censuses, household surveys, civil registration 
+and vital statistics, disease registries, health service use, 
+air pollution monitors, satellite imaging, disease notifi­
+cations, and other sources. Each of these types of data are 
+identified from systematic review of published studies, 
+searches of government and international organisation 
+websites, published reports, primary data sources such as 
+the Demographic and Health Surveys, and contributions 
+of datasets by GBD collaborators. 86 249 sources were 
+used in this analysis, including 19 354 sources reporting 
+deaths, 31 499 reporting incidence, 19 773 reporting prev­
+alence, and 26 631 reporting other metrics. Each newly 
+identified and obtained data source is given a unique 
+identifier by a team of librarians and included in the 
+Global Health Data Exchange (GHDx). The GHDx makes 
+publicly available the metadata for each source included in 
+GBD as well as the data, where allowed by the data 
+provider. Readers can use the GHDx source tool to identify 
+which sources were used for estimating any disease or 
+injury outcome in any given location.
+Data processing
+A crucial step in the GBD analytical process is correcting 
+for known bias by redistributing deaths from unspecified 
+codes to more specific disease categories, and by adjusting 
+data with alternative case definitions or measurement 
+methods to the reference method. We highlight several 
+major changes in data processing that in some cases have 
+affected GBD results.
+Cause of death redistribution
+Vital registration with medical certification of cause of 
+death is a crucial resource for the GBD cause of death 
+analysis in many countries. Cause of death data obtained 
+using various revisions of the International Classification 
+of Diseases and Injuries (ICD)9 were mapped to the 
+GBD cause list. Many deaths, however, are assigned to 
+causes that cannot be the underlying cause of death 
+(eg, cardiopulmonary failure) or are inadequately speci­
+fied (eg, injury from undetermined intent). These deaths 
+were reassigned to the most probable underlying causes 
+of death as part of the data processing for GBD. 
+Redistribution algorithms can be divided into three 
+categories: proportionate redistribution, fixed proportion 
+redistribution based on published studies or expert 
+See Online for appendix 2
+For the GHDx see http://ghdx.
+healthdata.org
+For the statistical code see 
+http://ghdx.healthdata.org/gbd-
+2019/code
+For the GHDx source tool see 
+http://ghdx.healthdata.org/gbd-
+2019/data-input-sources
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1207
+judgment, or statistical algorithms. For GBD 2019, data 
+for 116 million deaths attributed to multiple causes were 
+analysed to produce more empirical redistribution algo­
+rithms for sepsis,10 heart failure, pulmonary embolism, 
+acute kidney injury, hepatic failure, acute respiratory 
+failure, pneumonitis, and five intermediate causes 
+(hydrocephalus, toxic encephalopathy, compres­sion of 
+brain, encephalopathy, and cerebral oedema) in the 
+central nervous system. To redistribute unspecified 
+injuries, we used a method similar to that of intermediate 
+cause redistribution, using the pattern of the nature of 
+injury codes in the causal chain where the ICD codes X59 
+(“exposure to unspecified factor”) and Y34 (“unspecified 
+event, undetermined intent”) and GBD injury causes 
+were the underlying cause of death. These new 
+algorithms led to important changes in the causes to 
+which these inter­mediate outcomes were redistributed. 
+Additionally, data on deaths from diabetes and stroke 
+lack the detail on subtype in many countries; we ran 
+regressions on vital registration data with at least 50% 
+of deaths coded specifically to type 1 or 2 diabetes and 
+ischaemic, haemorrhagic, or subarachnoid stroke to 
+predict deaths by these subtypes when these were coded 
+to unspecified diabetes or stroke.
+Correcting for non-reference case definitions or measurement 
+methods
+In previous cycles of GBD, data reported using alternative 
+case definitions or measurement methods were corrected 
+to the reference definition or measurement method 
+primarily as part of the Bayesian meta-regression models. 
+For example, in DisMod-MR, the population data were 
+simultaneously modelled as a function of country covar­
+iates for variation in true rates and as a function of 
+indicator variables capturing alternative measurement 
+methods. To enhance transparency and to standardise 
+and improve methods in GBD 2019, we estimated 
+correction factors for alternative case definitions or 
+measurement methods using network meta-regression, 
+including only data where two methods were assessed in 
+the same location–time period or in the exact same 
+population. This included validation studies where two 
+methods had been compared in populations that were 
+not necessarily random samples of the general popu­
+lation. Details on the correction factors from alternative 
+to reference measurement methods are provided in 
+appendix 1 (section 4.4.2).
+Clinical informatics
+Clinical informatics data include inpatient admissions, 
+outpatient (including general practitioner) visits, and 
+health insurance claims. Several data processing steps 
+were undertaken. Inpatient hospital data with a single 
+diagnosis only were adjusted to account for non-
+primary diagnoses as well as outpatient care. For each 
+GBD cause that used clinical data, ratios of non-primary 
+to primary diagnosis rates were extracted from claims 
+in the USA, Taiwan (province of China), New Zealand, 
+and the Philippines, as well as USA Healthcare Cost and 
+Utilization Project inpatient data. Ratios of outpatient to 
+inpatient care for each cause were extracted from claims 
+data from the USA and Taiwan (province of China). 
+The log of the ratios for each cause were modelled by 
+age and sex using MR-BRT (Meta-Regression-Bayesian 
+Regularised Trimmed), the Bayesian meta-regression 
+tool. To account for the incomplete health-care access in 
+populations where not every person with a disease or 
+injury would be accounted for in administrative clinical 
+records, we transformed the adjusted admission rates 
+using a scalar derived from the Healthcare Access and 
+Quality Index.11 We used this approach to produce 
+adjusted, standardised clinical data inputs. More details 
+are provided in appendix 1 (section 4.3).
+Modelling
+For most diseases and injuries, processed data are 
+modelled using standardised tools to generate estimates 
+of each quantity of interest by age, sex, location, and year. 
+There are three main standardised tools: Cause of Death 
+Ensemble model (CODEm), spatiotemporal Gaussian 
+process regression (ST-GPR), and DisMod-MR. Previous 
+publications2,3,12 and the appendix provide more details on 
+these general GBD methods. Briefly, CODEm is a highly 
+systematised tool to analyse cause of death data using an 
+ensemble of different modelling methods for rates or 
+cause fractions with varying choices of covariates that 
+perform best with out-of-sample predictive validity 
+testing. DisMod-MR is a Bayesian meta-regression tool 
+that allows evaluation of all available data on incidence, 
+prev­alence, remission, and mortality for a disease, 
+enforcing consistency between epidemiological para­
+meters. ST-GPR is a set of regression methods that 
+borrow strength between locations and over time for 
+single metrics of interest, such as risk factor exposure or 
+mortality rates. In addition, for select diseases, particularly 
+for rarer outcomes, alternative modelling strategies 
+have been dev­eloped, which are described in appendix 1 
+(section 3.2).
+In GBD 2019, we designated a set of standard locations 
+that included all countries and territories as well as 
+the subnational locations for Brazil, China, India, and 
+the USA. Coefficients of covariates in the three main 
+modelling tools were estimated for these standard 
+locations only—ie, we ignored data from subnational 
+locations other than for Brazil, China, India, and the USA 
+(appendix 1 section 1.1). Using this set of standard 
+locations will prevent changes in regression coefficients 
+from one GBD cycle to the next that are solely due to the 
+addition of new subnational units in the analysis that 
+might have lower quality data or small populations 
+(appendix 1 section 1.1). Changes to CODEm for GBD 2019 
+included the addition of count models to the model 
+ensemble for rarer causes. We also modified DisMod-MR 
+priors to effectively increase the out-of-sample coverage of 
+
+Global Health Metrics
+1208	
+www.thelancet.com   Vol 396   October 17, 2020
+uncertainty intervals (UIs) as assessed in simulation 
+testing (appendix 1 section 4.5).
+For the cause Alzheimer’s disease and other dementias, 
+we changed the method of addressing large variations 
+between locations and over time in the assignment of 
+dementia as the underlying cause of death. Based on 
+a systematic review of published cohort studies, we 
+estimated the relative risk of death in individuals with 
+dementia. We identified the proportion of excess deaths 
+in patients with dementia where dementia is the under­
+lying cause of death as opposed to a correlated risk factor 
+(appendix 1 section 2.6.2). We changed the strategy of 
+modelling deaths for acute hepatitis A, B, C, and E from 
+a natural history model relying on inpatient case fatality 
+rates to CODEm models after predicting type-specific 
+acute hepatitis deaths from vital registration data with 
+specified hepatitis type.
+DisMod-MR was used to estimate deaths from three 
+outcomes (dementia, Parkinson’s, and atrial fibrillation), 
+and to determine the proportions of deaths by underlying 
+aetiologies of cirrhosis, liver cancer, and chronic kidney 
+disease deaths.
+Socio-demographic Index, annual rate of change, and 
+data presentation
+The Socio-demographic Index (SDI) is a composite 
+indicator of a country’s lag-distributed income per 
+capita, average years of schooling, and the fertility rate in 
+females under the age of 25 years (appendix 1 section 6).13 
+For changes over time, we present annualised rates of 
+change as the difference in the natural log of the values 
+at the start and end of the time interval divided by the 
+number of years in the interval. We examine the 
+relationship between SDI and the annualised rate of 
+change in age-standardised DALY rates for all causes, 
+apart from HIV/AIDS, natural disasters, and war and 
+conflict, by country or territory, for the time periods 
+1990–2010 and 2010–19. We deliberately subtracted out 
+DALYs due to HIV/AIDS because their magnitude in 
+some parts of the world would have obscured the trends 
+in all other causes; we also subtracted out DALY rates 
+from natural disasters and war and conflict to avoid 
+trends in disease burden in some countries being 
+dominated by these sudden and dramatic changes. As a 
+measure of the epidemiological transition, we present 
+the ratio of YLDs due to non-communicable diseases 
+and injuries, and due to total burden in DALYs. We 
+present 95% UIs for every metric based on the 25th and 
+975th ordered values of 1000 draws of the posterior 
+distribution.
+Role of the funding source
+The funders of this study had no role in study design, 
+data collection, data analysis, data interpretation, or the 
+writing of the report. The corresponding author had full 
+access to the data in the study and final responsibility for 
+the decision to submit for publication.
+Results
+Global trends
+Between 1990 and 2019, the number of global DALYs 
+remained almost constant, but once the effects of 
+population growth and ageing were removed by con­
+verting counts to age-standardised rates, there were clear 
+improvements in overall health (figure 1). Over the past 
+decade, the pace of decline in global age-standardised 
+DALY rates accelerated in age groups younger than 
+50 years compared with the 1990–2010 time period 
+(table). The annualised rate of decline was greatest in the 
+0–9-year age group. In the population aged 50 years and 
+older, the rate of change was slower from 2010 to 2019 
+compared with the earlier time period.
+These general trends are made up of complex trends for 
+specific diseases and injuries. Overall trends in the number 
+of DALYs across the different age groups between 
+1990 and 2019 are driven by some key diseases and injuries 
+(figure 2). The ten most important drivers of increasing 
+burden (ie, the causes that had the largest absolute 
+increases in number of DALYs between 1990 and 2019) 
+include six causes that largely affect older adults (ischaemic 
+heart disease, diabetes, stroke, chronic kidney disease, 
+lung cancer, and age-related hearing loss), whereas the 
+other four causes (HIV/AIDS, other musculoskeletal 
+disorders, low back pain, and depressive disorders) are 
+common from teenage years into old age (figure 2). 
+Despite these ten conditions contributing the largest 
+number of additional DALYs over the 30-year period, only 
+HIV/AIDS, other musculoskeletal disorders, and diabetes 
+saw large increases in age-standardised DALY rates, with 
+an increase of 58·5% (95% UI 37·1–89·2) for HIV/AIDS, 
+30·7% (27·6–34·3) for other musculoskeletal disorders, 
+and 24·4% (18·5–29·7) for diabetes. The burden of 
+HIV/AIDS, however, peaked in 2004 and has dropped 
+substantially after the global scale-up of antiretroviral 
+treatment (ART). The changes in age-standardised rates 
+for chronic kidney disease, age-related hearing loss, and 
+Figure 1: Global DALYs and age-standardised DALY rates, 1990–2019
+Shaded sections indicate 95% uncertainty intervals. DALY=disability-adjusted 
+life-year.
+0
+1000
+2000
+DALY count (millions)
+Age-standardised DALY rate
+3000
+0
+10 000
+20 000
+30 000
+40 000
+50 000
+60 000
+1990
+2000
+2010
+2019
+Year
+Age-standardised DALY rate
+DALY count
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1209
+depressive disorders were small (figure 2). Substantial 
+declines in age-standardised rates were seen in ischaemic 
+heart disease (28·6%, 95% UI 24·2–33·3), stroke (35·2%, 
+30·5–40·5), and lung cancer (16·1%, 8·2–24·0).
+The ten most important contri­butors to declining 
+burden (ie, the causes that had the largest absolute 
+decreases in number of DALYs between 1990 and 2019) 
+include nine that predominantly affect children (lower 
+respir­atory infections, diarrhoeal diseases, neonatal dis­
+orders, measles, protein-energy malnutrition, congenital 
+birth defects, drowning, tetanus, and malaria), as well 
+as tuberculosis, which largely affects adults. All of 
+these causes with declining burden also had substantial 
+decreases in age-standardised DALY rates, ranging 
+from 32·6% (21·2–42·1) decline for neonatal disorders 
+to 90·4% (87·5–92·8) decline for measles, not just 
+decreases in the absolute number of DALYs due to 
+demographic changes (figure 2A). Although most of the 
+ten leading Level 3 causes of DALYs were the same for 
+both sexes in 2019, road injuries (ranked fourth for 
+males), cirrhosis (ninth), and lung cancer (tenth) were in 
+the top ten for males only, and were replaced by low back 
+pain (ranked sixth for females), gynaecological diseases 
+(ninth), and headache disorders (tenth) for females 
+(appendix 2 figure S5 and tables S2–5, S7, S8, S12, S13, 
+S16). Congenital defects were ranked tenth for both sexes 
+combined in 2019 but did not make the top ten for either 
+sex separately.
+The burden for children younger than 10 years declined 
+profoundly between 1990 and 2019, by 57·5% (95% UI 
+50·3–63·1). Key drivers of this progress included large 
+reductions in major infectious diseases affecting 
+children—namely, lower respiratory infections, diarrhoeal 
+diseases, and meningitis, each of which declined by 
+more than 60% between 1990 and 2019 (figure 2). In 2019, 
+neonatal disorders were the leading cause of burden in 
+this age group, accounting for 32·4% (30·7–34·1) of the 
+group’s global DALYs, increasing from 23·0% (22·0–24·1) 
+in 1990. Six infectious diseases were also among the 
+top ten causes of burden in children: lower respiratory 
+infections (ranked second), diarrhoeal diseases (third), 
+malaria (fifth), meningitis (sixth), whooping cough (ninth), 
+and sexually transmitted infections (which were fully 
+accounted for by congenital syphilis in this age group; 
+tenth). Congenital birth defects (ranked fourth) as well 
+as two nutritional disorders—dietary iron deficiency 
+(seventh) and protein-energy malnutrition (eighth)—
+completed the top ten. The percentage change in age-
+standardised DALY rates for eight of the ten leading 
+causes was large, ranging from a 35·4% (23·8–44·8) 
+decline for neonatal disorders to 78·3% (69·9–85·5) 
+decline for protein-energy malnutrition over the study 
+period. The decreases for the remaining two top-ten 
+causes, sexually transmitted infections and dietary iron 
+deficiency, were much more modest. Sub-Saharan Africa 
+experienced nearly half of the total DALYs (49·9% 
+[47·6–52·3]) for this age group in 2019.
+The change in disease burden in adolescents aged 
+10–24 years was much more modest (figure 2). DALYs 
+declined by 6·2% (95% UI 2·1–10·5) overall between 
+1990 and 2019. DALYs for non-communicable diseases 
+increased by 13·1% (9·5–16·3), whereas injuries declined 
+by 24·8% (19·7–29·3) and infectious diseases by 18·7% 
+(13·4–24·0). Three injury causes were among the top ten 
+causes of global DALYs in this age group in 2019: road 
+injuries (ranked first), self-harm (third), and interpersonal 
+violence (fifth; figure 2). Headache disor­ders, two mental 
+disorders (depression and anxiety), low back pain, dietary 
+iron deficiency, HIV/AIDS, and diarrhoeal disease were 
+the other causes in the top ten for adolescents. Among 
+the top ten causes in this age group, age-standardised 
+DALY rates for road injuries, self-harm, and diarrhoeal 
+diseases decreased by more than a third each between 
+1990 and 2019. As in the 0–9-year age group, the large 
+increase in burden due to HIV/AIDS in the 10–24-year age 
+group reflects a rapid increase in the first half of the study 
+period followed by a decline after the global scale-up of 
+ART; despite declining in recent years, the HIV/AIDs 
+burden has not yet returned to 1990 levels. The other 
+causes in the top ten showed small or insignificant change 
+(figure 2). The sex differences in the top ten rankings are 
+striking. The three previously mentioned injuries were 
+the top-ranked causes of DALYs among male adolescents 
+(appendix 2 figure S9), whereas headaches, depressive 
+disorders, and anxiety disorders were the top three causes 
+of DALYs among females (appendix 2 figure S10). 
+DALYs 2019
+Annualised rate of change, 1990–2010
+Annualised rate of change, 2010–19
+Count 
+(millions)
+Age-standardised rate 
+(per 100 000)
+DALYs
+Age-standardised rate
+DALYs
+Age-standardised rate
+0–9 years
+531 (458 to 621)
+19 125·7 (16 495·1 to 22 382·5)
+−2·3% (−2·5 to −2·2)
+−2·5% (−2·6 to −2·3)
+−3·7% (−4·4 to −2·9)
+−4·0% (−4·7 to −3·2)
+10–24 years
+229 (194 to 270)
+12 313·0 (10 399·9 to 14 478·3)
+0·2% (0·1 to 0·2)
+−0·7% (−0·8 to −0·6)
+−1·1% (−1·4 to −0·9)
+−1·3% (−1·5 to −1·1)
+25–49 years
+616 (533 to 709)
+22 691·2 (19 613·7 to 26 116·3)
+1·4% (1·4 to 1·5)
+−0·4% (−0·4 to −0·3)
+−0·0% (−0·2 to 0·1)
+−1·2% (−1·4 to −1·0)
+50–74 years
+832 (752 to 919)
+28 263·2 (25 527·6 to 31 213·4)
+1·3% (1·2 to 1·3)
+−1·0% (−1·0 to −0·9)
+2·0% (1·8 to 2·1)
+−0·9% (−1·1 to −0·8)
+≥75 years
+329 (308 to 351)
+77 320·5 (72 372·5 to 82 440·3)
+2·2% (2·2 to 2·2)
+−0·9% (−0·9 to −0·9)
+2·3% (2·3 to 2·4)
+−0·8% (−0·9 to −0·8)
+All ages
+2540 (2290 to 2810)
+32 801·7 (29 535·1 to 36 319·5)
+−0·0% (−0·1 to 0·0)
+−1·4% (−1·5 to −1·3)
+−0·2% (−0·4 to 0·0)
+−1·3% (−1·5 to −1·1)
+DALY=disability-adjusted life-year.
+Table: Global DALYs in 2019 and annualised rate of change in DALYs and age-standardised DALY rates over 1990–2010 and 2010–19, by age group and for all ages
+
+Global Health Metrics
+1210	
+www.thelancet.com   Vol 396   October 17, 2020
+(Figure 2 continues on next page)
+Leading causes 1990
+Percentage of DALYs
+1990
+Leading causes 2019
+Percentage of DALYs
+2019
+Percentage change in
+number of DALYs,
+1990–2019
+Percentage change in
+age-standardised DALY 
+rate, 1990–2019
+A All ages
+B 0–9 years
+Communicable, maternal, neonatal, and nutritional diseases  
+Non-communicable diseases 
+Injuries
+1 Neonatal disorders
+10·6 (9·9 to 11·4)
+1 Neonatal disorders
+7·3 (6·4 to 8·4)
+2 Lower respiratory infections
+8·7 (7·6 to 10·0)
+2 Ischaemic heart disease
+7·2 (6·5 to 7·9)
+3 Diarrhoeal diseases
+7·3 (5·9 to 8·8)
+3 Stroke
+5·7 (5·1 to 6·2)
+4 Ischaemic heart disease
+4·7 (4·4 to 5·0)
+4 Lower respiratory infections
+3·8 (3·3 to 4·3)
+5 Stroke
+4·2 (3·9 to 4·5)
+5 Diarrhoeal diseases
+3·2 (2·6 to 4·0)
+6 Congenital birth defects
+ 
+3·2 (2·3 to 4·8)
+6 COPD
+2·9 (2·6 to 3·2)
+7 Tuberculosis
+3·1 (2·8 to 3·4)
+7 Road injuries
+2·9 (2·6 to 3·0)
+–31·0 (–37·1 to –25·4)
+8 Road injuries
+2·7 (2·6 to 3·0)
+8 Diabetes
+2·8 (2·5 to 3·1)
+9 Measles
+2·7 (0·9 to 5·6)
+9 Low back pain
+2·5 (1·9 to 3·1)
+10 Malaria
+2·5 (1·4 to 4·1)
+10 Congenital birth defects
+2·1 (1·7 to 2·6)
+11 COPD
+2·3 (1·9 to 2·5)
+2·0 (1·6 to 2·7)
+11 HIV/AIDS
+1·9 (1·6 to 2·2)
+12 Protein-energy malnutrition
+12 Tuberculosis
+1·9 (1·7 to 2·0)
+13 Low back pain
+1·7 (1·2 to 2·1)
+13 Depressive disorders
+14 Self-harm
+1·4 (1·2 to 1·5)
+14 Malaria
+1·8 (0·9 to 3·1)
+15 Cirrhosis
+1·3 (1·2 to 1·5)
+15 Headache disorders
+16 Meningitis
+1·3 (1·1 to 1·5)
+16 Cirrhosis
+1·8 (1·6 to 2·0)
+17 Drowning
+1·3 (1·1 to 1·4)
+1·1 (0·2 to 2·4)
+1·1 (0·8 to 1·5)
+17 Lung cancer
+1·8 (1·6 to 2·0)
+18 Headache disorders
+18 Chronic kidney disease
+19 Depressive disorders
+19 Other musculoskeletal
+20 Diabetes
+1·1 (1·0 to 1·2)
+20 Age-related hearing loss
+21 Lung cancer
+1·0 (1·0 to 1·1)
+21 Falls
+1·5 (1·4 to 1·7)
+22 Falls
+1·0 (0·9 to 1·2)
+1·0 (0·7 to 1·3)
+0·9 (0·9 to 1·0)
+22 Self-harm
+1·3 (1·2 to 1·5)
+–38·9 (–44·3 to –33·0)
+23 Dietary iron deﬁciency
+23 Gynaecological diseases
+1·2 (0·9 to 1·5)
+24 Interpersonal violence
+24 Anxiety disorders
+1·1 (0·8 to 1·5)
+25 Whooping  cough
+0·9 (0·4 to 1·7)
+0·8 (0·6 to 1·1)
+0·8 (0·8 to 0·9)
+25 Dietary iron deﬁciency
+27 Age-related hearing loss
+26 Interpersonal violence
+–23·8 (–28·6 to –17·8)
+29 Chronic kidney disease
+40 Meningitis
+0·6 (0·5 to 0·8)
+30 HIV/AIDS
+0·8 (0·6 to 1·0)
+41 Protein-energy malnutrition
+32 Gynaecological diseases
+0·8 (0·6 to 1·0)
+46 Drowning
+0·5 (0·5 to 0·6)
+34 Anxiety disorders
+0·7 (0·5 to 1·0)
+0·7 (0·5 to 1·0)
+55 Whooping  cough
+0·4 (0·2 to 0·7)
+35 Other musculoskeletal
+71 Measles
+0·3 (0·1 to 0·6)
+1 Neonatal disorders
+23·0 (22·0 to 24·1)
+1 Neonatal disorders
+32·4 (30·7 to 34·1)
+2 Lower respiratory infections
+17·0 (14·9 to 19·7)
+2 Lower respiratory infections
+11·6 (10·5 to 12·6)
+3 Diarrhoeal diseases
+13·1 (10·7 to 15·1)
+3 Diarrhoeal diseases
+9·3 (7·9 to 10·8)
+4 Congenital birth defects 
+6·6 (4·6 to 10·0)
+4 Congenital birth defects 
+8·6 (7·4 to 10·7)
+5 Measles
+5·7 (2·0 to 11·8)
+5 Malaria
+6·4 (3·3 to 10·8)
+6 Malaria
+4·6 (2·5 to 7·5)
+4·1 (3·1 to 5·5)
+6 Meningitis
+2·1 (1·8 to 2·5)
+7 Protein-energy malnutrition
+7 Dietary iron deﬁciency
+–8·2 (–12·3 to –4·1)
+8 Meningitis
+2·3 (2·0 to 2·7)
+8 Protein-energy malnutrition
+9 Whooping cough
+1·9 (0·8 to 3·8)
+9 Whooping cough
+1·9 (0·9 to 3·3)
+10 Drowning
+1·8 (1·5 to 2·1)
+10 STIs
+1·4 (0·5 to 2·8)
+11 Tuberculosis
+1·8 (1·5 to 2·1)
+11 Measles
+1·3 (0·4 to 2·7)
+12 Tetanus
+1·7 (1·4 to 1·9)
+12 Road injuries
+1·1 (1·0 to 1·4)
+13 Road injuries
+1·3 (1·1 to 1·5)
+0·9 (0·6 to 1·3)
+13 Tuberculosis
+1·0 (0·9 to 1·2)
+14 Dietary iron deﬁciency
+14 HIV/AIDS
+1·0 (0·9 to 1·2)
+15 STIs
+0·7 (0·2 to 1·5)
+15 iNTS
+1·0 (0·6 to 1·5)
+16 Typhoid and paratyphoid
+0·7 (0·3 to 1·3)
+16 Drowning
+0·9 (0·8 to 1·1)
+17 Foreign body
+0·6 (0·5 to 0·7)
+17 Haemoglobinopathies
+0·9 (0·7 to 1·0)
+18 HIV/AIDS
+0·6 (0·5 to 0·7)
+18 Typhoid and paratyphoid
+0·8 (0·4 to 1·5)
+19 Encephalitis
+0·5 (0·4 to 0·7)
+19 Asthma
+0·5 (0·4 to 0·8)
+20 Acute hepatitis
+0·5 (0·4 to 0·5)
+20 Foreign body
+0·5 (0·4 to 0·5)
+21 Haemoglobinopathies
+0·4 (0·3 to 0·6)
+21 EMBID
+0·5 (0·4 to 0·6)
+22 Leukaemia
+0·4 (0·3 to 0·6)
+22 Sudden infant death
+0·5 (0·2 to 1·0)
+23 Sudden infant death
+0·4 (0·2 to 0·9)
+23 Idiopathic epilepsy
+0·5 (0·3 to 0·6)
+24 Asthma
+0·4 (0·3 to 0·5)
+24 Other unspeciﬁed infectious
+25 Falls
+0·4 (0·3 to 0·5)
+25 Dermatitis
+0·4 (0·2 to 0·7)
+–6·0 (–6·9 to –5·1)
+28 Idiopathic epilepsy
+0·3 (0·2 to 0·4)
+0·3 (0·2 to 0·4)
+26 Leukaemia
+0·4 (0·4 to 0·5)
+30 Other unspeciﬁed infectious
+27 Falls
+0·4 (0·3 to 0·5)
+33 iNTS
+0·3 (0·1 to 0·4)
+28 Encephalitis
+0·4 (0·3 to 0·5)
+34 EMBID
+0·3 (0·2 to 0·3)
+32 Tetanus
+0·3 (0·3 to 0·5)
+44 Dermatitis
+0·2 (0·1 to 0·3)
+39 Acute hepatitis
+0·3 (0·2 to 0·3)
+–35·4 (–44·8 to –23·8)
+–69·6 (–76·3 to –61·6)
+–68·5 (–75·9 to –58·4)
+–40·1 (–55·1 to –17·9)
+–38·5 (–63·1 to –6·5)
+–61·0 (–69·2 to –51·1)
+–78·3 (–85·5 to –69·9)
+–53·2 (–75·6 to –20·4)
+–14·9 (–30·1 to 2·5)
+–90·5 (–92·9 to –87·6)
+–63·7 (–70·8 to –48·8)
+–75·5 (–80·6 to –69·2)
+–25·0 (–35·3 to –13·6)
+61·4 (20·6 to 109·3)
+–79·0 (–82·6 to –72·2)
+–13·7 (–34·3 to 14·7)
+–50·7 (–62·5 to –36·9)
+–37·5 (–50·0 to –21·5)
+–63·6 (–70·2 to –57·1)
+–22·1 (–36·1 to –6·0)
+–46·9 (–61·7 to –30·0)
+–34·0 (–49·1 to –3·8)
+–29·3 (–50·3 to 3·3)
+–55·3 (–69·5 to –37·0)
+–48·3 (–68·7 to –22·6)
+–68·5 (–77·9 to –50·2)
+–91·2 (–93·8 to –85·6)
+–74·1 (–82·6 to –61·1)
+–36·2 (–45·4 to –24·7)
+–69·1 (–75·9 to –60·9)
+–67·8 (–75·3 to –57·2)
+–41·6 (–54·6 to –17·4)
+–36·9 (–61·4 to –2·2)
+–59·7 (–68·1 to –49·3)
+–0·8 (–5·3 to 3·6)
+–78·1 (–85·0 to –68·9)
+–54·7 (–74·7 to –17·3)
+–16·3 (–30·7 to 1·7)
+–90·0 (–92·6 to –86·9)
+–61·5 (–68·7 to –45·0)
+–74·5 (–79·8 to –67·8)
+–18·6 (–35·6 to 3·6)
+68·3 (27·4 to 121·2)
+–77·6 (–81·3 to –70·1)
+–10·3 (–30·3 to 22·5)
+–46·7 (–59·1 to –31·1)
+–32·2 (–46·2 to –14·5)
+–62·9 (–69·6 to –56·2)
+–18·9 (–33·3 to –0·9)
+–50·6 (–61·6 to –29·8)
+–30·7 (–45·8 to 3·6)
+–28·4 (–48·3 to 7·8)
+2·7 (1·7 to 3·7)
+–54·8 (–67·7 to –32·9)
+–47·2 (–67·0 to –18·0)
+–67·6 (–76·7 to –47·6)
+–91·3 (–93·8 to –85·6)
+–73·1 (–81·7 to –59·1)
+2·0 (1·3 to 2·9)
+2·0 (1·7 to 2·3)
+0·4 (0·3 to 0·6)
+–57·2 (–64·4 to –48·6)
+–74·5 (–82·0 to –64·5)
+–68·2 (–71·9 to –62·8)
+–56·3 (–75·6 to –20·3)
+–90·4 (–92·8 to –87·5)
+–6·8 (–8·7 to –4·9)
+–0·1 (–1·0 to 0·7)
+–16·4 (–18·7 to –14·0)
+–14·5 (–22·5 to –7·4)
+–1·8 (–3·7 to –0·1)
+30·7 (27·6 to 34·3)
+6·3 (0·2 to 12·4)
+–16·2 (–24·0 to –8·2)
+–26·8 (–32·5 to –19·0)
+1·1 (–4·2 to 2·9)
+–37·8 (–61·9 to –6·2)
+–1·8 (–2·9 to –0·8)
+–62·8 (–66·6 to –58·0)
+58·5 (37·1 to 89·2)
+–40·0 (–52·7 to –17·1)
+–16·3 (–17·1 to –15·5)
+24·4 (18·5 to 29·7)
+–39·8 (–44·9 to –30·2)
+–64·6 (–71·7 to –54·2)
+–62·5 (–69·0 to –54·9)
+–35·2 (–40·5 to –30·5)
+–28·6 (–33·3 to –24·2)
+–32·6 (–42·1 to –21·2)
+–32·3 (–41·7 to –20·8)
+50·4 (39·9 to 60·2)
+32·4 (22·0 to 42·2)
+–56·7 (–64·2 to –47·5)
+–57·5 (–66·2 to –44·7)
+25·6 (15·1 to 46·0)
+2·4 (–6·9 to 10·8)
+147·9 (135·9 to 158·9)
+46·9 (43·3 to 50·5)
+–37·3 (–50·6 to –12·8)
+127·7 (97·3 to 171·7)
+–41·0 (–47·2 to –33·5)
+61·1 (56·9 to 65·0)
+–29·4 (–56·9 to 6·6)
+56·7 (52·4 to 62·1)
+33·0 (22·4 to 48·2)
+69·1 (53·1 to 85·4)
+93·2 (81·6 to 105·0)
+128·9 (122·0 to 136·3)
+82·8 (75·2 to 88·9)
+47·1 (31·5 to 61·0)
+–5·6 (–14·2 to 3·7)
+48·7 (45·8 to 51·8)
+53·7 (48·8 to 59·1)
+13·8 (10·5 to 17·2)
+1·1 (0·8 to 1·5)
+1·6 (1·2 to 2·1)
+1·6 (1·2 to 2·1)
+1·6 (1·5 to 1·8)
+1·8 (0·4 to 3·8)
+1·8 (1·4 to 2·4)
+–89·8 (–92·3 to –86·8)
+–54·5 (–74·6 to –16·9)
+–60·6 (–65·2 to –53·6)
+–71·1 (–79·6 to –59·7)
+–51·3 (–59·4 to –42·0)
+10·2 (3·2 to 19·2)
+1·1 (1·0 to 1·2)
+0·6 (0·5 to 0·7)
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1211
+Maternal disorders, gynaecological disorders, and dietary 
+iron deficiency were also in the top ten causes for females 
+in this relatively young age group (appendix 2 figure S10).
+Five causes that were in the top ten for ages 10–24 
+in 2019 were also in the top ten in the 25–49 age group: 
+road injuries (ranked first), HIV/AIDS (second), low back 
+pain (fourth), headache disorders (fifth), and depressive 
+disorders (sixth; figure 2). Tuberculosis and four non-
+communicable causes—ischaemic heart disease, gynae­
+cological disorders, other musculoskeletal disor­ders, and 
+stroke—completed the top ten rankings. There were 
+substantial improvements since 1990 in DALY rates of 
+(Figure 2 continues on next page)
+Leading causes 1990
+Percentage of DALYs
+1990
+Leading causes 2019
+Percentage of DALYs
+2019
+Percentage change in
+number of DALYs,
+1990–2019
+Percentage change in
+age-standardised DALY 
+rate, 1990–2019
+C 10–24 years
+D 25–49 years
+Communicable, maternal, neonatal, and nutritional diseases  
+Non-communicable diseases 
+Injuries
+1 Road injuries
+7·8 (6·9 to 8·8)
+1 Road injuries
+6·6 (5·6 to 7·7)
+2 Self-harm
+4·9 (4·1 to 5·6)
+2 Headache disorders
+5·0 (0·6 to 10·9)
+3 Headache disorders
+3·8 (0·4 to 8·2)
+3 Self-harm
+3·7 (3·1 to 4·5)
+4 Tuberculosis
+3·6 (3·1 to 4·1)
+4 Depressive disorders
+3·7 (2·6 to 5·0)
+5 Diarrhoeal diseases
+3·2 (2·1 to 4·9)
+5 Interpersonal violence
+–15·4 (–21·3 to –7·9)
+6 Interpersonal violence
+6 Anxiety disorders
+3·3 (2·3 to 4·4)
+7 Maternal disorders
+3·0 (2·6 to 3·4)
+7 Low back pain
+3·2 (2·2 to 4·3)
+–12·0 (–13·3 to –10·6)
+8 Depressive disorders
+2·8 (2·0 to 3·9)
+8 Dietary iron deﬁciency
+–3·5 (–9·5 to 2·0)
+9 Low back pain
+2·8 (1·9 to 3·8)
+9 HIV/AIDS
+2·6 (1·9 to 3·5)
+10 Drowning
+2·7 (2·3 to 3·2)
+10 Diarrhoeal diseases
+2·6 (1·9 to 3·6)
+11 Typhoid and paratyphoid
+2·6 (1·2 to 4·9)
+11 Neonatal disorders
+2·3 (1·8 to 2·8)
+12 Anxiety disorders
+2·6 (1·8 to 3·5)
+12 Tuberculosis
+2·1 (1·8 to 2·5)
+13 Dietary iron deﬁciency
+13 Gynaecological diseases
+1·9 (1·4 to 2·6)
+14 Malaria
+2·1 (1·3 to 3·3)
+14 Typhoid and paratyphoid
+1·8 (0·8 to 3·3)
+15 Lower respiratory infections
+1·7 (1·4 to 2·0)
+15 Maternal disorders
+1·8 (1·5 to 2·2)
+16 Conﬂict and terrorism 
+1·5 (1·3 to 1·9)
+16 Malaria
+1·8 (1·0 to 3·0)
+17 Gynaecological diseases
+1·5 (1·1 to 2·1)
+17 Conduct disorder
+1·8 (1·1 to 2·6)
+18 Falls
+1·5 (1·3 to 1·6)
+18 Drug use disorders
+1·6 (1·3 to 2·1)
+19 Congenital birth defects
+1·5 (1·3 to 1·7)
+19 Acne vulgaris
+1·6 (1·0 to 2·4)
+20 Idiopathic epilepsy
+1·4 (1·1 to 1·8)
+20 Idiopathic epilepsy
+1·6 (1·2 to 2·1)
+–11·4 (–22·8 to 4·6)
+21 Conduct disorder
+1·3 (0·8 to 2·0)
+21 Congenital birth defects 
+1·5 (1·3 to 1·7)
+–21·2 (–29·7 to –10·5)
+22 Drug use disorders
+1·3 (1·0 to 1·6)
+22 Falls
+1·4 (1·3 to 1·6)
+–23·9 (–30·9 to –16·7)
+23 Asthma
+1·2 (1·0 to 1·6)
+23 Drowning
+1·4 (1·2 to 1·7)
+24 Stroke
+1·2 (1·0 to 1·3)
+24 Lower respiratory infections
+1·4 (1·2 to 1·7)
+25 Meningitis
+1·1 (1·0 to 1·3)
+25 Age-related hearing loss
+27 Acne vulgaris
+1·1 (0·7 to 1·6)
+27 Asthma
+1·3 (1·0 to 1·8)
+–18·0 (–23·8 to –12·4)
+28 Age-related hearing loss
+30 Stroke
+1·1 (0·9 to 1·3)
+33 HIV/AIDS
+0·9 (0·6 to 1·5)
+34 Meningitis
+0·9 (0·7 to 1·1)
+35 Neonatal disorders
+0·9 (0·7 to 1·1)
+46 Conﬂict and terrorism 
+0·6 (0·5 to 0·8)
+1 Road injuries
+5·6 (5·1 to 6·1)
+1 Road injuries
+5·1 (4·6 to 5·7)
+2 Tuberculosis
+5·5 (4·8 to 6·2)
+2 HIV/AIDS
+4·8 (4·0 to 5·9)
+3 Ischaemic heart disease
+4·4 (3·8 to 4·9)
+3 Ischaemic heart disease
+4·7 (4·0 to 5·4)
+4 Low back pain
+3·9 (2·9 to 5·1)
+4 Low back pain
+3·9 (2·9 to 5·0)
+5 Self-harm
+3·8 (3·3 to 4·4)
+5 Headache disorders
+3·7 (0·8 to 7·7)
+6 Stroke
+3·5 (3·1 to 3·9)
+6 Depressive disorders
+3·5 (2·5 to 4·5)
+7 Headache disorders
+3·1 (0·7 to 6·4)
+7 Gynaecological diseases
+3·3 (2·5 to 4·2)
+8 Depressive disorders
+3·0 (2·2 to 3·9)
+8 Other musculoskeletal
+9 Cirrhosis
+2·8 (2·5 to 3·2)
+9 Stroke
+3·2 (2·8 to 3·6)
+–31·0 (–37·9 to –24·6)
+10 Gynaecological diseases
+2·8 (2·2 to 3·7)
+10 Tuberculosis
+3·0 (2·6 to 3·4)
+11 Maternal disorders
+2·6 (2·3 to 2·9)
+11 Self-harm
+2·9 (2·4 to 3·4)
+–37·2 (–43·2 to –30·9)
+12 Interpersonal violence
+12 Cirrhosis
+2·8 (2·4 to 3·2)
+13 HIV/AIDS
+2·3 (1·6 to 3·2)
+13 Interpersonal violence
+14 Other musculoskeletal
+14 Diabetes
+2·2 (1·9 to 2·5)
+15 Diarrhoeal diseases
+2·0 (1·3 to 3·1)
+15 Anxiety disorders
+2·0 (1·4 to 2·7)
+16 Falls
+1·8 (1·6 to 2·0)
+16 Drug use disorders
+1·9 (1·5 to 2·2)
+17 Anxiety disorders
+1·7 (1·2 to 2·2)
+17 Falls
+1·8 (1·6 to 2·0)
+18 Alcohol use disorders
+18 Chronic kidney disease
+19 Neck pain
+1·3 (0·9 to 2·0)
+19 Neck pain
+1·6 (1·1 to 2·4)
+20 Diabetes
+1·3 (1·2 to 1·5)
+20 Alcohol use disorders
+21 Chronic kidney disease
+21 Age-related hearing loss
+22 Drug use disorders
+1·3 (1·0 to 1·6)
+22 Schizophrenia
+1·5 (1·1 to 1·9)
+23 Schizophrenia
+1·3 (0·9 to 1·6)
+23 Maternal disorders
+1·4 (1·2 to 1·6)
+24 Age-related hearing loss
+24 Diarrhoeal diseases
+1·3 (1·0 to 1·9)
+25 Lower respiratory infections
+1·2 (1·1 to 1·4)
+25 Oral disorders
+1·2 (0·7 to 2·1)
+32 Oral disorders
+1·0 (0·5 to 1·6)
+27 Lower respiratory infections
+1·2 (1·0 to 1·4)
+–23·1 (–30·2 to –16·0)
+2·8 (0·5 to 5·1)
+–46·2 (–59·0 to –29·6)
+–53·4 (–60·5 to –47·2)
+–0·9 (–2·0 to 0·2)
+–0·5 (–3·1 to 1·9)
+–20·9 (–24·2 to –17·9)
+–3·6 (–6·0 to –1·5)
+0·7 (–7·3 to 8·4)
+–18·0 (–23·4 to –13·5)
+25·4 (19·3 to 31·6)
+1·1 (0·0 to 2·1)
+29·2 (21·1 to 36·0)
+–24·4 (–29·0 to –19·0)
+–23·8 (–30·1 to –15·1)
+–55·5 (–60·2 to –50·5)
+26·7 (23·4 to 30·5)
+–4·5 (–6·3 to –2·5)
+–4·9 (–6·4 to –3·4)
+0·2 (–3·7 to 2·3)
+–19·2 (–20·5 to –18·0)
+–18·5 (–26·7 to –10·1)
+72·2 (52·4 to 91·9)
+–22·5 (–30·1 to –16·2)
+–68·5 (–71·6 to –65·1)
+–38·3 (–45·0 to –30·4)
+–27·6 (–34·8 to –19·4)
+–1·2 (–5·7 to 3·2)
+–34·1 (–41·6 to –25·5)
+–58·8 (–63·2 to –53·9)
+18·1 (16·7 to 19·5)
+0·6 (–4·8 to 6·2)
+4·4 (2·3 to 6·3)
+–31·9 (–59·0 to –3·6)
+–52·5 (–60·2 to –45·3)
+–46·2 (–54·9 to –38·5)
+–1·4 (–4·2 to 1·0)
+–53·8 (–59·1 to –47·7)
+103·6 (78·4 to 128·5)
+–37·0 (–50·2 to –17·0)
+112·8 (84·3 to 141·9)
+–2·0 (–3·8 to –0·1)
+0·0 (–2·8 to 2·4)
+–40·5 (–47·2 to –32·8)
+3·3 (0·2 to 5·6)
+–33·6 (–40·4 to –27·7)
+–20·1 (–28·3 to –12·9)
+24·6 (20·6 to 27·1)
+–28·4 (–36·3 to –18·9)
+20·7 (17·4 to 23·5)
+2·1 (–5·0 to 11·1)
+17·9 (15·7 to 20·3)
+6·0 (4·4 to 7·6)
+15·9 (8·6 to 22·4)
+159·0 (115·4 to 211·1)
+–25·7 (–40·1 to –0·3)
+143·6 (114·3 to 174·6)
+–44·3 (–50·7 to –36·9)
+19·1 (15·8 to 22·0)
+–35·5 (–46·0 to –26·4)
+–42·7 (–51·9 to –33·8)
+–19·4 (–50·8 to 15·8)
+24·7 (22·2 to 27·0)
+21·8 (15·2 to 28·7)
+41·5 (39·8 to 43·2)
+6·5 (–7·1 to 25·7)
+–5·6 (–15·6 to 7·4)
+–8·4 (–16·9 to 0·4)
+–50·7 (–55·9 to –44·7)
+–20·9 (–29·9 to –10·5)
+18·6 (13·4 to 24·2)
+1·3 (0·9 to 1·8)
+2·6 (1·9 to 3·4)
+3·5 (2·9 to 4·1)
+–1·1 (–8·3 to 5·1)
+–12·8 (–21·5 to –2·9)
+–26·0 (–34·0 to –16·4)
+–62·1 (–65·7 to –57·9)
+23·2 (11·1 to 33·2)
+176·2 (131·1 to 244·3)
+42·7 (28·4 to 57·3)
+33·0 (29·2 to 36·9)
+61·2 (56·5 to 64·5)
+53·2 (49·3 to 56·8)
+52·7 (49·7 to 56·0)
+107·1 (101·0 to 114·3)
+19·9 (8·0 to 31·1)
+–27·0 (–34·7 to –18·7)
+–0·9 (–10·3 to 9·1)
+29·6 (19·0 to 44·5)
+18·1 (10·7 to 26·5)
+123·9 (110·1 to 135·3)
+61·6 (57·5 to 65·4)
+92·0 (82·7 to 102·5)
+34·4 (25·8 to 41·7)
+67·3 (53·9 to 80·3)
+60·2 (52·4 to 67·9)
+28·2 (22·9 to 33·2)
+64·3 (58·7 to 69·1)
+59·6 (57·5 to 61·9)
+–28·9 (–39·6 to –19·2)
+–13·5 (–32·6 to 15·5)
+70·7 (66·4 to 74·1)
+1·5 (1·1 to 2·1)
+1·6 (1·3 to 1·9)
+1·6 (1·4 to 1·8)
+2·3 (2·0 to 2·6)
+3·2 (2·3 to 4·2)
+26·8 (15·2 to 38·5)
+3·2 (2·8 to 3·6)
+2·1 (1·6 to 2·8)
+1·1 (0·7 to 1·5)
+2·5 (2·3 to 2·8)
+2·0 (1·5 to 2·8)
+1·7 (1·4 to 2·0)
+1·3 (0·9 to 1·7)
+1·3 (1·2 to 1·4)
+
+Global Health Metrics
+1212	
+www.thelancet.com   Vol 396   October 17, 2020
+Figure 2: Leading 25 Level 3 causes of global DALYs and percentage of total DALYs (1990 and 2019), and percentage change in number of DALYs and 
+age-standardised DALY rates from 1990 to 2019 for both sexes combined for all ages (A), children younger than 10 years (B), and ages 10–24 years (C), 
+25–49 years (D), 50–74 years (E), and 75 years and older (F)
+Causes are connected by lines between time periods; solid lines are increases in rank and dashed lines are decreases. Age-related hearing loss=age-related and other 
+hearing loss. Alzheimer’s disease=Alzheimer’s disease and other dementias. Atrial fibrillation=atrial fibrillation and flutter. Cirrhosis=cirrhosis and other chronic liver 
+diseases. COPD=chronic obstructive pulmonary disease. EMBID=endocrine, metabolic, blood, and immune disorders. DALY=disability-adjusted life-year. iNTS=invasive 
+non-typhoidal salmonella. Haemoglobinopathies=haemoglobinopathies and haemolytic anaemias. Lung cancer=tracheal, bronchus, and lung cancer. Other 
+musculoskeletal=other musculoskeletal disorders. Other unspecified infectious=other unspecified infectious diseases. Sudden infant death=sudden infant death 
+syndrome. STI=sexually transmitted infections excluding HIV.
+Leading causes 1990
+Percentage of DALYs
+1990
+Leading causes 2019
+Percentage of DALYs
+2019
+Percentage change in
+number of DALYs,
+1990–2019
+Percentage change in
+age-standardised DALY 
+rate, 1990–2019
+E 50–74 years
+F 75 years and older
+Communicable, maternal, neonatal, and nutritional diseases  
+Non-communicable diseases 
+Injuries
+1 Ischaemic heart disease
+12·5 (11·6 to 13·4)
+1 Ischaemic heart disease
+11·8 (10·7 to 12·9)
+2 Stroke
+10·9 (10·0 to 11·8)
+2 Stroke
+9·3 (8·5 to 10·1)
+3 COPD
+6·5 (5·5 to 7·1)
+3 Diabetes
+5·1 (4·6 to 5·7)
+4 Tuberculosis
+4·0 (3·6 to 4·4)
+4 COPD
+4·7 (4·2 to 5·2)
+–45·9 (–51·4 to –36·2)
+5 Lung cancer
+3·6 (3·3 to 3·9)
+5 Lung cancer
+3·9 (3·4 to 4·3)
+6 Diabetes
+3·1 (2·8 to 3·4)
+6 Low back pain
+3·1 (2·3 to 4·0)
+7 Cirrhosis
+2·8 (2·6 to 3·1)
+7 Cirrhosis
+2·7 (2·4 to 3·0)
+8 Low back pain
+2·8 (2·1 to 3·7)
+8 Chronic kidney disease
+9 Diarrhoeal diseases
+2·6 (1·6 to 4·0)
+9 Age-related hearing loss
+10 Stomach cancer
+2·4 (2·2 to 2·6)
+10 Road injuries
+2·1 (1·9 to 2·3)
+11 Road injuries
+1·9 (1·8 to 2·0)
+11 Other musculoskeletal
+12 Lower respiratory infections
+1·8 (1·6 to 2·0)
+12 Tuberculosis
+1·9 (1·7 to 2·1)
+13 Age-related hearing loss
+13 Lower respiratory infections
+1·8 (1·6 to 1·9)
+14 Chronic kidney disease
+14 Depressive disorders
+15 Asthma
+1·5 (1·2 to 1·9)
+15 Colorectal cancer
+1·7 (1·6 to 1·9)
+16 Hypertensive heart disease
+16 Falls
+1·7 (1·5 to 2·0)
+17 Falls
+1·4 (1·3 to 1·6)
+17 Stomach cancer
+1·7 (1·5 to 1·9)
+–48·1 (–536 to –42·0)
+18 Colorectal cancer
+1·4 (1·3 to 1·5)
+18 Osteoarthritis
+1·5 (0·8 to 2·9)
+19 Depressive disorders
+19 Blindness and vision loss
+20 Blindness and vision loss
+20 Breast cancer
+1·4 (1·3 to 1·5)
+21 Liver cancer
+1·2 (1·0 to 1·3)
+21 Diarrhoeal diseases
+1·4 (0·9 to 2·1)
+22 Breast cancer
+1·2 (1·1 to 1·2)
+22 Hypertensive heart disease
+23 Oesophageal cancer
+1·1 (0·9 to 1·2)
+23 Headache disorders
+24 Osteoarthritis
+1·1 (0·6 to 2·2)
+24 Oral disorders
+1·2 (0·8 to 1·8)
+25 Self-harm
+1·1 (1·0 to 1·2)
+25 Neck pain
+1·1 (0·7 to 1·7)
+26 Other musculoskeletal
+27 Oesophageal cancer
+1·0 (0·9 to 1·1)
+28 Oral disorders
+1·0 (0·6 to 1·5)
+28 Asthma
+1·0 (0·8 to 1·1)
+29 Headache disorders
+29 Liver cancer
+0·9 (0·8 to 1·0)
+–39·9 (–48·5 to –29·5)
+32 Neck pain
+0·8 (0·5 to 1·2)
+31 Self-harm
+0·9 (0·8 to 1·0)
+1 Ischaemic heart disease
+18·6 (17·1 to 19·7)
+1 Ischaemic heart disease
+16·2 (14·6 to 17·6)
+2 Stroke
+15·5 (14·3 to 16·7)
+2 Stroke
+13·0 (11·7 to 14·0)
+3 COPD
+9·9 (8·6 to 10·7)
+3 COPD
+8·5 (7·5 to 9·2)
+4 Alzheimer's disease
+3·8 (1·7 to 8·6)
+4 Alzheimer's disease
+5·6 (2·6 to 12·2)
+5 Lower respiratory infections
+3·3 (3·0 to 3·6)
+5 Diabetes
+4·0 (3·6 to 4·3)
+6 Diarrhoeal diseases
+3·1 (2·0 to 4·5)
+6 Lower respiratory infections
+3·3 (2·9 to 3·6)
+7 Diabetes
+2·6 (2·4 to 2·9)
+7 Lung cancer
+2·6 (2·3 to 2·8)
+8 Hypertensive heart disease
+8 Falls
+2·6 (2·2 to 2·9)
+9 Age-related hearing loss
+9 Chronic kidney disease
+10 Lung cancer
+1·9 (1·8 to 2·0)
+10 Age-related hearing loss
+11 Falls
+1·8 (1·6 to 2·1)
+11 Hypertensive heart disease
+12 Tuberculosis
+1·8 (1·6 to 2·1)
+12 Diarrhoeal diseases
+1·9 (1·2 to 3·0)
+13 Low back pain
+1·7 (1·2 to 2·3)
+13 Low back pain
+1·8 (1·3 to 2·4)
+14 Chronic kidney disease
+14 Colorectal cancer
+1·7 (1·5 to 1·8)
+15 Stomach cancer
+1·6 (1·4 to 1·7)
+15 Blindness and vision loss
+16 Blindness and vision loss
+16 Atrial ﬁbrillation
+1·3 (1·1 to 1·5)
+17 Colorectal cancer
+1·4 (1·3 to 1·5)
+17 Stomach cancer
+1·3 (1·1 to 1·4)
+18 Asthma
+1·2 (1·0 to 1·7)
+18 Prostate cancer
+1·1 (1·0 to 1·4)
+19 Cirrhosis
+1·2 (1·0 to 1·3)
+19 Cirrhosis
+1·1 (1·0 to 1·2)
+20 Prostate cancer
+1·0 (0·8 to 1·2)
+20 Parkinson's disease
+21 Atrial ﬁbrillation
+1·0 (0·8 to 1·2)
+21 Osteoarthritis
+1·1 (06 to 21)
+22 Osteoarthritis
+0·9 (0·5 to 1·7)
+22 Oral disorders
+0·9 (0·6 to 1·3)
+23 Oral disorders
+0·8 (0·6 to 1·2)
+23 Tuberculosis
+0·9 (0·8 to 1·0)
+24 Parkinson's disease
+24 Asthma
+0·8 (0·7 to 1·0)
+–46·2 (–55·9 to –39·8)
+25 Upper digestive diseases
+0·8 (0·7 to 0·9)
+25 Road injuries
+0·8 (0·7 to 0·9)
+26 Road injuries
+0·7 (0·6 to 0·8)
+32 Upper digestive diseases
+0·6 (0·5 to 0·6)
+1·7 (1·2 to 2·3)
+1·6 (1·4 to 1·7)
+1·5 (1·2 to 1·7)
+1·3 (0·9 to 1·7)
+1·2 (0·9 to 1·6)
+1·1 (0·7 to 1·5)
+0·9 (0·3 to 1·9)
+–41·0 (–45·5 to –34·5)
+–51·8 (–58·3 to –46·0)
+–32·1 (–41·9 to –16·1)
+5·7 (3·0 to 8·5)
+–7·4 (–9·6 to –5·1)
+–1·2 (–7·4 to 2·3)
+–33·8 (–41·7 to –23·4)
+–61·0 (–72·1 to –45·8)
+–9·5 (–16·9 to –2·5)
+–8·6 (–12·0 to –5·0)
+4·1 (28 to 5·4)
+38·2 (18·9 to 71·9)
+–1·3 (–14·3 to 11·2)
+22·2 (5·2 to 44·0)
+20·4 (11·3 to 33·7)
+115·9 (110·5 to 122·2)
+90·5 (86·0 to 94·7)
+102·5 (88·7 to 108·2)
+36·7 (20·8 to 58·8)
+–21·0 (–42·4 to 11·9)
+85·0 (69·9 to 99·4)
+88·8 (81·9 to 95·8)
+113·6 (110·9 to 116·4)
+6·3 (–5·0 to 18·9)
+–8·4 (–14·1 to –2·6)
+–5·1 (–12·1 to 1·2)
+1·5 (0·2 to 2·9)
+–27·5 (–33·3 to –21·5)
+–64·7 (–68·9 to –59·4)
+33·6 (280 to 40·2)
+–15·2 (–23·2 to –9·9)
+–2·6 (–4·9 to –0·5)
+12·1 (3·7 to 19·5)
+–29·1 (–34·7 to –23·0)
+–15·9 (–16·9 to –14·9)
+–19·8 (–27·3 to –12·1)
+24·5 (18·5 to 30·4)
+–36·3 (–42·1 to –30·8)
+–29·1 (–34·2 to –24·1)
+46·1 (35·6 to 56·4)
+31·5 (19·5 to 42·9)
+156·1 (143·4 to 167·9)
+12·0 (0·9 to 32·3)
+64·3 (48·8 to 80·2)
+72·1 (70·0 to 74·3)
+44·6 (33·2 to 57·1)
+130·2 (113·0 to 145·6)
+100·8 (96·0 to 104·9)
+72·9 (56·5 to 83·9)
+172·0 (160·6 to 187·4)
+–27·8 (–36·2 to –16·9)
+49·8 (37·9 to 62·4)
+107·3 (104·7 to 110·1)
+95·1 (80v8 to 108·2)
+88·3 (76·5 to 100·0)
+1·2 (0·4 to 2·5)
+1·3 (1·0 to 1·5)
+1·4 (1·1 to 2·0)
+1·7 (1·3 to 2·3)
+1·9 (1·4 to 2·6)
+2·3 (2·1 to 2·5)
+2·2 (1·5 to 3·0)
+–32·4 (–35·8 to –29·4)
+–33·4 (–38·3 to –28·5)
+–31·0 (–37·1 to –21·9)
+2·6 (–2·1 to 6·6)
+23·1 (18·6 to 27·5)
+–25·3 (–29·3 to –20·4)
+16·4 (7·4 to 24·9)
+6·4 (0·4 to 13·3)
+21·6 (12·6 to 27·4)
+–2·2 (–4·3 to –0·2)
+–15·1 (–31·5 to –5·0)
+–51·0 (–64·9 to –30·4)
+–12·5 (–13·8 to –11·3)
+–4·5 (–9·7 to 0·1)
+–7·4 (–9·9 to –4·8)
+–1·8 (–6·9 to 2·5)
+–32·9 (–37·5 to –28·0)
+–8·5 (–14·6 to 2·1)
+–21·3 (–30·2 to –13·5)
+6·0 (0·0 to 11·1)
+0·8 (–0·4 to 2·1)
+–10·9 (–12·9 to –8·8)
+–59·2 (–64·0 to –50·3)
+–9·3 (–13·5 to –5·9)
+–43·8 (–48·4 to –38·7)
+34·0 (22·8 to 46·2)
+110·0 (99·8 to 118·1)
+25·2 (3·2 to 41·2)
+–6·3 (–16·9 to 14·6)
+112·0 (106·4 to 117·6)
+139·5 (136·5 to 142·6)
+153·7 (138·7 to 166·6)
+82·3 (62·1 to 100·9)
+117·0 (102·1 to 142·3)
+55·0 (43·8 to 66·6)
+148·6 (134·8 to 161·9)
+124·7 (119·3 to 130·7)
+126·9 (113·4 to 138·3)
+105·7 (100·2 to 111·4)
+15·1 (–16·8 to 65·3)
+106·0 (68·5 to 131·7)
+137·8 (132·0 to 143·9)
+196·0 (173·9 to 211·1)
+166·4 (151·1 to 183·4)
+164·3 (143·6 to 183·8)
+87·4 (76·2 to 99·6)
+190·7 (179·4 to 201·0)
+180·0 (168·0 to 194·7)
+63·6 (49·1 to 86·1)
+60·5 (48·7 to 72·5)
+66·6 (57·7 to 74·2)
+2·5 (2·3 to 2·7)
+2·5 (1·9 to 3·3)
+2·4 (1·8 to 2·7)
+1·7 (1·3 to 2·2)
+1·1 (1·0 to 1·2)
+0·8 (0·8 to 0·9)
+1·4 (1·1 to 1·8)
+1·6 (1·5 to 1·8)
+2·0 (1·5 to 2·7)
+2·3 (1·9 to 2·5)
+·
+·
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1213
+tuberculosis, road injuries, stroke, and, to a lesser extent, 
+low back pain and ischaemic heart disease. For similar 
+reasons as in the previous age group, HIV/AIDS 
+DALY rates increased substantially. The increase in the 
+residual “other musculoskeletal disorder” category is 
+more difficult to interpret, as it is a collection of several 
+individual diseases. HIV/AIDS, ischaemic heart disease, 
+stroke, and head­ache disorders appeared in the top-ten 
+rankings for DALYs for both males and females in 2019. 
+Three injury causes (road injuries, self-harm, and inter­
+personal violence) and cirrhosis ranked prominently 
+among males but not females. Among females, gynae­
+cological disorders, depressive disorders, other musculo­
+skeletal disorders, maternal disorders, and anxiety 
+disorders were top ten causes (appendix 2 figures S9, S10).
+In 2019, the ten leading causes of DALYs in age groups 
+50–74 years and 75 years and older largely overlapped. 
+Ischaemic heart disease and stroke were ranked first 
+and second, respectively, in both age groups. Chronic 
+obstructive pulmonary disease (COPD), diabetes, lung 
+cancer, chronic kidney disease, and age-related hearing 
+loss appeared in the top ten in both age groups. For ages 
+50–74 years, low back pain, cirrhosis, and road injuries 
+were the remaining top-ten-ranking causes of DALYs, 
+whereas Alzheimer’s disease and other demen­tias, lower 
+respiratory infections, and falls appeared in the top ten for 
+those aged 75 years and older. The most notable changes 
+in top ten causes in these two age groups between 
+1990 and 2019 were large declines in age-standardised 
+DALY rates for ischaemic heart disease, stroke, COPD, 
+cirrhosis, and road injuries, but increases in DALY rates 
+for diabetes and chronic kidney disease. There was a 
+decline in age-standardised lung cancer rates for ages 
+50–74 years, but an increase in the oldest age category. The 
+ten leading causes for DALYs by sex in both of these older 
+age groups largely overlapped in 2019. Among 50–74-year-
+olds, breast cancer, other musculoskeletal disorders, and 
+depressive disorders appeared in the top ten for females 
+only, while road injuries, cirrhosis, and tuberculosis made 
+it into the top ten for males. For the oldest age group, falls 
+and hypertensive heart disease ranked in the top ten 
+among females, but not males; lung cancer and prostate 
+cancer ranked among the top ten in males (appendix 2 
+figures S9, S10).
+National trends
+Countries and territories vary widely in their stages of the 
+epidemiological transition. With increasing SDI, we 
+expect to see a shift in the burden of disease from commu­
+nicable, maternal, neonatal, and nutritional diseases 
+towards non-communicable causes. We also expect to 
+see a shift towards a larger fraction of the burden due to 
+YLDs compared with YLLs. These two major trends can 
+be summarised by the percentage of all-cause DALYs 
+made up of non-communicable disease and injury YLDs. 
+Figure 3 shows this proportion across 204 countries and 
+territories in 1990 and 2019. In 2019, this measure of the 
+epidemiological transition ranged from 8·4% (95% UI 
+6·2–10·9) in Chad to 56·9% (48·7–64·3) in Qatar. 
+The values in 1990 ranged from 3·5% (2·6–4·7) in Niger 
+to 47·5% (37·6–56·0) in Andorra. In 2019, non-commu­
+nicable and injury YLDs contributed to more than half of 
+all disease burden in 11 countries. All but two countries, 
+Ukraine and Lesotho, had higher ratios in 2019 compared 
+with 1990.
+When comparing the annualised rate of change in age-
+standardised DALY rates for all causes except HIV/AIDS, 
+natural disasters, and war and conflict between the time 
+periods 1990–2010 and 2010–19 for each country and 
+territory, the rate, as shown by a simple linear regression 
+line, is steeper in the latter time period, suggesting that 
+change has accelerated over the last decade in countries 
+and territories at the lower end of the SDI range (figure 4). 
+Improvements have started to stagnate, or even reverse, 
+in countries with higher SDI, as is the case in Dominica, 
+the Dominican Republic, Guam, Jamaica, Saint Lucia, 
+Saint Vincent and the Grenadines, Ukraine, the USA, and 
+Venezuela. Countries with greater than 2% annual reduc­
+tions in age-standardised DALY rates over both time 
+periods were Ethiopia, Angola, Burundi, Malawi, Sudan, 
+Myanmar, Laos, and Bangladesh. Four countries from the 
+former Soviet Union—Russia, Belarus, Kazakhstan, and 
+Uzbekistan—experienced increases in age-stan­dardised 
+DALY rates between 1990 and 2010, but recovered in 
+the following decade; Russia, Kazakhstan, and Belarus 
+experienced an estimated annual decline of 2% or greater 
+between 2010 and 2019, and Uzbekistan experienced an 
+estimated 1·5% annual decline. Another former Soviet 
+Union republic, Ukraine, saw modest decline in the 
+1990 to 2010 period, but a worsening trend in the decade 
+after.
+Cause-specific trends
+Two-page cause-specific summaries provide detailed 
+results on mortality, prev­alence, incidence, YLLs, YLDs, 
+and DALYs for a selection of diseases, injuries, and 
+impairments in the GBD cause hierarchy. These sum­
+maries include 2019 counts, age-standardised rates, and 
+rankings; the fraction of DALYs attributed to risk factors; 
+patterns over time and age; and the relationship between 
+SDI and DALY rates by country or territory. They were 
+written to increase the accessibility to and transparency 
+of GBD estimates for each cause. Summaries for select 
+causes are highlighted in print (pp S2–213); summaries 
+for all diseases, injuries, and impairments can be found 
+online.
+Discussion
+Main findings
+Global health has steadily improved over the past 
+30 years, as measured by changes in age-standardised 
+DALY rates. While health has improved, after accounting 
+for population growth and ageing, the absolute number 
+of DALYs has remained stable. The shift to a much 
+For all two-page summaries see 
+https://www.thelancet.com/
+gbd/summaries
+
+Global Health Metrics
+1214	
+www.thelancet.com   Vol 396   October 17, 2020
+Figure 3: Proportion of total DALYs contributed by injury and non-communicable disease YLDs, by country or territory, 2019
+Proportions were rounded to the nearest whole number. DALY=disability-adjusted life-year. YLD=year lived with disability.
+Caribbean and central America
+Persian Gulf
+West Africa
+Balkan Peninsula
+Eastern 
+Mediterranean
+Southeast Asia
+Northern Europe
+Caribbean and central America
+Persian Gulf
+West Africa
+Balkan Peninsula
+Eastern 
+Mediterranean
+Southeast Asia
+Northern Europe
+B 2019
+A 1990
+YLD proportion of DALYs
+<10%
+10% to 14%
+15% to 19%
+20% to 24%
+25% to 29%
+30% to 34%
+35% to 39%
+40% to 44%
+45% to 49%
+≥50%
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1215
+greater number of DALYs occurring at older ages, despite 
+reductions in age-standardised DALY rates, illustrates 
+the importance of understanding how ageing shapes 
+future health needs. Policy makers should remain aware 
+that the number of DALYs represents the burden of 
+disease that the world’s health systems must manage.
+Although most diseases showed a pattern of stable or 
+slowly changing rates of death and disability over the 
+study period, there are some notable exceptions. Deaths 
+due to drug use disorders have risen sharply over the 
+past decade. In 2019, more than half of all global overdose 
+deaths occurred in the USA. Liberal prescribing of high-
+dose opioids, inadequate provision of opioid substitution 
+therapy, and the lacing of street drugs with highly 
+potent opioids such as fentanyl are considered major 
+contributors to this public health crisis.14–17 By contrast, a 
+positive, rapid change in disease rates has taken place in 
+Egypt, where close to 80% of the population aged 12 years 
+and older has been screened for hepatitis C, and those 
+with detectable virus are treated with a low-cost treatment 
+regimen.18,19 We estimated that the number of cases of 
+chronic hepatitis C has dropped by 65·9% (95% UI 
+51·1–79·7) since screening and treatment were initiated 
+through regular health services in 2014 and an enhanced 
+national screening programme for the whole population 
+aged 12 years and older was established in 2019.19 Egypt 
+had the highest prevalence of chronic hepatitis C in the 
+world, ascribed to iatrogenic infection during treatment 
+campaigns for schistosomiasis in the 1960s and 1970s.20–22 
+The sharp decline in chronic infections in Egypt is 
+expected to be reflected in a large decline in deaths 
+from cirrhosis and liver cancer in coming years. Unlike 
+hepatitis B vaccination in children, where the effect of 
+intervention cannot be expected until several decades 
+later, removal of hepatitis C virus in the adult population 
+leads to more immediate health impact.
+In children younger than 10 years, the decline in 
+neonatal disorders was slower than for the major 
+infectious diseases, thus increasing neonatal disorders’ 
+share of total DALYs. Among injuries in this age group, 
+drowning saw the largest decline in DALYs. The position 
+of congenital syphilis among the top ten causes of 
+DALYs in children is indicative of health system failure. 
+With testing and treatment in the second trimester of 
+pregnancy, this cause could be eliminated.23 The main 
+reasons for failure are limited access to health services, 
+the low use of rapid diagnostic tests, the failure of 
+antenatal clinics to screen or treat when a woman is 
+Figure 4: Annualised rate of change in age-standardised DALY rates for all causes excluding HIV/AIDS, natural disasters, and war and conflict, and SDI by 
+country or territory, for 1990–2010 (A) and 2010–19 (B)
+A simple linear regression line is shown in each figure for the relationship between annualised rate of change and the average SDI value of each country and territory 
+for each time period. AFG=Afghanistan. AGO=Angola. ARE=United Arab Emirates. BDI=Burundi. BGD=Bangladesh. BLR=Belarus. BOL=Bolivia. BTN=Bhutan. 
+CHN=China. CIV=Côte d’Ivoire. CMR=Cameroon. COD=Democratic Republic of the Congo. DALY=disability-adjusted life-year. DMA=Dominica. DOM=Dominican 
+Republic. ERI=Eritrea. ETH=Ethiopia. GHA=Ghana. GNB=Guinea-Bissau. GNQ=Equatorial Guinea. GTM=Guatemala. GUM=Guam. IND=India. JAM=Jamaica. 
+KAZ=Kazakhstan. KHM=Cambodia. KOR=South Korea. KNA=Saint Kitts and Nevis. LAO=Laos. LBR=Liberia. LCA=Saint Lucia. LSO=Lesotho. MDA=Moldova. 
+MDV=Maldives. MMR=Myanmar. MOZ=Mozambique. MRT=Mauritania. MWI=Malawi. NER=Niger. NGA=Nigeria. NPL=Nepal. NRU=Nauru. OMN=Oman. PER=Peru. 
+RUS=Russia. RWA=Rwanda. SDN=Sudan. SGP=Singapore. SLE=Sierra Leone. SOM=Somalia. SWZ=eSwatini. TGO=Togo. TLS=Timor-Leste. TUR=Turkey. UKR=Ukraine. 
+UZB=Uzbekistan. VCT=Saint Vincent and the Grenadines. VEN=Venezuela. YEM=Yemen. ZAF=South Africa. ZWE=Zimbabwe. SDI=Socio-demographic Index.
+0
+50
+100
+–0·04
+–0·03
+–0·02
+–0·01
+0
+0·01
+A
+B
+Annualised rate of change in DALY rate
+SDI
+0
+50
+100
+SDI
+1990–2010
+2010–19
+CHN
+KHM
+LAO
+MDV
+MMR
+TLS
+KAZ
+UZB
+BLR
+RUS
+KOR
+SGP
+BOL
+PER
+GTM
+TUR
+YEM
+BGD
+BTN
+NPL
+AGO
+GNQ
+BDI
+ERI
+ETH
+MWI
+MOZ
+RWA
+LSO
+SWZ
+ZWE
+LBR
+MRT
+NER
+NRU
+SDN
+GBD super-region
+LAO
+MMR
+KAZ
+KGZ
+BLR
+MDA
+RUS
+UKR
+USA
+DMA
+DOM
+JAM
+LCA
+VCT
+VEN
+OMN
+ARE
+AFG
+BGD
+IND
+AGO
+COD
+ETH
+MWI
+SOM
+ZMB
+ZAF
+SWZ
+CMR
+CIV
+GHA
+GNB
+NGA
+SLE
+TGO
+GUM
+SDN
+Central Europe, eastern Europe, and central Asia
+South Asia
+Sub-Saharan Africa
+High income
+Latin America and Caribbean
+North Africa and Middle East
+
+Global Health Metrics
+1216	
+www.thelancet.com   Vol 396   October 17, 2020
+tested positive, and the recent global shortage of 
+benzathine penicillin, the treatment of choice.24 Despite 
+the large health gains among children younger than 
+10 years, considerable burdens still remain in sub-
+Saharan Africa. Sustaining the global pace of progress 
+will become more challenging as an ever-increasing 
+proportion of the global birth cohort is born in sub-
+Saharan Africa,25 with the highest rates of burden in 
+these age groups. It is encouraging, however, that the 
+largest decreases in DALY rates globally have occurred in 
+sub-Saharan African countries, such as Ethiopia, Angola, 
+Rwanda, and Malawi, although there are others that 
+have seen much less progress.
+Among the top ten causes of DALYs in adolescents 
+aged 10–24 years, self-harm had the largest decline 
+(28·4% [95% UI 18·9–36·3]) over the study period. The 
+prevalence of depressive disorders and other mental 
+disorders, which are major underlying causes of self-
+harm,26 did not change, sug­gesting that the decline in 
+self-harm deaths was largely due to other factors such as 
+better access to mental health services, urbanisation, and 
+a reduction in access to more lethal means of suicide.27–30 
+The increase in DALY rates of neonatal disorders in this 
+age group is a downside to the large improvements in 
+neonatal survival, causing a greater proportion of the 
+surviving babies to have long-term neurological and 
+sensory deficits.
+In the 25–49-year age group, HIV/AIDS was the second 
+leading cause of DALYs in 2019 despite a drop since 2005, 
+when ART became more widely available.31 To be on 
+course to end HIV/AIDS as a public health threat 
+by 2030, UNAIDS estimates that a substantial increase in 
+global funding would be required, whereas high-income 
+countries have reduced their funding.32 The prominent 
+position of headache disorders in the DALY rankings in 
+the 10–24-year and 25–49-year age groups has received 
+little attention in global health policy debates. While 
+there is no cure for these disorders, there are effective 
+symptomatic and preventive treatments available.33 
+Ischaemic heart disease, stroke, and diabetes were not 
+among the 25 leading causes in the two younger age 
+groups, but emerged as major contributors to burden in 
+the 25–49-year age group and, more prominently, in the 
+older age groups that follow. These diseases share many 
+common risk factors and treatment approaches. The 
+burden in high-income countries has been rapidly 
+declining since the 1980s, but a more recent downturn in 
+this decline over the past 5 years has been noted as an 
+important explanation for the slowdown in life expectancy 
+gains.34 Low-income and middle-income countries still 
+have ample opportunity to make greater use of known 
+effective intervention strategies (tobacco control, blood 
+pressure-lowering and cholesterol-lowering treatments, 
+and emer­gency response and treatment for acute events) 
+that have been so effective in high-income countries.35 
+However, the rising prevalence of diabetes, linked to the 
+almost ubiquitous increase in body-mass index globally,36 
+is mitigating the pathway to reducing the burden of 
+cardiovascular diseases.37,38 In the 25–49-year age group, 
+tuberculosis that is not associated with HIV infection 
+ranked among the top ten causes in 2019. There are 
+similar worries about sustained global funding of 
+tuberculosis control as mentioned for HIV/AIDS, let 
+alone having the additional resources and research 
+development effort that would be required to reach 
+WHO’s goals to reduce the 2015 levels of tuberculosis 
+deaths and incidence by 90% and 80%, respectively, by 
+the year 2030.39–41
+The prominent rankings of COPD and lung cancer 
+in the 50–74-year and 75-years-and-older age groups 
+emphasise the continuing need for tobacco-control 
+measures and attention to reducing exposure to indoor 
+and outdoor air pollution. Already, low-income and 
+middle-income countries account for 62·6% of the 
+global burden of COPD and lung cancer, and this share 
+is likely to increase sharply over coming decades due to 
+ageing populations and less successful tobacco and air 
+pollution control. The finding that lung cancer DALY 
+rates are declining in the 50–74-year age group but not in 
+those aged 75 years and older is probably due to a cohort 
+effect; this could be encouraging if it reflects a greater 
+response to tobacco control in younger generations that 
+will drive further declines in coming years. Chronic 
+kidney disease is strongly linked to cardiovascular 
+diseases and diabetes, and shares common risks and 
+intervention approaches.42 Given its prominent position 
+in the top ten rankings of DALYs in older age groups and 
+the costs associated with end-stage kidney disease 
+treatments, screening and low-cost treatments at earlier 
+stages of chronic kidney disease should be more widely 
+implemented.43 Cirrhosis ranked seventh among those 
+aged 50–74 years in 2019. With low-cost treatments 
+available to low-income and middle-income countries, 
+there is an opportunity to eradicate hepatitis C as an 
+underlying cause—a strategy that Egypt is well on the 
+way to achieving in coming years.19 Child­hood vac­
+cinations for hepatitis B will eventually also reduce 
+cirrhosis (and liver cancer) outcomes, but the full effect 
+will probably not be apparent for years. Alcohol is the 
+third modifiable cause of cirrhosis; there is strong 
+evidence that taxation and regulations can reduce alcohol 
+use to less harmful levels.44 Age-related hearing loss is a 
+top ten cause of DALYs in the two older age groups. 
+While some reduction in burden can be achieved by 
+control of loud noises during leisure or occupational 
+activities, most of the burden cannot be prevented 
+through currently known strategies. For a large propor­
+tion of the elderly, hearing aids can relieve some of the 
+symptoms and associated social isolation. The quality of 
+hearing aids has improved over the past decade, but low-
+cost appliances are not readily available in low-income 
+and middle-income countries.45
+Alzheimer’s disease and other dementias, and falls are 
+two causes that appear in the top ten ranking of DALYs 
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1217
+only for those aged 75 years and older. The ability to 
+intervene by prevention or treatment for dementia is still 
+limited despite a large research and development effort 
+to identify drugs, but efforts continue.46 There is good 
+evidence that a range of modifiable risks (tobacco, 
+physical inactivity, metabolic risks, and hearing loss) 
+contribute to the development of dementia,47,48 but little 
+evidence of the effectiveness of interventions addressing 
+these risk factors.47,49 Falls in the elderly are common and 
+linked to psychotropic and cardiovascular medications,50 
+cognitive impairment, depression, and general frailty.51,52 
+There is evidence for the effectiveness of multifactorial 
+interventions combining education, exercise, and home 
+safety modification interventions.53
+The trend towards disability as an increasing share of 
+overall burden has continued. In 11 countries, more than 
+half the burden was from YLDs of NCDs and injuries in 
+2019. To some extent, the absence of a discernible trend 
+in disability might be an artifact of the poor availability of 
+data on severity, and, therefore, an inability to quantify 
+the effect of health service interventions that modulate 
+severity. The larger issue, however, is that most of the 
+focus of global public health has been on life-saving 
+interventions directed at the main causes of death.7,54,55 
+The large contributors to disability, such as muscu­
+loskeletal conditions and mental disorders, are associated 
+with few deaths. As disability becomes an increasingly 
+large component of disease burden and, as importantly, 
+a larger component of health expenditure, a greater 
+research development investment is needed to identify 
+new, and more effective, intervention strategies.56–58 With 
+a rapidly ageing global population, the demands on 
+health services to deal with disabling outcomes, which 
+increase with age, will require policy makers to anticipate 
+these changes. GBD provides key information on the 
+changes in types of health services in terms of facilities 
+and adequately trained personnel that will be needed.
+The finding that health gains in countries at the lower 
+end of the SDI scale have, on average, accelerated over the 
+past decade compared with the two decades before 
+indicates the potential for low-income countries to make 
+a real difference by investing in health. Progress, however, 
+has been uneven. The more recent downturn in reduc­
+tions in DALY rates in countries and territories with 
+higher SDI is striking and near universal, although an 
+actual reversal into increases of age-standardised DALY 
+rates has only happened in a small number of countries 
+in the Caribbean and the USA. Plausible drivers of this 
+change include obesity, diminishing potential for further 
+reductions in smoking, and improvements in coverage of 
+treatments for high blood pressure and cholesterol to 
+maintain the past declines in cardiovascular mortality.34 
+Inequalities in access to preventive and curative services 
+by lower socioeconomic groups might be a further 
+obstacle to continued improvements in cardiovascular 
+mortality.59 The large increase in drug overdose deaths in 
+the USA and the increasing number of deaths from 
+violence in Latin American countries, in addition to 
+the decelerated decline of cardiovascular mortality, are 
+driving the patterns in these locations. The mix of 
+universal and more geographically specific influences on 
+health reinforces the need for regular, detailed reporting 
+on population health by underlying cause to help decision 
+makers to identify success stories of disease control, as 
+well as opportunities to improve and emulate countries 
+that are performing well.
+Limitations
+The major limitation of the GBD analysis of the burden 
+of diseases and injuries is the availability of primary data. 
+Where data are not available, the results depend on the 
+out-of-sample predictive validity of the modelling efforts. 
+While improvements to data processing and modelling 
+can lead to incremental improvements in the accuracy of 
+our estimates, fundamental improvements require more 
+and better primary data collection. Even when data are 
+available, they might not have been obtained using 
+the preferred case definition or measurement method. 
+The more explicit identification of the preferred and 
+alternative measurement method for each outcome, and 
+the bias mapping from alternative to reference method 
+undertaken as part of GBD 2019, have led to greater 
+stability in data adjustments. These improvements will 
+also aid in identifying priorities for data collection and 
+in determining preferred case definitions and study 
+methods. Moving to use of standard locations for 
+estimating fixed effects in the models will aid in cycle-to-
+cycle stability of models. Through the use of standard 
+locations, the addition of more subnational units in a 
+given GBD cycle should not shift the regression model 
+predictions as much as they previously would have. 
+Nevertheless, collinearity between covariates in some of 
+these models might contribute to some instability in 
+fixed effects between cycles. Future work on ensemble 
+models might help to solve the collinearity problem. Of 
+note, because the cause of death models developed using 
+CODEm are an ensemble of all high-performing possible 
+models, they avoid the instability due to collinearity. 
+Although our statistical modelling is designed to capture 
+uncertainty from stochastic variation in input data, age 
+and sex splitting of data, corrections for alternative case 
+definitions or uninformative cause of death codes, other 
+data manipulations, and model choice, it remains a 
+challenge to fully represent the UIs around estimates, 
+particularly in locations with sparse or absent data. This 
+will remain a major focus of GBD by tapping into existing 
+knowledge in other estimation fields as well as our own 
+development of methods.
+The shift to adjusting dementia deaths to reflect 
+only those with end-stage disease is conceptually more 
+appealing than the past crude adjustment for the large 
+variation in coding practices. We will, however, need to 
+replicate the methods of determining the share of excess 
+mortality in people with dementia who are in the last 
+
+Global Health Metrics
+1218	
+www.thelancet.com   Vol 396   October 17, 2020
+stages of the disease and for whom an assignment of 
+dementia as the underlying cause of death is therefore 
+justified. A greater focus in future rounds of GBD will 
+need to be directed to identifying data of treatment effects 
+on severity distributions of the large contributors to 
+YLDs, such as mental, neurological, and musculoskeletal 
+disorders, for which we currently do not distinguish 
+geographical variation in severity. This is of particular 
+importance as these conditions represent an increasing 
+share of total burden. Our effort to improve the consis­
+tency between mortality rates, prevalence, and incidence 
+for selected conditions by providing more explicit 
+guidance on excess mortality rates in DisMod-MR has 
+revealed that more attention will be required in future 
+rounds of GBD. After imposing a pattern of excess 
+mortality that follows an expected pattern of lower rates 
+in countries with better health systems, the models might 
+predict prevalence or incidence estimates that are far 
+removed from observed data. The challenge is then to 
+identify whether the inconsistency is due to error in the 
+cause of death estimates, the non-fatal data sources, or a 
+combination of the two. In addition to these general 
+limitations, there are many limitations for each specific 
+modelling exercise reported in this study. Appendix 1 
+(sections 3.4 and 4.12) provides more insight into some of 
+these issues.
+Future directions
+Several method improvements signalled in previous 
+GBD publications have not yet been implemented but 
+remain a priority. For instance, DisMod-AT, a new version 
+of our main non-fatal modelling tool that simultaneously 
+solves for patterns over age and time, is still undergoing 
+testing before it can be implemented in GBD. Methods to 
+make dependent comorbidity corrections computationally 
+feasible, and imposing greater variation in severity 
+distributions based on access to and quality of health 
+care, are also still under development. More generally, 
+imposing GBD principles and methods to the estimation 
+of access to health interventions and the effectiveness 
+thereof, and being able to link those estimates with our 
+future health scenario platform25 is a direction we are 
+keen to take. Developing this comprehensively is a large 
+endeavour that will take many years to complete. As this 
+would greatly add value to the policy relevance of GBD, 
+we will also aim to develop less comprehensive methods 
+that will nevertheless allow us to respond to policy makers 
+seeking information on major policy decisions in a more 
+timely fashion.
+Conclusion
+Taking into account population growth and shifts in age 
+structure, health continues to improve at the global level. 
+The absolute burden of disease and its associated impact 
+on health systems, however, remain resolutely constant. 
+Some diseases, such as diabetes, are increasing in 
+burden, and more general all-cause DALY stagnation in 
+some high SDI countries points out that further gains 
+are not inevitable. Close monitoring of health trends and 
+careful policy evaluation of the options to counteract 
+adverse trends is required. Leading causes of DALYs, as 
+well as solutions, differ substantially across age groups, 
+highlighting the need to formulate policy for different 
+phases of the life course.
+Contributors
+Please see appendix 1 for more detailed information about individual 
+authors’ contributions to the research, divided into the following 
+categories: managing the estimation process; writing the first draft of 
+the manuscript; providing data or critical feedback on data sources; 
+developing methods or computational machinery; applying analytical 
+methods to produce estimates; providing critical feedback on methods or 
+results; drafting the work or revising it critically for important 
+intellectual content; extracting, cleaning, or cataloguing data; designing 
+or coding figures and tables; and managing the overall research 
+enterprise.
+Declaration of interests
+I N Ackerman reports grants from Victorian Government, outside of the 
+submitted work. C A T Antonio reports personal fees from Johnson & 
+Johnson (Philippines), outside of the submitted work. E Beghi reports 
+grants from Italian Ministry of Health and SOBI and personal fees from 
+Arvelle Therapeutics, outside of the submitted work. Y Béjot reports 
+personal fees from AstraZeneca, Bristol Myers Squibb, Pfizer, and 
+Medtronic, Merck Sharpe & Dohme, and Amgen; grants and personal 
+fees from Boehringer-Ingelheim; personal fees and non-financial 
+support from Servier; and non-financial support from Biogen, outside of 
+the submitted work. P S Briant reports personal fees from WHO, 
+outside of the submitted work. H Christensen reports personal fees 
+from Bristol Myers Squibb, Bayer, and Boehringer Ingelheim, outside of 
+the submitted work. L Degenhardt reports grants from Indivior and 
+Seqirus, outside of the submitted work. S J Dunachie reports grants 
+from the Fleming Fund at the UK Department of Health and Social 
+Care, during the conduct of the study. L M Haile reports personal fees 
+from WHO, outside of the submitted work. S M S Islam reports grants 
+from National Heart Foundation of Australia and Deakin University, 
+during the conduct of the study. S L James reports grants from Sanofi 
+Pasteur and employment from Genentech, outside of the submitted 
+work. P Jeemon reports and Clinical and Public Health intermediate 
+fellowship (grant number IA/CPHI/14/1/501497) from the Wellcome 
+Trust—Department of Biotechnology, India Alliance (2015–2020). V Jha 
+reports grants from Baxter Healthcare, GlaxoSmithKline, Zydus Cadilla, 
+NephroPlus, and Biocon, outside of the submitted work. J J Jozwiak 
+reports personal fees from Amgen, ALAB Laboratoria, Teva, Synexus, 
+and Boehringer Ingelheim, outside of the submitted work. 
+S V Katikireddi reports grants from NRS Senior Clinical Fellowship, 
+Scottish Government Chief Scientist Office, and the UK Medical 
+Research Council, during the conduct of the study. S Lewington reports 
+grants from the UK Medical Research Council and the CDC Foundation 
+(with support from Amgen), outside of the submitted work. K J Looker 
+reports grants from WHO and GlaxoSmithKline, outside of the 
+submitted work. S Lorkowski reports personal fees from Akcea 
+Therapeutics, Amedes, Amgen, Berlin-Chemie, Boehringer Ingelheim 
+Pharma, Daiichi Sankyo, Merck Sharp & Dohme, Novo Nordisk, Sanofi-
+Aventis, Synlab, Unilever, and Upfield and non-financial support from 
+Preventicus, outside of the submitted work. R A Lyons reports grants 
+from Health Data Research UK, outside of the submitted work. 
+J Massano reports personal fees from Abbvie, Bial, Merck Sharp & 
+Dohme, and Zambon and other support from Boston Scientific, 
+GE Healthcare, Medtronic, and Roche, outside of the submitted work. 
+W Mendoza is a Program Analyst in Population and Development at the 
+UN Population Fund Country Office in Peru, an institution that does not 
+necessarily endorse this study. M Moradi-Lakeh reports personal fees 
+from Novartis, outside of the submitted work. J F Mosser reports grants 
+from the Bill & Melinda Gates Foundation, during the conduct of the 
+study. S Nomura reports grants from the Japanese Ministry of 
+Education, Culture, Sports, Science, and Technology. S B Patten reports 
+funding from the Cuthbertson & Fischer Chair in Pediatric Mental 
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1219
+Health, during the conduct of the study. T Pilgrim reports grants and 
+personal fees from Biotronik and Boston Scientific, grants from Edwards 
+Lifesciences, and personal fees from HighLife SAS for his work as a 
+member of clinical event committee for a study sponsored by HighLife 
+SAS, outside of the submitted work. M J Postma reports grants and 
+personal fees from Merck Sharp & Dohme, GlaxoSmithKline, Pfizer, 
+Boehringer Ingelheim, Novavax, Bristol Myers Squibb, AstraZeneca, 
+Sanofi, IQVIA, and Seqirus; personal fees from Quintiles, Novartis, 
+and Pharmerit; grants from Bayer, BioMerieux, WHO, EU, FIND, 
+Antilope, DIKTI, LPDP, and Budi; and other support from Ingress 
+Health, PAG, and Asc Academics, outside of the submitted work. 
+E Pupillo reports grants from AIFA, outside of the submitted work. 
+A E Schutte reports personal fees from Omron, Servier, Novartis, 
+Takeda, and Abbott, outside of the submitted work. M G Shrime reports 
+grants from Damon Runyon Cancer Research Foundation and Mercy 
+Ships, outside of the submitted work. J A Singh reports personal fees 
+from Crealta/Horizon, Medisys, Fidia, UBM, Trio Health, Medscape, 
+WebMD, Clinical Care Options, Clearview Healthcare Partners, Putnam 
+Associates, Spherix, Practice Point Communications, National Institutes 
+of Health, and the American College of Rheumatology; personal fees 
+from Simply Speaking; other support from Amarin Pharmaceuticals and 
+Viking Pharmaceuticals; and non-financial support from the steering 
+committee of OMERACT (an international organisation that develops 
+measures for clinical trials and receives arm’s length funding from 
+12 pharmaceutical companies), US Food and Drug Administration, 
+Arthritis Advisory Committee, Veterans Affairs Rheumatology Field 
+Advisory Committee, and the editor and director of the UAB Cochrane 
+Musculoskeletal Group Satellite Center on Network Meta-analysis, 
+outside of the submitted work. S T S Skou reports personal fees from 
+Journal of Orthopaedic & Sports Physical Therapy and Munksgaard and 
+grants from The Lundbeck Foundation, outside of the submitted work; 
+and being co-founder of GLA:D. GLA:D is a non-profit initiative hosted 
+at University of Southern Denmark aimed at implementing clinical 
+guidelines for osteoarthritis in clinical practice. J D Stanaway reports 
+grants from Bill & Melinda Gates Foundation, during the conduct of the 
+study. R Uddin reports travel and accommodation reimbursement from 
+Deakin University Institute for Physical Activity and Nutrition, outside 
+of the submitted work. All other authors declare no competing interests.
+Data sharing
+To download the data used in these analyses, please visit the Global
+Health Data Exchange GBD 2019 website.
+Acknowledgments
+Research reported in this publication was supported by the Bill & 
+Melinda Gates Foundation; the University of Melbourne; Queensland 
+Department of Health, Australia; the National Health and Medical 
+Research Council, Australia; Public Health England; the Norwegian 
+Institute of Public Health; St Jude Children’s Research Hospital; 
+the Cardiovascular Medical Research and Education Fund; the National 
+Institute on Ageing of the National Institutes of Health (award 
+P30AG047845); and the National Institute of Mental Health of the 
+National Institutes of Health (award R01MH110163). The content is 
+solely the responsibility of the authors and does not necessarily 
+represent the official views of the funders. The authors alone are 
+responsible for the views expressed in this Article and they do not 
+necessarily represent the views, decisions, or policies of the institutions 
+with which they are affiliated, the National Health Service (NHS), 
+the National Institute for Health Research (NIHR), the UK Department 
+of Health and Social Care, or Public Health England; the United States 
+Agency for International Development (USAID), the US Government, 
+or MEASURE Evaluation; or the European Centre for Disease 
+Prevention and Control (ECDC). This research used data from the Chile 
+National Health Survey 2003, 2009–10, and 2016–17. The authors are 
+grateful to the Ministry of Health, the survey copyright owner, for 
+allowing them to have the database. All results of the study are those of 
+the authors and in no way committed to the Ministry. The Costa Rican 
+Longevity and Healthy Aging Study project is a longitudinal study by the 
+University of Costa Rica’s Centro Centroamericano de Población and 
+Instituto de Investigaciones en Salud, in collaboration with the 
+University of California at Berkeley. The original pre-1945 cohort was 
+funded by the Wellcome Trust (grant 072406), and the 1945–55 
+Retirement Cohort was funded by the US National Institute on Aging 
+(grant R01AG031716). The principal investigators are Luis Rosero-Bixby 
+and William H Dow and co-principal investigators are Xinia Fernández 
+and Gilbert Brenes. The accuracy of the authors’ statistical analysis and 
+the findings they report are not the responsibility of ECDC. ECDC is not 
+responsible for conclusions or opinions drawn from the data provided. 
+ECDC is not responsible for the correctness of the data and for data 
+management, data merging and data collation after provision of the data. 
+ECDC shall not be held liable for improper or incorrect use of the data. 
+The Health Behaviour in School-Aged Children (HBSC) study is an 
+international study carried out in collaboration with WHO/EURO. 
+The international coordinator of the 1997–98, 2001–02, 2005–06, 
+and 2009–10 surveys was Candace Currie and the databank manager for 
+the 1997–98 survey was Bente Wold, whereas for the following surveys 
+Oddrun Samdal was the databank manager. A list of principal 
+investigators in each country can be found on the HBSC website. 
+Data used in this paper come from the 2009–10 Ghana Socioeconomic 
+Panel Study Survey, which is a nationally representative survey of more 
+than 5000 households in Ghana. The survey is a joint effort undertaken 
+by the Institute of Statistical, Social and Economic Research (ISSER) at 
+the University of Ghana and the Economic Growth Centre (EGC) at Yale 
+University. It was funded by EGC. ISSER and the EGC are not 
+responsible for the estimations reported by the analysts. The Palestinian 
+Central Bureau of Statistics granted the researchers access to relevant 
+data in accordance with license number SLN2014-3-170, after subjecting 
+data to processing aiming to preserve the confidentiality of individual 
+data in accordance with the General Statistics Law, 2000. The researchers 
+are solely responsible for the conclusions and inferences drawn upon 
+available data. Data for this research was provided by MEASURE 
+Evaluation, funded by USAID. The authors thank the Russia 
+Longitudinal Monitoring Survey, conducted by the National Research 
+University Higher School of Economics and ZAO Demoscope together 
+with Carolina Population Center, University of North Carolina at 
+Chapel Hill and the Institute of Sociology, Russia Academy of Sciences 
+for making data available. This paper uses data from the Bhutan 2014 
+STEPS survey, implemented by the Ministry of Health with the support 
+of WHO; the Kuwait 2006 and 2014 STEPS surveys, implemented by the 
+Ministry of Health with the support of WHO; the Libya 2009 STEPS 
+survey, implemented by the Secretariat of Health and Environment with 
+the support of WHO; the Malawi 2009 STEPS survey, implemented by 
+Ministry of Health with the support of WHO; and the Moldova 2013 
+STEPS survey, implemented by the Ministry of Health, the National 
+Bureau of Statistics, and the National Center of Public Health with the 
+support of WHO. This paper uses data from Survey of Health, Ageing 
+and Retirement in Europe (SHARE) Waves 1 (DOI:10.6103/SHARE.
+w1.700), 2 (10.6103/SHARE.w2.700), 3 (10.6103/SHARE.w3.700), 
+4 (10.6103/SHARE.w4.700), 5 (10.6103/SHARE.w5.700), 
+6 (10.6103/SHARE.w6.700), and 7 (10.6103/SHARE.w7.700); 
+see Börsch-Supan and colleagues (2013) for methodological details. 
+The SHARE data collection has been funded by the European 
+Commission through FP5 (QLK6-CT-2001-00360), FP6 (SHARE-I3: 
+RII-CT-2006-062193, COMPARE: CIT5-CT-2005-028857, SHARELIFE: 
+CIT4-CT-2006-028812), FP7 (SHARE-PREP: GA N°211909, 
+SHARE-LEAP: GA N°227822, SHARE M4: GA N°261982) and Horizon 
+2020 (SHARE-DEV3: GA N°676536, SERISS: GA N°654221) and by 
+DG Employment, Social Affairs & Inclusion. Additional funding from 
+the German Ministry of Education and Research, the Max Planck Society 
+for the Advancement of Science, the US National Institute on Aging 
+(U01_AG09740-13S2, P01_AG005842, P01_AG08291, P30_AG12815, 
+R21_AG025169, Y1-AG-4553-01, IAG_BSR06-11, OGHA_04-064, 
+HHSN271201300071C), and from various national funding sources is 
+gratefully acknowledged. This study has been realised using the data 
+collected by the Swiss Household Panel, which is based at the Swiss 
+Centre of Expertise in the Social Sciences. The project is financed by the 
+Swiss National Science Foundation. The United States Aging, 
+Demographics, and Memory Study is a supplement to the Health and 
+Retirement Study (HRS), which is sponsored by the National Institute of 
+Aging (grant number NIA U01AG009740). It was conducted jointly by 
+Duke University and the University of Michigan. The HRS is sponsored 
+by the National Institute on Aging (grant number NIA U01AG009740) 
+and is conducted by the University of Michigan. This paper uses data 
+For the HBSC website see 
+http://www.hbsc.org
+For the Global Health Data 
+Exchange GBD 2019 website 
+see http://ghdx.healthdata.org/
+gbd−2019
+For more on SHARE see 
+http://www.share-project.org
+
+Global Health Metrics
+1220	
+www.thelancet.com   Vol 396   October 17, 2020
+from Add Health, a program project designed by J Richard Udry, 
+Peter S Bearman, and Kathleen Mullan Harris, and funded by a grant 
+P01-HD31921 from the Eunice Kennedy Shriver National Institute of 
+Child Health and Human Development, with cooperative funding from 
+17 other agencies. Special acknowledgment is due to Ronald R Rindfuss 
+and Barbara Entwisle for assistance in the original design. Information 
+on how to obtain the Add Health data files is available on the Add Health 
+website. No direct support was received from grant P01-HD31921 for this 
+analysis. The data reported here have been supplied by the United States 
+Renal Data System. The interpretation and reporting of these data are 
+the responsibility of the authors and in no way should be seen as an 
+official policy or interpretation of the US Government. Collection of data 
+for the Mozambique National Survey on the Causes of Death 2007–08 was 
+made possible by USAID under the terms of cooperative agreement 
+GPO-A-00-08-000_D3-00. This manuscript is based on data collected and 
+shared by the International Vaccine Institute (IVI) from an original study 
+IVI conducted. L G Abreu acknowledges support from Coordenação de 
+Aperfeiçoamento de Pessoal de Nível Superior (Brazil; finance code 001) 
+and Conselho Nacional de Desenvolvimento Científico e Tecnológico 
+(CNPq, a Brazilian funding agency). I N Ackerman was supported by a 
+Victorian Health and Medical Research Fellowship awarded by the 
+Victorian Government. O O Adetokunboh acknowledges the South 
+African Department of Science and Innovation and the National Research 
+Foundation. A Agrawal acknowledges the Wellcome Trust DBT India 
+Alliance Senior Fellowship. S M Aljunid acknowledges the Department of 
+Health Policy and Management, Faculty of Public Health, Kuwait 
+University and International Centre for Casemix and Clinical Coding, 
+Faculty of Medicine, National University of Malaysia for the approval and 
+support to participate in this research project. M Ausloos, C Herteliu, 
+and A Pana acknowledge partial support by a grant of the Romanian 
+National Authority for Scientific Research and Innovation, 
+CNDS-UEFISCDI, project number PN-III-P4-ID-PCCF-2016-0084. 
+A Badawi is supported by the Public Health Agency of Canada. 
+D A Bennett was supported by the NIHR Oxford Biomedical Research 
+Centre. R Bourne acknowledges the Brien Holden Vision Institute, 
+University of Heidelberg, Sightsavers, Fred Hollows Foundation, 
+and Thea Foundation. G B Britton and I Moreno Velásquez were 
+supported by the Sistema Nacional de Investigación, SNI-SENACYT, 
+Panama. R Buchbinder was supported by an Australian National Health 
+and Medical Research Council (NHMRC) Senior Principal Research 
+Fellowship. J J Carrero was supported by the Swedish Research Council 
+(2019-01059). F Carvalho acknowledges UID/MULTI/04378/2019 and 
+UID/QUI/50006/2019 support with funding from FCT/MCTES through 
+national funds. A R Chang was supported by National Institutes of 
+Health/National Institute of Diabetes and Digestive and Kidney Diseases 
+grant K23 DK106515. V M Costa acknowledges the grant 
+SFRH/BHD/110001/2015, received by Portuguese national funds through 
+Fundação para a Ciência e Tecnologia, IP, under the Norma Transitária 
+DL57/2016/CP1334/CT0006. A Douiri acknowledges support and funding 
+from the National Institute for Health Research Collaboration for 
+Leadership in Applied Health Research and Care South London at King’s 
+College Hospital NHS Foundation Trust and the Royal College of 
+Physicians, and support from the NIHR Biomedical Research Centre 
+based at Guy’s and St Thomas’ NHS Foundation Trust and King’s College 
+London. B B Duncan acknowledges grants from the Foundation for the 
+Support of Research of the State of Rio Grande do Sul (IATS and PrInt) 
+and the Brazilian Ministry of Health. H E Erskine is the recipient of an 
+Australian NHMRC Early Career Fellowship grant (APP1137969). 
+A J Ferrari was supported by a NHMRC Early Career Fellowship grant 
+(APP1121516). H E Erskine and A J Ferrari are employed by and 
+A M Mantilla-Herrera and D F Santomauro affiliated with the Queensland 
+Centre for Mental Health Research, which receives core funding from the 
+Queensland Department of Health. M L Ferreira holds an NHMRC 
+Research Fellowship. C Flohr was supported by the NIHR Biomedical 
+Research Centre based at Guy’s and St Thomas’ NHS Foundation Trust. 
+M Freitas acknowledges financial support from the EU (European 
+Regional Development Fund [FEDER] funds through COMPETE 
+POCI-01-0145-FEDER-029248) and National Funds (Fundação para a 
+Ciência e Tecnologia) through project PTDC/NAN-MAT/29248/2017. 
+A L S Guimaraes acknowledges support from CNPq. C Herteliu was 
+partially supported by a grant co-funded by FEDER through Operational 
+Competitiveness Program (project ID P_40_382). P Hoogar acknowledges 
+Centre for Bio Cultural Studies, Directorate of Research, Manipal 
+Academy of Higher Education and Centre for Holistic Development and 
+Research, Kalaghatagi. F N Hugo acknowledges the Visiting 
+Professorship, PRINT Program, CAPES Foundation, Brazil. B-F Hwang 
+was supported by China Medical University (CMU107-Z-04), Taichung, 
+Taiwan. S M S Islam was funded by a National Heart Foundation Senior 
+Research Fellowship and supported by Deakin University. R Q Ivers was 
+supported by a research fellowship from the National Health and Medical 
+Research Council of Australia. M Jakovljevic acknowledges the Serbian 
+part of this GBD-related contribution was co-funded through Grant 
+OI175014 of the Ministry of Education Science and Technological 
+Development of the Republic of Serbia. P Jeemon was supported by a 
+Clinical and Public Health intermediate fellowship (grant number 
+IA/CPHI/14/1/501497) from the Wellcome Trust—Department of 
+Biotechnology, India Alliance (2015–20). O John is a recipient of UIPA 
+scholarship from University of New South Wales, Sydney. S V Katikireddi 
+acknowledges funding from a NRS Senior Clinical Fellowship 
+(SCAF/15/02), the Medical Research Council (MC_UU_12017/13, 
+MC_UU_12017/15), and the Scottish Government Chief Scientist Office 
+(SPHSU13, SPHSU15). C Kieling is a CNPq researcher and a UK 
+Academy of Medical Sciences Newton Advanced Fellow. Y J Kim was 
+supported by Research Management Office, Xiamen University Malaysia 
+(XMUMRF/2018-C2/ITCM/00010). K Krishan is supported by UGC 
+Centre of Advanced Study awarded to the Department of Anthropology, 
+Panjab University, Chandigarh, India. M Kumar was supported by 
+K43 TW 010716 FIC/NIMH. B Lacey acknowledges support from the 
+NIHR Oxford Biomedical Research Centre and the BHF Centre of 
+Research Excellence, Oxford. J V Lazarus was supported by a Spanish 
+Ministry of Science, Innovation and Universities Miguel Servet grant 
+(Instituto de Salud Carlos III [ISCIII]/ESF, the EU [CP18/00074]). 
+K J Looker thanks the NIHR Health Protection Research Unit in 
+Evaluation of Interventions at the University of Bristol, in partnership 
+with Public Health England, for research support. S Lorkowski was 
+funded by the German Federal Ministry of Education and Research 
+(nutriCARD, grant agreement number 01EA1808A). R A Lyons is 
+supported by Health Data Research UK (HDR-9006), which is funded by 
+the UK Medical Research Council, Engineering and Physical Sciences 
+Research Council, Economic and Social Research Council, NIHR 
+(England), Chief Scientist Office of the Scottish Government Health and 
+Social Care Directorates, Health and Social Care Research and 
+Development Division (Welsh Government), Public Health Agency 
+(Northern Ireland), British Heart Foundation, and Wellcome Trust. 
+J J McGrath is supported by the Danish National Research Foundation 
+(Niels Bohr Professorship), and the Queensland Health Department 
+(via West Moreton HHS). P T N Memiah acknowledges support from 
+CODESRIA. U O Mueller gratefully acknowledges funding by the 
+German National Cohort Study BMBF grant number 01ER1801D. 
+S Nomura acknowledges the Ministry of Education, Culture, Sports, 
+Science, and Technology of Japan (18K10082). A Ortiz was supported by 
+ISCIII PI19/00815, DTS18/00032, ISCIII-RETIC REDinREN RD016/0009 
+Fondos FEDER, FRIAT, Comunidad de Madrid B2017/BMD-3686 
+CIFRA2-CM. These funding sources had no role in the writing of the 
+manuscript or the decision to submit it for publication. S B Patten was 
+supported by the Cuthbertson & Fischer Chair in Pediatric Mental Health 
+at the University of Calgary. G C Patton was supported by an åNHMRC 
+Senior Principal Research Fellowship. M R Phillips was supported in part 
+by the National Natural Science Foundation of China (NSFC, number 
+81371502 and 81761128031). A Raggi, D Sattin, and S Schiavolin were 
+supported by grants from the Italian Ministry of Health (Ricerca Corrente, 
+Fondazione Istituto Neurologico C Besta, Linea 4—Outcome Research: 
+dagli Indicatori alle Raccomandazioni Cliniche). P Rathi and 
+B Unnikrishnan acknowledge Kasturba Medical College, Mangalore, 
+Manipal Academy of Higher Education, Manipal. A L P Ribeiro was 
+supported by Brazilian National Research Council, CNPq, and the 
+Minas Gerais State Research Agency, FAPEMIG. D C Ribeiro was 
+supported by The Sir Charles Hercus Health Research Fellowship 
+(#18/111) Health Research Council of New Zealand. D Ribeiro 
+acknowledges financial support from the EU (FEDER funds through the 
+Operational Competitiveness Program; POCI-01-0145-FEDER-029253). 
+P S Sachdev acknowledges funding from the NHMRC of Australia 
+For the Add Health website see 
+http://www.cpc.unc.edu/
+addhealth
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1221
+Program Grant. A M Samy was supported by a fellowship from the 
+Egyptian Fulbright Mission Program. M M Santric-Milicevic acknowledges 
+the Ministry of Education, Science and Technological Development of the 
+Republic of Serbia (contract number 175087). R Sarmiento-Suárez received 
+institutional support from Applied and Environmental Sciences University 
+(Bogotá, Colombia) and ISCIII (Madrid, Spain). A E Schutte received 
+support from the South African National Research Foundation SARChI 
+Initiative (GUN 86895) and Medical Research Council. S T S Skou is 
+currently funded by a grant from Region Zealand (Exercise First) and a 
+grant from the European Research Council under the EU’s Horizon 2020 
+research and innovation program (grant agreement number 801790). 
+J B Soriano is funded by Centro de Investigación en Red de Enfermedades 
+Respiratorias, ISCIII. R Tabarés-Seisdedos was supported in part by the 
+national grant PI17/00719 from ISCIII–FEDER. N Taveira was partially 
+supported by the European & Developing Countries Clinical Trials 
+Partnership, the EU (LIFE project, reference RIA2016MC-1615). 
+S Tyrovolas was supported by the Foundation for Education and European 
+Culture, the Sara Borrell postdoctoral programme (reference number 
+CD15/00019 from ISCIII–FEDER). S B Zaman received a scholarship 
+from the Australian Government research training programme in support 
+of his academic career.
+Editorial note: the Lancet Group takes a neutral position with respect to 
+territorial claims in published maps and institutional affiliations.
+References
+1	
+Kyu HH, Abate D, Abate KH, et al. Global, regional, and national 
+disability-adjusted life-years (DALYs) for 359 diseases and injuries 
+and healthy life expectancy (HALE) for 195 countries and territories, 
+1990–2017: a systematic analysis for the Global Burden of Disease 
+Study 2017. Lancet 2018; 392: 1859–922.
+2	
+James SL, Abate D, Abate KH, et al. Global, regional, and national 
+incidence, prevalence, and years lived with disability for 
+354 diseases and injuries for 195 countries and territories, 
+1990–2017: a systematic analysis for the Global Burden of Disease 
+Study 2017. Lancet 2018; 392: 1789–858.
+3	
+Roth GA, Abate D, Abate KH, et al. Global, regional, and national 
+age-sex-specific mortality for 282 causes of death in 195 countries 
+and territories, 1980–2017: a systematic analysis for the Global 
+Burden of Disease Study 2017. Lancet 2018; 392: 1736–88.
+4	
+WHO. Third United Nations high-level meeting on NCDs. 2018. 
+http://www.who.int/ncds/governance/third-un-meeting/en 
+(accessed May 17, 2018).
+5	
+WHO. Action plan for the prevention and control of 
+noncommunicable diseases in the WHO European Region. 
+Copenhagen: WHO Regional Office for Europe, 2016.
+6	
+Vayena E, Dzenowagis J, Brownstein JS, Sheikh A. Policy 
+implications of big data in the health sector. Bull World Health Organ 
+2018; 96: 66–68.
+7	
+United Nations General Assembly. Political declaration of the third 
+high-level meeting of the General Assembly on the prevention and 
+control of non-communicable diseases. New York: United Nations, 
+2018.
+8	
+Stevens GA, Alkema L, Black RE, et al. Guidelines for Accurate and 
+Transparent Health Estimates Reporting: the GATHER statement. 
+Lancet 2016; 388: e19–23.
+9	
+WHO. International Classification of Diseases (ICD). 2018. 
+http://www.who.int/classifications/icd/en (accessed Feb 25, 2020).
+10	
+Rudd K, Johnson S, Agesa K, et al. Global, regional, and national 
+sepsis incidence and mortality, 1990–2017. Lancet 2020; 
+395: 200–11.
+11	
+Fullman N, Yearwood J, Abay SM, et al. Measuring performance on 
+the Healthcare Access and Quality Index for 195 countries and 
+territories and selected subnational locations: a systematic analysis 
+from the Global Burden of Disease Study 2016. Lancet 2018; 
+391: 2236–71.
+12	
+Afshin A, Sur PJ, Fay KA, et al. Health effects of dietary risks in 
+195 countries, 1990–2017: a systematic analysis for the Global 
+Burden of Disease Study 2017. The Lancet 2019; 393: 1958–72.
+13	
+GBD 2019 Demographics Collaborators. Global age-sex-specific 
+fertility, mortality, healthy life expectancy (HALE), and population 
+estimates in 204 countries and territories, 1950–2019: 
+a comprehensive demographic analysis for the Global Burden of 
+Disease Study 2019. Lancet 2020; 396: 1160–203.
+14	
+Jones GH, Bruera E, Abdi S, Kantarjian HM. The opioid epidemic 
+in the United States—overview, origins, and potential solutions. 
+Obstet Gynecol Surv 2019; 74: 278.
+15	
+Lyden J, Binswanger IA. The United States opioid epidemic. 
+Semin Perinatol 2019; 43: 123–31.
+16	
+National Institute on Drug Abuse. Opioid overdose crisis. 
+February, 2020. https://www.drugabuse.gov/drugs-abuse/opioids/
+opioid-overdose-crisis (accessed Feb 21, 2020).
+17	
+Public Health Agency of Canada. Apparent opioid-related deaths in 
+Canada. December, 2019. https://health-infobase.canada.ca/
+substance-related-harms/opioids/ (accessed Dec 3, 2019).
+18	
+Soliman G, Elzalabany MS, Hassanein T, Miller FD. Mass screening 
+for hepatitis B and C in Southern Upper Egypt. BMC Public Health 
+2019; 19: 1326.
+19	
+Abdel-Razek W, Hassany M, Kabil K, et al. The world’s largest 
+hepatitis C screening program in Egypt. 2019. https://www.
+postersessiononline.eu/173580348_eu/congresos/ILC2019/aula/-
+LBP_8_ILC2019.pdf (accessed Nov 1, 2019).
+20	 Omran D, Alboraie M, Zayed RA, et al. Towards hepatitis C virus 
+elimination: Egyptian experience, achievements and limitations. 
+World J Gastroenterol 2018; 24: 4330–40.
+21	
+Elgharably A, Gomaa AI, Crossey MM, Norsworthy PJ, Waked I, 
+Taylor-Robinson SD. Hepatitis C in Egypt—past, present, and future. 
+Int J Gen Med 2016; 10: 1–6.
+22	 Rao MR, Naficy AB, Darwish MA, et al. Further evidence for 
+association of hepatitis C infection with parenteral schistosomiasis 
+treatment in Egypt. BMC Infect Dis 2002; 2: 29.
+23	 Plotzker RE, Murphy RD, Stoltey JE. Congenital syphilis prevention: 
+strategies, evidence, and future directions. Sex Transm Dis 2018; 
+45 (suppl 1): S29–37.
+24	
+Korenromp EL, Rowley J, Alonso M, et al. Global burden of 
+maternal and congenital syphilis and associated adverse birth 
+outcomes—estimates for 2016 and progress since 2012. PLoS One 
+2019; 14: e0211720.
+25	 Vollset S, Goren E, Yuan C-W, et al. Fertility, mortality, migration, 
+and population scenarios for 195 countries and territories from 2017 
+to 2100: a forecasting analysis for the Global Burden of Disease 
+Study. Lancet 2020; 396: 1285–306.
+26	 Ferrari AJ, Norman RE, Freedman G, et al. The burden attributable 
+to mental and substance use disorders as risk factors for suicide: 
+findings from the Global Burden of Disease Study 2010. PLoS One 
+2014; 9: e91936.
+27	
+Sha F, Chang Q, Law YW, Hong Q, Yip PSF. Suicide rates in China, 
+2004–2014: comparing data from two sample-based mortality 
+surveillance systems. BMC Public Health 2018; 18: 239.
+28	 Sha F, Yip PSF, Law YW. Decomposing change in China’s suicide 
+rate, 1990–2010: ageing and urbanisation. Inj Prev 2017; 23: 40–45.
+29	 Mew EJ, Padmanathan P, Konradsen F, et al. The global burden of 
+fatal self-poisoning with pesticides 2006–15: systematic review. 
+J Affect Disord 2017; 219: 93–104.
+30	 Hogan MF, Grumet JG. Suicide prevention: an emerging priority 
+for health care. Health Aff (Millwood) 2016; 35: 1084–90.
+31	
+WHO, UNAIDS. Progress on global access to HIV antiretroviral 
+therapy. Geneva: World Health Organization, 2006.
+32	 Stover J, Bollinger L, Izazola JA, Loures L, DeLay P, Ghys PD. 
+What is required to end the AIDS epidemic as a public health threat 
+by 2030? The cost and impact of the fast-track approach. PLoS One 
+2016; 11: e0154893.
+33	 Steiner TJ, Stovner LJ, Vos T. GBD 2015: migraine is the third cause 
+of disability in under 50s. J Headache Pain 2016; 17: 104.
+34	
+Lopez AD, Adair T. Is the long-term decline in cardiovascular-
+disease mortality in high-income countries over? Evidence from 
+national vital statistics. Int J Epidemiol 2019; 48: 1815–23.
+35	 Leong DP, Joseph PG, McKee M, et al. Reducing the global burden 
+of cardiovascular disease, part 2. Circ Res 2017; 121: 695–710.
+36	 GBD 2019 Risk Factors Collaborators. Global burden of 87 risk 
+factors in 204 countries and territories, 1990–2019: a systematic 
+analysis for the Global Burden of Disease Study 2019. Lancet 2020; 
+396: 1223–49.
+37	
+Einarson TR, Acs A, Ludwig C, Panton UH. Prevalence of 
+cardiovascular disease in type 2 diabetes: a systematic literature 
+review of scientific evidence from across the world in 2007–2017. 
+Cardiovasc Diabetol 2018; 17: 83.
+
+Global Health Metrics
+1222	
+www.thelancet.com   Vol 396   October 17, 2020
+38	 Engelen SE, van der Graaf Y, Stam-Slob MC, et al. Incidence of 
+cardiovascular events and vascular interventions in patients with 
+type 2 diabetes. Int J Cardiol 2017; 248: 301–07.
+39	 Harries AD, Lin Y, Kumar AMV, et al. What can National TB 
+Control Programmes in low- and middle-income countries do to 
+end tuberculosis by 2030? F1000Res 2018; 7: F1000 Faculty Rev-1011.
+40	
+Suthar AB, Zachariah R, Harries AD. Ending tuberculosis by 2030: 
+can we do it? Int J Tuberc Lung Dis 2016; 20: 1148–54.
+41	
+WHO. Global tuberculosis report 2019. Geneva: World Health 
+Organization, 2019.
+42	
+Ene-Iordache B, Perico N, Bikbov B, et al. Chronic kidney disease 
+and cardiovascular risk in six regions of the world (ISN-KDDC): 
+a cross-sectional study. Lancet Glob Health 2016; 4: e307–19.
+43	
+Stanifer JW, Isenburg MV, Chertow GM, Anand S. Chronic kidney 
+disease care models in low- and middle-income countries: 
+a systematic review. BMJ Glob Health 2018; 3: e000728.
+44	
+Rehm J, Crépault J-F, Hasan OSM, Lachenmeier DW, Room R, 
+Sornpaisarn B. Regulatory policies for alcohol, other psychoactive 
+substances and addictive behaviours: the role of level of use and 
+potency. A systematic review. Int J Environ Res Public Health 2019; 
+16: 3749.
+45	
+Lin FR. Time for a top-down approach to hearing aid affordability 
+and accessibility. Am J Public Health 2018; 108: 166–68.
+46	
+Cummings J, Lee G, Ritter A, Zhong K. Alzheimer’s disease drug 
+development pipeline: 2018. Alzheimers Dement (NY) 2018; 4: 195–214.
+47	
+Larsson SC, Markus HS. Does treating vascular risk factors prevent 
+dementia and Alzheimer’s disease? A systematic review and 
+meta-analysis. J Alzheimers Dis 2018; 64: 657–68.
+48	
+Yaffe K. Modifiable risk factors and prevention of dementia: what is 
+the latest evidence? JAMA Intern Med 2018; 178: 281–82.
+49	
+Brasure M, Desai P, Davila H, et al. Physical activity interventions 
+in preventing cognitive decline and Alzheimer-type dementia: 
+a systematic review. Ann Intern Med 2018; 168: 30.
+50	 Seppala LJ, van de Glind EMM, Daams JG, et al. Fall-risk-increasing 
+drugs: a systematic review and meta-analysis: III. Others. 
+J Am Med Dir Assoc 2018; 19: 372.e1–8.
+51	
+Xu T, Clemson L, O’Loughlin K, Lannin NA, Dean C, Koh G. 
+Risk factors for falls in community stroke survivors: a systematic 
+review and meta-analysis. Arch Phys Med Rehabil 2018; 
+99: 563–73.e5.
+52	 Lan X, Li H, Wang Z, Chen Y. Frailty as a predictor of future falls in 
+hospitalized patients: A systematic review and meta-analysis. 
+Geriatr Nur 2019; published online Feb 11. DOI:10.1016/ 
+j.gerinurse.2019.01.004.
+53	 Cheng P, Tan L, Ning P, et al. Comparative effectiveness of 
+published interventions for elderly fall prevention: a systematic 
+review and network meta-analysis. Int J Environ Res Public Health 
+2018; 15: 498.
+54	
+WHO. Noncommunicable diseases. June 1, 2018. https://www.who.
+int/news-room/fact-sheets/detail/noncommunicable-diseases 
+(accessed Jan 27, 2020).
+55	 Nugent R, Bertram MY, Jan S, et al. Investing in non-communicable 
+disease prevention and management to advance the Sustainable 
+Development Goals. Lancet 2018; 391: 2029–35.
+56	 Cottingham MD, Kalbaugh CA, Fisher JA. Tracking the 
+pharmaceutical pipeline: clinical trials and global disease burden. 
+Clin Transl Sci 2014; 7: 297–99.
+57	
+Fisher JA, Cottingham MD, Kalbaugh CA. Peering into the 
+pharmaceutical “pipeline”: investigational drugs, clinical trials, 
+and industry priorities. Soc Sci Med 2015; 131: 322–30.
+58	 Long G. The biopharmaceutical pipeline: innovative therapies in 
+clinical development. Boston, MA: Analysis Group, 2017.
+59	 Singh GK, Siahpush M, Azuine RE, Williams SD. Increasing area 
+deprivation and socioeconomic inequalities in heart disease, stroke, 
+and cardiovascular disease mortality among working age 
+populations, United States, 1969–2011. Int J MCH AIDS 2015; 
+3: 119–33.
+60	 Schultze-Kraft M, Chinchilla FA, Moriconi M. New perspectives 
+on crime, violence and insecurity in Latin America. 
+Crime Law Soc Change 2018; 69: 465–73.

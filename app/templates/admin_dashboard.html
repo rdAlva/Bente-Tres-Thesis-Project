@@ -40,13 +40,17 @@
             </div>
         </div>
 
-        <!-- <div class="stat-card">
-            <div class="stat-label">SIMILARITY THRESHOLD</div>
-            <div class="stat-value" id="thresholdValue">0.30</div>
-            <div class="stat-sublabel">
-                <span id="thresholdLabel">Balanced</span>
+        <div class="stat-card">
+            <div class="stat-label">FLAGGED DOCUMENTS</div>
+
+            <div class="stat-value" id="flaggedDocuments">
+                —
             </div>
-        </div> -->
+
+            <div class="stat-sublabel">
+                Awaiting review
+            </div>
+        </div>
 
         <div class="stat-card">
             <div class="stat-label">REPOSITORY HEALTH</div>
@@ -159,6 +163,84 @@
             </div>
 
         </div>
+    </div>
+
+    <!-- Flagged Documents -->
+    <div class="admin-section">
+
+        <h2 class="section-title">FLAGGED DOCUMENTS</h2>
+
+        <div class="repo-content">
+
+            <div class="repo-header">
+
+                <div class="repo-count" id="flaggedDocCount">
+                    0 documents
+                </div>
+
+                <div class="repo-search">
+
+                    <div class="search-input-wrapper">
+
+                        <i class="bi bi-search search-icon" aria-hidden="true">
+                        </i>
+
+                        <input type="text" id="flaggedSearchInput" class="search-input"
+                            placeholder="Search flagged documents...">
+
+                        <button id="clearFlaggedSearchBtn" class="btn-clear-search" style="display: none;"
+                            aria-label="Clear search" type="button">
+                            ✕
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="repo-table-container">
+
+                <table class="repo-table">
+
+                    <thead class="table-head">
+
+                        <tr>
+                            <th>DOCUMENT</th>
+                            <th>FLAGGED</th>
+                            <th class="text-end">ACTION</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="flaggedTableBody" class="table-body">
+
+                        <tr class="table-loading">
+
+                            <td colspan="3">
+                                Loading flagged documents...
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <div id="flaggedNoResultsMessage" class="no-results" style="display: none;">
+
+                <i class="bi bi-flag"></i>
+
+                <p>
+                    No matching flagged documents found.
+                </p>
+
+            </div>
+
+        </div>
+
     </div>
 
     <!-- User Management Section -->
@@ -1258,6 +1340,7 @@
 
         loadStats();
         loadRepositoryFiles();
+        loadFlaggedFiles();
         loadUsers();
         loadSystemStatus();
 
@@ -1282,6 +1365,20 @@
             .forEach(function (btn) {
                 btn.addEventListener("click", closeAddUserModal);
             });
+
+        document
+            .getElementById("flaggedSearchInput")
+            .addEventListener(
+                "input",
+                debounce(searchFlaggedDocuments, 300)
+            );
+
+        document
+            .getElementById("clearFlaggedSearchBtn")
+            .addEventListener(
+                "click",
+                clearFlaggedSearch
+            );
 
         document
             .getElementById("addUserModal")
@@ -1357,6 +1454,9 @@
                 const missingCopies =
                     Number(data.missing_copies) || 0;
 
+                const flaggedDocuments =
+                    Number(data.flagged_documents) || 0;
+
                 document.getElementById("totalUsers").textContent =
                     totalUsers;
 
@@ -1383,6 +1483,10 @@
 
                 document.getElementById("healthTotal").textContent =
                     promotedCopies;
+
+                document.getElementById("flaggedDocuments").textContent =
+                    flaggedDocuments;
+
 
                 updateHealthStatus(missingCopies);
             })
@@ -1601,7 +1705,6 @@
         );
     }
 
-
     /* =========================================================
        Repository Search
        ========================================================= */
@@ -1692,6 +1795,318 @@
         loadRepositoryFiles();
     }
 
+    /* =========================================================
+    Flagged Documents
+    ========================================================= */
+
+    function loadFlaggedFiles() {
+
+        fetch("/api/admin/flagged")
+
+            .then(handleResponse)
+
+            .then(function (files) {
+
+                if (!Array.isArray(files)) {
+                    files = [];
+                }
+
+                displayFlaggedFiles(files);
+
+                updateFlaggedCount(files.length);
+            })
+
+            .catch(function (error) {
+
+                console.error(
+                    "Flagged documents error:",
+                    error
+                );
+
+                document.getElementById(
+                    "flaggedTableBody"
+                ).innerHTML = `
+                    <tr class="table-empty">
+                        <td colspan="3">
+                            <i class="bi bi-exclamation-circle"></i>
+                            <p>Error loading flagged documents.</p>
+                        </td>
+                    </tr>
+                `;
+            });
+    }
+
+
+    function updateFlaggedCount(count) {
+
+        document.getElementById(
+            "flaggedDocCount"
+        ).textContent =
+            count +
+            " document" +
+            (count !== 1 ? "s" : "");
+    }
+
+
+    function displayFlaggedFiles(files) {
+
+        const tbody =
+            document.getElementById(
+                "flaggedTableBody"
+            );
+
+        const noResults =
+            document.getElementById(
+                "flaggedNoResultsMessage"
+            );
+
+        tbody.innerHTML = "";
+
+        if (!files || files.length === 0) {
+
+            tbody.innerHTML = `
+                <tr class="table-empty">
+                    <td colspan="3">
+
+                        <i class="bi bi-flag"></i>
+
+                        <p>
+                            No flagged documents
+                        </p>
+
+                    </td>
+                </tr>
+            `;
+
+            noResults.style.display = "none";
+
+            return;
+        }
+
+        noResults.style.display = "none";
+
+        files.forEach(function (file) {
+
+            const row =
+                document.createElement("tr");
+
+            const filename =
+                String(
+                    file.filename ||
+                    "Unknown"
+                );
+
+            const date =
+                file.date_added
+                    ? new Date(
+                        file.date_added
+                    ).toLocaleDateString()
+                    : "Unknown";
+
+            row.innerHTML = `
+                <td>
+
+                    <div class="doc-info">
+
+                        <i
+                            class="bi bi-file-earmark-pdf doc-icon">
+                        </i>
+
+                        <span>
+                            ${escapeHtml(filename)}
+                        </span>
+
+                    </div>
+
+                </td>
+
+                <td>
+
+                    <span class="date-added">
+                        ${escapeHtml(date)}
+                    </span>
+
+                </td>
+
+                <td class="text-end">
+
+                    <button
+                        class="btn-icon btn-remove"
+                        type="button"
+                        title="Delete flagged document">
+
+                        <i class="bi bi-trash"></i>
+
+                    </button>
+
+                </td>
+            `;
+
+            const deleteButton =
+                row.querySelector(".btn-remove");
+
+            deleteButton.addEventListener(
+                "click",
+                function () {
+
+                    deleteFlaggedDocument(
+                        filename
+                    );
+
+                }
+            );
+
+            tbody.appendChild(row);
+        });
+    }
+
+    function deleteFlaggedDocument(filename) {
+
+        showConfirmDialog(
+
+            'Delete flagged document "' +
+            filename +
+            '"? This action cannot be undone.',
+
+            function () {
+
+                fetch(
+                    "/api/admin/flagged/" +
+                    encodeURIComponent(filename),
+                    {
+                        method: "DELETE"
+                    }
+                )
+
+                    .then(handleResponse)
+
+                    .then(function (data) {
+
+                        if (data.error) {
+                            throw new Error(
+                                data.error
+                            );
+                        }
+
+                        showMessage(
+                            "Flagged document deleted successfully.",
+                            "success"
+                        );
+
+                        loadFlaggedFiles();
+                        loadStats();
+                    })
+
+                    .catch(function (error) {
+
+                        console.error(
+                            "Delete flagged document error:",
+                            error
+                        );
+
+                        showMessage(
+                            error.message ||
+                            "Error deleting flagged document.",
+                            "error"
+                        );
+                    });
+            }
+        );
+    }
+
+    function searchFlaggedDocuments() {
+
+        const query =
+            document
+                .getElementById(
+                    "flaggedSearchInput"
+                )
+                .value
+                .trim();
+
+        const clearButton =
+            document.getElementById(
+                "clearFlaggedSearchBtn"
+            );
+
+        const noResults =
+            document.getElementById(
+                "flaggedNoResultsMessage"
+            );
+
+        if (!query) {
+
+            clearFlaggedSearch();
+
+            return;
+        }
+
+        clearButton.style.display = "block";
+
+        fetch(
+            "/api/admin/flagged/search?q=" +
+            encodeURIComponent(query)
+        )
+
+            .then(handleResponse)
+
+            .then(function (files) {
+
+                if (!Array.isArray(files)) {
+                    files = [];
+                }
+
+                if (files.length === 0) {
+
+                    document.getElementById(
+                        "flaggedTableBody"
+                    ).innerHTML = "";
+
+                    noResults.style.display =
+                        "block";
+
+                } else {
+
+                    noResults.style.display =
+                        "none";
+
+                    displayFlaggedFiles(files);
+                }
+
+                document.getElementById(
+                    "flaggedDocCount"
+                ).textContent =
+                    "Showing " +
+                    files.length +
+                    " result(s)";
+            })
+
+            .catch(function (error) {
+
+                console.error(
+                    "Flagged search error:",
+                    error
+                );
+            });
+    }
+
+
+    function clearFlaggedSearch() {
+
+        document.getElementById(
+            "flaggedSearchInput"
+        ).value = "";
+
+        document.getElementById(
+            "clearFlaggedSearchBtn"
+        ).style.display = "none";
+
+        document.getElementById(
+            "flaggedNoResultsMessage"
+        ).style.display = "none";
+
+        loadFlaggedFiles();
+    }
 
     /* =========================================================
        Users
@@ -2241,6 +2656,7 @@
 
         loadStats();
         loadRepositoryFiles();
+        loadFlaggedFiles();
         loadUsers();
         loadSystemStatus();
     }

@@ -23,6 +23,13 @@ from app.services.detector import run_detection
 from app.services.review import load_review_report
 from app.services.repository import upload_repository
 from app.nlp.preprocessing import preprocess_text
+from app.storage.supabase_storage import (
+    upload_file,
+    delete_file,
+)
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(
     __name__,
@@ -146,12 +153,28 @@ class RegisterForm(FlaskForm):
 # ============================================================
 # Supabase Settings
 # ============================================================
-app.secret_key = "supersecretkey"  # Replace with a secure key in production
+app.secret_key = os.environ.get("FLASK_SECRET_KEY")
 
-SUPABASE_URL = "https://xtwdtizzumzahucsbpyc.supabase.co"
-SUPABASE_KEY = "sb_publishable_Ri2NBu5O4D9lkVxDlJYxMg_j6LYnzlT"
-SUPABASE_SERVICE_KEY = "sb_secret_pdDRI3fJi5ScDIfR57pTYQ_bvuwUeLT"
+SUPABASE_URL = os.environ.get("SUPABASE_URL")
+SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
+SUPABASE_SERVICE_KEY = os.environ.get("SUPABASE_SERVICE_KEY")
 
+if not app.secret_key:
+    raise RuntimeError(
+        "FLASK_SECRET_KEY environment variable is not set."
+    )
+if not SUPABASE_URL:
+    raise RuntimeError(
+        "SUPABASE_URL environment variable is not set."
+    )
+if not SUPABASE_KEY:
+    raise RuntimeError(
+        "SUPABASE_KEY environment variable is not set."
+    )
+if not SUPABASE_SERVICE_KEY:
+    raise RuntimeError(
+        "SUPABASE_SERVICE_KEY environment variable is not set."
+    )
 
 supabase: Client = create_client(
     SUPABASE_URL,
@@ -160,6 +183,49 @@ supabase_admin: Client = create_client(
     SUPABASE_URL,
     SUPABASE_SERVICE_KEY
 )
+
+
+def create_user_document_record(
+    filename,
+    source,
+    status,
+    storage_path=None
+):
+    """
+    Create a record in user_documents for the currently
+    logged-in user.
+    """
+
+    user_id = session.get("user_id")
+
+    if not user_id:
+        raise RuntimeError(
+            "Cannot create user document record: "
+            "no logged-in user ID in session."
+        )
+
+    response = (
+        supabase_admin
+        .table("user_documents")
+        .insert({
+            "user_id": user_id,
+            "filename": filename,
+            "source": source,
+            "status": status,
+            "storage_path": storage_path
+        })
+        .execute()
+    )
+
+    logger.info(
+        "Created user_documents record: user=%s filename=%s source=%s status=%s",
+        user_id,
+        filename,
+        source,
+        status
+    )
+
+    return response
 # ============================================================
 # Authentication
 # ============================================================
@@ -388,73 +454,220 @@ def get_admin_stats():
 
     base_dir = Path(__file__).resolve().parent.parent.parent
 
-    # Count users from Supabase
+    # ========================================================
+    # 1. COUNT USERS
+    # ========================================================
+
     try:
         users_response = (
-            supabase
+            supabase_admin
             .table("profiles")
             .select("*")
             .execute()
         )
 
-        total_users = len(users_response.data) if users_response.data else 0
+        users = users_response.data or []
+
+        total_users = len(users)
 
         active_users = sum(
             1
-            for u in (users_response.data or [])
-            if u.get('active', True)
+            for user in users
+            if user.get("active", True)
         )
 
-    except Exception as e:
-        print("ADMIN STATS USER ERROR:", repr(e))
+    except Exception:
+        logger.exception(
+            "ADMIN STATS USER ERROR"
+        )
+
         total_users = 0
         active_users = 0
 
-    # Repository directories
-    corpus_promoted = base_dir / "corpus" / "promoted"
-    corpus_review = base_dir / "corpus" / "review"
-    corpus_processed = base_dir / "corpus" / "processed"
+    # ========================================================
+    # 2. REPOSITORY FOLDERS
+    #
+    # promoted  = actual repository documents
+    # review    = documents awaiting review / flagged
+    # processed = persistent processed copies
+    # ========================================================
 
-    promoted_count = 0
-    review_count = 0
-    processed_count = 0
-
-    if corpus_promoted.exists():
-        promoted_count = len([
-            f for f in corpus_promoted.iterdir()
-            if f.is_file() and f.suffix.lower() == '.txt'
-        ])
-
-    if corpus_review.exists():
-        review_count = len([
-            f for f in corpus_review.iterdir()
-            if f.is_file() and f.suffix.lower() == '.txt'
-        ])
-
-    if corpus_processed.exists():
-        processed_count = len([
-            f for f in corpus_processed.iterdir()
-            if f.is_file()
-        ])
-
-    # Repository health
-    missing_count = max(
-        0,
-        promoted_count - processed_count
+    corpus_promoted = (
+        base_dir / "corpus" / "promoted"
     )
 
-    is_synchronized = missing_count == 0
+    corpus_review = (
+        base_dir / "corpus" / "review"
+    )
+
+    corpus_processed = (
+        base_dir / "corpus" / "processed"
+    )
+
+    # ========================================================
+    # 3. GET PROMOTED REPOSITORY DOCUMENTS
+    #
+    # ONLY TXT files count.
+    #
+    # PDFs are ignored because they are companion files.
+    # .gitkeep is ignored.
+    # ========================================================
+
+    promoted_files = set()
+
+    if corpus_promoted.exists():
+
+        promoted_files = {
+            file_path.name
+            for file_path in corpus_promoted.iterdir()
+            if (
+                file_path.is_file()
+                and file_path.suffix.lower() == ".txt"
+                and file_path.name != ".gitkeep"
+            )
+        }
+
+    promoted_count = len(promoted_files)
+
+    # ========================================================
+    # 4. GET PROCESSED REPOSITORY DOCUMENTS
+    #
+    # ONLY TXT files count.
+    # ========================================================
+
+    processed_files = set()
+
+    if corpus_processed.exists():
+
+        processed_files = {
+            file_path.name
+            for file_path in corpus_processed.iterdir()
+            if (
+                file_path.is_file()
+                and file_path.suffix.lower() == ".txt"
+                and file_path.name != ".gitkeep"
+            )
+        }
+
+    # ========================================================
+    # 5. COUNT PERSISTENT PROCESSED COPIES
+    #
+    # IMPORTANT:
+    #
+    # We only count processed files that have a matching
+    # document in corpus/promoted.
+    #
+    # This prevents unrelated/old processed files from
+    # inflating the repository health number.
+    # ========================================================
+
+    processed_repository_files = (
+        promoted_files.intersection(processed_files)
+    )
+
+    processed_count = len(
+        processed_repository_files
+    )
+
+    # ========================================================
+    # 6. GET DOCUMENTS WAITING FOR REVIEW
+    #
+    # corpus/review is now the source of flagged documents.
+    #
+    # ONLY TXT files count.
+    #
+    # PDFs and .gitkeep are ignored.
+    # ========================================================
+
+    review_files = set()
+
+    if corpus_review.exists():
+
+        review_files = {
+            file_path.name
+            for file_path in corpus_review.iterdir()
+            if (
+                file_path.is_file()
+                and file_path.suffix.lower() == ".txt"
+                and file_path.name != ".gitkeep"
+            )
+        }
+
+    review_count = len(review_files)
+
+    # ========================================================
+    # 7. CALCULATE MISSING PROCESSED COPIES
+    #
+    # A promoted document is missing a processed copy when
+    # its TXT filename does not exist in corpus/processed.
+    # ========================================================
+
+    missing_files = (
+        promoted_files - processed_files
+    )
+
+    missing_count = len(missing_files)
+
+    # ========================================================
+    # 8. REPOSITORY HEALTH
+    #
+    # Healthy when every promoted repository document has
+    # a corresponding processed TXT file.
+    # ========================================================
+
+    is_synchronized = (
+        missing_count == 0
+    )
+
+    # ========================================================
+    # 9. RETURN DASHBOARD STATISTICS
+    # ========================================================
 
     return jsonify({
+
+        # ------------------------------
+        # Users
+        # ------------------------------
+
         "total_users": total_users,
         "active_users": active_users,
+
+        # ------------------------------
+        # Repository
+        # ------------------------------
+
         "repository_documents": promoted_count,
-        "review_documents": review_count,
-        "processed_copies": processed_count,
+
         "promoted_copies": promoted_count,
+
+        # ------------------------------
+        # Review / Flagged
+        # ------------------------------
+
+        "review_documents": review_count,
+
+        "flagged_documents": review_count,
+
+        # ------------------------------
+        # Processed copies
+        # ------------------------------
+
+        "processed_copies": processed_count,
+
+        # ------------------------------
+        # Missing processed copies
+        # ------------------------------
+
         "missing_copies": missing_count,
+
+        # ------------------------------
+        # Repository health
+        # ------------------------------
+
         "is_synchronized": is_synchronized
     })
+
+
 
 @app.route('/api/admin/repository', methods=['GET'])
 @admin_required
@@ -484,50 +697,987 @@ def get_repository_files():
 @app.route('/api/admin/repository/<filename>', methods=['DELETE'])
 @admin_required
 def delete_repository_file(filename):
-    """Delete a document from the repository."""
+    """
+    Permanently delete a repository document.
 
-    base_dir = Path(__file__).resolve().parent.parent.parent
-    corpus_promoted = base_dir / "corpus" / "promoted"
-    corpus_processed = base_dir / "corpus" / "processed"
+    The deletion is synchronized across:
 
-    # Prevent directory traversal
+        1. Local corpus/promoted
+        2. Local corpus/processed
+        3. Supabase Storage
+        4. user_documents database records
+
+    The TXT filename is treated as the repository document identity.
+    PDF files are treated as companion files and are removed when present.
+
+    IMPORTANT:
+    The database is queried BEFORE deleting anything so that we can
+    retrieve the actual storage_path instead of relying only on guessed
+    Supabase paths.
+    """
+
+    # ----------------------------------------------------------
+    # 1. Sanitize filename
+    # ----------------------------------------------------------
+
     filename = Path(filename).name
 
-    txt_file = corpus_promoted / filename
-    pdf_file = corpus_promoted / (Path(filename).stem + ".pdf")
-    processed_file = corpus_processed / filename
+    if not filename:
+        return jsonify({
+            "error": "Invalid filename."
+        }), 400
+
+    # Repository documents are TXT documents.
+    # If the frontend happens to send a PDF filename, normalize it
+    # to the corresponding TXT document.
+    path = Path(filename)
+
+    if path.suffix.lower() == ".pdf":
+        txt_name = path.with_suffix(".txt").name
+        pdf_name = path.name
+    elif path.suffix.lower() == ".txt":
+        txt_name = path.name
+        pdf_name = path.with_suffix(".pdf").name
+    else:
+        txt_name = path.with_suffix(".txt").name
+        pdf_name = path.with_suffix(".pdf").name
+
+    logger.info(
+        "ADMIN REPOSITORY DELETE START: filename=%s txt=%s pdf=%s",
+        filename,
+        txt_name,
+        pdf_name
+    )
 
     try:
-        deleted = False
 
-        if txt_file.exists() and txt_file.is_file():
-            txt_file.unlink()
-            deleted = True
+        # ------------------------------------------------------
+        # 2. Locate project folders
+        # ------------------------------------------------------
 
-        if pdf_file.exists() and pdf_file.is_file():
-            pdf_file.unlink()
-            deleted = True
+        base_dir = Path(__file__).resolve().parent.parent.parent
 
-        if processed_file.exists() and processed_file.is_file():
-            processed_file.unlink()
-            deleted = True
+        promoted_folder = (
+            base_dir / "corpus" / "promoted"
+        )
 
-        if not deleted:
+        processed_folder = (
+            base_dir / "corpus" / "processed"
+        )
+
+        # ------------------------------------------------------
+        # 3. FIND DATABASE RECORDS FIRST
+        # ------------------------------------------------------
+        #
+        # Do this BEFORE deleting local files.
+        #
+        # We search for both possible filenames because older
+        # records may have been stored as .pdf while the current
+        # repository dashboard displays the .txt document.
+        # ------------------------------------------------------
+
+        possible_filenames = {
+            filename,
+            txt_name,
+            pdf_name
+        }
+
+        db_records = []
+
+        for document_filename in possible_filenames:
+
+            response = (
+                supabase_admin
+                .table("user_documents")
+                .select("*")
+                .eq("filename", document_filename)
+                .execute()
+            )
+
+            records = response.data or []
+
+            for record in records:
+
+                # Prevent duplicate records if multiple filename
+                # queries happen to return the same database row.
+                record_id = record.get("id")
+
+                if not any(
+                    existing.get("id") == record_id
+                    for existing in db_records
+                ):
+                    db_records.append(record)
+
+        logger.info(
+            "Repository delete database records found: %s",
+            db_records
+        )
+
+        # ------------------------------------------------------
+        # 4. COLLECT EXACT STORAGE PATHS FROM DATABASE
+        # ------------------------------------------------------
+        #
+        # This is important.
+        #
+        # Do not depend only on:
+        #
+        #     promoted/foo.txt
+        #
+        # because the database may contain the actual storage_path
+        # used when the file was uploaded.
+        # ------------------------------------------------------
+
+        storage_paths = set()
+
+        for record in db_records:
+
+            storage_path = record.get("storage_path")
+
+            if storage_path:
+                storage_paths.add(
+                    str(storage_path).lstrip("/")
+                )
+
+        # ------------------------------------------------------
+        # 5. ALSO ADD THE KNOWN REPOSITORY PATHS
+        # ------------------------------------------------------
+        #
+        # These cover repository files created before storage_path
+        # was consistently saved in user_documents.
+        # ------------------------------------------------------
+
+        storage_paths.update({
+            f"promoted/{txt_name}",
+            f"promoted/{pdf_name}",
+            f"processed/{txt_name}"
+        })
+
+        logger.info(
+            "Repository storage paths scheduled for deletion: %s",
+            sorted(storage_paths)
+        )
+
+        # ------------------------------------------------------
+        # 6. DELETE LOCAL PROMOTED FILES
+        # ------------------------------------------------------
+
+        local_paths = [
+            promoted_folder / txt_name,
+            promoted_folder / pdf_name,
+            processed_folder / txt_name
+        ]
+
+        local_deleted = []
+
+        for local_file in local_paths:
+
+            if local_file.exists() and local_file.is_file():
+
+                local_file.unlink()
+
+                local_deleted.append(
+                    str(local_file)
+                )
+
+                logger.info(
+                    "Deleted local repository file: %s",
+                    local_file
+                )
+
+        # ------------------------------------------------------
+        # 7. DELETE SUPABASE STORAGE FILES
+        # ------------------------------------------------------
+        #
+        # Every path is attempted.
+        #
+        # A missing companion file should NOT prevent deletion of
+        # the database record.
+        #
+        # However, if an actual deletion operation throws an error,
+        # we stop and report the error instead of claiming success.
+        # ------------------------------------------------------
+
+        storage_deleted = []
+
+        storage_errors = []
+
+        for storage_path in sorted(storage_paths):
+
+            try:
+
+                delete_file(storage_path)
+
+                storage_deleted.append(
+                    storage_path
+                )
+
+                logger.info(
+                    "Deleted Supabase Storage object: %s",
+                    storage_path
+                )
+
+            except Exception as e:
+
+                error_text = str(e)
+
+                logger.warning(
+                    "Could not delete Supabase Storage object %s: %s",
+                    storage_path,
+                    error_text
+                )
+
+                storage_errors.append({
+                    "path": storage_path,
+                    "error": error_text
+                })
+
+        # ------------------------------------------------------
+        # 8. DO NOT DELETE DATABASE RECORDS IF STORAGE FAILED
+        # ------------------------------------------------------
+        #
+        # This prevents the database from saying the document is
+        # gone while the actual Storage object still exists.
+        #
+        # Local files may already have been removed, but the
+        # database remains intact so the operation can be retried.
+        # ------------------------------------------------------
+
+        if storage_errors:
+
+            logger.error(
+                "Repository deletion stopped because Storage deletion "
+                "failed: %s",
+                storage_errors
+            )
+
             return jsonify({
-                "error": f"Document '{filename}' not found"
-            }), 404
+                "error": (
+                    "Repository document was not completely deleted. "
+                    "One or more Supabase Storage objects could not "
+                    "be removed."
+                ),
+                "storage_errors": storage_errors,
+                "local_deleted": local_deleted
+            }), 500
+
+        # ------------------------------------------------------
+        # 9. DELETE DATABASE RECORDS
+        # ------------------------------------------------------
+        #
+        # Delete by exact database ID when possible.
+        #
+        # This is safer than:
+        #
+        #     .eq("filename", filename)
+        #
+        # because filenames are not guaranteed to be unique.
+        # ------------------------------------------------------
+
+        deleted_records = []
+
+        for record in db_records:
+
+            record_id = record.get("id")
+
+            if not record_id:
+                continue
+
+            delete_response = (
+                supabase_admin
+                .table("user_documents")
+                .delete()
+                .eq("id", record_id)
+                .execute()
+            )
+
+            if delete_response.data:
+
+                deleted_records.extend(
+                    delete_response.data
+                )
+
+                logger.info(
+                    "Deleted user_documents record: id=%s",
+                    record_id
+                )
+
+        # ------------------------------------------------------
+        # 10. SUCCESS
+        # ------------------------------------------------------
+
+        logger.info(
+            "ADMIN REPOSITORY DELETE COMPLETE: "
+            "filename=%s local=%s storage=%s database=%s",
+            filename,
+            len(local_deleted),
+            len(storage_deleted),
+            len(deleted_records)
+        )
 
         return jsonify({
             "success": True,
-            "message": f"Document '{filename}' removed from repository"
+            "filename": txt_name,
+            "message": (
+                f"Repository document '{txt_name}' "
+                "was permanently deleted."
+            ),
+            "local_deleted": local_deleted,
+            "storage_deleted": storage_deleted,
+            "database_deleted": deleted_records
         })
 
     except Exception as e:
-        print("DELETE REPOSITORY ERROR:", repr(e))
+
+        logger.exception(
+            "ADMIN REPOSITORY DELETE ERROR: %s",
+            filename
+        )
+
+        return jsonify({
+            "error": str(e),
+            "filename": filename
+        }), 500
+
+
+@app.route("/api/admin/flagged", methods=["GET"])
+@login_required
+def admin_flagged_documents():
+
+    if session.get("role") != "admin":
+        return jsonify({
+            "error": "Admin privileges required."
+        }), 403
+
+    try:
+
+        base_dir = Path(__file__).resolve().parent.parent.parent
+        flagged_folder = base_dir / "corpus" / "review"
+
+        if not flagged_folder.exists():
+            return jsonify([])
+
+        files = []
+
+        for file_path in flagged_folder.iterdir():
+
+            if not file_path.is_file():
+                continue
+
+            if file_path.suffix.lower() != ".txt":
+                continue
+
+            if file_path.name == ".gitkeep":
+                continue
+
+            files.append({
+                "filename": file_path.name,
+                "date_added": datetime.fromtimestamp(
+                    file_path.stat().st_mtime
+                ).isoformat()
+            })
+
+        files.sort(
+            key=lambda item: item["date_added"],
+            reverse=True
+        )
+
+        return jsonify(files)
+
+    except Exception as e:
+
+        logger.exception(
+            "Failed to load flagged documents"
+        )
 
         return jsonify({
             "error": str(e)
         }), 500
+
+@app.route("/api/admin/flagged/search", methods=["GET"])
+@login_required
+def search_admin_flagged_documents():
+
+    if session.get("role") != "admin":
+        return jsonify({
+            "error": "Admin privileges required."
+        }), 403
+
+    try:
+
+        query = request.args.get("q", "").strip().lower()
+
+        base_dir = Path(__file__).resolve().parent.parent.parent
+        flagged_folder = base_dir / "corpus" / "review"
+
+        if not flagged_folder.exists():
+            return jsonify([])
+
+        files = []
+
+        for file_path in flagged_folder.iterdir():
+
+            if not file_path.is_file():
+                continue
+
+            if file_path.suffix.lower() != ".txt":
+                continue
+
+            if file_path.name == ".gitkeep":
+                continue
+
+            if query and query not in file_path.name.lower():
+                continue
+
+            files.append({
+                "filename": file_path.name,
+                "date_added": datetime.fromtimestamp(
+                    file_path.stat().st_mtime
+                ).isoformat()
+            })
+
+        files.sort(
+            key=lambda item: item["date_added"],
+            reverse=True
+        )
+
+        return jsonify(files)
+
+    except Exception as e:
+
+        logger.exception(
+            "Failed to search flagged documents"
+        )
+
+        return jsonify({
+            "error": str(e)
+        }), 500
+
+@app.route("/api/admin/flagged/<filename>", methods=["DELETE"])
+@login_required
+def delete_admin_flagged_document(filename):
+
+    if session.get("role") != "admin":
+        return jsonify({
+            "error": "Admin privileges required."
+        }), 403
+
+    filename = Path(filename).name
+
+    if not filename:
+        return jsonify({
+            "error": "Invalid filename."
+        }), 400
+
+    try:
+
+        base_dir = Path(__file__).resolve().parent.parent.parent
+
+        flagged_folder = base_dir / "corpus" / "review"
+
+        if not flagged_folder.exists():
+            return jsonify({
+                "error": "Flagged directory does not exist."
+            }), 404
+
+        # --------------------------------------------------
+        # Determine TXT / PDF pair
+        # --------------------------------------------------
+
+        path = Path(filename)
+
+        if path.suffix.lower() == ".pdf":
+
+            pdf_name = path.name
+            txt_name = path.with_suffix(".txt").name
+
+        elif path.suffix.lower() == ".txt":
+
+            txt_name = path.name
+            pdf_name = path.with_suffix(".pdf").name
+
+        else:
+
+            txt_name = path.with_suffix(".txt").name
+            pdf_name = path.with_suffix(".pdf").name
+
+        # --------------------------------------------------
+        # Local paths
+        # --------------------------------------------------
+
+        local_paths = [
+            flagged_folder / txt_name,
+            flagged_folder / pdf_name,
+        ]
+
+        # --------------------------------------------------
+        # Supabase paths
+        # --------------------------------------------------
+
+        storage_paths = [
+            f"review/{txt_name}",
+            f"review/{pdf_name}",
+        ]
+
+        deleted_any = False
+
+        # --------------------------------------------------
+        # Delete local files
+        # --------------------------------------------------
+
+        for local_file in local_paths:
+
+            if local_file.exists() and local_file.is_file():
+
+                local_file.unlink()
+
+                deleted_any = True
+
+                logger.info(
+                    "Admin deleted flagged local file: %s",
+                    local_file
+                )
+
+        # --------------------------------------------------
+        # Delete Supabase Storage copies
+        # --------------------------------------------------
+
+        for storage_path in storage_paths:
+
+            try:
+
+                delete_file(storage_path)
+
+                logger.info(
+                    "Admin deleted flagged Supabase object: %s",
+                    storage_path
+                )
+
+            except Exception as e:
+
+                logger.exception(
+                    "Failed deleting flagged Supabase object: %s",
+                    storage_path
+                )
+
+                raise e
+
+        # --------------------------------------------------
+        # Delete the corresponding database record
+        # --------------------------------------------------
+
+        db_records = (
+            supabase_admin
+            .table("user_documents")
+            .select("id, filename, source")
+            .eq("filename", txt_name)
+            .eq("source", "plagiarism_check")
+            .execute()
+        )
+
+        for record in (db_records.data or []):
+
+            record_id = record.get("id")
+
+            if not record_id:
+                continue
+
+            supabase_admin \
+                .table("user_documents") \
+                .delete() \
+                .eq("id", record_id) \
+                .eq("source", "plagiarism_check") \
+                .execute()
+
+            logger.info(
+                "Admin deleted flagged user_documents record: id=%s",
+                record_id
+            )
+
+        if not deleted_any:
+
+            return jsonify({
+                "error": "Flagged document not found."
+            }), 404
+
+        logger.info(
+            "Admin flagged document deletion completed: %s",
+            filename
+        )
+
+        return jsonify({
+            "success": True,
+            "message": f"Flagged document '{filename}' deleted successfully."
+        })
+
+    except Exception as e:
+
+        logger.exception(
+            "ADMIN FLAGGED DOCUMENT DELETE ERROR: %s",
+            filename
+        )
+
+        return jsonify({
+            "error": str(e)
+        }), 500
+
+@app.route('/api/my-documents/<filename>', methods=['DELETE'])
+@login_required
+def delete_my_document(filename):
+    """
+    Delete a document from the current user's
+    My Uploaded Documents list.
+
+    Uses filename-based deletion to remain consistent with
+    the existing local + Supabase repository behavior.
+
+    The database deletion is restricted to the currently
+    logged-in user.
+    """
+
+    # Prevent directory traversal
+    filename = Path(filename).name
+
+    user_id = session.get("user_id")
+
+    if not user_id:
+        return jsonify({
+            "error": "User session not found."
+        }), 401
+
+    try:
+
+        # --------------------------------------------------
+        # 1. Find this user's exact document record
+        # --------------------------------------------------
+
+        response = (
+            supabase_admin
+            .table("user_documents")
+            .select("*")
+            .eq("user_id", user_id)
+            .eq("filename", filename)
+            .single()
+            .execute()
+        )
+
+        document = response.data
+
+        if not document:
+            return jsonify({
+                "error": "Document record not found."
+            }), 404
+
+        source = document.get("source")
+
+        logger.info(
+            "User deleting document: user=%s filename=%s source=%s",
+            user_id,
+            filename,
+            source
+        )
+
+        # --------------------------------------------------
+        # 2. Determine TXT/PDF filenames
+        # --------------------------------------------------
+
+        path = Path(filename)
+
+        if path.suffix.lower() == ".pdf":
+            pdf_name = path.name
+            txt_name = path.with_suffix(".txt").name
+
+        elif path.suffix.lower() == ".txt":
+            txt_name = path.name
+            pdf_name = path.with_suffix(".pdf").name
+
+        else:
+            txt_name = path.with_suffix(".txt").name
+            pdf_name = path.with_suffix(".pdf").name
+
+        # --------------------------------------------------
+        # 3. Determine local + Supabase locations
+        # --------------------------------------------------
+
+        base_dir = Path(__file__).resolve().parent.parent.parent
+
+        promoted_folder = base_dir / "corpus" / "promoted"
+        processed_folder = base_dir / "corpus" / "processed"
+        review_folder = base_dir / "corpus" / "review"
+        upload_folder = Path(app.config["UPLOAD_FOLDER"])
+
+        txt_upload_folder = TXT_UPLOAD_FOLDER
+
+        # --------------------------------------------------
+        # Repository uploads
+        # --------------------------------------------------
+
+        if source == "repository":
+
+            local_paths = [
+                promoted_folder / txt_name,
+                promoted_folder / pdf_name,
+                processed_folder / txt_name,
+            ]
+
+            storage_paths = [
+                f"promoted/{txt_name}",
+                f"promoted/{pdf_name}",
+                f"processed/{txt_name}",
+            ]
+
+        # --------------------------------------------------
+        # Plagiarism-check uploads
+        #
+        # IMPORTANT:
+        # A plagiarism document can be either:
+        #
+        #   review/      -> flagged
+        #   promoted/   -> original
+        #
+        # Therefore we clean BOTH possible locations.
+        # --------------------------------------------------
+
+        elif source == "plagiarism_check":
+
+            local_paths = [
+                # Temporary upload locations
+                upload_folder / pdf_name,
+                upload_folder / txt_name,
+                txt_upload_folder / txt_name,
+
+                # Review locations
+                review_folder / txt_name,
+                review_folder / pdf_name,
+
+                # Promoted locations
+                promoted_folder / txt_name,
+                promoted_folder / pdf_name,
+
+                # Processed repository copy
+                processed_folder / txt_name,
+            ]
+
+            storage_paths = [
+                # Flagged plagiarism document
+                f"review/{txt_name}",
+                f"review/{pdf_name}",
+
+                # Original plagiarism upload that was promoted
+                f"promoted/{txt_name}",
+                f"promoted/{pdf_name}",
+
+                # Processed copy created during promotion
+                f"processed/{txt_name}",
+            ]
+
+        else:
+
+            return jsonify({
+                "error": f"Unsupported document source: {source}"
+            }), 400
+
+        # --------------------------------------------------
+        # 4. Delete local files
+        # --------------------------------------------------
+
+        for local_file in local_paths:
+
+            if local_file.exists() and local_file.is_file():
+
+                local_file.unlink()
+
+                logger.info(
+                    "Deleted local document copy: %s",
+                    local_file
+                )
+
+        # --------------------------------------------------
+        # 5. Delete Supabase Storage copies
+        # --------------------------------------------------
+
+        for storage_path in storage_paths:
+
+            try:
+
+                delete_file(storage_path)
+
+                logger.info(
+                    "Deleted Supabase Storage object: %s",
+                    storage_path
+                )
+
+            except Exception as e:
+
+                logger.exception(
+                    "Failed to delete Supabase object %s",
+                    storage_path
+                )
+
+                raise e
+
+        # --------------------------------------------------
+        # 6. Delete ONLY the current user's DB record
+        # --------------------------------------------------
+
+        delete_response = (
+            supabase_admin
+            .table("user_documents")
+            .delete()
+            .eq("user_id", user_id)
+            .eq("filename", filename)
+            .execute()
+        )
+
+        if not delete_response.data:
+            return jsonify({
+                "error": "Document database record could not be deleted."
+            }), 500
+
+        logger.info(
+            "Deleted user_documents record: user=%s filename=%s",
+            user_id,
+            filename
+        )
+
+        # --------------------------------------------------
+        # 7. Success
+        # --------------------------------------------------
+
+        return jsonify({
+            "success": True,
+            "message": f"Document '{filename}' deleted successfully."
+        })
+
+    except Exception as e:
+
+        logger.exception(
+            "DELETE MY DOCUMENT ERROR: user=%s filename=%s",
+            user_id,
+            filename
+        )
+
+        return jsonify({
+            "error": str(e)
+        }), 500
+
+@app.route('/api/admin/plagiarism/<document_id>', methods=['DELETE'])
+@admin_required
+def delete_plagiarism_document(document_id):
+    """
+    Delete a plagiarism-uploaded document using its database row ID.
+
+    Deletes:
+        1. The corresponding Supabase Storage object
+        2. The corresponding user_documents database row
+
+    Does NOT identify the document by filename.
+    """
+
+    try:
+        # --------------------------------------------------
+        # 1. Get the exact database row by ID
+        # --------------------------------------------------
+
+        response = (
+            supabase_admin
+            .table("user_documents")
+            .select("*")
+            .eq("id", document_id)
+            .eq("source", "plagiarism_check")
+            .single()
+            .execute()
+        )
+
+        document = response.data
+
+        if not document:
+            return jsonify({
+                "error": "Plagiarism document record not found."
+            }), 404
+
+        logger.info(
+            "Admin deleting plagiarism document: id=%s filename=%s",
+            document_id,
+            document.get("filename")
+        )
+
+        # --------------------------------------------------
+        # 2. Get the exact Storage path from the row
+        # --------------------------------------------------
+
+        storage_path = document.get("storage_path")
+
+        # --------------------------------------------------
+        # 3. Delete Storage object if one exists
+        # --------------------------------------------------
+
+        if storage_path:
+            try:
+                delete_file(storage_path)
+
+                logger.info(
+                    "Deleted plagiarism document from Supabase Storage: %s",
+                    storage_path
+                )
+
+            except Exception as e:
+                logger.exception(
+                    "Failed to delete plagiarism Storage object: %s",
+                    storage_path
+                )
+
+                return jsonify({
+                    "error": (
+                        "Storage deletion failed. "
+                        "Database record was not deleted."
+                    ),
+                    "details": str(e)
+                }), 500
+
+        # --------------------------------------------------
+        # 4. Delete EXACT database row
+        # --------------------------------------------------
+
+        delete_response = (
+            supabase_admin
+            .table("user_documents")
+            .delete()
+            .eq("id", document_id)
+            .eq("source", "plagiarism_check")
+            .execute()
+        )
+
+        if not delete_response.data:
+            return jsonify({
+                "error": "Database record could not be deleted."
+            }), 500
+
+        logger.info(
+            "Deleted plagiarism user_documents row: id=%s",
+            document_id
+        )
+
+        # --------------------------------------------------
+        # 5. Success
+        # --------------------------------------------------
+
+        return jsonify({
+            "success": True,
+            "message": "Plagiarism document deleted successfully.",
+            "document_id": document_id
+        })
+
+    except Exception as e:
+
+        logger.exception(
+            "DELETE PLAGIARISM DOCUMENT ERROR: %s",
+            document_id
+        )
+
+        return jsonify({
+            "error": str(e)
+        }), 500
+
 
 @app.route('/api/admin/repository/search', methods=['GET'])
 @admin_required
@@ -564,7 +1714,7 @@ def get_users():
     """Get list of all users."""
     try:
         users_response = (
-            supabase
+            supabase_admin
             .table("profiles")
             .select("id,email,role")
             .execute()
@@ -837,6 +1987,45 @@ def home():
                 message="Something went wrong while analyzing your files. Please try again."
             ), 500
 
+
+        # --------------------------------------------------
+        # Record plagiarism-uploaded documents
+        # --------------------------------------------------
+
+        for result in results["results"]:
+
+            filename = result["uploaded_filename"]
+
+            # A document is flagged when the detector found
+            # at least one flagged similarity pair.
+            if len(result["flagged"]) > 0:
+                status = "flagged"
+            else:
+                status = "original"
+
+            try:
+                create_user_document_record(
+                    filename=filename,
+                    source="plagiarism_check",
+                    status=status
+                )
+
+            except Exception as e:
+                logger.exception(
+                    "Failed to create user_documents record for %s",
+                    filename
+                )
+
+                print("USER DOCUMENT INSERT ERROR:", repr(e))
+
+                return render_template(
+                    "error.html",
+                    message=(
+                        f"Document was analyzed, but upload record failed: {e}"
+                    )
+                ), 500
+
+
         RESULTS_STORE[get_session_id()] = results
 
         return render_template(
@@ -911,80 +2100,195 @@ def review(filename):
 @app.route("/review/<filename>/dismiss", methods=["POST"])
 @login_required
 def dismiss_flag(filename):
+    """
+    Instructor determined the document is original.
+
+    Local:
+        review -> promoted
+        create processed copy
+
+    Supabase:
+        review -> promoted
+        create processed copy
+    """
+
     txt_source = REVIEW_FOLDER / filename
     txt_destination = PROMOTED_FOLDER / filename
+
     pdf_name = Path(filename).stem + ".pdf"
+
     pdf_source = REVIEW_FOLDER / pdf_name
     pdf_destination = PROMOTED_FOLDER / pdf_name
+
+    processed_file = PROCESSED_FOLDER / filename
+
     moved_successfully = False
 
     try:
-        # ----------------------------------------------
-        # Move TXT from review -> promoted
-        # ----------------------------------------------
-        if txt_source.exists():
 
-            shutil.move(
-                str(txt_source),
-                str(txt_destination)
+        # ==================================================
+        # 1. Move TXT locally: review -> promoted
+        # ==================================================
+
+        if not txt_source.exists():
+            raise FileNotFoundError(
+                f"Review TXT not found: {txt_source}"
             )
 
-            print(f"Promoted TXT: {filename}")
+        shutil.move(
+            str(txt_source),
+            str(txt_destination)
+        )
 
-            # ------------------------------------------
-            # Create persistent processed copy
-            # ------------------------------------------
+        print(f"Promoted TXT locally: {filename}")
 
-            PROCESSED_FOLDER.mkdir(
-                parents=True,
-                exist_ok=True
-            )
+        # ==================================================
+        # 2. Generate processed repository copy locally
+        # ==================================================
 
-            processed_text = preprocess_text(
-                txt_destination
-            )
+        PROCESSED_FOLDER.mkdir(
+            parents=True,
+            exist_ok=True
+        )
 
-            processed_file = PROCESSED_FOLDER / filename
+        processed_text = preprocess_text(
+            txt_destination
+        )
 
-            processed_file.write_text(
-                processed_text,
-                encoding="utf-8"
-            )
+        processed_file.write_text(
+            processed_text,
+            encoding="utf-8"
+        )
 
-            print(f"Processed TXT: {filename}")
+        print(f"Processed TXT locally: {filename}")
 
-        # ----------------------------------------------
-        # Move PDF from review -> promoted
-        # ----------------------------------------------
+        # ==================================================
+        # 3. Move PDF locally: review -> promoted
+        # ==================================================
 
         if pdf_source.exists():
+
             shutil.move(
                 str(pdf_source),
                 str(pdf_destination)
             )
-            print(f"Promoted PDF: {pdf_name}")
+
+            print(f"Promoted PDF locally: {pdf_name}")
+
+        # ==================================================
+        # 4. Upload promoted TXT to Supabase
+        # ==================================================
+
+        upload_file(
+            txt_destination,
+            f"promoted/{filename}",
+            overwrite=True
+        )
+
+        print(
+            f"Uploaded promoted TXT to Supabase: {filename}"
+        )
+
+        # ==================================================
+        # 5. Upload processed TXT to Supabase
+        # ==================================================
+
+        upload_file(
+            processed_file,
+            f"processed/{filename}",
+            overwrite=True
+        )
+
+        print(
+            f"Uploaded processed TXT to Supabase: {filename}"
+        )
+
+        # ==================================================
+        # 6. Upload promoted PDF to Supabase
+        # ==================================================
+
+        if pdf_destination.exists():
+
+            pdf_size = pdf_destination.stat().st_size
+
+            if pdf_size <= 50 * 1024 * 1024:
+
+                upload_file(
+                    pdf_destination,
+                    f"promoted/{pdf_name}",
+                    overwrite=True
+                )
+
+                print(
+                    f"Uploaded promoted PDF to Supabase: "
+                    f"{pdf_name}"
+                )
+
+            else:
+                print(
+                    f"[WARNING] {pdf_name} exceeds the "
+                    f"Supabase Free 50 MB limit. "
+                    f"PDF was not uploaded to Supabase."
+                )
+
+        # ==================================================
+        # 7. Remove old review copies from Supabase
+        # ==================================================
+
+        delete_file(
+            f"review/{filename}"
+        )
+
+        print(
+            f"Deleted review TXT from Supabase: {filename}"
+        )
+
+        # --------------------------------------------------
+        # Delete review PDF if it existed
+        # --------------------------------------------------
+
+        if pdf_destination.exists():
+
+            delete_file(
+                f"review/{pdf_name}"
+            )
+
+            print(
+                f"Deleted review PDF from Supabase: "
+                f"{pdf_name}"
+            )
 
         moved_successfully = True
+
         flash(
             "Document promoted to repository.",
             "success"
         )
 
     except Exception as e:
-        logger.exception(e)
+
+        logger.exception(
+            "Dismiss Flag failed for %s",
+            filename
+        )
+
         flash(
-            "Unable to move the document.",
+            f"Unable to promote the document: {e}",
             "danger"
         )
 
-    # ----------------------------------------------
-    # Remove promoted document from current results
-    # ----------------------------------------------
+    # ======================================================
+    # Remove promoted document from current session results
+    # ======================================================
 
     if moved_successfully:
+
         sid = get_session_id()
+
         if sid in RESULTS_STORE:
+
             session_results = RESULTS_STORE[sid]
+
             session_results["uploaded_files"] = [
                 f
                 for f in session_results["uploaded_files"]
@@ -1000,6 +2304,7 @@ def dismiss_flag(filename):
             session_results["total_uploaded"] = len(
                 session_results["uploaded_files"]
             )
+
     return redirect(url_for("results"))
 
 @app.route("/review/<filename>/confirm", methods=["POST"])
@@ -1051,32 +2356,128 @@ def repository():
     form = RepositoryUploadForm()
 
     if form.validate_on_submit():
+
+        uploaded_filenames = []
+
         for file in form.files.data:
             filename = secure_filename(file.filename)
-            save_path = os.path.join(app.config["UPLOAD_FOLDER"], filename)
-            file.save(save_path)
-            logger.info("Repository upload: %s", filename)
 
-        uploaded_files = upload_repository()
-        # After a successful upload, pass the current repository list so the page
-        # shows the newly added files with the same authoritative count as results.
-        repository_files = _load_repository_files()
+            save_path = os.path.join(
+                app.config["UPLOAD_FOLDER"],
+                filename
+            )
+
+            file.save(save_path)
+
+            uploaded_filenames.append(filename)
+
+            logger.info(
+                "Repository upload: %s",
+                filename
+            )
+
+        try:
+            uploaded_files = upload_repository()
+
+        except Exception:
+            logger.exception(
+                "Repository upload failed"
+            )
+
+            return render_template(
+                "error.html",
+                message=(
+                    "The documents could not be added "
+                    "to the repository. Please try again."
+                )
+            ), 500
+
+        # --------------------------------------------------
+        # Record repository uploads in user_documents
+        # --------------------------------------------------
+
+        for filename in uploaded_filenames:
+
+            try:
+                create_user_document_record(
+                    filename=filename,
+                    source="repository",
+                    status="original"
+                )
+
+            except Exception as e:
+                logger.exception(
+                    "Failed to create user_documents "
+                    "record for repository file %s",
+                    filename
+                )
+
+                print(
+                    "REPOSITORY DOCUMENT RECORD ERROR:",
+                    repr(e)
+                )
+
+                return render_template(
+                    "error.html",
+                    message=(
+                        "The document was added to the repository, "
+                        "but we could not save its upload record."
+                    )
+                ), 500
+
+        # --------------------------------------------------
+        # Load this user's documents
+        # --------------------------------------------------
+
+        user_documents = _load_user_documents()
+
         return render_template(
             "repository.html",
             form=form,
             uploaded_files=uploaded_files,
-            repository_files=repository_files
+            user_documents=user_documents
         )
 
-    # GET request: show the current repository list
-    repository_files = _load_repository_files()
+    # ------------------------------------------------------
+    # GET request
+    # ------------------------------------------------------
+
+    user_documents = _load_user_documents()
+
     return render_template(
         "repository.html",
         form=form,
         uploaded_files=[],
-        repository_files=repository_files
+        user_documents=user_documents
     )
 
+def _load_user_documents():
+    """Load all documents uploaded by the currently logged-in user."""
+
+    user_id = session.get("user_id")
+
+    if not user_id:
+        return []
+
+    try:
+        response = (
+            supabase_admin
+            .table("user_documents")
+            .select("*")
+            .eq("user_id", user_id)
+            .order("uploaded_at", desc=True)
+            .execute()
+        )
+
+        return response.data or []
+
+    except Exception:
+        logger.exception(
+            "Failed to load user documents for user %s",
+            user_id
+        )
+
+        return []
 
 def _load_repository_files():
     base_dir = Path(__file__).resolve().parent.parent.parent

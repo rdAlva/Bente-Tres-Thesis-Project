@@ -1,0 +1,159 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo Institute for The Science and Art of 
+Learning and Teaching 
+Gokongwei Brothers School of Education and 
+Learning Design Research Centers 
+11-2025 
+Policy into Practice: Examining Teachers’ Knowledge as a 
+Policy into Practice: Examining Teachers’ Knowledge as a 
+Predictor of Teachers’ Attitude Towards Child Protection 
+Predictor of Teachers’ Attitude Towards Child Protection 
+Classroom Integration 
+Classroom Integration 
+Floro T. Del Pilar III 
+Follow this and additional works at: https://archium.ateneo.edu/gbseald-salt 
+ Part of the Curriculum and Instruction Commons, and the Educational Assessment, Evaluation, and 
+Research Commons 
+
+ 
+ 
+
+ 
+Policy into Practice: Examining Teachers’ Knowledge as a Predictor of Teachers’ 
+Attitude Towards Child Protection Classroom Integration 
+ 
+ 
+ 
+Floro T. del Pilar III 
+floro.delpilar@deped.gov.ph 
+Guinayang National High School 
+Ateneo de Manila University 
+ 
+ 
+The Department of Education issued DepEd Order no. 40 s.2012 or Child Protection 
+Policy (CPP) to protect children and provide a safe learning environment (Casipe & Bete, 
+2023). Research indicates that teachers' awareness and positive attitudes towards CPP are 
+important for effective implementation in schools (Bayucca, 2020; dela Fuente, 2021). 
+Previous studies have examined the level of knowledge of teachers about CPP and the 
+teachers’ attitude towards CPP separately (Asio et al., 2020; Bayucca, 2020; Mag-atas & 
+Carmona, 2023). However, there is a dearth of studies examining whether the teachers’ 
+knowledge of child protection policy predicts their attitude towards integrating child 
+protection policy into their classroom practices. 
+ 
+This study aimed to examine the teachers’ knowledge of child protection policy as a 
+predictor of their attitude towards integrating the policy into their classroom practices. The 
+study hypothesized that the higher the level of knowledge the teachers have about child 
+protection policy, the better their attitude is towards integrating CPP into their classroom 
+practices. 
+
+ 
+Method 
+Participants 
+This study has 159 teacher participants randomly selected through stratified sampling 
+from the 3 chosen junior high schools of the District of San Mateo, Division of Rizal, Region 
+4A for the school year 2023-24. The schools that participated in the study are the largest in 
+the district according to the number of teachers, with each having more than 70 teachers. The 
+sample consists of 33.33% from School A, 32.08% from School B, and 34.59% from school 
+C. The Cochran finite population correction formula was used to determine the appropriate 
+sample size population.  
+Measures 
+Teachers’ Knowledge of Child Protection Policy (CPP). To measure the teachers’ 
+knowledge of CPP into their classroom practices, participants were asked their level of 
+knowledge on (a) the purpose of DepEd Order No. 40 s. 2012, (b) the different forms of child 
+abuse and neglect according to the CPP, (c) the different signs of child abuse and neglect 
+according to the CPP, (d) the reporting procedures for suspected cases of child abuse or 
+neglect, (e) the roles and responsibilities of a teacher in CPP, (f) the prevention strategies for 
+child abuse or neglect, (g) provide CPP-sensitive examples for the students, (h) the 
+intervention strategies for child abuse or neglect, (i) the different ways to integrate CPP into 
+my teaching principles, and (j) the provisions for ensuring the confidentiality and privacy of 
+information related to child abuse cases. Items were rated on a 5-point scale, with 1 as not 
+knowledgeable, 2 as limited knowledge, 3 as moderate knowledge, 4 as knowledgeable, and 5 
+as highly knowledgeable. 
+
+ 
+Teachers’ Attitude Towards Integrating Child Protection Policy (CPP) into their 
+Classroom Practices. To measure the teachers’ attitude towards integrating of CPP into their 
+classroom practices, participants were asked if (a) integrating CPP in their classroom is 
+important, (b) they have confidence that integrating CPP into their lessons will contribute to 
+its successful implementation, (c) the time and effort they use to integrate CPP into their 
+lessons make them a better teacher, (d) integrating CPP into their classrooms will benefit 
+their students, (e) the CPP is relevant to the subject/s that they teach, (f) the CPP inclusion 
+improves the value of their lesson, (g) integrating CPP makes their lessons more relevant and 
+engaging for their students, (h) integrating CPP into their lessons will create a safe and 
+supportive learning environment, (i) integrating CPP in their lessons will develop necessary 
+life skills in their students, and (j) integrating CPP in their lessons aligns with their values as 
+a teacher. Items were rated on a 5-point scale, with 1 as strongly disagree, 2 as disagree, 3 as 
+neutral, 4 as agree, and 5 as strongly agree. 
+Data Analysis 
+ 
+To test the hypothesis, the simple linear regression was used predicting the teachers’ 
+attitude towards integrating CPP into their classroom practices with their level of knowledge 
+of CPP. 
+Results 
+ 
+A linear regression analysis was conducted to examine the relationship between 
+teachers’ knowledge of CPP and their attitude towards integrating CPP into their classroom 
+practices. The Shapiro-Wilk test indicated that the data deviates from normality (W= <.001). 
+However, given the large sample size (n=159), the central limit theorem applies. The q-plot 
+showed approximate normality although some deviations are found in the tails. The 
+
+ 
+assumptions of normality using the linearity, homoscedasticity and Cook’s distances were 
+satisfied. 
+ 
+The overall model was significant, F(1, 157) = 90.2, p <.001, R2 = 0.365. Knowledge 
+of CPP explained 36.5% of the variance in the attitude towards integrating CPP into 
+classroom practices. The unstandardized regression coefficient for knowledge was B = 0.576, 
+SE = 0.0606, t = 9.50, p < .001, indicating that for every unit increase in knowledge, the 
+attitude increases by 0.576 points. The standardized regression coefficient was β = 0.604, 
+suggesting a positive and strong effect size. These findings suggest that higher level of 
+knowledge about CPP is associated with better attitude towards integrating CPP into 
+classroom practices. 
+Discussion 
+ 
+This work highlights that the teachers’ knowledge of CPP is a significant predictor of 
+attitude towards integrating CPP into their classroom practices. As a predictor, the study 
+showed that knowledge of CPP explains a substantial portion of the variance of teachers’ 
+attitudes towards its integration into their classrooms. This aligns with Asio et al. (2020) 
+which found that teachers’ knowledge of CPP significantly improved their attitudes toward 
+reporting suspected child abuse. 
+ 
+School policy makers must draft seminar workshops that emphasize CPP knowledge 
+and its applications to encourage practical integrations in classroom practices. Strengthened 
+knowledge-based interventions leads to better policy adherence which ultimately leads to 
+safe learning environments for students. Other factors that influence teachers’ attitudes 
+
+ 
+toward CPP integration must be studied to gain a more comprehensive understanding of the 
+factors that builds teachers’ attitudes toward CPP integration in classrooms. 
+References 
+Asio, J. M. R., Bayucca, S. A., & Jimenez, E. (2020). Child Protection Policy Awareness of 
+Teachers and Responsiveness of the School: Their Relationship and Implications. 
+Education 3-13, 9(1), 1–10. https://doi.org/10.34293/EDUCATION.V9I1.3384 
+Bayucca, S. A. (2020). Teachers’ Awareness and School’s Responsiveness to the Child Protection 
+Policy: Basis for a Development Plan. Social Science Research Network, 4(6), 59–65. 
+https://doi.org/10.2139/SSRN.3640895 
+Casipe, C. P., & Bete, J. I. (2023). Sentiments of teachers in the implementation of child 
+protection policy: A phenomenological study. EPRA International Journal of 
+Environmental Economics, Commerce and Educational Management, 10(5). 
+https://doi.org/10.36713/epra13299 
+dela Fuente, C. L. (2021). Filipino Basic Education Teachers’ Awareness of and Attitude towards 
+the Child Protection Policy. International Journal of Multidisciplinary: Applied Business 
+and Education Research, 2(1), 39-48. 
+May 14, 2012 DO 40, s. 2012 – DepEd Child Protection Policy | Department of Education. 
+(2012, May 14). https://www.deped.gov.ph/2012/05/14/do-40-s-2012-deped-child-
+protection-policy/ 
+Mag-atas, J. D., & Carmona, B. M. (2023). Bridging Policy and Practice: An In-depth 
+Exploration of How the DepEd Child Protection Policy Influences Teacher Discipline 
+Strategies. Cognizance Journal. https://doi.org/10.47760/cognizance.2023.v03i09.008 
+
+ 
+R Core Team (2024). R: A Language and environment for statistical computing. (Version 4.4) 
+[Computer software]. Retrieved from https://cran.r-project.org. (R packages retrieved 
+from CRAN snapshot 2024-08-07). 
+The jamovi project (2024). jamovi. (Version 2.6) [Computer Software]. Retrieved from 
+https://www.jamovi.org. 
+ 

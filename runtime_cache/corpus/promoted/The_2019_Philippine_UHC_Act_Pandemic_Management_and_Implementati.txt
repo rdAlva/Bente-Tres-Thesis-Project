@@ -1,0 +1,940 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Graduate School of Business Publications 
+Graduate School of Business 
+2022 
+The 2019 Philippine UHC Act, Pandemic Management and 
+The 2019 Philippine UHC Act, Pandemic Management and 
+Implementation Implications in a Post-COVID-19 World: A Content 
+Implementation Implications in a Post-COVID-19 World: A Content 
+Analysis 
+Analysis 
+Maria Cristina G. Bautista 
+Ateneo Graduate School of Business, Ateneo de Manila University, mcbautista@ateneo.edu 
+Paulyn Jean Acacio-Claro 
+Ateneo Graduate School of Business, Ateneo de Manila University, pclaro@ateneo.edu 
+Nori Benjamin Mendoza 
+Ateneo de Manila University 
+Christian Pulmano 
+Ateneo de Manila University, cpulmano@ateneo.edu 
+Ma. Regina Justina Estuar 
+Ateneo de Manila University, restuar@ateneo.edu 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/gsb-pubs 
+ Part of the Health Services Administration Commons, and the Health Services Research Commons 
+Custom Citation 
+Custom Citation 
+Bautista, M.C.G., Acacio-Claro, P.J., Mendoza, N.B., Pulmano, C., Estuar, M.R.J., Dayrit, M.M., Festin, V.E., 
+Valera, M., Sugon, Jr., Q., & Villamor, D.A. (2022). The 2019 Philippine UHC Act, Pandemic Management 
+and Implementation Implications in a Post-COVID-19 World: A Content Analysis. International Journal of 
+Environmental Research and Public Health, 19(15), 9567. https://doi.org/10.3390/ijerph19159567 
+This Article is brought to you for free and open access by the Graduate School of Business at Archīum Ateneo. It 
+has been accepted for inclusion in Graduate School of Business Publications by an authorized administrator of 
+Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+Authors 
+Authors 
+Maria Cristina G. Bautista, Paulyn Jean Acacio-Claro, Nori Benjamin Mendoza, Christian Pulmano, Ma. 
+Regina Justina Estuar, Manuel Dayrit, Vincent Festin, Madeleine Valera, Quirino Sugon Jr, and Dennis 
+Andrew Villamor 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/gsb-pubs/73 
+
+Citation: Bautista, M.C.G.;
+Acacio-Claro, P.J.; Mendoza, N.B.;
+Pulmano, C.; Estuar, M.R.J.; Dayrit,
+M.M.; Festin, V.E.; Valera, M.; Sugon,
+Q., Jr.; Villamor, D.A. The 2019
+Philippine UHC Act, Pandemic
+Management and Implementation
+Implications in a Post-COVID-19
+World: A Content Analysis. Int. J.
+Environ. Res. Public Health 2022, 19,
+9567. https://doi.org/10.3390/
+ijerph19159567
+Academic Editor: Tomoko Kodama
+Received: 2 June 2022
+Accepted: 11 July 2022
+Published: 4 August 2022
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright:
+© 2022 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+International  Journal  of
+Environmental Research
+and Public Health
+Article
+The 2019 Philippine UHC Act, Pandemic Management and
+Implementation Implications in a Post-COVID-19 World: A
+Content Analysis
+Maria Cristina G. Bautista 1,*
+, Paulyn Jean Acacio-Claro 1,*
+, Nori Benjamin Mendoza 1, Christian Pulmano 2
+,
+Maria Regina Justina Estuar 2
+, Manuel M. Dayrit 3, Vincent Edward Festin 1, Madeleine Valera 1,
+Quirino Sugon, Jr. 4
+and Dennis Andrew Villamor 2
+1
+Graduate School of Business, Ateneo de Manila University, Makati 1200, Philippines
+2
+Department of Information Systems and Computer Science, School of Science and Engineering,
+Ateneo de Manila University, Quezon 1108, Philippines
+3
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, Pasig 1604, Philippines
+4
+Department of Physics, School of Science and Engineering, Ateneo de Manila University,
+Quezon 1108, Philippines
+*
+Correspondence: mcbautista@ateneo.edu (M.C.G.B.); pclaro@ateneo.edu (P.J.A.-C.)
+Abstract: The 2019 Philippine Universal Health Care Act (Republic Act 11223) was set for implemen-
+tation in January 2020 when disruptions brought on by the pandemic occurred. Will the provisions
+of the new UHC Act for an improved health system enable agile responses to forthcoming shocks,
+such as this COVID-19 pandemic? A content analysis of the 2019 Philippine UHC Act can identify
+neglected and leverage areas for systems’ improvement in a post-pandemic world. While content or
+document analysis is commonly undertaken as part of scoping or systematic reviews of a qualitative
+nature, quantitative analyses using a two-way mixed effects, consistency, multiple raters type of intr-
+aclass correlation coefﬁcient (ICC) were applied to check for reliability and consistency of agreement
+among the study participants in the manual tagging of UHC components in the legislation. The
+intraclass correlation reﬂected the individuals’ consistency of agreement with signiﬁcant reliability
+(0.939, p < 0.001). The assessment highlighted a centralized approach to implementation, which can
+set aside the crucial collaborations and partnerships demonstrated and developed during the pan-
+demic. The ﬁnancing for local governments was strengthened with a new ruling that could alter UHC
+integration tendencies. A smarter allocation of tax-based ﬁnancing sources, along with strengthened
+information and communications systems, can confront issues of trust and accountability, amidst the
+varying capacities of agents and systems.
+Keywords: UHC implementation; content analysis; intraclass correlation; partnerships; pandemic
+response management; ﬁscal space
+1. Introduction
+The Philippines has taken great strides in moving towards universal health coverage.
+In 2019, the Philippine Universal Health Care Act (UHC), or Republic Act 11223, was
+signed and the planned implementation in January 2020 was disrupted by the COVID-19
+pandemic [1]. This pause provides an opportunity to reﬂect on the provisions of the new
+law, in the light of the country’s pandemic response and overall health-system reforms. This
+study seeks to examine the UHC Act’s intentions and provisions, against the health-system
+structures tested during the pandemic. The goal is to contribute to a post-pandemic health
+system that is sufﬁciently agile to meet any new pandemic when it occurs. The 2019 Act
+was crafted to meet the universal health coverage (UHC) goals of effectiveness, quality,
+and affordability. The Act meets the goals and tenets of the global movement towards
+universal health coverage pursued by the World Health Organization (WHO) since 2010 [2].
+Int. J. Environ. Res. Public Health 2022, 19, 9567. https://doi.org/10.3390/ijerph19159567
+https://www.mdpi.com/journal/ijerph
+
+Int. J. Environ. Res. Public Health 2022, 19, 9567
+2 of 13
+Financial protection and equity are at the heart of the UHC Act. The overarching question
+that the study raises is whether its provisions is still ‘ﬁt for purpose’, given health-sector
+performance since the pandemic began in 2020. At its core, the study seeks to examine
+for intentionality, ‘neglected’, and leverage areas that proved critical to the pandemic
+response management.
+The content analysis approach is one widely used in political science to detect the
+policy positions of parties [3] and is often used in health policy systematic reviews [4,5].
+The commonly known pillars of health systems analysis espoused by WHO, as well as
+the COVID-19 pandemic lessons’ frame, such as those identiﬁed by the British Academy
+in a multi-disciplinary evidence review [6], can be viewed as a priori considerations that
+serve as references for the legislation analysis. A scrutiny of a legislative product or law
+allows a forward-looking view on the reform intentions and/or the neglected and leverage
+areas critical in the law’s implementation. The authors are not aware of any similar work
+in legislative analysis in health policy.
+This section includes an overview of the Philippine health system and the country’s
+pandemic performance, followed by the guiding framework.
+1.1. Overview of the Philippine Health System
+The Philippines is a middle-income economy in the southeast Asia region, with per
+capita gross domestic product (GDP) of 3550 USD in 2021 [7]. It has an estimated population
+of 111 million in 2021, with the median age of 25.7 years. Table 1 shows some salient
+features of the Philippine health-care system. Health expenditures comprised 5.6 percent
+of its gross national product in 2020, from 4.7 percent the previous year 2019 [8]. The
+Philippines national health accounts’ data showed that health expenditure by all sectors
+rose to 12.6 percent in 2019–2020, the ﬁrst year of the pandemic, from 10.2 percent in
+the previous two years. Government schemes and compulsory contributory health care
+ﬁnancing schemes comprised 45.7 percent of the source of spending, with household out-of-
+pocket payments at 44.7 percent, and the balance attributed to voluntary payment schemes.
+The year 2020 saw government and contributory ﬁnancing schemes overtake household
+out-of-pocket payments, a welcome development for equity considerations [9].
+Table 1. Philippine Health System: Overview of Basic Statistics.
+Features
+Figures (as Indicated)
+Current Health
+Expenditures-CHE (NHA 2020
+in [8])
+5.6% of GDP
+Growth Rate of (CHE)
+2019–2020
+12.6%
+2018–2019
+10.2%
+Health ﬁnancing (NHA: 2020 in
+[8])-households (out of pocket)
+44.7%
+Government and Compulsory
+Schemes
+45.7%
+Distribution of Household Out
+of pocket Expenses (NHA: 2020
+in [8])
+43.8% hospitals
+28.2% drugs, pharmacies
+9.0% preventive care
+UHC Coverage Index (WHO
+and World Bank data in [10])
+55%
+HC Utilization by households
+(DHS: 2017 in [11])
+8% of household population sought
+care past 30 days
+59% sought from public medical
+facilities
+40% sought care from private
+medical facilities
+Health service delivery (Dayrit
+et al., 2018 in [12])
+1224 Hospital facilities, 64% private
+and 35% public in 2016;
+66% located in main island
+2587 city/rural health centers,
+20,216 village health stations
+In 2016
+Two-thirds are level 1 hospitals,
+with 41 beds on average; 10% are
+level 3, with 318 beds on average
+Health Human Resources
+(Philippine Statistical
+Yearbook/PSY, 2018 in [13])
+83% of health and medical
+graduates in 2015–2016 were from
+private schools (HIT, 2018)
+3131 doctors in govt service; 1875
+Dentists; 5975 Nurses
+17,112 Midwives
+
+Int. J. Environ. Res. Public Health 2022, 19, 9567
+3 of 13
+Table 1. Cont.
+Features
+Figures (as Indicated)
+Public sector employs 61% of nurses
+and 90% of midwives (HIT, 2018)
+91% of Medical doctors and 74%
+of nurses work in hospitals
+(HiT,2018)
+Health Governance
+DOH as the overall policy setting of
+population-based care, and
+provision of regional hospital and
+specialist services; PhilHealth, the
+social insurance arm, as purchaser
+of personal-based care
+LGUs as facility owners,
+managers and implementers of
+health programs and services
+Local Health Boards as advisers to
+chief executives and local
+legislatures, with DoH
+representative
+Abbreviations: DHS—Demographic Health Survey; DoH—Department of Health; NHA—National Health
+Accounts; CHE—Current Health Expenditures; GDP—Gross Domestic Product.
+Table 1 highlights the household preference for public medical facilities, which under
+the new UHC Act, must maintain 90% of beds as wards and 10% as private beds. The
+reverse is mandated for private facilities to maintain at least 10% as ward beds of its total
+bed capacity. The same Act requires no additional user charges be imposed on indigent
+and other special groups in the ward facilities. While health human resources were largely
+trained (86%) in fee-paying, private institutions, the new UHC Act expands public medical
+and health services training, with a return-to-service clause for the scholars of public
+universities and colleges. The public facilities had a larger share of nurses and midwives.
+In general, the medical doctors and nurses are found in hospitals, as opposed to primary
+care facilities.
+Since the enactment, 60 operational guidelines and policies have been drawn up
+to implement UHC, and in accord with its Implementing Rules and Regulations (IRR).
+Fifty-ﬁve (55) are considered as ﬁnalized and issued. Thirty-three (33) implementation sites
+are considered to be advanced implementation sites (AIS) [14]. The UHC implementation
+process is presented by the DOH in various roadshows as being built around integration.
+Below are the ways in which the implementation is described:
+Structural integration—toward the creation of the city-wide and province-wide health
+systems; this means bringing together the inter-local health zones (ILHZ) which group
+municipalities into districts. This structural integration means having various service
+delivery structures at province, municipal, and district levels work together more closely.
+Primary health care, the lowest level of operations, will operate as the system gatekeeper,
+channeling patients through diagnostic systems at secondary levels and specialist and
+inpatient care through to tertiary and the apex, as needed;
+Managerial integration—towards the strengthening of the Provincial Health Board and
+the City Health Board; these boards are the policymaking instruments for UHC, as well as
+the units that approve resource allocation and execute oversight of the implementation; this
+will entail the bringing together of representatives from the various ofﬁces of the Province,
+Municipalities, DOH, and the private sector, both for-proﬁt and non-proﬁt. This integration
+will involve the strengthening of the Provincial Health Ofﬁce as the technical arm of the
+province in overseeing the hospitals (provincial hospitals, district hospitals), as well as the
+public health facilities (rural health units, barangay health units). It is conceivable that the
+private sector facilities will become part of the scope of the Provincial Health Ofﬁce;
+Financial integration—this means bringing together the resources from national gov-
+ernment (internal revenues, PhilHealth remittances, etc.), resources from the province, and
+resources from the municipality into one or two Special Health Funds (SHF) which will
+be managed by the province and highly urbanized cities, respectively. From this Special
+Health Fund, allocations and disbursements will be made.
+This strategy for UHC implementation demonstrates a centralizing approach, as
+presently the provinces and highly urbanized cities are the owners and the locus of the
+health services delivery of the health system, responsible for planning, payroll, and budget
+allocations to government health services and activities in their jurisdiction.
+
+Int. J. Environ. Res. Public Health 2022, 19, 9567
+4 of 13
+When the 2019 UHC Act joint legislative deliberations began in 2017, relatively strong
+economic growth had been registered in prior years. Election promises and some reduction
+in the poverty levels have created a wider receptivity to health sector advocacies. The Act
+was discussed and drawn amidst much ﬁscal space, beneﬁtting from payroll contributions
+and new revenue sources in the form of sin taxes (so called taxes on cigarettes, alcohol,
+and sugar content) and reforms that earmarked and increased the ﬁnancial resources for
+health. The allocation of roles and responsibilities, where the Philippine Health Insurance
+Corporation (PhilHealth) is responsible for personal health services, while the Department
+of Health (DOH) covers for the population health services, is a convenient way to divide
+ﬁscal resources. The role of local government units (LGUs), who are the de jure owner of
+the facilities below regional levels, such as provincial hospitals, city and rural health centers,
+and barangay health stations, was not clearly speciﬁed. Many of the LGUs were not aware
+of their roles, as voiced in the deliberations about its implementation rules. A separate
+law, the Local Government Code (LGC) or Republic Act 7160 in 1991, governs LGUs.
+The integrated local health systems (ILHS), established within the provincial and highly
+urbanized cities, are tasked under the UHC Act to be responsible for both the planning and
+managerial supervision of population-based and individual-based health services within
+respective local jurisdictions (Sec. 19.8).
+One area affecting national–local relationships is the health workforce. When local
+governments took over the health functions in the 1991 decentralization, they had to
+contend with paying health personnel with a higher pay structure, different from regular
+government personnel, and mandated in another law, the Magna Carta for Public Health
+Workers Act [15]. The differences in pay structure were justiﬁed in terms of hazards,
+subsistence, longevity pay, laundry, and remote assignments, along with performance-
+based allowances. The pay and beneﬁt structures are not widely adopted in the private
+health sector. A comprehensive policy review culled 134 policies consisting of 73 laws and
+61 executive policy issuances of different government agencies affecting human resources
+for health [16]. The payment for the health workforce is a contentious point for private
+providers, particularly, if this will be part of the requirements for accreditation. The private
+sector may not be able to pay its workers all of the beneﬁt payments given to public health
+care workers. The health workers paid from the local government funds are not receiving
+the same amount as the national government-funded health workers, creating a contentious
+area within the same workspace.
+In a recent policy development, known as the Mandanas Ruling by the Supreme Court
+in 2018 (and conﬁrmed in 2019), the LGUs’ share of national funds or the Internal Revenue
+Allocation (IRA) will increase by an estimated 30.7% under the new funding formula,
+without earmarks. The increase was made possible as the allocations were expanded from
+a broader set of taxes, including customs and excise taxes. The intention is to support
+full devolution, assisting the LGUs with their service delivery functions, including health
+services [17]. This puts the LGUs in a position of strength with respect to the two other
+institutional custodians of UHC—the DOH and PhilHealth.
+1.2. Pandemic Performance
+By mid-February 2022, the 24th month since the pandemic was ofﬁcially declared,
+the Philippines had registered 3.6 million cases and 55 thousand people had died from
+COVID-19. The active cases, tested via RT-PCR, at that point in time were 72.3 thousand.
+An estimated 62% of the population were ofﬁcially reported by then to have received at
+least one dose of the vaccine [18]. There was no vaccination for children below 12 years old
+at this point in time. The Philippines ranked bottom of the Bloomberg COVID-19 resilience
+score in January 2022, due largely to the severity and duration of the lockdown periods,
+vaccination rates, openness to travel via ﬂights, and travel routes [19].
+The ﬁscal space for UHC implementation has since shrunk with the pandemic; the
+structure of service delivery and ﬁnancing are challenged with the physical and human
+resource requirements and coordination needs. In exploring complex systems, such as
+
+Int. J. Environ. Res. Public Health 2022, 19, 9567
+5 of 13
+health care, the country’s initial response during this pandemic can be characterized by
+dysfunctional coordination platforms, inadequate and mismanagement of resources, as well
+as limited information systems and capacities, as similarly indicated in systems thinking
+analysis [20,21]. That the country was able eventually to track cases, continue to monitor
+them, model, and anticipate trends was due to the coming on board of knowledge partners
+from academia and the private sector. Vaccine orders were made in advance by the private
+sector for their employees and eventually shared with the public sector, demonstrating
+regulatory partnerships.
+The pandemic also highlighted the crucial and effective role performance of the
+LGUs, given weaknesses at the central level. Emergency funding was speedily approved
+nationally, but distribution to lower levels were not as quick. International partners
+(such as the Asian Development Bank) were also forthcoming with speedy support for
+infrastructure, such as laboratories and expensive GenXpert machines. The LGUs looked to
+the central authorities for guidance and support with materials. When these were unclear,
+not forthcoming, or delayed, they proceeded within their own mandates through their
+local legislative systems. Public–private partnerships were launched (Table 2). It is notable
+that the public counterparts were local governments (provincial governments and one
+highly urbanized city) and the University of the Philippines system. The imperatives of
+responding to the pandemic have seen additional resources poured into the health sector
+quite speedily, via legislation, private donations, and reallocation from other sectors. The
+absorptive capacities of some of the LGUs remain a concern [22]. It is interesting to note
+that these are hospital-based investments.
+Table 2. List of Pipeline Public–Private Health Infrastructure Projects (as of February 2022).
+Implementing Agency
+Investment (Php)
+J-Yen
+USD
+Status
+Philippine General
+Hospital-Diliman
+University of
+the Philippines
+21.3 billion
+47.9 trillion
+414.92 million
+before ICC
+for approval
+Baguio General
+Hospital and
+Medical Center,
+Renal Center
+LGU and DOH
+470 million
+1 billion
+8.0 million
+Cagayan Valley
+Medical Center
+Hemodialysis Center
+LGU and DOH
+330 million
+742 million
+6.4 million
+Philippine General
+Hospital—PGH
+Manila
+Cancer Center
+PGH
+4.6 billion
+10.3 billion
+89.6 million
+before ICC
+for approval
+Mariveles Mental
+Health and
+Wellness Center
+LGU and DOH
+Makati Life
+Medical Center
+LGU-Prv
+5 billion
+11 billion
+97.2 million
+LGU investments are in various stages of implementation. ICC refers to the Intergovernmental Coordinating
+Council chaired by the President as ﬁnal approval body for big ticket infrastructure investments. Source: Adapted
+and updated from [23].
+1.3. Framework
+The WHO provides a framework where health systems’ performance is viewed in
+terms of three goals, four functions, and six building blocks [2]. Adapting from such a
+framework, this study’s view is one where healthcare is a complex system. It is composed
+of people and processes where the agents are deﬁned by their roles, and corresponding
+scripts or actions (who does what) and processes facilitate relationships, so that each person
+or group is able to achieve speciﬁc goals (how it is executed) [24]. The way the roles and
+
+Int. J. Environ. Res. Public Health 2022, 19, 9567
+6 of 13
+actions by the agents or actors in the system are undertaken is indicative of the type of
+relationships that enable certain activities to be pursued or not, and thus is determinative
+of the paths taken towards implementation and impact.
+Figure 1 shows the key agencies, namely, DOH, PhilHealth, LGUs, and other stake-
+holders (private providers, insurers, community) at the center. Four health system building
+blocks relate to health service delivery (supply side), population or health promotion
+services, human resources, and stewardship. The functional component areas speciﬁc to
+UHC relate to ﬁnancial protection, beneﬁt package, payments and incentives, and contracts.
+Underpinning the reforms are the UHC values and goals of equity, efﬁciency, effectiveness,
+quality, and responsiveness. These are not shown, to avoid complicating the diagram.
+Ultimately, UHC intends to improve the health and well-being of Filipinos.
+•Governance support:  
+HTA, HIA, accreditation, 
+research, M/E 
+• Contracts/Enforcement
+• Benefits Demand 
+side (including 
+packages)
+•Financial Protection
+•Financing/Payments
+/ Incentive
+•Health Service 
+Delivery 
+(Supply)
+•Population 
+Coverage & 
+Health 
+Promotion 
+•Health 
+Workforce 
+Department 
+of Health 
+(DOH)
+Philippine 
+Health 
+Insurance 
+Corporation 
+(PhilHealth)
+Private 
+sector and 
+communities' 
+engagement
+Local 
+Government 
+units (LGUs)
+Figure 1. Framework of the Content Study on the Philippine UHC Act.
+To assess the UHC Act from the lens of the experience under the pandemic, studies
+have identiﬁed interconnected areas that can be built on and are likely to endure for the
+long term: the strength of engaging with local communities; protection of health workers
+and other essential workers; effective national coordination; and transparent and consistent
+information or messaging [6,25]. Having resources and platforms to secure supplies and
+tools were necessary but not sufﬁcient in the response. Examining whether the UHC Act
+has considerations in these areas are under discussion in this study.
+2. Materials and Methods
+A team composed of seven individuals/raters conducted content analysis of the UHC
+Act (RA 11223). These raters had legal, economics, physics, medical, public health, and
+computer science backgrounds. They were chosen for their varying knowledge of the
+UHC Act and general legislative processes to balance familiarity bias. One once served as
+PhilHealth Vice President, three read the Act in full for the ﬁrst time, and two were fully
+acquainted with the Act but new to the given format. All of the team had graduate degrees.
+The instruction was to ‘tag’ clauses to the actors, blocks, and functions as read and not to
+go too deeply into ultimate ends or causes. The chapters and clauses of the law were put
+as rows in an Excel spreadsheet. The ﬁrst step in the manual tagging of each chapter and
+clauses in the Act was made based on its directionality, or who it was being directed to.
+The next step was to examine these clauses into the functions and building blocks, using
+pre-determined components supporting the study’s framework (Figure 1). The taggers
+
+Int. J. Environ. Res. Public Health 2022, 19, 9567
+7 of 13
+separately submitted their sheets before a compiled sheet was made. The areas tagged
+the most were examined for their implications. Items with the least tags were considered
+indicative of the areas requiring some attention for their signiﬁcance to implementation.
+This ‘tagging’ of the Act’s clauses and provisions to the framework components were
+further examined to check for reliability or consistency of the responses. The reliability or
+homogeneity of the measurement of the tagging process on different components performed
+by seven different raters was assessed through the intraclass correlation coefﬁcient (ICC).
+The ICC on individual and average ratings was estimated. The average ICC can be used
+when the teams of raters are used to rate a target (called a component in this study). When
+the unit of analysis is an average rating, the interpretation of the ICC pertains to average
+ratings and not individual ratings.
+Koo and Li [26] recommended selecting the correct form of ICC based on the model,
+type (single rater/measurement or the mean of k raters/measurements), and the deﬁnition
+of the relationship to be measured (consistency or absolute agreement). This study used
+a two-way, mixed-effects model because the raters of interest were not independently
+sampled. Thus, rater was considered a ﬁxed effect, while targets/components were the
+random effects. Since each rating by the multiple raters were used in the analysis, the
+type of ICC referred to the “mean of k raters”. The relationship measured in this study
+was the consistency-of-agreement, because it represents correlation when the rater is ﬁxed.
+Under consistency of agreement, the scores are considered consistent if the scores from
+any two raters differ by the same constant value for all of the targets. This implies that
+the raters give the same ranking to all of the targets. Researchers have pointed out that
+the consistency of agreement is useful when comparative judgments are made about the
+objects of measurement in the ICC [27].
+The ICC estimates and their 95% conﬁdence intervals (CI) were calculated using
+STATA/SE version 15.1, based on a mean-rating (k = 7), consistency of agreement, and
+two-way mixed-effects model.
+Following a rule of thumb for the researchers to obtain at least 30 heterogeneous
+samples and to involve at least three raters when conducting a reliability study, it was
+suggested that ICC values less than 0.5 are indicative of poor reliability; values between 0.5
+and 0.75 indicate moderate reliability; values between 0.75 and 0.9 indicate good reliability;
+and values greater than 0.90 indicate excellent reliability [27].
+3. Results
+Each rater tagged the different statements per chapter in the UHC Act according to
+the 14 components identiﬁed in the framework (Table 3). Each statement can have multiple
+tags. A total of 195 clauses/statements within 11 chapters, with 46 sections spread across
+them, were tagged.
+Table 3 below shows the top three components that were most evident, based on the
+total tags by the raters. These components pertain to the DOH/National government,
+PhilHealth and contracts/enforcement. It is noted that a high standard deviation for the
+mean number of tags on contracts/enforcement implied that the frequency of tags by the
+respondents was dispersed. The number of tags for this ranged from 11 to 70. The least
+tagged component was Human Resource/Workforce Support Systems followed by the
+LGU/DILG (Department of the Interior and Local Government), and Beneﬁts Demand
+Side (including health beneﬁt plans).
+Under a mixed-effects model, the individual ICC estimated was 0.69 (95% CI: 0.50–0.86),
+showing a correlation between the individual tags, while the average ICC was 0.94 (95% CI:
+0.87–0.98), showing a correlation between the average tags made on the same component.
+The consistency of agreement of the seven raters for the individual tags on each component
+implied a moderate reliability, while there was excellent reliability for the average tags made
+per component. The estimated coefﬁcients were statistically signiﬁcant (F(13, 78) = 16.41,
+p < 0.001), indicating that both the individual and average tags were randomly dependent
+on the type of component and ﬁxed on the corresponding rater making the measurements.
+
+Int. J. Environ. Res. Public Health 2022, 19, 9567
+8 of 13
+Table 3. Average number of tags for 14 components in the UHC Act by seven respondents.
+Component
+Mean ± Std. Deviation
+Minimum–Maximum
+Frequency
+DOH/national government
+55.9 ± 8.5
+42–68
+PhilHealth
+50.9 ± 9.3
+39–67
+Contracts/Enforcement
+46.5 ± 23.2
+11–70
+Governance Support (HTA, HIA, accreditation, research, ME) *
+42.7 ± 11.6
+21–60
+Financing/Payments/Incentives
+39 ± 6.5
+26–45
+Community/Engagement
+34.7 ± 12.5
+16–53
+Supply: Service Delivery
+29.9 ± 8.8
+22–48
+Private Providers/Other Partners, (e.g., HMOs, Fund Managers) *
+25.0 ± 6.9
+19–37
+Population Coverage and Health Promotion
+23.9 ± 4.5
+17–29
+Financial Protection
+23.6 ± 10.8
+9–38
+Values/Principles/Ethics
+18.4 ± 6.4
+11–29
+Beneﬁts Demand Side (Including packages)
+16.6 ± 9.9
+3–28
+LGU/DILG
+13.4 ± 4.0
+8–19
+Human Resource (HR)/Workforce Support Systems
+4.4 ± 2.9
+1–8
+* Abbreviations: HTA = health technology assessment; HIA = health impact assessment; ME = monitoring and
+evaluation; HMO = health maintenance organization.
+4. Discussion
+The dominance of the DOH and PhilHealth is as expected, as the law can be viewed as
+their mandate to access increased revenue resources and implement wide-ranging health
+sector reforms to achieve or progress towards universal health coverage. Contracting, which
+surfaced as the third most tagged, refers to an instrumentality or mechanism that will be
+exercised by the primary agents to reach other agents. The least tagged, or what was viewed
+as less attended to in the law, included health human resources, LGUs, and the demand side
+of health services that involves health beneﬁts. Three themes emerged as crucial in the UHC
+implementation, particularly from the post-COVID-19 lens. These are the national–local
+interactions, stakeholder engagement and contracting, and the capabilities and tools for
+coordination. This section discusses the challenges and directions in these areas.
+4.1. National-Local Interactions
+The UHC implementation appears to have been envisioned as a strategy of re-centralization,
+given the context of integration. At present, the provinces and highly urbanized cities
+are the owners and locus of health services delivery of the health system; responsible for
+planning, payroll, and budget allocations to government health services and activities in
+their jurisdiction. The content assessment, that showed LGUs as having the least attribution
+or responsibility, points to a critical neglect.
+Under the implementing rules and regulations [28], the local health system refers to
+“all health ofﬁces, facilities and services, human resources, and other operations relating
+to health under the management of the LGUs to promote, restore or maintain health”
+(Sec. 19.2). It is envisioned, under Rule 19.6, that the integration of the province and
+city-wide health systems shall be undertaken “through a mechanism of cooperative under-
+takings” (pursuant to Section 33 of the Republic Act 7160; The Local Government Code of
+1991) [29].
+DOH and PhilHealth, outside of headquarters, conduct their primary responsibilities
+in a ‘cooperative’ arrangement. This arrangement has made for a mixed implementation of
+the devolution enshrined in the local government code [12]. The new UHC Act, however,
+has no compulsory power to enforce cooperation between the LGUs in their zones, even
+as tasks, such as managerial and ﬁnancial integration and the provision of the needed
+resources and support mechanisms to make the integration possible and sustainable (Sec.
+19.9), are indicated. This highlights the basic vulnerability of national–local relationships,
+that as political administration changes, so can the strategies and priorities change. The
+Mandanas ruling mentioned in Section 1.1 has given added leveraging power to LGUs
+
+Int. J. Environ. Res. Public Health 2022, 19, 9567
+9 of 13
+with the increased funding share of the internal revenue allocation (that is, their share
+of the national taxes). These are not earmarked funds and it will require negotiations
+with the primary UHC implementors. In terms of accountabilities, only PhilHealth has a
+quasi-judicial authority on certain matters. The DOH has limited administrative remedies
+with respect to decision-making in the interlocal health decision making by their boards.
+The recent developments in public–private partnerships highlighted in Table 2 above,
+showed LGUs leading the partnerships in creating new facilities. The strengthening of the
+ﬁnancial position of LGUs can be viewed as re-devolution. The integration discussions
+which strengthen the role of DOH in local matters will need re-calibration.
+It has been indicated in the ﬁrst part of this paper that one contentious area in national
+and local relationships has to with the responsibilities and payment for the health work-
+force. For the implementation of the UHC Act, more work needs to be completed in the
+harmonization of various laws and policies, as they affect both the government workforces
+and the private provision of care. The health workers paid from the local government funds
+are not receiving the same amount as the national government-funded health workers,
+creating a contentious area within the same workspace. The private providers may not
+be able to pay its workers all of the beneﬁt payments given to public health care workers,
+and using this as a precondition for accreditation may put off private providers from UHC
+implementation. In the midst of the pandemic, there were mounting complaints from the
+private providers about unpaid accounts, an issue that has always been lodged against the
+institution [30], and for which the new UHC Act has not provided greater compulsion for
+PhilHealth, nor redress for the providers.
+4.2. Other Stakeholders and Contracting
+Our content analysis has shown that engagements with the private sector and commu-
+nity groups were weakly ascribed in the Act, and contracting ﬁgured prominently as the
+main instrument to relate with stakeholders. In the Act’s provisions on the private sector,
+its participation in the integrated local health system, through a contractual arrangement
+with the province-wide or city-wide health systems, is encouraged.
+Since public (tax) and member funds are involved, services are not just purchased by
+central authorities but will be underpinned by contracts, or formal agreements among gov-
+ernment agencies and affected stakeholders, including public and private facility operators,
+and the health workforce. Schuhmann and Bautista [30] observed that, while incentives are
+mentioned 18× in the draft IRR, there are more than 40 counts of contracts or contracting
+being mentioned in the implementation rules. With DOH and PhilHealth being hierarchical
+or bureaucratic organizations, contracting has been viewed largely as transactional, and
+the contracts are used to justify the transfers of resources. One of the biggest scandals
+during the pandemic was related to the government procurement of personal protective
+equipment (PPE), masks, and similar items [31].
+The new UHC Act and its IRR view contracting as a “meeting of the minds”; however,
+among a very diverse group of parties with equally varying interests and considerations,
+this is not sufﬁcient. It will be a challenge for the DOH, DILG, PhilHealth, and the LGUs
+to develop a contract that will satisfy the varying interests of the diverse group of entities
+sought to be brought together. The conceptual nuances of managing through contracts
+has been discussed in more depth [32]. Much of the language of the Act and the rules
+regarding contracts is directive, and for the individual-based health care provider networks,
+it appears that there is a requirement to form a single entity under a network. This is seen in
+the requirement of “networks exhibiting proof of legal personality” (Sec. 18.4.f). This clause
+forms a likely disincentive to private sector providers who are normally in competition
+with one another in small markets.
+The DOH and PhilHealth have been given the task of providing general guidelines
+for these contractual arrangements, hence the impression and concern that these contracts
+will be very “top down” in nature is warranted. It is recommended that, to counteract this
+possibility, the task ahead is to empower and strengthen the Provincial and City Health
+
+Int. J. Environ. Res. Public Health 2022, 19, 9567
+10 of 13
+Boards in order to provide nuanced, localized, and, consequently, responsive oversight and
+management over the contracts that establish the ILHS and other networks.
+The role of non-government organizations, patient, and community groups was high-
+lighted during the pandemic. They were involved in community mobilization, contact
+tracing, and coordinating the treatment of individuals in the community, even the provi-
+sion of social assistance and support. They may continue to be partners post-pandemic.
+Access to UHC funds is likely also to be through the contracting mechanism. Government
+procurement systems are not user friendly to community groups and non-government
+organizations. Membership in the health boards is one venue for participation.
+4.3. Other Cross-Cutting Considerations
+The top-down approach has created various anomalies in the light of limited tools
+utilized to implement the new Act. Moving contracts from being mere transactions to
+moving monies and paying vendors will require better provider payment systems, which
+rests on improved information technology systems; with both, steering the system towards
+health care quality. Financing and information systems form the backbone on which
+the structure of the health system stands. The new UHC Act’s central feature divided
+responsibilities by type of intervention; between DOH for population health activities and
+PhilHealth for personal health care. Linkages on ﬁnancing, particularly on payments to
+providers, did not prominently ﬁgure in the content assessment.
+Fair provider payment processes are critical to push for quality services from accred-
+ited hospitals, using analytic and evidence-based approaches, rather than relying on its
+quasi-judicial mandate and ﬂexing its muscle on fraud detection and conﬂicting policies.
+The funds from these two agencies will be pooled in provincial and highly urbanized
+cities to form the special health fund that is managed by reconstituted local health boards.
+Considering the slight majority of the private sector over government health in the facilities
+count, there is no indication as to how the private sector will accept not being directly
+in receipt of funds from the main insurer, PhilHealth. Instead, they will have to collect
+against the Special Health Fund (SHF), which is managed by the local political bureaus.
+Furthermore, the payment delays to hospitals, scandals over inappropriate payments, and
+manipulation of the system through case creep (how one simple case diagnosis will be
+upgraded to a more complicated case) have percolated into trust issues between PhilHealth
+and the private providers [33].
+While the UHC law improves on the governance of PhilHealth by tightening the
+qualiﬁcations of PhilHealth board members, the ﬁnancing reforms needed would require
+more transformative leadership. The pandemic experience has shown how easy it is to
+wipe out the ﬁnancial reserves saved over the surplus years, erode agency credibility
+with the scandals and untimely premium increases. Cost efﬁciency is gained by altering
+the way payment is made to the providers, by moving from case payments to more cost
+control systems, such as global budgeting [34]. The Act’s Chapter IV, Section 18-B mentions
+performance-based, close-end, prospective payments based on diagnostic categories. This
+will require capacities, technical skills, and information that may not be currently available.
+Budget transfers, outside of premium revenues, by members will require better budget
+cycle planning and ﬁnancial reporting.
+The information requirements and systems needed for efﬁciency and equity are vast.
+While new regulatory agencies have been identiﬁed in the new UHC Act, such as the Health
+Promotion Bureau and Health Technology Assessment, the availability and quality of the
+data and information they will be working with for improved decision-making still need
+to be constructed. As they generate the data, frequent analysis and updates on diagnostic
+codes, weights, and costs will form part of the information technology systems that will
+yield more transparent and robust internal evaluation, utilization processes, knowledge
+exchange, and management for a nimbler health system.
+As decentralized local delivery systems and a strong private health sector are the
+contexts under which the centralizing approach of the new UHC will be undertaken,
+
+Int. J. Environ. Res. Public Health 2022, 19, 9567
+11 of 13
+incentives will be the main mechanism by which purchasing agencies, the DOH, and
+PhilHealth, are going to relate with stakeholders. Under a strengthened central authority,
+incentives need to evolve from simple ‘carrots’ or bargaining sticks to being part of a global
+budget scheme, similar to how international agencies, such as the Global Fund, allocate
+funds to countries. It is based on robust modeling and evaluation protocols. Only through
+an interface with technology and evidence-based management can the ﬁnancial ﬂows in
+the system be used to drive the strategic choices of users, be it as a provider, health center
+staff, patients, managers, or decision makers. Only then will the system be efﬁciently and
+equitably managed to ensure affordability and universal coverage. Without innovations,
+adoption will be slow, if not resisted.
+A key challenge for the information system sector is the provision in the UHC Act’s
+implementing rules and regulations, stating that the Department of Health and the Philip-
+pine Health Insurance Corporation will be funding the development and upgrading of the
+information system software to be utilized by health care providers and insurers, at no cost
+(Section 36.3) to them. Several initiatives have been undertaken through the Philippines’
+eHealth Agenda framework of 2010. Some of the key players in the pandemic case reporting
+systems were from the group. Central systems must be designed with local capacities and
+interoperability in mind. Knowledge partnerships have been shown to be critical during
+the pandemic, and can only be strengthened with less hierarchical systems.
+5. Conclusions
+This content assessment study set out to examine the provisions of the new UHC Act
+for its intentions and directionality. While the ICC estimates obtained in this study implied
+generally good reliability, these results may not be generalized to other populations of
+raters, as the raters were not independently sampled but rather ﬁxed in this mixed-effects
+model. The educational and professional backgrounds of the raters may have inﬂuenced
+the consistency of their ratings. While representativeness to the general population may
+be unwieldy with the method chosen, the analyses are meant to draw insights into law
+making in the health sector and for reﬂection on implementation design.
+Drawing from various viewpoints and levels of technical expertise, a robust content
+analysis uncovered tendencies towards centralization. Weak system links were identiﬁed
+with respect to the health human workforce, ﬁnancing and information systems, pointing
+largely to basic governance issues. The key players in the system, such as local governments
+and the private health providers and community groups, which played critical roles during
+the pandemic, are cursorily treated. The harmonization of the critical laws affecting the
+health workforce and the local government code is in order. The enhancement of devolution
+through additional non-earmarked funding for local governments is expected to create
+further tensions at implementation, in light of the centralizing tendencies of the new UHC
+Act. Weak relationships with local government units, the private sector, and community
+group engagements will need reexamination, given their importance in pandemic resilience
+and in the networked systems envisioned for UHC. In particular, a re-examination of the
+integration approach, in terms of the technical capacities for planning and evidence-based
+management in the light of fresh resources, may be in order. Viewing the UHC Act from
+the perspective of the pandemic also highlighted leverage areas to include innovations
+in governance areas, such as public–private partnerships, improved ﬁnancing through
+provider payments’ reforms, and the smarter allocation of tax-based sources. Contracting
+and allocation arrangements can improve the quality and efﬁciency of decision-making in
+the UHC system. An alternative view of contracts and incentives beyond a mere transaction
+exchange towards system steering can be examined more empirically and contribute to a
+more equitable system.
+Author Contributions: Conceptualization, M.C.G.B. and M.R.J.E.; data curation, N.B.M. and C.P.;
+methodology, P.J.A.-C., N.B.M., C.P., Q.S.J. and D.A.V.; formal analysis, M.C.G.B., P.J.A.-C. and
+M.R.J.E.; writing—original draft preparation, M.C.G.B.; writing—review and editing, M.C.G.B.,
+
+Int. J. Environ. Res. Public Health 2022, 19, 9567
+12 of 13
+P.J.A.-C., M.R.J.E., V.E.F., M.M.D. and M.V.; funding acquisition, M.C.G.B. and M.R.J.E. All authors
+have read and agreed to the published version of the manuscript.
+Funding: This research was funded by the University Research Council (URC), Grant Number
+2020-05, of the Ateneo de Manila University.
+Institutional Review Board Statement: The study was conducted in accordance with the Declaration
+of Helsinki, and approved by the University Research Ethics Ofﬁce (UREO) of the Ateneo de Manila
+University (December 2019).
+Informed Consent Statement: Informed consent was obtained from all subjects involved in the study.
+Data Availability Statement: The data presented in this study are available on request from the
+corresponding authors.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1.
+An Act Instituting Universal Health Care for All Filipinos, Prescribing Reforms in the Health Care System, and Appropriating
+Funds Therefore. 2019. Available online: https://www.doh.gov.ph/sites/default/ﬁles/health_magazine/RANo11223_UHC.pdf
+(accessed on 9 August 2021).
+2.
+Kutzin, J. Health ﬁnancing for universal coverage and health system performance: Concepts and implications for policy. Bull
+World Health Organ. 2013, 91, 602–611. Available online: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3738310/ (accessed
+on 2 February 2022). [CrossRef]
+3.
+Slapin, J.; Proskch, S.-O. Words as Data: Content Analysis in Legislative Studies; Martin, S., Saalfeld, T., Strøm, K.W., Eds.; The Oxford
+Handbook of Legislative Studies, USA-OSO; ProQuest: Ann Arbor, MI, USA, 2014.
+4.
+Kayes, N.; Shun-King, M. The role of document analysis in health policy analysis studies in low and middle-income countries:
+Lessons for HPA researchers from a qualitative systematic review. In Health Policy Open; Elsevier: Amsterdam, The Netherlands,
+2020. [CrossRef]
+5.
+Derakhshani, N.; Doshmangir, L.; Ahmadi, A.; Fakhri, A.; Sadeghi-Bazargani, H.; Gordeev, V.S. Monitoring Barriers and Enablers
+Towards Universal Health Coverage within sutainable development goals: A systematic review and content analysis. Clin. Econ.
+Outcomes Res. 2020, 12, 459–472. [CrossRef] [PubMed]
+6.
+British Academy. The COVID Decade: Understanding the Long-Term Societal Impacts of COVID-19; The British Academy: London,
+UK, 2021. [CrossRef]
+7.
+World Bank. Available online: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=PH (accessed on 2 February 2022).
+8.
+Philippine Statistics Authority. Health Spending Registered 12.6 Percent Growth, Share of Health to Economy Went Up to 5.6
+Percent in 2020. Reference no. 2021-427. 14 October 2021. Available online: https://psa.gov.ph/pnha-press-release/node/165216
+(accessed on 2 February 2022).
+9.
+Capuno, J.J.; Kraft, A.D.; O’Donnell, O. Filling potholes on the road to universal health coverage in the philippines. Health Syst.
+Reform. 2022, 7, e1911473. Available online: https://www.sciencegate.app/document/10.1080/23288604.2021.1911473 (accessed
+on 2 February 2022). [CrossRef]
+10.
+UHC Service Coverage Index—Philippines. Available online: https://data.worldbank.org/indicator/SH.UHC.SRVS.CV.XD?
+locations=PH (accessed on 2 February 2022).
+11.
+Philippine Statistics Authority. National Demographic and Health Survey 2017. Philippines National Demographic and
+Health Survey 2017 [FR347].
+Available online: https://psa.gov.ph/sites/default/ﬁles/PHILIPPINE%20NATIONAL%20
+DEMOGRAPHIC%20AND%20HEALTH%20SURVEY%202017_new.pdf (accessed on 2 February 2022).
+12.
+Dayrit, M.; Lagrada, L.; Picazo, O.; Pons, M.; Villaverde, M. The Philippines Health System Review; Regional Ofﬁce for South East
+Asia, Health in Transition Series; World Health Organization: New Delhi, India, 2018; Volume 8.
+13.
+Philippine Statistics Authority. Philippine Statistical Yearbook. 2018. Available online: https://psa.gov.ph/sites/default/ﬁles/20
+18%20PSY_ﬁnal%28revised%20asof26Mar19%29_0.pdf (accessed on 2 February 2022).
+14.
+Nikki. A Look into the UHC Advanced Implementation Sites (AIS) Rollout. 2020. Available online: https://www.curally.ph/
+blog/67 (accessed on 22 November 2021).
+15.
+Philippine Congress. Republic Act 7305: Magna Carta of Public Health Workers; Philippine Congress: Manila, Philippines, 1992.
+16.
+Tangcalagan, K.; Bool, D.P. Universal Health Care in the Philippines through the Lens of Workforce 2030: An Omnibus Review of Human
+Resources for Health Policies; USAID Human Resources for Health 2030: Manila, Philippines, 2019.
+17.
+World Bank. Philippines: Mandanas Ruling Provides Opportunities for Improving Service Delivery through Enhanced Decentraliza-
+tion; Press Release: London, UK, 2021. Available online: https://www.worldbank.org/en/news/press-release/2021/06/10
+/philippines-mandanas-ruling-provides-opportunities-for-improving-service-delivery-through-enhanced-decentralization (ac-
+cessed on 22 November 2021).
+18.
+Department of Health. COVID-19 National Cases Data as of 15 February 2022. COVID-19 hotline (viber messaging).
+
+Int. J. Environ. Res. Public Health 2022, 19, 9567
+13 of 13
+19.
+Calonzo, A. Why the Philippines Is Once Again the Worst Place to Be in COVID. Available online: https://www.bloomberg.com/
+news/articles/2022-01-27/why-the-philippines-is-once-again-the-worst-place-to-be-in-covid (accessed on 27 January 2022).
+20.
+Leischow, S.J.; Best, A.; Trochim, W.M.; Clark, P.I.; Gallagher, R.S.; Marcus, S.E.; Matthews, E. Systems thinking to improve the
+public’s health. Am. J. Prev. Med. 2008, 35 (Suppl. 2), S196–S203. [CrossRef]
+21.
+Adam, T. Advancing the application of systems thinking in health. Health Res. Policy Syst. 2014, 12, 50. [CrossRef]
+22.
+Yap, M. Panel Member Response to Keynote Paper, Presented to the Third Health Leadership Summit; AC Health and Ateneo Professional
+Schools: Makati, Philippines, 2022.
+23.
+Asian Development Bank. Public-Private Partnership Monitor: Philippines; Asian Development Bank: Mandaluyong, Philip-
+pines, 2020.
+24.
+World Health Organization. Monitoring the Building Blocks of Health Systems: A Handbook of Indicators and Their Measurement
+Strategies; World Health Organization: Geneva, Switzerland, 2010. Available online: https://apps.who.int/iris/handle/10665/25
+8734 (accessed on 9 August 2021).
+25.
+The Independent Panel. COVID-19: Make It the Last Pandemic; Summary of the Main Report: Geneva, Switzerland, 2021. Available
+online: https://theindependentpanel.org/wp-content/uploads/2021/05/Summary_COVID-19-Make-it-the-Last-Pandemic_
+ﬁnal.pdf (accessed on 9 August 2021).
+26.
+Koo, T.K.; Li, M.Y. A Guideline of Selecting and Reporting Intraclass Correlation Coefﬁcients for Reliability Research. J. Chiropr.
+Medicine. 2016, 15, 155–163. Available online: https://www.sciencedirect.com/science/article/pii/S1556370716000158 (accessed
+on 16 July 2021). [CrossRef] [PubMed]
+27.
+StataCorp. Icc—Intraclass correlation coefﬁcients. In Stata: Release 15. Statistical Software; StataCorp LLC: College Station, TX,
+USA, 2017.
+28.
+Implementing Rules and Regulations of the Universal Health Care Act (Republic Act No. 11223). 2019. Available online:
+https://doh.gov.ph/sites/default/ﬁles/health_magazine/UHC-IRR-signed.pdf (accessed on 15 November 2021).
+29.
+Republic of the Philippines. Republic Act 7160: The Local Government Code of 1991; Government of the Philippines: Manila,
+Philippines, 1991.
+30.
+Salaverria, L.; Gascon, M.; Burgos, N. PhilHealth Fails to Stop Exit of 7 Iloilo Hospitals; Philippine Daily Inquirer: Manila, Philippines,
+29 December 2021. Available online: https://newsinfo.inquirer.net/1533254/philhealth-fails-to-stopexit-of-7-iloilo-hospitals
+(accessed on 2 February 2022).
+31.
+Schuhmann, R.; Bautista, M.C.G. Contracting for Health Care under the New Philippine UHC Act. In VRÜ Verfassung und Recht
+in Übersee/WCL; Nomos: Berlin, Germany, 2021; Volume 54, pp. 98–115.
+32.
+Francisco-Alcantara, K. Introspective: Our Brand Is Crisis: Controversies, Challenges and Opportunities in Pandemic Procure-
+ment, Business World. Available online: https://www.bworldonline.com/opinion/2021/09/26/399009/our-brand-is-crisis-
+controversies-challenges-and-opportunities-in-pandemic-procurement/ (accessed on 26 September 2021).
+33.
+Salaverria, L. Malacanang Urges PhilHealth to Settle Hospital Claims. Available online: https://newsinfo.inquirer.net/1477758/
+malacanang-to-philhealth-settle-hospital-claims (accessed on 24 August 2021).
+34.
+Cheng, S.H.; Jin, H.H.; Yang, B.M.; Blank, R.H. Health Expenditure Growth under Single-Payer Systems: Comparing South Korea
+and Taiwan. Value Health Reg. Issues 2018, 15, 149–154. [CrossRef] [PubMed]

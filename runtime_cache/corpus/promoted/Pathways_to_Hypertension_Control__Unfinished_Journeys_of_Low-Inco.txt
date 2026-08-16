@@ -1,0 +1,1918 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+1-1-2024 
+Pathways to Hypertension Control: Unfinished Journeys of Low-
+Pathways to Hypertension Control: Unfinished Journeys of Low-
+Income Individuals in Malaysia and the Philippines 
+Income Individuals in Malaysia and the Philippines 
+Benjamin Palafox 
+London School of Hygiene & Tropical Medicine 
+Dina Balabanova 
+London School of Hygiene & Tropical Medicine 
+Arianna Maever Loreche 
+Ateneo School of Medicine and Public Health, aamit@ateneo.edu 
+Nafiza Mat-Nasir 
+Universiti Teknologi MARA 
+Farnaza Ariffin 
+Universiti Teknologi MARA 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Nutritional and Metabolic Diseases Commons, and the Public Health Commons 
+Custom Citation 
+Custom Citation 
+Palafox, B., Balabanova, D., Loreche, A.M., Mat-Nasir, N., Ariffin, F., Md-Yasin, M., Isa, M.-R., Abd-Majid, F., 
+Palileo-Villanueva, L.M., Renedo, A., Seguin, M.L., Dans, A.L. and Mckee, M. (2025), Pathways to 
+Hypertension Control: Unfinished Journeys of Low-Income Individuals in Malaysia and the Philippines. Int 
+J Health Plann Mgmt. https://doi.org/10.1002/hpm.3889 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+Authors 
+Authors 
+Benjamin Palafox, Dina Balabanova, Arianna Maever Loreche, Nafiza Mat-Nasir, Farnaza Ariffin, 
+Mazapuspavina Md-Yasin, Mohamad Rodi Isa, Fadhlina Abd-Majid, Lia M. Palileo-Villanueva, Alicia 
+Renedo, Maureen L. Seguin, Antonio L. Dans, and Martin Mckee 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/asmph-pubs/289 
+
+The International Journal of Health Planning and Management
+-
+RESEARCH ARTICLE
+OPEN ACCESS
+Pathways to Hypertension Control: Unfinished Journeys of
+Low‐Income Individuals in Malaysia and the Philippines
+Benjamin Palafox1 | Dina Balabanova1 | Arianna Maever Loreche2,3 | Nafiza Mat‐Nasir4 | Farnaza Ariffin4 |
+Mazapuspavina Md‐Yasin4 | Mohamad‐Rodi Isa4 | Fadhlina Abd‐Majid4 | Lia M. Palileo‐Villanueva2
+| Alicia Renedo1 |
+Maureen L Seguin1 | Antonio L Dans2 | Martin Mckee1
+1Centre for Global Chronic Conditions, London School of Hygiene & Tropical Medicine, London, UK | 2College of Medicine, University of the Philippines
+Manila, Manila, Philippines | 3School of Medicine and Public Health, Ateneo de Manila University, Pasig City, Philippines | 4Faculty of Medicine, Universiti
+Teknologi MARA, Sungai Buloh, Malaysia
+Correspondence: Martin Mckee (martin.mckee@lshtm.ac.uk)
+Received: 30 September 2024 | Revised: 4 December 2024 | Accepted: 12 December 2024
+Funding: This study was supported by a grant from the Wellcome Trust/Newton Fund‐MRC Humanities & Social Science Collaborative Award scheme
+(200346/Z/15/Z). The funder had no role in study design, data collection, analysis, interpretation or reporting.
+Keywords: blood pressure | hypertension | low‐income population | Malaysia | non‐communicable disease control | Philippines | primary care
+ABSTRACT
+Background: Reducing inequities in hypertension control among those affected in low‐ and middle‐income countries requires
+person‐centred health system responses based on a contextualised understanding of the choices and care pathways taken by
+those who rely on the services provided, particularly those from poor and marginalised communities. We examine patterns of
+care seeking and pathways followed by individuals with hypertension from low‐income households in the Philippines and
+Malaysia. This study aims to fill a significant gap in the literature by analysing the stages at which individuals make decisions
+that may affect the successful control of their blood pressure.
+Methods: This study presents cross‐sectional survey data collected as part of the Responsive and Equitable Health Systems‐
+Partnership on Non‐Communicable Diseases (RESPOND) project, a longitudinal observational study in low‐income commu-
+nities. The study participants were 1191 randomly selected adults aged 35–70 years with a self‐reported history of hypertension
+or identified as hypertensive through blood pressure screening.
+Results: While most low‐income individuals with hypertension in both countries were diagnosed and receiving medication,
+Malaysians demonstrated higher self‐reported medication adherence. Urban areas in the Philippines showed better hyper-
+tension management outcomes compared to rural areas. The study also provides insights into the care seeking pathways fol-
+lowed by low‐income adults diagnosed with hypertension. Nearly half of these individuals in Malaysia and a third in the
+Philippines were following pathways where they had never changed or stopped treatment without professional advice, and
+where they were using and adhering to their prescribed medication. Following such pathways was strongly associated with a
+greater likelihood blood pressure control in the Philippines, but less so in Malayisa.
+Conclusions: These findings highlight the need for a contextualised understanding of care seeking choices and the importance
+of person‐centred solutions. They offer a typology of hypertension care seeking pathways and a foundation for similar research
+in other settings.
+Abbreviations: aRRR, adjusted relative risk ratio; ASEAN, Association of Southeast Asian Nations; cRRR, crude relative risk ratio; CVD, cardiovascular disease; LMIC, low‐ and middle‐income
+country; MYR, Malaysian Ringgit; NCD, non‐communicable disease; PHP, Philippine Peso; RESPOND, responsive and Equitable Health Systems—Partnership on NCDs; WHO, World Health
+Organisation; 95% CI, 95% confidence interval.
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly
+cited.
+© 2024 The Author(s). The International Journal of Health Planning and Management published by John Wiley & Sons Ltd.
+The International Journal of Health Planning and Management, 2024; 00:1–16
+1 of 16
+https://doi.org/10.1002/hpm.3889
+
+1 |
+Introduction
+Uncontrolled hypertension is an important driver of premature
+death and disability worldwide, as it is a major risk factor for
+cardiovascular and other non‐communicable diseases (NCDs)
+[1]. Although typically considered a ‘disease of the rich’, most of
+those affected now live in low‐ and middle‐income countries
+(LMICs) [2], where social safety nets are weak, and the conse-
+quences of uncontrolled hypertension can be catastrophic [3, 4].
+Yet hypertension is easily diagnosed, with safe and effective
+treatments available for decades and well‐evidenced guidelines
+available, including those for low‐resource settings [5, 6]. How-
+ever, levels of treatment and control are far from ideal in high‐
+income countries and even worse in LMICs [7, 8], especially
+among the poor [9]. Inadequately resourced health systems in
+LMICs struggle to provide access to effective and affordable hy-
+pertension care, especially for disadvantaged populations [10].
+Systematic reviews have identified many barriers related to the
+characteristics of patients, providers, and the interaction between
+them [11], and at the health system level [12]. Improving hy-
+pertension control for all is not only a global health priority but
+also a matter of equitable social and economic progress.
+Once diagnosed, hypertension is, for most, a lifelong condition.
+Diagnosis and treatment initiation are only the first steps on a
+therapeutic journey. Documents such as the World Heart
+Federation Hypertension Roadmap describe the optimal path-
+ways, but many people do not follow them for various reasons
+[13]. A systematic review of factors causing diversions clustered
+them into three domains: patient‐related (socio‐demographic,
+knowledge and health beliefs, health status and co‐morbidities,
+trade‐offs), social (social relationships and traditions) and health
+system domains (resources and access to hypertension medi-
+cines and services) [14]. Given their circumstances, people may
+follow paths that make sense to them, constructing their own
+‘therapeutic itineraries’ that may or may not be optimal [15].
+It has been possible to address this unsatisfactory situation us-
+ing approaches such as packages combining greater use of mid‐
+level health workers, simplified guidelines, and peer support
+[16–19]. However, these strategies should engage with affected
+communities to co‐design person‐centred solutions [20, 21].
+This approach recognises that barriers to care arise from char-
+acteristics of both the health system and the patient, so re-
+sponses should be designed and implemented in a way that fits
+the lived realities, values and preferences of the people who use
+them. In doing so, systems must work with patients, their
+families and communities to foster the trust needed to enable
+those with chronic conditions, like hypertension, to maintain
+the long‐term engagement required to manage their condition
+[15, 22–24]. This requires in‐depth engagement with those living
+with chronic conditions, which often reveals how they see their
+conditions differently from those responsible for policy devel-
+opment and service delivery. For example, a process of co‐
+creation with people living with diabetes in Peru found that
+they prioritised measures of the economic impact of their con-
+dition and structural support for them over the clinical out-
+comes used by health professionals [25]. Such processes are part
+of a growing recognition of the importance of implementation
+science as a means of closing the ‘know‐do’ gaps that impede
+the success of strategies to tackle chronic diseases [26].
+If the world is to make progress towards Target 3.4 of the Sus-
+tainable Development Goals, to ‘reduce by one‐third premature
+mortality from non‐communicable diseases’ [27] then health
+system responses must be based on a contextualised under-
+standing of the choices and care pathways taken by those who
+rely on the services provided, particularly those from poor and
+marginalised communities, which is currently lacking in the
+evidence from LMICs [14, 28].
+We describe a study in two LMICs, the Philippines and Malaysia,
+geographically proximal countries that share many characteris-
+tics but differ in some important respects (described below). We
+describe the characteristics, patterns and pathways of care
+seeking by individuals with hypertension from low‐income
+households across urban and rural settings, focussing on the
+steps on the pathway where people change or terminate their
+treatment. We also examine the determinants of these choices
+and the consequences for blood pressure control. While it is
+known that adherence to continuous care is a problem every-
+where, here we use a novel approach to follow patients over time
+to identify their varied trajectories. This offers a template for
+similar studies elsewhere and fills a gap in the literature.
+2 |
+Methods
+2.1 |
+Study Setting
+The Responsive and Equitable Health Systems‐Partnership on
+Non‐Communicable Diseases (RESPOND) project was a mixed‐
+Summary
+ What is already known on this topic:
+◦Effective, equitable and sustainable health system
+responses to the growing burden of chronic non‐
+communicable
+diseases
+(NCDs)
+require
+person‐
+centred approaches.
+◦Tailoring such responses must be informed by a
+detailed and contextualised understanding of care
+seeking for NCDs; however, this evidence is often
+unavailable, especially for those at the margins of
+society.
+ What this study adds:
+◦This study illustrates a quantitative method that can
+characterise the complex ‘therapeutic itineraries’ that
+individuals with a common NCD follow.
+◦Surveys conducted among low‐income individuals
+with hypertension from Malaysia and the Philippines
+using this novel approach identified key junctures—
+that occur both within and outside the health
+system—of the most common ‘therapeutic itiner-
+aries’ followed and provided an understanding of the
+factors affecting the type of path individuals follow.
+ How this study might affect research, practice or policy:
+◦The approaches used in this study can help to pro-
+duce the kinds of evidence required to develop more
+person‐centred care for those living with NCDs in a
+wide range of socioeconomic settings.
+2 of 16
+The International Journal of Health Planning and Management, 2024
+ 10991751, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/hpm.3889 by Cochrane Philippines, Wiley Online Library on [05/02/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+methods, longitudinal, observational study on treatment seeking
+for hypertension by adults living in low‐income communities in
+the Philippines and Malaysia [29].
+While both counties have a high prevalence of hypertension [9],
+we exploited some key differences to elicit the varying effects of
+context on managing hypertension. Malaysia is an ethnically
+diverse upper‐middle income country with a well‐developed
+public sector primary care system funded mainly from general
+taxation,
+although
+with
+official
+co‐payments
+[21].
+The
+Philippines is a populous, archipelagic, lower‐middle income
+nation with a pluralistic, fragmented health system and rela-
+tively high income inequality. The national health insurance
+programme, PhilHealth, provides limited financial protection
+primarily for in‐patient care for about 90% of the population via
+contributions from employers and employees. Health care is
+delivered in public and private facilities, although the latter are
+widely used by those who can afford them and are of better
+quality. Just over 40% of those with hypertension in both
+countries are on treatment, and 12%–13% are controlled [29].
+The authors have reflected on their positions as they analysed
+and interpreted the findings and a statement on reflexivity is at
+Appendix 8. A STROBE checklist for the study is at Appendix 9.
+2.2 |
+Sampling
+Briefly, low‐income communities—‘mukim’ in Malaysia and
+‘barangays’ in the Philippines with high proportions of house-
+holds qualifying for government subsidies—were selected in
+urban and rural strata with probability proportional to size in
+purposefully selected states (Malaysia) and provinces/cities
+(Philippines). In Malaysia, these were Selangor, Kelantan, Perak
+and Johor. In the Philippines, urban communities were in
+Valenzuela City in Metro Manila and 8 urban and 15 rural
+communities in Quezon province. Adults living in low‐income
+households (i.e. qualifying for means‐tested government sub-
+sidies under the ‘Bantuan Rakyat 1 Malaysia’ (BR1M) pro-
+gramme in Malaysia and the 4P programme in the Philippines)
+were randomly selected. A priori sample size determination was
+taken into account by multiple analyses.
+Adults aged 35–70 years were eligible if they self‐reported a
+history of hypertension diagnosis from a health professional, or
+were identified as hypertensive during blood pressure screening
+following a standardised procedure based on the World Health
+Organisation STEPwise approach to Surveillance [30]. Those
+without a self‐reported history of hypertension were categorised
+as hypertensive if either the average systolic or diastolic blood
+pressure was equal to or above 140 mmHg or 90 mmHg,
+respectively. One among all hypertensive members in eligible
+households was randomly selected.
+2.3 |
+Data Collection
+On enrolment, trained personnel administered a questionnaire
+including validated instruments from the Demographic &
+Health Surveys [31], WHO STEPS [30], World Values Survey
+[32], and the Living Conditions, Lifestyle and Health Survey
+[33]. Information collected at individual and household levels
+included age, gender, marital status, ethnicity, education,
+occupation, hypertension‐related care experiences (including
+service utilisation and setting), treatment and adherence,
+hypertension‐related knowledge and attitudes, tobacco expo-
+sure, and other modifiable CVD risk factors. Information on
+healthcare pathways was collected at discrete stages along the
+journey (e.g., at the time of diagnosis, changes in treatment, and
+current practices), as informed by previous research on care
+pathways [34]. Following piloting, all respondents in the
+Philippines and a random sub‐sample of respondents in
+Malaysia also provided information on household income and
+expenditure, including general health and hypertension man-
+agement. This analysis uses cross‐sectional baseline data
+collected in 2018.
+2.4 |
+Definitions of Core Hypertension
+Management Indicators
+We report four core binary outcomes of hypertension manage-
+ment: (1) awareness/diagnosis, (2) use of current antihyper-
+tensive treatment, and (3) blood pressure control among those
+with hypertension; and (4) self‐reported medication adherence
+among those on treatment. Current medication use is defined by
+self‐reports of using any conventional antihypertensive medi-
+cation in the past 2 weeks, and control as average systolic and
+diastolic blood pressure less than 140/90 mmHg [35].
+Other self‐reported indicators describe the circumstances of
+hypertension diagnosis; information on follow up, treatment
+and other advice received at diagnosis; instances and decision‐
+making on stopping and/or changing hypertension treatment;
+and measures to monitor and treat hypertension. We created a
+typology of hypertension care seeking pathways followed by
+participants, informed by complementary qualitative evidence
+on ‘therapeutic itineraries’ [15]. Appendix 1 provides definitions
+of all variables.
+2.5 |
+Statistical Analysis
+We present summary statistics of participant and household
+characteristics and indicators of hypertension management as
+percentages and means by country and by urban and rural strata
+within them. Wald tests assess differences in proportions or
+means across countries and strata.
+We also develop country‐specific (a) multinomial logistic
+regression models to investigate potential determinants of the
+type of hypertension care‐seeking pathway followed by our
+study population; and (b) logistic regression models to assess the
+potential association between the type of pathway followed and
+the likelihood of hypertension control. For the multinomial
+model, the categorical dependent variable identifies which of
+several pathways the participant followed. Selection of inde-
+pendent variables as potential determinants of pathway selec-
+tion
+was
+informed
+by
+existing
+literature
+on
+barriers
+to
+hypertension care seeking in LMICs [14, 28]. These include sex,
+age, highest level of education completed, marital status,
+3 of 16
+ 10991751, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/hpm.3889 by Cochrane Philippines, Wiley Online Library on [05/02/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+employment status, presence of self‐reported co‐morbidities,
+household size, social capital (proxied by whether or not they
+knew someone from whom they could borrow cash in a time of
+need), good knowledge (based on a composite score of 5 ques-
+tions about the consequences, symptoms and management of
+hypertension), and self‐reported belief in the effectiveness of
+both modern and traditional and complementary medicine for
+the treatment of hypertension. In the logistic model, these
+covariates are included as potential confounders for the asso-
+ciation between the binary dependent variable of hypertension
+control and the dependent categorical variable for pathway type,
+as defined above.
+Country‐specific models also include community fixed effects to
+account for clustering arising from unobserved factors that vary
+by community. These could relate to local health system dif-
+ferences, such as in the availability, affordability, acceptability
+and quality of hypertension care and medication, or social
+norms, shared beliefs and practices. As communities were
+selected within urban and rural areas, an independent variable
+related to the urban‐rural location was not included in the
+regression models as it would be perfectly collinear with dummy
+variables capturing these community‐fixed effects. We present
+crude and adjusted estimates as relative risk ratios for the
+multinomial models and odds ratios for the logistic models with
+their 95% confidence intervals. Each covariate is mutually
+adjusted
+for
+all
+other
+potential
+determinants/confounders
+described above in multivariable models.
+Summary statistics, crude and adjusted relative risk and odds
+ratios from regression models, and Wald tests are weighted for
+sampling probability and adjusted for community‐level clus-
+tering to account for sampling design. Appendix 2 provides in-
+formation on derivation of the probability‐based sampling
+weights.
+2.6 |
+Patient and Public Involvement
+Patients and the public were not directly involved in the design,
+conduct, reporting, or dissemination plans for this study.
+2.7 |
+Ethics
+Ethical approval was granted by the Observational Research
+Ethics Committee at the London School of Hygiene & Tropical
+Medicine (Ref: 12214), and the Research Ethics Boards at the
+Universiti
+Putra
+Malaysia
+(JKEUPM‐2017‐229),
+Universiti
+Teknologi MARA (600‐IRMI(5/1/6) REC/313/18) and the Uni-
+versity of the Philippines Manila (UPMREB‐2017‐481‐01). All
+participants gave informed consent.
+3 |
+Results
+In total 1191 low‐income hypertensive adults were enroled, 606
+in the Philippines and 585 in Malaysia. Of these, 889 reported
+having been diagnosed by a health professional and were
+included in the analysis, 434 in the Philippines and 455 in
+Malaysia. We excluded 17 participants from the Philippines and
+40 from Malaysia due to missing data. In Malaysia, those
+excluded did not differ notably from those included in age, ed-
+ucation, marital or employment status, time since diagnosis, or
+household income or size, but included more females and fewer
+with co‐morbidities. Those excluded in the Philippines did differ
+from those included on most characteristics, but the small
+number of excluded participants is unlikely to impact the
+overall findings of the main analysis. See Appendix 3 in the
+Supporting Information S1.
+3.1 |
+Key Hypertension Management Outcomes in
+the Respond Study Sample
+Among all low‐income hypertensive individuals (Table 1),
+similar proportions in both countries were diagnosed (84% in
+Malaysia vs. 79% in the Philippines), taking medication (73% vs.
+65%) and had their hypertension controlled (22% vs. 24%).
+However,
+a
+higher
+proportion
+in
+Malaysia
+than
+in
+the
+Philippines self‐reported good medication adherence (99% vs.
+66%, respectively; p < 0.001).
+Comparing across rural and urban strata, urban areas in the
+Philippines performed significantly better on each of the key
+hypertension management indicators than rural areas, apart
+from adherence (Table 2): 15% points higher for diagnosis, 20%
+points for treatment, and 10% points for control (all p < 0.050).
+Similar differences were not observed in Malaysia.
+3.2 |
+Characteristics of Diagnosed Hypertensive
+Adults
+In both countries, most participants diagnosed with hyperten-
+sion by the time of data collection were female and married
+(Table 3). Compared to their Malaysian counterparts, Filipino
+participants were slightly younger (mean age of 60 years in
+Malaysia, 56 years in the Philippines), better educated (46% vs.
+64% with post‐secondary education), from somewhat larger
+households (3.8 vs. 4.5 household members), twice as likely to
+be employed (22% vs. 44%), and less likely to report a co‐morbid
+condition, such as diabetes (54% vs. 29%). Filipino participants
+also tended to have been diagnosed with hypertension more
+recently than those in Malaysia (8.1 mean years since diagnosis
+in Malaysia vs. 5.8 mean years in the Philippines), and were
+more likely to report knowing someone from whom they could
+borrow money in times of need (47% vs. 86%), to believe in the
+effectiveness of modern medicine (82% vs. 88%) and TCAM (22%
+vs. 55%) for the treatment of hypertension, but less likely than
+their Malaysian counterparts to have good knowledge of their
+condition (57% vs. 40%).
+Appendix 4 in the Supporting Information S1 provides the same
+figures by urban‐rural strata in each country. There were no
+notable differences across strata in Malaysia but more Filipino
+participants in urban areas were better educated, unemployed,
+burdened with co‐morbid conditions, and did not believe in the
+effectiveness of TCAM for the treatment of hypertension.
+4 of 16
+The International Journal of Health Planning and Management, 2024
+ 10991751, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/hpm.3889 by Cochrane Philippines, Wiley Online Library on [05/02/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+3.3 |
+Care Seeking Patterns of Diagnosed
+Hypertensive Adults
+More detailed information reveals similarities and differences in
+care seeking (Table 4). While nearly all in both countries were
+diagnosed with hypertension in a health facility (89% in Malaysia,
+98% in the Philippines), just over half in both countries (56% in
+Malaysia, 62% in the Philippines) went because they were suffi-
+ciently worried about their blood pressure. The rest were
+diagnosed opportunistically during a routine check‐up or other
+circumstances, such as community hypertension screenings; or
+incidentally when attending for another condition.
+In Malaysia, virtually all attended a follow up appointment after
+diagnosis, while this was true for only half in the Philippines.
+Also, at the time of diagnosis, nearly all respondents in both
+countries were prescribed and obtained their medication and
+were recommended lifestyle changes.
+TABLE 1
+|
+Key hypertension management outcomes among all low‐income hypertensive adults by country.
+Hypertension cascade
+Philippines
+Malaysia
+p‐valuea
+Total number hypertensive adults in sample (N)
+606
+585
+% aware of their diagnosis
+79.4
+83.8
+0.118
+% currently on medication
+65.4
+73.2
+0.052
+% self‐reporting good adherence to their medicationb
+65.6
+98.9
+<0.001
+% with hypertension controlled
+22.1
+24.4
+0.434
+aWald test for a difference in proportions/means (weighted for sampling probability and adjusted for community‐level clustering).
+bAmong those currently on medication.
+TABLE 2
+|
+Key hypertension management outcomes among all low‐income hypertensive adults by urban and rural area within countries.
+Hypertension cascade
+Philippines
+Malaysia
+Rural
+Urban
+p‐valuea
+Rural
+Urban
+p‐valuea
+Total number hypertensive adults in sample (N)
+302
+304
+293
+292
+% aware of their diagnosis
+66.1
+81.2
+0.024
+84.0
+83.7
+0.928
+% currently on medication
+47.6
+67.7
+0.011
+73.1
+73.3
+0.966
+% self‐reporting good adherence to their medicationb
+76.2
+64.6
+0.284
+98.8
+99.1
+0.776
+% with hypertension controlled
+13.5
+23.2
+0.039
+22.4
+26.2
+0.465
+aWald test for a difference in proportions/means (weighted for sampling probability and adjusted for community‐level clustering).
+bAmong those currently on medication.
+TABLE 3
+|
+Characteristics of diagnosed hypertensive adults by country.
+Characteristic
+Philippines
+Malaysia
+p‐valuea
+Sample size of aware hypertensive adults (N)
+434
+455
+% female
+73.9
+72.6
+0.740
+Mean age (years)
+55.8
+59.5
+<0.001
+% with post‐secondary education
+64.2
+46.2
+<0.001
+% married or cohabitating
+72.1
+72.8
+0.791
+% currently employed
+44.4
+22.1
+<0.001
+Mean number of years since hypertension diagnosis
+5.8
+8.1
+<0.001
+% with self‐reported NCD comorbidities
+29.3
+53.6
+<0.001
+Median monthly household income (local currency units)b
+11600
+1500
+n/a
+Mean household size
+4.5
+3.8
+0.030
+% self‐reporting knowing someone to borrow money from in time of need
+86.0
+46.5
+0.005
+% with good knowledge of hypertension
+39.9
+56.5
+<0.001
+% believing in the effectiveness of modern medicine for hypertension
+treatment
+88.3
+82.3
+0.020
+% believing in the effectiveness of traditional and complementary medicine for
+hypertension treatment
+55.2
+21.7
+<0.001
+aWald test for a difference in proportions/means (weighted for sampling probability and adjusted for community‐level clustering).
+bN is lower for this indicator due to refusals and ‘don't know' responses.
+5 of 16
+ 10991751, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/hpm.3889 by Cochrane Philippines, Wiley Online Library on [05/02/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+TABLE 4
+|
+Care seeking patterns of diagnosed hypertensive adults by country.
+Cascade
+step
+Detail
+Philippines Malaysia
+p‐
+valuea
+Diagnosis
+Circumstance of diagnosis
+Routine health check‐up
+10.3
+11.9
+0.620
+Visit with a health professional for other
+reason
+11.3
+17.9
+0.011
+Worried about BP
+62.0
+56.1
+0.257
+Other
+16.4
+14.1
+0.380
+Location of diagnosis
+Home
+0.5
+7.1
+0.150
+Health facility
+97.9
+89.3
+0.110
+Retail pharmacy
+0.0
+0.2
+0.262
+Other
+1.6
+3.4
+0.164
+Arranged follow up visit after
+diagnosis
+47.8
+98.0
+<0.001
+Of whom, attended follow up appointment
+69.0
+95.2
+<0.001
+Treatment prescribed at
+diagnosis
+99.6
+95.0
+0.021
+Of whom, treatment obtained
+98.8
+99.9
+<0.001
+Lifestyle changes
+recommended at diagnosis
+92.2
+92.4
+0.889
+Treatment
+Ever stopped treatment
+17.3
+16.7
+0.818
+Of whom, decision was mine alone
+80.3
+93.9
+0.008
+Of whom, decision was mine in consultation
+with health professional
+3.5
+1.0
+0.033
+Of whom, decision was made by health
+professional
+16.1
+5.0
+0.025
+Ever changed treatment
+30.3
+42.4
+0.009
+Of whom, decision was mine alone
+7.2
+1.1
+<0.001
+Of whom, decision was mine in consultation
+with retail pharmacist
+0.0
+1.4
+0.217
+Of whom, decision was mine in consultation
+with health professional
+5.2
+35.5
+0.001
+Of whom, decision was mine in consultation
+with family/friends
+1.3
+0.0
+<0.001
+Of whom, decision was made by health
+professional
+83.7
+61.5
+0.007
+Of whom, decision was made by TCAM
+provider
+2.7
+0.5
+0.006
+Currently taking medication
+84.2
+89.9
+0.007
+Of whom, self‐report good adherence
+65.5
+98.9
+<0.001
+Currently making lifestyle
+changes
+86.7
+90.8
+0.209
+Monitoring &
+BP measured at least twice
+annually
+95.8
+95.1
+0.605
+Control
+Visiting regular provider at
+least twice annually
+55.2
+86.1
+<0.001
+Type of regular providerb
+Health professional at hospital
+18.2
+45.6
+0.004
+Health professional at clinic
+59.0
+49.9
+0.201
+Retail pharmacist
+0.0
+2.0
+0.023
+GP at private practice
+5.5
+2.2
+<0.001
+Other private provider
+0.8
+0.4
+0.376
+(Continues)
+6 of 16
+The International Journal of Health Planning and Management, 2024
+ 10991751, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/hpm.3889 by Cochrane Philippines, Wiley Online Library on [05/02/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Regarding treatment, 90% in Malaysia and 84% of diagnosed hy-
+pertensives in the Philippines reported currently taking antihy-
+pertensive medication. Although only two‐thirds (66%) of those
+on treatment in the Philippines self‐reported good medication
+adherence, while nearly all (99%) did so in Malaysia (p < 0.001).
+Since diagnosis and starting medication, just under a fifth (17%)
+in both countries reported ever having stopped treatment,
+mostly of their own accord. More reported ever having changed
+their treatment (42% in Malaysia, 30% in the Philippines);
+although, most of these decisions were made either in consul-
+tation with or by a health professional.
+Most individuals in both countries were also making lifestyle
+changes (91% in Malaysia, 87% in the Philippines) and having
+their blood pressure measured at least twice annually (95% in
+Malaysia, 96% in the Philippines); however, 86% in Malaysia
+reported visiting a regular health care provider at least twice per
+year, compared to only 55% in the Philippines (p < 0.001). In
+both countries, most sought regular care from health pro-
+fessionals at hospitals and/or clinics, with only few seeking care
+from other providers, such as community health workers, retail
+pharmacists, TCAM practitioners or other private providers,
+although, 20% in the Philippines reported a family member or
+friend as a regular provider of care. Yet less than a third of
+diagnosed low‐income hypertensives in both countries had their
+blood pressure controlled at data collection (30% in Malaysia,
+28% in the Philippines).
+Estimates for these care seeking indicators stratified by urban
+and rural location within countries are in Appendix 5. Briefly,
+only a few urban‐rural differences were observed. In Malaysia,
+33% in rural versus 51% in urban areas reported ever having
+changed treatment (p = 0.001), and in the Philippines, 30% in
+rural versus 16% in urban areas reported to have ever stopped
+treatment since being diagnosed (p = 0.038).
+3.4 |
+Pathways of Care Seeking for Hypertension
+Based on the evidence above and complementary qualitative
+evidence from the RESPOND study [15], four characteristics
+were used to construct care‐seeking pathways for each diag-
+nosed hypertensive adult:
+a. The circumstance of their diagnosis (i.e., they were diag-
+nosed because they were concerned about their blood
+pressure vs. they were diagnosed incidentally or opportu-
+nistically during a routine check‐up, visit with a health
+professional for another health concern, or other reason);
+b. Whether they had ever stopped or changed their treatment
+since being diagnosed without any advice of a health
+professional
+(i.e.,
+the
+decision
+was
+taken
+alone,
+in
+consultation with friends/family or made by a TCAM
+provider);
+c. Whether they are currently taking antihypertensive med-
+ications, regardless if they had ever stopped or changed
+treatment since being diagnosed;
+d. And among those who are on treatment, whether or not
+they self‐report good adherence to their medication.
+In both countries, we identified a typology of four main hy-
+pertension care pathways among low‐income adults (Figures 1
+and 2). In each figure the thickness of each line is proportional
+to the percentage of the sample following it. In both countries,
+the most common pathway (labelled P1 in the figures) is one
+where individuals were diagnosed because they were concerned
+about their blood pressure specifically, had never changed or
+stopped treatment without professional advice, and who were
+currently using and adhering to medication (24.9% in the
+Philippines, 26.9% in Malaysia).
+The second most common pathway in both countries (labelled
+P2) was similar to the first, except that they did report changing
+or stopping treatment at some point in time without profes-
+sional advice. In Malaysia, the numbers following this pathway
+(23.5%) were similar to those following the first pathway type,
+but only 12.0% followed this pathway in the Philippines.
+The third most common pathway type in both countries
+(labelled P3) is similar to the first, and the fourth pathway type
+(labelled P4) similar to the second, except on these pathways,
+individuals were diagnosed incidentally or opportunistically,
+rather than because they were concerned about their blood
+pressure; the proportion of people following these third and
+fourth pathways were similar in both countries (respectively,
+11.4% and 6.8% in the Philippines, and 18.7% and 19.8% in
+Malaysia).
+The remaining eight pathways, accounting for a minority of
+participants in both countries, involved either those not taking
+medication (four pathways labelled P5A to P5D) or who re-
+ported poor adherence (four pathways labelled P6A to P6D).
+TABLE 4
+|
+(Continued)
+Cascade
+step
+Detail
+Philippines Malaysia
+p‐
+valuea
+Community health worker
+4.4
+0.5
+0.009
+TCAM provider
+0.1
+1.2
+0.086
+Family member or friend
+19.7
+1.6
+<0.001
+Any other
+4.1
+1.1
+0.001
+Hypertension controlled
+28.1
+29.7
+0.603
+aWald test for a difference in proportions/means (weighted for sampling probability and adjusted for community‐level clustering).
+bCategories of regular provider are not mutually exclusive.
+7 of 16
+ 10991751, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/hpm.3889 by Cochrane Philippines, Wiley Online Library on [05/02/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+3.5 |
+Determinants of Care Seeking Pathways for
+Hypertension and the Association With Blood
+Pressure Control
+To examine potential determinants for the type of hypertension
+care pathway taken by low‐income adults in the Philippines and
+Malaysia using multinomial logistic regression modelling with
+community fixed effects, we grouped the pathways described in
+the previous section into three categories (i.e., dependent or
+outcome variable):
+1. Most desirable pathway types: includes the first and third
+most common pathways where individuals, once diagnosed,
+never changed or stopped treatment without professional
+FIGURE 1
+|
+Hypertension care pathways of low‐income adults in the Philippines, n (%).
+FIGURE 2
+|
+Hypertension care pathways of low‐income adults in Malaysia, n (%).
+8 of 16
+The International Journal of Health Planning and Management, 2024
+ 10991751, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/hpm.3889 by Cochrane Philippines, Wiley Online Library on [05/02/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+advice, and are currently using and adhering to medication
+(P1 and P3 in the figures);
+2. Moderately desirable pathway types: includes the second
+and fourth most common pathways where individuals,
+once diagnosed, did change or stop treatment without
+professional advice since diagnosis, but are currently using
+and adhering to medication (P2 and P4 in the figures); and
+Least desirable pathway types: includes the remaining eight
+pathways, where individuals were either not currently taking
+medication or reported poor medication adherence if they were
+taking medication (P5A through P5D and P6A through P6D in
+the figures).
+Using these consolidated pathway types, more low‐income
+adults diagnosed with hypertension in Malaysia than in the
+Philippines followed the most desirable (45.5% vs. 36.3%,
+p = 0.043) and moderately desirable (43.3% vs. 18.8%, p < 0.001)
+pathway types; while many more individuals in the Philippines
+than in Malaysia followed the least desirable pathways (44.9%
+vs. 11.2%, p < 0.001).
+The fully adjusted estimates indicate that the pathway type
+followed by individuals in the Philippines was associated with a
+greater range of factors than in Malaysia (Table 5). These
+findings were robust to adjustment for potential confounding
+(see crude associations in Table 5) and in an alternative speci-
+fication for the fully adjusted model, which included a covariate
+for urban‐rural strata, in lieu of the community fixed effects as
+in our main models (see Appendix 6 for this alternative
+specification).
+In the Philippines, people were more likely to follow any of the
+more desirable pathway types if they were aged 50 years or
+older, completed any post‐secondary education, self‐reported
+any
+co‐morbid
+health
+conditions
+alongside
+hypertension,
+knew someone from whom they could borrow money in times
+of need, and had good knowledge of hypertension. Conversely,
+they were comparatively less likely to follow more desirable
+pathways if they were married, cohabitated with a partner, or
+lived in larger households. Belief in the effectiveness of TCAM
+for treating hypertension had a mixed effect: decreasing the
+likelihood of following a moderately desirable pathway but
+increasing the likelihood of following one of the most desirable
+pathways.
+In Malaysia, those who self‐reported any co‐morbid health
+conditions, knew someone from whom they could borrow
+money in times of need, had good knowledge of hypertension
+and believed in the effectiveness of modern medicine to treat
+hypertension were more likely to follow more desirable pathway
+types, compared to individuals who followed the least desirable
+pathways. On the other hand, belief in the effectiveness of
+TCAM
+for
+treating
+hypertension
+was
+associated
+with
+a
+decreased likelihood of following any of the more desirable
+pathways.
+Regarding the association between the type of hypertension care
+seeking pathway followed and the likelihood of blood pressure
+control, the fully adjusted estimates in the Philippines provide
+strong evidence that those following any of the more desirable
+pathways were more likely to achieve blood pressure control,
+compared to those following one of the least desirable paths
+(adjusted odds ratios and 95% confidence intervals: 1.42 (1.21,
+1.67), p < 0.001 for moderately desirable, 1.28 (1.16, 1.41),
+p < 0.001 for most desirable). The associations in Malaysia
+followed a similar pattern but were not statistically significant at
+the 5% level (3.07 (0.71, 13.35), p = 0.135 for moderately desir-
+able, 2.82 (0.89, 8.92), p = 0.078 for most desirable). These as-
+sociations were also robust in an alternative specification
+similar to that described above (see Appendix 7 for the full re-
+sults
+from
+the
+crude,
+adjusted
+and
+alternative
+model
+specifications).
+While difficult to discern any simple pattern, examining the
+associations for the community fixed effects that act as a proxy
+for all local‐level unobserved factors affecting the type of
+pathway followed indicates that these effects matter. All relative
+risk ratios corresponding to each study community in the
+Philippines, and most in Malaysia, were of large magnitude and
+statistically significant (see Appendix 6 and 7 for complete
+regression modelling results).
+4 |
+Discussion
+The main contribution of this paper is that it illustrates a
+quantitative method that can be used to characterise the often
+complex ‘therapeutic itineraries’ that individuals with a com-
+mon long‐term condition, such as hypertension, follow [15].
+This addresses the understandable tendency in much quantita-
+tive research on health seeking behaviour to limit the focus to
+individual encounters between patients and providers—most
+commonly diagnosis and initiation of treatment [14]. Our
+findings reveal that a common feature of the ‘therapeutic itin-
+eraries’ followed by low‐income hypertensive individuals in
+Malaysia and the Philippines occurs outside of the typical
+patient‐provider interaction, that is the changing or stopping of
+treatment without consulting a health professional. We have
+also shown that the type ‘therapeutic itinerary’ followed
+mattered.
+The most desirable pathways represent an ideal therapeutic
+journey. Individuals on these pathways are either diagnosed due
+to their proactive concern about their blood pressure or inci-
+dentally during routine or opportunistic health checks. Once
+diagnosed, they consistently adhere to prescribed antihyper-
+tensive medication, never stopping or changing treatment
+without
+professional
+guidance.
+These
+individuals
+remain
+engaged with healthcare providers, maintaining regular follow‐
+ups and lifestyle changes that promote long‐term control of their
+condition. This approach demonstrated the strongest correlation
+with successful blood pressure control, particularly in the
+Philippines, where continuity of care and adherence are typi-
+cally weak. This is consistent with some [36], but not all [37]
+research on the association between continuity of care and
+health outcomes.
+In the moderately desirable pathways, the initial diagnosis and
+treatment follow a similar trajectory to the most desirable
+9 of 16
+ 10991751, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/hpm.3889 by Cochrane Philippines, Wiley Online Library on [05/02/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+TABLE 5
+|
+Relative risk ratios [and 95% confidence intervals] for the determinants of care seeking pathways for hypertension, by country.
+Determinant
+Care seeking
+pathway type
+Philippines (N = 434)
+Malaysia (N = 455)
+Crude
+Adjusted
+Crude
+Adjusted
+Female
+Least desirable (reference)
+1.00
+1.00
+1.00
+1.00
+Moderately desirable
+0.82
+0.82
+1.59
+1.40
+[0.59, 1.12]
+[0.59, 1.14]
+[0.97, 2.61]
+[0.90, 2.18]
+Most desirable
+1.05
+1.11
+1.13
+1.15
+[0.91, 1.20]
+[0.96, 1.27]
+[0.86, 1.49]
+[0.69, 1.91]
+Age 50þ years
+Least desirable (reference)
+1.00
+1.00
+1.00
+1.00
+Moderately desirable
+3.00***
+2.43***
+2.38
+1.95
+[2.15, 4.19]
+[1.72, 3.42]
+[0.83, 6.85]
+[0.33, 11.49]
+Most desirable
+2.00***
+1.80***
+3.25
+3.51
+[1.81, 2.21]
+[1.62, 2.01]
+[0.96, 10.97]
+[0.72, 16.96]
+Any post‐secondary education
+Least desirable (reference)
+1.00
+1.00
+1.00
+1.00
+Moderately desirable
+1.05
+1.07
+0.67
+0.88
+[0.91, 1.21]
+[0.91, 1.24]
+[0.30, 1.51]
+[0.53, 1.47]
+Most desirable
+1.17**
+1.20***
+0.89
+1.20
+[1.04, 1.30]
+[1.09, 1.33]
+[0.36, 2.22]
+[0.57, 2.53]
+Married/cohabitating
+Least desirable (reference)
+1.00
+1.00
+1.00
+1.00
+Moderately desirable
+0.41***
+0.48***
+1.05
+1.14
+[0.35, 0.48]
+[0.42, 0.55]
+[0.33, 3.34]
+[0.40, 3.24]
+Most desirable
+0.51***
+0.53***
+1.38
+1.39
+[0.47, 0.56]
+[0.48, 0.59]
+[0.60, 3.13]
+[0.49, 3.96]
+Currently employed
+Least desirable (reference)
+1.00
+1.00
+1.00
+1.00
+Moderately desirable
+1.00
+1.15
+0.46*
+0.80
+[0.82, 1.22]
+[0.95, 1.40]
+[0.22, 0.96]
+[0.29, 2.22]
+Most desirable
+0.96
+1.09
+0.52**
+0.87
+[0.85, 1.09]
+[0.98, 1.21]
+[0.31, 0.85]
+[0.48, 1.57]
+Any self‐reported co‐morbid
+conditions
+Least desirable (reference)
+1.00
+1.00
+1.00
+1.00
+Moderately desirable
+2.03***
+1.81***
+3.16***
+3.03***
+[1.62, 2.54]
+[1.59, 2.07]
+[1.85, 5.41]
+[1.59, 5.79]
+Most desirable
+1.90***
+1.74***
+2.63**
+2.72*
+[1.49, 2.42]
+[1.38, 2.19]
+[1.31, 5.31]
+[1.25, 5.95]
+(Continues)
+10 of 16
+The International Journal of Health Planning and Management, 2024
+ 10991751, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/hpm.3889 by Cochrane Philippines, Wiley Online Library on [05/02/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+TABLE 5
+|
+(Continued)
+Determinant
+Care seeking
+pathway type
+Philippines (N = 434)
+Malaysia (N = 455)
+Crude
+Adjusted
+Crude
+Adjusted
+Number of household
+members
+Least desirable (reference)
+1.00
+1.00
+1.00
+1.00
+Moderately desirable
+0.80***
+0.86***
+1.02
+1.00
+[0.78, 0.83]
+[0.84, 0.87]
+[0.89, 1.18]
+[0.88, 1.14]
+Most desirable
+0.93***
+0.96***
+0.95
+0.91
+[0.91, 0.94]
+[0.95, 0.98]
+[0.81, 1.12]
+[0.77, 1.08]
+Could borrow cash from someone
+when
+needed (social capital proxy)
+Least desirable (reference)
+1.00
+1.00
+1.00
+1.00
+Moderately desirable
+1.83***
+2.21***
+1.63
+1.98***
+[1.30, 2.57]
+[1.40, 3.51]
+[0.84, 3.14]
+[1.34, 2.93]
+Most desirable
+1.15*
+1.33*
+1.61
+1.54
+[1.02, 1.29]
+[1.07, 1.64]
+[0.92, 2.81]
+[0.92, 2.57]
+Good knowledge of hypertension
+Least desirable (reference)
+1.00
+1.00
+1.00
+1.00
+Moderately desirable
+2.08***
+2.06***
+2.97***
+2.56**
+[1.66, 2.59]
+[1.61, 2.64]
+[1.75, 5.06]
+[1.30, 5.02]
+Most desirable
+2.22***
+2.26***
+2.62*
+2.00
+[2.15, 2.30]
+[2.13, 2.41]
+[1.24, 5.53]
+[0.91, 4.39]
+Believes in the effectiveness of modern
+medicine for hypertension treatment
+Least desirable (reference)
+1.00
+1.00
+1.00
+1.00
+Moderately desirable
+1.09
+1.10
+4.59***
+5.01***
+[0.87, 1.37]
+[0.96, 1.27]
+[3.21, 6.56]
+[2.81, 8.93]
+Most desirable
+1.12*
+1.10
+4.12***
+5.26***
+[1.01, 1.25]
+[0.93, 1.30]
+[2.89, 5.86]
+[3.68, 7.52]
+Believes in the effectiveness of TCAM
+for hypertension treatment
+Least desirable (reference)
+1.00
+1.00
+1.00
+1.00
+Moderately desirable
+0.81**
+0.86***
+0.20***
+0.19***
+[0.69, 0.94]
+[0.80, 0.93]
+[0.11, 0.36]
+[0.11, 0.32]
+Most desirable
+1.21***
+1.34***
+0.18***
+0.15***
+[1.08, 1.35]
+[1.23, 1.46]
+[0.10, 0.32]
+[0.06, 0.33]
+Constants
+Least desirable (reference)
+1.00
+1.00
+Moderately desirable
+0.34***
+0.31
+[0.19, 0.60]
+[0.03, 3.40]
+Most desirable
+0.62***
+0.27
+[0.50, 0.77]
+[0.03, 2.73]
+* for p < 0.05, ** for p < 0.01, and *** for p < 0.001.
+11 of 16
+ 10991751, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/hpm.3889 by Cochrane Philippines, Wiley Online Library on [05/02/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+pathways. However, at some point, individuals diverge by
+stopping or
+changing
+their treatment without consulting
+healthcare professionals. Despite these interruptions, they later
+resume their prescribed treatment, achieving good adherence.
+While these pathways are less optimal, they still offer potential
+for achieving hypertension control, though to a lesser extent
+than the most desirable paths. They highlight the resilience of
+some individuals who, despite setbacks, return to treatment and
+work towards better health outcomes.
+The least desirable pathways represent the most challenging
+journeys. Here, individuals may fail to take medication consis-
+tently or adhere poorly to prescribed therapies. This often re-
+flects significant barriers, including economic hardship, health
+beliefs that conflict with medical advice, or limited access to
+healthcare resources [38]. These pathways are associated with
+the lowest rates of blood pressure control, underscoring the
+critical need to address the systemic and personal challenges
+that hinder effective management. They illustrate the difficulties
+faced by marginalised populations in accessing consistent and
+high‐quality care.
+The advent of life‐sustaining treatments for common condi-
+tions means that the reality for most patients involves a
+therapeutic journey they must navigate, with differing degrees
+of difficulty, to what is, hopefully, the optimal destination. In
+the case of hypertension, where that destination is defined by
+long‐term control of their blood pressure, many fall by the
+wayside. As seen in this study, this is particularly problematic
+for the poorest groups in society, who often have to balance
+pressures on time to follow through with treatment and those
+needed to cope with other daily challenges. The approach
+taken in this paper offers an analytical model for charting
+these pathways and understanding how many, and what type
+of patients follow the different paths. Thus, by developing a
+typology of pathways and stratifying them according to their
+conformity with recommended practice, we can start to iden-
+tify the characteristics of individuals who follow more or less
+desirable journeys.
+In this study we were able to show that in both countries,
+having good knowledge of hypertension and the presence of
+comorbidities mattered, which is intuitive given that such in-
+dividuals are likely to be more informed of their health condi-
+tions and how to manage them, and have multiple reasons for
+engaging with the health system. In both countries, those with
+higher levels of social capital were also more likely to follow one
+of the more desirable pathways, which is consistent with other
+evidence that measures of social capital are associated with
+narrower inequalities in blood pressure control, but only where
+health systems are weak, as in many LMIC settings [39]. Our
+proxy indicator for social capital, knowing someone from whom
+one could borrow cash when needed, is relevant to our low‐
+income study population who face many financial barriers to
+accessing health care. But social capital may take many forms
+and, therefore, is likely to benefit hypertension care seeking and
+outcomes in various ways, such as by enhancing knowledge of
+hypertension and how to manage it, making it easier to access
+care, and providing informal support that motivates individuals
+to seek regular care, adhere to medication and maintain long‐
+term lifestyle changes [15, 22, 39].
+In the Philippines, several other factors also mattered for the
+quality of management. We can speculate that older individuals
+and those who are better educated may have better access to
+information, either from official sources or informal networks,
+or from experience, which may allow them to better navigate
+the system, and like social capital, helping to compensate for
+health system weaknesses that are more prevalent in the
+Philippines than in Malaysia [39]. Those who are married or
+cohabitating and those with larger families are less likely to
+follow the most desirable pathway. One possible explanation
+might be that these individuals have less free time when clinics
+are operating and, when they do, they may face long queues for
+facilities with fewer resources [15], but further research is
+needed to establish if this is the case.
+While we must be cautious about over‐interpreting the findings
+of two relatively small surveys, they do build on what is now
+extensive evidence on patterns of hypertension diagnosis,
+treatment and control [7, 40]. As in those studies, we see that
+hypertension management is suboptimal, and to a greater de-
+gree in the Philippines than in Malaysia. Given the challenges of
+delivering health services in rural areas, with poorer trans-
+portation and infrastructure, the urban‐rural gap seen in the
+Philippines is unsurprising. However, this is not seen in
+Malaysia, showing that these barriers can be overcome. The
+basic facts surrounding diagnosis and treatment initiation are
+broadly similar in both countries, with a few exceptions. How-
+ever, almost all those given a diagnosis in Malaysia are offered a
+follow‐up appointment, but this is the case for only half of those
+in Philippines. Over 85% of patients in Malaysia visit a regular
+healthcare provider at least twice annually, while this is true for
+only 55% in the Philippines. In other words, there is much less
+continuity of care in the Philippines.
+Our study has implications for policy and practice. Blood pres-
+sure control in the two countries is similar and rather low, given
+the relatively good access to diagnosis and initiation of treat-
+ment. This is surprizing given that in Malaysia there is universal
+free access to public facilities, extensive screening programmes
+and affordable medication in the areas studied [21]. In contrast,
+the Philippine system is more poorly resourced and fragmented.
+This points to the importance of asking not just whether people
+have access to care, but what happens when they receive it.
+Thus, it is clear that even in well‐resourced and generally
+accessible health systems as in Malaysia, there may be hidden
+barriers constraining the availability and acceptability of care,
+particularly affecting follow‐up care and medication adherence
+[15, 22]. This calls for further examination of beliefs about the
+nature of hypertension and chronic conditions more generally
+[23], and other social norms influencing treatment trajectories.
+This study highlights the importance of mapping care trajec-
+tories and comparing them with what is considered the ideal,
+seeking to understand what people do at each stage of their
+journey and where they are most likely to divert or interrupt
+treatment and why. Eliciting the characteristics of the different
+types of users following each pathway will make it easier to
+devise tailored strategies to support individuals and, hopefully,
+improve hypertension control. Examining the particular con-
+straints faced by the poorest populations, as we do here, is
+important as they may face different set of problems from the
+12 of 16
+The International Journal of Health Planning and Management, 2024
+ 10991751, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/hpm.3889 by Cochrane Philippines, Wiley Online Library on [05/02/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+rest of the population, as they are often less trusting of the
+formal system and take charge of their own pathways [15].
+4.1 |
+Limitations
+Our study has several limitations. Many indicators are derived
+from self‐reports. Thus, we acknowledge that our estimates are
+affected by measurement error, as lay understandings of these
+concepts, particularly of adherence and the chronic nature of
+hypertension are known to differ from clinical understandings
+[41, 42]. There may have been misreporting of treatment
+adherence as participants sometimes substituted conventional
+medication with traditional and alternative remedies recom-
+mended by family and friends [43]. This might contribute to the
+observation that objectively measured control is low despite
+respondents reporting that they are taking medication.
+Although the surveys are representative of the settings where
+the study took place, we believe the findings are applicable to
+other low‐income communities in Malaysia and the Philippines,
+and, with caution, in other LMICs. Although there were some
+notable differences in the characteristics of the participants
+included and excluded in this analysis (Appendix 3 in the
+Supporting Information S1), the small numbers of those
+excluded are unlikely to affect our estimates. The median
+household income, levels of hypertension control, education
+and employment observed in our samples are closely aligned
+with national data [7, 44, 45], which suggests that we have,
+indeed, sampled a suitable cross‐section of hypertensive adults
+in low‐income communities.
+5 |
+Recommendations
+Our findings point to a series of recommendations that could
+improve hypertension care for low‐income individuals in
+Malaysia and the Philippines. Strengthening continuity of care
+is essential, particularly in the Philippines, where follow‐up
+rates after diagnosis are low. Facility monitoring systems, such
+as those used in the WHO HEARTS programme [46] and similar
+initiatives [47], have been associated with improved blood
+pressure control. A meta‐analysis of studies in low and middle‐
+income countries concluded that digital interventions using
+SMS messaging or smartphone apps can be also effective [48].
+Improving access to care, however in ways that is consistent
+with user circumstances such as the need to work and conduct
+other essential family functions, is equally vital. Providing
+subsidised or free antihypertensive medications and expanding
+healthcare infrastructure in underserved rural areas can address
+disparities in treatment [49]. This is particularly relevant in the
+Philippines, where fragmented and poorly resourced systems
+create significant barriers.
+Community health workers and peer supporters can offer pa-
+tients the support needed to navigate treatment pathways [50].
+Cultural beliefs also require attention. Many patients rely on
+traditional and complementary medicine. This is a contentious
+area. While policymakers in some countries are seeking ways to
+integrate traditional practices into formal healthcare, research
+in Africa has found that those using traditional medicine have
+worse blood pressure control [51]. Addressing local beliefs about
+chronic conditions with culturally sensitive interventions and
+with the help of respected figures in the society may help build
+trust and improve engagement with mainstream services [24].
+Our findings are a reminder that health system responses
+should adopt person‐centred approaches, tailoring interventions
+to the unique care‐seeking behaviours in each context, as was
+done in the successful HOPE‐4 project [19]. Understanding
+patients' ‘therapeutic itineraries’, as done in this study, can help
+design solutions that align with their realities [15]. Strength-
+ening primary care services to ensure equitable access and
+quality, especially in rural and low‐resource settings, is, how-
+ever, crucial.
+Finally, further research and monitoring are needed. Longitu-
+dinal studies can track patient outcomes and refine in-
+terventions, while implementation research will identify the
+most effective strategies for scaling solutions. Together, these
+efforts can create a more responsive, equitable health system
+that addresses both patient barriers and systemic shortcomings,
+ultimately improving hypertension control and reducing health
+inequities.
+6 |
+Conclusion
+Better approaches are needed to describe and understand the
+complex pathways that individuals follow to manage chronic
+health conditions, such as hypertension. The novel methods
+used by this study can help to address this gap by providing the
+detailed and contextualised evidence required to target limited
+health systems resources more efficiently, reduce health in-
+equities and contain the growing burden from NCDs in coun-
+tries at all levels of development.
+Author contributions
+B.P. led the analysis and writing of this paper. B.P., D.B., L.M.P.‐V., A.R.,
+M.L.S., A.L.D., K.Y., and M.M. (Principal Investigator) conceived the
+RESPOND study. All authors contributed to study design, imple-
+mentation, coordination, interpretation of results, critical review and
+revision all draughts, and approved the final version of this manuscript.
+All authors agree to be accountable for all aspects of the work.
+Acknowledgements
+This paper is dedicated to the memory of Professor Dato' Dr Khalid
+Yusoff, one of the lead investigators of the RESPOND study, who passed
+away in April 2021. The authors would like to thank the research par-
+ticipants, the data collection teams and the Wellcome Trust/Newton
+Fund‐MRC Humanities & Social Science Collaborative Award scheme
+(200346/Z/15/Z) for providing funding for this research.
+Ethics Statement
+Ethical approval for this study was granted by the Observational
+Research Ethics Committee at the London School of Hygiene & Tropical
+Medicine (Ref: 12214), the Research Management Centre Universiti
+13 of 16
+ 10991751, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/hpm.3889 by Cochrane Philippines, Wiley Online Library on [05/02/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Teknologi MARA (600‐IRMI(5/1/6) REC/313/18), the Research Ethics
+Boards at the Universiti Putra Malaysia (JKEUPM‐2017‐229) and the
+University of the Philippines Manila (UPMREB‐2017‐481‐01). All
+methods were performed in accordance with the relevant guidelines and
+regulations. All participants gave informed consent.
+Consent
+The author has nothing to report.
+Conflicts of Interest
+L.M.P.‐V. and A.L.D. have been and/or are currently involved in clinical
+trials of antihypertensive medications that receive some funding from
+industry. All other author declare that they have no competing interests.
+Data Availability Statement
+The data that support the findings of this study are available on request
+from the corresponding author. The data are not publicly available due
+to privacy or ethical restrictions.
+References
+1. B. Zhou, P. Perel, G. A. Mensah, and M. Ezzati, “Global Epidemi-
+ology, Health Burden and Effective Interventions for Elevated Blood
+Pressure and Hypertension,” Nature Reviews Cardiology 18, no. 11
+(2021): 785–802, https://doi.org/10.1038/s41569‐021‐00559‐8.
+2. B. Zhou, R. M. Carrillo‐Larco, G. Danaei, et al., “Worldwide Trends
+in Hypertension Prevalence and Progress in Treatment and Control
+From
+1990
+to
+2019:
+A
+Pooled
+Analysis
+of
+1201
+Population‐
+Representative Studies with 104 Million Participants,” Lancet 398, no.
+10304 (2021): 957–980: [published Online First: 2021/08/28], https://doi.
+org/10.1016/s0140‐6736(21)01330‐1.
+3. D. O. Abegunde, C. D. Mathers, T. Adam, M. Ortegon, and K. Strong,
+“The Burden and Costs of Chronic Diseases in Low‐Income and Middle‐
+Income Countries,” Lancet 370, no. 9603 (2007): 1929–1938: [published
+Online First: 2007/12/08], https://doi.org/10.1016/s0140‐6736(07)
+61696‐1.
+4. A. Murphy, B. Palafox, M. Walli‐Attaei, et al., “The Household
+Economic Burden of Non‐Communicable Diseases in 18 Countries,”
+BMJ Global Health 5, no. 2 (2020): e002040: [published Online First:
+2020/03/07], https://doi.org/10.1136/bmjgh‐2019‐002040.
+5. A. J. Adler, D. Prabhakaran, P. Bovet, et al., “Reducing Cardiovas-
+cular Mortality Through Prevention and Management of Raised Blood
+Pressure: A World Heart Federation Roadmap,” Global Heart 10, no. 2
+(2015): 111–122: [published Online First: 2015/07/28], https://doi.org/
+10.1016/j.gheart.2015.04.006.
+6. P. A. Modesti, P. Agostoni, C. Agyemang, et al., “Cardiovascular Risk
+Assessment in Low‐Resource Settings: A Consensus Document of the
+European Society of Hypertension Working Group on Hypertension and
+Cardiovascular Risk in Low Resource Settings,” Journal of Hypertension
+32, no. 5 (2014): 951–960: [published Online First: 2014/03/01], https://
+doi.org/10.1097/hjh.0000000000000125.
+7. C. K. Chow, K. K. Teo, S. Rangarajan, et al., “Prevalence, Awareness,
+Treatment, and Control of Hypertension in Rural and Urban Commu-
+nities in High‐Middle‐And Low‐Income Countries,” JAMA 310, no. 9
+(2013): 959–968, https://doi.org/10.1001/jama.2013.184182.
+8. B. Zhou, R. M. Carrillo‐Larco, G. Danaei, et al., “Worldwide Trends
+in Hypertension Prevalence and Progress in Treatment and Control
+from 1990 to 2019: A Pooled Analysis of 1201 Population‐Representative
+Studies With 104 Million Participants,” Lancet 398, no. 10304 (2021):
+957–980, https://doi.org/10.1016/S0140‐6736(21)01330‐1.
+9. B. Palafox, M. McKee, D. Balabanova, et al., “Wealth and Cardio-
+vascular Health: A Cross‐Sectional Study of Wealth‐Related Inequalities
+in the Awareness, Treatment and Control of Hypertension in High‐
+Middle‐ and Low‐Income Countries,” International Journal for Equity in
+Health 15, no. 1 (2016): 199: [published Online First: 2016/12/10],
+https://doi.org/10.1186/s12939‐016‐0478‐6.
+10. A. Rosengren, A. Smyth, S. Rangarajan, et al. “Socioeconomic Status
+and Risk of Cardiovascular Disease in 20 Low‐Income, Middle‐Income,
+and High‐Income Countries: The Prospective Urban Rural Epidemio-
+logic (PURE) Study.” Lancet Global Health 7, no. 6 (2019): e748–e760:
+[published Online First: 2019/04/28], https://doi.org/10.1016/s2214‐
+109x(19)30045‐2.
+11. R. Khatib, J. D. Schwalm, S. Yusuf, et al., “Patient and Healthcare
+Provider Barriers to Hypertension Awareness, Treatment and Follow
+Up: A Systematic Review and Meta‐Analysis of Qualitative and Quan-
+titative Studies,” PLoS One 9, no. 1 (2014): e84238: [published Online
+First: 2014/01/24], https://doi.org/10.1371/journal.pone.0084238.
+12. W. Maimaris, J. Paty, P. Perel, et al., “The Influence of Health
+Systems on Hypertension Awareness, Treatment, and Control: A Sys-
+tematic Literature Review,” PLoS Medicine 10, no. 7 (2013): e1001490:
+[published Online First: 2013/08/13], https://doi.org/10.1371/journal.
+pmed.1001490.
+13. P. Jeemon, T. Séverin, C. Amodeo, et al., “World Heart Federation
+Roadmap for Hypertension ‐ A 2021 Update,” Glob Heart 16, no. 1
+(2021): 63: [published Online First: 2021/10/26], https://doi.org/10.
+5334/gh.1066.
+14. R. Brathwaite, E. Hutchinson, M. McKee, B. Palafox, and D. Bala-
+banova, “The Long and Winding Road: A Systematic Literature Review
+Conceptualising Pathways for Hypertension Care and Control in Low‐
+and Middle‐Income Countries,” International Journal of Health Policy
+and Management 11, no. 3 (2022): 257–268: [published Online First:
+2020/07/25], https://doi.org/10.34172/ijhpm.2020.105.
+15. J. A. Mendoza, G. Lasco, A. Renedo, et al., “(De)constructing
+'Therapeutic Itineraries' of Hypertension Care: A Qualitative Study in
+the Philippines,” Social Science & Medicine 300 (2022): 114570: [pub-
+lished Online First: 2021/11/23], https://doi.org/10.1016/j.socscimed.
+2021.114570.
+16. R. Joshi, A. G. Thrift, C. Smith, et al., “Task‐Shifting for Cardio-
+vascular Risk Factor Management: Lessons From the Global Alliance
+for Chronic Diseases,” BMJ Global Health 3, no. Suppl 3 (2018): e001092:
+[published Online First: 2018/11/30], https://doi.org/10.1136/bmjgh‐
+2018‐001092.
+17. N. D. Labhardt, J. R. Balo, M. Ndam, J. J. Grimm, and E. Manga,
+“Task Shifting to Non‐Physician Clinicians for Integrated Management
+of Hypertension and Diabetes in Rural Cameroon: A Programme
+Assessment at Two Years,” BMC Health Services Research 10, no. 1
+(2010): 339: [published Online First: 2010/12/15], https://doi.org/10.
+1186/1472‐6963‐10‐339.
+18. N. Andre, R. Wibawanti, and B. B. Siswanto, “Mobile Phone‐Based
+Intervention in Hypertension Management,” International Journal of
+Hypertension 2019 (2019): 9021017: [published Online First: 2019/05/
+14], https://doi.org/10.1155/2019/9021017.
+19. J. D. Schwalm, T. McCready, P. Lopez‐Jaramillo, et al., “A
+Community‐Based Comprehensive Intervention to Reduce Cardiovas-
+cular
+Risk
+in
+Hypertension
+(HOPE
+4):
+A
+Cluster‐Randomised
+Controlled Trial,” Lancet 394, no. 10205 (2019): 1231–1242: [published
+Online First: 2019/09/07], https://doi.org/10.1016/s0140‐6736(19)
+31949‐x.
+20. H. Legido‐Quigley, P. A. Camacho Lopez, D. Balabanova, et al.,
+“Patients' Knowledge, Attitudes, Behaviour and Health Care Experi-
+ences on the Prevention, Detection, Management and Control of Hy-
+pertension in Colombia: A Qualitative Study,” PLoS One 10, no. 4
+(2015): e0122112: [published Online First: 2015/04/25], https://doi.org/
+10.1371/journal.pone.0122112.
+21. I. Risso‐Gill, D. Balabanova, F. Majid, et al., “Understanding the
+Modifiable Health Systems Barriers to Hypertension Management in
+Malaysia: A Multi‐Method Health Systems Appraisal Approach,” BMC
+14 of 16
+The International Journal of Health Planning and Management, 2024
+ 10991751, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/hpm.3889 by Cochrane Philippines, Wiley Online Library on [05/02/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Health Services Research 15, no. 1 (2015): 254: [published Online First:
+2015/07/03], https://doi.org/10.1186/s12913‐015‐0916‐y.
+22. M. Seguin, J. Mendoza, G. Lasco, et al., “Strong Structuration
+Analysis of Patterns of Adherence to Hypertension Medication,” SSM
+Qualitative Research in Health 2 (2022): 100104: [published Online First:
+2022/12/20]. https://doi.org/10.1016/j.ssmqr.2022.100104.
+23. G. Lasco, A. Renedo, J. Mendoza, et al., “Doing' Hypertension:
+Experiential Knowledge and Practice in the Self‐Management of 'High
+Blood' in the Philippines,” Sociology of Health & Illness 44, no. 7 (2022):
+1167–1181: [published Online First: 2022/08/06], https://doi.org/10.
+1111/1467‐9566.13503.
+24. G. Lasco, J. Mendoza, A. Renedo, et al., “Nasa Dugo ('It's in the
+Blood'): Lay Conceptions of Hypertension in the Philippines,” BMJ
+Global Health 5, no. 7 (2020): e002295: [published Online First: 2020/07/
+11], https://doi.org/10.1136/bmjgh‐2020‐002295.
+25. J. H. Zafra‐Tanaka, G. Almeida, J. E. Andrade Montalvo, et al.,
+“Involving Different Stakeholders in Prioritising Outcomes to Assess
+Healthcare Systems Response for Type 1 Diabetes Management: Using
+Co‐Creation Approaches in Peru,” International Journal of Health
+Planning and Management 39, no. 6 (2024): 1675–1695, https://doi.org/
+10.1002/hpm.3821.
+26. J. F. Donohue, J. S. Elborn, P. Lansberg, et al., “Bridging the "Know‐
+Do" Gaps in Five Non‐communicable Diseases Using a Common
+Framework Driven by Implementation Science,” Journal of Healthcare
+Leadership 15 (2023): 103–119: [published Online First: 20230703],
+https://doi.org/10.2147/jhl.S394088.
+27. World Health Organization, SDG Target 3.4 Non‐Communicable
+Diseases and Mental Health (Geneva: WHO, 2024). https://www.who.
+int/data/gho/data/themes/topics/sdg‐target‐3_4‐noncommunicable‐
+diseases‐and‐mental‐health.
+28. M. Seguin, G. Lasco, K. Bin Idris, et al., “Patient Pathways for
+Cardiovascular Diseases in Malaysia and the Philippines: A Systematic
+Review,” Wellcome Open Research 6 (2021): 43, https://doi.org/10.
+12688/wellcomeopenres.16412.1.
+29. B. Palafox, M. L. Seguin, M. McKee, et al., “Responsive and Equi-
+table Health Systems‐Partnership on Non‐Communicable Diseases
+(RESPOND) Study: A Mixed‐Methods, Longitudinal, Observational
+Study on Treatment Seeking for Hypertension in Malaysia and the
+Philippines,” BMJ Open 8, no. 7 (2018): e024000: [published Online
+First: 2018/08/01], https://doi.org/10.1136/bmjopen‐2018‐024000.
+30. World Health Organization, WHO STEPS Surveillance Manual: The
+WHO STEPwise Approach to Chronic Disease Risk Factor Surveillance
+(Geneva: World Health Organization, 2005).
+31. USAID, Demographic and Health Surveys (Washington DC: USAID,
+2017), https://dhsprogram.com/.
+32. R. Inglehart, C. Haerpfer, A. Moreno, et al. World Values Survey,
+(2005).
+33. D. Balabanova, B. Roberts, E. Richardson, C. Haerpfer, and M.
+McKee, “Health Care Reform in the Former Soviet Union: Beyond the
+Transition,” Health Services Research 47, no. 2 (2012): 840–864: [pub-
+lished Online First: 2011/11/19], https://doi.org/10.1111/j.1475‐6773.
+2011.01323.x.
+34. M. J. Haenssgen and P. Ariana, “Healthcare Access: A Sequence‐
+Sensitive Approach,” SSM Population Health 3 (2017): 37–47: [pub-
+lished Online First: 2016/11/30], https://doi.org/10.1016/j.ssmph.2016.
+11.008.
+35. M. E. Gee, N. Campbell, N. Sarrafzadegan, et al., “Standards for
+the Uniform Reporting of Hypertension in Adults Using Population
+Survey Data: Recommendations From the World Hypertension League
+Expert Committee,” Journal of Clinical Hypertension 16, no. 11 (2014):
+773–781: [published Online First: 2014/08/27], https://doi.org/10.1111/
+jch.12387.
+36. W. Xu, E. Y. T. Yu, W. Y. Chin, et al., “Team‐Based Continuity of
+Care for Patients With Hypertension: A Retrospective Primary Care
+Cohort Study in Hong Kong,” British Journal of General Practice 73, no.
+736 (2023): e807–e815, https://doi.org/10.3399/BJGP.2023.0150.
+37. N. S. Hanafi, A. Abdullah, P. Y. Lee, S. M. Liew, Y. C. Chia, and
+E. M. Khoo, “Personal Continuity of Care in a University‐Based Primary
+Care Practice: Impact on Blood Pressure Control,” PLoS One 10, no. 7
+(2015): e0134030: [published Online First: 20150727], https://doi.org/10.
+1371/journal.pone.0134030.
+38. B. Roberts, A. Stickley, D. Balabanova, C. Haerpfer, and M. McKee,
+“The Persistence of Irregular Treatment of Hypertension in the Former
+Soviet Union,” Journal of Epidemiology & Community Health 66, no. 11
+(2012): 1079–1082: [published Online First: 20120324], https://doi.org/
+10.1136/jech‐2011‐200645.
+39. B. Palafox, Y. Goryakin, D. Stuckler, et al., “Does Greater Individual
+Social Capital Improve the Management of Hypertension? Cross‐
+National Analysis of 61 229 Individuals in 21 Countries,” BMJ Global
+Health 2, no. 4 (2017): e000443: [published Online First: 2018/01/16],
+https://doi.org/10.1136/bmjgh‐2017‐000443.
+40. Y. Turana, J. Tengkawan, Y. C. Chia, et al., “Hypertension and
+Stroke in Asia: A Comprehensive Review From HOPE Asia,” Journal of
+Clinical Hypertension 23, no. 3 (2021): 513–521: [published Online First:
+2020/11/16], https://doi.org/10.1111/jch.14099.
+41. I. J. Marshall, C. D. A. Wolfe, and C. McKevitt, “Lay Perspectives on
+Hypertension and Drug Adherence: Systematic Review of Qualitative
+Research,” BMJ British Medical Journal 345, no. jul09 1 (2012): e3953,
+https://doi.org/10.1136/bmj.e3953.
+42. G. Lasco, J. Mendoza, A. Renedo, et al., “Nasa Dugo (‘It’s in the
+Blood’): Lay Conceptions of Hypertension in the Philippines,” BMJ
+Global Health 5, no. 7 (2020): e002295, https://doi.org/10.1136/bmjgh‐
+2020‐002295.
+43. L. M. Palileo‐Villanueva, B. Palafox, A. M. L. Amit, et al., “Preva-
+lence, Determinants and Outcomes of Traditional, Complementary and
+Alternative Medicine Use for Hypertension Among Low‐Income
+Households in Malaysia and the Philippines,” BMC Complementary
+Medicine and Therapies 22, no. 1 (2022): 252: [published Online First:
+2022/10/01], https://doi.org/10.1186/s12906‐022‐03730‐x.
+44. Department of Statistics, Household Income Survey and Basic Ame-
+nities 2019 Report (Malaysia: Putrajaya: Department of Statistics, 2020).
+45. Philippine Statistics Authority, 2018 Family Income and Expenditure
+Survey, Volume I, National and Regional Estimates (ISHB Series No. 182)
+(Quezon City: Philippine Statistics Authority, 2020).
+46. A. E. Moran, R. Gupta, A. Pathni, et al., “Implementation of Global
+Hearts Hypertension Control Programs in 32 Low‐ and Middle‐Income
+Countries: JACC International,” Journal of the American College of
+Cardiology 82, no. 19 (2023): 1868–1884: [published Online First:
+20230919], https://doi.org/10.1016/j.jacc.2023.08.043.
+47. J. Boch, L. Venkitachalam, A. Santana, et al., “Implementing a
+Multisector Public‐Private Partnership to Improve Urban Hypertension
+Management in Low‐And Middle‐ Income Countries,” BMC Public
+Health 22, no. 1 (2022): 2379: [published Online First: 20221219],
+https://doi.org/10.1186/s12889‐022‐14833‐y.
+48. V. Boima, A. Doku, F. Agyekum, L. S. Tuglo, and C. Agyemang,
+“Effectiveness of Digital Health Interventions on Blood Pressure Con-
+trol, Lifestyle Behaviours and Adherence to Medication in Patients With
+Hypertension in Low‐Income and Middle‐Income Countries: A Sys-
+tematic Review and Meta‐Analysis of Randomised Controlled Trials,”
+EClinicalMedicine
+69
+(2024):
+102432:
+[published
+Online
+First:
+20240201], https://doi.org/10.1016/j.eclinm.2024.102432.
+49. M. W. Attaei, R. Khatib, M. McKee, et al., “Availability and
+Affordability of Blood Pressure‐Lowering Medicines and the Effect on
+Blood Pressure Control in High‐Income, Middle‐Income, and Low‐
+Income Countries: An Analysis of the PURE Study Data,” Lancet
+15 of 16
+ 10991751, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/hpm.3889 by Cochrane Philippines, Wiley Online Library on [05/02/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Public Health 2, no. 9 (2017): e411–e419: [published Online First:
+20170905], https://doi.org/10.1016/s2468‐2667(17)30141‐x.
+50. A. Drakos, T. McCready, P. Lopez‐Jaramillo, et al., “Relationship
+Between Social Support and Clinical Outcomes: An Evaluation of
+Participant‐Nominated Treatment Supporters in the HOPE 4 Interven-
+tion,” Circulation: Cardiovascular Quality and Outcomes 17, no. 4 (2024):
+e009342: [published Online First: 20240305], https://doi.org/10.1161/
+circoutcomes.122.009342.
+51. C. Lassale, B. Gaye, I. B. Diop, et al. “Use of Traditional Medicine
+and Control of Hypertension in 12 African Countries.” BMJ Global
+Health 7, no. 6 (2022): e008138, https://doi.org/10.1136/bmjgh‐2021‐
+008138.
+Supporting Information
+Additional supporting information can be found online in the Sup-
+porting Information section.
+16 of 16
+The International Journal of Health Planning and Management, 2024
+ 10991751, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/hpm.3889 by Cochrane Philippines, Wiley Online Library on [05/02/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

@@ -1,0 +1,3041 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+8-1-2020 
+Mapping Geographical Inequalities in Oral Rehydration Therapy 
+Mapping Geographical Inequalities in Oral Rehydration Therapy 
+Coverage in Low-Income and Middle-Income Countries, 2000–17 
+Coverage in Low-Income and Middle-Income Countries, 2000–17 
+Kirsten E. Wiens 
+University of Washington 
+Robert C. Reiner Jr 
+University of Washington 
+Arianna Maever L. Amit 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, aamit@ateneo.edu 
+Veincent Christian F. Pepito 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, vpepito@ateneo.edu 
+Local Burden of Disease Diarrhoea Collaborators 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Analytical, Diagnostic and Therapeutic Techniques and Equipment Commons, Health 
+Policy Commons, and the Maternal and Child Health Commons 
+Custom Citation 
+Custom Citation 
+Local Burden of Disease Diarrhoea Collaborators. (2020). Mapping geographical inequalities in oral 
+rehydration therapy coverage in low-income and middle-income countries, 2000–17. The Lancet Global 
+Health, 8(8), e1038–e1060. https://doi.org/10.1016/S2214-109X(20)30230-8 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact research@ateneo.edu. 
+
+Authors 
+Authors 
+Kirsten E. Wiens, Robert C. Reiner Jr, Arianna Maever L. Amit, Veincent Christian F. Pepito, Local Burden of 
+Disease Diarrhoea Collaborators, and 702 co-authors 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/asmph-pubs/56 
+
+www.thelancet.com/lancetgh   Vol 8   August 2020	
+e1038
+Articles
+Lancet Glob Health 2020; 
+8: e1038–60
+*Collaborators listed at the end 
+of the Article
+Correspondence to: 
+Dr Robert C Reiner Jr, Institute for 
+Health Metrics and Evaluation, 
+Department of Health Metrics 
+Science, School of Medicine, 
+University of Washington, 
+Seattle, WA 98121, USA 
+bcreiner@uw.edu
+Mapping geographical inequalities in oral rehydration 
+therapy coverage in low-income and middle-income 
+countries, 2000–17
+Local Burden of Disease Diarrhoea Collaborators*
+Summary
+Background Oral rehydration solution (ORS) is a form of oral rehydration therapy (ORT) for diarrhoea that has the 
+potential to drastically reduce child mortality; yet, according to UNICEF estimates, less than half of children younger 
+than 5 years with diarrhoea in low-income and middle-income countries (LMICs) received ORS in 2016. A variety of 
+recommended home fluids (RHF) exist as alternative forms of ORT; however, it is unclear whether RHF prevent 
+child mortality. Previous studies have shown considerable variation between countries in ORS and RHF use, but 
+subnational variation is unknown. This study aims to produce high-resolution geospatial estimates of relative and 
+absolute coverage of ORS, RHF, and ORT (use of either ORS or RHF) in LMICs.
+Methods We used a Bayesian geostatistical model including 15 spatial covariates and data from 385 household surveys 
+across 94 LMICs to estimate annual proportions of children younger than 5 years of age with diarrhoea who received 
+ORS or RHF (or both) on continuous continent-wide surfaces in 2000–17, and aggregated results to policy-relevant 
+administrative units. Additionally, we analysed geographical inequality in coverage across administrative units and 
+estimated the number of diarrhoeal deaths averted by increased coverage over the study period. Uncertainty in the 
+mean coverage estimates was calculated by taking 250 draws from the posterior joint distribution of the model and 
+creating uncertainty intervals (UIs) with the 2·5th and 97·5th percentiles of those 250 draws.
+Findings While ORS use among children with diarrhoea increased in some countries from 2000 to 2017, coverage 
+remained below 50% in the majority (62·6%; 12 417 of 19 823) of second administrative-level units and an estimated 
+6 519 000 children (95% UI 5 254 000–7 733 000) with diarrhoea were not treated with any form of ORT in 2017. 
+Increases in ORS use corresponded with declines in RHF in many locations, resulting in relatively constant overall 
+ORT coverage from 2000 to 2017. Although ORS was uniformly distributed subnationally in some countries, within-
+country geographical inequalities persisted in others; 11 countries had at least a 50% difference in one of their units 
+compared with the country mean. Increases in ORS use over time were correlated with declines in RHF use and in 
+diarrhoeal mortality in many locations, and an estimated 52 230 diarrhoeal deaths (36 910–68 860) were averted by 
+scaling up of ORS coverage between 2000 and 2017. Finally, we identified key subnational areas in Colombia, Nigeria, 
+and Sudan as examples of where diarrhoeal mortality remains higher than average, while ORS coverage remains 
+lower than average.
+Interpretation To our knowledge, this study is the first to produce and map subnational estimates of ORS, RHF, and 
+ORT coverage and attributable child diarrhoeal deaths across LMICs from 2000 to 2017, allowing for tracking progress 
+over time. Our novel results, combined with detailed subnational estimates of diarrhoeal morbidity and mortality, can 
+support subnational needs assessments aimed at furthering policy makers’ understanding of within-country 
+disparities. Over 50 years after the discovery that led to this simple, cheap, and life-saving therapy, large gains in 
+reducing mortality could still be made by reducing geographical inequalities in ORS coverage.
+Funding Bill & Melinda Gates Foundation.
+Copyright © 2020 The Author(s). Published by Elsevier Ltd. This is an Open Access article under the CC BY 4.0 
+license.
+Introduction
+Oral rehydration solution (ORS) is a simple treatment 
+that can be prepared and used at home to prevent 
+mortality due to dehydration and undernutrition in 
+children with diarrhoea. This intervention is especially 
+suitable in locations where intravenous fluids are scarce 
+or unavail­able,1 and replaces indiscriminate and 
+unnecessary use of antibiotics to treat diarrhoea.2 ORS 
+was discovered more than 50 years ago when a physician 
+in Dhaka, Bangladesh, found that treating patients 
+with cholera with glucose-electrolyte solutions in equiva­
+lent amounts to fluid losses could prevent the need for 
+intravenous liquids in 80% of patients.3 Shortly 
+thereafter, its ability to prevent dehydration was shown 
+in a trial in Kolkata, India,4 and during a cholera outbreak 
+among Bangladeshi refugees in India.5 Since then, 
+
+Articles
+e1039	
+www.thelancet.com/lancetgh   Vol 8   August 2020
+WHO, UNICEF, and the US Centers for Disease Control 
+and Prevention have promoted ORS as an essential 
+medicine to treat diarrhoea, the third leading cause of 
+death in children younger than 5 years of age worldwide.6 
+In the 1980s, in response to low ORS coverage (ie, the 
+proportion of children with diarrhoea who received 
+ORS), WHO promoted the use of so-called recommended 
+home fluids (RHF) in addition to ORS, and oral 
+rehydration therapy (ORT) became the phrase used to 
+refer to treatment with ORS or RHF.7 Despite its 
+inclusion in the WHO Essential Medicines List and 
+Global Action Plan for the Prevention and Control of 
+Pneumonia and Diarrhoea,7–9 coverage of ORS remains 
+low. According to UNICEF surveys, only 34% of children 
+younger than 5 years in low-income and middle-income 
+countries (LMICs) in 2000 received ORS to treat 
+diarrhoea; in 2016, the proportion increased to 44%, yet 
+the majority remained untreated.10
+The efficacy of ORS and RHF in preventing child 
+mortality relies on proper preparation of the solutions, 
+which can vary depending on the resources available to 
+a household. ORS is most commonly sold as premade 
+packets with standardised sodium and glucose content, 
+which need to be dissolved in 1 L of clean water and can 
+then be stored for about 48 h.11 The cost of these packets 
+varies by country; in Uganda, a single packet costs 
+approximately 500 Ugandan shillings (about US$0·15),12 
+and in Nigeria in 2012, the cost of three packets ranged 
+from $0·63 to $4·38 depending on location.13 By 
+contrast, RHF can be made with household items and 
+therefore can be less costly and more widely accessible. 
+The composition of RHF varies by country and can 
+include carefully measured sugar and salt added to 
+clean water, or it can simply include plain juice, rice 
+water, tea, or coconut water.14 A meta-analysis study in 
+2010 estimated that 100% coverage of ORS could prevent 
+Research in context
+Evidence before this study
+WHO’s integrated Global Action Plan for the Prevention and 
+Control of Pneumonia and Diarrhoea emphasises the need to 
+make resources available to properly prevent and treat these 
+childhood infections, including use of oral rehydration solution 
+(ORS) to treat diarrhoea. In 2016, UNICEF published national-
+level estimates of the proportion of children with diarrhoea 
+who received ORS or any alternative recommended home fluids 
+(RHF) for countries and years with available household survey 
+data. To understand the full landscape of currently published 
+estimates, we did a literature review on Feb 11, 2019, with no 
+date or language restrictions. We searched the PubMed 
+database for the following terms in titles or abstracts: “ORS”, 
+“ORT”, “RHF”, “oral rehydration solution”, “oral rehydration 
+therapy”, “oral rehydration salts”, and “recommended home 
+fluids”, with the necessary inclusion of “coverage”. This returned 
+229 total studies, seven of which presented or reviewed 
+national-level estimates of ORS coverage globally or across 
+multiple countries, and 26 of which estimated ORS or RHF 
+subnational coverage in select countries. None of these studies, 
+however, estimated ORS or RHF coverage subnationally across 
+multiple regions or used geospatial modelling techniques to 
+estimate ORS or RHF coverage in locations with sparse data.
+Added value of this study
+To our knowledge, this study presents the first high-resolution 
+subnational estimates of the proportion and absolute number of 
+children younger than 5 years with diarrhoea that received ORS 
+or RHF in low-income and middle-income countries (LMICs) 
+from 2000 to 2017. This work supports the examination of how 
+patterns of coverage have changed over time since the 
+establishment of the Millennium Development Goals in 2000, 
+the identification of subnational areas in need of targeted 
+interventions, and the stratification of oral rehydration therapy 
+coverage into ORS and RHF estimates. We used Bayesian 
+geostatistical modelling techniques and an extensive geolocated 
+dataset to produce these estimates. Wherever possible, we 
+tailored these methods to take into account national or 
+subnational factors that might contribute to variation in ORS 
+coverage, using spatially resolved covariates to estimate for areas 
+with sparse data. These techniques produced estimates on 
+continuous continent-wide surfaces, which we aggregated to 
+policy-relevant administrative units. We show that ORS use has 
+increased over time, and that increases in ORS use often 
+corresponded to declines in RHF use to treat diarrhoea and in 
+diarrhoeal mortality rate. We estimate that scaling up of ORS 
+treatment over the study period prevented an estimated 
+52 230 deaths (36 910–68 860) across LMICs in 2017. Despite 
+progress, coverage of ORS (ie, the proportion of children with 
+diarrhoea who received ORS) remained below 50% in many 
+locations where diarrhoea prevalence and mortality rates remain 
+high. Importantly, we also show that while within-country 
+geographical inequalities declined over time, large disparities 
+remained in multiple countries with high diarrhoeal burden, 
+including subnational areas of Colombia, Peru, Nigeria, and 
+Sudan.
+Implications of all the available evidence
+Our mapped estimates identify areas with low ORS usage, 
+which could indicate gaps in access to ORS or knowledge of its 
+efficacy to treat diarrhoea, and illuminate areas where 
+improvements in ORS coverage are needed. Together with 
+maps of other key risk factors, including sanitation and 
+childhood stunting, these results can be used to develop 
+integrated strategies that prevent diarrhoeal morbidity and 
+mortality on a local level. These estimates and corresponding 
+visualisation tools can aid policy makers and public health 
+practitioners in determining where increased efforts to reduce 
+geographical inequalities in ORS coverage are needed to make 
+further strides in reducing mortality with this simple therapy.
+
+Articles
+www.thelancet.com/lancetgh   Vol 8   August 2020	
+e1040
+93% of diarrhoeal deaths, yet found insufficient 
+evidence on the effectiveness of RHF in preventing 
+mortality, probably due to the broad range in RHF 
+composition.14
+To understand trends in diarrhoeal deaths and ORT 
+coverage across space and time, it is crucial to analyse 
+ORS and RHF treatment separately. A study in Ethiopia 
+found subnational geographical variation in ORT 
+coverage, which was driven primarily by differences in 
+wealth.15 A recent study including data from 88 LMICs 
+showed an 8 percentage-point difference in ORT 
+coverage on average between the wealthiest and poorest 
+household quintiles, which was low compared with 
+other interventions such as improvements to water 
+and sanitation.16 These studies, however, did not analyse 
+ORS and RHF separately and might have under­
+estimated variation. Other studies have shown that 
+ORS use can vary broadly between countries, even 
+between those sharing borders.11,17 Additionally, studies 
+have shown differences in ORS use between urban 
+and rural populations in Kenya18 and Mexico.19 These 
+findings suggest that there are subnational drivers 
+of variation in ORS coverage, and that these drivers 
+can differ between geographical regions. Moreover, 
+pre­vious studies showed subnational variation in 
+diarrhoeal deaths and overall deaths in children younger 
+than 5 years,20–22 some of which might be driven by 
+subnational variation in ORS given its efficacy in 
+reducing child mortality.
+Furthermore, policies related to diarrhoea treatment 
+set at the national level do not affect all subnational areas 
+equally, and interventions are often implemented at the 
+subnational level, such as those currently done in 
+Nigeria and India.23,24 Local-level estimates of ORS and 
+RHF coverage are thus needed to identify vulnerable 
+subpopulations most in need of increased efforts to 
+prevent child mortality. Yet, to our knowledge, no study 
+has estimated ORS coverage subnationally across 
+multiple regions or has used geospatial modelling 
+techniques to estimate ORS coverage in locations with 
+sparse data, and no study has compared ORS coverage to 
+patterns in RHF coverage.
+Our aim in this study was to estimate the proportions 
+of children with diarrhoea who were treated with ORS 
+and RHF (ie, ORS and RHF coverage, respectively) over 
+space and time in LMICs and examine geographical 
+inequalities within countries. Here we present, to our 
+knowledge, the first maps of ORS or RHF coverage for 
+second admini­strative-level units (eg, districts, counties; 
+henceforth referred to as units) in LMICs. We present 
+both relative quantities (proportion of children) and 
+absolute quantities (number of children), as these 
+measures have distinct policy implications. We conclude 
+by highlighting countries with some of the broadest 
+differences in coverage across subnational units, which 
+also have high diarrhoeal burdens and high subnational 
+variation in mortality.
+Methods
+Definitions
+For this study, ORS was defined as a pre-packaged 
+electrolyte solution containing glucose or another form 
+of sugar or starch, as well as sodium, chloride, potassium, 
+and bicarbonate.14 Survey questions did not allow us to 
+separate RHF into their different formulations; therefore, 
+RHF were defined as all possible home fluid alternatives, 
+including sugar-salt solution, cereal-salt solution, rice-
+water solution, and additional fluids, such as plain water, 
+juice, tea, or rice water.14 To account for this variation, we 
+adjusted all non-standard RHF definitions to the most 
+common or standard definition across all surveys, using 
+logistic regression to determine adjustments (appendix 1 
+p 3). ORT was defined as treatment with either ORS, 
+RHF, or both. Coverage was defined as the proportion of 
+children younger than 5 years of age with diarrhoea who 
+received ORS, RHF, or ORT. Diarrhoea was defined as 
+three or more abnormally loose or watery stools within a 
+24-h period.
+Data
+We 
+compiled 
+385 
+household 
+surveys 
+(including 
+Demographic and Health Surveys, Multiple Indicator 
+Cluster Surveys, and other country-specific surveys) repre­
+senting 3 609 000 children with diarrhoea in 94 LMICs 
+from 2000 to 2017, with geocoded information from 
+120 742 coordinates corresponding to survey clusters and 
+14 055 subnational polygon boundaries where point-level 
+referencing was not available (appendix 1 p 4). We included 
+surveys that asked if children younger than 5 years with 
+diarrhoea received any kind of ORT, allowed for geolocation 
+below the country level, and were representative of the 
+populations in which they were conducted. We included 
+surveys for countries classified as low income or middle 
+income on the basis of their Socio-demographic Index 
+(SDI) quintile: low SDI, low-middle SDI, or middle SDI.25 
+SDI, developed as part of the Global Burden of Diseases, 
+Injuries, and Risk Factors Study (GBD), indicates the level 
+of development based on a country’s average education, 
+fertility, and income, and is on a scale of 0 to 1.25 Only 
+LMICs with relevant and available underlying data were 
+included in subsequent analyses, and island nations 
+with fewer than 1 million inhabitants were excluded 
+(appendix 1 p 4). This study complied with the Guidelines 
+for Accurate and Transparent Health Estimates Reporting 
+recom­mendations (appendix 1 pp 85–86).26 Further details 
+on data inclusion, coverage, and validation can be found in 
+appendix 1 (pp 4, 8).
+We compiled 15 spatial covariates that were indexed at 
+the subnational level for all 94 countries included in the 
+study and that had conceivable relationships with ORT, 
+which were used as predictors in our model. Covariates 
+related to urbanicity or access to cities were night-time 
+lights, population, urban or rural location, urban 
+proportion of the location, and access to cities. Covariates 
+related to child health, support, and nutrition were 
+See Online for appendix 1
+
+Articles
+e1041	
+www.thelancet.com/lancetgh   Vol 8   August 2020
+prevalence of under-5 stunting, prevalence of under-5 
+wasting, ratio of child dependents (ages 0–14 years) to 
+working adults (ages 15–64 years), number of children 
+younger than 5 years per woman of childbearing age, 
+number of people whose daily vitamin A needs could be 
+met, and maternal education. Covariates related to 
+environmental factors that might affect diarrhoeal burden, 
+which might in turn affect ORS supply, were aridity, 
+distance from rivers or lakes, elevation, and irrigation. We 
+also included the Healthcare Access and Quality Index27 
+and the proportion of pregnant women who received four 
+or more antenatal care visits as national-level covariates. 
+We filtered these covariates for multicollinearity within 
+each modelling region (appendix 1 p 5) using variance 
+inflation factor (VIF) analysis with a VIF threshold of 3.28 
+Detailed covariate information can be found in 
+appendix 1 (p 5).
+Statistical analysis
+Analyses were done using R version 3.5.0. ORS, RHF, 
+and ORT coverage were modelled separately using a 
+Bayesian model-based geostatistical framework. Briefly, 
+this framework uses a spatially and temporally explicit 
+hierarchical logistic regression model to predict coverage 
+in all locations, assuming that points that are closer 
+together in space and time and that have similar covariate 
+patterns have similar coverage. Potential non-linear 
+relationships between covariates and coverage were 
+incorporated through the use of a stacked generalisation 
+technique.29 Posterior distributions of all model param­
+eters and hyperparameters were estimated using the 
+statistical package R-INLA (version 19.05.30.9000).30,31 
+Uncertainty in the mean coverage estimates was 
+calculated by taking 250 draws from the posterior joint 
+distribution of the model, and each point value is reported 
+with an uncertainty interval (UI), which represents the 
+2·5th and 97·5th percentiles of those 250 draws. Maps 
+were produced using ArcGIS Desktop 10.6. Models were 
+run independently in 14 geographically distinct modelling 
+regions based on GBD,32 and an additional nine country-
+specific models due to distinct temporal patterns of 
+ORS coverage in these countries compared with their 
+surrounding regions. Additional methodological details 
+can be found in appendix 1 (pp 5–7).
+Models were validated using five-fold cross-validation. 
+Holdout sets were created by combining randomised 
+sets of datapoints at the second administrative-unit 
+cluster level. Model performance was summarised by the 
+bias (mean error), total variance (root-mean-square 
+error), and 95% data coverage within prediction intervals, 
+and correlation between observed data and predictions. 
+Where possible, estimates from these models were 
+compared against other existing estimates. All validation 
+procedures and corresponding results are provided in 
+appendix 1 (p 8).
+We calculated population-weighted aggregations of the 
+250 draws of ORS, RHF, and ORT coverage estimates at 
+the country level, first administrative-level unit, and 
+second administrative-level unit. To quantify geographical 
+inequalities within countries over time, we used three 
+different measures of inequality, each with their own 
+strengths. We calculated Gini coefficients as a summary 
+measure of inequality at the country level;33 in brief, the 
+Gini coefficient summarises the distribution of each 
+indicator across the population, with a value of 0 repre­
+senting perfect equality and a value of 1 representing 
+maximum inequality (appendix 1 p 9). We quantified 
+absolute percentage-point deviation from the country 
+mean to illustrate the total percentage-point difference in 
+coverage between each unit and its country mean. Finally, 
+we used relative deviation from the country mean to 
+illustrate the difference in ORS coverage between each 
+unit and its country mean.
+To investigate the relationship between ORT and 
+diarrhoeal mortality, we used mortality estimates from 
+Reiner and colleagues34 and compared them with ORS 
+coverage at the country and second administrative-unit 
+levels. In addition, we did a counterfactual analysis to 
+determine the estimated number of deaths averted due 
+to changes in ORS coverage between 2000 and 2017, 
+which is described in detail in appendix 1 (pp 9–10). In 
+the counterfactual analysis, we treated ORS coverage as 
+an independent risk factor and did not take into account 
+how changes in demography or other risk factors affect 
+deaths. We additionally did a sensitivity analysis of these 
+results by halving and doubling the estimated lives that 
+could be saved with ORS treatment14 (appendix 1 pp 82–83).
+Role of the funding source
+This research was supported by the Bill & Melinda Gates 
+Foundation. The funder had no role in study design, data 
+collection, data analysis, data interpretation, or writing of 
+the report. The corresponding author had full access to 
+all the data in the study and had final responsibility for 
+the decision to submit for publication.
+Results
+In all years from 2000 to 2017, we found both between-
+country and within-country variation in the proportion of 
+children younger than 5 years with diarrhoea who 
+received ORT. In general, ORS coverage was highest in 
+south Asia, east Asia, central America, and southern sub-
+Saharan Africa, and lowest in central sub-Saharan Africa, 
+parts of western and eastern sub-Saharan Africa, the 
+Middle East, and South America (figure 1). Within these 
+regions, some countries had fairly uniform subnational 
+distribution of ORS across units, such as Zimbabwe in 
+2017, where coverage ranged from 35·1% (95% UI 
+11·8–66·6) in Chivi district, Masvingo province, to 44·6% 
+(16·2–76·7) in Mazowe district, Mashonaland Central 
+province. Other countries had notable subnational 
+variation, such as Peru in 2017, where coverage ranged 
+from 16·1% (12·1–20·6) in Azángaro province, Puno 
+region, to 45·2% (38·2–51·5) in Trujillo province, 
+
+Articles
+www.thelancet.com/lancetgh   Vol 8   August 2020	
+e1042
+Figure 1: Proportion of 
+children younger than 
+5 years with diarrhoea who 
+received ORT at the second 
+administrative-unit level, 
+2000 and 2017
+Mean proportion of children 
+with diarrhoea who received 
+ORS in 2000 (A) and 2017 (B) 
+or who received RHF in 
+2000 (C) and 2017 (D). All 
+countries are aggregated to 
+second administrative units. 
+Maps reflect administrative 
+boundaries, land cover, lakes, 
+and population. Dark grey grid 
+cells were classified as barren 
+or sparsely vegetated and had 
+fewer than ten people per 
+1 km × 1 km grid cell; light grey 
+countries were not included in 
+these analyses.35–40 ORS=oral 
+rehydration solution. 
+ORT=oral rehydration therapy. 
+RHF=recommended home 
+fluids.
+0
+25
+50
+75
+100
+Percentage of children with 
+diarrhoea who received ORS
+0
+25
+50
+75
+100
+Percentage of children with 
+diarrhoea who received ORS
+0
+25
+50
+75
+100
+Percentage of children with 
+diarrhoea who received RHF
+0
+25
+50
+75
+100
+Percentage of children with 
+diarrhoea who received RHF
+D RHF 2017
+B ORS 2017
+A ORS 2000
+C RHF 2000
+
+Articles
+e1043	
+www.thelancet.com/lancetgh   Vol 8   August 2020
+La Libertad region (figure 1B). In terms of absolute 
+coverage, RHF coverage was lower and more evenly 
+distributed in Peru in 2017, with coverage ranging from 
+5·0% (2·9–8·5) in Coronel Portillo province, Ucayali, to 
+19·7% (12·3–28·9) in Daniel Alcides Carrión province, 
+Pasco (figure 1D). Across all LMICs, ORS coverage 
+remained below 50% in 62·6% (12 417 of 19 823) of units 
+in 2017.
+Although most changes were small, we found that 
+ORS coverage increased while RHF coverage decreased 
+between 2000 and 2017 in many locations (figure 1). We 
+found significant increases in ORS coverage nationally 
+and subnationally in Rwanda, Vietnam, Bolivia, 
+Cambodia, and India (figure 1; appendix 1 p 75; 
+appendix 2 pp 1–8, 25–1615), and significant declines in 
+RHF coverage in Rwanda, Burundi, Bolivia, Niger, Chad, 
+and India (figure 1; appendix 1 p 76; appendix 2 pp 9–16, 
+1616–3206). In Rwanda, ORS coverage increased from 
+12·0% (95% UI 9·8 to 14·6) to 33·9% (22·9 to 45·4), 
+with an annualised rate of change (AROC) of 10·7% 
+(3·2 to 17·6). At the same time, RHF coverage decreased 
+from 28·1% (16·1 to 41·6) to 10·7% (3·3 to 25·8), with 
+an AROC of −2·8% (−28·3 to 19·7). Increases in ORS, as 
+measured by AROC, were significant (ie, 95% UIs did 
+not include 0) in 27 of Rwanda’s 30 units, while overall 
+ORT coverage remained constant (appendix 1 pp 75–77; 
+appendix 2 pp 1–8, 3207–4797). Kyrgyzstan, Yemen, and 
+Liberia saw the largest increases in RHF coverage; 
+however, uncertainty around these estimates was high, 
+and only Yemen saw significant increases in RHF use 
+(appendix 1 p 76; appendix 2 pp 9–16). Sudan and South 
+Sudan were the only countries where AROC in ORS 
+coverage declined substantially, with coverage decreasing 
+from 32·3% (26·5 to 38·3) to 19·7% (14·6 to 26·2) in 
+Sudan and from 52·0% (41·6 to 62·2) to 48·4% 
+(37·6 to 59·5) in South Sudan. Declines were significant 
+in eight of Sudan’s 80 units and four of South Sudan’s 
+45 units (figure 1; appendix 1 p 75; appendix 2 pp 1–8, 
+25–1615).
+In 2017, the highest number of children with diarrhoea 
+who remained untreated by ORS were in parts of 
+eastern sub-Saharan Africa, north Africa, south Asia, 
+and southeast Asia (figure 2). In 2000, we estimated 
+that 
+approxi­mately 
+6 668 000 
+children 
+(95% 
+UI 
+5 330 000–7 673 000) across the 94 LMICs included in this 
+study were untreated with either ORS or RHF, out of a 
+total of 12 873 000 children (12 344 000–13 471 000) with 
+diarrhoea. Although prevalence of untreated children has 
+declined, a substantial number remain in need of 
+treatment; in 2017, we estimated 6 519 000 children 
+(95% UI 5 254 000–7 733 000) with diarrhoea did not 
+receive either ORS or RHF treatment, out of a total of 
+13 343 000 children (12 709 000–13 944 000) with diarrhoea, 
+and this burden varied substantially within many 
+countries (figure 2).
+In addition to the results presented here, the full 
+array of our model outputs for ORS, RHF, or ORT 
+(either ORS or RHF) is provided in appendix 1 
+(pp 28–36) and is publicly available online, and can be 
+further explored at various spatial levels via a user-
+friendly visualisation tool.
+We found that inequality in ORS coverage, as measured 
+by the Gini coefficient, decreased in the majority 
+(63 [67%]) of countries from 2000 to 2017. In particular, 
+although there were nine countries (Afghanistan, 
+Cambodia, Cameroon, Côte d’Ivoire, Equatorial Guinea, 
+Guinea, Iraq, Mali, and Mauritania) in 2000 whose Gini 
+coefficient was greater than 0·15, only Afghanistan and 
+Cameroon had coefficients above 0·15 in 2017.
+Absolute percentage-point differences between units 
+with the highest and lowest ORS coverage declined in 
+40 countries, with notable decreases in Equatorial 
+Guinea, Central African Republic, Iraq, Mongolia, 
+Myanmar, and Sierra Leone (figure 3). Absolute 
+inequalities increased in more than half (54 [57%]) of 
+LMICs, with notable increases in Jordan, Colombia, 
+Uzbekistan, 
+Afghanistan, 
+Bolivia, 
+Turkmenistan, 
+Palestine, Benin, and Madagascar (figure 3). By contrast, 
+within-country absolute geo­graphical inequali­ties in 
+RHF coverage declined in most (55 [59%]) countries, 
+with notable exceptions in Yemen and Tajikistan 
+(appendix 1 p 79).
+Analysis of relative deviation from the country mean 
+revealed that 11 LMICs (Afghanistan, Benin, Cameroon, 
+Democratic Republic of the Congo, Colombia, Ethiopia, 
+Guinea, Jordan, Nigeria, Sudan, and Uganda) had at 
+least 50% relative deviation in one of their units 
+in ORS use in 2017 (figure 3). Additionally, as mean 
+national-level ORS coverage increased over time in 
+most (76 [81%]) countries (appendix 1 p 78), within-
+country relative differences in ORS coverage also 
+declined in 64 (68%) LMICs, with greater than 50% 
+declines in relative deviation in Central African 
+Republic, Equatorial Guinea, Iraq, Mali, Cambodia, 
+Ethiopia, Niger, Senegal, Kyrgyzstan, Togo, Democratic 
+Republic of the Congo, and Côte d’Ivoire (figure 3). 
+Exceptions to this pattern, where relative differences 
+increased more than 20%, included Jordan, Benin, 
+Madagascar, Yemen, Sudan, Suriname, Guatemala, 
+Turkmenistan, and Bolivia. Further­more, as mean 
+national-level RHF coverage declined over time in most 
+(69 [73%]) countries, within-country relative inequalities 
+in RHF coverage declined in 45 (48%) countries 
+(appendix 1 p 78). In 2017, relative inequalities in RHF 
+coverage remained highest in North Africa and the 
+Middle East (appendix 1 p 78).
+We found that mean ORS coverage was less than 50% 
+in 12 of 14 countries where diarrhoeal mortality in 2017 
+was greater than two children per 1000 (appendix 2 pp 1–8). 
+Furthermore, we found that ORS coverage was negatively 
+correlated with RHF coverage over time in 56·6% 
+(10 786 of 19 064) of units and was negatively correlated 
+with diarrhoeal mortality over time in 74·7% (14 241 of 
+19 064) of units (appendix 1 p 81).
+For full model outputs see 
+http://ghdx.healthdata.org/
+record/ihme-data/lmic-oral-
+rehydration-therapy-coverage-
+geospatial-estimates-2000-2017
+For the visualisation tool see 
+https://vizhub.healthdata.org/
+lbd/ort
+See Online for appendix 2
+
+Articles
+www.thelancet.com/lancetgh   Vol 8   August 2020	
+e1044
+Figure 2: Number of children 
+younger than 5 years with 
+diarrhoea who did not 
+receive ORT at the second 
+administrative-unit level, 
+2000 and 2017
+Number of children younger 
+than 5 years with diarrhoea 
+who did not receive ORS in 
+2000 (A) and 2017 (B) or did 
+not receive ORT (either ORS or 
+RHF) in 2000 (C) and 2017 (D). 
+Countries are aggregated to 
+second administrative units. 
+Maps reflect administrative 
+boundaries, land cover, lakes, 
+and population. Dark grey grid 
+cells were classified as barren 
+or sparsely vegetated and had 
+fewer than ten people per 
+1 km × 1 km grid cell; light grey 
+countries were not included in 
+these analyses.35–40 ORS=oral 
+rehydration solution. 
+ORT=oral rehydration therapy. 
+RHF=recommended home 
+fluids.
+0
+5
+50
+500
+1000
+>5000
+Number untreated
+with ORS, 2000
+0
+5
+50
+500
+1000
+>5000
+Number untreated 
+with ORS, 2017
+0
+5
+50
+500
+1000
+>5000
+Number untreated 
+with ORT, 2000
+0
+5
+50
+500
+1000
+>5000
+Number untreated 
+with ORT, 2017
+A
+C
+B
+D
+
+Articles
+e1045	
+www.thelancet.com/lancetgh   Vol 8   August 2020
+To illustrate how our maps can be used to estimate 
+the number of diarrhoeal deaths that were averted 
+by changes in ORS coverage, we did a counterfactual 
+analysis using a previous estimate that 75% ORS 
+coverage could reduce diarrhoeal deaths by 69%.14 This 
+estimate is based on a systematic review of three quasi-
+experimental studies with small sample sizes and that 
+did not adjust for confounding variables (eg, stunting) to 
+examine the risk of death in the absence of ORS 
+treatment; thus, the results of this analysis should be 
+interpreted with some caution. We found that of the 
+526 800 diarrhoeal deaths (95% UI 485 300–568 900) 
+estimated to have occurred in 2017 in children younger 
+than 5 years across the 94 LMICs included in our 
+analysis, an estimated 299 900 deaths (274 000–324 300) 
+could be attributable to lack of treatment with ORS. We 
+also estimated that increase in ORS coverage during the 
+study period prevented an additional 52 230 deaths 
+(36 910–68 860). Nigeria, India, Ethiopia, Pakistan, Chad, 
+and Madagascar contained units with high numbers of 
+deaths attributable to lack of ORS treatment in 2017; 
+however, these countries also contained units with the 
+highest numbers of deaths averted by improved ORS 
+coverage in 2017 (figure 4). By contrast, an estimated 
+4850 deaths (2200–10 080) globally were due to declines 
+in ORS coverage, with some of the highest numbers of 
+deaths attributable to worsening coverage in units of 
+Sudan, South Sudan, and Pakistan (figure 4). Some of 
+the highest rates of deaths averted were in units of Sierra 
+Leone, where 0·9 deaths (0·2–1·9) were averted per 
+1000 children in Kambia district, Northern Province 
+(figure 4), corresponding to 67 lives (18–141) saved in 
+2017 in this district alone.
+In a sensitivity analysis, we found that, while the 
+geographical patterns in deaths averted remained largely 
+unchanged, the absolute number of averted deaths 
+changed substantially in some places (appendix 1 
+pp 82–83). Reducing the percentage of diarrhoeal deaths 
+that could be averted with ORS from 69% to 35% reduced 
+the total number of deaths attributable to lack of ORS 
+Figure 3: Geographical inequalities within countries in the proportion of children with diarrhoea who received ORS, 2000 and 2017
+(A) Bars show range of ORS coverage at the second administrative-unit level for each country in 2000 (shown in grey) and 2017 (coloured by region), with the mean proportion (national-level 
+aggregations) marked with a dot in each bar. (B) Bars show range of relative deviation from the country mean in the proportion of children younger than 5 years with diarrhoea who received ORS in 
+2000 (shown in grey) and 2017 (coloured by region). Countries are labelled by their ISO 3 codes. Geographical inequality in ORS coverage for each country is shown in detail in appendix 1 (p 78); 
+inequalities in RHF and ORT coverage are shown in appendix 1 (pp 79–80). ORS=oral rehydration solution. ORT=oral rehydration therapy. RHF=recommended home fluids.
+25
+0
+50
+75
+KGZ
+MNG
+UZB
+TJK
+PAN
+ECU
+PER
+PRY
+BOL
+SUR
+HTI
+CRI
+GUY
+DOM
+GTM
+BLZ
+MEX
+COL
+JAM
+HND
+NIC
+SLV
+SDN
+MAR
+EGY
+IRQ
+YEM
+DZA
+JOR
+PHL
+PSE
+AFG
+SYR
+TUN
+NPL
+PAK
+IND
+BTN
+BGD
+PNG
+IDN
+KHM
+LKA
+VNM
+LAO
+MMR
+THA
+TLS
+TCD
+BFA
+CMR
+MDG
+TGO
+CAF
+MLI
+SEN
+COG
+BEN
+NGA
+MRT
+SOM
+GAB
+ETH
+NER
+GNB
+GIN
+RWA
+BDI
+COD
+ZWE
+COM
+GHA
+ERI
+GNQ
+AGO
+UGA
+BWA
+SSD
+TZA
+KEN
+GMB
+ZAF
+TKM
+MOZ
+LSO
+MWI
+DJI
+ZMB
+NAM
+LBR
+SLE
+SWZ
+Percentage of children with diarrhoea who received ORS
+GBD super-region
+Central Europe, eastern Europe, and central Asia
+Latin America and Caribbean
+North Africa and Middle East
+South Asia
+Southeast Asia, east Asia, and Oceania
+Sub-Saharan Africa
+–0.5
+0.0
+0.5
+1.0
+KGZ
+MNG
+UZB
+TJK
+PAN
+ECU
+PER
+PRY
+BOL
+SUR
+HTI
+CRI
+GUY
+DOM
+GTM
+BLZ
+MEX
+COL
+JAM
+HND
+NIC
+SLV
+SDN
+MAR
+EGY
+IRQ
+YEM
+DZA
+JOR
+PHL
+PSE
+AFG
+SYR
+TUN
+NPL
+PAK
+IND
+BTN
+BGD
+PNG
+IDN
+KHM
+LKA
+VNM
+LAO
+MMR
+THA
+TLS
+TCD
+BFA
+CMR
+MDG
+TGO
+CAF
+MLI
+SEN
+COG
+BEN
+NGA
+MRT
+SOM
+GAB
+ETH
+NER
+GNB
+GIN
+RWA
+BDI
+COD
+ZWE
+COM
+GHA
+ERI
+GNQ
+AGO
+UGA
+BWA
+SSD
+TZA
+KEN
+GMB
+ZAF
+TKM
+MOZ
+LSO
+MWI
+DJI
+ZMB
+NAM
+LBR
+SLE
+SWZ
+Country
+Relative deviation
+A ORS coverage
+B Relative deviation from country mean
+For ISO 3 codes see https://www.
+iso.org/obp/ui
+
+Articles
+www.thelancet.com/lancetgh   Vol 8   August 2020	
+e1046
+coverage in 2017 from 299 900 (95% UI 274 000–324 300) 
+to 143 360 (130 400–156 000), the estimated total deaths 
+averted by increase in ORS coverage from 52 230 
+(36 910–68 860) to 22 760 (15 600–30 650), and the averted 
+deaths in Kambia district, Sierra Leone, from 67 (18–141) 
+to 26 (8–53; appendix 1 p 82).
+Figure 4: Averted child 
+diarrhoeal deaths 
+attributable to increased ORS 
+coverage from 2000 to 2017
+(A) Number of deaths in 
+children younger than 5 years 
+attributable to lack of ORS 
+treatment in 2017. (B) Number 
+of deaths in children younger 
+than 5 years in 2017 averted 
+by and attributable to changes 
+in ORS coverage between 
+2000 and 2017. (C) Number of 
+deaths per 1000 children 
+younger than 5 years in 2017 
+averted by and attributable to 
+changes in ORS between 2000 
+and 2017. Maps reflect 
+administrative boundaries, 
+land cover, lakes, and 
+population. Dark grey grid cells 
+were classified as barren or 
+sparsely vegetated and had 
+fewer than ten people per 
+1 km × 1 km grid cell; light grey 
+countries were not included in 
+these analyses.35–40 ORS=oral 
+rehydration solution.
+Number of attributable deaths
+>500
+50
+0
+Deaths averted 
+by change
+0
+>100
+10
+2
+>20
+Deaths attributable 
+to change
+0
+0·02
+0·05
+>0·50
+>0·20
+Deaths averted 
+by change 
+per 1000 children
+Deaths attributable 
+to change
+per 1000 children
+A
+B
+C
+
+Articles
+e1047	
+www.thelancet.com/lancetgh   Vol 8   August 2020
+Finally, to illustrate how these maps can be used to 
+identify children in need, we present side-by-side maps 
+of diarrhoeal mortality, ORS coverage, and RHF coverage 
+at the unit level for three countries—Colombia, Nigeria, 
+and Sudan—that had subnational locations with higher-
+than-average mortality rates and lower-than-average ORS 
+coverage (figure 5). In Colombia, ORS and RHF coverage 
+were lowest in the southern Amazonas region, where 
+diarrhoeal burden was highest. In Nigeria, ORS coverage 
+was lowest in the northern region, where diarrhoeal 
+burden was highest. In Sudan, RHF remains widely used 
+to treat diarrhoea, and there was not a clear trend between 
+ORS, RHF, and diarrhoea distributions, but distinct 
+areas in Darfur, in the southeast of the country, had high 
+diarrhoeal mortality and particularly low ORS coverage. 
+To illustrate that this pattern was not present everywhere, 
+we also present results for Peru, where ORS coverage 
+was relatively high in the Amazon Basin rainforests, 
+which is where diarrhoeal mortality was also highest. 
+There were gaps in coverage in the mountainous and 
+arid regions of central and south Peru, where diarrhoeal 
+mortality was lower (figure 5).
+Discussion
+The discovery that led to the development of ORS as 
+treatment for diarrhoea was hailed as “potentially the 
+most important medical advancement of the century”.41 
+More than 50 years later, ORS is recognised as an 
+important treatment for childhood diarrhoea, as well as a 
+crucial component in treating other forms of dehydration, 
+including dehydration-induced kidney injury and Ebola 
+virus disease.42 By providing high-resolution estimates of 
+the use of different forms of ORT—ORS, RHF, and 
+either ORS or RHF—in children younger than 5 years 
+with diarrhoea in LMICs, this study examines where 
+uptake has occurred and which places stand to gain the 
+most. While we show increases in ORS coverage in many 
+locations, it is striking that these increases have been so 
+incremental, given the importance and simplicity of this 
+intervention. These slow changes are reflected in the 
+relatively low number of total deaths estimated to have 
+been averted by increases in ORS coverage between 
+2000 and 2017, and the substantial number of children 
+with diarrhoea that remained untreated in 2017. ORS 
+coverage remains below 50% in the majority (62·6%) of 
+second administrative units, and there are various 
+locations with high diarrhoeal mortality rates where 
+geographical inequalities in ORS coverage are high. 
+These areas need to be targeted with improved efforts to 
+increase access to and awareness of this life-saving 
+treatment.
+We also show that increases in ORS coverage over time 
+were correlated with declines in RHF coverage in many 
+locations. It is possible that these results represent shifts 
+over time in diarrhoea treatment, which might have 
+contributed to declines in diarrhoeal mortality in these 
+locations; ORS has shown effectiveness in preventing 
+child mortality, whereas the effect of RHF on child 
+mortality is unclear.14 However, if the rates of decline in 
+RHF exceeded the rates of increase in ORS in some 
+locations, this could have left a proportion of children 
+Figure 5: Subnational variation in the 2017 proportions of children who received ORT and diarrhoeal 
+mortality in countries with high diarrhoeal burden at the second administrative-unit level
+Subnational variation in ORS, RHF, and diarrhoeal mortality per 1000 children is shown in four countries that had 
+both high diarrhoeal burden and high geographical inequality in ORT in 2017. Results are shown for 2017 at second 
+administrative units. Maps reflect administrative boundaries, land cover, lakes, and population. Dark grey grid cells 
+were classified as barren or sparsely vegetated and had fewer than ten people per 1 km × 1 km grid cell.35–40 ORS=oral 
+rehydration solution. ORT=oral rehydration therapy. RHF=recommended home fluids.
+Mortality rate (per 1000)
+0·03
+0·16
+5·0
+45·2
+5·0
+45·2
+ORS coverage (%)
+RHF coverage (%)
+Mortality rate (per 1000)
+0·86
+1·41
+15·0
+71·5
+15·0
+71·5
+ORS coverage (%)
+RHF coverage (%)
+Mortality rate (per 1000)
+5·16
+1·57
+12·3
+45·6
+12·3
+45·6
+ORS coverage (%)
+RHF coverage (%)
+Mortality rate (per 1000)
+0·55
+0·12
+16·5
+84·0
+16·5
+84·0
+ORS coverage (%)
+RHF coverage (%)
+Colombia
+Nigeria
+Diarrhoea
+ORS
+RHF
+Sudan
+Peru
+
+Articles
+www.thelancet.com/lancetgh   Vol 8   August 2020	
+e1048
+completely untreated and in need of targeted inter­
+ventions to prevent diarrhoeal mortality. These results 
+further highlight the importance of reaching these 
+vulnerable populations with targeted interventions to 
+improve ORS coverage. It is important to note that there 
+were also locations where there was apparently no 
+relationship between ORS coverage and diarrhoeal 
+mortality over time. This could, in part, be attributed to 
+other risk factors that affect diarrhoeal mortality, which 
+we did not take into account in this analysis.
+Our estimates are comparable with previously published 
+estimates at the national level.10,11 We show notable 
+differences in ORS coverage between countries in the 
+same region (eg, Senegal vs Sierra Leone), consistent with 
+a previous review.8 We show that ORS use has increased 
+over time, with greater uptake in some regions compared 
+with others (eg, south Asia vs the Horn of Africa), which is 
+consistent with the conclusions of UNICEF’s 2016 
+report.8,10 However, we also show that the rates of increase 
+in ORS coverage and decrease in RHF coverage were 
+modest and that uncertainty in these estimates was high, 
+which is consistent with previous studies that showed 
+no substantial increases in ORT coverage between 
+1990 and 200143 or between 1996 and 2003.44 We also show 
+that relative and absolute geographical inequalities in 
+ORS coverage declined over time in many countries, 
+which is in contrast with a previous study that showed that 
+absolute inequalities in ORT have remained the same 
+over time in all but three LMICs.16 There are numerous 
+methodological differences between that study and ours; 
+most importantly, the previous study did not separate the 
+effect of ORS from that of RHF. As we show, analysis of 
+ORT (a combined variable) masks spatial and temporal 
+variation in ORS and RHF.
+We are surprised to see low use of ORS after so many 
+years of programmes in many countries, especially those 
+with high diarrhoeal burden. Ensuring access to ORS 
+treatment is not only important for treating existing 
+diarrhoea cases, but also in preparing for outbreaks and 
+having supplies ready for emergencies. Moreover, edu­
+cating caregivers on the causes of diarrhoea mortality—
+and how ORS can prevent those child deaths—is essential 
+to ensure sustainable uptake. To address shortfalls in 
+coverage, it will be essential to examine the root causes 
+specific to each location. Previous studies have shown that 
+challenges in using ORS include doctor and patient 
+knowledge about ORS; ORS supply, cost, and taste; and 
+access to clean water.11,45 Studies have also shown that 
+improvements in ORS coverage can be driven by changes 
+in government policies, media campaigns, and community 
+culture and beliefs.2,23,24 According to our results, Sierra 
+Leone had some of the highest ORS coverage in western 
+sub-Saharan Africa in 2017. Sierra Leone has previously 
+been described as an example of how community 
+mobilisation can promote access to and awareness of ORS, 
+even after a devastating civil war.11 Our results also suggest 
+that promotion of RHF over ORS might negatively affect 
+ORS use and that locations with high RHF use, such as 
+Sudan, can have very low ORS coverage. A previous study 
+has similarly shown that inconsistent and unclear 
+diarrhoea treatment recom­mendations present challenges 
+in Sudan and Somalia and might have had implications for 
+the recent cholera epidemic in Yemen.46 By determining 
+key country-specific drivers of low uptake and subnational 
+inequalities, including various social, cultural, political, 
+and economic factors that might inhibit proper coverage, 
+successful interventions such as those in Sierra Leone 
+could be adapted and applied to similar contexts.
+Our study has several limitations. Although we 
+constructed a large database of geolocated ORT coverage 
+data, spatial and temporal gaps remain, and data quality 
+is likely to be variable by source, contributing to 
+uncertainty in our estimates. Thus, results from zones of 
+conflict and political instability, such as Yemen, Syria, 
+Iraq, Afghanistan, and Pakistan, should be interpreted 
+with caution. For RHF modelling, we included a broad 
+range of RHF definitions in the survey data, and the 
+RHF definitions in survey questionnaires do not always 
+correspond to the actual solutions that governments have 
+recommended. In addition, since the denominator of our 
+input data was the proportion of children with diarrhoea 
+(ie, diarrhoea prevalence), sample sizes were very small. 
+Finally, heterogeneity within the data as well as amount 
+of relevant available data varied between countries. Each 
+of these factors probably contributed to uncertainty in 
+our estimates, which varied by indicator and country 
+(appendix 2).
+As a further limitation, the modelling framework was 
+optimised for prediction rather than causal inference, 
+and there were overlaps between covariates used to 
+estimate ORS, RHF, and diarrhoeal mortality, so we 
+cannot make any conclusions about causal relationships 
+between them. Additionally, we were unable to incor­
+porate uncertainty into our estimates of the number of 
+children with diarrhoea who were untreated because 
+uncertainty from WorldPop datasets35 was not available. 
+Furthermore, we fit our models using survey data, which 
+depend on recall and are susceptible to biases that could 
+be in the direction of increased or decreased coverage, 
+depending on the context. Lastly, we mapped the reported 
+use of ORS, yet use is not equivalent to proper preparation 
+of the solution.47,48
+Future studies should examine the factors that have 
+affected ORS coverage, particularly those that have 
+contributed to shortfalls in efforts to increase coverage, to 
+inform future interventions and implementation studies. 
+Future work should also further investigate coverage of 
+zinc treatment, which has shown effectiveness in reducing 
+undernourishment and diarrhoeal mortality in many 
+countries.49 In addition, promoting zinc use has shown a 
+secondary effect of increasing ORS use in some places;50,51 
+thus comprehensive approaches to overcome challenges 
+to uptake and scaling up of coverage are warranted.52 
+Future work could investigate how missing data affect 
+
+Articles
+e1049	
+www.thelancet.com/lancetgh   Vol 8   August 2020
+estimates of ORS coverage and how to account for this, as 
+well as how to incorporate differences between urban and 
+rural populations into the analysis. In addition, we did not 
+map ORS availability, but rather the prevalence of its use, 
+and future studies could map availability distribution 
+patterns. Future work should examine the co-distribution 
+of different interventions to prevent childhood mortality 
+from diarrhoea, such as the co-distributions of ORS, zinc, 
+and access to clean water. Finally, as with any study that 
+involves estimation, the availability and quality of input 
+data influences the certainty of our estimates; as LMICs 
+work to improve their cause-specific vital registration 
+systems, analyses that incorporate diarrhoea-specific 
+cause of death data in estimates of diarrhoea mortality 
+would improve future updates to this work.
+In conclusion, our results show that advancement 
+in ORS coverage was slow from 2000 to 2017, and that 
+within-country inequalities in ORS coverage persist in 
+many LMICs. Depending on the local context, low levels 
+of coverage might reflect challenges in access to ORS 
+or the need for education on the efficacy of ORS 
+in preventing diarrhoea mortality. Increased efforts are 
+needed, particularly where childhood deaths from 
+diarrhoea are high yet ORS coverage remains low; in 
+2017, 12 of 14 LMICs where diarrhoeal mortality exceeded 
+two children per 1000 had less than 50% ORS coverage. 
+The subnational scale of these mapped estimates can aid 
+in identifying where gaps in coverage of this life-saving 
+intervention remain, contributing to the UN Sustainable 
+Development Goals’ commitment to address inequalities 
+and leave no one behind.53 Our results illustrate that 
+scaling up of ORS coverage has been insufficient, and 
+that new efforts to improve access are desperately 
+needed.
+Local Burden of Disease Diarrhoea Collaborators
+Kirsten E Wiens, Paulina A Lindstedt, Brigette F Blacker, 
+Kimberly B Johnson, Mathew M Baumann, Lauren E Schaeffer, 
+Hedayat Abbastabar, Foad Abd-Allah, Ahmed Abdelalim, 
+Ibrahim Abdollahpour, Kedir Hussein Abegaz, Ayenew Negesse Abejie, 
+Lucas Guimarães Abreu, Michael R M Abrigo, Ahmed Abualhasan, 
+Manfred Mario Kokou Accrombessi, Dilaram Acharya, Maryam Adabi, 
+Abdu A Adamu, Oladimeji M Adebayo, Rufus Adesoji Adedoyin, 
+Victor Adekanmbi, Olatunji O Adetokunboh, Beyene Meressa Adhena, 
+Mohsen Afarideh, Sohail Ahmad, Keivan Ahmadi, Anwar E Ahmed, 
+Muktar Beshir Ahmed, Rushdia Ahmed, Temesgen Yihunie Akalu, 
+Fares Alahdab, Ziyad Al-Aly, Noore Alam, Samiah Alam, 
+Genet Melak Alamene, Turki M Alanzi, 
+Jacqueline Elizabeth Alcalde-Rabanal, Beriwan Abdulqadir Ali, 
+Mehran Alijanzadeh, Vahid Alipour, Syed Mohamed Aljunid, Ali Almasi, 
+Amir Almasi-Hashiani, Hesham M Al-Mekhlafi, Khalid A Altirkawi, 
+Nelson Alvis-Guzman, Nelson J Alvis-Zakzuk, Saeed Amini, 
+Arianna Maever L Amit, Catalina Liliana Andrei, Mina Anjomshoa, 
+Amir Anoushiravani, Fereshteh Ansari, Carl Abelardo T Antonio, 
+Benny Antony, Ernoiz Antriyandarti, Jalal Arabloo, 
+Hany Mohamed Amin Aref, Olatunde Aremu, Bahram Armoon, 
+Amit Arora, Krishna K Aryal, Afsaneh Arzani, Mehran Asadi-Aliabadi, 
+Hagos Tasew Atalay, Seyyed Shamsadin Athari, 
+Seyyede Masoume Athari, Sachin R Atre, Marcel Ausloos, Nefsu Awoke, 
+Beatriz Paulina Ayala Quintanilla, Getinet Ayano, 
+Martin Amogre Ayanore, Yared Asmare Aynalem, Samad Azari, 
+Peter S Azzopardi, Ebrahim Babaee, Tesleem Kayode Babalola, 
+Alaa Badawi, Mohan Bairwa, Shankar M Bakkannavar, 
+Senthilkumar Balakrishnan, Ayele Geleto Bali, Maciej Banach, 
+Joseph Adel Mattar Banoub, Aleksandra Barac, 
+Till Winfried Bärnighausen, Huda Basaleem, Sanjay Basu, Vo Dinh Bay, 
+Mohsen Bayati, Estifanos Baye, Neeraj Bedi, Mahya Beheshti, 
+Masoud Behzadifar, Meysam Behzadifar, Bayu Begashaw Bekele, 
+Yaschilal Muche Belayneh, Michelle L Bell, Derrick A Bennett, 
+Dessalegn Ajema Berbada, Robert S Bernstein, Anusha Ganapati Bhat, 
+Krittika Bhattacharyya, Suraj Bhattarai, Soumyadeep Bhaumik, 
+Zulfiqar A Bhutta, Ali Bijani, Boris Bikbov, Binyam Minuye Birihane, 
+Raaj Kishore Biswas, Somayeh Bohlouli, Hunduma Amensisa Bojia, 
+Soufiane Boufous, Oliver J Brady, Nicola Luigi Bragazzi, 
+Andrey Nikolaevich Briko, Nikolay Ivanovich Briko, Gabrielle B Britton, 
+Sharath Burugina Nagaraja, Reinhard Busse, Zahid A Butt, 
+Luis Alberto Cámera, Ismael R Campos-Nonato, Jorge Cano, Josip Car, 
+Rosario Cárdenas, Felix Carvalho, Carlos A Castañeda-Orjuela, 
+Franz Castro, Wagaye Fentahun Chanie, Pranab Chatterjee, 
+Vijay Kumar Chattu, Tesfaye Yitna Chichiabellu, Ken Lee Chin, 
+Devasahayam J Christopher, Dinh-Toi Chu, Natalie Maria Cormier, 
+Vera Marisa Costa, Carlos Culquichicon, Matiwos Soboka Daba, 
+Giovanni Damiani, Lalit Dandona, Rakhi Dandona, Anh Kim Dang, 
+Aso Mohammad Darwesh, Amira Hamed Darwish, Ahmad Daryani, 
+Jai K Das, Rajat Das Gupta, Aditya Prasad Dash, Gail Davey, 
+Claudio Alberto Dávila-Cervantes, Adrian C Davis, 
+Dragos Virgil Davitoiu, Fernando Pio De la Hoz, 
+Asmamaw Bizuneh Demis, Dereje Bayissa Demissie, 
+Getu Debalkie Demissie, Gebre Teklemariam Demoz, 
+Edgar Denova-Gutiérrez, Kebede Deribe, Assefa Desalew, 
+Aniruddha Deshpande, Samath Dhamminda Dharmaratne, 
+Preeti Dhillon, Meghnath Dhimal, Govinda Prasad Dhungana, 
+Daniel Diaz, Isaac Oluwafemi Dipeolu, Shirin Djalalinia, Kerrie E Doyle, 
+Eleonora Dubljanin, Bereket Duko, Andre Rodrigues Duraes, 
+Mohammad Ebrahimi Kalan, Hisham Atan Edinur, Andem Effiong, 
+Aziz Eftekhari, Nevine El Nahas, Iman El Sayed, Maysaa El Sayed Zaki, 
+Maha El Tantawi, Teshome Bekele Elema, Hala Rashad Elhabashy, 
+Shaimaa I El-Jaafary, Hajer Elkout, Aisha Elsharkawy, Iqbal RF Elyazar, 
+Aklilu Endalamaw, Daniel Adane Endalew, Sharareh Eskandarieh, 
+Alireza Esteghamati, Sadaf Esteghamati, Arash Etemadi, 
+Oluchi Ezekannagha, Mohammad Fareed, Roghiyeh Faridnia, 
+Farshad Farzadfar, Mehdi Fazlzadeh, Valery L Feigin, 
+Seyed-Mohammad Fereshtehnejad, Eduarda Fernandes, Irina Filip, 
+Florian Fischer, Nataliya A Foigt, Morenike Oluwatoyin Folayan, 
+Masoud Foroutan, Richard Charles Franklin, Takeshi Fukumoto, 
+Mohamed M Gad, Reta Tsegaye Gayesa, Teshome Gebre, 
+Ketema Bizuwork Gebremedhin, 
+Gebreamlak Gebremedhn Gebremeskel, Hailay Abrha Gesesew, 
+Kebede Embaye Gezae, Keyghobad Ghadiri, Ahmad Ghashghaee, 
+Pramesh Raj Ghimire, Paramjit Singh Gill, Tiffany K Gill, 
+Themba G Ginindza, Nelson G M Gomes, Sameer Vali Gopalani, 
+Alessandra C Goulart, Bárbara Niegia Garcia Goulart, Ayman Grada, 
+Mohammed Ibrahim Mohialdeen Gubari, Harish Chander Gugnani, 
+Davide Guido, Rafael Alves Guimarães, Yuming Guo, Rajeev Gupta, 
+Nima Hafezi-Nejad, Dessalegn H Haile, Gessessew Bugssa Hailu, 
+Arvin Haj-Mirzaian, Arya Haj-Mirzaian, Randah R Hamadeh, 
+Samer Hamidi, Demelash Woldeyohannes Handiso, 
+Hamidreza Haririan, Ninuk Hariyani, Ahmed I Hasaballah, 
+Md Mehedi Hasan, Edris Hasanpoor, Amir Hasanzadeh, 
+Hadi Hassankhani, Hamid Yimam Hassen, Mohamed I Hegazy, 
+Behzad Heibati, Behnam Heidari, Delia Hendrie, Nathaniel J Henry, 
+Claudiu Herteliu, Fatemeh Heydarpour, Hagos Degefa de Hidru, 
+Thomas R Hird, Chi Linh Hoang, Enayatollah Homaie Rad, 
+Praveen Hoogar, Mohammad Hoseini, Naznin Hossain, 
+Mostafa Hosseini, Mehdi Hosseinzadeh, Mowafa Househ, 
+Mohamed Hsairi, Guoqing Hu, Mohammedaman Mama Hussen, 
+Segun Emmanuel Ibitoye, Ehimario U Igumbor, 
+Olayinka Stephen Ilesanmi, Milena D Ilic, 
+Mohammad Hasan Imani-Nasab, Usman Iqbal, 
+Seyed Sina Naghibi Irvani, Sheikh Mohammed Shariful Islam, 
+Chinwe Juliana Iwu, Neda Izadi, Anelisa Jaca, Nader Jahanmehr, 
+Mihajlo Jakovljevic, Amir Jalali, Achala Upendra Jayatilleke, 
+Ravi Prakash Jha, Vivekanand Jha, John S Ji, Jost B Jonas, 
+Jacek Jerzy Jozwiak, Ali Kabir, Zubair Kabir, Amaha Kahsay, 
+
+Articles
+www.thelancet.com/lancetgh   Vol 8   August 2020	
+e1050
+Hamed Kalani, Tanuj Kanchan, Behzad Karami Matin, André Karch, 
+Mohd Anisul Karim, Hamidreza Karimi-Sari Surendra Karki, 
+Amir Kasaeian, Gebremicheal Gebreslassie Kasahun, 
+Yawukal Chane Kasahun, Habtamu Kebebe Kasaye, 
+Gebrehiwot G Kassa, Getachew Mullu Kassa, Gbenga A Kayode, 
+Ali Kazemi Karyani, Mihiretu M Kebede, Peter Njenga Keiyoro, 
+Abraham Getachew Kelbore, Andre Pascal Kengne, 
+Daniel Bekele Ketema, Yousef Saleh Khader, Morteza Abdullatif Khafaie, 
+Nauman Khalid, Rovshan Khalilov, Ejaz Ahmad Khan, Junaid Khan, 
+Md Nuruzzaman Khan, Muhammad Shahzeb Khan, Khaled Khatab, 
+Amir M Khater, Mona M Khater, Maryam Khayamzadeh, 
+Mohammad Khazaei, Salman Khazaei, Mohammad Hossein Khosravi, 
+Jagdish Khubchandani, Ali Kiadaliri, Yun Jin Kim, Ruth W Kimokoti, 
+Adnan Kisa, Sezer Kisa, Niranjan Kissoon, K M Shivakumar, 
+Sonali Kochhar, Tufa Kolola, Hamidreza Komaki, Soewarta Kosen, 
+Parvaiz A Koul, Ai Koyanagi, Moritz U G Kraemer, Kewal Krishan, 
+Nuworza Kugbey, G Anil Kumar, Manasi Kumar, Pushpendra Kumar, 
+Vivek Kumar, Dian Kusuma, Carlo La Vecchia, Ben Lacey, Sheetal D Lad, 
+Dharmesh Kumar Lal, Felix Lam, Faris Hasan Lami, 
+Prabhat Lamichhane, Van Charles Lansingh, Savita Lasrado, 
+Avula Laxmaiah, Paul H Lee, Kate E LeGrand, Mostafa Leili, 
+Tsegaye Lolaso Lenjebo, Cheru Tesema Leshargie, Aubrey J Levine, 
+Shanshan Li, Shai Linn, Shiwei Liu, Simin Liu, Rakesh Lodha, 
+Joshua Longbottom, Jaifred Christian F Lopez, 
+Hassan Magdy Abd El Razek, Muhammed Magdy Abd El Razek, 
+D R Mahadeshwara Prasad, Phetole Walter Mahasha, 
+Narayan B Mahotra, Azeem Majeed, Reza Malekzadeh, 
+Deborah Carvalho Malta, Abdullah A Mamun, Navid Manafi, 
+Ana Laura Manda, Narendar Dawani Dawanu Manohar, 
+Mohammad Ali Mansournia, Chabila Christopher Mapoma, 
+Joemer C Maravilla, Gabriel Martinez, Santi Martini, 
+Francisco Rogerlândio Martins-Melo, Anthony Masaka, 
+Benjamin Ballard Massenburg, Manu Raj Mathur, Benjamin K Mayala, 
+Mohsen Mazidi, Colm McAlinden, Birhanu Geta Meharie, 
+Man Mohan Mehndiratta, Kala M Mehta, Tefera Chane Mekonnen, 
+Gebrekiros Gebremichael Meles, Peter T N Memiah, Ziad A Memish, 
+Walter Mendoza, Ritesh G Menezes, Seid Tiku Mereta, 
+Tuomo J Meretoja, Tomislav Mestrovic, Bartosz Miazgowski, 
+Kebadnew Mulatu Mihretie, Ted R Miller, GK Mini, 
+Erkin M Mirrakhimov, Babak Moazen, Bahram Mohajer, 
+Amjad Mohamadi-Bolbanabad, Dara K Mohammad, 
+Karzan Abdulmuhsin Mohammad, Yousef Mohammad, 
+Naser Mohammad Gholi Mezerji, Roghayeh Mohammadibakhsh, 
+Noushin Mohammadifard, Jemal Abdu Mohammed, 
+Shafiu Mohammed, Farnam Mohebi, Ali H Mokdad, Mariam Molokhia, 
+Lorenzo Monasta, Yoshan Moodley, Catrin E Moore, Ghobad Moradi, 
+Masoud Moradi, Mohammad Moradi-Joo, Maziar Moradi-Lakeh, 
+Paula Moraga, Linda Morales, Ilais Moreno Velásquez, Abbas Mosapour, 
+Simin Mouodi, Seyyed Meysam Mousavi, Miliva Mozaffor, 
+Kindie Fentahun Muchie, Getahun Fentaw Mulaw, Sandra B Munro, 
+Moses K Muriithi, Christoper J L Murray, GVS Murthy, 
+Kamarul Imran Musa, Ghulam Mustafa, Saravanan Muthupandian, 
+Ashraf F Nabhan, Mehdi Naderi, Ahamarshan Jayaraman Nagarajan, 
+Kovin S Naidoo, Gurudatta Naik, Farid Najafi, Vinay Nangia, 
+Jobert Richie Nansseu, Bruno Ramos Nascimento, Javad Nazari, 
+Duduzile Edith Ndwandwe, Ionut Negoi, Henok Biresaw Netsere, 
+Josephine W Ngunjiri, Cuong Tat Nguyen, Huong Lan Thi Nguyen, 
+Trang Huyen Nguyen, Dabere Nigatu, Solomon Gedlu Nigatu, 
+Dina Nur Anggraini Ningrum, Chukwudi A Nnaji, Marzieh Nojomi, 
+Vuong Minh Nong, Ole F Norheim, Jean Jacques Noubiap, 
+Soraya Nouraei Motlagh, Bogdan Oancea, Okechukwu Samuel Ogah, 
+Felix Akpojene Ogbo, In-Hwan Oh, Andrew T Olagunju, 
+Tinuke O Olagunju, Bolajoko Olubukunola Olusanya, 
+Jacob Olusegun Olusanya, Obinna E Onwujekwe, Eyal Oren, 
+Doris V Ortega-Altamirano, Osayomwanbo Osarenotor, Frank B Osei, 
+Mayowa O Owolabi, Mahesh P A, Jagadish Rao Padubidri, 
+Smita Pakhale, Sangram Kishor Patel, Angel J Paternina-Caicedo, 
+Ashish Pathak, George C Patton, Deepak Paudel, Kebreab Paulos, 
+Veincent Christian Filipino Pepito, Alexandre Pereira, Norberto Perico, 
+Aslam Pervaiz, Julia Moreira Pescarini, Bakhtiar Piroozi, 
+Meghdad Pirsaheb, Maarten J Postma, Hadi Pourjafar, 
+Farshad Pourmalek, Akram Pourshams, Hossein Poustchi, 
+Sergio I Prada, Narayan Prasad, Liliana Preotescu, Hedley Quintana, 
+Navid Rabiee, Amir Radfar, Alireza Rafiei, Fakher Rahim, 
+Afarin Rahimi-Movaghar, Vafa Rahimi-Movaghar, 
+Mohammad Hifz Ur Rahman, Muhammad Aziz Rahman, 
+Shafiur Rahman, Fatemeh Rajati, Saleem Muhammad Rana, 
+Chhabi Lal Ranabhat, Davide Rasella, David Laith Rawaf, Salman Rawaf, 
+Lal Rawal, Wasiq Faraz Rawasia, Vishnu Renjith, Andre M N Renzaho, 
+Serge Resnikoff, Melese Abate Reta, Negar Rezaei, 
+Mohammad Sadegh Rezai, Seyed Mohammad Riahi, Ana Isabel Ribeiro, 
+Jennifer Rickard, Maria Rios-Blancas, Leonardo Roever, Luca Ronfani, 
+Elias Merdassa Roro, Jennifer M Ross, Enrico Rubagotti, 
+Salvatore Rubino, Anas M Saad, Yogesh Damodar Sabde, Siamak Sabour, 
+Ehsan Sadeghi, Yahya Safari, Roya Safari-Faramani, Rajesh Sagar, 
+Amirhossein Sahebkar, Mohammad Ali Sahraian, S Mohammad Sajadi, 
+Mohammad Reza Salahshoor, Nasir Salam, Payman Salamati, 
+Hosni Salem, Marwa Rashad Salem, Yahya Salimi, 
+Hamideh Salimzadeh, Abdallah M Samy, Juan Sanabria, 
+Milena M Santric-Milicevic, Bruno Piassi Sao Jose, 
+Sivan Yegnanarayana Iyer Saraswathy, Kaushik Sarkar, 
+Abdur Razzaque Sarker, Nizal Sarrafzadegan, Benn Sartorius, 
+Brijesh Sathian, Thirunavukkarasu Sathish, Monika Sawhney, 
+Sonia Saxena, David C Schwebel, Anbissa Muleta Senbeta, 
+Subramanian Senthilkumaran, Sadaf G Sepanlou, Edson Serván-Mori, 
+Hosein Shabaninejad, Azadeh Shafieesabet, Masood Ali Shaikh, 
+Ali S Shalash, Seifadin Ahmed Shallo, Mehran Shams-Beyranvand, 
+MohammadBagher Shamsi, Morteza Shamsizadeh, 
+Mohammed Shannawaz, Kiomars Sharafi, Hamid Sharifi, 
+Hatem Samir Shehata, Aziz Sheikh, B Suresh Kumar Shetty, 
+Kenji Shibuya, Wondimeneh Shibabaw Shiferaw, 
+Desalegn Markos Shifti, Mika Shigematsu, Jae Il Shin, Rahman Shiri, 
+Reza Shirkoohi, Soraya Siabani, Tariq Jamal Siddiqi, 
+Diego Augusto Santos Silva, Ambrish Singh, Jasvinder A Singh, 
+Narinder Pal Singh, Virendra Singh, Malede Mequanent Sisay, 
+Eirini Skiadaresi, Mohammad Reza Sobhiyeh, Anton Sokhan, 
+Shahin Soltani, Ranjani Somayaji, Moslem Soofi, 
+Muluken Bekele Sorrie, Ireneous N Soyiri, 
+Chandrashekhar T Sreeramareddy, Agus Sudaryanto, 
+Mu’awiyyah Babale Sufiyan, Hafiz Ansar Rasul Suleria, Marufa Sultana, 
+Bruno Fokas Sunguya, Bryan L Sykes, Rafael Tabarés-Seisdedos, 
+Takahiro Tabuchi, Degena Bahrey Tadesse, Ingan Ukur Tarigan, 
+Aberash Abay Tasew, Yonatal Mesfin Tefera, 
+Merhawi Gebremedhin Tekle, Mohamad-Hani Temsah, 
+Berhe Etsay Tesfay, Fisaha Haile Tesfay, Belay Tessema, 
+Zemenu Tadesse Tessema, Kavumpurathu Raman Thankappan, 
+Nihal Thomas, Alemayehu Toma, Roman Topor-Madry, 
+Marcos Roberto Tovani-Palone, Eugenio Traini, Bach Xuan Tran, 
+Khanh Bao Tran, Irfan Ullah, Bhaskaran Unnikrishnan, 
+Muhammad Shariq Usman, Benjamin S Chudi Uzochukwu, 
+Pascual R Valdez, Santosh Varughese, Francesco S Violante, 
+Sebastian Vollmer, Feleke Gebremeskel W/hawariat, Yasir Waheed, 
+Mitchell Taylor Wallin, Yafeng Wang, Yuan-Pang Wang, Marcia Weaver, 
+Bedilu Girma Weji, Girmay Teklay Weldesamuel, Catherine A Welgan, 
+Andrea Werdecker, Ronny Westerman, Taweewat Wiangkham, 
+Charles Shey Wiysonge, Haileab Fekadu Wolde, 
+Dawit Zewdu Wondafrash, Tewodros Eshete Wonde, 
+Getasew Taddesse Worku, Ai-Min Wu, Gelin Xu, Ali Yadollahpour, 
+Seyed Hossein Yahyazadeh Jabbari, Tomohide Yamada, Hiroshi Yatsuya, 
+Alex Yeshaneh, Christopher Sabo Yilgwan, Mekdes Tigistu Yilma, 
+Paul Yip, Engida Yisma, Naohiro Yonemoto, Seok-Jun Yoon, 
+Mustafa Z Younis, Mahmoud Yousefifard, Hebat-Allah Salah A Yousof, 
+Chuanhua Yu, Hasan Yusefzadeh, Siddhesh Zadey, Zoubida Zaidi, 
+Sojib Bin Zaman, Mohammad Zamani, Hamed Zandian, 
+Nejimu Biza Zepro, Taddese Alemu Zerfu, Yunquan Zhang, 
+Xiu-Ju George Zhao, Arash Ziapour, Sanjay Zodpey, Yves Miel H Zuniga, 
+Simon I Hay*, Robert C Reiner Jr*.
+*Joint senior authors.
+Affiliations
+Institute for Health Metrics and Evaluation (K E Wiens PhD, 
+P A Lindstedt MPH, B F Blacker MPH, K B Johnson MS, 
+M M Baumann BS, L E Schaeffer MS, N M Cormier MPSA, 
+
+Articles
+e1051	
+www.thelancet.com/lancetgh   Vol 8   August 2020
+Prof L Dandona MD, Prof R Dandona PhD, A Deshpande MPH, 
+Prof S D Dharmaratne MD, Prof V L Feigin PhD, N J Henry BS, 
+K E LeGrand MPH, A J Levine MSPH, B K Mayala PhD, 
+Prof A H Mokdad PhD, S B Munro PhD, Prof C J L Murray DPhil, 
+J M Ross MD, M Weaver PhD, C A Welgan BS, Prof S I Hay FMedSci, 
+R C Reiner Jr PhD), Department of Health Metrics Sciences, School of 
+Medicine (Prof R Dandona, Prof S D Dharmaratne, Prof A H Mokdad, 
+Prof C J L Murray, Prof B Sartorius PhD, M Weaver, Prof S I Hay, 
+R C Reiner Jr), Department of Global Health (S Kochhar MD, J M Ross), 
+Division of Plastic and Reconstructive Surgery (B B Massenburg MD), 
+Department of Medicine (J M Ross, R Somayaji MD), University of 
+Washington, Seattle, WA, USA (Prof E Oren PhD); Advanced Diagnostic 
+and Interventional Radiology Research Center (H Abbastabar PhD), 
+Endocrinology and Metabolism Research Center (M Afarideh MD, 
+Prof A Esteghamati MD, S Esteghamati MD, B Heidari MD, 
+N Rezaei PhD), Digestive Diseases Research Institute 
+(A Anoushiravani MD, Prof R Malekzadeh MD, Prof A Pourshams MD, 
+H Poustchi PhD, H Salimzadeh PhD, S G Sepanlou MD), Multiple 
+Sclerosis Research Center (S Eskandarieh PhD, B Mohajer MD, 
+Prof M Sahraian MD), Non-communicable Diseases Research Center 
+(Prof F Farzadfar DSc, B Mohajer, F Mohebi MD, N Rezaei), Department 
+of Environmental Health Engineering (M Fazlzadeh PhD), School of 
+Medicine (N Hafezi-Nejad MD), Department of Pharmacology 
+(Arv Haj-Mirzaian MD), Department of Microbiology 
+(A Hasanzadeh PhD), Department of Epidemiology and Biostatistics 
+(Prof M Hosseini PhD, M Mansournia PhD), Pediatric Chronic Kidney 
+Disease Research Center (Prof M Hosseini), Hematology, Oncology and 
+Stem Cell Transplantation Research Center (A Kasaeian PhD), National 
+Institute of Health Research (F Mohebi), Department of Health Policy, 
+Management, and Economics (S Mousavi PhD), Metabolomics and 
+Genomics Research Center (F Rahim PhD), Iranian National Center for 
+Addiction Studies (Prof A Rahimi-Movaghar MD), Sina Trauma and 
+Surgery Research Center (Prof V Rahimi-Movaghar MD, 
+Prof P Salamati MD), Cancer Research Institute (R Shirkoohi PhD), 
+Cancer Biology Research Center (R Shirkoohi), Tehran University of 
+Medical Sciences, Tehran, Iran (A Etemadi PhD); Department of 
+Neurology (Prof F Abd-Allah MD, Prof A Abdelalim MD, 
+A Abualhasan MD, S I El-Jaafary MD, M I Hegazy PhD, 
+Prof H S Shehata MD), Neurophysiology Department 
+(Prof H R Elhabashy MD), Endemic Medicine and 
+Hepatogastroentrology Department (A Elsharkawy MD), National 
+Hepatology and Tropical Medicine Research Institute (A M Khater MD), 
+Department of Medical Parasitology (M M Khater MD, 
+H S A Yousof MD), Urology Department (Prof H Salem MD), Cairo 
+University, Cairo, Egypt; Neuroscience Research Center 
+(I Abdollahpour PhD), Isfahan Cardiovascular Research Institute 
+(N Mohammadifard PhD, Prof N Sarrafzadegan MD), Isfahan 
+University of Medical Sciences, Isfahan, Iran; Department of 
+Biostatistics (K H Abegaz MSc), Near East University, Nicosia, Cyprus; 
+Department of Biostatistics and Health Informatics (K H Abegaz), 
+Department of Public Health (G Alamene MPH), Department of 
+Medical Laboratory Science (M Hussen MSc), Madda Walabu University, 
+Bale Robe, Ethiopia; Department of Nursing (D H Haile MSc), College 
+of Health Sciences (G M Kassa MSc), Department of Public Health 
+(D B Ketema MPH, T E Wonde MPH), Debre Markos University, Debre 
+Markos, Ethiopia (A N Abejie MPH); Department of Pediatric Dentistry 
+(Prof L G Abreu PhD), Department of Maternal and Child Nursing and 
+Public Health (Prof D C Malta PhD), Department of Clinical Medicine 
+(Prof B R Nascimento PhD), Clinical Hospital (Prof B R Nascimento), 
+Department of Infectious Diseases and Tropical Medicine 
+(B P Sao Jose PhD), Federal University of Minas Gerais, Belo Horizonte, 
+Brazil; Department of Research (M R M Abrigo PhD), Philippine 
+Institute for Development Studies, Quezon City, Philippines; 
+Department of Disease Control (M M K Accrombessi PhD, J Cano PhD), 
+Department of Infectious Disease Epidemiology (O J Brady PhD), 
+Faculty of Infectious and Tropical Diseases (Prof B Sartorius), London 
+School of Hygiene & Tropical Medicine, London, UK; Clinical Research 
+and Operations (M M K Accrombessi), Foundation for Scientific 
+Research, Cotonou, Benin; Department of Preventive Medicine 
+(D Acharya MPH), Dongguk University, Gyeongju, South Korea; 
+Department of Community Medicine (D Acharya), Kathmandu 
+University, Devdaha, Nepal; Department of Environmental Health 
+Engineering (M Khazaei PhD, M Leili PhD), Department of 
+Epidemiology (S Khazaei PhD), Neurophysiology Research Center 
+(H Komaki MD), Department of Biostatistics 
+(N Mohammad Gholi Mezerji MSc), Hamadan University of Medical 
+Sciences, Hamadan, Iran (M Adabi PhD, 
+Prof R Mohammadibakhsh PhD); Department of Global Health 
+(A A Adamu PhD, O O Adetokunboh PhD, C J Iwu PhD), Centre for 
+Evidence Based Health Care (A Jaca PhD), Stellenbosch University, Cape 
+Town, South Africa; Cochrane South Africa (A A Adamu, 
+D E Ndwandwe PhD), Grants, Innovation and Product Development 
+Unit (P W Mahasha PhD), South African Medical Research Council, 
+Cape Town, South Africa (C J Iwu, A Jaca, C A Nnaji MPH, 
+Prof C S Wiysonge MD); College of Medicine (O M Adebayo MD), 
+Department of Community Medicine (O S Ilesanmi PhD), Department 
+of Medicine (Prof M O Owolabi DrM), University College Hospital, 
+Ibadan, Ibadan, Nigeria; Department of Medical Rehabilitation 
+(Prof R A Adedoyin PhD), Department of Child Dental Health 
+(Prof M O Folayan FWACS), Obafemi Awolowo University, Ile-Ife, 
+Nigeria; School of Medicine (V Adekanmbi PhD), Cardiff University, 
+Cardiff, UK; Centre of Excellence for Epidemiological Modelling and 
+Analysis (O O Adetokunboh), Stellenbosch University, Stellenbosch, 
+South Africa; School of Public Health (B M Adhena MPH, 
+G G Meles MPH, F H Tesfay PhD), Department of Nursing 
+(G G Gebremeskel MSc), Department of Epidemiology 
+(H A Gesesew PhD), Department of Biostatistics (K Gezae MSc, 
+A A Tasew MSc), Department of Medical Parasitology and Entomology 
+(G B Hailu MSc), Department of Nutrition and Dietetics 
+(A Kahsay MPH), Department of Microbiology and Immunology 
+(S Muthupandian PhD), Department of Pharmacology and Toxicology 
+(D Z Wondafrash MSc), Mekelle University, Mekelle, Ethiopia; 
+Department of Dermatology (M Afarideh), Mayo Clinic, Rochester, MN, 
+USA; Faculty of Pharmacy (S Ahmad MSc), Mahsa University, Kuala 
+Langat, Malaysia; Lincoln Medical School (K Ahmadi PhD), Universities 
+of Nottingham & Lincoln, Lincoln, UK; Economics and Rural 
+Development Department (A E Ahmed PhD), University of Gezira, 
+Wad Madani, Sudan; Department of Epidemiology (M B Ahmed MPH), 
+Department of Psychiatry (M S Daba MSc), School of Nursing 
+(A B Demis MSc), Department of Environmental Health Sciences and 
+Technology (S Mereta PhD), Jimma University, Jimma, Ethiopia; 
+Australian Center for Precision Health (M B Ahmed), University of 
+South Australia, Adelaide, SA, Australia; James P Grant School of Public 
+Health (R Ahmed MPH, R Das Gupta MPH), BRAC University, Dhaka, 
+Bangladesh; Health Systems and Population Studies Division 
+(R Ahmed), Nutrition and Clinical Services Division (M Sultana MPH), 
+Maternal and Child Health Division (S Zaman MPH), International 
+Centre for Diarrhoeal Disease Research, Bangladesh, Dhaka, 
+Bangladesh; Department of Epidemiology and Biostatistics 
+(T Y Akalu MPH, S G Nigatu MPH, M M Sisay MPH, Z T Tessema MSc, 
+H F Wolde MPH), Institute of Public Health (W F Chanie MPH, 
+G D Demissie MPH), School of Nursing (H B Netsere MS), Department 
+of Medical Microbiology (B Tessema PhD), University of Gondar, 
+Gondar, Ethiopia; Mayo Evidence-Based Practice Center 
+(F Alahdab MSc), Mayo Clinic Foundation for Medical Education and 
+Research, Rochester, MN, USA; John T. Milliken Department of Internal 
+Medicine (Z Al-Aly MD), Washington University in St. Louis, St. Louis, 
+MO, USA; Clinical Epidemiology Center (Z Al-Aly), Department of 
+Veterans Affairs, St Louis, MO, USA; Prevention Division 
+(N Alam MPH), Queensland Health, Brisbane, QLD, Australia; Centre 
+for Environment and Population Health (N Alam), Griffith University, 
+Nathan, Australia; Community Health and Epidemiology (S Alam MSc), 
+Dalhousie University, Halifax, NS, Canada; Health Information 
+Management and Technology Department (T M Alanzi PhD), Forensic 
+Medicine Division (Prof R G Menezes MD), Imam Abdulrahman Bin 
+Faisal University, Dammam, Saudi Arabia; Center for Health System 
+Research (J E Alcalde-Rabanal PhD), Health and Nutrition Research 
+Center (I R Campos-Nonato PhD), Center for Nutrition and Health 
+Research (E Denova-Gutiérrez DSc), Center for Population Health 
+Research (L Morales MSc), Center for Health System Research 
+(M Rios-Blancas MPH, E Serván-Mori PhD), Health Systems Research 
+Center (D V Ortega-Altamirano DrPH), National Institute of Public 
+
+Articles
+www.thelancet.com/lancetgh   Vol 8   August 2020	
+e1052
+Health, Cuernavaca, Mexico; Erbil Technical Health College 
+(B A Ali PhD), Erbil Polytechnic University, Erbil, Iraq; School of 
+Pharmacy (B A Ali), Tishk International University, Erbil, Iraq 
+(K A Mohammad PhD); Social Determinants of Health Research Center 
+(M Alijanzadeh PhD), Qazvin University of Medical Sciences, Qazvin, 
+Iran; Health Management and Economics Research Center 
+(V Alipour PhD, J Arabloo PhD, S Azari PhD, A Ghashghaee BSc), 
+Health Economics Department (V Alipour), Preventive Medicine and 
+Public Health Research Center (M Asadi-Aliabadi MSc, E Babaee PhD, 
+M Moradi-Lakeh MD, Prof M Nojomi MD), Student Research 
+Committee (A Ghashghaee), Minimally Invasive Surgery Research 
+Center (A Kabir MD), Pars Advanced and Minimally Invasive Medical 
+Manners Research Center (A Kasaeian), Department of Neurosurgery 
+(M Khosravi MD), Department of Ophthalmology (N Manafi MD), 
+Department of Community and Family Medicine (Prof M Nojomi), 
+Department of Health Services Management (H Shabaninejad PhD), 
+Physiology Research Center (M Yousefifard PhD), Iran University of 
+Medical Sciences, Tehran, Iran; Department of Health Policy and 
+Management (Prof S M Aljunid PhD), Kuwait University, Safat, Kuwait; 
+International Centre for Casemix and Clinical Coding 
+(Prof S M Aljunid), National University of Malaysia, Bandar Tun Razak, 
+Malaysia; Department of Environmental Health Engineering 
+(Prof A Almasi PhD), Infectious Disease Research Center 
+(Prof K Ghadiri MD), Pediatric Department (Prof K Ghadiri), Medical 
+Biology Research Center (F Heydarpour PhD), Health Institute 
+(A Jalali PhD), Substance Abuse Prevention Research Center (A Jalali), 
+Research Center for Environmental Determinants of Health 
+(Prof B Karami Matin PhD, A Kazemi Karyani PhD, M Moradi PhD, 
+Prof F Najafi PhD, Prof M Pirsaheb PhD, F Rajati PhD, 
+Prof E Sadeghi PhD, Y Safari PhD, K Sharafi PhD, S Soltani PhD), 
+Department of Public Health (A Kazemi Karyani), Clinical Research 
+Development Center (M Naderi PhD), Department of Epidemiology and 
+Biostatistics (Prof F Najafi, Y Salimi PhD), Faculty of Public Health 
+(R Safari-Faramani PhD), Department of Anatomical Sciences 
+(M R Salahshoor PhD), Social Development and Health Promotion 
+Research Center (Y Salimi, M Soofi PhD), Department of Sports 
+Medicine and Rehabilitation (M Shamsi PhD), Department of Health 
+Education and Health Promotion (S Siabani PhD, A Ziapour PhD), 
+Department of Vascular and Endovascular Surgery (M Sobhiyeh MD), 
+Kermanshah University of Medical Sciences, Kermanshah, Iran; 
+Department of Epidemiology (A Almasi-Hashiani PhD), Health Services 
+Management Department (S Amini PhD), Department of Pediatrics 
+(J Nazari MD), Arak University of Medical Sciences, Arak, Iran; Medical 
+Research Center (H M Al-Mekhlafi PhD), Jazan University, Jazan, Saudi 
+Arabia (Prof N Bedi MD); Department of Parasitology 
+(H M Al-Mekhlafi), Sana’a University, Sana’a, Yemen; Pediatric Intensive 
+Care Unit (K A Altirkawi MD, M Temsah MD), Internal Medicine 
+Department (Y Mohammad MD), King Saud University, Riyadh, 
+Saudi Arabia; Research Group in Health Economics 
+(Prof N Alvis-Guzman PhD), University of Cartagena, Cartagena, 
+Colombia; Research Group in Hospital Management and Health Policies 
+(Prof N Alvis-Guzman), Department of Economic Sciences 
+(N J Alvis-Zakzuk MSc), University of the Coast, Barranquilla, Colombia; 
+National Health Observatory (N J Alvis-Zakzuk), Colombian National 
+Health Observatory (C A Castañeda-Orjuela MD), National Institute of 
+Health, Bogota, Colombia; Department of Epidemiology and 
+Biostatistics (A L Amit BS), Department of Health Policy and 
+Administration (C T Antonio MD), Department of Nutrition 
+(J F Lopez MD), University of the Philippines Manila, Manila, 
+Philippines; School of Public Health (A L Amit), Department of 
+Epidemiology (M Bairwa MD), Department of Radiology and 
+Radiological Sciences (N Hafezi-Nejad, Ary Haj-Mirzaian MD), Center 
+for Clinical Global Health Education (S R Atre PhD), Johns Hopkins 
+University, Baltimore, MD, USA; Cardiology Department 
+(C Andrei PhD), Department of General Surgery (D V Davitoiu PhD, 
+A Manda MD, I Negoi PhD), Department of Infectious Diseases 
+(L Preotescu PhD), Carol Davila University of Medicine and Pharmacy, 
+Bucharest, Romania; Social Determinants of Health Research Center 
+(M Anjomshoa PhD), Rafsanjan University of Medical Sciences, 
+Rafsanjan, Iran; Research Center for Evidence Based Medicine 
+(F Ansari PhD), School of Nursing and Midwifery 
+(H Hassankhani PhD), Tabriz University of Medical Sciences, Tabriz, 
+Iran (H Haririan PhD); Razi Vaccine and Serum Research Institute 
+(F Ansari), Agricultural Research, Education, and Extension 
+Organization, Tehran, Iran; Department of Applied Social Sciences 
+(C T Antonio), School of Nursing (P H Lee PhD), Hong Kong 
+Polytechnic University, Hong Kong, China; Menzies Institute for 
+Medical Research (B Antony PhD, A Singh MTech), University of 
+Tasmania, Hobart, TAS, Australia; Agribusiness Study Program 
+(E Antriyandarti DrAgrSc), Sebelas Maret University, Surakarta, 
+Indonesia; Neurology Department (Prof H M A Aref PhD, 
+Prof N El Nahas MD, Prof A S Shalash PhD), Department of Obstetrics 
+and Gynecology (Prof A F Nabhan PhD), Department of Entomology 
+(A M Samy PhD), Ain Shams University, Cairo, Egypt; Department of 
+Public Health (O Aremu PhD), Birmingham City University, 
+Birmingham, UK; Social Determinants of Health Research Center 
+(B Armoon PhD), Saveh University of Medical Sciences, Saveh, Iran; 
+Social Determinants of Health Research Center (B Armoon), Yasuj 
+University of Medical Sciences, Yasuj, Iran; School of Health Sciences 
+(A Arora PhD), Western Sydney University, Campbelltown, NSW, 
+Australia; Disciple of Child and Adolescent Health (A Arora), University 
+of Sydney, Westmead, NSW, Australia; Monitoring Evaluation and 
+Operational Research Project (K K Aryal PhD), Abt Associates Nepal, 
+Lalitpur, Nepal; School of Nursing and Midwifery (A Arzani DrPH), 
+Social Determinants of Health Research Center (A Bijani PhD, 
+S Mouodi PhD), Department of Clinical Biochemistry 
+(A Mosapour PhD), Student Research Committee (M Zamani MD), 
+Babol University of Medical Sciences, Babol, Iran (A Arzani); 
+Department of Nursing (H T Atalay MSc, G G Gebremeskel, 
+D B Tadesse MSc, G T Weldesamuel MSc), School of Pharmacy 
+(G T Demoz MSc, G G Kasahun MSc), Department of Biomedical 
+Sciences (G G Kassa MSc), Aksum University, Aksum, Ethiopia; 
+Department of Immunology (S Athari MPH), Zanjan University of 
+Medical Sciences, Iran; Department of Biology (S Athari), Department of 
+Pharmacology and Toxicology (A Eftekhari PhD), Department of 
+Healthcare Management (E Hasanpoor PhD), Department of 
+Microbiology (A Hasanzadeh), Department of Nutrition and Food 
+Sciences (H Pourjafar PhD), Maragheh University of Medical Sciences, 
+Maragheh, Iran; Dr DY Patil Medical College, Hospital and Research 
+Centre (S R Atre), Dr DY Patil Vidyapeeth, Pune, India; School of 
+Business (Prof M Ausloos PhD), University of Leicester, Leicester, UK; 
+Department of Statistics and Econometrics (Prof M Ausloos, 
+Prof C Herteliu PhD), Bucharest University of Economic Studies, 
+Bucharest, Romania; Department of Nursing (N Awoke MSc, 
+T Y Chichiabellu MSc), Department of Dermatology (A G Kelbore MSc), 
+School of Public Health (T L Lenjebo MPH), Department of Midwifery 
+(K Paulos MSc), Wolaita Sodo University, Wolaita Sodo, Ethiopia; The 
+Judith Lumley Centre (B Ayala Quintanilla PhD), School of Nursing and 
+Midwifery (Mu Rahman PhD), La Trobe University, Melbourne, VIC, 
+Australia; General Office for Research and Technological Transfer 
+(B Ayala Quintanilla), Peruvian National Institute of Health, Lima, Peru; 
+School of Public Health (G Ayano MSc, B Duko MPH, D Hendrie PhD, 
+T R Miller PhD), Curtin University, Perth, WA, Australia; Department of 
+Health Policy Planning and Management (M A Ayanore PhD), 
+Department of Family and Community Health (N Kugbey PhD), 
+University of Health and Allied Sciences, Ho, Ghana; Department of 
+Nursing (Y A Aynalem MSc, W S Shiferaw MSc), Debre Berhan 
+University, Debre Berhan, Ethiopia; Global Adolescent Health Group 
+(P S Azzopardi PhD), Burnet Institute, Melbourne, VIC, Australia; 
+Wardliparingga Aboriginal Research Unit (P S Azzopardi), South 
+Australian Health and Medical Research Institute, Adelaide, SA, 
+Australia; Department of Public Health Medicine (T K Babalola MSc), 
+Discipline of Public Health Medicine (T G Ginindza PhD), Department 
+of Psychology and Health Promotion (N Kugbey), Discipline of 
+Optometry (Prof K S Naidoo PhD), University of KwaZulu-Natal, 
+Durban, South Africa (T G Ginindza); Department of Community 
+Health and Primary Care (T K Babalola), Department of Psychiatry 
+(A T Olagunju MD), University of Lagos, Lagos, Nigeria; Public Health 
+Risk Sciences Division (A Badawi PhD), Public Health Agency of 
+Canada, Toronto, ON, Canada; Department of Nutritional Sciences 
+(A Badawi), Centre for Global Child Health (Prof Z A Bhutta PhD), 
+Department of Medicine (V Chattu MD), University of Toronto, Toronto, 
+
+Articles
+e1053	
+www.thelancet.com/lancetgh   Vol 8   August 2020
+ON, Canada; Centre for Community Medicine (M Bairwa), Department 
+of Paediatrics (Prof R Lodha MD), Department of Psychiatry 
+(Prof R Sagar MD), All India Institute of Medical Sciences, New Delhi, 
+India; Department of Forensic Medicine and Toxicology 
+(S M Bakkannavar MD), Centre for Bio Cultural Studies 
+(P Hoogar PhD), Manipal Academy of Higher Education, Manipal, India 
+(Prof V Jha MD); Department of Medical Microbiology 
+(S Balakrishnan PhD), School of Public Health (A G Bali MPH, 
+W F Chanie, M G Tekle MPH), School of Pharmacy 
+(H A Bojia BPharm), School of Nursing and Midwifery 
+(A Desalew MSc), Haramaya University, Harar, Ethiopia; Department of 
+Hypertension (Prof M Banach PhD), Medical University of Lodz, Lodz, 
+Poland; Polish Mothers’ Memorial Hospital Research Institute, Lodz, 
+Poland (Prof M Banach); Department of Internal Medicine 
+(J A M Banoub MRCP), University of London, London, UK; Department 
+of General Medicine (J A M Banoub), Biomedical Informatics and 
+Medical Statistics Department (I El Sayed PhD), Pediatric Dentistry and 
+Dental Public Health Department (Prof M El Tantawi PhD), Alexandria 
+University, Alexandria, Egypt; Clinic for Infectious and Tropical Diseases 
+(A Barac PhD), Clinical Center of Serbia, Belgrade, Serbia; Faculty of 
+Medicine (A Barac, Prof M M Santric-Milicevic PhD), Institute of 
+Microbiology and Immunology (E Dubljanin PhD), School of Public 
+Health and Health Management (Prof M M Santric-Milicevic), 
+University of Belgrade, Belgrade, Serbia; Heidelberg Institute of Global 
+Health (Prof T W Bärnighausen MD, B Moazen MSc, 
+S Mohammed PhD), Heidelberg University, Heidelberg, Germany; 
+T.H. Chan School of Public Health (Prof T W Bärnighausen), Center for 
+Primary Care (S Basu PhD), Harvard Medical School 
+(M U G Kraemer PhD), Brigham and Women’s Hospital (V Kumar MD), 
+Department of Global Health and Population (Prof O F Norheim PhD, 
+Prof S Vollmer PhD), Department of Genetics (A Pereira PhD), Division 
+of General Internal Medicine (Prof A Sheikh MD), Harvard University, 
+Boston, MA, USA; School of Public Health and Community Medicine 
+(Prof H Basaleem PhD), Aden College, Aden, Yemen; School of Public 
+Health (S Basu, Prof S Saxena MD), Department of Primary Care and 
+Public Health (J Car PhD, Prof A Majeed MD, Prof S Rawaf MD), 
+Department of Surgery and Cancer (Prof A C Davis PhD), Imperial 
+College Business School (D Kusuma DSc), WHO Collaborating Centre 
+for Public Health Education and Training (D L Rawaf MD), Imperial 
+College London, London, UK; Information Technology (V Bay PhD), Ho 
+Chi Minh City University of Technology, Ho Chi Minh City, Vietnam; 
+Health Human Resources Research Center (M Bayati PhD), Department 
+of Environmental Health (M Hoseini PhD), Research Center for Health 
+Sciences, Institute of Health (M Hoseini), Non-communicable Disease 
+Research Center (Prof R Malekzadeh, S G Sepanlou), Shiraz University 
+of Medical Sciences, Shiraz, Iran; School of Public Health (E Baye PhD), 
+Department of Pharmacy (Y M Belayneh MSc, B Meharie MSc), 
+Department of Public Health (T C Mekonnen MPH), Department of 
+Environmental Health (Y M Tefera MSc), Wollo University, Dessie, 
+Ethiopia; Department of Community Medicine (Prof N Bedi), Gandhi 
+Medical College Bhopal, Bhopal, India; Department of Physical Medicine 
+and Rehabilitation (M Beheshti MD), New York University, New York, 
+NY, USA; Social Determinants of Health Research Center 
+(Ma Behzadifar PhD), Department of Epidemiology and Biostatistics 
+(Me Behzadifar MSc), Department of Public Health 
+(M Imani-Nasab PhD, S Nouraei Motlagh PhD), Lorestan University of 
+Medical Sciences, Khorramabad, Iran; Department of Public Health 
+(B Bekele MPH, H Y Hassen MPH), Mizan-Tepi University, Mizan 
+Teferi, Ethiopia; Doctoral School of Health Sciences (B Bekele), 
+University of Debrecen, Debrecen, Hungary; School of the Environment 
+(Prof M L Bell PhD), Yale University, New Haven, CT, USA; Nuffield 
+Department of Population Health (D A Bennett PhD, M A Karim MD, 
+B Lacey PhD), Department of Zoology (M U G Kraemer), Big Data 
+Institute (C E Moore PhD), University of Oxford, Oxford, UK; 
+Department of Public Health (D A Berbada MPH, M B Sorrie MPH, 
+F G W/hawariat MPH), Faculty of Business and Economics 
+(G T Worku MPH), Arba Minch University, Arba Minch, Ethiopia; 
+Hubert Department of Global Health (R S Bernstein MD), Division of 
+Cardiology (Prof J Shin MD), Emory University, Atlanta, GA, USA; 
+Department of Global Health (R S Bernstein), University of South 
+Florida, Tampa, FL, USA; Division of General Internal Medicine 
+(A G Bhat MD), University of Massachusetts Medical School, 
+Springfield, MA, USA; Department of Statistical and Computational 
+Genomics (K Bhattacharyya MSc), National Institute of Biomedical 
+Genomics, Kalyani, India; Department of Statistics (K Bhattacharyya), 
+University of Calcutta, Kolkata, India; Department of Global Health 
+(S Bhattarai MD), Global Institute for Interdisciplinary Studies, 
+Kathmandu, Nepal; Injury Division (S Bhaumik MBBS), The George 
+Institute for Global Health (Prof V Jha), New Delhi, India; The George 
+Institute for Global Health (S Bhaumik), Transport and Road Safety 
+Research Centre (R Biswas MSc, S Boufous PhD), School of Public 
+Health and Community Medicine (S Karki PhD), School of Optometry 
+and Vision Science (Prof K S Naidoo, Prof S Resnikoff MD), University 
+of New South Wales, Sydney, NSW, Australia; Centre of Excellence in 
+Women & Child Health (Prof Z A Bhutta), Division of Women and Child 
+Health (J K Das MD), Aga Khan University, Karachi, Pakistan; 
+Mario Negri Institute for Pharmacological Research, Ranica, Italy 
+(B Bikbov MD); Ethiopian Public Health Institute, Addis Ababa, Ethiopia 
+(B M Birihane MSc); Department of Nursing (B M Birihane), Debre 
+Tabor University, Debretabor, Ethiopia; School of Health Sciences 
+(R Biswas), Swinburne University of Technology, Melbourne, VIC, 
+Australia; Department of Veterinary Medicine (S Bohlouli PhD), Islamic 
+Azad University, Kermanshah, Iran; University of Genoa, Genoa, Italy 
+(N L Bragazzi PhD); Department of Biomedical Technologies 
+(A N Briko MSc), Bauman Moscow State Technical University, Moscow, 
+Russia; Department of Epidemiology and Evidence Based Medicine 
+(Prof N I Briko DSc), N A Semashko Department of Public Health and 
+Healthcare (Prof M Jakovljevic PhD), I.M. Sechenov First Moscow State 
+Medical University, Moscow, Russia; Neuroscience Unit 
+(G B Britton PhD), Institute for Scientific Research and High 
+Technology Services, Panama City, Panama; Gorgas Memorial Institute 
+for Health Studies, Panama City, Panama (G B Britton, F Castro MD, 
+I Moreno Velásquez PhD, H Quintana PhD); Department of Community 
+Medicine (Prof S Burugina Nagaraja MD), Employee State Insurance 
+Post Graduate Institute of Medical Sciences and Research, Bangalore, 
+India; Department of Health Care Management (Prof R Busse PhD), 
+Technical University of Berlin, Berlin, Germany; School of Public Health 
+and Health Systems (Z A Butt PhD), University of Waterloo, Waterloo, 
+ON, Canada; Al Shifa School of Public Health (Z A Butt), Al Shifa Trust 
+Eye Hospital, Rawalpindi, Pakistan; Internal Medicine Department 
+(Prof L L A Cámera MD), Hospital Italiano de Buenos Aires, Buenos 
+Aires, Argentina; Board of Directors (Prof L L A Cámera), Argentine 
+Society of Medicine, Buenos Aires, Argentina (Prof P R Valdez MEd); 
+Centre for Population Health Sciences (J Car), Nanyang Technological 
+University, Singapore, Singapore; Department of Health Care 
+(Prof R Cárdenas DSc), Metropolitan Autonomous University, Mexico 
+City, Mexico; Research Unit on Applied Molecular Biosciences 
+(Prof F Carvalho PhD, V M Costa PhD), Associated Laboratory for Green 
+Chemistry (Prof E Fernandes PhD, N G M Gomes PhD), Department of 
+Chemistry (N G M Gomes), EPIUnit—Public Health Institute University 
+Porto (A Ribeiro PhD), University of Porto, Porto, Portugal; 
+Epidemiology and Public Health Evaluation Group 
+(C A Castañeda-Orjuela), Department of Public Health 
+(Prof F P De la Hoz PhD), National University of Colombia, Bogota, 
+Colombia; Division of Epidemiology and Communicable Diseases 
+(P Chatterjee MD), Indian Council of Medical Research, New Delhi, 
+India (Prof L Dandona); Department of Epidemiology and Preventive 
+Medicine (K L Chin PhD, Prof Y Guo PhD), School of Public Health and 
+Preventive Medicine (S Li PhD), The School of Clinical Sciences at 
+Monash Health (S Zaman), Monash University, Melbourne, VIC, 
+Australia; Melbourne Medical School (K L Chin), University of 
+Melbourne, Parkville, VIC, Australia; Department of Pulmonary 
+Medicine (Prof D J Christopher MD), Department of Endocrinology, 
+Diabetes and Metabolism (Prof N Thomas PhD), Department of 
+Nephrology (Prof S Varughese FRCP), Christian Medical College and 
+Hospital, Vellore, India; Faculty of Biology (D Chu PhD), Hanoi National 
+University of Education, Hanoi, Vietnam; Research Unit and Training 
+Consortium on Emerging Diseases and Climate Change 
+(C Culquichicon MD), Peruvian University Cayetano Heredia, Lima, 
+Peru; Clinical Dermatology, IRCCS Istituto Ortopedico Galeazzi 
+(G Damiani MD), Department of Clinical Sciences and Community 
+Health (Prof C La Vecchia MD), University of Milan, Milan, Italy; 
+
+Articles
+www.thelancet.com/lancetgh   Vol 8   August 2020	
+e1054
+Department of Dermatology (G Damiani), Department of Nutrition and 
+Preventive Medicine (Prof J Sanabria MD), Case Western Reserve 
+University, Cleveland, OH, USA; Health Policy Research 
+(M R Mathur PhD), Indian Institute of Public Health 
+(Prof S Zodpey PhD), Public Health Foundation of India, Gurugram, 
+India (Prof L Dandona, Prof R Dandona, G Kumar PhD, D K Lal MD); 
+Institute for Global Health Innovations (A K Dang MD, 
+C T Nguyen MPH, H L T Nguyen MPH, V M Nong MPH), Institute of 
+Research and Development (M Hosseinzadeh PhD), Duy Tan University, 
+Da Nang, Vietnam; Department of Information Technology 
+(A M Darwesh PhD), Department of Computer Science 
+(M Hosseinzadeh PhD), University of Human Development, 
+Sulaymaniyah, Iraq; Department of Pediatrics 
+(A H Darwish DipLangStud), Tanta University, Tanta, Egypt; 
+Toxoplasmosis Research Center (Prof A Daryani PhD), Department of 
+Medical Parasitology (Prof R Faridnia PhD), Department of Immunology 
+(Prof A Rafiei PhD), Molecular and Cell Biology Research Center 
+(Prof A Rafiei), Pediatric Infectious Diseases Research Center 
+(Prof M Rezai MD), Mazandaran University of Medical Sciences, Sari, 
+Iran; Department of Epidemiology and Biostatistics (R Das Gupta), 
+University of South Carolina, Columbia, SC, USA; Central University 
+Tami Nadu, Thiruvarur, India (Prof A P Dash DSc); Department of 
+Global Health and Infection (Prof G Davey MD), Wellcome Trust 
+Brighton and Sussex Centre for Global Health Research (K Deribe PhD), 
+Brighton and Sussex Medical School, Brighton, UK; School of Public 
+Health (Prof G Davey, K Deribe, E M Roro MPH), Center for Food 
+Science and Nutrition (T B Elema MA), Department of Nursing and 
+Midwifery (K B Gebremedhin MSc), Department of Pharmacology 
+(D Z Wondafrash), School of Allied Health Sciences (E Yisma MSc), 
+Addis Ababa University, Addis Ababa, Ethiopia (G T Demoz); 
+Department of Population and Development 
+(C A Dávila-Cervantes PhD), Latin American Faculty of Social Sciences 
+Mexico, Mexico City, Mexico; Ear Institute (Prof A C Davis), Division of 
+Psychology and Language Sciences (M Kumar PhD), Institute of Child 
+Health (K Sarkar MD), University College London, London, UK; 
+Department of Surgery (D V Davitoiu), Clinical Emergency Hospital Sf. 
+Pantelimon, Bucharest, Romania; Department of Nursing (A B Demis), 
+Department of Public Health (G F Mulaw MPH), Department of Medical 
+Laboratory Science (M A Reta MSc), Woldia University, Woldia, Ethiopia; 
+Neonatal Nursing Department (D B Demissie MSc), Anesthesia 
+Department (B G Weji MSc), St. Paul’s Hospital Millennium Medical 
+College, Addis Ababa, Ethiopia (D Shifti MSc); Department of Public 
+Health (T Kolola MPH, S A Shallo MPH), Ambo University, Ambo, 
+Ethiopia (D B Demissie); Department of Community Medicine 
+(Prof S D Dharmaratne), University of Peradeniya, Peradeniya, 
+Sri Lanka; Department of Mathematical Demography & Statistics 
+(P Dhillon PhD), Department of Population Studies (J Khan MPhil), 
+International Institute for Population Sciences, Mumbai, India 
+(P Kumar PhD); Health Research Section (M Dhimal PhD), Nepal 
+Health Research Council, Kathmandu, Nepal; Department of 
+Microbiology (G P Dhungana MSc), Far Western University, 
+Mahendranagar, Nepal; Center of Complexity Sciences 
+(Prof D Diaz PhD), National Autonomous University of Mexico, Mexico 
+City, Mexico; Faculty of Veterinary Medicine and Zootechnics 
+(Prof D Diaz), Autonomous University of Sinaloa, Culiacan Rosales, 
+Mexico; Department of Health Promotion and Education 
+(I O Dipeolu PhD, S E Ibitoye MPH), Department of Community 
+Medicine (O S Ilesanmi), Department of Medicine (O S Ogah PhD, 
+Prof M O Owolabi), University of Ibadan, Ibadan, Nigeria; Development 
+of Research and Technology Center (S Djalalinia PhD), Ministry of 
+Health and Medical Education, Tehran, Iran; School of Medicine 
+(Prof K E Doyle PhD), School of Health Sciences 
+(N D D Manohar MPH), Translational Health Research Institute 
+(F A Ogbo PhD), Western Sydney University, Sydney, NSW, Australia; 
+Health Sciences (Prof K E Doyle), Royal Melbourne Institute of 
+Technology University, Melbourne, VIC, Australia; School of Public 
+Health (B Duko, Y C Kasahun MPH), Department of Pharmacy 
+(A Toma PhD), Hawassa University, Hawassa, Ethiopia; School of 
+Medicine (Prof A R Duraes PhD), Institute of Collective Health 
+(Prof D Rasella PhD), Institute of Public Health (Prof D Rasella), Federal 
+University of Bahia, Salvador, Brazil; Department of Internal Medicine 
+(Prof A R Duraes), Bahiana School of Medicine and Public Health, 
+Salvador, Brazil; Department of Epidemiology (M Ebrahimi Kalan MSc), 
+Florida International University, Miami, FL, USA; School of Health 
+Sciences (H A Edinur PhD), Universiti Sains Malaysia, Kubang Kerian, 
+Kelantan, Malaysia; Centre Clinical Epidemiology and Biostatistics 
+(A Effiong MB), School of Medicine and Public Health (M N Khan MSc), 
+University of Newcastle, Newcastle, NSW, Australia; Department of 
+Pharmacology and Toxicology (A Eftekhari), The John Paul II Catholic 
+University of Lublin, Lublin, Poland; Department of Clinical Pathology 
+(Prof M El Sayed Zaki PhD), Mansoura University, Mansoura, Egypt; 
+Department of Food Science and Nutrition (T B Elema), Arsi University, 
+Asella, Ethiopia; Department of Community Medicine (H Elkout PhD), 
+Tripoli University, Tripoli, Libya; Health Information (H Elkout), WHO, 
+Tripoli, Libya; Eijkman-Oxford Clinical Research Unit (I R Elyazar PhD), 
+Eijkman Institute for Molecular Biology, Jakarta, Indonesia; Department 
+of Pediatrics and Child Health Nursing (A Endalamaw MSc), 
+Department of Epidemiology and Biostatistics (K M Mihretie MPH, 
+K Muchie MSc), Department of Reproductive Health and Population 
+Studies (D Nigatu MPH), Bahir Dar University, Bahir Dar, Ethiopia; 
+Department of Midwifery (D A Endalew MSc, A Yeshaneh MSc), Wolkite 
+University, Wolkite, Ethiopia; Division of Cancer Epidemiology and 
+Genetics (A Etemadi), National Cancer Institute, Bethesda, MD, USA; 
+Independent Consultant, Awka, Nigeria (O Ezekannagha PhD); 
+International Institute for Tropical Agriculture, Ibadan, Nigeria 
+(O Ezekannagha); College of Medicine (M Fareed PhD), Imam 
+Mohammad Ibn Saud Islamic University, Riyadh, Saudi Arabia; 
+Department of Environmental Health Engineering (M Fazlzadeh), Social 
+Determinants of Health Research Center (H Zandian PhD), Department 
+of Community Medicine (H Zandian), Ardabil University of Medical 
+Science, Ardabil, Iran; National Institute for Stroke and Applied 
+Neurosciences (Prof V L Feigin), Auckland University of Technology, 
+Auckland, New Zealand; Research Center of Neurology, Moscow, Russia 
+(Prof V L Feigin); Department of Neurobiology (S Fereshtehnejad PhD), 
+Department of Medicine-Huddinge (D K Mohammad PhD), Global 
+Public Health-Health Systems and Policy: Medicines Focusing 
+Antibiotics (Prof A Pathak PhD), Karolinska Institutet, Stockholm, 
+Sweden; Division of Neurology (S Fereshtehnejad), University of Ottawa, 
+Ottawa, ON, Canada; Psychiatry Department (I Filip MD), Kaiser 
+Permanente, Fontana, CA, USA; School of Health Sciences (I Filip), 
+College of Graduate Health Sciences (A Radfar MD), AT Still University, 
+Mesa, AZ, USA; Institute of Gerontological Health Services and Nursing 
+Research (F Fischer PhD), Ravensburg-Weingarten University of Applied 
+Sciences, Weingarten, Germany; Institute of Gerontology 
+(N A Foigt PhD), National Academy of Medical Sciences of Ukraine, 
+Kyiv, Ukraine; Abadan Faculty of Medical Sciences (M Foroutan PhD), 
+Abadan School of Medical Sciences, Abadan, Iran; School of Public 
+Health, Medical, and Veterinary Sciences (R C Franklin PhD), James 
+Cook University, Douglas, QLD, Australia; Department of Dermatology 
+(T Fukumoto PhD), Kobe University, Kobe, Japan; Gene Expression & 
+Regulation Program (T Fukumoto), The Wistar Institute, Philadelphia, 
+PA, USA; Department of Cardiovascular Medicine (M M Gad MD), 
+Heart and Vascular Institute (A M Saad MD), Cleveland Clinic, 
+Cleveland, OH, USA; Gillings School of Global Public Health 
+(M M Gad), University of North Carolina Chapel Hill, Chapel Hill, NC, 
+USA; Department of Nursing (R T Gayesa MSc), School of Nursing and 
+Midwifery (H K Kasaye MSc), Department of Public Health (E M Roro), 
+Department of Public Health (M T Yilma MPH), Wollega University, 
+Nekemte, Ethiopia; International Trachoma Initiative (T Gebre PhD), 
+Task Force for Global Health, Decatur, GA, USA; College of Medicine 
+and Public Health (H A Gesesew), Southgate Institute for Health and 
+Society (F H Tesfay), Flinders University, Adelaide, SA, Australia; 
+Population Health (P R Ghimire PhD), New South Wales Health, 
+Queanbeyan, Australia; Medical School (Prof P S Gill DM), University of 
+Warwick, Coventry, UK; Adelaide Medical School (T K Gill PhD), 
+Australian Research Centre for Population Oral Health 
+(N Hariyani PhD), Centre for Heart Rhythm Disorders (J Noubiap MD), 
+School of Public Health (Y M Tefera), University of Adelaide, Adelaide, 
+SA, Australia; Hudson College of Public Health (S V Gopalani MPH), 
+University of Oklahoma Health Sciences Center, Oklahoma City, OK, 
+USA; Department of Health and Social Affairs (S V Gopalani), 
+Government of the Federated States of Micronesia, Palikir, Federated 
+
+Articles
+e1055	
+www.thelancet.com/lancetgh   Vol 8   August 2020
+States of Micronesia; Center for Clinical and Epidemiological Research 
+(A C Goulart PhD), Department of Internal Medicine (A C Goulart), 
+Laboratory of Genetics and Molecular Cardiology (A Pereira), 
+Department of Psychiatry (Yu Wang PhD), University of São Paulo, 
+São Paulo, Brazil; Postgraduate Program in Epidemiology 
+(Prof B N G Goulart DSc), Federal University of Rio Grande do Sul, 
+Porto Alegre, Brazil; Department of Dermatology (A Grada MD), Boston 
+University, Boston, MA, USA; Department of Family and Community 
+Medicine (M I M Gubari PhD), University of Sulaimani, Sulaimani, Iraq; 
+Department of Microbiology (Prof H C Gugnani PhD), Department of 
+Epidemiology (Prof H C Gugnani), Saint James School of Medicine, The 
+Valley, Anguilla; Epidemiology Unit (D Guido PhD), Agency for Health 
+Protection, Milan, Italy; Institute of Tropical Pathology and Public Health 
+(R A Guimarães MSc), Federal University of Goias, Goiânia, Brazil; 
+Department of Epidemiology (Prof Y Guo), Binzhou Medical University, 
+Yantai City, China; Department of Preventive Cardiology 
+(Prof R Gupta MD), Eternal Heart Care Centre & Research Institute, 
+Jaipur, India; Department of Medicine (Prof R Gupta), Mahatma Gandhi 
+University Medical Sciences, Jaipur, India; Obesity Research Center 
+(Arv Haj-Mirzaian), Research Institute for Endocrine Sciences 
+(S N Irvani MD), Department of Epidemiology (N Izadi MSc, 
+S Riahi PhD, S Sabour PhD), School of Management and Medical 
+Education (N Jahanmehr PhD), Safety Promotion and Injury Prevention 
+Research Center (N Jahanmehr), Shahid Beheshti University of Medical 
+Sciences, Tehran, Iran (M Khayamzadeh MD); Department of Family 
+and Community Medicine (Prof R R Hamadeh PhD), Arabian Gulf 
+University, Manama, Bahrain; School of Health and Environmental 
+Studies (Prof S Hamidi DrPH), Hamdan Bin Mohammed Smart 
+University, Dubai, United Arab Emirates; Department of Public Health 
+(D Handiso MPH), Wachemo University, Hossana, Ethiopia; 
+Department of Dental Public Health (N Hariyani), Faculty of Public 
+Health (S Martini PhD), Airlangga University, Surabaya, Indonesia; 
+Department of Zoology and Entomology (A I Hasaballah PhD), Al Azhar 
+University, Cairo, Egypt; Institute for Social Science Research 
+(M Hasan MPH, A A Mamun PhD), ARC Centre of Excellence for 
+Children and Families over the Life Course (M Hasan), The University 
+of Queensland, Indooroopilly, QLD, Australia; Independent Consultant, 
+Tabriz, Iran (H Hassankhani); Department of Primary and 
+Interdisciplinary Care (H Y Hassen), University Hospital Antwerp, 
+Antwerp, Belgium; Center for Environmental and Respiratory Health 
+Research (B Heibati PhD), University of Oulu, Oulu, Finland; School of 
+Business (Prof C Herteliu), London South Bank University, London, UK; 
+Department of Public Health (H D d Hidru MPH, B E Tesfay MPH), 
+Adigrat University, Adigrat, Ethiopia; Department for Health 
+(T R Hird PhD), Department of Mathematical Sciences (P Moraga PhD), 
+University of Bath, Bath, UK; Population Health Domain (T R Hird), 
+Baker Heart and Diabetes Institute, Melbourne, VIC, Australia; Center 
+of Excellence in Behavioral Medicine (C L Hoang BMedSc, 
+T H Nguyen BMedSc), Nguyen Tat Thanh University, Ho Chi Minh City, 
+Vietnam; Guilan Road Trauma Research Center (E Homaie Rad PhD), 
+Social Determinants of Health Research Center (E Homaie Rad), Guilan 
+University of Medical Sciences, Rasht, Iran; Department of 
+Pharmacology (N Hossain MPhil), Bangladesh Industrial Gases Limited, 
+Tangail, Bangladesh; Division of Information and Computing 
+Technology (Prof M Househ PhD), Hamad Bin Khalifa University, Doha, 
+Qatar; Faculty of Medicine of Tunis (Prof M Hsairi MPH), University 
+Tunis El Manar, Tunis, Tunisia; Department of Epidemiology and Health 
+Statistics (Prof G Hu PhD), Central South University, Changsha, China; 
+School of Public Health (Prof E U Igumbor PhD), University of the 
+Western Cape, Bellville, Cape Town, South Africa; Department of Public 
+Health (Prof E U Igumbor), Walter Sisulu University, Mthatha, South 
+Africa; Department of Epidemiology (Prof M D Ilic PhD), Department of 
+Global Health, Economics and Policy (Prof M Jakovljevic), University of 
+Kragujevac, Kragujevac, Serbia; College of Public Health (U Iqbal PhD), 
+Graduate Institute of Biomedical Informatics (D N A Ningrum MPH), 
+Taipei Medical University, Taipei, Taiwan; Institute for Physical Activity 
+and Nutrition (S Islam PhD), Deakin University, Burwood, VIC, 
+Australia; Sydney Medical School (S Islam), University of Sydney, 
+Sydney, NSW, Australia; Postgraduate Institute of Medicine 
+(A U Jayatilleke PhD), University of Colombo, Colombo, Sri Lanka; 
+Faculty of Graduate Studies (A U Jayatilleke), Institute for Violence and 
+Injury Prevention, Colombo, Sri Lanka; Department of Community 
+Medicine (R P Jha MSc), Dr Baba Saheb Ambedkar Medical College & 
+Hospital, Delhi, India; Department of Community Medicine (R P Jha), 
+Banaras Hindu University, Varanasi, India; Environmental Research 
+Center (J S Ji DSc), Duke Kunshan University, Kunshan, China; Nicholas 
+School of the Environment (J S Ji), Duke Global Health Institute 
+(S Zadey MS), Duke University, Durham, NC, USA; Department of 
+Ophthalmology (Prof J B Jonas MD), Heidelberg University, Mannheim, 
+Germany; Beijing Institute of Ophthalmology (Prof J B Jonas), Beijing 
+Tongren Hospital, Beijing, China; Department of Family Medicine and 
+Public Health (J J Jozwiak PhD), University of Opole, Opole, Poland; 
+School of Public Health (Z Kabir PhD), University College Cork, Cork, 
+Ireland; Infectious Diseases Research Center (H Kalani PhD), Golestan 
+University of Medical Sciences, Gorgan, Iran; Department of Forensic 
+Medicine and Toxicology (T Kanchan MD), All India Institute of Medical 
+Sciences, Jodhpur, India; Institute for Epidemiology and Social Medicine 
+(A Karch MD), University of Münster, Münster, Germany; Centre for 
+Therapeutic Target Validation (M A Karim), Wellcome Trust Sanger 
+Institute, Cambridge, UK; Baqiyatallah Research Center for 
+Gastroenterology and Liver Diseases (H Karimi-Sari MD), Batiyatallah 
+University of Medical Sciences, Tehran, Iran; Department of Young 
+Investigators (H Karimi-Sari), Middle East Liver Disease Center, Tehran, 
+Iran; International Research Center of Excellence (G A Kayode PhD), 
+Institute of Human Virology Nigeria, Abuja, Nigeria; Julius Centre for 
+Health Sciences and Primary Care (G A Kayode), Institute for Risk 
+Assessment Sciences (E Traini MSc), Utrecht University, Utrecht, 
+Netherlands; Department of Cancer Epidemiology (M M Kebede PhD), 
+German Cancer Research Center, Heidelberg, Germany; Department of 
+Prevention and Evaluation (M M Kebede), Leibniz Institute for 
+Prevention Research and Epidemiology, Bremen, Germany; Open, 
+Distance and eLearning Campus (Prof P N Keiyoro PhD), Department of 
+Psychiatry (M Kumar), School of Economics (M K Muriithi PhD), 
+University of Nairobi, Nairobi, Kenya; Non-Communicable Diseases 
+Research Unit (Prof A P Kengne PhD), Medical Research Council South 
+Africa, Cape Town, South Africa; Department of Medicine 
+(Prof A P Kengne), School of Public Health and Family Medicine 
+(C A Nnaji, Prof C S Wiysonge), University of Cape Town, Cape Town, 
+South Africa; Department of Public Health (Prof Y S Khader PhD), 
+Jordan University of Science and Technology, Irbid, Jordan; Social 
+Determinants of Health Research Center (M A Khafaie PhD), 
+Thalassemia and Hemoglobinopathy Research Center (F Rahim), 
+Medical Physics Department (A Yadollahpour PhD), Ahvaz Jundishapur 
+University of Medical Sciences, Ahvaz, Iran; School of Food and 
+Agricultural Sciences (N Khalid PhD), University of Management and 
+Technology, Lahore, Pakistan; Department of Biophysics and Molecular 
+Biology (Prof R Khalilov PhD), Baku State University, Baku, Azerbaijan; 
+Institute of Radiation Problems (Prof R Khalilov), Azerbaijan National 
+Academy of Sciences, Baku, Azerbaijan; Department of Epidemiology 
+and Biostatistics (E A Khan MPH), Health Services Academy, Islamabad, 
+Pakistan; Department of Population Sciences (M N Khan), Jatiya Kabi 
+Kazi Nazrul Islam University, Mymensingh, Bangladesh; Department of 
+Internal Medicine (M S Khan MD), John H. Stroger, Jr. Hospital of Cook 
+County, Chicago, IL, USA; Department of Internal Medicine (M S Khan, 
+M S Usman MB), Department of Medicine (T J Siddiqi MB), Dow 
+University of Health Sciences, Karachi, Pakistan; Faculty of Health and 
+Wellbeing (K Khatab PhD), Sheffield Hallam University, Sheffield, UK; 
+College of Arts and Sciences (K Khatab), Ohio University, Zanesville, 
+OH, USA; The Iranian Academy of Medical Sciences, Tehran, Iran 
+(M Khayamzadeh); Department of Nutrition and Health Science 
+(Prof J Khubchandani PhD), Ball State University, Muncie, IN, USA; 
+Clinical Epidemiology Unit (A Kiadaliri PhD), Lund University, Lund, 
+Sweden; School of Traditional Chinese Medicine (Y Kim PhD), Xiamen 
+University Malaysia, Sepang, Malaysia; Department of Nutrition 
+(R W Kimokoti MD), Simmons University, Boston, MA, USA; School of 
+Health Sciences (Prof A Kisa PhD), Kristiania University College, Oslo, 
+Norway; Global Community Health and Behavioral Sciences 
+(Prof A Kisa), Tulane University, New Orleans, LA, USA; Department of 
+Nursing and Health Promotion (S Kisa PhD), Oslo Metropolitan 
+University, Oslo, Norway; Department of Pediatrics 
+(Prof N Kissoon MD), School of Population and Public Health 
+(F Pourmalek PhD, Prof N Sarrafzadegan), University of British 
+
+Articles
+www.thelancet.com/lancetgh   Vol 8   August 2020	
+e1056
+Columbia, Vancouver, BC, Canada; Public Health Dentistry Department 
+(Prof K M Shivakumar PhD), Krishna Institute of Medical Sciences 
+Deemed to be University, Karad, India; Global Healthcare Consulting, 
+New Delhi, India (S Kochhar); Brain Engineering Research Center 
+(H Komaki), Institute for Research in Fundamental Sciences, Tehran, 
+Iran; Independent Consultant, Jakarta, Indonesia (S Kosen MD); 
+Department of Internal and Pulmonary Medicine (Prof P A Koul MD), 
+Sheri Kashmir Institute of Medical Sciences, Srinagar, India; 
+CIBERSAM (A Koyanagi MD), San Juan de Dios Sanitary Park, Sant Boi 
+de Llobregat, Spain; Catalan Institution for Research and Advanced 
+Studies, Barcelona, Spain (A Koyanagi); Department of Anthropology 
+(K Krishan PhD), Panjab University, Chandigarh, India; Faculty of Public 
+Health (D Kusuma), University of Indonesia, Depok, Indonesia; 
+National Institute for Health Research Oxford Biomedical Research 
+Centre, Oxford, UK (B Lacey); Department of Pediatrics (S D Lad MD), 
+Post Graduate Institute of Medical Education and Research, Chandigarh, 
+India; Department of Essential Medicines and Health Products 
+(F Lam MSc), Clinton Health Access Initiative, Boston, MA, USA; 
+Department of Community and Family Medicine (F H Lami PhD), 
+University of Baghdad, Baghdad, Iraq; School of Medicine 
+(P Lamichhane PhD), Deakin University, Geelong, VIC, Australia; 
+Medical Director (Prof V C Lansingh PhD), HelpMeSee, New York, NY, 
+USA; General Director (Prof V C Lansingh), Mexican Institute of 
+Ophthalmology, Queretaro, Mexico; Department of Otorhinolaryngology 
+(S Lasrado MS), Father Muller Medical College, Mangalore, India; 
+National Institute of Nutrition (Prof A Laxmaiah PhD), Indian Council 
+of Medical Research, Hyderabad, India; School of Public Health 
+(C T Leshargie MPH), Haramaya University, Debre Markos, Ethiopia; 
+School of Public Health (Prof S Linn DrPH), University of Haifa, Haifa, 
+Israel; Chinese Center for Disease Control and Prevention, Beijing, 
+China (Prof Sh Liu PhD); Department of Epidemiology (Si Liu MD), 
+Brown University, Providence, RI, USA; Department of Vector Biology 
+(J Longbottom MSc), Liverpool School of Tropical Medicine, Liverpool, 
+UK; Alliance for Improving Health Outcomes, Quezon City, Philippines 
+(J F Lopez); Radiology Department (H Magdy Abd El Razek MD), 
+Mansoura Faculty of Medicine, Mansoura, Egypt; Ophthalmology 
+Department (M Magdy Abd El Razek MSc), Ministry of Health & 
+Population, Aswan, Egypt; Department of Forensic Medicine & 
+Toxicology (D Mahadeshwara Prasad MD), Mysore Medical College & 
+Research Institute, Mysooru, India; Department of Health & Family 
+Welfare (D Mahadeshwara Prasad), Government of Karnataka, India; 
+Department of Clinical Physiology (N B Mahotra MD), Tribhuvan 
+University, Kathmandu, Nepal; Ophthalmology Department (N Manafi), 
+University of Manitoba, Winnipeg, MB, Canada; General Surgery 
+Department I (A Manda), Emergency University Hospital Bucharest, 
+Bucharest, Romania; Department of Population Studies 
+(C Mapoma PhD), University of Zambia, Lusaka, Zambia; Institute for 
+Social Science Research (J C Maravilla PhD), The University of 
+Queensland, Brisbane, QLD, Australia; Department of Economics 
+(Prof G Martinez PhD), Autonomous Technology Institute of Mexico, 
+Mexico City, Mexico; Indonesian Public Health Association, Surabaya, 
+Indonesia (S Martini); Campus Caucaia (F R Martins-Melo PhD), Federal 
+Institute of Education, Science and Technology of Ceará, Caucaia, Brazil; 
+Faculty of Health and Education (A Masaka MSc), Botho University-
+Botswana, Gaborone, Botswana; Institute of Population Health Sciences 
+(M R Mathur), University of Liverpool, Liverpool, UK; ICF International 
+(B K Mayala), DHS Program, Rockville, MD, USA; Department of Twin 
+Research and Genetic Epidemiology (M Mazidi PhD), Faculty of Life 
+Sciences and Medicine (M Molokhia PhD), Institute for Population 
+Health (Prof K Shibuya MD), King’s College London, London, UK; 
+Department of Ophthalmology (C McAlinden PhD), Singleton Hospital, 
+Swansea, UK; Neurology Department (Prof M Mehndiratta MD), 
+Janakpuri Super Specialty Hospital Society, New Delhi, India; 
+Department of Neurology (Prof M Mehndiratta), Govind Ballabh 
+Institute of Medical Education and Research, New Delhi, India; 
+Department of Epidemiology and Biostatistics (K M Mehta DSc), 
+University of California San Francisco, San Francisco, CA, USA; 
+Institute of Human Virology (P T N Memiah DrPH), School of Medicine 
+(M T Wallin MD), University of Maryland, Baltimore, MD, USA; College 
+of Medicine (Prof Z A Memish MD, M Temsah), Alfaisal University, 
+Riyadh, Saudi Arabia; Research & Innovation Center (Prof Z A Memish), 
+Ministry of Health, Riyadh, Saudi Arabia; Peru Country Office 
+(W Mendoza MD), United Nations Population Fund, Lima, Peru; Breast 
+Surgery Unit (T J Meretoja MD), Helsinki University Hospital, Helsinki, 
+Finland; University of Helsinki, Helsinki, Finland (T J Meretoja); 
+Clinical Microbiology and Parasitology Unit (T Mestrovic PhD), Dr Zora 
+Profozic Polyclinic, Zagreb, Croatia; University Centre Varazdin 
+(T Mestrovic), University North, Varazdin, Croatia; Center for Innovation 
+in Medical Education (B Miazgowski MD), Pomeranian Medical 
+University, Szczecin, Poland (B Miazgowski); Pacific Institute for 
+Research & Evaluation, Calverton, MD, USA (T R Miller); Global 
+Institute of Public Health (Prof G Mini PhD), Ananthapuri Hospitals 
+and Research Institute, Trivandrum, India; Women’s Institute for Social 
+and Health Studies (Prof G Mini), Women’s Social and Health Studies 
+Foundation, Trivandrum, India; Internal Medicine Programme 
+(Prof E M Mirrakhimov PhD), Kyrgyz State Medical Academy, Bishkek, 
+Kyrgyzstan; Department of Atherosclerosis and Coronary Heart Disease 
+(Prof E M Mirrakhimov), National Center of Cardiology and Internal 
+Disease, Bishkek, Kyrgyzstan; Institute of Addiction Research 
+(B Moazen), Frankfurt University of Applied Sciences, Frankfurt, 
+Germany; Social Determinants of Health Research Center 
+(A Mohamadi-Bolbanabad PhD, G Moradi PhD, B Piroozi PhD), 
+Department of Epidemiology and Biostatistics (G Moradi), Kurdistan 
+University of Medical Sciences, Sanandaj, Iran; Department of Forestry 
+(D K Mohammad), Department of Biology (K A Mohammad), 
+Salahaddin University-Erbil, Erbil, Iraq; Department of Public Health 
+(J A Mohammed MPH), Department of Nursing (N B Zepro MSc), 
+Samara University, Semera, Ethiopia; Health Systems and Policy 
+Research Unit (S Mohammed), Department of Community Medicine 
+(M B Sufiyan MD), Ahmadu Bello University, Zaria, Nigeria; Health and 
+Environmental Sciences Department (Y Moodley PhD), Central 
+University of Technology, Bloemfontein, South Africa; National Center 
+for Health Insurance Research (M Moradi-Joo PhD), Iran Health 
+Insurance Organization, Tehran, Iran; Department of Clinical 
+Biochemistry (A Mosapour), Tarbiat Modares University, Tehran, Iran; 
+Department of Biochemistry (M Mozaffor MD), Medical College for 
+Women & Hospital, Dhaka, Bangladesh; Biomedical Research 
+Foundation, Dhaka, Bangladesh (M Mozaffor); Indian Institute of Public 
+Health (Prof G Murthy MD), Public Health Foundation of India, 
+Hyderabad, India; School of Medical Sciences (K Musa PhD), Science 
+University of Malaysia, Kubang Kerian, Malaysia; Department of 
+Pediatric Medicine (Prof G Mustafa MD), The Children’s Hospital & The 
+Institute of Child Health, Multan, Pakistan; Department of Pediatrics & 
+Pediatric Pulmonology (Prof G Mustafa), Institute of Mother & Child 
+Care, Multan, Pakistan; Knowledge Translation and Utilization 
+(Prof A F Nabhan), Egyptian Center for Evidence Based Medicine, Egypt; 
+Research and Analytics Department (A J Nagarajan MTech), Initiative for 
+Financing Health and Human Development, Chennai, India; 
+Department of Research and Analytics (A J Nagarajan), Bioinsilico 
+Technologies, Chennai, India; Comprehensive Cancer Center 
+(G Naik MPH), Department of Psychology (D C Schwebel PhD), School 
+of Medicine (Prof J A Singh MD), University of Alabama at 
+Birmingham, Birmingham, AL, USA; Suraj Eye Institute, Nagpur, India 
+(V Nangia MD); Department for the Control of Disease, Epidemics, and 
+Pandemics (J Nansseu MD), Ministry of Public Health, Yaoundé, 
+Cameroon; Department of Public Heath (J Nansseu), University of 
+Yaoundé I, Yaoundé, Cameroon; Department of General Surgery 
+(I Negoi), Emergency Hospital of Bucharest, Bucharest, Romania; 
+School of Health Sciences, Surgical Nursing (H B Netsere), Bahir Dar 
+University, Gondar, Ethiopia; Department of Biological Sciences 
+(J W Ngunjiri DrPH), University of Embu, Embu, Kenya; Public Health 
+Department (D N A Ningrum), Universitas Negeri Semarang, Kota 
+Semarang, Indonesia; Department of Global Public Health and Primary 
+Care (Prof O F Norheim), University of Bergen, Bergen, Norway; 
+Administrative and Economic Sciences Department 
+(Prof B Oancea PhD), University of Bucharest, Bucharest, Romania; 
+Department of Medicine (O S Ogah), Abia State University, Uturu, 
+Nigeria; Department of Preventive Medicine (I Oh PhD), Kyung Hee 
+University, Dongdaemun-gu, South Korea; Department of Psychiatry 
+and Behavioural Neurosciences (A T Olagunju), Department of 
+Pathology and Molecular Medicine (T O Olagunju MD), Population 
+Health Research Institute (T Sathish PhD), McMaster University, 
+
+Articles
+e1057	
+www.thelancet.com/lancetgh   Vol 8   August 2020
+Hamilton, ON, Canada; Centre for Healthy Start Initiative, Lagos, 
+Nigeria (B O Olusanya PhD, J O Olusanya MBA); Department of 
+Pharmacology and Therapeutics (Prof O E Onwujekwe PhD), 
+Department of Community Medicine (Prof B S Uzochukwu MD), 
+University of Nigeria Nsukka, Enugu, Nigeria; Graduate School of Public 
+Health (Prof E Oren), San Diego State University, San Diego, CA, USA; 
+Department of Environmental Management and Toxicology 
+(O Osarenotor MSc), University of Benin, Benin City, Nigeria; Faculty of 
+Geo-Information Science and Earth Observation (F B Osei PhD), 
+University of Twente, Enschede, Netherlands; Department of 
+Mathematics and Statistics (F B Osei), University of Energy and Natural 
+Resources, Sunyani, Ghana; Department of Respiratory Medicine 
+(Prof M P A DNB), Jagadguru Sri Shivarathreeswara Academy of Health 
+Education and Research, Mysore, India; Department of Forensic 
+Medicine (J Padubidri MD), Department of Forensic Medicine and 
+Toxicology (Prof B K Shetty MD), Kasturba Medical College 
+(Prof B Unnikrishnan MD), Manipal Academy of Higher Education, 
+Mangalore, India; Department of Medicine (S Pakhale MD), Ottawa 
+Hospital Research Institute, Ottawa, ON, Canada; Department of 
+Poverty, Gender and Youth (S K Patel PhD), Population Council, New 
+Delhi, India; Indian Institute of Health Management Research 
+University, Jaipur, India (S K Patel); School of Medicine 
+(A J Paternina-Caicedo MSc), University of Sinu, Cartagena, Colombia; 
+Department of Pediatrics (Prof A Pathak), RD Gardi Medical College, 
+Ujjain, India; Department of Pediatrics (Prof G C Patton MD), 
+Department of Agriculture and Food Systems (H Suleria PhD), 
+University of Melbourne, Melbourne, VIC, Australia; Population Health 
+Theme (Prof G C Patton), Murdoch Childrens Research Institute, 
+Melbourne, VIC, Australia; Health, Nutrition, and HIV/AIDS Program 
+(D Paudel PhD), Save the Children, Kathmandu, Nepal; Center for 
+International Health (D Paudel), Ludwig Maximilians University, 
+Munich, Germany; Center for Research and Innovation 
+(V F Pepito MSc), Ateneo De Manila University, Pasig City, Philippines; 
+Mario Negri Institute for Pharmacological Research, Bergamo, Italy 
+(N Perico MD); Field Epidemiology and Laboratory Training Program 
+(A Pervaiz MSc), National Institute of Health Islamabad, Islamabad, 
+Pakistan; Center for Integration of Data and Health Knowledge 
+(J M Pescarini PhD), Oswaldo Cruz Foundation, Salvador, Brazil; 
+University Medical Center Groningen (Prof M J Postma PhD), School of 
+Economics and Business (Prof M J Postma), University of Groningen, 
+Groningen, Netherlands; Dietary Supplements and Probiotic Research 
+Center (H Pourjafar), School of Medicine (M Shams-Beyranvand MSc), 
+Alborz University of Medical Sciences, Karaj, Iran; Clinical Research 
+Center (S I Prada PhD), Fundación Valle del Lili, Cali, Colombia; Center 
+for Studies in Social Protection and Health Economics (S I Prada), ICESI 
+University, Cali, Colombia; Department of Nephrology 
+(Prof N Prasad DM), Sanjay Gandhi Postgraduate Institute of Medical 
+Sciences, Lucknow, India; National Institute of Infectious Diseases, 
+Bucuresti, Romania (L Preotescu); Department of Chemistry 
+(N Rabiee MSc), Sharif University of Technology, Tehran, Iran; College 
+of Medicine (A Radfar), University of Central Florida, Orlando, FL, USA; 
+Department of Community Medicine (Mo Rahman PhD), Maharishi 
+Markandeshwar Institute of Medical Sciences & Research, Ambala, 
+India; School of Nursing and Healthcare Professions (Mu Rahman), 
+Federation University Australia, Berwick, VIC, Australia; Research 
+Center for Child Mental Development (S Rahman MHS), Hamamatsu 
+University School of Medicine, Hamamatsu, Shizuoka Prefecture, Japan; 
+Department of Global Health Policy (S Rahman), Department of 
+Diabetes and Metabolic Diseases (T Yamada MD), University of Tokyo, 
+Tokyo, Japan; University Institute of Public Health (Prof S M Rana PhD), 
+The University of Lahore, Lahore, Pakistan; Public Health Department 
+(Prof S M Rana), University of Health Sciences, Lahore, Pakistan; 
+Research Department (C L Ranabhat PhD), Policy Research Institute, 
+Kathmandu, Nepal; Health and Public Policy Department 
+(C L Ranabhat), Global Center for Research and Development, 
+Kathmandu, Nepal; University College London Hospitals, London, UK 
+(D L Rawaf); Academic Public Health England (Prof S Rawaf), Public 
+Health England, London, UK; School of Health, Medical and Applied 
+Sciences (L Rawal PhD), CQ University, Sydney, NSW, Australia; River 
+Region Cardiology Associates, Montgomery, WV, USA 
+(W F Rawasia MD); School of Nursing and Midwifery (V Renjith PhD), 
+Royal College of Surgeons in Ireland - Bahrain, Muharraq Governorate, 
+Bahrain; School of Social Sciences and Psychology 
+(Prof A M N Renzaho PhD), Translational Health Research Institute 
+(Prof A M N Renzaho), Western Sydney University, Penrith, NSW, 
+Australia; Brien Holden Vision Institute, Sydney, Australia 
+(Prof S Resnikoff); Department of Medical Microbiology (M A Reta), 
+University of Pretoria, Pretoria, South Africa; Cardiovascular Diseases 
+Research Center (S Riahi), Birjand University of Medical Sciences, 
+Birjand, Iran; Department of Surgery (J Rickard MD), University of 
+Minnesota, Minneapolis, MN, USA; Department of Surgery (J Rickard), 
+University Teaching Hospital of Kigali, Kigali, Rwanda; Department of 
+Clinical Research (L Roever PhD), Federal University of Uberlândia, 
+Uberlândia, Brazil; Clinical Epidemiology and Public Health Research 
+Unit (L Monasta DSc, L Ronfani PhD), Burlo Garofolo Institute for 
+Maternal and Child Health, Trieste, Italy; Agrosavia, Palmira, Colombia 
+(E Rubagotti PhD); Department of Ocean Science and Engineering 
+(E Rubagotti), Southern University of Science and Technology, 
+Shenzhen, China; Department of Biomedical Sciences 
+(Prof S Rubino PhD), University of Sassari, Sassari, Italy; Environmental 
+Epidemiology and Public Health (Y D Sabde MD), National Institute for 
+Research in Environmental Health, Bhopal, India; Halal Research 
+Center of IRI (A Sahebkar PhD), Food and Drug Administration of the 
+Islamic Republic of Iran, Tehran, Iran; Neurogenic Inflammation 
+Research Center (A Sahebkar), Mashhad University of Medical Sciences, 
+Mashhad, Iran; Department of Phytochemistry (Prof S Sajadi PhD), 
+Soran University, Soran, Iraq; Department of Nutrition (Prof S Sajadi), 
+Cihan University-Erbil, Kurdistan Region, Iraq; Department of 
+Microbiology (N Salam PhD), Central University of Punjab, Bathinda, 
+India; Public Health and Community Medicine Department 
+(M R Salem MD), Cairo University, Giza, Egypt; Department of Surgery 
+(Prof J Sanabria), Marshall University, Huntington, WV, USA; 
+Department of Community Medicine (S Y Saraswathy PhD), PSG 
+Institute of Medical Sciences and Research, Coimbatore, India; PSG-
+FAIMER South Asia Regional Institute, Coimbatore, India 
+(S Y Saraswathy); Malaria No More, Delhi, India (K Sarkar); Health 
+Economics Department (A R Sarker PhD), Bangladesh Institute of 
+Development Studies, Dhaka, Bangladesh; Department of Geriatrics and 
+Long Term Care (B Sathian PhD), Hamad Medical Corporation, Doha, 
+Qatar; Faculty of Health & Social Sciences (B Sathian), Bournemouth 
+University, Bournemouth, UK; Department of Public Health Sciences 
+(M Sawhney PhD), University of North Carolina at Charlotte, Charlotte, 
+NC, USA; Department of Food Science and Nutrition 
+(A M Senbeta MSc), Jigjiga University, Jigjiga, Ethiopia (A A Tasew); 
+Emergency Department (S Senthilkumaran MD), Manian Medical 
+Centre, Erode, India; Population Health Sciences Institute 
+(H Shabaninejad), Newcastle University, Newcastle Upon Tyne, UK; 
+Department of Cardiology (A Shafieesabet MD), Charité Medical 
+University Berlin, Berlin, Germany; Center for Stroke Research Berlin, 
+Berlin, Germany (A Shafieesabet); Independent Consultant, Karachi, 
+Pakistan (M A Shaikh MD); Faculty of Caring Science, Work Life, and 
+Social Welfare (M Shamsizadeh MSc), University of Boras, Borås, 
+Sweden; Department of Community Medicine (M Shannawaz PhD), 
+BLDE University, Vijayapur, India; HIV/STI Surveillance Research 
+Center, and WHO Collaborating Center for HIV Surveillance 
+(Prof H Sharifi PhD), Kerman University of Medical Sciences, Kerman, 
+Iran; Centre for Medical Informatics (Prof A Sheikh), Usher Institute of 
+Population Health Sciences and Informatics (I N Soyiri PhD), Public 
+Health Department (T A Zerfu PhD), University of Edinburgh, 
+Edinburgh, UK; Department of Forensic Medicine (Prof B K Shetty), 
+Yenepoya University, Mangalore, India; National Institute of Infectious 
+Diseases, Tokyo, Japan (M Shigematsu PhD); College of Medicine 
+(Prof J Shin), Yonsei University, Seoul, South Korea; Finnish Institute of 
+Occupational Health, Helsinki, Finland (R Shiri PhD); School of Health 
+(S Siabani), University of Technology Sydney, Sydney, NSW, Australia; 
+Department of Physical Education (Prof D A S Silva PhD), Federal 
+University of Santa Catarina, Florianopolis, Brazil; Global Patient 
+Outcome and Real World Evidence (A Singh), Eli Lilly and Company, 
+Indianapolis, IN, USA; Medicine Service (Prof J A Singh), US 
+Department of Veterans Affairs, Birmingham, AL, USA; Max Hospital, 
+Ghaziabad, India (Prof N P Singh MD); Department of Pulmonary 
+Medicine (Prof V Singh MD), Asthma Bhawan, Jaipur, India; 
+
+Articles
+www.thelancet.com/lancetgh   Vol 8   August 2020	
+e1058
+Department of Physiotherapy and Occupational Therapy (M M Sisay), 
+Næstved-Slagelse-Ringsted Hospitals, Slagelse, Denmark; Department 
+of Ophthalmology (E Skiadaresi MD), Hywel Dda University Health 
+Board, Llanelli, UK; Department of Infectious Diseases (A Sokhan PhD), 
+Kharkiv National Medical University, Kharkiv, Ukraine; Department 
+of Medicine (R Somayaji), University of Calgary, Calgary, AB, Canada; 
+Hull York Medical School (I N Soyiri), University of Hull, Hull City, UK; 
+Division of Community Medicine (C T Sreeramareddy MD), 
+International Medical University, Kuala Lumpur, Malaysia; Nursing 
+(A Sudaryanto MPH), Muhammadiyah University of Surakarta, 
+Surakarta, Indonesia; Department of Public Health (A Sudaryanto), 
+China Medical University, Taiwan; Health Economics (M Sultana), 
+Deakin University, Melbourne, VIC, Australia; Department of 
+Community Health (B F Sunguya PhD), Muhimbili University of Health 
+and Allied Sciences, Dar es Salaam, Tanzania; Department of 
+Criminology, Law, and Society (Prof B L Sykes PhD), University of 
+California Irvine, Irvine, CA, USA; Department of Medicine 
+(Prof R Tabarés-Seisdedos PhD), University of Valencia, Valencia, Spain; 
+Carlos III Health Institute (Prof R Tabarés-Seisdedos), Biomedical 
+Research Networking Center for Mental Health Network, Madrid, Spain; 
+Cancer Control Center (T Tabuchi MD), Osaka International Cancer 
+Institute, Osaka, Japan; Axum College of Health Science, Mekelle, 
+Ethiopia (D B Tadesse); Research and Development Center for 
+Humanities and Health Management (I U Tarigan PhD), National 
+Institute of Health Research & Development, Jakarta, Indonesia; 
+Department of Public Health and Community Medicine 
+(Prof K R Thankappan MD), Central University of Kerala, Kasaragod, 
+India; Institute of Public Health (R Topor-Madry PhD), Jagiellonian 
+University Medical College, Kraków, Poland; Agency for Health 
+Technology Assessment and Tariff System, Warsaw, Poland 
+(R Topor-Madry); Department of Pathology and Legal Medicine 
+(M R Tovani-Palone PhD), University of São Paulo, Ribeirão Preto, 
+Brazil; Modestum LTD, London, UK (M R Tovani-Palone); Department 
+of Health Economics (B X Tran PhD), Hanoi Medical University, Hanoi, 
+Vietnam; Molecular Medicine and Pathology (K B Tran MD), University 
+of Auckland, Auckland, New Zealand; Clinical Hematology and 
+Toxicology (K B Tran), Maurice Wilkins Centre, Auckland, New Zealand; 
+Department of Microbiology (I Ullah PhD), Iqra National University, 
+Peshawar, Pakistan; TB Culture Laboratory (I Ullah), Mufti Mehmood 
+Memorial Teaching Hospital, Dera Ismail Khan, Pakistan; Velez 
+Sarsfield Hospital, Buenos Aires, Argentina (Prof P R Valdez); 
+Department of Medical and Surgical Sciences (Prof F S Violante MD), 
+University of Bologna, Bologna, Italy; Occupational Health Unit 
+(Prof F S Violante), Sant’Orsola Malpighi Hospital, Bologna, Italy; 
+Department of Economics (Prof S Vollmer), University of Göttingen, 
+Göttingen, Germany; Foundation University Medical College 
+(Prof Y Waheed PhD), Foundation University Islamabad, Islamabad, 
+Pakistan; Department of Neurology (M T Wallin), George Washington 
+University, Washington, DC, USA; Department of Epidemiology and 
+Biostatistics (Ya Wang BSA, Prof C Yu PhD), Global Health Institute 
+(Prof C Yu), School of Health Sciences (X G Zhao PhD), Wuhan 
+University, Wuhan, China; Demographic Change and Aging Research 
+Area (A Werdecker PhD), Competence Center of Mortality-Follow-Up of 
+the German National Cohort (R Westerman DSc), Federal Institute for 
+Population Research, Wiesbaden, Germany; Center for Population and 
+Health, Wiesbaden, Germany (A Werdecker); Department of Physical 
+Therapy (T Wiangkham PhD), Naresuan University, Phitsanulok, 
+Thailand; Department of Health Economics (G T Worku), Addis 
+Continental Institute of Public Health, Addis Ababa, Ethiopia; 
+Department of Orthopaedics (Prof A Wu MD), Wenzhou Medical 
+University, Wenzhou, China; School of Medicine (Prof G Xu MD), 
+Nanjing University, Nanjing, China; Clinical Cancer Research Center 
+(S Yahyazadeh Jabbari MD), Milad General Hospital, Tehran, Iran; 
+Department of Public Health (Prof H Yatsuya PhD), Fujita Health 
+University, Toyoake, Japan; Department of Public Health and Health 
+Systems (Prof H Yatsuya), Nagoya University, Nagoya, Japan; Pediatrics 
+Department (C S Yilgwan MD), University of Jos, Jos, Nigeria; 
+Department of Pediatrics (C S Yilgwan), Jos University Teaching 
+Hospital, Jos, Nigeria; Centre for Suicide Research and Prevention 
+(Prof P Yip PhD), Department of Social Work and Social Administration 
+(Prof P Yip), University of Hong Kong, Hong Kong, China; Department 
+of Neuropsychopharmaology (N Yonemoto MPH), National Center of 
+Neurology and Psychiatry, Kodaira, Japan; Department of Public Health 
+(N Yonemoto), Juntendo University, Tokyo, Japan; Department of 
+Preventive Medicine (Prof S Yoon PhD), Korea University, Seoul, South 
+Korea; Department of Health Policy and Management 
+(Prof M Z Younis PhD), Jackson State University, Jackson, MS, USA; 
+School of Medicine (Prof M Z Younis), Tsinghua University, Beijing, 
+China; Department of Health Care Management and Economics 
+(H Yusefzadeh PhD), Urmia University of Medical Science, Urmia, Iran; 
+Department of Medicine (Prof Z Zaidi PhD), University Ferhat Abbas of 
+Setif, Sétif, Algeria; Department of Epidemiology and Public Health 
+(N B Zepro), University of Basel, Basel, Switzerland; College of 
+Medicine and Health Sciences (T A Zerfu), Dilla University, Dilla, 
+Ethiopia; School of Public Health (Y Zhang PhD), Hubei Province Key 
+Laboratory of Occupational Hazard Identification and Control 
+(Y Zhang), Wuhan University of Science and Technology, Wuhan, 
+China; School of Biology and Pharmaceutical Engineering (X G Zhao), 
+Wuhan Polytechnic University, Wuhan, China; Health Technology 
+Assessment Unit (Y H Zuniga BS), Department of Health Philippines, 
+Manila, Philippines; #MentalHealthPH, Quezon City, Philippines 
+(Y H Zuniga).
+Contributors
+P A Lindstedt, M M Baumann, and K E Wiens collected, cleaned, and 
+vetted the data. K E Wiens produced estimates and K E Wiens, 
+R C Reiner Jr, and A Deshpande vetted the models and the results. 
+K E Wiens prepared the first draft of the manuscript. K E Wiens, 
+K B Johnson, M M Baumann, and P A Lindstedt constructed the figures 
+and tables. R C Reiner Jr and S I Hay provided overall direction and 
+guidance. B F Blacker, K E Wiens, and R C Reiner Jr managed the 
+project. K E Wiens, L E Schaeffer, M M Baumann, P A Lindstedt, and 
+B F Blacker finalised the manuscript on the basis of comments from 
+other authors and reviewer feedback. P A Lindstedt managed appendix 1. 
+M M Baumann and C A Welgan created appendix 2. All other authors 
+provided data or developed models for indicators, reviewed results, 
+initiated modelling infrastructure, or reviewed and contributed to the 
+Article; their contributions can be found in appendix 1 (pp 158–162).
+Declaration of interests
+M L Bell reports grants from US Environmental Protection Agency, 
+National Institutes of Health (NIH), and the Wellcome Trust 
+Foundation, during the conduct of the study; and honoraria or travel 
+reimbursement from NIH (for review of grant proposals), American 
+Journal of Public Health (participation as editor), Global Research 
+Laboratory and Seoul National University, Royal Society (London, UK), 
+Ohio University, Atmospheric Chemistry Gordon Research Conference, 
+Johns Hopkins, Bloomberg School of Public Health, Arizona State 
+University, Ministry of the Environment, Japan, Hong Kong Polytechnic 
+University, University of Illinois—Champaign, and University of 
+Tennessee—Knoxville, outside of the submitted work. A Deshpande 
+reports grants from Bill & Melinda Gates Foundation, during the 
+conduct of the study. S M S Islam reports grants from National Heart 
+Foundation of Australia, Institute for Physical Activity and Nutrition, 
+and Deakin University, during the conduct of the study. V Jha reports 
+grants from Baxter Healthcare, GlaxoSmithKline, NephroPlus, and 
+Zydus Cadilla, and personal fees from AstraZeneca, outside of the 
+submitted work. J J Jozwiak reports personal fees from Amgen, 
+ALAB Laboratoria, Teva, Synexus, and Boehringer Ingelheim, outside of 
+the submitted work. W Mendoza is a Program Analyst in Population and 
+Development at the UN Population Fund Country Office in Peru, an 
+institution which does not necessarily endorse this study. M J Postma 
+holds stocks in Ingress Health and Pharmacoeconomics Advice 
+Groningen and is advisor to Asc Academics, all pharmacoeconomic 
+consultancy companies. M J Postma reports grants and personal fees 
+from Merck Sharpe & Dohme, GlaxoSmithKline, Pfizer, Boehringer 
+Ingelheim, Novavax, Bristol-Myer Squibb, AstraZeneca, Sanofi, IQVIA, 
+Seqirus, Quintiles, Nocartis, and Pharmerit; grants from Bayer, 
+BioMerieux, WHO, EU, FIND, Antilope, DIKTI, LPDP, and Budi; and 
+other support from Ingress Health, Pharmacoeconomics Advice 
+Groningen, and Asc Academics, outside of the submitted work. 
+J A Singh reports personal fees from Crealta/Horizon, Medisys, Fidia, 
+UBM, Trio health, Medscape, WebMD, Clinical Care options, Clearview 
+
+Articles
+e1059	
+www.thelancet.com/lancetgh   Vol 8   August 2020
+Healthcare Partners, Putnam Associates, Spherix, Practice Point 
+Communications, NIH, American College of Rheumatology, and Simply 
+Speaking; other support from Amarin Pharmaceuticals and Viking 
+Pharmaceuticals; non-financial support from US Food and Drug 
+Administration Arthritis Advisory Committee, Steering committee of 
+OMERACT (an international organisation that develops measures for 
+clinical trials and receives arms-length funding from 12 pharmaceutical 
+companies), Veterans Affairs Rheumatology Field Advisory Committee, 
+outside of the submitted work. J A Singh is editor and director of the 
+University of Alabama at Birmingham Cochrane Musculoskeletal Group 
+Satellite Center on Network Meta-analysis. All other authors declare no 
+competing interests.
+Data sharing
+The source code used to generate estimates is available online. The study 
+data, including full sets of estimates at the first and second 
+administrative levels, are available online.
+Acknowledgments
+This work was primarily supported by a grant from the Bill & Melinda 
+Gates Foundation (OPP1132415). L G Abreu has received support from 
+Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Finance 
+Code 001), Conselho Nacional de Desenvolvimento Científico e 
+Tecnológico and Fundação de Amparo à Pesquisa do Estado de Minas 
+Gerais. O O Adetokunboh acknowledges the South African Department 
+of Science and Innovation and the National Research Foundation. 
+S M Aljunid acknowledges the Department of Health Policy and 
+Management, Faculty of Public Health, Kuwait University and 
+International Centre for Casemix and Clinical Coding, Faculty of 
+Medicine, National University of Malaysia for the approval and support to 
+participate in this research project. H T Atalay acknowledges Aksum 
+University. M Ausloos and C Herteliu are partially supported by a grant 
+of the Romanian National Authority for Scientific Research and 
+Innovation, CNDS-UEFISCDI, project number 
+PN-III-P4-ID-PCCF-2016-0084. P S Azzopardi was supported by an 
+Australian National Health and Medical Research Council (NHMRC) 
+early career fellowship. A Badawi is supported by the Public Health 
+Agency of Canada. T W Bärnighausen was supported by the Alexander 
+von Humboldt Foundation through the Alexander von Humboldt 
+Professor award, funded by the German Federal Ministry of Education 
+and Research; the EU; the Wellcome Trust; and from National Institute of 
+Child Health and Human Development of National Institutes of Health 
+(NIH; R01-HD084233), National Institute on Aging of NIH 
+(P01-AG041710), National Institute of Allergy and Infectious Diseases of 
+NIH (R01-AI124389 and R01-AI112339), as well as Fogarty International 
+Center of NIH (D43-TW009775). G B Britton is supported by Sistema 
+Nacional de Investigación (SNI) de la Secretaría Nacional de Ciencia, 
+Tecnología e Innovación (SENACYT) of Panamá. A Barac is funded by 
+the Project of Ministry of Education, Science and Technology of the 
+Republic of Serbia (number III45005). D A Bennett was supported by the 
+National Institute for Health Research (NIHR) Oxford Biomedical 
+Research Centre. The views expressed are those of the authors and not 
+necessarily those of the National Health Service, the NIHR, or the UK 
+Department of Health and Social Care. V M Costa acknowledges her 
+grant (SFRH/BHD/110001/2015), received by Portuguese national funds 
+through Fundação para a Ciência e Tecnologia (FCT), IP, under the 
+Norma Transitória DL57/2016/CP1334/CT0006. F Carvalho acknowledges 
+UID/MULTI/04378/2019 and UID/QUI/50006/2019 support with 
+funding from FCT/Ministério da Ciência, Tecnologia e Ensino Superior 
+through national funds. K Deribe is supported by a Wellcome Trust grant 
+(number 201900/Z/16/Z) as part of his International Intermediate 
+Fellowship. C Herteliu is partially supported by a grant co-funded by 
+European Fund for Regional Development through the Operational 
+Program for Competitiveness (project ID P_40_382). P Hoogar thanks 
+Centre for Bio Cultural Studies, Directorate of Research, Manipal 
+Academy of Higher Education, Manipal and Centre for Holistic 
+Development and Research, Kalaghatgi-Karnataka. S M S Islam is funded 
+by a Fellowship from National Heart Foundation of Australia and Deakin 
+University. M Jakovljevic and the Serbian part of this GBD contribution 
+was co-funded through grant OI175014 of the Ministry of Education 
+Science and Technological Development of the Republic of Serbia. 
+A P Kengne is supported by the South African Medical Research Council. 
+Y J Kim’s work was supported by the Research Management Centre, 
+Xiamen University Malaysia, grants number XMUMRF/2018-C2/
+ITCM/0001. K Krishan is supported by a DST PURSE grant and 
+UGC Center of Advanced Study awarded to the Department of 
+Anthropology, Panjab University, Chandigarh, India. M Kumar 
+acknowledges K43 TW010716-03. B Lacey acknowledges support from the 
+NIHR Oxford Biomedical Research Centre and the British Heart 
+Foundation Centre of Research Excellence, Oxford. P T N Memiah 
+acknowledges the Council for the Development of Social Science 
+Research in Africa. M Molokhia is supported by the NIHR Biomedical 
+Research Center at Guy’s and St Thomas’ National Health Service 
+Foundation Trust and King’s College London. I Moreno Velásquez is 
+supported by the Sistema Nacional de Investigación (SENACYT, 
+Panamá). G C Patton is funded by an NHMRC Fellowship. A M Samy 
+received a fellowship from the Egyptian Fulbright Mission programme. 
+M M Santric-Milicevic acknowledges the support of the Ministry of 
+Education, Science and Technological Development of the Republic of 
+Serbia (contract number 175087). A Sheikh acknowledges the support of 
+Health Data Research UK. M R Sobhiyeh acknowledges the Clinical 
+Research Development Center of Imam Reza Hospital, Kermanshah 
+University of Medical Sciences for their wise advice. R Tabarés-Seisdedos 
+was supported in part by grant PI17/00719 from Instituto de Salud Carlos 
+III–FEDER. B Unnikrishnan acknowledges Manipal Academy of Higher 
+Education, Manipal. M R Weaver was supported by the Bill & Melinda 
+Gates Foundation grant OPP1127433. C S Wiysonge was supported by the 
+South African Medical Research Council.
+Editorial note: the Lancet Group takes a neutral position with respect to 
+territorial claims in published maps and institutional affiliations.
+References
+1	
+Das JK, Salam RA, Bhutta ZA. Global burden of childhood diarrhea 
+and interventions. Curr Opin Infect Dis 2014; 27: 451–58.
+2	
+Das JK, Lassi ZS, Salam RA, Bhutta ZA. Effect of community based 
+interventions on childhood diarrhea and pneumonia: uptake of 
+treatment modalities and impact on mortality. BMC Public Health 
+2013; 13: S29.
+3	
+Nalin DR, Cash RA, Islam R, Molla M, Phillips RA. Oral 
+maintenance therapy for cholera in adults. Lancet 1968; 292: 370–72.
+4	
+Pierce NF, Sack BR, Mitra RC, et al. Replacement of water and 
+electrolyte losses in cholera by an oral glucose-electrolyte solution. 
+Ann Intern Med 1969; 70: 1173.
+5	
+Mahalanabis D, Choudhuri AB, Bagchi NG, Bhattacharya AK, 
+Simpson TW. Oral fluid therapy of cholera among Bangladesh 
+refugees. 1973. Bull World Health Organ 2001; 79: 473–79.
+6	
+Roth GA, Abate D, Abate KH, et al. Global, regional, and national 
+age-sex-specific mortality for 282 causes of death in 195 countries 
+and territories, 1980–2017: a systematic analysis for the Global 
+Burden of Disease Study 2017. Lancet 2018; 392: 1736–88.
+7	
+Victora CG, Bryce J, Fontaine O, Monasch R. Reducing deaths from 
+diarrhoea through oral rehydration therapy. Bull World Health Organ 
+2000; 78: 1246–55.
+8	
+Glass RI, Stoll BJ. Oral rehydration therapy for diarrheal diseases: 
+a 50-year perspective. JAMA 2018; 320: 865–66.
+9	
+Binder HJ, Brown I, Ramakrishna BS, Young GP. Oral rehydration 
+therapy in the second decade of the twenty-first century. 
+Curr Gastroenterol Rep 2014; 16: 376.
+10	
+UNICEF. One is too many: ending child deaths from pneumonia 
+and diarrhoea. New York, NY: United Nations Children’s Fund, 2016.
+11	
+Wilson SE, Morris SS, Gilbert SS, et al. Scaling up access to oral 
+rehydration solution for diarrhea: learning from historical 
+experience in low- and high-performing countries. J Glob Health 
+2013; 3: 010404.
+12	
+Wagner Z, Asiimwe JB, Dow WH, Levine DI. The role of price and 
+convenience in use of oral rehydration salts to treat child diarrhea: 
+a cluster randomized trial in Uganda. PLoS Medicine 2019; 
+16: e1002734.
+13	
+National Primary Health Care Development Agency, Federal 
+Ministry of Health. Essential childhood medicines scale-up plan, 
+2012–2015. Abuja: Federal Republic of Nigeria, 2012.
+14	
+Munos MK, Walker CLF, Black RE. The effect of oral rehydration 
+solution and recommended home fluids on diarrhoea mortality. 
+Int J Epidemiol 2010; 39: i75–87.
+For the source code see https://
+github.com/ihmeuw/lbd/tree/
+ort-lmic-2020
+For the study data see http://
+ghdx.healthdata.org/record/
+ihme-data/lmic-oral-
+rehydration-therapy-coverage-
+geospatial-estimates-2000-2017
+
+Articles
+www.thelancet.com/lancetgh   Vol 8   August 2020	
+e1060
+15	
+Skaftun EK, Ali M, Norheim OF. Understanding inequalities in 
+child health in Ethiopia: health achievements are improving in the 
+period 2000–2011. PLoS One 2014; 9: e106460.
+16	
+Li Z, Li M, Subramanian SV, Lu C. Assessing levels and trends of 
+child health inequality in 88 developing countries: from 2000 to 
+2014. Glob Health Action 2017; 10: 1408385.
+17	
+Unger CC, Salam SS, Sarker MSA, Black R, Cravioto A, Arifeen SE. 
+Treating diarrhoeal disease in children under five: the global 
+picture. Arch Dis Chil 2014; 99: 273–78.
+18	
+Zwisler G, Simpson E, Moodley M. Treatment of diarrhea in young 
+children: results from surveys on the perception and use of oral 
+rehydration solutions, antibiotics, and other therapies in India and 
+Kenya. J Glob Health 2013; 3: 010403.
+19	
+Reyes H, Guiscafré H, Sarti E, Montoya Y, Tapia R, Gutiérrez G. 
+Urban-rural variations in medical care of children with diarrhea in 
+Mexico. Salud Publica Mex 1996; 38: 157–66.
+20	 Reiner RC Jr, Graetz N, Casey DC, et al. Variation in childhood 
+diarrheal morbidity and mortality in Africa, 2000–2015. 
+N Engl J Med 2018; 379: 1128–38.
+21	
+Kinyoki DK, Osgood-Zimmerman AE, Pickering BV, et al. 
+Mapping child growth failure across low- and middle-income 
+countries. Nature 2020; 577: 231–34.
+22	 Burstein R, Henry NJ, Collison ML, et al. Mapping 123 million 
+neonatal, infant and child deaths between 2000 and 2017. Nature 
+2019; 574: 353–58.
+23	 Lam F, Pro G, Agrawal S, et al. Effect of enhanced detailing and 
+mass media on community use of oral rehydration salts and zinc 
+during a scale-up program in Gujarat and Uttar Pradesh. 
+J Glob Health 2019; 9: 010501.
+24	
+Lam F, Abdulwahab A, Houdek J, et al. Program evaluation of an 
+ORS and zinc scale-up program in 8 Nigerian states. J Glob Health 
+2019; 9: 010502.
+25	 Institute for Health Metrics and Evaluation. Global Burden of 
+Disease Study 2017 (GBD 2017) Socio-demographic Index (SDI) 
+1950–2017. March 30, 2019. http://ghdx.healthdata.org/record/ihme-
+data/gbd-2017-socio-demographic-index-sdi-1950%E2%80%932017 
+(accessed June 1, 2019).
+26	 Stevens GA, Alkema L, Black RE, et al. Guidelines for accurate and 
+transparent health estimates reporting: the GATHER statement. 
+Lancet 2016; 388: e19–23.
+27	
+Fullman N, Yearwood J, Abay SM, et al. Measuring performance on 
+the Healthcare Access and Quality Index for 195 countries and 
+territories and selected subnational locations: a systematic analysis 
+from the Global Burden of Disease Study 2016. Lancet 2018; 
+391: 2236–71.
+28	 Faraway JJ. Problems with the predictors. In: Linear models with R. 
+Boca Raton, FL: CRC Press, 2004: 89–93.
+29	 Bhatt S, Cameron E, Flaxman SR, Weiss DJ, Smith DL, Gething 
+PW. Improved prediction accuracy for disease risk mapping using 
+Gaussian process stacked generalization. J Royal Soc Interface 2017; 
+14: 20170520.
+30	 Martins TG, Simpson D, Lindgren F, Rue H. Bayesian computing 
+with INLA: new features. Comput Stat Data Anal 2013; 67: 68–83.
+31	
+Rue H, Martino S, Chopin N. Approximate Bayesian inference for 
+latent Gaussian models by using integrated nested Laplace 
+approximations. J R Stat Soc Ser B Stat Methodol 2009; 71: 319–92.
+32	 Murray CJ, Ezzati M, Flaxman AD, et al. GBD 2010: design, 
+definitions, and metrics. Lancet 2012; 380: 2063–66.
+33	 De Maio FG. Income inequality measures. 
+J Epidemiol Community Health 2007; 61: 849–52.
+34	
+Local Burden of Disease Diarrhoea Collaborators. Mapping 
+geographical inequalities in childhood diarrhoeal morbidity and 
+mortality in low-income and middle-income countries, 2000–17: 
+analysis for the Global Burden of Disease Study 2017. Lancet 2020; 
+395: 1779–801.
+35	 WorldPop. Get data. pop_release 2019_08_29. https://www.
+worldpop.org/project/list (accessed July 25, 2017).
+36	 GeoNetwork. Global Administrative Unit Layers (GAUL). 2015. 
+http://www.fao.org/geonetwork/srv/en/main.home (accessed 
+June 1, 2017).
+37	
+Friedl M, Sulla-Menashe D. MCD12Q1 v006. MODIS/Terra+Aqua 
+land cover type yearly L3 global 500 m SIN grid. NASA EOSDIS 
+land processes DAAC. 2019. https://doi.org/10.5067/MODIS/
+MCD12Q1.006 (accessed June 1, 2017).
+38	 World Wildlife Fund. Global lakes and wetlands database, level 3. 
+2004. https://www.worldwildlife.org/pages/global-lakes-and-
+wetlands-database (accessed June 1, 2017).
+39	 Tatem AJ. WorldPop, open data for spatial demography. Sci Data 2017; 
+4: 170004.
+40	
+Lehner B, Döll P. Development and validation of a global database 
+of lakes, reservoirs and wetlands. J Hydrol 2004; 296: 1–22.
+41	
+No authors listed. Water with sugar and salt. Lancet 1978; 
+312: 300–01.
+42	
+Nalin DR, Cash RA. 50 years of oral rehydration therapy: the solution 
+is still simple. Lancet 2018; 392: 536–38.
+43	
+Boschi-Pinto C, Bahl R, Martines J. Limited progress in increasing 
+coverage of neonatal and child-health interventions in Africa and 
+Asia. J Health Popul Nutr 2009; 27: 755–62.
+44	
+Forsberg BC, Petzold MG, Tomson G, Allebeck P. Diarrhoea case 
+management in low- and middle-income countries: an unfinished 
+agenda. Bull World Health Organ 2007; 85: 42–48.
+45	
+Lenters LM, Das JK, Bhutta ZA. Systematic review of strategies to 
+increase use of oral rehydration solution at the household level. 
+BMC Public Health 2013; 13: S28.
+46	
+Ververs M, Narra R. Treating cholera in severely malnourished 
+children in the Horn of Africa and Yemen. Lancet 2017; 
+390: 1945–46.
+47	
+Volpicelli K, Buttenheim AM. Do social factors predict appropriate 
+treatment of child diarrheal disease in Peru? Matern Child Health J 
+2016; 20: 2299–308.
+48	
+Greenland K, Chipungu J, Chilengi R, Curtis V. Theory-based 
+formative research on oral rehydration salts and zinc use in Lusaka, 
+Zambia. BMC Public Health 2016; 16: 312.
+49	
+Walker CLF, Black RE. Zinc for the treatment of diarrhoea: effect on 
+diarrhoea morbidity, mortality and incidence of future episodes. 
+Int J Epidemiol 2010; 39 (suppl 1): i63–69.
+50	 Gebremedhin S, Mamo G, Gezahign H, Kung’u J, Adish A. 
+The effectiveness bundling of zinc with Oral Rehydration Salts 
+(ORS) for improving adherence to acute watery diarrhea treatment 
+in Ethiopia: cluster randomised controlled trial. BMC Public Health 
+2016; 16: 457.
+51	
+Kung’u JK, Owolabi O, Essien G, Aminu FT, Ngnie-Teta I, 
+Neufeld LM. Promotion of zinc tablets with ORS through child 
+health weeks improves caregiver knowledge, attitudes, and practice 
+on treatment of diarrhoea in Nigeria. J Health Popul Nutr 2015; 
+33: 9–19.
+52	 Schroder K, Battu A, Wentworth L, et al. Increasing coverage of 
+pediatric diarrhea treatment in high-burden countries. J Glob Health 
+2019; 9: 0010503.
+53	 UN Committee for Development Policy. Leaving no one behind: 
+summary from UN Committee for Development Policy. 2018. 
+https://sustainabledevelopment.un.org/content/
+documents/2754713_July_PM_2._Leaving_no_one_behind_
+Summary_from_UN_Committee_for_Development_Policy.pdf 
+(accessed June 7, 2019).

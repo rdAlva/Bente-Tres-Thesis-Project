@@ -1,0 +1,84 @@
+HOLY ANGEL UNIVERSITY 
+SCHOOL OF COMPUTING 
+ 
+ 
+ 
+6CFUN/6EMC 
+First Semester, SY 2023-2024 
+Name: Redenelle Maurice L. Manangu 
+Student No.:20961134 
+Activity: Asynchronous Activity  
+Section: ICT - 105 
+Topic: Computer Systems and Hardware 
+Week: 10 
+Remarks: 
+ 
+ 
+ 
+Score: 
+ 
+Answer the following questions: 
+• 
+How do you differentiate a system memory and a mass storage system. 
+• 
+Describe briefly and differentiate types of a system memory. 
+• 
+How do you differentiate HDD and SSD, what factors should we consider when selecting 
+mass storage? 
+• 
+Identify the different options available for external storage. 
+ 
+ 
+How do you differentiate a system memory and a mass storage system. 
+System memory and mass storage are essential components of a computer system, each 
+serving a specific purpose. RAM, or system memory, offers temporary storage for data required by 
+the CPU during active activities, but it is volatile, which means it loses data when the computer is shut 
+down or restarted. Mass storage, on the other hand, is used for long-term data storage, such as the 
+storage of the operating system, software, documents, and media assets. Mass storage is slower than 
+RAM because it uses mechanical or electrical procedures to access data. Mass storage devices have 
+greater storage capabilities, often measured in terabytes or more, making them appropriate for long-
+term data storage. Both components are important for a computer's overall operation. 
+Describe briefly and differentiate types of a system memory. 
+System memory, also known as RAM, exists in various types, and (double data rate, fourth 
+generation random access memory) DDR4 is the prevailing and contemporary selection for typical 
+computing tasks. (Double Data Rate Version 3) DDR3 remains relevant in older computer systems, 
+while (Double Data Rate Version 2) DDR2 and (Double Data Rate) DDR are outdated options. LPDDR 
+(Low Power Double Data Rate) is tailored for mobile devices. (Error correction code memory) ECC 
+memory offers error correction for data reliability, and registered memory is employed in server 
+environments. SDRAM (Synchronous Dynamic Random Access Memory) is a type of computer 
+memory that allows for quick and synchronized data writing, resulting in better overall system 
+performance. Static Random-Access Memory (SRAM) is a volatile semiconductor used in computers 
+and electronic devices for high-speed data storage and retrieval, providing quicker, more power-
+efficient storage in flip-flop circuits than dynamic RAM. Lastly, DRAM is a volatile computer memory 
+that stores data on integrated circuits and requires constant refreshing for data integrity. It is commonly 
+utilized because of its great storage density and low cost. The decision on which type of system 
+memory to use depends on the specific requirements, compatibility, and functionality of the computer 
+system. 
+
+HOLY ANGEL UNIVERSITY 
+SCHOOL OF COMPUTING 
+ 
+ 
+ 
+How do you differentiate HDD and SSD? What factors should we consider when selecting mass 
+storage? 
+(hard disk drive) HDDs and (solid-state drive) SSDs are two types of hard disk drives that are 
+used to store data. HDDs use spinning magnetic disks to access data, whereas SSDs employ NAND 
+flash memory for storage. SSDs provide advantages such as increased speed, durability, decreased 
+power usage, less noise and heat, and a smaller form factor. HDDs, on the other hand, are bigger and 
+heavier. Considering aspects like performance requirements, storage capacity, budget, usage 
+situations, gaming and multimedia preferences, mobility, data dependability, and security when picking 
+between HDD and SSD, due to the lack of moving components, SSDs are more dependable, making 
+them a favored choice for crucial data storage. Hybrid drives (SSHDs) provide a middle ground by 
+combining SSD performance with HDD capacity. 
+Identify the different options available for external storage. 
+External storage options provide additional storage capacity for computers and devices. These 
+options encompass a variety of choices, including external HDDs, external SSDs, USB flash drives, 
+memory cards and SD cards, NAS devices, external optical drives, cloud storage services, external 
+RAID enclosures, docking stations, and wireless external drives. HDDs are portable and offer 
+substantial storage space, while SSDs offer high-speed data transfer. USB flash drives are compact 
+and lightweight, and memory cards and SD cards serve as removable storage for various data types. 
+NAS devices are dedicated networked storage systems, and external optical drives are used for 
+reading and writing optical discs. Cloud storage services offer remote storage solutions, while RAID 
+enclosures house multiple drives for performance and redundancy. Docking stations facilitate the 
+connection of internal drives externally. 

@@ -1,0 +1,390 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+6-1-2025 
+Improving Health Information Systems for Universal Health 
+Improving Health Information Systems for Universal Health 
+Coverage in the Philippines 
+Coverage in the Philippines 
+Catherine Agas Chung 
+Zuellig Family Foundation 
+Jenilyn Ann Vergara Dabu 
+Zuellig Family Foundation 
+Fiona Rose Andres Norada 
+Zuellig Family Foundation 
+Arianna Maever Loreche 
+Ateneo de Manila University, aamit@ateneo.edu 
+Veincent Christian Pepito 
+Ateneo de Manila University, vpepito@ateneo.edu 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Health Information Technology Commons, and the Public Health Commons 
+Custom Citation 
+Custom Citation 
+Chung, C.A., Dabu, J.A.V., Norada, F.R.A., Loreche, A.M., Pepito, V.C.F. and Dayrit, M.M. (2025), Improving 
+Health Information Systems for Universal Health Coverage in the Philippines. Public Health Chall., 4: 
+e70050. https://doi.org/10.1002/puh2.70050 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+Authors 
+Authors 
+Catherine Agas Chung, Jenilyn Ann Vergara Dabu, Fiona Rose Andres Norada, Arianna Maever Loreche, 
+Veincent Christian Pepito, and Manuel M. Dayrit 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/asmph-pubs/306 
+
+Public Health Challenges
+COMMENTARY
+Improving Health Information Systems for Universal
+Health Coverage in the Philippines
+Catherine Agas Chung1
+Jenilyn Ann Vergara Dabu1
+Fiona Rose Andres Norada1
+Arianna Maever Loreche2,3,4
+Veincent Christian F. Pepito3
+Manuel M. Dayrit1,3
+1Zuellig Family Foundation, Paranaque City, Philippines
+2National Clinical Trials and Translation Center, National Institutes of Health, University of the
+Philippines Manila, Manila, Philippines
+3Center for Research and Innovation, School of Medicine and Public Health, Ateneo de Manila University, Pasig City,
+Philippines
+4Ateneo Policy Center, School of Government, Ateneo de Manila University, Quezon City, Philippines
+Correspondence: Veincent Christian F. Pepito (vpepito@ateneo.edu)
+Received: 23 October 2024
+Revised: 16 February 2025
+Accepted: 1 April 2025
+Funding: This paper was funded by the Zuellig Family Foundation.
+Keywords: cybersecurity | data quality | health information management | health information systems | Philippines | universal health coverage
+ABSTRACT
+Health information systems are a key building block of a well-functioning health system and are a vital component in the
+implementation of universal health coverage. The Philippines’s current transition toward universal health coverage had attendant
+health information system reforms, such as the establishment of the country’s National Health Data Repository and the Health
+Sector Enterprise Architecture. However, many issues remain in this transition, such as insufficient investments in health
+information systems, poor reliability of health information systems, technical support delays, data quality issues, and cybersecurity
+issues. We recommend making health data portable throughout the health system while adhering to data privacy laws, investing
+in internet connectivity, information technology, and capacity building for human resources, and improving implementation of
+current policies and guidelines to fully harness the potential of health information systems in making universal health coverage a
+reality in the Philippines.
+1
+Introduction
+A well-functioning health information system (HIS) is a key
+building block of a strong health system. It is essential in
+keeping track of patient history, in disease surveillance, in
+processing of claims and co-payments, in predicting and fore-
+casting demand for services, and in the monitoring, eval-
+uation, and continued improvements of health policies and
+programs [1]. Without an integrated and responsive HIS, it is
+difficult to monitor patient pathways for continuity of care,
+conduct disease surveillance, process provider payments, forecast
+demand for services and resources, and track health systems
+performance [1].
+Despite substantial advancements in HIS and the ubiquity of
+electronic medical records (EMRs), data availability for universal
+health coverage (UHC) indicators is only 70% in the Western
+Pacific Region, which affects healthcare planning and service
+delivery. For this reason, the Global Strategy on Digital Health
+2020–2025 recognizes that a responsive HIS is a catalyst to meet-
+ing UHC and global health targets, whereas acknowledging the
+challenges faced by low- and middle-income countries (LMICs)
+with significant resource, governance, health system, behavioral,
+organizational, and technical constraints [2].
+This paper aims to document recent HIS reforms in the Philip-
+pines, describe challenges in health information management
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly
+cited.
+© 2025 The Zuellig Family Foundation, Inc. Public Health Challenges published by John Wiley & Sons Ltd.
+Public Health Challenges, 2025; 4:e70050
+https://doi.org/10.1002/puh2.70050
+1 of 4
+
+in the country, and put forth some recommendations to address
+these challenges as the country implements reforms toward UHC.
+In doing so, we hope to push for reform in health information
+management in the Philippines and in other countries encounter-
+ing health information management challenges as they transition
+toward UHC.
+2
+UHC and Recent HIS Reforms in the
+Philippines
+In the Philippines, the passage of the UHC Law in 2019 ushered
+in rapid developments in the country’s HIS environment. As
+mandated in its implementing rules and regulations, all health
+service providers and insurers are now required to maintain an
+HIS covering enterprise resource, human resources for health,
+EMRs, and electronic prescription log, which shall be electron-
+ically uploaded on a regular basis through an interoperable
+system called the National Health Data Repository (NHDR) [3].
+The NHDR is envisioned as the authoritative repository of the
+country’s health and health-related data. It will serve as the basis
+of health policy and standards, decision-making, health program
+planning and implementation, health systems strengthening,
+and monitoring and evaluation. Furthermore, the Health Sector
+Enterprise Architecture (HSEA) is being developed to standardize
+and organize the information and communications technology
+infrastructure of the country, ensure its alignment to the aim of
+UHC, and support digital transformation of the healthcare sector.
+These reforms are key to unify and harmonize HIS in the country,
+with standards enforced to ensure quality and interoperability
+across various public and private systems [4].
+3
+Health Information Management Challenges
+in the Philippines
+3.1
+Insufficient Investments in HISs
+In a rapid survey we conducted with 20 purposively-selected
+local government units (LGUs) in the Philippines for project
+planning purposes (Supporting Information File 1), only 10 (50%)
+have budget allotment for HIS operations and maintenance,
+and only one mentioned having dedicated space, IT personnel,
+and a permanent trained encoder running the LGU’s HIS. Data
+management and encoding of health information from many
+government facilities are still being done by midwives, nurses,
+and physicians, increasing their workload and giving them less
+time to care for patients. In many less-urbanized areas in the
+country, paper-based recording and reporting of health events are
+still prevalent. The lack of HIS investments of LGUs highlights
+the unrecognized importance of enhancing capacities and infras-
+tructure for health data management. Because of the shortages
+in human and information technology resources due to chronic
+underinvestment, many LGUs will have difficulty implementing
+these new HIS reforms.
+3.2
+Poor Reliability of HISs
+Many of our survey respondents reported that the HIS they
+are using commonly experience server downtimes, which is
+due to poor internet connectivity or bugs in the system. Some
+HIS platforms are still under development and require systems
+updates, which would necessitate retraining for users. Lastly,
+respondents also reported the HIS platform’s inability to operate
+as a standalone system as a challenge, indicating the need to have
+various platforms installed to generate different reports or process
+claims.
+3.3
+Technical Support Delays
+In the same survey, only three (15%) have dedicated local technical
+support teams; others have to call a central office technical
+support team, which could mean significant delays. Seven (35%)
+LGUs receive response to their technical support queries within
+the day, five (25%) receive response within 1 to 2 days, whereas
+six (30%) receive technical support anywhere from 3 to 5 days.
+One (5%) LGU, located in a mountainous area in the Philippines,
+reported that they waited for more than a month before receiving
+technical support. These delays create inefficiencies in the health-
+care sector, with health providers reverting to paper-based data
+collection and management.
+3.4
+Data Quality Issues
+Of 20 respondent LGUs, 12 (60%) do not have an established
+protocol for validating the data collected, raising concerns
+about data quality. Among the eight (40%) LGUs that did,
+data validation methods included reviewing data during input,
+interviewing patients, or during program implementation and/or
+system review. These quality issues affect estimates on disease
+burden and UHC indicators such as coverage and quality of care,
+which ultimately impact how services are designed, promoted,
+delivered, and financed [5, 6].
+3.5
+Lack of Data Portability and Interoperability
+of HIS
+Ideally, when a patient is referred from one hospital to another,
+his/her data should accompany him/her as well, providing
+continuity of care from one health facility to another. However,
+health data ownership in the Philippines typically lies with the
+providers, and patients will have to get permission from the
+provider to share their health data when they go to another facility
+[7]. Further aggravating this issue is the lack of interoperability
+of the different HIS currently existing in the country, despite the
+guidelines explicitly stating that they have to be interoperable [8].
+As a result, the patient may not have continuity of care as he/she
+navigates through the health system.
+3.6
+Cybersecurity Issues
+There have been many verified cybersecurity breaches of health
+and insurance data in the Philippines [9]. Beyond these national
+agencies, we have also identified cybersecurity vulnerabilities in
+our respondent LGUs. In our survey, 12 (60%) LGUs store health
+data in only one platform—either their desktop computer in
+the health facility or a server linked to the EMR. Implementing
+2 of 4
+Public Health Challenges, 2025
+ 27692450, 2025, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/puh2.70050 by Cochrane Philippines, Wiley Online Library on [14/05/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+storage and data redundancy is essential in securing sensitive
+individual health data and preventing possible data loss.
+4
+Recommendations
+The promise of UHC in the Philippines through HIS reforms
+is tremendous; however, many challenges remain that require
+a whole-of-society approach to address [2, 10]. We provide
+recommendations backed by successful experience from other
+countries:
+4.1
+Making Health Data Portable Throughout
+the Health System While Adhering to Data Privacy
+Laws
+Previous research studies have highlighted the vital role of
+standardized data collection and transmission systems, universal
+identifiers for individual patients, and modernized working
+practices to facilitate health data portability as patients navi-
+gate throughout the health system [11]. In the Philippines, the
+closest universal identifier that could be used is the national
+identification system, and it can be integrated into the country’s
+various HISs to facilitate UHC implementation; however, data
+privacy concerns persist, which preclude its use. The approach
+used by some HISs in Europe, in compliance with their General
+Data Protection Regulation, includes k-anonymization, masking
+patient and admission identifiers, deleting all direct identifiers,
+and removing images and free text except for laboratory variables
+[12].
+4.2
+Investing in Internet Connectivity, IT, and
+Capacity Building for the Health Workforce
+A key facilitator during the early phase of transition to electronic
+HIS in the United States was substantial financial investments,
+which allocated federal budget for IT resources and training their
+health workforce with the overall goal of improving quality of care
+[13]. However, in the Philippine context, financial investments
+should come not just from the national government but also
+from the local government, which is empowered through the
+Local Government Code to design and manage their own health
+systems [14] and, as a result, their own local HIS. Through
+guidance from the Department of Interior and Local Government,
+there could be roadmaps for LGUs for transitioning from a paper-
+based system toward electronic HIS. These roadmaps should
+describe which IT infrastructure and training needs should be
+addressed at each stage of the transition [2]. This will also
+entail concomitant investments from private telecommunication
+providers, to ensure reliable internet connectivity even in less
+urbanized areas. To encourage the private sector to do this, tax
+breaks or government subsidies could be given.
+4.3
+Improving Implementation of Current
+Policies
+Guidelines for interoperability, data quality, and reducing cyber-
+security vulnerabilities are already present in various policy
+documents in the Philippines [8, 4]. However, these are not
+implemented properly because personal information controllers
+and processors in the country may not be aware of such guidelines
+or do not have the necessary skills or resources to implement it.
+This necessitates national government agencies to streamline the
+dissemination of pertinent guidelines for interoperability, data
+quality, and cybersecurity toward local government health cen-
+ters and continuously invest in capacity building to implement
+the said guidelines.
+5
+Conclusions
+These nascent HIS reforms and the challenges in implementing
+them are part of the birthing pains in the transition toward an
+integrated health system necessary in making UHC possible.
+These issues and the gravity of the necessary reforms highlight
+the need for different national government agencies, local govern-
+ments, as well as partners in the private sector to come together
+and invest in information technology and the infrastructure and
+human resources necessary to improve HIS for UHC.
+Author Contributions
+Catherine Agas Chung: conceptualization, supervision, data curation,
+formal analysis, writing – original draft. Jenilyn Ann Vergara Dabu:
+conceptualization, data curation, formal analysis, writing – original draft.
+Fiona Rose Andres Norada: conceptualization, data curation, formal
+analysis, writing – original draft. Arianna Maever Loreche: concep-
+tualization, formal analysis, writing – review and editing. Veincent
+Christian F. Pepito: conceptualization, formal analysis, writing – review
+and editing. Manuel M. Dayrit: conceptualization, supervision, formal
+analysis, writing—review and editing.
+Acknowledgments
+We thank Dr Dennis Batangan MSc of the Institute of Philippine Culture,
+Ateneo de Manila University and the Health Enterprise Architecture
+Expert Group of the National e-Health Program for feedback to the
+manuscript.
+Ethics Statement
+The authors have nothing to report.
+Consent
+The authors have nothing to report.
+Conflicts of Interest
+A.M.L., V.C.P., and M.M.D. have received funding from Sanofi Consumer
+Healthcare to conduct research on self-care for universal health coverage
+in the Philippines and have received funding from the International
+Initiative for Impact Evaluation to develop a proposal to assess programs
+of the Philippine Health Insurance Corporation.
+Data Availability Statement
+The survey data mentioned in the study was conducted for program
+planning purposes and not for research. It may be accessed from
+Dr Catherine Chung (cachung@zuelligfoundation.org) upon reasonable
+request.
+3 of 4
+ 27692450, 2025, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/puh2.70050 by Cochrane Philippines, Wiley Online Library on [14/05/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+References
+1. P. Ingun, D. Streveler, K. Brown, et al., The Role of Information Systems
+in Achieving Universal Health Coverage, Technical Brief Series—Brief No
+10, Epub ahead of print, 2010, https://cdn.who.int/media/docs/default-
+source/health-financing/technical-briefs-background-papers/technical-
+briefs/icttbno10.pdf?sfvrsn=9607c31d_3&download=true⟩.
+2. K. A. Grepin, M. Song, L. Lazuardi, et al., Use of Routine Health
+Information Systems for Policy-Making Towards Universal Health Coverage
+in Decentralized Countries: A Comparative Analysis of Strategies Used in
+Indonesia and Philippines (World Health Organization Regional Office
+for Southeast Asia, 2023), https://iris.who.int/bitstream/handle/10665/
+375762/9789290228912-eng.pdf?sequence=1.
+3. “Implementing Rules and Regulations of the Universal Health Care Act
+(Republic Act No. 11223),” Department of Health (Philippines), published
+2019, https://www.philhealth.gov.ph/about_us/UHC-IRR_Signed.pdf.
+4. “National
+Health
+Data
+Repository
+Framework,”
+Department
+of
+Health
+(Philippines)
+and
+Philippine
+Health
+Insurance
+Corporation, published 2022, https://www.philhealth.gov.ph/about_us/
+NationalHealthDataRepositoryFramework03282022.pdf.
+5. A. M. L. Amit, V. C. Pepito, B. Gutierrez, et al., “Data Sharing in
+Southeast Asia During the First Wave of the COVID-19 Pandemic,”
+Frontiers in Public Health 9 (2021): 662842.
+6. A. M. Loreche, V. C. F. Pepito, K. Y. Hartigan-Go, et al., “Measuring
+Quality of Care for Universal Health Coverage in the Western Pacific,”
+International Journal for Quality in Health Care 35, no. 4 (2023): mzad084.
+7. K. Hartigan-Go, M. L. Prieto, and A. F. Castillo, We Should Own
+Our Health (Rappler, 2024), https://www.rappler.com/voices/thought-
+leaders/opinion-patients-philippines-should-own-health-data/.
+8. “Joint Administrative Order No. 2021-0001. Guidelines on the Imple-
+mentation and Maintenance of an Integrated Health Information Sys-
+tem,” Department of Health (Philippines) and Philippine Health Insur-
+ance Corporation, published 2021, https://law.upd.edu.ph/wp-content/
+uploads/2021/06/DOH-PHIC-JAO-No-2021-001.pdf.
+9. M. Jaymalin, “PhilHealth: 13 Million Members Affected by Data
+Breach,” published 2023, https://www.philstar.com/headlines/2023/10/
+19/2304835/philhealth-13-million-members-affected-data-breach.
+10. H. Bagherian and M. Sattari, “Health Information System in Devel-
+oping Countries: A Review on the Challenges and Causes of Success and
+Failure,” Medical Journal of the Islamic Republic of Iran 36 (2022): 111.
+11. A. Szarfman, J. G. Levine, J. M. Tonning, et al., “Recommendations
+for Achieving Interoperable and Shareable Medical Data in the USA,”
+Communications Medicine 2, no. 1 (2022): 86.
+12. J. de Kok, M. Á. A. de la Hoz, Y. de Jong, et al., “A Guide to Sharing
+Open Healthcare Data Under the General Data Protection Regulation,”
+Scientific Data 10, no. 1 (2023): 404.
+13. D. W. Bates, “The Quality Case for Information Technology in
+Healthcare,” BMC Medical Informatics and Decision Making 2 (2002): 7.
+14. E. A. Escano-Arias, R. Abarquez, R. V. Cruz, et al., “Strengthening
+Local Health Systems and Governance for Universal Health Coverage:
+Experiences and Lessons From the COVID-19 Pandemic Response in
+Quezon City, Philippines,” Health Policy and Planning 40, no. 3 (2025):
+436–442.
+Supporting Information
+Additional supporting information can be found online in the Supporting
+Information section.
+4 of 4
+Public Health Challenges, 2025
+ 27692450, 2025, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/puh2.70050 by Cochrane Philippines, Wiley Online Library on [14/05/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

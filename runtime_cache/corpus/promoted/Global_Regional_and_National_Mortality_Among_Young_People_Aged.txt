@@ -1,0 +1,3384 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+10-30-2021 
+Global, Regional, and National Mortality Among Young People 
+Global, Regional, and National Mortality Among Young People 
+Aged 10–24 Years, 1950–2019: A Systematic Analysis for the 
+Aged 10–24 Years, 1950–2019: A Systematic Analysis for the 
+Global Burden of Disease Study 2019 
+Global Burden of Disease Study 2019 
+Joseph L. Ward 
+University College London 
+Arianna Maever L. Amit 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, aamit@ateneo.edu 
+Veincent Christian F. Pepito 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, vpepito@ateneo.edu 
+GBD 2019 Adolescent Morality Collaborators 
+646 co-authors 
+various institutions 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Demography, Population, and Ecology Commons, and the Public Health Commons 
+Custom Citation 
+Custom Citation 
+GBD 2019 Adolescent Mortality Collaborators. (2021). Global, regional, and national mortality among 
+young people aged 10–24 years, 1950–2019: A systematic analysis for the Global Burden of Disease 
+Study 2019. The Lancet, 398(10311), 1593–1618. https://doi.org/10.1016/S0140-6736(21)01546-4 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact research@ateneo.edu. 
+
+Articles
+www.thelancet.com   Vol 398   October 30, 2021	
+1593
+Global, regional, and national mortality among young 
+people aged 10–24 years, 1950–2019: a systematic analysis 
+for the Global Burden of Disease Study 2019
+GBD 2019 Adolescent Mortality Collaborators*
+Summary
+Background Documentation of patterns and long-term trends in mortality in young people, which reflect huge 
+changes in demographic and social determinants of adolescent health, enables identification of global investment 
+priorities for this age group. We aimed to analyse data on the number of deaths, years of life lost, and mortality rates 
+by sex and age group in people aged 10–24 years in 204 countries and territories from 1950 to 2019 by use of estimates 
+from the Global Burden of Diseases, Injuries, and Risk Factors Study (GBD) 2019.
+Methods We report trends in estimated total numbers of deaths and mortality rate per 100 000 population in young 
+people aged 10–24 years by age group (10–14 years, 15–19 years, and 20–24 years) and sex in 204 countries and 
+territories between 1950 and 2019 for all causes, and between 1980 and 2019 by cause of death. We analyse variation 
+in outcomes by region, age group, and sex, and compare annual rate of change in mortality in young people aged 
+10–24 years with that in children aged 0–9 years from 1990 to 2019. We then analyse the association between mortality 
+in people aged 10–24 years and socioeconomic development using the GBD Socio-demographic Index (SDI), a 
+composite measure based on average national educational attainment in people older than 15 years, total fertility rate 
+in people younger than 25 years, and income per capita. We assess the association between SDI and all-cause 
+mortality in 2019, and analyse the ratio of observed to expected mortality by SDI using the most recent available data 
+release (2017).
+Findings In 2019 there were 1·49 million deaths (95% uncertainty interval 1·39–1·59) worldwide in people aged 
+10–24 years, of which 61% occurred in males. 32·7% of all adolescent deaths were due to transport injuries, 
+unintentional injuries, or interpersonal violence and conflict; 32·1% were due to communicable, nutritional, or 
+maternal causes; 27·0% were due to non-communicable diseases; and 8·2% were due to self-harm. Since 1950, 
+deaths in this age group decreased by 30·0% in females and 15·3% in males, and sex-based differences in mortality 
+rate have widened in most regions of the world. Geographical variation has also increased, particularly in people aged 
+10–14 years. Since 1980, communicable and maternal causes of death have decreased sharply as a proportion of total 
+deaths in most GBD super-regions, but remain some of the most common causes in sub-Saharan Africa and south 
+Asia, where more than half of all adolescent deaths occur. Annual percentage decrease in all-cause mortality rate 
+since 1990 in adolescents aged 15–19 years was 1·3% in males and 1·6% in females, almost half that of males aged 
+1–4 years (2·4%), and around a third less than in females aged 1–4 years (2·5%). The proportion of global deaths in 
+people aged 0–24 years that occurred in people aged 10–24 years more than doubled between 1950 and 2019, from 
+9·5% to 21·6%.
+Interpretation Variation in adolescent mortality between countries and by sex is widening, driven by poor progress in 
+reducing deaths in males and older adolescents. Improving global adolescent mortality will require action to address 
+the specific vulnerabilities of this age group, which are being overlooked. Furthermore, indirect effects of the 
+COVID-19 pandemic are likely to jeopardise efforts to improve health outcomes including mortality in young people 
+aged 10–24 years. There is an urgent need to respond to the changing global burden of adolescent mortality, address 
+inequities where they occur, and improve the availability and quality of primary mortality data in this age group.
+Funding Bill & Melinda Gates Foundation.
+Copyright © 2021 The Author(s). Published by Elsevier Ltd. This is an Open Access article under the CC BY 4.0 license.
+Introduction
+The most recent systematic global analysis to focus on 
+mortality in young people aged 10–24 years is now more 
+than a decade old.1 Since then, there have been huge 
+changes to patterns of health risk, population growth, 
+and improvements in the availability and quality of 
+mortality estimates. There has also been wider 
+recognition of the importance of adolescent health to 
+global development,2,3 and in harnessing the demographic 
+dividend resulting from forecasted population change.4 
+Adolescents are now included within the UN Every 
+Woman Every Child agenda,5 the Countdown to 2030 
+Lancet 2021; 398: 1593–618
+See Comment page 1545
+*Collaborators are listed at the 
+end of the paper 
+Correspondence to:
+Dr Joseph L Ward, Great Ormond 
+Street Institute of Child Health, 
+University College London, 
+London WC1N 1EH, UK
+joseph.ward@ucl.ac.uk
+
+Articles
+1594	
+www.thelancet.com   Vol 398   October 30, 2021
+collaboration to track progress towards the Sustainable 
+Development Goals (SDGs),6 and the work of the Global 
+Financing Facility.7 Despite this progress, there is also 
+growing concern that global adolescent health priorities 
+are still neglected.8,9 Global progress to improve health 
+outcomes for young people has been slow, and major 
+challenges remain in addressing social determinants of 
+adolescent health and mortality, such as unmet 
+contraception need, child marriage, and access to quality 
+secondary education.8 Furthermore, the COVID-19 
+pandemic has ongoing consequences on the health of 
+young people that are not fully understood. Although 
+case fatality and morbidity due to COVID-19 is lower in 
+young people than in older adults,10 this age group is 
+particularly susceptible to indirect effects of the 
+pandemic, with ongoing disruption to education and 
+employment likely to further hinder progress in health.11
+Mortality is a fundamental indicator of health12 and 
+mortality estimates provide a proxy for broader health 
+outcomes with little or no high quality data. This is 
+particularly pertinent for young people, where data 
+scarcity presents a barrier to understanding health needs 
+in many countries,13,14 and the process of determining 
+which metrics best capture adolescent health priorities is 
+ongoing.15 Earlier work1 illustrated that global adolescent 
+mortality is greater than previously recognised and that 
+improvements lagged behind those seen in younger 
+children,16 despite a high proportion of adolescent deaths 
+being from preventable causes.17
+Mortality is included in the indicator set for monitoring 
+future progress in adolescent health. All-cause mortality 
+in people aged 10–19 years is an indicator within the 
+Global Strategy for Women’s, Children’s and Adolescents’ 
+Health 2016–2030,5,18 and SDG 3 includes indicators for 
+causes of death that are highly relevant to young people 
+including maternal mortality (death due to complications 
+during or after pregnancy; SDG indicator 3.1.1), suicide 
+(3.4.2), and deaths due to road traffic injury (3.6.1).19
+Agencies that provide adolescent mortality estimates for 
+a broad range of countries include the UN Population 
+Division, Department of Economic and Social Affairs,20 
+WHO,21 US Census Bureau,22 and the UN Inter-agency 
+Group for Child Mortality Estimation.23 However, the 
+ongoing Global Burden of Diseases, Injuries, and Risk 
+Factors Study (GBD) provides the only source of frequently 
+updated, age-specific mortality estimates (including 
+uncertainty intervals [UIs]) covering almost all countries 
+and territories in the world.12 Furthermore, the availability 
+Research in context
+Evidence before this study
+We searched PubMed and Embase for studies to answer the 
+research question: “What are current global patterns and 
+previous trends in mortality in adolescents and young people”. 
+We used the following terms in titles or abstracts: (“adolescent” 
+OR “young people” AND (“trends” OR “patterns”) AND (“death” 
+OR “mortality”) AND (“world” OR “global” OR “international”). 
+We found one study that focused on global mortality patterns 
+in adolescents (10–24 years), published in 2009. Using data 
+from 2004, this study reported the considerable burden of 
+global adolescent mortality, and analysed geographic variation 
+in outcomes, but did not explore trends over time. Two further 
+studies reported trends in global mortality or years of life lost 
+(YLLs) in adolescents and young people from 1990. As part of 
+wider analyses of patterns of disease and risk factors in people 
+aged 10–24 years, these studies found considerable variation in 
+improvements in mortality and YLLs by country, age group, and 
+sex. We identified other studies that examined adolescent 
+deaths, but these either included smaller age groups 
+(10–14 years, 10–19 years, or 15–24 years), focused on one 
+region or group of countries, or were part of a wider study of 
+mortality in other age groups and were not focused on 
+adolescents. Although these studies provide useful insights into 
+adolescent mortality, they do not provide a comprehensive 
+global analysis of trends and burden of deaths in this age group.
+Added value of this study
+This is a comprehensive update of global mortality in young 
+people aged 10–24 years, and the first analysis we are aware 
+of to include estimates for 204 countries and territories, 
+including all members and associate members of WHO. We 
+found huge changes to adolescent mortality over the study 
+period and increasing variation in outcomes. Mortality in 
+people aged 10–24 years is increasing in many regions, 
+particularly in males, and sex differences have widened in most 
+regions of the world. Adolescent mortality rates were strongly 
+associated with level of development. Demographic change and 
+differences in mortality improvements are shifting the global 
+burden of adolescent mortality towards sub-Saharan Africa, 
+however, where communicable and maternal causes of death 
+continue to predominate. We were able to identify countries 
+with good adolescent mortality outcomes relative to their level 
+of socioeconomic development, which can inform global health 
+strategies for this age group.
+Implications of all the available evidence
+Despite increased recognition of the importance of adolescent 
+health to global development and future economic prosperity, 
+these findings highlight an ongoing failure to adequately 
+respond to health risks during the adolescent years, and of 
+funding levels that remain insufficient. This is compounded by 
+rapid demographic change in low-resource settings where 
+mortality hazards for adolescents remain high. Indirect effects of 
+the COVID-19 pandemic threaten to restrict progress even 
+further. Approaches must be developed to address growing 
+inequities in mortality in this age group, and to focus on regions 
+of the world and causes of death where improvements have 
+stagnated. To monitor progress reliably, improvements in the 
+quality and availability of adolescent health data are also 
+urgently required.
+
+Articles
+www.thelancet.com   Vol 398   October 30, 2021	
+1595
+of estimates in GBD 2019 of all-cause mortality from 1950, 
+and cause-specific estimates from 1980,12 provides a 
+unique opportunity to analyse long-run trends over time, 
+and so identify both successes and areas requiring global 
+and national investment.
+We use GBD 2019 estimates12 to analyse current and 
+long-term trends in mortality in young people aged 
+10–24 years globally and in 204 countries and territories. 
+We use this age range to capture the social, biological, 
+and neurocognitive transitions that occur during this 
+stage of the life course,24 and use the terms adolescent 
+and young person synonymously. This manuscript was 
+produced as part of the GBD Collaborator Network and 
+in accordance with the GBD Protocol.
+Methods
+Overview
+We used data provided by the Institute for Health Metrics 
+and Evaluation GBD 2019.12 Estimates were available for 
+number of deaths, years of life lost (YLLs) and mortality 
+rate per 100 000 population with UIs by sex and age 
+group in 204 countries and territories. Mortality estimates 
+for all causes were available from 1950 to 2019, and by 
+cause of death from 1980 to 2019. GBD 2019 estimations 
+are based on primary data from 86 249 sources, including 
+civil registrations, vital statistics, censuses, disease 
+notifications systems, and household surveys. The GBD 
+2019 capstone papers and appendices describe these 
+methods in detail,12 including procedures to standardise 
+primary sources, redistribute non-specific or implausible 
+causes of death, adjust for large spikes in mortality due 
+to conflicts or natural disaster, and model estimates for 
+locations that lack primary data. GBD 2019 complies with 
+the Guidelines for Accurate and Transparent Health 
+Estimates Reporting statement.25
+GBD 2019 provides estimates for 281 underlying causes 
+of death across a 4-level hierarchy, shown in appendix 1 
+(table S2). Level 1 consists of three mutually exclusive 
+and collectively exhaustive categories: communicable, 
+maternal, neonatal, and nutritional diseases; non-com­
+municable diseases; and injuries. Level 2 distinguishes 
+these groups into 21 causes of death, (eg, neoplasms), 
+with level 3 and then level 4 specifying underlying cause 
+in greater detail. We report causes at level 2 of this 
+hierarchy, but modified this to examine leading causes 
+of death in young people aged 10–24 years in more 
+detail. Firstly, we separated the level 2 group self-harm 
+and interpersonal violence into two groups (self-harm 
+[ie, suicide] and interpersonal violence and conflict). 
+Secondly, due to the importance of maternal deaths in 
+this age group, we separated the level 2 group maternal 
+and neonatal disorders into its two level 3 causes 
+(maternal disorders and neonatal disorders).
+GBD 2019 mortality estimates were available for 
+204 countries and territories (hereafter referred to as 
+countries), which includes all members and associate 
+members of WHO. Estimates were also available for 
+21 GBD regions and 7 GBD super-regions (defined by 
+both geography and income status). Here we primarily 
+report outcomes by GBD super-region, with country-level 
+and region-level estimates available in appendix 2. The 
+seven GBD super-regions are central Europe, eastern 
+Europe, and central Asia; Latin America and the 
+Caribbean; southeast Asia, east Asia, and Oceania; north 
+Africa and the Middle East; south Asia; sub-Saharan 
+Africa; and high income. Note that separate from the 
+high-income GBD super-region, there are countries 
+defined as high income by the World Bank in all other 
+GBD super-regions except sub-Saharan Africa and south 
+Asia. However, when we discuss high-income countries 
+in this analysis we are referring to the GBD high-income 
+super-region. The list of countries included in the 
+analysis, their GBD region, GBD super-region and World 
+Bank income classification for 2021 is found in 
+appendix 1 (table S1).
+Analyses
+We describe current and long-term trends in all-cause 
+mortality rate and number of deaths from 1950 to 2019, 
+by cause of death from 1980 to 2019; and by sex in people 
+aged 10–14 years, 15–19 years, and 20–24 years. We 
+analyse relative risk for mortality between age groups by 
+dividing the mortality rate in people aged 20–24 years 
+and people aged 15–19 years by the mortality rate in 
+adolescents aged 10–14 years. We analyse variation in 
+outcomes by sex by calculating the ratio of male to female 
+all-cause mortality rate. We analyse between-country 
+variation by calculating the ratio for all-cause mortality 
+rate in people aged 10–24 years in the 90th to 10th centile 
+countries globally to account for extreme values in some 
+location-years.
+We then analyse the relationship between mortality 
+rate per 100 000 population in 2019 and country 
+development status using the GBD Socio-demographic 
+Index (SDI).26 The SDI is a summary indicator of social 
+and economic conditions that are strongly correlated 
+with health outcomes. An index value between 0 and 1 
+is defined for three components: average national 
+educational attainment in those older than 15 years, total 
+fertility rate in those younger than 25 years, and lag-
+distributed income per capita, using the observed 
+minima and maxima over the estimation period for each 
+component to set the scales. The composite SDI is the 
+geometric mean of these indices for each location-year.26 
+We analyse the strength of the association between SDI 
+and all-cause mortality rate per 100 000 population by 
+use of Spearman’s correlation coefficients. We then 
+identified countries with mortality in young people that 
+is lower or higher relative to their level of development. 
+We did this by calculating the expected value of YLLs by 
+age group and sex based solely on SDI for that location-
+year using a generalised additive model with a Loess 
+smoother on SDI.26 We then calculated the ratio of 
+observed YLLs to the expected value according to country 
+For more on GBD 2019 
+estimation processes see 
+www.healthdata.org
+See Online for appendix 2
+See Online for appendix 1
+
+Articles
+1596	
+www.thelancet.com   Vol 398   October 30, 2021
+SDI. We calculate YLLs as the sum of each death 
+multiplied by the standard life expectancy at each age 
+using GBD’s standard life table. Note these data were 
+only available from 1990 to 2017.
+Finally, we assess variation in progress to reduce 
+mortality across the early life course, comparing trends 
+and current mortality burden in young people aged 
+10–24 years with infants younger than 1 year and children 
+aged 1–4 years and 5–9 years. We first report annual rates 
+of change between 1990 and 2019 for all-cause mortality 
+rate for each country by 5-year age groups. We used the 
+β coefficient from linear regression models of mortality 
+rate per 100 000 population against time for each country 
+to estimate annual rate of change (expressed as a 
+percentage). We used these models rather than estimates 
+at the start and end of each period to account for large 
+fluctuations in country mortality due to war or natural 
+disasters. We then identified countries with large 
+differences in mortality performance by age group by 
+comparing country-level all-cause mortality percentile in 
+adolescents with that seen in children younger than 
+5 years, as this age group has been the focus of global 
+programming and experienced good mortality declines 
+in recent years. Finally, we describe how the proportion 
+of deaths in people younger than 25 years that occur in 
+those aged 10–24 years changed between 1950 and 2019. 
+All analyses were done in Stata 16 (StataCorp, College 
+Station TX, USA).
+Role of the funding source
+The funder of this study had no role in study design, data 
+collection, data analysis, data interpretation, or writing of 
+the report.
+Results
+The table shows the number of global deaths and 
+mortality rate per 100 000 population in 2019 by sex and 
+GBD super-region for young people aged 10–24 years. 
+Data by age group (10–14 years, 15–19 years, and 
+20–24 years) can be found in appendix 1 (tables S3–S5), 
+and country-level estimates are available in appendix 2 
+(tables S1–S233).
+Within a total global population of 1·86 billion people 
+aged 10–24 years, there were around 1·49 million deaths 
+in 2019 (95% UI 1·39–1·59). Just under half of these 
+deaths occurred in people aged 20–24 years (692 000, 
+95% UI 645 000–738 000), a third occurred in people aged 
+15–19 years (499 000, 465 000–536 000), and a fifth 
+occurred 
+in 
+people 
+aged 
+10–14 
+years 
+(299 000, 
+276 000–325 000]. 51% of all people aged 10–24 years in 
+2019 were male. 61·0% of all deaths in people aged 
+10–24 years were in males (910 000, 847 000–974 000), 
+with this proportion increasing with age (56·9% of 
+deaths in people aged 10–14 years; 60·5% of deaths in 
+people aged 15–19 years, and 63·2% of deaths in people 
+aged 20–24 years). Most adolescent deaths in both sexes 
+occurred in south Asia. The fewest adolescent deaths in 
+Total deaths
+Rate per 100 000 people
+Estimate
+95% uncertainty 
+interval
+Percent of 
+global total
+Estimate
+95% uncertainty 
+interval
+Females
+Global
+581 311
+531 162–634 825
+100%
+63·99
+58·47–69·88
+Central Europe, eastern 
+Europe, and central Asia
+13 032
+12 042–14 207
+2·2%
+36·70
+33·92–40·01
+High income
+19 715
+19 532–19 913
+3·4%
+21·28
+21·09–21·50
+Latin America and Caribbean
+33 376
+29 924–37 078
+5·7%
+46·19
+41·41–51·31
+North Africa and Middle East
+38 862
+34 148–45 205
+6·7%
+49·81
+43·77–57·95
+South Asia
+224 137
+196 768–253 694
+38·6%
+88·05
+77·30–99·67
+Southeast Asia, east Asia, 
+and Oceania
+68 295
+61 737–75 149
+11·7%
+34·82
+31·47–38·31
+Sub-Saharan Africa
+183 893
+159 437–213 930
+31·6%
+102·57
+88·93–119·33
+Males
+Global
+909 678
+846 675–974 477
+100%
+95·41
+88·80–102·20
+Central Europe, eastern 
+Europe, and central Asia
+31 263
+28 845–33 776
+3·4%
+83·56
+77·10–90·28
+High income
+48 600
+48 045–49 176
+5·3%
+49·85
+49·28–50·44
+Latin America and Caribbean
+96 676
+87 477–107 076
+10·6%
+130·62
+118·19–144·67
+North Africa and Middle East
+73 335
+64 813–83 549
+8·1%
+88·07
+77·84–100·34
+South Asia
+253 999
+224 664–286 215
+27·9%
+93·64
+82·82–105·51
+Southeast Asia, east Asia, 
+and Oceania
+157 271
+141 742–173 199
+17·3%
+73·31
+66·07–80·74
+Sub-Saharan Africa
+248 533
+220 401–279 643
+27·3%
+141·60
+125·57–159·32
+Table: Deaths in people aged 10–24 years in 2019 by sex and GBD super-region
+Figure 1: Global number of deaths in people aged 10–24 years from 1950 to 2019 by sex and age group
+1950 1960 1970 1980 1990 2000 2010
+0
+0·10
+0·20
+0·30
+0·40
+0·50
+0·60
+0·70
+0·80
+0·90
+1·00
+1·10
+1·20
+Number of deaths (millions)
+Year
+Female
+1950 1960 1970 1980 1990 2000 2010
+Year
+Male
+10–14
+15–19
+20–24
+Age group (years)
+
+Articles
+www.thelancet.com   Vol 398   October 30, 2021	
+1597
+both sexes were reported in Central Europe, eastern 
+Europe, and central Asia. Mortality rates in 2019 
+increased with age across adolescence in all regions of 
+the world, particularly in males, but with considerable 
+variation. Within GBD super-regions, the relative risk of 
+mortality in young adulthood (20–24 years) compared 
+with early adolescence (10–14 years) ranged from 6·6 in 
+the high-income GBD super-region in males to 1·9 in 
+north Africa and the Middle East in females.
+In 2019, the mortality rate per 100 000 in young people 
+aged 10–14 years ranged from 7·32 (95% UI 6·90–7·78) 
+in Denmark to 187·25 (165·74–217·44) in Central African 
+Republic in males, and from 6·01 (5·79–6·25) in 
+Denmark to 115·73 (107·50–129·23) in Central African 
+Republic in females. The mortality rate in young people 
+age 15–19 years ranged from 22·55 (21·50–23·72) in 
+Denmark to 370·28 (305·42–448·95) in Lesotho in males, 
+and 
+12·15 
+(12·02–12·29) 
+in 
+Japan 
+to 
+248·02 
+(169·99–348·35) in Lesotho in females. The mortality 
+rate in people aged 20–24 years ranged from 36·24 
+(35·48–37·05) in Singapore to 559·77 (434·53–670·69) in 
+Lesotho in males and 14·44 (14·05–14·85) in Singapore 
+to 445·22 (303·38–636·53) in Lesotho in females 
+(appendix 1, figures S6–S11; appendix 2, tables S1–S233).
+Globally, 32·7% of deaths in young people aged 
+10–24 years in 2019 were due to transport injuries, 
+unintentional injuries, or interpersonal violence or 
+conflict; 32·1% were due to communicable, nutritional, 
+or maternal causes; 27·0% were due to non-communicable 
+diseases; and 8·2% were due to self-harm. However, 
+there was large variation in the leading causes of 
+adolescent death by GBD super-region, sex, and age. In 
+males aged 10–14 years, the most common cause of death 
+was unintentional injury in all GBD super-regions except 
+high income, where neoplasms were the leading cause of 
+death, and south Asia and sub-Saharan Africa, where 
+enteric infections were the leading cause of death. In 
+males aged 15–24 years, the most common cause of death 
+was transport injury in all GBD super-regions except 
+Latin America and the Caribbean, where the leading 
+cause of death was interpersonal violence and conflict, 
+and central Europe, eastern Europe and central Asia, 
+where the leading cause of death was self-harm 
+(appendix 1, tables S50–S112).
+The leading causes of death in females aged 10–14 years 
+were neoplasms (Latin America and the Caribbean; central 
+Europe, eastern Europe, and central Asia; and high 
+income), unintentional injury (southeast Asia, east Asia, 
+and Oceania), enteric infections (south Asia) and transport 
+injuries (north Africa and the Middle East). In females 
+aged 15–19 years, the leading causes of death were 
+transport injuries (high income; north Africa and the 
+Middle East; and southeast Asia, east Asia, and Oceania), 
+self-harm (south Asia and central Europe, eastern Europe, 
+and central Asia), interpersonal violence and conflict (Latin 
+America and the Caribbean). The most frequent causes of 
+death in females aged 20–24 years were transport injuries 
+(high income), neoplasms (southeast Asia, east Asia, and 
+Oceania and central Europe, eastern Europe, and central 
+Asia), interpersonal violence and conflict (Latin America 
+and the Caribbean), cardiovascular diseases (north Africa 
+and the Middle East), and self-harm (south Asia). 
+HIV/AIDS and sexually transmitted infections were the 
+leading causes of death in sub-Saharan Africa in females 
+in all adolescent age groups. Although not the leading 
+cause in any GBD super-region, maternal death was still in 
+the three most common causes of death in females aged 
+20–24 years in sub-Saharan Africa, north Africa and the 
+Figure 2: Mortality rate per 100 000 population in people aged 10–24 years from 1950 to 2019 by sex and 
+GBD super-region
+GBD=Global Burden of Diseases, Injuries, and Risk Factors Study.
+Global
+Central Europe, eastern Europe, and central Asia
+High income
+Latin America and Caribbean
+North Africa and Middle East
+South Asia
+Southeast Asia, east Asia, and Oceania
+Sub-Saharan Africa
+1950 1960 1970 1980 1990 2000 2010
+0
+200
+400
+600
+All-cause mortality rate per 100 000
+Year
+20–24 years
+1950 1960 1970 1980 1990 2000 2010
+Year
+20–24 years
+0
+200
+400
+600
+All-cause mortality rate per 100 000
+15–19 years
+15–19 years
+0
+200
+400
+600
+All-cause mortality rate per 100 000
+10–14 years
+10–14 years
+Female
+Male
+GBD super-region
+
+Articles
+1598	
+www.thelancet.com   Vol 398   October 30, 2021
+Middle East, and south Asia, and was the fourth most 
+common cause of death in Latin America and the 
+Caribbean.
+Annual global deaths in adolescents aged 10–24 years 
+reduced by 21·7% between 1950 and 2019, during which 
+time the world population in this age group increased by 
+157% (figure 1; appendix 1, figure S2). The largest 
+decrease in deaths was in females (30·0%, vs 15·3% in 
+males) despite similar population growth (154% in 
+females and 161% in males). There were also large 
+differences in trends in deaths by age group; in children 
+aged 10–14 years, deaths decreased by 37·5% in males 
+and 37·9% in females; in people aged 15–19 years, deaths 
+decreased by 17·8% in males and 27·9% in females; and 
+in people aged 20–24 years, deaths decreased by 26·9% 
+in females and increased by 0·8% in males.
+In young people aged 10–14 years, deaths decreased 
+between 1950 and 2019 in all GBD super-regions except 
+sub-Saharan Africa, where deaths increased by 140·6% 
+in males and 144·3% in females. The largest decrease in 
+deaths since 1950 in young people aged 10–14 years were 
+in high-income countries (86·0% reduction in males 
+and 87·3% reduction in females). In males aged 
+15–24 years, deaths increased in all GBD super-regions 
+except high income; central Europe, eastern Europe, and 
+central Asia; and southeast Asia, east Asia, and Oceania. 
+The greatest increase in deaths in males aged 15–24 years 
+was in sub-Saharan Africa, where deaths increased 
+by 180·5% in males aged 15–19 years and 218·2% in 
+males aged 20–24 years. The greatest decrease in deaths 
+in males aged 15–24 years was in the high-income GBD 
+super-region, where deaths decreased by 72·6% in males 
+aged 15–19 years and 66·0% in males aged 20–24 years. 
+In females aged 15–24 years, deaths decreased in all 
+GBD super-regions except north Africa and the Middle 
+East and sub-Saharan Africa. The greatest increase in 
+deaths in females aged 15–24 years was in sub-Saharan 
+Africa in both females aged 15–19 years (175·7% increase) 
+and 20–24 years (164·3% increase). The greatest decrease 
+in deaths in females aged 15–24 years was in high-
+income countries in both females aged 15–19 years 
+(81·0% decrease) and 20–24 years (79·9% decrease).
+Figure 2 shows mortality rate per 100 000 population in 
+people aged 10–14 years, 15–19 years, and 20–24 years by 
+sex and GBD super-region between 1950 and 2019. 
+In people aged 10–14 years, global mortality rates reduced 
+by 74·6% in males and 74·3% in females, with the 
+greatest relative change in mortality in high-income 
+countries (reduction of 88·2% in males and 89·0% in 
+females). The GBD super-region with the smallest relative 
+change in mortality rate was sub-Saharan Africa, with 
+reductions of 65·4% in males and 63·9% in females. All 
+other regions had a 72–88% reduction in mortality rate 
+over this period in males and females aged 10–14 years.
+Global mortality rate per 100 000 population in people 
+aged 15–19 years decreased by 68·7% in males and 
+71·7% in females between 1950 and 2019. The region 
+with the greatest relative reduction in mortality in this 
+age group was southeast Asia, east Asia, and Oceania, 
+where the mortality rate declined by 80·1% in males and 
+86·1% in females. The region with the lowest relative 
+reduction in mortality rate was sub-Saharan Africa, with 
+relative reductions of 57·8% in males and 59·4% 
+in females.
+Global mortality rate per 100 000 population in people 
+aged 20–24 years reduced by 63·4% in males and 
+72·7% in females between 1950 and 2019. Relative 
+declines in mortality were greatest in southeast Asia, east 
+Asia, and Oceania, with reductions of 77·7% in males 
+and 86·4% in females. In males aged 20–24 years, the 
+lowest relative decline was in central Europe, eastern 
+Europe, and central Asia, where mortality rates reduced 
+by 46·1% since 1950. Among females aged 20–24 years, 
+the lowest relative reduction in mortality was seen in 
+sub-Saharan Africa, where mortality rates decreased 
+by 60·7%.
+In 2019, the ratio of male to female mortality rate per 
+100 000 population was 1·2 for people aged 10–14 years, 
+1·5 for people aged 15–19 years, and 1·7 for people aged 
+20–24 years (appendix 1, figure S20). Mortality rate per 
+100 000 people aged 10–24 years was higher in males in all 
+regions of the world except south Asia, where outcomes 
+were similar. Sex differences in mortality were greatest 
+in Latin America and the Caribbean in people aged 
+20–24 years, where the mortality rate per 100 000 in males 
+Figure 3: Ratio of mortality rate per 100 000 population in the 90th centile country to 10th centile country 
+in people aged 10–24 years between 1950 and 2019 by sex and age group
+1950
+1960
+1970
+1980 1990 2000
+2010
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+Ratio of 90th : 10th centile mortality rate per 100 000 population
+Year
+Female
+1950
+1960
+1970
+1980 1990 2000
+2010
+Year
+Male
+Age group (years)
+10–14
+15–19
+20–24
+
+Articles
+www.thelancet.com   Vol 398   October 30, 2021	
+1599
+was more than three times that in females. The ratio of 
+male to female mortality rate increased between 1950 and 
+2019 for older adolescents aged 15–24 years in all GBD 
+super-regions except high income and central Europe, 
+eastern Europe, and central Asia, where it has reduced 
+since the mid-1990s.
+Inequality in mortality rate per 100 000 population 
+between countries was reported using the ratio of 
+mortality rate for the highest decile country (90th centile) 
+to lowest decile country (10th centile) in each year. In 
+2019, variations in mortality by country were greatest 
+in adolescents aged 10–14 years, with the mortality rate in 
+the 90th centile country around 9 times higher than that 
+in the 10th centile country for both males and females. 
+Inequality in outcomes by country has also increased 
+over time for all age groups since 1950, although this 
+1980
+1985
+1990
+1995
+2000
+2005
+2010
+2015
+0
+50
+100
+Percentage of total deaths (%)
+Year
+A Females
+Sub-Saharan Africa
+1980
+1985
+1990
+1995
+2000
+2005
+2010
+2015
+Year
+Global
+0
+50
+100
+Percentage of total deaths (%)
+Southeast Asia, east Asia, and Oceania
+South Asia
+0
+50
+100
+Percentage of total deaths (%)
+North Africa and Middle East
+Latin America and Caribbean
+0
+50
+100
+Percentage of total deaths (%)
+Central Europe, eastern Europe, and central Asia
+High income
+HIV/AIDS and sexually transmitted infections
+Respiratory infections and tuberculosis
+Enteric infections
+Neglected diseases and malaria
+Other infectious diseases
+Maternal disorders
+Neonatal disorders
+Nutritional deﬁciencies
+Neoplasms
+Cardiovascular diseases
+Chronic respiratory diseases
+Digestive diseases
+Neurological disorders
+Mental disorders
+Substance use disorders
+Diabetes and kidney diseases
+Skin and subcutaneous diseases
+Musculoskeletal disorders
+Other non-communicable diseases
+Self-harm
+Transport injuries
+Unintentional injuries
+Interpersonal violence and conﬂict
+Cause of death
+(Figure 4 continues on next page)
+
+Articles
+1600	
+www.thelancet.com   Vol 398   October 30, 2021
+seems to have decreased in females aged 20–24 years 
+since around 2000 (figure 3).
+The percentage of total deaths by cause from 1980 
+to 2019 in each GBD super-region is shown in figure 4 
+for young people aged 10–14 years, 15–19 years, 
+and 20–24 years. Bump charts that rank cause of 
+death between 1980 and 2019 for each age group, 
+sex, and GBD super-region are shown in appendix 1 
+(figures S50–S112).
+We report large reductions in the contribution of 
+communicable and maternal causes to total adolescent 
+deaths between 1980 and 2019 in Latin America and the 
+Caribbean; south Asia; southeast Asia, east Asia, and the 
+Caribbean; and north Africa and the Middle East. 
+Figure 4: Percentage of total deaths by cause in people aged 15–19 years from 1980 to 2019 by sex and GBD super-region
+(A) Females (B) Males. GBD=Global Burden of Diseases, Injuries, and Risk Factors Study.
+1980
+1985
+1990
+1995
+2000
+2005
+2010
+2015
+0
+50
+100
+Percentage of total deaths (%)
+Year
+B Males
+Sub-Saharan Africa
+1980
+1985
+1990
+1995
+2000
+2005
+2010
+2015
+Year
+Global
+0
+50
+100
+Percentage of total deaths (%)
+Southeast Asia, east Asia, and Oceania
+South Asia
+0
+50
+100
+Percentage of total deaths (%)
+North Africa and Middle East
+Latin America and Caribbean
+0
+50
+100
+Percentage of total deaths (%)
+Central Europe, eastern Europe, and central Asia
+High income
+HIV/AIDS and sexually transmitted infections
+Respiratory infections and tuberculosis
+Enteric infections
+Neglected diseases and malaria
+Other infectious diseases
+Maternal disorders
+Neonatal disorders
+Nutritional deﬁciencies
+Neoplasms
+Cardiovascular diseases
+Chronic respiratory diseases
+Digestive diseases
+Neurological disorders
+Mental disorders
+Substance use disorders
+Diabetes and kidney diseases
+Skin and subcutaneous diseases
+Musculoskeletal disorders
+Other non-communicable diseases
+Self-harm
+Transport injuries
+Unintentional injuries
+Interpersonal violence and conﬂict
+Cause of death
+
+Articles
+www.thelancet.com   Vol 398   October 30, 2021	
+1601
+Furthermore, although maternal deaths still contribute a 
+substantial proportion of global deaths in females aged 
+20–24 years, this has fallen substantially since 1980. 
+Maternal deaths halved as a proportion of total deaths 
+between 1980 and 2019 in southeast Asia, east Asia, and 
+Oceania; north Africa and the Middle East; and central 
+Europe, eastern Europe, and central Asia, with large 
+reductions also seen in south Asia and Latin America 
+and the Caribbean. However, in sub-Saharan Africa, the 
+five most common causes of death in 2019 in females 
+aged 10–24 years were communicable or maternal 
+causes, with communicable causes contributing to three 
+of the top five causes in males. HIV/AIDS and sexually 
+transmitted diseases have been the leading causes of 
+death in this GBD super-region in females aged 
+15–24 years since the early 1990s, and in females aged 
+10–14 years since the early 2000s.
+In central Europe, eastern Europe, and central Asia, self-
+harm rose from the third highest cause of death in males 
+aged 15–24 years in 1980 to be the leading cause of death 
+(now contributing to more than 20% of all deaths), and 
+from fourth highest to the leading cause of death in females 
+aged 15–19 years and second highest cause of death in 
+females aged 20–24 years. In males aged 10–14 years, self-
+harm is now the fourth most common cause of death in 
+this super-region (almost 9% of all deaths). By contrast, 
+in southeast Asia, east Asia, and Oceania, self-harm in 
+females aged 15–24 years fell from the leading cause of 
+death in 1980 (around 15% of all deaths), to sixth highest in 
+females aged 15–19 years and seventh highest in females 
+aged 20–24 years in 2019 (around 7% of all deaths in both 
+age groups). In the high-income GBD super-region, deaths 
+due to substance misuse disorders in young adults aged 
+20–24 years rose from around 1% of total deaths in 1980 to 
+14–16% in 2019 in both sexes, with substantial increases 
+also seen in people aged 15–19 years.
+Increasing SDI in 2019 was strongly associated with 
+lower all-cause mortality rate per 100 000 people in all 
+adolescent age groups (appendix 1, table S6). Figure 5 
+shows the ratio of observed to expected YLLs by SDI 
+from all causes for people aged 15–19 years in 2017. 
+Equivalent figures for people aged 10–14 years and 
+20–24 years are shown in appendix 1 (figures S26–28), 
+with estimates from 1990 to 2017 for all countries 
+shown in appendix 1 (figures S29–S49). Observed YLLs 
+from all causes in people aged 15–19 years were at least 
+20% higher than expected by level of SDI in 41 countries, 
+including both Brazil and Pakistan, which collectively 
+contribute to around 10% of deaths in this age group. In 
+people aged 15–19 years, the ratio of observed to 
+expected YLLs in 2017 was highest in Syria (4·02), but 
+from 1990 to 2010 (before the start of the civil war), 
+observed YLLs in Syria were consistently around 
+30% lower than expected by level of SDI. 84 countries 
+had observed YLLs in people aged 15–19 years at least 
+20% lower than expected by level of SDI. The countries 
+with the lowest ratio of observed to expected YLLs in 
+this age group were the Maldives (0·30), Spain (0·33), 
+and Singapore (0·35). Other notable countries included 
+China (0·49) and Ethiopia (0·67), which together 
+contribute more than 7% of global deaths in people aged 
+15–19 years.
+Annual percentage decline in mortality rate per 
+100 000 population in infants younger than 1 year and 
+children and young people aged 1–4 years, 5–9 years, 
+10–14 years, 15–19 years, and 20–24 years by sex, country, 
+and globally between 1990 and 2019 is shown in figure 6. 
+Rates of decline were highest in children aged 1–4 years 
+and lowest in young people aged 15–24 years. In children 
+aged 1–4 years, global mortality rates decreased by around 
+2·4% per year since 1990 in both males and females, 
+compared with people aged 15–19 years, in whom 
+mortality rates decreased by 1·3% in males and 1·6% in 
+females. The range in mortality rate change between 
+countries was also greater in adolescents than in younger 
+children (appendix 1, figure S24).
+Figure 5: Ratio of observed to expected years of life lost by Sociodemographic Index from all causes in people aged 15–19 years in 2017 from 195 countries
+Ratio of observed
+to expected years 
+of life lost
+<0·4
+0·4–0·79
+0·8–1·19
+1·2–1·59
+1·6–1·99
+2·0–2·39
+2·4–2·79
+2·8–3·19
+≥3·2
+No data
+
+Articles
+1602	
+www.thelancet.com   Vol 398   October 30, 2021
+Mortality rate performance varied within countries for 
+different age groups, particularly in males. Figure 7 shows 
+mortality rate percentile for males younger than 5 years 
+compared with males aged 15–19 years for each country 
+in 2019, with the equivalent figure for females shown in 
+appendix 1 (figure S25). Although in most countries the 
+mortality rate percentiles for these age groups are similar, 
+there are notable exceptions. For example, in Brazil and 
+Venezuela, mortality rates for males younger than 5 years 
+are around the 60th centile but in the 90th centile for 
+males aged 15–19 years. Similarly, mortality rates in 
+Ukraine and Thailand are around the 30th centile for 
+children younger than 5 years, but above the 75th centile 
+for young people aged 15–19 years. By contrast, the 
+mortality rate in India for people younger than 5 years is 
+around the 70th centile, and between the 30th and 
+40th centiles for those aged 15–19 years.
+Figure 8 shows the proportion of global deaths in 
+people aged 0–24 years that occur in people aged 
+10–24 years. This proportion increased from 9·5% in 
+1950 to 21·6% by 2019 and increased in all GBD super-
+regions between 1950 and 2019, with the greatest change 
+seen in Latin America and the Caribbean in males (from 
+7·5% to 39·2%). In the high-income GBD super-region, 
+deaths in adolescence now account for more than half of 
+all deaths before 25 years of age. In nine countries 
+(Estonia, Thailand, Saudi Arabia, Finland, Puerto Rico, 
+Slovenia, Monaco, Cook Islands, and Andorra), more 
+than 70% of deaths in males younger than 25 years now 
+occur in people aged 10–24 years.
+Discussion
+Despite marked reductions in total numbers of deaths 
+and mortality rates for adolescents over the past 70 years, 
+improvements have lagged behind those seen in younger 
+children, variation in outcomes between countries has 
+increased, and inequities by sex have worsened. Global 
+numbers of deaths in adolescence remain high, at 
+around 4000 each day, most of which are from preventable 
+causes.
+Figure 6: Annual percentage change in mortality rate per 100 000 population in people aged 0–24 years 1990–2019 by sex, age group, and GBD 
+super-region
+The dashed line represents global annualised percentage change in mortality rate. Each coloured dot represents the percentage change in a single year for each 
+country, coloured by GBD super-region. Data for Rwanda (both sexes, 15–19 years) and Bosnia and Herzegovina (females aged 1–4 years) are excluded as the range 
+was restricted to 10% annual change. GBD=Global Burden of Diseases, Injuries, and Risk Factors Study.
+–10
+–8
+–6
+–4
+–2
+0
+2
+4
+6
+8
+10
+Annual percentage change in mortality rate per 100 000 population, 1990–2019
+Females
+<1 year
+1–4 years
+5–9 years
+10–14 years 15–19 years 20–24 years
+Males
+<1 year
+1–4 years
+5–9 years
+10–14 years 15–19 years 20–24 years
+Central Europe, eastern Europe, and central Asia
+High income
+Latin America and Caribbean
+North Africa and Middle East
+South Asia
+Southeast Asia, east Asia, and Oceania
+Sub-Saharan Africa
+GBD super-region
+
+Articles
+www.thelancet.com   Vol 398   October 30, 2021	
+1603
+We found widening variation in all-cause mortality 
+between countries, particularly during early adolescence, 
+and huge differences in the leading causes of death 
+between different regions of the world, as others have 
+reported.17,27 Variation in all-cause mortality between 
+countries seems likely to increase further, as population 
+growth in this age group is highest in countries with the 
+worst mortality outcomes (appendix 1, figures S21–S23). 
+Around 20% of people aged 10–24 years live in sub-
+Saharan Africa, and this is set to rise to a third by 2050,4 
+which presents huge challenges to the improvement of 
+adolescent mortality. Of the ten countries with the 
+highest mortality rates in this age group, eight are in sub-
+Saharan Africa, and decreases have been far slower than 
+in other GBD super-regions. These changes are shifting 
+the global burden of adolescent mortality towards sub-
+Saharan Africa, where 29·0% of deaths in adolescents 
+now occur, compared with 8·1% in 1950. Sub-Saharan 
+Africa has already replaced south Asia as the main 
+contributor to global deaths in males aged 10–19 years, 
+and is set to do the same in males aged 20–24 years and 
+females aged 10–19 years if current trends continue.
+We found marked sex differences in adolescent 
+mortality, with notably higher mortality and slower rates 
+of decline in young men than in young women. Indeed, 
+more adolescent males died in 2019 than adolescent 
+females in 1950, and inequalities in mortality by sex also 
+seem to be widening in many regions of the world. 
+These differences reflect the increasing burden of deaths 
+Figure 7: Percentiles of mortality rate per 100 000 population in males aged younger than 5 years and 15–19 years in 2019 by country and GBD super-region
+Size of each mark is proportional to the population of males aged 15–19 years. Due to space constraints, not all countries are labelled. GBD=Global Burden of Diseases, Injuries, and Risk Factors Study.
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+Indonesia
+China
+India
+Brazil
+USA
+Nigeria
+Bangladesh
+Ethiopia
+Mexico
+Russia
+Turkey
+Kenya
+Iran
+Myanmar
+South Africa
+Sudan
+Iraq
+Afghanistan
+Thailand
+France
+Colombia
+UK
+Argentina
+Yemen
+Ghana
+Nepal
+Morocco
+Algeria
+Mozambique
+Peru
+Madagascar
+Malaysia
+Niger
+Mali
+Somalia
+Spain
+Venezuela
+Malawi
+Ukraine
+Guatemala
+Poland
+Chad
+Senegal
+Ecuador
+Cambodia
+Chile
+Jordan
+Kazakhstan
+Honduras
+Netherlands
+Romania
+Tajikistan
+Tunisia
+Laos
+Cuba
+Paraguay
+Libya
+El Salvador
+Central African Republic
+Liberia
+Czech Republic
+Austria
+Switzerland
+Costa Rica
+Lebanon
+Norway
+Slovakia
+Oman
+Uruguay
+Namibia
+Mongolia
+Georgia
+Albania
+Gabon
+Lithuania
+Qatar
+North Macedonia
+Slovenia
+Mauritius
+Fiji
+Guyana
+Cyprus
+Estonia
+The Bahamas
+Dominica
+Federated States of Micronesia
+Nauru
+Niue
+Malta
+Belize
+Marshall Islands
+Grenada
+Tuvalu
+Tonga
+Brunei
+Kiribati
+Guam
+Palau
+Percentile for under-5 mortality rate per 100000
+Percentile mortality rate for people aged 15–19 years per 100000 population
+Central Europe, eastern Europe, and central Asia
+High income
+Latin America and Caribbean
+North Africa and Middle East
+South Asia
+Southeast Asia, east Asia, 
+and Oceania
+Sub-Saharan Africa
+GBD super-region
+United Arab Emirates
+Vietnam
+Figure 8: Proportion of deaths in people younger than 25 years occurring in 
+adolescents aged 10–24 years in 1950 and 2019
+The size of each plot is proportional to the total number of deaths in people 
+younger than 25 years in that year.
+1950
+(29·9 million)
+6·4%
+2·9%
+24·0%
+66·8%
+21·6%
+5·5%
+18·6%
+54·3%
+2019
+(6·9 million)
+<1 year
+1–4 years
+5–9 years
+10–24 years
+Age group
+
+Articles
+1604	
+www.thelancet.com   Vol 398   October 30, 2021
+due to injuries and violence in this age group, particularly 
+in Latin America and the Caribbean, and the rise in 
+deaths due to substance misuse in high-income settings, 
+which predominantly affect young men. Addressing 
+inequities in access to health services, the social 
+conditions in which young women live, and the impact 
+of gender-based violence are fundamental to improving 
+adolescent health globally and have understandably 
+been the focus of previous programming.19 However, 
+inequitable gender norms are also damaging to 
+adolescent males, and advancing the health of all 
+adolescents requires action to reduce inequities in 
+outcomes wherever they occur.
+Consistent with previous studies,14,16,17,27 we found 
+declines in adolescent mortality to have been slower than 
+in younger children, particularly in males (annualised 
+decrease in mortality in males aged 1–4 years almost 
+twice that in males aged 15–19 years, and annualised 
+decrease in mortality in females aged 1–4 years about 
+50% higher than in females aged 15–19 years).
+A previous analysis16 of long-term mortality trends 
+using WHO estimates found that differences in mortality 
+reduction by age resulted in people aged 15–24 years 
+replacing those aged 1–4 years as the group with the 
+highest mortality burden in many countries. 15–19 years 
+was highlighted as the age group with the slowest 
+mortality decline among people aged 0–19 years using 
+GBD data,27 and Masquelier and colleagues14 found that 
+the decrease in mortality in children aged 5–9 years 
+exceeded that in young people aged 10–14 years between 
+1990 and 2016 using estimates from the UN.14 The 
+continued neglect of this age group is highlighted by 
+several (mostly middle-income) countries such as Brazil 
+and Mexico having good outcomes for children aged 
+0–4 years but persistently high adolescent mortality 
+(figure 7), which suggests that more adolescent-specific 
+interventions are needed in these settings. Almost a 
+quarter of deaths in people aged 0–24 years now occur in 
+people aged 10–24 years, and this proportion has more 
+than doubled since 1950. In high-income countries, these 
+account for almost half of deaths before 25 years of age, 
+and in countries with particularly high mortality due to 
+violence, adolescent deaths now account for up to three-
+quarters of early life course mortality.
+This poor progress in reducing mortality might reflect 
+the omission of adolescents from most global health 
+investments. Adolescents were largely absent from the 
+Millennium Development Goal (MDG) agenda, and 
+although they will have benefited from public health 
+interventions aimed at other groups, they have not had 
+the accelerated decreases in mortality seen in infants 
+and younger children that is attributed to MDG 
+programming.27 The SDGs include indicators that are 
+highly relevant to young people, but do not provide a 
+comprehensive mechanism to address the unique health 
+needs of this age group,27 and a list of metrics to best 
+capture global adolescent health priorities has not yet 
+been defined.15 The 2016 Global Strategy for Women’s, 
+Children and Adolescents’ Health and other initiatives 
+have increased recognition of the crucial role of 
+adolescents to the sustainable development agenda and 
+global targets for Universal Health Coverage.5 However, 
+investment remains inadequate, and specific challenges 
+to improvement of adolescent health outcomes and 
+achieving core Universal Health Coverage indicators in 
+this age group continue to be overlooked.8,9
+These factors are compounded by limited evidence for 
+effective adolescent health interventions needed to 
+inform investment.28 A key focus to improve outcomes in 
+this age group should be to address these knowledge 
+gaps and better establish which interventions work, 
+guided by identifying and measuring key indicators that 
+capture adolescent health priorities.15 Investment in 
+existing evidenced-based actions to prevent causes of 
+death that predominate during adolescence is also likely 
+to improve outcomes, but is currently inadequate. This 
+should include improving water safety; preventing 
+unintentional injuries;29 and targeting key behavioural, 
+legal, and structural risk factors for road traffic deaths.30,31 
+However, global increases in injury prevention spending 
+have been lower than those on other public health 
+interventions32 and progress towards reducing road 
+traffic deaths in line with SDG targets is insufficient.30 
+Self-harm has emerged as a leading cause of adolescent 
+mortality, and now accounts for around 20% of all deaths 
+in people aged 15–24 years in the high-income and 
+central Europe, eastern Europe, and central Asia GBD 
+super-regions. Self-harm is also the leading cause of 
+death in south Asia for females aged 15–24 years and 
+second highest cause for males aged 20–24 years. 
+Although understanding these trends is complex and 
+solutions to improve outcomes need to be country-
+specific, investment in evidence-based interventions to 
+improve mental health in this age group33,34 and measures 
+to restrict access to firearms and chemicals used in 
+suicide are likely to be beneficial.35,36 However, global 
+improvements to the quality and accessibility of mental 
+health services have been slow, disproportionately 
+affecting adolescents and young people.34 Furthermore, 
+strategies to improve outcomes for communicable and 
+maternal causes of death, which still contribute to around 
+a third of global deaths in people aged 10–24 years, also 
+need to be specifically tailored for this age group.37 
+Although 
+evidence-based 
+interventions 
+around 
+adolescent sexual and reproductive health are available, 
+these are mainly focused on high-income countries, and 
+knowledge gaps remain.38
+We found several large spikes in mortality over the 
+study period, particularly in older male adolescents, as a 
+result of violent conflict and natural disasters. Deaths 
+due to interpersonal violence are also impeding progress 
+in reduction of all-cause mortality in males in many 
+countries, particularly in Latin America and the 
+Caribbean where there has been little to no improvement 
+
+Articles
+www.thelancet.com   Vol 398   October 30, 2021	
+1605
+in all-cause mortality in males aged 15–24 years over the 
+past 20 years. Global strategies to improve adolescent 
+health outcomes must include efforts to mitigate the 
+effect of interpersonal violence and conflicts on young 
+people. Existing humanitarian response guidance 
+highlights specific vulnerabilities of adolescents during 
+natural disasters and conflict.39 However, the evidence 
+base to manage these in low-income and middle-income 
+countries remains weak,40 and further work is required to 
+understand adolescent health needs in these situations.
+Reducing mortality in young people also requires an 
+understanding of the broader social determinants of 
+adolescent health, and how structural changes such as 
+rapid urbanisation and technological and economic 
+development might affect young people differently from 
+other age groups. The importance of primary education 
+to population health is well described, but national 
+progress in secondary education is also associated with 
+large improvements in all-cause mortality and other 
+important health outcomes for young people.41 The 
+increasing numbers of adolescents growing up in urban 
+settings could extend opportunities for education, in 
+addition to potential economic benefits for young people 
+and 
+their 
+families. 
+However, 
+rapid, 
+unplanned 
+urbanisation can also increase health risks that are 
+pertinent to adolescents, including those related to 
+injury, separation from family support through 
+migration, exposure to violence, substance misuse, and 
+unsafe employment.2,42 The effect of other macro-level 
+health determinants seems to differ across the early life 
+course, with national wealth a weaker predictor of 
+mortality in adolescents than it is in young children.43 
+Indeed, for some common causes of death in 
+adolescents (eg, road injuries), rapid economic growth 
+can result in a transient increase in mortality, as the 
+introduction of safety legislation and appropriate 
+infrastructure might lag behind rising demand for 
+transportation.44,45 By contrast, inequality in income 
+distribution within countries seems to be pervasively 
+harmful throughout the early life course, and thus 
+might be of greater relative importance to outcomes 
+during adolescence.43
+Our data are limited by factors inherent in the 
+production of GBD mortality estimates, and by the 
+availability of authoritative mortality data for adolescents. 
+Global coverage of civil registration systems is of varying 
+quality, and progress to improve these systems has been 
+minimal.46 Primary data sources for adolescents are 
+particularly scarce, as attempts to develop alternative 
+methods to measure mortality have focused on other 
+groups.13 Data availability and accuracy are further 
+impeded by ongoing conflicts and associated migration 
+in many countries. Where data are available, there are 
+often long delays in reporting outcomes. Analysis of the 
+global adolescent mortality burden is therefore reliant on 
+modelled data, and the estimates we report here need to 
+be viewed within that context. Limitations within the 
+GBD estimation process and the paucity of mortality data 
+for this age group are reflected in wide UIs for many 
+time periods, locations, and causes of death.
+Using alternative data sources with different modelling 
+techniques might have provided different results. 
+Estimates for global number of deaths in people aged 
+10–24 years in 2019 produced by the UN Interagency 
+Group for Child Mortality Estimation were 8–19% higher 
+than GBD 2019 (appendix 1, figures S113–S115), and 
+10–20% lower than those in the World Population 
+Prospects report.20 Although variation in available 
+mortality estimates for high-income countries have been 
+highlighted,47 the main discrepancies are within sub-
+Saharan Africa, where the future global burden of 
+mortality in adolescents will be concentrated. This 
+further highlights the need to expand primary data 
+collection for adolescent health outcomes in this region.
+We used SDI to identify countries with lower or higher 
+adolescent mortality than would be expected from country 
+income per capita, years in education, and fertility younger 
+than 25 years; indicators for socioeconomic development 
+that are particularly relevant for adolescents. However, 
+other disaggregated metrics of development could provide 
+additional insights, and further detailed analyses are 
+required to explore the contribution of trends in key social 
+determinants on adolescent mortality, which are likely to 
+vary in different regions of the world. We report estimates 
+at the country level, and future analyses of adolescent 
+mortality should include sub-national trends. Where these 
+are available within GBD they have wide variation in 
+outcomes. Using level 2 of the GBD cause of death 
+hierarchy allows a description of high-level trends in 
+mortality in young people, but further analyses using 
+more granular cause of death data are needed to increase 
+understanding of the patterns we describe. Analysis of 
+associations between health-care quality and adolescent 
+mortality by use of the Healthcare Access and Quality 
+Index48 provided by GBD could provide further insights, 
+and looking beyond mortality and describing key trends in 
+morbidity in young people should also be the focus of 
+future study.
+This analysis does not include the impact of the 
+COVID-19 pandemic on young people. Although 
+susceptibility to SARS-CoV-2 in young people is similar 
+to that in older groups,49 case fatality has been much 
+lower than in older adults,10 and the direct effect on 
+mortality in this age group is likely to be small. More 
+concerning are the indirect effects of COVID-19 on the 
+future health of young people, particularly through 
+disruption to health services caused by the pandemic, the 
+impact on opportunities for education and employment 
+and related consequences to health and nutrition, and 
+the exacerbation of existing inequalities.50 The ongoing 
+closure of schools and universities in many countries 
+will have lasting effects on the health of young people. 
+Further, this age group are more likely to work in sectors 
+vulnerable to restrictions introduced during the 
+
+Articles
+1606	
+www.thelancet.com   Vol 398   October 30, 2021
+pandemic than are older adults, and at a greater risk of 
+losing employment and reporting reduced earnings. 
+There is some evidence to suggest that young people 
+have been more affected by worsening mental health 
+than older adults, and concern that suicide risk in early 
+adolescence might have increased.51,52 Broader effects of 
+the pandemic to key adolescent health determinants are 
+likely to include those related to economic instability, 
+conflict, and failing to prioritise the climate crisis.53 The 
+extent to which these determinants will affect wellbeing 
+in young people, and prospects to improve health 
+outcomes including mortality, are not understood and 
+warrant further study.
+Our findings reveal a persistant failure by policy 
+makers to adequately address global health risks during 
+adolescence or respond to changes in the global burden 
+of early life course mortality. Despite increased 
+understanding of the importance of adolescents to global 
+development, funding remains insufficient and the 
+challenge to improve outcomes is increasing. Investment 
+in this age group builds on health improvements 
+achieved in younger children, will affect future adult 
+health trajectories and those of the next generation,3 and 
+will be an important determinant of future economic 
+development.2,17,54 Renewed emphasis is urgently needed 
+to reduce inequities in outcomes in this age group, 
+improve the availability and quality of primary data, and 
+establish mechanisms to use these data to better inform 
+global health policy, focusing on regions of the world 
+where mortality is increasing.
+GBD 2019 Adolescent Mortality Collaborators
+Joseph L Ward, Peter S Azzopardi, Kate Louise Francis, John S Santelli, 
+Vegard Skirbekk, Susan M Sawyer, Nicholas J Kassebaum, Ali H Mokdad, 
+Simon I Hay, Foad Abd-Allah, Amir Abdoli, Mohammad Abdollahi, 
+Aidin Abedi, Hassan Abolhassani, Lucas Guimarães Abreu, 
+Michael R M Abrigo, Eman Abu-Gharbieh, Abdelrahman I Abushouk, 
+Oladimeji M Adebayo, Victor Adekanmbi, Davoud Adham, 
+Shailesh M Advani, Khashayar Afshari, Anurag Agrawal, Tauseef Ahmad, 
+Keivan Ahmadi, Anwar E Ahmed, Budi Aji, Blessing Akombi-Inyang, 
+Fares Alahdab, Ziyad Al-Aly, Khurshid Alam, Fahad Mashhour Alanezi, 
+Turki M Alanzi, Jacqueline Elizabeth Alcalde-Rabanal, 
+Biresaw Wassihun Alemu, Samar Al-Hajj, Robert Kaba Alhassan, 
+Saqib Ali, Gianfranco Alicandro, Mehran Alijanzadeh, 
+Syed Mohamed Aljunid, Amir Almasi-Hashiani, Nihad A Almasri, 
+Hesham M Al-Mekhlafi, Jordi Alonso, Rajaa M Al-Raddadi, 
+Khalid A Altirkawi, Nelson Alvis-Guzman, Azmeraw T Amare, 
+Saeed Amini, Arya Aminorroaya, Arianna Maever L Amit, 
+Dickson A Amugsi, Robert Ancuceanu, Deanna Anderlini, 
+Catalina Liliana Andrei, Sofia Androudi, Fereshteh Ansari, Iman Ansari, 
+Carl Abelardo T Antonio, Davood Anvari, Razique Anwer, 
+Seth Christopher Yaw Appiah, Jalal Arabloo, Morteza Arab-Zozani, 
+Johan Ärnlöv, Malke Asaad, Mehran Asadi-Aliabadi, Ali A Asadi-Pooya, 
+Maha Moh’d Wahbi Atout, Marcel Ausloos, Elvis Korku Avenyo, 
+Leticia Avila-Burgos, Beatriz Paulina Ayala Quintanilla, Getinet Ayano, 
+Yared Asmare Aynalem, Samad Azari, Zelalem Nigussie Azene, 
+Mohammad Hossein Bakhshaei, Shankar M Bakkannavar, Maciej Banach, 
+Palash Chandra Banik, Miguel A Barboza, Suzanne Lyn Barker-Collo, 
+Till Winfried Bärnighausen, Sanjay Basu, Bernhard T Baune, 
+Mohsen Bayati, Neeraj Bedi, Ettore Beghi, Tariku Tesfaye Bekuma, 
+Arielle Wilder Bell, Michelle L Bell, Corina Benjet, Isabela M Bensenor, 
+Abadi Kidanemariam Berhe, Kidanemaryam Berhe, Adam E Berman, 
+Akshaya Srikanth Bhagavathula, Nikha Bhardwaj, Pankaj Bhardwaj, 
+Krittika Bhattacharyya, Suraj Bhattarai, Zulfiqar A Bhutta, Ali Bijani, 
+Boris Bikbov, Antonio Biondi, Tesega Tesega Mengistu Birhanu, 
+Raaj Kishore Biswas, Somayeh Bohlouli, Srinivasa Rao Bolla, 
+Archith Boloor, Rohan Borschmann, Soufiane Boufous, 
+Nicola Luigi Bragazzi, Dejana Braithwaite, Nicholas J K Breitborde, 
+Hermann Brenner, Gabrielle B Britton, Richard A Burns, 
+Sharath Burugina Nagaraja, Zahid A Butt, 
+Florentino Luciano Caetano dos Santos, Luis Alberto Cámera, 
+Ismael R Campos-Nonato, Julio Cesar Campuzano Rincon, 
+Rosario Cárdenas, Giulia Carreras, Juan J Carrero, Felix Carvalho, 
+Joao Mauricio Castaldelli-Maia, Carlos A Castañeda-Orjuela, 
+Giulio Castelpietra, Ferrán Catalá-López, Ester Cerin, Joht Singh Chandan, 
+Hsing-Yi Chang, Jung-Chen Chang, Jaykaran Charan, 
+Vijay Kumar Chattu, Sarika Chaturvedi, Jee-Young Jasmine Choi, 
+Mohiuddin Ahsanul Kabir Chowdhury, Devasahayam J Christopher, 
+Dinh-Toi Chu, Michael T Chung, Sheng-Chia Chung, Flavia M Cicuttini, 
+Traian Vasile Constantin, Vera Marisa Costa, Saad M A Dahlawi, 
+Haijiang Dai, Xiaochen Dai, Giovanni Damiani, Lalit Dandona, 
+Rakhi Dandona, Parnaz Daneshpajouhnejad, Aso Mohammad Darwesh, 
+Claudio Alberto Dávila-Cervantes, Kairat Davletov, 
+Fernando Pio De la Hoz, Diego De Leo, Nikolaos Dervenis, Rupak Desai, 
+Assefa Desalew, Keshab Deuba, Samath Dhamminda Dharmaratne, 
+Govinda Prasad Dhungana, Mostafa Dianatinasab, Diana Dias da Silva, 
+Daniel Diaz, Alireza Didarloo, Shirin Djalalinia, Fariba Dorostkar, 
+Chirag P Doshi, Leila Doshmangir, Kerrie E Doyle, 
+Andre Rodrigues Duraes, Mohammad Ebrahimi Kalan, Sanam Ebtehaj, 
+David Edvardsson, Maha El Tantawi, Islam Y Elgendy, 
+Shaimaa I El-Jaafary, Aisha Elsharkawy, Babak Eshrati, 
+Sharareh Eskandarieh, Saman Esmaeilnejad, Firooz Esmaeilzadeh, 
+Sadaf Esteghamati, Andre Faro, Farshad Farzadfar, Nazir Fattahi, 
+Valery L Feigin, Tomas Y Ferede, Seyed-Mohammad Fereshtehnejad, 
+Eduarda Fernandes, Pietro Ferrara, Irina Filip, Florian Fischer, 
+James L Fisher, Nataliya A Foigt, Morenike Oluwatoyin Folayan, 
+Artem Alekseevich Fomenkov, Masoud Foroutan, Takeshi Fukumoto, 
+Mohamed M Gad, Abhay Motiramji Gaidhane, Silvano Gallus, 
+Teshome Gebre, Ketema Bizuwork Gebremedhin, 
+Gebreamlak Gebremedhn Gebremeskel, Leake Gebremeskel, 
+Assefa Ayalew Gebreslassie, Hailay Abrha Gesesew, Keyghobad Ghadiri, 
+Mansour Ghafourifard, Farhad Ghamari, Ahmad Ghashghaee, 
+Syed Amir Gilani, Elena V Gnedovskaya, Myron Anthony Godinho, 
+Mahaveer Golechha, Srinivas Goli, Philimon N Gona, 
+Sameer Vali Gopalani, Giuseppe Gorini, Michal Grivna, 
+Mohammed Ibrahim Mohialdeen Gubari, Harish Chander Gugnani, 
+Rafael Alves Guimarães, Yuming Guo, Rajeev Gupta, Juanita A Haagsma, 
+Nima Hafezi-Nejad, Teklehaimanot Gereziher Haile, Arvin Haj-Mirzaian, 
+Arya Haj-Mirzaian, Brian J Hall, Randah R Hamadeh, 
+Kanaan Hamagharib Abdullah, Samer Hamidi, 
+Demelash Woldeyohannes Handiso, Asif Hanif, Graeme J Hankey, 
+Hamidreza Haririan, Josep Maria Haro, Ahmed I Hasaballah, 
+Abdiwahab Hashi, Amr Hassan, Soheil Hassanipour, Hadi Hassankhani, 
+Khezar Hayat, Reza Heidari-Soureshjani, Claudiu Herteliu, 
+Fatemeh Heydarpour, Hung Chak Ho, Michael K Hole, Ramesh Holla, 
+Praveen Hoogar, Mostafa Hosseini, Mehdi Hosseinzadeh, 
+Mihaela Hostiuc, Sorin Hostiuc, Mowafa Househ, Mohamed Hsairi, 
+Tanvir M Huda, Ayesha Humayun, Rabia Hussain, Bing-Fang Hwang, 
+Ivo Iavicoli, Segun Emmanuel Ibitoye, Olayinka Stephen Ilesanmi, 
+Irena M Ilic, Milena D Ilic, Leeberk Raja Inbaraj, Nirun Intarut, 
+Usman Iqbal, Seyed Sina Naghibi Irvani, M Mofizul Islam, 
+Sheikh Mohammed Shariful Islam, Hiroyasu Iso, Rebecca Q Ivers, 
+Mohammad Ali Jahani, Mihajlo Jakovljevic, Amir Jalali, 
+Manthan Dilipkumar Janodia, Tahereh Javaheri, Panniyammakal Jeemon, 
+Ensiyeh Jenabi, Ravi Prakash Jha, Vivekanand Jha, John S Ji, Jost B Jonas, 
+Kelly M Jones, Farahnaz Joukar, Jacek Jerzy Jozwiak, Petur B Juliusson, 
+Mikk Jürisson, Ali Kabir, Zubair Kabir, Leila R Kalankesh, Rohollah Kalhor, 
+Naser Kamyari, Tanuj Kanchan, André Karch, Salah Eddin Karimi, 
+Supreet Kaur, Gbenga A Kayode, Peter Njenga Keiyoro, Nauman Khalid, 
+Mohammad Khammarnia, Maseer Khan, Md Nuruzzaman Khan, 
+Khaled Khatab, Mona M Khater, Mahalaqua Nazli Khatib, 
+Maryam Khayamzadeh, Habibolah Khazaie, Abdullah T Khoja, 
+Christian Kieling, Young-Eun Kim, Yun Jin Kim, Ruth W Kimokoti, 
+Adnan Kisa, Sezer Kisa, Mika Kivimäki, Ali Koolivand, Soewarta Kosen, 
+Ai Koyanagi, Kewal Krishan, Nuworza Kugbey, G Anil Kumar, 
+
+Articles
+www.thelancet.com   Vol 398   October 30, 2021	
+1607
+Manasi Kumar, Nithin Kumar, Om P Kurmi, Dian Kusuma, 
+Carlo La Vecchia, Ben Lacey, Dharmesh Kumar Lal, Ratilal Lalloo, 
+Qing Lan, Iván Landires, Van Charles Lansingh, Anders O Larsson, 
+Savita Lasrado, Zohra S Lassi, Paolo Lauriola, Paul H Lee, 
+Shaun Wen Huey Lee, James Leigh, Matilde Leonardi, Janni Leung, 
+Miriam Levi, Sonia Lewycka, Bingyu Li, Ming-Chieh Li, Shanshan Li, 
+Lee-Ling Lim, Stephen S Lim, Xuefeng Liu, Stefan Lorkowski, 
+Paulo A Lotufo, Raimundas Lunevicius, Ralph Maddison, 
+Phetole Walter Mahasha, Mokhtar Mahdavi Mahdavi, Morteza Mahmoudi, 
+Azeem Majeed, Afshin Maleki, Reza Malekzadeh, Deborah Carvalho Malta, 
+Abdullah A Mamun, Borhan Mansouri, Mohammad Ali Mansournia, 
+Gabriel Martinez, Jose Martinez-Raga, 
+Francisco Rogerlândio Martins-Melo, Amanda J Mason-Jones, 
+Seyedeh Zahra Masoumi, Manu Raj Mathur, Pallab K Maulik, 
+John J McGrath, Man Mohan Mehndiratta, Fereshteh Mehri, 
+Peter T N Memiah, Walter Mendoza, Ritesh G Menezes, 
+Endalkachew Worku Mengesha, Atte Meretoja, Tuomo J Meretoja, 
+Tomislav Mestrovic, Bartosz Miazgowski, Tomasz Miazgowski, 
+Irmina Maria Michalek, Ted R Miller, GK Mini, Andreea Mirica, 
+Erkin M Mirrakhimov, Hamed Mirzaei, Maryam Mirzaei, Babak Moazen, 
+Dara K Mohammad, Shadieh Mohammadi, 
+Abdollah Mohammadian-Hafshejani, Noushin Mohammadifard, 
+Reza Mohammadpourhodki, Shafiu Mohammed, Lorenzo Monasta, 
+Ghobad Moradi, Maziar Moradi-Lakeh, Rahmatollah Moradzadeh, 
+Paula Moraga, Shane Douglas Morrison, Abbas Mosapour, 
+Amin Mousavi Khaneghah, Ulrich Otto Mueller, Moses K Muriithi, 
+Christopher J L Murray, Saravanan Muthupandian, Mehdi Naderi, 
+Ahamarshan Jayaraman Nagarajan, Mohsen Naghavi, 
+Mukhammad David Naimzada, Vinay Nangia, Vinod C Nayak, 
+Javad Nazari, Rawlance Ndejjo, Ionut Negoi, Ruxandra Irina Negoi, 
+Henok Biresaw Netsere, Georges Nguefack-Tsague, Diep Ngoc Nguyen, 
+Huong Lan Thi Nguyen, Jing Nie, Dina Nur Anggraini Ningrum, 
+Chukwudi A Nnaji, Shuhei Nomura, Jean Jacques Noubiap, 
+Christoph Nowak, Virginia Nuñez-Samudio, Felix Akpojene Ogbo, 
+Onome Bright Oghenetega, In-Hwan Oh, Morteza Oladnabi, 
+Andrew T Olagunju, Bolajoko Olubukunola Olusanya, 
+Jacob Olusegun Olusanya, Ahmed Omar Bali, Muktar Omer Omer, 
+Obinna E Onwujekwe, Alberto Ortiz, Adrian Otoiu, Nikita Otstavnov, 
+Stanislav S Otstavnov, Simon Øverland, Mayowa O Owolabi, Mahesh P A, 
+Jagadish Rao Padubidri, Keyvan Pakshir, Raffaele Palladino, Adrian Pana, 
+Songhomitra Panda-Jonas, Anamika Pandey, Carlo Irwin Able Panelo, 
+Eun-Kee Park, Scott B Patten, Amy E Peden, 
+Veincent Christian Filipino Pepito, Emmanuel K Peprah, Jeevan Pereira, 
+Konrad Pesudovs, Hai Quang Pham, Michael R Phillips, 
+Michael A Piradov, Meghdad Pirsaheb, Maarten J Postma, 
+Faheem Hyder Pottoo, Hadi Pourjafar, Akram Pourshams, Sergio I Prada, 
+Elisabetta Pupillo, Zahiruddin Quazi Syed, Mohammad Hasan Rabiee, 
+Navid Rabiee, Amir Radfar, Ata Rafiee, Alberto Raggi, Fakher Rahim, 
+Vafa Rahimi-Movaghar, Mohammad Hifz Ur Rahman, 
+Muhammad Aziz Rahman, Kiana Ramezanzadeh, Chhabi Lal Ranabhat, 
+Sowmya J Rao, Vahid Rashedi, Prateek Rastogi, Priya Rathi, 
+David Laith Rawaf, Salman Rawaf, Lal Rawal, Reza Rawassizadeh, 
+Andre M N Renzaho, Negar Rezaei, Nima Rezaei, 
+Mohammad Sadegh Rezai, Seyed Mohammad Riahi, Jennifer Rickard, 
+Leonardo Roever, Luca Ronfani, Gregory A Roth, Enrico Rubagotti, 
+Susan Fred Rumisha, Godfrey M Rwegerera, Siamak Sabour, 
+Perminder S Sachdev, Basema Saddik, Ehsan Sadeghi, 
+Sahar Saeedi Moghaddam, Rajesh Sagar, Amirhossein Sahebkar, 
+Mohammad Ali Sahraian, S Mohammad Sajadi, Marwa Rashad Salem, 
+Hamideh Salimzadeh, Abdallah M Samy, Juan Sanabria, 
+Milena M Santric-Milicevic, Sivan Yegnanarayana Iyer Saraswathy, 
+Nizal Sarrafzadegan, Arash Sarveazad, Thirunavukkarasu Sathish, 
+Davide Sattin, Deepak Saxena, Sonia Saxena, Silvia Schiavolin, 
+David C Schwebel, Falk Schwendicke, Subramanian Senthilkumaran, 
+Sadaf G Sepanlou, Feng Sha, Omid Shafaat, Saeed Shahabi, 
+Amira A Shaheen, Masood Ali Shaikh, Saeed Shakiba, 
+MohammadBagher Shamsi, Mohammed Shannawaz, Kiomars Sharafi, 
+Aziz Sheikh, Sara Sheikhbahaei, B Suresh Kumar Shetty, Peilin Shi, 
+Mika Shigematsu, Jae Il Shin, Rahman Shiri, Kerem Shuval, 
+Soraya Siabani, Inga Dora Sigfusdottir, Rannveig Sigurvinsdottir, 
+Diego Augusto Santos Silva, João Pedro Silva, Biagio Simonetti, 
+Jasvinder A Singh, Virendra Singh, Abiy H Sinke, 
+Valentin Yurievich Skryabin, Helen Slater, Emma U R Smith, 
+Mohammad Reza Sobhiyeh, Eugene Sobngwi, Amin Soheili, 
+Oluwaseyi Dolapo Somefun, Muluken Bekele Sorrie, Ireneous N Soyiri, 
+Chandrashekhar T Sreeramareddy, Dan J Stein, Mark A Stokes, 
+Agus Sudaryanto, Iyad Sultan, Rafael Tabarés-Seisdedos, Takahiro Tabuchi, 
+Santosh Kumar Tadakamadla, Amir Taherkhani, Animut Tagele Tamiru, 
+Md Ismail Tareque, Kavumpurathu Raman Thankappan, Rekha Thapar, 
+Nihal Thomas, Mariya Vladimirovna Titova, Marcello Tonelli, 
+Marcos Roberto Tovani-Palone, Bach Xuan Tran, Ravensara S Travillian, 
+Alexander C Tsai, Aristidis Tsatsakis, Lorainne Tudor Car, Riaz Uddin, 
+Brigid Unim, Bhaskaran Unnikrishnan, Era Upadhyay, Marco Vacante, 
+Sahel Valadan Tahbaz, Pascual R Valdez, Santosh Varughese, 
+Tommi Juhani Vasankari, Narayanaswamy Venketasubramanian, 
+Paul J Villeneuve, Francesco S Violante, Vasily Vlassov, Theo Vos, 
+Giang Thu Vu, Yasir Waheed, Richard G Wamai, Yafeng Wang, 
+Yanzhong Wang, Yuan-Pang Wang, Ronny Westerman, 
+Nuwan Darshana Wickramasinghe, Ai-Min Wu, Chenkai Wu, 
+Seyed Hossein Yahyazadeh Jabbari, Kazumasa Yamagishi, Yuichiro Yano, 
+Sanni Yaya, Vahid Yazdi-Feyzabadi, Yordanos Gizachew Yeshitila, Paul Yip, 
+Naohiro Yonemoto, Seok-Jun Yoon, Mustafa Z Younis, 
+Taraneh Yousefinezhadi, Chuanhua Yu, Yong Yu, Deniz Yuce, 
+Syed Saoud Zaidi, Sojib Bin Zaman, Mohammad Zamani, 
+Maryam Zamanian, Hadi Zarafshan, Ahmad Zarei, 
+Mikhail Sergeevich Zastrozhin, Yunquan Zhang, Zhi-Jiang Zhang, 
+Xiu-Ju George Zhao, Cong Zhu, George C Patton*, Russell M Viner*
+*Joint senior authors.
+Affiliations
+UCL Great Ormond Street Institute of Child Health (J L Ward MSc, 
+Prof R M Viner PhD), Department of Health Informatics
+(S Chung PhD), Department of Epidemiology and Public Health 
+(Prof M Kivimäki PhD), Division of Psychology and Language Sciences 
+(M Kumar PhD), University College London, London, UK; Global 
+Adolescent Health Group (P S Azzopardi PhD), Burnet Institute, 
+Melbourne, VIC, Australia; Wardliparingga Aboriginal Research Unit 
+(P S Azzopardi PhD), South Australian Health and Medical Research 
+Institute, Adelaide, SA, Australia; Centre for Adolescent Health 
+(K L Francis MBiostat, R Borschmann PhD), Population Health Theme 
+(Prof G C Patton MD), Murdoch Children’s Research Institute, Melbourne, 
+VIC, Australia; Department of Population and Family Health
+(Prof J S Santelli MD), Department of Psychiatry (Prof M R Phillips MD),
+Department of Health and Behavior Studies (Prof I D Sigfusdottir PhD),
+Columbia University, New York, NY, USA; Department of Pediatrics 
+(Prof J S Santelli MD), Columbia University Medical Center, New York, NY, 
+USA; Centre for Fertility and Health (Prof V Skirbekk PhD), Norwegian 
+Institute of Public Health, Oslo, Norway; Department of Paediatrics 
+(Prof S M Sawyer MD), University of Melbourne, Parkville, VIC, Australia; 
+Centre for Adolescent Health (Prof S M Sawyer MD), Murdoch Children’s 
+Research Institute, Parkville, VIC, Australia; Department of 
+Anesthesiology & Pain Medicine (N J Kassebaum MD), Institute for 
+Health Metrics and Evaluation (N J Kassebaum MD, 
+Prof A H Mokdad PhD, Prof S I Hay FMedSci, X Dai PhD, 
+Prof L Dandona MD, Prof R Dandona PhD, Prof S D Dharmaratne MD, 
+Prof V L Feigin PhD, Prof S S Lim PhD, Prof C J L Murray DPhil, 
+Prof M Naghavi MD, G A Roth MD, R S Travillian PhD, Prof T Vos PhD), 
+Department of Health Metrics Sciences, School of Medicine 
+(N J Kassebaum MD, Prof A H Mokdad PhD, Prof S I Hay FMedSci, 
+Prof R Dandona PhD, Prof S D Dharmaratne MD, Prof S S Lim PhD, 
+Prof C J L Murray DPhil, Prof M Naghavi MD, G A Roth MD, 
+Prof T Vos PhD), Division of Cardiology (G A Roth MD), University of 
+Washington, Seattle, WA, USA; Department of Neurology 
+(Prof F Abd-Allah MD, S I El-Jaafary MD, A Hassan MD), Department of 
+Endemic Medicine and Hepatogastroenterology (A Elsharkawy MD), 
+Department of Medical Parasitology (M M Khater MD), Cairo University, 
+Cairo, Egypt; Department of Parasitology and Mycology (A Abdoli PhD), 
+Jahrom University of Medical Sciences, Jahrom, Iran; The Institute of 
+Pharmaceutical Sciences (TIPS) (Prof M Abdollahi PhD), School of 
+Pharmacy (Prof M Abdollahi PhD), Research Center for 
+Immunodeficiencies (H Abolhassani PhD, Prof N Rezaei PhD), 
+Department of Pharmacology (K Afshari MD), Non-communicable 
+
+Articles
+1608	
+www.thelancet.com   Vol 398   October 30, 2021
+Diseases Research Center (A Aminorroaya MD, Prof F Farzadfar DSc, 
+N Rezaei PhD, S Saeedi Moghaddam MSc), Tehran Heart Center 
+(A Aminorroaya MD), Multiple Sclerosis Research Center 
+(S Eskandarieh PhD, Prof M Sahraian MD), Endocrinology and 
+Metabolism Research Center (S Esteghamati MD, N Rezaei PhD), School 
+of Medicine (N Hafezi-Nejad MD), School of Nursing and Midwifery 
+(R Heidari-Soureshjani MSc), Department of Epidemiology and 
+Biostatistics (Prof M Hosseini PhD, M Mansournia PhD), Pediatric 
+Chronic Kidney Disease Research Center (Prof M Hosseini PhD), 
+Department of Environmental Health Engineering (Prof A Maleki PhD), 
+Digestive Diseases Research Institute (Prof R Malekzadeh MD, 
+Prof A Pourshams MD, H Salimzadeh PhD, S G Sepanlou MD), 
+Metabolomics and Genomics Research Center (F Rahim PhD), Sina 
+Trauma and Surgery Research Center (Prof V Rahimi-Movaghar MD), 
+Faculty of Medicine (S Shakiba MD), Psychiatry and Psychology Research 
+Center (H Zarafshan PhD), Tehran University of Medical Sciences, 
+Tehran, Iran; Department of Orthopaedic Surgery (A Abedi MD), Keck 
+School of Medicine (C P Doshi BA), University of Southern California, 
+Los Angeles, CA, USA; Department of Laboratory Medicine 
+(H Abolhassani PhD), Karolinska University Hospital, Huddinge, Sweden; 
+Department of Pediatric Dentistry (Prof L G Abreu PhD), Department of 
+Maternal and Child Nursing and Public Health (Prof D C Malta PhD), 
+Federal University of Minas Gerais, Belo Horizonte, Brazil; Department of 
+Research (M R M Abrigo PhD), Philippine Institute for Development 
+Studies, Quezon City, Philippines; Department of Clinical Sciences 
+(E Abu-Gharbieh PhD), Sharjah Institute for Medical Research 
+(B Saddik PhD), University of Sharjah, Sharjah, United Arab Emirates; 
+Harvard Medical School (A I Abushouk MD), TH Chan School of Public 
+Health (Prof T W Bärnighausen MD), Center for Primary Care 
+(S Basu PhD), Department of Global Health and Social Medicine 
+(A W Bell MSW), Division of Cardiology (I Y Elgendy MD), Division of 
+General Internal Medicine (Prof A Sheikh MD), Harvard University, 
+Boston, MA, USA; Department of Medicine (A I Abushouk MD), 
+Department of Entomology (A M Samy PhD), Ain Shams University, 
+Cairo, Egypt; College of Medicine (O M Adebayo MD), Department of 
+Community Medicine (O S Ilesanmi PhD), Department of Medicine 
+(Prof M O Owolabi DrM), University College Hospital, Ibadan, Ibadan, 
+Nigeria; Department of Population Medicine (V Adekanmbi PhD), Cardiff 
+University, Cardiff, UK; School of Health (D Adham PhD), Ardabil 
+University of Medical Science, Ardabil, Iran; Terasaki Institute for 
+Biomedical Innovation, Los Angeles, CA, USA (S M Advani PhD); School 
+of Medicine (S M Advani PhD), Georgetown University, Washington DC, 
+DC, USA; Department of Dermatology (K Afshari MD), University of 
+Massachusetts Medical School, Worcester, MA, USA; Institute of 
+Genomics and Integrative Biology (Prof A Agrawal PhD), Council of 
+Scientific & Industrial Research, Delhi, India; Section of General Internal 
+Medicine (Prof A Agrawal PhD), Baylor College of Medicine, Houston, TX, 
+USA; Department of Epidemiology and Health Statistics (T Ahmad MS), 
+Southeast University, Nanjing, China; Lincoln Medical School 
+(K Ahmadi PhD), Universities of Nottingham & Lincoln, Lincoln, UK; 
+Economics and Rural Development Department (A E Ahmed PhD), 
+University of Gezira, Wad Madani, Sudan; Faculty of Medicine and Public 
+Health (B Aji DrPH), Jenderal Soedirman University, Purwokerto, 
+Indonesia; School of Public Health and Community Medicine 
+(B Akombi-Inyang PhD, Prof R Q Ivers PhD, A E Peden PhD), Transport 
+and Road Safety (TARS) Research Centre (R Biswas MSc, S Boufous PhD), 
+School of Medicine (P K Maulik PhD), School of Optometry and Vision 
+Science (Prof K Pesudovs PhD), University of New South Wales, Sydney, 
+NSW, Australia; Mayo Evidence-based Practice Center (F Alahdab MSc), 
+Mayo Clinic Foundation for Medical Education and Research, Rochester, 
+MN, USA; John T Milliken Department of Internal Medicine 
+(Z Al-Aly MD), Washington University in St Louis, St Louis, MO, USA; 
+Clinical Epidemiology Center (Z Al-Aly MD), Department of Veterans 
+Affairs, St Louis, MO, USA; Murdoch Business School (K Alam PhD), 
+Murdoch University, Perth, WA, Australia; Health Information 
+Management and Technology Department (T M Alanzi PhD), 
+Environmental Health Department (S M A Dahlawi PhD), Forensic 
+Medicine Division (Prof R G Menezes MD), Department of Pharmacology 
+(F H Pottoo PhD), Imam Abdulrahman Bin Faisal University, Dammam, 
+Saudi Arabia (F M Alanezi PhD); Center for Health Systems Research 
+(J E Alcalde-Rabanal PhD, L Avila-Burgos ScD.), Health and Nutrition 
+Research Center (I R Campos-Nonato PhD), National Institute of Public 
+Health, Cuernavaca, Mexico (J Campuzano Rincon PhD); College of 
+Medicine and Health Science (B W Alemu MSc), Department of Public 
+Health (M B Sorrie MPH), Department of Nursing (Y G Yeshitila MSc), 
+Arba Minch University, Arba Minch, Ethiopia; Department of Midwifery 
+(B W Alemu MSc), Arba Minch University, Injbara, Ethiopia; Faculty of 
+Health Sciences - Health Management and Policy (Prof S Al-Hajj PhD), 
+American University of Beirut, Beirut, Lebanon; British Columbia Injury 
+Research Prevention Unit (Prof S Al-Hajj PhD), British Columbia 
+Children’s Hospital Research Institute, Vancouver, BC, Canada; Institute 
+of Health Research (R K Alhassan PhD), University of Health and Allied 
+Sciences, Ho, Ghana; Department of Information Systems (S Ali PhD), 
+Sultan Qaboos University, Muscat, Oman; Directorate for Social Statistics 
+and Population Census (G Alicandro PhD), Italian National Institute of 
+Statistics, Rome, Italy; Social Determinants of Health Research Center 
+(M Alijanzadeh PhD), Institute for Prevention of Non-communicable 
+Diseases (R Kalhor PhD), Health Services Management Department 
+(R Kalhor PhD), Qazvin University of Medical Sciences, Qazvin, Iran; 
+Department of Health Policy and Management (Prof S M Aljunid PhD), 
+Kuwait University, Safat, Kuwait; International Centre for Casemix and 
+Clinical Coding (Prof S M Aljunid PhD), National University of Malaysia, 
+Bandar Tun Razak, Malaysia; Department of Epidemiology 
+(A Almasi-Hashiani PhD, R Moradzadeh PhD, M Zamanian PhD), 
+Department of Health Services Management (S Amini PhD), Occupational 
+Health Department (F Ghamari PhD), Department of Environmental 
+Health Engineering (A Koolivand PhD), Department of Pediatrics 
+(J Nazari MD), Arak University of Medical Sciences, Arak, Iran; 
+Physiotherapy Department (Prof N A Almasri PhD), The University of 
+Jordan, Amman, Jordan; Medical Research Center (H M Al-Mekhlafi PhD), 
+Epidemiology Department (M Khan MD), Jazan University, Jazan, Saudi 
+Arabia (Prof N Bedi MD); Department of Parasitology 
+(H M Al-Mekhlafi PhD), Sana’a University, Sana’a, Yemen; Research 
+Program of Epidemiology and Public Health (J Alonso MD), Pompeu 
+Fabra University, Barcelona, Spain; Department of Experimental and 
+Health Sciences (J Alonso MD), Biomedical Research Networking Center 
+in Epidemiology and Public Health (CiberESP), Madrid, Spain; 
+Department of Community Medicine (R M Al-Raddadi PhD), King 
+Abdulaziz University, Jeddah, Saudi Arabia; Pediatric Intensive Care Unit 
+(K A Altirkawi MD), King Saud University, Riyadh, Saudi Arabia; Research 
+Group in Hospital Management and Health Policies 
+(Prof N Alvis-Guzman PhD), Universidad de la Costa, Barranquilla, 
+Colombia; Research Group in Health Economics 
+(Prof N Alvis-Guzman PhD), University of Cartagena, Cartagena, 
+Colombia; School of Medicine (A Amare PhD), Robinson Research 
+Institute (Z S Lassi PhD), Centre for Heart Rhythm Disorders 
+(J Noubiap MD), University of Adelaide, Adelaide, SA, Australia; College of 
+Medicine and Health Science (A Amare PhD), Department of 
+Reproductive Health and Population Studies (E W Mengesha MPH), Bahir 
+Dar University, Bahir Dar, Ethiopia; School of Medicine and Public Health 
+(A L Amit BS), Ateneo De Manila University, Manila, Philippines; College 
+of Medicine (A L Amit BS), Department of Health Policy and 
+Administration (C T Antonio MD), Department of Clinical Epidemiology 
+(C A Panelo MD), University of the Philippines Manila, Manila, 
+Philippines; Maternal and Child Wellbeing (D A Amugsi PhD), African 
+Population and Health Research Center, Nairobi, Kenya; Pharmacy 
+Department (Prof R Ancuceanu PhD), Cardiology Department 
+(C Andrei PhD), Urology Department (T Constantin PhD), Internal 
+Medicine Department (M Hostiuc PhD), Department of Legal Medicine 
+and Bioethics (S Hostiuc PhD), Department of General Surgery 
+(I Negoi PhD), Department of Anatomy and Embryology (R I Negoi PhD), 
+Carol Davila University of Medicine and Pharmacy, Bucharest, Romania; 
+Centre for Sensorimotor Performance (D Anderlini MD), The University 
+of Queensland, Brisbane, Australia; Neurology Department 
+(D Anderlini MD), Royal Brisbane and Women’s Hospital, Brisbane, QLD, 
+Australia; Department of Medicine (S Androudi PhD), University of 
+Thessaly, Volos, Greece; Research Center for Evidence Based Medicine 
+(F Ansari PhD), Department of Health Policy and Management 
+(L Doshmangir PhD), Department of Medical Surgical Nursing 
+(M Ghafourifard PhD), School of Nursing and Midwifery 
+(H Hassankhani PhD), School of Management and Medical Informatics 
+(L R Kalankesh PhD), Social Determinants of Health Research Center 
+
+Articles
+www.thelancet.com   Vol 398   October 30, 2021	
+1609
+(S Karimi PhD), Tabriz University of Medical Sciences, Tabriz, Iran 
+(H Haririan PhD); Razi Vaccine and Serum Research Institute 
+(F Ansari PhD), Agricultural Research, Education, and Extension 
+Organization (AREEO), Tehran, Iran; Medical Students Research 
+Committee (I Ansari MD), Shahed University, Tehran, Iran; Department 
+of Applied Social Sciences (C T Antonio MD), Hong Kong Polytechnic 
+University, Hong Kong, China; Department of Parasitology 
+(D Anvari PhD), Pediatric Infectious Diseases Research Center 
+(Prof M Rezai MD), Mazandaran University of Medical Sciences, Sari, 
+Iran; Department of Parasitology (D Anvari PhD), Iranshahr University of 
+Medical Sciences, Iranshahr, Iran; Department of Pathology 
+(R Anwer PhD), Department of Public Health (A T Khoja MD), Imam 
+Mohammad Ibn Saud Islamic University, Riyadh, Saudi Arabia; 
+Department of Sociology and Social Work (S Appiah PhD), Kwame 
+Nkrumah University of Science and Technology, Kumasi, Ghana; Center 
+for International Health (S Appiah PhD), Ludwig Maximilians University, 
+Munich, Germany; Health Management and Economics Research Center 
+(J Arabloo PhD, S Azari PhD, A Ghashghaee BSc, M Hosseinzadeh PhD), 
+Preventive Medicine and Public Health Research Center 
+(M Asadi-Aliabadi MSc, B Eshrati PhD, M Moradi-Lakeh MD), 
+Department of Medical Laboratory Sciences (F Dorostkar PhD), Student 
+Research Committee (A Ghashghaee BSc), Minimally Invasive Surgery 
+Research Center (A Kabir MD), Tehran Institute of Psychiatry 
+(V Rashedi PhD), Colorectal Research Center (A Sarveazad PhD), Iran 
+University of Medical Sciences, Tehran, Iran; Social Determinants of 
+Health Research Center (M Arab-Zozani PhD), Cardiovascular Diseases 
+Research Center (S Riahi PhD), Birjand University of Medical Sciences, 
+Birjand, Iran; Department of Neurobiology, Care Sciences and Society 
+(Prof J Ärnlöv PhD), Department of Medical Epidemiology and 
+Biostatistics (Prof J J Carrero PhD), Department of Global Public Health 
+(K Deuba DrPH), Department of Neurobiology (S Fereshtehnejad PhD), 
+Department of Medicine (D K Mohammad PhD), Karolinska Institute, 
+Stockholm, Sweden; School of Health and Social Studies 
+(Prof J Ärnlöv PhD), Dalarna University, Falun, Sweden; Department of 
+Plastic Surgery (M Asaad MD), University of Texas, Houston, TX, USA; 
+Epilepsy Research Center (Prof A A Asadi-Pooya MD), Health Human 
+Resources Research Center (M Bayati PhD), Department of Epidemiology 
+(M Dianatinasab MSc), Non-communicable Disease Research Center 
+(Prof R Malekzadeh MD, S G Sepanlou MD), Department of Medical 
+Mycology and Parasitology (Prof K Pakshir PhD), Health Policy Research 
+Center (S Shahabi PhD), Shiraz University of Medical Sciences, Shiraz, 
+Iran; Neurology Department (Prof A A Asadi-Pooya MD), Thomas 
+Jefferson University, Philadelphia, PA, USA; Faculty of Nursing 
+(M M W Atout PhD), Philadelphia University, Amman, Jordan; School of 
+Business (Prof M Ausloos PhD), Department of Health Sciences 
+(P H Lee PhD), University of Leicester, Leicester, UK; Department of 
+Statistics and Econometrics (Prof M Ausloos PhD, Prof C Herteliu PhD, 
+A Mirica PhD, Prof A Otoiu PhD, A Pana MD), Bucharest University of 
+Economic Studies, Bucharest, Romania; Department of International 
+Development (E K Avenyo PhD), Nuffield Department of Population 
+Health (B Lacey PhD), Centre for Tropical Medicine and Global Health 
+(S Lewycka PhD), The George Institute for Global Health 
+(Prof S Yaya PhD), University of Oxford, Oxford, UK; DST/NRF 
+South African Research Chair in Industrial Development 
+(E K Avenyo PhD), University of Johannesburg, Johannesburg, 
+South Africa; The Judith Lumley Centre (B Ayala Quintanilla PhD), School 
+of Nursing and Midwifery (Prof D Edvardsson PhD, M Rahman PhD), 
+School of Psychology and Public Health (M Islam PhD), La Trobe 
+University, Melbourne, VIC, Australia; School of Public Health 
+(G Ayano MSc, T R Miller PhD), School of Physiotherapy and Exercise 
+Science (Prof H Slater PhD), Curtin University, Perth, WA, Australia; 
+Department of Nursing (Y A Aynalem MSc), Debre Berhan University, 
+Debre Berhan, Ethiopia; Department of Reproductive Health 
+(Z N Azene MPH), School of Nursing (H B Netsere MS), Department of 
+Midwifery (A T Tamiru MSc), University of Gondar, Gondar, Ethiopia; 
+Department of Anesthesiology (M Bakhshaei MD), Hamedan University 
+of Medical Sciences, Hamadan, Iran; Department of Forensic Medicine 
+and Toxicology (S M Bakkannavar MD, Prof V C Nayak MD), Kasturba 
+Medical College, Mangalore (R Holla MD, J Padubidri MD, P Rathi MD), 
+Centre for Bio Cultural Studies (CBiCS) (P Hoogar PhD), Manipal College 
+of Pharmaceutical Sciences (Prof M D Janodia PhD), Manipal Academy of 
+Higher Education, Manipal, India (Prof V Jha MD); Department of 
+Hypertension (Prof M Banach PhD), Medical University of Lodz, Lodz, 
+Poland; Polish Mothers’ Memorial Hospital Research Institute, Lodz, 
+Poland (Prof M Banach PhD); Department of Non-communicable 
+Diseases (P C Banik MPhil), Bangladesh University of Health Sciences, 
+Dhaka, Bangladesh; Department of Neurosciences 
+(Prof M A Barboza MD), Costa Rican Department of Social Security, 
+San Jose, Costa Rica; School of Medicine (Prof M A Barboza MD), 
+University of Costa Rica, San Pedro, Costa Rica; School of Psychology 
+(Prof S L Barker-Collo PhD), University of Auckland, Auckland, 
+New Zealand; Heidelberg Institute of Global Health (HIGH) 
+(Prof T W Bärnighausen MD, B Moazen MSc), Department of 
+Ophthalmology (Prof J B Jonas MD, S Panda-Jonas MD), Heidelberg 
+University, Heidelberg, Germany; School of Public Health (S Basu PhD, 
+Prof S Saxena MD), Imperial College Business School (D Kusuma DSc), 
+Department of Primary Care and Public Health (Prof A Majeed MD, 
+R Palladino MD, Prof S Rawaf MD), WHO Collaborating Centre for Public 
+Health Education and Training (D L Rawaf MD), Imperial College London, 
+London, UK; Department of Psychiatry (Prof B T Baune PhD), Institute 
+for Epidemiology and Social Medicine (A Karch MD), University of 
+Münster, Münster, Germany; Department of Psychiatry 
+(Prof B T Baune PhD), Melbourne Medical School, Melbourne, VIC, 
+Australia; School of Public Health (Prof N Bedi MD), Dr D Y Patil 
+University, Mumbai, India; Department of Neuroscience (E Beghi MD, 
+E Pupillo PharmD), Department of Environmental Health Sciences 
+(S Gallus DSc), Mario Negri Institute for Pharmacological Research, 
+Milan, Italy; Department of Public Health (T T Bekuma MPH), Wollega 
+University, Nekemte, Ethiopia; Department of Social Services 
+(A W Bell MSW), Tufts Medical Center, Boston, MA, USA; School of the 
+Environment (Prof M L Bell PhD), Yale University, New Haven, CT, USA; 
+Department of Epidemiology and Psychosocial Reseach (C Benjet PhD), 
+Ramón de la Fuente Muñiz National Institute of Psychiatry, Mexico City, 
+Mexico; Department of Internal Medicine (I M Bensenor PhD), 
+Department of Psychiatry (Prof J Castaldelli-Maia PhD, Y Wang PhD), 
+University of São Paulo, São Paulo, Brazil; College of Medicine and Health 
+Sciences (A K Berhe MSc), Adigrat University, Adigrat, Ethiopia; 
+Department of Nutrition and Dietetics (K Berhe MPH), Department of 
+Nursing (G G Gebremeskel MSc), Department of Pharmacy 
+(L Gebremeskel MSc), Department of Reproductive Health 
+(A Gebreslassie MPH), Department of Epidemiology (H A Gesesew PhD), 
+Department of Medical Microbiology and Immunology 
+(S Muthupandian PhD), Mekelle University, Mekelle, Ethiopia; 
+Department of Medicine (A E Berman MD), Medical College of Georgia at 
+Augusta University, Augusta, GA, USA; Department of Social and Clinical 
+Pharmacy (A S Bhagavathula PharmD), Charles University, Hradec 
+Kralova, Czech Republic; Institute of Public Health 
+(A S Bhagavathula PharmD, Prof M Grivna PhD), United Arab Emirates 
+University, Al Ain, United Arab Emirates; Department of Anatomy 
+(Prof N Bhardwaj MD), Government Medical College Pali, Pali, India; 
+Department of Community Medicine and Family Medicine 
+(P Bhardwaj MD), School of Public Health (P Bhardwaj MD), Department 
+of Pharmacology (J Charan MD), Department of Forensic Medicine and 
+Toxicology (T Kanchan MD), All India Institute of Medical Sciences, 
+Jodhpur, India; Department of Statistical and Computational Genomics 
+(K Bhattacharyya MSc), National Institute of Biomedical Genomics, 
+Kalyani, India; Department of Statistics (K Bhattacharyya MSc), University 
+of Calcutta, Kolkata, India; Department of Global Health (S Bhattarai MD), 
+Global Institute for Interdisciplinary Studies, Kathmandu, Nepal; Centre 
+for Global Child Health (Prof Z A Bhutta PhD), Department of Medicine 
+(V Chattu MD), University of Toronto, Toronto, ON, Canada; Centre of 
+Excellence in Women & Child Health (Prof Z A Bhutta PhD), Aga Khan 
+University, Karachi, Pakistan; Social Determinants of Health Research 
+Center (A Bijani PhD, M A Jahani PhD), Department of Clinical 
+Biochemistry (A Mosapour PhD), Student Research Committee 
+(M Zamani MD), Babol University of Medical Sciences, Babol, Iran; Mario 
+Negri Institute for Pharmacological Research, Ranica, Italy (B Bikbov MD); 
+Department of General Surgery and Medical-Surgical Specialties 
+(Prof A Biondi PhD, M Vacante PhD), University of Catania, Catania, Italy; 
+Planning, Monitoring and Evaluation Directorate (T T M Birhanu MPH), 
+Amhara Public Health Institute, Bahir Dar, Ethiopia; Department of 
+Veterinary Medicine (S Bohlouli PhD), Islamic Azad University, 
+
+Articles
+1610	
+www.thelancet.com   Vol 398   October 30, 2021
+Kermanshah, Iran; Department of Biomedical Sciences (S Bolla PhD), 
+Nazarbayev University, Nur-Sultan City, Kazakhstan; Department of 
+Internal Medicine (A Boloor MD), Department of Community Medicine 
+(N Kumar MD, R Thapar MD), Department of Forensic Medicine and 
+Toxicology (Prof P Rastogi MD, Prof B K Shetty MD), Kasturba Medical 
+College (Prof B Unnikrishnan MD), Manipal Academy of Higher 
+Education, Mangalore, India; Justice Health Unit (R Borschmann PhD), 
+School of Health Sciences (A Meretoja MD), Department of Pediatrics 
+(Prof G C Patton MD), University of Melbourne, Melbourne, VIC, 
+Australia; University of Genoa, Genoa, Italy (N L Bragazzi PhD); 
+Department of Epidemiology (D Braithwaite PhD), University of Florida, 
+Gainesville, FL, USA; Cancer Population Sciences Program 
+(D Braithwaite PhD), University of Florida Health Cancer Center, 
+Gainesville, FL, USA; Psychiatry and Behavioral Health Department 
+(Prof N J K Breitborde PhD), Department of Psychology 
+(Prof N J K Breitborde PhD), James Cancer Hospital (J L Fisher PhD), 
+Ohio State University, Columbus, OH, USA; Division of Clinical 
+Epidemiology and Aging Research (Prof H Brenner MD), German Cancer 
+Research Center, Heidelberg, Germany; Neuroscience Unit 
+(G B Britton PhD), Institute for Scientific Research and High Technology 
+Services, Panama City, Panama; Gorgas Memorial Institute for Health 
+Studies, Panama City, Panama (G B Britton PhD); Research School of 
+Population Health (R A Burns PhD), Australian National University, 
+Canberra, ACT, Australia; Department of Community Medicine 
+(Prof S Burugina Nagaraja MD), Employee State Insurance Post Graduate 
+Institute of Medical Sciences and Research, Bangalore, India; School of 
+Public Health and Health Systems (Z A Butt PhD), University of Waterloo, 
+Waterloo, ON, Canada; Al Shifa School of Public Health (Z A Butt PhD), 
+Al Shifa Trust Eye Hospital, Rawalpindi, Pakistan; Institute of 
+Microengineering (F Caetano dos Santos PhD), Federal Polytechnic School 
+of Lausanne, Lausanne, Switzerland; Internal Medicine Department 
+(Prof L A Cámera MD), Hospital Italiano de Buenos Aires 
+(Italian Hospital of Buenos Aires), Buenos Aires, Argentina; Board of 
+Directors (Prof L A Cámera MD), Argentine Society of Medicine, Buenos 
+Aires, Argentina (Prof P R Valdez MEd); School of Medicine 
+(J Campuzano Rincon PhD), University of the Valley of Cuernavaca, 
+Cuernavaca, Mexico; Department of Health Care (Prof R Cárdenas DSc), 
+Metropolitan Autonomous University, Mexico City, Mexico; Oncological 
+Network, Prevention and Research Institute (G Gorini MD), Institute for 
+Cancer Research, Prevention and Clinical Network, Florence, Italy 
+(G Carreras PhD); Research Unit on Applied Molecular Biosciences 
+(UCIBIO) (Prof F Carvalho PhD, V M Costa PhD, J P Silva PhD), 
+Laboratory of Toxicology (Prof D Dias da Silva PhD), Associated Laboratory 
+for Green Chemistry (LAQV) (Prof E Fernandes PhD), University of Porto, 
+Porto, Portugal; Colombian National Health Observatory 
+(C A Castañeda-Orjuela MD), National Institute of Health, Bogota, 
+Colombia; Epidemiology and Public Health Evaluation Group 
+(C A Castañeda-Orjuela MD), Department of Public Health 
+(Prof F P De la Hoz PhD), National University of Colombia, Bogota, 
+Colombia; Department of Medicine (G Castelpietra PhD), University of 
+Udine, Udine, Italy; Department of Mental Health (G Castelpietra PhD), 
+Healthcare Agency “Friuli Occidentale”, Pordenone, Italy; National School 
+of Public Health (F Catalá-López PhD), Institute of Health Carlos III, 
+Madrid, Spain; Clinical Epidemiology Program (F Catalá-López PhD), 
+Ottawa Hospital Research Institute, Ottawa, ON, Canada; Mary MacKillop 
+Institute for Health Research (Prof E Cerin PhD), Australian Catholic 
+University, Melbourne, VIC, Australia; School of Public Health 
+(Prof E Cerin PhD), Department of Urban Planning and Design 
+(H Ho PhD), Centre for Suicide Research and Prevention 
+(Prof P Yip PhD), Department of Social Work and Social Administration 
+(Prof P Yip PhD), University of Hong Kong, Hong Kong, China; Institute 
+of Applied Health Research (J S Chandan MFPH), University of 
+Birmingham, Birmingham, UK; Institute of Population Health Sciences 
+(H Chang DrPH), National Health Research Institutes, Zhunan Township, 
+Taiwan; College of Medicine (J Chang PhD), National Taiwan University, 
+Taipei, Taiwan; Department of Nursing (J Chang PhD), National Taiwan 
+University Hospital, Taipei, Taiwan; Global Institute of Public Health 
+(GIPH), Thiruvananthapuram, India (V Chattu MD); Research 
+Department (S Chaturvedi PhD), Dr D Y Patil University, Pune, India; 
+Biomedical Informatics (J J Choi PhD), Seoul National University 
+Hospital, Seoul, South Korea; James P Grant School of Public Health 
+(M Chowdhury MPH), BRAC University, Dhaka, Bangladesh; Department 
+of Epidemiology and Biostatistics (M Chowdhury MPH), University of 
+South Carolina, Columbia, SC, USA; Department of Pulmonary Medicine 
+(Prof D J Christopher MD), Department of Endocrinology, Diabetes and 
+Metabolism (Prof N Thomas PhD), Department of Nephrology 
+(Prof S Varughese FRCP), Christian Medical College and Hospital (CMC), 
+Vellore, India; Center for Biomedicine and Community Health 
+(D Chu PhD), VNU-International School, Hanoi, Vietnam; Department of 
+Otolaryngology (M T Chung MD), Wayne State University, Detroit, MI, 
+USA; Health Data Research UK, London, UK (S Chung PhD); School of 
+Public Health and Preventive Medicine (Prof F M Cicuttini PhD, 
+S Li PhD), Department of Epidemiology and Preventive Medicine 
+(Prof Y Guo PhD), The School of Clinical Sciences at Monash Health 
+(S Zaman MPH), Monash University, Melbourne, VIC, Australia; 
+Department of Cardiology (H Dai MD), Central South University, 
+Changsha, China; Department of Mathematics and Statistics (H Dai MD), 
+York University, Toronto, ON, Canada; IRCCS Istituto Ortopedico Galeazzi 
+(Galeazzi Orthopedic Institute IRCCS) (G Damiani MD), Department of 
+Clinical Sciences and Community Health (Prof C La Vecchia MD), 
+University of Milan, Milan, Italy; Department of Dermatology 
+(G Damiani MD), Department of Quantitative Health Science (X Liu PhD), 
+Department of Nutrition and Preventive Medicine (Prof J Sanabria MD), 
+Case Western Reserve University, Cleveland, OH, USA; Health Policy 
+Research (M R Mathur PhD), Department of Research (A Pandey PhD), 
+Public Health Foundation of India, Gurugram, India (Prof L Dandona MD, 
+Prof R Dandona PhD, G Kumar PhD, D K Lal MD); Indian Council of 
+Medical Research, New Delhi, India (Prof L Dandona MD); Department of 
+Pathology (P Daneshpajouhnejad MD), Department of Radiology and 
+Radiological Science (N Hafezi-Nejad MD, O Shafaat MD, 
+S Sheikhbahaei MD), Department of Radiology and Radiological Sciences 
+(A Haj-Mirzaian MD), Department of Health Policy and Management 
+(A T Khoja MD), Johns Hopkins University, Baltimore, MD, USA; 
+Department of Pathology (P Daneshpajouhnejad MD), Isfahan 
+Cardiovascular Research Institute (N Mohammadifard PhD, 
+Prof N Sarrafzadegan MD), Department of Radiology and Interventional 
+Neuroradiology (O Shafaat MD), Isfahan University of Medical Sciences, 
+Isfahan, Iran; Department of Information Technology 
+(A M Darwesh PhD), University of Human Development, Sulaymaniyah, 
+Iraq; Department of Population and Development 
+(C A Dávila-Cervantes PhD), Latin American Faculty of Social Sciences 
+Mexico, Mexico City, Mexico; Health Research Institute (K Davletov PhD), 
+Al Farabi Kazakh National University, Almaty, Kazakhstan; Australian 
+Institute for Suicide Research and Prevention (Prof D De Leo DSc), 
+Griffith University, Mount Gravatt, QLD, Australia; St Paul’s Eye Unit 
+(N Dervenis MD), Royal Liverpool University Hospital, Liverpool, UK; 
+Department of Ophthalmology (N Dervenis MD), Aristotle University of 
+Thessaloniki, Thessaloniki, Greece; Division of Cardiology 
+(R Desai MBBS), Atlanta Veterans Affairs Medical Center, Decatur, GA, 
+USA; School of Nursing and Midwifery (A Desalew MSc), Haramaya 
+University, Harar, Ethiopia; National Centre for AIDS and STD Control 
+(K Deuba DrPH), Save the Children, Kathmandu, Nepal; Department of 
+Community Medicine (Prof S D Dharmaratne MD), University of 
+Peradeniya, Peradeniya, Sri Lanka; Department of Microbiology 
+(G P Dhungana MSc), Far Western University, Mahendranagar, Nepal; 
+Department of Epidemiology and Biostatistics (M Dianatinasab MSc), 
+Shahroud University of Medical Sciences, Shahroud, Iran; Center of 
+Complexity Sciences (Prof D Diaz PhD), National Autonomous University 
+of Mexico, Mexico City, Mexico; Faculty of Veterinary Medicine and 
+Zootechnics (Prof D Diaz PhD), Autonomous University of Sinaloa, 
+Culiacán Rosales, Mexico; Department of Community Medicine and 
+Public Health (A Didarloo PhD), Urmia University of Medical Science, 
+Urmia, Iran; Development of Research and Technology Center 
+(S Djalalinia PhD), Ministry of Health and Medical Education, Tehran, 
+Iran; School of Medicine (Prof K E Doyle PhD), Translational Health 
+Research Institute (F A Ogbo PhD), Western Sydney University, Sydney, 
+NSW, Australia; School of Health and Biomedical Sciences 
+(Prof K E Doyle PhD), Royal Melbourne Institute of Technology University, 
+Melbourne, VIC, Australia; School of Medicine (Prof A R Duraes PhD), 
+Federal University of Bahia, Salvador, Brazil; Department of Internal 
+Medicine (Prof A R Duraes PhD), Escola Bahiana de Medicina e Saúde 
+Pública (Bahiana School of Medicine and Public Health), Salvador, Brazil; 
+
+Articles
+www.thelancet.com   Vol 398   October 30, 2021	
+1611
+Department of Epidemiology (M Ebrahimi Kalan MSc), Florida 
+International University, Miami, FL, USA; Department of Cardiovascular 
+Medicine (S Ebtehaj PhD), Mayo Clinic, Rochester, MN, USA; Department 
+of Nursing (Prof D Edvardsson PhD), Umeå University, Umea, Sweden; 
+Pediatric Dentistry and Dental Public Health Department 
+(Prof M El Tantawi PhD), Alexandria University, Alexandria, Egypt; 
+Division of Cardiology (I Y Elgendy MD), Department of Psychiatry 
+(A C Tsai MD), Massachusetts General Hospital, Boston, MA, USA; 
+Department of Physiology (S Esmaeilnejad PhD), Department of Clinical 
+Biochemistry (A Mosapour PhD), Tarbiat Modares University, Tehran, 
+Iran; Tehran Medical Sciences Branch (S Esmaeilnejad PhD), Department 
+of Microbiology (S Valadan Tahbaz PhD), Islamic Azad University, Tehran, 
+Iran; Department of Public Health (F Esmaeilzadeh PhD), Department of 
+Nutrition and Food Sciences (H Pourjafar PhD), Maragheh University of 
+Medical Sciences, Maragheh, Iran; Department of Psychology 
+(Prof A Faro PhD), Federal University of Sergipe, São Cristóvão, Brazil; 
+Research Center for Environmental Determinants of Health 
+(N Fattahi PhD, Prof M Pirsaheb PhD, Prof E Sadeghi PhD, 
+K Sharafi PhD), Infectious Disease Research Center (Prof K Ghadiri MD), 
+Pediatric Department (Prof K Ghadiri MD), Medical Biology Research 
+Center (F Heydarpour PhD), Health Institute (A Jalali PhD), Substance 
+Abuse Prevention Research Center (A Jalali PhD, B Mansouri PhD), 
+Department of Psychiatry (Prof H Khazaie MD), Department of 
+Rehabilitation and Sports Medicine (M Mirzaei MSc), Clinical Research 
+Development Center (M Naderi PhD), Department of Sports Medicine and 
+Rehabilitation (M Shamsi PhD), Department of Health Education and 
+Health Promotion (S Siabani PhD), Department of Vascular and 
+Endovascular Surgery (M Sobhiyeh MD), Kermanshah University of 
+Medical Sciences, Kermanshah, Iran; National Institute for Stroke and 
+Applied Neurosciences (Prof V L Feigin PhD, K M Jones PhD), Auckland 
+University of Technology, Auckland, New Zealand; Third Department of 
+Neurology (E V Gnedovskaya PhD), Research Center of Neurology, 
+Moscow, Russia (Prof V L Feigin PhD, Prof M A Piradov DSc); School of 
+Nursing (T Y Ferede MSc), Hawassa University, Hawassa, Ethiopia; 
+Division of Neurology (S Fereshtehnejad PhD), School of International 
+Development and Global Studies (Prof S Yaya PhD), University of Ottawa, 
+Ottawa, ON, Canada; Research Center on Public Health (P Ferrara MD), 
+University of Milan Bicocca, Monza, Italy; Psychiatry Department 
+(I Filip MD), Kaiser Permanente, Fontana, CA, USA; School of Health 
+Sciences (I Filip MD), AT Still University, Mesa, AZ, USA; Institute of 
+Gerontological Health Services and Nursing Research (F Fischer PhD), 
+Ravensburg-Weingarten University of Applied Sciences, Weingarten, 
+Germany; Institute of Gerontology (N A Foigt PhD), National Academy of 
+Medical Sciences of Ukraine, Kyiv, Ukraine; Department of Child Dental 
+Health (Prof M O Folayan FWACS), Obafemi Awolowo University, Ile-Ife, 
+Nigeria; Department of Cell Biology and Biotechnology 
+(A A Fomenkov PhD), KA Timiryazev Institute of Plant Physiology, 
+Moscow, Russia; Department of Medical Parasitology (M Foroutan PhD), 
+Abadan Faculty of Medical Sciences, Abadan, Iran; Department of 
+Dermatology (T Fukumoto PhD), Kobe University, Kobe, Japan; 
+Department of Cardiovascular Medicine (M M Gad MD), Lerner Research 
+Institute (X Liu PhD), Cleveland Clinic, Cleveland, OH, USA; Gillings 
+School of Global Public Health (M M Gad MD), University of North 
+Carolina Chapel Hill, Chapel Hill, NC, USA; Department of Community 
+Medicine (Prof A M Gaidhane MD, Prof Z Quazi Syed PhD, 
+Prof D Saxena PhD), Global Evidence Synthesis Initiative 
+(Prof M Khatib PhD), Datta Meghe Institute of Medical Sciences, Wardha, 
+India; International Trachoma Initiative (T Gebre PhD), Task Force for 
+Global Health, Decatur, GA, USA; Department of Nursing and Midwifery 
+(K B Gebremedhin MSc), Addis Ababa University, Addis Ababa, Ethiopia; 
+Department of Nursing (G G Gebremeskel MSc, T G Haile MSc), School 
+of Pharmacy (L Gebremeskel MSc), Aksum University, Aksum, Ethiopia; 
+College of Medicine and Public Health (H A Gesesew PhD), Flinders 
+University, Adelaide, SA, Australia; Faculty of Allied Health Sciences 
+(Prof S Gilani PhD), University Institute of Public Health (A Hanif PhD), 
+The University of Lahore, Lahore, Pakistan; Afro-Asian Institute, Lahore, 
+Pakistan (Prof S Gilani PhD); School of Public Health and Community 
+Medicine (M A Godinho MBBS), School of Psychiatry 
+(Prof P S Sachdev MD), University of New South Wales, Kensington, NSW, 
+Australia; Health Systems and Policy Research (M Golechha PhD), 
+Department of Epidemiology (Prof D Saxena PhD), Indian Institute of 
+Public Health, Gandhinagar, India; Australia India Institute New 
+Generation Network (S Goli PhD), UWA Public Policy Institute 
+(S Goli PhD), Medical School (Prof G J Hankey MD), University of 
+Western Australia, Perth, WA, Australia; Department of Exercise and 
+Health Sciences (P N Gona PhD), University of Massachusetts Boston, 
+Boston, MA, USA; Hudson College of Public Health (S V Gopalani MPH), 
+University of Oklahoma Health Sciences Center, Oklahoma City, OK, 
+USA; Department of Health and Social Affairs (S V Gopalani MPH), 
+Government of the Federated States of Micronesia, Palikir, Federated 
+States of Micronesia; Department of Public Health and Preventive 
+Medicine (Prof M Grivna PhD), Charles University, Prague, Czech 
+Republic; Department of Family and Community Medicine 
+(M I M Gubari PhD), University Of Sulaimani, Sulaimani, Iraq; 
+Department of Microbiology (Prof H C Gugnani PhD), Department of 
+Epidemiology (Prof H C Gugnani PhD), Saint James School of Medicine, 
+The Valley, Anguilla; Institute of Tropical Pathology and Public Health 
+(IPTSP) (R A Guimarães MSc), Federal University of Goias, Goiânia, 
+Brazil; Department of Epidemiology (Prof Y Guo PhD), Binzhou Medical 
+University, Yantai City, China; Department of Preventive Cardiology 
+(Prof R Gupta MD), Eternal Heart Care Centre & Research Institute, 
+Jaipur, India; Department of Medicine (Prof R Gupta MD), Mahatma 
+Gandhi University Medical Sciences, Jaipur, India; Department of Public 
+Health (J A Haagsma PhD), Erasmus University Medical Center, 
+Rotterdam, Netherlands; Department of Pharmacology 
+(A Haj-Mirzaian MD, K Ramezanzadeh PharmD), Obesity Research 
+Center (A Haj-Mirzaian MD), Department of Epidemiology 
+(S Sabour PhD), Injury Prevention and Safety Promotion Research Center 
+(T Yousefinezhadi PhD), Shahid Beheshti University of Medical Sciences, 
+Tehran, Iran (M Khayamzadeh MD); NYU Shanghai, Shanghai, China 
+(B J Hall PhD); Department of Family and Community Medicine 
+(Prof R R Hamadeh PhD), Arabian Gulf University, Manama, Bahrain; 
+College of Law and Political Science (K Hamagharib Abdullah PhD), 
+Diplomacy and Public Relations Department (A Omar Bali PhD), 
+University of Human Development, Sulaimaniyah, Iraq; School of Health 
+and Environmental Studies (Prof S Hamidi DrPH), Hamdan Bin 
+Mohammed Smart University, Dubai, United Arab Emirates; Department 
+of Public Health (D Handiso MPH), Wachemo University, Hossana, 
+Ethiopia; Department of Neurology (Prof G J Hankey MD), Sir Charles 
+Gairdner Hospital, Perth, WA, Australia; Research Unit (J M Haro MD), 
+University of Barcelona, Sant Boi de Llobregat, Barcelona, Spain; 
+Biomedical Research Networking Center for Mental Health Network 
+(CiberSAM), Barcelona, Spain (J M Haro MD); Department of Zoology 
+and Entomology (A I Hasaballah PhD), Al Azhar University, Cairo, Egypt; 
+Department of Public Health (A Hashi PhD, M O Omer MSc), Jigjiga 
+University, Jijiga, Ethiopia; Gastrointestinal and Liver Diseases Research 
+Center (S Hassanipour PhD, F Joukar PhD), Caspian Digestive Disease 
+Research Center (S Hassanipour PhD, F Joukar PhD), Guilan University 
+of Medical Sciences, Rasht, Iran; Independent Consultant, Tabriz, Iran 
+(H Hassankhani PhD, S N Irvani MD); Institute of Pharmaceutical 
+Sciences (K Hayat MS), University of Veterinary and Animal Sciences, 
+Lahore, Pakistan; Department of Pharmacy Administration and Clinical 
+Pharmacy (K Hayat MS), Xian Jiaotong University, Xian, China; School of 
+Business (Prof C Herteliu PhD), London South Bank University, London, 
+UK; Department of Pediatrics (M K Hole MD), University of Texas Austin, 
+Austin, TX, USA; Clinical Legal Medicine Department (S Hostiuc PhD), 
+National Institute of Legal Medicine Mina Minovici, Bucharest, Romania; 
+College of Science and Engineering (Prof M Househ PhD), Hamad Bin 
+Khalifa University, Doha, Qatar; Faculty of Medicine of Tunis 
+(Prof M Hsairi MPH), University Tunis El Manar, Tunis, Tunisia; School of 
+Public Health (T M Huda PhD), Sydney Medical School (S Islam PhD), 
+Asbestos Diseases Research Institute (J Leigh MD), University of Sydney, 
+Sydney, NSW, Australia; Maternal and Child Health Division 
+(T M Huda PhD, S Zaman MPH), International Centre for Diarrhoeal 
+Disease Research, Bangladesh, Dhaka, Bangladesh; Department of Public 
+Health and Community Medicine (Prof A Humayun PhD), Shaikh Khalifa 
+Bin Zayed Al-Nahyan Medical College, Lahore, Pakistan; School of 
+Pharmaceutical Sciences (R Hussain PhD), University of Science Malaysia, 
+Penang, Malaysia; Department of Occupational Safety and Health 
+(Prof B Hwang PhD), China Medical University, Taichung, Taiwan; 
+Department of Public Health (Prof I Iavicoli PhD, R Palladino MD), 
+University of Naples Federico II, Naples, Italy; Department of Health 
+
+Articles
+1612	
+www.thelancet.com   Vol 398   October 30, 2021
+Promotion and Education (S E Ibitoye MPH), Department of Community 
+Medicine (O S Ilesanmi PhD), Department of Obstetrics and Gynecology 
+(O B Oghenetega MSc), Department of Medicine 
+(Prof M O Owolabi DrM), University of Ibadan, Ibadan, Nigeria; Faculty of 
+Medicine (I M Ilic PhD, Prof M M Santric-Milicevic PhD), School of Public 
+Health and Health Management (Prof M M Santric-Milicevic PhD), 
+University of Belgrade, Belgrade, Serbia; Department of Epidemiology 
+(Prof M D Ilic PhD), Department of Global Health, Economics and Policy 
+(Prof M Jakovljevic PhD), University of Kragujevac, Kragujevac, Serbia; 
+Division of Community Health and Family Medicine (L R Inbaraj MD), 
+Bangalore Baptist Hospital, Bangalore, India; Department of Health 
+Science (N Intarut PhD), Mahasarakham University, Maha Sarakham, 
+Thailand; College of Public Health (U Iqbal PhD), Graduate Institute of 
+Biomedical Informatics (D N A Ningrum MPH), Taipei Medical 
+University, Taipei, Taiwan; Institute for Physical Activity and Nutrition 
+(S Islam PhD, Prof R Maddison PhD), Department of Psychology 
+(M A Stokes PhD), Deakin University, Burwood, VIC, Australia; Public 
+Health Department of Social Medicine (Prof H Iso MD), Graduate School 
+of Medicine (Prof K Yamagishi MD), Osaka University, Suita, Japan; 
+Institute of Comparative Economic Studies (Prof M Jakovljevic PhD), 
+Hosei University, Tokyo, Japan; Health Informatic Lab (T Javaheri PhD), 
+Department of Computer Science (R Rawassizadeh PhD), Boston 
+University, Boston, MA, USA; Achutha Menon Centre for Health Science 
+Studies (P Jeemon PhD), Sree Chitra Tirunal Institute for Medical 
+Sciences and Technology, Trivandrum, India; Autism Spectrum Disorders 
+Research Center (E Jenabi PhD), Department of Biostatistics 
+(N Kamyari MSc), Department of Midwifery (S Masoumi PhD), Research 
+Center for Molecular Medicine (A Taherkhani PhD), Hamadan University 
+of Medical Sciences, Hamadan, Iran; Department of Community Medicine 
+(R P Jha MSc), Dr Baba Saheb Ambedkar Medical College & Hospital, 
+Delhi, India; Department of Community Medicine (R P Jha MSc), Banaras 
+Hindu University, Varanasi, India; Research Division (P K Maulik PhD), 
+The George Institute for Global Health, New Delhi, India (Prof V Jha MD); 
+Environmental Research Center (J S Ji DSc), Global Health Research 
+Center (C Wu PhD), Duke Kunshan University, Kunshan, China; Nicholas 
+School of the Environment (J S Ji DSc), Duke Global Health Institute 
+(C Wu PhD), Duke University, Durham, NC, USA; Beijing Institute of 
+Ophthalmology (Prof J B Jonas MD), Beijing Tongren Hospital, Beijing, 
+China; Department of Family Medicine and Public Health 
+(J J Jozwiak PhD), University of Opole, Opole, Poland; Department of 
+Health Register Research and Development (Prof P B Juliusson PhD), 
+National Institute of Public Health, Bergen, Norway; Department of 
+Clinical Science (Prof P B Juliusson PhD), Department of Psychosocial 
+Science (Prof S Øverland PhD), University of Bergen, Bergen, Norway; 
+Institute of Family Medicine and Public Health (M Jürisson PhD), 
+University of Tartu, Tartu, Estonia; School of Public Health (Z Kabir PhD), 
+University College Cork, Cork, Ireland; University of Texas Health Science 
+Center, San Antonio, TX, USA (S Kaur MD); International Research 
+Center of Excellence (G A Kayode PhD), Institute of Human Virology 
+Nigeria, Abuja, Nigeria; Julius Centre for Health Sciences and Primary 
+Care (G A Kayode PhD), Utrecht University, Utrecht, Netherlands; Open, 
+Distance and eLearning Campus (Prof P N Keiyoro PhD), Department of 
+Psychiatry (M Kumar PhD), School of Economics (M K Muriithi PhD), 
+School of Public Health (R G Wamai PhD), University of Nairobi, Nairobi, 
+Kenya; School of Food and Agricultural Sciences (N Khalid PhD), 
+University of Management and Technology, Lahore, Pakistan; Health 
+Promotion Research Center (M Khammarnia PhD), Zahedan University of 
+Medical Sciences, Zahedan, Iran; Department of Population Science 
+(M Khan PhD), Jatiya Kabi Kazi Nazrul Islam University, Mymensingh, 
+Bangladesh; Faculty of Health and Wellbeing (K Khatab PhD), Sheffield 
+Hallam University, Sheffield, UK; College of Arts and Sciences 
+(K Khatab PhD), Ohio University, Zanesville, OH, USA; The Iranian 
+Academy of Medical Sciences, Tehran, Iran (M Khayamzadeh MD); 
+Department of Psychiatry (C Kieling MD), Federal University of Rio 
+Grande do Sul, Porto Alegre, Brazil; Division of Child & Adolescent 
+Psychiatry (C Kieling MD), Clinical Hospital, Porto Alegre, Brazil; Big Data 
+Department (Y Kim PhD), National Health Insurance Service, Wonju, 
+South Korea; School of Traditional Chinese Medicine (Y Kim PhD), 
+Xiamen University Malaysia, Sepang, Malaysia; Department of Nutrition 
+(R W Kimokoti MD), Simmons University, Boston, MA, USA; School of 
+Health Sciences (Prof A Kisa PhD), Kristiania University College, Oslo, 
+Norway; Department of Global Community Health and Behavioral 
+Sciences (Prof A Kisa PhD), Tulane University, New Orleans, LA, USA; 
+Department of Nursing and Health Promotion (S Kisa PhD), Oslo 
+Metropolitan University, Oslo, Norway; Department of Public Health 
+(Prof M Kivimäki PhD), University of Helsinki, Helsinki, Finland 
+(T J Meretoja MD); Independent Consultant, Jakarta, Indonesia 
+(S Kosen MD); CIBERSAM (A Koyanagi MD), San Juan de Dios Sanitary 
+Park, Sant Boi de Llobregat, Spain; Catalan Institution for Research and 
+Advanced Studies (ICREA), Barcelona, Spain (A Koyanagi MD); 
+Department of Anthropology (K Krishan PhD), Panjab University, 
+Chandigarh, India; University of Environment and Sustainable 
+Development, Somanya, Ghana (N Kugbey PhD); Faculty of Health and 
+Life Sciences (O P Kurmi PhD), Coventry University, Coventry, UK; 
+Department of Medicine (O P Kurmi PhD), Department of Psychiatry and 
+Behavioural Neurosciences (A T Olagunju MD), Population Health 
+Research Institute (T Sathish PhD), McMaster University, Hamilton, ON, 
+Canada; Faculty of Public Health (D Kusuma DSc), University of 
+Indonesia, Depok, Indonesia; National Institute for Health Research 
+(NIHR) Oxford Biomedical Research Centre, Oxford, UK (B Lacey PhD); 
+School of Dentistry (R Lalloo PhD), Queensland Brain Institute 
+(Prof J J McGrath MD), School of Health and Rehabilitation Sciences 
+(R Uddin PhD), The University of Queensland, Brisbane, QLD, Australia; 
+Division of Cancer Epidemiology and Genetics (Q Lan PhD), National 
+Cancer Institute, Rockville, MD, USA; Unit of Genetics and Public Health 
+(Prof I Landires MD), Unit of Microbiology and Public Health 
+(V Nuñez-Samudio PhD), Institute of Medical Sciences, Las Tablas, 
+Panama; Department of Public Health (V Nuñez-Samudio PhD), Ministry 
+of Health, Herrera, Panama (Prof I Landires MD); HelpMeSee, New York, 
+NY, USA (Prof V C Lansingh PhD); Mexican Institute of Ophthalmology, 
+Queretaro, Mexico (Prof V C Lansingh PhD); Department of Medical 
+Sciences (Prof A O Larsson PhD), Uppsala University, Uppsala, Sweden; 
+Department of Clinical Chemistry and Pharmacology 
+(Prof A O Larsson PhD), Uppsala University Hospital, Uppsala, Sweden; 
+Department of Otorhinolaryngology (S Lasrado MS), Father Muller 
+Medical College, Mangalore, India; Institute of Clinical Physiology 
+(P Lauriola MD), National Research Council, Pisa, Italy; School of 
+Pharmacy (S W H Lee PhD), Monash University, Bandar Sunway, 
+Malaysia; School of Pharmacy (S W H Lee PhD), Taylor’s University 
+Lakeside Campus, Subang Jaya, Malaysia; UO Neurologia, Salute Pubblica 
+e Disabilità (M Leonardi MD, A Raggi PhD, D Sattin PsyD, 
+S Schiavolin MSc), Fondazione IRCCS Istituto Neurologico Carlo Besta 
+(Neurology, Public Health and Disability Unit, Carlo Besta Neurological 
+Institute), Milan, Italy; Center for Youth Substance Abuse Research 
+(J Leung PhD), The University of Queensland, St Lucia, QLD, Australia; 
+Department of Prevention (M Levi PhD), USL Tuscany Center, Firenze, 
+Italy; Department of Health Sciences (M Levi PhD), University of Florence, 
+Florence, Italy; Oxford University Clinical Research Unit (S Lewycka PhD), 
+Wellcome Trust Asia Programme, Hanoi, Vietnam; Department of 
+Sociology (B Li PhD), Shenzhen University, Shenzhen, China; Department 
+of Health Promotion and Health Education (M Li PhD), National Taiwan 
+Normal University, Taipei, Taiwan; Department of Medicine 
+(L Lim MRCP), University of Malaya, Kuala Lumpur, Malaysia; 
+Department of Medicine and Therapeutics (L Lim MRCP), The Chinese 
+University of Hong Kong, Shatin, N.T., China; Institute of Nutritional 
+Sciences (Prof S Lorkowski PhD), Friedrich Schiller University Jena, Jena, 
+Germany; Competence Cluster for Nutrition and Cardiovascular Health 
+(nutriCARD), Jena, Germany (Prof S Lorkowski PhD); Department of 
+Medicine (Prof P A Lotufo DrPH), University of São Paulo, Sao Paulo, 
+Brazil; Department of General Surgery (Prof R Lunevicius DSc), Liverpool 
+University Hospitals NHS Foundation Trust, Liverpool, UK; Department 
+of Surgery (Prof R Lunevicius DSc), Institute of Population Health 
+Sciences (M R Mathur PhD), University of Liverpool, Liverpool, UK; 
+Grants, Innovation and Product Development Unit (P W Mahasha PhD), 
+Unit on Risk and Resilience in Mental Disorders (Prof D J Stein MD), 
+South African Medical Research Council, Cape Town, South Africa 
+(C A Nnaji MPH); Social Determinants of Health Research Center 
+(M M Mahdavi PhD), Saveh University of Medical Sciences, Saveh, Iran; 
+Radiology and Precision Health Program (M Mahmoudi PhD), Michigan 
+State University, East Lansing, MI, USA; Environmental Health Research 
+Center (Prof A Maleki PhD, S Mohammadi PhD), Social Determinants of 
+Health Research Center (G Moradi PhD), Department of Epidemiology 
+
+Articles
+www.thelancet.com   Vol 398   October 30, 2021	
+1613
+and Biostatistics (G Moradi PhD), Kurdistan University of Medical 
+Sciences, Sanandaj, Iran; Institute for Social Science Research 
+(A A Mamun PhD), The University of Queensland, Indooroopilly, QLD, 
+Australia; Department of Economics (Prof G Martinez PhD), Autonomous 
+Technology Institute of Mexico, Mexico City, Mexico; Psychiatry 
+Department (J Martinez-Raga PhD), Hospital Universitario Doctor Peset, 
+Valencia, Spain; Department of Medicine (J Martinez-Raga PhD, 
+Prof R Tabarés-Seisdedos PhD), University of Valencia, Valencia, Spain; 
+Campus Caucaia (F R Martins-Melo PhD), Federal Institute of Education, 
+Science and Technology of Ceará, Caucaia, Brazil; Department of Health 
+Sciences (A J Mason-Jones PhD), University of York, York, UK; National 
+Centre for Register-based Research (Prof J J McGrath MD), Aarhus 
+University, Aarhus, Denmark; Neurology Department 
+(Prof M Mehndiratta MD), Janakpuri Super Specialty Hospital Society, 
+New Delhi, India; Department of Neurology (Prof M Mehndiratta MD), 
+Govind Ballabh Institute of Medical Education and Research, New Delhi, 
+India; Nutrition Health Research Center (F Mehri PhD), Iran University of 
+Medical Sciences, Hamadan, Iran; Institute of Human Virology 
+(P T N Memiah DrPH), University of Maryland, Baltimore, MD, USA; 
+Peru Country Office (W Mendoza MD), United Nations Population Fund 
+(UNFPA), Lima, Peru; Neurology Unit (A Meretoja MD), Breast Surgery 
+Unit (T J Meretoja MD), Helsinki University Hospital, Helsinki, Finland; 
+Clinical Microbiology and Parasitology Unit (T Mestrovic PhD), 
+Dr Zora Profozic Polyclinic, Zagreb, Croatia; University Centre Varazdin 
+(T Mestrovic PhD), University North, Varazdin, Croatia; Center for 
+Innovation in Medical Education (B Miazgowski MD), Department of 
+Propedeutics of Internal Diseases & Arterial Hypertension 
+(Prof T Miazgowski MD), Pomeranian Medical University, Szczecin, 
+Poland (B Miazgowski MD); Woman-Mother-Child Department 
+(I Michalek PhD), Lausanne University Hospital, Lausanne, Switzerland; 
+Pacific Institute for Research & Evaluation, Calverton, MD, USA 
+(T R Miller PhD); Global Institute of Public Health (Prof G Mini PhD), 
+Ananthapuri Hospitals and Research Institute, Trivandrum, India; 
+Women’s Social and Health Studies Foundation, Trivandrum, India 
+(Prof G Mini PhD); Internal Medicine Programme 
+(Prof E M Mirrakhimov PhD), Kyrgyz State Medical Academy, Bishkek, 
+Kyrgyzstan; Department of Atherosclerosis and Coronary Heart Disease 
+(Prof E M Mirrakhimov PhD), National Center of Cardiology and Internal 
+Disease, Bishkek, Kyrgyzstan; Research Center for Biochemistry and 
+Nutrition in Metabolic Diseases (H Mirzaei PhD), Kashan University of 
+Medical Sciences, Kashan, Iran; Institute of Addiction Research (ISFF) 
+(B Moazen MSc), Frankfurt University of Applied Sciences, Frankfurt, 
+Germany; Department of Forestry (D K Mohammad PhD), Salahaddin 
+University-Erbil, Erbil, Iraq; Research Institute for Health Development 
+(S Mohammadi PhD), Kurdistan University of Medical Sciences, Sanandaj 
+City, Iran; Department of Epidemiology and Biostatistics 
+(A Mohammadian-Hafshejani PhD), Shahrekord University of Medical 
+Sciences, Shahrekord, Iran; Department of Nursing 
+(R Mohammadpourhodki PhD), Applied Biomedical Research Center 
+(A Sahebkar PhD), Biotechnology Research Center (A Sahebkar PhD), 
+Mashhad University of Medical Sciences, Mashhad, Iran; Health Systems 
+and Policy Research Unit (S Mohammed PhD), Ahmadu Bello University, 
+Zaria, Nigeria; Department of Health Care Management 
+(S Mohammed PhD), Technical University of Berlin, Berlin, Germany; 
+Clinical Epidemiology and Public Health Research Unit (L Monasta DSc, 
+L Ronfani PhD), Burlo Garofolo Institute for Maternal and Child Health, 
+Trieste, Italy; Computer, Electrical, and Mathematical Sciences and 
+Engineering Division (P Moraga PhD), King Abdullah University of 
+Science and Technology, Thuwal, Saudi Arabia; Section of Plastic Surgery 
+(S D Morrison MD), University of Michigan School of Medicine, Ann 
+Arbor, MI, USA; Department of Food Science 
+(Prof A Mousavi Khaneghah PhD), University of Campinas (Unicamp), 
+Campinas, Brazil; Competence Center of Mortality-Follow-Up of the 
+German National Cohort (R Westerman DSc), Federal Institute for 
+Population Research, Wiesbaden, Germany (Prof U O Mueller MD); 
+Center for Population and Health, Wiesbaden, Germany 
+(Prof U O Mueller MD); Saveetha Dental College (S Muthupandian PhD), 
+Saveetha Institute of Medical and Technical Sciences (SIMATS), Chennai, 
+India; Research and Analytics Department (A J Nagarajan M.Tech), 
+Initiative for Financing Health and Human Development, Chennai, India; 
+Department of Research and Analytics (A J Nagarajan M.Tech), Bioinsilico 
+Technologies, Chennai, India; Laboratory of Public Health Indicators 
+Analysis and Health Digitalization (M Naimzada MD, N Otstavnov BA, 
+S S Otstavnov PhD), Moscow Institute of Physics and Technology, 
+Dolgoprudny, Russia; Experimental Surgery and Oncology Laboratory 
+(M Naimzada MD), Kursk State Medical University, Kursk, Russia; Suraj 
+Eye Institute, Nagpur, India (V Nangia MD); Department of Disease 
+Control and Environmental Health (R Ndejjo MSc), Makerere University, 
+Kampala, Uganda; Department of General Surgery (I Negoi PhD), 
+Emergency Hospital of Bucharest, Bucharest, Romania; Cardio-Aid, 
+Bucharest, Romania (R I Negoi PhD); College of Medicine and Health 
+Sciences (H B Netsere MS), Bahir Dar University, Gondar, Ethiopia; 
+Department of Public Health (G Nguefack-Tsague PhD), Department of 
+Internal Medicine and Specialties (Prof E Sobngwi PhD), University of 
+Yaoundé I, Yaoundé, Cameroon; Institute for Global Health Innovations 
+(D N Nguyen MA), Faculty of Pharmacy (D N Nguyen MA), Duy Tan 
+University, Da Nang, Vietnam; Institute for Global Health Innovations 
+(H L T Nguyen MPH, H Q Pham MD), Duy Tan University, Hanoi, 
+Vietnam; Department of Sociology & Institute for Empirical Social Science 
+Research (J Nie PhD), Xi’an Jiaotong University, Xi’an, China; Public 
+Health Department (D N A Ningrum MPH), Universitas Negeri Semarang 
+(State University of Semarang), Kota Semarang, Indonesia; School of 
+Public Health and Family Medicine (C A Nnaji MPH), University of Cape 
+Town, Cape Town, South Africa; Department of Health Policy and 
+Management (S Nomura PhD), Keio University, Tokyo, Japan; Department 
+of Global Health Policy (S Nomura PhD), University of Tokyo, Tokyo, 
+Japan; Department of Neurobiology, Care Sciences and Society 
+(C Nowak PhD), Karolinska Institute, Huddinge, Sweden; Department of 
+Preventive Medicine (I Oh PhD), Kyung Hee University, Dongdaemun-gu, 
+South Korea; Gorgan Congenital Malformations Research Center 
+(M Oladnabi PhD), Golestan University of Medical Sciences, Gorgan, Iran; 
+Department of Psychiatry (A T Olagunju MD), University of Lagos, Lagos, 
+Nigeria; Centre for Healthy Start Initiative, Lagos, Nigeria 
+(B O Olusanya PhD, J O Olusanya MBA); Department of Pharmacology 
+and Therapeutics (Prof O E Onwujekwe PhD), University of Nigeria 
+Nsukka, Enugu, Nigeria; Department of Medicine (Prof A Ortiz MD), 
+Autonomous University of Madrid, Madrid, Spain; Department of 
+Nephrology and Hypertension (Prof A Ortiz MD), The Institute for Health 
+Research Foundation Jiménez Díaz University Hospital, Madrid, Spain; 
+Department of Project Management (S S Otstavnov PhD), Department of 
+Health Care Administration and Economics (Prof V Vlassov MD), National 
+Research University Higher School of Economics, Moscow, Russia; 
+Division of Mental and Physical Health (Prof S Øverland PhD), Norwegian 
+Institute of Public Health, Bergen, Norway; Department of Respiratory 
+Medicine (Prof M P A DNB), Jagadguru Sri Shivarathreeswara Academy of 
+Health Education and Research, Mysore, India; Department of Health 
+Metrics (A Pana MD), Center for Health Outcomes & Evaluation, 
+Bucharest, Romania; Department of Medical Humanities and Social 
+Medicine (Prof E Park PhD), Kosin University, Busan, South Korea; 
+Community Health Sciences (Prof S B Patten PhD), Department of 
+Medicine (Prof M Tonelli MD), University of Calgary, Calgary, AB, Canada; 
+School of Public Health, Medical, and Veterinary Sciences 
+(A E Peden PhD), James Cook University, Townsville, NSW, Australia; 
+Center for Research and Innovation (V F Pepito MSc), Ateneo De Manila 
+University, Pasig City, Philippines; School of Global Public Health 
+(E K Peprah PhD), New York University, New York, NY, USA; Department 
+of Orthopedics (J Pereira MS), Yenepoya Medical College, Mangalore, 
+India; Shanghai Mental Health Center (Prof M R Phillips MD), Shanghai 
+Jiao Tong University, Shanghai, China; University Medical Center 
+Groningen (Prof M J Postma PhD), School of Economics and Business 
+(Prof M J Postma PhD), University of Groningen, Groningen, 
+Netherlands; Dietary Supplements and Probiotic Research Center 
+(H Pourjafar PhD), Alborz University of Medical Sciences, Karaj, Iran; 
+Centro de Investigaciones Clinicas (Clinical Research Center) 
+(S I Prada PhD), Fundación Valle del Lili (Valle del Lili Foundation), Cali, 
+Colombia; Centro PROESA (PROESA Center) (S I Prada PhD), Centro de 
+Investigaciones en Anomalías Congénitas y Enfermedades Raras 
+(Center for Research in Congenital Anomalies and Rare Diseases) 
+(E Rubagotti PhD), Universidad ICESI (ICESI University), Cali, Colombia; 
+Department of Epidemiology (M Rabiee PhD), University of Tehran, 
+Tehran, Iran; Department of Chemistry (N Rabiee MSc), Sharif University 
+of Technology, Tehran, Iran; College of Medicine (A Radfar MD), 
+
+Articles
+1614	
+www.thelancet.com   Vol 398   October 30, 2021
+University of Central Florida, Orlando, FL, USA; Department of Medicine 
+(A Rafiee MSc), University of Alberta, Edmonton, AB, Canada; 
+Thalassemia and Hemoglobinopathy Research Center (F Rahim PhD), 
+Ahvaz Jundishapur University of Medical Sciences, Ahvaz, Iran; 
+Department of Community Medicine (M Rahman PhD), Maharishi 
+Markandeshwar Medical College & Hospital, Solan, India; School of 
+Nursing and Healthcare Professions (M Rahman PhD), Federation 
+University Australia, Berwick, VIC, Australia; Research Department 
+(C L Ranabhat PhD), Policy Research Institute, Kathmandu, Nepal; Health 
+and Public Policy Department (C L Ranabhat PhD), Global Center for 
+Research and Development, Kathmandu, Nepal; Department of Oral 
+Pathology (S Rao MDS), Srinivas Institute of Dental Sciences, Mangalore, 
+India; University College London Hospitals, London, UK (D L Rawaf MD); 
+Academic Public Health England (Prof S Rawaf MD), Public Health 
+England, London, UK; School of Health, Medical and Applied Sciences 
+(L Rawal PhD), CQ University, Sydney, NSW, Australia; School of Medicine 
+(Prof A M N Renzaho PhD), Translational Health Research Institute 
+(Prof A M N Renzaho PhD), Western Sydney University, Campbelltown, 
+NSW, Australia; Network of Immunity in Infection, Malignancy and 
+Autoimmunity (NIIMA) (Prof N Rezaei PhD), Universal Scientific 
+Education and Research Network (USERN), Tehran, Iran; Department of 
+Surgery (J Rickard MD), University of Minnesota, Minneapolis, MN, USA; 
+Department of Surgery (J Rickard MD), University Teaching Hospital of 
+Kigali, Kigali, Rwanda; Department of Clinical Research (L Roever PhD), 
+Federal University of Uberlândia, Uberlândia, Brazil; African Genome 
+Center (E Rubagotti PhD), Mohammed VI Polytechnic University (UM6P), 
+Ben Guerir, Morocco; Malaria Atlas Project (S F Rumisha PhD), Telethon 
+Kids Institute, Perth, Australia; Department of Health Statistics 
+(S F Rumisha PhD), National Institute for Medical Research, Dar es 
+Salaam, Tanzania; Department of Internal Medicine (G M Rwegerera MD), 
+University of Botswana, Gaborone, Botswana; Neuropsychiatric Institute 
+(Prof P S Sachdev MD), Prince of Wales Hospital, Randwick, NSW, 
+Australia; Department of Psychiatry (Prof R Sagar MD), All India Institute 
+of Medical Sciences, New Delhi, India; Department of Phytochemistry 
+(Prof S Sajadi PhD), Soran University, Soran, Iraq; Department of 
+Nutrition (Prof S Sajadi PhD), Cihan University-Erbil, Erbil, Iraq; Public 
+Health and Community Medicine Department (M R Salem MD), Cairo 
+University, Giza, Egypt; Department of Surgery (Prof J Sanabria MD), 
+Marshall University, Huntington, WV, USA; Department of Community 
+Medicine (S Y Saraswathy PhD), PSG Institute of Medical Sciences and 
+Research, Coimbatore, India; PSG-FAIMER South Asia Regional Institute, 
+Coimbatore, India (S Y Saraswathy PhD); School of Population and Public 
+Health (Prof N Sarrafzadegan MD), University of British Columbia, 
+Vancouver, BC, Canada; Department of Psychology (D C Schwebel PhD), 
+School of Medicine (Prof J A Singh MD), University of Alabama at 
+Birmingham, Birmingham, AL, USA; Oral Diagnosis, Digital Health and 
+Health Services Research (Prof F Schwendicke PhD), Charité University 
+Medical Center Berlin, Berlin, Germany; Emergency Department 
+(S Senthilkumaran MD), Manian Medical Centre, Erode, India; Center for 
+Biomedical Information Technology (F Sha PhD), Shenzhen Institutes of 
+Advanced Technology, Shenzhen, China; Public Health Division 
+(A A Shaheen PhD), An-Najah National University, Nablus, Palestine; 
+Independent Consultant, Karachi, Pakistan (M A Shaikh MD); 
+Department of Community Medicine (M Shannawaz PhD), BLDE 
+University, Vijayapur, India; Centre for Medical Informatics 
+(Prof A Sheikh MD), University of Edinburgh, Edinburgh, UK; Friedman 
+School of Nutrition Science and Policy (P Shi PhD), Tufts University, 
+Boston, MA, USA; National Institute of Infectious Diseases, Tokyo, Japan 
+(M Shigematsu PhD); College of Medicine (Prof J Shin MD), Yonsei 
+University, Seoul, South Korea; Finnish Institute of Occupational Health, 
+Helsinki, Finland (R Shiri PhD); School of Public Health (K Shuval PhD), 
+University of Haifa, Haifa, Israel; The Cooper Institute, Dallas, TX, USA 
+(K Shuval PhD); School of Health (S Siabani PhD), University of 
+Technology Sydney, Sydney, NSW, Australia; Department of Psychology 
+(Prof I D Sigfusdottir PhD, R Sigurvinsdottir PhD), Reykjavik University, 
+Reykjavik, Iceland; Department of Physical Education 
+(Prof D A S Silva PhD), Federal University of Santa Catarina, Florianópolis, 
+Brazil; Department of Law, Economics, Management and Quantitative 
+Methods (Prof B Simonetti PhD), University of Sannio, Benevento, Italy; 
+WSB University in Gdańsk, Gdańsk, Poland (Prof B Simonetti PhD); 
+Medicine Service (Prof J A Singh MD), US Department of Veterans Affairs 
+(VA), Birmingham, AL, USA; Department of Pulmonary Medicine 
+(Prof V Singh MD), Asthma Bhawan, Jaipur, India; Program Services Unit 
+(A H Sinke MD), Pathfinder International, Addis Ababa, Ethiopia; 
+Department No16 (V Y Skryabin MD), Laboratory of Genetics and 
+Genomics (Prof M S Zastrozhin PhD), Moscow Research and Practical 
+Centre on Addictions, Moscow, Russia; Institute of Bone and Joint 
+Research (IBJR) (E U R Smith PhD), University of Sydney, St Leonards, 
+NSW, Australia; Australian New Zealand Clinical Trials Registry 
+(ANZCTR), NHMRC Clinical Trials Centre (E U R Smith PhD), University 
+of Sydney, Camperdown, NSW, Australia; Department of Endocrinology 
+and Diabetes (Prof E Sobngwi PhD), Yaoundé Central Hospital, Yaoundé, 
+Cameroon; Nursing Care Research Center (A Soheili PhD), Semnan 
+University of Medical Sciences, Semnan, Iran; Demography and 
+Population Studies Department (O D Somefun PhD), University of 
+Witwatersrand, Johannesburg, South Africa; Hull York Medical School 
+(I N Soyiri PhD), University of Hull, Hull City, UK; Division of 
+Community Medicine (C T Sreeramareddy MD), International Medical 
+University, Kuala Lumpur, Malaysia; Department of Nursing 
+(A Sudaryanto MPH), Muhammadiyah University of Surakarta, Surakarta, 
+Indonesia; Pediatric Services (I Sultan MD), King Hussein Cancer Center, 
+Amman, Jordan; Pediatrics (I Sultan MD), University of Jordan, Amman, 
+Jordan; Carlos III Health Institute (Prof R Tabarés-Seisdedos PhD), 
+Biomedical Research Networking Center for Mental Health Network 
+(CiberSAM), Madrid, Spain; Cancer Control Center (T Tabuchi MD), 
+Osaka International Cancer Institute, Osaka, Japan; School of Dentistry 
+and Oral Health (S K Tadakamadla PhD), Griffith University, Gold Coast, 
+QLD, Australia; Department of Population Science and Human Resource 
+Development (Prof M I Tareque PhD), University of Rajshahi, Rajshahi, 
+Bangladesh; Department of Public Health and Community Medicine 
+(Prof K R Thankappan MD), Central University of Kerala, Kasaragod, 
+India; KA Timiryazev Institute of Plant Physiology (M V Titova PhD), 
+Russian Academy of Sciences, Moscow, Russia; Laboratory of Public 
+Health Indicators Analysis and Health Digitalization (M V Titova PhD), 
+Moscow Institute of Physics and Technology, Moscow, Russia; Department 
+of Pathology and Legal Medicine (M R Tovani-Palone PhD), University of 
+São Paulo, Ribeirão Preto, Brazil; Modestum LTD, London, UK 
+(M R Tovani-Palone PhD); Department of Health Economics 
+(B X Tran PhD), Hanoi Medical University, Hanoi, Vietnam; Mbarara 
+University of Science and Technology, Mbarara, Uganda (A C Tsai MD); 
+Department of Medicine (Prof A Tsatsakis DSc), University of Crete, 
+Heraklion, Greece; Lee Kong Chian School of Medicine (L Tudor Car PhD), 
+Nanyang Technological University, Singapore, Singapore; Institute for 
+Physical Activity and Nutrition (R Uddin PhD), Deakin University, 
+Melbourne, VIC, Australia; Department of Cardiovascular, Endocrine-
+metabolic Diseases and Aging (B Unim PhD), National Institute of Health, 
+Rome, Italy; Amity Institute of Biotechnology (E Upadhyay PhD), Amity 
+University Rajasthan, Jaipur, India; Clinical Cancer Research Center 
+(S Valadan Tahbaz PhD, S Yahyazadeh Jabbari MD), Milad General 
+Hospital, Tehran, Iran; Velez Sarsfield Hospital, Buenos Aires, 
+Argentina (Prof P R Valdez MEd); UKK Institute, Tampere, Finland 
+(Prof T J Vasankari MD); Raffles Neuroscience Centre 
+(Prof N Venketasubramanian MBBS), Raffles Hospital, Singapore, 
+Singapore; Yong Loo Lin School of Medicine 
+(Prof N Venketasubramanian MBBS), National University of Singapore, 
+Singapore, Singapore; School of Mathematics and Statistics 
+(Prof P J Villeneuve PhD), Carleton University, Ottawa, ON, Canada; 
+Department of Medical and Surgical Sciences (Prof F S Violante MD), 
+University of Bologna, Bologna, Italy; Occupational Health Unit 
+(Prof F S Violante MD), Sant’Orsola Malpighi Hospital, Bologna, Italy; 
+Center of Excellence in Behavioral Medicine (G T Vu BA), Nguyen Tat 
+Thanh University, Ho Chi Minh City, Vietnam; Foundation University 
+Medical College (Prof Y Waheed PhD), Foundation University Islamabad, 
+Islamabad, Pakistan; Cultures, Societies and Global Studies, & Integrated 
+Initiative for Global Health (R G Wamai PhD), Northeastern University, 
+Boston, MA, USA; Department of Epidemiology and Biostatistics 
+(Y Wang BSA, Prof C Yu PhD), School of Medicine (Z Zhang PhD), School 
+of Health Sciences (X G Zhao PhD), Wuhan University, Wuhan, China; 
+School of Population Health and Environmental Sciences (Y Wang PhD), 
+King’s College London, London, UK; Department of Community Medicine 
+(N D Wickramasinghe MD), Rajarata University of Sri Lanka, 
+Anuradhapura, Sri Lanka; Department of Orthopaedics (Prof A Wu MD), 
+
+Articles
+www.thelancet.com   Vol 398   October 30, 2021	
+1615
+Wenzhou Medical University, Wenzhou, China; Research and 
+Development Center for Health Services (Prof K Yamagishi MD), 
+University of Tsukuba, Tsukuba, Japan; Department of Family Medicine 
+and Community Health (Y Yano MD), Duke University, Durham, IL, USA; 
+Health Services Management Research Center (V Yazdi-Feyzabadi PhD), 
+Department of Health Management, Policy, and Economics 
+(V Yazdi-Feyzabadi PhD), Kerman University of Medical Sciences, 
+Kerman, Iran; Department of Neuropsychopharmacology 
+(N Yonemoto MPH), National Center of Neurology and Psychiatry, 
+Kodaira, Japan; Department of Public Health (N Yonemoto MPH), 
+Juntendo University, Tokyo, Japan; Department of Preventive Medicine 
+(Prof S Yoon PhD), Korea University, Seoul, South Korea; Department of 
+Health Policy and Management (Prof M Z Younis PhD), Jackson State 
+University, Jackson, MS, USA; School of Medicine (Prof M Z Younis PhD), 
+Tsinghua University, Beijing, China; School of Public Health and 
+Management (Y Yu MS), Hubei University of Medicine, Shiyan, China; 
+Cancer Institute (D Yuce MD), Hacettepe University, Ankara, Turkey; 
+Department of Pharmaceutics (S Zaidi PhD), Dow University of Health 
+Sciences, Karachi, Pakistan; Department of Environmental Health 
+Engineering (A Zarei PhD), Gonabad University of Medical Sciences, 
+Gonabad, Iran; Addictology Department (Prof M S Zastrozhin PhD), 
+Russian Medical Academy of Continuous Professional Education, Moscow, 
+Russia; School of Public Health (Y Zhang PhD), Hubei Province Key 
+Laboratory of Occupational Hazard Identification and Control 
+(Y Zhang PhD), Wuhan University of Science and Technology, Wuhan, 
+China; School of Biology and Pharmaceutical Engineering 
+(X G Zhao PhD), Wuhan Polytechnic University, Wuhan, China; 
+Department of Epidemiology, Human Genetics, and Environmental 
+Sciences (C Zhu MPH), University of Texas Health Science Center at 
+Houston, Houston, TX, USA.
+Contributors
+Joseph L Ward, Peter S Azzopardi, Russell M Viner, and George C Patton 
+conceptualised the paper. Joseph L Ward downloaded the data and 
+created the tables and visualisations. Joseph L Ward, Peter S Azzopardi, 
+Russell M Viner, and George C Patton wrote the first draft. All other 
+authors provided data, developed models, reviewed results, provided 
+guidance on methods, or reviewed and contributed to the manuscript. 
+All authors approved the final version of the manuscript.
+Declaration of interests
+R Ancuceanu reports consulting fees from AbbVie and AstraZeneca; 
+payment or honoraria for lectures, presentations, speaker’s bureaus, 
+manuscript writing or educational events from Sandoz, AbbVie, and 
+B Braun; and support for attending meetings and/or travel from AbbVie 
+and AstraZeneca, all outside the submitted work. J Ärnlöv reports 
+payment or honoraria for lectures, presentations, speaker’s bureaus, 
+manuscript writing or educational events from AstraZeneca and 
+Novartis; and payment for expert testimony from AstraZeneca and 
+Boehringer Ingelheim, all outside the submitted work. M Ausloos 
+reports grants or contracts from Romanian National Authority for 
+Scientific Research and Innovation, CNDS-UEFISCDI, project number 
+PN-III-P4-ID-PCCF-2016-0084, outside the submitted work. 
+T Bärnighausen reports research grants from the European Union 
+(Horizon 2020 and EIT Health), German Research Foundation (DFG), 
+US National Institutes of Health, German Ministry of Education and 
+Research, Alexander von Humboldt Foundation, Else-Kröner-Fresenius-
+Foundation, Wellcome Trust, Bill & Melinda Gates Foundation, KfW, 
+UNAIDS, and WHO; consulting fees for KfW on the OSCAR initiative 
+in Vietnam; and participation on a Data Safety Monitoring Board or 
+Advisory Board through the NIH-funded study “Healthy Options” (PIs: 
+Smith Fawzi, Kaaya), Chair, Data Safety and Monitoring Board (DSMB), 
+German National Committee on the “Future of Public Health Research 
+and Education”, Chair of the scientific advisory board to the EDCTP 
+Evaluation, Member of the UNAIDS Evaluation Expert Advisory 
+Committee, National Institutes of Health Study Section Member on 
+Population and Public Health Approaches to HIV/AIDS (PPAH), 
+US National Academies of Sciences, Engineering, and Medicine’s 
+Committee for the “Evaluation of Human Resources for Health in the 
+Republic of Rwanda under the President’s Emergency Plan for AIDS 
+Relief (PEPFAR)”, University of Pennsylvania (UPenn) Population Aging 
+Research Center (PARC) External Advisory Board Member; and 
+Leadership or fiduciary role in other board, society, committee or 
+advocacy group, paid or unpaid as Co-chair of the Global Health Hub 
+Germany (which was initiated by the German Ministry of Health), 
+all outside the submitted work. M Bell reports research funding and 
+payments to institution from Wellcome Trust, NIH, Yale Climate 
+Change and Health Center, Robert Wood Johnson Foundation, Yale 
+Women Faculty Forum, EPA, and High Tide Foundation; honorarium 
+for proposal review from NIH and Johns Hopkins University; 
+honorarium from mentoring program from University of Montana; 
+and travel expenses to give seminars from University of Illinois at 
+Champaign, Johns Hopkins University, Ohio State University, Royal 
+Society London, Atmospheric Chemistry Gordon Research Conference, 
+New York School of Medicine, and Global Research Laboratory (Seoul), 
+Seoul National University, all outside the submitted work. Z Bhutta 
+reports grants or contracts from the Bill & Melinda Gates foundation, 
+outside the submitted work. I Filip reports financial support from 
+Avicenna Medical and Clinical Research Institute, outside the submitted 
+work. B Hall reports stocks that are unrelated to the paper, outside the 
+submitted work. G Hankey reports consulting fees from Bayer for stroke 
+prevention advisory boards; payment or honoraria for lectures, 
+presentations, speakers bureaus, manuscript writing or educational 
+events from the American Heart Association, Medscape, and Bristol 
+Myers Squibb; and participation on a Data Safety Monitoring Board or 
+Advisory Board with AC Immune, all outside the submitted work. 
+C Herteliu reports grants or contracts from Romanian National 
+Authority for Scientific Research and Innovation, CNDS-UEFISCDI, 
+project number PN-III-P4-ID-PCCF-2016-0084, research grant 
+(Oct 2018–Sept 2022) “Understanding and modelling time-space 
+patterns of psychology-related inequalities and polarization”, and project 
+number PN-III-P2-2.1-SOL-2020-2-0351, research grant 
+(June 2021–Oct 2021) “Approaches within public health management in 
+the context of COVID-19 pandemic”, and from the Ministry of Labour 
+and Social Justice Romania, project number 30/PSCD/2018, research 
+grant (Sept 2018–June 2019) “Agenda for skills Romania 2020–2025”, all 
+outside the submitted work. S Islam reports grants or contracts from 
+NHMRC and National Heart Foundation of Australia Fellowships, 
+outside the submitted work. R Ivers reports support for the present 
+manuscript from the National Health and Medical Research Council of 
+NSW through salary funding via a senior research fellowship. V Jha 
+reports grants or contracts from GSK, Baxter Healthcare, and 
+AstraZeneca, outside the submitted work. J Jozwiak reports payment or 
+honoraria for lectures, presentations, speaker’s bureaus, manuscript 
+writing or educational events from Teva, Amgen, Synexus, Boehringer 
+Ingelheim, ALAB Laboratories, and Zentiva, all outside the submitted 
+work. C Kieling reports grants or contracts from MQ: Transforming 
+Mental Health, UK Academy of Medical Sciences, UK Royal Academy of 
+Engineering, and US National Institute of Mental Health; and royalties 
+or licences from Manole, outside the submitted work. K Krishan reports 
+non-financial support from UGC Centre of Advanced Study, CAS II, 
+Department of Anthropology, Panjab University, Chandigarh, India, 
+outside the submitted work. S Lorkowski reports grants or contracts 
+from Akcea Therapeutics Germany; consulting fees from Danone, 
+Swedish Orphan Biovitrum (SOBI), and Upfield; payment or honoraria 
+for lectures, presentations, speaker’s bureaus, manuscript writing or 
+educational events from Akcea Therapeutics Germany, AMARIN 
+Germany, Amedes Holding, AMGEN, Berlin-Chemie, Boehringer 
+Ingelheim Pharma, Daiichi Sankyo Deutschland, Danone, Hubert Burda 
+Media Holding, Lilly Deutschland, Novo Nordisk Pharma, Roche 
+Pharma, Sanofi-Aventis, SYNLAB Holding Deutschland & SYNLAB 
+Akademie; participation on a Data Safety Monitoring Board or Advisory 
+Board with Akcea Therapeutics Germany, AMGEN, Daiichi Sankyo 
+Deutschland, and Sanofi-Aventis, all outside the submitted work. 
+R Maddison reports grants or contracts from NHMRC Ideas Grant and 
+National Heart Foundation of Australia Vanguard Grant, outside the 
+submitted work. M Mahmoudi reports placement as a co-founder and 
+director of the Academic Parity Movement, a non-profit organisation 
+dedicated to addressing academic discrimination, violence and incivility; 
+and receives royalties/honoraria for his published books, plenary 
+lectures, and licensed patents, outside the submitted work. S Nomura 
+reports grant support for the present manuscript from the Ministry of 
+Education, Culture, Sports, Science and Technology (MEXT). C Nowak 
+
+Articles
+1616	
+www.thelancet.com   Vol 398   October 30, 2021
+reports employment with Diamyd Medical AB (Stockholm, Sweden) 
+which develops a treatment for type 1 diabetes, outside the submitted 
+work. A Ortiz reports grants or contracts from Sanofi, Mundipharma, 
+and AstraZeneca; and payment or honoraria for lectures, presentations, 
+speakers bureaus, manuscript writing or educational events from 
+Astellas, Astrazeneca, Amicus, Amgen, Fresenius Medical Care, Bayer, 
+Sanofi-Genzyme, Menarini, Kyowa Kirin, Alexion, Otsuka and Vifor 
+Fresenius Medical Care Renal Pharma. C Panelo reports grants or 
+contracts from USAID Philippines as Chief of Party of USAID’s 
+ProtectHealth, a financing policy support project assisting the Philippine 
+Government in implementing universal health care with focus on 
+tuberculosis, family planning and HIV, outside the submitted work. 
+M Postma reports leadership or fiduciary role in other board, society, 
+committee or advocacy group, unpaid as member of UK’s JCVI. A 
+Radfar reports financial support from Avicenna Medical and Clinical 
+Research Institute. P Sachdev reports an investigator grant from the 
+National Health and Medical Research Council of Australia, paid to the 
+University; participation on a Data Safety Monitoring Board or Advisory 
+Board with the Advisory Committee for Biogen Australia; and leadership 
+or fiduciary role in other board, society, committee or advocacy group, 
+paid or unpaid as honorary director of International Neuropsychiatric 
+Association and executive member of VASCOG; outside the submitted 
+work. J Singh reports consulting fees from Crealta/Horizon, Medisys, 
+Fidia, Two labs Inc, Adept Field Solutions, Clinical Care options, 
+Clearview healthcare partners, Putnam associates, Focus forward, 
+Navigant consulting, Spherix, MedIQ, UBM LLC, Trio Health, 
+Medscape, WebMD, and Practice Point communications; and the 
+National Institutes of Health and the American College of 
+Rheumatology; payment or honoraria for lectures, presentations, 
+speakers bureaus, manuscript writing or educational events from Simply 
+Speaking; support for attending meetings and/or travel from 
+OMERACT, an international organisation that develops measures for 
+clinical trials and receives arm’s length funding from 12 pharmaceutical 
+companies, when traveling bi-annually to OMERACT meetings; 
+participation on a Data Safety Monitoring Board or Advisory Board as a 
+member of the FDA Arthritis Advisory Committee; leadership or 
+fiduciary role in other board, society, committee or advocacy group, paid 
+or unpaid, with OMERACT as a member of the steering committee, with 
+the Veterans Affairs Rheumatology Field Advisory Committee as a 
+member, and with the UAB Cochrane Musculoskeletal Group Satellite 
+Center on Network Meta-analysis as a director and editor; and stock or 
+stock options in TPT Global Tech, Vaxart pharmaceuticals, Charlotte’s 
+Web Holdings Inc and previously owned stock options in Amarin, 
+Viking, and Moderna pharmaceuticals, all outside the submitted work. 
+H Slater reports grants or contracts awarded for co-developing a digital 
+platform with young people with musculoskeletal pain to support their 
+care from the Washington Department of Health, 2018–2021. D Stein 
+reports personal fees from Lundbeck, Takeda, Johnson & Johnson and 
+Servier, all outside the submitted work. M Stokes reports payment or 
+honoraria for lectures, presentations, speakers bureaus, manuscript 
+writing or educational events from the Autism Teaching Institute; 
+leadership or fiduciary role in other board, society, committee or 
+advocacy group, paid or unpaid as Vice President of Kidsafe Victoria and 
+Board Member of Australasian Society for Autism Research, all outside 
+the submitted work. S Tadakamadla reports grants or contracts from 
+National Health and Medical Research Council, Australia, Early Career 
+Fellowship. A Tsai reports stipend for work as Editor-in-Chief of Social 
+Science and Medicine: Mental Health from Elsevier, Inc. R Uddin is 
+supported by an Alfred Deakin Postdoctoral Research Fellowship, 
+Deakin University, Australia and reports support for attending meetings 
+and/or travel accommodation reimbursement from Deakin University 
+Institute for Physical Activity and Nutrition, all outside of the submitted 
+work. All other authors declare no competing interests.
+Data sharing
+To download the data used in these analyses, please visit the Global 
+Health Data Exchange at http://ghdx.healthdata.org/gbd−2019
+Acknowledgments
+This Article was supported by the Bill & Melinda Gates Foundation and 
+the National Institute on Ageing of the National Institutes of Health 
+(award P30AG047845). J L Ward is funded by the Medical Research 
+Council and G C Patton by an NHMRC Fellowship. P Azzopardi is 
+supported by an NHMRC Fellowship GNT1145228. L Abreu would like 
+to thank Coordenação de Aperfeiçoamento de Pessoal de Nível Superior 
+(CAPES) - Código de Financiamento 001, Conselho Nacional de 
+Desenvolvimento Científico e Tecnológico (404710/2018-2 and 
+310797/2019-5), and Fundação de Amparo à Pesquisa de Minas Gerais 
+(FAPEMIG). S Aljunid would like to acknowledge the Department of 
+Health Policy and Management, Faculty of Public Health, Kuwait 
+University and International Centre for Casemix and Clinical Coding, 
+Faculty of Medicine, National University of Malaysia for the approval and 
+support to participate in this research project. T Bärnighausen was 
+supported by the Alexander von Humboldt Foundation through the 
+Alexander von Humboldt Professor award, funded by the German 
+Federal Ministry of Education and Research. G Britton is supported by 
+Sistema Nacional de Investigación (SNI) of Secretaría Nacional de 
+Ciencia, Tecnología e Innovación (SENACYT) of Panamá. F Carvalho 
+and E Fernandes are supported by UID/MULTI/04378/2019 and UID/
+QUI/50006/2019 with funding from FCT/MCTES through national 
+funds. V Costa acknowledges her grant (SFRH/BHD/110001/2015), 
+received by Portuguese national funds through Fundação para a Ciência 
+e Tecnologia (FCT), IP, under the Norma Transitória DL57/2016/
+CP1334/CT0006. A Fomenkov and M Titova acknowledge support from 
+the state assignment of Ministry of Science and Higher Education of the 
+Russian Federation (theme 121050500047-5). A Gebreslassie 
+acknowledges the Department of Reproductive Health, College of Health 
+Sciences, School of Public Health at Mekelle University. C Herteliu and 
+M Ausloos are partially supported by a grant of the Romanian National 
+Authority for Scientific Research and Innovation, CNDS-UEFISCDI, 
+project number PN-III-P4-ID-PCCF-2016-0084. P Hoogar acknowledges 
+support from the Centre for Bio Cultural Studies (CBiCS), Directorate of 
+Research, Manipal Academy of Higher Education, Manipal and Centre 
+for Holistic Development and Research (CHDR), Kalaghatagi. S Islam is 
+funded by a fellowship from the National Heart Foundation of Australia 
+and NHMRC. M Jakovljevic acknowledges support through the Grant 
+OI 175 014 of the Ministry of Education Science and Technological 
+Development of the Republic of Serbia. P Jeemon received (2015-2021) 
+Wellcome Trust/DBT India Alliance Clinical and Public Health 
+Intermediate Fellowship (IA/CPHI/14/1/501497). M Khan acknowledges 
+the support of Jatiya Kabi Kazi Nazrul Islam University, Bangladesh. 
+C Kieling is a Conselho Nacional de Desenvolvimento Científico e 
+Tecnológico (CNPq, Brazil) researcher and an Academy of Medical 
+Sciences (UK) Newton advanced fellow. YJ Kim was supported by the 
+Research Management Centre, Xiamen University Malaysia 
+[XMUMRF/2020-C6/ITCM/0004]. K Krishan is supported by the UGC 
+Centre of Advanced Study (Phase II), awarded to the Department of 
+Anthropology, Panjab University, Chandigarh, India. M Kumar 
+acknowledges support from the Fogarty International Center/National 
+Institutes of Health K43 TW010716-04. B Lacey acknowledges support 
+from UK Biobank, University of Oxford. I Landires is member of the 
+Sistema Nacional de Investigación (SNI), supported by the Secretaría 
+Nacional de Ciencia, Tecnología e Innovación (SENACYT), Panama. 
+S Lorkowski acknowledges institutional support from the Competence 
+Cluster for Nutrition and Cardiovascular Health (nutriCARD) Halle-
+Jena-Leipzig (Germany; German Federal Ministry of Education and 
+Research; grant agreement number 01EA1808A). P Mahasha 
+acknowledges support from Grants, Innovation and Product 
+Development (GIPD) Unit, South African Medical Research Council 
+(SAMRC). A Mason-Jones was supported by the University of York. 
+J McGrath is supported by the Danish National Research Foundation 
+(Niels Bohr Professorship). J McGrath is employed by The Queensland 
+Centre for Mental Health Research which receives core funding from 
+the Department of Health, Queensland Government. S Nomura 
+acknowledges support from the Ministry of Education, Culture, Sports, 
+Science and Technology of Japan (MEXT). J Padubidri acknowledges 
+Manipal Academy of Higher Education, Manipal for their constant 
+support to academic research. S Patten holds the Cuthbertson & Fischer 
+Chair at the University of Calgary. G Patton is supported by an NHMRC 
+research fellowship. M Phillips is supported in part by National Natural 
+Science Foundation of China (NSFC 81761128031). A Raggi, D Sattin and 
+S Schiavolin are supported by a grant from the Italian Ministry of Health 
+(Ricerca Corrente, Fondazione Istituto Neurologico C. Besta, 
+
+Articles
+www.thelancet.com   Vol 398   October 30, 2021	
+1617
+Linea 4 – Outcome Research: dagli Indicatori alle Raccomandazioni 
+Cliniche). A Samy acknowledges the support from the Egyptian 
+Fulbright Mission Program. A Sheikh is supported by HDRUK. B Shetty 
+acknowledges the research support from Kasturba Medical College, 
+Mangalore, Manipal Academy of Higher Education, Manipal. J Silva 
+acknowledges support shafrom grant number UIDB/04378/2020 from 
+the Applied Molecular Biosciences Unit (UCIBIO), supported through 
+Portuguese national funds via FCT/MCTES. S Tadakamadla 
+acknowledges support from National Health and Medical Research 
+Council Early Career Fellowship, Australia. R Uddin is supported by an 
+Alfred Deakin Postdoctoral Research Fellowship, Deakin University, 
+Australia. B Unnikrishnan acknowledges support from the Manipal 
+Academy of Higher Education, Manipal. S Zaman received a scholarship 
+from the Australian Government research training program (RTP) in 
+support of his academic career. Y Zhang was supported by Science and 
+Technology Research Project of Hubei Provincial Department of 
+Education (Grant Q20201104), Open Fund Project of Hubei Province Key 
+Laboratory of Occupational Hazard Identification and Control 
+(Grant OHIC2020Y01), Outstanding Young and Middle Aged Technology 
+Innovation Team Project of Hubei Provincial Department of Education 
+(Grant T2020003), and the Key Research Center for Humanities and 
+Social Sciences in Hubei Province (Hubei University of Medicine) 
+(Grant 2020ZD001). C Zhu is funded by UTHealth Innovation for 
+Cancer Prevention Research Training Program Pre-doctoral Fellowship 
+(Cancer Prevention and Research Institute of Texas Grant RP160015) 
+which does not necessary endorse this study. The content is solely the 
+responsibility of the authors and does not necessarily represent the 
+official views of the Cancer Prevention and Research Institute of Texas. 
+All other authors received no specific funding for this work.
+References
+1	
+Patton GC, Coffey C, Sawyer SM, et al. Global patterns of mortality 
+in young people: a systematic analysis of population health data. 
+Lancet 2009; 374: 881–92.
+2	
+Patton GC, Sawyer SM, Santelli JS, et al. Our future: a Lancet 
+commission on adolescent health and wellbeing. Lancet 2016; 
+387: 2423–78.
+3	
+Patton GC, Olsson CA, Skirbekk V, et al. Adolescence and the next 
+generation. Nature 2018; 554: 458–66.
+4	
+Vollset SE, Goren E, Yuan C-W, et al. Fertility, mortality, migration, 
+and population scenarios for 195 countries and territories from 2017 
+to 2100: a forecasting analysis for the Global Burden of Disease 
+Study. Lancet 2020; 396: 1285–306.
+5	
+UN. Survive, thrive, transform. The Global Strategy for Women’s, 
+Children’s and Adolescent’s Health. New York, NY: United Nations; 
+2015.
+6	
+Boerma T, Requejo J, Victora CG, et al. Countdown to 2030: 
+tracking progress towards universal coverage for reproductive, 
+maternal, newborn, and child health. Lancet 2018; 391: 1538–48.
+7	
+Claeson M. The Global Financing Facility—towards a new way of 
+financing for development. Lancet 2017; 389: 1588–92.
+8	
+Azzopardi PS, Hearps SJC, Francis KL, et al. Progress in adolescent 
+health and wellbeing: tracking 12 headline indicators for 
+195 countries and territories, 1990–2016. Lancet 2019; 393: 1101–18.
+9	
+The Lancet Child & Adolescent Health. Universal health coverage 
+and the forgotten generation. Lancet Child Adolesc Health 2019; 
+3: 749.
+10	
+Verity R, Okell LC, Dorigatti I, et al. Estimates of the severity of 
+coronavirus disease 2019: a model-based analysis. Lancet Infect Dis 
+2020; 20: 669–77.
+11	
+The Lancet Child & Adolescent Health. Growing up in the shadow 
+of COVID-19. Lancet Child Adolesc Health 2020; 4: 853.
+12 	 Vos T, Lim SS, Abbafati C, et al. Global burden of 369 diseases and 
+injuries in 204 countries and territories, 1990–2019: a systematic 
+analysis for the Global Burden of Disease Study 2019. Lancet 2020; 
+396: 1204–22.
+13	
+Patton GC, Azzopardi P. Missing in the middle: measuring 
+a million deaths annually in children aged 5–14 years. 
+Lancet Glob Health 2018; 6: e1048–49.
+14	
+Masquelier B, Hug L, Sharrow D, et al. Global, regional, and 
+national mortality trends in older children and young adolescents 
+(5–14 years) from 1990 to 2016: an analysis of empirical data. 
+Lancet Glob Health 2018; 6: e1087–99.
+15	
+Guthold R, Moller A-B, Adebayo E, et al. Priority areas for 
+adolescent health measurement. J Adolesc Health 2021; 
+68: 888–98.
+16	
+Viner RM, Coffey C, Mathers C, et al. 50-year mortality trends in 
+children and young people: a study of 50 low-income, middle-
+income, and high-income countries. Lancet 2011; 377: 1162–74.
+17	
+Mokdad AH, Forouzanfar MH, Daoud F, et al. Global burden of 
+diseases, injuries, and risk factors for young people’s health during 
+1990–2013: a systematic analysis for the Global Burden of Disease 
+Study 2013. Lancet 2016; 387: 2383–401.
+18	
+WHO. Indicator and monitoring framework for the Global Strategy 
+for Women’s, Children’s and Adolescents’ health (2016–2030). 
+Geneva: World Health Organization, 2016.
+19 	 WHO. World health statistics overview 2019: monitoring health for 
+the SDGs, sustainable development goals. Geneva: World Health 
+Organization, 2019.
+20	 UN Department of Economic and Social Affairs. World population 
+prospects 2019 highlights. New York, NY: United Nations, 2019.
+21	
+WHO. WHO methods and data sources for global burden of disease 
+estimates 2000–2016. Geneva: World Health Organization, 2018.
+22	 United States Census Bureau. International database. 2021. https://
+www.census.gov/programs-surveys/international-programs/about/
+idb.html (accessed Jan 29 2021). 
+23	 UNICEF. Levels and trends in child mortality 2020. New York, NY: 
+United Nations Inter-agency Group for Child Mortality Estimation, 
+2020.
+24	
+Sawyer SM, Azzopardi PS, Wickremarathne D, Patton GC. The age 
+of adolescence. Lancet Child Adolesc Health 2018; 2: 223–28.
+25	 Stevens GA, Alkema L, Black RE, et al. Guidelines for Accurate and 
+Transparent Health Estimates Reporting: the GATHER statement. 
+PLoS Med 2016; 13: e1002056.
+26	 Dicker D, Nguyen G, Abate D, et al. Global, regional, and national 
+age-sex-specific mortality and life expectancy, 1950–2017: 
+a systematic analysis for the Global Burden of Disease Study 2017. 
+Lancet 2018; 392: 1684–735.
+27	
+Reiner RC, Olsen HE, Ikeda CT, et al. Diseases, injuries, and risk 
+factors in child and adolescent health, 1990 to 2017: findings from 
+the Global Burden of Diseases, Injuries, and Risk Factors 2017 
+Study. JAMA Pediatr 2019; 173: e190337.
+28	 Salam RA, Das JK, Lassi ZS, Bhutta ZA. Adolescent health 
+interventions: conclusions, evidence gaps, and research priorities. 
+J Adolesc Health 2016; 59: S88–92.
+29	 WHO. Global report on drowning: preventing a leading killer. 
+Geneva: World Health Organization, 2014.
+30	 WHO. Global status report on road safety 2018. Geneva: World 
+Health Organization, 2018.
+31	
+Salam RA, Arshad A, Das JK, et al. Interventions to prevent 
+unintentional injuries among adolescents: a systematic review and 
+meta-analysis. J Adolesc Health 2016; 59: S76–87.
+32	 Gore FM, Bloem PJN, Patton GC, et al. Global burden of disease in 
+young people aged 10–24 years: a systematic analysis. Lancet 2011; 
+377: 2093–102.
+33	 Das JK, Salam RA, Lassi ZS, et al. Interventions for adolescent 
+mental health: an overview of systematic reviews. J Adolesc Health 
+2016; 59: S49–60.
+34	
+Patel V, Saxena S, Lund C, et al. The Lancet Commission on global 
+mental health and sustainable development. Lancet 2018; 
+392: 1553–98.
+35	 Anestis MD, Selby EA, Butterworth SE. Rising longitudinal 
+trajectories in suicide rates: the role of firearm suicide rates and 
+firearm legislation. Prev Med 2017; 100: 159–66.
+36	 Gunnell D, Fernando R, Hewagama M, Priyangika WD, 
+Konradsen F, Eddleston M. The impact of pesticide regulations on 
+suicide in Sri Lanka. Int J Epidemiol 2007; 36: 1235–42.
+37	
+The Lancet Child & Adolescent Health. Children and youth are 
+crucial in the global AIDS response. Lancet Child Adolesc Health 
+2018; 2: 621.
+38	 Salam RA, Faqqah A, Sajjad N, et al. Improving adolescent sexual 
+and reproductive health: a systematic review of potential 
+interventions. J Adolesc Health 2016; 59: S11–28.
+39	 Sphere Association. The Sphere Handbook: humanitarian charter 
+and minimum standards in humanitarian response, 4th edn. 
+Geneva: Sphere, 2018.
+
+Articles
+1618	
+www.thelancet.com   Vol 398   October 30, 2021
+40	
+Lee ACK, Booth A, Challen K, Gardois P, Goodacre S. Disaster 
+management in low- and middle-income countries: scoping review 
+of the evidence base. Emerg Med J 2014; 31: e78–83.
+41	
+Viner RM, Hargreaves DS, Ward J, Bonell C, Mokdad AH, Patton G. 
+The health benefits of secondary education in adolescents and 
+young adults: an international analysis in 186 low-, middle- and 
+high-income countries from 1990 to 2013. SSM Popul Health 2017; 
+3: 162–71.
+42	
+Nambiar D, Razzak J, Afsana K, et al. Mental illness and injuries: 
+emerging health challenges of urbanisation in south Asia. BMJ 
+2017; 357: j1126.
+43	
+Ward JL, Viner RM. The impact of income inequality and national 
+wealth on child and adolescent mortality in low and middle-income 
+countries. BMC Public Health 2017; 17: 429.
+44	
+Law TH. Factors associated with the relationship between non-fatal 
+road injuries and economic growth. Transp Policy 2015; 42: 166–72.
+45	
+Jiang B, Liang S, Peng Z-R, et al. Transport and public health in 
+China: the road to a healthy future. Lancet 2017; 390: 1781–91.
+46	
+Mikkelsen L, Phillips DE, AbouZahr C, et al. A global assessment of 
+civil registration and vital statistics systems: monitoring data quality 
+and progress. Lancet 2015; 386: 1395–406.
+47	
+Rigby M, Deshpande S, Blair M. Credibility in published data 
+sources. Lancet 2019; 393: 225–26.
+48	
+Barber RM, Fullman N, Sorensen RJ, et al. Healthcare Access and 
+Quality Index based on mortality from causes amenable to personal 
+health care in 195 countries and territories, 1990–2015: a novel 
+analysis from the Global Burden of Disease Study 2015. Lancet 2017; 
+390: 231–66.
+49	
+Viner RM, Mytton OT, Bonell C, et al. Susceptibility to SARS-CoV-2 
+infection among children and adolescents compared with adults: 
+a systematic review and meta-analysis. JAMA Pediatr 2021; 
+175: 143–56.
+50	 Clark H, Ghebreyesus TA, Albrectsen A-B, et al. Uniting for 
+adolescents in covid-19 and beyond. BMJ 2021; 372: n719.
+51	
+Odd D, Sleap V, Appleby L, Gunnell D, Luyt K. Child suicide rates 
+during the COVID-19 pandemic in England: real-time surveillance. 
+Bristol: National Child Mortality Database, 2020.
+52	 Pierce M, Hope H, Ford T, et al. Mental health before and during 
+the COVID-19 pandemic: a longitudinal probability sample survey 
+of the UK population. Lancet Psychiatry 2020; 7: 883–92.
+53	 Watts N, Amann M, Arnell N, et al. The 2020 report of The Lancet 
+Countdown on health and climate change: responding to 
+converging crises. Lancet 2021; 397: 129–70.
+54	
+Lim SS, Updike RL, Kaldjian AS, et al. Measuring human capital: 
+a systematic analysis of 195 countries and territories, 1990–2016. 
+Lancet 2018; 392: 1217–34.

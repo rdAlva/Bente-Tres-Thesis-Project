@@ -1,0 +1,1136 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+8-7-2024 
+Perspectives on Telemedicine across Urban, Rural and Remote 
+Perspectives on Telemedicine across Urban, Rural and Remote 
+Areas in the Philippines During the COVID-19 Pandemic 
+Areas in the Philippines During the COVID-19 Pandemic 
+Noleen Fabian 
+University of the Philippines Diliman 
+Regine Ynez De Mesa 
+University of the Philippines Diliman 
+Carol Tan-Lim 
+University of the Philippines College of Medicine 
+Gillian Sandigan 
+University of the Philippines Diliman 
+Johanna Lopez 
+University of the Philippines Diliman 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Telemedicine Commons 
+Custom Citation 
+Custom Citation 
+Noleen Fabian, Regine Ynez De Mesa, Carol Tan-Lim, Gillian Sandigan, Johanna Lopez, Arianna Maever 
+Loreche, Leonila Dans, Zharie Benzon, Herbert Zabala, Josephine Sanchez, Nanette Sundiang, Mia Rey, 
+Antonio Dans - Perspectives on telemedicine across urban, rural and remote areas in the Philippines 
+during the COVID-19 pandemic: BMJ Health & Care Informatics 2024;31:e100837. 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+Authors 
+Authors 
+Noleen Fabian, Regine Ynez De Mesa, Carol Tan-Lim, Gillian Sandigan, Johanna Lopez, Arianna Maever 
+Loreche, Leonila Dans, Zharie Benzon, Herbert Zabala, Josephine Sanchez, Nanette Sundiang, Mia Rey, 
+and Antonio Dans 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/asmph-pubs/173 
+
+  1
+Fabian N, et al. BMJ Health Care Inform 2024;31:e100837. doi:10.1136/bmjhci-2023-100837
+Open access
+Perspectives on telemedicine across urban, 
+rural and remote areas in the Philippines 
+during the COVID-­19 pandemic
+Noleen Fabian  ‍ ‍ ,1,2 Regine Ynez De Mesa  ‍ ‍ ,1 Carol Tan-­Lim,3 Gillian Sandigan,1 
+Johanna Lopez,1 Arianna Maever Loreche,4,5 Leonila Dans,1,6 Zharie Benzon,1 
+Herbert Zabala,1 Josephine Sanchez,1 Nanette Sundiang,1 Mia Rey,1,7 
+Antonio Dans1,8
+To cite: Fabian N, De Mesa RY, 
+Tan-­Lim C, et al.  Perspectives 
+on telemedicine across 
+urban, rural and remote areas 
+in the Philippines during 
+the COVID-­19 pandemic. 
+BMJ Health Care Inform 
+2024;31:e100837. doi:10.1136/
+bmjhci-2023-100837
+	
+►Additional supplemental 
+material is published online only. 
+To view, please visit the journal 
+online (https://​doi.​org/​10.​1136/​
+bmjhci-​2023-​100837).
+Received 22 June 2023
+Accepted 27 July 2024
+For numbered affiliations see 
+end of article.
+Correspondence to
+Ms Noleen Fabian;  
+​nmcfabian@​gmail.​com
+Original research
+© Author(s) (or their 
+employer(s)) 2024. Re-­use 
+permitted under CC BY-­NC. No 
+commercial re-­use. See rights 
+and permissions. Published by 
+BMJ.
+ABSTRACT
+Objectives  This study explored attitudes, subjective 
+norms, and perceived behavioural control of participants 
+across urban, rural and remote settings and examined 
+intention-­to-­use telemedicine (defined in this study 
+as remote patient–clinician consultations) during the 
+COVID-­19 pandemic.
+Methods  This is a cross-­sectional study. 12 focus group 
+discussions were conducted with 60 diverse telemedicine 
+user and non-­user participants across 3 study settings. 
+Analysis of responses was done to understand the 
+attitudes, norms and perceived behavioural control of 
+participants. This explored the relationship between the 
+aforementioned factors and intention to use.
+Results  Both users and non-­users of telemedicine relayed 
+that the benefits of telemedicine include protection from 
+COVID-­19 exposure, decreased out-­of-­pocket expenses 
+and better work–life balance. Both groups also relayed 
+perceived barriers to telemedicine. Users from the 
+urban site relayed that the lack of preferred physicians 
+discouraged use. Users from the rural and remote 
+sites were concerned about spending on resources (ie, 
+compatible smartphones) to access telemedicine. Non-­
+users from all three sites mentioned that they would not 
+try telemedicine if they felt overwhelmed prior to access.
+Discussion  First-­hand experiences, peer promotions, and 
+maximising resource support instil hope that telemedicine 
+can help people gain more access to healthcare. However, 
+utilisation will remain low if patients feel overwhelmed 
+by the behavioural modifications and material resources 
+needed to access telemedicine. Boosting infrastructure 
+must come with improving confidence and trust among 
+people.
+Conclusion  Sustainable access beyond the pandemic 
+requires an understanding of factors that prevent usage. 
+Sufficient investment in infrastructure and other related 
+resources is needed if telemedicine will be used to 
+address inequities in healthcare access, especially in rural 
+and remote areas.
+INTRODUCTION
+Background
+Telemedicine has shown potential in reducing 
+poor health outcomes and healthcare-­related 
+expenditures.1 2 Remote consultations in the 
+USA allowed healthcare providers to give 
+necessary prescriptions and provide imme-
+diate clarification for health-­related queries, 
+decreasing the needed frequency of in-­person 
+consultations.3 A 2015 study in Canada 
+reported that 85% of patients expressed 
+intent of continuing telemedicine use due to 
+an average cost reduction of US$200 for them 
+and their caretakers.4
+The impact of telemedicine varies by setting 
+and availability of resources. A study in South-
+east Asia reported limited access to gadgets 
+and internet sources to sustain telemedicine 
+use in certain countries such as Indonesia 
+and the Philippines.5 To expand internet 
+access in the latter, Executive Order (EO) 
+127 was passed. This EO aimed to address the 
+WHAT IS ALREADY KNOWN ON THIS TOPIC.
+	
+⇒Telemedicine services allow healthcare providers to 
+reach patients beyond healthcare centres through 
+phone, social media, and other remote platforms.
+WHAT THIS STUDY ADDS
+	
+⇒This study provides a comparative analysis of the 
+personal and infrastructural factors that may affect 
+telemedicine utilisation among urban, rural and re-
+mote localities in low to middle income countries 
+(LMICs). It delivers powerful grassroots-­level nar-
+ratives on how telemedicine can become people-­
+centred during the pandemic and beyond.
+HOW THIS STUDY MIGHT AFFECT RESEARCH, 
+PRACTICE OR POLICY
+	
+⇒This study provides an in-­depth analysis of how 
+policy-­makers can maximise resources to sustain 
+utilisation of telemedicine beyond the pandemic 
+and in anticipation of the universal healthcare im-
+plementation in the Philippines. It provides a guide 
+on how primary healthcare advocates can improve 
+technological infrastructure while making people 
+confident about integrating technology into their 
+healthcare routines.
+BMJ Health & Care Informatics: first published as 10.1136/bmjhci-2023-100837 on 7 August 2024. Downloaded from https://informatics.bmj.com on 16 September 2024 by guest. Protected by
+ copyright.
+
+2
+Fabian N, et al. BMJ Health Care Inform 2024;31:e100837. doi:10.1136/bmjhci-2023-100837
+Open access
+gap in telemedicine care through inclusive access to satel-
+lite services.6 However, the distance of signal sites from 
+communities remained a barrier to obtaining healthcare, 
+with 57.4% of Filipinos remaining offline.7 Technology-­
+related anxiety also deters patients and caretakers from 
+investing in telemedicine care.8 9 Furthermore, training 
+healthcare workers to navigate the platform has yet to be 
+integrated into healthcare training curricula.5
+The COVID-­19 pandemic hastened the development 
+of alternative means for utilisation of primary care 
+services.10–12 The Philippine Primary Care Studies (PPCS) 
+introduced telemedicine services to sustain primary care 
+service utilisation during the pandemic and beyond. The 
+PPCS team expanded internet access in its three partner 
+sites to provide telemedicine services. The initial imple-
+mentation of telemedicine services was launched on plat-
+forms that participants had easy access to. In the context 
+of this study, telemedicine refers to remote patient–clini-
+cian consultations. The telemedicine platforms made 
+available in the study sites were Facebook Messenger 
+(with consultations done through video call, phone call 
+and chat), and phone call using a landline phone for 
+patients who had difficult access to the internet despite 
+the provision of Wi-­Fi access in the sites.
+Telemedicine’s potential cannot be fully maximised 
+by patients without uncovering the factors that either 
+increase hesitancy or fully hinder utilisation. Thus, this 
+study aimed to explore attitudes, subjective norms and 
+perceived behavioural control of telemedicine users 
+and non-­users in urban, rural and remote settings and 
+to examine intention-­to-­use telemedicine during the 
+COVID-­19 pandemic.
+METHODOLOGY
+Study design
+This is a cross-­sectional study on factors that affect tele-
+medicine usage. Data gathering was conducted from 
+February to March 2022 through focus group discussions 
+(FGDs) to assess experiences and attitudes towards tele-
+medicine as a mode of healthcare delivery among end-­
+users at the height of the COVID-­19 pandemic. FGDs 
+were used for data collection. This allowed the team 
+to understand shared and diverging perspectives from 
+groups who have common backgrounds. FGDs were done 
+online due to the to prevent COVID-­19 transmission 
+during the pandemic.
+A semistructured interview guide (online supple-
+mental appendix A) was adapted from George et al.13 
+We conducted a pilot test of this interview guide with 
+patients from the urban, rural and remote sites. Based on 
+the results of the pilot test, we added questions on prior 
+knowledge about telemedicine, preferred platforms of 
+use, and desired features. We also added questions about 
+the necessity to consult during a pandemic to assess how 
+COVID-­19 may have influenced telemedicine utilisation 
+behaviour.
+Participants and study site
+We included patients who consulted from April 2020 
+to March 2022 in the study. Recruitment was done in 
+a reverse sequence order. The team first contacted the 
+patients who consulted most recently to secure consent 
+for participation.
+UPHS14 was the urban site of the study. It was a 25-­bed 
+facility serving a population of approximately 31 000 
+students, faculties, employees and campus residents. 12 
+family physicians were employed during the study period.
+Samal, Bataan14 was a fourth-­class rural municipality 
+with approximately 36 000 residents during the study 
+period. Residents were able to avail of primary care 
+services through the rural health unit (RHU) or barangay 
+health stations (BHSs). The RHU hosted doctors, nurses 
+and midwives. BHSs were primarily supervised by nurses 
+and midwives.
+Bulusan, Sorsogon14 was a fourth-­class municipality 
+with approximately 23 000 residents. It was declared as 
+a geographically isolated and disadvantaged area by the 
+Philippine Department of Health. This classification can 
+be attributed to its mountainous terrain, unstable connec-
+tivity, and limited transportation options. Residents may 
+also receive care from either RHU or BHS. Both rural and 
+remote areas only had one physician at the start of the 
+study. Purposive sampling was done. Demographic distri-
+bution can be seen in Table 1.
+Four FGDs per site were conducted. Two FGDs 
+included participants who resided near the health facil-
+ities (on-­campus residents for the urban site and people 
+living in the lowland barangays for the rural and remote 
+sites): one FGD included participants who were users of 
+telemedicine while the other FGD included participants 
+who were non-­users. Telemedicine usage may vary over 
+time. In this study, we defined ‘users’ of telemedicine as 
+individuals who have used telemedicine through any plat-
+form at the time of the study, and ‘non-­users’ as individ-
+uals who have not used telemedicine using any platforms 
+at the time of the study.
+Table 1  Demographic characteristics of 60 study 
+participants
+Urban site
+n (%)
+Rural
+n (%)
+Remote
+n (%)
+Total
+n (%)
+Sex
+  Female
+14 (70)
+19 (95)
+17 (85)
+50 (83)
+  Male
+6 (30)
+1 (5)
+3 (15)
+10 (17)
+Residence
+  Near health 
+facility
+10 (50)
+10 (50)
+10 (50)
+30 (50)
+  Far from health 
+facility
+10 (50)
+10 (50)
+10 (50)
+30 (50)
+Telemedicine use
+  User
+10 (50)
+10 (50)
+10 (50)
+30 (50)
+  Non-­user
+10 (50)
+10 (50)
+10 (50)
+30 (50)
+BMJ Health & Care Informatics: first published as 10.1136/bmjhci-2023-100837 on 7 August 2024. Downloaded from https://informatics.bmj.com on 16 September 2024 by guest. Protected by
+ copyright.
+
+3
+Fabian N, et al. BMJ Health Care Inform 2024;31:e100837. doi:10.1136/bmjhci-2023-100837
+Open access
+Thematic analysis
+As a framework, the theory of planned behaviour exam-
+ines how attitudes, subjective norms and perceived 
+behavioural control impact the intention of a person to 
+adopt a particular behaviour (Figure  1).15 We analysed 
+the data and classified responses according to domains, 
+including internal perceptions (referring to attitudes), 
+external influences (referring to subjective norms) 
+and availability of resources (referring to perceived 
+behavioural control). Categorising data into these 
+domains allowed us to compare which domains strongly 
+informed telemedicine utilisation behaviour among 
+participants. Data were processed using NVivo V.12. 
+The research lead performed the initial coding. Elicited 
+themes reveal participant perceptions and/or experi-
+ences under each domain. Codes were then presented 
+to a multidisciplinary team of public health practitioners 
+to determine if codes aligned with sentiments elicited 
+from the study. Dissenting opinions on the themes were 
+resolved by reviewing the transcript to verify the context 
+of a participant’s response.
+RESULTS
+Key demographics
+A total of 60 participants were included in this study. There 
+were more females (83%, n=50) in our study population.
+Response of telemedicine users
+A comprehensive overview of sentiments from partici-
+pating telemedicine users is found on Table 2. Under the 
+attitude domain, telemedicine was largely perceived to 
+increase the respondents’ feeling of safety against COVID-­
+19. Motivators for telemedicine use included its applica-
+bility for minor and chronic illnesses. Respondents also 
+espoused that it helped them save time, money and effort 
+travelling to health facilities. However, deterring attri-
+butes made participants more hesitant towards continued 
+use. A few participants shared that the specialisation of 
+certain physician may not match the health concerns of 
+a patients.
+Exploration of the subjective norms domain revealed 
+high awareness across all participants of our telemedicine 
+platform’s features. Information sources and prevailing 
+sentiments from key persons highly influenced their 
+perception. These included individuals whose opin-
+ions participants were most open to consider. Consul-
+tations via Facebook Messenger or call were considered 
+straightforward. Participants were aware of how book-
+ings are conducted, which was either through Facebook 
+Messenger or call reservations in rural and remote sites 
+and reservations through the online portal in the urban 
+site. Awareness did not necessarily translate to maximi-
+sation of the online portal. Participants in the urban 
+site would often maximise internal networks within the 
+PPCS partner facility to book consults. CHWs were inte-
+gral sources of information in the rural and remote sites. 
+Through CHWs, they felt especially guided by a trusted 
+source while exploring telemedicine.
+Factors related to the perceived behavioural control 
+domain had the greatest influence on the likelihood 
+Figure 1  Diagram of theory of planned behaviour framework.
+BMJ Health & Care Informatics: first published as 10.1136/bmjhci-2023-100837 on 7 August 2024. Downloaded from https://informatics.bmj.com on 16 September 2024 by guest. Protected by
+ copyright.
+
+4
+Fabian N, et al. BMJ Health Care Inform 2024;31:e100837. doi:10.1136/bmjhci-2023-100837
+Open access
+Table 2  Summarised responses of attitudes, subjective norms and perceived behavioural control among telemedicine users
+Domain
+Themes
+Urban
+Rural
+Remote
+Attitude
+Motivating attributes
+	
+►Telemedicine prevents possible exposure to COVID-­19
+	
+►Telemedicine allows a patient balance work and health 
+needs
+	
+►Telemedicine is particularly useful for minor injuries, 
+obtaining fit to work permits, and monitoring chronic 
+conditions
+	
+►Telemedicine allows consultation with a doctor who is 
+already familiar with the patient’s medical history
+	
+►Telemedicine prevents possible exposure to 
+COVID-­19
+	
+►Telemedicine allows a patient balance work and 
+health needs
+	
+►Increased certainty that consultations will push 
+through
+	
+►Economical alternative
+	
+►Regard telemedicine as most fitting for minor and 
+chronic ailments
+	
+►Recommended use for senior citizens and children
+	
+►Allows more time for agricultural work
+	
+►Appreciate that they do not have to 
+travel long distances
+	
+►Economical alternative
+	
+►Regard telemedicine as most fitting 
+for minor and chronic ailments
+	
+►Recommended use for senior citizens 
+and persons with disabilities
+Deterring attributes
+	
+►Concerned about others feigning illness just to get a 
+medical certificate since it makes the queue longer
+	
+►The perceived mismatch between providers’ 
+specialisation and patient’s health concerns 
+disincentivises use in the long-­term
+	
+►Uncertain if telemedicine use is a financially wise 
+decision. General perception that it might be more 
+cost-­effective to go to health centres.
+	
+►Uncertain if this telemedicine is a 
+sustainable financial alternative. 
+Primarily attributes this to the 
+insufficiency of their income to 
+purchase resources.
+Subjective 
+Norms
+Source of information
+	
+►Information was mostly received through workd of 
+mouth and announcements by the health facility
+	
+►Information was mostly provided by the Rural Health 
+Unit Facebook page and Community Health Workers 
+(CHWs)
+	
+►Information was mostly provided by 
+the Rural Health Unit Facebook page 
+and CHWs
+Influencing perceptions
+	
+►Majority tried telemedicine because it was required by 
+their office
+	
+►Likely to consult online sources and peers for more 
+information on a physician’s credibility
+	
+►Positive feedback on telemedicine from neighbours
+	
+►Felt that feedback from neighbours 
+influenced their decision to try the 
+platform out
+Perceived 
+behavioural 
+control
+Reachability of providers
+	
+►Doctors had very limited availability as listed on the 
+appointment setting platform, invoking a perception of 
+inaccessibility despite infrastructure being present
+	
+►Agreeable to availabilities set by physicians who 
+conducted online consultations
+	
+►Concerned about the sufficiency 
+providers to address their concerns
+Familiarity
+	
+►Preferred intuitive platforms which may include the 
+integration of telemedicine services in commonly used 
+social media networks
+	
+►When technical difficulties arise, they feel like they are 
+not able to maximise the appointment because time 
+becomes even more limited
+	
+►Telemedicine services may be more accessible if it is 
+installed in messenger or landline services
+	
+►Platforms must be intuitive, inclusive, 
+and affordable
+Resource capacity
+	
+►Felt that they have the means to access telemedicine 
+services when they want to. However, additional 
+support will be greatly appreciated. This includes a 
+more efficient system of streamlining appointments.
+	
+►Prefer platforms that are intuitive and affordable
+	
+►Inadequate material resources (ie, stable electricity 
+supply, sufficient internet or mobile data connectivity) 
+to access telemedicine services
+	
+►Lack of material resources (ie, phone)
+	
+►Increased susceptibility to calamities 
+decreases behavioral control
+BMJ Health & Care Informatics: first published as 10.1136/bmjhci-2023-100837 on 7 August 2024. Downloaded from https://informatics.bmj.com on 16 September 2024 by guest. Protected by
+ copyright.
+
+5
+Fabian N, et al. BMJ Health Care Inform 2024;31:e100837. doi:10.1136/bmjhci-2023-100837
+Open access
+of continued telemedicine use. Urban site respondents 
+generally perceived that they have good behavioural 
+control as resource capacity and familiarity with the plat-
+form were high. High exposure to technological devices at 
+their jobs gave them the confidence to use devices outside 
+work. Respondents from the urban site relayed that tech-
+nical glitches hinder the full utilisation of telemedicine 
+services. One participant mentioned that ‘it took long 
+for my consultation request to get accommodated. I was 
+passed on from one attendant to another before someone 
+entertained my teleconsultation concern. I had to confirm 
+with my doctor if the consultation request was approved’. 
+Participants from the rural and remote sites were eager 
+to continue using the service; however, the lack of mate-
+rial resources decreased the likelihood of consistent use. 
+Participants in all sites agreed that integrating telemedi-
+cine in Facebook increased their level of confidence. A 
+familiar platform allowed them to invest more effort on 
+their health instead of learning the application.
+Response of telemedicine non-users
+A comprehensive overview of insights from participating 
+non-­users is found on Table 3. In the attitude domain, 
+deterring factors more strongly influenced their decision 
+to decline use. Non-­users from the urban site emphasised 
+that ‘convenience was a case-­to-­case basis’. They relayed 
+that the effectiveness of telemedicine was limited to 
+people who were technologically competent and comfort-
+able with discussing their concerns online. One partici-
+pant also shared, ‘I think the physician can assess me 
+better when we see each other in-­person. They are also 
+more able to make me feel at peace in-­person. Physical 
+contact makes me more certain that an actual person is 
+taking care of my health’.
+In the subjective norms domain, non-­users relayed 
+that government officials or workplace personnel for the 
+urban setting, and efforts of CHWs for the remote setting 
+were integral sources of information. Hesitancy of the 
+participants in the remote and rural sites to use telemedi-
+cine were related to their lack of familiarity with telemed-
+icine and inadequate resources.
+In the perceived behavioural control domain, low-­
+resource capacity was the primary deterrent in both rural 
+and remote sites. One participant mentioned that ‘I was 
+very eager to use telemedicine, but the cellular data signal 
+is too weak in our area. I’m hesitant to invest a lot of 
+money for load and an advanced smartphone since I must 
+prioritize spending on my medications’. Participants also 
+shared that investing in telemedicine-­related resources 
+is risky since natural calamities can cause power outages 
+and decreased internet connectivity. All non-­users in the 
+urban site preferred face-­to-­face consultation. They felt 
+that this avenue allowed them to consider alternative 
+providers more carefully. They could use face-­to-­face 
+interactions with facility staff to ask which providers fits 
+their schedule and had experience with other cases like 
+theirs. They did not have to spend extra time evaluating 
+whether the chosen online platform was suitable to 
+address their health concern.
+DISCUSSION
+Attitude
+The theory of planned behaviour defines attitude as the 
+tendency to make a decision that is likely to produce posi-
+tive feelings.15 Users from the urban site shared that the 
+lack of specialist care demotivates use. These respondents 
+desired to consult with specialists because there was an 
+increased likelihood of being given an immediate diag-
+nosis. Direct consultation with specialists lessened their 
+anxiety of expending time and resources before their 
+concern is addressed. Positive feelings about telemedi-
+cine services were associated with a provider’s capacity to 
+answer a patient’s queries about their health concerns.
+Non-­users in the urban site believed that the conve-
+nience of telemedicine services varied on a ‘case-­to-­case 
+basis’. Telemedicine was considered inconvenient since 
+they cannot fully express themselves in an online setting. 
+Non-­users relayed feelings of anxiety when contemplating 
+telemedicine usage. Being physically separated from 
+their providers made them feel that they were outsiders 
+each others’ worlds. This perceived mutual exclusion 
+decreased the feeling of trust necessary in building a ther-
+apeutic relationship. Participants in the rural and remote 
+site similarly felt anxious about their inability to see their 
+providers’ movements and expressions. This sentiment is 
+akin a 2010 article which reported that immersion of a 
+patient’s senses into a healthcare setting may make them 
+feel more cared for and attended.16
+In sum, participants from all sites generally felt that 
+telemedicine is a temporary alternative while in-­person 
+consultations were unavailable during the pandemic. Tele-
+medicine was a convenient tool that can accommodate 
+people with busy schedules and those living in localities 
+far from the healthcare centre. However, these perceived 
+benefits were outweighed by hesitancy. Many felt that the 
+therapeutic touch was diminished in an online setup.
+Subjective norms
+Subjective norms refer to perceived social beliefs or 
+expectations that may influence a participant’s decision 
+to use telemedicine services.15 Access to information is as 
+important as the actual content in influencing decision-­
+making. Participants in all sites agreed that receiving 
+information on telemedicine from representatives 
+showed that healthcare workers were confident in the 
+platform’s capacity to support remote consultations.
+Effective dissemination of telemedicine announce-
+ments depends on the locality’s setup.17 For users and 
+non-­users in the urban site, coursing telemedicine-­related 
+announcements through offices was considered effective. 
+Participants from the rural and remote sites acknowl-
+edged that they were more likely to engage in content 
+promoted through the personal Facebook accounts of 
+CHWs. This can be attributed to the pre-­existing level of 
+BMJ Health & Care Informatics: first published as 10.1136/bmjhci-2023-100837 on 7 August 2024. Downloaded from https://informatics.bmj.com on 16 September 2024 by guest. Protected by
+ copyright.
+
+6
+Fabian N, et al. BMJ Health Care Inform 2024;31:e100837. doi:10.1136/bmjhci-2023-100837
+Open access
+trust that patients have for CHWs.18 Aside from health-
+care workers, relatives, friends and work colleagues also 
+influenced a patient’s decision to access telemedicine 
+care. Positive feedback is more likely to incentivise use.19 
+Participants were more optimistic that they can experi-
+ence good outcomes with telemedicine when someone 
+Table 3  Summarised responses on attitudes, subjective norms and perceived behavioural control among telemedicine non-­
+users
+Domain
+Themes
+Urban
+Rural
+Remote
+Attitude
+Motivating attributes
+	
+►Telemedicine is perceived 
+as an effective tool for 
+managing the number 
+of patients seeking to 
+consultat
+	
+►Telemedicine prevents 
+possible exposure to 
+COVID-­19
+	
+►Telemedicine is helpful in 
+interpreting lab results
+	
+►Telemedicine is 
+perceived as an effective 
+tool for managing the 
+number of patients 
+seeking to consultat
+	
+►Telemedicine prevents 
+possible exposure to 
+COVID-­19
+	
+►Allows provincial workers 
+to perform their jobs
+	
+►Allows persons with 
+disabilities and/or senior 
+citizens to access care
+Dettering attributes
+	
+►No need for telemedicine 
+because they can easily 
+consult doctors in their 
+social network
+	
+►Online consultations feel 
+impersonal
+	
+►Perceived it difficult to 
+express themselves in 
+online consultations
+	
+►Largely hesitant to use 
+telemedicine services 
+because there is less 
+opportunity to talk with 
+providers
+	
+►Open to telemedicine 
+services, but believe that 
+their ailments are not 
+fitting
+	
+►Perceived it difficult to 
+express themselves in 
+online consultations
+Subjective 
+Norms
+Source of 
+information
+	
+►Information was mostly 
+obtained through workplace 
+announcements and 
+government officials
+	
+►Low exposure to 
+information about 
+telemedicine services; 
+news comes from CHWs
+	
+►Information and 
+assistance with accessing 
+telemedicine services is 
+provided by CHWs
+Influencing 
+perceptions
+	
+►Hesitant to use telemedicine 
+services because their 
+peers felt that care is better 
+experienced in face-­to-­face 
+settings
+	
+►Non-­user peers are 
+generally eager to try 
+telemedicine services 
+but there is some 
+hesitancy due to lack of 
+resources or unfamiliarity
+	
+►Non-­user peers are 
+generally eager to try 
+telemedicine services but 
+there is some hesitancy 
+due to lack of resources 
+or unfamiliarity
+Perceived 
+behavioural 
+control
+  Reachability of 
+providers
+	
+►Concerned that doctors 
+cannot fully perform 
+physical examination of 
+patients in telemedicine 
+platforms
+	
+►Feels undersupported 
+by the local health unit 
+if they choose to access 
+telemedicine services
+	
+►Perceived that the rural 
+health unit is understaffed 
+and less capable of 
+supporting telemedicine 
+use
+Familiarity
+	
+►Feel that they can adapt to 
+any platform. However, they 
+prefer platforms that are 
+straightforward.
+ 
+	
+►Hesitant to use 
+telemedicine services 
+due to the unfamiliarity 
+of patients and 
+caretakers with gadgets
+	
+►Hesitant to use 
+telemedicine services 
+due to the unfamiliarity of 
+patients and caretakers 
+with gadgets
+Resource capacity
+	
+►Generally expressed that 
+they won’t have difficulty 
+procuring devices or other 
+material resources for 
+teleconsults
+	
+►The cost of internet 
+services is prohibitive
+	
+►Perceivethat they lack 
+resources such as stable 
+electricity, internet or 
+mobile data connectivity, 
+compatible devices
+BMJ Health & Care Informatics: first published as 10.1136/bmjhci-2023-100837 on 7 August 2024. Downloaded from https://informatics.bmj.com on 16 September 2024 by guest. Protected by
+ copyright.
+
+7
+Fabian N, et al. BMJ Health Care Inform 2024;31:e100837. doi:10.1136/bmjhci-2023-100837
+Open access
+they know has experienced it. The introduction of new 
+healthcare services is optimised when local populations 
+are encouraged to try a service for themselves.20
+There was no stark difference in subjective norms 
+when we responses were analyzed per age group. Willing-
+ness to learn was a greater determinant to telemedicine 
+usage rather than age. Some non-­users in the less than 
+30-­year-­old group relayed that they would be more likely 
+to explore applications or social media sites that interest 
+them, rather than learning tools that do not satisfy imme-
+diate personal goals. Some non-­users in the older age 
+groups shared that they would be willing to learn more 
+about telemedicine applications if someone will help 
+them navigate it in the future.
+Some non-­users in the rural and remote sites expressed 
+that it was their first time knowing that it was possible to 
+consult via text, call or messenger. This shows that an 
+information gap exists in these sites.
+Perceived behavioural control
+Perceived behaviour control corresponds to the avail-
+ability of human and material resources that help 
+someone achieve a desired outcome.15 This also includes 
+the ability of a patient to use available resources at hand.15 
+The presence of a user-­friendly platform was significant 
+in increasing usage among participants. User-­friendliness 
+was predominantly associated with the integration of tele-
+medicine in Facebook—a mainstream platform in the 
+Philippines.21 Since Facebook was a platform participants 
+used for other socialisation activities; the interface was not 
+challenging to deal with. They can independently consult 
+with providers without having to rely on caretakers.
+Participants in the urban site expressed the highest level 
+of behavioural control. Despite this, most users and non-­
+users shared the sentiment that telemedicine provided 
+by UPHS is largely incompatible with their needs. Partic-
+ipants explained that telemedicine services provided 
+did not have sufficient infrastructure to genuinely help 
+patients. It is important to have a system that antici-
+pates a population’s needs, complemented by a work-
+force with compatible skillset. If these are not provided, 
+patients would decline to use the provided service despite 
+necessity.22
+Users and non-­users from rural and remote areas 
+expressed that decreased access to a compatible smart-
+phone, electricity and/or internet load hampered 
+use. Telemedicine access requires adequate economic 
+capital.23 Participants shared that they repeatedly 
+declined to purchase the resources needed for telemedi-
+cine to prioritise basic health needs.
+In the remote site, participants expressed that insuffi-
+cient staffing in the local health unit to support telemed-
+icine services and the frequency of natural calamities 
+decreased their perceived level of control. The absence 
+of healthcare workers was most prominent in the remote 
+site. Healthcare workers are more likely to be present in 
+urban areas due to increased pay and better opportunities 
+for family members.24 Users in the remote site constantly 
+thought about reverting to face-­to-­face consultations. 
+They were more certain that a healthcare provider would 
+be available to assist them. These participants also felt 
+that investing in telemedicine-­related resources can be 
+potentially counterproductive since signal is usually down 
+during calamities.
+Policy recommendations
+Augmenting community engagement
+To address the lack of familiarity with platforms and 
+gadgets, we recommend stronger engagement down 
+to the community level. This may come in the form of 
+house-­to-­house or town hall orientations, where residents 
+can learn the skills necessary to navigate the available tele-
+medicine platforms. Patient and caretaker engagement is 
+highly recommended. Pre-­existing studies demonstrate 
+that having more stakeholders convinced about the 
+application’s benefit increases patients’ confidence in 
+the usefulness of telemedicine.25 Being able to directly 
+communicate with a professional who is knowledgeable 
+about these platforms can allow residents to clarify situ-
+ational questions related to the application’s usage.26 A 
+trial run of services is strongly encouraged. This allows 
+residents to get accustomed to using telemedicine plat-
+forms as part of their healthcare routine before its wide-­
+scale implementation.
+Building healthcare worker capacities
+CHWs are integral to the healthcare system. They increase 
+the morale toward telemedicine services in the commu-
+nity and connect residents with telemedicine providers.18 
+Helping healthcare personnel understand how to manage 
+online platforms produces a more welcoming environ-
+ment. CHW training also expands the support system of 
+patients during telemedicine consultations. Thus, inte-
+gration of telemedicine management and use in health 
+personnel provides an avenue for increased utilisation.5
+Providing infrastructure support
+There needs to be greater coordination between the 
+healthcare sector and local government units to ensure 
+adequate infrastructure for communication technology. 
+This is especially necessary for rural and remote settings 
+where there is generally less established infrastructure.7 
+Infrastructural support can be facilitated through the 
+identification of areas with strong reception that are 
+easily accessible to residents. These will serve as potential 
+areas for setting up satellite telemedicine sites that resi-
+dents can access if they wish to avail of remote consulta-
+tion services. Increased telemedicine access in the home 
+setting could also occur through partnerships with private 
+telecommunication companies that have strong recep-
+tion in the area. A stronger implementation of EO 127 
+can facilitate increased access regardless of distance or 
+economic status. These interventions minimise the likeli-
+hood that established satellite services become underuti-
+lised because cellphones cannot get a signal.
+BMJ Health & Care Informatics: first published as 10.1136/bmjhci-2023-100837 on 7 August 2024. Downloaded from https://informatics.bmj.com on 16 September 2024 by guest. Protected by
+ copyright.
+
+8
+Fabian N, et al. BMJ Health Care Inform 2024;31:e100837. doi:10.1136/bmjhci-2023-100837
+Open access
+LIMITATIONS
+Different subpopulations have unique healthcare experi-
+ences. This study explored geography and age as factors 
+that can influence the decision to use. Other factors such 
+as sex, socioeconomic status and computer literacy can 
+impact individuals’ experience of telemedicine. Thus, 
+the results of this study may not be representative of the 
+general Philippine population.
+The study participants’ attitudes and perspectives 
+towards telemedicine may have also been affected by 
+their recall ability, with perceptions potentially being 
+modified by the passage of time. Future researchers are 
+encouraged to narrow down usage from 3 to 6 months to 
+gain fresh insight.
+CONCLUSION
+With the advent of the COVID-­19 pandemic, telemedi-
+cine resurfaces as a potential avenue through which 
+healthcare can remain accessible. It was not seen as a 
+long-­term staple for healthcare services, primarily due 
+to technological hesitancy and inadequacy of resources. 
+This suggests that there is work to be done to upscale the 
+usage and acceptance of telemedicine services beyond 
+the pandemic.
+This study provides a comparative analysis of the 
+personal and infrastructural factors that may affect tele-
+medicine utilisation among urban, rural and remote local-
+ities in LMICs. Analysis of sentiments revealed that the 
+decision to use telemedicine services is largely contextual 
+and socially informed. It adheres to the framework that all 
+domains of behavioural intention affect a patient’s deci-
+sion to use. People make decisions depending on their 
+most recent beliefs about telemedicine, the feedback they 
+receive from people around them, and the perceived 
+availability of resources. Good feedback from trusted 
+individuals and the availability of public infrastructure is 
+likely to produce a positive impact on a person’s belief 
+about the service.
+This study provides an in-­depth analysis of how policy-­
+makers can maximise resources to sustain utilisation of 
+telemedicine beyond the pandemic and in anticipation 
+of the universal healthcare implementation in the Phil-
+ippines. Policy-­makers must carefully assess all domains 
+when crafting interventions. The need to create a tele-
+medicine platform that is easy for caretakers and patients 
+to navigate was a distinctive idea expressed by most partic-
+ipants. Healthcare advocates can improve technological 
+infrastructure while making people confident about inte-
+grating technology into their healthcare routines.
+Author affiliations
+1Program on Health Systems Development - Philippine Primary Care Studies, Center 
+for Integrative and Development Studies, University of the Philippines Diliman, 
+Quezon City, Philippines
+2College of Nursing, University of the East Ramon Magsaysay Memorial Medical 
+Center, Quezon City, Philippines
+3Department of Clinical Epidemiology, College of Medicine, University of the 
+Philippines Manila, Manila City, Philippines
+4National Clinical Trials and Translation Center, National Insitute of Health, University 
+of the Philippines Manila, Manila City, Philippines
+5Center for Research and Innovation, School of Medicine and Public Health, Ateneo 
+de Manila University, Pasig City, Philippines
+6Department of Pediatrics, College of Medicine, University of the Philippines Manila, 
+Manila City, Philippines
+7Department of Accounting and Finance, Virata School of Business, University of the 
+Philippines Diliman, Quezon City, Philippines
+8National Academy of Science and Technology, Department of Science and 
+Technology, Taguig City, Philippines
+Acknowledgements  The study group would like to extend its gratitude to the 
+Municipalities of Samal and Bulusan for collaborating with us for this research 
+endeavor.
+Contributors  NF developed the study design, executed the study, encoded and 
+analysed the results and led the writing of the manuscript. She will also serve 
+as the guarantor of this study. RYDM developed the study design, executed 
+the study, encoded and analysed the results and contributed in developing the 
+manuscript. AL developed the study design and structured the manuscript. JL, ZB 
+and HZ contributed in data gathering. CT-­L, GS, LD, JS, NS, MR and AD edited the 
+manuscript.
+Funding  This study was funded by the National Academy of Science and 
+Technology, the University of the Philippines Center for Integrative Development 
+Studies and the Philippine Council for Health Research and Development. Funders 
+did not provide grant numbers for this study.
+Competing interests  None declared.
+Patient consent for publication  Consent obtained directly from patient(s).
+Ethics approval  This study involves human participants and the paper has been 
+subjected to ethics review by The University of the Philippines Manila Research 
+Ethics Board (UPMREB) under study protocol code UPMREB 2015-­489-­01 and 
+has been endorsed favourably by the said board or committee. Participants gave 
+informed consent to participate in the study before taking part.
+Provenance and peer review  Not commissioned; externally peer reviewed.
+Data availability statement  Data are available on reasonable request.
+Supplemental material  This content has been supplied by the author(s). It has 
+not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been 
+peer-­reviewed. Any opinions or recommendations discussed are solely those 
+of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and 
+responsibility arising from any reliance placed on the content. Where the content 
+includes any translated material, BMJ does not warrant the accuracy and reliability 
+of the translations (including but not limited to local regulations, clinical guidelines, 
+terminology, drug names and drug dosages), and is not responsible for any error 
+and/or omissions arising from translation and adaptation or otherwise.
+Open access  This is an open access article distributed in accordance with the 
+Creative Commons Attribution Non Commercial (CC BY-­NC 4.0) license, which 
+permits others to distribute, remix, adapt, build upon this work non-­commercially, 
+and license their derivative works on different terms, provided the original work is 
+properly cited, appropriate credit is given, any changes made indicated, and the use 
+is non-­commercial. See: http://creativecommons.org/licenses/by-nc/4.0/.
+ORCID iDs
+Noleen Fabian http://orcid.org/0000-0002-8028-6242
+Regine Ynez De Mesa http://orcid.org/0000-0001-8011-8567
+REFERENCES
+	 1	 Ryu S. History of telemedicine: evolution, context, and 
+transformation. Healthc Inform Res 2010;16:65. 
+	 2	 Noceda AVG, Acierto LMM, Bertiz MCC, et al. Patient satisfaction 
+with telemedicine in the Philippines during the COVID-­19 pandemic. 
+Public Glob Health [Preprint] 2022. 
+	 3	 Bashshur RL, Shannon GW, Smith BR, et al. The empirical 
+foundations of telemedicine interventions for chronic disease 
+management. Telemed e-­Health 2014;20:769–800. 
+	 4	 Qiang JK, Marras C. Telemedicine in Parkinson’s disease: a patient 
+perspective at a tertiary care centre. Parkinsonism Relat Disord 
+2015;21:525–8. 
+BMJ Health & Care Informatics: first published as 10.1136/bmjhci-2023-100837 on 7 August 2024. Downloaded from https://informatics.bmj.com on 16 September 2024 by guest. Protected by
+ copyright.
+
+9
+Fabian N, et al. BMJ Health Care Inform 2024;31:e100837. doi:10.1136/bmjhci-2023-100837
+Open access
+	 5	 Macariola AD, Santarin TMC, Villaflor FJM, et al. Breaking barriers 
+amid the pandemic: the status of telehealth in Southeast Asia and its 
+potential as a mode of healthcare delivery in the Philippines. Front 
+Pharmacol 2021;12:754011. 
+	 6	 President of the Philippines. Executive order no.127. 2021. Available: 
+https://www.officialgazette.gov.ph/downloads/2021/03mar/​
+20210310-EO-127-RRD.pdf [Accessed 28 Dec 2022].
+	 7	 Albert JRG, Quimba FMA, Tabuga AD, et al. Expanded data analysis 
+and policy research for national ict household survey report. 
+Philippines Philippine Institute of Development Studies; August 2019.
+	 8	 Lau LL, Hung N, Go DJ, et al. Knowledge, attitudes and practices 
+of COVID-­19 among income-­poor households in the Philippines: a 
+cross-­sectional study. J Glob Health 2020;10:011007. 
+	 9	 Kohnke A, Cole ML, Bush R. Incorporating UTAUT predictors for 
+understanding home care patients’ and clinician’s acceptance 
+of healthcare telemedicine equipment. J Technol Manag Innov 
+2014;9:29–41. 
+	10	 Sabatello M, Burke TB, McDonald KE, et al. Disability, ethics, 
+and health care in the COVID-­19 pandemic. Am J Public Health 
+2020;110:1523–7. 
+	11	 Gray R, Sanders C. A reflection on the impact of COVID-­19 on 
+primary care in the United Kingdom. J Interprof Care 2020;34:672–8. 
+	12	 Kearon J, Risdon C. The role of primary care in a pandemic: 
+reflections during the COVID-­19 pandemic in Canada. J Prim Care 
+Community Health 2020;11:2150132720962871. 
+	13	 George SM, Hamilton A, Baker R. Pre-­experience perceptions about 
+telemedicine among African Americans and Latinos in South Central 
+Los Angeles. Telemed J E Health 2009;15:525–30. 
+	14	 Bernal-­Sundiang N, De Mesa R, MarforiJR, et al. Governance in 
+primary care systems: experiences and lessons from urban, rural, 
+and remote settings in the Philippines. Acta Med Philipp 2023;57. 
+	15	 Godin G, Kok G. The theory of planned behavior: a review of its 
+applications to health-­related behaviors. Am J Health Promot 
+1996;11:87–98. 
+	16	 Sun R, Blayney DW, Hernandez-­Boussard T. Health management 
+via telemedicine: learning from the COVID-­19 experience. J Am Med 
+Inform Assoc 2021;28:2536–40. 
+	17	 Rice T. The hallmark of a doctor’: the stethoscope and the making of 
+medical identity. J Mater Cult 2010;15:287–301. 
+	18	 Campbell C, Gillies P. Conceptualizing ‘social capital’ for health 
+promotion in small local communities: a micro‐qualitative study. J 
+Community Appl Soc Psychol 2001;11:329–46. 
+	19	 Mallari E, Lasco G, Sayman DJ, et al. Connecting communities to 
+primary care: a qualitative study on the roles, motivations and lived 
+experiences of community health workers in the Philippines. BMC 
+Health Serv Res 2020;20:860. 
+	20	 Jagosh J, Bush PL, Salsberg J, et al. A realist evaluation of 
+community-­based participatory research: partnership synergy, trust 
+building and related ripple effects. BMC Public Health 2015;15:725. 
+	21	 Wlodarczyk JR, Wolfswinkel EM, Poh MM, et al. Defining best 
+practices for videoconferencing in the era of telemedicine and 
+COVID-­19. J Craniofac Surg 2020;31:e658–60. 
+	22	 John RBA, Lucila OB. Personality traits as predictors of facebook 
+use. Int J Psychol Couns 2016;8:45–52. 
+	23	 Subramanian U, Hopp F, Lowery J, et al. Research in home-­care 
+telemedicine: challenges in patient recruitment. Telemed J E Health 
+2004;10:155–61. 
+	24	 Nikolian VC, Williams AM, Jacobs BN, et al. Pilot study to evaluate 
+the safety, feasibility, and financial implications of a postoperative 
+telemedicine program. Ann Surg 2018;268:700–7. 
+	25	 Graven LJ, Glueckauf RL, Regal RA, et al. Telehealth interventions 
+for family caregivers of persons with chronic health conditions: a 
+systematic review of randomized controlled trials. Int J Telemed Appl 
+2021;2021:3518050. 
+	26	 Wilson NW, Couper ID, De Vries E, et al. A critical review of 
+interventions to redress the inequitable distribution of healthcare 
+professionals to rural and remote areas. Rural Remote Health 
+2009;9:1060.
+BMJ Health & Care Informatics: first published as 10.1136/bmjhci-2023-100837 on 7 August 2024. Downloaded from https://informatics.bmj.com on 16 September 2024 by guest. Protected by
+ copyright.
