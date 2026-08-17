@@ -3,6 +3,8 @@
 {% block title %}Document Review — HAUdemicCheck{% endblock %}
 
 {% block head %}
+<!-- Intro.js CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intro.js@7.0.1/introjs.min.css">
 <style>
     /* ---------- Document panels (white header, maroon accent) ---------- */
     .doc-panel {
@@ -168,6 +170,198 @@
         clip: rect(0, 0, 0, 0);
         border: 0;
     }
+
+    /* =========================================================
+       Intro.js Walkthrough – HAUdemicCheck Theme
+       ========================================================= */
+    .introjs-overlay {
+        background: rgba(42, 35, 33, 0.75);
+    }
+
+    .introjs-tooltip {
+        background-color: #ffffff;
+        color: var(--hau-text);
+        border-radius: 12px;
+        border: 1px solid var(--hau-maroon);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+        min-width: 300px;
+        max-width: 420px;
+        padding: 1.25rem 1.5rem 1rem;
+        font-family: inherit;
+        position: relative;
+    }
+
+    .introjs-tooltip-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.75rem;
+        margin-bottom: 0.75rem;
+        padding-right: 4.5rem;
+    }
+
+    .introjs-tooltiptitle {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: var(--hau-maroon);
+        margin: 0;
+    }
+
+    .introjs-skipbutton {
+        display: block !important;
+        background-color: transparent !important;
+        color: var(--hau-text-muted);
+        border: none !important;
+        box-shadow: none !important;
+        border-radius: 0;
+        padding: 0.3rem 0.5rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+        text-shadow: none;
+        transition: color 0.2s;
+        position: absolute;
+        right: 0.5rem;
+        top: 0.5rem;
+        z-index: 10;
+        cursor: pointer;
+    }
+
+    .introjs-skipbutton:hover,
+    .introjs-skipbutton:focus {
+        background-color: transparent;
+        color: var(--hau-maroon);
+        text-decoration: underline;
+    }
+
+    .introjs-skipbutton:focus-visible {
+        outline: 2px solid var(--hau-gold);
+        outline-offset: 2px;
+    }
+
+    .introjs-tooltiptext {
+        color: var(--hau-text-muted);
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+    }
+
+    .introjs-button {
+        background-color: var(--hau-maroon);
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        padding: 0.5rem 1rem;
+        font-weight: 600;
+        font-size: 0.85rem;
+        text-shadow: none;
+        cursor: pointer;
+        transition: background-color 0.2s, box-shadow 0.2s;
+        box-shadow: 0 2px 4px rgba(107, 15, 26, 0.15);
+    }
+
+    .introjs-button:hover,
+    .introjs-button:focus {
+        background-color: var(--hau-maroon-dark);
+        color: #fff;
+        box-shadow: 0 4px 8px rgba(107, 15, 26, 0.25);
+    }
+
+    .introjs-button:focus-visible {
+        outline: 2px solid var(--hau-gold);
+        outline-offset: 2px;
+    }
+
+    .introjs-button.introjs-disabled,
+    .introjs-button.introjs-disabled:hover,
+    .introjs-button.introjs-disabled:focus {
+        background-color: #e0e0e0;
+        color: #9e9e9e;
+        cursor: not-allowed;
+        box-shadow: none;
+    }
+
+    .introjs-prevbutton {
+        background-color: transparent;
+        color: var(--hau-maroon);
+        border: 1px solid var(--hau-maroon);
+        box-shadow: none;
+    }
+
+    .introjs-prevbutton:hover,
+    .introjs-prevbutton:focus {
+        background-color: rgba(107, 15, 26, 0.06);
+        color: var(--hau-maroon);
+    }
+
+    .introjs-progress {
+        background-color: rgba(107, 15, 26, 0.1);
+        border-radius: 999px;
+        height: 6px;
+        margin-bottom: 0.75rem;
+        overflow: hidden;
+    }
+
+    .introjs-progressbar {
+        background-color: var(--hau-gold);
+        border-radius: 999px;
+        transition: width 0.3s ease;
+    }
+
+    .introjs-bullets ul li a {
+        background-color: #ccc;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin: 0 4px;
+        transition: background-color 0.2s;
+    }
+
+    .introjs-bullets ul li a.active {
+        background-color: var(--hau-maroon);
+    }
+
+    .introjs-helperLayer {
+        background-color: rgba(255, 255, 255, 0.85);
+        border: 2px solid var(--hau-gold);
+        border-radius: 8px;
+        box-shadow: 0 0 0 4px rgba(197, 160, 40, 0.3);
+    }
+
+    .introjs-arrow.top,
+    .introjs-arrow.top-right,
+    .introjs-arrow.top-middle {
+        border-bottom-color: #ffffff;
+    }
+    .introjs-arrow.bottom,
+    .introjs-arrow.bottom-right,
+    .introjs-arrow.bottom-middle {
+        border-top-color: #ffffff;
+    }
+    .introjs-arrow.left,
+    .introjs-arrow.left-bottom {
+        border-right-color: #ffffff;
+    }
+    .introjs-arrow.right,
+    .introjs-arrow.right-bottom {
+        border-left-color: #ffffff;
+    }
+
+    @media (max-width: 576px) {
+        .introjs-tooltip {
+            min-width: auto;
+            max-width: 90vw;
+            padding: 1rem;
+        }
+        .introjs-tooltip-header {
+            padding-right: 4rem;
+        }
+        .introjs-skipbutton {
+            top: 0.25rem;
+            right: 0.25rem;
+            padding: 0.25rem 0.7rem;
+            font-size: 0.75rem;
+        }
+    }
 </style>
 {% endblock %}
 
@@ -176,11 +370,15 @@
     <div class="text-center mb-4">
         <h1 class="display-5 fw-bold">Document Review</h1>
         <p class="lead text-muted">Detailed side‑by‑side similarity analysis</p>
+        <!-- Tutorial button -->
+        <button type="button" id="startTutorialBtn" class="btn btn-outline-primary">
+            <i class="bi bi-question-circle me-1"></i> Tutorial
+        </button>
     </div>
 
     {% if review.summary %}
     <!-- Plain‑language verdict -->
-    <div class="alert alert-danger d-flex align-items-center justify-content-between p-3 mb-4 shadow-sm" role="alert">
+    <div class="alert alert-danger d-flex align-items-center justify-content-between p-3 mb-4 shadow-sm" role="alert" id="verdictAlert">
         <div class="d-flex align-items-center">
             <i class="bi bi-exclamation-triangle-fill fs-3 me-3" aria-hidden="true"></i>
             <div>
@@ -195,7 +393,7 @@
     </div>
 
     <!-- Sticky metric cards with severity line -->
-    <div class="sticky-score-bar">
+    <div class="sticky-score-bar" id="metricsBar">
         <div class="row text-center g-2">
             <div class="col-6 col-md-3">
                 <div
@@ -269,7 +467,7 @@
     </div>
 
     <!-- Navigation and final actions -->
-    <div class="d-flex justify-content-between align-items-center border-top pt-4 mt-5">
+    <div class="d-flex justify-content-between align-items-center border-top pt-4 mt-5" id="actionBar">
         <div>
             <a href="{{ url_for('results') }}" class="btn btn-primary me-2">
                 <i class="bi bi-arrow-left"></i> Back to Results
@@ -279,26 +477,68 @@
             </a>
         </div>
         <div class="d-flex gap-2">
-            <form action="{{ url_for('dismiss_flag', filename=review.document) }}" method="POST"
-                onsubmit="return confirm('Move this document to the repository?');">
+            <!-- Dismiss Flag button triggers modal -->
+            <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#dismissModal">
+                <i class="bi bi-x-circle"></i> Dismiss Flag
+            </button>
 
-                <button type="submit" class="btn btn-outline-danger">
-                    <i class="bi bi-x-circle"></i>
-                    Dismiss Flag
-                </button>
+            <!-- Confirm Flag button triggers modal -->
+            <button type="button" class="btn btn-gold" data-bs-toggle="modal" data-bs-target="#confirmModal">
+                <i class="bi bi-check-circle-fill"></i> Confirm Flag & Submit
+            </button>
+        </div>
+    </div>
+</div>
 
-            </form>
+<!-- Dismiss Flag Confirmation Modal -->
+<div class="modal fade" id="dismissModal" tabindex="-1" aria-labelledby="dismissModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dismissModalLabel">Dismiss Flag</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to dismiss this flag?</p>
+                <p class="text-muted small">
+                    The document will be moved to the Golden Standard Repository and
+                    marked as original.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <form action="{{ url_for('dismiss_flag', filename=review.document) }}" method="POST" class="d-inline">
+                    <button type="submit" class="btn btn-outline-danger">
+                        <i class="bi bi-x-circle"></i> Dismiss Flag
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
-            <form action="{{ url_for('confirm_flag', filename=review.document) }}" method="POST"
-                onsubmit="return confirm('Confirm this document as plagiarized?');">
-
-                <button type="submit" class="btn btn-gold">
-                    <i class="bi bi-check-circle-fill"></i>
-                    Confirm Flag & Submit
-                </button>
-
-            </form>
-
+<!-- Confirm Flag Confirmation Modal -->
+<div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmModalLabel">Confirm Plagiarism</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to confirm this document as plagiarized?</p>
+                <p class="text-muted small">
+                    This will submit the plagiarism report and the document will remain flagged.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <form action="{{ url_for('confirm_flag', filename=review.document) }}" method="POST" class="d-inline">
+                    <button type="submit" class="btn btn-gold">
+                        <i class="bi bi-check-circle-fill"></i> Confirm Flag & Submit
+                    </button>
+                </form>
+            </div>
         </div>
     </div>
 </div>
@@ -309,129 +549,117 @@
 {% endblock %}
 
 {% block scripts %}
+<!-- Intro.js JS -->
+<script src="https://cdn.jsdelivr.net/npm/intro.js@7.0.1/intro.min.js"></script>
 <script>
     (function () {
+        // ===== Existing match navigation code =====
         const leftPanel = document.getElementById('leftPanel');
         const rightPanel = document.getElementById('rightPanel');
 
-        if (!leftPanel || !rightPanel) return;
-        const leftMarks = leftPanel.querySelectorAll(
-            'mark.match-prose, mark.match-citation'
-        );
+        if (leftPanel && rightPanel) {
+            const leftMarks = leftPanel.querySelectorAll('mark.match-prose, mark.match-citation');
+            const rightMarks = rightPanel.querySelectorAll('mark.match-prose, mark.match-citation');
 
-        const rightMarks = rightPanel.querySelectorAll(
-            'mark.match-prose, mark.match-citation'
-        );
+            const leftIndex = new Map();
+            const rightIndex = new Map();
 
-        /*
-         * Build lookup maps:
-         *
-         * match ID -> highlighted element
-         *
-         * This allows the same sentence pair to be found instantly
-         * on either side of the comparison.
-         */
+            leftMarks.forEach(mark => {
+                const matchId = mark.dataset.matchId;
+                if (matchId) leftIndex.set(matchId, mark);
+            });
 
-        const leftIndex = new Map();
-        const rightIndex = new Map();
+            rightMarks.forEach(mark => {
+                const matchId = mark.dataset.matchId;
+                if (matchId) rightIndex.set(matchId, mark);
+            });
 
-        leftMarks.forEach(mark => {
-            const matchId = mark.dataset.matchId;
+            function setActiveMatch(matchId) {
+                if (!matchId) return;
 
-            if (matchId) {
-                leftIndex.set(matchId, mark);
-            }
-        });
-
-        rightMarks.forEach(mark => {
-            const matchId = mark.dataset.matchId;
-
-            if (matchId) {
-                rightIndex.set(matchId, mark);
-            }
-        });
-
-        /*
-         * ------------------------------------------------------------
-         * Activate a matched sentence
-         * ------------------------------------------------------------
-         */
-
-        function setActiveMatch(matchId) {
-            if (!matchId) return;
-
-            /*
-             * Remove the previous active highlight from both panels.
-             */
-
-            document
-                .querySelectorAll('.doc-panel-body mark.current-match')
-                .forEach(mark => {
+                document.querySelectorAll('.doc-panel-body mark.current-match').forEach(mark => {
                     mark.classList.remove('current-match');
                 });
 
-            /*
-             * Find the corresponding highlight on both sides.
-             */
+                const leftMark = leftIndex.get(matchId);
+                const rightMark = rightIndex.get(matchId);
 
-            const leftMark = leftIndex.get(matchId);
-            const rightMark = rightIndex.get(matchId);
-
-            /*
-             * Highlight and scroll the uploaded-document match.
-             */
-
-            if (leftMark) {
-                leftMark.classList.add('current-match');
-
-                leftMark.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'center'
-                });
+                if (leftMark) {
+                    leftMark.classList.add('current-match');
+                    leftMark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+                if (rightMark) {
+                    rightMark.classList.add('current-match');
+                    rightMark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
             }
 
-            /*
-             * Highlight and scroll the repository-document match.
-             */
-
-            if (rightMark) {
-                rightMark.classList.add('current-match');
-
-                rightMark.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'center'
-                });
+            function markClickHandler(event) {
+                const matchId = event.currentTarget.dataset.matchId;
+                if (!matchId) return;
+                setActiveMatch(matchId);
             }
+
+            leftMarks.forEach(mark => mark.addEventListener('click', markClickHandler));
+            rightMarks.forEach(mark => mark.addEventListener('click', markClickHandler));
         }
 
-        /*
-         * ------------------------------------------------------------
-         * Highlight click handler
-         * ------------------------------------------------------------
-         */
+        // ===== Tutorial Walkthrough =====
+        const tutorialBtn = document.getElementById('startTutorialBtn');
+        if (tutorialBtn && typeof introJs !== 'undefined') {
+            tutorialBtn.addEventListener('click', function () {
+                const steps = [];
 
-        function markClickHandler(event) {
-            const matchId = event.currentTarget.dataset.matchId;
+                const verdictAlert = document.getElementById('verdictAlert');
+                if (verdictAlert) {
+                    steps.push({
+                        element: '#verdictAlert',
+                        intro: 'This banner shows the overall similarity verdict and risk level.',
+                        position: 'bottom'
+                    });
+                }
 
-            if (!matchId) return;
+                const metricsBar = document.getElementById('metricsBar');
+                if (metricsBar) {
+                    steps.push({
+                        element: '#metricsBar',
+                        intro: 'These metric cards show the four similarity scores used in the analysis.',
+                        position: 'bottom'
+                    });
+                }
 
-            setActiveMatch(matchId);
+                steps.push({
+                    element: '#leftPanel',
+                    intro: 'This panel displays the uploaded document with highlighted matches. Click any highlight to jump to the corresponding match on the other side.',
+                    position: 'right'
+                });
+                steps.push({
+                    element: '#rightPanel',
+                    intro: 'This panel displays the repository document with matching sentences highlighted.',
+                    position: 'left'
+                });
+                steps.push({
+                    element: '#actionBar',
+                    intro: 'Use these buttons to either dismiss the flag (move to repository) or confirm plagiarism and submit the report.',
+                    position: 'top'
+                });
+
+                const intro = introJs();
+                intro.setOptions({
+                    steps: steps,
+                    showProgress: true,
+                    showBullets: true,
+                    exitOnOverlayClick: true,
+                    exitOnEsc: true,
+                    nextLabel: 'Next →',
+                    prevLabel: '← Back',
+                    skipLabel: 'Skip',
+                    doneLabel: 'Done'
+                });
+
+                intro.start();
+            });
         }
-
-        /*
-         * ------------------------------------------------------------
-         * Attach click handlers
-         * ------------------------------------------------------------
-         */
-
-        leftMarks.forEach(mark => {
-            mark.addEventListener('click', markClickHandler);
-        });
-
-        rightMarks.forEach(mark => {
-            mark.addEventListener('click', markClickHandler);
-        });
     })();
 </script>
 {% endblock %}
-```

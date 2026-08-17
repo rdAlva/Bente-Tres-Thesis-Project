@@ -3,26 +3,270 @@
 {% block title %}Repository Management — HAUdemicCheck{% endblock %}
 
 {% block head %}
+<!-- Intro.js CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intro.js@7.0.1/introjs.min.css">
 <style>
-    /* Stronger drop-zone boundary (same as index.html) */
+    /* Stronger drop-zone boundary */
     .drop-zone {
         border-color: rgba(107, 15, 26, 0.55) !important;
     }
-
     .drop-zone:focus-within {
         outline: 2px solid var(--hau-gold);
         outline-offset: 2px;
     }
-
     .repository-table {
         table-layout: fixed;
         width: 100%;
     }
-
     .repository-table .repository-file {
         min-width: 0;
         white-space: normal;
         word-break: break-word;
+    }
+    .my-docs-search {
+        max-width: 420px;
+        width: 100%;
+    }
+    /* Refresh button */
+    .btn-refresh {
+        background-color: var(--hau-maroon);
+        color: #fff;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 0.85rem;
+        font-weight: 600;
+        transition: background-color 0.2s;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+    }
+    .btn-refresh:hover {
+        background-color: var(--hau-maroon-dark);
+    }
+    /* Delete confirmation modal */
+    .modal-content {
+        border-radius: var(--hau-radius);
+        border: 1px solid var(--hau-maroon);
+    }
+    #deleteModalMessage {
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
+    .modal-header {
+        background-color: var(--hau-maroon);
+        color: #fff;
+        border-bottom: 2px solid var(--hau-gold);
+}
+    .modal-footer .btn-danger {
+        background-color: #B3261E;
+        border-color: #B3261E;
+    }
+    /* ===== Intro.js Walkthrough – HAUdemicCheck Theme ===== */
+    /* Overlay */
+    .introjs-overlay {
+        background: rgba(42, 35, 33, 0.75);
+    }
+
+    /* Tooltip container */
+    .introjs-tooltip {
+        background-color: #ffffff;
+        color: var(--hau-text);
+        border-radius: 12px;
+        border: 1px solid var(--hau-maroon);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+        min-width: 300px;
+        min-height: 60px;
+        max-width: 420px;
+        padding: 1.25rem 1.5rem 1rem;
+        font-family: inherit;
+        position: relative;
+    }
+
+    /* Tooltip header area (title + skip button) */
+    .introjs-tooltip-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.75rem;
+        margin-bottom: 0.75rem;
+        padding-right: 4.5rem; /* reserve space so title never runs under the skip button */
+    }
+
+    .introjs-tooltiptitle {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: var(--hau-maroon);
+        margin: 0;
+    }
+
+    /* Skip button (fixed position, styled, always visible) */
+    .introjs-skipbutton {
+        display: block !important;
+        background-color: transparent !important;
+        color: var(--hau-text-muted);
+        border: none !important;
+        box-shadow: none !important;
+        border-radius: 0;
+        padding: 0.3rem 0.5rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+        text-shadow: none;
+        transition: color 0.2s;
+        position: absolute;
+        right: 0.5rem;
+        top: 0.5rem;
+        z-index: 10;
+        cursor: pointer;
+    }
+
+    .introjs-skipbutton:hover,
+    .introjs-skipbutton:focus {
+        background-color: transparent;
+        color: var(--hau-maroon);
+        text-decoration: underline;
+    }
+
+    .introjs-skipbutton:focus-visible {
+        outline: 2px solid var(--hau-gold);
+        outline-offset: 2px;
+    }
+
+    /* Tooltip body text */
+    .introjs-tooltiptext {
+        color: var(--hau-text-muted);
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+    }
+
+    /* Navigation buttons */
+    .introjs-button {
+        background-color: var(--hau-maroon);
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        padding: 0.5rem 1rem;
+        font-weight: 600;
+        font-size: 0.85rem;
+        text-shadow: none;
+        cursor: pointer;
+        transition: background-color 0.2s, box-shadow 0.2s;
+        box-shadow: 0 2px 4px rgba(107, 15, 26, 0.15);
+    }
+
+    .introjs-button:hover,
+    .introjs-button:focus {
+        background-color: var(--hau-maroon-dark);
+        color: #fff;
+        box-shadow: 0 4px 8px rgba(107, 15, 26, 0.25);
+    }
+
+    .introjs-button:focus-visible {
+        outline: 2px solid var(--hau-gold);
+        outline-offset: 2px;
+    }
+
+    .introjs-button.introjs-disabled,
+    .introjs-button.introjs-disabled:hover,
+    .introjs-button.introjs-disabled:focus {
+        background-color: #e0e0e0;
+        color: #9e9e9e;
+        cursor: not-allowed;
+        box-shadow: none;
+    }
+
+    /* Back button */
+    .introjs-prevbutton {
+        background-color: transparent;
+        color: var(--hau-maroon);
+        border: 1px solid var(--hau-maroon);
+        box-shadow: none;
+    }
+
+    .introjs-prevbutton:hover,
+    .introjs-prevbutton:focus {
+        background-color: rgba(107, 15, 26, 0.06);
+        color: var(--hau-maroon);
+    }
+
+    /* Progress bar */
+    .introjs-progress {
+        background-color: rgba(107, 15, 26, 0.1);
+        border-radius: 999px;
+        height: 6px;
+        margin-bottom: 0.75rem;
+        overflow: hidden;
+    }
+
+    .introjs-progressbar {
+        background-color: var(--hau-gold);
+        border-radius: 999px;
+        transition: width 0.3s ease;
+    }
+
+    /* Bullets */
+    .introjs-bullets ul li a {
+        background-color: #ccc;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin: 0 4px;
+        transition: background-color 0.2s;
+    }
+
+    .introjs-bullets ul li a.active {
+        background-color: var(--hau-maroon);
+    }
+
+    /* Highlighted element */
+    .introjs-helperLayer {
+        background-color: rgba(255, 255, 255, 0.85);
+        border: 2px solid var(--hau-gold);
+        border-radius: 8px;
+        box-shadow: 0 0 0 4px rgba(197, 160, 40, 0.3);
+    }
+
+    /* Arrow — direction-specific, matches tooltip background */
+    .introjs-arrow {
+        border: 6px solid transparent;
+    }
+    .introjs-arrow.top,
+    .introjs-arrow.top-right,
+    .introjs-arrow.top-middle {
+        border-bottom-color: #ffffff;
+    }
+    .introjs-arrow.bottom,
+    .introjs-arrow.bottom-right,
+    .introjs-arrow.bottom-middle {
+        border-top-color: #ffffff;
+    }
+    .introjs-arrow.left,
+    .introjs-arrow.left-bottom {
+        border-right-color: #ffffff;
+    }
+    .introjs-arrow.right,
+    .introjs-arrow.right-bottom {
+        border-left-color: #ffffff;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 576px) {
+        .introjs-tooltip {
+            min-width: auto;
+            max-width: 90vw;
+            padding: 1rem;
+        }
+        .introjs-tooltip-header {
+            padding-right: 4rem;
+        }
+        .introjs-skipbutton {
+            top: 0.25rem;
+            right: 0.25rem;
+            padding: 0.25rem 0.7rem;
+            font-size: 0.75rem;
+        }
     }
 </style>
 {% endblock %}
@@ -32,40 +276,38 @@
 <div class="text-center">
     <img src="{{ url_for('static', filename='images/logo.png') }}" alt="HAUdemicCheck logo" class="mb-4" width="120">
     <h1 class="display-5 fw-bold">Repository Management</h1>
-    <!-- Fix for multi‑colored subtitle: force single muted color -->
     <p class="lead text-muted">
         Upload verified original PDF documents directly into the plagiarism repository.
     </p>
+    <div class="mt-3">
+        <button type="button" id="startTutorialBtn" class="btn btn-outline-primary">
+            <i class="bi bi-question-circle me-1"></i> Tutorial
+        </button>
+    </div>
 </div>
 
-<!-- ===== UPLOAD SECTION (drop-zone component) ===== -->
-<div class="card shadow-lg mt-5">
+<!-- ===== UPLOAD SECTION ===== -->
+<div class="card shadow-lg mt-5" id="uploadCard">
     <div class="card-header">
         <h2 class="h5 mb-0">Add Verified PDFs to Repository</h2>
     </div>
     <div class="card-body p-3 p-md-5">
-
         <form method="POST" enctype="multipart/form-data" novalidate>
             {{ form.hidden_tag() }}
 
             <div class="mb-4">
-                <label class="form-label fw-semibold" for="repoFiles">
-                    Select Verified PDF File(s)
-                </label>
-
-                <!-- Reusable drop zone -->
+                <label class="form-label fw-semibold" for="repoFiles">Select Verified PDF File(s)</label>
                 <div id="dropZone" class="drop-zone py-4">
                     <i class="bi bi-cloud-arrow-up drop-zone-icon" aria-hidden="true"></i>
                     <p class="mb-1 fw-semibold">Drag files here or click to browse</p>
                     <p class="mb-0 text-muted small">Only .pdf files are accepted</p>
-
                     {{ form.files(
-                    class="drop-zone-input" ~ (" is-invalid" if form.files.errors else ""),
-                    multiple=True,
-                    accept=".pdf",
-                    id="repoFiles",
-                    aria_describedby="repoFilesHelp",
-                    aria_invalid="true" if form.files.errors else "false"
+                        class="drop-zone-input" ~ (" is-invalid" if form.files.errors else ""),
+                        multiple=True,
+                        accept=".pdf",
+                        id="repoFiles",
+                        aria_describedby="repoFilesHelp",
+                        aria_invalid="true" if form.files.errors else "false"
                     ) }}
                 </div>
 
@@ -76,12 +318,10 @@
                 {% endif %}
 
                 <div id="repoFilesHelp" class="form-text text-muted mt-2">
-                    Hold <strong class="text-muted">Ctrl</strong> (or <strong class="text-muted">Cmd</strong>) to select
-                    multiple files.
+                    Hold <strong class="text-muted">Ctrl</strong> (or <strong class="text-muted">Cmd</strong>) to select multiple files.
                 </div>
             </div>
 
-            <!-- Selected files list (hidden until files chosen) -->
             <div class="mb-4" id="selectedFilesContainer" style="display:none;">
                 <h2 class="h6" id="selectedFilesLabel">Selected Files</h2>
                 <ul id="selectedFiles" class="list-group" aria-live="polite"></ul>
@@ -90,8 +330,6 @@
 
             <div class="d-grid gap-2">
                 {{ form.submit(class="btn btn-gold btn-lg", id="uploadButton") }}
-
-                <!-- Loading state -->
                 <div id="uploadStatus"
                     class="text-center text-muted d-flex align-items-center justify-content-center gap-2 d-none"
                     role="status" aria-live="polite" hidden>
@@ -103,7 +341,7 @@
     </div>
 </div>
 
-<!-- ===== SUCCESS CONFIRMATION (shown after successful upload) ===== -->
+<!-- ===== SUCCESS CONFIRMATION ===== -->
 {% if uploaded_files %}
 <div class="card shadow mt-4 border-success">
     <div class="card-header bg-success text-white">
@@ -121,173 +359,141 @@
 {% endif %}
 
 <!-- ===== MY UPLOADED DOCUMENTS ===== -->
-<div class="card shadow mt-4">
-
+<div class="card shadow mt-4" id="myDocsCard">
     <div class="card-header d-flex justify-content-between align-items-center">
-
         <div>
-            <h2 class="h5 mb-0">
-                My Uploaded Documents
-            </h2>
+            <h2 class="h5 mb-0">My Uploaded Documents</h2>
         </div>
-
-        <span class="badge badge-gold">
-            {{ user_documents|default([])|length }} documents
-        </span>
-
+        <div class="d-flex align-items-center gap-2">
+            <span class="badge badge-gold">{{ user_documents|default([])|length }} documents</span>
+            <button id="refreshMyDocsBtn" class="btn-refresh" type="button" title="Refresh documents">
+                <i class="bi bi-arrow-clockwise"></i> Refresh
+            </button>
+        </div>
     </div>
 
-    <div class="card-body p-0">
+    <div class="card-body p-3">
+        <div class="d-flex justify-content-end mb-3">
+            <div class="my-docs-search input-group">
+                <span class="input-group-text bg-white border-end-0">
+                    <i class="bi bi-search text-muted"></i>
+                </span>
+                <input
+                    type="search"
+                    id="myDocsSearchInput"
+                    class="form-control border-start-0"
+                    placeholder="Search your documents..."
+                    aria-label="Search your uploaded documents"
+                >
+                <button
+                    type="button"
+                    id="clearMyDocsSearchBtn"
+                    class="btn btn-outline-secondary border-start-0"
+                    style="display: none;"
+                    aria-label="Clear search"
+                >
+                    <i class="bi bi-x-lg"></i>
+                </button>
+            </div>
+        </div>
 
         {% set user_documents = user_documents|default([]) %}
 
         {% if user_documents %}
-
         <div class="table-responsive repository-list-table">
-
-            <table class="table table-hover align-middle mb-0 repository-table">
-
-                <caption class="visually-hidden">
-                    Documents uploaded by the current user
-                </caption>
-
+            <table class="table table-hover align-middle mb-0 repository-table" id="myDocsTable">
+                <caption class="visually-hidden">Documents uploaded by the current user</caption>
                 <thead>
                     <tr>
-                        <th scope="col">
-                            Document
-                        </th>
-
-                        <th scope="col">
-                            Source
-                        </th>
-
-                        <th scope="col">
-                            Status
-                        </th>
-
-                        <th scope="col">
-                            Uploaded
-                        </th>
-
-                        <th scope="col">
-                            <span class="visually-hidden">
-                                Actions
-                            </span>
-                        </th>
+                        <th scope="col">Document</th>
+                        <th scope="col">Source</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Uploaded</th>
+                        <th scope="col"><span class="visually-hidden">Actions</span></th>
                     </tr>
                 </thead>
-
                 <tbody>
-
                     {% for document in user_documents %}
-
                     <tr>
-
-                        <!-- Document -->
                         <td class="repository-file">
-
                             <i class="bi bi-file-earmark-pdf text-muted me-1"></i>
-
                             {{ document.filename }}
-
                         </td>
-
-                        <!-- Source -->
                         <td>
-
                             {% if document.source == "plagiarism_check" %}
-
-                            Plagiarism Check
-
+                                Plagiarism Check
                             {% elif document.source == "repository" %}
-
-                            Repository Upload
-
+                                Repository Upload
                             {% else %}
-
-                            {{ document.source }}
-
+                                {{ document.source }}
                             {% endif %}
-
                         </td>
-
-                        <!-- Status -->
                         <td>
-
                             {% if document.status == "flagged" %}
-
-                            <span class="badge bg-danger">
-                                Flagged
-                            </span>
-
+                                <span class="badge bg-danger">Flagged</span>
                             {% elif document.status == "original" %}
-
-                            <span class="badge bg-success">
-                                Original
-                            </span>
-
+                                <span class="badge bg-success">Original</span>
                             {% else %}
-
-                            <span class="badge bg-secondary">
-                                {{ document.status }}
-                            </span>
-
+                                <span class="badge bg-secondary">{{ document.status }}</span>
                             {% endif %}
-
                         </td>
-
-                        <!-- Uploaded -->
                         <td class="text-muted small">
-                            {% if document.uploaded_at %}
-                            {{ document.uploaded_at[:10] }}
-                            {% else %}
-                            —
-                            {% endif %}
+                            {% if document.uploaded_at %}{{ document.uploaded_at[:10] }}{% else %}—{% endif %}
                         </td>
-
-                        <!-- Action -->
                         <td class="text-end">
-                            <button class="btn btn-sm btn-outline-danger delete-document-btn" title="Delete document"
-                                type="button" data-filename="{{ document.filename }}">
+                            <button class="btn btn-sm btn-outline-danger delete-document-btn"
+                                title="Delete document"
+                                type="button"
+                                data-filename="{{ document.filename }}">
                                 <i class="bi bi-trash"></i>
                                 Delete
                             </button>
-
                         </td>
-
                     </tr>
-
                     {% endfor %}
-
                 </tbody>
-
             </table>
-
         </div>
-
-        {% else %}
-
-        <div class="p-5 text-center text-muted">
-
+        <div id="myDocsNoResults" class="text-center text-muted py-4" style="display: none;">
             <i class="bi bi-folder2-open fs-2 d-block mb-2"></i>
-
-            <p class="mb-0">
-                You have not uploaded any documents yet.
-            </p>
-
+            <p class="mb-0">No documents match your search.</p>
         </div>
-
+        {% else %}
+        <div class="p-5 text-center text-muted">
+            <i class="bi bi-folder2-open fs-2 d-block mb-2"></i>
+            <p class="mb-0">You have not uploaded any documents yet.</p>
+        </div>
         {% endif %}
-
     </div>
+</div>
 
+<!-- ===== DELETE CONFIRMATION MODAL ===== -->
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteModalLabel">Confirm Deletion</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p id="deleteModalMessage">Are you sure you want to delete this document?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-danger" id="confirmDeleteBtn">Delete</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 {% endblock %}
 
 {% block scripts %}
+<!-- Intro.js JS -->
+<script src="https://cdn.jsdelivr.net/npm/intro.js@7.0.1/intro.min.js"></script>
 <script>
     (function () {
+        // ===== File upload logic =====
         const fileInput = document.getElementById("repoFiles");
         const dropZone = document.getElementById("dropZone");
         const fileList = document.getElementById("selectedFiles");
@@ -328,7 +534,6 @@
             }
         }
 
-        // Initial state
         if (fileListContainer) fileListContainer.style.display = "none";
         if (uploadStatus) {
             uploadStatus.classList.add('d-none');
@@ -363,7 +568,6 @@
             }
         });
 
-        // Reset on back navigation
         window.addEventListener("pageshow", () => {
             uploadButton.disabled = false;
             uploadButton.value = "Add to Repository";
@@ -374,72 +578,141 @@
             if (fileInput && fileInput.files.length === 0) renderFileList([]);
         });
 
+        // ===== Delete logic =====
+        const deleteModal = new bootstrap.Modal(document.getElementById('deleteModal'));
+        let deleteTarget = null;
+
         document.querySelectorAll(".delete-document-btn").forEach(button => {
-
-            button.addEventListener("click", async () => {
-
+            button.addEventListener("click", () => {
                 const filename = button.dataset.filename;
+                if (!filename) return;
+                deleteTarget = { filename, button };
+                document.getElementById('deleteModalMessage').textContent =
+                    `Are you sure you want to delete "${filename}"? This action cannot be undone.`;
+                deleteModal.show();
+            });
+        });
 
-                if (!filename) {
-                    return;
+        document.getElementById('confirmDeleteBtn').addEventListener('click', async () => {
+            if (!deleteTarget) return;
+            const { filename, button } = deleteTarget;
+            deleteModal.hide();
+            button.disabled = true;
+            const originalHTML = button.innerHTML;
+            button.innerHTML = '<span class="spinner-border spinner-border-sm me-1" aria-hidden="true"></span>Deleting...';
+
+            try {
+                const response = await fetch(`/api/my-documents/${encodeURIComponent(filename)}`, { method: "DELETE" });
+                const data = await response.json();
+                if (!response.ok || !data.success) {
+                    throw new Error(data.error || "Unable to delete document.");
                 }
+                window.location.reload();
+            } catch (error) {
+                console.error("Delete document error:", error);
+                alert(error.message || "Unable to delete the document.");
+                button.disabled = false;
+                button.innerHTML = originalHTML;
+            }
+        });
 
-                const confirmed = window.confirm(
-                    `Are you sure you want to delete "${filename}"?`
-                );
+        // ===== Refresh logic =====
+        document.getElementById('refreshMyDocsBtn').addEventListener('click', () => {
+            const btn = document.getElementById('refreshMyDocsBtn');
+            btn.innerHTML = '<span class="spinner-border spinner-border-sm me-1" aria-hidden="true"></span> Refreshing...';
+            btn.disabled = true;
+            window.location.reload();
+        });
 
-                if (!confirmed) {
-                    return;
+        // ===== Search logic =====
+        const searchInput = document.getElementById('myDocsSearchInput');
+        const clearSearchBtn = document.getElementById('clearMyDocsSearchBtn');
+        const table = document.getElementById('myDocsTable');
+        const noResultsDiv = document.getElementById('myDocsNoResults');
+
+        if (searchInput && table) {
+            const tbody = table.querySelector('tbody');
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+
+            function filterRows() {
+                const query = searchInput.value.toLowerCase().trim();
+                let visibleCount = 0;
+                rows.forEach(row => {
+                    const text = row.textContent.toLowerCase();
+                    const show = !query || text.includes(query);
+                    row.style.display = show ? '' : 'none';
+                    if (show) visibleCount++;
+                });
+                if (noResultsDiv) {
+                    noResultsDiv.style.display = visibleCount === 0 ? 'block' : 'none';
                 }
+            }
 
-                button.disabled = true;
-
-                const originalHTML = button.innerHTML;
-
-                button.innerHTML =
-                    '<span class="spinner-border spinner-border-sm me-1" aria-hidden="true"></span>Deleting...';
-
-                try {
-
-                    const response = await fetch(
-                        `/api/my-documents/${encodeURIComponent(filename)}`,
-                        {
-                            method: "DELETE",
-                        }
-                    );
-
-                    const data = await response.json();
-
-                    if (!response.ok || !data.success) {
-
-                        throw new Error(
-                            data.error || "Unable to delete document."
-                        );
-                    }
-
-                    // Reload so the deleted row disappears
-                    // from My Uploaded Documents.
-                    window.location.reload();
-
-                } catch (error) {
-
-                    console.error(
-                        "Delete document error:",
-                        error
-                    );
-
-                    alert(
-                        error.message ||
-                        "Unable to delete the document."
-                    );
-
-                    button.disabled = false;
-                    button.innerHTML = originalHTML;
-                }
-
+            searchInput.addEventListener('input', () => {
+                clearSearchBtn.style.display = searchInput.value ? 'inline-block' : 'none';
+                filterRows();
             });
 
-        });
+            clearSearchBtn.addEventListener('click', () => {
+                searchInput.value = '';
+                clearSearchBtn.style.display = 'none';
+                filterRows();
+            });
+        }
+
+        // ===== Intro.js Walkthrough =====
+        const tutorialBtn = document.getElementById('startTutorialBtn');
+        if (tutorialBtn && typeof introJs !== 'undefined') {
+            tutorialBtn.addEventListener('click', function () {
+                const deleteButton = document.querySelector('.delete-document-btn'); // may be null
+                const steps = [
+                    {
+                        element: '#dropZone',
+                        intro: 'Drag and drop your verified PDF files here, or click to browse.',
+                        position: 'bottom'
+                    },
+                    {
+                        element: '#uploadButton',
+                        intro: 'Click this button to upload the selected files to the repository.',
+                        position: 'top'
+                    },
+                    {
+                        element: '#myDocsSearchInput',
+                        intro: 'Use this search bar to filter your uploaded documents by name.',
+                        position: 'bottom'
+                    },
+                    {
+                        element: '#refreshMyDocsBtn',
+                        intro: 'Click Refresh to reload your document list and see the latest changes.',
+                        position: 'left'
+                    }
+                ];
+
+                // If a delete button exists, add a step for it
+                if (deleteButton) {
+                    steps.push({
+                        element: deleteButton,
+                        intro: 'Click the Delete button to remove a document from the repository.',
+                        position: 'left'
+                    });
+                }
+
+                const intro = introJs();
+                intro.setOptions({
+                    steps: steps,
+                    showProgress: true,
+                    showBullets: true,
+                    exitOnOverlayClick: true,
+                    exitOnEsc: true,
+                    nextLabel: 'Next →',
+                    prevLabel: '← Back',
+                    skipLabel: 'Skip',
+                    doneLabel: 'Done'
+                });
+
+                intro.start();
+            });
+        }
     })();
 </script>
 {% endblock %}
