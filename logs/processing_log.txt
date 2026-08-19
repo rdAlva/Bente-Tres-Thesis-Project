@@ -1030,3 +1030,135 @@ Promotion      : 6.298 sec
 TOTAL TIME     : 8.454 sec
 ======================================================================
 
+======================================================================
+Detection Run : 2026-08-19 12:20:52
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.051 sec
+Corpus Loading : 1.415 sec
+Promotion      : 2.260 sec
+TOTAL TIME     : 3.727 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-19 12:21:21
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.028 sec
+Corpus Loading : 1.404 sec
+Promotion      : 2.355 sec
+TOTAL TIME     : 3.788 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-19 13:13:25
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 145
+
+PDF Extraction : 0.029 sec
+Corpus Loading : 4.323 sec
+Promotion      : 2.535 sec
+TOTAL TIME     : 6.888 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-19 13:18:59
+Threshold     : 0.25
+Uploaded Docs : 1
+Repository Docs : 145
+
+PDF Extraction : 0.026 sec
+Corpus Loading : 1.231 sec
+Promotion      : 2.267 sec
+TOTAL TIME     : 3.524 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-19 13:22:45
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.030 sec
+Corpus Loading : 0.806 sec
+Promotion      : 2.356 sec
+TOTAL TIME     : 3.193 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-19 13:25:01
+Threshold     : 0.25
+Uploaded Docs : 1
+Repository Docs : 145
+
+PDF Extraction : 0.029 sec
+Corpus Loading : 3.578 sec
+Promotion      : 2.374 sec
+TOTAL TIME     : 5.981 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-19 13:54:08
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 145
+
+PDF Extraction : 0.061 sec
+Corpus Loading : 1.963 sec
+Promotion      : 2.921 sec
+TOTAL TIME     : 4.946 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-19 14:01:47
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.035 sec
+Corpus Loading : 1.576 sec
+Promotion      : 2.213 sec
+TOTAL TIME     : 3.825 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-19 14:04:51
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.030 sec
+Corpus Loading : 1.116 sec
+Promotion      : 2.591 sec
+TOTAL TIME     : 3.738 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-19 14:06:46
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.031 sec
+Corpus Loading : 1.327 sec
+Promotion      : 2.649 sec
+TOTAL TIME     : 4.008 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-19 14:09:24
+Threshold     : 0.25
+Uploaded Docs : 3
+Repository Docs : 144
+
+PDF Extraction : 0.753 sec
+Corpus Loading : 1.782 sec
+Promotion      : 9.592 sec
+TOTAL TIME     : 12.128 sec
+======================================================================
+

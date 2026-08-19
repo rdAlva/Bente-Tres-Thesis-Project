@@ -23,6 +23,11 @@ from app.services.detector import run_detection
 from app.services.review import load_review_report
 from app.services.repository import upload_repository
 from app.nlp.preprocessing import preprocess_text
+from app.utils.document_identity import (
+    companion_filename,
+    display_filename,
+    make_internal_filename,
+)
 from app.storage.supabase_storage import (
     upload_file,
     delete_file,
@@ -669,34 +674,78 @@ def get_admin_stats():
 
 
 
+def _repository_document_indexes():
+    """Index optional database metadata without hiding local repository files."""
+    try:
+        response = (
+            supabase_admin.table("user_documents")
+            .select("id, filename, storage_path")
+            .execute()
+        )
+    except Exception:
+        logger.exception("Could not load repository document metadata")
+        return {}, {}
+
+    by_storage_name = {}
+    legacy_by_filename = {}
+    for record in response.data or []:
+        storage_path = record.get("storage_path")
+        filename = record.get("filename")
+        if storage_path and str(storage_path).lstrip("/").startswith("promoted/"):
+            by_storage_name[Path(storage_path).name] = record
+        elif not storage_path and filename:
+            legacy_by_filename[filename] = record
+            legacy_by_filename[companion_filename(filename, ".txt")] = record
+
+    return by_storage_name, legacy_by_filename
+
+
+def _repository_file_payload(file_path, by_storage_name, legacy_by_filename):
+    """Build a display/API record for one local promoted TXT file."""
+    document = (
+        by_storage_name.get(file_path.name)
+        or legacy_by_filename.get(file_path.name)
+    )
+    stat = file_path.stat()
+
+    return {
+        "document_id": document.get("id") if document else None,
+        # A local-only legacy file has no database identity. Its immutable
+        # repository filename is used only by the legacy delete fallback.
+        "legacy_filename": None if document else file_path.name,
+        "filename": (
+            document.get("filename")
+            if document else display_filename(file_path.name)
+        ),
+        "date_added": datetime.fromtimestamp(stat.st_mtime).isoformat(),
+        "size": stat.st_size,
+    }
+
+
 @app.route('/api/admin/repository', methods=['GET'])
 @admin_required
 def get_repository_files():
-    """Get list of repository documents."""
+    """List local repository files and enrich them with database metadata."""
 
     base_dir = Path(__file__).resolve().parent.parent.parent
     corpus_promoted = base_dir / "corpus" / "promoted"
+    by_storage_name, legacy_by_filename = _repository_document_indexes()
 
     files = []
-
     if corpus_promoted.exists():
-        for f in sorted(corpus_promoted.iterdir()):
-            if f.is_file() and f.suffix.lower() == '.txt':
-                stat = f.stat()
-
-                files.append({
-                    "filename": f.name,
-                    "date_added": datetime.fromtimestamp(
-                        stat.st_mtime
-                    ).isoformat(),
-                    "size": stat.st_size
-                })
+        for file_path in sorted(corpus_promoted.iterdir()):
+            if file_path.is_file() and file_path.suffix.lower() == ".txt":
+                files.append(_repository_file_payload(
+                    file_path,
+                    by_storage_name,
+                    legacy_by_filename,
+                ))
 
     return jsonify(files)
 
-@app.route('/api/admin/repository/<filename>', methods=['DELETE'])
+@app.route('/api/admin/repository/<document_ref>', methods=['DELETE'])
 @admin_required
-def delete_repository_file(filename):
+def delete_repository_file(document_ref):
     """
     Permanently delete a repository document.
 
@@ -707,7 +756,7 @@ def delete_repository_file(filename):
         3. Supabase Storage
         4. user_documents database records
 
-    The TXT filename is treated as the repository document identity.
+    The user_documents row ID is the repository document identity.
     PDF files are treated as companion files and are removed when present.
 
     IMPORTANT:
@@ -717,20 +766,53 @@ def delete_repository_file(filename):
     """
 
     # ----------------------------------------------------------
-    # 1. Sanitize filename
+    # 1. Find the exact database row before touching any files.
     # ----------------------------------------------------------
 
-    filename = Path(filename).name
+    document = None
+    is_document_id = False
+    try:
+        uuid.UUID(str(document_ref))
+    except (ValueError, TypeError, AttributeError):
+        pass
+    else:
+        is_document_id = True
+        try:
+            document_response = (
+                supabase_admin
+                .table("user_documents")
+                .select("*")
+                .eq("id", document_ref)
+                .execute()
+            )
+            records = document_response.data or []
+            document = records[0] if records else None
+        except Exception:
+            logger.exception("Could not load repository document %s", document_ref)
+            return jsonify({"error": "Repository document lookup failed."}), 500
 
-    if not filename:
-        return jsonify({
-            "error": "Invalid filename."
-        }), 400
+    if not document:
+        # Only local-only legacy files use this route fallback. New files
+        # always have a row ID and must never be identified by display name.
+        if is_document_id:
+            return jsonify({"error": "Repository document record not found."}), 404
+        legacy_filename = Path(document_ref).name
+        document = {
+            "id": None,
+            "filename": display_filename(legacy_filename),
+            "storage_path": None,
+        }
+    filename = document.get("filename", "document")
+    internal_name = (
+        Path(document["storage_path"]).name
+        if document.get("storage_path")
+        else filename
+    )
 
     # Repository documents are TXT documents.
     # If the frontend happens to send a PDF filename, normalize it
     # to the corresponding TXT document.
-    path = Path(filename)
+    path = Path(internal_name)
 
     if path.suffix.lower() == ".pdf":
         txt_name = path.with_suffix(".txt").name
@@ -771,42 +853,11 @@ def delete_repository_file(filename):
         #
         # Do this BEFORE deleting local files.
         #
-        # We search for both possible filenames because older
-        # records may have been stored as .pdf while the current
-        # repository dashboard displays the .txt document.
+        # The exact row above is authoritative.  Do not locate rows by
+        # display filename: multiple documents may share it.
         # ------------------------------------------------------
 
-        possible_filenames = {
-            filename,
-            txt_name,
-            pdf_name
-        }
-
-        db_records = []
-
-        for document_filename in possible_filenames:
-
-            response = (
-                supabase_admin
-                .table("user_documents")
-                .select("*")
-                .eq("filename", document_filename)
-                .execute()
-            )
-
-            records = response.data or []
-
-            for record in records:
-
-                # Prevent duplicate records if multiple filename
-                # queries happen to return the same database row.
-                record_id = record.get("id")
-
-                if not any(
-                    existing.get("id") == record_id
-                    for existing in db_records
-                ):
-                    db_records.append(record)
+        db_records = [document]
 
         logger.info(
             "Repository delete database records found: %s",
@@ -1016,9 +1067,9 @@ def delete_repository_file(filename):
 
         return jsonify({
             "success": True,
-            "filename": txt_name,
+            "filename": filename,
             "message": (
-                f"Repository document '{txt_name}' "
+                f"Repository document '{filename}' "
                 "was permanently deleted."
             ),
             "local_deleted": local_deleted,
@@ -1057,6 +1108,23 @@ def admin_flagged_documents():
             return jsonify([])
 
         files = []
+        records_response = (
+            supabase_admin.table("user_documents")
+            .select("id, filename, storage_path")
+            .eq("source", "plagiarism_check")
+            .execute()
+        )
+        records_by_storage_name = {
+            Path(record["storage_path"]).name: record
+            for record in (records_response.data or [])
+            if record.get("storage_path")
+            and str(record["storage_path"]).startswith("review/")
+        }
+        legacy_records_by_filename = {
+            record.get("filename"): record
+            for record in (records_response.data or [])
+            if not record.get("storage_path")
+        }
 
         for file_path in flagged_folder.iterdir():
 
@@ -1069,8 +1137,16 @@ def admin_flagged_documents():
             if file_path.name == ".gitkeep":
                 continue
 
+            document = (
+                records_by_storage_name.get(file_path.name)
+                or legacy_records_by_filename.get(file_path.name)
+            )
+            if not document:
+                continue
+
             files.append({
-                "filename": file_path.name,
+                "document_id": document.get("id"),
+                "filename": document.get("filename", display_filename(file_path.name)),
                 "date_added": datetime.fromtimestamp(
                     file_path.stat().st_mtime
                 ).isoformat()
@@ -1113,6 +1189,23 @@ def search_admin_flagged_documents():
             return jsonify([])
 
         files = []
+        records_response = (
+            supabase_admin.table("user_documents")
+            .select("id, filename, storage_path")
+            .eq("source", "plagiarism_check")
+            .execute()
+        )
+        records_by_storage_name = {
+            Path(record["storage_path"]).name: record
+            for record in (records_response.data or [])
+            if record.get("storage_path")
+            and str(record["storage_path"]).startswith("review/")
+        }
+        legacy_records_by_filename = {
+            record.get("filename"): record
+            for record in (records_response.data or [])
+            if not record.get("storage_path")
+        }
 
         for file_path in flagged_folder.iterdir():
 
@@ -1125,11 +1218,20 @@ def search_admin_flagged_documents():
             if file_path.name == ".gitkeep":
                 continue
 
-            if query and query not in file_path.name.lower():
+            document = (
+                records_by_storage_name.get(file_path.name)
+                or legacy_records_by_filename.get(file_path.name)
+            )
+            if not document:
+                continue
+
+            display_name = document.get("filename", display_filename(file_path.name))
+            if query and query not in display_name.lower():
                 continue
 
             files.append({
-                "filename": file_path.name,
+                "document_id": document.get("id"),
+                "filename": display_name,
                 "date_added": datetime.fromtimestamp(
                     file_path.stat().st_mtime
                 ).isoformat()
@@ -1152,21 +1254,14 @@ def search_admin_flagged_documents():
             "error": str(e)
         }), 500
 
-@app.route("/api/admin/flagged/<filename>", methods=["DELETE"])
+@app.route("/api/admin/flagged/<document_id>", methods=["DELETE"])
 @login_required
-def delete_admin_flagged_document(filename):
+def delete_admin_flagged_document(document_id):
 
     if session.get("role") != "admin":
         return jsonify({
             "error": "Admin privileges required."
         }), 403
-
-    filename = Path(filename).name
-
-    if not filename:
-        return jsonify({
-            "error": "Invalid filename."
-        }), 400
 
     try:
 
@@ -1179,11 +1274,31 @@ def delete_admin_flagged_document(filename):
                 "error": "Flagged directory does not exist."
             }), 404
 
+        document_response = (
+            supabase_admin
+            .table("user_documents")
+            .select("id, filename, source, storage_path")
+            .eq("id", document_id)
+            .eq("source", "plagiarism_check")
+            .single()
+            .execute()
+        )
+        document = document_response.data
+        if not document:
+            return jsonify({"error": "Flagged document record not found."}), 404
+
+        filename = document.get("filename", "document")
+        internal_name = (
+            Path(document["storage_path"]).name
+            if document.get("storage_path")
+            else filename
+        )
+
         # --------------------------------------------------
         # Determine TXT / PDF pair
         # --------------------------------------------------
 
-        path = Path(filename)
+        path = Path(internal_name)
 
         if path.suffix.lower() == ".pdf":
 
@@ -1265,33 +1380,17 @@ def delete_admin_flagged_document(filename):
         # Delete the corresponding database record
         # --------------------------------------------------
 
-        db_records = (
-            supabase_admin
-            .table("user_documents")
-            .select("id, filename, source")
-            .eq("filename", txt_name)
-            .eq("source", "plagiarism_check")
+        supabase_admin \
+            .table("user_documents") \
+            .delete() \
+            .eq("id", document_id) \
+            .eq("source", "plagiarism_check") \
             .execute()
+
+        logger.info(
+            "Admin deleted flagged user_documents record: id=%s",
+            document_id
         )
-
-        for record in (db_records.data or []):
-
-            record_id = record.get("id")
-
-            if not record_id:
-                continue
-
-            supabase_admin \
-                .table("user_documents") \
-                .delete() \
-                .eq("id", record_id) \
-                .eq("source", "plagiarism_check") \
-                .execute()
-
-            logger.info(
-                "Admin deleted flagged user_documents record: id=%s",
-                record_id
-            )
 
         if not deleted_any:
 
@@ -1320,22 +1419,10 @@ def delete_admin_flagged_document(filename):
             "error": str(e)
         }), 500
 
-@app.route('/api/my-documents/<filename>', methods=['DELETE'])
+@app.route('/api/my-documents/<document_id>', methods=['DELETE'])
 @login_required
-def delete_my_document(filename):
-    """
-    Delete a document from the current user's
-    My Uploaded Documents list.
-
-    Uses filename-based deletion to remain consistent with
-    the existing local + Supabase repository behavior.
-
-    The database deletion is restricted to the currently
-    logged-in user.
-    """
-
-    # Prevent directory traversal
-    filename = Path(filename).name
+def delete_my_document(document_id):
+    """Delete one of the current user's documents by its database row ID."""
 
     user_id = session.get("user_id")
 
@@ -1346,16 +1433,12 @@ def delete_my_document(filename):
 
     try:
 
-        # --------------------------------------------------
-        # 1. Find this user's exact document record
-        # --------------------------------------------------
-
         response = (
             supabase_admin
             .table("user_documents")
             .select("*")
             .eq("user_id", user_id)
-            .eq("filename", filename)
+            .eq("id", document_id)
             .single()
             .execute()
         )
@@ -1368,31 +1451,22 @@ def delete_my_document(filename):
             }), 404
 
         source = document.get("source")
+        filename = document.get("filename", "document")
+        storage_path = document.get("storage_path")
 
         logger.info(
-            "User deleting document: user=%s filename=%s source=%s",
+            "User deleting document: user=%s id=%s filename=%s source=%s",
             user_id,
+            document_id,
             filename,
             source
         )
 
-        # --------------------------------------------------
-        # 2. Determine TXT/PDF filenames
-        # --------------------------------------------------
-
-        path = Path(filename)
-
-        if path.suffix.lower() == ".pdf":
-            pdf_name = path.name
-            txt_name = path.with_suffix(".txt").name
-
-        elif path.suffix.lower() == ".txt":
-            txt_name = path.name
-            pdf_name = path.with_suffix(".pdf").name
-
-        else:
-            txt_name = path.with_suffix(".txt").name
-            pdf_name = path.with_suffix(".pdf").name
+        # The stored path is authoritative for new records.  A filename
+        # fallback preserves deletion of legacy rows that predate it.
+        internal_name = Path(storage_path).name if storage_path else filename
+        txt_name = companion_filename(internal_name, ".txt")
+        pdf_name = companion_filename(internal_name, ".pdf")
 
         # --------------------------------------------------
         # 3. Determine local + Supabase locations
@@ -1408,77 +1482,29 @@ def delete_my_document(filename):
         txt_upload_folder = TXT_UPLOAD_FOLDER
 
         # --------------------------------------------------
-        # Repository uploads
-        # --------------------------------------------------
-
-        if source == "repository":
-
-            local_paths = [
-                promoted_folder / txt_name,
-                promoted_folder / pdf_name,
-                processed_folder / txt_name,
-            ]
-
-            storage_paths = [
-                f"promoted/{txt_name}",
-                f"promoted/{pdf_name}",
-                f"processed/{txt_name}",
-            ]
-
-        # --------------------------------------------------
-        # Plagiarism-check uploads
-        #
-        # IMPORTANT:
-        # A plagiarism document can be either:
-        #
-        #   review/      -> flagged
-        #   promoted/   -> original
-        #
-        # Therefore we clean BOTH possible locations.
-        # --------------------------------------------------
-
-        elif source == "plagiarism_check":
-
-            local_paths = [
-                # Temporary upload locations
-                upload_folder / pdf_name,
-                upload_folder / txt_name,
-                txt_upload_folder / txt_name,
-
-                # Review locations
-                review_folder / txt_name,
-                review_folder / pdf_name,
-
-                # Promoted locations
-                promoted_folder / txt_name,
-                promoted_folder / pdf_name,
-
-                # Processed repository copy
-                processed_folder / txt_name,
-            ]
-
-            storage_paths = [
-                # Flagged plagiarism document
-                f"review/{txt_name}",
-                f"review/{pdf_name}",
-
-                # Original plagiarism upload that was promoted
-                f"promoted/{txt_name}",
-                f"promoted/{pdf_name}",
-
-                # Processed copy created during promotion
-                f"processed/{txt_name}",
-            ]
-
-        else:
+        if source not in {"repository", "plagiarism_check"}:
 
             return jsonify({
                 "error": f"Unsupported document source: {source}"
             }), 400
 
-        # --------------------------------------------------
-        # 4. Delete local files
-        # --------------------------------------------------
+        local_paths = [
+            upload_folder / pdf_name,
+            upload_folder / txt_name,
+            txt_upload_folder / txt_name,
+            review_folder / txt_name,
+            review_folder / pdf_name,
+            promoted_folder / txt_name,
+            promoted_folder / pdf_name,
+            processed_folder / txt_name,
+        ]
+        storage_paths = {
+            f"review/{txt_name}",
+            f"review/{pdf_name}",
+            f"promoted/{txt_name}",
+            f"promoted/{pdf_name}",
+            f"processed/{txt_name}",
+        }
 
         for local_file in local_paths:
 
@@ -1515,16 +1541,12 @@ def delete_my_document(filename):
 
                 raise e
 
-        # --------------------------------------------------
-        # 6. Delete ONLY the current user's DB record
-        # --------------------------------------------------
-
         delete_response = (
             supabase_admin
             .table("user_documents")
             .delete()
             .eq("user_id", user_id)
-            .eq("filename", filename)
+            .eq("id", document_id)
             .execute()
         )
 
@@ -1534,8 +1556,9 @@ def delete_my_document(filename):
             }), 500
 
         logger.info(
-            "Deleted user_documents record: user=%s filename=%s",
+            "Deleted user_documents record: user=%s id=%s filename=%s",
             user_id,
+            document_id,
             filename
         )
 
@@ -1551,9 +1574,9 @@ def delete_my_document(filename):
     except Exception as e:
 
         logger.exception(
-            "DELETE MY DOCUMENT ERROR: user=%s filename=%s",
+            "DELETE MY DOCUMENT ERROR: user=%s id=%s",
             user_id,
-            filename
+            document_id
         )
 
         return jsonify({
@@ -1690,21 +1713,19 @@ def search_repository():
     corpus_promoted = base_dir / "corpus" / "promoted"
 
     files = []
+    by_storage_name, legacy_by_filename = _repository_document_indexes()
 
     if corpus_promoted.exists():
-        for f in sorted(corpus_promoted.iterdir()):
-            if f.is_file() and f.suffix.lower() == '.txt':
-
-                if query in f.name.lower():
-                    stat = f.stat()
-
-                    files.append({
-                        "filename": f.name,
-                        "date_added": datetime.fromtimestamp(
-                            stat.st_mtime
-                        ).isoformat(),
-                        "size": stat.st_size
-                    })
+        for file_path in sorted(corpus_promoted.iterdir()):
+            if not file_path.is_file() or file_path.suffix.lower() != ".txt":
+                continue
+            payload = _repository_file_payload(
+                file_path,
+                by_storage_name,
+                legacy_by_filename,
+            )
+            if query in payload["filename"].lower():
+                files.append(payload)
 
     return jsonify(files)
 
@@ -1970,10 +1991,18 @@ def home():
         clear_upload_folders()
 
         for file in form.files.data:
-            filename = secure_filename(file.filename)
+            original_filename = secure_filename(file.filename)
+            if not original_filename:
+                continue
+            filename = make_internal_filename(original_filename)
             save_path = os.path.join(app.config["UPLOAD_FOLDER"], filename)
             file.save(save_path)
-            logger.info("Saved: %s -> %s", filename, save_path)
+            logger.info(
+                "Saved upload: display=%s internal=%s path=%s",
+                original_filename,
+                filename,
+                save_path,
+            )
 
         threshold = float(request.form.get("threshold", 0.30))
         logger.info("Selected threshold: %.2f", threshold)
@@ -1994,7 +2023,8 @@ def home():
 
         for result in results["results"]:
 
-            filename = result["uploaded_filename"]
+            internal_filename = result["uploaded_filename"]
+            filename = display_filename(internal_filename)
 
             # A document is flagged when the detector found
             # at least one flagged similarity pair.
@@ -2007,7 +2037,12 @@ def home():
                 create_user_document_record(
                     filename=filename,
                     source="plagiarism_check",
-                    status=status
+                    status=status,
+                    storage_path=(
+                        f"review/{internal_filename}"
+                        if status == "flagged"
+                        else f"promoted/{internal_filename}"
+                    ),
                 )
 
             except Exception as e:
@@ -2024,6 +2059,10 @@ def home():
                         f"Document was analyzed, but upload record failed: {e}"
                     )
                 ), 500
+
+            # Keep routing on the internal name, but never expose it as
+            # the document name in the results UI.
+            result["display_filename"] = filename
 
 
         RESULTS_STORE[get_session_id()] = results
@@ -2283,6 +2322,19 @@ def dismiss_flag(filename):
 
     if moved_successfully:
 
+        # Keep the row's authoritative object path in sync with the move.
+        # `filename` is only a display value, so the exact old Storage path
+        # identifies this document even when display filenames are duplicated.
+        supabase_admin \
+            .table("user_documents") \
+            .update({
+                "storage_path": f"promoted/{filename}",
+                "status": "original",
+            }) \
+            .eq("storage_path", f"review/{filename}") \
+            .eq("source", "plagiarism_check") \
+            .execute()
+
         sid = get_session_id()
 
         if sid in RESULTS_STORE:
@@ -2357,10 +2409,11 @@ def repository():
 
     if form.validate_on_submit():
 
-        uploaded_filenames = []
-
         for file in form.files.data:
-            filename = secure_filename(file.filename)
+            original_filename = secure_filename(file.filename)
+            if not original_filename:
+                continue
+            filename = make_internal_filename(original_filename)
 
             save_path = os.path.join(
                 app.config["UPLOAD_FOLDER"],
@@ -2369,11 +2422,10 @@ def repository():
 
             file.save(save_path)
 
-            uploaded_filenames.append(filename)
-
             logger.info(
-                "Repository upload: %s",
-                filename
+                "Repository upload: display=%s internal=%s",
+                original_filename,
+                filename,
             )
 
         try:
@@ -2396,14 +2448,48 @@ def repository():
         # Record repository uploads in user_documents
         # --------------------------------------------------
 
-        for filename in uploaded_filenames:
+        uploaded_documents = []
+
+        for internal_pdf_name in uploaded_files:
+
+            filename = display_filename(internal_pdf_name)
+            internal_txt_name = companion_filename(
+                internal_pdf_name,
+                ".txt"
+            )
+            storage_path = f"promoted/{internal_txt_name}"
 
             try:
-                create_user_document_record(
+                insert_response = create_user_document_record(
                     filename=filename,
                     source="repository",
-                    status="original"
+                    status="original",
+                    storage_path=storage_path,
                 )
+
+                created_data = insert_response.data or []
+                if isinstance(created_data, list):
+                    document = created_data[0] if created_data else None
+                else:
+                    document = created_data
+
+                # Supabase configurations that do not return inserted rows
+                # still have one unambiguous lookup: the UUID-backed path.
+                if not document or not document.get("id"):
+                    document_response = (
+                        supabase_admin
+                        .table("user_documents")
+                        .select("id, filename, storage_path")
+                        .eq("storage_path", storage_path)
+                        .single()
+                        .execute()
+                    )
+                    document = document_response.data
+
+                uploaded_documents.append({
+                    "id": document.get("id"),
+                    "filename": document.get("filename", filename),
+                })
 
             except Exception as e:
                 logger.exception(
@@ -2425,29 +2511,23 @@ def repository():
                     )
                 ), 500
 
-        # --------------------------------------------------
-        # Load this user's documents
-        # --------------------------------------------------
-
-        user_documents = _load_user_documents()
-
-        return render_template(
-            "repository.html",
-            form=form,
-            uploaded_files=uploaded_files,
-            user_documents=user_documents
-        )
+        # Use Post/Redirect/Get so Ctrl+R performs a read-only GET.  The
+        # success card describes the rows just persisted above; it does not
+        # manufacture filenames or identities during rendering.
+        session["repository_upload_success"] = uploaded_documents
+        return redirect(url_for("repository"))
 
     # ------------------------------------------------------
     # GET request
     # ------------------------------------------------------
 
     user_documents = _load_user_documents()
+    uploaded_documents = session.pop("repository_upload_success", [])
 
     return render_template(
         "repository.html",
         form=form,
-        uploaded_files=[],
+        uploaded_files=uploaded_documents,
         user_documents=user_documents
     )
 

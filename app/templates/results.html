@@ -79,7 +79,7 @@
                     {{ 'bg-danger text-white' if result.flagged else 'bg-success text-white' }}">
         <div>
             <h2 class="h5 mb-1">
-                {{ result.uploaded_filename }}
+                {{ result.display_filename|default(result.uploaded_filename) }}
             </h2>
             <p class="mb-0 small opacity-75">
                 {% if result.flagged %}
@@ -118,7 +118,7 @@
         <div class="table-responsive" tabindex="0" aria-label="Similarity matches table, scroll right for more columns"
             style="max-height: 500px; overflow-y: auto;">
             <table class="table table-hover align-middle mb-0" id="matchesTable{{ loop.index }}">
-                <caption class="visually-hidden">Repository document matches for {{ result.uploaded_filename }}
+                <caption class="visually-hidden">Repository document matches for {{ result.display_filename|default(result.uploaded_filename) }}
                 </caption>
                 <thead class="table-light sticky-top">
                     <tr>

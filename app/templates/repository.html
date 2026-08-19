@@ -350,8 +350,10 @@
     <div class="card-body">
         <p><strong>{{ uploaded_files|length }}</strong> document(s) added to the repository.</p>
         <ul class="list-group">
-            {% for file in uploaded_files %}
-            <li class="list-group-item">{{ file }}</li>
+            {% for document in uploaded_files %}
+            <li class="list-group-item" data-document-id="{{ document.id }}">
+                {{ document.filename }}
+            </li>
             {% endfor %}
         </ul>
     </div>
@@ -444,7 +446,8 @@
                             <button class="btn btn-sm btn-outline-danger delete-document-btn"
                                 title="Delete document"
                                 type="button"
-                                data-filename="{{ document.filename }}">
+                                data-filename="{{ document.filename }}"
+                                data-document-id="{{ document.id }}">
                                 <i class="bi bi-trash"></i>
                                 Delete
                             </button>
@@ -585,8 +588,9 @@
         document.querySelectorAll(".delete-document-btn").forEach(button => {
             button.addEventListener("click", () => {
                 const filename = button.dataset.filename;
-                if (!filename) return;
-                deleteTarget = { filename, button };
+                const documentId = button.dataset.documentId;
+                if (!filename || !documentId) return;
+                deleteTarget = { filename, documentId, button };
                 document.getElementById('deleteModalMessage').textContent =
                     `Are you sure you want to delete "${filename}"? This action cannot be undone.`;
                 deleteModal.show();
@@ -595,14 +599,14 @@
 
         document.getElementById('confirmDeleteBtn').addEventListener('click', async () => {
             if (!deleteTarget) return;
-            const { filename, button } = deleteTarget;
+            const { filename, documentId, button } = deleteTarget;
             deleteModal.hide();
             button.disabled = true;
             const originalHTML = button.innerHTML;
             button.innerHTML = '<span class="spinner-border spinner-border-sm me-1" aria-hidden="true"></span>Deleting...';
 
             try {
-                const response = await fetch(`/api/my-documents/${encodeURIComponent(filename)}`, { method: "DELETE" });
+                const response = await fetch(`/api/my-documents/${encodeURIComponent(documentId)}`, { method: "DELETE" });
                 const data = await response.json();
                 if (!response.ok || !data.success) {
                     throw new Error(data.error || "Unable to delete document.");

@@ -1607,6 +1607,8 @@
 
             const filename =
                 String(file.filename || "Unknown");
+            const documentId = String(file.document_id || "");
+            const legacyFilename = String(file.legacy_filename || "");
 
             const date =
                 file.date_added
@@ -1645,7 +1647,8 @@
             deleteButton.addEventListener(
                 "click",
                 function () {
-                    deleteDocument(filename);
+                    const documentRef = documentId || legacyFilename;
+                    if (documentRef) deleteDocument(documentRef, filename);
                 }
             );
 
@@ -1654,7 +1657,7 @@
     }
 
 
-    function deleteDocument(filename) {
+    function deleteDocument(documentId, filename) {
 
         showConfirmDialog(
             'Remove document "' +
@@ -1665,7 +1668,7 @@
 
                 fetch(
                     "/api/admin/repository/" +
-                    encodeURIComponent(filename),
+                    encodeURIComponent(documentId),
                     {
                         method: "DELETE"
                     }
@@ -1895,6 +1898,7 @@
                     file.filename ||
                     "Unknown"
                 );
+            const documentId = String(file.document_id || "");
 
             const date =
                 file.date_added
@@ -1949,9 +1953,7 @@
                 "click",
                 function () {
 
-                    deleteFlaggedDocument(
-                        filename
-                    );
+                    if (documentId) deleteFlaggedDocument(documentId, filename);
 
                 }
             );
@@ -1960,7 +1962,7 @@
         });
     }
 
-    function deleteFlaggedDocument(filename) {
+    function deleteFlaggedDocument(documentId, filename) {
 
         showConfirmDialog(
 
@@ -1972,7 +1974,7 @@
 
                 fetch(
                     "/api/admin/flagged/" +
-                    encodeURIComponent(filename),
+                    encodeURIComponent(documentId),
                     {
                         method: "DELETE"
                     }
