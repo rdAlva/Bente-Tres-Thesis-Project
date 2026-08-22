@@ -77,7 +77,8 @@
                         {% if session.get('logged_in') and session.get('role') == 'admin' %}
                         <li class="nav-item">
                             <a class="nav-link {% if request.endpoint == 'admin_dashboard' %}active{% endif %}"
-                                href="{{ url_for('admin_dashboard') }}" {% if request.endpoint=='admin_dashboard' %}aria-current="page" {% endif %}>
+                                href="{{ url_for('admin_dashboard') }}" {% if request.endpoint=='admin_dashboard'
+                                %}aria-current="page" {% endif %}>
                                 <i class="bi bi-shield-lock" aria-hidden="true"></i>
                                 Admin
                             </a>
@@ -88,7 +89,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url_for('logout') }}">
                                 <i class="bi bi-box-arrow-right" aria-hidden="true"></i>
-                                Logout ({{ session.get('username', 'User') }})
+                                Logout
                             </a>
                         </li>
                         {% else %}

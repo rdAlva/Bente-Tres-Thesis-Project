@@ -99,6 +99,18 @@ def run_promotion(
     )
 
     df_sentences = pd.DataFrame(similarity_report)
+
+    if df_sentences.empty:
+        df_sentences = pd.DataFrame(columns=[
+            "document_1",
+            "document_2",
+            "sentence_similarity",
+            "sentence_from_doc1",
+            "sentence_from_doc2",
+            "sentence_from_doc1_html",
+            "sentence_from_doc2_html",
+        ])
+
     sentences_file = source_logs / "SimilarSentencesReport.csv"
 
     df_sentences.to_csv(

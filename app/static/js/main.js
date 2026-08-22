@@ -21,29 +21,60 @@ document.addEventListener('DOMContentLoaded', () => {
             return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
         }
 
-        function renderFileList(files) {
+        // Accumulated selection: [{ id, file }] with a stable per-selection id
+        let selectedEntries = [];
+        let nextEntryId = 1;
+
+        function addFilesToSelection(files) {
+            for (const file of files) {
+                selectedEntries.push({ id: nextEntryId++, file: file });
+            }
+        }
+
+        function removeEntryById(entryId) {
+            selectedEntries = selectedEntries.filter(entry => entry.id !== entryId);
+        }
+
+        function syncInputFromSelection() {
+            const dt = new DataTransfer();
+            for (const entry of selectedEntries) dt.items.add(entry.file);
+            fileInput.files = dt.files;
+        }
+
+        function renderFileList() {
             if (!fileList) return;
             fileList.innerHTML = '';
-            if (!files || files.length === 0) {
+            if (selectedEntries.length === 0) {
                 if (fileListContainer) fileListContainer.style.display = 'none';
                 if (fileListStatus) fileListStatus.textContent = 'No files selected.';
                 return;
             }
             if (fileListContainer) fileListContainer.style.display = 'block';
-            for (const file of files) {
+            for (const entry of selectedEntries) {
+                const file = entry.file;
                 const item = document.createElement('li');
                 item.className = 'list-group-item d-flex justify-content-between align-items-center';
                 const nameSpan = document.createElement('span');
                 nameSpan.textContent = file.name;
+                const removeButton = document.createElement('button');
+                removeButton.type = 'button';
+                removeButton.className = 'btn-remove-file';
+                removeButton.dataset.entryId = String(entry.id);
+                removeButton.setAttribute('aria-label', 'Remove ' + file.name);
+                removeButton.innerHTML = '<i class="bi bi-x-lg" aria-hidden="true"></i>';
                 const sizeBadge = document.createElement('span');
                 sizeBadge.className = 'badge badge-gold rounded-pill';
                 sizeBadge.textContent = formatSize(file.size);
+                const rightGroup = document.createElement('span');
+                rightGroup.className = 'd-flex align-items-center gap-2';
+                rightGroup.appendChild(sizeBadge);
+                rightGroup.appendChild(removeButton);
                 item.appendChild(nameSpan);
-                item.appendChild(sizeBadge);
+                item.appendChild(rightGroup);
                 fileList.appendChild(item);
             }
             if (fileListStatus) {
-                fileListStatus.textContent = files.length + (files.length === 1 ? ' file selected.' : ' files selected.');
+                fileListStatus.textContent = selectedEntries.length + (selectedEntries.length === 1 ? ' file selected.' : ' files selected.');
             }
         }
 
@@ -56,7 +87,22 @@ document.addEventListener('DOMContentLoaded', () => {
             processingNote.hidden = true;
         }
 
-        fileInput.addEventListener('change', () => renderFileList(fileInput.files));
+        fileInput.addEventListener('change', () => {
+            if (fileInput.files.length === 0) return;
+            addFilesToSelection(fileInput.files);
+            syncInputFromSelection();
+            renderFileList();
+        });
+
+        if (fileList) {
+            fileList.addEventListener('click', (e) => {
+                const button = e.target.closest('.btn-remove-file');
+                if (!button || !fileList.contains(button)) return;
+                removeEntryById(Number(button.dataset.entryId));
+                syncInputFromSelection();
+                renderFileList();
+            });
+        }
 
         if (dropZone) {
             ['dragenter', 'dragover'].forEach(ev => {
@@ -68,10 +114,9 @@ document.addEventListener('DOMContentLoaded', () => {
             dropZone.addEventListener('drop', (e) => {
                 const droppedFiles = e.dataTransfer.files;
                 if (droppedFiles.length > 0) {
-                    const dt = new DataTransfer();
-                    for (const file of droppedFiles) dt.items.add(file);
-                    fileInput.files = dt.files;
-                    renderFileList(fileInput.files);
+                    addFilesToSelection(droppedFiles);
+                    syncInputFromSelection();
+                    renderFileList();
                 }
             });
         }
@@ -98,7 +143,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 processingNote.classList.add('d-none');
                 processingNote.hidden = true;
             }
-            if (fileInput.files.length === 0) renderFileList([]);
+            if (fileInput.files.length === 0) {
+                selectedEntries = [];
+                renderFileList();
+            }
         });
     }
 

@@ -27,6 +27,11 @@
         max-width: 420px;
         width: 100%;
     }
+    /* Status filter sits to the left of the search bar */
+    .my-docs-status-filter {
+        width: 9.5rem;
+        min-width: 8rem;
+    }
     /* Refresh button */
     .btn-refresh {
         background-color: var(--hau-maroon);
@@ -375,13 +380,22 @@
     </div>
 
     <div class="card-body p-3">
-        <div class="d-flex justify-content-end mb-3">
+        <div class="d-flex justify-content-end align-items-center flex-wrap gap-2 mb-3">
+            <select
+                id="myDocsStatusFilter"
+                class="form-select my-docs-status-filter"
+                aria-label="Filter your documents by status"
+            >
+                <option value="all" selected>All</option>
+                <option value="original">Original</option>
+                <option value="flagged">Flagged</option>
+            </select>
             <div class="my-docs-search input-group">
                 <span class="input-group-text bg-white border-end-0">
                     <i class="bi bi-search text-muted"></i>
                 </span>
                 <input
-                    type="search"
+                    type="text"
                     id="myDocsSearchInput"
                     class="form-control border-start-0"
                     placeholder="Search your documents..."
@@ -416,7 +430,7 @@
                 </thead>
                 <tbody>
                     {% for document in user_documents %}
-                    <tr>
+                    <tr data-status="{{ document.status|default('') }}">
                         <td class="repository-file">
                             <i class="bi bi-file-earmark-pdf text-muted me-1"></i>
                             {{ document.filename }}
@@ -439,9 +453,7 @@
                                 <span class="badge bg-secondary">{{ document.status }}</span>
                             {% endif %}
                         </td>
-                        <td class="text-muted small">
-                            {% if document.uploaded_at %}{{ document.uploaded_at[:10] }}{% else %}—{% endif %}
-                        </td>
+                        <td class="text-muted small" data-uploaded-at="{{ document.uploaded_at or '' }}">—</td>
                         <td class="text-end">
                             <button class="btn btn-sm btn-outline-danger delete-document-btn"
                                 title="Delete document"
@@ -495,6 +507,18 @@
 <!-- Intro.js JS -->
 <script src="https://cdn.jsdelivr.net/npm/intro.js@7.0.1/intro.min.js"></script>
 <script>
+    document.querySelectorAll('[data-uploaded-at]').forEach(function (cell) {
+        var iso = cell.getAttribute('data-uploaded-at');
+        if (!iso) return;
+        var d = new Date(iso);
+        if (isNaN(d.getTime())) return;
+        var pad = function (n) { return (n < 10 ? '0' : '') + n; };
+        cell.textContent =
+            pad(d.getMonth() + 1) + '/' + pad(d.getDate()) + '/' + d.getFullYear() +
+            ' ' + pad(d.getHours()) + ':' + pad(d.getMinutes());
+    });
+</script>
+<script>
     (function () {
         // ===== File upload logic =====
         const fileInput = document.getElementById("repoFiles");
@@ -512,28 +536,59 @@
             return (bytes / (1024 * 1024)).toFixed(1) + " MB";
         }
 
-        function renderFileList(files) {
+        // Accumulated selection: [{ id, file }] with a stable per-selection id
+        let selectedEntries = [];
+        let nextEntryId = 1;
+
+        function addFilesToSelection(files) {
+            for (const file of files) {
+                selectedEntries.push({ id: nextEntryId++, file: file });
+            }
+        }
+
+        function removeEntryById(entryId) {
+            selectedEntries = selectedEntries.filter(entry => entry.id !== entryId);
+        }
+
+        function syncInputFromSelection() {
+            const dt = new DataTransfer();
+            for (const entry of selectedEntries) dt.items.add(entry.file);
+            fileInput.files = dt.files;
+        }
+
+        function renderFileList() {
             fileList.innerHTML = "";
-            if (!files || files.length === 0) {
+            if (selectedEntries.length === 0) {
                 if (fileListContainer) fileListContainer.style.display = "none";
                 if (fileListStatus) fileListStatus.textContent = "No files selected.";
                 return;
             }
             if (fileListContainer) fileListContainer.style.display = "block";
-            for (const file of files) {
+            for (const entry of selectedEntries) {
+                const file = entry.file;
                 const item = document.createElement("li");
                 item.className = "list-group-item d-flex justify-content-between align-items-center";
                 const nameSpan = document.createElement("span");
                 nameSpan.textContent = file.name;
+                const removeButton = document.createElement("button");
+                removeButton.type = "button";
+                removeButton.className = "btn-remove-file";
+                removeButton.dataset.entryId = String(entry.id);
+                removeButton.setAttribute("aria-label", "Remove " + file.name);
+                removeButton.innerHTML = '<i class="bi bi-x-lg" aria-hidden="true"></i>';
                 const sizeBadge = document.createElement("span");
                 sizeBadge.className = "badge badge-gold rounded-pill";
                 sizeBadge.textContent = formatSize(file.size);
+                const rightGroup = document.createElement("span");
+                rightGroup.className = "d-flex align-items-center gap-2";
+                rightGroup.appendChild(sizeBadge);
+                rightGroup.appendChild(removeButton);
                 item.appendChild(nameSpan);
-                item.appendChild(sizeBadge);
+                item.appendChild(rightGroup);
                 fileList.appendChild(item);
             }
             if (fileListStatus) {
-                fileListStatus.textContent = files.length + (files.length === 1 ? " file selected." : " files selected.");
+                fileListStatus.textContent = selectedEntries.length + (selectedEntries.length === 1 ? " file selected." : " files selected.");
             }
         }
 
@@ -543,7 +598,22 @@
             uploadStatus.hidden = true;
         }
 
-        fileInput.addEventListener("change", () => renderFileList(fileInput.files));
+        fileInput.addEventListener("change", () => {
+            if (fileInput.files.length === 0) return;
+            addFilesToSelection(fileInput.files);
+            syncInputFromSelection();
+            renderFileList();
+        });
+
+        if (fileList) {
+            fileList.addEventListener("click", (e) => {
+                const button = e.target.closest(".btn-remove-file");
+                if (!button || !fileList.contains(button)) return;
+                removeEntryById(Number(button.dataset.entryId));
+                syncInputFromSelection();
+                renderFileList();
+            });
+        }
 
         ["dragenter", "dragover"].forEach(ev => {
             dropZone.addEventListener(ev, (e) => { e.preventDefault(); dropZone.classList.add("drop-zone-active"); });
@@ -555,10 +625,9 @@
         dropZone.addEventListener("drop", (e) => {
             const droppedFiles = e.dataTransfer.files;
             if (droppedFiles.length > 0) {
-                const dt = new DataTransfer();
-                for (const file of droppedFiles) dt.items.add(file);
-                fileInput.files = dt.files;
-                renderFileList(fileInput.files);
+                addFilesToSelection(droppedFiles);
+                syncInputFromSelection();
+                renderFileList();
             }
         });
 
@@ -578,12 +647,17 @@
                 uploadStatus.classList.add('d-none');
                 uploadStatus.hidden = true;
             }
-            if (fileInput && fileInput.files.length === 0) renderFileList([]);
+            if (fileInput && fileInput.files.length === 0) {
+                selectedEntries = [];
+                renderFileList();
+            }
         });
 
         // ===== Delete logic =====
         const deleteModal = new bootstrap.Modal(document.getElementById('deleteModal'));
         let deleteTarget = null;
+        const refreshMyDocsBtn = document.getElementById('refreshMyDocsBtn');
+        let activeDeleteRequests = 0;
 
         document.querySelectorAll(".delete-document-btn").forEach(button => {
             button.addEventListener("click", () => {
@@ -605,6 +679,9 @@
             const originalHTML = button.innerHTML;
             button.innerHTML = '<span class="spinner-border spinner-border-sm me-1" aria-hidden="true"></span>Deleting...';
 
+            activeDeleteRequests += 1;
+            if (refreshMyDocsBtn) refreshMyDocsBtn.disabled = true;
+
             try {
                 const response = await fetch(`/api/my-documents/${encodeURIComponent(documentId)}`, { method: "DELETE" });
                 const data = await response.json();
@@ -617,6 +694,11 @@
                 alert(error.message || "Unable to delete the document.");
                 button.disabled = false;
                 button.innerHTML = originalHTML;
+            } finally {
+                activeDeleteRequests -= 1;
+                if (activeDeleteRequests <= 0 && refreshMyDocsBtn) {
+                    refreshMyDocsBtn.disabled = false;
+                }
             }
         });
 
@@ -628,9 +710,10 @@
             window.location.reload();
         });
 
-        // ===== Search logic =====
+        // ===== Search & status filter logic =====
         const searchInput = document.getElementById('myDocsSearchInput');
         const clearSearchBtn = document.getElementById('clearMyDocsSearchBtn');
+        const statusFilter = document.getElementById('myDocsStatusFilter');
         const table = document.getElementById('myDocsTable');
         const noResultsDiv = document.getElementById('myDocsNoResults');
 
@@ -640,10 +723,14 @@
 
             function filterRows() {
                 const query = searchInput.value.toLowerCase().trim();
+                const activeStatus = statusFilter ? statusFilter.value : 'all';
                 let visibleCount = 0;
                 rows.forEach(row => {
                     const text = row.textContent.toLowerCase();
-                    const show = !query || text.includes(query);
+                    const rowStatus = row.getAttribute('data-status');
+                    const show =
+                        (!query || text.includes(query)) &&
+                        (activeStatus === 'all' || rowStatus === activeStatus);
                     row.style.display = show ? '' : 'none';
                     if (show) visibleCount++;
                 });
@@ -662,6 +749,10 @@
                 clearSearchBtn.style.display = 'none';
                 filterRows();
             });
+
+            if (statusFilter) {
+                statusFilter.addEventListener('change', filterRows);
+            }
         }
 
         // ===== Intro.js Walkthrough =====

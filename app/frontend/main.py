@@ -1,5 +1,6 @@
 import logging
 import os
+import re
 import shutil
 import uuid
 import json
@@ -14,7 +15,7 @@ from flask import (
 from flask_wtf import FlaskForm
 from werkzeug.utils import secure_filename
 from wtforms import FileField, SubmitField, MultipleFileField, StringField, PasswordField
-from wtforms.validators import InputRequired, Email
+from wtforms.validators import InputRequired, Email, EqualTo, ValidationError
 
 from supabase import create_client, Client
 
@@ -110,6 +111,24 @@ def get_session_id():
     return session["sid"]
 
 
+def _audit_log(action, filename=None):
+    """
+    Print one audit-trail line to the server terminal
+    (visible locally and in Render service logs).
+
+    Reuses the existing session values only:
+    session["user"] (email) and session["role"] ("admin" or not).
+    """
+
+    prefix = "[ADMIN]" if session.get("role") == "admin" else "[USER]"
+    email = session.get("user") or "unknown"
+
+    if filename:
+        print(f"{prefix} {email} | {action} | {filename}")
+    else:
+        print(f"{prefix} {email} | {action}")
+
+
 # ============================================================
 # Forms
 # ============================================================
@@ -138,6 +157,44 @@ class LoginForm(FlaskForm):
         ]
     )
     submit = SubmitField("Sign In")
+def classify_password_strength(password):
+    if (
+        len(password) >= 8
+        and re.search(r"[a-z]", password)
+        and re.search(r"[A-Z]", password)
+        and re.search(r"[0-9]", password)
+        and re.search(r"[^A-Za-z0-9]", password)
+    ):
+        return "strong"
+
+    if (
+        len(password) >= 8
+        and re.search(r"[A-Za-z]", password)
+        and (
+            re.search(r"[A-Z]", password)
+            or re.search(r"[0-9]", password)
+            or re.search(r"[^A-Za-z0-9]", password)
+        )
+    ):
+        return "moderate"
+
+    return "weak"
+
+
+class WeakPassword(object):
+    """
+    Rejects passwords classified as weak. Moderate and strong
+    passwords are accepted.
+    """
+
+    def __call__(self, form, field):
+        if classify_password_strength(field.data or "") == "weak":
+            raise ValidationError(
+                "Password is too weak. Use at least 8 characters and "
+                "add numbers or symbols (letters alone are not enough)."
+            )
+
+
 class RegisterForm(FlaskForm):
     email = StringField(
         "Email",
@@ -149,7 +206,15 @@ class RegisterForm(FlaskForm):
     password = PasswordField(
         "Password",
         validators=[
-            InputRequired(message="Password is required.")
+            InputRequired(message="Password is required."),
+            WeakPassword()
+        ]
+    )
+    confirm_password = PasswordField(
+        "Confirm Password",
+        validators=[
+            InputRequired(message="Please confirm your password."),
+            EqualTo("password", message="Passwords do not match.")
         ]
     )
 
@@ -339,7 +404,7 @@ def login():
                 session['role'] = role
 
                 flash(
-                    f"Welcome back, {response.user.email}!",
+                    f"Welcome to HAUdemicCheck!",
                     "success"
                 )
 
@@ -674,12 +739,31 @@ def get_admin_stats():
 
 
 
+def _load_user_email_map():
+    """Map user id to email from profiles, for resolving document uploaders."""
+    try:
+        response = (
+            supabase_admin.table("profiles")
+            .select("id, email")
+            .execute()
+        )
+    except Exception:
+        logger.exception("Could not load user email metadata")
+        return {}
+
+    return {
+        str(record.get("id")): record.get("email")
+        for record in (response.data or [])
+        if record.get("id") and record.get("email")
+    }
+
+
 def _repository_document_indexes():
     """Index optional database metadata without hiding local repository files."""
     try:
         response = (
             supabase_admin.table("user_documents")
-            .select("id, filename, storage_path")
+            .select("id, filename, storage_path, user_id")
             .execute()
         )
     except Exception:
@@ -700,13 +784,17 @@ def _repository_document_indexes():
     return by_storage_name, legacy_by_filename
 
 
-def _repository_file_payload(file_path, by_storage_name, legacy_by_filename):
+def _repository_file_payload(file_path, by_storage_name, legacy_by_filename, user_emails):
     """Build a display/API record for one local promoted TXT file."""
     document = (
         by_storage_name.get(file_path.name)
         or legacy_by_filename.get(file_path.name)
     )
     stat = file_path.stat()
+
+    added_by = "SYSTEM"
+    if document and document.get("user_id"):
+        added_by = user_emails.get(str(document["user_id"])) or "SYSTEM"
 
     return {
         "document_id": document.get("id") if document else None,
@@ -717,6 +805,7 @@ def _repository_file_payload(file_path, by_storage_name, legacy_by_filename):
             document.get("filename")
             if document else display_filename(file_path.name)
         ),
+        "added_by": added_by,
         "date_added": datetime.fromtimestamp(stat.st_mtime).isoformat(),
         "size": stat.st_size,
     }
@@ -730,6 +819,7 @@ def get_repository_files():
     base_dir = Path(__file__).resolve().parent.parent.parent
     corpus_promoted = base_dir / "corpus" / "promoted"
     by_storage_name, legacy_by_filename = _repository_document_indexes()
+    user_emails = _load_user_email_map()
 
     files = []
     if corpus_promoted.exists():
@@ -739,6 +829,7 @@ def get_repository_files():
                     file_path,
                     by_storage_name,
                     legacy_by_filename,
+                    user_emails,
                 ))
 
     return jsonify(files)
@@ -1065,6 +1156,8 @@ def delete_repository_file(document_ref):
             len(deleted_records)
         )
 
+        _audit_log("DELETE", filename)
+
         return jsonify({
             "success": True,
             "filename": filename,
@@ -1110,10 +1203,11 @@ def admin_flagged_documents():
         files = []
         records_response = (
             supabase_admin.table("user_documents")
-            .select("id, filename, storage_path")
+            .select("id, filename, storage_path, user_id")
             .eq("source", "plagiarism_check")
             .execute()
         )
+        user_emails = _load_user_email_map()
         records_by_storage_name = {
             Path(record["storage_path"]).name: record
             for record in (records_response.data or [])
@@ -1147,6 +1241,11 @@ def admin_flagged_documents():
             files.append({
                 "document_id": document.get("id"),
                 "filename": document.get("filename", display_filename(file_path.name)),
+                "added_by": (
+                    user_emails.get(str(document.get("user_id")))
+                    if document.get("user_id")
+                    else None
+                ) or "SYSTEM",
                 "date_added": datetime.fromtimestamp(
                     file_path.stat().st_mtime
                 ).isoformat()
@@ -1191,10 +1290,11 @@ def search_admin_flagged_documents():
         files = []
         records_response = (
             supabase_admin.table("user_documents")
-            .select("id, filename, storage_path")
+            .select("id, filename, storage_path, user_id")
             .eq("source", "plagiarism_check")
             .execute()
         )
+        user_emails = _load_user_email_map()
         records_by_storage_name = {
             Path(record["storage_path"]).name: record
             for record in (records_response.data or [])
@@ -1232,6 +1332,11 @@ def search_admin_flagged_documents():
             files.append({
                 "document_id": document.get("id"),
                 "filename": display_name,
+                "added_by": (
+                    user_emails.get(str(document.get("user_id")))
+                    if document.get("user_id")
+                    else None
+                ) or "SYSTEM",
                 "date_added": datetime.fromtimestamp(
                     file_path.stat().st_mtime
                 ).isoformat()
@@ -1403,6 +1508,8 @@ def delete_admin_flagged_document(document_id):
             filename
         )
 
+        _audit_log("DELETE", filename)
+
         return jsonify({
             "success": True,
             "message": f"Flagged document '{filename}' deleted successfully."
@@ -1566,6 +1673,8 @@ def delete_my_document(document_id):
         # 7. Success
         # --------------------------------------------------
 
+        _audit_log("DELETE", filename)
+
         return jsonify({
             "success": True,
             "message": f"Document '{filename}' deleted successfully."
@@ -1684,6 +1793,11 @@ def delete_plagiarism_document(document_id):
         # 5. Success
         # --------------------------------------------------
 
+        _audit_log(
+            "DELETE",
+            document.get("filename", "document")
+        )
+
         return jsonify({
             "success": True,
             "message": "Plagiarism document deleted successfully.",
@@ -1714,6 +1828,7 @@ def search_repository():
 
     files = []
     by_storage_name, legacy_by_filename = _repository_document_indexes()
+    user_emails = _load_user_email_map()
 
     if corpus_promoted.exists():
         for file_path in sorted(corpus_promoted.iterdir()):
@@ -1723,6 +1838,7 @@ def search_repository():
                 file_path,
                 by_storage_name,
                 legacy_by_filename,
+                user_emails,
             )
             if query in payload["filename"].lower():
                 files.append(payload)
@@ -1990,6 +2106,11 @@ def home():
         logger.info("Upload form validated")
         clear_upload_folders()
 
+        # Map each internal TXT companion name to the original
+        # uploaded filename so user_documents can show the real
+        # .pdf display name without touching internal identities.
+        upload_display_names = {}
+
         for file in form.files.data:
             original_filename = secure_filename(file.filename)
             if not original_filename:
@@ -1997,6 +2118,9 @@ def home():
             filename = make_internal_filename(original_filename)
             save_path = os.path.join(app.config["UPLOAD_FOLDER"], filename)
             file.save(save_path)
+            upload_display_names[
+                companion_filename(filename, ".txt")
+            ] = original_filename
             logger.info(
                 "Saved upload: display=%s internal=%s path=%s",
                 original_filename,
@@ -2024,7 +2148,14 @@ def home():
         for result in results["results"]:
 
             internal_filename = result["uploaded_filename"]
-            filename = display_filename(internal_filename)
+
+            # Display the original uploaded filename (e.g.
+            # research_paper.pdf). The internal TXT name is only a
+            # fallback for results without a matching upload entry.
+            filename = upload_display_names.get(
+                internal_filename,
+                display_filename(internal_filename),
+            )
 
             # A document is flagged when the detector found
             # at least one flagged similarity pair.
@@ -2064,14 +2195,21 @@ def home():
             # the document name in the results UI.
             result["display_filename"] = filename
 
+            _audit_log("PLAGIARISM CHECK", filename)
 
+
+        results["threshold"] = threshold
         RESULTS_STORE[get_session_id()] = results
+
+        counts = _results_page_counts(results)
 
         return render_template(
             "results.html",
             uploaded_files=results["uploaded_files"],
-            total_uploaded=results["total_uploaded"],
-            total_repository=results["total_repository"],
+            total_uploaded=counts["total_uploaded"],
+            compared_against=counts["compared_against"],
+            flagged_files=counts["flagged_files"],
+            total_repository=counts["total_repository"],
             results=results["results"]
         )
 
@@ -2134,7 +2272,13 @@ def dashboard():
 @login_required
 def review(filename):
     report = load_review_report(filename)
-    return render_template("review.html", review=report)
+    session_results = RESULTS_STORE.get(get_session_id(), {})
+    threshold = session_results.get("threshold")
+    return render_template(
+        "review.html",
+        review=report,
+        threshold=threshold,
+    )
 
 @app.route("/review/<filename>/dismiss", methods=["POST"])
 @login_required
@@ -2387,17 +2531,48 @@ def confirm_flag(filename):
     return redirect(url_for("results"))
 
 
+def _results_page_counts(results_data):
+    """
+    Derive the Results-page counts from the stored detection results.
+
+    `total_repository` from run_detection() is counted AFTER promotion,
+    and only non-flagged uploads are ever appended to the repository
+    (flagged ones go to review), so it is the repository size including
+    this batch's successful additions. The count the uploads were
+    compared against is that value minus this batch's promotions.
+    """
+    results = results_data.get("results", [])
+    flagged_files = sum(1 for r in results if r.get("flagged"))
+    promoted_files = sum(1 for r in results if not r.get("flagged"))
+    total_repository = results_data.get("total_repository", 0)
+
+    return {
+        "total_uploaded": results_data.get(
+            "total_uploaded",
+            len(results),
+        ),
+        "compared_against": total_repository - promoted_files,
+        "flagged_files": flagged_files,
+        "total_repository": total_repository,
+    }
+
+
 @app.route("/results")
 @login_required
 def results():
     last_results = RESULTS_STORE.get(get_session_id())
     if last_results is None:
         return redirect(url_for("home"))
+
+    counts = _results_page_counts(last_results)
+
     return render_template(
         "results.html",
         uploaded_files=last_results["uploaded_files"],
-        total_uploaded=last_results["total_uploaded"],
-        total_repository=last_results["total_repository"],
+        total_uploaded=counts["total_uploaded"],
+        compared_against=counts["compared_against"],
+        flagged_files=counts["flagged_files"],
+        total_repository=counts["total_repository"],
         results=last_results["results"]
     )
 
@@ -2490,6 +2665,8 @@ def repository():
                     "id": document.get("id"),
                     "filename": document.get("filename", filename),
                 })
+
+                _audit_log("REPOSITORY UPLOAD", filename)
 
             except Exception as e:
                 logger.exception(

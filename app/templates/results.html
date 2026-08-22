@@ -64,8 +64,26 @@
         <div class="card stat-card h-100">
             <div class="card-body">
                 <div class="stat-icon"><i class="bi bi-collection"></i></div>
+                <h3 class="stat-value">{{ compared_against }}</h3>
+                <div class="stat-label">Compared Against Documents</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-6 col-md-3">
+        <div class="card stat-card h-100">
+            <div class="card-body">
+                <div class="stat-icon"><i class="bi bi-flag-fill"></i></div>
+                <h3 class="stat-value">{{ flagged_files }}</h3>
+                <div class="stat-label">Flagged Files</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-6 col-md-3">
+        <div class="card stat-card h-100">
+            <div class="card-body">
+                <div class="stat-icon"><i class="bi bi-folder-plus"></i></div>
                 <h3 class="stat-value">{{ total_repository }}</h3>
-                <div class="stat-label">Repository Docs</div>
+                <div class="stat-label">New Repository Documents Count</div>
             </div>
         </div>
     </div>
@@ -118,7 +136,8 @@
         <div class="table-responsive" tabindex="0" aria-label="Similarity matches table, scroll right for more columns"
             style="max-height: 500px; overflow-y: auto;">
             <table class="table table-hover align-middle mb-0" id="matchesTable{{ loop.index }}">
-                <caption class="visually-hidden">Repository document matches for {{ result.display_filename|default(result.uploaded_filename) }}
+                <caption class="visually-hidden">Repository document matches for {{
+                    result.display_filename|default(result.uploaded_filename) }}
                 </caption>
                 <thead class="table-light sticky-top">
                     <tr>

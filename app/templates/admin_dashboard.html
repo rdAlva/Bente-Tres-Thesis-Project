@@ -21,6 +21,9 @@
         </button>
     </div>
 
+    <!-- Temporary feedback banner used by showMessage() -->
+    <div id="thresholdMessage" class="threshold-message" role="status" aria-live="polite"></div>
+
     <!-- Top Statistics Cards -->
     <div class="stats-grid">
 
@@ -138,6 +141,7 @@
                     <thead class="table-head">
                         <tr>
                             <th>DOCUMENT</th>
+                            <th>ADDED BY</th>
                             <th>ADDED</th>
                             <th class="text-end">ACTION</th>
                         </tr>
@@ -146,7 +150,7 @@
                     <tbody id="repoTableBody" class="table-body">
 
                         <tr class="table-loading">
-                            <td colspan="3">
+                            <td colspan="4">
                                 Loading documents...
                             </td>
                         </tr>
@@ -207,6 +211,7 @@
 
                         <tr>
                             <th>DOCUMENT</th>
+                            <th>ADDED BY</th>
                             <th>FLAGGED</th>
                             <th class="text-end">ACTION</th>
                         </tr>
@@ -217,7 +222,7 @@
 
                         <tr class="table-loading">
 
-                            <td colspan="3">
+                            <td colspan="4">
                                 Loading flagged documents...
                             </td>
 
@@ -275,47 +280,6 @@
             </div>
         </div>
     </div>
-
-    <!-- System Status -->
-    <div class="admin-section">
-
-        <h2 class="section-title">SYSTEM STATUS</h2>
-
-        <div class="status-grid">
-
-            <div class="status-item" id="authStatus">
-                <span class="status-indicator status-operational">✓</span>
-                <span class="status-label">User Authentication</span>
-            </div>
-
-            <div class="status-item" id="uploadStatus">
-                <span class="status-indicator status-operational">✓</span>
-                <span class="status-label">Document Upload</span>
-            </div>
-
-            <div class="status-item" id="preStatus">
-                <span class="status-indicator status-operational">✓</span>
-                <span class="status-label">Text Preprocessing</span>
-            </div>
-
-            <div class="status-item" id="simStatus">
-                <span class="status-indicator status-operational">✓</span>
-                <span class="status-label">Similarity Analysis</span>
-            </div>
-
-            <div class="status-item" id="repoStatus">
-                <span class="status-indicator status-operational">✓</span>
-                <span class="status-label">Repository</span>
-            </div>
-
-            <div class="status-item" id="procStatus">
-                <span class="status-indicator status-operational">✓</span>
-                <span class="status-label">Persistent Processing</span>
-            </div>
-
-        </div>
-    </div>
-
 </div>
 
 <!-- Confirmation Modal -->
@@ -712,24 +676,50 @@
         font-size: 0.9rem;
     }
 
+    /* Floating feedback toast (used by showMessage()) */
     .threshold-message {
-        font-size: 0.85rem;
-        padding: 0.85rem;
-        border-radius: var(--radius-sm);
+        position: fixed;
+        top: 1.25rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1100;
         display: none;
+        max-width: min(92vw, 420px);
+        padding: 0.85rem 1.25rem;
+        border: 1px solid transparent;
+        border-radius: var(--radius-sm);
+        font-size: 0.9rem;
         font-weight: 500;
+        text-align: center;
+        box-shadow: var(--shadow-lg);
+    }
+
+    @keyframes adminToastIn {
+        from {
+            opacity: 0;
+            transform: translate(-50%, -0.5rem);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate(-50%, 0);
+        }
     }
 
     .threshold-message.success {
         display: block;
         background: var(--success-bg);
         color: var(--success-color);
+        border-color: var(--success-color);
+        animation: adminToastIn 0.25s ease-out;
     }
 
     .threshold-message.error {
         display: block;
         background: var(--error-bg);
         color: var(--error-color);
+        border-color: var(--error-color);
+        animation: adminToastIn 0.25s ease-out;
     }
 
     /* Algorithm */
@@ -963,6 +953,42 @@
         text-align: left;
     }
 
+    /* Keep repo/flagged tables inside their container: wrap long
+       filenames and email addresses instead of widening the table. */
+    .repo-table {
+        table-layout: fixed;
+    }
+
+    .repo-table .doc-info {
+        min-width: 0;
+    }
+
+    .repo-table .doc-info span {
+        min-width: 0;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
+    .repo-table .date-added {
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
+    .repo-table th:nth-child(1),
+    .repo-table td:nth-child(1) {
+        width: 46%;
+    }
+
+    .repo-table th:nth-child(2),
+    .repo-table td:nth-child(2) {
+        width: 28%;
+    }
+
+    .repo-table th:nth-child(4),
+    .repo-table td:nth-child(4) {
+        width: 12%;
+    }
+
     .table-head th {
         background: #F4F1EA;
         position: sticky;
@@ -1154,48 +1180,6 @@
         color: var(--hau-maroon-dark);
     }
 
-    /* System Status */
-    .status-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-        gap: 1rem;
-    }
-
-    .status-item {
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
-        padding: 0.85rem;
-        background: #FAF9F6;
-        border-left: 3px solid var(--success-color);
-        border-radius: var(--radius-sm);
-    }
-
-    .status-item.warning {
-        border-left-color: var(--warning-color);
-    }
-
-    .status-item.error {
-        border-left-color: var(--error-color);
-    }
-
-    .status-operational {
-        color: var(--success-color);
-    }
-
-    .status-warning {
-        color: var(--warning-color);
-    }
-
-    .status-error {
-        color: var(--error-color);
-    }
-
-    .status-label {
-        font-size: 0.85rem;
-        font-weight: 600;
-    }
-
     /* Modals */
     .modal {
         position: fixed;
@@ -1342,7 +1326,6 @@
         loadRepositoryFiles();
         loadFlaggedFiles();
         loadUsers();
-        loadSystemStatus();
 
         document
             .getElementById("refreshBtn")
@@ -1557,7 +1540,7 @@
 
                 document.getElementById("repoTableBody").innerHTML = `
                 <tr class="table-empty">
-                    <td colspan="3">
+                    <td colspan="4">
                         <i class="bi bi-exclamation-circle"></i>
                         <p>Error loading repository.</p>
                     </td>
@@ -1588,7 +1571,7 @@
 
             tbody.innerHTML = `
             <tr class="table-empty">
-                <td colspan="3">
+                <td colspan="4">
                     <i class="bi bi-folder2-open"></i>
                     <p>No documents in repository</p>
                 </td>
@@ -1625,6 +1608,12 @@
 
             <td>
                 <span class="date-added">
+                    ${escapeHtml(file.added_by || "SYSTEM")}
+                </span>
+            </td>
+
+            <td>
+                <span class="date-added">
                     ${escapeHtml(date)}
                 </span>
             </td>
@@ -1648,7 +1637,7 @@
                 "click",
                 function () {
                     const documentRef = documentId || legacyFilename;
-                    if (documentRef) deleteDocument(documentRef, filename);
+                    if (documentRef) deleteDocument(documentRef, filename, row);
                 }
             );
 
@@ -1657,7 +1646,7 @@
     }
 
 
-    function deleteDocument(documentId, filename) {
+    function deleteDocument(documentId, filename, row) {
 
         showConfirmDialog(
             'Remove document "' +
@@ -1682,11 +1671,30 @@
                             throw new Error(data.error);
                         }
 
+                        // Immediate feedback: drop the row, update the
+                        // visible count from the displayed list, and
+                        // reset the repository search state.
+                        if (row && row.parentNode) {
+                            row.remove();
+                        }
+
+                        const remainingRows = document
+                            .getElementById("repoTableBody")
+                            .querySelectorAll("tr:not(.table-empty)")
+                            .length;
+
+                        updateRepositoryCount(remainingRows);
+
+                        document.getElementById("repoSearchInput").value = "";
+                        document.getElementById("clearSearchBtn").style.display = "none";
+                        document.getElementById("noResultsMessage").style.display = "none";
+
                         showMessage(
                             "Document removed successfully.",
                             "success"
                         );
 
+                        // Background refresh reconciles with backend state.
                         loadRepositoryFiles();
                         loadStats();
                     })
@@ -1743,6 +1751,18 @@
             .then(handleResponse)
 
             .then(function (files) {
+
+                // Ignore stale responses (e.g. search cleared after a
+                // successful delete) so old results are never shown.
+                const currentQuery =
+                    document
+                        .getElementById("repoSearchInput")
+                        .value
+                        .trim();
+
+                if (!currentQuery || currentQuery !== query) {
+                    return;
+                }
 
                 if (!Array.isArray(files)) {
                     files = [];
@@ -1830,7 +1850,7 @@
                     "flaggedTableBody"
                 ).innerHTML = `
                     <tr class="table-empty">
-                        <td colspan="3">
+                        <td colspan="4">
                             <i class="bi bi-exclamation-circle"></i>
                             <p>Error loading flagged documents.</p>
                         </td>
@@ -1869,7 +1889,7 @@
 
             tbody.innerHTML = `
                 <tr class="table-empty">
-                    <td colspan="3">
+                    <td colspan="4">
 
                         <i class="bi bi-flag"></i>
 
@@ -1927,6 +1947,14 @@
                 <td>
 
                     <span class="date-added">
+                        ${escapeHtml(file.added_by || "SYSTEM")}
+                    </span>
+
+                </td>
+
+                <td>
+
+                    <span class="date-added">
                         ${escapeHtml(date)}
                     </span>
 
@@ -1953,7 +1981,7 @@
                 "click",
                 function () {
 
-                    if (documentId) deleteFlaggedDocument(documentId, filename);
+                    if (documentId) deleteFlaggedDocument(documentId, filename, row);
 
                 }
             );
@@ -1962,7 +1990,7 @@
         });
     }
 
-    function deleteFlaggedDocument(documentId, filename) {
+    function deleteFlaggedDocument(documentId, filename, row) {
 
         showConfirmDialog(
 
@@ -1990,11 +2018,30 @@
                             );
                         }
 
+                        // Immediate feedback: drop the row, update the
+                        // visible count from the displayed list, and
+                        // reset the flagged search state.
+                        if (row && row.parentNode) {
+                            row.remove();
+                        }
+
+                        const remainingRows = document
+                            .getElementById("flaggedTableBody")
+                            .querySelectorAll("tr:not(.table-empty)")
+                            .length;
+
+                        updateFlaggedCount(remainingRows);
+
+                        document.getElementById("flaggedSearchInput").value = "";
+                        document.getElementById("clearFlaggedSearchBtn").style.display = "none";
+                        document.getElementById("flaggedNoResultsMessage").style.display = "none";
+
                         showMessage(
                             "Flagged document deleted successfully.",
                             "success"
                         );
 
+                        // Background refresh reconciles with backend state.
                         loadFlaggedFiles();
                         loadStats();
                     })
@@ -2053,6 +2100,20 @@
             .then(handleResponse)
 
             .then(function (files) {
+
+                // Ignore stale responses (e.g. search cleared after a
+                // successful delete) so old results are never shown.
+                const currentQuery =
+                    document
+                        .getElementById(
+                            "flaggedSearchInput"
+                        )
+                        .value
+                        .trim();
+
+                if (!currentQuery || currentQuery !== query) {
+                    return;
+                }
 
                 if (!Array.isArray(files)) {
                     files = [];
@@ -2326,80 +2387,6 @@
 
 
     /* =========================================================
-       System Status
-       ========================================================= */
-
-    function loadSystemStatus() {
-
-        fetch("/api/admin/system-status")
-
-            .then(handleResponse)
-
-            .then(function (status) {
-
-                Object.keys(status).forEach(function (key) {
-
-                    const element =
-                        document.getElementById(
-                            key + "Status"
-                        );
-
-                    if (!element) {
-                        return;
-                    }
-
-                    const indicator =
-                        element.querySelector(
-                            ".status-indicator"
-                        );
-
-                    const value =
-                        status[key];
-
-                    element.classList.remove(
-                        "warning",
-                        "error"
-                    );
-
-                    if (value === "operational") {
-
-                        indicator.textContent = "✓";
-
-                        indicator.className =
-                            "status-indicator status-operational";
-
-                    } else if (value === "warning") {
-
-                        element.classList.add("warning");
-
-                        indicator.textContent = "⚠";
-
-                        indicator.className =
-                            "status-indicator status-warning";
-
-                    } else if (value === "error") {
-
-                        element.classList.add("error");
-
-                        indicator.textContent = "✕";
-
-                        indicator.className =
-                            "status-indicator status-error";
-                    }
-                });
-            })
-
-            .catch(function (error) {
-
-                console.error(
-                    "System status error:",
-                    error
-                );
-            });
-    }
-
-
-    /* =========================================================
        Add User Modal
        ========================================================= */
 
@@ -2660,7 +2647,6 @@
         loadRepositoryFiles();
         loadFlaggedFiles();
         loadUsers();
-        loadSystemStatus();
     }
 
 

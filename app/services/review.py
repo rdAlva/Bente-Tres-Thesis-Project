@@ -20,6 +20,19 @@ LOGS_FOLDER = SCRIPT_DIR.parent.parent / "logs"
 RESULTS_FILE = LOGS_FOLDER / "DocumentSimilarity_results.csv"
 SENTENCES_FILE = LOGS_FOLDER / "SimilarSentencesReport.csv"
 
+# Expected columns of SimilarSentencesReport.csv. Older reports may
+# have been written without a header row, so the reader falls back
+# to these names when the header is missing.
+SENTENCE_REPORT_COLUMNS = [
+    "document_1",
+    "document_2",
+    "sentence_similarity",
+    "sentence_from_doc1",
+    "sentence_from_doc2",
+    "sentence_from_doc1_html",
+    "sentence_from_doc2_html",
+]
+
 
 def load_persistent_document(
     filename,
@@ -202,6 +215,15 @@ def load_review_report(filename):
             df_sentences = pd.read_csv(
                 SENTENCES_FILE
             )
+
+            # Legacy headerless reports: the first data row would be
+            # consumed as the header, so document_1 would not exist.
+            if "document_1" not in df_sentences.columns:
+
+                df_sentences = pd.read_csv(
+                    SENTENCES_FILE,
+                    names=SENTENCE_REPORT_COLUMNS,
+                )
 
             matches = df_sentences[
                 df_sentences["document_1"] == filename

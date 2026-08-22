@@ -1162,3 +1162,507 @@ Promotion      : 9.592 sec
 TOTAL TIME     : 12.128 sec
 ======================================================================
 
+======================================================================
+Detection Run : 2026-08-20 15:08:00
+Threshold     : 0.25
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.038 sec
+Corpus Loading : 1.667 sec
+Promotion      : 2.799 sec
+TOTAL TIME     : 4.505 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-20 15:19:15
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.041 sec
+Corpus Loading : 1.133 sec
+Promotion      : 2.519 sec
+TOTAL TIME     : 3.694 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-20 20:01:29
+Threshold     : 0.25
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.041 sec
+Corpus Loading : 1.525 sec
+Promotion      : 2.482 sec
+TOTAL TIME     : 4.049 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-20 20:10:26
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 145
+
+PDF Extraction : 0.025 sec
+Corpus Loading : 3.191 sec
+Promotion      : 2.519 sec
+TOTAL TIME     : 5.737 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 10:07:10
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.059 sec
+Corpus Loading : 4.900 sec
+Promotion      : 3.325 sec
+TOTAL TIME     : 8.285 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 10:11:51
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 145
+
+PDF Extraction : 0.027 sec
+Corpus Loading : 1.285 sec
+Promotion      : 3.305 sec
+TOTAL TIME     : 4.618 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 18:04:45
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 146
+
+PDF Extraction : 0.026 sec
+Corpus Loading : 7.566 sec
+Promotion      : 2.410 sec
+TOTAL TIME     : 10.002 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 18:39:13
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 146
+
+PDF Extraction : 0.027 sec
+Corpus Loading : 2.067 sec
+Promotion      : 2.874 sec
+TOTAL TIME     : 4.969 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 18:43:42
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 145
+
+PDF Extraction : 0.030 sec
+Corpus Loading : 1.072 sec
+Promotion      : 2.569 sec
+TOTAL TIME     : 3.673 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 19:06:02
+Threshold     : 0.30
+Uploaded Docs : 4
+Repository Docs : 147
+
+PDF Extraction : 0.122 sec
+Corpus Loading : 1.971 sec
+Promotion      : 10.093 sec
+TOTAL TIME     : 12.188 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 19:11:00
+Threshold     : 0.30
+Uploaded Docs : 2
+Repository Docs : 146
+
+PDF Extraction : 0.051 sec
+Corpus Loading : 1.127 sec
+Promotion      : 5.503 sec
+TOTAL TIME     : 6.681 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 19:35:21
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 145
+
+PDF Extraction : 0.033 sec
+Corpus Loading : 2.681 sec
+Promotion      : 2.416 sec
+TOTAL TIME     : 5.131 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 19:36:15
+Threshold     : 0.25
+Uploaded Docs : 1
+Repository Docs : 145
+
+PDF Extraction : 0.028 sec
+Corpus Loading : 0.923 sec
+Promotion      : 2.320 sec
+TOTAL TIME     : 3.272 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 19:39:08
+Threshold     : 0.30
+Uploaded Docs : 2
+Repository Docs : 146
+
+PDF Extraction : 0.053 sec
+Corpus Loading : 0.801 sec
+Promotion      : 4.691 sec
+TOTAL TIME     : 5.545 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 19:58:48
+Threshold     : 0.30
+Uploaded Docs : 2
+Repository Docs : 146
+
+PDF Extraction : 0.059 sec
+Corpus Loading : 2.080 sec
+Promotion      : 4.763 sec
+TOTAL TIME     : 6.904 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 20:06:19
+Threshold     : 0.30
+Uploaded Docs : 2
+Repository Docs : 146
+
+PDF Extraction : 0.056 sec
+Corpus Loading : 2.602 sec
+Promotion      : 5.172 sec
+TOTAL TIME     : 7.832 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 20:21:36
+Threshold     : 0.30
+Uploaded Docs : 2
+Repository Docs : 146
+
+PDF Extraction : 0.056 sec
+Corpus Loading : 1.572 sec
+Promotion      : 5.394 sec
+TOTAL TIME     : 7.023 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 20:22:54
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 146
+
+PDF Extraction : 0.055 sec
+Corpus Loading : 3.660 sec
+Promotion      : 2.933 sec
+TOTAL TIME     : 6.649 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 20:38:15
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.031 sec
+Corpus Loading : 1.516 sec
+Promotion      : 2.605 sec
+TOTAL TIME     : 4.153 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 20:44:49
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 145
+
+PDF Extraction : 0.023 sec
+Corpus Loading : 1.803 sec
+Promotion      : 2.605 sec
+TOTAL TIME     : 4.432 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 20:45:42
+Threshold     : 0.30
+Uploaded Docs : 4
+Repository Docs : 146
+
+PDF Extraction : 0.115 sec
+Corpus Loading : 3.319 sec
+Promotion      : 24.337 sec
+TOTAL TIME     : 27.773 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 20:53:23
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.034 sec
+Corpus Loading : 1.437 sec
+Promotion      : 2.474 sec
+TOTAL TIME     : 3.946 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 22:24:10
+Threshold     : 0.30
+Uploaded Docs : 2
+Repository Docs : 145
+
+PDF Extraction : 0.057 sec
+Corpus Loading : 3.006 sec
+Promotion      : 5.453 sec
+TOTAL TIME     : 8.517 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 22:28:36
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.055 sec
+Corpus Loading : 2.089 sec
+Promotion      : 3.492 sec
+TOTAL TIME     : 5.637 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 22:32:01
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.030 sec
+Corpus Loading : 1.659 sec
+Promotion      : 2.687 sec
+TOTAL TIME     : 4.378 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-21 22:32:32
+Threshold     : 0.31
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.030 sec
+Corpus Loading : 1.421 sec
+Promotion      : 2.463 sec
+TOTAL TIME     : 3.915 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-22 10:17:41
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 145
+
+PDF Extraction : 0.035 sec
+Corpus Loading : 2.836 sec
+Promotion      : 2.094 sec
+TOTAL TIME     : 4.966 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-22 14:16:33
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.054 sec
+Corpus Loading : 5.520 sec
+Promotion      : 2.501 sec
+TOTAL TIME     : 8.076 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-22 20:10:47
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.024 sec
+Corpus Loading : 5.404 sec
+Promotion      : 2.168 sec
+TOTAL TIME     : 7.598 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-22 20:39:24
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 145
+
+PDF Extraction : 0.063 sec
+Corpus Loading : 2.001 sec
+Promotion      : 3.341 sec
+TOTAL TIME     : 5.406 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-22 20:40:32
+Threshold     : 0.30
+Uploaded Docs : 3
+Repository Docs : 148
+
+PDF Extraction : 0.058 sec
+Corpus Loading : 4.509 sec
+Promotion      : 7.257 sec
+TOTAL TIME     : 11.825 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-22 21:14:35
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.019 sec
+Corpus Loading : 1.762 sec
+Promotion      : 2.368 sec
+TOTAL TIME     : 4.149 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-22 22:13:07
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.019 sec
+Corpus Loading : 0.899 sec
+Promotion      : 2.142 sec
+TOTAL TIME     : 3.062 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-22 22:33:54
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.020 sec
+Corpus Loading : 1.363 sec
+Promotion      : 2.127 sec
+TOTAL TIME     : 3.511 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-22 22:40:20
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.022 sec
+Corpus Loading : 1.681 sec
+Promotion      : 2.229 sec
+TOTAL TIME     : 3.933 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-22 22:44:31
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.020 sec
+Corpus Loading : 2.059 sec
+Promotion      : 2.167 sec
+TOTAL TIME     : 4.247 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-22 22:51:01
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.018 sec
+Corpus Loading : 2.620 sec
+Promotion      : 2.157 sec
+TOTAL TIME     : 4.796 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-22 23:13:18
+Threshold     : 0.30
+Uploaded Docs : 2
+Repository Docs : 145
+
+PDF Extraction : 0.040 sec
+Corpus Loading : 2.697 sec
+Promotion      : 4.766 sec
+TOTAL TIME     : 7.504 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-22 23:18:33
+Threshold     : 0.26
+Uploaded Docs : 2
+Repository Docs : 144
+
+PDF Extraction : 0.050 sec
+Corpus Loading : 1.673 sec
+Promotion      : 4.395 sec
+TOTAL TIME     : 6.120 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-22 23:24:22
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 147
+
+PDF Extraction : 0.013 sec
+Corpus Loading : 4.658 sec
+Promotion      : 2.495 sec
+TOTAL TIME     : 7.167 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-22 23:28:58
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.030 sec
+Corpus Loading : 0.932 sec
+Promotion      : 2.456 sec
+TOTAL TIME     : 3.419 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-08-22 23:29:55
+Threshold     : 0.25
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.023 sec
+Corpus Loading : 1.438 sec
+Promotion      : 2.195 sec
+TOTAL TIME     : 3.657 sec
+======================================================================
+

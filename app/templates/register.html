@@ -7,9 +7,7 @@
 <div class="row justify-content-center auth-panel">
     <div class="col-12 col-md-8 col-lg-5">
         <div class="text-center mb-4 auth-brand">
-            <img src="{{ url_for('static', filename='images/logo.png') }}"
-                 alt="HAUdemicCheck logo"
-                 width="150">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="HAUdemicCheck logo" width="150">
 
             <h1 class="h3 fw-bold mt-2">HAUdemicCheck</h1>
             <p class="text-muted small">Academic similarity detection system</p>
@@ -30,18 +28,27 @@
                         </label>
 
                         {{ form.email(
-                            class="form-control" ~ (" is-invalid" if form.email.errors else ""),
-                            id="email",
-                            placeholder="Enter your email",
-                            autocomplete="username",
-                            required=True
+                        class="form-control" ~ (" is-invalid" if form.email.errors else ""),
+                        id="email",
+                        placeholder="Enter your email",
+                        autocomplete="username",
+                        required=True
                         ) }}
 
                         {% for error in form.email.errors %}
-                            <div class="invalid-feedback d-block">
-                                {{ error }}
-                            </div>
+                        <div class="invalid-feedback d-block">
+                            {{ error }}
+                        </div>
                         {% endfor %}
+                    </div>
+                    <br>
+                    <div class="form-text text-muted mb-3" id="passwordRequirements">
+                        <strong>Password requirements:</strong>
+                        <ul class="mb-0 ps-3">
+                            <li>Must be at least 8 characters long.</li>
+                            <li>Must contain uppercase and lowercase letters.</li>
+                            <li>Contain numbers or special characters for a stronger password.</li>
+                        </ul>
                     </div>
 
                     <div class="mb-3">
@@ -51,28 +58,61 @@
 
                         <div class="input-group">
                             {{ form.password(
-                                class="form-control" ~ (" is-invalid" if form.password.errors else ""),
-                                id="password",
-                                placeholder="Enter your password",
-                                autocomplete="new-password",
-                                required=True
+                            class="form-control" ~ (" is-invalid" if form.password.errors else ""),
+                            id="password",
+                            placeholder="Enter your password",
+                            autocomplete="new-password",
+                            required=True
                             ) }}
 
-                            <button
-                                type="button"
-                                class="btn btn-outline-secondary"
-                                data-password-toggle="password"
-                                aria-label="Show password"
-                                aria-pressed="false"
-                            >
+                            <button type="button" class="btn btn-outline-secondary" data-password-toggle="password"
+                                aria-label="Show password" aria-pressed="false">
                                 Show
                             </button>
                         </div>
 
-                        {% for error in form.password.errors %}
-                            <div class="invalid-feedback d-block">
-                                {{ error }}
+                        <div id="passwordStrengthWrapper" class="d-none mt-2" aria-live="polite">
+                            <div class="progress" style="height: 6px;">
+                                <div id="passwordStrengthBar" class="progress-bar bg-danger" role="progressbar"
+                                    style="width: 33%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="33">
+                                </div>
                             </div>
+                            <div id="passwordStrengthLabel" class="form-text small text-danger">
+                                Weak
+                            </div>
+                        </div>
+
+                        {% for error in form.password.errors %}
+                        <div class="invalid-feedback d-block">
+                            {{ error }}
+                        </div>
+                        {% endfor %}
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="confirm_password" class="form-label fw-semibold">
+                            {{ form.confirm_password.label.text }}
+                        </label>
+
+                        <div class="input-group">
+                            {{ form.confirm_password(
+                            class="form-control" ~ (" is-invalid" if form.confirm_password.errors else ""),
+                            id="confirm_password",
+                            placeholder="Confirm your password",
+                            autocomplete="new-password",
+                            required=True
+                            ) }}
+
+                            <button type="button" class="btn btn-outline-secondary"
+                                data-password-toggle="confirm_password" aria-label="Show password" aria-pressed="false">
+                                Show
+                            </button>
+                        </div>
+
+                        {% for error in form.confirm_password.errors %}
+                        <div class="invalid-feedback d-block">
+                            {{ error }}
+                        </div>
                         {% endfor %}
                     </div>
 
@@ -96,3 +136,71 @@
 
 {% endblock %}
 
+{% block scripts %}
+<script>
+    (function () {
+        const passwordInput = document.getElementById('password');
+        const wrapper = document.getElementById('passwordStrengthWrapper');
+        const bar = document.getElementById('passwordStrengthBar');
+        const label = document.getElementById('passwordStrengthLabel');
+
+        if (!passwordInput || !wrapper || !bar || !label) return;
+
+        function classify(password) {
+            if (
+                password.length >= 8 &&
+                /[a-z]/.test(password) &&
+                /[A-Z]/.test(password) &&
+                /[0-9]/.test(password) &&
+                /[^A-Za-z0-9]/.test(password)
+            ) {
+                return 'strong';
+            }
+            if (
+                password.length >= 8 &&
+                /[A-Za-z]/.test(password) && (
+                    /[A-Z]/.test(password) ||
+                    /[0-9]/.test(password) ||
+                    /[^A-Za-z0-9]/.test(password)
+                )
+            ) {
+                return 'moderate';
+            }
+            return 'weak';
+        }
+
+        function updateStrength() {
+            const level = classify(passwordInput.value);
+
+            if (level === 'strong') {
+                bar.style.width = '100%';
+                bar.className = 'progress-bar bg-success';
+                bar.setAttribute('aria-valuenow', '100');
+                label.textContent = 'Strong';
+                label.className = 'form-text small text-success';
+            } else if (level === 'moderate') {
+                bar.style.width = '66%';
+                bar.className = 'progress-bar bg-warning';
+                bar.setAttribute('aria-valuenow', '66');
+                label.textContent = 'Moderate';
+                label.className = 'form-text small text-warning';
+            } else {
+                bar.style.width = '33%';
+                bar.className = 'progress-bar bg-danger';
+                bar.setAttribute('aria-valuenow', '33');
+                label.textContent = 'Weak';
+                label.className = 'form-text small text-danger';
+            }
+        }
+
+        passwordInput.addEventListener('focus', () => {
+            wrapper.classList.remove('d-none');
+            updateStrength();
+        });
+
+        passwordInput.addEventListener('input', () => {
+            if (!wrapper.classList.contains('d-none')) updateStrength();
+        });
+    })();
+</script>
+{% endblock %}

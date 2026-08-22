@@ -270,15 +270,18 @@
     .introjs-arrow.top-middle {
         border-bottom-color: #ffffff;
     }
+
     .introjs-arrow.bottom,
     .introjs-arrow.bottom-right,
     .introjs-arrow.bottom-middle {
         border-top-color: #ffffff;
     }
+
     .introjs-arrow.left,
     .introjs-arrow.left-bottom {
         border-right-color: #ffffff;
     }
+
     .introjs-arrow.right,
     .introjs-arrow.right-bottom {
         border-left-color: #ffffff;
@@ -290,9 +293,11 @@
             max-width: 90vw;
             padding: 1rem;
         }
+
         .introjs-tooltip-header {
             padding-right: 4rem;
         }
+
         .introjs-skipbutton {
             top: 0.25rem;
             right: 0.25rem;
@@ -463,7 +468,7 @@
                 <div class="slider-labels-reference">
                     <span>High Sensitivity</span>
                     <span>Balanced</span>
-                    <span>Conservative</span>
+                    <span>Low Sensitivity</span>
                 </div>
 
             </div>
@@ -498,7 +503,7 @@
                     <div class="desc-value">0.35</div>
 
                     <div class="desc-title">
-                        Conservative
+                        Low Sensitivity
                     </div>
 
                     <div class="desc-text">
@@ -523,7 +528,7 @@
 
     <div class="card-header">
         <h2 class="h5 mb-0">
-            Current Similarity Algorithm
+            Similarity Algorithm Overview
         </h2>
     </div>
 
@@ -590,6 +595,15 @@
         </div>
 
         <!-- Explanation -->
+        <p class="text-muted mb-4">
+            Cosine Similarity looks at how similar the overall content
+            and important terms are between two documents, while Jaccard
+            Similarity looks at how much their words and word combinations
+            overlap. Using both helps the system detect documents that are
+            similar in meaning as well as documents that share the same or
+            very similar wording.
+        </p>
+
         <p class="text-muted mb-4">
             The system calculates the final document similarity score by
             averaging the TF-IDF cosine similarity and the three Jaccard
