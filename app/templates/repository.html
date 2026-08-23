@@ -50,6 +50,44 @@
     .btn-refresh:hover {
         background-color: var(--hau-maroon-dark);
     }
+    /* Floating feedback toast for My Uploaded Documents deletions
+       (mirrors the Admin Dashboard showMessage() toast) */
+    .delete-success-toast {
+        position: fixed;
+        top: 1.25rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1100;
+        display: none;
+        max-width: min(92vw, 420px);
+        padding: 0.85rem 1.25rem;
+        border: 1px solid transparent;
+        border-radius: 6px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-align: center;
+        box-shadow: 0 8px 24px rgba(107, 15, 26, 0.15);
+    }
+
+    @keyframes myDocsToastIn {
+        from {
+            opacity: 0;
+            transform: translate(-50%, -0.5rem);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate(-50%, 0);
+        }
+    }
+
+    .delete-success-toast.show {
+        display: block;
+        background: #E8F5E9;
+        color: #1E8E3E;
+        border-color: #1E8E3E;
+        animation: myDocsToastIn 0.25s ease-out;
+    }
     /* Delete confirmation modal */
     .modal-content {
         border-radius: var(--hau-radius);
@@ -365,6 +403,10 @@
 </div>
 {% endif %}
 
+<!-- Success feedback for My Uploaded Documents deletions
+     (same floating toast used by the Admin Dashboard) -->
+<div id="deleteSuccessToast" class="delete-success-toast" role="status" aria-live="polite"></div>
+
 <!-- ===== MY UPLOADED DOCUMENTS ===== -->
 <div class="card shadow mt-4" id="myDocsCard">
     <div class="card-header d-flex justify-content-between align-items-center">
@@ -659,6 +701,28 @@
         const refreshMyDocsBtn = document.getElementById('refreshMyDocsBtn');
         let activeDeleteRequests = 0;
 
+        // Deletion-success feedback (same floating toast as the Admin
+        // Dashboard). The flag is stored only after a confirmed successful
+        // DELETE response and displayed once the page finishes reloading.
+        const deleteSuccessToast = document.getElementById('deleteSuccessToast');
+
+        function showDeleteSuccessToast() {
+            if (!deleteSuccessToast) return;
+            deleteSuccessToast.textContent = "Document deleted successfully.";
+            deleteSuccessToast.classList.add("show");
+            setTimeout(() => {
+                deleteSuccessToast.classList.remove("show");
+                deleteSuccessToast.textContent = "";
+            }, 4000);
+        }
+
+        try {
+            if (sessionStorage.getItem("myDocsDeleteSuccess") === "1") {
+                sessionStorage.removeItem("myDocsDeleteSuccess");
+                showDeleteSuccessToast();
+            }
+        } catch (e) { /* storage unavailable — skip feedback */ }
+
         document.querySelectorAll(".delete-document-btn").forEach(button => {
             button.addEventListener("click", () => {
                 const filename = button.dataset.filename;
@@ -688,6 +752,9 @@
                 if (!response.ok || !data.success) {
                     throw new Error(data.error || "Unable to delete document.");
                 }
+                try {
+                    sessionStorage.setItem("myDocsDeleteSuccess", "1");
+                } catch (e) { /* storage unavailable — skip feedback */ }
                 window.location.reload();
             } catch (error) {
                 console.error("Delete document error:", error);

@@ -32,6 +32,7 @@ from app.utils.document_identity import (
 from app.storage.supabase_storage import (
     upload_file,
     delete_file,
+    list_files,
 )
 from dotenv import load_dotenv
 
@@ -520,14 +521,11 @@ def reset_password():
 @app.route('/api/admin/stats', methods=['GET'])
 @admin_required
 def get_admin_stats():
-    """Get admin panel statistics."""
+    """Get persistent Admin panel statistics from Supabase."""
 
-    base_dir = Path(__file__).resolve().parent.parent.parent
-
-    # ========================================================
-    # 1. COUNT USERS
-    # ========================================================
-
+    # ------------------------------------------------------------
+    # 1. USERS — already persistent in Supabase
+    # ------------------------------------------------------------
     try:
         users_response = (
             supabase_admin
@@ -547,196 +545,71 @@ def get_admin_stats():
         )
 
     except Exception:
-        logger.exception(
-            "ADMIN STATS USER ERROR"
-        )
-
+        logger.exception("ADMIN STATS USER ERROR")
         total_users = 0
         active_users = 0
 
-    # ========================================================
-    # 2. REPOSITORY FOLDERS
-    #
-    # promoted  = actual repository documents
-    # review    = documents awaiting review / flagged
-    # processed = persistent processed copies
-    # ========================================================
+    # ------------------------------------------------------------
+    # 2. PERSISTENT CORPUS — Supabase Storage is authoritative
+    # ------------------------------------------------------------
+    try:
+        promoted_files = set(
+            _storage_txt_index("promoted").keys()
+        )
 
-    corpus_promoted = (
-        base_dir / "corpus" / "promoted"
-    )
+        processed_files = set(
+            _storage_txt_index("processed").keys()
+        )
 
-    corpus_review = (
-        base_dir / "corpus" / "review"
-    )
+        review_files = set(
+            _storage_txt_index("review").keys()
+        )
 
-    corpus_processed = (
-        base_dir / "corpus" / "processed"
-    )
+        promoted_count = len(promoted_files)
+        review_count = len(review_files)
 
-    # ========================================================
-    # 3. GET PROMOTED REPOSITORY DOCUMENTS
-    #
-    # ONLY TXT files count.
-    #
-    # PDFs are ignored because they are companion files.
-    # .gitkeep is ignored.
-    # ========================================================
+        processed_repository_files = (
+            promoted_files.intersection(processed_files)
+        )
 
-    promoted_files = set()
+        processed_count = len(
+            processed_repository_files
+        )
 
-    if corpus_promoted.exists():
+        missing_files = (
+            promoted_files - processed_files
+        )
 
-        promoted_files = {
-            file_path.name
-            for file_path in corpus_promoted.iterdir()
-            if (
-                file_path.is_file()
-                and file_path.suffix.lower() == ".txt"
-                and file_path.name != ".gitkeep"
-            )
-        }
+        missing_count = len(missing_files)
 
-    promoted_count = len(promoted_files)
+        is_synchronized = (
+            missing_count == 0
+        )
 
-    # ========================================================
-    # 4. GET PROCESSED REPOSITORY DOCUMENTS
-    #
-    # ONLY TXT files count.
-    # ========================================================
+    except Exception:
+        logger.exception(
+            "ADMIN STATS STORAGE ERROR"
+        )
 
-    processed_files = set()
-
-    if corpus_processed.exists():
-
-        processed_files = {
-            file_path.name
-            for file_path in corpus_processed.iterdir()
-            if (
-                file_path.is_file()
-                and file_path.suffix.lower() == ".txt"
-                and file_path.name != ".gitkeep"
-            )
-        }
-
-    # ========================================================
-    # 5. COUNT PERSISTENT PROCESSED COPIES
-    #
-    # IMPORTANT:
-    #
-    # We only count processed files that have a matching
-    # document in corpus/promoted.
-    #
-    # This prevents unrelated/old processed files from
-    # inflating the repository health number.
-    # ========================================================
-
-    processed_repository_files = (
-        promoted_files.intersection(processed_files)
-    )
-
-    processed_count = len(
-        processed_repository_files
-    )
-
-    # ========================================================
-    # 6. GET DOCUMENTS WAITING FOR REVIEW
-    #
-    # corpus/review is now the source of flagged documents.
-    #
-    # ONLY TXT files count.
-    #
-    # PDFs and .gitkeep are ignored.
-    # ========================================================
-
-    review_files = set()
-
-    if corpus_review.exists():
-
-        review_files = {
-            file_path.name
-            for file_path in corpus_review.iterdir()
-            if (
-                file_path.is_file()
-                and file_path.suffix.lower() == ".txt"
-                and file_path.name != ".gitkeep"
-            )
-        }
-
-    review_count = len(review_files)
-
-    # ========================================================
-    # 7. CALCULATE MISSING PROCESSED COPIES
-    #
-    # A promoted document is missing a processed copy when
-    # its TXT filename does not exist in corpus/processed.
-    # ========================================================
-
-    missing_files = (
-        promoted_files - processed_files
-    )
-
-    missing_count = len(missing_files)
-
-    # ========================================================
-    # 8. REPOSITORY HEALTH
-    #
-    # Healthy when every promoted repository document has
-    # a corresponding processed TXT file.
-    # ========================================================
-
-    is_synchronized = (
-        missing_count == 0
-    )
-
-    # ========================================================
-    # 9. RETURN DASHBOARD STATISTICS
-    # ========================================================
+        # Do not silently report healthy/empty data when persistent
+        # storage cannot be inspected.
+        promoted_count = 0
+        review_count = 0
+        processed_count = 0
+        missing_count = 0
+        is_synchronized = False
 
     return jsonify({
-
-        # ------------------------------
-        # Users
-        # ------------------------------
-
         "total_users": total_users,
         "active_users": active_users,
-
-        # ------------------------------
-        # Repository
-        # ------------------------------
-
         "repository_documents": promoted_count,
-
         "promoted_copies": promoted_count,
-
-        # ------------------------------
-        # Review / Flagged
-        # ------------------------------
-
         "review_documents": review_count,
-
         "flagged_documents": review_count,
-
-        # ------------------------------
-        # Processed copies
-        # ------------------------------
-
         "processed_copies": processed_count,
-
-        # ------------------------------
-        # Missing processed copies
-        # ------------------------------
-
         "missing_copies": missing_count,
-
-        # ------------------------------
-        # Repository health
-        # ------------------------------
-
-        "is_synchronized": is_synchronized
+        "is_synchronized": is_synchronized,
     })
-
 
 
 def _load_user_email_map():
@@ -758,12 +631,163 @@ def _load_user_email_map():
     }
 
 
+def _storage_file_records(prefix):
+    """
+    Read persistent Supabase Storage metadata for one corpus prefix.
+
+    The Admin dashboard uses this as its persistent source of truth instead
+    of the ephemeral Render filesystem.
+    """
+    try:
+        records = list_files(prefix) or []
+    except Exception:
+        logger.exception(
+            "Could not list Supabase Storage objects for prefix: %s",
+            prefix,
+        )
+        raise
+
+    normalized = []
+
+    for item in records:
+        if isinstance(item, dict):
+            name = (
+                item.get("name")
+                or item.get("path")
+                or item.get("filename")
+            )
+            metadata = item.get("metadata") or {}
+            size = item.get("size")
+            created_at = item.get("created_at")
+            updated_at = item.get("updated_at")
+
+            if size is None:
+                size = metadata.get("size")
+
+            if created_at is None:
+                created_at = metadata.get("created_at")
+
+            if updated_at is None:
+                updated_at = metadata.get("updated_at")
+
+        else:
+            name = (
+                getattr(item, "name", None)
+                or getattr(item, "path", None)
+                or getattr(item, "filename", None)
+            )
+            metadata = getattr(item, "metadata", None) or {}
+            size = getattr(item, "size", None)
+            created_at = getattr(item, "created_at", None)
+            updated_at = getattr(item, "updated_at", None)
+
+            if size is None and isinstance(metadata, dict):
+                size = metadata.get("size")
+
+            if created_at is None and isinstance(metadata, dict):
+                created_at = metadata.get("created_at")
+
+            if updated_at is None and isinstance(metadata, dict):
+                updated_at = metadata.get("updated_at")
+
+        if not name:
+            continue
+
+        normalized.append({
+            "name": Path(str(name)).name,
+            "size": size,
+            "created_at": created_at,
+            "updated_at": updated_at,
+            "raw": item,
+        })
+
+    return normalized
+
+
+def _storage_txt_index(prefix):
+    """Return a basename -> storage metadata mapping for TXT files."""
+    index = {}
+
+    for item in _storage_file_records(prefix):
+        name = item["name"]
+
+        if name == ".gitkeep":
+            continue
+
+        if Path(name).suffix.lower() != ".txt":
+            continue
+
+        index[name] = item
+
+    return index
+
+
+def _parse_storage_timestamp(value):
+    """Return a timestamp string suitable for the Admin API."""
+    if value is None:
+        return None
+
+    if isinstance(value, str):
+        return value
+
+    try:
+        return datetime.fromtimestamp(float(value)).isoformat()
+    except (TypeError, ValueError, OSError):
+        return str(value)
+
+
+def _repository_storage_payload(
+    storage_item,
+    document,
+    user_emails,
+):
+    """
+    Build the same Admin repository payload shape as the old local version,
+    but from persistent Supabase data.
+    """
+    internal_name = storage_item["name"]
+
+    added_by = "SYSTEM"
+
+    if document and document.get("user_id"):
+        added_by = (
+            user_emails.get(str(document["user_id"]))
+            or "SYSTEM"
+        )
+
+    if document:
+        filename = document.get(
+            "filename",
+            display_filename(internal_name),
+        )
+        document_id = document.get("id")
+        legacy_filename = None
+        date_added = document.get("uploaded_at")
+    else:
+        filename = display_filename(internal_name)
+        document_id = None
+        legacy_filename = internal_name
+        date_added = (
+            storage_item.get("created_at")
+            or storage_item.get("updated_at")
+        )
+
+    return {
+        "document_id": document_id,
+        "legacy_filename": legacy_filename,
+        "filename": filename,
+        "added_by": added_by,
+        "date_added": _parse_storage_timestamp(date_added),
+        "size": storage_item.get("size"),
+    }
+
+
 def _repository_document_indexes():
     """Index optional database metadata without hiding local repository files."""
     try:
         response = (
             supabase_admin.table("user_documents")
-            .select("id, filename, storage_path, user_id")
+            .select("id, filename, storage_path, user_id, uploaded_at")
             .execute()
         )
     except Exception:
@@ -814,25 +838,40 @@ def _repository_file_payload(file_path, by_storage_name, legacy_by_filename, use
 @app.route('/api/admin/repository', methods=['GET'])
 @admin_required
 def get_repository_files():
-    """List local repository files and enrich them with database metadata."""
+    """List persistent repository documents from Supabase Storage."""
+    try:
+        storage_index = _storage_txt_index("promoted")
+        by_storage_name, legacy_by_filename = (
+            _repository_document_indexes()
+        )
+        user_emails = _load_user_email_map()
 
-    base_dir = Path(__file__).resolve().parent.parent.parent
-    corpus_promoted = base_dir / "corpus" / "promoted"
-    by_storage_name, legacy_by_filename = _repository_document_indexes()
-    user_emails = _load_user_email_map()
+        files = []
 
-    files = []
-    if corpus_promoted.exists():
-        for file_path in sorted(corpus_promoted.iterdir()):
-            if file_path.is_file() and file_path.suffix.lower() == ".txt":
-                files.append(_repository_file_payload(
-                    file_path,
-                    by_storage_name,
-                    legacy_by_filename,
+        for filename in sorted(storage_index.keys()):
+            document = (
+                by_storage_name.get(filename)
+                or legacy_by_filename.get(filename)
+            )
+
+            files.append(
+                _repository_storage_payload(
+                    storage_index[filename],
+                    document,
                     user_emails,
-                ))
+                )
+            )
 
-    return jsonify(files)
+        return jsonify(files)
+
+    except Exception as e:
+        logger.exception(
+            "Failed to load persistent repository files"
+        )
+
+        return jsonify({
+            "error": str(e)
+        }), 500
 
 @app.route('/api/admin/repository/<document_ref>', methods=['DELETE'])
 @admin_required
@@ -1193,73 +1232,79 @@ def admin_flagged_documents():
         }), 403
 
     try:
+        # Supabase Storage is authoritative for whether the flagged
+        # review TXT actually exists. user_documents supplies metadata.
+        review_index = _storage_txt_index("review")
 
-        base_dir = Path(__file__).resolve().parent.parent.parent
-        flagged_folder = base_dir / "corpus" / "review"
-
-        if not flagged_folder.exists():
-            return jsonify([])
-
-        files = []
         records_response = (
-            supabase_admin.table("user_documents")
-            .select("id, filename, storage_path, user_id")
+            supabase_admin
+            .table("user_documents")
+            .select(
+                "id, filename, storage_path, user_id, "
+                "source, status, uploaded_at"
+            )
             .eq("source", "plagiarism_check")
             .execute()
         )
+
         user_emails = _load_user_email_map()
+
         records_by_storage_name = {
             Path(record["storage_path"]).name: record
             for record in (records_response.data or [])
             if record.get("storage_path")
             and str(record["storage_path"]).startswith("review/")
-        }
-        legacy_records_by_filename = {
-            record.get("filename"): record
-            for record in (records_response.data or [])
-            if not record.get("storage_path")
-        }
-
-        for file_path in flagged_folder.iterdir():
-
-            if not file_path.is_file():
-                continue
-
-            if file_path.suffix.lower() != ".txt":
-                continue
-
-            if file_path.name == ".gitkeep":
-                continue
-
-            document = (
-                records_by_storage_name.get(file_path.name)
-                or legacy_records_by_filename.get(file_path.name)
+            and (
+                record.get("status") == "flagged"
+                or not record.get("status")
             )
+        }
+
+        files = []
+
+        for internal_name in sorted(
+            review_index.keys()
+        ):
+            document = records_by_storage_name.get(
+                internal_name
+            )
+
             if not document:
+                logger.warning(
+                    "Review Storage object has no matching "
+                    "user_documents row: %s",
+                    internal_name,
+                )
                 continue
 
             files.append({
                 "document_id": document.get("id"),
-                "filename": document.get("filename", display_filename(file_path.name)),
+                "filename": document.get(
+                    "filename",
+                    display_filename(internal_name),
+                ),
                 "added_by": (
-                    user_emails.get(str(document.get("user_id")))
+                    user_emails.get(
+                        str(document.get("user_id"))
+                    )
                     if document.get("user_id")
                     else None
                 ) or "SYSTEM",
-                "date_added": datetime.fromtimestamp(
-                    file_path.stat().st_mtime
-                ).isoformat()
+                "date_added": (
+                    document.get("uploaded_at")
+                    or review_index[internal_name].get("created_at")
+                    or review_index[internal_name].get("updated_at")
+                ),
             })
 
         files.sort(
-            key=lambda item: item["date_added"],
-            reverse=True
+            key=lambda item: item["date_added"] or "",
+            reverse=True,
         )
 
         return jsonify(files)
 
     except Exception as e:
-
         logger.exception(
             "Failed to load flagged documents"
         )
@@ -1278,54 +1323,59 @@ def search_admin_flagged_documents():
         }), 403
 
     try:
+        query = request.args.get(
+            "q",
+            ""
+        ).strip().lower()
 
-        query = request.args.get("q", "").strip().lower()
+        review_index = _storage_txt_index("review")
 
-        base_dir = Path(__file__).resolve().parent.parent.parent
-        flagged_folder = base_dir / "corpus" / "review"
-
-        if not flagged_folder.exists():
-            return jsonify([])
-
-        files = []
         records_response = (
-            supabase_admin.table("user_documents")
-            .select("id, filename, storage_path, user_id")
+            supabase_admin
+            .table("user_documents")
+            .select(
+                "id, filename, storage_path, user_id, "
+                "source, status, uploaded_at"
+            )
             .eq("source", "plagiarism_check")
             .execute()
         )
+
         user_emails = _load_user_email_map()
+
         records_by_storage_name = {
             Path(record["storage_path"]).name: record
             for record in (records_response.data or [])
             if record.get("storage_path")
             and str(record["storage_path"]).startswith("review/")
-        }
-        legacy_records_by_filename = {
-            record.get("filename"): record
-            for record in (records_response.data or [])
-            if not record.get("storage_path")
-        }
-
-        for file_path in flagged_folder.iterdir():
-
-            if not file_path.is_file():
-                continue
-
-            if file_path.suffix.lower() != ".txt":
-                continue
-
-            if file_path.name == ".gitkeep":
-                continue
-
-            document = (
-                records_by_storage_name.get(file_path.name)
-                or legacy_records_by_filename.get(file_path.name)
+            and (
+                record.get("status") == "flagged"
+                or not record.get("status")
             )
+        }
+
+        files = []
+
+        for internal_name in sorted(
+            review_index.keys()
+        ):
+            document = records_by_storage_name.get(
+                internal_name
+            )
+
             if not document:
+                logger.warning(
+                    "Review Storage object has no matching "
+                    "user_documents row: %s",
+                    internal_name,
+                )
                 continue
 
-            display_name = document.get("filename", display_filename(file_path.name))
+            display_name = document.get(
+                "filename",
+                display_filename(internal_name),
+            )
+
             if query and query not in display_name.lower():
                 continue
 
@@ -1333,24 +1383,27 @@ def search_admin_flagged_documents():
                 "document_id": document.get("id"),
                 "filename": display_name,
                 "added_by": (
-                    user_emails.get(str(document.get("user_id")))
+                    user_emails.get(
+                        str(document.get("user_id"))
+                    )
                     if document.get("user_id")
                     else None
                 ) or "SYSTEM",
-                "date_added": datetime.fromtimestamp(
-                    file_path.stat().st_mtime
-                ).isoformat()
+                "date_added": (
+                    document.get("uploaded_at")
+                    or review_index[internal_name].get("created_at")
+                    or review_index[internal_name].get("updated_at")
+                ),
             })
 
         files.sort(
-            key=lambda item: item["date_added"],
-            reverse=True
+            key=lambda item: item["date_added"] or "",
+            reverse=True,
         )
 
         return jsonify(files)
 
     except Exception as e:
-
         logger.exception(
             "Failed to search flagged documents"
         )
@@ -1819,31 +1872,49 @@ def delete_plagiarism_document(document_id):
 @app.route('/api/admin/repository/search', methods=['GET'])
 @admin_required
 def search_repository():
-    """Search repository documents by filename."""
+    """Search persistent repository documents by display filename."""
 
-    query = request.args.get('q', '').strip().lower()
+    try:
+        query = request.args.get(
+            'q',
+            ''
+        ).strip().lower()
 
-    base_dir = Path(__file__).resolve().parent.parent.parent
-    corpus_promoted = base_dir / "corpus" / "promoted"
+        storage_index = _storage_txt_index("promoted")
+        by_storage_name, legacy_by_filename = (
+            _repository_document_indexes()
+        )
+        user_emails = _load_user_email_map()
 
-    files = []
-    by_storage_name, legacy_by_filename = _repository_document_indexes()
-    user_emails = _load_user_email_map()
+        files = []
 
-    if corpus_promoted.exists():
-        for file_path in sorted(corpus_promoted.iterdir()):
-            if not file_path.is_file() or file_path.suffix.lower() != ".txt":
-                continue
-            payload = _repository_file_payload(
-                file_path,
-                by_storage_name,
-                legacy_by_filename,
+        for internal_name in sorted(
+            storage_index.keys()
+        ):
+            document = (
+                by_storage_name.get(internal_name)
+                or legacy_by_filename.get(internal_name)
+            )
+
+            payload = _repository_storage_payload(
+                storage_index[internal_name],
+                document,
                 user_emails,
             )
+
             if query in payload["filename"].lower():
                 files.append(payload)
 
-    return jsonify(files)
+        return jsonify(files)
+
+    except Exception as e:
+        logger.exception(
+            "Failed to search persistent repository files"
+        )
+
+        return jsonify({
+            "error": str(e)
+        }), 500
 
 @app.route('/api/admin/users', methods=['GET'])
 @admin_required
@@ -1949,10 +2020,7 @@ def create_admin_user():
 @app.route('/api/admin/system-status', methods=['GET'])
 @admin_required
 def get_system_status():
-    """Get system health status."""
-
-    base_dir = Path(__file__).resolve().parent.parent.parent
-
+    """Get system health status from persistent services."""
     status = {
         "authentication": "operational",
         "upload": "operational",
@@ -1962,16 +2030,26 @@ def get_system_status():
         "persistent_processing": "operational"
     }
 
-    # Check if key folders exist
     try:
-        if not (base_dir / "corpus" / "promoted").exists():
+        promoted_files = _storage_txt_index("promoted")
+        processed_files = _storage_txt_index("processed")
+
+        if not promoted_files:
             status["repository"] = "warning"
 
-        if not (base_dir / "corpus" / "processed").exists():
+        missing_count = len(
+            set(promoted_files) - set(processed_files)
+        )
+
+        if missing_count > 0:
             status["persistent_processing"] = "warning"
 
-    except Exception as e:
-        print("SYSTEM STATUS ERROR:", repr(e))
+    except Exception:
+        logger.exception(
+            "SYSTEM STATUS STORAGE ERROR"
+        )
+        status["repository"] = "warning"
+        status["persistent_processing"] = "warning"
 
     return jsonify(status)
 
@@ -2444,7 +2522,7 @@ def dismiss_flag(filename):
         moved_successfully = True
 
         flash(
-            "Document promoted to repository.",
+            "Document promoted to repository, saving to 'My Uploaded Files' under Repository.",
             "success"
         )
 
@@ -2511,7 +2589,7 @@ def confirm_flag(filename):
     Leave files in corpus/review.
     """
 
-    flash("Document confirmed as flagged.", "warning")
+    flash("Document confirmed as flagged, saving to 'My Uploaded Files' under Repository", "warning")
     sid = get_session_id()
     if sid in RESULTS_STORE:
 

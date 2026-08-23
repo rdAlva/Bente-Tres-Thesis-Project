@@ -305,6 +305,33 @@
             font-size: 0.75rem;
         }
     }
+
+    /* =========================
+       Similarity Algorithm Overview Toggle
+       ========================= */
+    .algo-toggle {
+        font-size: inherit;
+        line-height: inherit;
+        color: inherit;
+    }
+
+    .algo-toggle:hover {
+        color: inherit;
+    }
+
+    .algo-toggle:focus-visible {
+        outline: 2px solid #6B0F1A;
+        outline-offset: 2px;
+        border-radius: 4px;
+    }
+
+    .algo-toggle-icon {
+        transition: transform 0.2s ease;
+    }
+
+    .algo-toggle[aria-expanded="true"] .algo-toggle-icon {
+        transform: rotate(180deg);
+    }
 </style>
 {% endblock %}
 
@@ -528,120 +555,131 @@
 
     <div class="card-header">
         <h2 class="h5 mb-0">
-            Similarity Algorithm Overview
+            <button
+                class="algo-toggle btn w-100 d-flex justify-content-between align-items-center p-0 border-0 bg-transparent"
+                type="button" data-bs-toggle="collapse" data-bs-target="#algorithmOverviewBody" aria-expanded="false"
+                aria-controls="algorithmOverviewBody">
+                Algorithm Overview
+
+                <i class="bi bi-chevron-down algo-toggle-icon" aria-hidden="true"></i>
+            </button>
         </h2>
     </div>
 
-    <div class="card-body p-3 p-md-5">
+    <div class="collapse" id="algorithmOverviewBody">
 
-        <!-- Formula -->
-        <div class="algorithm-formula mb-4">
+        <div class="card-body p-3 p-md-5">
 
-            <div class="formula-title fw-bold mb-2">
-                Combined Similarity Score
+            <!-- Formula -->
+            <div class="algorithm-formula mb-4">
+
+                <div class="formula-title fw-bold mb-2">
+                    Combined Similarity Score
+                </div>
+
+                <div class="formula-math bg-white border rounded p-3">
+                    <strong>S<sub>combined</sub></strong>
+                    =
+                    (C + J<sub>1</sub> + J<sub>2</sub> + J<sub>3</sub>) / 4
+                </div>
+
             </div>
 
-            <div class="formula-math bg-white border rounded p-3">
-                <strong>S<sub>combined</sub></strong>
-                =
-                (C + J<sub>1</sub> + J<sub>2</sub> + J<sub>3</sub>) / 4
-            </div>
+            <!-- Components -->
+            <div class="row g-3 mb-4">
 
-        </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-3 bg-light border-start border-3 rounded">
+                        <strong>C</strong>
 
-        <!-- Components -->
-        <div class="row g-3 mb-4">
-
-            <div class="col-md-6 col-lg-3">
-                <div class="p-3 bg-light border-start border-3 rounded">
-                    <strong>C</strong>
-
-                    <div class="small text-muted mt-1">
-                        TF-IDF Cosine Similarity
+                        <div class="small text-muted mt-1">
+                            TF-IDF Cosine Similarity
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-6 col-lg-3">
-                <div class="p-3 bg-light border-start border-3 rounded">
-                    <strong>J<sub>1</sub></strong>
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-3 bg-light border-start border-3 rounded">
+                        <strong>J<sub>1</sub></strong>
 
-                    <div class="small text-muted mt-1">
-                        Unigram Jaccard Similarity
+                        <div class="small text-muted mt-1">
+                            Unigram Jaccard Similarity
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-6 col-lg-3">
-                <div class="p-3 bg-light border-start border-3 rounded">
-                    <strong>J<sub>2</sub></strong>
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-3 bg-light border-start border-3 rounded">
+                        <strong>J<sub>2</sub></strong>
 
-                    <div class="small text-muted mt-1">
-                        Bigram Jaccard Similarity
+                        <div class="small text-muted mt-1">
+                            Bigram Jaccard Similarity
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-6 col-lg-3">
-                <div class="p-3 bg-light border-start border-3 rounded">
-                    <strong>J<sub>3</sub></strong>
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-3 bg-light border-start border-3 rounded">
+                        <strong>J<sub>3</sub></strong>
 
-                    <div class="small text-muted mt-1">
-                        Trigram Jaccard Similarity
+                        <div class="small text-muted mt-1">
+                            Trigram Jaccard Similarity
+                        </div>
                     </div>
                 </div>
+
             </div>
 
-        </div>
+            <!-- Explanation -->
+            <p class="text-muted mb-4">
+                Cosine Similarity looks at how similar the overall content
+                and important terms are between two documents, while Jaccard
+                Similarity looks at how much their words and word combinations
+                overlap. Using both helps the system detect documents that are
+                similar in meaning as well as documents that share the same or
+                very similar wording.
+            </p>
 
-        <!-- Explanation -->
-        <p class="text-muted mb-4">
-            Cosine Similarity looks at how similar the overall content
-            and important terms are between two documents, while Jaccard
-            Similarity looks at how much their words and word combinations
-            overlap. Using both helps the system detect documents that are
-            similar in meaning as well as documents that share the same or
-            very similar wording.
-        </p>
+            <p class="text-muted mb-4">
+                The system calculates the final document similarity score by
+                averaging the TF-IDF cosine similarity and the three Jaccard
+                similarity scores.
+            </p>
 
-        <p class="text-muted mb-4">
-            The system calculates the final document similarity score by
-            averaging the TF-IDF cosine similarity and the three Jaccard
-            similarity scores.
-        </p>
-
-        <!-- Decision Rule -->
-        <div class="p-3 rounded" style="
+            <!-- Decision Rule -->
+            <div class="p-3 rounded" style="
                 background: rgba(197, 160, 40, 0.15);
                 border-left: 4px solid #C5A028;
             ">
 
-            <div class="fw-bold mb-2">
-                Decision Rule
-            </div>
+                <div class="fw-bold mb-2">
+                    Decision Rule
+                </div>
 
-            <div class="mb-2">
-                If:
-                <strong>
-                    S<sub>combined</sub> ≥ Threshold
-                </strong>
-                →
+                <div class="mb-2">
+                    If:
+                    <strong>
+                        S<sub>combined</sub> ≥ Threshold
+                    </strong>
+                    →
 
-                <span class="badge bg-danger">
-                    WITHHOLD / REVIEW
-                </span>
-            </div>
+                    <span class="badge bg-danger">
+                        WITHHOLD / REVIEW
+                    </span>
+                </div>
 
-            <div>
-                If:
-                <strong>
-                    S<sub>combined</sub> &lt; Threshold
-                </strong>
-                →
+                <div>
+                    If:
+                    <strong>
+                        S<sub>combined</sub> &lt; Threshold
+                    </strong>
+                    →
 
-                <span class="badge bg-success">
-                    PROMOTE
-                </span>
+                    <span class="badge bg-success">
+                        PROMOTE
+                    </span>
+                </div>
+
             </div>
 
         </div>
