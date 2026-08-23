@@ -121,8 +121,29 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
+        // Must match the server-side MAX_FILE_SIZE (app/frontend/main.py).
+        const MAX_FILE_SIZE_BYTES = 50 * 1024 * 1024; // 50 MB per file
+        const clientSizeFeedback = document.getElementById('clientSizeFeedback');
+
         if (uploadForm) {
-            uploadForm.addEventListener('submit', () => {
+            uploadForm.addEventListener('submit', (e) => {
+                const oversized = Array.from(fileInput.files || [])
+                    .find(file => file.size > MAX_FILE_SIZE_BYTES);
+
+                if (oversized) {
+                    e.preventDefault();
+                    if (clientSizeFeedback) {
+                        clientSizeFeedback.textContent =
+                            'File exceeds the 50MB limit. Please upload a PDF file below 50MB.';
+                        clientSizeFeedback.classList.remove('d-none');
+                    }
+                    return;
+                }
+
+                if (clientSizeFeedback) {
+                    clientSizeFeedback.classList.add('d-none');
+                    clientSizeFeedback.textContent = '';
+                }
                 uploadButton.disabled = true;
                 uploadButton.value = 'Processing...';
                 uploadStatus.classList.remove('d-none');

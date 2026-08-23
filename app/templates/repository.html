@@ -343,7 +343,7 @@
                 <div id="dropZone" class="drop-zone py-4">
                     <i class="bi bi-cloud-arrow-up drop-zone-icon" aria-hidden="true"></i>
                     <p class="mb-1 fw-semibold">Drag files here or click to browse</p>
-                    <p class="mb-0 text-muted small">Only .pdf files are accepted</p>
+                    <p class="mb-0 text-muted small">Only .pdf files below 50MB per file are accepted</p>
                     {{ form.files(
                         class="drop-zone-input" ~ (" is-invalid" if form.files.errors else ""),
                         multiple=True,
@@ -359,6 +359,8 @@
                     {% for error in form.files.errors %}{{ error }}{% endfor %}
                 </div>
                 {% endif %}
+
+                <div id="clientSizeFeedback" class="invalid-feedback d-block d-none" role="alert"></div>
 
                 <div id="repoFilesHelp" class="form-text text-muted mt-2">
                     Hold <strong class="text-muted">Ctrl</strong> (or <strong class="text-muted">Cmd</strong>) to select multiple files.
@@ -673,7 +675,28 @@
             }
         });
 
-        form.addEventListener("submit", () => {
+        // Must match the server-side MAX_FILE_SIZE (app/frontend/main.py).
+        const MAX_FILE_SIZE_BYTES = 50 * 1024 * 1024; // 50 MB per file
+        const clientSizeFeedback = document.getElementById("clientSizeFeedback");
+
+        form.addEventListener("submit", (e) => {
+            const oversized = Array.from(fileInput.files || [])
+                .find(file => file.size > MAX_FILE_SIZE_BYTES);
+
+            if (oversized) {
+                e.preventDefault();
+                if (clientSizeFeedback) {
+                    clientSizeFeedback.textContent =
+                        "File exceeds the 50MB limit. Please upload a PDF file below 50MB.";
+                    clientSizeFeedback.classList.remove("d-none");
+                }
+                return;
+            }
+
+            if (clientSizeFeedback) {
+                clientSizeFeedback.classList.add("d-none");
+                clientSizeFeedback.textContent = "";
+            }
             uploadButton.disabled = true;
             uploadButton.value = "Adding...";
             if (uploadStatus) {

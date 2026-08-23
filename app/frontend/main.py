@@ -57,8 +57,21 @@ UPLOAD_FOLDER = os.path.join(
 )
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
+# Maximum accepted size for a single uploaded PDF file. This is the
+# authoritative application limit and is enforced server-side before any
+# file is saved, processed, or uploaded to Supabase Storage.
+MAX_FILE_SIZE = 50 * 1024 * 1024  # 50 MB per file
+MAX_FILE_SIZE_MB = MAX_FILE_SIZE // (1024 * 1024)
+
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'dev-only-insecure-key')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
+# Request-level backstop only. This caps the whole HTTP request body (all
+# files plus multipart overhead), not individual files, so it is deliberately
+# much larger than MAX_FILE_SIZE to allow multiple valid per-file uploads.
+# The per-file rule above remains the application's authoritative limit and
+# is enforced by the FileSizeLimit form validator below.
+app.config['MAX_CONTENT_LENGTH'] = MAX_FILE_SIZE * 8
 
 DEBUG_MODE = os.environ.get('FLASK_DEBUG', '0') == '1'
 
@@ -133,13 +146,49 @@ def _audit_log(action, filename=None):
 # ============================================================
 # Forms
 # ============================================================
+class FileSizeLimit(object):
+    """
+    Rejects the form when any selected file exceeds MAX_FILE_SIZE.
+
+    Shared by the Plagiarism Check and Repository upload forms so both
+    enforce the same server-side per-file limit. Runs during
+    validate_on_submit(), before any file is saved, processed, or
+    uploaded to Supabase Storage.
+    """
+
+    def __call__(self, form, field):
+        files = field.data or []
+
+        for file in files:
+            if not file or not file.filename:
+                continue
+
+            stream = file.stream
+            original_position = stream.tell()
+            stream.seek(0, os.SEEK_END)
+            size = stream.tell()
+            stream.seek(original_position)
+
+            if size > MAX_FILE_SIZE:
+                raise ValidationError(
+                    f"File exceeds the {MAX_FILE_SIZE_MB}MB limit. "
+                    f"Please upload a PDF file below {MAX_FILE_SIZE_MB}MB."
+                )
+
+
 class UploadFileForm(FlaskForm):
-    files = MultipleFileField("Files", validators=[InputRequired()])
+    files = MultipleFileField(
+        "Files",
+        validators=[InputRequired(), FileSizeLimit()]
+    )
     submit = SubmitField("Upload Files")
 
 
 class RepositoryUploadForm(FlaskForm):
-    files = MultipleFileField("Repository Files", validators=[InputRequired()])
+    files = MultipleFileField(
+        "Repository Files",
+        validators=[InputRequired(), FileSizeLimit()]
+    )
     submit = SubmitField("Add to Repository")
 
 
@@ -2294,7 +2343,32 @@ def home():
     if request.method == "POST":
         logger.info("Form errors: %s", form.errors)
 
-    return render_template("index.html", form=form)
+    repository_count = _get_repository_document_count()
+
+    return render_template(
+        "index.html",
+        form=form,
+        repository_count=repository_count
+    )
+
+
+def _get_repository_document_count():
+    """
+    Count the documents currently stored in the known/original
+    repository, using the same persistent source as the Admin
+    dashboard (Supabase Storage promoted/ TXT files).
+
+    Falls back to 0 when Storage cannot be reached so that the
+    upload page always loads.
+    """
+    try:
+        return len(_storage_txt_index("promoted"))
+    except Exception:
+        logger.warning(
+            "Could not load repository document count; "
+            "rendering upload page without a count."
+        )
+        return 0
 
 @app.route("/dashboard")
 @login_required
@@ -2842,6 +2916,30 @@ def _load_repository_files():
 # ============================================================
 # Error handlers
 # ============================================================
+@app.errorhandler(413)
+def request_entity_too_large(e):
+    """
+    Gracefully handle requests that exceed MAX_CONTENT_LENGTH.
+
+    This is the request-level backstop for the per-file MAX_FILE_SIZE
+    rule enforced by FileSizeLimit; it triggers when the total body
+    (multiple files plus multipart overhead) is too large.
+    """
+    logger.warning(
+        "Rejected upload request: total body exceeded "
+        "%sMB limit.", app.config['MAX_CONTENT_LENGTH'] // (1024 * 1024)
+    )
+
+    return render_template(
+        "error.html",
+        message=(
+            f"Your upload was too large. Each PDF file must be below "
+            f"{MAX_FILE_SIZE_MB}MB. Please remove any files that are too "
+            f"large and try again."
+        )
+    ), 413
+
+
 @app.errorhandler(500)
 def internal_error(e):
     return render_template("error.html", message="An unexpected error occurred. Please try again."), 500
