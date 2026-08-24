@@ -44,8 +44,18 @@ app = Flask(
     static_folder="../static"
 )
 
-logging.basicConfig(level=logging.INFO)
+# NOTE: app/nlp/loader.py configures the ROOT logger (ERROR level,
+# logs/system.log) at import time, so logging.basicConfig() here is a
+# silent no-op. Configure this module's own logger directly so its
+# diagnostic output reaches the terminal.
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+if not logger.handlers:
+    _console_handler = logging.StreamHandler()
+    _console_handler.setFormatter(
+        logging.Formatter("%(levelname)s:%(name)s:%(message)s")
+    )
+    logger.addHandler(_console_handler)
 
 # In-memory store for per-session detection results.
 RESULTS_STORE = {}
@@ -497,8 +507,7 @@ def forgot_password():
                 }
             )
             flash(
-                "If an account exists with that email, "
-                "a password reset link has been sent.",
+                "A password reset link has been sent.",
                 "success"
             )
             return redirect(url_for('login'))
@@ -514,6 +523,13 @@ def forgot_password():
 @app.route('/reset-password', methods=['GET', 'POST'])
 def reset_password():
 
+    # Diagnostic metadata only. Never log token or password contents.
+    if request.args.get('code'):
+        logger.info(
+            "RESET PASSWORD GET: recovery code present in query "
+            "(unexpected for the implicit-token flow)"
+        )
+
     if request.method == 'POST':
 
         password = request.form.get('password')
@@ -521,6 +537,13 @@ def reset_password():
 
         access_token = request.form.get('access_token')
         refresh_token = request.form.get('refresh_token')
+
+        logger.info(
+            "RESET PASSWORD SUBMIT: recovery token present=%s "
+            "refresh token present=%s",
+            bool(access_token),
+            bool(refresh_token)
+        )
 
         if not access_token or not refresh_token:
             flash(
