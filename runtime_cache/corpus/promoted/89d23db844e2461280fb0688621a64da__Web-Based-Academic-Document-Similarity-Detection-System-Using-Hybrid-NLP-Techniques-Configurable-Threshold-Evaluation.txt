@@ -1,0 +1,1185 @@
+​
+​
+                              
+ 
+HOLY ANGEL UNIVERSITY 
+ 
+ 
+Web Based Academic Document Similarity Detection System Using Hybrid NLP Techniques & 
+Configurable Threshold Evaluation 
+ 
+ 
+ 
+ 
+ 
+In Partial Fulfillment 
+of the Requirements for the Course 
+COMPUTER SCIENCE INDEPENDENT STUDY 1 
+ (CSSTUDY1) 
+ 
+ 
+Rafael Allan Alvarado​
+​
+​
+​
+     Louis Gabriel Malig 
+       Redenelle Maurice Manangu​
+​
+​
+               Charles Orville Pascua 
+ 
+ 
+ 
+ 
+ 
+ 
+March 2026 
+ 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+​
+​
+                              
+ 
+HOLY ANGEL UNIVERSITY 
+Table of Contents 
+Page 
+Introduction___________________________________________________________ 1 
+Review of Related Literature_________________________________________4 
+Conceptual Framework_____________________________________________10  
+Objectives of the Study_____________________________________________12 
+Scope and Delimitations ____________________________________________14 
+  
+Methods_______________________________________________________________15 
+Research Design___________________________________________________15 
+Sources of Data____________________________________________________17 
+Participants_______________________________________________________18 
+Instruments_______________________________________________________21 
+Data Collection____________________________________________________24 
+Data Analysis_____________________________________________________25 
+Research Procedure________________________________________________27 
+Ethical Considerations______________________________________________31 
+ 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+1 
+ 
+HOLY ANGEL UNIVERSITY 
+Web Based Academic Document Similarity Detection System Using Hybrid NLP Techniques & 
+Configurable Threshold Evaluation 
+Introduction 
+Academic institutions face a persistent and growing challenge in maintaining 
+academic integrity, particularly as the volume of digital student submissions increases across 
+courses and semesters. Detecting overlapping or copied text in academic work is technically 
+demanding because documents vary significantly in length, vocabulary, and structure 
+(Widianto et al., 2024a). The core challenge lies in converting unstructured textual content 
+into a quantitative form that enables reliable pairwise comparison; each document must be 
+transformed into a numerical representation so that similarity can be computed 
+mathematically rather than subjectively (Jurafsky & Martin, 2023). The high dimensionality 
+of text data, compounded by the diversity of academic writing styles, makes it difficult to 
+design a detection mechanism that is both computationally efficient and accurate across a 
+broad corpus of student submissions (Sajid et al., 2025). 
+Existing document similarity platforms such as Turnitin and iThenticate have been 
+widely deployed in higher education to assist instructors in detecting potential academic 
+dishonesty. These systems compare uploaded documents against massive, internet-scale 
+external databases and generate aggregate similarity scores that instructors must interpret 
+(Omar et al., 2024). However, this architecture introduces a critical and often 
+underappreciated failure mode: the Global Black Box Problem. Because commercial 
+platforms lack institutional context, they routinely flag legitimate academic discourse, shared 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+2 
+ 
+HOLY ANGEL UNIVERSITY 
+disciplinary terminology, standard methodological templates, universally accepted citation 
+conventions   
+as evidence of potential misconduct. Consequently, students who submit 
+multiple drafts of the same work may be penalized for institutional self-plagiarism, not 
+because their work is dishonest, but because the platform cannot distinguish between 
+iterative scholarly refinement and unauthorized copying. Prior research has further 
+established that no single automated detection method can reliably identify all forms of 
+academic similarity, particularly paraphrasing and structural obfuscation, and that human 
+review remains indispensable (Amirzhanov et al., 2025). More critically, commercial systems 
+transmit student documents to external servers, rely on costly subscriptions, and lack the 
+configurability that individual institutions may require (Ismail et al., 2024). Most deployed 
+systems also prioritize automated flagging over transparent, instructor-guided evaluation, 
+providing little explainability in their scoring methods and thereby limiting meaningful 
+human oversight (Sajid et al., 2025). 
+To address these limitations, this study proposes a Self-Augmenting Intra-Corpus 
+Framework for Threshold-Driven Academic Document Similarity Detection   a locally 
+deployable, privacy-preserving system that fundamentally reorients the detection architecture 
+away from external database comparison and toward a context-aware, institution-specific 
+evaluation model. The framework combines four core Natural Language Processing (NLP) 
+algorithms: TF-IDF vector space modeling, N-gram analysis, Cosine similarity, and Jaccard 
+similarity. TF-IDF transforms each document into a weighted numerical vector reflecting the 
+importance of terms relative to the corpus (Jurafsky & Martin, 2023), while N-gram analysis 
+captures contiguous word sequences   unigrams, bigrams, and trigrams   to detect structural 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+3 
+ 
+HOLY ANGEL UNIVERSITY 
+similarities even when words are substituted or reordered (Rahman et al., 2024). Cosine 
+similarity produces a normalized global similarity score independent of document length 
+(Sari, 2023), Jaccard similarity quantifies the proportion of shared N-gram sets between 
+document pairs (Saeed & Taqa, 2023).  
+The architectural innovation of this framework lies in its Live Batch Analysis and 
+Threshold-Driven Promotion Logic. Unlike commercial platforms that compare submissions 
+against a static, externally maintained database, this system performs real-time pairwise 
+similarity computation across an entire instructor-uploaded submission batch. Upon 
+completion of each analysis session, only those documents whose similarity scores remain 
+below the instructor-configured threshold, that is, those identified as sufficiently original   are 
+Promoted to the Local History Repository. This mechanism ensures that the repository is 
+populated exclusively with high-confidence original work, creating what is functionally a 
+Golden Standard institutional corpus that grows more authoritative with each evaluation 
+cycle. Documents flagged as excessively similar to existing repository entries are withheld 
+from promotion pending instructor review, thereby preventing the contamination of the 
+historical baseline with potentially derivative submissions. This self-augmenting architecture 
+eliminates the institutional self-plagiarism problem inherent in global platforms: because the 
+system's historical baseline is built only from work that has already been validated as original 
+within this institutional context, legitimate iterative scholarly work is not penalized. 
+The framework operates exclusively within a local institutional infrastructure, 
+preserving student data privacy, and flags document pairs exceeding a configurable threshold 
+for instructor review rather than issuing automated verdicts. The developed framework 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+4 
+ 
+HOLY ANGEL UNIVERSITY 
+directly benefits multiple stakeholders within the Angelite academic community: college 
+instructors gain a streamlined, evidence-based document review process through automated 
+pairwise similarity computation across entire submission batches, significantly reducing the 
+time and manual effort required to identify potentially similar documents and enabling more 
+efficient academic integrity evaluations without relying on costly external platforms; 
+academic department heads and administrators benefit from a privacy-preserving system 
+fully deployable within the institution's own infrastructure, eliminating dependence on 
+third-party servers and subscription-based commercial tools; students benefit from a fair and 
+transparent review process grounded in objective algorithmic scoring within an institutionally 
+relevant context rather than opaque global automated verdicts; and institutional IT 
+administrators benefit from a lightweight, Python-based deployment that requires no 
+specialized infrastructure, making it practical and sustainable for resource-constrained 
+academic environments. The primary beneficiaries are college instructors and academic 
+administrators who require a transparent, efficient, and privacy-respecting tool for supporting 
+academic integrity evaluations within course- or department-level document comparisons. 
+Review of Related Literature 
+Algorithms and Similarity Metrics  
+Studies consistently validate the combination of vector-based and set-based metrics as 
+the most reliable approach to document similarity detection. Al-Tamimi et al. (2021) 
+demonstrated that combining Jaccard and Cosine similarity metrics in a hybrid NLP system 
+significantly enhanced detection accuracy, recall, and precision in scientific paper analysis. 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+5 
+ 
+HOLY ANGEL UNIVERSITY 
+Verma and Chauhan (2023) further confirmed that fusing TF-IDF, Cosine, and Jaccard 
+similarity in a single plagiarism checker produces more reliable detection than any single 
+algorithm alone, while Saeed and Taqa (2023) established that multi-stage TF-IDF and 
+Jaccard-based filtering efficiently discards unlikely document matches before deeper 
+analysis. Davoodifard (2022) validated Cosine similarity's effectiveness in computing vector 
+angles between document representations to minimize false retrieval, and Sari (2023) 
+confirmed its robustness for plagiarism detection on electronic documents in lightweight 
+institutional settings. Sajid et al. (2023) established that Cosine similarity outperforms 
+alternative distance metrics for varying-length documents, Cahyani et al. (2024) 
+demonstrated that combining Cosine and Jaccard captures both global semantic similarity 
+and local lexical overlap to reduce false positives, and Kaur and Singh (2023) confirmed that 
+TF-IDF weighting with cosine distance consistently produces high-quality document 
+representations. Januzaj and Luma (2022) demonstrated the interpretability of cosine-based 
+scoring in institutional decision-making, while Rahman et al. (2024) established that 
+N-gram-enhanced TF-IDF representations capture structural similarities that pure term-based 
+models miss   together justifying the proposed framework's multi-algorithm design and 
+Promotion Logic evaluation model. 
+System Architecture and Self-Augmenting Frameworks 
+The use of a Python-based web architecture for academic similarity detection is 
+well-supported in existing development literature. Tushar (2021) developed an open-source 
+full-stack plagiarism detection system using a Python/Flask backend bridged to an interactive 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+6 
+ 
+HOLY ANGEL UNIVERSITY 
+web dashboard, serving as a direct proof-of-concept for the proposed system's client-server 
+design. Singh et al. (2021) validated that Python-based similarity pipelines are feasible and 
+practical in resource-constrained institutional environments, while Reddy et al. (2021) 
+confirmed that NLP-driven pipeline architectures can process academic documents at scale 
+while maintaining accuracy across varied writing styles. Chaudhary et al. (2022) established 
+that hybrid NLP-machine learning systems achieve superior detection performance over 
+rule-based approaches, and Widianto et al. (2024b) demonstrated the effectiveness of 
+combining multiple algorithmic strategies in a unified system architecture. Widianto et al. 
+(2024a) validated TF-IDF and cosine similarity as the computational foundation of a 
+functional similarity detection system, Noronha and Khan (2025) demonstrated that 
+web-deployable ML-based plagiarism checkers can achieve reliable detection without 
+external databases, Omar et al. (2024) confirmed through systematic review that combining 
+NLP techniques with distance metrics yields the highest detection rates, and Ismail et al. 
+(2024) established the technical viability of locally deployable, privacy-preserving academic 
+similarity detection frameworks. Critically, none of these implementations incorporate a 
+threshold-driven self-augmentation mechanism in which the system's historical corpus is 
+selectively populated based on verified originality, a gap this framework directly addresses 
+through its Promotion Logic architecture. 
+Academic Integrity, Explainability, and Institutional Context 
+A substantial body of literature establishes that human oversight and system 
+transparency are essential components of responsible academic similarity detection. 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+7 
+ 
+HOLY ANGEL UNIVERSITY 
+Amirzhanov et al. (2025) conducted a systematic survey of plagiarism types and detection 
+methods, concluding that no automated method reliably identifies all forms of plagiarism and 
+that human review remains indispensable in academic integrity workflows   
+directly 
+justifying the proposed framework's instructor-centered evaluation model. Sajid et al. (2025) 
+found through comparative analysis that threshold-driven systems with human oversight 
+significantly outperform fully automated classification approaches in practical academic 
+deployment, and Singh et al. (2021) likewise argued that machine learning-based detection 
+systems must be accompanied by human review mechanisms to prevent misclassification. 
+Januzaj and Luma (2022) demonstrated that interpretable, score-based similarity outputs 
+enable informed human decision-making without requiring automated classification, 
+reinforcing the proposed framework's commitment to transparent, flagging-only outputs 
+rather than automated plagiarism verdicts. The institutional context problem inherent in 
+global platforms such as Turnitin   wherein shared academic conventions are penalized as 
+potential misconduct   underscores the need for locally grounded evaluation frameworks 
+capable of distinguishing institutional norms from genuine textual similarity (Ismail et al., 
+2024; Omar et al., 2024). 
+Text Preprocessing and NLP Tools 
+The preprocessing pipeline of the proposed system is grounded in established NLP 
+research. Jurafsky and Martin (2023) documented tokenization, stop-word removal, and 
+TF-IDF vector construction as foundational steps that significantly reduce vector noise and 
+enhance algorithmic precision. Davoodifard (2022) demonstrated that stop-word removal and 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+8 
+ 
+HOLY ANGEL UNIVERSITY 
+stemming are critical for improving vector space model precision, while Chaudhary et al. 
+(2022) established that NLP preprocessing pipelines incorporating tokenization, stemming, 
+and stop-word filtering form the essential foundation of accurate plagiarism detection 
+systems. Verma and Chauhan (2023) confirmed that integrating preprocessing with N-gram 
+extraction and dual similarity metrics produces computationally efficient and effective 
+detection of verbatim and near-verbatim copying. Widianto et al. (2024a) validated that 
+TF-IDF vectorization combined with normalization and tokenization produces reliable 
+similarity scores across varying document lengths, and Reddy et al. (2021) confirmed that 
+NLP preprocessing is essential for handling lexical variability in student academic 
+documents   collectively validating the preprocessing design of the proposed framework's 
+Raw Input to Similarity Vectorization pipeline. 
+Thresholds, Ranking Logic, and Promotion Gates 
+The configurable threshold design of the proposed framework is supported by 
+empirical evidence across multiple studies. Sajid et al. (2025) established that adaptable 
+similarity thresholds outperform fixed thresholds across diverse academic document types, 
+directly supporting the instructor-configurable threshold feature of the proposed system, 
+while Noronha and Khan (2025) demonstrated that configurable thresholds in ML-based 
+plagiarism checkers substantially reduce false positive rates compared to fixed-threshold 
+systems. Cahyani et al. (2024) showed that combining Cosine and Jaccard scores with 
+configurable matching criteria reduces erroneous flagging in similarity applications, and Sari 
+(2023) confirmed that threshold-based cosine similarity detection produces interpretable 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+9 
+ 
+HOLY ANGEL UNIVERSITY 
+outputs suitable for institutional use without deep learning infrastructure. Saeed and Taqa 
+(2023) established that multi-stage threshold filtering before deeper analysis significantly 
+improves system efficiency, and Rahman et al. (2024) confirmed that N-gram-enhanced 
+frameworks with configurable thresholds enable fine-grained control over detection 
+sensitivity. These findings collectively validate the proposed framework's Threshold-Driven 
+Quality Gate, wherein the threshold functions not merely as a detection cutoff but as a 
+Promotion Gate that governs access to the institutional historical repository. 
+Synthesis 
+The foregoing literature collectively establishes a strong empirical and theoretical foundation 
+for the proposed Self-Augmenting Intra-Corpus Framework. Existing systems such as 
+Turnitin and iThenticate primarily rely on large-scale external databases and automated 
+similarity scoring, often functioning as black-box platforms with limited transparency in how 
+similarity scores are derived. These systems emphasize automated flagging, requiring 
+instructors to interpret results without full visibility into underlying computations. In 
+contrast, the proposed framework operates on a localized intra-corpus model, utilizing 
+interpretable similarity metrics such as TF-IDF, Cosine similarity, Jaccard similarity, and 
+N-gram analysis. It adopts an instructor-guided evaluation approach rather than automated 
+classification. Furthermore, while existing systems depend on static or externally maintained 
+repositories, the proposed framework introduces a self-augmenting Dynamic Benchmark 
+Corpus, enabling continuous institutional adaptation while preserving data privacy through 
+fully local deployment. Studies consistently validate TF-IDF, N-gram analysis, Cosine 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+10 
+ 
+HOLY ANGEL UNIVERSITY 
+similarity, and Jaccard similarity as effective and interpretable metrics for measuring textual 
+overlap (Al-Tamimi et al., 2021; Verma & Chauhan, 2023; Saeed & Taqa, 2023; Sari, 2023; 
+Cahyani et al., 2024; Rahman et al., 2024), and development literature confirms the 
+feasibility of Python-based, locally deployable similarity systems in academic contexts 
+(Tushar, 2021; Singh et al., 2021; Widianto et al., 2024a; Ismail et al., 2024). The necessity 
+of human oversight is established by systematic survey and comparative research 
+demonstrating the limitations of fully automated approaches (Amirzhanov et al., 2025; Sajid 
+et al., 2025; Omar et al., 2024), while preprocessing and NLP tool design are grounded in 
+current literature (Jurafsky & Martin, 2023; Chaudhary et al., 2022; Reddy et al., 2021). 
+However, most existing implementations either prioritize large-scale external database 
+comparison over intra-campus deployment, suffer from the Global Black Box Problem of 
+decontextualized flagging, or rely on automated classification rather than instructor-guided 
+evaluation. Limited literature has explored threshold-based self-augmentation mechanisms 
+that build a locally validated, institution-specific historical corpus. Therefore, there is a clear 
+and unmet need for a lightweight framework that combines these NLP techniques with a 
+Promotion-gated, self-augmenting repository architecture while maintaining human-centered 
+evaluation within a privacy-conscious, local institutional environment. 
+Conceptual Framework 
+The 
+proposed 
+framework's 
+logic 
+is 
+structured 
+through 
+an 
+extended 
+Input-Process-Output-Store (IPOS) model that governs the complete detection and repository 
+management workflow, from initial document submission through instructor-facing reporting 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+11 
+ 
+HOLY ANGEL UNIVERSITY 
+and selective historical archiving. This architecture departs from the conventional IPO model 
+by incorporating a Threshold-Driven Promotion Stage as an explicit post-output process, 
+ensuring that the system's Local History Repository is populated exclusively with documents 
+verified as sufficiently original within the institutional context. 
+The inputs consist of three primary components: student-submitted academic 
+documents uploaded by the instructor; an instructor-configured similarity threshold that 
+functions simultaneously as a detection cutoff and a Promotion Gate; and the selected 
+N-gram size parameters   unigrams, bigrams, and/or trigrams   that govern phrase-level 
+tokenization and comparison. 
+The processing pipeline proceeds through six sequential stages: (1) text preprocessing 
+through tokenization, stop-word removal, and normalization; (2) TF-IDF vectorization of the 
+cleaned text; (3) N-gram set generation at the configured gram sizes; (4) Cosine similarity 
+computation between all TF-IDF vector pairs to produce length-independent global similarity 
+scores; (5) Jaccard similarity computation between corresponding N-gram sets to quantify 
+local phrase-level overlap; and (6) Threshold Evaluation, in which document pairs exceeding 
+the instructor-defined threshold are flagged and ranked. 
+The output of the system is two-fold: numerical similarity scores for each document 
+pair, and a ranked list of flagged document pairs for instructor review. Critically, the system 
+does not label any pair as plagiarized; it presents similarity evidence to support, rather than 
+replace, the instructor's professional judgment. 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+12 
+ 
+HOLY ANGEL UNIVERSITY 
+The store stage of the system's defining architectural innovation   constitutes the 
+Promotion Logic. Following instructor review, documents whose similarity scores fall below 
+the configured threshold are Promoted to the Local History Repository, where they become 
+part of the system's Dynamic Benchmark Corpus for future comparison sessions. Documents 
+that exceed the threshold are withheld from promotion pending resolution. This 
+self-augmenting cycle ensures that the repository remains a reliable, institution-specific 
+collection of verified original work, free from the institutional self-plagiarism errors endemic 
+to global commercial platforms. Figure 1 illustrates the complete IPOS structure of the 
+framework. 
+Figure 1.  
+IPO of the Similarity Detection Framework 
+ 
+Objectives of the Study 
+The primary aim of this study is to investigate the effectiveness of a Self-Augmenting 
+Intra-Corpus Framework for Threshold-Driven Academic Document Similarity Detection. 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+13 
+ 
+HOLY ANGEL UNIVERSITY 
+Specifically, it seeks to examine how combined Natural Language Processing (NLP) 
+techniques and threshold-based evaluation mechanisms can improve the accuracy, reliability, 
+and usability of academic similarity detection within a localized, privacy-preserving 
+environment. 
+Specifically, the study aims to: 
+1.​ Analyze the effectiveness of combining multiple similarity algorithms including 
+TF-IDF vectorization, N-gram analysis, Cosine similarity, and Jaccard similarity in 
+detecting document similarity within an intra-corpus academic setting. 
+2.​ Determine the optimal threshold ranges for similarity detection that balance 
+sensitivity and specificity, minimizing false positives and false negatives in academic 
+document comparison. 
+3.​ Evaluate the detection accuracy of the framework using performance metrics such 
+as precision, recall, and F1-score, with validation based on Subject Matter Expert 
+(SME) judgment. 
+4.​ Assess the reliability of Promotion Decisions in building a Dynamic Benchmark 
+Corpus, based on expert evaluation of document originality and relevance. 
+5.​ Evaluate system usability from the perspective of end-users (instructors) using 
+the System Usability Scale (SUS), focusing on ease of use, efficiency, and overall 
+user satisfaction 
+6.​ Conduct a separate expert-based evaluation to assess the interpretability, 
+transparency, and academic validity of the similarity reports generated by the system.  
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+14 
+ 
+HOLY ANGEL UNIVERSITY 
+ 
+Scope and Delimitations 
+This study covers the design, development, and evaluation of a web-based 
+Self-Augmenting Academic Document Similarity Detection Framework for course-level and 
+campus-level deployment. The system processes student-submitted academic documents   
+essays, reports, and research papers   uploaded by instructors and compares them against both 
+the current session batch and a growing Local History Repository using TF-IDF vector space 
+modeling, N-gram analysis (unigrams, bigrams, trigrams), Cosine similarity, and Jaccard 
+similarity as its core algorithms. The system generates numerical similarity scores and a 
+ranked list of flagged document pairs that exceed the instructor-configured Promotion Gate 
+threshold. Access is role-based: instructors may upload documents, configure thresholds, and 
+view results, while administrators have additional privileges for user management and 
+repository management. System performance will be evaluated using precision, recall, 
+F1-score, and response time, with Promotion Decision accuracy assessed against SME 
+manual judgment, on a Dynamic Benchmark Corpus of thesis documents derived from the 
+publicly accessible Systems Plus College Foundation (SPCF) research repository. 
+The proposed system does not perform internet-wide searches or external database 
+comparisons and is not designed to automatically classify or legally determine plagiarism. 
+The framework excludes deep learning models, transformer-based embeddings, and any form 
+of semantic similarity analysis beyond the four specified algorithms. The Dynamic 
+Benchmark Corpus is seeded with publicly available PDF thesis documents from SPCF, and 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+15 
+ 
+HOLY ANGEL UNIVERSITY 
+the study does not use actual student submissions from Holy Angel University during 
+development or testing. The system is limited to textual document comparison and does not 
+support image-based, audio, or multimedia similarity detection. Formal usability testing is 
+limited to alpha and beta testing phases with purposively sampled participants, and 
+generalizability beyond the School of Computing context is outside the scope of the current 
+study. 
+The use of a single institutional repository (SPCF) as the seeding corpus for the 
+Dynamic Benchmark Corpus represents a deliberate scope delimitation rather than a 
+methodological limitation of the detection algorithms themselves. The framework's 
+algorithmic components TF-IDF vectorization, N-gram analysis, Cosine similarity, and 
+Jaccard similarity are domain-agnostic and corpus-independent; their performance 
+characteristics do not presuppose any particular source of documents. The SPCF corpus was 
+selected specifically because it is publicly accessible, institutionally independent from the 
+deployment target (HAU), and contextually representative of the academic writing style and 
+document structure present in Philippine higher education computing programs. 
+Generalizability of Promotion Decision accuracy findings to broader or more diverse corpora   
+including multi-disciplinary, multilingual, or cross-institutional repositories  is acknowledged 
+as outside the scope of the current study and is identified as a direction for future research. 
+Future work may extend the Dynamic Benchmark Corpus seeding to include publicly 
+available repositories from multiple institutions or disciplines to assess the framework's 
+performance under greater linguistic and structural variability. 
+ 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+16 
+ 
+HOLY ANGEL UNIVERSITY 
+Method 
+Research Design  
+This study employs a descriptive quantitative research design, which is appropriate 
+since the evaluation focuses on measuring the system’s performance in terms of precision, 
+recall, F1-score, response time, and usability scores under varying threshold configurations. 
+It also evaluates the accuracy of the system’s Promotion Decisions by comparing them with 
+Subject Matter Expert judgment. The development of the Flask-based web application 
+follows the V-Model, which structures the process into sequential phases of requirements 
+analysis, system design, and implementation, with corresponding stages of unit testing, 
+integration testing, system testing, and acceptance testing. This approach ensures that each 
+component of the system, including the NLP algorithms and Promotion Logic, is 
+systematically developed and thoroughly validated at every stage. 
+At the same time, the study applies the Cross-Industry Standard Process for Data 
+Mining or CRISP-DM model to guide the data-driven and Natural Language Processing 
+components of the system. This model defines how documents are processed from raw input 
+through preprocessing, feature extraction using TF-IDF and N-grams, similarity computation 
+using Cosine and Jaccard measures, and threshold-based evaluation leading to Promotion or 
+Withhold decisions. It also ensures that data preparation, modeling, and performance 
+evaluation are conducted in a structured manner using established metrics such as precision, 
+recall, F1-score, and accuracy. Together, the V-Model and CRISP-DM provide a 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+17 
+ 
+HOLY ANGEL UNIVERSITY 
+comprehensive framework that supports both systematic system development and rigorous 
+evaluation of the similarity detection process. 
+Sources of Data  
+The sources of data for this study are classified as secondary sources. The primary 
+data pool is obtained from the publicly accessible research database of Systems Plus College 
+Foundation (SPCF), available at https://www.spcf.edu.ph/academics/program/cob/research. 
+This repository contains completed thesis documents that will serve as the basis for 
+generating controlled test datasets. 
+A total of 20 publicly available thesis documents will be collected from the SPCF 
+repository. These documents are selected to provide variability in writing style and structure 
+while remaining computationally manageable for controlled experimentation. 
+Unlike conventional similarity detection systems that rely on pre-existing databases 
+as the primary reference, the proposed system follows a batch-based similarity detection 
+approach. The collected thesis documents will be used to create multiple variants, including 
+verbatim copies, AI-paraphrased versions, and unrelated samples. These manipulated 
+datasets will simulate plagiarism scenarios and establish ground-truth similarity conditions. 
+All generated documents will then be uploaded in batches, where the system performs 
+intra-batch comparison, evaluating each document against others within the same batch. 
+Documents that exhibit significant similarity will be flagged, while those that meet the 
+defined originality threshold will not be flagged and may be stored in the system’s Dynamic 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+18 
+ 
+HOLY ANGEL UNIVERSITY 
+Benchmark Corpus. Over time, this forms a Local History Repository that is built 
+incrementally through validated submissions rather than preloaded data. 
+All documents will be used strictly for academic research purposes and will not be 
+redistributed. 
+Participants  
+The system evaluation will involve a single group of ten participants who will engage 
+in both Alpha and Beta testing. This group will consist of seven instructors and three experts 
+in the field of computing. During the Alpha testing phase, participants, especially the 
+computing experts, will assess the system's functionality, technical accuracy, and algorithmic 
+correctness. Their focus will be on verifying the accuracy of the system's promotion 
+decisions prior to its wider release. In the Beta testing phase, the same participants will 
+evaluate the system's usability, interface design, and practical utility through structured 
+testing tasks. The instructors will provide feedback based on their experiences in uploading 
+and reviewing student academic documents, following a purposive sampling approach. 
+All participants will be informed of the study's purpose and will provide informed 
+consent before taking part in the evaluation. 
+Computing Domain Experts 
+Participants must satisfy all of the following inclusion criteria: 
+1.​ Holds a minimum of a Bachelor's degree in Computer Science, Information 
+Technology, Information Systems, or a closely related computing discipline; 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+19 
+ 
+HOLY ANGEL UNIVERSITY 
+2.​ Possesses at least two (2) years of professional or academic experience in software 
+development, natural language processing, data mining, or a related technical 
+specialization; 
+3.​ Has demonstrable familiarity with at least two of the following: text preprocessing 
+pipelines, vector space models, similarity metrics, or machine learning evaluation 
+methods; 
+4.​ Is currently employed as a faculty member, researcher, or industry practitioner in a 
+computing-related role at the time of testing. 
+Participants are excluded if they: 
+1.​ Are members of the research team or have been involved in any phase of the system's 
+design or development; 
+2.​ Have a declared conflict of interest with the system's evaluation outcomes; 
+3.​ Are unable to complete the evaluation session in its entirety within the scheduled 
+testing window. 
+Instructor-Users 
+Participants must satisfy all of the following inclusion criteria: 
+1.​ Is currently employed as an instructor at Holy Angel University at the time of testing; 
+2.​ Has at least one (1) academic semester of experience collecting, reviewing, or grading 
+student-submitted academic documents (essays, reports, or research papers); 
+3.​ Is willing to complete the full structured testing session, including document upload, 
+threshold configuration, and SUS questionnaire administration. 
+Participants are excluded if they: 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+20 
+ 
+HOLY ANGEL UNIVERSITY 
+1.​ Are members of the School of Computing faculty directly involved in academic 
+integrity policy enforcement, to prevent role-based bias in usability assessment; 
+2.​ Have previously participated in any demonstration or walkthrough of the system prior 
+to the formal beta testing session; 
+3.​ Are unable to provide informed consent. 
+ 
+Instruments 
+The study employs two primary instruments. The first is the developed web-based 
+document similarity detection system itself, used to generate all performance data. System 
+technical performance will be assessed using a System Performance Checklist, which records 
+the following for each test run: (1) processing time per document batch in seconds; (2) total 
+number of document pairs compared per session; (3) number of flagged document pairs at 
+each threshold setting; (4) computed precision, recall, and F1-score for each threshold 
+configuration tested against the ground-truth corpus; and (5) presence of any system errors, 
+processing failures, or unexpected outputs. All performance data will be logged 
+automatically using Python's built-in time module and custom logging functions, and results 
+will be exported to structured log files for tabulation and analysis. 
+The second instrument is the Algorithm Integration Evaluation Checklist, 
+administered to alpha testers during the technical evaluation phase. This checklist is designed 
+to assess the correctness of the integration of the four core algorithms  TF-IDF vector space 
+modeling, N-gram analysis, Cosine similarity, and Jaccard similarity  within the unified 
+processing pipeline. The checklist is organized into six sections corresponding to the 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+21 
+ 
+HOLY ANGEL UNIVERSITY 
+evaluation of each algorithm and the overall system integration, with items rated as 'Yes' 
+(fully met), 'Partial' (met with minor issues), or 'No' (not met), accompanied by a remarks 
+field. 
+System usability will be evaluated using the System Usability Scale (SUS), a 
+validated 10-item Likert-scale questionnaire yielding a composite usability score from 0 to 
+100. Scores of 68 or above indicate above-average usability. The ten SUS items are: (1) I 
+think that I would like to use this system frequently. (2) I found the system unnecessarily 
+complex. (3) I thought the system was easy to use. (4) I think that I would need the support 
+of a technical person to use this system. (5) I found the various functions in this system were 
+well integrated. (6) I thought there was too much inconsistency in this system. (7) I would 
+imagine that most people would learn to use this system very quickly. (8) I found the system 
+very cumbersome to use. (9) I felt very confident using the system. (10) I needed to learn a 
+lot of things before I could get going with this system.  
+System quality from a technical and expert perspective will be assessed against the 
+ISO/IEC 25010:2011 Software Product Quality Model, which defines eight quality 
+characteristics: Functional Suitability, Performance Efficiency, Compatibility, Usability, 
+Reliability, Security, Maintainability, and Portability. For the purposes of this study, 
+evaluation is scoped to four characteristics most directly relevant to the framework's 
+operational context: (1) Functional Suitability   whether the system correctly performs 
+TF-IDF vectorization, N-gram extraction, Cosine and Jaccard similarity computation, and 
+Promotion Logic as specified; (2) Performance Efficiency   whether the system processes 
+document batches within acceptable response time bounds under varying corpus sizes; (3) 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+22 
+ 
+HOLY ANGEL UNIVERSITY 
+Usability   whether the interface supports instructors in completing upload, configuration, 
+and review tasks without unnecessary complexity; and (4) Reliability   whether the system 
+produces consistent and reproducible similarity scores across repeated runs on the same 
+document corpus. Alpha testing experts will be asked to rate each of these four 
+characteristics using a structured rubric aligned with ISO 25010 descriptors, complementing 
+the algorithm-specific Algorithm Integration Evaluation Checklist. This dual instrument 
+approach   checklist for algorithmic correctness and ISO 25010 rubric for overall product 
+quality   
+ensures that expert evaluation captures both implementation accuracy and 
+product-level quality assurance, consistent with established software engineering evaluation 
+practice (ISO/IEC, 2011). 
+The PSSUQ is a 16-item validated questionnaire developed by IBM that yields three 
+sub-scale scores: System Usefulness (SYSUSE), Information Quality (INFOQUAL), and 
+Interface Quality (INTERQUAL), in addition to an overall composite score (Lewis, 2002). 
+Compared to the SUS, which produces a single aggregate usability score, the PSSUQ 
+provides more granular diagnostic feedback across functional dimensions, making it 
+particularly useful for identifying which specific aspects of a system require refinement 
+post-evaluation. However, for the present study, the SUS is retained as the primary usability 
+instrument for beta testing on the grounds of its brevity, widespread validation, and 
+suitability for non-technical instructor-users completing structured testing sessions with 
+limited time. The PSSUQ is acknowledged as a viable instrument for future extended 
+evaluations involving larger participant pools or multi-session usability studies, and its 
+sub-scale structure is recommended for adoption in the system's post-deployment refinement 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+23 
+ 
+HOLY ANGEL UNIVERSITY 
+phase. Researchers in future iterations of this framework are encouraged to administer both 
+instruments in parallel to enable cross-validation of usability findings. 
+Data Collection  
+Data collection will proceed in two phases involving the same group of ten 
+participants three computing experts and seven instructors. During Alpha testing, the 
+computing experts will perform predefined functional testing tasks in a controlled 
+development environment, including the Promotion Decision Validation task in which they 
+manually adjudicate a set of borderline document pairs and compare their judgments to the 
+system's automated decisions; system technical performance will be simultaneously recorded 
+using the System Performance Checklist, capturing processing time per document batch, total 
+document pairs compared, flagged pairs per threshold setting, computed precision, recall, and 
+F1-score against the ground-truth corpus, and any system errors or unexpected outputs, all 
+logged automatically via Python's built-in time module and exported to structured log files 
+for analysis. Upon completion, the computing experts will accomplish the Algorithm 
+Integration Evaluation Checklist  assessing the correctness of TF-IDF vector space modeling, 
+N-gram analysis, Cosine similarity, and Jaccard similarity across six structured sections  a 
+structured rubric aligned with the ISO/IEC 25010:2011 Software Product Quality Model 
+evaluating Functional Suitability, Performance Efficiency, Usability, and Reliability, and the 
+SUS questionnaire. During Beta testing, all ten participants will complete a structured session 
+involving document upload, threshold configuration, similarity result interpretation, and 
+observation of the Promotion workflow, with the instructors providing usability and practical 
+utility feedback drawn from their experience reviewing student academic documents; upon 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+24 
+ 
+HOLY ANGEL UNIVERSITY 
+completion, all participants will accomplish the SUS questionnaire administered via Google 
+Forms, yielding a composite usability score assessed against the above-average threshold of 
+68. All responses will be consolidated digitally, and system-generated performance logs will 
+be exported for analysis, with environmental conditions kept consistent across all sessions to 
+minimize hardware variability in performance measurements. 
+Data Analysis  
+System technical performance will be analyzed using standard information retrieval 
+evaluation metrics. The frequency of correctly and incorrectly flagged document pairs at 
+each threshold configuration will be tabulated, and the mean similarity scores across 
+document pair categories (verbatim copies, paraphrased versions, and unrelated documents) 
+will be computed to characterize system behavior across the test corpus. Precision, recall, 
+F1-score, and accuracy will be computed for each threshold configuration tested, enabling a 
+threshold sensitivity analysis that examines how varying threshold values affect detection 
+accuracy and false positive rates.  
+TF-IDF = ​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+(1) 
+Cosine similarity =​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+(2)  
+ 
+ 
+Jaccard similarity = J(A, B) = |A ∩ B| / |A ∪ B|​
+​
+​
+​
+​
+​
+(3) 
+Precision = TP / (TP + FP) ​ ​
+​
+​
+​
+​
+​
+​
+​
+(4) 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+25 
+ 
+HOLY ANGEL UNIVERSITY 
+Recall = TP / (TP + FN)  ​
+​
+​
+​
+​
+​
+​
+​
+​
+(5) 
+F1-Score = 2 × (Precision × Recall) / (Precision + Recall)                                              ​
+(6) 
+Accuracy = (TP + TN) / (TP + TN + FP + FN)   ​
+​
+​
+​
+​
+​
+(7) 
+where TP (True Positives) refers to document pairs correctly flagged as similar, TN 
+(True Negatives) refers to dissimilar pairs correctly not flagged, FP (False Positives) refers to 
+dissimilar pairs incorrectly flagged, and FN (False Negatives) refers to similar pairs the 
+system failed to flag. 
+The threshold sensitivity analysis evaluates values ranging from 0.30 to 0.90 at 0.10 
+intervals. This range was selected based on three converging rationales. First, empirical 
+literature establishes that cosine similarity scores below 0.30 between academic document 
+pairs are generally attributable to incidental lexical overlap rather than structural or 
+intentional similarity, making sub-0.30 thresholds prone to excessive false negatives that 
+would render the detection mechanism ineffective (Sajid et al., 2023; Sari, 2023). Second, 
+thresholds above 0.90 approach near-identical document detection only, which fails to 
+capture the paraphrased or partially rewritten submissions that constitute the most prevalent 
+forms of academic similarity in practice (Rahman et al., 2024; Amirzhanov et al., 2025). 
+Third, Sajid et al. (2025) and Noronha and Khan (2025) both identify the moderate range of 
+0.50–0.70 as the zone within which configurable threshold systems demonstrate the most 
+pronounced tradeoff between precision and recall across varied academic document types, 
+making it the region of greatest methodological interest. By spanning from 0.30 to 0.90, the 
+analysis captures the full behavioral spectrum of the framework   from permissive to highly 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+26 
+ 
+HOLY ANGEL UNIVERSITY 
+restrictive detection   enabling the identification of an empirically optimal threshold range 
+suited to the institutional context of this deployment. 
+Response time analysis will measure processing performance under varying corpus 
+sizes to ensure practical classroom usability. SUS scores from both alpha and beta testers will 
+be analyzed descriptively   reporting frequency distributions, mean scores, and standard 
+deviations   and interpreted against established SUS benchmarks (scores of 68 and above 
+indicate above-average usability) to determine the system's usability rating. All quantitative 
+results will be organized and presented using Python's numerical computation libraries and 
+Microsoft Excel where applicable. Negative results, including instances where the system 
+fails to flag known similar documents or incorrectly flags dissimilar ones, will be reported in 
+full to identify framework limitations. 
+Research Procedure  
+The development and evaluation of the proposed academic document similarity 
+detection system follow two complementary process models: the V-Model for software 
+development and the CRISP-DM (Cross-Industry Standard Process for Data Mining) model 
+for the data-driven and algorithmic components. The V-Model ensures that each stage of 
+system development is paired with a corresponding testing and validation phase, which is 
+essential given the study’s focus on accuracy, reliability, and evaluation metrics. Meanwhile, 
+CRISP-DM structures the lifecycle of the Natural Language Processing (NLP) pipeline, 
+guiding how documents are processed, analyzed, and evaluated from raw input to final 
+output. Together, these models ensure that both the system functionality and the similarity 
+detection process are systematically developed and thoroughly validated. 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+27 
+ 
+HOLY ANGEL UNIVERSITY 
+A. Machine Learning Process (CRISP-DM Model) 
+Figure 2. 
+CRISP-DM Model 
+ 
+As shown in Figure 2, the workflow follows the CRISP-DM model, adapted to 
+incorporate the framework’s threshold-driven Promotion Logic and self-augmenting 
+Dynamic Benchmark Corpus. The process is iterative, with evaluation results guiding 
+threshold refinement across successive runs. 
+1. Business Understanding​
+ The study defines the problem of academic document similarity detection within a 
+local institutional context, addressing the limitations of existing systems. The 
+objective is not only to detect similarity but also to evaluate how a threshold-based 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+28 
+ 
+HOLY ANGEL UNIVERSITY 
+approach can support instructor decision-making and determine which documents are 
+original enough to be added to the institutional repository. 
+2. Data Understanding​
+ The SPCF thesis corpus is analyzed to examine document characteristics such as 
+length, vocabulary, and structure. A labeled test corpus is also created, consisting of 
+verbatim copies, paraphrased documents, and unrelated pairs. These categories serve 
+as the basis for evaluating both similarity detection and decision accuracy. 
+3. Data Preparation​
+ Documents undergo preprocessing steps such as tokenization, stop-word removal, 
+normalization, and optional stemming. After cleaning, the text is transformed into 
+TF-IDF vectors, and N-gram sets are generated. This allows both overall similarity 
+and phrase-level patterns to be captured. 
+4. Modeling​
+ The system applies a hybrid similarity approach. Cosine similarity is used on TF-IDF 
+vectors to compute overall similarity scores, while Jaccard similarity is applied to 
+N-grams to measure overlap. These computations are performed across all document 
+pairs and against the existing repository. The selection of TF-IDF with Cosine 
+Similarity and N-gram analysis with Jaccard Similarity is based on their 
+effectiveness, interpretability, and computational efficiency for document similarity 
+tasks. Unlike deep learning approaches such as transformer-based models, which 
+require large-scale datasets and significant computational resources, these methods 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+29 
+ 
+HOLY ANGEL UNIVERSITY 
+are more suitable for localized institutional deployment where resources and data may 
+be limited. Furthermore, the chosen techniques provide transparent and explainable 
+similarity scores, allowing instructors to better understand and trust the system’s 
+output. This makes them appropriate for supporting threshold-based decision-making 
+within the proposed framework. 
+5. Evaluation​
+ The system is evaluated in two ways. First, algorithm performance is measured using 
+precision, recall, F1-score, and accuracy across different threshold values. Second, 
+decision accuracy is evaluated by comparing system-generated Promotion or 
+Withhold decisions with expert evaluation. The results are used to adjust threshold 
+values, forming an iterative tuning process. 
+6. Deployment​
+The final system is deployed as a Flask-based web application in a local environment. 
+Instructors can upload documents, set similarity thresholds, and review results. 
+Documents below the threshold are automatically promoted to the Local History 
+Repository, forming a Dynamic Benchmark Corpus, while documents above the 
+threshold are withheld for review. This creates a feedback-driven system where the 
+repository improves over time while maintaining data privacy. 
+B. Development Process (V-Model)
+ 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+30 
+ 
+HOLY ANGEL UNIVERSITY 
+Figure 3. 
+V-Model 
+ 
+As illustrated in Figure 3, the development of the web-based prototype follows the 
+V-Model, which consists of requirements analysis, design, and implementation, paired with 
+corresponding stages of unit, integration, system, and acceptance testing to ensure systematic 
+development and validation. 
+1. Requirements Analysis​
+ In this phase, the system’s functional and non-functional requirements are identified 
+based on the academic integrity problem discussed in the study. This includes the 
+need for a locally deployable system, configurable similarity thresholds, and the 
+integration of TF-IDF, N-gram analysis, Cosine similarity, and Jaccard similarity. 
+2. System Design​
+ The overall structure of the system is defined using the Input-Process-Output-Store 
+(IPOS) model. This includes the design of the preprocessing pipeline, similarity 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+31 
+ 
+HOLY ANGEL UNIVERSITY 
+computation process, threshold evaluation, and Promotion Logic. The web-based 
+interface, user roles, and repository structure are also planned in this stage. 
+3. Implementation​
+ The system is developed using Python. TF-IDF vectorization is implemented using 
+Scikit-learn, while preprocessing and N-gram generation are handled using NLTK. 
+Cosine and Jaccard similarity computations are integrated, along with the Promotion 
+Logic. A Flask-based web application is also built to support document upload, 
+threshold configuration, and result visualization. 
+4. Unit Testing​
+ Individual components of the system are tested to ensure correctness. This includes 
+verifying TF-IDF computation, N-gram extraction, and similarity calculations 
+independently. 
+5. Integration Testing​
+ All components are combined and tested as a complete pipeline. This ensures that 
+preprocessing, modeling, similarity computation, and threshold evaluation work 
+correctly together within the system. 
+6. System Testing​
+ The fully integrated system is tested using the Dynamic Benchmark Corpus derived 
+from SPCF thesis documents. Performance metrics such as precision, recall, F1-score, 
+accuracy, and response time are measured across different threshold values. 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+32 
+ 
+HOLY ANGEL UNIVERSITY 
+7. Acceptance Testing​
+ Final validation is conducted through alpha and beta testing. Computing experts 
+evaluate the correctness of the algorithms and Promotion Decisions, while 
+instructor-users assess usability through structured testing and questionnaires. 
+Ethical Considerations  
+This study adheres to ethical principles governing software development research and 
+academic inquiry. No actual student submissions from Holy Angel University will be used; 
+only 
+publicly 
+available 
+thesis 
+documents 
+from 
+the 
+SPCF 
+repository 
+and 
+researcher-constructed document variants will be utilized throughout development and 
+testing. Participants in alpha and beta testing will provide informed consent prior to 
+involvement, and all responses will be treated with full confidentiality. Proper attribution will 
+be provided for all secondary datasets and open-source libraries used. All test documents and 
+performance logs will be stored locally within a controlled development environment, not 
+transmitted to any third-party server, and permanently deleted after the final defense of the 
+study. The Promotion Logic is designed to produce Promote and Withhold indicators only  
+explicitly avoiding automated plagiarism classification  in recognition of the ethical principle 
+that academic integrity determinations must remain under human judgment and institutional 
+authority. Expert adjudication during the Promotion Decision Validation task will be 
+conducted under a structured protocol that preserves the anonymity of source documents and 
+prevents identifiable attribution to any specific student or institution. 
+​
+ 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+33 
+ 
+HOLY ANGEL UNIVERSITY 
+References 
+Al-Tamimi, A., Al-Nuaimi, M., & Al-Juboori, M. (2021). Hybrid system for 
+plagiarism detection on a scientific paper. International Journal of Advanced 
+Computer Science and Applications. 
+https://thesai.org/Downloads/Volume12No7/Paper_40-Hybrid_System_for_Pl
+agiarism_Detection_on_A_Scientific_Paper.pdf 
+Amirzhanov, A., Koishybay, B., & Zhaksybekov, K. (2025). Plagiarism types and 
+detection methods: A systematic survey. Frontiers in Computer Science. 
+https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.
+2025.1504725/pdf 
+Cahyani, A. D., Maharani, W., Atastina, I., & Lestari, D. P. (2024). Matching 
+scientific article titles using cosine similarity and Jaccard similarity algorithm. 
+ResearchGate. 
+https://www.researchgate.net/publication/380194136_Matching_Scientific_Ar
+ticle_Titles_using_Cosine_Similarity_and_Jaccard_Similarity_Algorithm 
+Chaudhary, S., Yadav, A., & Singh, R. (2022). Implementation of plagiarism 
+detection using NLP and ML. Journal of Emerging Technologies and 
+Innovative Research. https://www.jetir.org/papers/JETIR2205A44.pdf 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+34 
+ 
+HOLY ANGEL UNIVERSITY 
+Davoodifard, M. (2022). External plagiarism detection using vector space models and 
+cosine similarity. Educational Research and Reviews. 
+https://files.eric.ed.gov/fulltext/EJ1340053.pdf 
+Ismail, S., Hassan, M., & Ali, R. (2024). A framework for academic plagiarism 
+detection using Python. International Journal of Information and 
+Communication Technology. 
+https://www.ripublication.com/irph/ijict_spl/ijictv14n1_05.pdf 
+ISO/IEC. (2011). ISO/IEC 25010:2011: Systems and software engineering Systems 
+and software quality requirements and evaluation (SQuaRE) System and 
+software quality models. International Organization for Standardization. 
+https://www.iso.org/standard/35733.html 
+Januzaj, Y., & Luma, A. (2022). Cosine similarity – A computing approach to match 
+similarity between higher education programs and job market demands. 
+International Journal of Emerging Technologies in Learning, 17(6). 
+https://online-journals.org/index.php/i-jet/article/download/30375/11252 
+Jurafsky, D., & Martin, J. H. (2023). Speech and language processing (3rd ed. draft). 
+Stanford University. 
+https://web.stanford.edu/~jurafsky/slp3/ed3book_sep21_2023.pdf 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+35 
+ 
+HOLY ANGEL UNIVERSITY 
+Kaur, P., & Singh, S. (2023). Evaluation of TF-IDF and cosine similarity for text 
+classification. International Research Journal of Engineering and Technology, 
+10(5). https://www.irjet.net/archives/V10/i5/IRJET-V10I5205.pdf 
+Lewis, J. R. (2002). Psychometric Evaluation of the PSSUQ Using Data from Five 
+Years of Usability Studies. International Journal of Human-Computer 
+Interaction, 14(3), 463–488. https://doi.org/10.1080/10447318.2002.9669130 
+Nielsen, J. (1994). Estimating the number of subjects needed for a thinking aloud test. 
+International Journal of Human-Computer Studies, 41(3), 385–397. 
+https://doi.org/10.1006/ijhc.1994.1065 
+Noronha, F., & Khan, K. (2025). Detecting text similarity: A machine learning 
+approach to plagiarism checking. International Journal of Science, 
+Engineering and Technology. 
+https://www.ijset.in/wp-content/uploads/IJSET_V13_issue1_172.pdf 
+Omar, N., Esmaeel, H., & Ebrahim, R. (2024). A systematic review of plagiarism 
+detection algorithms and systems. International Journal of Intelligent Systems 
+and Applications in Engineering. 
+https://www.ijisae.org/index.php/IJISAE/article/download/5024/3688 
+Rahman, M., Islam, T., & Hossain, M. (2024). Enhancing plagiarism detection with 
+N-gram and vector space models. Academia. 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+36 
+ 
+HOLY ANGEL UNIVERSITY 
+https://www.academia.edu/download/111054321/Plagiarism_Detection_Fram
+ework.pdf 
+Reddy, V., Kumar, P., & Rao, S. (2021). Plagiarism detection system using natural 
+language processing. International Journal of Engineering Research and 
+Technology, 10(6). 
+https://www.ijert.org/research/plagiarism-detection-system-using-natural-lang
+uage-processing-IJERTV10IS060341.pdf 
+Saeed, A., & Taqa, A. (2023). Multi-stage approach for text similarity detection using 
+Jaccard similarity and TF-IDF. Iraqi Academic Scientific Journals. 
+https://iasj.rdd.edu.iq/journals/uploads/2025/02/09/31e41bc7ad4b014bbbf4b0f
+975ed28f1.pdf 
+Sajid, H., Sanaullah, & Fuzail, Z. (2025). Comparative analysis of text-based 
+plagiarism detection techniques. PLOS ONE, 20(4). 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11977957/pdf/pone.0319551.pdf 
+Sajid, M., Ahmad, H., & Khan, M. (2023). Text similarity detection using vector 
+space model and cosine similarity. Journal of Intelligent Systems. 
+https://link.springer.com/content/pdf/10.1007/s10844-022-00740-4.pdf 
+Sari, L. P. (2023). Cosine similarity-based plagiarism detection on electronic 
+documents. Journal of Computer Science Application and Engineering. 
+https://journal.lenterailmu.com/index.php/josapen/article/download/14/20 
+ 
+  
+SCHOOL OF COMPUTING 
+     
+
+37 
+ 
+HOLY ANGEL UNIVERSITY 
+Singh, P., Tiwari, P., Singh, A., & Soni, S. (2021). Plagiarism detector using machine 
+learning. International Journal of Research in Engineering, Science and 
+Management, 4(5). 
+https://www.ijresm.com/Vol.4_2021/Vol4_Iss5_May21/IJRESM_V4_I5_102.
+pdf 
+Tushar. (2021). Plagiarism detection using NLP [GitHub repository]. 
+https://github.com/Tushar-1411/Plagiarism-Detection-using-NL 
+Verma, A., & Chauhan, C. (2023). Plagiarism checker using TF-IDF, cosine similarity 
+and Jaccard similarity. International Journal of Novel Research and 
+Development. https://ijnrd.org/papers/IJNRD2305788.pdf 
+Widianto, E., Setiawan, A., & Nugroho, A. (2024a). Document similarity detection 
+using TF-IDF and cosine similarity. Journal of Information Systems 
+Engineering and Business Intelligence. 
+https://e-journal.unair.ac.id/JISEBI/article/download/23960/28220 
+Widianto, E. D., Setiawan, I., & Nugroho, A. (2024b). Plagiarism detection and 
+similarity checking program using machine learning and string matching 
+algorithm. ResearchGate. 
+https://www.researchgate.net/publication/388775121_Plagiarism_Detection_a
+nd_Similarity_Checking_Program_using_Machine_Learning_and_String_Ma
+tching_Algorithm 
+ 
+  
+SCHOOL OF COMPUTING 
+     

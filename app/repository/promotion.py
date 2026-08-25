@@ -104,6 +104,9 @@ def run_promotion(
         df_sentences = pd.DataFrame(columns=[
             "document_1",
             "document_2",
+            "match_id",
+            "sentence1_index",
+            "sentence2_index",
             "sentence_similarity",
             "sentence_from_doc1",
             "sentence_from_doc2",

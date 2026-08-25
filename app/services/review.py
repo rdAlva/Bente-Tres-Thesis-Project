@@ -26,6 +26,9 @@ SENTENCES_FILE = LOGS_FOLDER / "SimilarSentencesReport.csv"
 SENTENCE_REPORT_COLUMNS = [
     "document_1",
     "document_2",
+    "match_id",
+    "sentence1_index",
+    "sentence2_index",
     "sentence_similarity",
     "sentence_from_doc1",
     "sentence_from_doc2",
@@ -239,27 +242,53 @@ def load_review_report(filename):
 
             from app.nlp.similarity import highlight_document
 
-            uploaded_matches = [
-                row["sentence_from_doc1"]
-                for _, row in matches.iterrows()
+            def _safe_int(val, fallback):
+                try:
+                    return int(val)
+                except (TypeError, ValueError):
+                    return fallback
+
+            uploaded_match_records = [
+                {
+                    "match_id": (
+                        row.get("match_id", f"match-{idx:04d}")
+                        if isinstance(row.get("match_id"), str)
+                        else f"match-{_safe_int(row.get('match_id', idx), idx):04d}"
+                    ),
+                    "sentence": row["sentence_from_doc1"],
+                    "sentence_index": _safe_int(
+                        row.get("sentence1_index"), None
+                    ),
+                }
+                for idx, (_, row) in enumerate(matches.iterrows())
             ]
 
-            repository_matches = [
-                row["sentence_from_doc2"]
-                for _, row in matches.iterrows()
+            repository_match_records = [
+                {
+                    "match_id": (
+                        row.get("match_id", f"match-{idx:04d}")
+                        if isinstance(row.get("match_id"), str)
+                        else f"match-{_safe_int(row.get('match_id', idx), idx):04d}"
+                    ),
+                    "sentence": row["sentence_from_doc2"],
+                    "sentence_index": _safe_int(
+                        row.get("sentence2_index"), None
+                    ),
+                }
+                for idx, (_, row) in enumerate(matches.iterrows())
             ]
 
             report["uploaded_html"] = (
                 highlight_document(
                     report["uploaded_text"],
-                    uploaded_matches
+                    match_records=uploaded_match_records,
                 )
             )
 
             report["repository_html"] = (
                 highlight_document(
                     report["repository_text"],
-                    repository_matches
+                    match_records=repository_match_records,
                 )
             )
 

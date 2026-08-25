@@ -1,5 +1,4 @@
 import re
-from collections import defaultdict, deque
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from app.nlp.ngrams import generate_ngrams
@@ -11,6 +10,69 @@ try:
     nltk.data.find("tokenizers/punkt")
 except LookupError:
     nltk.download("punkt", quiet=True)
+
+try:
+    nltk.data.find("tokenizers/punkt_tab")
+except LookupError:
+    nltk.download("punkt_tab", quiet=True)
+
+
+def _sent_tokenize_offsets(text):
+    """
+    Tokenize *text* using the same ``sent_tokenize()`` that
+    ``get_similar_sentences()`` uses, and return
+    ``(sentences, spans)`` where ``spans[k] = (start, end)``
+    are the character offsets of sentence *k* in *text*.
+
+    Each returned sentence is the **exact** substring
+    ``text[start:end]`` — no stripping — so the offsets are
+    faithful to the original document.
+
+    Sentences that are purely whitespace after tokenization
+    are skipped, and their spans are not included.
+    """
+    raw_sents = sent_tokenize(text)
+    spans = []
+    sentences = []
+    search_from = 0
+
+    for raw in raw_sents:
+        stripped = raw.strip()
+        if not stripped:
+            search_from += len(raw)
+            continue
+
+        # Locate the sentence in the document starting from
+        # where the previous sentence ended.  We first try an
+        # exact (case-sensitive) substring search, then fall
+        # back to a case-insensitive normalised search.
+        pos = text.find(raw, search_from)
+        if pos != -1:
+            end = pos + len(raw)
+        else:
+            # Fallback: search with collapsed whitespace
+            norm_target = re.sub(r'\s+', ' ', stripped).lower()
+            for candidate_start in range(search_from, len(text)):
+                norm_cand = re.sub(
+                    r'\s+',
+                    ' ',
+                    text[candidate_start:candidate_start + len(norm_target) + 50]
+                ).lower()
+                if norm_target in norm_cand:
+                    # Refine: find exact start
+                    pos = candidate_start
+                    end = candidate_start + len(raw)
+                    break
+            else:
+                # Still not found — skip this sentence
+                search_from += len(raw)
+                continue
+
+        spans.append((pos, end))
+        sentences.append(stripped)
+        search_from = end
+
+    return sentences, spans
 
 def compute_similarity(tfidf_matrix):
     return cosine_similarity(tfidf_matrix)
@@ -106,186 +168,201 @@ def highlight_common_words(sentence1, sentence2):
         " ".join(highlighted2),
     )
 
-def _normalize_text(document):
-    document = document.replace('\r\n', '\n').replace('\r', '\n')
-    return document.strip()
+
+def _extract_sentence_spans(text):
+    """
+    Tokenize *text* into sentences and return
+    ``(sentences, spans)`` where ``spans[k] = (start, end)``
+    are the character offsets of sentence *k* in *text*.
+
+    Uses the same ``sent_tokenize()`` that
+    ``get_similar_sentences()`` relies on, so the sentence
+    indices are consistent.
+    """
+    return _sent_tokenize_offsets(text)
 
 
-def _is_list_line(line):
-    return bool(re.match(r'^\s*([*•\u2022\-–—]|\d+[\.)]|[a-zA-Z][\.)])\s+', line))
 
 
-def _is_table_block(lines):
-    if len(lines) < 2:
-        return False
+def _find_sentence_in_text(sentence_text, orig_text, used_spans):
+    """
+    Locate *sentence_text* inside *orig_text* while avoiding
+    positions already occupied by *used_spans*.
 
-    pipe_like = any('|' in line for line in lines)
-    tab_like = any('\t' in line for line in lines)
-    space_aligned = sum(1 for line in lines if re.search(r' {3,}', line)) >= 2
-    return pipe_like or tab_like or space_aligned
+    Both the search target and the document are normalised
+    (whitespace collapsed, lowered) before searching so that
+    multi-line sentences in the CSV can be found even when
+    the original text contains ``\\n`` characters within a
+    sentence.
 
+    Returns ``(start, end)`` character offsets in the
+    **original** (un-normalised) *orig_text*, or ``None``
+    if the sentence cannot be found.
+    """
+    norm_target = re.sub(r'\s+', ' ', sentence_text.strip()).lower()
+    norm_doc = re.sub(r'\s+', ' ', orig_text).lower()
 
-def _collapse_paragraph_lines(lines):
-    collapsed = []
-
-    for line in lines:
-        stripped = line.strip()
-        if not stripped:
-            continue
-
-        if collapsed and collapsed[-1].endswith('-'):
-            collapsed[-1] = collapsed[-1][:-1] + stripped.lstrip()
-        else:
-            collapsed.append(stripped)
-
-    return ' '.join(collapsed)
-
-
-def _normalize_match_text(text):
-    return re.sub(r'\s+', ' ', text.strip()).lower()
-
-
-def _normalize_text_with_index(text):
-    normalized_chars = []
-    index_map = []
-    in_space = False
-
-    for index, char in enumerate(text):
-        if char.isspace():
-            if not in_space:
-                normalized_chars.append(' ')
-                index_map.append(index)
-                in_space = True
-        else:
-            normalized_chars.append(char.lower())
-            index_map.append(index)
-            in_space = False
-
-    # Trim leading and trailing normalized spaces to match _normalize_match_text
-    if normalized_chars and normalized_chars[0] == ' ':
-        normalized_chars.pop(0)
-        index_map.pop(0)
-
-    if normalized_chars and normalized_chars[-1] == ' ':
-        normalized_chars.pop()
-        index_map.pop()
-
-    return ''.join(normalized_chars), index_map
-
-
-def _build_match_id_map(matched_sentences):
-    match_ids = defaultdict(deque)
-
-    for idx, sentence in enumerate(matched_sentences):
-        normalized = _normalize_match_text(sentence)
-        if normalized:
-            match_ids[normalized].append(str(idx))
-
-    return match_ids
-
-
-def _find_next_match(block_norm, match_ids, start_pos):
-    best_key = None
-    best_pos = len(block_norm) + 1
-
-    for key, queue in match_ids.items():
-        if not queue:
-            continue
-
-        idx = block_norm.find(key, start_pos)
-        if idx == -1:
-            continue
-
-        if idx < best_pos or (idx == best_pos and len(key) > len(best_key or '')):
-            best_pos = idx
-            best_key = key
-
-    return best_key, best_pos if best_key is not None else -1
-
-
-def _highlight_text_block(text, match_ids):
-    block_norm, index_map = _normalize_text_with_index(text)
-
-    if not block_norm or not any(match_ids.values()):
-        return html.escape(text)
-
-    highlights = []
-    search_pos = 0
-
+    search_from = 0
     while True:
-        match_key, start = _find_next_match(block_norm, match_ids, search_pos)
-        if match_key is None:
-            break
+        pos = norm_doc.find(norm_target, search_from)
+        if pos == -1:
+            return None
 
-        end = start + len(match_key)
-        orig_start = index_map[start]
-        orig_end = index_map[end - 1] + 1
-        match_id = match_ids[match_key].popleft()
-        highlights.append((orig_start, orig_end, match_id))
-        search_pos = end
+        end = pos + len(norm_target)
+        overlaps = False
+        for used_start, used_end in used_spans:
+            if pos < used_end and end > used_start:
+                overlaps = True
+                break
+        if not overlaps:
+            return (pos, end)
+        search_from = end
+    return None
+
+
+
+
+def highlight_document(
+    document,
+    match_records=None,
+    matched_sentences=None,
+):
+    """
+    Produce an HTML representation of *document* with matched
+    sentences wrapped in ``<mark>`` elements.
+
+    Parameters
+    ----------
+    document : str
+        The original, unmodified document text.
+    match_records : list[dict], optional
+        Each dict may contain:
+
+        * ``match_id`` (str | int) – stable pair identifier.
+        * ``sentence`` (str) – the sentence text to highlight.
+        * ``sentence_index`` (int, optional) – the sentence's
+          index in the ``sent_tokenize()`` output for this
+          document.  When provided, the sentence's character
+          span is looked up directly by index, which is both
+          faster and more reliable than text search.
+
+        When *match_records* is provided, character-span
+        highlighting is used.
+    matched_sentences : list[str], optional
+        Legacy plain-text list.  Used only as a fallback when
+        *match_records* is not supplied.
+
+    Returns
+    -------
+    str
+        HTML with ``<mark class="match-prose" data-match-id="…">``
+        elements around matched sentences.
+    """
+
+    if match_records is None and matched_sentences is not None:
+        match_records = [
+            {"match_id": str(idx), "sentence": s}
+            for idx, s in enumerate(matched_sentences)
+        ]
+
+    if not match_records:
+        return html.escape(document)
+
+    # ---- Build sentence → character-offset map via sent_tokenize ----
+    _, sent_spans = _sent_tokenize_offsets(document)
+
+    used_spans = []
+    highlights = []
+
+    for rec in match_records:
+        sentence_text = rec["sentence"]
+        match_id = str(rec["match_id"])
+        sentence_index = rec.get("sentence_index")
+
+        span = None
+
+        # 1) Index-based lookup (preferred)
+        if sentence_index is not None and isinstance(sentence_index, int):
+            if 0 <= sentence_index < len(sent_spans):
+                candidate = sent_spans[sentence_index]
+                # Verify the span text matches the record's sentence
+                span_text = document[candidate[0]:candidate[1]]
+                norm_span = re.sub(r'\s+', ' ', span_text.strip()).lower()
+                norm_sent = re.sub(r'\s+', ' ', sentence_text.strip()).lower()
+                if norm_span == norm_sent:
+                    span = candidate
+
+        # 2) Fallback: text search
+        if span is None:
+            span = _find_sentence_in_text(
+                sentence_text, document, used_spans
+            )
+
+        if span is not None:
+            # Avoid overlapping highlights
+            overlaps = any(
+                span[0] < u[1] and span[1] > u[0]
+                for u in used_spans
+            )
+            if not overlaps:
+                used_spans.append(span)
+                highlights.append((span[0], span[1], match_id))
 
     if not highlights:
-        return html.escape(text)
+        return html.escape(document)
 
-    html_output = []
+    highlights.sort(key=lambda x: x[0])
+
+    html_parts = []
     last = 0
 
-    for orig_start, orig_end, match_id in sorted(highlights, key=lambda x: x[0]):
-        html_output.append(html.escape(text[last:orig_start]))
-        html_output.append(
-            f'<mark class="match-prose" data-match-id="{match_id}">{html.escape(text[orig_start:orig_end])}</mark>'
+    for h_start, h_end, m_id in highlights:
+        if h_start > last:
+            html_parts.append(html.escape(document[last:h_start]))
+        html_parts.append(
+            '<mark class="match-prose" data-match-id="'
+            + html.escape(str(m_id), quote=True)
+            + '">'
+            + html.escape(document[h_start:h_end])
+            + '</mark>'
         )
-        last = orig_end
+        last = h_end
 
-    html_output.append(html.escape(text[last:]))
-    return ''.join(html_output)
+    if last < len(document):
+        html_parts.append(html.escape(document[last:]))
 
+    raw_html = ''.join(html_parts)
 
-def _split_document_blocks(document):
-    normalized = _normalize_text(document)
-    raw_blocks = re.split(r'\n\s*\n+', normalized)
-    blocks = []
+    para_html_parts = []
+    search_from = 0
 
-    for raw_block in raw_blocks:
-        lines = raw_block.split('\n')
-        cleaned_lines = [line.rstrip() for line in lines if line.strip()]
-        if not cleaned_lines:
-            continue
+    while search_from < len(raw_html):
+        plain_pos = raw_html.find('\n\n', search_from)
+        if plain_pos == -1:
+            chunk = raw_html[search_from:]
+            if chunk.strip():
+                para_html_parts.append(
+                    '<p class="doc-paragraph">' + chunk + '</p>'
+                )
+            else:
+                para_html_parts.append(chunk)
+            break
 
-        if _is_table_block(cleaned_lines):
-            blocks.append(('table', '\n'.join(cleaned_lines)))
-        elif any(_is_list_line(line) for line in cleaned_lines):
-            blocks.append(('list', '\n'.join(cleaned_lines)))
+        chunk = raw_html[search_from:plain_pos]
+        if chunk.strip():
+            para_html_parts.append(
+                '<p class="doc-paragraph">' + chunk + '</p>'
+            )
         else:
-            blocks.append(('paragraph', _collapse_paragraph_lines(cleaned_lines)))
+            para_html_parts.append(chunk)
 
-    return blocks
+        blank_end = plain_pos + 2
+        while blank_end < len(raw_html) and raw_html[blank_end] == '\n':
+            blank_end += 1
+        para_html_parts.append(raw_html[plain_pos:blank_end])
+        search_from = blank_end
 
-
-def highlight_document(document, matched_sentences):
-    """
-    Highlights only matched sentences while preserving
-    the original document formatting.
-    """
-
-    match_ids = _build_match_id_map(matched_sentences)
-    blocks = _split_document_blocks(document)
-    html_output = []
-
-    for block_type, block_text in blocks:
-        block_html = _highlight_text_block(block_text, match_ids)
-
-        if block_type == 'paragraph':
-            html_output.append(f'<p class="doc-paragraph">{block_html}</p>')
-        elif block_type == 'list':
-            html_output.append('<div class="doc-list">' + block_html.replace('\n', '<br>') + '</div>')
-        elif block_type == 'table':
-            escaped_table = block_html.replace('\n', '<br>')
-            html_output.append(f'<div class="doc-table">{escaped_table}</div>')
-        else:
-            html_output.append(block_html)
-
-    return ''.join(html_output)
+    return ''.join(para_html_parts)
 
 def get_similar_sentences(doc1, doc2, threshold):
 
@@ -316,8 +393,7 @@ def get_similar_sentences(doc1, doc2, threshold):
     except ValueError:
         return []
 
-    matches = []
-
+    raw_matches = []
 
     # Build every possible candidate
     candidates = []
@@ -366,21 +442,25 @@ def get_similar_sentences(doc1, doc2, threshold):
             sentence2
         )
 
-        matches.append({
-
+        raw_matches.append({
+            "sentence1_index": i,
+            "sentence2_index": j,
             "sentence1": sentence1,
             "sentence2": sentence2,
-
             "sentence1_html": highlight1,
             "sentence2_html": highlight2,
-
-            "score": round(score, 4)
-
+            "score": round(score, 4),
         })
-    matches.sort(
+
+    raw_matches.sort(
         key=lambda x: x["score"],
         reverse=True
     )
+
+    matches = []
+    for match_idx, m in enumerate(raw_matches):
+        m["match_id"] = f"match-{match_idx:04d}"
+        matches.append(m)
 
     return matches
 
@@ -422,6 +502,9 @@ def rank_document_pairs(filenames, similarity_matrix,corpus, threshold):
                     similarity_report.append({
                         "document_1": filenames[i],
                         "document_2": filenames[j],
+                        "match_id": match["match_id"],
+                        "sentence1_index": match["sentence1_index"],
+                        "sentence2_index": match["sentence2_index"],
                         "sentence_similarity": match["score"],
                         "sentence_from_doc1": match["sentence1"],
                         "sentence_from_doc2": match["sentence2"],
@@ -580,24 +663,29 @@ def compare_uploaded_document(
             promoted_original[repo_index],
             threshold
         )
-        matched_doc1 = [
-            m["sentence1"]
-            for m in similar_sentences
-        ]
-
-        matched_doc2 = [
-            m["sentence2"]
-            for m in similar_sentences
-        ]
 
         uploaded_document_html = highlight_document(
             uploaded_original,
-            matched_doc1
+            match_records=[
+                {
+                    "match_id": m["match_id"],
+                    "sentence": m["sentence1"],
+                    "sentence_index": m["sentence1_index"],
+                }
+                for m in similar_sentences
+            ],
         )
 
         repository_document_html = highlight_document(
             promoted_original[repo_index],
-            matched_doc2
+            match_records=[
+                {
+                    "match_id": m["match_id"],
+                    "sentence": m["sentence2"],
+                    "sentence_index": m["sentence2_index"],
+                }
+                for m in similar_sentences
+            ],
         )
 
         for match in similar_sentences:
@@ -608,6 +696,9 @@ def compare_uploaded_document(
 
                 "document_2": top_match["doc2"],
 
+                "match_id": match["match_id"],
+                "sentence1_index": match["sentence1_index"],
+                "sentence2_index": match["sentence2_index"],
                 "sentence_similarity": match["score"],
 
                 "sentence_from_doc1": match["sentence1"],
