@@ -1,6 +1,6 @@
 # HAUdemicCheck
 
-Web-Based Academic Document Similarity Detection System Using Hybrid NLP Techniques & Configurable Threshold Evaluation
+Web-Based Academic Document Similarity Detection System Using Hybrid NLP Techniques & Configurable Threshold Evaluation (Switch to dev branch to see project)
 
 ## 1. Overview
 
