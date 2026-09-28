@@ -174,6 +174,34 @@
         border-bottom: 4px solid #28a745;
     }
 
+    /* ---------- Metric explanation tooltips (hover + keyboard focus) ---------- */
+    .stat-card[data-bs-toggle="tooltip"] {
+        cursor: help;
+    }
+
+    .stat-card[data-bs-toggle="tooltip"]:focus-visible {
+        outline: 2px solid var(--hau-gold);
+        outline-offset: 2px;
+    }
+
+    /* Themed Bootstrap tooltip (positioned below by data-bs-placement) */
+    .tooltip.metric-info-tooltip .tooltip-inner {
+        background-color: var(--hau-maroon-dark);
+        color: #ffffff;
+        border: 1px solid var(--hau-gold);
+        border-radius: var(--hau-radius);
+        box-shadow: var(--hau-shadow);
+        max-width: 260px;
+        text-align: left;
+        padding: 0.6rem 0.8rem;
+        font-size: 0.85rem;
+        line-height: 1.5;
+    }
+
+    .tooltip.metric-info-tooltip .tooltip-arrow::before {
+        border-top-color: var(--hau-maroon-dark);
+    }
+
     /* ---------- Match navigator ---------- */
     .match-nav {
         display: flex;
@@ -376,15 +404,18 @@
     .introjs-arrow.top-middle {
         border-bottom-color: #ffffff;
     }
+
     .introjs-arrow.bottom,
     .introjs-arrow.bottom-right,
     .introjs-arrow.bottom-middle {
         border-top-color: #ffffff;
     }
+
     .introjs-arrow.left,
     .introjs-arrow.left-bottom {
         border-right-color: #ffffff;
     }
+
     .introjs-arrow.right,
     .introjs-arrow.right-bottom {
         border-left-color: #ffffff;
@@ -396,9 +427,11 @@
             max-width: 90vw;
             padding: 1rem;
         }
+
         .introjs-tooltip-header {
             padding-right: 4rem;
         }
+
         .introjs-skipbutton {
             top: 0.25rem;
             right: 0.25rem;
@@ -433,11 +466,11 @@
                 </span>
                 <span class="decision-comparison">
                     {%- if review.summary.combined_score is not none and threshold is not none -%}
-                        {{ "%.2f"|format(review.summary.combined_score) }} ≥ {{ "%.2f"|format(threshold) }}
+                    {{ "%.2f"|format(review.summary.combined_score) }} ≥ {{ "%.2f"|format(threshold) }}
                     {%- elif review.summary.combined_score is not none -%}
-                        {{ "%.2f"|format(review.summary.combined_score) }} ≥ —
+                    {{ "%.2f"|format(review.summary.combined_score) }} ≥ —
                     {%- else -%}
-                        —
+                    —
                     {%- endif -%}
                 </span>
                 <span class="threshold-label decision-right">
@@ -448,7 +481,8 @@
     </div>
 
     <!-- Plain‑language verdict -->
-    <div class="alert alert-danger d-flex align-items-center justify-content-between p-3 mb-4 shadow-sm" role="alert" id="verdictAlert">
+    <div class="alert alert-danger d-flex align-items-center justify-content-between p-3 mb-4 shadow-sm" role="alert"
+        id="verdictAlert">
         <div class="d-flex align-items-center">
             <i class="bi bi-exclamation-triangle-fill fs-3 me-3" aria-hidden="true"></i>
             <div>
@@ -466,8 +500,11 @@
     <div class="sticky-score-bar" id="metricsBar">
         <div class="row text-center g-2">
             <div class="col-6 col-md-3">
-                <div
-                    class="card stat-card h-100 mb-0 severity-{{ 'high' if review.summary.cosine_score >= 0.8 else ('medium' if review.summary.cosine_score >= 0.5 else 'low') }}">
+                <div class="card stat-card h-100 mb-0 severity-{{ 'high' if review.summary.cosine_score >= 0.8 else ('medium' if review.summary.cosine_score >= 0.5 else 'low') }}"
+                    data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="metric-info-tooltip"
+                    data-bs-title="{{ " %.0f"|format(review.summary.cosine_score * 100) }}% indicates the degree of
+                    similarity in the overall term patterns of the two documents. It compares which words appear and how
+                    important they are in each document, not only repeated phrases." tabindex="0">
                     <div class="card-body py-2 px-3">
                         <div class="stat-label small">Cosine <span class="visually-hidden">({{ 'Very High' if
                                 review.summary.cosine_score >= 0.8 else 'Moderate' }})</span></div>
@@ -476,8 +513,10 @@
                 </div>
             </div>
             <div class="col-6 col-md-3">
-                <div
-                    class="card stat-card h-100 mb-0 severity-{{ 'high' if review.summary.jaccard_unigram >= 0.8 else ('medium' if review.summary.jaccard_unigram >= 0.5 else 'low') }}">
+                <div class="card stat-card h-100 mb-0 severity-{{ 'high' if review.summary.jaccard_unigram >= 0.8 else ('medium' if review.summary.jaccard_unigram >= 0.5 else 'low') }}"
+                    data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="metric-info-tooltip"
+                    data-bs-title="{{ " %.0f"|format(review.summary.jaccard_unigram * 100) }}% indicates the degree of
+                    overlap in the individual words used by the two documents." tabindex="0">
                     <div class="card-body py-2 px-3">
                         <div class="stat-label small">Unigram <span class="visually-hidden">({{ 'Very High' if
                                 review.summary.jaccard_unigram >= 0.8 else 'Moderate' }})</span></div>
@@ -486,8 +525,10 @@
                 </div>
             </div>
             <div class="col-6 col-md-3">
-                <div
-                    class="card stat-card h-100 mb-0 severity-{{ 'high' if review.summary.jaccard_bigram >= 0.8 else ('medium' if review.summary.jaccard_bigram >= 0.5 else 'low') }}">
+                <div class="card stat-card h-100 mb-0 severity-{{ 'high' if review.summary.jaccard_bigram >= 0.8 else ('medium' if review.summary.jaccard_bigram >= 0.5 else 'low') }}"
+                    data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="metric-info-tooltip"
+                    data-bs-title="{{ " %.0f"|format(review.summary.jaccard_bigram * 100) }}% indicates the degree of
+                    overlap in two-word phrases used by the two documents." tabindex="0">
                     <div class="card-body py-2 px-3">
                         <div class="stat-label small">Bigram <span class="visually-hidden">({{ 'Very High' if
                                 review.summary.jaccard_bigram >= 0.8 else 'Moderate' }})</span></div>
@@ -496,8 +537,10 @@
                 </div>
             </div>
             <div class="col-6 col-md-3">
-                <div
-                    class="card stat-card h-100 mb-0 severity-{{ 'high' if review.summary.jaccard_trigram >= 0.8 else ('medium' if review.summary.jaccard_trigram >= 0.5 else 'low') }}">
+                <div class="card stat-card h-100 mb-0 severity-{{ 'high' if review.summary.jaccard_trigram >= 0.8 else ('medium' if review.summary.jaccard_trigram >= 0.5 else 'low') }}"
+                    data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="metric-info-tooltip"
+                    data-bs-title="{{ " %.0f"|format(review.summary.jaccard_trigram * 100) }}% indicates the degree of
+                    overlap in three-word phrases used by the two documents." tabindex="0">
                     <div class="card-body py-2 px-3">
                         <div class="stat-label small">Trigram <span class="visually-hidden">({{ 'Very High' if
                                 review.summary.jaccard_trigram >= 0.8 else 'Moderate' }})</span></div>
@@ -728,6 +771,16 @@
                 });
 
                 intro.start();
+            });
+        }
+
+        // ===== Metric explanation tooltips =====
+        // Native Bootstrap tooltips (hover + keyboard focus).
+        // The Bootstrap bundle with Popper is loaded in base.html.
+        // Each title reuses the value already displayed on its own card.
+        if (window.bootstrap && bootstrap.Tooltip) {
+            document.querySelectorAll('#metricsBar [data-bs-toggle="tooltip"]').forEach(function (card) {
+                new bootstrap.Tooltip(card);
             });
         }
     })();

@@ -73,6 +73,15 @@
                             </a>
                         </li>
 
+                        <li class="nav-item">
+                            <a class="nav-link {% if request.endpoint == 'about' %}active{% endif %}"
+                                href="{{ url_for('about') }}" {% if request.endpoint=='about' %}aria-current="page" {%
+                                endif %}>
+                                <i class="bi bi-info-circle" aria-hidden="true"></i>
+                                About Us
+                            </a>
+                        </li>
+
                         <!-- ========== NEW: Admin link (only for admin users) ========== -->
                         {% if session.get('logged_in') and session.get('role') == 'admin' %}
                         <li class="nav-item">

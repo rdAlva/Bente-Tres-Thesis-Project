@@ -2062,3 +2062,51 @@ Promotion      : 2.249 sec
 TOTAL TIME     : 4.942 sec
 ======================================================================
 
+======================================================================
+Detection Run : 2026-09-28 15:02:20
+Threshold     : 0.35
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.059 sec
+Corpus Loading : 3.907 sec
+Promotion      : 2.837 sec
+TOTAL TIME     : 6.804 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-09-28 15:18:17
+Threshold     : 0.35
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.031 sec
+Corpus Loading : 1.776 sec
+Promotion      : 2.357 sec
+TOTAL TIME     : 4.164 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-09-28 15:23:35
+Threshold     : 0.25
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.017 sec
+Corpus Loading : 1.811 sec
+Promotion      : 1.945 sec
+TOTAL TIME     : 3.774 sec
+======================================================================
+
+======================================================================
+Detection Run : 2026-09-28 15:30:53
+Threshold     : 0.30
+Uploaded Docs : 1
+Repository Docs : 144
+
+PDF Extraction : 0.031 sec
+Corpus Loading : 1.369 sec
+Promotion      : 2.519 sec
+TOTAL TIME     : 3.920 sec
+======================================================================
+

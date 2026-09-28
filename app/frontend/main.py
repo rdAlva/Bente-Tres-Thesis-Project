@@ -2883,6 +2883,11 @@ def repository():
         user_documents=user_documents
     )
 
+@app.route("/about")
+@login_required
+def about():
+    return render_template("about.html")
+
 def _load_user_documents():
     """Load all documents uploaded by the currently logged-in user."""
 
