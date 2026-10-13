@@ -1,0 +1,1 @@
+from app.frontend.main import app

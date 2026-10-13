@@ -1,0 +1,344 @@
+{% extends "base.html" %}
+
+{# ===== Default values – available in ALL blocks ===== #}
+{% set summary = summary|default({
+    "documents_analyzed": 128,
+    "documents_analyzed_delta": 3,
+    "flagged_for_review": 9,
+    "flagged_for_review_delta": -12,
+    "repository_size": 512,
+    "repository_size_delta": 1,
+    "pending_reviews": 4,
+    "pending_reviews_delta": 0,
+    "promoted_count": 47,
+    "pending_promotion": 6
+}) %}
+{% set clear_count = summary.documents_analyzed - summary.flagged_for_review - summary.pending_reviews %}
+{% set repo_status = repo_status|default({
+    "promoted": 47,
+    "pending_promotion": 6,
+    "last_updated": "Jul 25, 2026"
+}) %}
+{% set weekly = weekly|default([
+    {"day":"Mon","docs":22,"flagged":3},
+    {"day":"Tue","docs":18,"flagged":2},
+    {"day":"Wed","docs":25,"flagged":5},
+    {"day":"Thu","docs":30,"flagged":4},
+    {"day":"Fri","docs":15,"flagged":1},
+    {"day":"Sat","docs":10,"flagged":0},
+    {"day":"Sun","docs":8,"flagged":0}
+]) %}
+{% set activities = activities|default([
+    {"user":"Maria C. Santos","action":"uploaded batch of 12 documents","time":"2026-06-27T14:32"},
+    {"user":"System","action":"flagged 3 new documents >65% similarity","time":"2026-06-27T14:15"},
+    {"user":"Dr. Reyes","action":"promoted 4 documents to repository","time":"2026-06-27T13:40"},
+    {"user":"System","action":"threshold adjusted to 0.65 by Admin","time":"2026-06-27T12:05"},
+    {"user":"Juan Dela Cruz","action":"self-audit completed for Section B","time":"2026-06-27T11:22"}
+]) %}
+
+{% block title %}Dashboard — HAUdemicCheck{% endblock %}
+
+{% block head %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+{% endblock %}
+
+{% block content %}
+
+<!-- ===== TOP BAR ===== -->
+<div class="d-flex flex-wrap justify-content-between align-items-end mb-4 gap-3">
+    <div>
+        <h1 class="h3 fw-bold mb-1">Good afternoon{% if user_name %}, {{ user_name }}{% endif %}</h1>
+        <p class="text-muted mb-0">
+            Friday, June 27, 2026 ·
+            {% if user_role %}<span class="badge role-badge ms-1">{{ user_role }}</span>{% endif %}
+        </p>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{{ url_for('home') }}" class="btn btn-primary btn-lg">
+            <i class="bi bi-plus-circle"></i> New Analysis
+        </a>
+        <a href="{{ url_for('repository') }}" class="btn btn-outline-primary">
+            <i class="bi bi-folder-check"></i> Manage Repository
+        </a>
+    </div>
+</div>
+
+<!-- ===== CONSOLIDATED ATTENTION BANNER ===== -->
+{% set action_total = summary.flagged_for_review %}
+{% if action_total > 0 %}
+<div class="card action-required mb-4">
+    <div class="card-body d-flex flex-wrap align-items-center justify-content-between gap-3">
+        <div class="d-flex align-items-center gap-3">
+            <i class="bi bi-exclamation-triangle-fill action-required-icon" aria-hidden="true"></i>
+            <div>
+                <h2 class="h6 mb-0">{{ action_total }} flagged item{{ 's' if action_total != 1 else '' }} need{{ '' if action_total != 1 else 's' }} attention</h2>
+                <p class="mb-0 small text-muted">
+                    Documents have exceeded the similarity threshold.
+                    <a href="{{ url_for('results') }}" class="text-decoration-underline">View flagged documents</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<!-- ===== KPI CARDS ===== -->
+<div class="row g-3 mb-4">
+    <div class="col-6 col-lg-3">
+        <dl class="card stat-card h-100 mb-0">
+            <div class="card-body">
+                <dt class="stat-icon"><i class="bi bi-file-earmark-text"></i></dt>
+                <dd class="stat-value" aria-hidden="true">{{ summary.documents_analyzed }}</dd>
+                <dt class="visually-hidden">Documents analyzed</dt>
+                <dd class="visually-hidden">{{ summary.documents_analyzed }} documents analyzed</dd>
+                <dt class="stat-label">Documents Analyzed</dt>
+                <dd class="stat-delta">
+                    <i class="bi bi-arrow-up-short"></i> {{ summary.documents_analyzed_delta }}% from last week
+                </dd>
+            </div>
+        </dl>
+    </div>
+    <div class="col-6 col-lg-3">
+        <button type="button"
+                class="card stat-card stat-card-flag stat-card-clickable h-100 w-100 text-start border-0 p-0"
+                data-filter-status="flagged"
+                aria-label="Filter table to show flagged documents">
+            <div class="card-body">
+                <div class="stat-icon"><i class="bi bi-exclamation-triangle"></i></div>
+                <h3 class="stat-value" aria-hidden="true">{{ summary.flagged_for_review }}</h3>
+                <p class="visually-hidden">{{ summary.flagged_for_review }} documents flagged for review</p>
+                <div class="stat-label">Flagged for Review</div>
+                <div class="stat-delta">
+                    <i class="bi bi-arrow-down-short"></i> {{ summary.flagged_for_review_delta|abs }}% from last week
+                </div>
+            </div>
+        </button>
+    </div>
+    <div class="col-6 col-lg-3">
+        <dl class="card stat-card h-100 mb-0">
+            <div class="card-body">
+                <dt class="stat-icon"><i class="bi bi-collection"></i></dt>
+                <dd class="stat-value" aria-hidden="true">{{ summary.repository_size }}</dd>
+                <dt class="visually-hidden">Repository documents</dt>
+                <dd class="visually-hidden">{{ summary.repository_size }} repository documents</dd>
+                <dt class="stat-label">Repository Documents</dt>
+                <dd class="stat-delta">
+                    <i class="bi bi-arrow-up-short"></i> {{ summary.repository_size_delta }}% from last week
+                </dd>
+            </div>
+        </dl>
+    </div>
+    <div class="col-6 col-lg-3">
+        <button type="button"
+                class="card stat-card stat-card-clickable h-100 w-100 text-start border-0 p-0"
+                data-filter-status="review"
+                aria-label="Filter table to show documents pending review">
+            <div class="card-body">
+                <div class="stat-icon"><i class="bi bi-hourglass-split"></i></div>
+                <h3 class="stat-value" aria-hidden="true">{{ summary.pending_reviews }}</h3>
+                <p class="visually-hidden">{{ summary.pending_reviews }} pending reviews</p>
+                <div class="stat-label">Pending Reviews</div>
+                <div class="stat-delta stat-delta-neutral">No change from last week</div>
+            </div>
+        </button>
+    </div>
+</div>
+
+<!-- ===== QUICK ACTIONS (simplified) ===== -->
+<div class="row g-3 mb-4">
+    <div class="col-6 col-lg-6">
+        <a href="{{ url_for('results') }}" class="card text-decoration-none border-start border-4 border-danger h-100">
+            <div class="card-body d-flex align-items-center gap-3">
+                <i class="bi bi-flag-fill fs-4 text-danger"></i>
+                <div>
+                    <strong>Review Flagged</strong>
+                    <span class="badge bg-danger ms-1">{{ summary.flagged_for_review }} pending</span>
+                    <div class="small text-muted">Require immediate action</div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-6 col-lg-6">
+        <a href="#" class="card text-decoration-none border h-100">
+            <div class="card-body d-flex align-items-center gap-3">
+                <i class="bi bi-shield-check fs-4 text-maroon"></i>
+                <div>
+                    <strong>Self-Audit</strong>
+                    <div class="small text-muted">Check your own work</div>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+<!-- ===== CHARTS ===== -->
+<div class="row g-3 mb-4">
+    <!-- Weekly Activity Bar Chart -->
+    <div class="col-lg-8">
+        <div class="card h-100">
+            <div class="card-header">
+                <h2 class="h5 mb-0">Weekly Activity</h2>
+                <p class="card-text small text-white-50 mb-0">Documents processed vs flagged</p>
+            </div>
+            <div class="card-body">
+                <canvas id="weeklyChart" aria-describedby="weeklyTableDesc" role="img" style="min-height:250px;"></canvas>
+                <div id="chartFallback1" style="display:none;" class="mt-3">
+                    <div class="alert alert-warning small">Chart could not be loaded. Data shown below.</div>
+                    <table class="table table-sm">
+                        <thead><tr><th>Day</th><th>Documents</th><th>Flagged</th></tr></thead>
+                        <tbody>
+                            {% for d in weekly %}
+                            <tr><td>{{ d.day }}</td><td>{{ d.docs }}</td><td>{{ d.flagged }}</td></tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                <table class="visually-hidden" id="weeklyTableDesc">
+                    <caption>Weekly activity: documents processed and flagged per day</caption>
+                    <thead><tr><th>Day</th><th>Documents</th><th>Flagged</th></tr></thead>
+                    <tbody>
+                        {% for d in weekly %}
+                        <tr><td>{{ d.day }}</td><td>{{ d.docs }}</td><td>{{ d.flagged }}</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- Repository Status Donut -->
+    <div class="col-lg-4">
+        <div class="card h-100">
+            <div class="card-header">
+                <h2 class="h5 mb-0">Repository Status</h2>
+            </div>
+            <div class="card-body d-flex flex-column justify-content-center">
+                <canvas id="repoStatusChart" aria-describedby="repoTableDesc" role="img" style="max-height:250px;"></canvas>
+                <div id="chartFallback2" style="display:none;" class="mt-3">
+                    <table class="table table-sm">
+                        <thead><tr><th>Status</th><th>Count</th></tr></thead>
+                        <tbody>
+                            <tr><td>Verified</td><td>{{ repo_status.promoted }}</td></tr>
+                            <tr><td>Under Review</td><td>{{ repo_status.pending_promotion }}</td></tr>
+                            <tr><td>Needs Review</td><td>{{ summary.flagged_for_review }}</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <table class="visually-hidden" id="repoTableDesc">
+                    <caption>Repository document status distribution</caption>
+                    <thead><tr><th>Status</th><th>Count</th></tr></thead>
+                    <tbody>
+                        <tr><td>Verified</td><td>{{ repo_status.promoted }}</td></tr>
+                        <tr><td>Under Review</td><td>{{ repo_status.pending_promotion }}</td></tr>
+                        <tr><td>Needs Review</td><td>{{ summary.flagged_for_review }}</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===== RECENT ACTIVITY ===== -->
+<div class="card mb-4">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h2 class="h5 mb-0">Recent Activity</h2>
+        <a href="#" class="link-light small">View full activity log →</a>
+    </div>
+    <div class="card-body p-0">
+        <ul class="list-group list-group-flush">
+            {% for item in activities %}
+            <li class="list-group-item d-flex align-items-center gap-3">
+                <span class="rounded-circle bg-maroon text-white d-flex align-items-center justify-content-center" style="width:36px;height:36px;font-size:0.8rem;">{{ item.user[0] }}</span>
+                <div>
+                    <strong>{{ item.user }}</strong> {{ item.action }}
+                    <br><small class="text-muted"><time datetime="{{ item.time }}">{{ item.time | replace('T', ' ') }}</time></small>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function() {
+    function showFallback(fallbackId) {
+        const fb = document.getElementById(fallbackId);
+        if (fb) fb.style.display = 'block';
+    }
+
+    try {
+        // Weekly bar chart
+        const weeklyData = {{ weekly | tojson | safe }};
+        const ctxBar = document.getElementById('weeklyChart');
+        if (ctxBar && typeof Chart !== 'undefined') {
+            new Chart(ctxBar, {
+                type: 'bar',
+                data: {
+                    labels: weeklyData.map(d => d.day),
+                    datasets: [
+                        {
+                            label: 'Documents',
+                            data: weeklyData.map(d => d.docs),
+                            backgroundColor: '#6B0F1A',
+                            borderRadius: 4
+                        },
+                        {
+                            label: 'Flagged',
+                            data: weeklyData.map(d => d.flagged),
+                            backgroundColor: '#C5A028',
+                            borderRadius: 4
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { position: 'bottom' } },
+                    scales: {
+                        y: { beginAtZero: true, ticks: { precision: 0 } },
+                        x: { grid: { display: false } }
+                    }
+                }
+            });
+        } else {
+            showFallback('chartFallback1');
+        }
+
+        // Repository donut
+        const ctxDonut = document.getElementById('repoStatusChart');
+        if (ctxDonut && typeof Chart !== 'undefined') {
+            new Chart(ctxDonut, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Verified', 'Under Review', 'Needs Review'],
+                    datasets: [{
+                        data: [{{ repo_status.promoted }}, {{ repo_status.pending_promotion }}, {{ summary.flagged_for_review }}],
+                        backgroundColor: ['#6B0F1A', '#C5A028', '#9A7A16'],
+                        borderColor: '#fff',
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    plugins: {
+                        legend: {
+                            position: 'right',
+                            labels: { font: { size: 12 }, padding: 15 }
+                        }
+                    }
+                }
+            });
+        } else {
+            showFallback('chartFallback2');
+        }
+    } catch (e) {
+        showFallback('chartFallback1');
+        showFallback('chartFallback2');
+        console.error('Chart init error:', e);
+    }
+})();
+</script>
+{% endblock %}

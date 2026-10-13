@@ -1,0 +1,13 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "python.defaultInterpreterPath": "./venv/Scripts/python.exe",
+  "files.trimTrailingWhitespace": true,
+  "editor.rulers": [
+    79
+  ],
+  "python.analysis.extraPaths": [
+    "./app/nlp"
+  ],
+  "python-envs.defaultEnvManager": "ms-python.python:system"
+}

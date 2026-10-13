@@ -1,0 +1,951 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Department of Information Systems & 
+Computer Science Faculty Publications 
+Department of Information Systems & 
+Computer Science 
+10-2013 
+Designing Mobile Educational Games on Voter‟s Education: A 
+Designing Mobile Educational Games on Voter s Education: A 
+Tale of Three Engines 
+Tale of Three Engines 
+Ma. Regina Justina E. Estuar 
+Ateneo de Manila University, restuar@ateneo.edu 
+Nadia Rowena C. Leetian 
+Michael B. Syson 
+Ateneo de Manila University 
+Follow this and additional works at: https://archium.ateneo.edu/discs-faculty-pubs 
+ Part of the Databases and Information Systems Commons, and the Psychology Commons 
+Custom Citation 
+Custom Citation 
+N. Leetian, R. Estuar and M. Syson, "Designing Mobile Educational Games on Voter's Education: A Tale of 
+Three Engines", International Journal of e-Education, e-Business, e-Management and e-Learning, 3 (2013), 
+357- 364. 
+This Article is brought to you for free and open access by the Department of Information Systems & Computer 
+Science at Archīum Ateneo. It has been accepted for inclusion in Department of Information Systems & Computer 
+Science Faculty Publications by an authorized administrator of Archīum Ateneo. For more information, please 
+contact research@ateneo.edu. 
+
+ 
+Abstract—The rapid growth of mobile learning is influenced 
+by the ability to access learning content anytime and anywhere. 
+The on demand capability is available because mobile devices 
+allow for convergence of internet and communications 
+technologies. At the same time, the availability of engines makes 
+development of mobile applications faster and seamless. 
+However, not all mobile development engines are alike. This 
+paper discusses on the development of mobile learning 
+applications using mobile development engines in teaching 
+Filipinos on responsible voting.  Specifically, this paper 
+discusses how AndEngine, Ren’Py, and homegrown Usbong 
+were used to develop a mobile board game and a mobile comic 
+book to promote responsible voting to the Filipino youth. 
+ 
+Index Terms—Android, e-learning, mobile learning, mobile 
+engines, voter’s education.  
+ 
+I. INTRODUCTION 
+A. Context and Purpose of the Study 
+Ever since the release of smartphones, there has been a 
+switch from desktop computing to mobile computing.. The  
+capability of smartphones to serve as substitutes to desktop 
+computing had led a significant increase in the number of 
+smartphone users. A Singapore-based research firm called 
+GfK released data which shows that smartphone take-up rate 
+in the Philippines reached 146 percent, and approximately 6 
+million smartphones have been sold in April 2012 to March 
+2013 alone. Their data shows that 1 out of 3 Filipinos own a 
+smartphone as the cost of smartphones are decreasing and 
+becoming more affordable [1]. According to Douglas 
+Gilstrap, senior vice president of Ericsson, “Expectations of 
+mobile-network quality have been elevated by the 
+availability of smartphones and tablets that have changed the 
+way we use the Internet. Mobility is becoming an 
+increasingly significant part of our daily lives; we always 
+have devices within arm‟s reach, allowing us instant access to 
+information, entertainment and social interaction [2].” The 
+availability and affordability of smartphone devices, be it 
+ 
+supported in part by the Engineering, Research and Development 
+Technology (ERDT) of the Department of Science and Technology (DOST), 
+the Philippine Pastoral Council for Responsible Voting (PPCRV) and the 
+Ateneo Java Wireless Competency Center, Ateneo de Manila University.  
+Nadia Rowena C. Leetian is with the Ateneo Java Wireless Competency 
+Center, Ateneo de Manila University, Quezon City, Philippines 1108 (email: 
+nleetian@gmail.com). 
+Ma. Regina E. Estuar. Regina is with the Department of Information 
+Systems and Computer Science, Ateneo de Manila University, Loyola 
+Heights, Quezon City, Philippines (email: restuar@ateneo.edu). 
+Michael B. Syson is with the Japanese Studies Department, Ateneo de 
+Manila University, Loyola Heights, Quezon City, Philippines (email: 
+masarapmabuhay@gmail.com). 
+mobile phones, tablets and even televisions has provided 
+another opportunity to include and utilize another learning 
+medium.  
+The penetration of mobile devices in the Philippine 
+environment paved the way to several innovations in mobile 
+learning. For example, textbook publishing companies have 
+provided primary and secondary schools with an option to 
+access digital resources via tablets [3] and convert their 
+textbooks into digital formats as well [4]. Private high 
+schools have also deployed tablets instead of classic 
+textbooks in order to relieve their students from carrying 
+books and encourage them to learn about digital technology 
+which prepares them for the real world [5]. These actions 
+innovations will help promote greater access to knowledge, 
+interactivity, and developing skills in utilizing information. 
+Taking advantage of the amount of smartphones in the 
+country, it is possible to promote mobile learning in the 
+Philippines. The aim of this research is to create an 
+entertaining way of promoting mobile education to 
+encourage the youth. 
+B. Preparing the Filipino Youth in Responsible Voting: 
+Content for mLearning 
+The PPCRV (Parish Pastoral Council for Responsible 
+Voting) aims to promote educating the youth about the 
+dangers and effects of vote buying and political dynasties. 
+They have been promoting clean, accurate, meaningful, and 
+peaceful elections. They are a national parish-based political 
+but non-partisan lay movement established in 1991. They 
+have recently released a web comic titled CHAMPS aimed 
+towards the youth, which tells about the story of five 
+teenagers who are fighting for better and cleaner elections. 
+The reason why they aimed to communicate with the youth is 
+because the youth currently comprise around 1/3 of the 
+voting population [6], which is approximately 20 million out 
+of 50 million. It is important to educate the youth early 
+because they have the highest potential to disseminate 
+information due to their exposure to social media. Voter‟s 
+education is also made more accessible by the increasing 
+usage of smartphones by Filipinos statistics show that 1 out 
+of 4 Filipinos own a smartphone [6].  
+C. Voters Education Campaigns 
+Information and Communication technologies are an 
+essential tool to promote transparency and reduce corruption 
+in governments. Using these technologies, it is possible to 
+easily inform other people about practices done by certain 
+candidates.. For example, e-government and social media can 
+be used as a platform for social empowerment in monitoring 
+and preventing corruption [7].  Anti-corruption practices rely 
+on the spreading of information to and by the citizens. 
+Designing Mobile Educational Games on Voter‟s 
+Education: A Tale of Three Engines 
+Nadia Rowena C. Leetian, Ma. Regina E. Estuar, and Michael B. Syson 
+International Journal of e-Education, e-Business, e-Management and e-Learning, Vol. 3, No. 5, October 2013
+357
+DOI: 10.7763/IJEEEE.2013.V3.259
+Manuscript received May 22, 2013; revised July 30, 2013. This work was 
+
+Combining this with mobile learning and social media, it is 
+possible to educate the citizens about malign practices done 
+by candidates.  
+To cite specific examples, during pre-election periods, 
+some citizen‟s groups provide voters with mobile and web 
+services such as precinct finder, candidate and partylist 
+profiles, and election information [8]. Users can also call or 
+text their concerns to group and a representative will assist 
+them with their inquiries. 
+In the most recent national elections, the Comission on 
+Elections (COMELEC), which enforces laws and regulations 
+relative to the conduct of and elections, plebiscite, initiative, 
+referendum, and recall, together with one of the top 
+telecommuncations company in the country, created a 
+website (http://reportmycomelec.tv) and mobile application 
+entitled „e-Leksyon 2013‟ which aims to help the Filipinos on 
+the proceedings of the May 2013 elections [9]. The website 
+focuses on informing the people about common violations 
+done both by candidates and voters, which includes a 
+submission link to report a violation. It also offers a 
+simulation of filling out a sample ballot and highlighting the 
+information one needs to look out for in order to find out their 
+precinct. 
+D. The PPCRV Mobile Applications  
+PPCRV, together with the Ateneo Java Wireless 
+Competency Center, designed and developed mLearning 
+content on voter‟s education using appropriate game engines. 
+Using 3 engines, namely AndEngine, Ren‟Py, and Usbong, 
+the team was able to develop two mo b i l e  applications 
+called the PPCRV Tsunami and a PPCRV Visual Novel. The 
+first game is based on a snakes and ladders game mixed with 
+trivia questions.The game asks the user a question relating to 
+electoral topics; if the user answers it correctly, they get to 
+move on, otherwise, they move back a number of spaces. The 
+database of questions is updated periodically, and the game is 
+playable by up to four players. The whole application was 
+made using an engine specialized for gaming on mobile 
+platforms, specifically the Android operating system.  
+The visual novel game presents a different kind of 
+gameplay. The game presents choices to the user, good or bad, 
+and the outcome of the game is dependent on the user‟s 
+choice. This was created using decision trees developed in 
+Usbong and Ren‟Py.  Both games promote social awareness 
+by allowing the user to share or post on twitter and Facebook. 
+E. Research Questions 
+The objective of the study was to compare different 
+mobile development engines by creating mLearning 
+applications targeted towards the youth. In this study, we 
+asked: how does one design mobile games using existing 
+and homegrown engines on the mobile platform? 
+Specifically, what are the similarities and differences in 
+designing and developing mobile games using AndEngine, 
+Ren‟Py and Usbong.  
+ 
+II. REVIEW OF RELATED LITERATURE 
+The following studies were selected in relevance to the 
+goal of our paper – using a mobile game engine for eLearning. 
+The articles discuss why it is beneficial to use the Android 
+operating system over other mobile operating systems, and 
+the effectiveness of using a mobile game framework in a 
+socially relevant manner, which is necessary in producing an 
+effective tool for eLearning. 
+A. Android-Based Mobile Learning 
+Several institutions have incorporated mobile learning 
+using android into their studies. One of these is a study done 
+by Hanafi and Samsudin [10], in which they developed a 
+Mobile Learning Environment System (MLES) to monitor a 
+schools undergraduates learning. Mobile learning is 
+preferred due to its ability to carry out the learning anywhere, 
+for as long as the institution has access to wireless coverage. 
+This approach also encourages students to seek learning 
+contents via mobile services rather than find proprietary 
+courseware which is not readily available. The MLES 
+ 
+ 
+ 
+Fig. 1. Mobile learning environment system framework. 
+ 
+The system begins with the mobile device, which can be 
+accessed at home, the campus, or inside a classroom. These 
+devices then connect to the internet via a wired or wireless 
+network, or a 3G mobile network in the case of a 3G enabled 
+device such as a mobile phone. The internet will then provide 
+access to the mLearning content. This framework shows that 
+students can gain fast access to learning contents and 
+materials using their mobile devices. 
+According to Campanella [11], one of the most widely 
+used architecture for mobile learning is web-based. The 
+advantages of using a web-based platform are: 
+ Improved user interface; 
+ Support for multimedia content; 
+ The e-learning content can be easily updated on the 
+server 
+However, 
+web-based 
+platforms 
+also 
+have 
+their 
+disadvantages: 
+ User must install and configure the client application; 
+ User must learn to use the application; 
+ Any additional costs for traffic usage. 
+Mobile learning applications for Android in educational 
+institutions are usually comprised of modules such as courses, 
+quizzes, tests, and messages. In system management, the 
+modules developed are user control, content management, 
+courses, tests, and marks.  
+framework is shown in Fig. 1.
+International Journal of e-Education, e-Business, e-Management and e-Learning, Vol. 3, No. 5, October 2013
+358
+
+Mobile learning is similar to e-learning but with a subtle 
+difference - contents are delivered into mobile devices rather 
+than ubiquitous desktop or laptop computers. Teaching and 
+learning via the Android operating system can be 
+implemented without any heavy computing investment. First, 
+the mobile devices are widely available in the market. Second, 
+these mobile devices make it easy to share information 
+because of their integration with various social media [10]. 
+The results of Hanafi and Samsudin‟s research showed that 
+the students found it easy to download lecture notes, and the 
+method of mobile learning promoted self-learning [10]. 
+Android‟s user interface is also simple and intuitive [12] as 
+shown by the simple selection module which can be used for 
+quizzes in Fig. 2.  
+ 
+ 
+Fig. 2. Android sample selection module. 
+ 
+Using this environment combined with games, one can 
+develop an effective way to promote learning, and give the 
+user more immersion provided by the gaming aspect.  
+B. Mobile Game Frameworks and Engines for Android 
+Several game engines exist for the Android operating 
+system, and the two main ones are AndEngine for 2D games 
+and Ren‟Py for visual novel and decision-tree type games. 
+For the Tsunami application, the game engine AndEngine, 
+created by Nicolas Gramlich, was used due to its ease of 
+development for 2D games. The PPCRV Visual Novel was 
+created using both Ren„Py and Usbong due to its reliance on 
+decision trees. Ren„Py allows the application to be deployed 
+on Windows, Linux, Android, and soon iOS, which makes it 
+a good choice for the application to reach a big audience.  
+Ren„Py however, is unable to deploy on lower-end phones 
+which has below 512MB of RAM due to its graphical 
+requirements. Due to this limitation, the Usbong Engine, 
+which is less strict in the graphics requirements, was used to 
+cater to the lower-end phones should the Ren„Py application 
+fail to run.   
+C. AndEngine – Game Engine for Android 
+AndEngine is a game engine library that makes it easier to 
+write two-dimensional games for Android devices. It is 
+created by Nicolas Gramlich and is built on top of the basic 
+Android SDK. It is possible to make a game using the basic 
+Android APIs, but there are some advantages to using a game 
+engine [13]. First is the ability to leverage the work of others. 
+Using the basic Android APIs alone will create a very basic 
+game, but by using a specialized game engine, one can push 
+the potential of the basic APIs. Next is building a community 
+with other developers. With open-source code, like that used 
+in AndEngine, developers always have the option of 
+extending the engine functionality. It is also a way of 
+contributing to each other‟s games, as one can always ask the 
+community of how to do certain functionalities or ask for 
+assistance in graphics.  
+AndEngine is comprised of the following main 
+components [13]:  
+1) Camera – The camera determines the view of the game 
+presented to players. It is able to pan and zoom across the 
+scene to change the view. 
+2) Scene – Each sequence of scenes is driven by a Scene 
+Manager, much like a director of a movie and the order of 
+scenes is dependent on the game. 
+3) Sprite – Sprites are visual representations of the 
+characters in the game. 
+4) Entity – Entities are objects drawn on to the screen. 
+Sprites, as well as tiles and lines, are entities. 
+5) Modifier – Modifiers change the properties of an entity to 
+create movement or effects. 
+6) Texture – a texture is a 2D bitmapped graphic that can be 
+applied to objects to give them texture. 
+7) Engine – An Engine runs a scene. It handles animations 
+and modifiers. It takes care of letting animations and 
+modifiers know when to update the graphics, coordinates 
+the actual drawing, handles user input events (touch, keys, 
+sensors), and generally manages the progress of the game. 
+8) BaseActivity - BaseGameActivity handles the work 
+common to all scenes, setting up the game engine, 
+conforming 
+to 
+the 
+Android 
+Activity 
+Lifecycle 
+requirements, and enabling sensors. 
+The concepts mentioned above are used in creating the 
+PPCRV Tsunami application. The components are essential 
+when creating a 2D game.  
+D. Ren’Py Visual Novel Engine 
+Ren'Py is a visual novel engine that helps one use words, 
+images, and sounds to narrate stories with a computer or 
+mobile devices. These can be either visual novels or life 
+simulation games. The script language allows one to 
+efficiently write large, text-heavy visual novels, while its 
+Python scripting is used for more complex games such as a 
+full-scale RPG. Even without in-depth customization, Ren'Py 
+provides the basic features players have come to expect from 
+their visual novels in the basic template, such as save and 
+load states. It is open source and supports multiple platforms 
+such as Windows, Mac OS X, Linux, Android, and soon, 
+iOS. 
+According to the main Ren‟Py homepage [14], Visual 
+novels are defined by being computer-based stories that are 
+told through words, images, sounds, and music. Many visual 
+novels are made to present the player with menu choices that 
+allow the player to control how the story is told. Life 
+Simulation games, such as management and dating 
+simulations, are more interactive games that mix story with 
+gameplay. Ren'Py's screen language allows one to create 
+complex interfaces, while its support for the Python scripting 
+International Journal of e-Education, e-Business, e-Management and e-Learning, Vol. 3, No. 5, October 2013
+359
+
+language makes allows for complex game logic. Some of the 
+default features Ren‟Py packaged with the basic template are 
+the following [14]: 
+ A main menu that allows the user to start a new game, 
+load a game, or adjust settings. 
+ A game menu that lets the user load, save, and adjust 
+settings. 
+ Automatic saving of games. 
+ Predictive image loading, which loads images in the 
+background. This feature reduces the waiting time of 
+the user to finish loading images 
+ The ability to skip through text when replaying, 
+including the ability to skip only text that's been read. 
+ The ability to independently change music, sound effect, 
+and voice volume. 
+Ren‟Py also supports numerous image animations and 
+movie playback is also supported.  
+E. Usbong 
+Usbong is a platform that allows even non-technical people 
+to create their own web-mobile systems to digitize and 
+streamline processes, such as for assessments and surveys. 
+For those who are more creatively inclined, Usbong can also 
+be used to create choose-your-own-adventure storybooks 
+with matching illustrations through the use of decision trees. 
+At present, Usbong runs on Android devices, whether 
+smartphones or tablets, that have version 2.3 and up. Similar 
+to ebook readers, once Usbong is installed, it shows a list of 
+files that it can read or "play". The file type that Usbong uses 
+is .utree. To create these .utree files, a Graphical User 
+Interface (GUI) or a Spreadsheet running on Google Drive 
+can be used.  
+While it is possible to use both Ren'Py and Usbong to tell 
+visual stories, Usbong should be looked at more as a visual 
+novel with illustrations than a visual novel with talking heads 
+or persons. In Usbong, not all the screens would necessarily 
+have illustrations.  
+Some of the features already available in Usbong include:  
+ A file selection screen that allows the user to select a file 
+to be read/"played". 
+ Availablility of components such as textDisplay, 
+imageDisplay, textImageDisplay, and link. 
+ Availability of other components like textfields and 
+textareas for end-user inputs. 
+ Ability to add HTML tags in the text (e.g. to change font 
+color and size, add hyperlinks). 
+ Clickable images, which can then have more 
+information or links about the image. 
+ The path chosen and decisions made by the end-user are 
+stored on the sdcard or sent to a server. 
+ 
+III. METHODOLOGY 
+This section discusses the various technologies used in 
+developing the PPCRV applications for voter‟s education. 
+A. PPCRV Tsunami Application 
+The game design used for this application is competition 
+and sociability. By definition, a game is competitive if 
+players are emotionally invested in defeating each other. The 
+goal of this game is to produce a measurable outcome- a 
+winning player. Combined with its results being integrated 
+with social networks, it gives the application a good 
+environment for players to compete during their spare time. 
+It offers a sense of educational entertainment to the users and 
+this system may be used for further educational purposes. 
+The Tsunami Application was created using the Eclipse 
+SDK with the AndEngine game library. The flow of the game 
+was created using just one activity and multiple game scenes 
+or states handled by AndEngine. As with any game, the first 
+thing one should do is define the sprites. In AndEngine, 
+sprites are defined by the following statement: 
+mJessa= 
+BitmapTextureAtlasTextureRegionFactory.createFromAsset 
+(this.mBitmapTextureAtlas, this, "jessa.png", 0, 0); 
+mBitmapTextureAtlas.load(); 
+ 
+The code above is located inside the onCreateResources() 
+method which is available inside every class extending the 
+SimpleBaseGameActivity 
+class 
+of 
+AndEngine. 
+BitmapTextureAtlas is similar to a box where you can put in 
+images or textures. In order to display these images, it must 
+be called and attached in the game scenes which are handled 
+by a built-in scene manager in the engine. The changing of 
+scenes is handled by the following line of code: 
+activity.setCurrentScene(new StartMenu());  
+The setCurrentScene method is called inside the event 
+wherein one wants to change the scene. For example, in the 
+game, when the user hits the “Start Game” button, the 
+changing of the current scene is handled inside the button 
+listener. All the scene classes extend the parent class Scene. 
+Once the scene is loaded, the loaded images from the initial 
+activity can be converted into sprites and displayed by the 
+following statement:  
+Sprite jessSprite = new Sprite(startX, startY, activity.mJessa, 
+activity.getVertexBufferObjectManager()); 
+attachChild(jessSprite); 
+The game board was created in a similar way, with the 
+sprites being different colored tiles. A splash scene was also 
+created which lasts for about 2 seconds before loading the 
+main game scene in order to act as a loading screen to give a 
+delay to load the resources needed. For the sprite movement, 
+a modifier was used to move the sprite horizontally or 
+vertically in a set speed. One must declare a movement 
+modifier, and register it to the preferred sprite at the moment 
+one wants the sprite to move, shown in the sample code 
+below. In the code, the sprite will move from startX to finalX 
+in 0.2 seconds. 
+MoveXModifier mod = new MoveXModifier((float) 0.2, startX, 
+finalX);   
+jessSprite.registerEntityModifier(mod.deepCopy()); 
+For the main game, a question loader was created which 
+contains the question database along with the answers, 
+making it easy to add, remove, or edit questions as necessary. 
+The questions are stored in a simple text file so that more 
+questions can be added to the database. The questions are 
+formatted as follows: 
+1) What does P stand for in PPCRV? 
+ Parish* 
+ Principle 
+International Journal of e-Education, e-Business, e-Management and e-Learning, Vol. 3, No. 5, October 2013
+360
+
+ Polite 
+ Persistent 
+2) What does C stand for in PPCRV? 
+ Couple 
+ Complete 
+  Council* 
+  Court 
+The application will randomized the order of the answers 
+when the questions are displayed to insure that the player will 
+read the answers rather than memorize the letter 
+corresponding to the answer. 
+The questions are ranked by their difficulty and are chosen 
+randomly depending on the player‟s location on the game 
+board. If the player is closer to the finish line, the questions 
+chosen are from the harder ranks, giving the game more 
+challenge. Upon ending the game, the winning player is 
+given the choice to share their results on Facebook or Twitter, 
+forming a social aspect to spreading voter‟s education. The 
+Facebook and Twitter share option was handled by a java 
+library called SocialAuth. It handles authenticating users 
+through external oAuth providers like Gmail, Hotmail, 
+Yahoo, Twitter, Facebook, LinkedIn, Foursquare, MySpace, 
+Salesforce, among others. Facebook and Twitter were mainly 
+selected due to it being the most active social networks in the 
+Philippines. 
+B. PPCRV Visual Novel 
+As opposed to the competitive nature of the Tsunami 
+application, the PPCRV Visual Novel is centered on a main 
+character- the player, and a strong plot. The character‟s choices 
+in the game are all controlled by the player. Whether the game 
+will end in a good way or not are all decided by the choices 
+selected. This type of game was created in order to promote the 
+concept of bearing the consequences of your actions. While the 
+Tsunami application was a linear game due to it being a 
+question and answer type of game where the answers are 
+predetermined, the PPCRV Visual Novel is nonlinear – 
+meaning, the answers all lead to a different ending of the game. 
+For the Visual Novel, a popular visual novel engine called 
+Ren‟Py was used. Ren‟Py is one of the standards for visual 
+novels due to its easy to understand syntax which is formatted 
+like a screenplay. The save and load states are also handled 
+automatically by Ren‟Py. Furthermore, it can also connect to 
+web-based services which make it possible to obtain the 
+answers of the players and evaluate their moral standing.  
+First, the images are defined by declaring it as a 
+background (bg) or a character. Each character can have 
+multiple images assigned to them such as when they have 
+different expressions. The excerpt below shows how images 
+and characters are defined: 
+image bg bench = "bench.jpg" 
+image Jessa normal = "jessa1.png" 
+image Jessa mad = "jessa3.png" 
+image Jessa explaining = "jessa2.png" 
+image Jessa talking = "jessa4.png" 
+# j and mb is a short variable name to display the name “Jessa” or 
+#“Manong Bok” above the text box.  
+define j = Character('Jessa', ctc="ctc2", ctc_position="fixed", 
+show_two_window=True) 
+define mb = Character('Manong Bok', ctc="ctc2", 
+ctc_position="fixed", show_two_window=True) 
+ 
+Once the images have been defined, they can simply be 
+displayed on screen by the following statements. Additional 
+effects can be added such as fading and moving by using the 
+“with” statement. Each section of the story can be assigned to 
+a label, which can be accessed by a “menu” statement for 
+branching: 
+label scene8: 
+scene bg cafe 
+with fade 
+show Jessa explaining at right with moveinbottom 
+ 
+The branching is automatically handled by a „menu‟ 
+statement; each option in the menu can simply „jump‟ to a 
+different label or story point when selected in the game. 
+Below is an example of the Ren‟Py syntax: 
+mb "You see, we have a problem. As usual, you have a decision to 
+make. (He looked at their confused faces and shrugged)." 
+    mb "Decide. Do we go to him and attack right away? Do we 
+investigate first? Or, do we do nothing?" 
+    menu: 
+        "Attack right away": 
+            jump scene6 
+ 
+        "Investigate first": 
+            jump scene7 
+ 
+        "Do nothing": 
+            jump scene8 
+ 
+Fig. 3 shows how the menu statement appears on Ren‟Py.  
+ 
+ 
+Fig. 3. Selection module in game. 
+ 
+The default Ren‟Py output is an executable file which can 
+be run on windows. In order to convert it into an Android 
+APK, one must use the Ren‟Py Android Packaging Tool 
+(RAPT). RAPT is a program, downloaded separately from 
+Ren'Py, that creates an Android package for testing or release 
+purposes. It runs via the command line. According to the 
+RAPT homepage and documentation[12], the following are 
+the default keybindings applied when converting the game 
+into an APK: 
+ 
+Home 
+Returns to the Android home screen, suspending the 
+Ren'Py game. As part of the suspend process, Ren'Py will 
+automatically save the game. If necessary, the save will be 
+automatically loaded when the user returns to the game. 
+Menu 
+Brings up the in-game menu, and returns to the game. 
+Back 
+Rolls back. 
+Volume Up, Volume Down 
+Controls Android's media volume. 
+ 
+International Journal of e-Education, e-Business, e-Management and e-Learning, Vol. 3, No. 5, October 2013
+361
+
+Alongside Ren‟Py, the Usbong engine was also used to 
+handle the lower end phones as mentioned earlier. It is 
+similar to Ren‟Py wherein it specializes in decision trees, but 
+instead of a plain text format, it uses a GUI or a Spreadsheet 
+to create the trees. 
+The first step is to identify which component to use for 
+each screen that would be displayed on the device. For visual 
+novels, this would typically be:  
+textDisplay: displays a text on the screen 
+imageDisplay: displays an image on the screen 
+textImageDisplay: displays text and image on the screen. 
+link: enables  the end-user to select one choice to go to from 
+a radio button group.  
+Once the appropriate component has been identified, it is 
+just a matter of putting it in the correct task-node box (for the 
+GUI) or the correct cell (for the spreadsheet) using a valid 
+ 
+ 
+Fig. 4. Screenshot of the GUI. 
+ 
+Fig. 5 shows a screenshot of the Spreadsheet running on 
+Google Drive with the same values as the one on the GUI. 
+ 
+ 
+Fig. 5. Screenshot of the spreadsheet. 
+ 
+Both the GUI and the Spreadsheet produce an .xml file, 
+which is stored in the .utree file, along with the res folder. 
+The res folder contains the images of the tree. 
+ 
+ <task-node name="textImageDisplay~policestation~Previously, 
+Ratdago was finally arrested for the crimes he had committed while 
+he was in power, thanks to the persistence of the CHAMPs. A trip to 
+the future through the TPG showed that peace and order was 
+restored in the future version of their town. But will this last?">  
+  
+<transition to="link~In the meantime, the CHAMPs had 
+become 
+good 
+friends 
+and 
+started 
+to 
+bond…" 
+name="Any"></transition> 
+ </task-node> 
+ 
+Fig. 6 shows screenshots of the application itself. 
+    
+Fig. 6. Screenshots of the application. 
+ 
+C. Data Gathering and Exposure 
+Upon release of the two games after the 2013 elections, the 
+user data provided by the players are stored and sent to a 
+secure web server. Using these data, it is possible to create a 
+trend line to see which information is the most common 
+mistake the users for the Tsunami Application select. For the 
+Visual Novel, their choices throughout the game are sent in 
+order to see the common choice and standing of the people – 
+whether more citizens choose to be indifferent in the game, or 
+if they really reflect their beliefs in the game choices. 
+ 
+IV. RESULTS 
+In the case of PPCRV‟s voter‟s education application, two 
+games were created the PPCRV Tsunami Application and the 
+PPCRV Visual Novels. Both of these applications 
+incorporate gaming into education by making it more 
+appealing to the youth voters. The Tsunami application is a 
+quiz game incorporated into the traditional snakes and 
+ladders game. The questions aim to educate the voters on 
+how to become a model citizen, avoid malign practices, and 
+proper candidate evaluation. The Ren‟Py game framework 
+and Usbong Platform on the other hand, were used to create 
+two versions of the comic book in mobile story-book format. 
+This type of game relies heavily on decision trees, which both 
+Ren‟Py and Usbong have, and therefore allowed for the 
+development of choose your own adventure type of game.  
+Since the aim of the game was to make the user live out the 
+consequences of being an active citizen or an inactive citizen 
+in the game‟s world, it was necessary to design the app such 
+that there would be decision points and branching out to 
+several possible scenarios. While the Tsunami application 
+aims to teach trivia and facts, the visual novel aims to teach 
+moral engagement to the youth voters. 
+A. PPCRV Tsunami Application 
+The Tsunami Application output consists of an android 
+application using AndEngine with Facebook and Twitter 
+integration. The Facebook and Twitter post only consists of 
+the time the player took to finish the game and a link to the 
+Google Play Store such that other users can download. The 
+main 
+application 
+consists 
+of 
+five 
+main 
+classes: 
+QuestionManager, 
+BaseActivity, 
+MainMenuScene, 
+MainGameScene, 
+and 
+PlayerSelectionScene. 
+The 
+QuestionManager class as mentioned in the earlier section is 
+International Journal of e-Education, e-Business, e-Management and e-Learning, Vol. 3, No. 5, October 2013
+362
+syntax. Fig. 4 shows a screenshot of the GUI. 
+
+the question loader which handles the data obtained from the 
+QuestionParser, which reads from the text file of questions. 
+The BaseActivity is the main class of the application, which 
+handles the initial loading of the environment and game 
+scenes. The game scenes are very linear – it simply moves 
+back and forth between the scene classes every time the user 
+clicks a button. For example, in the MainMenuScene, if the 
+user presses “Start” in the menu, it will load up the 
+PlayerSelectionScene, and once the user selects his preferred 
+character, it then loads up the MainGameScene. The 
+MainGameScene is where the logic of the main game is 
+stored such as the winning conditions, the logic of the 
+movement of players across the board, and the dice 
+generation. Fig. 7 shows a screenshot of the main Tsunami 
+game and how a question shows up on a dialog. 
+ 
+ 
+Fig. 7. Screenshots of the main Tsunami game and a sample question. 
+ 
+The game begins with the players in the starting position 
+and a dice button. It is patterned after a board game and the 
+board is marked with several icons which activate if a player 
+lands on them. If the icon is yellow, a player who landed on 
+the icon is given a question generated by the question loader. 
+If the player answers it correctly, they stay on the icon and 
+wait for their next turn. Otherwise, they will be sent back a 
+random number of steps. Note that it is possible for a player 
+to encounter more than one icon in a single turn. If the icon is 
+red, they will be sent back a random number of steps 
+automatically. 
+B. Ren’Py and Usbong Visual Novel 
+For the Visual Novel, two engines were used to release the 
+game to Android, namely Ren‟Py and Usbong. For Ren‟Py, 
+the development was straightforward with its screenplay 
+syntax, which was written in just one script file as shown in 
+the methodology. All images are loaded externally in the 
+main folder of the game, and the script file simply calls a 
+photo if needed. Fig. 8 shows the final output of a Ren‟Py 
+application. The save and load buttons saves the player‟s 
+game state and can later be accessed in the game menu in Fig. 
+9.The skip button skips a previously read section when given 
+the situation where the player has finished the game once but 
+the player still wishes to play the game from the beginning to 
+view the other outcomes of the game. Instead of having to 
+read all previously read scenes, the user can opt to skip the 
+scenes and it will stop skipping when it detects a scene which 
+the user hasn‟t seen yet. 
+ 
+Fig. 8. Screenshot of the layout and gameplay of the visual novel. 
+ 
+ 
+Fig. 9. Game menu where save states are stored. 
+ 
+For Usbong, there are two ways to create the visual novel: the 
+GUI or the Spreadsheet. While there is a slight learning curve in 
+using either one, once the concept has been understood, it is also 
+straightforward to use. All the images are stored in the res folder 
+of the .utree file, and the “script” that calls the photos needed is 
+in a .xml file. Fig. 10 shows the final output of an Usbong tree. 
+ 
+   
+ 
+Fig. 10. Screenshots of the visual novel in Usbong. 
+ 
+V. CONCLUSION 
+The use of a game engine such as AndEngine made the 
+development of the game easier as compared to doing it in 
+basic Android since  most game engines already have 
+incorporated methods for interpolation and animation which 
+is most commonly present in games. Similarly, using Ren‟Py 
+made the development of the visual novel faster because the 
+most common game elements such as save and load states are 
+already incorporated into the basic template, which means no 
+additional code has to be written before implementation.  
+Given that these engines built a simple framework around 
+an existing one (namely Android for AndEngine and Python 
+for Ren‟Py), it is possible to further abstract these engines to 
+focus on creating a framework for a specific type of game and 
+to make it simpler for beginners. Instead of using a separate 
+framework such as SocialAuth for integrating with social 
+networks, it is possible to create a framework and combine 
+that feature into AndEngine itself. Since AndEngine also has 
+a plethora of commands for different types of games, one can 
+extract the basic commands in order to create a quiz game 
+such as the Tsunami application. 
+International Journal of e-Education, e-Business, e-Management and e-Learning, Vol. 3, No. 5, October 2013
+363
+
+Usbong, a homegrown engine for mobile applications 
+development, on the other hand provides an environment that 
+can readily be used by non-programmers. The template 
+allows novice app developers to use a simple spreadsheet to 
+incorporate the story, the images and the decision points. 
+The essence behind mobile game engines is that it provides 
+a less complex development environment. Successful 
+development and deployment provide evidence that these 
+engines may be used by educators in creating content for the 
+mobile platform. In a third world country such as the 
+Philippines, where good quality education is hindered 
+because of social and physical barriers, mLearning provides a 
+promising alternative to enhancing and improving the quality 
+of education for the present and future generations.      
+ACKNOWLEDGMENT 
+The group would like to thank Engineering, Research and 
+Development Technology (ERDT) of the Department of 
+Science and Technology (DOST), the Philippine Pastoral 
+Council for Responsible Voting (PPCRV), the Ateneo Java 
+Wireless Competency Center (AJWCC), and the Usbong 
+team for their support and for giving the group the 
+opportunity to develop the applications. We would also like 
+to thank the Multiple Intelligence International School Senior 
+HS students for developing the storyline for the visual novel. 
+REFERENCES  
+[1] 
+L. Agcaoili. (May 2013). Phl is SE Asia‟s fastest growing market for 
+smartphones. 
+[Online]. 
+Available: 
+http://www.philstar.com/business-usual/2013/05/20/943965/phl-se-asi
+as-fastest-growing-market-smartphones-study. 
+[2] 
+J. M. Tuazon. (November 2012). Philippines has 5 million more mobile 
+subscribers 
+in 
+Q3. 
+[Online]. 
+Available: 
+http://www.interaksyon.com/infotech/philippines-has-5-million-more-
+mobile-subscribers-in-q3-report. 
+[3] 
+The Philippine Star. (November 2012). Anytime, anywhere learning 
+with 
+YoPad. 
+[Online]. 
+Available: 
+http://www.philstar.com/gadgets/2012/11/04/862980/anytime-anywhe
+re-learning-yopad. 
+[4] 
+A. Nolasco. (2013). Vibal and PNU create Center for Digital Education. 
+[Online]. 
+Available: 
+http://www.vibalpublishing.com/news/item/481-vibal-and-pnu-create-
+center-for-digital-education.html. 
+[5] 
+Calvin. (August 2011). La Salle Green Hills deploys Samsung Galaxy 
+Tab 8.9 to students for advanced digital learning. [Online]. Available: 
+http://www.pinoytechblog.com/archives/la-salle-green-hills-deploys-s
+amsung-galaxy-tab-8-9-to-students-for-advanced-digital-learning 
+[6] 
+Journal Online. (October 2012). Youths Urged to Register for 2013 
+Elections. 
+[Online]. 
+Available: 
+http://www.journal.com.ph/index.php/news/national/39663-youths-ur
+ged-to-register-for-2013-elections. 
+[7] 
+J. Bertot, P. Jaeger, and J. Grimes “Using ICTs to create a culture of 
+transparency: E-government and social media as openness and 
+anti-corruption tools for societies,” Government Information Quarterly, 
+pp. 264-271, July 2010. 
+[8] 
+P. Evangelista. (May 2013). SLB uses technology for voters‟ education. 
+[Online]. 
+Available: 
+http://www.admu.edu.ph/news/features/slb-uses-technology-voters%
+E2%80%99-education. 
+[9] 
+E. Reyes. (April 2013). Comelec, Smart launch ‘e-Leksyon 2013′ 
+website, 
+mobile 
+app. 
+[Online]. 
+Available: 
+http://www.interaksyon.com/infotech/comelec-smart-launch-e-leksyo
+n-2013-website-mobile-app 
+[10] H. Hanafi and K. Samsudin, “Mobile learning environment system 
+(MLES): The case of Android-based learning application on 
+undergraduates‟ learning,” International Journal of Advanced 
+Computer Science and Applications, vol. 3, no. 3, April 2012. 
+[11] P. Campanella, “Mobile learning application for Android using web 
+service,” Informatica Economica, vol. 14, no. 3, pp. 106-115, March 
+2010. 
+[12] M. Shanmugapriyam and A. Tamilarasia, “Designing an m-learning 
+application for a ubiquitous learning environment in the Android based 
+mobile devices using web services,” Indian Journal of Computer 
+Science and Engineering, vol. 2, no. 1, pp. 21-30, 2012. 
+[13] R. Rogers, Learning Android Game Programming: A Hands-On Guide 
+to Building Your First Android Game, 1st ed. Chichester, U.S.A.: 
+Addison-Wesley, 2011, ch. 2, pp. 18-19. 
+[14] Ren‟Py. The Ren‟Py Documentation Page. [Online]. Available: 
+http://www.renpy.org/doc/html/android.html. 
+ 
+ 
+Nadia Rowena C. Leetian is a student taking up her 
+masters in computer science in the Ateneo de Manila 
+University. She graduated from her undergraduate course 
+of computer science with specialization in interactive 
+multimedia in 2012 in the same university. Her previous 
+summer work consisted of being a game programmer in a 
+Philippine 
+game 
+company 
+called 
+Inkstone who 
+developed a number of Facebook games.  
+ 
+ 
+Ma. Regina E. Estuar is a
+Ateneo de Manila University. She currently holds the 
+Executive Director post for the Ateneo Java Wireless 
+Competency 
+Center, 
+the 
+mobile 
+research 
+and 
+development lab of the Department of Information 
+Systems and Computer Science.  
+ 
+ 
+ 
+Michael B. Syson is both a teacher and a social 
+entrepreneur. He teaches Japanese Language and Culture 
+at the Ateneo de Manila University. On the side, he, 
+along with his team, develop and improve Usbong, an 
+open source platform that allows non-technical people to 
+digitize and streamline processes for use in assessments, 
+surveys, and even visual storytelling. He graduated with 
+a M.Sc. in Computer Science at the Ateneo de Manila 
+University. 
+ 
+ 
+International Journal of e-Education, e-Business, e-Management and e-Learning, Vol. 3, No. 5, October 2013
+364
+n associate professor at the 

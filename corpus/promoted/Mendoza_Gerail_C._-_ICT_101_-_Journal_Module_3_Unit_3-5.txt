@@ -1,0 +1,154 @@
+Mendoza, Gerail C.  
+ICT - 101 
+ 
+ 
+Module 3: Unit 3 
+ 
+1. A device manager serves as a central hub for managing and visualizing all installed hardware 
+components on a computer. Users can view a list of all installed devices, together with information 
+about their type, manufacturer, and status, as well as enable or disable them, update, or reinstall 
+their drivers, troubleshoot device issues, and uninstall any extra devices.  
+ 
+Both inexperienced and experienced computer users will find the device manager to be a 
+useful tool. It can be used to identify and resolve hardware issues, enhance performance, and 
+maintain equipment current. 
+ 
+2. Your ability to pinpoint the precise actions you must take to check your network connection and 
+configuration settings will depend on the sort of device you are using and its operating system.  
+ 
+Wi-Fi, a cellular network, or a wired network? You can troubleshoot any connection issues 
+by knowing the network type and its network name. The name of the network you are connected 
+to can be useful for troubleshooting. 
+ 
+3. False; you must use the Display settings to adjust the DPI of a display device. The 
+Personalization program allows users to customize desktop themes and appearance. 
+ 
+4.  Impact printers apply physical force to the paper to imprint an image. This can be accomplished 
+by striking an inked ribbon with a hammer or by striking the paper directly with pins. Physical 
+impact is not used by non-impact printers to imprint an image on the paper. Instead, they apply a 
+number of techniques, including heat, inkjets, and lasers, to transfer the ink or toner to the paper.  
+Heat is used by thermal printers to imprint an image on the paper. This can be accomplished by 
+burning tiny dots into the paper or melting a wax-based coating that is applied to it. Plotters are 
+specialty printers made for printing large-format documents like architectural plans and technical 
+drawings. Plotters utilize a range of tools, such as pens, pencils, and markers, to draw an image on 
+the paper. 
+ 
+5. These settings can be changed in the printer driver. A component of software called the printer 
+driver gives you control over the printer. Right-click on the printer icon in the Devices and Printers 
+pane and choose Printer settings to launch the printer driver. Click the Printing Preferences tab 
+after launching the printer driver. Here, you can adjust the print parameters for quality and page 
+order. 
+ 
+ 
+ 
+ 
+
+Module 3: Unit 4 
+ 
+1. System memory, commonly referred to as primary memory, is the short-term data storage used 
+by a computer's CPU. Because it is volatile, all information in system memory is lost when the 
+machine shuts down. Although system memory is incredibly quick, it is also relatively expensive 
+and has a little amount of space.  
+ 
+Data that is not actively being used by the CPU is permanently stored in mass storage, 
+commonly referred to as secondary storage. Data is kept even when the computer is shut off since 
+it is non-volatile. While mass storage is more expensive and has a bigger capacity, it is slower than 
+system memory. 
+ 
+2. System memory most often used is random-access memory (RAM). It is volatile, which means 
+that when the computer is powered down, the data in RAM is lost. Because RAM is so speedy, the 
+CPU can access data with ease and speed. The operating system, applications, and data that the 
+computer is now using are kept in RAM.  
+ 
+Read-only memory (ROM): Since ROM is non-volatile, the data stored inside is kept even 
+when the computer is powered down. Important system files like the BIOS and firmware are kept 
+in ROM. Additionally, information that must always be available is stored in ROM, such as the 
+BIOS's language preferences. In addition, unlike ROM memory, which cannot be overwritten, 
+RAM memory allows for unrestricted, limitless value changes. 
+ 
+3.  An SSD is the ideal option if you want the fastest and most reliable storage device. But the price 
+of SSDs is also higher than that of HDDs. An HDD is a more cost-effective choice if you require 
+a lot of storage space but are on a tight budget. The computer may use a portion of the hard drive 
+for storage if there is not enough space to store all of the programs and data files that are needed. 
+If the disk is slow, performance will suffer when the computer tries to load programs and data files 
+into memory (read operations) or write data from memory to files  system RAM (virtual memory) 
+augmentation.  
+ 
+4. External hard disk drives (HDDs): HDDs are common storage gadgets that keep data on 
+spinning platters. Solid-state external drives (SSDs): SSDs are more recent storage devices that 
+store data on flash memory chips. Optical discs: Large amounts of data can be stored on optical 
+discs like CDs, DVDs, and Blu-rays. Flash memory drives: Small, portable storage devices that 
+can be used to store files and data include USB flash drives and SD cards. You can store files and 
+data on distant servers using cloud storage, a sort of internet storage. Anywhere with an internet 
+connection can access cloud storage, which is incredibly practical. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Module 3: Unit 5 
+ 
+1. Compression - the file system has the ability to automatically minimize disk space the area 
+occupied by a file. Application of a non-lossy algorithm by the file system the file to identify ways 
+to store the data more efficiently within it without eliminating whatever details. 
+Encryption - Data in a file may be automatically encrypted by the file system when it is saved. 
+This signifies that access to the encryption key is required in order to open the file. 
+Permissions - Each file or folder object is kept up to date using an Access Control List (ACL) by 
+the file system. Which user accounts are permitted to view, write, or control the item are listed in 
+the ACL. 
+Journaling - The file system keeps a log of all intended and unintended changes. This means that 
+if there is an unexpected power outage and a specific write activity was halted, the journal could 
+be utilized to recover the data or at the very least return the file system to a stable condition. 
+Limitations - File systems have limitations in terms of their maximum capacity and the size of 
+individual files, as shown in the table below. 
+Naming rule - The maximum file name length for extremely old file systems was eight characters 
+plus a three-character extension. 
+ 
+2. FAT has a maximum field size of 4 GB, limited by partition size, limited to 255 users and for 
+security it has Basic access control lists (ACLs), supports a variety of file types, has faster on small 
+files and drives but has less reliable and its compatible with a wide range of operating systems. 
+While NTFS has 16 exabytes of file size (16 billion GB), it has also a same maximum of files as 
+FAT but has unlimited users and for its security it has Advanced ACLs, encryption, and auditing, 
+for its features, performance, reliability and compatibility it has Supports a wider range of file 
+types, including symbolic links and hard links, Faster on large files and drives, More reliable and 
+Compatible with Windows and some other operating systems. 
+ 
+3.  
+a.  
+.txt – Text File  
+b.  
+.doc(x) – Microsoft Word Document 
+c.  
+.pdf -  Portable Document Format (PDF) file 
+d.  
+.jpeg – Joint Photographic Experts Group (JPEG) image file 
+e.  
+.png – Portable Network Graphics (PNG) image file 
+f.  
+.gif – Graphics Interchange Format (GIF) image file  
+g.  
+.mp3 – MPEG-1 Audio Layer 3 (MP3) audio file 
+h.  
+.mp4 – MPEG-4 Part 14 (MP4) video file 
+j.  
+.avi – Audio Videp Interleave (AVI) video file 
+i.  
+.exe – Executable file 
+k.  
+.zip – ZIP archive file 
+ 
+4. I will Identify the user's specific needs, and I will probably use windows features like file 
+permission to configure it, and Encryption so that it cannot be read by unauthorized users.. A 
+
+password manager can help you create and manage strong passwords for all of your online 
+accounts. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,1175 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+12-1-2025 
+Health Workforce Issues and Recommended Practices in the 
+Health Workforce Issues and Recommended Practices in the 
+Implementation of Universal Health Coverage in the Philippines: A 
+Implementation of Universal Health Coverage in the Philippines: A 
+Qualitative Study 
+Qualitative Study 
+Veincent Christian Pepito 
+Ateneo de Manila University, vpepito@ateneo.edu 
+Arianna Maever Loreche 
+Ateneo School of Medicine and Public Health, aamit@ateneo.edu 
+Ruth Shane Legaspi 
+University of the Philippines Manila 
+Ryan Camado Guinaran 
+Benguet Provincial Government Unit 
+Theo Prudencio Juhani Z. Capeding 
+Ateneo de Manila University 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Health Services Administration Commons 
+Custom Citation 
+Custom Citation 
+Pepito, V.C.F., Loreche, A.M., Legaspi, R.S. et al. Health workforce issues and recommended practices in 
+the implementation of Universal Health Coverage in the Philippines: a qualitative study. Hum Resour 
+Health 23, 21 (2025). https://doi.org/10.1186/s12960-025-00988-3 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+Authors 
+Authors 
+Veincent Christian Pepito, Arianna Maever Loreche, Ruth Shane Legaspi, Ryan Camado Guinaran, Theo 
+Prudencio Juhani Z. Capeding, Madeline Mae A. Ong, and Manuel M. Dayrit 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/asmph-pubs/304 
+
+Pepito et al. Human Resources for Health           (2025) 23:21  
+https://doi.org/10.1186/s12960-025-00988-3
+RESEARCH
+Open Access
+© The Author(s) 2025. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which 
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the 
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or 
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line 
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory 
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this 
+licence, visit http://creativecommons.org/licenses/by/4.0/.
+Human Resources for Health
+Health workforce issues and recommended 
+practices in the implementation of Universal 
+Health Coverage in the Philippines: a qualitative 
+study
+Veincent Christian F. Pepito1*, Arianna Maever Loreche1,2,6, Ruth Shane Legaspi3, Ryan Camado Guinaran4,5, 
+Theo Prudencio Juhani Z. Capeding1, Madeline Mae Ong1 and Manuel M. Dayrit1 
+Abstract 
+Background  The transition towards Universal Health Coverage (UHC) in a devolved healthcare system such 
+as the Philippines is beset by health workforce issues considering that it is among the world’s leading source countries 
+for health workers. This study aims to document health workforce issues and recommended practices in the imple-
+mentation of UHC in the Philippines.
+Methods  We conducted focus group discussions and key informant interviews with health policymakers and UHC 
+implementers in the national, regional, and local levels. Participants included local chief executives, healthcare facility 
+administrators, and healthcare providers at tertiary, secondary, and primary levels, as well as patients. We transcribed 
+and translated the focus group discussions and key informant interviews and analyzed it thematically.
+Results  Workforce factors at entry, current employment, and exit hinder the implementation of UHC. Factors at entry 
+include: poor preparation of graduates in school for implementing UHC; difficulty in recruitment due to restrictive 
+government hiring policies; and government budget caps for personnel services. Factors at the current employment 
+include: poor working conditions; uncompetitive salaries; lack of trained personnel for financial management; exorbi-
+tant fees for trainings; lack of job security for nationally deployed personnel; and lack of integration of some barangay 
+health workers and community health volunteers. Factors at exit include the pull of migration overseas and poor crisis 
+management. Some recommended practices to recruit and retain health workforce include scholarships and return 
+service programs; free tuition for dependents of health workers; opportunities for postgraduate degrees and specialist 
+training overseas, and onboarding UHC training for new hires.
+Conclusions  To address the health workforce issues hindering the effective implementation of UHC in the Philip-
+pines, there is a need for reforms in the country’s healthcare sector and beyond. Specifically, there is a need to revisit 
+the country’s Local Government Code, integrate further health professions education institutions and healthcare 
+facilities, implement reforms in its basic, higher, and health education, and the civil service, revisit training costs, 
+and training programs for specialists, and design and implement more sustainable and equitable bilateral labor agree-
+ments to keep health workforce in the Philippines and engage them as partners for optimal implementation of UHC 
+in the country.
+Keywords  Health workforce, Universal health coverage, Devolution, Health education, Philippines
+*Correspondence:
+Veincent Christian F. Pepito
+vpepito@ateneo.edu
+Full list of author information is available at the end of the article
+
+Page 2 of 11
+Pepito et al. Human Resources for Health           (2025) 23:21 
+Introduction
+Health workers are an important building block of health 
+systems and are vital for the implementation of health 
+policies and programs [1]. Several studies have also dem-
+onstrated that sufficient health workers have been linked 
+to better population health outcomes [2, 3]. For this rea-
+son, the goal of health workforce program planning is 
+to get the right workers with the right skills in the right 
+place doing the right things [4]. The Sustainable Devel-
+opment Goals Target 3.c aims to substantially increase 
+the recruitment, development, training, and retention 
+of health workforce in developing countries [5]. Despite 
+this, many low- and middle-income countries around the 
+world lack health workers in terms of absolute counts, 
+which is further aggravated by maldistribution as they 
+more commonly practice in more urbanized areas [6]. 
+These shortages contribute directly and indirectly to 
+shortages in the capacity to provide health services 
+needed by the population. Health worker shortages pre-
+vent the attainment of Universal Health Coverage (UHC) 
+in many countries globally [2, 7].
+The Philippines has enacted its Universal Healthcare 
+Act (UHC Act) on 2019 with the goal of providing quality 
+healthcare at low cost [8]; however, the COVID-19 pan-
+demic has disrupted its implementation [9–11]. Further 
+aggravating the difficulty of implementing UHC in the 
+country is the emigration of nurses and other health-
+care professionals from the country to work overseas. 
+The Philippines is one of the largest source countries 
+of migrant healthcare workers, especially nurses, glob-
+ally for many years [12–14]. As of 2021, the Philippines 
+has only 7.92 physicians per 10,000 population, which 
+is below the 10 per 10,000 ideal physician to population 
+ratio [15]. The country is also estimated to have a short-
+age of 127,000 nurses, with more acute shortages in the 
+private sector [13]. These shortages prevent the optimal 
+implementation of health programs and prevent people 
+from accessing healthcare services in a timely manner.
+As countries transition towards UHC, it is vital to 
+assess whether there is an adequate number of health 
+workers with the right skills doing the right things at the 
+right place, and whether there is adequate regulation by 
+government and participation by private sector [4, 16]. 
+However, while there are previous studies describing bar-
+riers to implementing Universal Health Coverage in low- 
+and middle-income countries in general, there have been 
+limited studies specifically focusing on health workforce 
+issues in implementing UHC with data and perspec-
+tive from both national-level policymakers to local-level 
+implementers and patients in a devolved, health work-
+force source country like the Philippines [7, 13, 14, 17, 
+18]. Thus, this study aimed to describe and explore health 
+workforce issues hindering UHC implementation in the 
+Philippines and to document recommended practices for 
+improving health workforce recruitment and retention.
+Methodology
+Study design and study population
+This paper describes the health workforce issues and 
+recommended practices as part of a larger study of the 
+implementation issues of the UHC Act in the Philippines 
+using the six building blocks of health framework [1]. We 
+conducted key informant interviews (KIIs) and/or focus 
+group discussions (FGDs) with purposively selected key 
+health policymakers at the national and regional level, 
+local chief executives and implementers of the UHC Act 
+of select provinces and cities (e.g., mayors, governors, 
+provincial/municipal/city health officers, treasurers, 
+accountants), public and private health facility adminis-
+trators and healthcare providers (e.g., physician, nurse, 
+social workers, legal officers, medical laboratory scien-
+tists), community health workers and volunteers, and 
+patients.
+Study setting
+The Philippines is an archipelagic republic located 
+in Southeast Asia with an estimated population of 
+113,000,000 and an estimated life expectancy of 72.2 
+years in 2021 [19]. The country has a devolved health 
+system where the national government through the 
+Department of Health (DOH) is responsible for setting 
+health strategy and targets while the local governments 
+are responsible for financing and operating local health 
+systems, implementing health policies on the ground, 
+and providing health services to the population. The 
+country’s health system also has local and national gov-
+ernment-run and taxation-funded public health facilities 
+and a larger, market-oriented private sector. The country 
+is administratively divided into seventeen regions, which 
+are further subdivided into 81 provinces and 33 highly 
+urbanized cities [20].
+The local governments where most of the interviews 
+and focus group discussions were conducted are located 
+in a landlocked, mountainous highly urbanized city and 
+a contiguous province independently governed from it. 
+The province and the highly urbanized city have among 
+the highest human development indices in the Philip-
+pines. The province’s main industries are agriculture, 
+mining, and tourism. Meanwhile, the city is a regional 
+center of commerce, governance, education, and culture. 
+These local governments were selected for being imple-
+mentation sites of DOH programs on UHC.
+
+Page 3 of 11
+Pepito et al. Human Resources for Health           (2025) 23:21 
+	
+Data collection
+FGDs or KIIs were conducted either online (among 
+national level policymakers) and face-to-face (among 
+regional level policymakers, local chief executives and 
+implementers, public and private health facility admin-
+istrators and providers, community health workers and 
+volunteers, and patients). The FGDs/KIIs questions for all 
+study participants (except patients) focused on their goals 
+for UHC implementation, their roles in UHC implemen-
+tation, their approaches and strategies, the recommended 
+practices and operational challenges they have encoun-
+tered, and recommendations to improve the implemen-
+tation of UHC Act in the Philippines. For patients who 
+were all interviewed in health facilities during their visit, 
+the questions focused on what UHC is for them and what 
+can they recommend to improve healthcare services in 
+their community. The study tools were pretested to pri-
+mary care physicians and laypeople for clarity and ease 
+of use. The face-to-face FGDs/KIIs were conducted in 
+the offices and workplaces of the respondents or in their 
+health facilities. Online FGDs or KIIs lasted anywhere 
+between 45 min to 2 h, while face-to-face FGDs and KIIs 
+lasted anywhere between 1 and 4 h. FGDs and KIIs were 
+conducted between September 2023 to May 2024. All 
+FGD/KII proceedings were audio-recorded.
+Data management, analysis, and theoretical framework
+The audio recordings of the FGDs/KIIs were transcribed 
+verbatim in English or Filipino, the languages used in the 
+interviews. Personally-identifying information were then 
+redacted from the transcripts. The anonymized tran-
+scripts were analyzed thematically by VCP and reviewed 
+by the other co-authors to identify the entry, current 
+employment, and exit health workforce issues in the 
+implementation of UHC Act in the Philippines. Disagree-
+ments in the analysis were elevated to the senior author 
+(MMD) for resolution.
+The framework used for the thematic analysis is the 
+Entry-Current Employment-Exit framework of the 2006 
+World Health Report. Briefly, entry factors are factors 
+pertaining to education and training of human resources 
+for health before they join the workforce, as well as 
+recruitment. Current employment factors, on the other 
+hand, pertain to factors that affect performance and 
+productivity of the health workforce, including lifelong 
+learning, salaries and working conditions. Lastly, exit 
+factors are factors pertaining to managing migration, 
+retirement, and attrition [4]. This theoretical framework 
+was used both in the assessment of factors as well as the 
+assessment of recommended practices in recruitment 
+and retention of the health workforce.
+Reflexivity and positionality
+The author team is a mix of early career and senior 
+researchers with various levels of practical experience 
+in the health workforce and universal health coverage. 
+The early career researchers have conducted various 
+qualitative and quantitative studies on the health work-
+force, self-care, maternal and child health, COVID-19 
+vaccination, nutrition, and tuberculosis. Meanwhile, the 
+senior author (MMD) had occupied executive positions 
+in the Philippine Department of Health and the World 
+Health Organization, where he was Director of Human 
+Resources for Health, and has written many papers on 
+this issue. Four authors are physicians, two are trained 
+in public health and epidemiology, and one in the social 
+sciences. All researchers speak the languages used in 
+the focus group discussions and the interviews (English 
+and/or Filipino). All researchers are Filipinos based in 
+the Philippines, except for one (MMO) who is based in 
+Australia.
+Ethics
+The study has received ethics clearance from the 
+Ateneo 
+de 
+Manila 
+University 
+School 
+of 
+Medi-
+cine and Public Health Research Ethics Committee 
+(AdMUREC-ASMPH_23_URC-UHC).
+Results
+Description of study participants
+We conducted 17 FGDs with regional-level policymak-
+ers, local chief executives and implementers, public and 
+private health facility administrators and healthcare pro-
+viders, and community health workers and volunteers. 
+Five (29.4%) focus group discussions were conducted 
+with private health facilities. We also conducted 19 key 
+informant interviews with national-level policymakers, 
+local chief executives, public and private health facility 
+administrators, and patients. One (5.3%) interview was 
+conducted with the head of a private hospital network. 
+Overall, there are a total of 92 respondents; 69 (75.0%) of 
+respondents are females and 23 (25.0%) are males. All of 
+the respondents are more than 18 years old. Among our 
+respondents, 19 (20.7%) work as UHC implementers at 
+the national, regional, and local level, 28 (30.4%) are phy-
+sicians, 19 (20.7%) work as nurses, 10 (10.9%) work as 
+barangay health workers, two (2.2%) each work as den-
+tists, medical laboratory scientists, and information tech-
+nology personnel or clerk, one (1.1%) is a lawyer, and 10 
+(10.9%) are patients consulting for routine childhood vac-
+cination, hypertension, and/or other minor ailments.
+
+Page 4 of 11
+Pepito et al. Human Resources for Health           (2025) 23:21 
+Human resources issues in the implementation of the UHC 
+act
+Entry factors
+Poor preparation of graduates in school for implementing 
+UHC  Many healthcare providers have voiced out their 
+concerns that while their education prepared them for 
+clinical practice, training in soft skills and government 
+procedures and protocols were lacking. They felt that 
+this prevented them from bringing out the best in them 
+in implementing UHC in their communities (Quote H1, 
+Table 1).
+Lack of  specialists and  training hospitals outside  Metro 
+Manila  A facility administrator lamented that the spe-
+cialists and training hospitals are located in Metro Manila, 
+leaving Filipinos in the provinces unable to access special-
+ist care (Quote H2, Table 1).
+Government budget caps for  personnel services  A fre-
+quently mentioned barrier in implementing UHC in the 
+Philippines is the budget cap on personnel services or 
+salaries. This budget cap means that not more than 45% 
+of a local government unit’s annual budget is spent on 
+salaries of personnel. Because of this, the respondents 
+explained that it is difficult for them to recruit adequate 
+health workers and give them the appropriate salaries and 
+benefits (Quote H3, Table 1).
+Difficulty in  recruitment due to  restrictive government 
+hiring policies  Another reason mentioned why there is 
+a shortage of health workers in the public sector is the 
+stringent requirements for applicants in job vacancies, 
+which they deem as impractical. These requirements 
+lead to difficulties in recruiting health workers, includ-
+ing those who are not patient-facing (Quote H4, Table 1). 
+These difficulties mean that nurses who are supposed to 
+be dedicated to providing care to patients instead spend 
+their time doing records or information technology work 
+(Quote H5, Table 1).
+Current employment factors
+Poor working conditions  A respondent from the pub-
+lic sector said that while the salaries in the country are 
+relatively uncompetitive to what is offered overseas, what 
+really drives healthcare providers away from the coun-
+try are their poor working conditions here (Quote H6, 
+Table 1).
+Uncompetitive salaries in private sector relative to public 
+sector, and  public sector relative to  overseas  Respond-
+ents from the private sector lament that their salaries for 
+nurses cannot match the pay scale of government nurses, 
+adversely affecting retention. As a result, they have a per-
+ennial shortage of nurses (Quote H7, Table 1). Meanwhile, 
+respondents from government said that while the pay of 
+nurses have increased in the past few years, it is still no 
+match for salaries being offered overseas especially for 
+those who are highly trained, contributing to brain drain 
+(Quote H8, Table 1).
+Lack of  trained personnel for  financial manage-
+ment  Respondents from both providers and health 
+insurers revealed challenges related to the financial man-
+agement capacity of healthcare facilities and local govern-
+ment units. Participants discussed the lack of skilled per-
+sonnel to handle financial management tasks and the need 
+for capacity building in this area. A private tertiary care 
+facility administrator from an urban area mentioned that 
+“usually, the common cause of fraud on the provider side 
+is the lack of capacity among our people to handle these 
+kinds of tasks”. They also lamented issues in the quality 
+of trainings provided: “Instead of providing training that 
+teaches what to do, they just have us answer things online”.
+Exorbitant training fees  The UHC Act is a vital reform 
+of the country’s healthcare system and with this are many 
+new provisions and competencies needed to make it work. 
+Because of this, there are many new training programs 
+and capacity-building activities to train public and private 
+healthcare providers for the new provisions and compe-
+tencies needed. However, many of these trainings are not 
+for free and some have to be paid out of pocket. Repre-
+sentatives from the private sector perceive the exorbitant 
+training costs to be a disincentive towards further par-
+ticipating in UHC implementation (Quote H9, Table 1). 
+This was also raised by government personnel, who were 
+required to defray the training fees out of pocket. Because 
+nobody is willing to pay for these trainings and their asso-
+ciated costs (e.g., travel and accommodation, etc.), the 
+renewal of their facility’s license to operate is at risk of not 
+being renewed (Quote H10, Table 1).
+Lack of  job security for  nationally deployed person-
+nel  While commending that the DOH Deployment Pro-
+grams (e.g., Doctors to the Barrios, Nurse Deployment 
+Program, Public Health Associate Deployment Programs, 
+Post-residency Deployment Program) are vital in making 
+UHC work in their communities, local government imple-
+menters said that it would have been better if the deploy-
+ment programs are permanent because health workforce 
+investments are wasted when the contract of the deployed 
+personnel ends. (Quote H11, Table 1).
+Lack of  integration of  some barangay health workers 
+and  community health volunteers  When we con-
+ducted focus group discussions with barangay health 
+
+Page 5 of 11
+Pepito et al. Human Resources for Health           (2025) 23:21 
+	
+Table 1  Illustrative quotes on health workforce issues in implementing UHC in the Philippines
+Quote ID Issue
+Quotation
+H1
+Poor preparation of graduates 
+in school for implementing UHC
+“I finished my MD from (school redacted), one of the best in the country. But when I worked here, it’s 
+an entirely different ballgame. We weren’t trained how to deal with the local administration and pro-
+curement, how to talk to local chief executives. I wasn’t prepared nor trained for this but this is how we 
+make things happen.”
+- Municipal health officer from a rural, geographically-isolated and disadvantaged area
+H2
+Lack of specialists and training 
+opportunities outside Metro 
+Manila
+“If we really want Universal Healthcare, they should prioritize areas where the specialists are not con-
+centrated like NCR. They should look at the bigger level. For example, here, we only have two cardiolo-
+gists and no cardiac surgeons. So, I hope if there are TCVS (Thoracic and Cardiovascular Surgery fellow-
+ship vacancy) in Manila, if there are applicants, I wish, I hope they can prioritize applicants from other 
+areas.”
+- Administrator of a public tertiary facility in an urban area
+H3
+Government budget caps for per-
+sonnel services
+“The 45% cap on personnel services really prevents us from hiring additional human resources. That’s 
+the main reason why you see a ward nurse being assigned as the public health nurse. You see a com-
+munity nurse being assigned as a records officer. That’s an extra job but there’s no extra compensation. 
+If you notice, the health programs are not implemented properly because the program officers are 
+working on many programs simultaneously. To be fair, I have heard that this cap is waived for UHC 
+implementation, but I am not sure. I do not want to go to jail for it.”
+- Provincial level implementer from the public sector
+H4
+Difficulty in recruitment due 
+to restrictive government hiring 
+policies
+“We have many job vacancies but it is hard to fill them. Government policy states that for certain posi-
+tions, you can only hire those who have civil service eligibility. Not many people have that but I think 
+there are many people who do not have civil service eligibility out there who can actually do the job. 
+And then you have some vacancies for positions like records officers or program managers. They are 
+looking for registered nurses for that vacancy. I mean, you do not have to be a nurse or have a PRC 
+(Professional Regulations Commission) license to manage a health facility’s records or implement 
+government programs. In fact, it is probably better if these people are not trained healthcare providers 
+so that those who are trained in giving healthcare services can stick to providing care to patients. 
+There is probably a need to revisit the eligibility requirements for vacancy positions in government.”
+- Provincial level implementer from the public sector
+H5
+Difficulty in recruitment due 
+to restrictive government hiring 
+policies
+“The DOH has many (requirements) that are difficult to provide. Especially for manpower. We need 
+a records officer, Information Technology administrator, but what happens is the nurse is the admin-
+istrator, she is also in the records. So, the nurse is also the IT that should be designated just to meet 
+the criteria.”
+- Public primary care provider from an urban area
+H6
+Poor working conditions
+“You need an enabling environment, safe workspace, engaging them for something to make their 
+workplace positive so that they will stay and the key there is the leader. Because if they are demo-
+tivated because of something and you ignore it, they will really leave. It’s not all about the money. I 
+have interviewed some of them, why are you here in (office redacted)? There is more money in clini-
+cal. (They said), even if there is more money in clinical, you end up with mental health issues there 
+because of the job, the supervisor, etc.”
+- Administrator of a public tertiary facility in an urban area
+H7
+Uncompetitive salaries in private 
+sector relative to public sec-
+tor, and public sector relative 
+to overseas
+“The problem with us here is that we will not be able to compete with (the salaries offered by) govern-
+ment. Especially with the salary. The entry level salary of our nurses here is just half of the entry level 
+salary of government nurses.”
+- Administration of a private tertiary facility from an urban area
+H8
+Uncompetitive salaries in private 
+sector relative to public sec-
+tor, and public sector relative 
+to overseas
+“The nurses we lost are our best nurses. It is painful that the trained ones are the ones who leave. 
+The ones left with us are either the new ones or are very old, because their salary (overseas) is five 
+times what we pay here.”
+- Administrator of a public tertiary facility in an urban area
+H9
+Exorbitant fees for trainings
+“For example, our medical records officer is currently in Manila undergoing training in data recording 
+as part of DOH accreditation. And we’ve spent a lot. We’ve spent a lot. In our setting, we started May 
+of this year (2023), as a primary care facility, we have already spent PHP 50,000 (~ USD 1,000) for train-
+ings alone. Yes, the DOH is asking us to pay, and yet what we earned from primary care is barely PHP 
+2,000 (~ USD 40). These are actual data; we can show you the documents. They haven’t paid us for our 
+previous (Konsulta) check-ups. We understand that there are processes, but realistically, how are we 
+going to survive? Our stakeholders are questioning the wisdom of helping (in) Universal Healthcare.”
+- Administrator of a private primary care facility in an urban area
+H10
+Exorbitant fees for trainings
+“And the training of the records officer, that is out of pocket, and she has to travel to Manila 
+for that and spend PHP 20,000 (~ USD 400) just for training fees. And nobody wants to spend 
+that much money so the renewal (of our license to operate) is still pending.”
+- Public primary care provider in an urban area
+
+Page 6 of 11
+Pepito et al. Human Resources for Health           (2025) 23:21 
+workers and other community health volunteers, some 
+said that because their local government actively pur-
+sues capitation for Konsulta and Konsulta + (compre-
+hensive outpatient primary care benefit packages), it 
+is their job to promote these initiatives, go around the 
+community and organize events to encourage people to 
+register in Konsulta. Meanwhile, barangay health work-
+ers from other rural local governments said that they 
+did not have any new responsibilities “since encourag-
+ing people to get COVID-19 vaccines”.
+Exit factors
+Poor crisis management  A national level implementer 
+said that recent issues regarding their agency resulted in 
+the brain drain of people who are supposed to develop 
+policies, affecting service delivery (Quote H12, Table 1).
+Pull of  migration overseas  Another frequently men-
+tioned issue in implementing UHC in the Philippines 
+is a chronic, generalized shortage of healthcare work-
+ers across all cadres, mainly due to outmigration. In 
+the words of a respondent from the public sector, it is 
+a chronic and universal problem (Quote H13, Table 1).
+Recommended practices in recruiting and retaining health 
+workers for UHC implementation
+Recommended practices for entry
+One of the private facilities in the study discussed that 
+while they cannot match the salary offered by govern-
+ment, they do not have difficulty hiring nurses because 
+they offer scholarship programs for nursing students who 
+then have return service obligations. This ensures that 
+they have sufficient nurses (Quote B1, Table 2). Another 
+way private facilities encourage retention is by having 
+nonmonetary benefits like scholarship programs for the 
+children of health workers and their other dependents 
+(Quote B2 and B3, Table  2). There are also opportuni-
+ties for professional development, like free tuition fee for 
+graduate programs (Quote B4, Table 2).
+To address the lack of opportunities for specialist train-
+ing, government facilities organize scholarships for their 
+personnel to train in other countries, in return for return 
+service in the Philippines (Quote B5, Table 2).
+Recommended practice for current employment
+Beyond recruitment and retention, another recom-
+mended practice for UHC implementation among gov-
+ernment facilities is training current hospital personnel 
+about UHC and embedding UHC in onboarding train-
+ing for newly hired personnel to make sure that they are 
+aware of it and so that they can promote it among their 
+patients and clients (Quote B6, Table 2).
+Discussion
+Workforce factors at entry, current employment, and 
+exit hinder the implementation of UHC. Factors at 
+entry include: poor preparation of graduates in school 
+for implementing UHC; difficulty in recruitment due to 
+restrictive government hiring policies; and government 
+budget caps for personnel services. Factors at current 
+employment include: poor working conditions; uncom-
+petitive salaries; lack of trained personnel for financial 
+management; exorbitant fees for trainings; lack of job 
+security for nationally deployed personnel; and lack of 
+integration of some barangay health workers and com-
+munity health volunteers. Factors at exit include the pull 
+of migration overseas and poor crisis management. These 
+entry, current employment, and exit factors hinder the 
+optimal implementation of UHC in the Philippines. Some 
+of these have been previously described in literature [4, 7, 
+14, 17, 21, 22], but other factors like exorbitant training 
+fees, lack of trained personnel for financial management; 
+Table 1  (continued)
+Quote ID Issue
+Quotation
+H11
+Lack of job security for nationally 
+deployed personnel
+“Look, the nurses deployed in the NDP (Nurses Deployment Program) have been great in helping us 
+with our health programs. However, her contract ends in a few month’s time. Thus, it will be a waste 
+to send her to trainings considering that it is unsure if her contract will be renewed or that she will be 
+hired again. We cannot send anybody else in the office. If only the contract of the NDPs are longer, we 
+will not have this issue. It would also be nice because they will have benefits if they stay longer.”
+- Administrator of a public primary care facility in an urban area
+H12
+Poor crisis management
+“There is a brain-drain in (agency redacted) due to recent scandals, (agency redacted) is getting pillo-
+ried (in the media and in the public), the effect to the organization is severe, and there are many policy 
+developers before, they are gone now.”
+- National level implementer from the public sector
+H13
+Pull of migration overseas
+“That’s a chronic problem. It’s (a) universal problem. Because, oh my God, medical or nursing staff, 
+it is a problem. In our facility, we need specialists. That is why we send (our staff) abroad for fellow-
+ship because there are no offers here. And then our nurses, very big problem. Once they serve here 
+for a year, they really go abroad.”
+- Administrator of a public tertiary facility in an urban area
+
+Page 7 of 11
+Pepito et al. Human Resources for Health           (2025) 23:21 
+	
+the lack of engagement of community health workers, 
+difficulty in looking for eligible candidates for vacancies, 
+the need for health education system reform, and the 
+temporary nature of deployment programs are some of 
+the new barriers to UHC implementation that were iden-
+tified in this study. This study also identified some recom-
+mended practices for health workers in implementing 
+UHC in the Philippines which can be used by other facili-
+ties in the country and other low- and middle-income 
+countries transitioning towards UHC.
+One of the recommended practices to address the 
+shortages of health workers in the Philippines are schol-
+arships and return service agreements [23]; however, not 
+many institutions are able to implement these properly, 
+mainly because there is sometimes a lack of placement 
+opportunities for graduates [24]. As an intervention, 
+scholarships and return service agreements only work 
+if the graduates have a guaranteed job placement once 
+they graduate. Therefore, there is a need for greater 
+integration between healthcare facilities and academic 
+institutions not just to address health workforce short-
+ages, but also to improve population health outcomes 
+and foster economic development, as demonstrated by 
+experiences in Brazil, Thailand, and Venezuela [25].
+The implementation of the UHC will be optimized if 
+the health workforce implementing it have the perspec-
+tive and technical acumen necessary to implement it [26, 
+27]. Because of the curative orientation of traditional 
+medical and health education curricula [26], primary 
+care workers often do not have the necessary competen-
+cies for their job, such as dealing with other stakehold-
+ers in government and the private sector, conducting 
+population health assessments, and implementing popu-
+lation health programs [28]. The curative orientation of 
+traditional medical and health education curricula had 
+also resulted in an inefficient healthcare system where 
+patients go directly to specialists for things that are 
+supposed to be managed at the primary care level [29]. 
+Innovative medical curricula, both in Africa and in the 
+Philippines, have been implemented to address this 
+Table 2  Illustrative quotes on recommended practices for recruiting and retaining health workers in implementing UHC in the 
+Philippines
+Quote ID Recommended practice
+Quotation
+B1
+Scholarship and return service program “Then we also have scholarship programs right now. This is primarily for nursing students. If we 
+have, say, one student, he/she took up nursing as a scholar, because our nursing program is four 
+years, then he/she should serve in our hospital for four years. One (year of scholarship)-is-to-one 
+(year of return service). He/she cannot resign but he/she has a salary. We are guaranteed to have 
+five nurses every year. This is a full scholarship. Many applicants try to avail of the said scholarship. 
+This is our way of having, ensuring that we have enough nurses in the future.”
+- Private tertiary facility administrator from an urban area
+B2
+Free tuition for dependents
+“The good thing with us is we are backed up by the university. If you are working with us, even 
+if you have 10 children, you do not have to pay for their tuition until college. You only have to be 
+regular. After the five probationary months once you become regular, even if you have 10 children, 
+from grade school until college, they have free tuition.”
+- Private tertiary facility administrator from an urban area
+B3
+Free tuition for dependents
+“And you, if you do not have a child, you can assign a relative (child) to avail of the educational 
+benefit, if you are unmarried and childless.”
+- Private tertiary facility administrator from an urban area
+B4
+Free tuition for postgraduate degrees
+“Also, we have professional development opportunities. If you are an employee here and you want 
+to take your master’s (degree), that’s free.”
+- Private tertiary facility administrator from an urban area
+B5
+Specialist training overseas
+“We send many of our staff for fellowship overseas because there are no opportunities here. 
+For example, for liver cancer, our surgeons, we bring them to Korea or India. For our intensiv-
+ists, who is part of the multidisciplinary transplant team, right? So, we send them to Singapore, 
+the other one is in Thailand for diagnostic pathology. They are spread out. It’s just that we are 
+counting the years when they will come back. And then they have a contract. They have to return.”
+- Administrator of a public tertiary facility in an urban area
+B6
+Training of personnel on UHC 
+and embedding it in onboarding 
+meetings
+“You will see in our documentation that (as early as) 2020, we have already been talking 
+about UHC. Now, it is difficult because they have a different understanding about it and it is dif-
+ficult to talk to the clients about UHC if you yourself do not know what it is. That is what we 
+targeted; we want to make sure that our personnel know about UHC. We have evaluation, post-
+evaluation to make sure that they understood. At first, only 50% had a good grasp (of UHC). We 
+did it virtually (because of the pandemic). Then we instituted it among the new hires. When you 
+are newly hired (in our facility), you have an orientation which includes Universal Health Coverage. 
+It is an ongoing, continuous process so that all our employees will eventually be aware of the UHC 
+Act. What is the UHC Act, they already know what that is.”
+- Administrator of a public tertiary facility in an urban area
+
+Page 8 of 11
+Pepito et al. Human Resources for Health           (2025) 23:21 
+problem, but these curricula are exceptions, rather than 
+the norm, and there have been perceptions that they 
+produce graduates who are deficient in clinical skills 
+[26, 30, 31]. Therefore, aligning education with the 
+realities of UHC implementation necessitates broader 
+changes. Some suggested reforms include a separate, spe-
+cific training program for primary care [32], additional 
+social science, public health, leadership and management 
+courses for healthcare degree programs, and early pro-
+longed exposure to the community [33]. Beyond primary 
+care, there is also a need for medical specialty societies 
+to consider equity issues in the establishment of specialty 
+training programs and the recruitment of specialists for 
+training. There is also a need to develop a scheme to 
+ensure that applicants for specialist training from outside 
+highly-urbanized areas can also get specialist training, 
+which will help address the maldistribution of specialists 
+in the country [34, 35]. There may also be a need for phy-
+sicians in rural areas to be provided adequate avenues for 
+professional development and career growth opportuni-
+ties to encourage retention [36].
+The problem goes beyond education of healthcare 
+workers, as there is also difficulty in filling-up nonpa-
+tient facing health workforce vacancies. Respondents 
+attribute this to the civil service eligibility requirement, 
+which is often a requirement of many advertised gov-
+ernment positions. However, less than 20% of civil ser-
+vice examinees every year pass this examination, which 
+makes advertised positions with these eligibility require-
+ments difficult to fill [37]. On one hand, this can be rem-
+edied by waiving these eligibility requirements as long as 
+applicants meet other hiring criteria, but there is a more 
+recent move to grant career service eligibility to long-
+time, well-performing contract of service government 
+employees [38]. In summary, implementing UHC opti-
+mally may require general and health education and civil 
+service reforms.
+Despite allowing for a greater amount of decision 
+space and empowerment of local governments than sev-
+eral countries in Africa [39, 40], the Philippines’s Local 
+Government Code, which devolved healthcare provi-
+sion to local governments [18, 41, 42], acts to adversely 
+affect the implementation of health worker recruitment 
+and retention practices for UHC in two ways: (a) the 
+lack of flexibility which prevents the hiring of adequate 
+health workforce to implement UHC; and (b) inequi-
+ties in the level of implementation of UHC. Accord-
+ing to the Local Government Code, personnel services 
+and salaries are capped at 45% for first to third income 
+class local governments, and 55% for lower income 
+class local governments [40], which, in the opinion of 
+UHC implementers, prevent them from confidently and 
+properly fulfilling their role in implementing UHC. This 
+cap has been waived by a more recent local budget cir-
+cular to ensure that local governments absorb cost of 
+hospital services transferred from provinces to newly 
+created cities, salaries and benefits of health/medi-
+cal personnel that may be hired to perform functions 
+related to emergency situations, and pay salary differ-
+entials of local government-hired public health work-
+ers, among others [43]. However, there is a gray area in 
+the circular as workers necessary to implement UHC 
+do not necessarily fall under the provisions stipulated 
+in the circular. This explains the reluctance of local gov-
+ernment implementers to go beyond the budget cap 
+and hire additional personnel for UHC implementa-
+tion. Another consequence of devolution of healthcare 
+services is the uneven implementation of UHC in the 
+country as some local governments may choose not to 
+prioritize health [44]. Previous studies have demon-
+strated that devolution has not improved health out-
+comes in the country and further contributed to health 
+inequities [18, 41]. In our study, this manifested in the 
+different level of engagements of community health 
+workers as some local governments have implemented 
+more UHC reforms (e.g., Konsulta and Konsulta +) 
+than others [45, 46]. These experiences serve as a cau-
+tionary tale for other countries to study the unintended 
+consequences of their current policies and their effects 
+on UHC implementation. These findings also highlight 
+the need to revisit and amend the Local Government 
+Code to allow for flexibility in the different stages of 
+implementing UHC and to ensure local governments 
+implement the provisions of UHC despite devolution or 
+through making devolution work [41, 44]. Lastly, there 
+is a need to improve the monitoring of UHC impact 
+measures, such as out of pocket spending and quality of 
+care (which is closely tied to health workforce availabil-
+ity) among local governments to enable them to situate 
+themselves as they transition towards universal health 
+coverage [11, 47].
+The Local Government Code also devolved the hiring 
+of health workers to local governments [40]. However, 
+because local governments do not or have not had the 
+financial resources to hire sufficient numbers of health 
+workers, the DOH instituted many deployment pro-
+grams as a stop-gap solution to address these shortages 
+[48]. These deployment programs are well appreciated 
+by our UHC implementer respondents and in previ-
+ous literature [6, 48], but these are not sustainable. 
+Together with the Department of Interior and Local 
+Government, the Department of Health should require 
+local governments to come up with a long-term plan to 
+develop and fund sufficient health workers there as a 
+condition for receiving DOH deployed personnel, and 
+see to it that these plans are implemented [49]. As the 
+
+Page 9 of 11
+Pepito et al. Human Resources for Health           (2025) 23:21 
+	
+literature is unanimous that retention in rural and less 
+urbanized areas is best for rural-born physicians [36, 
+50], this may include the establishment of local medical 
+schools and training hospitals.
+The implementing rules and regulations (IRR) of the 
+country’s UHC Act decreed many new reforms, which 
+necessitates capacity-building activities [51]. Although 
+some of these capacity-building activities are made free 
+by the DOH, there are some expensive trainings neces-
+sary for accreditation and licensing which were consid-
+ered as a barrier to UHC implementation. Many study 
+participants from both public and private facilities are 
+reluctant to pay out of pocket for these trainings. Some 
+participants also reported issues with the quality of these 
+trainings. It is recommended to revisit these trainings 
+and these training requirements, whether they can be 
+improved, done online and/or for free or be optional; or 
+if there can be subsidies or grants from the government 
+and/or private sector to ensure that health workers from 
+both public and private facilities can partake in these 
+capacity-building activities without adversely affecting 
+their or their facility’s financial standing.
+Overseas migration of Filipino health workforce is well-
+documented in literature [12, 13, 21]. Although health 
+workers have the right to migrate to other countries to 
+improve their living standards, it results in a dearth of 
+health workers in source countries, such as the Philip-
+pines, which leaves them with a shortage of health pro-
+fessionals to implement universal health coverage [52]. 
+With the objective of protecting migrant health work-
+ers, the Philippine government has entered into bilateral 
+labor arrangements with other countries such as United 
+Kingdom, Spain, Norway, Japan, among other countries. 
+However, these bilateral labor arrangements were seen 
+as having limited effectiveness, or is unfair to the Phil-
+ippines as it facilitates outmigration without regard for 
+the sustainability of the Philippines’s health system [21, 
+53]. We therefore recommend that the foreign policy of 
+health workforce source countries consider their local 
+levels of implementation of universal health coverage as 
+a key consideration in the design and implementation of 
+bilateral labor agreements. This necessitates health work-
+force source countries to use diplomacy to create bilat-
+eral labor arrangements with destination countries that 
+are more equitable and sustainable to ensure that they 
+have sufficient health workforce to implement univer-
+sal health coverage through capacity building, migration 
+caps, health system investments, and technology transfer 
+to benefit source countries as well [53, 54].
+Limitations
+Our fieldwork only involved a dyad of a province and a 
+highly urbanized city in the Philippines, which should be 
+considered when generalizing the findings of this study. 
+This means that health workforce factors that affect 
+UHC implementation in conflict-prone or island areas 
+are not documented yet, and could be pursued in future 
+research. The study also did not touch on the issue of cor-
+ruption in health workforce recruitment and retention 
+as it was not mentioned as an issue by our respondents, 
+even if previous studies have documented it [55, 56]. We 
+were also unable to describe here private health work-
+force sector issues as described by the health labor mar-
+ket framework for universal health coverage, as it was 
+beyond the scope of this article [16, 57]. Lastly, the possi-
+bility of social desirability bias cannot be discounted [58]. 
+The short-term outcomes and long-term impacts of these 
+recommended practices are also not formally evaluated 
+yet. Further research may be conducted to assess the 
+impacts of these recommended practices.
+Conclusion
+The implementation of UHC in the Philippines is 
+affected by entry, current employment, and exit factors. 
+To help address these issues, we have also identified 
+some best practices such as scholarships and return ser-
+vice programs, free tuition for dependents, free tuition 
+for postgraduate degrees, specialist training overseas, 
+and training of personnel on UHC and embedding it in 
+onboarding meetings for new hires. However, to make 
+UHC work, there is a need for reforms going beyond the 
+health sector. Our study highlights the need to revisit the 
+Local Government Code, integrate further health profes-
+sions education institutions and healthcare facilities, and 
+implement reforms on education, health education, and 
+civil service sectors. There is also a need to have an equity 
+perspective in implementing reforms, specifically, revisit-
+ing training costs so it is not discriminatory against pub-
+lic and private healthcare facilities and their employees 
+who do not have the means of availing it. There is also a 
+need to revisit the distribution of specialist training facil-
+ities and the selection of specialist physician trainees to 
+address the maldistribution of specialists in the country. 
+Lastly, there is a need to develop and implement bilat-
+eral labor agreements with health workforce destination 
+countries that is more sustainable and equitable towards 
+source countries. These reforms will hopefully help keep 
+health workers in the Philippines to help in the imple-
+mentation of UHC in the country.
+Acknowledgements
+We thank our respondents for sharing their time and insights to improve the 
+implementation of UHC in the Philippines. This paper was presented orally in 
+
+Page 10 of 11
+Pepito et al. Human Resources for Health           (2025) 23:21 
+the 55 th Asia Pacific Academic Consortium for Public Health Conference at 
+Busan, South Korea on October 23–25, 2024.
+Author contribution
+VCFP, AML, RCG, and MMD conceptualized and designed the study. VCFP, 
+AML, RSL, RCG, and MMD collected the data. VCFP, AML, RSL, MMO, and TPJC 
+analysed the data. VCFP wrote the first draft of the manuscript. AML, RSL, RCG, 
+MMO, TPJC, and MMD gave feedback and revised the manuscript. All authors 
+read and approved the final manuscript.
+Funding
+This work was funded by Ateneo de Manila University (Grant no.: 2023-11).
+Data availability
+Anonymized data is available from the corresponding author on reasonable 
+request.
+Declarations
+Competing interests
+VCFP, AMLA, and MMD have received grants from Sanofi Consumer Healthcare 
+to conduct research on self-care. They have also received grants from the 
+International Initiative for Impact Evaluation to write a proposal to assess the 
+effectiveness of benefit packages of the Philippine Health Insurance Corpora-
+tion. They have also received writing grants from the Zuellig Family Founda-
+tion to write manuscripts on health systems strengthening.
+Author details
+1 Health Governance Flagship Program, Center for Research and Innovation, 
+School of Medicine and Public Health, Ateneo de Manila University, 1604 Pasig 
+City, Philippines. 2 National Clinical Trials and Translation Center, National 
+Institutes of Health, University of the Philippines Manila, Manila, Philip-
+pines. 3 Department of Social Sciences, University of the Philippines Manila, 
+Manila, Philippines. 4 Provincial Government of Benguet, La Trinidad, Benguet, 
+Philippines. 5 Benguet State University Open University, La Trinidad, Benguet, 
+Philippines. 6 Ateneo Policy Center, School of Government, Ateneo de Manila 
+University, Quezon City, Philippines. 
+Received: 27 November 2024   Accepted: 10 April 2025
+References
+	1.	
+World Health Organization. Monitoring the building blocks of health 
+systems: a handbook of indicators and their measurement strategies 
+[Internet]. Geneva: World Health Organization; 2010 [cited 2024 Apr 11]. 
+Available from: https://​iris.​who.​int/​handle/​10665/​258734
+	2.	
+Haakenstad A, Irvine CMS, Knight M, Bintz C, Aravkin AY, Zheng P, et al. 
+Measuring the availability of human resources for health and its relation-
+ship to universal health coverage for 204 countries and territories from 
+1990 to 2019: a systematic analysis for the Global Burden of Disease 
+Study 2019. Lancet. 2022;399(10341):2129–54.
+	3.	
+Campbell J, Buchan J, Cometto G, David B, Dussault G, Fogstad H, 
+et al. Human resources for health and universal health coverage: 
+fostering equity and effective coverage. Bull World Health Organ. 
+2013;91(11):853–63.
+	4.	
+World Health Organization. The world health report : 2006 : working 
+together for health. Rapport sur la situation dans le monde : 2006 : travail-
+ler ensemble pour la santé [Internet]. 2006 [cited 2024 Sep 29]; Available 
+from: https://​iris.​who.​int/​handle/​10665/​43432
+	5.	
+SDG Target 3.c | Health workforce: Substantially increase health financing 
+and the recruitment, development, training and retention of the health 
+workforce in developing countries, especially in least developed coun-
+tries and small island developing States [Internet]. [cited 2024 Apr 12]. 
+Available from: https://​www.​who.​int/​data/​gho/​data/​themes/​topics/​indic​
+ator-​groups/​indic​ator-​group-​detai​ls/​GHO/​sdg-​target-​3.c-​health-​workf​
+orce
+	6.	
+Flores ELL, Manahan EMR, Lacanilao MPB, Ladaw IMaBT, Mallillin MMB, 
+Mappatao NTQ, et al. Factors affecting retention in the Philippine 
+National Rural Physician Deployment Program from 2012 to 2019: a 
+mixed methods study. BMC Health Serv Res. 2021;21(1):1201.
+	7.	
+Darrudi A, Khoonsari MHK, Tajvar M. Challenges to achieving universal 
+health coverage throughout the world: a systematic review. J Prev Med 
+Public Health. 2022;55(2):125–33.
+	8.	
+Bautista MCG, Acacio-Claro PJ, Mendoza NB, Pulmano C, Estuar MRJ, 
+Dayrit MM, et al. The 2019 Philippine UHC act, pandemic management 
+and implementation implications in a post-COVID-19 world: a content 
+analysis. Int J Environ Res Public Health. 2022;19(15):9567.
+	9.	
+Department of Health (Philippines). Universal Healthcare Act [Internet]. 
+2023 [cited 2023 Mar 5]. Available from: https://​doh.​gov.​ph/​uhc
+	10.	 Jaminola LI, Negre JM, Pepito VCF, Loreche AM, Dayrit MM. The policy 
+environment of self-care: a case study of the Philippines. Health Policy 
+Plan. 2023;38(2):205–17.
+	11.	 Escano-Arias EA, Abarquez RADG, Cruz RV, Espeleta R, Ong MM, Loreche 
+AM, et al. Strengthening local health systems and governance for 
+Universal Health Coverage: experiences and lessons from the COVID-
+19 pandemic response in Quezon City Philippines. Health Policy Plan. 
+2025;2:9.
+	12.	 Lorenzo FME, Galvez-Tan J, Icamina K, Javier L. Nurse migration from a 
+source country perspective: Philippine country case study. Health Serv 
+Res. 2007;42(3 Pt 2):1406–18.
+	13.	 Alibudbud R. Addressing the Burnout and Shortage of Nurses in the 
+Philippines. SAGE Open Nurs. 2023;13(9):23779608231195736.
+	14.	 Alibudbud R. When the “heroes” “don’t feel cared for”: The migration and 
+resignation of Philippine nurses amidst the COVID-19 pandemic. J Glob 
+Health. 2:3011.
+	15.	 World Health Organization. Philippines Country Profile | National Health 
+Workforce Accounts Web Portal [Internet]. 2023 [cited 2024 Apr 12]. Avail-
+able from: https://​apps.​who.​int/​nhwap​ortal/
+	16.	 World Health Organization. Global strategy on human resources for 
+health: workforce 2030 [Internet]. Geneva: World Health Organization; 
+2016 [cited 2025 Feb 27]. 64 p. Available from: https://​iris.​who.​int/​handle/​
+10665/​250368
+	17.	 Reich MR, Harris J, Ikegami N, Maeda A, Cashin C, Araujo EC, et al. Moving 
+towards universal health coverage: lessons from 11 country studies. 
+Lancet. 2016;387(10020):811–6.
+	18.	 Cuenca JS. Health devolution in the Philippines: lessons and insights. 
+Philippine Institute of Development Studies. 2020;2018–36.
+	19.	 GBD 2021 Demographics Collaborators. Global age-sex-specific mortality, 
+life expectancy, and population estimates in 204 countries and territories 
+and 811 subnational locations, 1950–2021, and the impact of the COVID-
+19 pandemic: a comprehensive demographic analysis for the Global 
+Burden of Disease Study 2021. Lancet. 2024;403(10440):1989–2056.
+	20.	 Dayrit M, Lagrada L, Picazo O, Pons M, Villaverde M. The Philippines health 
+system review [Internet]. World Health Organization Regional Office 
+for Southeast Asia; 2018 [cited 2020 Aug 28]. 352 p. (Health Systems in 
+Transition; vol. 8). Available from: https://​apps.​who.​int/​iris/​handle/​10665/​
+274579
+	21.	 Castro-Palaganas E, Spitzer DL, Kabamalan MMM, Sanchez MC, Caricativo 
+R, Runnels V, et al. An examination of the causes, consequences, and 
+policy responses to the migration of highly trained health personnel from 
+the Philippines: the high cost of living/leaving—a mixed method study. 
+Hum Resour Health. 2017;15(1):25.
+	22.	 Aytona MG, Politico MR, McManus L, Ronquillo K, Okech M. Determining 
+staffing standards for primary care services using workload indicators of 
+staffing needs in the Philippines. Hum Resour Health. 2022;19(1):129.
+	23.	 Capeding TPJZ, Zarsuelo MAM, Mendoza MAF, Estacio LR, Silva MEC. 
+Return service agreement in the context of the universal health care act: 
+using international and local experiences to guide application of the RSA. 
+Acta Med Philipp. 2020;54(6):751–9.
+	24.	 Guevarra JP, Medina PVN, Avelino MD, Cengca MRAM, Ting MAL, Agbon 
+AG, et al. Perception of program administrators and student representa-
+tives on the implementation of return service agreement in selected 
+institutions in the Philippines. Acta Med Philipp. 2020;54(3):289–95.
+	25.	 Celletti F, Reynolds TA, Wright A, Stoertz A, Dayrit M. Educating a new 
+generation of doctors to improve the health of populations in low- and 
+middle-income countries. PLoS Med. 2011;8(10): e1001108.
+	26.	 Squires N, Colville SE, Chalkidou K, Ebrahim S. Medical training for univer-
+sal health coverage: a review of Cuba-South Africa collaboration. Hum 
+Resour Health. 2020;18(1):12.
+
+Page 11 of 11
+Pepito et al. Human Resources for Health           (2025) 23:21 
+	
+	27.	 Widyahening IS, Tanoto R, Rinawan F, Setiawati EP, Leopando ZE. Does 
+the establishment of universal health coverage drive the foundation 
+of postgraduate education for primary care physicians? Med J Indon. 
+2017;26(2):141–51.
+	28.	 Galingana CLT, Mesa RYHD, Marfori JRA, Paterno RP, Rey MP, Co EEA, et al. 
+Setting Core Competencies of Health Workers Towards Quality Primary 
+Care: Proceedings of a National Consultative Workshop. Acta Medica 
+Philippina [Internet]. 2020 Oct 5 [cited 2024 Apr 23]; Available from: 
+https://​actam​edica​phili​ppina.​upm.​edu.​ph/​index.​php/​acta/​artic​le/​view/​
+2068
+	29.	 Liwanag HJ, Uy J, Politico MR, Padilla MJ, Arzobal MC, Manuel K, et al. 
+Cocreation in health workforce planning to shape the future of the 
+health care system in the Philippines. Global Health: Sci Pract. 2022;10(6): 
+e2200176.
+	30.	 Labarda C, Labarda M. A community-based strategy in medical education 
+of the university of the philippines manila-school of health sciences—
+Lessons from innovations in human resources for health development in 
+a developing country. Educ Health (Abingdon). 2018;1(31):168–73.
+	31.	 Guignona M, Halili S, Cristobal F, Woolley T, Reeve C, Ross SJ, et al. A 
+curriculum for achieving universal health care: a case study of ateneo 
+de Zamboanga University School of Medicine. Front Public Health. 
+2021;29(9): 612035.
+	32.	 Arcadio R, Leopando ZE. Current status of basic medical education in 
+the Philippines [Internet]. National Academy of Science and Technology 
+(Philippines); 2016 [cited 2024 Apr 23]. Available from: https://​nast.​dost.​
+gov.​ph/​images/​pdf%​20fil​es/​Publi​catio​ns/​Monog​raph%​20Ser​ies/​NAST%​
+20Mon​ograph%​20ser​ies%​2021.​pdf
+	33.	 Guinto RL. Medical education in the Philippines: medical students’ per-
+spectives. Lancet. 2012;21(380):S14.
+	34.	 Koea J, Rahiri JL, Ronald M. Affirmative action programmes in post-
+graduate medical and surgical training—A narrative review. Med Educ. 
+2021;55(3):309–16.
+	35.	 Jackson L. Social inclusivity—Medical education’s next hurdle. Med Educ. 
+2021;55(3):283–5.
+	36.	 Mohammadiaghdam N, Doshmangir L, Babaie J, Khabiri R, Ponnet K. 
+Determining factors in the retention of physicians in rural and underde-
+veloped areas: a systematic review. BMC Fam Pract. 2020;21(1):216.
+	37.	 Civil Service Commission (Philippines). 20 August Career Service exams 
+results, top passers released [Internet]. 2023 [cited 2024 Apr 23]. Available 
+from: https://​csc.​gov.​ph/​regio​nal-​offic​es/​region-​ix/​20-​august-​career-​servi​
+ce-​exams-​resul​ts-​top-​passe​rs-​relea​sed
+	38.	 Civil Service Commission (Philippines). Guidelines on the grant of career 
+service eligibility - preference rating to specific workers in government 
+agencies based on length of service and work performance [Internet]. 
+2024 [cited 2024 Apr 23]. Available from: https://​www.​csc.​gov.​ph/​phoca​
+downl​oad/​useru​pload/​irmo/​policy%​20res​oluti​ons/​CKBN_D_​JOCOS​C6_​
+GUIDE​LINES_​24Jan​2024_​APPRO​VED_​FINAL.​pdf
+	39.	 Bossert TJ, Beauvais JC. Decentralization of health systems in Ghana, 
+Zambia, Uganda and the Philippines: a comparative analysis of decision 
+space. Health Policy Plan. 2002;17(1):14–31.
+	40.	 Eighth Congress of the Philippines. Republic Act No. 7160. Local Govern-
+ment Code of the Philippines [Internet]. 1991. Available from: https://​
+www.​dbm.​gov.​ph/​wp-​conte​nt/​uploa​ds/​Issua​nces/​2022/​Local-​Budget-​
+Circu​lar/​LOCAL-​BUDGET-​CIRCU​LAR-​NO-​145-​DATED-​MARCH-2-​2022.​pdf
+	41.	 Grundy J, Healy V, Gorgolon LP, Sandig E. Overview of devolution of 
+health services in the Philippines. Rural Remote Health. 2003;3(3):220.
+	42.	 Go JRR. Decentralisation experiences in the Philippines: social services 
+sectors and the local government code of 1991. In: Tadem TSE, Atienza 
+MEL, editors. A Better Metro Manila? Towards Responsible Local Govern-
+ance, Decentralization and Equitable Development [Internet]. Singapore: 
+Springer Nature; 2023 [cited 2023 Sep 25]. p. 157–92. https://​doi.​org/​10.​
+1007/​978-​981-​19-​7804-3_5
+	43.	 Department of Budget and Management (Philippines). Local Budget 
+Circular 145 [Internet]. 2022. Available from: https://​www.​dbm.​gov.​ph/​
+wp-​conte​nt/​uploa​ds/​Issua​nces/​2022/​Local-​Budget-​Circu​lar/​LOCAL-​
+BUDGET-​CIRCU​LAR-​NO-​145-​DATED-​MARCH-2-​2022.​pdf
+	44.	 Liwanag HJ, Wyss K. What conditions enable decentralization to improve 
+the health system? Qualitative analysis of perspectives on decision space 
+after 25 years of devolution in the Philippines. PLoS ONE. 2018;13(11): 
+e0206809.
+	45.	 Philippine Health Insurance Corporation. PhilHealth Circular No. 
+2020–0022: Implementing Guidelines for the PhilHealth Konsultasyong 
+Sulit at Tama (PhilHealth Konsulta) Package [Internet]. 2020 [cited 2022 
+Sep 24]. Available from: https://​www.​philh​ealth.​gov.​ph/​circu​lars/​2020/​
+circ2​020-​0022.​pdf
+	46.	 Philippine Health Insurance Corporation. PhilHealth Circular No. 2022-
+0032: Governing Policies of the Konsulta+ [Internet]. 2022 [cited 2023 
+Mar 5]. Available from: https://​www.​philh​ealth.​gov.​ph/​circu​lars/​2022/​
+circ2​022-​0032.​pdf
+	47.	 Loreche AM, Pepito VCF, Hartigan-Go KY, Dayrit MM. Measuring quality of 
+care for universal health coverage in the Western Pacific. Int J Qual Health 
+Care. 2023;35(4):mzad084.
+	48.	 Department of Health (Philippines). National Health Workforce Support 
+System | Department of Health - Health Human Resource Development 
+Bureau [Internet]. 2024 [cited 2024 Apr 23]. Available from: https://​hhrdb.​
+doh.​gov.​ph/​nhwss/
+	49.	 Robredo JP, Ong B, Eala MA, Naguit RJ. Outmigration and unequal distri-
+bution of Filipino physicians and nurses: An urgent call for investment in 
+health human resource and systemic reform. The Lancet Regional Health 
+– Western Pacific [Internet]. 2022 Aug 1 [cited 2024 Nov 4];25. Available 
+from: https://​www.​thela​ncet.​com/​journ​als/​lanwpc/​artic​le/​PIIS2​666-​
+6065(22)​00127-4/​fullt​ext
+	50.	 Kumar S, Clancy B. Retention of physicians and surgeons in rural areas-
+what works? J Public Health (Oxf). 2021;43(4):e689-700.
+	51.	 Department of Health (Philippines). Implementing Rules and Regulations 
+of the Universal Health Care Act (Republic Act No. 11223) [Internet]. 2019 
+[cited 2021 Sep 6]. Available from: https://​www.​philh​ealth.​gov.​ph/​about_​
+us/​UHC-​IRR_​Signed.​pdf
+	52.	 Dayrit M, Taylor A, Yan J, Braichet JM, Zurn P, Shainblum E. WHO code of 
+practice on the international recruitment of health personnel. Bull World 
+Health Organ. 2008;86(10):739.
+	53.	 Makulec A. Philippines’ Bilateral Labour Arrangements on Health-care 
+Professional Migration: In Search of Meaning. International Labour 
+Organization Asia-Pacific Working Paper Series. 2014;
+	54.	 Bilateral Agreements on Health Worker Migration and Mobility. Maximiz-
+ing health system benefits and safeguarding health workforce rights and 
+welfare through fair and ethical international recruitment. 1st ed. Geneva: 
+World Health Organization; 2024.
+	55.	 Naher N, Hoque R, Hassan MS, Balabanova D, Adams AM, Ahmed SM. The 
+influence of corruption and governance in the delivery of frontline health 
+care services in the public sector: a scoping review of current and future 
+prospects in low and middle-income countries of south and south-east 
+Asia. BMC Public Health. 2020;20(1):880.
+	56.	 Kirya MT. Promoting anti-corruption, transparency and accountability in 
+the recruitment and promotion of health workers to safeguard health 
+outcomes. Glob Health Action. 2020;13(Suppl 1):1701326.
+	57.	 Sousa A, Scheffler RM, Nyoni J, Boerma T. A comprehensive health labour 
+market framework for universal health coverage. Bull World Health Organ. 
+2013;91(11):892–4.
+	58.	 Bergen N, Labonté R. “Everything is perfect, and we have no problems”: 
+detecting and limiting social desirability bias in qualitative research. Qual 
+Health Res. 2020;30(5):783–92.
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in pub-
+lished maps and institutional affiliations.

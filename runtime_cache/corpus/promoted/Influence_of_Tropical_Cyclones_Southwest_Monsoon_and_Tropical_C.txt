@@ -1,0 +1,1773 @@
+Influence of tropical cyclones, southwest monsoon, and tropical 
+cyclone-enhanced southwest monsoon on rainfall variability over the 
+western coast of the Philippines
+Alwin Andriel L. Bathan a,b, Lyndon Mark P. Olaguera a,b,*, Faye Abigail T. Cruz b,  
+Jose Ramon T. Villarin a,b, Joel T. Maquiling a,b, Maria Obiminda L. Cambaliza a,b,  
+John A. Manalo c, Jun Matsumoto b,d,e
+a Department of Physics, School of Science and Engineering, Ateneo de Manila University, Loyola Heights, Quezon City 1108, Philippines
+b Manila Observatory, Ateneo de Manila University Campus, Loyola Heights, Quezon City 1108, Philippines
+c Department of Science and Technology, Philippine Atmospheric Geophysical and Astronomical Services Administration, Quezon City 1100, Philippines
+d Department of Geography, Tokyo Metropolitan University, Tokyo, Japan
+e Typhoon Science and Technology Research Center, Yokohama National University, Yokohama, Japan
+A R T I C L E  I N F O
+Keywords:
+Enhanced southwest monsoon
+Rainfall variability
+Southwest monsoon
+Tropical cyclones
+Philippines
+A B S T R A C T
+This study investigates the processes driving interannual variability of rainfall over the western coast of the 
+Philippines during the peak southwest monsoon (SWM) months (July–September) from 1961 to 2022. Specif­
+ically, it describes how tropical cyclones (TC), SWM, and TC-enhanced SWM influence SWM rainfall variability. 
+Rainfall measurements from 11 stations along the western coast of the Philippines were classified into three 
+types: direct TC rainfall (PD), indirect TC rainfall (PI), and SWM rainfall (PSM). The yearly contributions of PD, PI, 
+and PSM to SWM rainfall were estimated to be 15.4 %, 33.1 %, and 51.5 %, respectively. Furthermore, four 
+rainfall variability types were found depending on the characteristics of each year’s rainfall anomalies: enhanced 
+PD but suppressed PSM (D+S-), suppressed PD but enhanced PSM (D-S+), enhanced PI but suppressed PSM (I+S-), 
+and suppressed PI but enhanced PSM (I-S+). Composite analysis using ERA5 data revealed the presence of 
+anomalous winds and circulations unique to each type that causes variations in the TC tracks and the monsoon 
+flow, which accounts for the rainfall variability. Notable ones are the anomalous anticyclone over Taiwan in the 
+D+S- case, which pushes TCs closer to the Philippines, and the anomalous anticyclone east of the Philippines in 
+the I+S- case, which enhances the trade winds.
+1. Introduction
+The Philippines receives around 965 to 4064 mm of rain every year 
+(PAGASA, 2018; Olaguera and Manalo, 2024a). However, the spatial 
+and temporal distribution of this rainfall is not uniform. Depending on 
+the time of year, some regions of the Philippines experience more 
+rainfall than others (Kripalani and Kulkarni, 1998). For example, the 
+western coast of the country receives 40–80 % of its annual rainfall 
+during the southwest monsoon (SWM) season, while the eastern coast 
+receives 40–80 % of its annual rainfall during the northeast monsoon 
+(NEM) season (Olaguera et al., 2022a, 2022b). Another source of rainfall 
+in the Philippines are tropical cyclones (TCs), which mainly occur dur­
+ing the months of July, August, and September (JAS), and provide 
+around 35 % of the annual rainfall (Cinco et al., 2016). Despite possibly 
+causing floods and landslides, rainwater from these weather systems is 
+necessary for domestic and agricultural use, recharge of water reser­
+voirs, and hydropower generation.
+The SWM in the Philippines, locally known as “Habagat”, is part of 
+the western North Pacific summer monsoon (WNPSM), a component of 
+the Asian monsoon (Matsumoto, 1992; Murakami and Matsumoto, 
+1994). The Asian monsoon includes the Indian summer monsoon (ISM), 
+the East Asian monsoon (EAM), and the WNPSM. The monsoon is caused 
+by the differential heating between the landmass of mainland Asia, and 
+the surrounding oceans. Since the Asian landmass is warmer than the 
+oceans around it during boreal summer, the winds in the region blow 
+from the ocean to the land (Das, 1986). The onset of the SWM in the 
+* Corresponding author at: Department of Physics, School of Science and Engineering, Ateneo de Manila University, Loyola Heights, Quezon City 1108, Philippines.
+E-mail address: lmolaguera@observatory.ph (L.M.P. Olaguera). 
+Contents lists available at ScienceDirect
+Atmospheric Research
+journal homepage: www.elsevier.com/locate/atmosres
+https://doi.org/10.1016/j.atmosres.2025.108273
+Received 21 January 2025; Received in revised form 4 June 2025; Accepted 4 June 2025  
+Atmospheric Research 326 (2025) 108273 
+Available online 6 June 2025 
+0169-8095/© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+western North Pacific (WNP) typically marks the start of the rainy sea­
+son in the Philippines (PAGASA, 2018). This onset occurs around mid- 
+May and is usually triggered by three events: the shift of the Western 
+North Pacific Subtropical High (WNPSH) to the northeast, the evolution 
+of the monsoon trough over South China Sea, and the great approach of 
+the easterly wave (Akasaka et al., 2007; Akasaka, 2010; Olaguera et al., 
+2021; Olaguera and Manalo, 2024a). During mid-June, the monsoon 
+trough deepens and migrates northward to the central Philippines. By 
+early July, the southwesterly winds become predominant, which in­
+dicates that the SWM has been fully established. The monsoon flow 
+continues to strengthen through late July until its peak in early August 
+(Matsumoto and Olaguera, 2020). The SWM starts its retreat during 
+mid-October and is characterized by a gradual decrease in rainfall in the 
+western coast of the Philippines, an increase in rainfall in the eastern 
+coast of the Philippines, the weakening of the westerlies, the enhance­
+ment of the easterlies, and the southward migration of the monsoon 
+trough, and the WNPSH (Kubota et al., 2017; Olaguera and Manalo, 
+2024b).
+On the other hand, TCs are large, non-frontal storm systems that are 
+accompanied by spiral rain bands, which bring torrential rain and strong 
+winds, and are usually characterized by a closed low-pressure center 
+(Doocy et al., 2013). The Philippines is situated in the WNP basin, which 
+is the most active TC basin where around one-third of the total number 
+of TCs in the world form every year. On average, around 26 TCs occur in 
+this basin annually (Lee et al., 2020). Of the ~19 TCs that enter the 
+Philippine Area of Responsibility (PAR) and affect the Philippines, nine 
+TCs make a direct landfall (Cinco et al., 2016). Typhoons in the WNP can 
+form any time of year but the peak of the typhoon season is usually July 
+to October (PAGASA, 2024). According to Corporal-Lodangco and Leslie 
+(2017), 48.8 % of all Philippine TCs (i.e. TCs that enter PAR) in a year 
+occur during the months of July, August, and September (JAS). Even 
+though these months have the highest frequency of TCs, this season has 
+the lowest landfall percentage with only 24 % of the TCs making land­
+fall. During these months, weak easterlies, a deep monsoon trough, and 
+a subtropical anticyclone to the far northeast of the Philippines cause the 
+TCs to recurve, leading to less Philippine landfall (Corporal-Lodangco 
+and Leslie, 2017).
+The peak of the typhoon season coincides with the peak SWM 
+months. This leads to the interaction between the two weather systems. 
+In some cases, TCs are able to “enhance” the SWM. This usually happens 
+when a TC is located to the northeast of the Philippines during the peak 
+SWM months, bringing heavy rainfall especially over the western coast 
+of the Philippines (Cayanan et al., 2011; Bagtasa, 2019). The most recent 
+example is Typhoon Gaemi in 2024, which did not make landfall in the 
+Philippines but still brought about extremely high amounts of rain over 
+the country due to its enhancement of the SWM. According to the 
+Department of Science and Technology-Philippine Atmospheric, 
+Geophysical, and Astronomical Services Administration (DOST- 
+PAGASA), the TC-enhanced monsoon brought 471 mm of rainfall in 
+Quezon City, Philippines, over a period of 24 h on 23–24 July 2024. For 
+comparison, the climatological mean rainfall for the entire month of 
+July in Quezon City is 493.3 mm (PAGASA, 2015). This means that the 
+TC-enhanced monsoon event brought nearly a month’s worth of rainfall 
+in just a span of 24 h. The widespread flooding in numerous areas in 
+Luzon led to the deaths of 48 people and $145 million worth of damages 
+(NDRRMC, 2024). Two other examples of this phenomenon are the 
+“enhanced Habagat” cases of 2012 and 2013, which occurred from 6–10 
+August 2012 and 18–22 August 2013, respectively. The total rainfall 
+measured by the Science Garden station of PAGASA during the entire 
+duration of these two events were 1007.4 mm and 1067.4 mm, 
+respectively (Lagmay et al., 2015). Bagtasa (2023) explained that the 
+above-normal rainfall during these two events were caused by the 
+“moisture conveyor belt” (MCB) traversing the Philippines. The MCB is a 
+long region of high moisture flux that stretches from the Indochina 
+Peninsula, over the South China Sea, and onto the Philippine Sea, due to 
+the enhancement of the SWM by a TC. The MCB was formed from the 
+deepening of the Asian monsoon trough created by the TCs to the 
+northeast of the Philippines and the low-pressure systems off the coast of 
+the Vietnam-China border.
+While there have been studies that have analyzed the climatology of 
+the SWM rainfall in the Philippines, few have specifically focused on the 
+TC-enhanced SWM. For example, Cruz et al. (2013) examined the 
+climatology of the Philippine SWM rainfall but did not address the in­
+fluence of passing tropical cyclones in their analysis. Their study showed 
+a decreasing trend in rainfall associated with the SWM from 1961 to 
+2010. They also found that the number of “no rain” days has increased 
+while the days with rainfall greater than the 95th percentile have 
+decreased, suggesting a longer dry period for the past 50 years. Studies 
+on the TC-enhanced SWM usually focus on specific enhanced SWM days 
+or heavy precipitation events (HPE) (e.g., Cayanan et al. (2011), and 
+Bagtasa (2019)). Cayanan et al. (2011) identified four heavy rainfall 
+cases, three of which had a TC present inside the PAR. Their study 
+concluded that winds generated by the TC contribute to the winds from 
+the SWM, thus creating stronger southwesterlies. These enhanced 
+southwesterlies, when forced upwards by the mountain ranges of Luzon 
+Island, will have a higher vertical velocity, which leads to stronger 
+convection and more intense rainfall over Luzon Island. Bagtasa (2019)
+identified all the HPE days, which is defined as days with rainfall in the 
+upper 85th percentile, from 1958 to 2017. The study found that the 
+majority of the HPE days involved a TC to the northeast of the 
+Philippines, which led to the formation of the MCB that brought heavy 
+rainfall over the Philippines. Kudo et al. (2014) and Fujiwara et al. 
+(2017) both conducted a case study on Typhoon Man-yi and similarly 
+discussed the presence of the MCB over the Philippines.
+This study aims to illustrate the processes driving the interannual 
+variability of rainfall over the western coast of the Philippines during the 
+SWM season using long-term rainfall and atmospheric data spanning 62 
+years from 1961 to 2022. Specifically, it examines how TCs, SWM and 
+their interaction influence rainfall variability. Unlike previous works, 
+this study analyzes the climatology of the enhanced SWM, not just the 
+“no TC” SWM, nor specific TC-enhanced cases. Here, annual rainfall 
+during the SWM season over the western coast of the Philippines will be 
+classified as direct TC rainfall (PD), indirect TC rainfall (PI), and SWM 
+rainfall (PSM), in order to determine the dominant rainfall type for each 
+year in the analysis period. The large-scale processes during the years 
+with anomalous rainfall values will be investigated in order to determine 
+the cause for the year-to-year variability in the three types of rainfall. 
+This procedure was done by Chen et al. (2010a) for the island of Taiwan, 
+but there are no studies as of yet for the Philippines. The rest of the paper 
+is organized as follows. Section 2 describes the various datasets used in 
+the analysis, as well as the methodology for this study. Section 3 presents 
+the results of the analysis on the different rainfall types and the dis­
+cussions regarding the composites created. The summary and conclu­
+sions of the study are in Section 4.
+2. Data and Methodology
+2.1. Data
+The analysis period spans from 1961 to 2022. Only the months of 
+July, August, and September (JAS) were included in the analysis, which 
+is the peak SWM season in the Philippines (Lyon and Camargo, 2009). 
+The following three datasets are used: 
+a. Daily rainfall measurements from 11 stations provided by the DOST- 
+PAGASA. These stations (Ambulong, Baguio City, Coron Island, Cuyo 
+Island, Dagupan City, Iba, Iloilo City, Laoag City, Port Area, Sangley 
+Point, and Science Garden) were chosen (Fig. 1) since they have no 
+more than 20 % missing data during the analysis period. They are 
+also located in the western portion of the Philippines, which is most 
+exposed to the SWM, with a climate that is classified as Type I in the 
+A.A.L. Bathan et al.                                                                                                                                                                                                                            
+Atmospheric Research 326 (2025) 108273 
+2 
+
+Modified Coronas Climate Classification of the Philippines (Kintanar, 
+1984);
+b. Reanalysis data from the fifth-generation reanalysis dataset of the 
+European Centre for Medium-Range Weather Forecasts (ERA5). The 
+dataset has a spatial resolution of 0.25◦× 0.25◦from 1940 onwards 
+(Soci et al., 2024);
+c. TC best track data at six-hour intervals from the Joint Typhoon 
+Warning Center (JTWC), which can be accessed at https://www. 
+metoc.navy.mil/jtwc/jtwc. html? best-tracks.
+2.2. Methodology
+The daily rainfall data from each station was separated into three 
+types: PD, PI, and PSM. The PD was determined by identifying the “direct 
+TC days”, which were defined as the days wherein a TC was located 
+within 500 km centered at any of the 11 PAGASA stations (see Fig. 1). 
+This specific distance was chosen as it is the extent of a TC’s direct 
+rainbands (Yokoyama and Takayabu, 2008). Related studies such as Lau 
+et al. (2008), Nogueira and Keim (2010), Prat and Nelson (2013), Dare 
+et al. (2012), and Khouakhi et al. (2017) to name a few, also used this 
+specific distance in order to identify the extent of a TC’s rainfall. While 
+some studies such as Kubota and Wang (2009) showed that TC rainfall 
+can reach up to 1000 km away from the TC’s center, this study used the 
+500-km radius instead in order to make sure that the recorded rainfall is 
+really from the TC itself. Although it is true that a TC may produce rain 
+up to 1000 km away from its center, that radius may be too large and 
+may mistakenly identify TC-enhanced SWM rain as direct TC rain. 
+Additionally, JTWC defines a medium-size TC as a TC with a radius of 3◦
+to 6◦. Assuming a radius of 500 km, which is around 4.5◦, puts it very 
+close to the middle of JTWC’s TC size chart (JTWC, 2017). The PI rainfall 
+was determined by identifying the “indirect TC days”, which were 
+defined as the days wherein a TC was inside a box bounded by the lat­
+itudes 6.34◦N and 30◦N, and the longitudes 110◦E and 135◦E (Fig. 1), 
+but outside the 500 km radius of any of the 11 stations. The eastern 
+border of this domain was chosen in order to line up with the eastern 
+border of the PAR. The northern and western borders of this domain 
+were based on the extent of the TC points during high precipitation 
+event (HPE) days in Bagtasa (2019), since these HPE days were caused 
+by a TC indirectly affecting the Philippines by enhancing the SWM. The 
+southern border of the domain is exactly 500 km south of the south­
+ernmost PAGASA station used. Lastly, PSM was rainfall observed by the 
+stations while there were no TCs present inside the domain described 
+above. In this study, only the TCs that were at least of Tropical Storm 
+strength in the Saffir-Simpson scale (≥34 knots) were used to identify 
+the direct and indirect TC days. Rainfall caused by Tropical Depressions 
+and low pressure systems during the analysis period were classified as 
+SWM rainfall.
+In order to obtain one single rainfall value for each day in the 
+analysis period, the rainfall values of the 11 stations were averaged per 
+day. This singular value is representative of the rainfall experienced over 
+the western coast of the Philippines. Each daily rainfall value was either 
+classified as PD, PI, and PSM depending on whether the day was a direct, 
+indirect, or no TC day. All the PD, PI, and PSM values during JAS were 
+added in order to obtain a yearly value for each rainfall type for all the 
+years from 1961 to 2022.
+SWM rainfall over the Philippines has frequently shown interannual 
+variability (Kripalani and Kulkarni, 1997). The yearly anomalies and 
+standard deviations (SD) for each rainfall type were obtained. The 
+rainfall type anomalies were calculated by subtracting the 1961 to 2022 
+mean of that rainfall type from the yearly values of the same rainfall 
+type. In order to determine which years had significant anomalies, a 0.6 
+SD threshold was created around the mean of each rainfall type. Various 
+SD thresholds have been used in previous studies to determine rainfall 
+anomalies such as Chen et al. (2008, 2010a, 2010b), which used 0.66, 
+0.8, and 0.7 SD, respectively. Garfinkel and Hartmann (2008) used a 
+threshold of 0.6 SD in order to determine whether a month is classified 
+as an El Ni˜no-Southern Oscillation (ENSO) month or Quasi-Biennial 
+Oscillation (QBO) month. In this study, the 0.6 SD threshold was used 
+in order to maximize the sample size for each rainfall variability type. 
+The years with anomalies above and below that threshold were only 
+considered in the composite analysis later.
+Based on the yearly anomalies, we can define eight rainfall vari­
+ability types, which are the D+S+, D+S-, D-S+, D–S–, I+S+, I+S-, I- 
+S+, and I–S–. The “D”, “I”, and “S” stand for direct TC, indirect TC, and 
+SWM rainfall, respectively. The “+” and “-” symbols signify whether the 
+direct TC, indirect TC, or SWM rainfall for that specific year is anoma­
+lously high or anomalously low, respectively. A summary of these 
+rainfall variability types is shown in Table 1.
+This procedure is similar to the one used by Chen et al. (2010a), in 
+which the yearly rainfall of Taiwan during JAS months was categorized 
+into T+, T-, S+ and S- types using the yearly anomalies and the standard 
+deviations. We extended their procedure by adding the PI rainfall type to 
+account for the indirect TC cases and classifying it further into I+ and I- 
+years.
+Composites of various atmospheric variables were created for each of 
+the rainfall variability types that had a sufficient sample size. A boot­
+strap t-test (Efron and Tibshirani, 1994) was used to test the significance 
+of all composites relative to all JAS days during the analysis period (e.g., 
+Olaguera et al. 2022b). The regular Student’s t-test was repeated 1000 
+times, each iteration with a different, random sample. In this study, the 
+rainfall variability types with at least three years were used. Composite 
+anomalies of the 850 hPa stream function and 850 hPa horizontal winds 
+were used to show the anomalous circulations and anomalous wind 
+Fig. 1. The black box represents the domain of the study. The colored dots 
+indicate the locations of the 11 PAGASA stations. The topography (shades) is 
+from the U.S. Geological Survey (GMTED2010). Dataset can be accessed at 
+https://www.temis.nl/data/gmted2010/
+Table 1 
+A summary of the eight rainfall variability types. A “HIGH” label means a yearly 
+rainfall anomaly value that is above the +0.6 SD threshold. A “LOW” label 
+means a yearly rainfall anomaly value that is below the −0.6 SD threshold.
+Rainfall variability type
+PD
+PI
+PSM
+D+S+
+HIGH
+–
+HIGH
+D+S-
+HIGH
+–
+LOW
+D-S+
+LOW
+–
+HIGH
+D-S-
+LOW
+–
+LOW
+I+S+
+–
+HIGH
+HIGH
+I+S-
+–
+HIGH
+LOW
+I-S+
+–
+LOW
+HIGH
+I-S-
+–
+LOW
+LOW
+A.A.L. Bathan et al.                                                                                                                                                                                                                            
+Atmospheric Research 326 (2025) 108273 
+3 
+
+flows, respectively. Composite anomalies of the vertically integrated 
+water vapor flux and surface latent heat flux, were used to identify the 
+existence of the MCB, which usually occurs during TC-enhanced SWM 
+cases (Kudo et al., 2014; Bagtasa, 2019). Composite anomalies of the 
+vertically integrated moisture flux convergence (VIMFC) were used to 
+identify possible areas of high precipitation since large values of VIMFC 
+have been linked to extreme rainfall events (Zomeren and van Delden, 
+2007). Composites of the TC tracks, TC genesis locations, vertical wind 
+shear, and sea surface temperatures (SST) were also created in order to 
+understand the behavior of the TCs for each rainfall variability type.
+3. Results and Discussion
+3.1. Climatological conditions
+The climatological conditions over the WNP during the JAS season 
+from 1961 to 2022 are shown in Fig. 2 for various atmospheric variables. 
+The SWM can be seen in Fig. 2a, as it flows from the Bay of Bengal, 
+passing over the Indochina Peninsula, and moves towards the 
+Philippines. East of 140◦E, these southwesterlies converge with the 
+southeasterly winds driven by the anticyclonic rotation of the WNPSH, 
+which is depicted by the 5870 gpm contour line. Regions of strong up­
+ward motion can be found near the coast of Myanmar, the western coast 
+of the Philippines, and over the Pacific (from 5◦N to 20◦N and 125◦E to 
+160◦E) (Fig. 2a). The upward motion in Myanmar and the Philippines 
+are due to the southwesterly monsoon winds interacting with the 
+various mountain ranges present in the respective regions. These 
+mountain ranges force the southwesterly winds upward due to the 
+orographic lifting effect. This creates convection and precipitation over 
+the region as the warm, moist air that is forced upward condenses as it 
+cools. The area of upward motion in the Pacific Ocean is due to the 
+convergence of the southwesterly monsoon winds and the easterly trade 
+winds in a region called the monsoon trough. Due to the region’s 
+frequent convection, this region is conducive for TC development.
+Next, we examine the climatological 850 hPa stream function, 700 
+hPa relative humidity, and moisture flux (Fig. 2b, c). In a stream func­
+tion plot, positive values usually depict an area of anticyclonic circula­
+tion while negative values usually depict an area of cyclonic circulation. 
+The presence of the WNPSH can be seen as the large area of positive 
+stream function southeast of Japan. Another area of positive stream 
+Fig. 2. Climatological composites during JAS of (a) 850 hPa horizontal winds (5 m s−1; vectors), 500 hPa vertical velocity (Pa s−1; upward motion - blue shades; 
+downward motion - red shades), 500 hPa geopotential height (5870 gpm contour line), (b) 850 hPa stream function (×106 m2 s−1; contour lines), 700 hPa relative 
+humidity (%; shades), (c) vertically integrated water vapor flux magnitude (kg m−1 s−1; shades), and direction (200 kg m−1 s−1; vectors), (d) vertically integrated 
+moisture flux convergence (×10−5 kg m2 s−1), (e) surface latent heat flux magnitude (W m−2; shades), and 10 m horizontal winds (m s−1; vectors), (f) sea surface 
+temperature (◦C; shades), (g) 200 hPa - 850 hPa horizontal winds to depict vertical wind shear (m s−1; shades), and (h) TC observation point density map in 2.5◦×
+2.5◦grid boxes (shades), TC genesis point (star), study domain (black box). Blacked out areas in the composites depict regions with an elevation of more than 1500 m. 
+(For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+A.A.L. Bathan et al.                                                                                                                                                                                                                            
+Atmospheric Research 326 (2025) 108273 
+4 
+
+function can be seen over the Malay Peninsula, which depicts the anti­
+cyclonic circulation that drives the SWM. The flow of the SWM can be 
+seen as the series of streamlines coming from the Indian Ocean. These 
+streamlines pass over the Indochina Peninsula and eventually over the 
+Philippines. The relative humidity shadings show that fairly high rela­
+tive humidity values can be found in the tropics, south of 20◦N. The 
+relative humidity north of this latitude is lower, which implies drier air 
+in this region.
+High moisture flux values are present over the Bay of Bengal as seen 
+in the region of dark blue shadings south of 20◦N and west of 95◦E 
+(Fig. 2c). High values of moisture flux mean that the air in this region is 
+carrying significant amounts of water vapor, which may lead to pre­
+cipitation once the water vapor condenses. This region of high moisture 
+flux values are likely due to the ISM, which affects the northern Indian 
+Ocean during the JAS months. A “tongue” of high moisture flux values 
+can also be seen protruding from the Bay of Bengal and extending to­
+wards the South China Sea and the western coast of the Philippines, 
+traversing the Indochina Peninsula. This extension is usually where the 
+SWM that affects the Philippines is present. It is also where the MCB 
+passes through, based on previous studies (Kudo et al., 2014; Fujiwara 
+et al., 2017; Bagtasa, 2019). The moist air brought about by the easterly 
+trade winds can also be seen as the region with fairly high moisture flux 
+values at around 20◦N and to the east of 150◦E. Finally, the EAM can be 
+seen as the southwesterly water vapor flux traveling over the Korean 
+Peninsula and Japan.
+Along with moisture flux, another parameter that reflects rainfall 
+over a certain region is vertically integrated moisture flux convergence 
+(VIMFC). This parameter has been shown to be a good predictor of 
+thunderstorms (Zomeren and van Delden, 2007); therefore, it was used 
+in this study to determine regions with high chances of intense rainfall. 
+High values of VIMFC can be seen in the western coasts of Myanmar and 
+the Philippines (Fig. 2d). The heightened VIMFC values in these two 
+regions are due to the moisture-laden air from the monsoons undergoing 
+orographic lifting. The western coasts of Myanmar and Luzon Island are 
+lined with various mountain ranges which force the moist winds up­
+wards. This leads to convection and causes the moisture to build up and 
+converge on the windward side of the mountain ranges. This creates 
+precipitation once the moist air reaches a certain height, cools, and 
+condenses.
+High surface latent heat flux values indicate regions of high energy 
+transfer from the ocean’s surface to the atmosphere due to evaporation. 
+Similar to the moisture flux and VIMFC composites, surface latent heat 
+flux composites are also able to show regions with a high moisture 
+content, which may lead to possible precipitation. The overall shape of 
+the region with high surface latent heat flux values (Fig. 2e) follows the 
+overall shape of the region with high moisture flux values (Fig. 2c). The 
+high surface latent heat flux values in the Indian Ocean are due to the 
+ISM, while a similar “tongue” can be found extending towards the South 
+China Sea and the western coast of the Philippines, which is due to the 
+SWM.
+Two important factors in the formation of TCs are SSTs and vertical 
+wind shear (Wallace and Hobbs, 2006). Warm SSTs are needed for the 
+TC to gather enough moisture and create enough convection for the TC 
+to form and intensify, while low vertical wind shear is important in TC 
+development since strong vertical wind shear is able to damage the TC 
+structure and separate the low level circulation from its main convective 
+cluster (Lam and Kong, 2022). Various studies have also stressed the role 
+of vertical wind shear in TC formation and development. For example, 
+Zehr (1992) stated that tropical cyclogenesis does not occur in a region 
+with a vertical wind shear intensity of 12.5 m s−1. Gallina and Velden 
+(2002) concluded that WNP TCs generally weaken when experiencing a 
+vertical wind shear of at least 9 m s−1. Wong and Chan (2004) concluded 
+that TCs significantly weaken when experiencing a vertical wind shear 
+of at least 10 m s−1. Their study also stated the importance of TC size 
+when analyzing the effects of vertical wind shear. TCs with smaller radii 
+tend to have a lower vertical wind shear threshold where they start to 
+weaken.
+The climatological SST of the WNP is very high during JAS months, 
+reaching around 29 ◦C in the ocean waters south of 20◦N (Fig. 2f). This 
+allows TCs to form, especially in the tropical region. As the latitude 
+increases, the SST decreases, with the SST at around 45◦N reaching as 
+low as 10 ◦C. SST also plays a role in the onset of the SWM. Wu and Wang 
+(2001) concluded that the northeastward advance of the SWM follows 
+the northeastward migration of the warm SST tongue in the WNP. The 
+shift in the location of the warm center causes a shift in the region of 
+convective instability and low-level convergence. Meanwhile, the ver­
+tical wind shear composites show two regions of high vertical wind 
+shear: one is west of the Indochina Peninsula, while the other is to the 
+north of Japan and the Korean Peninsula (Fig. 2g). The high vertical 
+wind shear west of the Indochina Peninsula is caused by the tropical 
+easterly jet stream over the region during boreal summer. The high 
+vertical wind shear north of Japan and the Korean Peninsula is caused by 
+the East Asian westerly jet stream. Despite these regions of high vertical 
+wind shear, a northwest-southeast oriented region of very low vertical 
+wind shear can be seen in the Pacific Ocean south of 25◦N and east of 
+120◦E.
+Finally, in order to see the overall tracks of all the TCs during the 
+analysis period, a density map of all TC observation points as well as the 
+mean TC genesis point was created (Fig. 2h). The size of each grid box is 
+2.5◦× 2.5◦. The darker red grid boxes indicate a higher number of TC 
+observation points, while the lighter red grid boxes indicate a lower 
+number of TC observation points. The mean genesis point is depicted as 
+the black star. The grid box with the highest number of TC observation 
+points is located at 22.5◦N to 25.0◦N and 125.0◦E to 127.5◦E. Around 
+this grid box are more grid boxes that appear to be lighter than the 
+previously mentioned grid box, but still darker than most, which in­
+dicates that this region is prone to the passage of TCs during this time of 
+year. It is also worth noting that the grid box over the northernmost tip 
+of Luzon Island is the only region in the Philippines that is not lightly 
+shaded. This means that TCs during this time of year rarely make 
+landfall in the Philippines, aside from the northernmost tip. The mean 
+TC genesis point is located roughly 15◦N and 136◦E. This region has 
+strong vertical motion, very warm SSTs, and very weak vertical wind 
+shear, as seen in Fig. 2a, f, and g, making it an ideal place for TC 
+development.
+3.2. The three SWM rainfall types over the Philippines
+The composites in the previous section were able to show the sources 
+of the rainfall experienced by the Philippines during the JAS months. 
+Rainfall from the SWM can be seen as the moisture-laden air traversing 
+the South China Sea and reaching the western coast of the Philippines. 
+Meanwhile, the numerous TCs that come in close proximity to the 
+Philippines are also able to bring significant amounts of rainfall over the 
+country. The different sources of rainfall is the reason why, in this study, 
+the yearly rainfall during the SWM season is separated into three cate­
+gories: PD, PI, and PSM. Yearly means of the PD, PI, and PSM for each 
+station were calculated and are shown in Table 2. The table is arranged 
+in descending order according to the latitude of the station. This is done 
+in order to show the spatial trend of each rainfall type. The yearly 
+average values for each rainfall type is also shown at the bottom of the 
+table. It can be noticed that the PD and PI values of the stations closer to 
+the equator are lower than the PD and PI values of the stations further up 
+north. This may be directly attributed to the behavior of the TCs during 
+this time of year. TC’s generally tend to pass closer to the northernmost 
+parts of the Philippines, as seen in Fig. 2h. This means that the northern 
+stations, on average, would receive more TC-related rainfall, whether 
+direct or indirect, compared to the southern stations.
+The yearly breakdown of the three rainfall types is shown in Fig. 3. It 
+can be seen that PSM contributes the most, while PD contributes the least 
+to the yearly SWM rainfall amount. PD, PI, and PSM account for 15.4 %, 
+33.1 %, and 51.5 % of the total yearly SWM rainfall, respectively. It is 
+A.A.L. Bathan et al.                                                                                                                                                                                                                            
+Atmospheric Research 326 (2025) 108273 
+5 
+
+worth noting that four years in the analysis period had rainfall values 
+more than 2000 mm (1962, 1972, 2012, 2018). The main reason for 
+these high yearly rainfall values seem to be the high PI values measured 
+during these years. The average yearly PI during these four years is 
+935.8 mm which is almost double that of the long-term (1961 to 2022) 
+yearly PI mean, which is 492.2 mm. Additionally, the rainfall percentage 
+breakdown of PD, PI, and PSM during these four years is 13.3 %, 41.5 %, 
+and 45.2 %, respectively. This implies that both PD and PSM did not 
+increase as much as PI during these four years. On the other hand, two 
+years in the analysis period had rainfall values less than 1000 mm (1975, 
+2020). For these two years, the reason for the low rainfall values seem to 
+be TC-related. The average yearly PD and PI values during these two 
+years are 39.5 mm and 117.9 mm, which are 5.8 and 4 times lower than 
+the mean yearly PD and PI values, respectively. The rainfall percentage 
+breakdown of PD, PI, and PSM during these two years is 4.4 %, 13.1 %, 
+and 82.5 %, respectively, which clearly shows the drastic change in TC- 
+related rainfall.
+However, these percentages do not accurately depict the intensity of 
+each rainfall type as the yearly totals of each rainfall type depend on the 
+number of direct and indirect TC days per year. Out of the 92 days within 
+the JAS months, there were, on average, 6.5 direct TC days and 24.8 
+indirect TC days each year. The remaining days are classified as no TC 
+days. Dividing the yearly PD, PI, and PSM values by the number of direct, 
+indirect, and no TC days, respectively, gives the daily PD, PI, and PSM 
+values, which are 35.6, 19.8, and 12.6 mm, respectively.
+The low number of direct TC days is in line with the findings of 
+Corporal-Lodangco and Leslie (2017), which showed that JAS TCs 
+usually do not make landfall in the Philippines. The TC density map 
+shown in Fig. 2h also suggests the same. TCs during JAS months usually 
+pass through a region east of Taiwan. This region can be seen in Fig. 2h 
+as the grid box bounded by the latitudes 22.5◦N and 25.0◦N, and the 
+longitudes 125.0◦E and 127.5◦E. This region of high TC frequency is 
+farther than 500 km from any of the stations, which explains the number 
+of indirect TC days being almost four times more than the number of 
+direct TC days. TCs in this region generally induce rainfall over the 
+Philippines by enhancing the SWM (Cayanan et al., 2011; Bagtasa, 
+2019). The effect of this enhanced rainfall can clearly be seen in the 
+daily PI values, which is, on average, 57.1 % more than daily PSM values.
+The standard deviations of the daily and yearly PD, PI, and PSM were 
+calculated in order to determine the daily and yearly variability of the 
+three rainfall types. The SD of the daily PD, PI, and PSM are 31.0, 22.3, 
+and 13.6 mm, respectively. At first glance, it may seem that PD varies the 
+most while PSM varies the least; however, the large differences between 
+each rainfall type’s SD is due to the large differences in the means. To 
+counter this, the coefficient of variation (CV) for each rainfall type was 
+calculated by dividing the SD by the mean. The CV of the daily PD, PI, 
+and PSM are 87.1 %, 112.3 %, and 107.8 %, respectively. From these 
+values, it can be seen that PD experiences less variability with respect to 
+its mean, while PI experiences the most variability. The reason for this is 
+that TC days tend to have more consistent daily rainfall values since TCs 
+generally produce rain during the entire span of multiple TC days. In­
+direct and no TC days, on the other hand, have multiple days without 
+rainfall at all, especially during indirect TC days wherein the TC present 
+is close to the domain’s edge.
+The yearly SD and CV for each rainfall type show the opposite trend 
+compared to the daily values. The SD of the yearly PD, PI, and PSM are 
+147.0, 223.0, and 216.4 mm, respectively, while the CV of the yearly PD, 
+PI, and PSM are 63.9 %, 45.3 %, and 28.2 %, respectively. In the yearly 
+values, PD experiences the most variability, while PSM experiences the 
+least variability. This can be explained by the number of direct and in­
+direct TC days per year. There are less direct TC days compared to in­
+direct TC days and no TC days, which makes the yearly PD mean be very 
+susceptible to fluctuations when the number of TC days change. No TC 
+days, on the other hand, make up around two-thirds of all the days in 
+JAS months. Variations on the number of no TC days only have a small 
+effect on the yearly PSM mean due to the larger sample size.
+3.3. Interannual rainfall variability
+The yearly anomalies for each rainfall type were calculated and are 
+shown in Fig. 4. The yearly SD of each rainfall type was multiplied by 0.6 
+and was used in order to determine which years had a significantly 
+anomalous rainfall amount in any of the rainfall types. This filtering 
+process resulted in six categories: D+, D-, I+, I-, S+, and S-, with 15, 18, 
+16, 14, 18, and 18 years, respectively. These six categories were used to 
+create eight rainfall variability types: D+S+, D+S-, D-S+, D–S–, I+S+, 
+I+S-, I-S+, and I–S–. The categories D+I+, D+I-, D-I+, and D–I– 
+were not considered as both D and I are TC-related, hence seem 
+redundant as the only difference between D and I is the distance of the 
+TCs from the stations. The list of years for each rainfall variability type is 
+shown in Table 3. For this study, only the rainfall variability types with 
+three or more years were used. These rainfall variability types were: 
+D+S-, D-S+, I+S-, and I-S+. Years such as 1968, 1970, 1977, 1988, 
+1996, and 2002 appear in more than one category. This is because these 
+years have anomalous rainfall values for all the three rainfall types. 
+These years were categorized depending on which rainfall type had the 
+larger anomaly percentage-wise. For example, the year 1968 had sig­
+nificant positive anomalies in both direct and indirect rainfall, and sig­
+nificant negative anomalies in SWM rainfall. The direct rainfall value 
+was 84.8 % higher than the direct rainfall long-term mean, while the 
+indirect rainfall value was 35.8 % higher than the indirect rainfall long- 
+term mean. This led to the year 1968 being classified as D+S-. Anomaly 
+composites of various atmospheric parameters were created for each of 
+the rainfall variability types. This was done in order to determine the 
+large-scale processes occurring during each of the variability types and 
+Table 2 
+Yearly means of the PD, PI, and PSM for each of the 11 stations from 1961 to 2022. 
+The percentage contributions to the total SWM rainfall are enclosed in paren­
+theses. The 11-station average is included in the last row.
+Station
+PD (mm)
+PI (mm)
+PSM (mm)
+Laoag
+337.8 (23.7 %)
+501.4 (35.1 %)
+587.1 (41.2 %)
+Baguio
+502.0 (21.6 %)
+862.0 (37.1 %)
+960.0 (41.3 %)
+Dagupan
+249.9 (16.6 %)
+517.4 (34.4 %)
+736.4 (49.0 %)
+Iba
+356.4 (14.7 %)
+851.0 (35.2 %)
+1211.8 (50.1 %)
+Science Garden
+188.8 (13.0 %)
+446.5 (30.8 %)
+814.2 (56.2 %)
+Port Area
+148.8 (12.5 %)
+381.8 (31.9 %)
+664.1 (55.6 %)
+Sangley Point
+140.8 (14.5 %)
+341.8 (35.3 %)
+486.4 (50.2 %)
+Ambulong
+153.6 (16.7 %)
+282.6 (30.6 %)
+486.6 (52.7 %)
+Coron
+152.7 (10.6 %)
+424.5 (29.3 %)
+870.5 (60.1 %)
+Cuyo
+92.4 (8.2 %)
+279.6 (25.0 %)
+748.2 (66.8 %)
+Iloilo
+91.2 (11.0 %)
+258.8 (31.2 %)
+480.4 (57.8 %)
+AVE
+230.0 (15.4 %)
+492.2 (33.1 %)
+766.5 (51.5 %)
+Fig. 3. Stacked bar chart showing the breakdown of the yearly PD (red), PI 
+(green), and PSM (blue) during JAS for the years 1961 to 2022. (For interpre­
+tation of the references to colour in this figure legend, the reader is referred to 
+the web version of this article.)
+A.A.L. Bathan et al.                                                                                                                                                                                                                            
+Atmospheric Research 326 (2025) 108273 
+6 
+
+to find the reason for the anomalous amounts of rainfall experienced 
+during each case.
+3.3.1. Horizontal winds, vertical motion, and the WNPSH
+Composite anomalies of the 850 hPa horizontal winds, 500 hPa 
+vertical velocity, and the 500 hPa geopotential height were created and 
+shown in Fig. 5. The 850 hPa horizontal wind anomalies were used to 
+determine any anomalous characteristics in the wind flow over the re­
+gion, especially regarding the SWM. The 500 hPa vertical velocity 
+anomalies were used to help identify regions with anomalous convective 
+activity, which may directly lead to more unstable conditions and 
+enhanced rain. The 500 hPa geopotential height, specifically the 5870 
+gpm contour line, was used to identify the extent of the WNPSH.
+The composite anomaly for the D+S- case (Fig. 5a) shows a region of 
+anomalous easterlies over Luzon Strait and Taiwan. North of these 
+anomalies are large patches of positive vertical motion anomalies, which 
+implies more stable weather in this region since convection is slightly 
+suppressed. The same can be said over the western coast of Myanmar, at 
+around 20◦N, which shows the same easterly and positive vertical mo­
+tion anomalies. Over the Philippines, there seems to be no noticeable 
+anomalies for both horizontal winds and vertical motion. However, a 
+small region of negative vertical velocity anomalies is present over the 
+southern half of the South China Sea, accompanied by minor westerly 
+anomalies, which extend westward over the Malay Peninsula and the 
+Indian Ocean. This may imply slight enhancement in the monsoon over 
+the Malay Peninsula, but stops at around 115◦E, thus not reaching the 
+Philippine archipelago. Finally, the position of the WNPSH, depicted by 
+the 5870 gpm contour line, shows a very subtle westward extension.
+The composite anomaly for the D-S+ case (Fig. 5b) shows significant 
+anomalous westerlies over the Philippines and some regions of the 
+Philippine Sea. In fact, the entire tropical region experiences some kind 
+of westerly anomalies, which implies a weakening in the easterly trade 
+winds. The large patches of positive vertical motion anomalies which 
+extend from the eastern coast of the Philippines to the Philippine Sea 
+may be due to the weaker easterly trade winds. Another possibility for 
+the positive vertical motion anomalies over this region may be the fact 
+that there are fewer TCs that pass over the country during the D-S+ case. 
+The WNPSH, much like the previous case, shows a westward extension 
+but nothing too drastic.
+The composite anomaly for the I+S- case (Fig. 5c) shows large re­
+gions of significant anomalous easterlies in the tropical region, 
+stretching from 90◦E to 145◦E. These anomalies imply a weakening in 
+the SWM winds, and a strengthening in the easterly trade winds. Positive 
+vertical velocity anomalies are also present over the Philippines, as well 
+as over large regions of the Philippine Sea. Similar to the D+S- case 
+(Fig. 5a), the western coast of Myanmar, at around 15◦N to 20◦N, ex­
+periences positive vertical motion anomalies and small easterly hori­
+zontal wind anomalies. These anomalies might mean that the monsoon 
+flow is weaker over this particular region in Myanmar and may be 
+characteristic of S- years. Patches of positive vertical motion anomalies 
+are once again present near Taiwan and the coast of eastern China, 
+somewhat resembling the anomalies in the same region during the D+S- 
+case. Finally, the position of the WNPSH in this case remains relatively 
+the same.
+Lastly, the composite anomaly for the I-S+ case (Fig. 5d) shows 
+significant horizontal wind anomalies over Japan and the Korean 
+Peninsula. These horizontal wind anomalies are accompanied by posi­
+tive vertical motion anomalies implying stable weather over these 
+countries during this case. The anomalous easterlies throughout the 
+entire tropical region are not statistically significant but still imply a 
+slight enhancement in the easterly trade winds. Perhaps the most 
+striking feature in this case is the westward and southward extension of 
+the WNPSH. The 5870 gpm contour line in this case extends towards 
+mainland China and almost touches the northern tip of Luzon Island.
+Composite anomalies of the 850 hPa stream function and 700 hPa 
+relative humidity were created and shown in Fig. 6. This was done in 
+order to identify anomalous circulations over the WNP during each case, 
+as well as any anomalies in relative humidity, which may be directly 
+related to precipitation. The composite anomaly for the D+S- case 
+(Fig. 6a) shows a large anomalous anticyclonic circulation over the 
+eastern coast of China, centered at around 30◦N and 125◦E. 
+Fig. 4. Time series of the (a) PD, (b) PI, and (c) PSM anomalies for the years 
+1961 to 2022. The 0.6 SD threshold is depicted by the two horizontal broken 
+lines. The shaded region indicates the years with no significant anomalies.
+Table 3 
+List of years in each rainfall variability type.
+D+S+
+D+S-
+D-S+
+D-S-
+I+S+
+I+S-
+I-S+
+I-S-
+1977
+1968
+1967
+1976
+1972
+1964
+1988
+1981
+1989
+1986
+1969
+2004
+2013
+1979
+2009
+1998
+1995
+1970
+1996
+2017
+2003
+1990
+2002
+2016
+2019
+A.A.L. Bathan et al.                                                                                                                                                                                                                            
+Atmospheric Research 326 (2025) 108273 
+7 
+
+Accompanying this anomalous anticyclone is a broad region of negative 
+relative humidity anomalies. These two anomalies indicate drier and 
+more stable weather over this region during these years. The anomalous 
+anticyclone may also affect the tracks of TCs, which may be the reason 
+for the anomalously high direct TC rainfall amount during this case. The 
+anomalous anticyclone prevents TCs over the Philippine Sea to track 
+north, towards the east of Taiwan and China. Instead, the TCs are forced 
+to take a more west/northwestward track over the Luzon Strait. On the 
+other hand, the composite anomaly for the D-S+ case (Fig. 6b) shows a 
+subtle anomalous cyclonic circulation over Taiwan. The absence of the 
+anomalous anticyclone allows TCs to take a more northwesterly track 
+compared to the D+S- case, which leads to less TCs directly affecting the 
+Philippines. The anomalous westerlies during this case can be seen as the 
+positive stream function values along the entire basin, south of 15◦N. 
+Lastly, a large region of negative relative humidity anomalies can be 
+found to the west of the Malay Peninsula.
+The composite anomaly for the I+S- case (Fig. 6c) features an 
+anomalous anticyclonic circulation southwest of the Korean Peninsula. 
+The anomalous easterlies can be seen as the negative stream function 
+values across the region, south of 15◦N. This case also features the most 
+negative relative humidity anomalies among all the other cases. Large 
+regions of the Indochina Peninsula, the Philippines, and even deep into 
+the Pacific Ocean experiences drier conditions.
+Lastly, the composite anomaly for the I-S+ case (Fig. 6d) features a 
+large anomalous cyclone to the southeast of Japan, centered at around 
+30◦N and 145◦E. This anomalous cyclone is accompanied by positive 
+relative humidity anomalies to its southeastern flank, and negative 
+relative humidity anomalies to its northwestern flank. An anomalous 
+anticyclone over Taiwan helps generate the anomalous easterlies and 
+the negative stream function values south of 15◦N. Perhaps the most 
+striking difference between this case and the previous case is the 
+abundance of positive relative humidity anomalies throughout the 
+basin. The Philippines and especially the Malay Peninsula seems to 
+experience wetter conditions during this case.
+The composites in Figs. 5 and 6 clearly display strong variations in 
+the wind flow over the WNP during the different variability types. The 
+presence of anomalous cyclones or anticyclones seem to be related to the 
+motion of the 850 hPa winds, as well as the vertical velocity and the 
+relative humidity. Anomalous cyclones seem to be accompanied by 
+negative vertical velocity and positive relative humidity values, while 
+anomalous anticyclones seem to be accompanied by positive vertical 
+velocity and negative relative humidity values. The anomalous circu­
+lations also either enhance or suppress the wind flows of the monsoon 
+and the trade winds.
+3.3.2. The moisture conveyor belt
+The previous section showed that anomalous horizontal winds and 
+anomalous circulations were able to enhance or suppress the monsoonal 
+flow. In order to determine if these anomalies have an influence on the 
+moisture transport in the SWM, moisture-related anomaly composites, 
+such as moisture flux, surface latent heat flux, and VIMFC, were created. 
+Bagtasa (2023) stated that not all TCs traversing the northeast of the 
+Philippines lead to enhanced rainfall over Luzon Island. In order for a 
+non-landfalling TC to produce enhanced rainfall, the MCB has to be 
+established first. Additionally, Hegde et al. (2016) showed the effect of 
+the SSTs in the Indian Ocean and the South China Sea with the MCB. 
+Their study found that lower SSTs in these two bodies of water lead to a 
+more structured MCB. Higher SSTs in these two bodies of water lead to a 
+less structured MCB. SST anomalies will be discussed in the next section. 
+This just goes to show that the MCB does not automatically form when a 
+Fig. 5. Spatial maps of 850 hPa horizontal wind anomalies (2 m s−1; vectors), 500 hPa vertical velocity anomalies (Pa s−1; upward motion - blue shades; downward 
+motion - red shades), and 500 hPa geopotential height (climatological 5870 gpm - gray contour line; composite 5870 gpm - black contour line) for (a) D+S-, (b) D-S+, 
+(c) I+S-, and (d) I-S+ years. The bold arrows and hatched regions are horizontal wind and vertical velocity anomalies that are statistically significant at the 90 % 
+confidence level, respectively. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+A.A.L. Bathan et al.                                                                                                                                                                                                                            
+Atmospheric Research 326 (2025) 108273 
+8 
+
+TC is present and the following composites may reveal the years wherein 
+the MCB is much more established, which may lead to more enhanced 
+rainfall cases. Kudo et al. (2014) and Fujiwara et al. (2017) identified the 
+presence of a MCB during select TC-enhanced SWM cases over the 
+Philippines, the South China Sea, and the Indochina Peninsula using 
+vertically integrated moisture flux and surface latent heat flux com­
+posites. Anomaly composites of these variables were created and shown 
+in Figs. 7 and 8 in order to help identify the presence of the MCB. The 
+longitudinal extent of the following figures were changed to include the 
+Arabian Sea in order to show the entire length of the MCB.
+Firstly, the moisture flux anomaly composite for the D+S- case 
+(Fig. 7a) features regions of both positive and negative moisture flux 
+anomalies. A long band of positive moisture flux anomalies is situated 
+over the Korean Peninsula and Japan. These anomalies may imply an 
+enhancement in the EAM during these years. The positive anomalies 
+over Taiwan and the Luzon Strait may be due to the frequent passing of 
+TCs in this area during this case. Another region of positive anomalies 
+can be seen to the southeast of Sri Lanka, while a region of negative 
+anomalies can be seen traversing the Indochina Peninsula.
+The composite anomaly for the D-S+ case (Fig. 7b) features positive 
+moisture flux anomalies over the Indian subcontinent, the Indochina 
+Peninsula, and some regions of the Philippines. The positive anomalies 
+over the Philippines may be the reason for the anomalously high SWM 
+rainfall during this case. Additionally, the positive anomalies over the 
+Indian subcontinent and the Indochina Peninsula suggests an enhance­
+ment in the monsoon in all of these regions. This hints at a possible 
+connection between the ISM and the SWM over the Philippines.
+The composite anomaly for the I+S- case (Fig. 7c) also shows hints of 
+a possible connection between the two monsoon systems. A long band of 
+negative moisture flux anomalies stretches from 70◦E to 140◦E, covering 
+numerous regions such as the Indian subcontinent, the Bay of Bengal, 
+the Indochina Peninsula, the South China Sea, and the Philippines. The 
+negative anomalies over the Philippines seem to be the reason for the 
+anomalously low SWM rainfall during this case. Furthermore, the 
+negative anomalies over the previously mentioned areas may also mean 
+reduced rainfall in the ISM region. This case also features subtle positive 
+anomalies over some parts of China and the Korean Peninsula, sug­
+gesting a small enhancement in the EAM. This is similar to the 
+enhancement in the EAM seen in the D+S- case (Fig. 7a), which may 
+suggest that the EAM is slightly stronger during S- years.
+Finally, the composite anomaly for the I-S+ case (Fig. 7d) shows a 
+similar band of negative moisture flux anomalies like the previous case, 
+but significantly weaker in magnitude. More regions of negative 
+anomalies can be found over the Korean Peninsula and Japan, as well as 
+a region to the south of Japan. Additionally, positive anomalies south of 
+20◦N and east of 145◦E suggest an enhancement in the moisture trans­
+port of the easterly trade winds. This is the only case which exhibits 
+anomalous behavior in the magnitude of the trade winds near the central 
+Pacific. While the previous case does show easterly moisture flux 
+anomalies in the tropical region, these anomalies do not extend towards 
+the central Pacific, hinting that the anomalies during the I+S- case are 
+caused by the weakening of the monsoon. The easterly moisture flux 
+anomalies during this case, on the other hand, originate from the central 
+Pacific and actually weaken in magnitude towards the east. This hints 
+that the SWM during this case does not weaken as much as the previous 
+case, but instead, the easterly trade winds are enhanced significantly.
+The composite anomalies of the surface latent heat flux for each 
+rainfall variability type are shown in Fig. 8. The composite anomaly for 
+the D+S- case (Fig. 8a) shows minimal surface latent heat flux anomalies 
+in the region, with only small patches of positive anomalies over the 
+Fig. 6. Spatial maps of 850 hPa stream function anomalies (×106 m2 s−1; contour lines) and 700 hPa relative humidity anomalies (%; shades) for (a) D+S-, (b) D-S+, 
+(c) I+S-, and (d) I-S+ years. The gray regions and hatched regions are stream function and relative humidity anomalies that are statistically significant at the 90 % 
+confidence level, respectively.
+A.A.L. Bathan et al.                                                                                                                                                                                                                            
+Atmospheric Research 326 (2025) 108273 
+9 
+
+western portion of the Indian subcontinent, and a region in the Pacific 
+Ocean to the east of Taiwan. On the other hand, the composite anomaly 
+for the D-S+ case (Fig. 8b) shows significantly more positive anomalies. 
+Regions in the Arabian Sea, and the entirety of the Bay of Bengal features 
+significant positive surface latent heat flux anomalies. Positive anoma­
+lies are also present over the Philippines. These anomalies suggest 
+higher rates of evaporation in these waters, which may lead to stronger 
+convection.
+The most striking feature in the composite anomaly for the I+S- case 
+(Fig. 8c) is the region of strong negative surface latent heat flux anom­
+alies close to the equator, at around 130◦E. The previous composites, as 
+well as studies which use moisture flux and surface latent heat flux 
+(Kudo et al., 2014; Fujiwara et al., 2017) show a close relationship be­
+tween moisture flux and surface latent heat flux anomalies. The afore­
+mentioned anomaly, however, does not clearly show up in the moisture 
+flux anomaly for this case. Aside from this region, the Bay of Bengal and 
+the South China Sea also feature negative surface latent heat flux 
+anomalies, which is expected as these regions show negative moisture 
+flux anomalies during this case. Additionally positive anomalies are 
+found over the Pakistan-India border, slightly similar to the D+S- case, 
+as well as over the Gulf of Tonkin, west of Hainan Island.
+Finally, the composite anomaly for the I-S+ case (Fig. 8d) shows 
+some negative anomalies over the Philippines and the Bay of Bengal. A 
+region of negative anomalies can also be seen to the south of Japan, 
+which is expected as this region also shows negative moisture flux 
+anomalies during this case. Positive anomalies at around 17◦N and 
+150◦E to 180◦E imply higher evaporation rates, possibly due to the 
+slightly stronger easterly trade winds.
+Next, in order to determine the possible regions of high precipitation, 
+composite anomalies of VIMFC for all the rainfall variability types were 
+created and are shown in Fig. 9. The spatial distribution of the VIMFC 
+anomalies seen in this figure somewhat resembles the spatial distribu­
+tion of the 500 hPa vertical velocity anomalies (Fig. 5), the positions of 
+the anomalous circulations, and the spatial distribution of the 700 hPa 
+relative humidity anomalies (Fig. 6). It may be possible that the anom­
+alous circulations that occur during the various rainfall variability types 
+either enhance or suppress vertical motion, which affects the moisture 
+flux convergence and relative humidity. This may suggest that vertical 
+motion and the convergence of moisture flux are very closely related 
+especially in the formation of thunderstorms and the occurrence of 
+extreme precipitation events.
+The composite anomaly for the D+S- case (Fig. 9a) features patches 
+of negative VIMFC anomalies between 22◦N to 32◦N and 118◦E to 
+138◦E, which affect the island of Taiwan, some parts of the eastern coast 
+of China, and the Ryukyu Islands. This area coincides with the large 
+anomalous anticyclone as seen in Fig. 6a, and suggest that this region 
+experiences suppressed rainfall. On the other hand, the composite 
+anomaly for the D-S+ case (Fig. 9b), shows small patches of negative 
+VIMFC anomalies from 120◦E to 160◦E. These patches cover some re­
+gions of eastern Philippines, which may suggest lesser rainfall in these 
+regions during these years. This may be due to the fact that the 
+Philippines experiences less TC interaction during D- cases.
+The composite anomaly for the I+S- (Fig. 9c) shows numerous re­
+gions of negative VIMFC anomalies. Some parts of East Asia, the 
+Philippines, and Myanmar experience negative anomalies during this 
+case. The negative anomalies over Myanmar in particular may be the 
+Fig. 7. Vertically integrated water vapor flux magnitude (kg m−1 s−1; shades) 
+and direction (100 kg m−1 s−1; vector) anomalies for (a) D+S-, (b) D-S+, (c) 
+I+S-, and (d) I-S+ years. The hatched regions are anomalies that are statistically 
+significant at the 90 % confidence level.
+Fig. 8. Surface latent heat flux anomalies (W m−2; shaded), and 10 m hori­
+zontal wind anomalies (2 m s−1; vectors) during (a) D+S-, (b) D-S+, (c) I+S-, 
+and (d) I-S+ years. The hatched regions are anomalies that are statistically 
+significant at the 90 % confidence level.
+A.A.L. Bathan et al.                                                                                                                                                                                                                            
+Atmospheric Research 326 (2025) 108273 
+10 
+
+effect of the negative moisture flux and surface latent heat flux anom­
+alies as seen in the previous composites, which suggest a slightly sup­
+pressed monsoon. Finally, the composite anomaly for the I-S+ case 
+(Fig. 9d) only features small VIMFC anomalies scattered throughout the 
+entire region. Most of these anomalies are over water and do not affect 
+land, aside from the negative anomalies over the Korean Peninsula.
+Fig. 9. Spatial maps of vertically integrated moisture flux convergence anomalies (×10−5 kg m2 s−1) for (a) D+S-, (b) D-S+, (c) I+S-, and (d) I-S+ years. The hatched 
+regions are anomalies that are statistically significant at the 90 % confidence level.
+Fig. 10. Sea surface temperature anomalies (◦C) for (a) D+S-, (b) D-S+, (c) I+S-, and (d) I-S+ years. The hatched regions are anomalies that are statistically sig­
+nificant at the 90 % confidence level.
+A.A.L. Bathan et al.                                                                                                                                                                                                                            
+Atmospheric Research 326 (2025) 108273 
+11 
+
+These moisture-related composites were able to depict the moisture 
+transport via the SWM during the different rainfall variability types. 
+There were pronounced variations in the moisture transport throughout 
+the different cases, such as the negative moisture flux anomalies in the 
+I+S- case, which may imply a weaker monsoon during these years. The 
+variations in the intensity of the moisture transport were also reflected 
+in the VIMFC composites. For example, the negative moisture flux 
+anomalies over the Indochina Peninsula are accompanied by negative 
+VIMFC anomalies over Myanmar in the I+S- case.
+3.3.3. Tropical cyclone behavior
+Firstly, the number of TCs that entered the domain for each rainfall 
+variability type was calculated. On average, there were 10, 8.3, 12.6, 
+and 7.3 TCs that entered the domain during the D+S-, D-S+, I+S-, and I- 
+S+ cases, respectively. For comparison, the average number of JAS TCs 
+that entered the domain during the years of 1961 to 2022 is 9.6. Years 
+with high TC-related rainfall, which were the cases with D+ and I+, had 
+TC numbers that were above the mean. Meanwhile, years with low TC- 
+related rainfall, which were the cases with D- and I-, had TC numbers 
+that were well below the mean.
+Composite anomalies of the sea surface temperature were created for 
+each variability type and are shown in Fig. 10. This was done in order to 
+determine the regions in the ocean where TC formation was either 
+favorable or unfavorable, as well as to possibly determine the effects of 
+SSTs on the monsoon rainfall over Luzon. Wang et al. (2005) and Kubota 
+et al. (2016) discovered that summer monsoon rainfall over Luzon and 
+the SSTs in the ocean waters surrounding Luzon are negatively corre­
+lated. This means that the atmosphere affects the SST more than the SST 
+affects the atmosphere. This negative correlation may be due to the 
+stronger surface wind, more cloud cover and rainfall associated with the 
+monsoon being able to cool the ocean waters. SST variations have also 
+been found to have an effect on the structure of the MCB (Hegde et al., 
+2016).
+The SST composites only show minimal anomalies in the SST of the 
+waters around the Philippines, except for the I-S+ case (Fig. 10d). Ma­
+jority of the SST anomalies are found to the north of 30◦N and seem to be 
+related to the SWM rainfall anomalies over the Philippines. The “S-” 
+cases, which are D+S- (Fig. 10a) and I+S- (Fig. 10c) feature very sig­
+nificant negative SST anomalies to the north of 30◦N. Meanwhile, the 
+“S+” cases, which are D-S+ (Fig. 10b) and I-S+ (Fig. 10d) feature very 
+significant positive SST anomalies to the north of 30◦N. The only com­
+posite which shows SST anomalies in the tropical region is the I-S+
+composite. During this case, almost the entire WNP basin displays pos­
+itive SST anomalies, which is something frequently observed during La 
+Ni˜na conditions. It is also possible that the lack of indirect TC rainfall 
+during the I-S+ case is the reason for the positive SST anomalies around 
+the Philippines, similar to the findings of Wang et al. (2005) and Kubota 
+et al. (2016).
+Another parameter that affects the formation and behavior of TCs is 
+vertical wind shear. It has been frequently observed in previous studies 
+that high values of vertical wind shear is detrimental to TC formation 
+and development. The composite anomalies of the vertical wind shear 
+were created for each rainfall variability type and are shown in Fig. 11. 
+The vertical wind shear composite anomaly during the D+S- case 
+(Fig. 11a) only shows two regions of strong anomalies. The first region is 
+the long region of positive anomalies north of 30◦N and stretches from 
+110◦E until 160◦E. The anomalies in this region are most likely related to 
+the East Asian westerly jet stream, which flows over the Korean Penin­
+sula and Japan. The positive anomalies imply that the jet stream is 
+stronger during this case. Between Taiwan and the Philippines is a re­
+gion of negative vertical wind shear anomalies that stretch from 100◦E 
+to 145◦E. The weak vertical wind shear may benefit the intensification of 
+Fig. 11. Vertical wind shear anomalies (m s−1) for (a) D+S-, (b) D-S+, (c) I+S-, and (d) I-S+ years. The hatched regions are anomalies that are statistically significant 
+at the 90 % confidence level.
+A.A.L. Bathan et al.                                                                                                                                                                                                                            
+Atmospheric Research 326 (2025) 108273 
+12 
+
+TCs that pass through this region. Unlike the first case, the vertical wind 
+shear composite anomaly during the D-S+ case (Fig. 11b) shows a large 
+region of positive anomalies east of the Philippines and stretching up to 
+160◦N. These positive anomalies are barely statistically significant but 
+can still possibly be detrimental to the formation and intensification of 
+TCs. This may explain the low number of TCs that form during the D-S+
+case, since the positive vertical wind shear anomalies are situated in the 
+area where TCs usually form and pass through. This may also be the 
+reason for the low TC-related rainfall during this case.
+The vertical wind shear composite anomaly during the I+S- case 
+(Fig. 11c) is somewhat the opposite of the previous case. The positive 
+anomalies over the Korean Peninsula and Japan imply a slight 
+strengthening in the jet stream. Meanwhile, almost the entire equatorial 
+region of the WNP basin features negative vertical wind shear anoma­
+lies. These anomalies may affect TC genesis and formation especially if 
+the TC forms closer to the equator, where the anomalies are. Finally, the 
+vertical wind shear composite anomaly during the I-S+ case (Fig. 11d) 
+features a region of significant positive vertical wind shear anomalies 
+over the Korean Peninsula and Japan, which is similar to the D+S- 
+(Fig. 11a) and I+S- cases (Fig. 11c), albeit greater in magnitude. There 
+seem to be no vertical wind shear anomalies in the areas where TCs 
+usually pass through.
+In order to determine the overall behavior of the TCs during the 
+different rainfall variability types, the tracks and genesis points of the 
+TCs were also analyzed. Fig. 12 is a density anomaly map of all TC 
+observation points for each rainfall variability type. The red grid boxes 
+indicate a positive number of TC observation points with respect to the 
+climatological average (positive anomalies), while the blue grid boxes 
+indicate a negative number of TC observation points (negative anoma­
+lies). The size of the grid boxes are 2.5◦× 2.5◦. Along with the anomaly 
+maps are the mean TC genesis points during each rainfall variability 
+type. The mean TC genesis point is depicted by a black star.
+The density anomaly map for the D+S- case (Fig. 12a) features 
+positive TC anomalies around the northwestern tip of the Philippines 
+and the southern tip of Taiwan. The positive TC anomaly in this region 
+explains the high direct TC rainfall amount, since the anomalous grid 
+boxes are inside the 500 km radius of the nearest station. Another TC 
+hotspot can be found to the east of Hainan Island, at around 18◦N and 
+112◦E. This may imply that TCs take a relatively west/northwestward 
+track, which crosses the Luzon Strait in order to reach this hotspot. The 
+positive anomaly grid boxes seen near Luzon also coincide with the re­
+gion of negative vertical wind shear anomalies as seen in Fig. 10a. The 
+favorable conditions in this area may result in stronger TCs, which bring 
+more rainfall to the country.
+On the other hand, the density anomaly map for the D-S+ case 
+(Fig. 12b) shows almost the complete opposite. The northern half of the 
+Philippines is covered with negative TC anomalies, which means that 
+there are less TCs affecting the country during this case. This explains 
+the anomalously low direct TC rainfall during these years. The positive 
+wind shear anomalies covering vast regions of the WNP, as seen in 
+Fig. 10b, may be one of the reasons for the lower TC count. The positive 
+TC anomalies in this case are found to the northeast of the Philippines 
+but seem to be more than 500 km away from Luzon Island. This means 
+that TCs during this case simply recurve away from Luzon Island.
+The density anomaly map for the I+S- case (Fig. 12c) features the 
+most grid boxes with positive TC anomalies compared to the other cases. 
+A large area of positive TC anomalies are located to the east of Taiwan, 
+at around 132◦E. This region is farther than 500 km from any of the 
+stations, and the high amount of TCs inside this region explains the high 
+indirect TC rainfall value during this case. The same can be said with the 
+other large area of positive TC anomalies to the east of the Philippines. 
+These two TC hotspots may explain the high indirect TC rainfall during 
+this case as TCs in this location are able to enhance the SWM and bring 
+rainfall over the country.
+Fig. 12. TC density anomaly map in 2.5◦× 2.5◦grid boxes (shades) and mean TC genesis point (star) for (a) D+S-, (b) D-S+, (c) I+S-, (d) and I-S+ years.
+A.A.L. Bathan et al.                                                                                                                                                                                                                            
+Atmospheric Research 326 (2025) 108273 
+13 
+
+Finally, the density anomaly map for the I-S+ case (Fig. 12d) clearly 
+shows the below average number of TCs during this case, as seen by the 
+abundant presence of negative TC anomalies over the basin. This case 
+also features the only significant change in TC genesis position. The 
+mean TC genesis position in this case is shifted by around 5◦to the east. 
+The lack of TCs, and the fact that the mean TC genesis position is inside 
+the study domain means that the indirect TC days are fewer during this 
+case, which explains the low indirect TC rainfall amount.
+The various composites shown suggest that there are noticeable 
+changes in the favorable TC zones in the basin throughout the various 
+rainfall variability types. There are also significant changes in the TC 
+tracks between the different rainfall variability types and a significant 
+change in TC genesis point during the I-S+ type.
+3.3.4. TC tracks during specific years
+To provide a deeper analysis, a specific year for each rainfall vari­
+ability type was chosen and the TC tracks of the chosen years were 
+studied. The most recent years in each rainfall variability type were 
+chosen in order to keep the analysis as close to the present as possible. 
+The years 2003, 2019, 1996, and 2017 were chosen from the D+S-, D- 
+S+, I+S-, and I-S+ categories, respectively. Fig. 13 shows the tracks of 
+the TCs during the JAS months of the four selected years.
+The year 2003, representing the D+S- case, is shown in Fig. 13a and 
+features nine JAS TCs. Out of the nine TCs, three made direct landfall 
+over the Philippines, while two more traversed the Luzon Strait. This 
+means that more than half of the TCs during this time came in close 
+proximity to the Philippines, which led to the high direct TC rainfall 
+measured over the country. Three of the four TCs that did not impact the 
+Philippines directly followed very similar tracks. These TCs approached 
+the Ryukyu Islands from the southwest before heading north and 
+eventually northeast towards Japan. These TCs were not enough in 
+number to produce high amounts of indirect TC rainfall over the entire 
+three-month period. Their distance away from the Philippines also 
+meant that any indirect TC rainfall observed was not as intense.
+The year 2019, representing the D-S+ case, is shown in Fig. 13b and 
+features nine JAS TCs as well. Out of the nine TCs, only one made direct 
+landfall over the Philippines, while another one traversed the Luzon 
+Strait. Some TCs that pass through the east of Luzon Island do enter the 
+500 km radius of the nearest station but only for a very short time; 
+therefore, the direct TC rainfall measured was very small. The lack of 
+TCs directly affecting the Philippines during this year is the cause for the 
+low direct TC rainfall amount. Out of the nine TCs, five passed through 
+the gap between Taiwan and the island of Okinawa. These TCs even­
+tually traverse the East China Sea and affect eastern China, the Korean 
+Peninsula, and Japan. This is significantly different from the year 2003, 
+wherein only two TCs passed through the East China Sea.
+The year 1996, representing the I+S- case, is shown in Fig. 13c and 
+features twelve JAS TCs. Out of the twelve TCs, two made direct landfall 
+over the Philippines, while two more traversed the Luzon Strait. These 
+TCs, along with the numerous TCs northeast of the Philippines, 
+contributed to the high amount of indirect TC rainfall for this year. It is 
+also worth noting that in this case, TCs form much deeper into the Pa­
+cific Ocean. Five out of the twelve TCs originated east of 150◦E, which is 
+not the case in the previous cases.
+The year 2017, representing the I-S+ case, is shown in Fig. 13d and 
+features nine JAS TCs. Out of the nine TCs, two made direct landfall over 
+the Philippines, while two more traversed the Luzon Strait. The most 
+obvious trait that can be seen in this case is the length of the TC tracks, 
+which are significantly shorter than the tracks in the other cases. This is 
+due to the westward shift in genesis positions during the I-S+ case. 
+Despite having some TCs present northeast of the Philippines, as well as 
+some TCs near Hainan Island, the shortness in the tracks of the TCs that 
+pass through the northeast of the Philippines may imply that these TCs 
+are not as strong as the TCs in the previous cases as they did not have 
+enough time to intensify. This might explain the lower amount of indi­
+rect TC rainfall for this year.
+3.4. Total rainfall analysis
+The study conducted by Chen et al. (2010a) created composites of 
+the anomalously wet years and the anomalously dry years in order to 
+determine if their approach in dividing the total rainfall into PD and PSM 
+Fig. 13. TC tracks during the JAS months of (a) 2003, (b) 2019, (c) 1996, and (d) 2017.
+A.A.L. Bathan et al.                                                                                                                                                                                                                            
+Atmospheric Research 326 (2025) 108273 
+14 
+
+provided more insights compared to using just one index of total rainfall. 
+We did the same by adding the PD, PI, and PSM, of each year then 
+calculating the mean in order to determine each year’s total rainfall 
+anomalies. Using one SD as the threshold, seven years of anomalously 
+high rainfall (TR+) and twelve years of anomalously low rainfall (TR-) 
+were detected. The list of years and the PD, PI, and PSM anomalies for 
+each year is shown in Table 4.
+It seems that the positive anomalies in total rainfall for the TR+ type 
+can not be attributed to just one single rainfall type. Out of the seven 
+TR+ years, three years had significant PD anomalies (1962, 1986, 2002), 
+three years had significant PI anomalies (1972, 2012, 2002), and three 
+years had significant PSM anomalies (1972, 2018, 2002). Significant 
+anomalies are defined as anomalies greater than one SD of the respective 
+rainfall type’s yearly values. The same is true for the TR- type. Out of the 
+twelve TR- years, three years had significant PD anomalies (2004, 1975, 
+2020), six years had significant PI anomalies (1988, 1981, 2010, 1998, 
+1975, 2020), and two years had significant PSM anomalies (1987, 1971). 
+This means that categorizing years only based on the total rainfall 
+cannot explicitly identify the cause of the positive or negative anoma­
+lies, whether it be from direct TC, indirect TC, or SWM rainfall.
+The composite anomalies of the TR+ and TR- types were also 
+examined. Fig. 14 shows the 850 hPa horizontal wind, 500 hPa vertical 
+velocity, 850 hPa stream function, 700 hPa relative humidity anomalies, 
+as well as the position of the WNPSH depicted by the 5870 gpm contour 
+line of the 500 hPa geopotential height.
+Fig. 14a and b show the horizontal wind and vertical velocity com­
+posite anomalies, as well as the 5870 gpm contour line for the TR+ and 
+TR- types, respectively. The TR+ type (Fig. 14a) is dominated by strong 
+anomalous westerlies south of 10◦N, which enhances the monsoon flow 
+and suppresses the easterly trade winds. From 20◦N to 30◦N and east of 
+125◦E is a region of strong anomalous easterlies. The climatological 
+horizontal wind composites (Fig. 2a) show that southeasterly winds 
+dominate this region. Anomalous easterlies in this region suggest that 
+the easterly components of these southeasterly winds intensified during 
+these years. Positive vertical velocity anomalies can be found over some 
+regions of the Indochina Peninsula, at around 10◦N to 15◦N and 100◦E to 
+110◦E, and over the western coast of Luzon. These positive vertical ve­
+locity anomalies are most likely due to the enhanced monsoon flow that 
+passes through these regions. The positive vertical velocity anomalies 
+east of 135◦N may be due to the monsoon trough, where the enhanced 
+monsoon flow converges with the easterly trade winds. Near the equator 
+are negative vertical velocity anomalies, which suggests suppressed 
+convection over some areas of the Indonesian archipelago. Finally, the 
+5870 gpm contour line suggests that the WNPSH is slightly shifted to the 
+northeast during these years. This shift in the WNPSH might be the 
+reason for the stronger monsoon flow.
+The TR- type (Fig. 14b) is dominated by strong anomalous easterlies 
+south of 15◦N, which implies enhanced easterlies and suppressed 
+monsoon winds. Negative vertical velocity anomalies are present over 
+the eastern coast of Myanmar, which slightly extends into the Bay of 
+Bengal, some regions in the Indochina Peninsula, and some parts of the 
+western coast of Luzon. These anomalies are due to the suppressed 
+monsoon flow. Negative vertical velocity anomalies are also found near 
+the equator, east of 140◦E. Near the equator, west of 130◦E are positive 
+vertical velocity anomalies, which imply enhanced convection over the 
+Indonesian archipelago. The 5870 gpm contour line also shows a 
+noticeable westward shift in the location of the WNPSH. This shift in the 
+WNPSH might be the reason for the stronger trade winds.
+Fig. 14c and d show the stream function and relative humidity 
+composite anomalies for the TR+ and TR- types, respectively. The TR+
+type (Fig. 14c) shows a large anomalous cyclonic circulation centered at 
+20◦N and 130◦E. The southern half of this anomalous cyclone contrib­
+utes to the anomalous westerlies, while the northern half of this 
+anomalous cyclone contributes to the anomalous easterlies seen in the 
+TR+ horizontal wind composite anomaly (Fig. 14a). A strong anomalous 
+anticyclone is also present east of Japan, which also contributes to the 
+anomalous easterlies. Positive relative humidity anomalies can be seen 
+stretching from 100◦E to 160◦E. This region of positive relative humidity 
+traverses the majority of the Philippines, implying wetter weather over 
+the area.
+The TR- type (Fig. 14d) shows a broad anomalous anticyclonic cir­
+culation centered at 20◦N and 120◦E, and a smaller anomalous anticy­
+clonic circulation over the western coast of Myanmar. These anomalous 
+circulations contribute to the anomalous easterlies seen in the TR- 
+horizontal wind composite anomaly (Fig. 14b). Near the equator, from 
+100◦E to 130◦E are positive relative humidity anomalies, which suggest 
+wetter weather over the Indonesian archipelago. Negative relative hu­
+midity anomalies are also found near the equator, east of 140◦E.
+Composite anomalies of the vertically integrated water vapor flux 
+were also created for both the TR+ and TR- cases, and are shown in 
+Fig. 15. The moisture flux composite anomaly for the TR+ type is shown 
+in Fig. 15a. A large region of positive moisture flux anomalies can be 
+seen stretching from 85◦E to 140◦E. This large area of anomalies covers 
+the entire Malay Peninsula, the southern tip of the Indochina Peninsula, 
+and the majority of the Philippines, leading to enhanced rainfall over 
+these regions. To the east of this region of positive moisture flux 
+anomalies is a large region of negative moisture flux anomalies.
+The moisture flux composite anomaly for the TR- type is shown in 
+Fig. 15b. A large region of negative moisture flux anomalies are present 
+from 75◦E to 135◦E. This region of negative moisture flux anomalies 
+cover some regions of southern India, the Bay of Bengal, the Malay 
+Peninsula, the southern tip of the Indochina Peninsula, and the majority 
+of the Philippines, implying suppressed rainfall over these regions. To 
+the east of this region of negative moisture flux anomalies is a large 
+region of positive moisture flux anomalies, which implies stronger 
+moisture transport by the easterly trade winds.
+Although the total rainfall composites were able to show the strong 
+horizontal wind and moisture flux anomalies that are present in the TR+
+and TR- cases, the composites imply that the rainfall anomalies are due 
+to the enhancement or suppression of the SWM flow over the 
+Philippines. In reality, this is not usually the case, as seen in the year 
+1986 (Table 4), which shows that the reason for the high rainfall 
+anomaly is direct TC rainfall and not indirect TC or SWM rainfall. 
+Breaking down rainfall into the three different types before analyzing 
+allows more large-scale processes to show up in the composites, such as 
+the anomalous anticyclone in the D+S- type (Fig. 6a), which may force 
+TCs to travel a more west/northwestward track, thus producing more 
+direct rainfall over the Philippines.
+Table 4 
+List of years with anomalously high or anomalously low JAS total rainfall. The 
+total, direct TC, indirect TC, and SWM rainfall anomalies for each year are 
+included.
+Type
+Year
+P anomaly
+PD anomaly
+PI anomaly
+PSM anomaly
+TR+
+1972
++1140.5
+−59.0
++774.7
++424.8
+2012
++789.5
+−20.2
++743.1
++66.6
+1962
++603.1
++328.8
++220.9
++54.0
+2018
++539.8
++31.4
++35.5
++473.0
+1986
++462.1
++590.9
++62.3
+−191.1
+2013
++403.0
++52.7
++158.7
++191.6
+2002
++387.1
+−230.0
++297.9
++319.2
+TR-
+1985
+−350.8
+−112.4
+−121.4
+−117.0
+2005
+−354.7
+−59.6
+−84.1
+−210.9
+1987
+−355.0
+−34.5
++19.7
+−340.2
+1988
+−369.7
+−134.2
+−369.7
++134.3
+1971
+−381.0
+−10.1
+−89.1
+−281.9
+2004
+−389.6
+−203.6
++11.6
+−197.6
+2022
+−401.2
+−56.3
+−221.6
+−123.3
+1981
+−403.8
++10.2
+−254.9
+−159.1
+2010
+−446.8
+−110.3
+−303.5
+−33.0
+1998
+−466.0
+−23.4
+−267.4
+−175.3
+1975
+−574.2
+−181.3
+−338.6
+−54.2
+2020
+−606.6
+−199.8
+−410.0
++3.2
+A.A.L. Bathan et al.                                                                                                                                                                                                                            
+Atmospheric Research 326 (2025) 108273 
+15 
+
+4. Summary and Conclusions
+This study analyzed the interannual variability of direct TC, indirect 
+TC (TC-enhanced SWM), and SWM (no TC) rainfall using rainfall data 
+from 11 stations along the western coast of the Philippines. Previous 
+studies that discussed TC-enhanced SWM rainfall, such as Cayanan et al. 
+(2011) and Bagtasa (2019), focused on select enhanced SWM cases or 
+HPEs instead of analyzing the year-to-year variability over several 
+decades. This study was able to separate the SWM rainfall experienced 
+by the western coast of the country into PD, PI, and PSM, and analyze the 
+characteristics of years with anomalously high or anomalously low 
+values in one or more of the rainfall categories. Climatologically, PD, PI, 
+and PSM account for 15.4 %, 33.1 %, and 51.5 % of the total yearly SWM 
+rainfall, respectively, and these yearly values tend to vary from year-to- 
+year.
+The categorization of the rainfall allowed for the creation of four 
+rainfall variability types with a large enough sample size. In particular, 
+the categories are as follows for years with: (1) an anomalously high PD 
+but an anomalously low PSM (D+S-), (2) an anomalously low PD but an 
+anomalously high PSM (D-S+), (3) an anomalously high PI but an 
+anomalously low PSM (I+S-), and finally, (4) an anomalously low PD but 
+an anomalously high PSM (I-S+). This procedure is similar to Chen et al. 
+(2010a), which created variability types depending on the TC and SWM 
+rainfall. In this study, due to the well-known enhancement of the SWM 
+whenever a TC is in the vicinity, the indirect TC (I+ and I-) category was 
+created. The processes and driving mechanisms behind the rainfall 
+variability for each case is illustrated in the schematic diagram shown in 
+Fig. 16.
+The D+S- case features an above average number of TCs at around 10 
+TCs per JAS season. These TCs track westwards and skim the northern 
+portion of the Philippines due to the strong anomalous anticyclone to the 
+north of Taiwan. The low vertical wind shear over the region where the 
+TCs usually pass allows for better formation and intensification of the 
+TCs. The close proximity to land leads to a high direct TC rainfall amount 
+observed over stations.
+The D-S+ case features a below average number of TCs at around 8.3 
+TCs per JAS season. This may be due to the positive vertical wind shear 
+anomalies encompassing large regions of the tropical WNP, which 
+Fig. 14. 850 hPa horizontal wind anomalies (2 m s−1; vectors), 500 hPa vertical velocity anomalies (Pa s−1; upward motion - blue shades; downward motion - red 
+shades), and 500 hPa geopotential height (climatological 5870 gpm - gray contour line; composite 5870 gpm - black contour line) for (a) TR+ and (b) TR- years. 850 
+hPa stream function anomalies (×106 m2 s−1; contour lines) and 700 hPa relative humidity anomalies (%; shades) for (c) TR+ and (d) TR- years. The bold arrows, 
+gray regions, and hatched regions are anomalies that are statistically significant at the 90 % confidence level, respectively. (For interpretation of the references to 
+colour in this figure legend, the reader is referred to the web version of this article.)
+Fig. 15. Vertically integrated water vapor flux magnitude (kg m−1 s−1; shades) 
+and direction (100 kg m−1 s−1;vector) anomalies for (a) TR+ and (b) TR- years. 
+The hatched regions are anomalies that are statistically significant at the 90 % 
+confidence level.
+A.A.L. Bathan et al.                                                                                                                                                                                                                            
+Atmospheric Research 326 (2025) 108273 
+16 
+
+possibly hinders TC formation. The anomalous cyclone over Taiwan 
+pushes TCs away from Luzon Island. This allows the TCs that form to 
+take on a more northwesterly track, following the edge of the WNPSH. 
+The low number of TCs and the non-landfalling nature of these TCs 
+explain the low direct TC rainfall amount observed by the stations 
+during this case. Additionally, the enhanced westerly moisture transport 
+over the Philippines may be the reason for the anomalously high SWM 
+rainfall during this case.
+The I+S- case features a high number of TCs at around 12.6 TCs per 
+JAS season. The TCs during this case seem to recurve away from the 
+Philippines, which leads to a high number of indirect TC days and in­
+direct TC rainfall. The moisture flux composites reveal that SWM is 
+significantly suppressed during this case. Parts of the ISM are also 
+significantly suppressed, hinting that the weakening of the monsoon 
+during this case is not just localized to the WNP basin. The suppressed 
+SWM is the cause for the anomalously low SWM rainfall during this case.
+Finally, the I-S+ case features a below average number of TCs at 
+around 7.3 TCs per JAS season. The WNPSH is shifted significantly to the 
+west, which forces TCs to take on a more westward track. The trade 
+winds are stronger during this case and the mean TC genesis point is 
+shifted to the west by around 5◦. The low number of TCs, westward shift 
+in genesis positions, and the westward track of these TCs are the reason 
+for the low indirect TC rainfall measured. Furthermore, the low number 
+of TCs allows the direct TC rainfall to not reach anomalously high values 
+even if TCs during this case seem to directly affect the Philippines 
+instead of recurving northward. The lower TC count means a higher no 
+TC day count, which explains the higher SWM rainfall measured through 
+the years in this case.
+Based on the analysis conducted, clear differences in the atmospheric 
+processes occurring over the WNP can be observed throughout the 
+various rainfall variability types. Determining the processes occurring 
+during a certain year might give insights on the possible type of rainfall 
+and rainfall amount the Philippines might experience during that year, 
+which may lead to improvements in the forecasting of possible heavy 
+rainfall events caused by the TC-enhanced SWM. Additionally, some of 
+these processes affect the behavior of TCs such as the anomalous cir­
+culations, vertical wind shear anomalies, WNPSH position, and SST. A 
+better understanding regarding these processes may help in the fore­
+casting of TCs during that specific year, which would greatly help in 
+disaster mitigation and evacuation efforts.
+A potential area of discussion for future studies are the rainfall 
+variability types that did not meet the three-year threshold (D+S+, 
+D–S–, I+S+, I–S–). The rainfall variability types discussed in this 
+study are composed of rainfall anomalies that are opposite to one 
+another. Years with high direct or indirect rainfall also have low SWM 
+rainfall, and vice versa. It would be interesting to analyze the composites 
+of years wherein both rainfall types are anomalously high or anoma­
+lously low since these will be the years that truly represent the extremes.
+Another area for future discussion is the relationship between the 
+rainfall variability types and ENSO. It is recognized that ENSO plays key 
+roles in large-scale circulation patterns and the total rainfall variability 
+over the western coast of the Philippines. For instance Kubota and Wang 
+(2009) discussed the interannual rainfall variability in the WNP due to 
+TCs and determined that TC rain is greatly affected by ENSO since ENSO 
+modulates the TC activity over the WNP. A strong WNPSM typically 
+occurs during El Ni˜no developing or La Ni˜na decaying years, and a weak 
+WNPSM typically occurs during El Ni˜no decaying or La Ni˜na developing 
+years (Chou et al., 2003). However, we only found fewer cases of the 
+different variability types during El Ni˜no and La Ni˜na years (Table S1), 
+which is not sufficient for composite analysis. Aside from this, there are 
+other issues that are left unaddressed in the present study. For instance, 
+the exact cause of the vertical wind shear anomalies present and the 
+Fig. 16. Schematic diagram of the processes that cause the rainfall variability during (a) D+S-, (b) D-S+, (c) I+S-, and (d I-S+ years. The black arrows depict the 
+anomalous circulations. The blue arrows depict the moisture flux anomalies in the SWM region. An enhanced SWM is labeled as “SWM+”, while a suppressed SWM is 
+labeled as “SWM-”. The light green arrows depict the moisture flux anomalies in the easterly trade winds. Enhanced trade winds are labeled as “TRADES+”. The 
+orange lines depict the boundary of the WNPSH as represented by the 5870 gpm contour line. The red arrows depict the TC track. The TC icons depict the mean TC 
+genesis point. The red stars depict the frequency of the TCs for that specific case. One star signifies a below average number of TCs, while three stars signify an above 
+average number of TCs. The red and blue shades depict the regions of positive and negative vertical wind shear anomalies, respectively. (For interpretation of the 
+references to colour in this figure legend, the reader is referred to the web version of this article.)
+A.A.L. Bathan et al.                                                                                                                                                                                                                            
+Atmospheric Research 326 (2025) 108273 
+17 
+
+longitudinal shift of the WNPSH between the various rainfall variability 
+types were not identified. The impact of ENSO on the rainfall variability 
+types and the causes of the anomalous circulation patterns are also of 
+great interest and will be explored in our future works.
+CRediT authorship contribution statement
+Alwin Andriel L. Bathan: Writing – original draft, Visualization, 
+Validation, Methodology, Investigation, Formal analysis, Conceptuali­
+zation. Lyndon Mark P. Olaguera: Writing – original draft, Visualiza­
+tion, Validation, Supervision, Methodology, Investigation, Formal 
+analysis, Data curation, Conceptualization. Faye Abigail T. Cruz: 
+Writing – original draft, Supervision, Investigation, Formal analysis, 
+Conceptualization. Jose Ramon T. Villarin: Writing – original draft, 
+Supervision, Investigation. Joel T. Maquiling: Writing – original draft, 
+Supervision, Investigation. Maria Obiminda L. Cambaliza: Writing – 
+original draft, Supervision, Investigation. John A. Manalo: Writing – 
+original draft, Investigation, Data curation. Jun Matsumoto: Writing – 
+original draft, Supervision, Investigation.
+Declaration of competing interest
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper.
+Acknowledgements
+A.A.L. Bathan, L.M.P. Olaguera, F.A.T. Cruz, and J.R.T. Villarin are 
+supported by the High-definition Clean Energy, Climate, and Weather 
+Forecasts for the Philippines project of the Manila Observatory. Part of 
+this study was supported by Grant-in-Aid for Scientific Research No. 
+23H00030; PI Jun Matsumoto, 24K00172; PI Yoshiyuki Kajikawa of 
+Kobe University, and 22H04938; PI Kei Yoshimura of the University of 
+Tokyo. We sincerely thank the two anonymous reviewers for their 
+insightful and constructive comments, which have significantly 
+improved the quality of this manuscript.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.atmosres.2025.108273.
+Data availability
+Data will be made available on request.
+References
+Akasaka, I., 2010. Interannual variations in seasonal march of rainfall in the Philippines. 
+Int. J. Climatol. 30, 1301–1314. https://doi.org/10.1002/joc.1975.
+Akasaka, I., Morishima, W., Mikami, T., 2007. Seasonal march and its spatial difference 
+of rainfall in the Philippines. Int. J. Climatol. 27, 715–725. https://doi.org/10.1002/ 
+joc.1428.
+Bagtasa, G., 2019. Enhancement of summer monsoon rainfall by tropical cyclones in 
+northwestern Philippines. J. Meteorol. Soc. Jpn. 97, 967–976. https://doi.org/ 
+10.2151/jmsj.2019-052.
+Bagtasa, G., 2023. Characterization of the 2012 and 2013 Metro Manila "Enhanced 
+Habagat" heavy rainfall events. Philipp. J. Sci. 152, 123–135. https://doi.org/ 
+10.56899/152.S1.10.
+Cayanan, E., Chen, T., Argete, J., Yen, M., Nilo, P., 2011. The effect of tropical cyclones 
+on southwest monsoon rainfall in the Philippines. J. Meteorol. Soc. Jpn. 89A, 
+123–139. https://doi.org/10.2151/jmsj.2011-A08.
+Chen, J., Li, T., Shih, C., 2008. Asymmetry of the El Ni˜no-spring rainfall relationship in 
+Taiwan. J. Meteorol. Soc. Jpn. 86, 297–312. https://doi.org/10.2151/jmsj.86.297.
+Chen, J., Li, T., Shih, C., 2010a. Tropical cyclone– and monsoon-induced rainfall 
+variability in Taiwan. J. Clim. 23, 4107–4120. https://doi.org/10.1175/ 
+2010JCLI3355.1.
+Chen, J., Chu, J., Shih, C., Tung, Y., 2010b. Interannual variability of circulation-rainfall 
+relationship in Taiwan during the Mei-yu season. Int. J. Climatol. 30, 2264–2276. 
+https://doi.org/10.1002/joc.2049.
+Chou, C., Tu, J., Yu, J., 2003. Interannual variability of the Western North Pacific 
+Summer Monsoon: differences between ENSO and Non-ENSO years. J. Clim. 16, 
+2275–2287. https://doi.org/10.1175/2761.1.
+Cinco, T.A., de Guzman, R.G., Ortiz, A.M.D., Delfino, R.J.P., Lasco, R.D., Hilario, F.D., 
+Juanillo, E.L., Barba, R., Ares, E.D., 2016. Observed trends and impacts of tropical 
+cyclones in the Philippines. Int. J. Climatol. 36, 4638–4650. https://doi.org/ 
+10.1002/joc.4659.
+Corporal-Lodangco, I., Leslie, L., 2017. Climatology of Philippine tropical cyclone 
+activity: 1945-2011. Int. J. Climatol. 37, 3525–3539. https://doi.org/10.1002/ 
+joc.4931.
+Cruz, F., Narisma, G., Villafuerte II, M., Chua, K.U., Olaguera, L.M., 2013. 
+A climatological analysis of the southwest monsoon rainfall in the Philippines. 
+Atmos. Res. 122, 609–616. https://doi.org/10.1016/j.atmosres.2012.06.010.
+Dare, R., Davidson, N., Mcbride, J., 2012. Tropical cyclone contribution to rainfall over 
+Australia. Mon. Weather Rev. 140, 3606–3619. https://doi.org/10.1175/MWR-D- 
+11-00340.1.
+Das, P.K., 1986. Monsoons. Fifth WMO Lecture. World Meteorological Organization, 
+Geneva. 
+Doocy, S., Dick, A., Daniels, A., Kirsch, T., 2013. The human impact of tropical cyclones: 
+a historical review of events 1980-2009 and systematic literature review. PLoS Curr. 
+5. https://doi.org/10.1371/currents.dis.2664354a5571512063ed29d25ffbce74.
+Efron, B., Tibshirani, R.J., 1994. An Introduction to the Boot-Strap. Chapman & Hall/ 
+CRC Press, Philadelphia, PA, p. 436.
+Fujiwara, K., Kawamura, R., Hirata, H., Kawano, T., Kato, M., Shinoda, T., 2017. 
+A positive feedback process between tropical cyclone intensity and the moisture 
+conveyor belt assessed with Lagrangian diagnostics. J. Geophys. Res.-Atmos. https:// 
+doi.org/10.1002/2017JD027557, 122, 12, 502–12, 521. 
+Gallina, G., Velden, C., 2002. Environmental vertical wind shear and tropical cyclone 
+intensity change utilizing enhanced satellite derived wind information. 25th 
+Conference on Hurricanes and Tropical Meteorology. San Diego, pp 172-173.
+Garfinkel, C., Hartmann, D., 2008. Different ENSO teleconnections and their effects on 
+the stratospheric polar vortex. J. Geophys. Res. 113, D18114. https://doi.org/ 
+10.1029/2008JD009920.
+Hegde, A.K., Kawamura, R., Kawano, T., 2016. Evidence for the significant role of sea 
+surface temperature distributions over remote tropical oceans in tropical cyclone 
+intensity. Clim. Dyn. 47, 623–635. https://doi.org/10.1007/s00382-015-2859-.8.
+JTWC, 2017. Frequently asked questions. Joint Typhoon Warning Center. Https: //www. 
+metoc.navy.mil/jtwc/jtwc. Html? Faq (accessed 02 April 2025).
+Khouakhi, A., Villarini, G., Vecchi, G.A., 2017. Contribution of tropical cyclones to 
+rainfall at the global scale. J. Clim. 30, 359–372. https://doi.org/10.1175/JCLI-D- 
+16-0298.1.
+Kintanar, R.L., 1984. Climate of the Philippines. Philippine Atmospheric, Geophysical 
+and Astronomical Services Administration, Quezon City, Philippines. 
+Kripalani, R.H., Kulkarni, A., 1997. Rainfall variability over South–east 
+Asia—connections with Indian monsoon and ENSO extremes: new perspectives. Int. 
+J. Climatol. 17, 1155–1168. https://doi.org/10.1002/(SICI)1097-0088(199709)17: 
+11<1155::AID-JOC188>3.0.CO;2-B.
+Kripalani, R.H., Kulkarni, A., 1998. The relationship between some large-scale 
+atmospheric parameters and rainfall over Southeast Asia: a comparison with features 
+over India. Theor. Appl. Climatol. 59, 1–11. https://doi.org/10.1007/ 
+s007040050009.
+Kubota, H., Wang, B., 2009. How much do tropical cyclones affect seasonal and 
+interannual rainfall variability over the western North Pacific? J. Clim. 22, 
+5495–5510. https://doi.org/10.1175/2009JCLI2646.1.
+Kubota, H., Kosaka, Y., Xie, S.-P., 2016. A 117-year long index of the Pacific-Japan 
+pattern with application to interdecadal variability. Int. J. Climatol. 36, 1575–1589. 
+https://doi.org/10.1002/joc.4441.
+Kubota, H., Shirooka, R., Matsumoto, J., Cayanan, E., Hilario, F., 2017. Tropical cyclone 
+influence on the long-term variability of Philippine summer monsoon onset. Prog 
+Earth Planet Sci 4, 27. https://doi.org/10.1186/s40645-017-0138-5.
+Kudo, T., Kawamura, R., Hirata, H., Ichiyanagi, K., Tanoue, M., Yoshimura, K., 2014. 
+Large-scale vapor transport of remotely evaporated seawater by a Rossby wave 
+response to typhoon forcing during the Baiu/Meiyu season as revealed by the JRA-55 
+reanalysis. J. Geophys. Res.-Atmos. 119, 8825–8838. https://doi.org/10.1002/ 
+2014JD021999.
+Lagmay, A.M., Bagtasa, G., Crisologo, I., Racoma, B.A., David, C., 2015. Volcanoes 
+magnify Metro Manila’s southwest monsoon rains and lethal floods. Front. Earth Sci. 
+2. https://doi.org/10.3389/feart.2014.00036.
+Lam, M., Kong, W., 2022. How does vertical wind shear affect the development of 
+Tropical Cyclone?. Hong Kong Observatory. Https: //www.hko.gov.hk/en/ 
+education/tropical-cyclone/intensity/00685-How-does-vertical-wind-shear-affect- 
+the-development-of-Tropical-Cyclone.html (accessed 13 December 2024).
+Lau, K.M., Zhou, Y.P., Wu, H.T., 2008. Have tropical cyclones been feeding more extreme 
+rainfall? J. Geophys. Res.-Atmos. 113, D23113. https://doi.org/10.1029/ 
+2008JD00996.
+Lee, T.C., Knutson, T.R., Nakaegawa, T., Ying, M., Cha, E.J., 2020. Third assessment on 
+impacts of climate change on tropical cyclones in the Typhoon Committee Region – 
+part I: Observed changes, detection and attribution. Trop. Cyclone. Res. Rev. 9 (1). 
+https://doi.org/10.1016/j.tcrr.2020.03.001.
+Lyon, B., Camargo, S., 2009. The seasonally-varying influence of ENSO on rainfall and 
+tropical cyclone activity in the Philippines. Clim. Dyn. 32, 125–141. https://doi.org/ 
+10.1007/s00382-008-0380-z.
+Matsumoto, J., 1992. The seasonal changes in Asian and Australian monsoon regions. 
+J. meteor. Soc. Jpn. Ser. II 70 (1B), 257–273. https://doi.org/10.2151/ 
+jmsj1965.70.1B_257.
+A.A.L. Bathan et al.                                                                                                                                                                                                                            
+Atmospheric Research 326 (2025) 108273 
+18 
+
+Matsumoto, J., Olaguera, L.M., Nguyen Le, D., Kubota, H., Villafuerte, M., 2020. 
+Climatological seasonal changes of wind and rainfall in the Philippines. Int. J. 
+Climatol. 40. https://doi.org/10.1002/joc.6492.
+Murakami, T., Matsumoto, J., 1994. Summer monsoon over the Asian continent and 
+western North Pacific. J. Meteorol. Soc. Jpn. 72, 719–745. https://doi.org/10.2151/ 
+jmsj1965.72.5_719.
+NDRRMC, 2024. Combined Effects of Southwest Monsoon and TCs BUTCHOY and 
+CARINA (2024). National Disaster Risk Reduction and Management Council. https 
+://ndrrmc.gov.ph/attachments/article/4259/SitRep_No_46_for_the_Combined_ 
+Effects_of_Southwest_Monsoon_and_TCs_BUTCHOY_and_CARINA_2024.pdf. 
+(Accessed 9 October 2024).
+Nogueira, R.C., Keim, B.D., 2010. Annual volume and area variations in tropical cyclone 
+rainfall over the eastern United States. J. Clim. 23, 4363–4374. https://doi.org/ 
+10.1175/2010JCLI3443.1.
+Olaguera, L.M.P., Manalo, J.A., 2024a. Climatological analysis of rainfall over Hinatuan, 
+Surigao del Sur in eastern Mindanao—the wettest location in the Philippines. Theor. 
+Appl. Climatol. 155, 10069–10085.
+Olaguera, L.M.P., Manalo, J.A., 2024b. Objective determination of the withdrawal dates 
+of the southwest monsoon (Habagat) season of the Philippines using Cumulative 
+Rainfall. Philipp. J. Sci. 153, 1579–1591.
+Olaguera, L.M.P., Matsumoto, J., Kubota, H., Cayanan, E., Hilario, F., 2021. 
+A climatological analysis of the monsoon break following the summer monsoon 
+onset over Luzon Island. Philippines. Int. J. Climatol. 41, 2100–2117. https://doi. 
+org/10.1002/joc.6949.
+Olaguera, L.M., Cruz, F., Dado, J.M., Villarin, J.R., 2022a. Complexities of extreme 
+rainfall in the Philippines. In: Unnikrishnan, A., Tangang, F., Durrheim, R.J. (Eds.), 
+Extrem. Nat. Events. Springer, Singapore. https://doi.org/10.1007/978-981-19- 
+2511-5_5. 
+Olaguera, L.M.P., Manalo, J.A., Matsumoto, J., 2022b. Influence of boreal summer 
+intraseasonal oscillation on rainfall extremes in the Philippines. Int. J. Climatol. 42, 
+4656–4668. https://doi.org/10.1002/joc.7495.
+PAGASA, 2015. Climatological Normals. Philippine Atmospheric, Geophysical and 
+Astronomical Services Administration. https://www.pagasa.dost.gov.ph/climate/cli 
+matological-normals (accessed 10 January 2025). 
+PAGASA, 2018. Climate of the Philippines. Philippine Atmospheric, Geophysical and 
+Astronomical Services Administration. https://www.pagasa.dost.gov.ph/informat 
+ion/climate-philippines (accessed 25 September 2024). 
+PAGASA, 2024. Tropical Cyclone Information. Philippine Atmospheric, Geophysical and 
+Astronomical Services Administration. https://www.pagasa.dost.gov.ph/climate/ 
+tropical-cyclone-information (accessed 21 March 2025). 
+Prat, O.P., Nelson, B.R., 2013. Mapping the world’s tropical cyclone rainfall contribution 
+over land using the TRMM Multi-satellite Precipitation Analysis. Water Resour. Res. 
+49, 7236–7254. https://doi.org/10.1002/wrcr.20527.
+Soci, C., Hersbach, H., Simmons, A., Poli, P., Bell, B., Berrisford, P., 2024. The ERA5 
+global reanalysis from 1940 to 2022. Quart. J. Royal. Meteorol. Soc. 150, 
+4014–4048. https://doi.org/10.1002/qj.4803.
+Wallace, J.M., Hobbs, P.V., 2006. Atmospheric Science: An Introductory Survey, 2nd 
+edition. Elsevier, Amsterdam, Netherlands. 
+Wang, B., Ding, Q., Fu, X., Kang, I., Jin, K., Shukla, J., Doblas-Reyes, F., 2005. 
+Fundamental challenge in simulation and prediction of summer monsoon rainfall. 
+Geophys. Res. Lett. 32, L15711. https://doi.org/10.1029/2005GL022734.
+Wong, M., Chan, J., 2004. Tropical cyclone intensity in vertical wind Shear. J. Atmos. 
+Sci. 61 (15), 1859–1876. https://doi.org/10.1175/1520-0469(2004)061<1859: 
+TCIIVW>2.0.CO;2.
+Wu, R., Wang, B., 2001. Multi-stage onset of the summer monsoon over the western 
+North Pacific. Clim. Dyn. 17, 277–289. https://doi.org/10.1007/s003820000118.
+Yokoyama, C., Takayabu, Y.N., 2008. A Statistical study on rain characteristics of 
+tropical cyclones using TRMM satellite data. Mon. Weather Rev. 136, 3848–3862. 
+https://doi.org/10.1175/2008MWR2408.1.
+Zehr, R.M., 1992. Tropical Cyclogenesis in the Western North Pacific. NOAA Technical 
+Report NESDIS6.. National Oceanic and Atmospheric Administration, Washington 
+DC, p. 181.
+Zomeren, J., van Delden, A., 2007. Vertically integrated moisture flux convergence as a 
+predictor of thunderstorms. Atmos. Res. 83, 435–445. https://doi.org/10.1016/j. 
+atmosres.2005.08.015.
+A.A.L. Bathan et al.                                                                                                                                                                                                                            
+Atmospheric Research 326 (2025) 108273 
+19 

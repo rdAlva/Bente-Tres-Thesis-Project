@@ -1,0 +1,668 @@
+Health Policy and Planning, 2025, 40(3), 436–442
+DOI: https://doi.org/10.1093/heapol/czaf002
+Advance Access Publication 13 January 2025
+Innovation and Practice Report
+Strengthening local health systems and governance for 
+Universal Health Coverage: experiences and lessons from 
+the COVID-19 pandemic response in Quezon City, 
+Philippines
+Esperanza Anita Escano-Arias1,†, Ramona Asuncion D. G. Abarquez1, Rolando V. Cruz1, 
+Rosalie Espeleta2, Madeline Mae Ong3, Arianna Maever Loreche
+ 3,4,5, 
+Veincent Christian F. Pepito
+ 3,*, Vida Gomez6, Manuel M. Dayrit3
+1Local Government of Quezon City, Quezon City 1100, Philippines
+2National Capital Regional Office, Department of Health, Mandaluyong City 1550, Philippines
+3School of Medicine and Public Health, Ateneo de Manila University, Pasig City 1604, Philippines
+4National Clinical Trials and Translation Center, National Institutes of Health, University of the Philippines Manila, Pedro Gil St., Ermita,
+Manila 1000, Philippines
+5Department of Epidemiology and Biostatistics, University of the Philippines Manila, Pedro Gil St., Ermita, Manila 1000, Philippines
+6World Bank Philippines Country Office, 5th Ave cor 25th St, Bonifacio Global City, Taguig 1634, Philippines
+†Deceased.
+*Corresponding author. School of Medicine and Public Health, Ateneo de Manila University, Ortigas Ave., Pasig City 1604, Philippines.
+E-mail: vpepito@ateneo.edu
+Accepted 10 January 2025
+Abstract
+The COVID-19 pandemic has disrupted the Philippines’s transition toward universal health coverage. However, some local government 
+units in the country made use of the pandemic as a catalyst to strengthen their local health system, scale-up the provision of pre-
+ventive and primary care services, and improve health governance to make it more prepared to face future pandemics and realize the 
+aims of the country’s new Universal Healthcare Act. This paper describes the response of the local government of Quezon City, Philip-
+pines, to COVID-19 and how it strengthened local health systems. We also discuss enablers such as partnerships, collaborations, and 
+foresight to ensure that investments during the pandemic will continue to be of use. We also identify some constraints and propose rec-
+ommendations to consolidate local health system gains during the COVID-19 pandemic response in the transition toward universal health
+coverage.
+Keywords: local government; health systems strengthening; Universal Health Coverage; COVID-19 pandemic; pandemic preparedness; devolution; health 
+security
+Introduction
+The COVID-19 pandemic has exposed health system vulner-
+abilities globally (Pradana et al. 2020, Dutta and Fischer 
+2021, Talabis et al. 2021) and has further disrupted progress 
+towards achieving Universal Health Coverage (UHC) (Amit 
+et al. 2021, 2022, Talabis et al. 2021). Despite (or because 
+of) this, local governments have made significant efforts to 
+improve health systems and governance (Yates et al. 2024). 
+However, there are few studies that report on health system 
+strengthening experiences and challenges during the COVID-
+19 pandemic. In this paper, we document how the local 
+government unit of Quezon City, Philippines used the COVID-
+19 pandemic as an impetus to scale-up the provision of health 
+services and to strengthen the responsiveness and adaptability 
+of its health system. By documenting the experience of Que-
+zon City, we present a model that countries with similar health 
+systems and resources may learn from in moving towards a 
+UHC- and pandemic-ready health system.
+One of the Philippines’s largest cities
+Quezon City is the Philippines’s most populous city with 3.2 
+million people as of 2022. Since 2016, the city is the most 
+competitive in the country, scoring high on health infrastruc-
+ture, disaster risk reduction plan, sanitary system, and early 
+warning system (Department of Trade and Industry 2023). 
+As of 2021, the average annual income of families in the 
+city is PHP 429 100 (US$7300) in current prices (Philippine 
+Statistics Authority 2022). With a revenue of PHP 23.37 bil-
+lion (US$412.2 million) in 2020 alone, the city is one of 
+the country’s most economically important (Commission on 
+Audit (Philippines) 2021). On the other hand, it is also home 
+to some of the most densely packed residential areas in the 
+© The Author(s) 2025. Published by Oxford University Press in association with The London School of Hygiene and Tropical Medicine.
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), 
+which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.
+Downloaded from https://academic.oup.com/heapol/article/40/3/436/7952951 by Ateneo de Manila University user on 07 April 2025
+
+Strengthening local health systems
+437
+Key messages 
+• The disruption caused by the COVID-19 pandemic led the 
+Quezon City local government in the Philippines to mount a 
+response that strengthened its local health system and its 
+capacity to implement the country’s Universal Healthcare 
+Act (Republic Act 11 223) of 2019.
+• Investments during the COVID-19 pandemic should be 
+sustained for pandemic preparedness and health sys-
+tems strengthening during the transition towards Universal 
+Health Coverage.
+• Universal Healthcare Act impact measures such as out-of-
+pocket spending and quality of care should be estimated 
+annually at the local government level through the Local 
+Government Scorecard on Health to measure progress in 
+attaining Universal Health Coverage.
+country. The city’s average population density is 17 000/km2
+as of 2020 (Philippine Statistics Authority 2020). As of 2018, 
+the poverty incidence in Quezon City is 1.5%. For the year 
+2021, the top three causes of death are COVID-19, with 5963 
+deaths, acute myocardial infarction, with 5700 deaths, and 
+pneumonia with 1747 deaths (Philippine Statistics Authority 
+2023).
+The private sector, the national government, and the local 
+government run many tertiary or specialty hospitals in the 
+city. Due to devolution (Dayrit et al. 2018, Department of 
+Health (Philippines) 2019), local health systems development 
+is largely the responsibility of local government through the 
+Quezon City Health Department (QCHD).
+Implementation of COVID-19 response 
+strategies while strengthening the health 
+system
+A consequence of the Philippines’s devolved health system is 
+that the national government designs the overall COVID-19 
+response strategy of the country, but the local governments 
+are responsible for its operationalization and implementation. 
+The Philippine government’s strategy towards COVID-19 was 
+prevent, diagnose, isolate, treat, reintegrate, and vaccinate 
+(PDITR + V), which was operationalized by QCHD through 
+lockdowns and quarantine, monitoring, testing and contact 
+tracing, disease surveillance, and vaccination (Department of 
+Health (Philippines) 2022a). The effects of operationalizing 
+this strategy for each of the six building blocks of health are 
+described as follows (Table 1). 
+Health leadership and governance
+Quezon City and the entire island of Luzon were put on 
+lockdown in 2020 (Amit et al. 2021). The first step in 
+operationalizing the response of Quezon City was tasking 
+and delineating of roles of the different divisions and units 
+within the local government. Many ordinances and execu-
+tive orders were enacted and implemented (Supplementary 
+Table 1, see online supplementary material). Community 
+mobilization was essential in distributing aid from the City’s 
+Social Services Development Department to quarantined and 
+unemployed individuals. The prolonged lockdown eventually 
+proved unsustainable and impractical as it deprived people 
+of the opportunity to earn and the economy ground to a 
+halt (Raza et al. 2022). To allow people to tend to their 
+livelihoods and yet still control the infection, Quezon City 
+implemented—among the first local government units in the 
+country to do so—‘Special Concern Areas for Lockdown’ 
+(SCAL). Instead of locking down large geographic areas and 
+barangays (i.e. villages), SCAL allowed for isolation of smaller 
+areas only where COVID-19 cases were concentrated (Mateo 
+and Cayabyab 2020). This eventually became the model for 
+future lockdowns implemented throughout the country, as tar-
+geted lockdowns mitigated the spread of the disease while 
+minimizing gross domestic product losses by at least 20% (Del 
+Castillo et al. 2024).
+The pandemic required a whole of government response 
+and even non-health related departments played crucial roles 
+in the pandemic response: (i) the Business Permit and Licens-
+ing Department helped ensure that COVID-19 safety proto-
+cols were implemented by business establishments; while (ii) 
+the Tourism Department identified and monitored quarantine 
+facilities.
+Even as COVID-19 was effectively put under control, the 
+local government wanted to build on their health systems 
+strengthening gains by establishing a super health center in 
+every district of the city (22nd Quezon City Council 2023a). 
+The operational structure of QCHD was also improved, with 
+the city’s epidemiology and surveillance unit (QCESU) cur-
+rently being transformed into a division with more resources 
+and wider reach (22nd Quezon City Council 2023b). Simi-
+larly, the city’s health education and promotion unit is being 
+made independent from formerly being a part of QCESU 
+(22nd Quezon City Council 2023c) .
+Human resources for health
+Before the pandemic, the QCESU only had nine employ-
+ees; however, the pandemic resulted in the hiring of more 
+than 2000 phone-based and face-to-face contact tracers, who 
+were funded by the national and the local government. These 
+newly-hired individuals were trained on contact tracing, dis-
+ease surveillance, and data management. This increase in 
+contact-tracing capacity allowed for the referral of close con-
+tacts to community-based sites where they could be tested for 
+COVID-19 (Dayrit 2022). Around 200 (10%) of these trained 
+contact tracers are still working as disease surveillance officers 
+in health centers throughout the city today.
+Health financing
+In 2020, the budget of QCHD was only PHP 847 million 
+(US$14.4 million), which is only 2.47% of the total local 
+government’s budget (Fig. 1). The onset of the pandemic 
+made this insufficient, thus emergency funds were deployed 
+from the local government to help fund budgetary short-
+falls. By 2021, the health budget was doubled to PHP 1.66 
+billion (US$28.8 million), and has stayed above PHP 2.00 
+billion (US$34 million) since 2022 to account for organiza-
+tional reforms and sustained investments in health technology 
+and infrastructure (Local Government of Quezon City 2018, 
+2019, 2020, 2021, 2022, 2023, 2024). In August 2024, 
+QCHD received PHP 239 million (US$4.10 million) from 
+the Philippine Health Insurance Corporation to support the 
+city government’s implementation of medical services for their 
+local constituents (Philippine Health Insurance Corporation 
+2024).
+Downloaded from https://academic.oup.com/heapol/article/40/3/436/7952951 by Ateneo de Manila University user on 07 April 2025
+
+438
+Escano-Arias et al.
+Table 1. Innovations in COVID-19 response and post-pandemic residuals to strengthen Quezon City’s health system for each of the health system’s 
+building blocks
+Health system’s 
+building blocks
+Innovations in COVID-19 response
+Post-pandemic residuals
+Health leadership and 
+governance
+1. Tasking and clarifying roles and responsibilities in 
+implementing national government strategy
+Development of ordinances (supplementary Table 1) and 
+executive orders
+2. Collaboration and partnership building
+3. Community mobilization
+4. Establishment of facilities
+a. Molecular laboratory
+b. Isolation and quarantine facilities
+c. COVID-19 wards in hospitals run by the local 
+government
+1. Establishment of super health centers for each district 
+in the city.
+2. Ordinances enacted to establish an independent Health 
+Education and Promotion Unit (HEPU) and upgrade the 
+QCESU to a Division
+3. Improving operational structure
+4. Maintaining partnerships and collaborations
+Human resources for 
+health (HRH)
+1. Hiring of additional HRH to help mitigate the effects 
+of the pandemic
+2. Additional HRH through collaboration and 
+community mobilization
+3. All additional HRH trained on disease surveillance
+Hired additional HRH are integrated in the QCHD 
+structure
+Health financing
+1. Utilization of emergency funds from local government
+2. Increase in the budget to respond to the emergency
+Increase in QCHD budget from PHP 771 624 444 (USD 
+13.76 million) or 4.06% in 2018 to PHP 2 299 042 670 
+(USD 41.00 million or 5.89% of total local government 
+budget) in 2024
+Health technology
+1. Establishment of molecular laboratory
+2. Establishment of cold storage facility for COVID-19 
+vaccines
+1. Molecular laboratory now upgraded to public health 
+laboratory to diagnose other diseases.
+2. Cold-storage facility is now used to house vaccines 
+for National Immunization Program and is being 
+expanded.
+Health information
+1. Tanod Kontra Covid for contact tracing
+2. BantAI COVID System
+1. TKC integrated into disease surveillance
+2. BantAI COVID System developed into Bantay 
+Kalusugan
+3. Quezon City Health Information System (HIS) 
+developed
+Service delivery
+1. Special concern lockdown—local government pro-
+vides for the essentials of families to ensure adherence 
+to quarantine protocols
+2. Free community-based testing
+a. Prioritization
+b. Industry-wide active surveillance
+3. Provision of basic services including food and medicine
+4. Telemedicine and teleconsultation
+5. Use of social media platforms for health education and 
+promotion
+1. Social media platform for health education integrated 
+into HEPU
+2. Telemedicine and consultation maintained
+3. Community-based testing integrated into all health 
+centers
+Health information
+During the onset of the COVID-19 pandemic, the Quezon 
+City health information system had the following weaknesses: 
+(i) a paper-based surveillance system that was cumbersome 
+and error-prone (Junio 2021); (ii) delay in identifying patients 
+who will receive medicine; and (iii) delay in identifying people 
+who need to be contact traced as well as those who need to 
+receive aid.
+To address the first issue, QCESU transitioned to a web-
+based platform through the help of a civil society group 
+called AI4Gov which co-developed and designed Tanod Kon-
+tra COVID (TKC) (AI4GOV 2023). TKC, which has been 
+running since May 2021, shortened surveillance and contact-
+tracing turnaround times from 24 h to 1–4 h. Data collected 
+from the ground can be encoded into TKC anywhere, which 
+hastened the issuance of quarantine and isolation orders for 
+confirmed cases and their close contacts. At present, TKC has 
+been expanded for use for other respiratory illnesses similar 
+to COVID-19.
+To address the other issues, the Quezon City Identifi-
+cation System (QCID) was created (Local Government of 
+Quezon City). Those who receive aid and those who should 
+have check-ups in health centers preferably should be part of 
+the QCID. Building on the QCID, the Quezon City Health 
+Information System (QCHIS) is an electronic medical record 
+currently being developed by a third-party provider with fund-
+ing from the local government. After completion, it will be 
+integrated among health centers first, and then made inter-
+operable with other tertiary hospitals to allow for real-time 
+disease surveillance, reporting, and action.
+Availability of medicines, vaccines, health 
+technologies, and service delivery
+The volume of COVID-19 RT-PCR confirmatory tests eventu-
+ally proved expensive and tedious. To mitigate this problem, 
+the local government entered into agreements with the differ-
+ent private molecular laboratories. Eventually, however, the 
+city decided to build its own molecular laboratory, with the 
+machines being donated by the private sector, and cartridges, 
+capital outlay, and human resources costs being shouldered by 
+the local government. This new laboratory not only increased 
+Downloaded from https://academic.oup.com/heapol/article/40/3/436/7952951 by Ateneo de Manila University user on 07 April 2025
+
+Strengthening local health systems
+439
+Figure 1. Budget of Quezon City Health Department in relation to the local government’s total budget, 2018–2024 (Local Government of Quezon City 
+2018, 2019, 2020, 2021, 2022, 2023, 2024).
+the city’s testing capacity, but also reduced costs and wait-
+ing time. At present, the molecular laboratory is currently 
+being upgraded to become capable of diagnosing other dis-
+eases (e.g. hepatitis, human immunodeficiency virus (HIV), 
+human papilloma virus, tumor markers, etc.) so that it can 
+continue to be of service beyond the pandemic (Mateo 2020).
+To bridge human resources and technological gaps, the 
+city used the BantAI COVID program, which is an arti-
+ficial intelligence-powered system used for contact tracing, 
+monitoring, and telemedicine referrals (Nievera 2022), that 
+ensured continuity of care (Noceda et al. 2023). At present, 
+the BantAI COVID system may be employed as a telemedicine 
+platform to be used in COVID-19 and other diseases such as 
+HIV.
+Because non-essential travel was forbidden and classes 
+were conducted online during the pandemic, hotels, public 
+schools, and universities run by the local government were 
+transformed into isolation and quarantine facilities. In these 
+facilities, medicines and daily supplies of food and other neces-
+sities were provided by the local government. Severe and 
+critical COVID-19 cases, however, were treated in the city’s 
+specialist hospitals.
+When the COVID-19 vaccines started coming in, there was 
+no facility that could store the volume of vaccines needed to 
+meet the city’s vaccination targets. Initially, there was a part-
+nership with a pharmaceutical logistics company to handle 
+the cold chain from storage to the vaccination sites; how-
+ever, this proved expensive. With technical assistance from the 
+United Nations Children’s Fund, the city was able to build its 
+own cold-storage facility. Utilizing pop-up vaccination sites, 
+night vaccination for day workers, and vaccination programs 
+in homes, restricted institutions, and jails, the city was rapidly 
+able to vaccinate 2.17 million of its adult population from 
+March 2021 to June 2022, far exceeding its target of 1.8 
+million people (Escano-Arias and Eleria 2022). At present, the 
+city’s cold-storage facility is being used to store vaccines for 
+the country’s National Immunization Program and plans are 
+underway to expand the current facility.
+Achievements
+The health system quickly evolved to respond to the pub-
+lic health crisis, which is reflected in its consistently high 
+health-budget obligation and disbursement rates, tubercu-
+losis treatment success rates, and percentage of households 
+with safe drinking water sources. The percentage of fully 
+immunized children has reached 97% of the target after the 
+initial slump due to the pandemic. The percentage of facil-
+ities with no stockouts of essential medicines and supplies 
+rose from 0% in 2019 to 100% in 2022 (Fig. 2), partly 
+due to investments in cold-storage facilities and procurement 
+reform (Department of Health (Philippines) 2020, Depart-
+ment of Health (Philippines) 2021, Department of Health 
+(Philippines) 2022b).
+Enablers
+The city’s health-strengthening initiatives during the pandemic 
+have been successful owing to intersectoral partnerships with 
+national government and the private sector for building and 
+supplementing infrastructure and resources; with the academe 
+for understanding disease patterns and development of inter-
+ventions (Sumpaico-Tanchanco et al. 2022, Caldwell, 2021); 
+and with health workers and volunteers in the frontlines. 
+Political will, commitment, and foresight were vital to ensure 
+that resources invested during the pandemic are used for 
+health systems strengthening (Escano-Arias and Eleria 2022).
+Downloaded from https://academic.oup.com/heapol/article/40/3/436/7952951 by Ateneo de Manila University user on 07 April 2025
+
+440
+Escano-Arias et al.
+Figure 2. Performance on select indicators based on the local government unit scorecard on health for Quezon City, 2019–22 (Department of Health 
+(Philippines) 2020, Department of Health (Philippines) 2021, Department of Health (Philippines) 2022b).
+Challenges and constraints
+There is a lack of proper monitoring on how well inputs 
+in the different building blocks of health have translated 
+to better utilization of quality health services at lower cost, 
+which is the goal of the country’s Universal Healthcare Act 
+(Bautista et al. 2022). This prevents local governments from 
+accurately situating themselves and improving in their jour-
+ney towards UHC. For example, out-of-pocket expenditures 
+are not an indicator in the Local Government Scorecard on 
+Health, despite it being an impact measure of UHC. Another 
+vital UHC impact measure that is not being monitored is qual-
+ity of care (Loreche et al. 2023), resulting in the perception 
+that public health facilities have poor quality of care with 
+their patients having poor satisfaction (Cagayan et al. 2020, 
+Ulep et al. 2021). There had also been some difficulty in repur-
+posing services developed during the COVID-19 pandemic as 
+demand for them declined. For example, laboratories with 
+RT-PCR purpose-built to diagnose COVID-19 were left idle 
+and have not been repurposed yet, pending guidelines from the 
+Department of Health, which should be done soon to prevent 
+wastage.
+Conclusions
+The COVID-19 pandemic made health a priority for national 
+and local governments worldwide, which led to substantial 
+investments (Yates et al. 2024). These investments should be 
+sustained and repurposed to enable their use in other emerg-
+ing health threats and in improving routine health services to 
+further hasten the transition towards UHC. Investments made 
+by the local government of Quezon City in diagnostic capac-
+ity, vaccine storage, and health information systems during 
+the COVID-19 pandemic were repurposed for routine health 
+services such as diagnoses of other diseases and storage of 
+routine childhood vaccines, which led to improvements in 
+vaccination rates and other health indicators. However, the 
+journey towards UHC can further be hastened if impact mea-
+sures such as out-of-pocket expenditures and quality of care 
+can be monitored to assess progress. There should also be 
+guidelines on how to repurpose services that arose during the 
+COVID-19 pandemic (e.g., molecular diagnostic laboratories) 
+towards strengthening molecular surveillance and diagnosis 
+of other conditions to avoid wastage, as done in other settings 
+(King et al. 2023). Through collaborations and partnerships, 
+foresight, political will, and commitment, challenges were 
+overcome by Quezon City to create a stronger health system 
+that is more ready for UHC and for future health security 
+threats.
+Acknowledgements
+This paper is dedicated to the memory of Dr Esperanza 
+Anita Escano-Arias MPH, who passed away in September 
+2023 as the manuscript was being finalized. We thank Ms 
+Leah Barona-Cruz for her inputs in the preparation of the 
+initial draft of this manuscript. We also acknowledge Mr 
+Jairus Dioneda and Dr Judy Gilda S. Martinez for providing 
+additional inputs to this manuscript.
+Downloaded from https://academic.oup.com/heapol/article/40/3/436/7952951 by Ateneo de Manila University user on 07 April 2025
+
+Strengthening local health systems
+441
+Supplementary data
+Supplementary data is available at Health Policy and Planning
+online.
+Author contributions
+Conception or design of the work: E.A.E.-A., R.A.D.G.A., 
+R.V.C., R.E., V.G., and M.M.D.
+Data collection: R.A.D.G.A., R.V.C.
+Data analysis and interpretation: E.A.E.-A., R.A.D.G.A., 
+R.V.C., R.E., V.G., and M.M.D.
+Drafting the article: V.C.F.P., A.M.L., and M.M.O.
+Critical revision of the article: R.A.D.G.A., R.V.C., R.E., 
+V.G., A.M.L., M.M.O., and M.M.D.
+All authors approved the final version of the manuscript.
+Reflexivity statement
+E.A.E.A., R.A.D.G.A., and R.V.C. are employees of the Que-
+zon City Health Department with more than 20 years each 
+of experience in the design and implementation of health pro-
+grams in an urbanized local government. R.E. is affiliated with 
+the Department of Health National Capital Region Center 
+for Health Development with more than 10 years of experi-
+ence in the design and implementation of health policies at the 
+regional level. M.M.O., A.M.L., and V.C.F.P. are researchers 
+in the fields of medicine, health policy, and public health. 
+V.G. is a senior health financing specialist with experience 
+in the assessments of health financing strategies and systems 
+in the Philippines and Myanmar. M.M.D. is a health systems 
+researcher and former policymaker. He is a former Secretary 
+of Health of the Republic of the Philippines and Director 
+of the Department of Human Resources for Health at the 
+World Health Organization. All researchers are based in the 
+Philippines, except for MMO who is based in Australia.
+Ethical approval
+No ethical approval was required for this study.
+Conflict of interest
+E.A.E.A., R.A.D.G.A., and R.V.C. are employees of the Local 
+Government of Quezon City, Philippines. R.E. is an employee 
+of the Department of Health National Capital Region Cen-
+ter for Health Development. V.C.F.P., A.M.L., and M.M.D. 
+received funding from the International Initiative for Impact 
+Evaluation to develop a proposal to assess programs imple-
+mented by the Philippine Health Insurance Corporation and 
+from Sanofi Consumer Healthcare to assess self-care in the 
+Philippines. They also received funding from the Zuellig Fam-
+ily Foundation to write papers on health systems strength-
+ening. Other authors do not have conflicts of interest to 
+disclose.
+Funding
+None declared.
+References
+22nd Quezon City Council. 2023a. Quezon City Ordinance No. SP-
+3176, S-2023. An ordinance establishing at least one super health 
+center in every district of Quezon City, and appropriating funds 
+therefor. https://quezoncity.gov.ph/wp-content/uploads/2023/09/SP-
+3176-S-2023.pdf, (12 December 2024, date last accessed).
+22nd Quezon City Council. 2023b. Quezon City Ordinance No. SP-
+3232, S-2023. An ordinance creating the Quezon City Epidemi-
+ology and Surveillance Division (QCESD) under the Quezon City 
+Health Department defining its structure, composition, and func-
+tions and providing funds therefor. https://quezoncity.gov.ph/wp-
+content/uploads/2023/12/SP-3232-S-2023.pdf, (12 December 2024, 
+date last accessed).
+22nd Quezon City Council. 2023c. Quezon City Ordinance No. SP-
+3207, S-2023. An ordinance creating a health promotion unit in 
+the Quezon City Health Department for the Governance and Imple-
+mentation of Health Promotion Policies, Programs, and Activities in 
+the City-Wide Health System of Quezon City. https://quezoncity.gov.
+ph/wp-content/uploads/2023/09/SP-3207-S-2023.pdf, (12 Decem-
+ber 2024, date last accessed).
+AI4GOV. 2023. AI solutions for local governance | AI4GOV Philip-
+pines. AI4GOV. https://www.ai4gov.net, (12 September 2023, date 
+last accessed).
+Amit AML, Pepito VCF, Dayrit MM. Early response to COVID-19 in 
+the Philippines. West Pac Surveil Response J: WPSAR 2021;12:1–5.
+Amit AML, Pepito VCF, Dayrit MM. Advancing Universal Health Cov-
+erage in the Philippines through self-care interventions. Lancet Reg 
+Health – West Pac 2022;26:100579.
+Bautista MCG, Acacio-Claro PJ, Mendoza NB et al. The 2019 Philip-
+pine UHC act, pandemic management and implementation implica-
+tions in a post-COVID-19 world: A content analysis. Int J Environ 
+Res Public Health 2022;19:9567.
+Cagayan MSFS, Pepito VC, Ang-Bon R et al. Experiences and satisfac-
+tion of high-risk mothers who gave birth in select facilities in Legazpi 
+City, Philippines. Int J Pub Health Sci 2020;9:137–44.
+Caldwell JM, De Lara-Tuprio E, Teng TR et al. Understanding COVID-
+19 dynamics and the effects of interventions in the Philippines: 
+A mathematical modelling study. Lancet Reg Health - West Pac
+2021;14:100211.
+Commission on Audit (Philippines). 2021. 2021 Annual Finan-
+cial Report - Local Government Volume 1. https://www.coa.gov.
+ph/reports/annual-financial-reports/afr-local-government-units/# (9 
+September 2024, date last accessed).
+Dayrit M. Preparing for the next pandemic: What should LGUs do?. 
+Combating COVID-19: Personal perspectives from public-private 
+partners. Philippine Disaster Resilience Foundation. Philippines: 
+Pasig City, 2022. https://www.pdrf.org/wp-content/uploads/2023/
+04/COMBATING-COVID-19-Personal-Perspectives-from-Public-
+Private-Partners-Interactive-PDF-1.pdf 9 September 2024, date last 
+accessed
+Dayrit M, Lagrada L, Picazo O et al. 2018. The Philippines health 
+system review. World Health Organization Regional Office for 
+Southeast Asia. https://apps.who.int/iris/handle/10665/274579, (9 
+September 2024, date last accessed).
+Del Castillo MFP, Fujimi T, Tatano H. Estimating sectoral COVID-19 
+economic losses in the Philippines using nighttime light and electric-
+ity consumption data. Front Public Health 2024;12:1308301.
+Department of Health (Philippines). 2019. Implementing Rules and 
+Regulations of the Universal Health Care Act (Republic Act 
+No. 11223). https://www.philhealth.gov.ph/about_us/UHC-IRR_
+Signed.pdf, (9 September 2024, date last accessed).
+Department of Health (Philippines). 2020. Quezon City Local Govern-
+ment Scorecard on Health 2020.
+Department of Health (Philippines). 2021. Quezon City Local Govern-
+ment Scorecard on Health 2021.
+Downloaded from https://academic.oup.com/heapol/article/40/3/436/7952951 by Ateneo de Manila University user on 07 April 2025
+
+442
+Escano-Arias et al.
+Department of Health (Philippines). 2022a. Filipino BIDA, PDITR+V 
+pandemic response hastens recovery. Philippine Information 
+Agency. https://pia.gov.ph/press-releases/2022/06/10/filipino-bida-
+pditrv-pandemic-response-hastens-recovery, (12 September 2023, 
+date last accessed).
+Department of Health (Philippines). 2022b. Quezon City Local Gov-
+ernment Scorecard on Health 2022.
+Department of Trade and Industry. 2023. Cities and municipalities com-
+petitiveness index. CMCI. https://cmci.dti.gov.ph/data-portal.php, 
+(9 September 2023, date last accessed).
+Dutta A, Fischer HW. The local governance of COVID-19: Dis-
+ease prevention and social security in rural India. World Dev
+2021;138:105234.
+Escano-Arias EA, Eleria MLE 2022. Vaccinating Quezon City’s popu-
+lation: How we mobilized resources, built partnerships, provided 
+services. In: Combating COVID-19: Personal perspectives from 
+public-private partners. Philippine Disaster Resilience Foundation: 
+Pasig City, Philippines ttps://www.pdrf.org/wp-content/uploads/
+2023/04/COMBATING-COVID-19-Personal-Perspectives-from-
+Public-Private-Partners-Interactive-PDF-1.pdf, (9 September 2024, 
+date last accessed).
+Junio RA 2021. Quezon City successfully rolls out digital tools for 
+COVID-19 response. https://www.who.int/philippines/news/detail/
+27-08-2021-quezon-city-successfully-rolls-out-digital-tools-for-
+covid-19-response, (12 September 2023, date last accessed).
+King KL, Ham R, Smothers A et al. Repurposing a SARS-CoV-2 surveil-
+lance program for infectious respiratory diseases in a university 
+setting. Front Public Health 2023;11:1168551.
+Local Government of Quezon City. How to apply for a QCitizen ID 
+-Quezon City Government.
+Local Government of Quezon City. 2018. Quezon City local govern-
+ment 2018 budget.
+Local Government of Quezon City. 2019. Quezon City local govern-
+ment 2019 budget.
+Local Government of Quezon City. 2020. Quezon City local govern-
+ment 2020 budget.
+Local Government of Quezon City. 2021. Quezon City local govern-
+ment 2021 budget.
+Local Government of Quezon City. 2022. Quezon City local govern-
+ment 2022 budget.
+Local Government of Quezon City. 2023. Quezon City local govern-
+ment 2023 budget.
+Local Government of Quezon City. 2024. Quezon City local govern-
+ment 2024 budget.
+Loreche AM, Pepito VCF, Hartigan-Go KY et al. Measuring quality of 
+care for universal health coverage in the Western Pacific. Int J Qual 
+Health Care 2023;35:mzad084.
+Mateo J 2020. Quezon City unveils own molecular labora-
+tory | Philstar.com. Philstar Global. https://www.philstar.com/
+nation/2020/10/11/2048653/quezon-city-unveils-own-molecular-
+laboratory, (9 September 2024, date last accessed).
+Mateo J, Cayabyab J 2020. Parts of Quezon City on 14-day 
+lockdown. Philstar Global. https://www.philstar.com/nation/2020/
+05/13/2013606/parts-quezon-city-14-day-lockdown, (9 September 
+2024, date last accessed).
+Nievera A 2022. QC holds thanksgiving dinner for volunteer doctors 
+of ‘BantAI COVID program’. Manila Bulletin. https://mb.com.ph/
+2022/04/19/qc-holds-thanksgiving-dinner-for-volunteer-doctors-of-
+bantai-covid-program, (14 November 2023, date last accessed).
+Noceda AVG, Acierto LMM, Bertiz MCC et al. Patient satisfaction with 
+telemedicine in the Philippines during the COVID-19 pandemic: a 
+mixed methods study. BMC Health Serv Res 2023;23:277.
+Philippine Health Insurance Corporation. 2024. PhilHealth turns 
+over P239M to the Quezon City government. https://www.
+philhealth.gov.ph/news/up/article/2024/news_66bd6c7217dcc.php, 
+(12 December 2024, date last accessed).
+Philippine Statistics Authority. 2020. Census of population and 
+housing - total population by Province, City, municipality, and 
+Barangay. https://psa.gov.ph/content/2020-census-population-and-
+housing-2020-cph-population-counts-declared-official-president, 
+(12 September 2023, date last accessed).
+Philippine Statistics Authority. 2022. Table 2. Total and average annual 
+family income (Current Prices), by per capita income decile and by 
+Region, Province and HUC: 2021. https://psa.gov.ph/system/files/ie
+sd/Table%202%20%20Total%20and%20Average%20%20Annu
+al%20Family%20Income%20%20%28Current%20Prices%29%
+2C%20by%020Per%20Capita%20Income%20Decile%20and%
+20by%20Region%2C%20Province%20and%20HUC%202021P.
+xlsx (8 June 2024, date last accessed).
+Philippine Statistics Authority. 2023. Death statistics in Quezon City: 
+Year 2021. https://rssoncr.psa.gov.ph/system/files/attachmentdir/De
+ath%2520Statistics%2520in%2520Quezon%2520City%252C%
+25202021.pdf (8 June 2024, date last accessed).
+Pradana M, Rubiyanti N, W S et al. Indonesia’s fight against COVID-19: 
+the roles of local government units and community organisations. 
+Local Environ 2020;25:741–43.
+Raza T, Marasigan KM, Raza TK et al. Development and opera-
+tionalization of disaster risk management framework for COVID-19 
+pandemic: Quezon City inclusive unified response, recovery, and 
+rehabilitation action plan 2020–2030. Pandemic Risk, Response, 
+and Resilience. Elsevier, 2022; 293–333. 
+Sumpaico-Tanchanco LB, Sy JC, Dy AB et al. The prevalence of SARS-
+CoV-2 antibodies within the community of a private tertiary uni-
+versity in the Philippines: A serial cross sectional study. PLoS ONE
+2022;17: e0268145.
+Talabis DAS, Babierra AL, Buhat CAH et al. Local government 
+responses for COVID-19 management in the Philippines. BMC 
+Public Health 2021;21:1711.
+Ulep VGT, Uy J, Casas LDD et al. 2021. Philippine institute of 
+development studies discussion paper series 2021-032: Assessment 
+of the service capability and readiness of philippine hospitals to 
+provide high-quality health care. ttps://pidswebs.pids.gov.ph/CDN/
+PUBLICATIONS/pidsdps2132.pdf, (9 September 2024, date last 
+accessed).
+Yates R, Witter S, Hunsaker B 2024. Driving universal health reforms 
+through crises and shocks: Final report on the work of the 
+Chatham House Commission for Universal Health. Royal Institute 
+of International Affairs. https://chathamhouse.soutron.net/Portal/
+Public/enGB/RecordView/Index/205068 (22 June 2024, date last 
+accessed).
+Downloaded from https://academic.oup.com/heapol/article/40/3/436/7952951 by Ateneo de Manila University user on 07 April 2025

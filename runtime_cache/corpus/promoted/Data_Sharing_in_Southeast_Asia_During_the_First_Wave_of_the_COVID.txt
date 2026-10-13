@@ -1,0 +1,1014 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+6-16-2021 
+Data Sharing in Southeast Asia During the First Wave of the 
+Data Sharing in Southeast Asia During the First Wave of the 
+COVID-19 Pandemic 
+COVID-19 Pandemic 
+Arianna Maever L. Amit 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, aamit@ateneo.edu 
+Veincent Christian F. Pepito 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, vpepito@ateneo.edu 
+Bernardo Gutierrez 
+University of Oxford 
+Thomas Rawson 
+University of Oxford 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Health Communication Commons, Immunology and Infectious Disease Commons, and the 
+Public Health Commons 
+Custom Citation 
+Custom Citation 
+Amit, A. M. L., Pepito, V. C. F., Gutierrez, B., & Rawson, T. (2021). Data sharing in Southeast Asia during the 
+first wave of the COVID-19 pandemic. Frontiers in Public Health, 9. https://www.frontiersin.org/article/
+10.3389/fpubh.2021.662842 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact research@ateneo.edu. 
+
+BRIEF RESEARCH REPORT
+published: 16 June 2021
+doi: 10.3389/fpubh.2021.662842
+Frontiers in Public Health | www.frontiersin.org
+1
+June 2021 | Volume 9 | Article 662842
+Edited by:
+Adrian Egli,
+University Hospital of
+Basel, Switzerland
+Reviewed by:
+Mario Coccia,
+National Research Council (CNR), Italy
+Wesley Cota,
+Universidade Federal de Viçosa, Brazil
+*Correspondence:
+Arianna Maever L. Amit
+alamit@up.edu.ph
+Thomas Rawson
+t.rawson@imperial.ac.uk
+†ORCID:
+Arianna Maever L. Amit
+orcid.org/0000-0003-4571-400X
+Veincent Christian F. Pepito
+orcid.org/0000-0001-5391-3784
+Bernardo Gutierrez
+orcid.org/0000-0002-9220-2739
+Thomas Rawson
+orcid.org/0000-0001-8182-4279
+Specialty section:
+This article was submitted to
+Infectious Diseases - Surveillance,
+Prevention and Treatment,
+a section of the journal
+Frontiers in Public Health
+Received: 01 February 2021
+Accepted: 11 May 2021
+Published: 16 June 2021
+Citation:
+Amit AML, Pepito VCF, Gutierrez B
+and Rawson T (2021) Data Sharing in
+Southeast Asia During the First Wave
+of the COVID-19 Pandemic.
+Front. Public Health 9:662842.
+doi: 10.3389/fpubh.2021.662842
+Data Sharing in Southeast Asia
+During the First Wave of the
+COVID-19 Pandemic
+Arianna Maever L. Amit 1,2,3*†, Veincent Christian F. Pepito 2†, Bernardo Gutierrez 4,5† and
+Thomas Rawson 4*†
+1 Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, United States, 2 School of Medicine and Public Health,
+Ateneo de Manila University, Pasig, Philippines, 3 College of Medicine, University of the Philippines Manila, Manila, Philippines,
+4 Department of Zoology, University of Oxford, Oxford, United Kingdom, 5 School of Biological and Environmental Sciences,
+Universidad San Francisco de Quito USFQ, Quito, Ecuador
+Background: When a new pathogen emerges, consistent case reporting is critical
+for public health surveillance. Tracking cases geographically and over time is key for
+understanding the spread of an infectious disease and effectively designing interventions
+to contain and mitigate an epidemic. In this paper we describe the reporting systems on
+COVID-19 in Southeast Asia during the ﬁrst wave in 2020, and highlight the impact of
+speciﬁc reporting methods.
+Methods: We reviewed key epidemiological variables from various sources including
+a regionally comprehensive dataset, national trackers, dashboards, and case bulletins
+for 11 countries during the ﬁrst wave of the epidemic in Southeast Asia. We recorded
+timelines of shifts in epidemiological reporting systems and described the differences in
+how epidemiological data are reported across countries and timepoints.
+Results:
+Our ﬁndings suggest that countries in Southeast Asia generally reported
+precise and detailed epidemiological data during the ﬁrst wave of the pandemic. Changes
+in reporting rarely occurred for demographic data, while reporting shifts for geographic
+and temporal data were frequent. Most countries provided COVID-19 individual-level
+data daily using HTML and PDF, necessitating scraping and extraction before data could
+be used in analyses.
+Conclusion:
+Our study highlights the importance of more nuanced analyses of
+COVID-19 epidemiological data within and across countries because of the frequent
+shifts in reporting. As governments continue to respond to impacts on health and
+the economy, data sharing also needs to be prioritised given its foundational role in
+policymaking, and in the implementation and evaluation of interventions.
+Keywords: COVID- 19, epidemiological data, Southeast Asia, emerging infectious disease, data sharing
+
+Amit et al.
+COVID-19 Data Sharing in Southeast Asia
+INTRODUCTION
+In December 2019, an outbreak of severe acute respiratory
+syndrome coronavirus 2 (SARS-CoV-2) was reported in Wuhan,
+China and was determined to cause the novel coronavirus disease
+2019 (COVID-19). The World Health Organization (WHO)
+declared the outbreak to be a Public Health Emergency of
+International Concern on 30 January 2020, and subsequently a
+pandemic on 11 March 2020.
+The impact of the pandemic required robust research to
+understand the novel virus and develop eﬀective mitigation
+and containment strategies (1–3). In February, the WHO
+in collaboration with the Global Research Collaboration for
+Infectious Disease Preparedness and Response (GLOPID-R)
+developed the Global Research Roadmap in response to the
+pandemic and identiﬁed priority research areas (4). These
+included: (a) product development for improvement of clinical
+processes; (b) shedding, natural history of disease; (c) monitoring
+of phenotypic change and adaptation; (d) immunity; and (e)
+disease models (4). Since then, a vast number of research has
+been produced on the clinical aspects of the disease, non-
+pharmaceutical interventions (NPIs), and public health (3).
+There has also been interest in the role of the environment (5–
+10), use of machine learning techniques and digital technologies
+(11–16), and government and policy responses (17–23).
+To eﬀectively respond to public health emergencies, there
+is a need for timely and accurate reporting of statistics and
+data sharing as highlighted in the recent Ebola and Zika
+epidemics (24–27). To this end, the Principles for Data Sharing
+in Public Health Emergencies consisting of timeliness, ethics,
+equitability, accessibility, transparency, fairness, and quality have
+been developed and introduced (26, 28, 29). The Global Research
+Roadmap also identiﬁed data sharing as a cross-cutting research
+priority that spans all other key topics (4). As of writing,
+however, the current evidence into the quality and availability of
+data is severely limited, with studies focusing primarily around
+descriptions of data sources or comments on the importance
+of data and data sharing (24, 30–42). One research group
+has examined the data availability for 507 COVID-19 patients
+reported in January, ﬁnding that the majority of information was
+provided by social media and news outlets (43). Other than this
+example, there is no other original work that investigates the
+issues surrounding data availability and data sharing practices
+during the pandemic. In Southeast Asia, only one study on data
+sharing during disease outbreaks has been carried out (44). The
+study evaluated data quality and timeliness of outbreak reporting
+in Cambodia, Lao PDR, Myanmar, and Vietnam for dengue, food
+poisoning and diarrhea, severe diarrhea, diphtheria, measles,
+H5N1 inﬂuenza, H1N1 inﬂuenza, rabies, and pertussis. Further, it
+highlighted the broad diﬀerences observed in the data quality and
+timeliness between participating countries, concluding that any
+international data-curating attempts must be versatile enough to
+accommodate these.
+Ongoing research into the epidemiology of SARS-CoV-2
+depends entirely on access to regularly updated and factor-rich
+data. The beneﬁts and importance of data sharing practices
+have been well-documented during previous outbreaks. In the
+ongoing COVID-19 crisis, government organisations, public
+health agencies, and research groups are responding to the call
+for rapid data sharing by providing data and curating detailed
+real-time databases that are readily and publicly accessible (30–
+32). Data from various groups have informed more than 100,000
+papers on COVID-19 (45). Despite progress in reporting and
+sharing data, the scale of the global pandemic presents its
+own unique challenges. First, there are ethical and privacy
+considerations that need to be balanced carefully against the
+potential impact of open data sharing. Second, there is a
+clear lack of capacity and often appropriate computational
+infrastructure that may make data sharing in real time unfeasible
+and burdensome (26, 27). Such challenges may result in changes
+in the quality and detail of data reporting between and within
+countries over time as their respective health systems become
+increasingly overwhelmed (33). The majority of countries
+are now routinely reporting the number of conﬁrmed cases
+and deaths attributed to COVID-19, with the country-wide
+cumulative totals readily accessible from databases such as the
+one curated by Johns Hopkins University (30). However, the
+breadth of further information reported by each country is less
+understood. Access to demographic and geographic information
+of cases in particular is critically important in the context of
+informing policy response, as these provide greater insights
+into how subgroups of the population in diﬀerent areas are
+aﬀected by the disease. Understanding how and when these data
+are provided is critical to ensuring that modelling eﬀorts and
+government response are well-informed. Further, understanding
+global responses to the COVID-19 pandemic will be of increasing
+relevance as countries begin to develop updated post-pandemic
+disease response frameworks. Being able to compare and contrast
+how diﬀerent countries responded and provided information in
+the early stages of the pandemic will be crucial in designing better
+response and reporting pipelines for future global health crises.
+Our work thus aimed to explore the scale of data reporting
+across the broader pandemic timeline by describing the ways
+in which various countries in a geographic region report
+COVID-19 data and how the detail of data reporting changed
+over time. We reviewed detailed epidemiological data from
+Southeast Asian countries and tracked how countries’ reporting
+of COVID-19 data has shifted. We further evaluated diﬀerences
+in reporting between countries and described the accessibility
+of epidemiological data during the ﬁrst wave in 2020. By
+providing these types of information, researchers may be able to
+conduct better and more nuanced analyses of epidemiological
+data of COVID-19. Further, our research provides wider
+insight into the data pipeline from government to researchers,
+and how it has adapted over time. This timeline provides
+greater context to the speciﬁc ﬁndings of subsequent data-
+driven research, highlighting areas and time periods where
+particular data feeds are likely to be particularly biased or
+data-sparse. We are also able to recommend, based upon our
+ﬁndings, prioritising the use of the early-case histories of speciﬁc
+countries for the calculation of demographic-speciﬁc disease
+parameters. By highlighting particular regions where speciﬁc
+data are available, such as travel history, hospitalisation times
+and symptom-tracking, we are also able to identify ideal further
+Frontiers in Public Health | www.frontiersin.org
+2
+June 2021 | Volume 9 | Article 662842
+
+Amit et al.
+COVID-19 Data Sharing in Southeast Asia
+topics of research in the ongoing attempts to ﬁght the spread
+of COVID-19.
+METHODS
+Study Design
+We conducted an observational study to describe and track
+changes in reporting of epidemiological data during the COVID-
+19 pandemic in 11 countries in Southeast Asia, namely
+Brunei, Cambodia, Indonesia, Lao PDR, Malaysia, Myanmar,
+Philippines, Singapore, Thailand, Timor-Leste, and Vietnam.
+Such a design allows us to compare the data reporting practices
+between diﬀerent countries through time as the pandemic
+progresses (46).
+Data Sources and Compilation
+We focused on reporting mechanisms of individual level
+COVID-19 data from the aforementioned 11 countries in
+Southeast Asia. The region is characterised by archipelagos and
+comprises more than 8.0% of the world’s population. During the
+ﬁrst wave of the pandemic, these 11 countries contributed about
+1.3% of the cases to the global count of more than 2.3 million
+cases on April 20.
+We initially reviewed the data of the Open COVID-19 Data
+Curation Group’s centralised repository containing individual-
+level
+information
+on
+patients
+with
+laboratory-conﬁrmed
+COVID-19 (47). These included data on the following variables
+deemed essential in monitoring pandemics: (a) Key dates, which
+include the date of travel, date of onset of symptoms, date of
+conﬁrmation of infection, date of admission to hospital, and
+date of outcome; (b) Demographic information including the
+age and sex of cases; (c) Geographic information on domicile
+and travel history at the highest resolution available down
+to the district level; (d) Any additional information such as
+symptoms and ‘contact tracing data’ (i.e., a record of exposure
+to infected individuals) (47). The collection of data on these
+variables mirrors the minimum data to be collected for a line
+list of pandemic inﬂuenza cases obtained from surveillance
+systems, as suggested by the WHO (48). Other sources, such
+as the interactive dashboard by Johns Hopkins University
+(30), do not provide detailed individual-level information and
+hence were not used in this study. At the time of the conduct
+of this study, the said centralised repository was manually
+maintained by a number of individuals, and therefore would
+have potentially missed some information about the COVID-
+19 positive individuals, particularly occupation that was not
+recorded in the repository. To validate and augment the data
+from the centralised repository, we reviewed other relevant
+and oﬃcial data sources of each country in diﬀerent formats
+including: government trackers and dashboards that report close
+to real-time data, downloadable PDF reports, downloadable CSV
+ﬁles, and oﬃcial social media accounts of governmental or public
+health institutions (Supplementary Table 1). In addition, we
+reviewed data from news agencies, pre-prints, and peer-reviewed
+research articles that contained information on COVID-19
+cases in the country. We reviewed all possible publicly available
+data sources from the date when the ﬁrst conﬁrmed case was
+reported in the country, and up to April 20. We only collected
+data at one timepoint, on April 20, and therefore could only use
+information available then. No updates on the reporting of key
+epidemiological variables were made for this study.
+Data Interpretation and Analysis
+We documented trends and changes in how key epidemiological
+variables were reported by 11 Southeast Asian countries
+throughout the study period from January 23 to April 20.
+The reporting methodologies of each country could broadly be
+separated into three distinct time periods, deﬁned by speciﬁc
+milestones in each country’s data reporting. The ﬁrst time period
+or “ﬁrst reporting of cases” (T0) for all countries was the date at
+which the country reported its ﬁrst COVID-19 case. Following
+this, the “ﬁrst change in reporting” (T1) was the time when
+the information format was changed from the ﬁrst report based
+on available data during the study period. This was primarily
+characterised by countries establishing a formal channel by which
+to declare subsequent conﬁrmed cases of COVID-19, as opposed
+to (T0), where cases were primarily reported via news reports
+and/or government brieﬁngs. Any further changes in the level of
+detail, also referred in this paper as granularity for geographic
+data and precision for both demographic and temporal data,
+in the reporting of any of the epidemiological variables were
+considered as a “change in reporting” and were noted as
+a subsequent time period (Supplementary Table 2). This was
+characterised by countries further updating and altering their
+previously established formal case declaration channel as their
+respective data pipelines changed. The “last observed change in
+reporting” (T2) was the last documented change up to April 20.
+We also noted the number of cases in each timepoint. In this
+paper, we only present results on the “ﬁrst reporting of cases”
+(T0), “ﬁrst observed change in reporting” (T1), and “last observed
+change in reporting” (T2).
+We then explored the diﬀerences in reporting of demographic,
+geographic, and temporal data across countries at three key
+timepoints: at the time they ﬁrst reported cases (T0), at
+the time when the reporting ﬁrst changed (T1), and at the
+last observed change in reporting (T2). Any change in the
+level of granularity or precision in reporting is noted. We
+present these diﬀerences for each epidemiological variable
+classiﬁed into: (a) demographic data; (b) geographic data; and
+(c) temporal data. Data for other epidemiological variables
+are presented in Supplementary Figures 1–5. We present in
+Supplementary Figure 6 a summary of what information each
+country had for each timepoint (T0, T1, T2).
+RESULTS
+Shifts in Reporting of Epidemiological Data
+During the First Wave
+The ﬁrst Southeast Asian country to report a COVID-19 case
+was Thailand on January 23. Singapore, Malaysia, Cambodia,
+Vietnam and the Philippines subsequently reported cases on or
+before the WHO declared COVID-19 a Public Health Emergency
+of International Concern (PHEIC) on January 30. Indonesia,
+Frontiers in Public Health | www.frontiersin.org
+3
+June 2021 | Volume 9 | Article 662842
+
+Amit et al.
+COVID-19 Data Sharing in Southeast Asia
+FIGURE 1 | Timeline of key events with corresponding number of cases during the ﬁrst wave of the COVID-19 pandemic. The notiﬁcation of a novel coronavirus
+disease in late December and the announcement of the PHEIC are denoted by lines. Shifts in reporting are deﬁned by a change in level of detail and precision in any of
+the epidemiological variables (Supplementary Table 2). Each key reporting shift is denoted by a colored circle.
+Brunei, Timor-Leste, Myanmar and Lao PDR reported their ﬁrst
+cases of COVID-19 in March (Figure 1).
+Malaysia had the shortest time between reporting of the
+ﬁrst case and ﬁrst change in reporting of epidemiological data.
+Only a day after their ﬁrst reported case, more detailed reports
+on the occurrence of symptoms, and dates of symptom onset
+and hospitalisation were provided. Similar improvements in
+terms of the level of granularity and precision in reporting
+data were also noted for the following countries: Philippines
+eventually reported comorbidities for some patients, Singapore
+and Vietnam eventually reported data on occupation, and Timor-
+Leste eventually reported travel history data. As case numbers
+increased, several countries provided less detailed information.
+By March 15, when 96 cases had been identiﬁed, Indonesia
+ceased reporting individual-level data and switched to aggregate
+data (i.e., number of cases per day). Timor-Leste followed by
+April 15, when it had 8 recorded cases. The ﬁrst and the last
+changes in reporting were the same for Indonesia and Brunei,
+while Myanmar was the only country that consistently reported
+individual-level COVID-19 epidemiologic data since reporting
+its ﬁrst two cases on March 23 until April 20.
+Differences in the Granularity and
+Precision of Reporting Across Countries
+There were minimal changes in the reporting of demographic
+data among countries. The majority of countries reported age and
+sex except for Timor-Leste, and only Indonesia shifted from a
+more precise reporting of age and sex to less detailed reporting
+(Figures 2A,B). We observed more changes in the reporting
+of occupation (Figure 2C); Indonesia only provided occupation
+data at the time of reporting of ﬁrst cases, while Singapore and
+Vietnam included data on occupation of COVID-19 patients at
+later timepoints.
+Location information on domicile and travel history diﬀered
+across countries and timepoints. While all 11 countries provided
+domicile information (Figure 3A), only Singapore provided
+precise-level addresses. Both Indonesia and Malaysia initially
+provided city-level information and shifted to less granular
+reporting. For Indonesia, province-level data was being reported
+by March 15 when it reached 96 cases. Meanwhile, Malaysia
+started reporting province-level data on March 21 when
+it reached 1,183 conﬁrmed cases. On the other hand, the
+information coming from some countries initially presented less
+granularity or lower geographic resolution: Lao PDR initially
+reported country-level information, Thailand initially reported
+province-level addresses and Vietnam initially reported city-level
+addresses; eventually all three countries reported precise address
+data. There were less diﬀerences observed for travel location data
+reporting across countries, but also more shifts observed over
+time (Figure 3B). Most (8 of 11) provided city-level information
+of the travel history; only Myanmar provided country-level
+information, while both Indonesia and Timor-Leste provided no
+information at the time of reporting their ﬁrst cases. Only Timor-
+Leste shifted to a more granular level of reporting over time,
+while Brunei, Cambodia, Malaysia, Philippines, Singapore and
+Thailand reported less granular data. Lao PDR shifted reporting
+travel histories from city-level information when it reported its
+ﬁrst two cases to no information being shared when it had six
+conﬁrmed cases, and then to country-level travel history data
+when it had reported 11 cases.
+For all temporal variables, countries reported either precise
+dates or no dates at all. At the start of each country’s ﬁrst case,
+Frontiers in Public Health | www.frontiersin.org
+4
+June 2021 | Volume 9 | Article 662842
+
+Amit et al.
+COVID-19 Data Sharing in Southeast Asia
+FIGURE 2 | Differences in the level of precision in reporting demographic data: (A) age, (B) sex, and (C) occupation over three timepoints. Only those countries with
+changes in the level of detail and precision of reporting are highlighted. Each country may shift reporting at any timepoint: at the ﬁrst reporting of cases’ (T0), “ﬁrst
+observed change in reporting” (T1), and “last observed change in reporting” (T2). Each country may report less precise data indicated by a decreasing slope (red) or
+more precise data indicated by an increasing slope (blue) consistently over time. Reporting may not be consistent across timepoints with shifts between different levels
+of precision (yellow) or reporting may not have changed at all during the study period (gray). The levels of precision are indicated for each epidemiological variable. Age
+has three levels while both sex and occupation are binary variables.
+the majority of countries provided travel history dates except for
+Brunei, Indonesia, and Timor-Leste (Figure 4A). Only Brunei
+shifted to reporting dates for the succeeding timepoints while
+Malaysia, Philippines, and Singapore stopped reporting dates as
+cases increased. Lao PDR repeatedly shifted between reporting
+travel dates and excluding this information. The precision of
+reporting symptom onset dates also varied across countries and
+timepoints (Figure 4B). Cambodia, Indonesia and Timor-Leste
+never reported such information, while Brunei, Myanmar, and
+Vietnam consistently reported speciﬁc dates when symptoms
+Frontiers in Public Health | www.frontiersin.org
+5
+June 2021 | Volume 9 | Article 662842
+
+Amit et al.
+COVID-19 Data Sharing in Southeast Asia
+FIGURE 3 | Differences in the level of granularity in reporting geographic data: (A) domicile, and (B) travel history location over three timepoints. Only those countries
+with changes in the level of granularity or geographic resolution of reporting are highlighted. Each country may shift reporting at any timepoint: at the ﬁrst reporting of
+cases’ (T0), “ﬁrst observed change in reporting” (T1), and “last observed change in reporting” (T2). Each country may report less granular data indicated by a
+decreasing slope (red) or more granular data indicated by an increasing slope (blue) consistently over time. Reporting may not be consistent across timepoints with
+shifts between different levels of granularity (yellow) or reporting may not have changed at all during the study period (gray). The levels of granularity are indicated for
+each epidemiological variable. All geographic data have ﬁve levels of granularity/geographic resolution: none, country, province, city, and precise.
+presented. Malaysia provided day information in the succeeding
+timepoints while Philippines, Singapore, and Thailand eventually
+stopped reporting the date of symptom onset. Lao PDR
+repeatedly shifted between reporting of dates to no reporting.
+Date of conﬁrmation showed consistent reporting in all countries
+except Thailand, which stopped its reporting when it had 42
+cases (Figure 4C). Several countries initially reported the date
+of admission except for Brunei, Cambodia, Indonesia, Malaysia,
+and Timor-Leste (Figure 4D). Only Thailand had a shift in
+reporting dates of discharge, recovery, or death - reporting
+this information only in late February when it had 42 cases
+(Figure 4E).
+DISCUSSION
+Responding
+to
+calls
+for
+data
+sharing
+and
+transparency,
+most governments in Southeast Asia established publicly
+available sources of COVID-19 individual-level information.
+This commitment to data sharing and reporting allowed the
+comparison of the diﬀerent data reporting practices of the
+countries in the region. We found that countries in Southeast
+Asia have diﬀerent reporting practices since the start of the
+pandemic and during the ﬁrst months of its progression. Overall,
+reporting of epidemiological data in Southeast Asia is precise
+and detailed. Many variables were consistently maintained
+throughout the initial outbreak period, but those with changes in
+reporting started early with case counts as low as four to as high
+as 136. There was little to no change in reporting of demographic
+data while changes in reporting of geographic and temporal
+variables were frequent and unpredictable as the pandemic
+progressed. Further, we ﬁnd that changes in the level of precision
+in reporting does not only depend on case numbers, but also
+on the policies and interventions implemented. Comparisons
+across countries for diﬀerent epidemiologic variables showed
+that national governments may shift to a less or more precise
+reporting of data as dictated by the burden of COVID-19 in
+the communities and/or their national response. As an example,
+Indonesia started reporting aggregate data less than two weeks
+after their ﬁrst case was reported. Their government did not
+implement a nationwide lockdown, but rather focused on scaling
+up capacity, treating patients and supporting economic recovery.
+Conversely, Lao PDR, Thailand and Vietnam reported more
+precise demographic and geographic data at the end of the study
+period compared to how they reported their ﬁrst cases. The
+national governments of these countries established mechanisms
+to quickly identify and isolate cases and their contacts requiring
+detailed contact tracing data. Our ﬁndings also show that most
+countries reported more precise information towards the end
+of the study period, but some variables such as travel history
+location were reported with less detail compared to the increased
+granularity for domicile data. These trends in travel history
+data highlight the shift in priorities of the governments in the
+Frontiers in Public Health | www.frontiersin.org
+6
+June 2021 | Volume 9 | Article 662842
+
+Amit et al.
+COVID-19 Data Sharing in Southeast Asia
+FIGURE 4 | Differences in the level of precision in reporting temporal data: (A) date of travel, (B) date of symptom onset, (C) date of conﬁrmation, (D) date of hospital
+admission, and (E) date of outcome over three timepoints. Only those countries with changes in the level of detail and precision of reporting are highlighted.
+(Continued)
+Frontiers in Public Health | www.frontiersin.org
+7
+June 2021 | Volume 9 | Article 662842
+
+Amit et al.
+COVID-19 Data Sharing in Southeast Asia
+FIGURE 4 | Each country may shift reporting at any timepoint: at the ﬁrst reporting of cases’ (T0), “ﬁrst observed change in reporting” (T1), and “last observed change
+in reporting” (T2). Each country may report less precise data indicated by a decreasing slope (red) or more precise data indicated by an increasing slope (blue)
+consistently over time. Reporting may not be consistent across timepoints with shifts between different levels of precision (yellow) or reporting may not have changed
+at all during the study period (gray). The levels of precision are indicated for each epidemiological variable. All date variables have three levels of precision: none,
+month, and day.
+region towards managing local transmission. Southeast Asian
+countries implemented travel restrictions early, therefore having
+fewer imported cases and less need for precise travel history
+data (49).
+Data on dates of symptom onset, conﬁrmation, admission,
+and outcome (discharge, recovery, or death) are important
+in estimating disease burden and forecasting health service
+needs. Dates of conﬁrmation and outcome (discharge, recovery,
+or death) were reported consistently by most countries. This
+reﬂects the eﬀective system of governments to register all
+conﬁrmed patients in their database upon entry and exit in the
+healthcare system. However, we found that dates of symptom
+onset and hospital admission were no longer reported at the
+end of the observation period for some countries. The reporting
+of less precise dates could be attributed to the increasing
+incidence of COVID-19, which could have overwhelmed data
+reporting mechanisms of the countries, particularly because
+individual patient follow-up requires symptom onset dates to be
+accurately logged. Governments thus need to establish systems
+that allow accurate and fast reporting of detailed temporal
+data. Lack of precision could adversely aﬀect the quality of
+mathematical models and other analyses, which are used to
+forecast demand for health services and make decisions. This
+consequently impacts the responses to COVID-19 at a national
+and subnational level, which is of greater concern among low-
+and middle-countries (LMICs) that already have fragile health
+systems. Our ﬁndings provide insights on how diﬀerent health
+systems respond to the pandemic. Consequently, these could be
+used to guide how publicly available data are analysed, used,
+and interpreted.
+Most countries reported COVID-19 data daily, with unclear
+reporting frequencies only being observed for Brunei, Lao PDR,
+and Timor-Leste. These countries do not report new cases every
+day because of the low number of new daily cases leading to days
+where no additional cases are conﬁrmed. As they only provide
+updates on days when new COVID-19 cases are conﬁrmed,
+their frequency of providing data updates on COVID-19 is thus
+irregular. Countries primarily reported individual-level data in
+either HTML and PDF formats, which necessitates scraping and
+extraction before such data could be used in analyses. During
+the study period, only Thailand provided a downloadable CSV
+format of their data. Ready-to-use data formats are important as
+these allow the public and scientiﬁc community to rapidly view
+and analyse country-speciﬁc information.
+Shifts in reporting, especially from a detailed level of
+reporting to aggregated data, provide a challenge for accurately
+comparing epidemiological situations between countries, more
+so for understanding disease dynamics and guiding government
+actions. In China, it has been shown that changes in reporting
+have impacted modelling results of the transmission parameters
+of COVID-19 (45). Further, as the pandemic progresses
+and epidemiological information becomes increasingly less
+available, analyses of detailed case counts that cover the
+entire duration of the epidemic may not be feasible (32). In
+Nigeria, a forecasting algorithm has been proposed for use in
+policy responses given the limited data and constrained data
+infrastructures in the country (50). In Spain where data have
+been aggregated as early as May, there have been challenges
+in conducting age-speciﬁc time series, understanding disease
+transmission, and recommending interventions and policies
+(42). These three examples are evidence that detailed COVID-
+19 data are necessary, not only for research purposes, but
+to ultimately guide policies that avert cases and deaths in
+the country.
+An important limitation of this study is the collection of
+data at only one timepoint in April. This may not accurately
+reﬂect the daily reporting situation of the 11 Southeast Asian
+countries when the pandemic started. Another limitation is the
+absence of any assessment on data quality. This evaluation was
+not carried out because of the fast progression of the pandemic
+with corresponding rapid changes in data reporting. The lack of
+an up-to-date and complete line list also prevents a thorough
+assessment of data quality. Lastly and most importantly, an
+evaluation of data quality also requires the consideration of other
+indicators such as ﬂexibility, representativeness, data security
+and system stability to provide a more accurate picture of
+health systems and disease surveillance systems (44). These,
+information are not readily available and require more resources
+to be collected. Despite such caveats, however, this study is
+the ﬁrst to systematically describe and compare reporting of
+important epidemiological data for COVID-19 across countries
+during the ﬁrst wave. Our ﬁndings will allow researchers to
+conduct more nuanced analyses using epidemiological data
+of COVID-19.
+CONCLUSION
+Reporting systems in the region have been quickly established
+and countries provided detailed individual-level data during the
+ﬁrst wave. This pandemic highlights the critical role of timely,
+accurate, and precise data sharing during outbreaks of global
+scale. Some concerns regarding data sharing remain, such as
+data privacy and public criticisms (26, 27). Given that sharing of
+data is needed for evidence-informed policies and interventions,
+maintaining and strengthening data reporting systems should
+still be a priority of countries (51–53). For the purposes of
+surveillance on emerging infectious diseases, we recommend that
+Frontiers in Public Health | www.frontiersin.org
+8
+June 2021 | Volume 9 | Article 662842
+
+Amit et al.
+COVID-19 Data Sharing in Southeast Asia
+governments coordinate data collection and reporting so that
+data are as comparable as possible between countries. Countries
+may also beneﬁt from reporting data in a fully open access format
+that is readily available and in machine-readable formats to
+accommodate new epidemics and context-speciﬁc information.
+Hopefully, more governments will come to share precise data to
+allow more nuanced analyses. This will provide an opportunity
+to better understand the disease and how best to respond to
+the pandemic.
+DATA AVAILABILITY STATEMENT
+Publicly available datasets were analysed in this study. Data
+can be found here: https://github.com/beoutbreakprepared/
+nCoV2019.
+AUTHOR CONTRIBUTIONS
+AA and VP wrote the initial draft of the manuscript with
+inputs from BG and TR. All authors contributed to the study
+concept and design, data compilation, analysis, interpretation,
+and critically revised the report and approved the ﬁnal version
+for submission.
+FUNDING
+The work was supported through an Engineering and Physical
+Sciences Research Council (EPSRC) (https://epsrc.ukri.org/)
+Systems Biology studentship award (EP/G03706X/1) to TR.
+This project was also supported in part by the Oxford
+Martin School. The funders had no role in study design, data
+collection and analysis, and decision to publish or preparation
+of the manuscript.
+ACKNOWLEDGEMENTS
+We thank Moritz U.G. Kraemer and the Open COVID-19 Data
+Working Group for their support and insights. The full list
+of curators and contributors making up the Open COVID-
+19 Data Working Group is provided at: https://github.com/
+beoutbreakprepared/nCoV2019.
+SUPPLEMENTARY MATERIAL
+The Supplementary Material for this article can be found
+online
+at:
+https://www.frontiersin.org/articles/10.3389/fpubh.
+2021.662842/full#supplementary-material
+REFERENCES
+1. Fauci AS, Lane HC, Redﬁeld RR. Covid-19 — Navigating the uncharted. N
+Engl J Med. (2020) 2:1268–9. doi: 10.1056/NEJMe2002387
+2. Lipsitch M, Swerdlow DL, Finelli L. Deﬁning the epidemiology of Covid-19 —
+studies needed. N Engl J Med. (2020) 3:1194–6;. doi: 10.1056/NEJMp2002125
+3. Doanvo A, Qian X, Ramjee D, Piontkivska H, Desai A, Majumder M.
+Machine learning maps research needs in COVID-19 literature. Patterns.
+(2020) 1:100123. doi: 10.1016/j.patter.2020.100123
+4. World Health Organization. A Coordinated Global Research Roadmap.
+(2020) Available online at: https://www.who.int/blueprint/priority-diseases/
+key-action/Roadmap-version-FINAL-for-WEB.pdf?ua=1 (accessed April 22,
+2021).
+5. Phillips CA. Compound climate risks in the COVID-19 pandemic. Nat Clim
+Chang. (2020) 10:3. doi: 10.1038/s41558-020-0804-2
+6. Coccia M. Eﬀects of the spread of COVID-19 on public health of polluted
+cities: results of the ﬁrst wave for explaining the dejà vu in the second wave of
+COVID-19 pandemic and epidemics of future vital agents. Environ Sci Pollut
+Res. (2021) 28:19147–54. doi: 10.1007/s11356-020-11662-7
+7. Coccia M. An index to quantify environmental risk of exposure to future
+epidemics of the COVID-19 and similar viral agents: theory and practice.
+Environ Res. (2020) 191:110155. doi: 10.1016/j.envres.2020.110155
+8. Merow
+C,
+Urban
+MC.
+Seasonality
+and
+uncertainty
+in
+global
+COVID-19
+growth
+rates.
+Proc
+Natl
+Acad
+Sci
+USA.
+(2020)
+117:27456–64. doi: 10.1073/pnas.2008590117
+9. Liu X, Huang J, Li C, Zhao Y, Wang D, Huang Z, et al. The role of
+seasonality in the spread of COVID-19 pandemic. Environ Res. (2021)
+195:110874. doi: 10.1016/j.envres.2021.110874
+10. Ching J, Kajino M. Rethinking air quality and climate change after COVID-19.
+Int J Environ. (2020) 17:5167. doi: 10.3390/ijerph17145167
+11. Gomes D, Serra G. Machine learning model for computational tracking
+and forecasting the COVID-19 dynamic propagation. IEEE J Biomed Health
+Inform. (2021) 25:8. doi: 10.1109/JBHI.2021.3052134
+12. Tyagi I. COVID-19: journey so far and deep insight using crowdsourced data
+in India. MAPAN-J Metrol Soc I. (2021) 14:33–46. doi: 10.1007/s12647-020-
+00416-y
+13. Tu B, Wei L, Jia Y, Qian J. Using Baidu search values to monitor and predict
+the conﬁrmed cases of COVID-19 in China: evidence from Baidu index. BMC
+Infect Dis. (2021) 21:98. doi: 10.1186/s12879-020-05740-x
+14. Budd J, Miller BS, Manning EM, Lampos V, Zhuang M, Edelstein M, et al.
+Digital technologies in the public-health response to COVID-19. Nat Med.
+(2020) 26:1183–92. doi: 10.1038/s41591-020-1011-4
+15. de Souza TA, de Almeida Medeiros A, Barbosa IR, de Vasconcelos
+Torres G. Digital technologies for monitoring infected people, identifying
+contacts and tracking transmission chains in the corona virus disease
+2019 pandemic: a protocol for a systematic review. Medicine. (2020)
+99:e23744. doi: 10.1097/MD.0000000000023744
+16. Khataee H, Scheuring I, Czirok A, Neufeld Z. Eﬀects of social distancing on
+the spreading of COVID-19 inferred from mobile phone data. Sci Rep. (2021)
+9:1–8. doi: 10.1038/s41598-021-81308-2
+17. Coccia M. The relation between length of lockdown, numbers of infected
+people and deaths of Covid-19, and economic growth of countries: lessons
+learned to cope with future pandemics similar to Covid-19 and to
+constrain the deterioration of economic system. Sci Total Environ. (2021)
+775:145801. doi: 10.1016/j.scitotenv.2021.145801
+18. Han E, Tan MMJ, Turk E, Sridhar D, Leung GM, Shibuya K, et al.
+Lessons learnt from easing COVID-19 restrictions: an analysis of countries
+and regions in Asia Paciﬁc and Europe. Lancet. (2020) 396:1525–
+34. doi: 10.1016/S0140-6736(20)32007-9
+19. Summers
+DJ,
+Cheng
+DH-Y,
+Lin
+PH-H,
+Barnard
+DLT,
+Kvalsvig
+DA,
+Wilson
+PN,
+et
+al.
+Potential
+lessons
+from
+the
+Taiwan
+and
+New Zealand health responses to the COVID-19 pandemic. Lancet
+Reg
+Health
+West
+Pac.
+(2020)
+4:100044.
+doi:
+10.1016/j.lanwpc.2020.
+100044
+20. Oh J, Lee J-K, Schwarz D, Ratcliﬀe HL, Markuns JF, Hirschhorn
+LR. National response to COVID-19 in the republic of Korea and
+lessons
+learned
+for
+other
+countries.
+Health
+Syst
+Reform.
+(2020)
+6:e1753464. doi: 10.1080/23288604.2020.1753464
+21. Xuan Tran B, Thi Nguyen H, Quang Pham H, Thi Le H, Thu Vu G,
+Latkin CA, et al. Capacity of local authority and community on epidemic
+response in Vietnam: implication for COVID-19 preparedness. Saf Sci. (2020)
+130:104867. doi: 10.1016/j.ssci.2020.104867
+Frontiers in Public Health | www.frontiersin.org
+9
+June 2021 | Volume 9 | Article 662842
+
+Amit et al.
+COVID-19 Data Sharing in Southeast Asia
+22. de
+Villiers
+C,
+Cerbone
+D,
+Van
+Zijl
+W.
+The
+South
+African
+government’s
+response
+to
+COVID-19.
+J
+Public
+Budg.
+(2020)
+32:797–811. doi: 10.1108/JPBAFM-07-2020-0120
+23. Amit
+AML,
+Pepito
+VCF,
+Dayrit
+MM.
+Early
+response
+to
+COVID-
+19 in the Philippines. Western Pac Surveill Response J. (2021) 12:5.
+doi: 10.5365/wpsar.2020.11.1.014
+24. Dye C, Bartolomeos K, Moorthy V, Kieny MP. Data sharing in public
+health emergencies: a call to researchers. Bull World Health Organ. (2016)
+94:158. doi: 10.2471/BLT.16.170860
+25. Pearce N, Vandenbroucke JP, VanderWeele TJ, Greenland S. Accurate
+statistics on COVID-19 are essential for policy guidance and decisions. Am
+J Public Health. (2020) 110:949–51. doi: 10.2105/AJPH.2020.305708
+26. Littler K, Boon W-M, Carson G, Depoortere E, Mathewson S, Mietchen D,
+et al. Progress in promoting data sharing in public health emergencies. Bull
+World Health Organ. (2017) 95:243. doi: 10.2471/BLT.17.192096
+27. Chretien
+J-P,
+Rivers
+CM,
+Johansson
+MA.
+Make
+data
+sharing
+routine to prepare for public health emergencies. PLoS Med. (2016)
+13:e1002109. doi: 10.1371/journal.pmed.1002109
+28. Wilkinson MD, Dumontier M, Aalbersberg IjJ, Appleton G, Axton M, Baak
+A, et al. The FAIR guiding principles for scientiﬁc data management and
+stewardship. Sci Data. (2016) 3:160018. doi: 10.1038/sdata.2016.18
+29. Global Research Collaboration for Infectious Disease Preparedness (GLOPID-
+R) Data Sharing Working Group. Principles For Data Sharing in Public Health
+Emergencies. (2018). Available online at: https://wellcome.ﬁgshare.com/
+articles/Principles_for_Data_Sharing_in_Public_Health_Emergencies/
+4733590 (accessed May 7, 2020).
+30. Dong
+E,
+Du
+H,
+Gardner
+L.
+An
+interactive
+web-based
+dashboard
+to
+track
+COVID-19
+in
+real
+time.
+Lancet
+Infect.
+(2020)
+20:533–
+4. doi: 10.1016/S1473-3099(20)30120-1
+31. Xu B, Gutierrez B, Mekaru S, Sewalk K, Goodwin L, Loskill A,
+et al. Epidemiological data from the COVID-19 outbreak, real-time case
+information. Sci Data. (2020) 7:106. doi: 10.1038/s41597-020-0448-0
+32. Chen E, Lerman K, Ferrara E. Tracking social media discourse about the
+COVID-19 pandemic: development of a public coronavirus Twitter data set.
+JMIR Public Health Surveill. (2020) 6:e19273. doi: 10.2196/19273
+33. Moorthy V, Henao Restrepo AM, Preziosi M-P, Swaminathan S. Data
+sharing for novel coronavirus (COVID-19). Bull World Health Organ. (2020)
+98:150. doi: 10.2471/BLT.20.251561
+34. Fegan G, Cheah PY. Solutions to COVID-19 data sharing. Lancet Digit Health.
+(2021) 3:e6. doi: 10.1016/S2589-7500(20)30273-9
+35. Gardner L, RatcliﬀJ, Dong E, Katz A. A need for open public data
+standards and sharing in light of COVID-19. Lancet Infect. (2021)
+21:e80. doi: 10.1016/S1473-3099(20)30635-6
+36. Galvin CJ, Fernandez-Luque L, Li Y-C. Accelerating the global response
+against the exponentially growing COVID-19 outbreak through decent data
+sharing. Diagn. (2020). doi: 10.1016/j.diagmicrobio.2020.115070. [Epub ahead
+of print].
+37. CosgriﬀCV. Data sharing in the era of COVID-19. Lancet Digit Health. (2020)
+2:1. doi: 10.1016/S2589-7500(20)30082-0
+38. Paul S, Chatterjee MK. Data sharing solutions for biobanks for the COVID-19
+pandemic. Biopreserv Biobank. (2020) 18:581–6. doi: 10.1089/bio.2020.0040
+39. Curioso WH, Carrasco-Escobar G. Collaboration in times of COVID-19: the
+urgent need for open-data sharing in Latin America. BMJ Health Care Inform.
+(2020) 27:e100159. doi: 10.1136/bmjhci-2020-100159
+40. Foraker RE, Lai AM, Kannampallil TG, Woeltje KF, Trolard AM, Payne PRO.
+Transmission dynamics: data sharing in the COVID-19 era. Learn Health Sys.
+(2021) 5. doi: 10.1002/lrh2.10235. [Epub ahead of print].
+41. Aguiar
+ERGR,
+Navas
+J,
+Pacheco
+LGC.
+The
+COVID-19
+diagnostic
+technology
+landscape:
+eﬃcient
+data
+sharing
+drives
+diagnostic
+development. Front Public Health. (2020) 8:309. doi: 10.3389/fpubh.2020.
+00309
+42. Trias-Llimós S, Alustiza A, Prats C, Tobias A, Riﬀe T. The need
+for detailed COVID-19 data in Spain. Lancet Public Health. (2020)
+5:e576. doi: 10.1016/S2468-2667(20)30234-6
+43. Sun
+K,
+Chen
+J,
+Viboud
+C.
+Early
+epidemiological
+analysis
+of
+the
+coronavirus
+disease
+2019
+outbreak
+based
+on
+crowdsourced
+data:
+a
+population-level
+observational
+study.
+Lancet
+Digit
+Health.
+(2020)
+2:e201–8. doi: 10.1016/S2589-7500(20)30026-1
+44. Lawpoolsri S, Kaewkungwal J, Khamsiriwatchara A, Sovann L, Sreng
+B, Phommasack B, et al. Data quality and timeliness of outbreak
+reporting
+system
+among
+countries
+in
+greater
+mekong
+subregion:
+challenges for international data sharing. PLoS Negl Trop Dis. (2018)
+12:e0006425. doi: 10.1371/journal.pntd.0006425
+45. Wang LL, Lo K, Chandrasekhar Y, Reas R, Yang J, Burdick D, et al. CORD-19:
+The COVID-19 Open Research Dataset. (2020) Available online at: http://arxiv.
+org/abs/2004.10706 (accessed October 21, 2020).
+46. Rothman K, Greenland S, Lash T. Modern Epidemiology. 3th ed. St.
+Philadelphia, PA: Lippincott Williams and Wilkins (2008).
+47. Xu B, Kraemer MUG, Xu B, Gutierrez B, Mekaru S, Sewalk K, et al. Open
+access epidemiological data from the COVID-19 outbreak. Lancet Infect.
+(2020) 20:534. doi: 10.1016/S1473-3099(20)30119-5
+48. World Health Organization. WHO guidance for surveillance during an
+inﬂuenza pandemic. (2017). Available online at: https://www.who.int/
+inﬂuenza/preparedness/pandemic/WHO_Guidance_for_surveillance_
+during_an_inﬂuenza_pandemic_082017.pdf (accessed May 16, 2020).
+49. World Health Organization. Pandemic Inﬂuenza Preparedness and Response:
+A WHO Guidance Document. (2009) Available online at: https://www.ncbi.
+nlm.nih.gov/books/NBK143061/ (accessed August 20, 2020).
+50. Abdulmajeed
+K,
+Adeleke
+M,
+Popoola
+L.
+Online
+forecasting
+of
+COVID-19 cases in Nigeria using limited data. Data Brief. (2020)
+30:105683. doi: 10.1016/j.dib.2020.105683
+51. Goldacre B, Harrison S, Mahtani K, Heneghan C. WHO Consultation on
+Data and Results Sharing During Public Health Emergencies. (2015). Available
+online
+at:
+https://www.who.int/medicines/ebola-treatment/background_
+brieﬁng_on_data_results_sharing_during_phes.pdf?ua=1 (accessed June 18,
+2020).
+52. Aljunid SM, Srithamrongsawat S, Chen W, Bae SJ, Pwu R-F, Ikeda S, et al.
+Health-care data collecting, sharing, and using in Thailand, China Mainland,
+South Korea, Taiwan, Japan, and Malaysia. Value in Health. (2012) 15:S132–
+8. doi: 10.1016/j.jval.2011.11.004
+53. Gewin V. Six tips for data sharing in the age of the coronavirus. Nature.
+(2020). doi: 10.1038/d41586-020-01516-0. [Epub ahead of print].
+Conﬂict of Interest: The authors declare that the research was conducted in the
+absence of any commercial or ﬁnancial relationships that could be construed as a
+potential conﬂict of interest.
+Copyright © 2021 Amit, Pepito, Gutierrez and Rawson. This is an open-access article
+distributed under the terms of the Creative Commons Attribution License (CC BY).
+The use, distribution or reproduction in other forums is permitted, provided the
+original author(s) and the copyright owner(s) are credited and that the original
+publication in this journal is cited, in accordance with accepted academic practice.
+No use, distribution or reproduction is permitted which does not comply with these
+terms.
+Frontiers in Public Health | www.frontiersin.org
+10
+June 2021 | Volume 9 | Article 662842

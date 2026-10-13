@@ -1,0 +1,1009 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Physics Faculty Publications 
+Physics Department 
+1-1-2025 
+The Unique Features of Typhoon Rai (2021): An Observational 
+The Unique Features of Typhoon Rai (2021): An Observational 
+Study 
+Study 
+Clint Eldrick R. Petilla 
+Ateneo de Manila University 
+Lyndon Mark P. Olaguera 
+Ateneo de Manila University; Manila Observatory, lolaguera@ateneo.edu 
+Faye Abigail T. Cruz 
+Ateneo de Manila University 
+Jose Ramon T. Villarin 
+Ateneo de Manila University, jvillarin@ateneo.edu 
+Hironori Fudeyasu 
+Yokohama National University 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/physics-faculty-pubs 
+ Part of the Atmospheric Sciences Commons, Climate Commons, and the Meteorology Commons 
+Custom Citation 
+Custom Citation 
+Petilla, C.E.R., Olaguera, L.M.P., Cruz, F.A.T. et al. The unique features of Typhoon Rai (2021): an 
+observational study. Nat Hazards (2025). https://doi.org/10.1007/s11069-025-07138-x 
+This Article is brought to you for free and open access by the Physics Department at Archīum Ateneo. It has been 
+accepted for inclusion in Physics Faculty Publications by an authorized administrator of Archīum Ateneo. For more 
+information, please contact research@ateneo.edu. 
+
+Authors 
+Authors 
+Clint Eldrick R. Petilla, Lyndon Mark P. Olaguera, Faye Abigail T. Cruz, Jose Ramon T. Villarin, Hironori 
+Fudeyasu, Ryuji Yoshida, and Jun Matsumoto 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/physics-faculty-pubs/185 
+
+Vol.:(0123456789)
+Natural Hazards
+https://doi.org/10.1007/s11069-025-07138-x
+ORIGINAL PAPER
+The unique features of Typhoon Rai (2021): an observational 
+study
+Clint Eldrick R. Petilla1,2,6 · Lyndon Mark P. Olaguera1,2   · Faye Abigail T. Cruz1 · 
+Jose Ramon T. Villarin1,2 · Hironori Fudeyasu5 · Ryuji Yoshida5,6 · Jun Matsumoto2,3,4,5
+Received: 22 June 2024 / Accepted: 13 January 2025 
+© The Author(s), under exclusive licence to Springer Nature B.V. 2025
+Abstract
+Tropical Cyclone (TC) RAI (2021) made a devastating landfall in the Siargao-Dinagat 
+Islands of the southeastern Philippines on December 16, 2021, causing about USD 942 M 
+in damage, 405 reported deaths and 52 missing. Yet, observational studies on the environ-
+mental conditions during TC RAI remain limited, and a comparison with other landfall-
+ing TCs were not done. To shed light on the factors that made this TC reach a maximum 
+sustained wind speed (MSW) of 105 kts (194.5 kph) and 915 hPa mean sea level pres-
+sure according to the WMO-IBTrACS, this study investigated the meteorological statistics 
+of this TC relative to other landfalling TCs in the Philippines from 1979 to 2020 and the 
+environmental features with cases having similar landfalling month, location, and track. 
+When compared with Philippine landfalling TCs from 1979 to 2020, this TC, among vio-
+lent typhoons, ranked second in terms of MSW and translational speed. Moreover, the TC 
+had a westward movement, faster translational speed, larger radius, and greater intensity 
+when compared to seven other TCs that made landfall in the same month and region. The 
+environmental factors along the path of TC RAI that may have contributed to its intensi-
+fication include, but are not limited to, the above normal SST (+ 0.5 to 1.5 °C) and ocean 
+heat content, high low-level relative humidity (RH), and high specific humidity. These fac-
+tors resulted in strong low-level convergence and intensification until landfall. Composite 
+analysis of and comparison with the other seven landfalling TCs reveal that the atmos-
+pheric conditions during TC RAI had a consistently higher near-surface ­RH850hPa–500 hPa, 
+which may have helped sustain its movement across the central Philippines. Moisture from 
+the Philippine Sea was also drawn into the central Philippines, which received at least 125–
+150 mm of rainfall. The extension of the western North Pacific Subtropical High along 
+20 °N and strong easterly flow may have facilitated the TC’s straight and westward move-
+ment. The findings of this study are essential for quantitatively ranking the destructiveness 
+of this event, while identifying key indicators of TC intensification and trajectory for land-
+falling TCs in central and southern Philippines.
+Keywords  Tropical cyclone · Odette · Philippines · Landfalling tropical cyclone · 
+Environmental factor
+Extended author information available on the last page of the article
+
+	
+Natural Hazards
+1  Introduction
+The Philippines is situated along the Tropical Cyclone (TC) corridor over the western 
+North Pacific (WNP). Majority of these TCs originate from the Pacific Ocean, and on 
+average, about 9 out of 20 TCs that enter the Philippine Area of Responsibility (PAR) 
+annually make landfall over the Philippines (Cinco et al. 2016; Santos 2021). Although 
+TCs may bring rainfall that can replenish the hydrological resources of the country, they 
+often bring catastrophic damages to agriculture and infrastructure, and often result in 
+the loss of human lives. Hence, characterizing these TCs is essential.
+Several studies have examined the important characteristics of landfalling TCs over 
+the Philippines in terms of trends (Fudeyasu et  al. 2014; Takagi and Esteban 2016), 
+induced rainfall (Bagtasa 2017), and changes in intensity, translational speed, and direc-
+tion of movement (Petilla et al. 2023). In particular, increasing trends in the number of 
+landfalling TCs between 1945 and 2013 have been found in Leyte, central-southeastern 
+Philippines (Takagi and Esteban 2016). This is the same area that was devastated by 
+Super Typhoon HAIYAN (2013) in November 2013 (henceforth, TC names are spelled 
+in capital letters with its corresponding year enclosed in parenthesis), the strongest and 
+fastest typhoon on record (Takagi and Esteban 2016). TCs affecting the southern Philip-
+pines during December have also been increasing in recent decades (Basconcillo and 
+Moon 2021). Several studies have identified the environmental factors that contribute 
+to TC development and intensification in the WNP. For example, Kuroda et al. (1998) 
+explained that when a TC encounters a sea surface temperature (SST) greater than 29 °C 
+for 1–2 days, it often intensifies. A weak environmental vertical wind shear is a primary 
+contributor to TC life, wherein a weak vertical wind shear prevents the destruction of 
+the vortex’s vertical profile (Wong and Chan 2004). A vertical wind shear higher than 
+12.5 ­ms−1 impedes the TC’s development (Zehr 1992; Flatau et al. 1994). Moreover, a 
+higher environmental moisture content along the path of the TC also contributes to a 
+favorable condition for its development (Wu et al. 2015).
+Aside from HAIYAN (2013), another catastrophic TC that made landfall in the Phil-
+ippines is Typhoon (TY) RAI (2021), locally known as Odette. Initially, TC RAI was 
+identified as a Tropical Depression (TD) by the Japan Meteorological Agency (JMA) 
+on December 12, 2021, which intensified into a Tropical Storm (TS) on the following 
+day. On December 16, 2021, at 0600Z, TC RAI made its first landfall as a Category 5 
+typhoon in northeastern Caraga Administrative Region, hereinafter referred to as Caraga 
+region, in southern Philippines causing widespread disruption across five Philippine 
+regions, as shown in Fig. 1a. The estimated damage cost to agriculture and infrastruc-
+ture is about USD 942 M, with 405 reported dead and 52 missing (National Disaster 
+Risk Reduction and Management Council [NDRRMC], 2022; International Federation 
+of Red Cross and Red Crescent Societies [IFRC], 2024). According to the World Mete-
+orological Organization (WMO), the 10 min maximum sustained wind speed (MSW) 
+of TC RAI reached 105 kts (194.5 kph), and a minimum sea level pressure (MSLP) of 
+915 hPa. The TC made its last landfall in the Philippines on December 17, and con-
+tinued to recurve northwards along the SCS, as shown in Fig.  1b. Interestingly, this 
+TC underwent two intensifications over water: one prior to landfall over the Philippines 
+on December 16 and the other when it was over the SCS on December 19. As such, 
+RAI (2021) was considered as the only “Super Typhoon” (Violent Typhoon in the JMA 
+
+Natural Hazards	
+Scale) in December to have affected the SCS since 1961 by the Hong Kong Observatory 
+(Chan et al. 2022).
+Limited studies have investigated the notable features of TC RAI during its land-
+fall. A field survey conducted by Esteban et  al. (2023) demonstrated that maximum 
+storm surge levels were measured around 2.54 m and 4.06 m in Cebu and Bohol islands, 
+respectively. In terms of damage to infrastructure, Bolanio et al. (2022) utilized satel-
+lite imaging to evaluate the immediate effects of the event using damage maps. In the 
+aspect of marine life, Dolorosa et al. (2023) have investigated the impact of TC RAI on 
+the coral reefs in Palawan Island, western Philippines. However, the majority of these 
+studies have focused on the impacts of the extreme weather event, and detailed analy-
+sis of the characteristics of TC RAI have not yet been explored. More specifically, the 
+unique features of this TC relative to other landfalling TCs in the Philippines and the 
+environmental factors contributing to its development and intensification have not yet 
+been quantitatively identified and compared. To address the above-mentioned research 
+gap, this study aims to build on these previous studies and elucidate the unique features 
+of TC RAI in the context of other landfalling TCs in the Philippines from 1979 to 2020, 
+particularly in the northern Caraga Region. Environmental factors, such as SST, mois-
+ture flux, humidity, wind shear, and composite analysis with TCs having similar track, 
+landfall, and season are investigated in this study. This paper is organized as follows. 
+Section 2 shows the data and methodology used in the study. Section 3 provides detailed 
+observations of TC RAI relative to other landfalling TCs in 1979–2020. A composite 
+analysis was also performed using the seven TCs having similar tracks that made land-
+fall in December. The meteorological field of each TC case was also examined and dis-
+cussed in relation to TC RAI. Section 4 summarizes the study’s key findings.
+Fig. 1   The a Topography and the islands along the track of TC RAI using the 5 min Gridded Global Relief 
+Data (ETOPO5) (National Geophysical Data Center 1993). b SSTa (from 1986 to 2005 baseline) and c SST 
+conditions on December 13, 2021 from GHRSST with track of TC RAI using the IBTrACS-WMO data at 
+6 h intervals. Dots are color coded according to the JMA Scale. White box in (c) shows the area of intensi-
+fication of RAI from STS to Very Strong Typhoon and the computation for the Ocean Heat Content (OHC)
+
+	
+Natural Hazards
+2  Data and methodology
+This study analyzed the intensity, translational speed, and westward movement of TC RAI 
+relative to all landfalling TCs over the Philippines from 1979 to 2020. This would allow 
+us to further characterize TC RAI in a countrywide context. Then, similar TC cases in 
+terms of season, landfall location in the vicinity (i.e., < 1°) of Siargao-Dinagat Islands in 
+the eastern Philippines, and track among the climatological TCs were identified and com-
+pared with TC RAI. Environmental factors such as SST, moisture flux, and specific (SH) 
+and relative humidities (RH) were examined during TC RAI’s approach to the Philippines. 
+A composite analysis was also conducted to compare the environmental features of TC 
+RAI with the other landfalling TCs in the same region and month.
+The naming of the TC positions used in this study were based on Chien and Kuo (2011), 
+which are the landfalling point (LF) and the 6 hourly positions before (LF-6, LF-12, …) 
+and after (LF+6, LF+12, …) the landfall. The intensity, translational speed, and direc-
+tion of movement of the TCs were computed based on the 6 hourly best track archive of 
+the WMO from the National Centers for Environmental Information’s (NCEI) International 
+Best Track Archive (IBTrACS) (Knapp et al. 2010). The translational speed and direction, 
+henceforth referred to as speed and movement, respectively, at the best track position were 
+computed relative to the previous 6 hourly position. More specifically, the speed was com-
+puted by finding the difference between the displacement traveled from the TC’s current 
+position and its previous 6 hourly position and dividing the distance by 6 h. In this study, 
+as long as the intensity data is complete, the TC case would be included in the comparison 
+(i.e., TC location, TC lifetime, and landfalling times are guaranteed to be available from 
+the IBTrACS dataset).
+This study also used the TC intensity scale of the Japan Meteorological Agency (JMA) 
+to classify the TCs based on their maximum sustained wind speed (MSW): Tropical 
+Depression (TD) at < 34  kts, Tropical Storm (TS) from 34 to < 48  kts, Severe Tropical 
+Storm (STS) from 48 to < 64 kts, Typhoon (TY) from 64 to < 85 kts, Very Strong TY from 
+85 to < 105 kts, and Violent TY (VTY) from 105 kts and above, as summarized in Table S1 
+(JMA, 2024). The IBTrACS dataset does not record TCs with intensities less than 34 kts; 
+hence, these TCs are assumed to be in the TD category. This study also examined the TC 
+radius using the long and short 30 kt TC radius, measured in nautical miles (NM), derived 
+from the WMO-IBTRaCS dataset from the Regional Specialized Meteorological Center 
+(RSMC) Tokyo.
+The accumulated cyclone energy (ACE) was used to estimate the energy released by TC 
+RAI throughout its lifetime (Han et al. 2022), which is given by:
+where ­Vmax is the sustained near-surface wind speed during its lifetime. The landfalling 
+dissipation rate (LFDR) of the TC was also computed using the ACE, 24 h before (i.e., 
+LF-24, …, LF) and after landfall (LF, …, LF+24). The LFDR is given by:
+where ­ACE−24  h is the ACE from LF-24 to LF, and ­ACE+24  h is the ACE from LF to 
+LF+24. This metric describes the TC’s energy dissipation, wherein a higher (lower) LFDR 
+indicates more (less) rapid TC weakening. In some instances, the LFDR becomes negative 
+(1)
+ACE = 10−4 ∑
+V2
+max,
+(2)
+LFDR = 1 −ACE+24hr
+ACE−24hr
+,
+
+Natural Hazards	
+if the ACE after landfall is greater than the ACE before landfall. In this case, the TC is 
+noted to be intensifying. The 24 h interval was chosen since RAI (2021) is still east of Pala-
+wan Island, central Philippines at LF+24, which rules out the re-intensification as it enters 
+the SCS.
+To synchronize the timing of the landfalling dates of these TCs, the landfall time and 
+dates were tagged as LF. Then, the atmospheric conditions (i.e. humidity, winds, geo-
+potential height, water vapor) were retrieved from the European Center for Medium-Range 
+Weather Forecasts (ECMWF) reanalysis 5 (ERA5) hourly data at multiple pressure lev-
+els with 0.25 × 0.25° horizontal resolution (Hersbach et al. 2020). The mean conditions 
+of similar landfalling TCs were retrieved, hereinafter referred to as composite TCs, and 
+compared with that of TC RAI. Previous studies have revealed that the ERA5 dataset 
+tends to underestimate TC events (e.g., Dulac et al. 2024), particularly their intensity and 
+wind speed, as such comparison to another reanalysis data set was performed to check the 
+robustness of the result. Specifically, we compared the results with the Japanese 55 year 
+reanalysis (JRA55; Kobayashi et al. 2015). We found that the trends and findings from the 
+JRA55 data set are consistent with those from the ERA5 data set (i.e. existence of a humid 
+environment, higher integrated water vapor and convergence, and vertical wind shear) (not 
+shown). Therefore, to save space, only the results using the ERA5 are shown and discussed 
+in the succeeding sections.
+To visualize the topographic features of central and southern Philippines, the Earth 
+topography five-minute grid (ETOPO5) from the National Oceanic and Atmospheric 
+Administration (NOAA) National Centers for Environmental Information (National 
+Geophysical Data Center 1993) was used. The daily Group for High Resolution SST 
+(GHRSST) global Level 4 sea surface temperature dataset at 0.25 × 0.25° horizontal resolu-
+tion dataset was used for the SST values during the TC event (Reynolds et al. 2007). The 
+SST anomaly (SSTa) was computed using the baseline from 1986 to 2005. The monthly 
+ocean heat content (OHC) anomaly was retrieved from the JMA’s global ocean heat con-
+tent data (Ishii et al. 2017). The computation for the OHC entails integrating the heat con-
+tent for each level from the depth of 0–2000 m. The data has a monthly temporal resolution 
+with a 1° × 1° spatial resolution. The vertical wind shear (200–850 hPa) ­(VWS200–850) was 
+computed using the formula:
+where ­u200 and ­v200 are the u and v winds at 200 hPa, and ­u850 and ­v850 are the u and v 
+winds at 850 hPa, as defined by Cao et al. (2016).
+3  Results and discussion
+3.1  Observations of TC RAI
+According to the Philippines’ meteorological agency, Philippine Atmospheric, Geophysical 
+and Astronomical Services Administration (PAGASA), TC RAI is the 15th TC that entered 
+the PAR and the final TC of the 2021 Pacific typhoon season (PAGASA, 2022). Figure 1 
+shows the TC trajectory and the JMA scale as color coded dots. Based on the IBTrACS 
+dataset, this weather system was formed on December 11, 2021, 1200Z at about 2500 km 
+from the Philippine Sea (Knapp et al. 2010; Chan et al. 2022). This weather system later 
+(3)
+VWS200−850 =
+√
+(u200 −u850)2 + (v200 −v850)2,
+
+	
+Natural Hazards
+developed into a TD southeast of Palau on December 12 0300Z (NDRRMC, 2022). It 
+moved westward towards the Philippines and was declared as a TS on December 13, 2021, 
+0600Z. Then on December 14 1200Z, the TC entered the PAR and the first TC bulletin was 
+released by PAGASA. Six hours later, the TC further developed, reaching Typhoon (TY) 
+intensity on December 14 1800Z (shown as yellow dots in Fig. 1). The speed during this 
+period was about 10–15 kts with an MSW of 70 kts and an MSLP of 970 hPa. Further-
+more, TC RAI rapidly intensified (Chan et al. 2022) on December 15 and developed into a 
+VTY on the following day.
+The TC center made its initial landfall in Siargao Island, northeastern Mindanao on 
+December 16 0600Z at 105 kts (10 min sustained) and an MSLP of 915 hPa (Fig. 1c). 
+Within 24 h, the TC has made 8 landfalls. This is a result of the almost westward track, 
+which allowed it to traverse on to Dinagat Island (2nd), followed by multiple landfalls in 
+central Visayas; more specifically, 3rd and 4th in Southern Leyte, 5th and 6th in Bohol, 7th 
+in Cebu, 8th landfall in Negros Oriental (Fig. 1c; NDRRMC, 2022; PAGASA, 2022). Dur-
+ing its movement across central Philippines, field surveys from Esteban et al. (2023) indi-
+cate maximum storm surge heights of 3.66, 2.54, and 4.06 m in the coastal areas of Leyte, 
+Cebu, and Bohol islands, respectively, as the eye of the TC passed over these provinces.
+It made its 9th and final landfall in Palawan Island on December 17 and exited the Phil-
+ippines on December 18. During its movement across central Philippines, TC RAI was able 
+to maintain its strength of around 80 kts with a speed of around 14–16 kts. Figure S1b–d 
+shows the 6 hourly accumulated rainfall throughout the TC event from the Global Satellite 
+Mapping of Precipitation (GSMaP) gauge adjusted hourly rain, version 6 (Kubota et al. 
+2020). At least 100–150 mm of rainfall was received by areas along the path of the TC. 
+Afterwards, the TC continued to traverse west of the Philippines and re-intensified into a 
+VTY reaching 105 kts and 915 hPa on December 18 1800Z, and gradually recurving north-
+wards towards Hainan Island and southern China. The TC ultimately weakened before dis-
+sipating on December 21 near southwest of Hong Kong (Chan et al. 2022).
+3.2  Unique features of TC RAI
+This section further examines the characteristics of TC RAI in terms of speed, intensity, 
+minimum sea level pressure, TC radius, and lifetime with respect to similar landfalling TCs 
+in the Philippines to identify potential unique features of TC RAI.
+3.2.1  Speed, intensity, and direction of movement
+We analyzed TC events that made landfall in the Philippines from 1979 to 2020. We identi-
+fied the TCs that made landfall in Luzon, Visayas, and Mindanao to represent the northern, 
+central, and southern areas of the Philippines, respectively (Figure S2). Table 1 shows the 
+count of all TCs at different categories upon landfall in these three areas.
+Among the Philippine landfalling TCs, RAI had the second highest intensity and central 
+pressure at 105 kts and 910 hPa, respectively, which belongs to the 99th percentile. Addi-
+tionally, the translational speed of RAI is the second highest at 16.7 kts among all TCs in 
+the VTY category and is part of the 87th percentile if all TCs are taken into account. How-
+ever, RAI only took 4.75 days to reach land with a lifetime of 10 days, with a percentile 
+ranking of 62nd and 68th, respectively. Its long (short) radius is also 240NM (150NM), 
+which is within the 75th (53rd) percentile. During landfall, albeit having a high intensity, it 
+had an LFDR of 0.02, meaning it had a low dissipation rate, while maintaining a westerly 
+
+Natural Hazards	
+bearing of ~ 270°. In the succeeding paragraphs, the MSLP, MSW, speed, and the histo-
+gram for the days until landfall, lifetime, and TC size were also examined with emphasis 
+to the 4 TCs, which are AGNES (1984), BETTY (1987), MEGI (2010), and HAIYAN 
+(2013), at the VTY category.
+The minimum sea level pressure (MSLP), speed, and MSW were compared, as shown 
+in Fig. 2a and b, to ascertain any trends. Based on the results, a strong negative correlation 
+between MSLP and MSW was found (r = − 0.9561; p < 0.0001), while no linear relation-
+ship between the speed and MSW could be established (r = − 0.02; p = 0.8011). This obser-
+vation agrees with the findings from Choi et al. (2016), in which MSW and MSLP were 
+found to have an inverse relationship, while no particular relationship between speed and 
+MSW (Takagi and Esteban, 2012) could be confirmed. Upon closer analysis of the TCs, 
+TC RAI had the second highest MSW at the 99th percentile, tied with AGNES (1984), 
+BETTY (1987), and MEGI (2010) at 105 kts. In terms of MSLP, RAI had the 4th lowest 
+from the landfalling TCs at 99th percentile, after BETTY (1987), MEGI (2010), and HAI-
+YAN (2013), the three of which are tied at 910 hPa. One key finding is that among the TCs 
+in the VTY category upon landfall, TC RAI had a speed of 16.7 kts, which is the second 
+fastest landfalling TC next to HAIYAN (2013). When taken all TCs into account, RAI is at 
+the 87th percentile.
+Figure 2c and d further illustrate the landfalling TCs in terms of days until landfall and 
+TC lifetime. In this study, days until landfall is defined as the duration of TC activity from 
+genesis to landfall in the Philippines, while lifetime is defined as the duration of TC activ-
+ity from genesis to dissipation. Based on Fig. 2c, TC RAI had 4.75 days from genesis until 
+its landfall in the Philippines, which is comparable to AGNES (1984), BETTY (1987), 
+and HAIYAN (2013). Also, based on Fig. 2c, TCs make landfall in the Philippines about 
+4.3 ± 3.2 days from genesis, and that RAI is within the 62nd percentile among the TCs con-
+sidered. These findings are comparable with other TCs in Japan, where Nayak and Takemi 
+(2023) observed that TCs from 2006 to 2019 take about 5 to 8 days to make landfall. In 
+terms of TC lifetime from genesis to dissipation, TC RAI had about 10 days, which is com-
+parable to HAIYAN (2013) and BETTY (1987), at 9.25 and 10.25 days, respectively. TCs 
+that make landfall in the Philippines are active in about 8.6 ± 3.5 days, with TC RAI within 
+the 68th percentile. On average, TCs make landfall in less than 5 days with a lifetime of 
+less than 8 days during the 1979–2020 period (Figure S3). So far, there are no clear trends, 
+yet there are peaks in the time to reach land and TC lifetime in 1997 and 2018.
+While TC radius is usually not included in other climatological studies, the esti-
+mated radius of gale-force wind (in NM), R30, of all landfalling TCs in the Philippines 
+are examined in this study. R30 is often used to determine TC impact and assess disaster 
+risk (Kim et al. 2022). Figure 2e and f show the long and short TC radius of the 30 kt 
+Table 1   Tropical cyclone 
+category of philippine TCs 
+(1979–2020) upon landfall using 
+WMO-IBTrACS
+Category
+Philippines
+Luzon
+Visayas
+Mindanao
+TD
+123
+49
+46
+28
+TS
+46
+21
+21
+4
+STS
+42
+32
+7
+3
+TY
+33
+27
+6
+0
+Very Strong TY
+35
+27
+6
+2
+VTY
+4
+1
+3
+0
+Total
+283
+157
+89
+37
+
+	
+Natural Hazards
+wind, respectively, during landfall wherein TC RAI has a 240 NM long and 150 NM short 
+radius for its 30 kt winds. In terms of other TCs, the average landfalling TC radii are about 
+188 ± 78 NM for long and 157 ± 68 NM for short radii. The long (short) TC radius for TC 
+RAI is within the 74th (53th) percentile. Based on the aforementioned findings, TC RAI’s 
+lifetime, days until landfall, and its radius fall within the usual characteristics of a typical 
+landfalling TC in the Philippines. When comparing TC size, it is worth noting that HAI-
+YAN had a 250 (180) NM long (short) 30 kt radius, while the largest TC in terms of radius 
+was ZEB (1999) having both 450 NM long and short 30 kt radii.
+Additionally, we conducted a supplementary analysis of TCs that made landfall in 
+December, locally known as Christmas TCs, to highlight its unique characteristics (Bas-
+concillo and Moon 2021). For this classification, there were 35 TCs that made landfall 
+in the Philippines in December 1979–2020 as shown in Figure S4a, with the yellow dot 
+emphasizing TC RAI. In terms of MSLP and MSW, RAI (2021) had the highest inten-
+sity and lowest MSLP for all December landfalling TCs in the Philippines as shown 
+Fig. 2   Relationship between a wind speed and MSLP and the b wind speed and translational speed of the 
+160 TCs that made landfall in the Philippines from 1979 to 2020. HAIYAN (2013) and RAI (2021) are 
+colored red and yellow, respectively. Red solid (dashed) lines in (a) and b indicate a significant (not signifi-
+cant) linear relationship at 10% confidence level. Frequency distribution of c days until TC landfall and d 
+TC lifetime, as well as e 30 kt radius—long, and f 30 kt radius—short of Philippine landfalling TCs
+
+Natural Hazards	
+in Figure S4a, making it part of the 99th percentile. It also has the third fastest speed 
+upon landfall, next to NANMADOL (2004) and NORRIS (1986), as shown in Figure 
+S3b, which is the 94th percentile. The results also show a strong negative correlation 
+between MSLP and MSW was found (r = − 0.9765; p < 0.0001), yet no linear relation-
+ship cannot be established (r = 0.0173; p = 0.9226). RAI (2021) is also located on the 
+rightmost tail in the distribution as shown in Figure S3c. These December landfalling 
+TCs take about 5.30 ± 4.29 days to reach the Philippines since its genesis and have a 
+lifetime of 8.81 ± 4.16 days. Among December landfalling TCs, RAI (2021) reached the 
+Philippines in 4.75 days and had a lifespan of 10 days, which has a percentile rank of 
+53rd and 66th, respectively. Lastly, the average long (short) radius of December land-
+falling TCs is about 173 ± 67 (144 ± 59) NM, respectively. Similarly, RAI (2021) had a 
+long (short) radius of 240 (150) NM, which has a percentile ranking of 81st (60th).
+Further examining the intensity and temporal distribution of the landfalling TCs, 
+Fig. 3 shows the frequency distributions of the 160 TCs per year from 1979 to 2020 
+and intensity distributions according to MSW at 5 kt intervals. Although there were 17 
+and 14 TC landfalls in 1993 and 1995, respectively, there are no significant trends in 
+the peaks of annual TC count from 1979 to 2020 (r = 0.017; p = 0.92) (Fig. 3a). This is 
+in agreement with Takagi and Esteban (2016), who found no significant trend in most 
+areas in the Philippines except along 10°–12°N. The analysis of the return period, simi-
+lar to Takagi and Esteban (2016), was not performed in this study. This is a result of the 
+data not being normally distributed when tested using the Kruskal–Wallis (Hollander 
+and Wolfe 1973) and the Anderson–Darling test (Thode 2002), since such computation 
+requires a normal distribution. Furthermore, based on Fig. 3b, it is noted that TC RAI is 
+near the rightmost tail of the distribution, which is around the 99th percentile.
+We also examined December TCs having similar track, area of landfall (within the 
+1° radius of RAI’s landfall), and direction of movement with RAI using the IBTrACS 
+data set and found seven such TCs, which are NORRIS (1986), MARGE (1986), NELL 
+(1993), AXEL (1994), KAJIKI (2001), WUKONG (2012), and JANGMI (2015). Fig-
+ure  4 shows the track of these composite TCs, with their corresponding genesis and 
+dissipation points. Based on the figure, the tracks of these TCs differ in their genesis 
+points, yet resemble a similar track west of 130°E. It can also be seen that TC RAI 
+formed closer to the Philippines and at a lower latitude at 5.3°N.
+Fig. 3   Total counts of a landfalling TCs per year and b MSW at LF of all Philippine landfalling TCs 
+between 1979 and 2020 using the IBTrACS data set. The wind speed of TC RAI was estimated to be at 
+105 kts at landfall
+
+	
+Natural Hazards
+Figure 5 shows the MSW, MSLP, speed, bearing, and the 30 kt radius of RAI (2021) 
+relative to the abovementioned TCs. In terms of intensity, TC RAI’s MSW is comparable 
+to MARGE (1986) and AXEL (1994) at LF-24 to LF-12 at around 70–80 kts as shown 
+in Fig. 5a. Yet, the other 4 TCs had an intensity less than 60 knots when it approached 
+the Philippines. TC RAI further intensified, peaking to 105  kts (194.4  kph) at LF, and 
+decreased its intensity before plateauing at 80  kts at LF+18 onwards, maintaining its 
+TY category. These observations coincide with TC RAI’s decrease in MSLP starting at 
+950 hPa at LF-12 and reaching the minimum of 915 hPa at LF. In contrast, the intensity 
+of the other landfalling TCs had consistently decreased from LF-6 onwards, except for 
+NELL (1993) where it has maintained its intensity during LF to LF+18. In terms of MSLP, 
+TC RAI had a consistently lower MSLP with respect to other TCs across LF-6 to LF+24 
+(Fig. 5b). This indicates TC RAI’s unique feature, which shows how it continued to inten-
+sify until landfall. The decrease in intensity is expected as a result of the TC encounter-
+ing topography, and increased friction and loss of latent heat (Man-chi and Chun-wing, 
+2015). Unique to the central Philippines, however, is the absence of a high mountain range 
+(Fig. 1c) that would heavily affect the intensity and rainfall distribution of the TC. Brand 
+and Belloch (1974) have noted that landfalling TCs in central Philippines are more prone to 
+intensification due to the archipelagic nature of this region. The island-and-sea configura-
+tion has lesser effect on TCs due to the smaller surface areas of the land (Brand and Bel-
+loch, 1974). Petilla et al. (2023) noted that from 1979 to 2020, there were 6 (4) TCs pass-
+ing through central Philippines that had increased (maintained) in intensity upon approach 
+and departure. Hence, one probable cause to the sustenance of TC RAI above the TY and 
+above category may be attributed to the island-and-sea mix in this region (Brand and Bel-
+loch, 1974). Additionally, the area of rich moisture along the path of the TC may have 
+allowed it to produce heavier precipitation and more energy, as will be discussed later.
+The speed of TC RAI is comparable to that of the composite TCs until LF at which 
+point TC RAI’s speed continued to increase until peaking at LF+6 at around 13.1  kts 
+(Fig. 5c). The speed remained consistently greater than 10 kts until LF+24. At LF+24 to 
+LF-6, the speed of TC RAI is comparable to other 7 TCs. More specifically, both the speed 
+of the composite TCs and TC RAI increased starting at LF and peaking at LF+6. This is in 
+agreement with the observations from Petilla et al. (2023), where some TCs were observed 
+to accelerate when they approached and departed central and southern Philippines. How-
+ever, the behavior of TC speed after LF+12 varied since 3 (3) TCs exhibited acceleration 
+(deceleration).
+Fig. 4   Tracks of the seven TCs from the IBTrACS best track data. Track of TC RAI shown in red
+
+Natural Hazards	
+In terms of direction of movement as shown in Fig. 5d, TC RAI’s north-westward direc-
+tion is comparable to the abovementioned TC cases before landfall. However, it can be 
+noted that the TC direction continued to move westward from LF until LF+18. This is 
+interesting to note since it had similarities with the case of WUKONG (2012), where the 
+direction of the TC changed southwards. The significant changes in direction of the track 
+of RAI (2021) may be explained by the minimal amount of mountain ranges along the path 
+of the TC. It is also interesting to note that JANGMI (2014) followed a sinusoidal track. 
+Figure 1c shows that the island-and-sea mix along the path of the TC is a key feature. The 
+absence of high mountain ranges may have influenced the TC’s direction as noted by Maw 
+and Min (2017), who experimented the impact of topography on ROANU (2016), which 
+made landfall in Myanmar. They noted that changes in the altitude of Rakhine Mountain 
+Fig. 5   a MSW, b MSLP, c Translational Speed, d Direction, and e TC radius (long) of TC RAI based on 
+the IBTrACS best track data from LF-24 to LF+24 as shown in yellow compared with other composite TC 
+cases
+
+	
+Natural Hazards
+have an influence on the track of the TC such that the absence (or presence) of the moun-
+tain shifted the track away from (into) Myanmar. Furthermore, numerical and idealized 
+simulations on the impact of topography on TCs was investigated by Huang et al. (2011) 
+on KROSA (2007), where they observed that the topographic interaction of the Central 
+Mountain Range (CMR) of Taiwan, with emphasis to the terrain height, played a key role 
+in the looping trajectory during landfall. Additionally, the straight and westward track upon 
+approach also agrees with the hypothesis proposed by Corporal-Lodangco et al. (2016) that 
+TCs formed during a La Niña season often follow a straight-moving track (more details 
+discussed on Sect.  3.2.2). Additionally, Man-chi and Chun-wing  (2015) have suggested 
+that topography is more effective in deflecting TCs with weaker intensity. As such, the 
+westward track combined with fast speed allowed TC RAI to traverse central Visayas and 
+make 8 landfalls within 24 h as observed by NDRRMC (2022).
+The TC 30 kt radius (long) was also examined to understand the evolution and scope of 
+the TC event. As shown in Fig. 5e, TC RAI had a consistent radius of 240 NM from LF-24 
+to LF+24, and yet the composite TCs show a consistent decrease in size during the same 
+period. Specifically, the radius of TC RAI was still comparable to that of the composite 
+TCs before LF+6, at which point the composite TC size decreased. The large TC radius 
+contributed to the wider scope of damage caused by RAI. Interestingly, there were three 
+TCs that exceeded the size of RAI before LF, these are MARGE (1986), NORRIS (1986), 
+and AXEL (1994). It is noteworthy that KAJIKI (2001) increased in size from LF-6 to LF 
+and maintained its size until LF+12.
+To further quantify the TC’s intensification/dissipation and energy, Table 2 shows the 
+ACE and the LFDR of the composite TCs, including HAIYAN (2013), which shows that 
+TC RAI had the highest ACE when compared with the composite TCs. TCs such as NELL 
+(1993), WUKONG (2012), and JANGMI (2014) had a negative LFDR, indicating that 
+these TCs did intensify after landfall, while NORRIS (1986), MARGE (1986), and AXEL 
+(1994) had a positive LFDR. A unique finding from the composite TCs is that KAJIKI 
+(2001) had zero LFDR, indicating that this particular TC maintained its intensity before 
+Table 2   Monthly ocean heat content (OHC) Anomaly, accumulated cyclone energy (ACE), and Landfalling 
+dissipation rate (LFDR) of the 7 Composite TCs and TC RAI
+a Blue (red) years indicate La Niña (El Niño) years
+b OHC anomaly computed by solving the mean inside the white box (7.5–10.5 °N, and 127.5–135.5 °E) of 
+Fig. 1
+c Daily OHC anomaly computed to be 115–135 kJ ­cm−2 (Lin et al. 2021)
+Name
+Yeara
+Monthly OHC ­anomalyb 
+(x ± s.d.) kJ ­cm−2
+Accumulated cyclone 
+energy (ACE)
+Landfalling 
+dissipation Rate 
+(LFDR)
+NORRIS
+1986
+− 101 ± 12
+11.08
+0.46
+MARGE
+1986
+− 101 ± 12
+12.78
+0.54
+NELL
+1993
+− 98 ± 19
+3.89
+− 0.15
+AXEL
+1994
+− 113 ± 6
+9.89
+0.42
+KAJIKI
+2001
+79 ± 8
+1.35
+0
+WUKONG
+2012
+201 ± 14
+1.71
+− 0.08
+JANGMI
+2014
+− 15 ± 19
+1.02
+− 0.77
+HAIYANc
+2013
+233 ± 19
+20.69
+0.36
+RAI
+2021
+123 ± 14
+18.94
+0.02
+
+Natural Hazards	
+and after landfall. However, what sets TC RAI apart from other TCs is that although it had 
+a higher intensity, its LFDR was only about 0.02. This event does not conform with the 
+findings from Kaplan and DeMaria (1995) wherein they observed that TC’s rate of wind 
+speed decay is proportional to wind speed. Yet, this TC was able to maintain its intensity 
+albeit its VTY category as exhibited by its near zero LFDR, which indicates that its dissi-
+pation rate was very low relative to other composite TCs.
+Based on the findings above, there are five notable features of TC RAI when compared 
+to landfalling TCs in the Islands of Siargao-Dinagat Islands. Upon landfall, TC RAI is the 
+TC case having: (a) MSW of 105 kts and an MSLP of 915 hPa and is the strongest TC to 
+make landfall in Siargao-Dinagat Island; (b) a high ACE and a near-zero LFDR indicating 
+a low dissipation rate of the TC during landfall, (c) the second fastest translational speed 
+upon landfall (next to NORRIS, 1986); (d) having a westward track (~ 270°) from LF to 
+LF+24; and (e) having the second largest TC 30 kt radius (next to MARGE, 1986) at 240 
+NM.
+3.2.2  Analysis of environmental factors
+This section covers the environmental factors that contributed to the development, inten-
+sification, and maintenance of TC RAI. This section focuses on the time steps between 
+LF-24 to LF due to the consistent intensification of TC RAI.
+SST plays a vital role in the development and intensification of TCs (Kuroda et  al. 
+1998). Although other factors such as weak vertical wind shear, increase in moisture 
+flux, high RH, etc. contribute to TC intensification, TCs moving over waters warmer than 
+28.5 °C (Kuroda et al. 1998) for one to two days often acquire higher intensities even-
+tually. Figure 1c shows that TC RAI passed over waters warmer than 29 °C for at least 
+two days before landfall. Another impact in terms of SSTa is that TC RAI developed and 
+intensified during a La Niña season at which temperatures in the ENSO 3.4 region dur-
+ing OND, NDJ, DJF were about − 1.1, − 0.9, and − 0.8 °C, respectively (Null and CCM 
+2024; Diamond et al. 2022). At the time of TC RAI, the SSTa over the Philippine Sea 
+was about + 0.5–1.5 °C. According to Corporal-Lodangco et al. (2016), during La Niña 
+conditions, TCs in the fourth quarter (OND) of the year have approximately straight-
+moving tracks. Also, the genesis of these TCs are concentrated to lower latitudes and are 
+formed closer to the Philippines, west of about 160 °E (Corporal-Lodangco et al. 2016). 
+This hypothesis is demonstrated in the tracks of TC RAI and the composite TCs shown in 
+Fig. 1b and Fig. 4, respectively.
+Table 2 shows the monthly OHC, which was averaged over the white box in Fig. 1c, of 
+the composite TCs, TC RAI, and HAIYAN (2013). The white box covers the area where 
+TC RAI intensified from TS to VTY TC within 42 h Table 2 shows a positive OHC anom-
+aly during TC RAI in this area of about 123 ± 14 kJ ­cm−2. It is also worth noting that 
+HAIYAN (2013) had the highest monthly OHC anomaly at 233 ± 19 kJ ­cm−2, while AXEL 
+(1994) had the lowest OHC anomaly at − 113 ± 6  kJ  ­cm−2. Compared to other VTYs, 
+the daily OHC anomaly for HAIYAN (2013) and HAGIBIS (2019) were estimated to be 
+115–135 kJ ­cm−2 and 140–160 kJ ­cm−2, respectively (Lin et al. 2021). TC RAI had SST 
+and OHC conditions that favored its intensification to VTY in the WNP (Lin et al. 2021).
+Vertical wind shear is a major contributor to TC generation, weakening, and mainte-
+nance of vertical structure (Wong and Chan 2004). From LF-24 until LF-6, the TC moved 
+through areas of high vertical wind shear (10–20 m ­s−1) within the 1° radius of the TC as 
+shown in Fig. 6. Zehr (1992) and Flatau et al. (1994) noted that TCs can usually withstand 
+
+	
+Natural Hazards
+a vertical wind shear of 9–12.5 m ­s−1. Above this threshold, TC development is already 
+impeded. This suggests that TC RAI was able to intensify despite moving in an area of 
+high vertical wind shear.
+Figure 7 shows the vertically integrated water vapor (VIWV) from 1000 to 700 hPa 
+(Zomeren and Delden 2007) during TC RAI’s approach in the Philippine Sea. It can be 
+seen that the TC passed through an area of rich moisture content with about 60–80 ­kgm−2 
+of water vapor from LF-24 to LF-6. High environmental moisture, specifically in the rear 
+quadrants of the TC, provides a favorable condition for TC intensification (Wu et al. 2015) 
+as shown in Fig. 7d.
+High specific humidity is also observed along the eastern Philippine coast as the TC 
+approaches at LF-24 to LF+12 (Fig. 8). This enabled ample intensification time for the TC 
+through moisture transport, as described earlier. Moreover, moisture from the northeast of 
+the Philippines was also drawn towards the central Philippines as depicted at LF-24 and 
+LF-12. This allowed the TC to consistently gain moisture as it approached the Philippines, 
+which resulted in greater precipitation (Chien and Kuo 2011) and higher energy. In terms 
+of moisture flux, a positive and strong low-level convergence can be seen along the TC 
+Fig. 6   Vertical Wind Shear at a LF-24, b LF-18, c LF-12, and d LF-6 of TC RAI. The x-mark is the TC 
+center at the particular time step with a circle indicating the 1° radius from the TC center
+
+Natural Hazards	
+center (Fig. 9). A consistent moisture supply from the central Philippine region may also 
+explain why the TC maintained its intensity during and after its initial landfall.
+3.3  Analysis relative to the composite TCs
+Similar to the methodology of Chien and Kuo (2011), it is essential to examine the dif-
+ference of the environmental factors between TC RAI and the composite TCs. The mete-
+orological fields for the seven TCs were retrieved from the ERA5 dataset and the average 
+was compared to those of TC RAI.
+A key finding in the composite analysis is that TC RAI was able to intensify from LF-24 
+to LF-6 in a high wind shear environment. Recall that Zehr (1992) has noted that a vertical 
+wind shear of > 12.5 m ­s−1 impedes the development of a TC. Yet Figure S5 shows the dif-
+ference of the vertical wind shear of TC RAI and the composites. Based on visual inspec-
+tion, TC RAI had a consistently higher vertical wind shear as it approached the Philippines, 
+but this environmental condition did not impede the intensification of the TC. In particular, 
+the difference of the vertical wind shear between TC RAI and the composites is greater 
+Fig. 7   Water vapor integrated from 1000 to 700 hPa at a LF-24, b LF-18, c LF-12, and d LF-6 of TC RAI 
+(2021). The x-mark is the TC center at the particular time step with a circle indicating the 1° radius from 
+the TC center
+
+	
+Natural Hazards
+than 10 m ­s−1 within its core. This merits further investigation since this contradicts the 
+findings of Zehr (1992) and Flatau et al. (1994) given TC RAI’s increased intensity amid 
+this high wind shear condition.
+At LF-24, there was a higher RH at 700 hPa east of the Philippines, and north of the 
+TC for the case of TC RAI (Fig. 10a), with its direction going towards the circulation. 
+In contrast, the atmosphere over this region is dry for the case of the composite TCs 
+(Fig. 10b) due to weakened south-westerly wind, which carries moisture rich air. See-
+ing the difference of TC RAI from the composite in Fig. 10c, a positive RH anomaly 
+of about 10–30% exists to the north of the TC. Examining the difference at subsequent 
+time steps in Fig. 11, we can observe that the wind circulation of TC RAI is consistently 
+greater than the composite TCs as manifested by the wind convergence to the center of 
+TC RAI in all the difference plots from Figs. 10, 11, 12 and 13. To ascertain the condi-
+tions relative to other TC cases, Fig. 14 a–g, h–n, and o–u, shows the RH and geopoten-
+tial height at 500, 700, and 850 hPa, respectively, at LF-24. Furthermore, Fig. 11 shows 
+a consistently moist environment over central Philippines from LF to LF+24. The wind 
+vectors from this humid environment also points towards the TC circulation, which is 
+conducive to the sustenance of TC energy, as well as a consistent moisture supply. To 
+reiterate, high environmental moisture provides a favorable condition for TC intensifica-
+tion (Wu et al. 2015) and the abovementioned SH and RH of TC RAI are consistently 
+high compared to the composite TC environment. This is in connection with the earlier 
+discussion on Table 2, which showed TC RAI having the highest ACE and LFDR of 
+about 0.02 (near zero), indicating that the TC had comparable intensities before and 
+after landfall. In contrast, the composite TCs show a varied LFDR, three of the cases 
+having a positive LFDR, indicating effective dissipation. The higher moisture content in 
+the central Philippines may also manifest itself in greater accumulated rainfall as shown 
+Fig. 8   The geopotential height (contour lines), specific humidity, and winds at 850 hPa during a LF-24, b 
+LF-12, c LF, and d LF+12 for a TC RAI. The x-mark is the TC center at the particular time step with a cir-
+cle indicating the 1° radius from the TC center
+
+Natural Hazards	
+in Figure S1a, where there was at least 100 mm of accumulated rainfall along the path 
+of TC RAI.
+Looking further into each TC case, we can see the differences in the RH magnitude in 
+each TC case in Fig. 14. Similar to RAI (2021), when looking at the 700 and 850 hPa level, 
+we can see that MARGE (1986) and NORRIS (1986) had a moisture supply in the north-
+west (Fig. 14a, h, and b, i, respectively). Yet, the opposite is observed for RAI (2021) such 
+that for MARGE (1986), the distance of this pocket of moisture supply is too far, while for 
+NORRIS (1986), the wind vectors are pointing away from the TC. When examining the 
+RH at 500 hPa, we can see that NELL (1993), KAJIKI (2001) and JANGMI (2014) has 
+a rich mid-level Figs. 14c, e, and g RH within the 2° radius of the TC, which is similar 
+to the case of RAI (2021). For lower level RH, KAJIKI (2001), WUKONG (2012), and 
+JANGMI (2014) had a rich moisture supply, as shown in Figs. 14s, t, and u, respectively. 
+The rich moisture supply found on the northern portion of the WUKONG (2012) as shown 
+in Fig. 14t, is similar to the case of RAI (2021). Overall, RAI (2021) shares some of the 
+similarities of the composite TC cases, yet the RAI’s magnitude and area of rich low and 
+Fig. 9   Moisture flux convergence integrated from 1000 to 700 hPa at a LF-24, b LF-18, c LF-12, and d 
+LF-6 of TC RAI and the 850 hPa winds. The x-mark is the TC center at the particular time step with a cir-
+cle indicating the 1° radius from the TC center
+
+	
+Natural Hazards
+Fig. 10   The geopotential height (contour lines), relative humidity, and winds at 700 hPa during LF-24 for a 
+TC RAI, b Composite, and c Difference between TC RAI and the composite. The x-mark is the TC center 
+at the particular time step with a circle indicating the 1° radius from the TC center
+Fig. 11   Similar to Fig. 10c but for a LF-12, b LF, c LF+12, and d LF+24
+
+Natural Hazards	
+Fig. 12   Similar to Fig. 10c but at 500 hPa level at LF-24. The 576 gpm contour line indicates the extension 
+of the WNPSH
+Fig. 13   Similar to Fig. 10 but at 850 hPa at LF-24
+
+	
+Natural Hazards
+mid-level moisture supply was greater, closer proximity, and in the same wind direction as 
+the TC.
+The influence of the western North Pacific Subtropical High (WNPSH) on the TC tra-
+jectory can also be seen in Figs. 12a. At LF-24, it can be observed that the TC is directly 
+below the WNPSH, with its extension shown in the 5760 gpm contour line in the 15–20°N 
+band. Another signal for the remarkable WNPSH is its relationship to the low to mid-
+level easterly winds. In particular, these easterlies are located on the southern flank of the 
+WNPSH. In the case of TC RAI, easterly winds were stronger than those in the compos-
+ite. Hence, the aforementioned fields may have provided a stronger steering flow, driving 
+TC RAI towards the lower latitudes and with a westward track throughout its traversal in 
+the Philippines. This has been observed by Hung et al. (2020), where an intrusion of the 
+WNPSH delays the recurvature of the TCs in Taiwan. This study has pointed out that exten-
+sion of this system acts like a barrier to block the typhoons from recurving northwards. As 
+such, TCs are now likely to be driven by the easterly flow, following the westward route 
+(Hung et al. 2020). When examining the extension of the WNPSH, the 5760 gpm contour 
+line is present on all TC cases as shown in Figs. 14a–g with, all of the TCs are found below 
+the 5760 gpm contour line. Based on visual inspection, the majority of the TC cases have 
+this contour line extending all the way to southern China, with the exception of NELL 
+(1993), KAJIKI (2001), and WUKONG (2012). This relates to the earlier discussion of the 
+westward direction of travel of the TCs as observed by Corporal-Lodangco et al. (2016) 
+where the broad extent of the WNPSH generally contributes to the westward movement 
+of Philippine TCs. This results in the westward to northwestward tracks of these TCs dur-
+ing this month. An emphasis can also be made on JANGMI (2014), wherein its sinusoi-
+dal track and its southwesterly track as shown earlier in Fig. 5d, may be attributed to the 
+5760 gpm contour line extending further onto central Philippines. However, it is important 
+to note that the cases of KAJIKI (2001) and RAI (2021) occurred during a La Niña event, 
+and the influence of the anomalous easterlies cannot be ruled out. Though the extension of 
+the WNPSH is also manifested on the composite TCs as shown in the 5760 gpm contour 
+line, the higher low-level RH of TC RAI makes it unique compared to the composite TC.
+Figure 13 shows that TC RAI’s vorticity is greater than the composite TCs. Moreover, 
+the high RH east of the Philippines contributed to the moisture supply of the TC, consist-
+ent with Figs. 10a and 12a. This increased low-level moisture is apparent in all the differ-
+ence plots shown in Figs. 10c, 12c, and 13c, which show that TC RAI traverses an area of 
+Fig. 14   Similar to Fig. 10c but for a, h, d MARGE (1986), b, I, p NORRIS (1986), c, j, q NELL (1993), 
+d, k, r AXEL (1994), e, l, s KAJIKI (2001), f, m, t WUKONG (2012), and g, n, u JANGMI (2014) at a–g 
+500 hPa, h–n 700 hPa, and o–u 850 hPa
+
+Natural Hazards	
+higher than usual RH. This positive RH anomaly across the low levels was also observed 
+in the case study made by Chien and Kuo (2011) for MORAKOT (2009). Cross-examin-
+ing Fig. 5a, this may possibly explain the maintenance of TC intensity greater than 80 kts, 
+throughout its traversal in central Philippines.
+4  Summary and conclusions
+This study characterized TC RAI, which devastated northeastern Mindanao and central 
+Philippines on December 16, 2021. In summary, the important findings are:
+(1)	 TC RAI made landfall in the southeastern Philippines with an MSW of 105 kts and 
+915 hPa having a long 30 kt radius of 240 NM (Fig. 2a and e) and the highest MSW 
+among December landfalling TCs (Figure S4a). This TC had a high ACE, a near-zero 
+LFDR (Table 2), the second fastest speed among landfalling VTYs in the Philippines, 
+and a westward track of 270° during landfall (Fig. 2b, Fig. 5d);
+(2)	 Environmental conditions were conducive for TC intensification before landfall, 
+which included high SST (Fig. 1c), positive OHC anomaly, high specific humidity 
+(Fig. 8), strong low-level convergence (Fig. 9), and high RH in the low and middle 
+levels (Figs. 7, 10, 11, 12 and 13). Despite the high vertical wind shear around its core 
+(Fig. 6), the TC was able to maintain its structure and intensify.
+(3)	 The extension of the WNPSH with a strong easterly wind at its southern flank allowed 
+for a westward track for the TC (Fig. 12). A plentiful moisture supply from the Philip-
+pine Sea was drawn into the TC during approach and landfall, which resulted in heavy 
+rainfall and energy sustenance (Fig. 13).
+The results further showed that the wind speed during LF of TC RAI was about 105 kts 
+at 915 hPA, which is the second highest MSW and central pressure among TCs that made 
+landfall in the Philippines. In terms of translational speed, the TC made landfall at about 
+16.7 kts, which is the second fastest when compared to other TCs in the VTY category. 
+More importantly, RAI (2021) is the strongest and only landfalling TC to reach the VTY 
+category when compared among December landfalling TCs in the Philippines from 1979 
+to 2020, with its speed being the 3rd fastest upon landfall. A composite analysis of seven 
+TCs with similar track and landfalling location in December shows that TC RAI had a 
+more westward direction, a consistently larger TC radius after landfall, greater translational 
+speed from LF to LF+12, and greater intensity from LF-12 to LF+24.
+Analysis of the environmental conditions shows that the TC traversed through SSTs 
+warmer than 29 °C, and that the SSTa around the Philippine Sea during the TC event was 
+about + 0.5 to 1.5 °C, during a La Niña Season. The OHC shows a positive anomaly of 
+about 123 ± 14 kJ ­cm−2 along the path of TC RAI during its intensification. Vertical wind 
+shear near the TC core was estimated to be about 10–20 m ­s−1, and there exists a rich mois-
+ture content along the path of the TC. This resulted in greater low-level moisture conver-
+gence upon landfall.
+Comparison with the composite of seven TCs that made landfall in the area, with 
+nearly similar track and month, reveals that the low-level RH during TC RAI was anom-
+alously high at about 10–30% along the central and Eastern Philippines. This allowed 
+the TC to draw moisture and maintain its strength. Moreover, the difference plots of 
+the environmental condition during TC RAI and the composite show wind convergence 
+
+	
+Natural Hazards
+at the center of TC RAI’s location throughout its traversal, indicating that the TC had 
+stronger winds compared to the composites. The westward trajectory may also be attrib-
+uted to the extension of the WNPSH located along 20 °N, which allowed TC RAI to 
+maintain a straight and westward movement and delayed its recurving northward direc-
+tion until it reached west of the Philippines. Moreover, robustness analysis using the 
+JRA55 data set indicates the same trends (i.e. higher RH, extension of the WNPSH, 
+higher specific humidity, and higher moisture transport).
+This study gave an initial overview of the characteristics of TC RAI in terms of 
+speed, trajectory, and direction, as well as the environmental factors behind the event. 
+These findings are schematically shown in Fig. 15. Further research such as idealized 
+numerical simulations may provide a greater understanding of the environmental fac-
+tors (i.e., SST, humidity, steering, etc.) that contributed to the intensification of the TC. 
+A comparison of observed ground-based data from TC RAI (i.e., station data, doppler 
+radar) with satellite and reanalysis data will help strengthen the conclusion about TC 
+RAI’s unique features and those of future STYs that are bound to happen in the future.
+Supplementary Information  The online version contains supplementary material available at https://​doi.​
+org/​10.​1007/​s11069-​025-​07138-x.
+Acknowledgements  L.M.P. Olaguera, C.E.R. Petilla, F.A.T. Cruz, and J.R.T. Villarin were supported by 
+the Manila Observatory’s project: High-Definition Clean Energy, Climate, and Weather Forecasts for the 
+Philippines. C.E.R. Petilla would like to thank the Department of Physics of the School of Science and 
+Engineering (SOSE) of the Ateneo de Manila University (ADMU) and for the scholarship extended by the 
+Department of Science and Technology-Science Education Institute (DOST-SEI) and the Office of Admis-
+sion and Aid of ADMU. Additionally, special thanks to my family, Glen, Mariam, and Glen Mark Petilla.
+Funding  Part of this study was supported by Grant-in-Aid for Scientific Research (No. 23H00030; PI Jun 
+Matsumoto, 20H01386 and 24K00172; PI Yoshiyuki Kajikawa of Kobe University), and 22H04938; PI Kei 
+Yoshimura of the University of Tokyo.
+Declarations 
+Conflict of interest  The authors declare that they have no competing interests.
+Fig. 15   Summary diagram of the study. Dots are color coded according to Fig. 1. The dashed line indicates 
+the location of the WNPSH. Red shaded areas indicate the areas with anomalous sea surface temperature 
+(SST) and ocean heat content (OHC). Green arrows indicate high moisture areas
+
+Natural Hazards	
+References
+Bagtasa G (2017) Contribution of tropical cyclones to rainfall in the Philippines. J Clim 30:3621–3633
+Basconcillo J, Moon IJ (2021) Recent increase in the occurrences of Christmas typhoons in the Western 
+North Pacific. Sci Rep 11:7416
+Bolanio KP, Bermoy MM, Gagula AC, Vernante JG, Boligor AM, Cabañelez JM (2022) Analysis of the 
+super Typhoon Rai-induced infrastructure damage in severely affected areas of Caraga region, Philip-
+pines Using SENTINEL-1 SAR imageries. ISPRS Annal Photogramm, Remote Sens Spat Inform Sci 
+10:9–15
+Brand S, Blelloch JW (1974) Changes in the characteristics of typhoons crossing the island of Taiwan. Mon 
+Wea Rev 102:708–713
+Cao X, Chen G, Li T, Ren F (2016) Simulations of tropical cyclogenesis associated with different monsoon 
+trough patterns over the western North Pacific. Meteorol Atmos Phys 128:491–511
+Chan PW, Choy CW, He JY, Li QS (2022) An observational study of Super Typhoon Rai, a very late-season 
+typhoon necessitating the issuance of a tropical cyclone warning signal for Hong Kong in December 
+2021. Weather 77:433–438
+Chien FC, Kuo HC (2011) On the extreme rainfall of Typhoon Morakot (2009). J Geophys Res Atmos. 
+https://​doi.​org/​10.​1029/​2010J​D0150​92
+Choi JW, Cha Y, Kim HD, Lu R (2016) Relationship between the maximum wind speed and the minimum 
+sea level pressure for tropical cyclones in the western North Pacific. J Climatol Wea Forecast. https://​
+doi.​org/​10.​4172/​2332-​2594.​10001​80
+Cinco TA, de Guzman RG, Ortiz AMD, Delfino RJP, Lasco RD, Hilario FD, Juanillo EL, Barba R, 
+Ares ED (2016) Observed trends and impacts of tropical cyclones in the Philippines. Int J Climatol 
+36:4638–4650
+Corporal-Lodangco IL, Leslie LM, Lamb PJ (2016) Impacts of ENSO on Philippine tropical cyclone activ-
+ity. J Clim 29:1877–1897
+Diamond HJ, Schreck CJ III, Allgood A, Becker EJ, Blake ES, Bringas FG, Camargo SJ, Chen L, Coe-
+lho CAS, Fauchereau N, Goldenberg SB, Goni G, Halpert MS, He Q, Hu Z, Klotzbach PJ, Knaff JA, 
+Kumar A, Landsea CW, L’Heureux M, Lin I, Lorrey AM, Luo J, Magee AD, Pasch RJ, Pezza AB, 
+Rosencrans M, Trewin BC, Truchelut RE, Wang B, Wang H, Wood KM, Woolley J (2022) The Trop-
+ics. Bull Amer Meteorol Soc 103(8):S193–S256. https://​doi.​org/​10.​1175/​BAMS-D-​22-​0069.1
+Dolorosa RG, Climaco RB, Miguel JA, Aludia GM, Mecha NJMF (2023) Impact of super Typhoon Odette 
+on the reefs of Northeastern Palawan. Philippines J Fish Environ 47:37–52
+Dulac W, Cattiaux J, Chauvin F, Bourdin S, Fromang S (2024) Assessing the representation of tropical 
+cyclones in ERA5 with the CNRM tracker. Clim Dyn 62:223–238
+Esteban M, Valdez J, Tan N, Rica A, Vasquez G, Jamero L, Valenzuela P, Sumalinog B, Ruiz R, Geera W, 
+Chadwick C (2023) Field survey of 2021 Typhoon Rai–Odette-in the Philippines. J Coastal Riverine 
+Flood Risk. https://​doi.​org/​10.​48438/​JCRFR.​2023.​0001
+Flatau M, Schubert WH, Stevens DE (1994) The role of baroclinic processes in tropical cyclone motion: the 
+influence of vertical tilt. J Atmos Sci 51:2589–2601
+Fudeyasu H, Hirose S, Yoshioka H, Kumazawa R, Yamasaki S (2014) A global view of the landfall charac-
+teristics of tropical cyclones. Trop Cyclone Res Rev 3:178–192
+Han W, Wang Y, Liu L (2022) The relationship between pre-landfall intensity change and post-landfall 
+weakening of tropical cyclones over China. Front Earth Sci 10:1–13
+Hersbach H, Bell B, Berrisford P, Hirahara S, Horányi A, Muñoz-Sabater J, Nicolas J, Peubey C, Radu R, 
+Schepers D, Simmons A (2020) The ERA5 global reanalysis. Q J Royal Meteorol Soc 146:1999–2049
+Hollander M, Wolfe DA (1973) Nonparametric statistical methods. John Wiley & Sons, New York, pp 
+115–120
+Huang YH, Wu CC, Wang Y (2011) The influence of island topography on typhoon track deflection. Mon 
+Weather Rev 139:1708–1727
+Hung CW, Shih MF, Lin TY (2020) The climatological analysis of typhoon tracks, steering flow, and the 
+pacific subtropical high in the vicinity of Taiwan and the Western North Pacific. Atmosphere 11:543
+International Federation of Red Cross and Red Crescent Societies [IFRC] (2024) Philippines: Typhoon 
+Rai (Odette)—Emergency appeal No. MDRPH045—Final Report, Retrieved from https://​relie​fweb.​
+int/​report/​phili​ppines/​phili​ppines-​typho​on-​rai-​odette-​emerg​ency-​appeal-​no-​mdrph​045-​final-​report 
+on June 10, 2024
+Ishii M, Fukuda Y, Hirahara S, Yasui S, Suzuki T, Sato K (2017) Accuracy of global upper ocean heat 
+content estimation expected from present observational data sets. SOLA 13:163–167
+
+	
+Natural Hazards
+Japan Meteorological Agency [JMA] (2024) Tropical cyclone information: scale and intensity of the 
+tropical cyclone. Retrieved from https://​www.​data.​jma.​go.​jp/​multi/​cyclo​ne/​cyclo​ne_​capli​nk.​html?​
+lang=​en on Oct 26, 2024
+Kaplan J, DeMaria M (1995) A simple empirical model for predicting the decay of tropical cyclone 
+winds after landfall. J Appl Meteorol Climatol 34:2499–2512
+Kim HJ, Moon IJ, Oh I (2022) Comparison of tropical cyclone wind radius estimates between the KMA, 
+RSMC Tokyo, and JTWC. Asia-Pac J Atmos Sci 58:563–576
+Knapp KR, Kruk MC, Levinson DH, Diamond HJ, Neumann CJ (2010) The international best track 
+archive for climate stewardship (IBTrACS) unifying tropical cyclone data. Bull Amer Meteorol Soc 
+91:363–376
+Kobayashi S, Ota Y, Harada Y, Ebita A, Moriya M, Onoda H, Onogi K, Kamahori H, Kobayashi C, 
+Endo H, Miyaoka K (2015) The JRA-55 reanalysis: General specifications and basic characteris-
+tics. J Meteorol Soc Japan Ser II 93:5–48
+Kubota T, Aonashi K, Ushio T, Shige S, Takayabu YN, Kachi M, Arai Y, Tashima T, Masaki T, Kawa-
+moto N, Mega T (2020) Global satellite mapping of precipitation (GSMaP) products in the GPM 
+era. Sat Precip Meas 1:355–373
+Kuroda M, Harada A, Tomine K (1998) Some aspects on sensitivity of typhoon intensity to sea-surface 
+temperature. J Meteorol Soc Jpn 76:145–151
+Lin II, Rogers RF, Huang HC, Liao YC, Herndon D, Yu JY, Chang YT, Zhang JA, Patricola CM, Pun 
+IF, Lien CC (2021) A tale of two rapidly intensifying supertyphoons: Hagibis (2019) and Haiyan 
+(2013). Bull Amer Meteorol Soc 102:1645–1664
+Man-chi W, Chun-wing C (2015) An observational study of the changes in the intensity and motion of 
+tropical cyclones crossing Luzon. Trop Cyclone Res Rev 4:95–109
+Maw KW, Min J (2017) Impacts of microphysics schemes and topography on the prediction of the heavy 
+rainfall in Western Myanmar associated with tropical cyclone ROANU (2016). Adv Meteorol 
+2017:1–22
+Nayak S, Takemi T (2023) Statistical analysis of the characteristics of typhoons approaching Japan from 
+2006 to 2019. Geomat Nat Hazards Risk 14(1). https://​doi.​org/​10.​1080/​19475​705.​2023.​22087​22
+Null J, CCM (2024) El Nino and La Nina years and intensities. Retrieved from https://​ggwea​ther.​com/​
+enso/​oni.​htm on Mar 25, 2024
+Petilla CER, Tonga LPS, Olaguera LMP, Matsumoto J (2023) Changes in intensity and tracks of tropical 
+cyclones crossing the central and southern Philippines from 1979 to 2020: an observational study. 
+Prog Earth Planet Sci 10:32
+Philippine Atmospheric, Geophysical and Astronomical Services Administration [PAGASA] (2022) 
+Annual report 2021. Retrieved from https://​pubfi​les.​pagasa.​dost.​gov.​ph/​pagas​aweb/​files/​trans​paren​
+cy/​Annual_​Report_​2021.​pdf on Mar 20, 2024
+National Disaster Risk Reduction and Management Council [NDRRMC] (2022) Typhoon Odette. 
+Retrieved from https://​ndrrmc.​gov.​ph/​attac​hments/​artic​le/​4174/​Final_​Report_​for_​Tropi​cal_​Cyclo​
+ne_​ODETTE_​2021.​pdf on Jun 20, 2024
+National Geophysical Data Center (1993) 5-minute Gridded global relief data (ETOPO5). National geo-
+physical data center, NOAA. [Oct 26, 2024]. https://​doi.​org/​10.​7289/​V5D79​8BF
+Reynolds RW, Smith TM, Liu C, Chelton DB, Casey KS, Schlax MG (2007) Daily high-resolution-
+blended analyses for sea surface temperature. J Clim 20:5473–5496
+Santos GDC (2021) Tropical cyclones in the Philippines: a review. Trop Cyclone Res Rev 10:191–199
+Takagi H, Esteban M (2016) Statistics of tropical cyclone landfalls in the Philippines: unusual character-
+istics of 2013 Typhoon Haiyan. Nat Haz 80:211–222
+Thode H (2002) Testing for normality marcel dekker. Inc, New York, pp 99–123
+UNHCR (2022) STY Rai (Odette) Aftermath emergency situation report. Retrieved on Mar 23, 2024 
+at https://​www.​unhcr.​org/​ph/​wp-​conte​nt/​uploa​ds/​sites/​28/​2022/​05/​UNHCR-​TY-​Odette-​Emerg​ency-​
+SitRep-​No.-9.​pdf
+van Zomeren J, Van Delden A (2007) Vertically integrated moisture flux convergence as a predictor of 
+thunderstorms. Atmos Res 83:435–445
+Wong ML, Chan JC (2004) Tropical cyclone intensity in vertical wind shear. J Atmos Sci 61:1859–1876
+Wu L, Su H, Fovell RG, Dunkerton TJ, Wang Z, Kahn BH (2015) Impact of environmental moisture on 
+tropical cyclone intensification. Atmos Chem Phys 15:14041–14053
+Zehr (1992) Tropical cyclogenesis in the western North Pacific. NOAA-NESDIS (National Environmental 
+Satellite, Data, and Information Service), pp 151–152
+Publisher’s Note  Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.
+
+Natural Hazards	
+Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under 
+a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted 
+manuscript version of this article is solely governed by the terms of such publishing agreement and applicable 
+law.
+Authors and Affiliations
+Clint Eldrick R. Petilla1,2,6 · Lyndon Mark P. Olaguera1,2   · Faye Abigail T. Cruz1 · 
+Jose Ramon T. Villarin1,2 · Hironori Fudeyasu5 · Ryuji Yoshida5,6 · Jun Matsumoto2,3,4,5
+ *	 Lyndon Mark P. Olaguera 
+	
+lmolaguera@observatory.ph
+1	
+Department of Physics, School of Science and Engineering, Ateneo de Manila University, 
+Loyola Heights, Quezon City, Philippines
+2	
+Manila Observatory, Ateneo de Manila University Campus, Loyola Heights, Quezon City, 
+Philippines
+3	
+Department of Geography, Tokyo Metropolitan University, Tokyo, Japan
+4	
+Center for Coupled Ocean‑Atmosphere Research, Japan Agency for Marine Earth Science 
+and Technology, Yokosuka, Japan
+5	
+Typhoon Science and Technology Research Center, Yokohama National University, Yokohama, 
+Japan
+6	
+Department of Natural Environment, Graduate School of Environment and Information Sciences, 
+Yokohama National University, Yokohama, Japan

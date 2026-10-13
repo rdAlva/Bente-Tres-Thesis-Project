@@ -1,0 +1,819 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+2-23-2021 
+Ambient Air Quality and the Risk for Chronic Obstructive 
+Ambient Air Quality and the Risk for Chronic Obstructive 
+Pulmonary Disease Among Metro Manila Development Authority 
+Pulmonary Disease Among Metro Manila Development Authority 
+Traffic Enforcers in Metro Manila: An Exploratory Study 
+Traffic Enforcers in Metro Manila: An Exploratory Study 
+Xerxes Seposo 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University 
+Audrey Lynn A. Arcilla 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University 
+Jose Guillermo N. De Guzman III 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University 
+Enrico Miguel S. Dizon 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University 
+Andrea Nova R. Figuracion 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Environmental Health Commons, Occupational Health and Industrial Hygiene Commons, 
+and the Respiratory Tract Diseases Commons 
+Custom Citation 
+Custom Citation 
+Seposo, X., Arcilla, A. L. A., De Guzman, J. G. N., Dizon, E. M. S., Figuracion, A. N. R., Morales, C. M. M., 
+Tugonon, P. K. A., & Apostol, G. L. C. (2021). Ambient air quality and the risk for chronic obstructive 
+pulmonary disease among Metro Manila development authority traffic enforcers in Metro Manila: An 
+exploratory study. Chronic Diseases and Translational Medicine, 7(2), 117–124. https://doi.org/10.1016/
+j.cdtm.2021.01.002 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact research@ateneo.edu. 
+
+Authors 
+Authors 
+Xerxes Seposo, Audrey Lynn A. Arcilla, Jose Guillermo N. De Guzman III, Enrico Miguel S. Dizon, Andrea 
+Nova R. Figuracion, Christina Micaela M. Morales, Pauleenaa Katriona A. Tugonon, and Geminn Louis C. 
+Apostol 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/asmph-pubs/49 
+
+Original Article
+Ambient air quality and the risk for Chronic Obstructive Pulmonary
+Disease among Metro Manila Development Authority trafﬁc
+enforcers in Metro Manila: An exploratory study
+Xerxes Seposo a,b,*, Audrey Lynn A. Arcilla a, Jose Guillermo N. De Guzman IIIa,
+Enrico Miguel S. Dizon a, Andrea Nova R. Figuracion a,
+Christina Micaela M. Morales a, Pauleena Katriona A. Tugonon a,
+Geminn Louis C. Apostol a
+a School of Medicine and Public Health, Ateneo de Manila University, Don Eugenio Lopez Sr. Medical Complex Ortigas Avenue 1604, Pasig City,
+Philippines
+b School of Tropical Medicine and Global Health, Nagasaki University, 1-12-4 Sakamot1-12-4 Sakamotoo, Nagasaki, 852-8523, Japan
+Received 17 November 2020
+Available online 23 February 2021
+Abstract
+Background: Air pollution and poor ambient air quality are signiﬁcantly related to multiple health risks. One associated disease is
+chronic obstructive pulmonary disease (COPD), a preventable disease with several contributing factors and one of the leading
+causes of morbidity/mortality locally and globally. A potentially high-risk population are trafﬁc enforcers who are constantly
+exposed to air pollution. In the Philippines, the MMDA has the widest coverage in trafﬁc management. The study determined the
+risk of COPD among Metro Manila Development Authority (MMDA) trafﬁc enforcers in relation to ambient air quality level, as
+well as identiﬁed other factors that increase the risk of developing COPD.
+Methods: Fifty-two MMDA trafﬁc enforcers deployed in PM2.5 air quality sensor areas in Metro Manila from 2016 to 2018 were
+recruited through stratiﬁed sampling. The International Primary Airways Guidelines (IPAG) questionnaire was utilized to measure
+risk of COPD. Respiratory health and working history were obtained through questionnaires. Department of environment and
+natural resources provided PM2.5 ambient air quality data which aided in the construction of the Exposure-Month Index. Ordinal
+logistic regression was used to examine the association of PM2.5 together with the relevant factors and the risk of COPD.
+Results: We found statistically signiﬁcant associations between PM2.5 and COPD among high risk category [odds risk (OR): 1.24,
+95% conﬁdence interval (CI): 1.07e1.44]. Age (Moderate, OR: 1.16, 95% CI: 0.98e1.38 and High, OR: 10.06, 95% CI:
+4.02e25.17) and chest pain (Moderate, OR: 68.65, 95% CI: 1.71e2.75  103) were potential risk factors, whereas body mass index
+(BMI) (OR: 0.05, 95% CI: 0.01e0.53) exhibited protective effect.
+* Corresponding author. School of Tropical Medicine and Global Health, Nagasaki University, 1-12-4 Sakamoto, Nagasaki, 852-8523, Japan.
+E-mail address: seposo.xerxestesoro@nagasaki-u.ac.jp (X. Seposo).
+Peer review under responsibility of Chinese Medical Association.
+Production and Hosting by Elsevier on behalf of KeAi
+https://doi.org/10.1016/j.cdtm.2021.01.002
+2095-882X/Copyright © 2021 Chinese Medical Association. Publishing services by Elsevier B.V. on behalf of KeAi Communications Co. Ltd.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Available online at www.sciencedirect.com
+ScienceDirect
+Chronic Diseases and Translational Medicine 7 (2021) 117e124
+www.keaipublishing.com/en/journals/cdtm/
+www.cdatm.org
+
+Conclusions: Exposure to PM2.5 was associated with an increased risk of COPD among high-risk category MMDA trafﬁc en-
+forcers. Age and chest pain were potential risk factors to risk of COPD, whereas BMI exhibited a potential protective effect. Results
+of this study can be used for clinical management of high-risk populations, such that of MMDA trafﬁc enforcers.
+Copyright © 2021 Chinese Medical Association. Publishing services by Elsevier B.V. on behalf of KeAi Communications Co. Ltd.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Keywords: Chronic obstructive pulmonary disease; Trafﬁc enforcers; Air pollution; Occupational risk; Philippines
+Introduction
+Globally, air pollution has negatively affected air
+quality and has become a threat to public health. In
+fact, 4.2 million deaths annually were estimated to be
+due to ambient air pollution.1 Morbidity and mortality
+from cardiovascular and respiratory causes, in partic-
+ular, have been observed to be associated with partic-
+ulate air pollution.2,3 Among the various criteria air
+pollutants, particulate matter (PM) is found to be
+responsible for the majority of associated health
+risks.2,4 An increasing emphasis was thus placed on
+PM with a size less than 2.5 microns in diameter
+(PM2.5) because of its ability to reach distal regions of
+the lung.5
+One of the diseases associated with poor air quality
+is chronic obstructive pulmonary disease (COPD),
+which is a preventable yet commonly undiagnosed and
+life-threatening respiratory condition.6 It is character-
+ized by persistent limitation of airﬂow and enhanced
+chronic inﬂammatory response in the airways to
+noxious particles or gases.7 Mainstay symptoms of
+COPD
+are
+chronic,
+progressive
+dyspnea,
+cough,
+sputum, or mucus productiondthese usually become
+apparent after 40e50 years of age.8
+The primary cause of COPD remains to be exposure
+to tobacco smoke. However, recent scientiﬁc de-
+velopments revealed the substantial role of PM2.5 on
+the exacerbation of COPD.8e13 Other modiﬁable risk
+factors include obesity and occupational exposures to
+organic and inorganic dusts, chemicals, fumes, and
+irritants. Meanwhile, non-modiﬁable factors include
+increasing age, male gender, lung development ab-
+normalities,
+bronchial
+hyperreactivity,
+long-term
+asthma, childhood respiratory infections, and family
+history of respiratory diseases.7,14,15
+In the Philippines, the Department of Health rec-
+ognizes COPD as the seventh leading cause of mor-
+tality.16 In 2007, an estimated 14% of Metro Manila's
+population alone reportedly had COPD.17 Several risk
+factors are present in the countrydthe most signiﬁcant
+of which are air pollution (96%) in urban settings and
+biomass
+exposure
+(87%)
+in
+rural
+settings.18
+A
+signiﬁcant contributor to air pollution are motor vehi-
+clesdthis is especially true in Metro Manila where
+there is a 2.5 million annual average daily trafﬁc.19 In
+fact, the region's average PM2.5 level (30.44 mg/m3)
+from 2016 to 2018 lies beyond the recommended
+annual PM2.5 level (20 mg/m3) by the World Health
+Organization.20 With considerably high ambient PM2.5
+levels, outdoor occupations are mostly hazardous in
+nature given the prolonged exposure.21
+Trafﬁc enforcers had the highest exposure, who
+were found to have an increased risk of developing
+respiratory and cardiac diseases.22e24 In Metro Manila,
+the Metro Manila Development Authority (MMDA)
+remains to be the agency with the widest coverage in
+trafﬁc management.19 On the job, MMDA trafﬁc en-
+forcers work on 8-hour shifts on weekdays. Given the
+nature and scope of the work, the MMDA may then
+adequately represent trafﬁc enforcers with a high risk
+of exposure to high levels air pollution in Metro
+Manila.
+In response to a growing need for evidence linking
+air quality to health outcomes in the country, specif-
+ically among high risk groups, this study explored the
+association between ambient air quality and risk of
+COPD among MMDA trafﬁc enforcers in Metro
+Manila.
+Methods
+We utilized a cross-sectional study design in eluci-
+dating the risk of developing COPD due to ambient air
+quality. The list of variables with their corresponding
+units, deﬁnitions, type, and sources of information are
+summarized in Table S1.
+Ethical approval
+Ethical clearance was obtained from the ASMPH
+Ethical Research Board with Ethical Approval number:
+SMPH 2019 Group 02. Permission to conduct the
+study in the selected MMDA satellites was also coor-
+dinated with the main headquarters in Makati City and
+each MMDA satellite head prior to each visit. Prior to
+118
+X. Seposo et al. / Chronic Diseases and Translational Medicine 7 (2021) 117e124
+
+assessment, all participants were briefed and given
+informed written consent forms (see Supplementary
+Document 3), detailing the purpose and methods of the
+study and their rights as study participants. Gathered
+data were kept conﬁdential throughout the entire study,
+in compliance with the Data Privacy Act of 2012.
+Independent variable
+For the independent variable, an Exposure-Month
+Index (EMI) which is calculated as the average PM2.5
+exposure of the participant in the month/s where s/he
+was deployed. Since trafﬁc enforcers are assigned to
+different areas in varying time periods, EMI captures
+the cumulative exposure of the trafﬁc enforcers, which
+is dependent on the length of time the subject stayed in
+the location. The EMI was assessed with the aid of a
+working history form (see Supplementary Document
+1) and was computed as follows:
+EMIy ¼
+X
+k
+i¼1
+ð PM:2:5k
+durationk
+Þ
+whereby, k represents the work location; PM2.5 repre-
+sents the PM2.5 concentration in the work location;
+duration is the length of time the trafﬁc ofﬁcer was
+assigned in that location. The summation of the dura-
+tion weighted PM2.5 is the exposure index (EMIy) for
+trafﬁc ofﬁcer y.
+PM 2.5 levels were obtained from air quality ground
+monitoring data from the department of environment
+and natural resources-air quality management section
+(DENR-AQMS) measured via BAM (Thermos, Met 1)
+and TEOM (Thermos) sensors from 2016 to 2018 (see
+Table S2 for PM 2.5 Yearly Average).
+Dependent variable
+For the dependent variable, risk of COPD was
+measured using the International Primary Airways
+Guidelines (IPAG) risk score, which was later trans-
+formed into a categorical variable with three levels:
+namely, low, moderate, and high risk. The IPAG
+Questionnaire, highlighted in Appendix 1 of Sichleti-
+dis, Spyratos, Papaioannou et al,25 is the most widely
+validated screening questionnaire aimed at determining
+risk
+of
+COPD
+(sensitivity
+¼
+64.5%;
+speciﬁcity
+¼ 65.2%).26 This tool includes questions regarding
+respiratory symptoms, smoking history, allergies, age,
+and anthropometrics. There are a total of 38 points,
+with a cut-off score of greater than 17 points as high
+risk of COPD.27 The questionnaire was translated to
+Tagalog for comprehensibility and incorporated in the
+Respiratory Health Questionnaire (see Supplementary
+Document 2).
+Study sites
+The study was conducted in nine selected MMDA
+satellite stations with an active PM2.5 air quality sensor
+installed and monitored by the DENR-AQMS. Fig. 1
+illustrates the coverage area of PM2.5 sensors within a
+5-kilometer radius and the location of the different
+MMDA satellites. Three-year PM2.5 levels in these
+sites were obtained from DENR-AQMS and processed
+with the assistance of environmental health experts at
+the ASMPH Center for Research and Innovation
+(ACRI), Environmental Health unit.
+Study population
+MMDA trafﬁc enforcers satisfying any of the
+following criteria were excluded from the study pop-
+ulation: (1) were not currently assigned to the ﬁeld, (2)
+were assigned to the ﬁeld for more than 6 months in an
+area that does not have a PM 2.5 air quality sensor, (3)
+were newly assigned to the ﬁeld from January 2019
+onwards, and (4) previously diagnosed with COPD
+before January 2016. Study sample consisted of 52
+MMDA
+trafﬁc
+enforcers
+(prevalence
+¼
+0.883%,
+power
+¼
+80,
+design
+effect
+¼
+1,
+conﬁdence
+interval ¼ 95%) assigned to ﬁeld jobs for at least 6
+months.28
+Data collection procedure
+Pre-testing of questionnaires was done to three
+participants in the EDSA-MMDA satellite for the
+purpose of training the researchers and testing the data
+collection instruments. During actual data collection, a
+minimum of three researchers went per study site and
+requested for available participants who were currently
+not on duty. All data gathered were transcribed and
+encrypted to ensure conﬁdentiality and, afterwards,
+will be permanently deleted once the study has
+concluded.
+Statistical analyses
+Data obtained was encoded in Excel version 2016
+(Microsoft, USA). We utilized an ordinal logistic
+regression to assess association of the risk of COPD
+and PM2.5, after adjusting for several covariates. A
+bivariable
+analysis
+was
+utilized
+to
+examine
+the
+119
+X. Seposo et al. / Chronic Diseases and Translational Medicine 7 (2021) 117e124
+
+association of IPAG variable and the covariates.
+Covariates which exhibited statistical signiﬁcance were
+then included to the full model in the multivariable
+regression. The full model was then subjected to a
+stepwise multivariable regression via backward elimi-
+nation, whereby variables which did not show statis-
+tical signiﬁcance in the full model were dropped one-
+by-one. The ﬁnal model favored the inclusion of body
+mass index (BMI), age, symptoms of chest pain and
+PM2.5. The subsequent interpretations of the odds risk
+(OR) for moderate and high categories are relative to
+the low category, which is set as the base level of
+comparison in the ordinal logistic regression. All sta-
+tistical analyses were done using R Statistical Pro-
+gramming (R Development Core Team, USA).29
+Results
+In Table 1, we observed strong statistically signiﬁ-
+cant association of the IPAG categories with age (High,
+OR: 1.48, 95% CI: 1.05e2.07), pack years (Moderate,
+OR:1.14, 95% CI: 0.03e50.94 and High, OR:1.20,
+95% CI: 1.05e1.38), chest pain (Moderate, OR: 19.50,
+95% CI: 6.97e54.57). Whereas, BMI (High, OR: 0.76,
+95% CI: 0.57e1.02), years of service (High, OR: 1.11,
+95% CI: 0.98e1.25), past respiratory disease (High,
+OR: 6.17, 95% CI: 0.78e48.64) and PM2.5 (High, OR:
+1.06, 95% CI: 0.99e1.13) exhibited a relatively mod-
+erate statistical signiﬁcance. All statistically signiﬁcant
+variables exhibited a positive association with IPAG
+categories, except for BMI, which indicated a possible
+negative association.
+Further multivariable, ordinal logistic regression
+analysis favored a simpler model with the inclusion of
+BMI (High, OR: 0.05, 95% CI: 0.01e0.53), age
+(Moderate, OR: 1.16, 95% CI: 0.98e1.38 and High,
+OR: 10.06, 95% CI: 4.02e25.17), chest pain (Moder-
+ate, OR: 68.65, 95% CI: 1.71e2.75  103) and PM2.5
+(High, OR: 1.24, 95% CI: 1.07e1.44) as shown in
+Table 2. While age and chest pain exhibited statistical
+Fig. 1. Map of Metro Manila showing air quality sensors' area coverage (in circles) and selected MMDA satellites.
+120
+X. Seposo et al. / Chronic Diseases and Translational Medicine 7 (2021) 117e124
+
+signiﬁcance in the high and moderate categories,
+respectively, results should be interpreted with caution
+due to the substantially wide conﬁdence intervals. We
+observe a consistent statistically signiﬁcant and nega-
+tive association of BMI with IPAG category.
+Discussion
+In this study, we examined the effects of ambient air
+pollution on the risk of COPD and observed statisti-
+cally signiﬁcant association between PM2.5 exposure
+and the risk of COPD among MMDA trafﬁc enforcers,
+after adjusting for relevant covariates. Several risk and
+protective
+factors,
+aside
+from
+PM2.5,
+were
+also
+observed.
+PM2.5 and COPD
+We observed statistically signiﬁcant association
+between PM2.5 exposure and the risk of COPD. A unit
+increase in PM2.5 exposure was associated with a sta-
+tistically signiﬁcant OR in high-risk category (OR:
+1.24, 95% CI: 1.07e1.44) relative to the low-risk
+category, in Table 2. Among high risk populations,
+such as trafﬁc enforcers, studies have indicated a
+decline in the workers’ lung function due to trafﬁc-
+generated PM2.5.
+30 In India, taxi motorcyclists were
+observed
+to
+have
+substantial
+risk
+in
+developing
+restrictive syndrome, a form of impairment in the
+pulmonary function.31 In Zagreb and Croatia, Zuskin
+et al32 noted the higher risks in developing respiratory
+Table 1
+Bivariable, ordinal logistic regression results of International Primary Airways Guidelines categories with age.
+Variables
+Moderate
+High
+OR (95% CI)
+P values
+OR (95% CI)
+P values
+BMIa
+0.90 (0.00e915)
+0.36
+0.76 (0.57e1.02)
+0.07b
+Agea
+1.09 (0.00e7.5  107)
+0.14
+1.48 (1.05e2.07)
+0.02b
+Current Smoker
+0.31 (0.09e1.03)
+0.31
+1.04 (0.16e6.94)
+0.97
+Past Smoker
+0.51 (0.07e4.01)
+0.51
+1.54 (0.12e19.5)
+0.74
+Years of Servicea
+1.09 (0.13e9.09)
+0.12
+1.11 (0.98e1.25)
+0.10b
+Pack Yearsa
+1.14 (0.03e50.94)
+0.03b
+1.20 (1.05e1.38)
+0.01b
+Difﬁculty of Breathing
+1.55 (0.47e5.07)
+0.64
+2.07 (14.18e0.46)
+0.46
+Sneezing
+0.87 (0.26e2.86)
+0.88
+1.16 (0.17e7.72)
+0.88
+Colds
+1.55 (0.55e4.39)
+0.64
+0.78 (0.08e7.76)
+0.83
+Atopy
+e
+e
+2.31 (0.21e26.05)
+0.50
+Cough
+0.83 (0.29e2.33)
+0.87
+1.03 (0.10e10.53)
+0.98
+Chest Paina
+19.50 (6.97e54.57)
+0.01b
+4.88 (0.36e66.41)
+0.23
+Shortness of Breath
+0.39 (0.12e1.27)
+0.40
+1.29 (0.19e8.61)
+0.80
+Current Respiratory Disease
+3.90 (1.39e10.91)
+0.30
+4.87 (0.36e66.41)
+0.23
+Past Respiratory Diseasea
+4.62 (1.43e15.00)
+0.13
+6.17 (0.78e48.64)
+0.08b
+Symptoms in family
+2.56 (0.35e18.92)
+0.31
+5.11 (0.52e49.80)
+0.16
+Family history of respiratory disease
+1.35  104 (4.68  103e3.92  104)
+0.82
+0.32 (0.03e3.11)
+0.33
+PM2.5
+a
+1.03 (0.00e2.93  103)
+0.32
+1.06 (0.99e1.13)
+0.10b
+BMI: Body Mass Index; OR: Odds Ratio; 95% CI: 95% Conﬁdence Interval; PM2.5: particulate matter with a size of 2.5 microns or less in diameter.
+Reference level of COPD risk is low.
+a Variables which were included in the full model of the subsequent multivariable, multinomial analysis.
+b P value  0.10 indicate statistical signiﬁcance.
+Table 2
+Multivariate, ordinal logistic regression results of ﬁnal model.
+Variable
+Moderate
+High
+OR (95% CI)
+P values
+OR (95% CI)
+P values
+BMI
+0.87 (0.65e1.18)
+0.37
+0.05 (0.01e0.53)
+0.01a
+Age
+1.16 (0.98e1.38)
+0.09a
+10.06 (4.02e25.17)
+<0.001a
+Chest Pain
+68.65 (1.71e2.75  103)
+0.03a
+0.12 (6.33  107 e 2.28  104)
+0.73
+PM2.5
+1.01 (0.94e1.08)
+0.87
+1.24 (1.07e1.44)
+0.01a
+BMI: Body Mass Index; OR: Odds Ratio; 95% CI: 95% Conﬁdence Interval; PM2.5: particulate matter with a size of 2.5 microns or less in diameter.
+a P value  0.10 indicate statistical signiﬁcance.
+121
+X. Seposo et al. / Chronic Diseases and Translational Medicine 7 (2021) 117e124
+
+symptoms for bus drivers and mechanics. Epidemio-
+logical studies have demonstrated an association be-
+tween short-term ambient PM2.5 exposure and lung
+function decline. Short-term exposure to ambient air
+pollutants are said to result in oxidative stress and
+pulmonary and systemic inﬂammatory responses such
+as reduction in the ciliary activity in the airways and
+acute decrease of pulmonary function.9 Schikowski
+et al9 argued that if repeated acute exacerbations of
+COPD were considered a factor in the development of
+COPD, then the causal role of air pollution in aggra-
+vation of COPD is substantial. That being said, the
+effect of long-term exposure to PM2.5 is slowly but
+considerably being investigated and has been addi-
+tionally associated with increased morbidity and mor-
+tality of COPD. A recent longitudinal cohort study by
+Guo et al33 found that PM2.5 was consistently associ-
+ated with reduction in lung function with respect to
+four parametersdnamely FEV1, FVC, MMEF, and
+FEV1/FVC ratiodas well as increased risk of COPD
+development. Prolonged and chronic exposure may
+potentially induce pulmonary inﬂammation, decrease
+lung function, and cause emphysematous changes.34
+Likewise, this study supports the reported speciﬁcity
+and sensitivity of IPAG Questionnaire as the most
+widely validated screening questionnaire for COPD.
+COPD risk factors: age and chest pain
+Age was positively associated with the risk of
+COPD in the high-risk category (OR: 10.06, 95% CI:
+4.02e25.17) compared to the low-risk category; Table
+2. The prevalence and manifestations of COPD in-
+creases with age for both men and women throughout
+most of the lifespan, especially among those above
+40e50 years old.35 Since COPD is a progressive lung
+disease, symptoms worsen over time and often do not
+appear until there is signiﬁcant lung damage. Aside
+from age, we also observed that symptom of chest
+pain was associated with statistically signiﬁcant, yet
+with highly uncertain effects estimates. HajGhanbari
+et al36 noted that the hyper-expanded and relatively
+rigid chest wall, which affects the thoracic articula-
+tions in a hyper extended position, may contribute to
+thoracic pain experienced by people with COPD.
+Whereas, Bordoni et al37 posits the role of costal
+muscles, which face an alteration of their physiologic
+length (shortening or lengthening) caused by the
+change of costal biomechanics, inﬂuenced in turn by
+lung movements. However, due to the relatively un-
+certain effects estimate of chest pain, further studies
+are warranted.
+COPD protective factor: BMI
+Aside from risk factors, we observed statistically
+signiﬁcant protective factor of BMI on the risk of
+COPD. A unit increase in BMI was associated with a
+decrease in the risk for COPD among high-risk cate-
+gory (OR: 0.05, 95%CI: 0.01e0.53). Galesanu et al38
+observed similar ﬁndings noting that overweight/obese
+patients had better lung function and a larger midthigh
+muscle cross-sectional area obtained using computed
+tomography (MTCSACT) than those with normal BMI
+as well as signiﬁcantly higher peak work rate than
+patients with normal BMI. A likely mechanism pro-
+posed by Divo et al39 posits the role of adipose tissue
+plays a modulating role in disease expression in the
+two (normal and obese) groups as the disease begins
+and progresses. Sun et al,40 on the other hand, postu-
+lates a possible reverse-causation, where increased
+COPD disease activity or severity leads to weight loss
+and cachexia. We invite the readers to read the sys-
+tematic review by Sun et al40 for a detailed discussion
+regarding the inverse association of BMI and COPD.
+The study recognizes the following limitations.
+First, this study only included ambient air quality data
+from designated PM2.5 sensors of the DENR-AQMS.
+Indoor air pollution was not quantiﬁed. Other gaseous
+pollutants (e.g. nitric oxide) aside from PM2.5 were not
+taken into account. Second, the developed Exposure-
+Month Index incorporates only the three most recent
+years of the participants' working history. Additionally,
+with a cross-sectional study design, exposure and
+outcomes were assessed simultaneously, thereby only
+capturing a snapshot of the participants’ health. Third,
+although the IPAG Questionnaire is a widely used
+screening tool, it does not account other risk factors of
+COPD. Additional information regarding respiratory
+health as well as candidate risk factors is encouraged.
+Fourth, because of the number of associated risk fac-
+tors, a larger sample size may be more appropriate for
+future studies. Fifth, this study does not aim to clini-
+cally diagnose COPD. The clinical diagnosis of COPD
+requires a more extensive history taking and physical
+examination by a certiﬁed and experienced medical
+practitioner. Other subsequent tests may also aid in the
+accurate diagnosis of COPD, such as a post-broncho-
+dilator spirometry assessment, arterial blood gas, and
+chest radiograph, all of which our study did not
+include.
+In conclusion, exposure to PM2.5 was associated
+with an increased risk of COPD among high-risk
+category MMDA trafﬁc enforcers. While age and
+symptom of chest pain may potentially pose a risk in
+122
+X. Seposo et al. / Chronic Diseases and Translational Medicine 7 (2021) 117e124
+
+developing COPD, caution should be exercised due to
+substantial uncertainty in the effect estimates. On the
+other hand, BMI exhibited a potential protective effect
+on the risk of COPD. Results of this study can be used
+for clinical management of high-risk populations, such
+that of MMDA trafﬁc enforcers.
+Conﬂicts of interest
+None.
+Appendix A. Supplementary data
+Supplementary data to this article can be found
+online at https://doi.org/10.1016/j.cdtm.2021.01.002.
+References
+1. WHO. Ambient (outdoor) air pollution and health. https://www.
+who.int/en/news-room/fact-sheets/detail/ambient-(outdoor)-air-
+quality-and-health; 2018. Accessed November 16, 2020.
+2. Kelly FJ, Fussell JC. Air pollution and public health: emerging
+hazards and improved understanding of risk. Environ Geochem
+Health. 2015;37:631e649.
+3. Shah ASV, Lee KK, McAllister DA, et al. Short term exposure to
+air pollution and stroke: systematic review and meta-analysis.
+BMJ. 2015;350:h1295.
+4. Achilleos S, Kioumourtzoglou MA, Wu CD, Schwartz JD,
+Koutrakis P, Papatheodorou SI. Acute effects of ﬁne particulate
+matter constituents on mortality: a systematic review and meta-
+regression analysis. Environ Int. 2017;109:89e100.
+5. Dagher Z, Garçon G, Gosset P, et al. Pro-inﬂammatory effects of
+Dunkerque city air pollution particulate matter 2.5 in human
+epithelial
+lung
+cells
+(L132)
+in
+culture.
+J Appl
+Toxicol.
+2005;25:166e175.
+6. WHO. Chronic obstructive pulmonary disease (COPD). https://
+www.who.int/news-room/fact-sheets/detail/chronic-obstructive-
+pulmonary-disease-(copd); 2017. Accessed November 16, 2020.
+7. Vestbo J, Hurd SS, Agustí AG, et al. Global strategy for the
+diagnosis, management, and prevention of chronic obstructive
+pulmonary
+disease.
+Am
+J
+Respir
+Crit
+Care
+Med.
+2013;187:347e365.
+8. Ko FWS, Hui DSC. Air pollution and chronic obstructive pul-
+monary disease. Respirology. 2012;17:395e401.
+9. Schikowski T, Mills IC, Anderson HR, et al. Ambient air
+pollution: a cause of COPD? Eur Respir J. 2014;43:250e263.
+10. Huang H-C, Lin FC-F, Wu M-F, et al. Association be-
+tween chronic obstructive pulmonary disease and PM2.5
+in
+Taiwanese
+nonsmokers.
+Int
+J
+Hyg
+Environ
+Health.
+2019;222:884e888.
+11. Wen CP, Gao W. PM2.5: an important cause for chronic
+obstructive
+pulmonary
+disease?
+Lancet
+Planet
+Health.
+2018;2:e105ee106.
+12. JoYS,LimMN,HanY-J,Kim WJ.Epidemiologicalstudyof PM2.5
+and risk of COPD-related hospital visits in association with particle
+constituents in Chuncheon, Korea. Int J Chronic Obstr Pulm Dis.
+2018;13:299e307. https://doi.org/10.2147/COPD.S149469.
+13. Gao N, Xu W, Ji J, et al. Lung function and systemic inﬂam-
+mation associated with short-term air pollution exposure in
+chronic obstructive pulmonary disease patients in Beijing, China.
+Environ Health. 2020;19:12.
+14. Mannino DM, Buist AS. Global burden of COPD: risk factors,
+prevalence, and future trends. Lancet. 2007;370:765e773.
+15. Poulain M, Doucet M, Major GC, et al. The effect of obesity on
+chronic respiratory diseases: pathophysiology and therapeutic
+strategies. CMAJ (Can Med Assoc J). 2006;174:1293e1299.
+https://doi.org/10.1503/cmaj.051299.
+16. Idolor LF, De Guia TS, Francisco NA, et al. Burden of
+obstructive lung disease in a rural setting in the Philippines.
+Respirology. 2011;16:1111e1118.
+17. PCCP. Clinical practice guidelines in the diagnosis and man-
+agement of chronic obstructive pulmonary disease (COPD) in
+the Philippines 2009. In: Physicians PCoC, ed. Philippine Col-
+lege of Chest Physicians. 2009.
+18. Regional COPD Working Group. COPD prevalence in 12
+AsiaePaciﬁc countries and regions: projections basedon the COPD
+prevalence estimation model. Respirology. 2003;8:192e198.
+19. Villas-Alvaren AL. MMDA faces greatest challenge: managing
+2.5M vehicles in MM. Manila Bulletin. 2016.
+20. WHO. WHO Air quality guidelines for particulate matter, ozone,
+nitrogen dioxide and sulfur dioxide: summary of risk assessment
+(Global Update 2005). http://apps.who.int/iris/bitstream/handle/
+10665/69477/WHO_SDE_PHE_OEH_06.02_eng.pdf;
+jsessionid&equals;
+BAA40CB3B2D29632CCE8E9227F72246B?sequence&equals;
+1; 2005. Accessed November 16, 2020.
+21. Mills NL, Miller MR, Lucking AJ, et al. Combustion-derived
+nanoparticulate induces the adverse vascular effects of diesel
+exhaust inhalation. Eur Heart J. 2011;32:2660e2671.
+22. Ahmed S, Akter Q, Eva H, Bhowmik M. Effect of air pollution
+on FVC, FEV1 and FEV1/FVC% of the trafﬁc policemen in
+Dhaka city. J Bangladesh Soc Physiol. 2016;11:39e42.
+23. Patil RR. Respiratory Health Status of Trafﬁc Police Working in
+Vehicular Pollution Setting. SRM University; 2016.
+24. Rahman MA, Badruzzaman ABM, Rahman M. Assessing the
+impact of exposure to polluted air on the pulmonary systems of
+service personnel using a peak ﬂow meter. Aust J Basic Appl Sci.
+2010;4:5533e5549.
+25. Sichletidis L, Spyratos D, Papaioannou M, et al. A combination
+of the IPAG questionnaire and PiKo-6® ﬂow meter is a valuable
+screening tool for COPD in the primary care setting. Prim Care
+Respir J. 2011;20:184e189.
+26. Haroon S, Jordan R, Takwoingi Y, Adab P. Diagnostic accuracy
+of screening tests for COPD: a systematic review and meta-
+analysis. BMJ Open. 2015;5, e008133.
+27. Kotaki K, Ikeda H, Fukuda T, et al. Effectiveness of diagnostic
+screening tests in mass screening for COPD using a cooperative
+regional system in a region with heavy air pollution: a cross-
+sectional study. BMJ Open. 2017;7, e012923.
+28. IHME. Global burden of disease. https://vizhub.healthdata.org/
+gbd-compare/; 2019. Accessed November 16, 2020.
+29. R Core Team. R: A Language and Environment for Statistical
+Computing. Vienna, Austria: R Foundation for Statistical
+Computing; 2013.
+30. Santos UP, Garcia MLSB, Braga ALF, et al. Association between
+trafﬁc air pollution and reduced forced vital capacity: a study
+using personal monitors for outdoor workers. PloS One.
+2016;11, e0163225.
+123
+X. Seposo et al. / Chronic Diseases and Translational Medicine 7 (2021) 117e124
+
+31. Mbelambela EP, Hirota R, Eitoku M, et al. Occupation exposed
+to road-trafﬁc emissions and respiratory health among Con-
+golese transit workers, particularly bus conductors, in Kinshasa:
+a cross-sectional study. Environ Health Prev Med. 2017;22:11.
+32. Zuskin E, Mustajbegovic J, Schachter EN. Respiratory symp-
+toms and lung function in bus drivers and mechanics. Am J Ind
+Med. 1994;26:771e783.
+33. Guo C, Zhang Z, Lau AKH, et al. Effect of long-term exposure
+to ﬁne particulate matter on lung function decline and risk of
+chronic obstructive pulmonary disease in Taiwan: a longitudi-
+nal, cohort study. Lancet Planet Health. 2018;2:e114ee125.
+34. Zhao J, Li M, Wang Z, et al. Role of PM2.5 in the development
+and progression of COPD and its mechanisms. Respir Res.
+2019;20:120.
+35. Buist AS, Vollmer WM, McBurnie MA. Worldwide burden of
+COPD in high- and low-income countries. Part I. The burden of
+obstructive lung disease (BOLD) initiative. Int J Tubercul Lung
+Dis. 2008;12:703e708.
+36. HajGhanbari B, Holsti L, Road JD, Darlene Reid W. Pain in
+people with chronic obstructive pulmonary disease (COPD).
+Respir
+Med.
+2012;106:998e1005.
+https://doi.org/10.1016/
+j.rmed.2012.03.004.
+37. Bordoni B, Marelli F, Morabito B, Castagna R. Chest pain in
+patients with COPD: the fascia's subtle silence. Int J Chronic
+Obstr Pulm Dis. 2018;13:1157e1165.
+38. Galesanu RG, Bernard S, Marquis K, et al. Obesity in chronic
+obstructive pulmonary disease: is fatter really better? Cancer
+Respir J. 2014;21:297e301.
+39. Divo MJ, Cabrera C, Casanova C, et al. Comorbidity distribution,
+clinical expression and survival in COPD patients with different
+Body mass index. Chronic Obstr Pulm Dis. 2014;1:229e238.
+40. Sun Y, Milne S, Jaw JE, et al. BMI is associated with FEV1
+decline in chronic obstructive pulmonary disease: a meta-anal-
+ysis of clinical trials. Respir Res. 2019;20:236.
+Edited by Yi Cui
+124
+X. Seposo et al. / Chronic Diseases and Translational Medicine 7 (2021) 117e124

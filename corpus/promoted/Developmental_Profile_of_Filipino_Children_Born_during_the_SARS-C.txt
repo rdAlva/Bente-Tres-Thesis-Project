@@ -1,0 +1,943 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+1-1-2024 
+Developmental Profile of Filipino Children Born during the SARS-
+Developmental Profile of Filipino Children Born during the SARS-
+COV-2 Pandemic: Pilot Study 
+COV-2 Pandemic: Pilot Study 
+Angel Belle Dy 
+Ateneo de Manila University, abdy@ateneo.edu 
+Michelle Alexandra Edillon 
+Ateneo de Manila University 
+Mikhaela Francesca Marietta A. Malonzo 
+Ateneo de Manila University 
+Glenda Darlene Garcia 
+Ateneo de Manila University 
+Alane Blythe C. Dy 
+Ateneo de Manila University 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the COVID-19 Commons, Neurology Commons, and the Pediatrics Commons 
+Custom Citation 
+Custom Citation 
+Dy ABC, Edillon MA, Malonzo MFMA, Garcia GD, Dy ABC, Espiritu CJS, Aquino MBC, So SLT, Capulong NLD, 
+Dagal RVC and Sumpaico Tanchanco LB (2024) Developmental profile of Filipino children born during the 
+SARS-COV-2 pandemic: pilot study. Front. Public Health. 12:1426409. doi: 10.3389/fpubh.2024.1426409 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+Authors 
+Authors 
+Angel Belle Dy, Michelle Alexandra Edillon, Mikhaela Francesca Marietta A. Malonzo, Glenda Darlene 
+Garcia, Alane Blythe C. Dy, Clarisse Joyce S. Espiritu, Ma Bianca Carmela Aquino, Shannen Louise T. So, 
+Nina Linly D. Capulong, Rizza Victoria C. Dagal, and Lourdes Bernadette Tanchanco 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/asmph-pubs/280 
+
+Frontiers in Public Health
+01
+frontiersin.org
+Developmental profile of Filipino 
+children born during the 
+SARS-COV-2 pandemic: pilot 
+study
+Angel Belle C. Dy *, Michelle Alexandra Edillon , 
+Mikhaela Francesca Marietta A. Malonzo , 
+Glenda Darlene Garcia , Alane Blythe C. Dy , 
+Clarisse Joyce S. Espiritu , Ma. Bianca Carmela Aquino , 
+Shannen Louise T. So , Nina Linly D. Capulong , 
+Rizza Victoria C. Dagal  and Lourdes Bernadette Sumpaico 
+Tanchanco 
+School of Medicine and Public Health, Ateneo de Manila University, Pasig, Philippines
+Objective: The Philippines experienced one of the longest restriction periods 
+during the COVID-19 pandemic. This study aimed to provide a developmental 
+profile of 18–25  month-old children and identify factors associated with their 
+development during their early years being born and raised during the pandemic.
+Methods: The study population was recruited through convenience sampling 
+among families living in proximity to the daycare centers in Cainta, Rizal, 
+Philippines. 116 children qualified to participate and underwent developmental 
+screening using the Early Childhood Care and Development (ECCD) Checklist 
+and their parents were interviewed related to demographic and social factors.
+Results: The mean score of the children’s Overall Development is 106.47 
+(SD  = 13.43) indicating that children’s skills were within the expected range 
+of 80–119. Girls had significantly higher mean scores compared to boys 
+[MGirl = 111.23, SDGirl = 9.95 vs. MBoy =  101.18, SDBoy = 14.83 t(114) =  −4.32 p < 0.001]. 
+Mean scores were highest among children whose mothers completed a high 
+school education (MHigh School  =  107.76, SDHighSchool  =  12.47) compared to those 
+who have some or have completed an elementary education (MSomeElem = 72.50, 
+SDSomeElem = 6.36 and MElem = 103.58, SDElem = 13.86 respectively) [F(2, 113) = 8.18, 
+p  <  0.001]. Unadjusted linear regression shows a modest increase in mean 
+scores as the number of household members increased [ꞵ  =  0.86, (CI: 0.02, 
+1.70), t-score (1, 113) =  2.03, p =  0.045].
+Conclusion: The developmental skills of 18–25 month-old children born and 
+raised during the COVID-19 pandemic in an urban municipality in the Philippines 
+are within average scores. Both hindering and protective demographic factors 
+were identified as associated with the children’s developmental evaluation 
+scores. It is important to acknowledge these factors and continue monitoring 
+the children’s development and address needs among children who may need 
+further support.
+KEYWORDS
+early childhood, child development, COVID-19, Filipino, community
+OPEN ACCESS
+EDITED BY
+Nayeli Gonzalez-Gomez, 
+Oxford Brookes University, United Kingdom
+REVIEWED BY
+Paulina Sofia Arango, 
+University of the Andes, Chile
+Elizabeth Hentschel, 
+Yale University, United States
+*CORRESPONDENCE
+Angel Belle C. Dy 
+ abdy@ateneo.edu
+RECEIVED 01 May 2024
+ACCEPTED 27 September 2024
+PUBLISHED 16 October 2024
+CITATION
+Dy ABC, Edillon MA, Malonzo MFMA, 
+Garcia GD, Dy ABC, Espiritu CJS, 
+Aquino MBC, So SLT, 
+Capulong NLD, Dagal RVC and ​Sumpaico 
+Tanchanco LB (2024) Developmental profile 
+of Filipino children born during the 
+SARS-COV-2 pandemic: pilot study.
+Front. Public Health 12:1426409.
+doi: 10.3389/fpubh.2024.1426409
+COPYRIGHT
+© 2024 Dy, Edillon, Malonzo, Garcia, Dy, 
+Espiritu, Aquino, So, Capulong, Dagal and 
+Sumpaico Tanchanco. This is an open-access 
+article distributed under the terms of the 
+Creative Commons Attribution License 
+(CC BY). The use, distribution or reproduction 
+in other forums is permitted, provided the 
+original author(s) and the copyright owner(s) 
+are credited and that the original publication 
+in this journal is cited, in accordance with 
+accepted academic practice. No use, 
+distribution or reproduction is permitted 
+which does not comply with these terms.
+TYPE  Original Research
+PUBLISHED  16 October 2024
+DOI  10.3389/fpubh.2024.1426409
+
+Dy et al.
+10.3389/fpubh.2024.1426409
+Frontiers in Public Health
+02
+frontiersin.org
+Introduction
+The COVID-19 pandemic prompted the declaration of a state of 
+emergency in the Philippines on March 8, 2020. This brought about 
+disruptions across different facets of society. One particularly 
+vulnerable group affected was children. The implementation of stay-
+at-home directives for minors, closure of educational and 
+recreational facilities, and shifts in parental work arrangements, 
+significantly altered the children’s daily lives. Given that the first five 
+years of life represent a critical phase of growth and development, 
+numerous countries have undertaken efforts to document the 
+pandemic’s adverse impacts on early childhood development and 
+mental well-being (1–5). This includes observed decline in 
+performance in cognitive, motor, and language skills, which were 
+attributed to family-related stressors due to limitations in accessing 
+stimulating environments and other economic and environmental 
+adversities (1).
+The pandemic induced social restrictions, shutdowns, and school 
+closures, which introduced stressors to both parents and children. 
+These potentially affect optimal child growth and development and 
+compromise progress toward the Sustainable Development Goals 
+(SDGs). Recognizing the potential long-term consequences, it 
+becomes imperative for stakeholders to comprehensively understand 
+the underlying factors that may lead to these outcomes (2).
+Examining the literature for specific aspects of child development, 
+the pandemic has manifested as both a detrimental and a protective 
+factor on developmental skills, specifically expressive and receptive 
+language, social–emotional development and motor skills (2–5). 
+Restrictions in daily activities may lead to unhealthy levels of stress to 
+both parents and children, which then may impede child development. 
+For instance, increased indoor activities (e.g., screen use) may reduce 
+motor skill development. Furthermore, adverse experiences at a young 
+age, such as those caused by epidemics, have been previously found to 
+pose risks on development and health at later ages. While these factors 
+could have been present before the pandemic, the lockdown 
+highlighted and magnified the effects of these factors on the different 
+domains of child development (2–5).
+However, increased time at home provided opportunities for more 
+shared caregiver-child interactions. These could have resulted in more 
+responsive caregiving, increased opportunity to partake in healthy 
+maternal and child feeding practices, and an increased capacity to 
+provide nurturing care (5). These factors, in turn, can serve as 
+protective factors in the child’s language and social–emotional 
+development, and even the health of both parent and child (5).
+On the other hand, studies that focused on infants and toddlers 
+revolved around maternal health, risks of COVID-19 transmission, 
+and critical aspects of infant care, including breastfeeding (6–8). Such 
+studies highlighted the importance of pre- and post-partum maternal 
+mental health in the development of children born during the 
+pandemic. It is suggested that maternal pandemic-related stress 
+during pregnancy affects neurodevelopment of the infants, causing 
+delays in the various developmental domains (9). However, the 
+specific impact on infant and toddler neurodevelopment during the 
+pandemic has limited documentation.
+This study seeks to address a gap in the literature by presenting a 
+developmental profile of.
+Filipino children aged 18–25 months who were born and raised 
+during the pandemic in an urban municipality in the Philippines. In 
+addition to profiling, this study describes factors that may 
+be associated with the development of this cohort of children.
+Methods
+This 
+cross-sectional 
+study 
+describes 
+the 
+demographic 
+characteristics, quantifies the developmental skills of children, and 
+identifies factors that may be associated with child development in 
+the cohort.
+Study population
+Participants were 18–25 month old children residing in Cainta, a 
+municipality in the province of Rizal, bordering the National Capital 
+Region in the Philippines. Historically an agricultural town, its 
+proximity to the capital led to a rising population and urbanization in 
+recent years. As of the 2015 census, it has become one of the most 
+densely-populated municipalities (10).
+Recruitment was done through non-probability convenience 
+sampling from March to July 2023 through the invitation of daycare 
+center teachers. Children who have an existing diagnosis of a 
+developmental delay or who were receiving developmental 
+interventions were excluded from the study.
+Children were accompanied by primary caregivers who answered 
+survey questionnaires and provided observations about the child’s 
+behavior. A primary caregiver was identified as a parent, guardian, or 
+person who documented themselves as someone who cared for the 
+child regularly.
+The sites were chosen based on the presence of the daycare centers 
+catering to low to low-middle income communities and are known to 
+use the ECCD Checklist in monitoring children as mandated by the 
+government (11).
+Data collection tools
+Household information sheet
+The Household Information Sheet (HIS) was a non standardized 
+survey questionnaire verbally administered to the caregivers to collect 
+demographic information. It collected data about household 
+demographics, parents’ educational and occupational backgrounds, 
+child’s health and nutrition, access to resources and caregiver mental 
+health. Caregiver mental health was assessed using questions about 
+loneliness, stress, and depression (12–14).
+Early childhood care and development (ECCD) checklist
+In the Philippines, it is mandated by law to develop and 
+strengthen the early childhood care and development system for the 
+early identification, prevention, referral and intervention for 
+children. The ECCD Checklist was developed and validated in 2001 
+on 10,915 Filipino children and has since been used by local 
+government units in public daycare centers throughout the nation. 
+The ECCD Checklist Child’s Record 1 is the version used for children 
+aged between 0 months to 3 years (15). The checklist contains 
+age-appropriate developmental milestones for gross motor, fine 
+motor, self-help, receptive language, expressive language, cognitive, 
+and social–emotional domains. Items reflect Filipino values and 
+
+Dy et al.
+10.3389/fpubh.2024.1426409
+Frontiers in Public Health
+03
+frontiersin.org
+practices. The ECCD manual describes gross motor as the child’s 
+movements of the body, trunk, and leg, fine motor as movements of 
+hands and fingers, self-help as ability to do daily activities, receptive 
+language as understanding of words heard, expressive language as 
+ability to express thoughts and feelings through words, cognitive as 
+“ability to think, reason, understand concepts, and solve problems,” 
+including precursors to early literacy and numeracy skills, and 
+socio-emotional as “ability to respond in an age and culturally 
+appropriate manner to social situations and interpersonal 
+relationships.” Further information about the tool, scoring, and 
+interpretations are available in Supplementary Appendix A and 
+Supplementary Tables S1, S2.
+Each item is either scored as 0 or 1, wherein 1 indicates that the 
+child is observed to demonstrate the behavior. The ECCD Checklist 
+reports scaled scores for each domain of development and a standard 
+score for overall development. Raw scores per domain are converted 
+into scaled scores. Range of possible raw scores for each domain are 
+the following: 0–22 for gross motor, 0–14 for fine motor, 0–14 for self-
+help, 0–15 for receptive language, 0–22 for expressive language, 0–18 
+for cognitive, and 0–14 for social–emotional. These are then scaled to 
+possible scores between 1 to 19. A scaled score of 7–13 indicates 
+average development in the domain. The sum of scaled scores are 
+converted into a standard score, to which a standard score of 80–119 
+indicates average overall development. Score interpretations and 
+ranges are available in the Supplementary Tables S1, S2.
+Scores for each domain are reported as scaled scores and scores 
+for overall development are converted into and reported as 
+standard scores.
+The ECCD consists of seven subscales. The internal consistency 
+for each subscale, as measured by Cronbach’s alpha (α), ranged from 
+acceptable to good reliability. Specifically, the gross motor subscale, 
+which included 22 items, had an alpha of 0.786. The fine motor 
+subscale (14 items) had an alpha of 0.693, and the self-help subscale 
+(10 items) demonstrated an alpha of 0.714. For the receptive (15 
+items) and expressive (22 items) subscales, alphas were 0.699 and 
+0.721, respectively. The cognitive subscale (18 items) had an alpha of 
+0.708, and the social–emotional subscale (14 items) showed an alpha 
+of 0.698.
+The internal consistency for the overall ECCD checklist, which 
+includes a total of 115 items, was also examined and found to 
+be within the acceptable range, with an alpha of 0.749. These values 
+suggest that the ECCD checklist and its subscales have adequate 
+reliability for assessing various developmental domains in early 
+childhood (16).
+Data collection process
+Data collectors underwent training from the developer of the 
+ECCD Checklist to learn the proper administration and interpretation 
+of the tools.
+Children were tested at 13 daycare centers encompassing 10 
+barangays (smallest government unit in the Philippines) in the 
+municipality of Cainta. Researchers followed recommended minimum 
+public health standard protocols including wearing face masks, 
+handwashing or hand sanitizing, and disinfecting kit materials before 
+and between each interaction with a family. Children were allowed to 
+enter the room and given time to warm-up to the environment and 
+data collectors. Parents were given time to review the consent form read 
+aloud to them or read on their own. During instances when parents 
+were not available, grandparents accompanied the child and gave 
+consent for participation in the study. Data collectors assisted caregivers 
+as they completed the Household Information Sheet and observed the 
+different skills and behaviors seen within the ECCD checklist.
+Data analysis
+Descriptive analysis was done to report the developmental profile 
+of children. All statistical analyses were performed using Stata 14.2 
+(StataCorp LLC, College Station, TX). To identify potential factors 
+affecting development, scaled and standard scores were tested for 
+associations with pre-determined household-related information 
+found in literature individually (17–20). Association of scores with 
+categorical variables was tested by t-test for variables with two groups 
+(sex) and one-way analysis of variance (ANOVA) for variables with 
+three or more groups (educational levels of parents). Association of 
+scores with continuous variables (child’s age, age of parents, number 
+of siblings and household members, hours of physical activity and 
+sleep) was tested by univariate linear regression analyses. A p-value of 
+less than 0.05 was considered significant.
+Results
+Demographic information
+The final study sample consisted of 116 children (n = 55 girls, 
+n = 61 boys) who met the inclusion criteria. On average, mothers and 
+fathers were aged 29–32 years. Children had approximately 1–2 
+siblings, and most families lived with extended family members. Most 
+parents completed high school or a higher level of education, and 
+more than half of the families are classified low-income. Table 1 shows 
+the demographic and household information.
+Early childhood development per domain
+The mean scaled scores of gross motor, fine motor, self-help, 
+receptive language, expressive language, cognitive and social 
+emotional were within average range of development. Self help skills 
+scored the highest mean score at 12.06 (SD = 2.39), indicating 
+relatively stronger performance in this area. Expressive language 
+skills had the lowest mean score at 9.37 (SD = 2.63), suggesting 
+comparatively weaker performance in this domain. Social–
+emotional skills also showed relatively lower performance with a 
+mean score at 9.41 (SD = 3.17). Detailed scores are provided in 
+Table 2.
+Overall early childhood development
+The mean standard score for the children’s Overall Development 
+is 106.47 (SD = 13.43). Based on the results, 35 children (30.2%) 
+performed below average in at least one domain and need to 
+be re-screened after 3–6 months. Supplementary Tables S1, S2 show 
+the frequency of children’s scores for overall development and 
+individual domains.
+Statistical analyses by t-test or one-way ANOVA shows that there 
+is a significant difference between the overall development scores of 
+
+Dy et al.
+10.3389/fpubh.2024.1426409
+Frontiers in Public Health
+04
+frontiersin.org
+TABLE 2  Mean scores (scaled scores) and standard deviation per domain of the ECCD Checklist.
+ECCD scores
+N
+Mean
+SD
+Min
+Max
+Scores per domain (scaled)
+Gross motor
+116
+11.28
+2.31
+3
+15
+Fine motor
+116
+10.68
+2.10
+6
+15
+Self-help
+116
+12.06
+2.39
+3
+15
+Receptive language
+116
+11.68
+2.57
+3
+15
+Expressive language
+116
+9.37
+2.63
+3
+17
+Cognitive
+116
+11.78
+1.96
+5
+15
+Social–emotional
+116
+9.41
+3.17
+2
+13
+Overall development
+Sum of scaled scores
+116
+76.28
+10.75
+45
+95
+Standard scores
+116
+106.47
+13.43
+68
+129
+girls and boys [MGirl  = 111.23, SDGirl  = 9.95 vs. MBoy  = 101.18, 
+SDBoy = 14.83, t(114) = −4.32, p < 0.001],and among children based on 
+maternal education (some elementary education MSomeElem = 72.50, 
+SDSomeElem  = 6.36), completed elementary education or some high 
+school MElem = 103.58, SDElem = 13.86, completed high school education 
+or higher [MHigh School = 107.76, SDHighSchool = 12.47, F(2, 113) = 8.18, 
+p < 0.001]. The number of household members at home [ꞵ = 0.86 (CI: 
+0.02, 1.70), t-score(1, 113) = 2.03, p = 0.045] is associated with the 
+overall development of the children by univariate linear regression 
+(Supplementary Table S3).
+TABLE 1  Demographic and household information of study participants.
+Household information
+N
+Mean
+SD
+Min
+Max
+Mother’s age (in years)
+116
+29.00
+5.49
+15
+43
+Father’s age (in years)
+115
+31.66
+7.05
+19
+58
+Child’s age (in months)
+116
+20.91
+1.86
+18
+25
+Number of siblings
+116
+1.59
+1.38
+0
+8
+Number of household members
+115
+6.25
+2.93
+3
+20
+Amount of physical activity (hours in a day)
+116
+6.37
+3.21
+0.5
+15
+Amount of sleep (total hours in a day)
+116
+12.50
+2.00
+6
+17
+Mother’s education
+n
+Mean
+SD
+Percent
+Some elementary education or less
+2
+72.50
+6.36
+1.72%
+Elementary school graduate
+19
+103.58
+13.86
+16.38%
+High school graduate or higher
+95
+107.76
+12.47
+81.90%
+Father’s education
+n
+Mean
+SD
+Percent
+Some elementary education or less
+3
+23.46
+93.67
+2.61%
+Elementary school graduate
+21
+13.18
+104.29
+18.26%
+High school graduate
+68
+12.49
+106.10
+59.13%
+Vocational school
+9
+14.90
+106.67
+7.83%
+College graduate or higher
+14
+14.08
+113.57
+12.17%
+Socioeconomic class*
+n
+Mean
+SD
+Percent
+Poor (<Php 11,000)
+27
+107.97
+12.65
+23.28%
+Low Income (Php 11,000 to Php 22,000)
+64
+105.39
+13.56
+55.17%
+Lower Middle Class (Php 22,001 to Php 44,000)
+18
+108.78
+12.48
+15.52%
+Middle Class (Php 44,001 to Php 76,000)
+6
+101.50
+18.43
+5.17%
+Upper Middle Income (Php 76,001 to Php 131,000)
+1
+123.00
+0.00
+0.86%
+*In terms of monthly income, based on classifications by the Philippine Institute for Development Studies.
+
+Dy et al.
+10.3389/fpubh.2024.1426409
+Frontiers in Public Health
+05
+frontiersin.org
+Comparison among groups by sex and parent 
+education
+Sex
+Of the seven subscales in the checklist, girls scored significantly 
+higher compared to boys in all but gross motor skills, where differences 
+were unremarkable (Supplementary Table S4).
+Parent education
+When comparing scaled scores of children based on mother’s level 
+of education, children whose mothers attained at least a high school 
+education or higher had the highest mean scaled score in the self-help 
+[MSomeElem = 8.00 SDSomeElem = 4.24, MElem = 11.89 SDElem = 1.97, MHigh 
+School = 12.18 SDHigh School = 2.39, F(2, 113) = 3.15, p = 0.046], receptive 
+language [MSomeElem = 5.00 SDSomeElem = 1.41, MElem = 11.21 SDElem = 2.53, 
+MHigh School  = 11.92 SDHigh School  = 2.40, F(2, 113) = 8.47, p  < 0.001], 
+cognitive [MSomeElem = 7.50 SDSomeElem = 3.54, MElem = 10.68 SDElem = 2.71, 
+MHigh School = 12.09 SDHigh School = 1.56, F(2, 113) = 10.49, p < 0.001], and 
+social–emotional domains [MSomeElem  = 3.50 SDSomeElem  = 2.12, 
+MElem = 8.74 SDElem = 3.54, MHigh School = 9.67 SDHigh School = 2.99, F(2, 
+113) = 4.50, p  = 0.01]. When comparing among groups based on 
+father’s level of education, performance only differed in the cognitive 
+domain [MSomeElem = 11.00 SDSomeElem = 1.73, MElem = 10.57 SDElem = 2.68, 
+MHigh School = 11.97 SDHigh School = 1.70, MVocation = 12.11 SDVocation = 1.69, 
+MCollege  = 12.50 SDCollege  = 1.40, F(4, 110) = 3.03, p  = 0.02], where 
+children whose fathers attained higher levels of education had higher 
+mean scaled scores in this domain (See Supplementary Table S4 for 
+further details).
+Association with household-related factors
+Age of parents
+Statistical analyses by univariate linear regression show that 
+although both mother’s and father’s age were not significantly 
+associated with the standard score for overall development 
+[ꞵ  = −0.13, t-score(1, 114) = −0.55, p  = 0.58 and ꞵ  = −0.18, 
+t-score(1, 113) = −0.99, p = 0.32, respectively], increasing ages of 
+both parents were associated with decreased fine motor 
+development [ꞵ = −0.10, t-score(1, 114) = −2.78, p = 0.01, and 
+ꞵ  = −0.06, t-score(1, 113) = −2.17, p  = 0.03, respectively], by 
+univariate linear regression. Increasing father’s age was also 
+associated with decreased expressive language scores [ꞵ = −0.07, 
+t-score(1, 113) = −2.16, p = 0.03].
+Number of household members
+An increase in the number of household members was associated 
+with increased self-help skills [ꞵ = 0.16, t-score(1, 113) = 2.15, p = 0.03].
+Physical activity
+Increased hours of physical activity in a day was associated with 
+increased social–emotional skills [ꞵ  = 0.19, t-score(1, 114) = 2.14 
+p = 0.04].
+Gross motor skills and cognitive skills were not associated with 
+any of the above household-related factors. Other household-related 
+factors tested that did not impact any domain scores were number of 
+siblings and hours of sleep. Further details for the analysis per domain 
+are included in Supplementary Table S4.
+Discussion
+This study evaluated the developmental profile of Filipino children 
+in an urban municipality during the pandemic and identified factors 
+that are potentially associated with childhood development of this 
+population. The study sample displayed average skill levels across 
+overall and specific domains, which include gross motor, fine motor, 
+self-help, receptive language, expressive language, cognitive, 
+social–emotional.
+The mean score of the children’s Overall Development is 106.47 
+(SD = 13.43) indicating that children’s skills were within the expected 
+range of 80–119. The standard deviation of 13.43 indicates a moderate 
+level of variability in the scores, with approximately 68% of the 
+children’s scores falling within the range of 93.04 to 119.90, based on 
+one standard deviation above and below the mean. Our overall 
+findings indicate that girls had significantly higher mean standard 
+scores compared to boys [MGirl = 111.23, SDGirl = 9.95 vs. MBoy = 101.18, 
+SDBoy = 14.83, t(114) = −4.32, p < 0.001]. Mean scores were highest 
+among children whose mothers completed a high school education 
+(MHigh School = 107.76, SDHighSchool = 12.47) compared to those who have 
+some or have completed an elementary education (MSomeElem = 72.50, 
+SDSomeElem = 6.36 and MElem = 103.58, SDElem = 13.86, respectively) (F(2, 
+113) = 8.18, p < 0.001). Unadjusted linear regression shows a 0.86 
+increase in mean scores for each unit increase in number of household 
+members [CI: 0.02, 1.70, t-score(1, 113) = 2.03, p = 0.045].
+Based on results, the majority of children scored within average. 
+The range of scores was wide, with children scoring below and above 
+the average range in various domains of development. This is in 
+contrast to the hypothesis that lower developmental scores, 
+particularly with language skills, and increases in risk of developmental 
+delays among young children who were born during the COVID-19 
+pandemic would be elicited (8, 19).
+A limitation of the study is that children already diagnosed with 
+a developmental delay or receiving developmental interventions were 
+excluded from the study as they were not the usual enrollees in the day 
+care classes. This could be a potential cause of bias in the sample. 
+However, 30.2% of the children still scored below average in at least 
+one domain. While the tool does not diagnose developmental delays, 
+it provides recommendations for closer monitoring of development. 
+This highlights the importance of community-based developmental 
+surveillance and screening to support those in need (20, 21).
+Group differences
+Sex of the child
+Observations with regards to sex differences is in line with existing 
+research, showing that girls often performed better in scales assessing 
+child development (22, 23). This trend may be linked to increased 
+parental interactions, as mothers often engage more in verbal 
+communication and supportive activities with daughters compared to 
+sons (22). The pandemic’s confinement to the home environment may 
+have amplified these dynamics, enhancing the language and cognitive 
+development of girls children during the critical period of development 
+(9). Performance may also be due to biological differences. Findings 
+from a systematic review show that the differences between sexes in 
+early childhood language development are inconsistent across studies, 
+
+Dy et al.
+10.3389/fpubh.2024.1426409
+Frontiers in Public Health
+06
+frontiersin.org
+where there may be differences in brain maturation patterns. Although 
+biological differences in brain maturation might contribute to 
+performance variations, both biological and environmental factors play 
+a role in these observed differences (24).
+Mother’s education
+Children in the sample, who are not yet enrolled in formal 
+schooling or daycare, rely heavily on their parents and caregivers to 
+model and facilitate learning experiences. Mothers with higher levels 
+of education are often better equipped to provide enriching 
+environments, materials, and interactions at home (25). This aligns 
+with research by UNICEF conducted in 2017, which highlights the 
+essential role of parents and guardians in delivering nurturing, 
+responsive, and stimulating interactions crucial for early childhood 
+learning (26).
+Factors associated with development
+Parental age
+Previous studies explored how parental age may be related to 
+child development. Considering the age ranges of mothers in this 
+sample, it is possible that there were biological effects concerning 
+the youngest and oldest mothers. Prior research has found that 
+there were more risk factors during pregnancy, for maternal health, 
+and fetal development among extreme maternal ages (i.e., younger 
+than 17 and older than 40) (27). Another consideration is that as 
+mothers delay giving birth to their first child, this may provide more 
+time for their own schooling; therefore, a higher level of education 
+(28). This could also apply to resources, wherein older parents are 
+generally more able to provide for their family, both for mothers 
+and fathers, regardless of socioeconomic status and family 
+structure (29).
+Association of household composition on child 
+development
+Larger households may offer enhanced support for childcare, 
+providing both practical assistance and emotional support to primary 
+caregivers, such as mothers (30, 31). In the context of the pandemic, 
+this support may have been crucial. The Filipino collective culture, 
+which values involvement of extended family, likely created a more 
+supportive environment for child development during lockdowns 
+(32). The presence of extended families offered additional cognitive 
+stimulation and supervision, contributing to better developmental 
+outcomes during the pandemic period (22, 26). Additional members 
+in the household, whether extended family or the presence of siblings, 
+may also mean increased social interactions to develop social–
+emotional skills, more models for learning behaviors (e.g., self-help 
+skills such as how to use utensils) and more time and playmates for 
+physical activities.
+Limitations
+This study has limitations. First, the small sample size and 
+confinement to a specific municipality is not generalizable to the 
+Philippine population. The small sample size could impact the 
+representativeness of the results, making it challenging to draw broad 
+conclusions about the broader population. Extensive literature review 
+for comparison data on child development utilizing the ECCD 
+checklist on the same population was unavailable, therefore the data 
+also lacks a comparison of child development prior to the pandemic. 
+The authors note that the administration of the tools was done by 
+multiple interviewers, which may introduce bias during data 
+collection. However, given the limited sample size this was difficult to 
+check for statistical significance.
+In addition, the study excluded children with diagnosed 
+developmental delays. This criteria may have an impact on the 
+findings that most children performed within average expected 
+performance. Given the context of the pandemic, this study does not 
+look into whether mothers were affected by the illness themselves 
+during pregnancy.
+Conclusion
+This was a pilot study that described the developmental profile 
+of Filipino children aged 18–25 months old who were born and 
+have been growing during the pandemic in the urban municipality 
+of Cainta, Rizal. Their developmental skills are within average 
+scores. The study also explored group differences and factors that 
+were associated with the development of young children in this 
+particular community. Significant differences were observed 
+between sexes and levels of maternal education; parental age and 
+the number of individuals in the household had associations with 
+the development of skills in certain domains and overall 
+development. The COVID-19 pandemic serves as one of several 
+environmental events that may have negative consequences on 
+development, but it also introduced protective factors such as 
+maternal educational attainment and continued psychosocial 
+support in the home that supported healthy development. It is 
+important to acknowledge these factors and continue to monitor 
+the children’s development and target special groups who may need 
+further support.
+Data availability statement
+The raw data supporting the conclusions of this article will 
+be made available by the authors, without undue reservation.
+Ethics statement
+The studies involving humans were approved by the Ateneo de 
+Manila University Research Ethics Committee. The studies were 
+conducted in accordance with the local legislation and institutional 
+requirements. Written informed consent for participation in this study 
+was provided by the participants’ legal guardians/next of kin.
+Author contributions
+AnD: Writing – review & editing, Writing – original draft, 
+Supervision, Project administration, Methodology, Investigation, 
+Funding acquisition, Conceptualization. ME: Writing – review & 
+editing, Writing – original draft, Project administration, Methodology. 
+MM: Writing – review & editing, Writing – original draft, 
+
+Dy et al.
+10.3389/fpubh.2024.1426409
+Frontiers in Public Health
+07
+frontiersin.org
+Methodology. GG: Writing – review & editing, Writing – original 
+draft, Methodology. AlD: Writing – review & editing, Formal analysis. 
+CE: Writing – review & editing, Methodology. MA: Writing – review 
+& editing, Methodology. SS: Writing – review & editing, Methodology. 
+NC: Writing – review & editing, Methodology. RD: Writing – review 
+& editing, Methodology. LS-T: Writing – review & editing, Writing – 
+original draft, Supervision, Methodology, Funding acquisition, 
+Conceptualization.
+Funding
+The author(s) declare that financial support was received for the 
+research, authorship, and/or publication of this article. This research 
+was supported by the Ateneo de Manila University Research Council 
+Standard Grant URC 2022–24 for data collection, data analysis and 
+communication of results to the community. It also received 
+publication support through the Ateneo School of Medicine and 
+Public Health Center for Research and Innovation.
+Acknowledgments
+We would like to thank the families who participated in this study 
+to contribute to the knowledge of child development. We  also 
+acknowledge the support of the Early Childhood Care and 
+Development (ECCD) Council, Atty. Maria Elenita Nieto, mayor of 
+Cainta, members of the Cainta Municipal Social Welfare and 
+Development Office, Cainta ECCD teachers and child development 
+workers, and Cainta Persons with Disability Affairs Office. We would 
+also like to extend our gratitude to Mr. Veincent Pepito for his gracious 
+feedback during the editing of the manuscript.
+Conflict of interest
+The authors declare that the research was conducted in the 
+absence of any commercial or financial relationships that could 
+be construed as a potential conflict of interest.
+Publisher’s note
+All claims expressed in this article are solely those of the authors 
+and do not necessarily represent those of their affiliated 
+organizations, or those of the publisher, the editors and the 
+reviewers. Any product that may be evaluated in this article, or claim 
+that may be made by its manufacturer, is not guaranteed or endorsed 
+by the publisher.
+Supplementary material
+The Supplementary material for this article can be found online 
+at: https://www.frontiersin.org/articles/10.3389/fpubh.2024.1426409/
+full#supplementary-material
+References
+	1.	 Deoni SC, Beauchemin J, Volpe AD’Sa V, Consortium the R. Impact of the 
+COVID-19 pandemic on early child cognitive development: Initial findings in a 
+longitudinal observational study of child health. MedRxiv. (2021):1846. doi: 
+10.1101/2021.08.10.21261846v1
+	2.	Araújo LA d, Veloso CF, Souza MC, Azevedo JMC , Tarro G. The potential impact 
+of the COVID-19 pandemic on child growth and development: a systematic review. J 
+Pediatr. (2021) 97:369–77. doi: 10.1016/j.jped.2020.08.008
+	3.	Sperber JF, Hart ER, Troller-Renfree SV, Watts TW, Noble KG. The effect of the 
+COVID-19 pandemic on infant development and maternal mental health in the first 2 
+years of life. Infancy. (2023) 28:107–35. doi: 10.1111/infa.12511
+	4.	Komaini A, Ayubi N. The impact of the COVID-19 pandemic on Children’s motor 
+skills (literature review). Impact COVID-19 Pandemic Child Mot Ski Lit Rev. (2021) 90:5.
+doi: 10.47119/IJRP1009011220212517
+	5.	Shumba C, Maina R, Mbuthia G, Kimani R, Mbugua S, Shah S, et al. Reorienting 
+nurturing Care for Early Childhood Development during the COVID-19 pandemic in 
+Kenya: a review. Int J Environ Res Public Health. (2020) 17:7028. doi: 10.3390/
+ijerph17197028
+	6.	World Health Organization. Regional Office for Europe. Physical activity: Fact sheet 
+on sustainable development goals (SDGs): Health targets. Copenhagen: World Health 
+Organization. Regional Office for Europe (2019).
+	7.	Buenavista-Pacifico MR, Reyes AL, Benitez BC, Villanueva-Uy E, Lam HY, Ostrea, 
+Jr EM. The prevalence of developmental delay among Filipino children at ages 6, 12 and 
+24 months based on the Griffiths mental development scales. Acta Med Philipp. (2019) 
+52:9. doi: 10.47895/amp.v52i6.277
+	8.	Shuffrey LC, Firestein MR, Kyle MH, Fields A, Alcántara C, Amso D, et al. 
+Association of Birth during the COVID-19 pandemic with neurodevelopmental status 
+at 6 months in infants with and without in utero exposure to maternal SARS-CoV-2 
+infection. JAMA Pediatr. (2022) 176:e215563. doi: 10.1001/jamapediatrics.2021.5563
+	9.	Gribble K, Marinelli KA, Tomori C, Gross MS. Implications of the COVID-19 
+pandemic response for breastfeeding, maternal caregiving capacity and infant mental 
+health. J Hum Lact. (2020) 36:591–603. doi: 10.1177/0890334420949514
+	10.	Generalao M. Inquirer.net. (2019). Cainta on the rise | Inquirer Business. Available 
+at: https://business.inquirer.net/273058/cainta-on-the-rise (Accessed November 10, 2023).
+	11.	Department of Social Welfare and Development. Guidelines for the 
+institutionalization of the DSWD early childhood care and development information 
+system (ECCD-IS). (2015). Available at: https://www.dswd.gov.ph/issuances/MCs/
+MC_2015-003.pdf (Accessed August 13, 2024).
+	12.	Thayer C, Anderson GO. Loneliness and social connections: a National Survey of 
+adults 45 and older. AARP Research. (2018). Available at: https://www.aarp.org/
+research/topics/life/info-2018/loneliness-social-connections.html (Accessed October 
+30, 2023).
+	13.	Elo AL, Leppänen A, Jahkola A. Validity of a single-item measure of stress 
+symptoms. Scand J Work Environ Health. (2003) 29:444–51. doi: 10.5271/sjweh.752
+	14.	Kroenke K, Spitzer RL, Williams JBW. The patient health Questionnaire-2: validity 
+of a two-item depression screener. Med Care. (2003) 41:1284–92. doi: 10.1097/01.
+MLR.0000093487.78664.3C
+	15.	ECCD Checklist Manual – ECCDC – Website. Available at: https://eccdcouncil.
+gov.ph/download/eccd-checklist-manual/ (Accessed April 21, 2023).
+	16.	DATAtab Team. DATAtab: Online statistics calculator. Graz, Austria: DATAtab 
+e.U (2024).
+	17.	Black MM, Fernandez-Rao S, Hurley KM, Tilton N, Balakrishna N, Harding KB, 
+et al. Growth and development among infants and preschoolers in rural India. Int J 
+Behav Dev. (2016) 40:483–491.
+	18.	Rubio-Codina M, Attanasio O, Grantham-McGregor S. Mediating pathways in the 
+socio-economic gradient of child development. Int J Behav Dev. (2016) 40:526–535. doi: 
+10.1177/0165025415626515
+	19.	Muluk DNB, Bayoğlu DB, Anlar DB. A study of language development and 
+affecting 
+factors 
+in 
+children 
+aged 
+5 
+to 
+27 
+months 
+(2016) 
+5:E23–E29. doi: 10.1177/014556131609500107
+	20.	Richards B, Bacon-Shone J, Rao N. Socioeconomic correlates of early child 
+development: gradients from six countries in the East Asia-Pacific region. Int J Behav 
+Dev. (2018) 42:581–587. doi: 10.1177/0165025418785460
+	21.	Huang P, Zhou F, Guo Y, Yuan S, Lin S, Lu J, et al. Association between the 
+COVID-19 pandemic and infant neurodevelopment: a comparison before and during 
+COVID-19. Front Pediatr. (2021):9. doi: 10.3389/fped.2021.662165
+
+Dy et al.
+10.3389/fpubh.2024.1426409
+Frontiers in Public Health
+08
+frontiersin.org
+	22.	Leaper C, Anderson KJ, Sanders P. Moderators of gender effects on parents’ talk 
+to their children: a meta-analysis. Dev 
+Psychol. (1998) 34:3–27. doi: 
+10.1037/0012-1649.34.1.3
+	23.	Magdalena P, Rea FM. Differences between Boys and Girls in Developmental 
+Areas. (2017). Paper presented at: Eurlyaid Conference: Belgrade, Serbia.
+	24.	Etchell A, Adhikari A, Weinberg LS, Choo AL, Garnett EO, Chow HM, et al. A 
+systematic literature review of sex differences in childhood language and brain 
+development. 
+Neuropsychologia. 
+(2018) 
+114:19–31. 
+doi: 
+10.1016/j.
+neuropsychologia.2018.04.011
+	25.	Magnuson KA, Sexton HR, Davis-Kean PE, Huston AC. Increases in maternal 
+education and young children’s language skills. Merrill-Palmer Q. (2009) 55:319–50. doi: 
+10.1353/mpq.0.0024
+	26.	Bangkok: United Nations Children’s Fund (UNICEF). Young children and the 
+pandemic: UNICEF early childhood COVID-19 response in East Asia and Pacific. 
+(2021). Available at: https://www.unicef.org/eap/media/8506/file (Accessed September 
+5, 2022).
+	27.	Londero AP, Rossetti E, Pittini C, Cagnacci A, Driul L. Maternal age and the risk 
+of adverse pregnancy outcomes: a retrospective cohort study. BMC Pregnancy Childbirth. 
+(2019) 19:1–10. doi: 10.1186/s12884-019-2400-x
+	28.	Duncan GJ, Lee KT, Rosales-Rueda M, Kalil A. Maternal age and child 
+development. Demography. (2018) 55:2229–55. doi: 10.1007/s13524-018-0730-3
+	29.	Powell B, Steelman LC, Carini RM. Advancing age, advantaged youth: parental age 
+and the transmission of resources to children. Soc Forces. (2006) 84:1359–90. doi: 
+10.1353/sof.2006.0064
+	30.	Smith T, Iadarola S. Evidence base update for autism Spectrum disorder. J Clin 
+Child Adolesc Psychol. (2015) 44:897–922. doi: 10.1080/15374416.2015.1077448
+	31.	Mollborn S, Fomby P, Dennis JA. Who matters for Children’s early development? 
+Race/ethnicity and extended household structures in the United States. Child Indic Res. 
+(2011) 4:389–411. doi: 10.1007/s12187-010-9090-2
+	32.	Alampay LP. Parenting in the Philippines. Parenting Across Cultures: Childrearing, 
+Motherhood and Fatherhood in Non-Western Cultures. Netherlands: Springer 
+Dordrecht (2014).

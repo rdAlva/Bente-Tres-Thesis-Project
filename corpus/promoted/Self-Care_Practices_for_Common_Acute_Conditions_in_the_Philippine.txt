@@ -1,0 +1,2204 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+12-12-2023 
+Self-Care Practices for Common Acute Conditions in the 
+Self-Care Practices for Common Acute Conditions in the 
+Philippines: A Scoping Review 
+Philippines: A Scoping Review 
+Arianna Maever Loreche 
+Ateneo de Manila University 
+Veincent Christian F. Pepito 
+Ateneo de Manila University 
+Manuel M. Dayrit 
+Ateneo de Manila University 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Alternative and Complementary Medicine Commons, and the Medical Humanities 
+Commons 
+Custom Citation 
+Custom Citation 
+Loreche, A.M., Pepito, V.C.F., & Dayrit, M.M. (2023). Self-care practices for common acute conditions in the 
+Philippines: A scoping review. International Journal of Health Governance, (28)4, 384-412. https://doi.org/
+10.1108/IJHG-01-2023-0008 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+Self-care practices for common
+acute conditions in the Philippines:
+a scoping review
+Arianna Maever Loreche, Veincent Christian F. Pepito and
+Manuel M. Dayrit
+(Information about the authors can be found at the end of this article.)
+Abstract
+Purpose – This review aimed to identify and map published studies on self-care practices to manage common
+acute health conditions in the Philippines.
+Design/methodology/approach – The authors conducted a scoping review in PubMed, Scopus, Cumulative
+Index of Nursing and Allied Health Literature (CINAHL), ProQuest Central, Journal Storage (JSTOR) and the
+Philippine Council for Health Research and Development – Health Research and Development Information
+Network (HERDIN). The authors included all studies on self-care practices to manage common acute
+conditions, namely low back pain, allergic rhinitis, general acute pain, cough, cold, diarrhea, constipation and
+stress, published up to 2021 in the Philippines. Information on the article type, aim of the study, study design
+Self-care
+practices for
+acute
+conditions
+383
+© Arianna Maever Loreche, Veincent Christian F. Pepito and Manuel M. Dayrit. Published by Emerald
+Publishing Limited. This article is published under the Creative Commons Attribution (CC BY 4.0)
+licence. Anyone may reproduce, distribute, translate and create derivative works of this article (for both
+commercial and non-commercial purposes), subject to full attribution to the original publication and
+authors. The full terms of this licence may be seen at http://creativecommons.org/licences/by/4.0/
+legalcode
+The authors would like to thank Dr Lourdes Sumpaico-Tanchanco and Kriselle Abcede of Ateneo
+Center for Research and Innovation for their administrative support to this project.
+Funding: This work was supported by Sanofi Consumer Healthcare. The funder had no role in study
+design, data collection and analysis, decision to publish or preparation of the manuscript.
+Ethics approval: This study received ethics approval from the University Research Ethics Office of
+Ateneo de Manila University (Study No. SMPH SELFCARE2022). This review is part of a larger study
+that reviewed local studies and policies on self-care and assessed the social value and economic impact of
+self-care. While this paper presents the findings of the scoping review, the authors’ search strategy was
+partly informed by self-care terms used by the participants in the interviews and/or focus group
+discussions. All participants were informed about the aims and objectives of the study. Prior the
+interview and/or focus group discussion, the research team thoroughly explained the study to the
+participants and provided the participants the opportunity to ask questions the participants may have.
+Written digital consent was taken from study participants before the interview.
+Data availability statement: All data relevant to the study are included in the article.
+Contributors: AML: Conceptualization, Data curation, Formal analysis, Investigation, Methodology,
+Project administration, Validation, Writing – original draft, Writing – review & editing
+VCFP: Conceptualization, Data curation, Formal analysis, Investigation, Project administration,
+Validation, Writing – original draft, Writing – review & editing
+MMD: Conceptualization, Investigation, Project administration, Resources, Supervision, Writing –
+review and editing
+Competing interests: We have read the journal’s policy and the authors of this manuscript have the
+following competing interests: AML, VCFP and MMD received funding from Sanofi Consumer
+Healthcare to conduct research on self-care. All authors also received funding from the International
+Initiative for Impact Evaluation, Inc. (3ie) to propose a study on programs designed by the Philippine
+Health Insurance Corporation. The views expressed in this article are not necessarily those of Sanofi, 3ie,
+or their members.
+The current issue and full text archive of this journal is available on Emerald Insight at:
+https://www.emerald.com/insight/2059-4631.htm
+Received 22 January 2023
+Revised 2 June 2023
+Accepted 14 June 2023
+International Journal of Health
+Governance
+Vol. 28 No. 4, 2023
+pp. 383-412
+Emerald Publishing Limited
+2059-4631
+DOI 10.1108/IJHG-01-2023-0008
+
+and setting, population characteristics and size, and self-practices employed for the conditions were extracted
+and synthesized.
+Findings – The authors identified various self-care practices for acute conditions among the general
+population and indigenous peoples in the Philippines from 26 studies included in the review: the use of
+medicines with and without a prescription, appropriate and inappropriate antibiotic use, use of medicinal
+plants and other traditional and alternative therapies and products, recreational activities and healthy habits
+and behaviors, and self-management or seeking care from traditional healers (albularyo or manggagamot) or
+health professionals. A number of considerations influenced their decision on how to manage symptoms,
+including perceived severity of the condition, availability and perceived effectiveness of treatment, cost, and
+advice from trusted sources of health information.
+Research limitations/implications – The authors searched five major databases and a local research
+database, but some studies may still have been missed in the review. The review also excluded intervention
+studies on the outcomes of self-care, which limits the authors’ ability to make conclusions on the effectiveness of
+the different modalities of self-care.
+Social implications – Filipinos engage in a variety of “safe” (or evidence-informed) and “unsafe” (or harmful)
+self-care practices. While the term “self-care” is not routinely used by the general population and health
+providers, it is widely enculturated and practiced in the Philippines. Self-care benefits individuals and the
+health system, but there are also practices that increase risk of adverse outcomes and death including
+inappropriate antibiotic use, prescription sharing and reuse, and delays in seeking adequate treatment from a
+health professional. To leverage on self-care in advancing Universal Health Coverage (UHC) goals, the authors
+recommend a national strategy that provides guidance on how to practice responsible self-care, further
+research on the effectiveness and safety of alternative medicine and other priority areas, and better integration
+of self-care in the formal education and health systems. The authors also propose that the research agenda on
+self-care include acute health conditions, given their impact and burden on health and the economy.
+Originality/value – This is the first published review of self-care practices for managing common acute
+health conditions, which captured practices of various groups and populations including indigenous peoples.
+Keywords Complementary medicine, Primary care, Public health, Scoping review, Philippines,
+Universal health coverage
+Paper type Literature review
+Introduction
+Self-care encompasses health promotion, disease prevention and control, self-medication and
+self-management, seeking care from the formal health system and rehabilitation (World
+Health Organization, 2019). It has the potential to increase cost savings by USD 119bn, save
+time spent by patients and physicians, and improve quality of life (Bauer et al., 2022; Global
+Self-Care Federation, 2021). Its value for countries and health systems is in contributing to
+improved health outcomes while reducing unnecessary demands on the formal health
+system, and is recognized as a cost-effective strategy that is integral to Universal Health
+Coverage (UHC) (Amit et al., 2022; Lozano et al., 2020). This is especially necessary for health
+conditions commonly experienced such as low back pain, allergic rhinitis, general acute pain,
+cough, common colds, diarrhea, constipation, and stress. These contribute substantially to
+the burden of disease and loss of economic productivity (Department of Health, 2022; Dierick
+et al., 2020; Katelaris et al., 2011; Sanico, 2004), but can be managed by patients on their own
+with proper guidance. However given the low health literacy of the general population in the
+Philippines (Tolabing et al., 2022) and increasing global health threat of antimicrobial
+resistance (AMR) attributed to improper self-medication (Rather et al., 2017), a more
+systematic approach to empower people in caring for oneself is a key approach which needs
+to be implemented as early as childhood.
+The increasing importance of self-care comes with the need to establish its evidence base
+concerning its safety and effectiveness (Jaarsma et al., 2020; Riegel et al., 2021). Methodological
+suggestions have been published to strengthen research on self-care (Jaarsma et al., 2020).
+Additionally, a research agenda for self-care has been proposed that identifies the following as
+priority areas: influence of habit formation on self-care behavior change; resilience in the face of
+stressful life events and social contexts that interfere with self-care; culture and self-care;
+IJHG
+28,4
+384
+
+difficulty performing self-care with multiple chronic conditions; self-care in persons with severe
+mental illness; and the influence of others on self-care (Riegel et al., 2021). Previous reviews have
+largely focused on self-care for chronic diseases and/or self-care in high-income settings (Hearn
+et al., 2019; O’Connell et al., 2018; Papadakos et al., 2018).
+This scoping review aimed to map the literature of how Filipinos practice self-care to
+manage common acute conditions to answerthe research question, “Whatexamples of self-care
+practices for common acute conditions among Filipinos exist in the published local literature?”
+In doing so, we provide evidence on self-care practice and research for acute conditions in low-
+and middle-income countries (LMICs) using the Philippines as an example, where the
+implementation of the UHC has been impacted by the coronavirus disease 2019 (COVID-19)
+pandemic (Amit et al., 2022; Jaminola et al., 2022). This review will provide insights into the
+current evidence base: the culture and understanding of self-care, and specific self-care
+practices in managing acute health conditions in a low-resource setting.
+Methods
+Study design
+We conducted a scoping review to identify and map studies which discussed self-care practices
+in the Philippines. A scoping review was conducted, instead of other evidence synthesis
+designs, because we aimed to scope the literature on self-care practices in the Philippines as a
+means to clarify how self-care is viewed and defined in the Philippines (Munn et al., 2018). This
+review followed the Joanna Briggs Methodology (Antonio et al., 2021; Peters et al., 2020) and
+reported findings according to the Preferred Reporting Items for Systematic reviews and Meta-
+Analyses Extension for Scoping Reviews (PRISMA-ScR) checklist (Tricco et al., 2018).
+Search sources and terms
+We conducted a scoping review in PubMed, Scopus, Cumulative Index of Nursing and Allied
+HealthLiterature(CINAHL),ProQuestCentral,JournalStorage(JSTOR),andPhilippineCouncilfor
+Health Research and Development – Health Research and Development Information Network
+(HERDIN)fromNovember2021toJanuary2022.Threesetsofsearchtermsbasedonthefollowing
+keythemeswereused:self-carepractices,healthandPhilippines.Thetermsandthemesrelevantto
+self-care were guided by the World Health Organization (WHO) definition (World Health
+Organization, 2019). These were further informed by an initial search of the literature in PubMed
+and previous similar reviews, interviews and focus group discussions with key stakeholders
+including patients, health providers, representatives from the pharmaceutical industry and
+policymakers. We applied Boolean operators to combine the search terms: self-care practices
+corresponding to our review’s concept (self-care, self-medication, OTC for over-the-counter
+medications, OTC switch, nonprescription drugs, self-efficacy, self-management, prescription
+sharing, complementary therapies, traditional medicine, complementary and alternative medicine,
+herbal medicine), health and specific health conditions for context (health, minor ailment, acute
+condition,lowbackpain,allergicrhinitis,acutepain,cough,cold,diarrhea,constipation,stress)and
+the general population and any subpopulations in the Philippines as our population (Philippines).
+For JSTOR, we restricted our search to the following subject areas: health policy, health sciences,
+political science, population studies, public health, public policy and administration. HERDIN is a
+local database and therefore, we did not include country restrictions in our search. The full details
+of the search strategy are available from Supplementary File Table S1
+Study eligibility criteria
+We included English peer-reviewed full-text articles that focused on self-care practices of the
+general population to manage the following acute conditions: low back pain, allergic rhinitis,
+Self-care
+practices for
+acute
+conditions
+385
+
+general acute pain, cough, cold, diarrhea, constipation, and stress. Studies with infants and
+children as the study population were included, focusing on how their parents and caregivers
+managed their symptoms. Studies that focused on the effect of an intervention, where only a
+self-care intervention and its impact on health outcomes was described, were excluded since
+the focus of this review is on describing self-care practices of Filipinos. Phytochemistry
+papers that focused on the chemical nature and properties of plants and studies on self-care
+practices for chronic conditions were also excluded given that the scope of the review is
+restricted to various self-care interventions used for common self-limiting or acute conditions.
+Conference abstracts, commentaries, editorials, letters, correspondences, perspectives,
+theses, dissertations, and news and media articles were also excluded. We included all
+peer-reviewed papers published up to 2021.
+Study retrieval and selection
+Articles were retrieved in EndNote Extensible Markup Language (XML) format, the PubMed
+format, or the Research Information Systems (RIS) text format. All retrieved studies were first
+imported to EndNote (Clarivate Analytics, Philadelphia, Pennsylvania, USA) to remove
+duplicates. Full-text articles from HERDIN were retrieved with the assistance of an
+information specialist. These were then imported to Covidence, a web-based platform that
+facilitates reviews. Any remaining duplicate studies were removed using the software.
+Articles were screened in two stages: at the title and abstract level and then at the full-text
+level. Disagreement between reviewers (AML and VCFP) was resolved through consensus or
+through an arbiter (MMD).
+Critical appraisal of individual sources of evidence
+Risk of bias appraisal was not performed as this was not the objective of this scoping review.
+Data extraction and synthesis
+The following data fields were extracted from the included studies in Covidence: article type,
+aim of the study, study design and setting, population characteristics and size, and self-
+practices employed for the conditions. A narrative approach was used to synthesize data
+focusing on the self-care strategies employed. The review also explored popular health
+culture and beliefs, influences and social support, and resolution of illness and perceived
+effectiveness of self-care interventions. The data from the included studies were thematically
+analyzed to come up with the categories of the different interventions: use of medicines with
+and without a prescription, medicinal plants and other traditional and alternative therapies
+and products, recreational activities, and self-management or seeking care from traditional
+healers (albularyo or manggagamot) or health professionals. This classification of self-care
+interventions deviates from the WHO, which places emphasis on drugs, devices, diagnostics
+and digital products. Our review only captured drugs given the focus on acute conditions,
+which are typically self-limiting without the need for devices, diagnostics and other digital
+products.
+Results
+The search resulted in a total of 887 studies, with 209 duplicates removed. After screening,
+623 were not relevant as these did not meet the criteria for inclusion based on their titles and
+abstracts and only 55 studies were eligible for full-text screening. A total of 55 full-text
+articles were retrieved and screened, of which 26 articles met the criteria for review (Figure 1).
+The 26 included articles were published between 1987 and 2021, and employed mixed-
+methods (n 5 5), quantitative (n 5 11) and qualitative (n 5 9) research designs and evidence
+IJHG
+28,4
+386
+
+synthesis (n 5 1) (Balangcod and Balangcod, 2011; Balilla et al., 2014; Barber et al., 2017;
+Bernardo and Tolentino, 2019; Caringal-Go et al., 2021; Cleofas, 2021; Cordero and Alejandro,
+2021; Cruz et al., 2011; Del Mundo et al., 2019; Hardon, 1987; Katelaris et al., 2011; Kim et al.,
+2014; Maglalang-Co et al., 1999; Marquez et al., 2020; McNee et al., 1995; Morfe and Lim, 2013;
+Nichter and Nichter, 1993; Obermeyer et al., 2004; Ong and Kim, 2014; Sato et al., 2018; Simon
+et al., 1996; Tupasi et al., 1989; Villanueva, 2021; Visaya-Ceniza, 2015; Yoder and Hornik, 1994;
+Zarsuelo et al., 2018). We were able to identify studies conducted in all island groups of the
+country (Luzon: 12 studies; Visayas: 8 studies; Mindanao: 1 study; and 3 nationwide studies).
+Study populations represented various groups: Filipinos with ages ranging from 15 years of
+age and above and parents/caretakers of infants and children under 18 months and above,
+both male and female and from the general population and indigenous groups (Aeta,
+Kalangua, Ati, Ga’dang) (Table 1). Our review included nine studies with infants and children
+with pneumonia-like episodes, diarrhea, acute respiratory illness, and allergic rhinitis as the
+Figure 1.
+PRISMA flow diagram
+Self-care
+practices for
+acute
+conditions
+387
+
+population of interest, and how their parents and caregivers managed their symptoms
+(Hardon, 1987; Katelaris et al., 2011; Kim et al., 2014; McNee et al., 1995; Nichter and Nichter,
+1993; Sato et al., 2018; Simon et al., 1996; Tupasi et al., 1989; Yoder and Hornik, 1994). A more
+detailed summary of the included articles is shown in Supplementary File Table S2.
+Summary of self-care practices
+Based on the literature reviewed, medicines with and without a prescription, traditional and
+complementary medicine (T&CM) including the use of medicinal plants, oils and food
+supplements, recreational activities and health behaviors and seeking care from both
+traditional healers (albularyo or manggagamot) and the formal health system, have been used
+and practiced to manage common acute conditions (Balangcod and Balangcod, 2011; Balilla
+et al., 2014; Barber et al., 2017; Bernardo and Tolentino, 2019; Caringal-Go et al., 2021; Cleofas,
+2021; Cordero and Alejandro, 2021; Cruz et al., 2011; Del Mundo et al., 2019; Hardon, 1987;
+Katelaris et al., 2011; Kim et al., 2014; Maglalang-Co et al., 1999; Marquez et al., 2020; McNee
+et al., 1995; Morfe and Lim, 2013; Nichter and Nichter, 1993; Obermeyer et al., 2004; Ong and
+Kim, 2014; Sato et al., 2018; Simon et al., 1996; Tupasi et al., 1989; Villanueva, 2021; Visaya-
+Ceniza, 2015; Yoder and Hornik, 1994; Zarsuelo et al., 2018). We also found that “self-care” as a
+term and concept is more commonly referred to using its synonyms including self-medication
+and traditional and complementary medicine. Earlier studies delineated when conditions
+would be managed at home vis-a-vis seeking care from the formal health system. Only one
+study used the term “self-care” per se (Cleofas, 2021).
+Western medicines with and without a prescription
+A total of 13 studies reported the use of Western (or conventional) medicines to manage acute
+health conditions and symptoms such as the common cough and cold, body aches, allergic
+rhinitis, and those of the digestive tract (Barber et al., 2017; Bernardo and Tolentino, 2019;
+Hardon, 1987; Katelaris et al., 2011; Kim et al., 2014; Maglalang-Co et al., 1999; McNee et al.,
+1995; Nichter and Nichter, 1993; Obermeyer et al., 2004; Sato et al., 2018; Simon et al., 1996;
+Tupasi et al., 1989; Yoder and Hornik, 1994). Over-the-counter medicines and antibiotics were
+Years
+Years searched: Up to 2021
+Publication year of included studies: 1987–2021
+Methods
+Mixed methods: 5 studies
+Quantitative: 11 studies
+Qualitative: 9 studies
+Review: 1 study
+Setting
+Luzon: 12 studies
+Visayas: 8 studies
+Mindanao: 1 study
+Nationwide: 3 studies
+Not specified: 1 study
+Review: 1 study
+Population
+Filipinos ages 15 and above, and parents/caretakers of infants and children under
+18 months and above; both males and females; the general population and indigenous
+groups (Kalanguya, Aeta Magbuku’n, Negritos or locally referred to as Ati, Ati Negrito,
+Ga’dang)
+Self-care
+practices
+Medicines with and without a prescription, appropriate and inappropriate antibiotic use,
+traditional and alternative medicine (e.g. oils, therapy, supplements), recreational activities
+and healthy habits and behaviors, and seeking care from traditional healers and health
+professionals
+Source(s): Authors’ work
+Table 1.
+Summary of local
+studies on self-care
+published from
+1987–2021
+IJHG
+28,4
+388
+
+used by participants in the studies throughout the country belonging to different age groups
+from 15 years and above, and by parents and caregivers with infants and children. For
+pneumonia symptoms including cough in particular, Filipinos bought medications without a
+prescription – choosing a brand previously prescribed by a doctor, or suggested by a
+pharmacist or pharmacy attendant (Kim et al., 2014; Simon et al., 1996). Prescription sharing
+was reported by fathers of children with pneumonia-like episodes and symptoms (e.g. cough):
+“I asked my mother-in-law for medicine since she had a stock of medicines from the
+congressman” (Sato et al., 2018). There was also mention of other harmful practices including
+a trial-and-error method for choosing medications, based on the advice of relatives or health
+workers or advertisements (Tupasi et al., 1989). In addition to influencing how symptoms are
+managed, social networks also provided financial support from whom money for hospital and
+health expenses could be borrowed (Sato et al., 2018). None of the studies described the use of
+medicines to relieve stress.
+Traditional and complementary medicine (T&CM)
+Traditional and complementary medicine (T&CM), also referred to as non-conventional
+medicine, is a group of diverse health practices and approaches that incorporate plant,
+animal, mineral base medicine, and spiritual therapies and exercises (World Health
+Organization, 2002). This review found 16 studies reporting the use of T&CM among the
+general population to manage acute health conditions except allergic rhinitis and stress
+(Balangcod and Balangcod, 2011; Balilla et al., 2014; Cordero and Alejandro, 2021; Cruz et al.,
+2011; Maglalang-Co et al., 1999; Marquez et al., 2020; McNee et al., 1995; Morfe and Lim, 2013;
+Nichter and Nichter, 1993; Ong and Kim, 2014; Sato et al., 2018; Simon et al., 1996; Tupasi et al.,
+1989; Villanueva, 2021; Yoder and Hornik, 1994; Zarsuelo et al., 2018).
+Even in the more urban areas including the National Capital Region, which is the most
+urbanized region in the country, T&CM was used for various conditions such as general and
+musculoskeletal pains, gastric problems, respiratory problems including cough. The practice
+of T&CM is prevalent with as much as 8 in 10 Filipinos using any T&CM (Morfe and Lim,
+2013). Herbal medicines including Lagundi, Oregano and Sambong, among many others,
+were used for various ailments. Preparations included boiling of leaves, crushing or
+stemming of leaves, and squeezing out the juice and adding lemon to make a concoction. For
+musculoskeletal problems, oils, liniments, balms, manipulative therapy were applied (Morfe
+and Lim, 2013). The use of food supplements, or products containing substances such as
+vitamins and minerals, was also reported for general health concerns and symptoms for both
+chronic and acute conditions such as cough (Cruz et al., 2011). The supplements identified
+included combined nutrient supplements or multivitamins and minerals, single nutrient
+supplements, herbal supplements, herbal tea, and other supplements such as yeast, lecithin
+and oils (fish, virgin coconut and garlic) (Cruz et al., 2011). Apart from symptoms of acute
+respiratory illnesses and musculoskeletal problems, body pains due to stress and tension
+were managed by using coconut oil set on fire (Villanueva, 2021). T&CM was not mentioned
+for allergic rhinitis.
+Indigenous practices
+While certain indigenous practices are also considered traditional and alternative medicine,
+for the purpose of this review, we separated practices by indigenous peoples to highlight any
+similarities and differences between this population group and the general population. We
+found five studies focused on practices of indigenous groups including the Kalanguya in
+Ifugao, the Aeta Magbukun in Bataan, the Negritos or locally referred to as Ati in Antique, the
+Ati Negrito in Guimaras, and the Ga’dang in Nueva Vizcaya (Balangcod and Balangcod, 2011;
+Balilla et al., 2014; Cordero and Alejandro, 2021; Ong and Kim, 2014; Villanueva, 2021).
+Self-care
+practices for
+acute
+conditions
+389
+
+Among indigenous peoples, the use of medicinal plants was common and rooted in
+ethnobotanical knowledge and their culture. As many as 125 plant species were reported to be
+used by the Kalanguya for common ailments including those of interest in the review and are
+perceived effective (Balangcod and Balangcod, 2011). Medicinal plants were used to treat two
+or more health conditions such as hapal (Drimys piperata) for stomachache and cough
+(Balangcod and Balangcod, 2011). Similar to the general population, there were various
+modes of preparation of these plants including crushing, boiling and decoction of the parts of
+the plant most especially the leaves (Balangcod and Balangcod, 2011). The Aeta Magbukun
+also used traditional remedies (Balilla et al., 2014). However, because of the establishment of a
+community pharmacy, the Aeta Magbukun reported use of Western medicines such as pain
+relievers (Balilla et al., 2014). Among the Ati Negritos, more than 100 plant species were
+identified for management of various conditions including cough, diarrhea, and other
+pulmonary problems (Cordero and Alejandro, 2021; Ong and Kim, 2014). Similar methods of
+preparation were used and at times, leaf extracts were mixed with sugar or breastmilk to
+improve taste for infants and children (Cordero and Alejandro, 2021). Apart from herbal
+medicines, coconut oil considered essential in healing rituals was used by Ga’dang peoples for
+treatment of headache, gastric problems, and even other pains experienced and caused by
+stress and tension (Villanueva, 2021). Similar to the general population, families and social
+networks were important sources of health information that influenced their decision to seek
+an indigenous healer and their preferences for treatment modalities. The main difference
+between T&CM practiced by the general population and indigenous peoples is that
+traditional medicine is closely tied with their belief that spirits cause illnesses. And therefore,
+ceremonies and rituals were performed by traditional healers in addition to the use of
+medicinal plants and oils and these healers were primarily sought before going for treatment
+in a health facility.
+Recreational activities and healthy habits and behaviors
+Filipinos engaged in recreational activities, and adopted healthy habits and behaviors to
+maintain mental well-being and manage stress (Caringal-Go et al., 2021; Cleofas, 2021; Del
+Mundo et al., 2019; Villanueva, 2021; Visaya-Ceniza, 2015). These included taking quick
+breaks, exercising, hiking and mountain climbing, dancing, meeting with friends, spending
+time outdoors, praying, joining religious groups, watching soap operas (locally known as
+teleseryes), and participating in other social activities with friends and families such as
+singing in a karaoke or playing bingo (Caringal-Go et al., 2021; Cleofas, 2021; Del Mundo et al.,
+2019; Villanueva, 2021; Visaya-Ceniza, 2015). There was a similarity in the way Filipinos
+managed stress and chronic conditions, with a greater emphasis on maintenance of health:
+having a healthy diet and engaging in exercise for both physical and mental health (Caringal-
+Go et al., 2021; Cleofas, 2021; Del Mundo et al., 2019; Villanueva, 2021; Visaya-Ceniza, 2015). No
+recreational activities were mentioned in any of the other acute conditions of interest in this
+review.
+Self-management vs. seeking care from traditional healers or health professionals
+An important aspect of self-care is seeking primary, hospital and specialist care if necessary
+(World Health Organization, 2019). Our review revealed that perceptions about the
+ethnophysiology and severity of the illness, treatment effectiveness, source and
+availability of treatment and cost and advice from trusted sources of health information,
+influenced the decision to manage the symptoms at home vis-a-vis seeking care from a
+traditional health or a health provider. This was evident in earlier studies that explored
+treatment choices according to these considerations (Hardon, 1987; Maglalang-Co et al., 1999;
+McNee et al., 1995; Nichter and Nichter, 1993; Simon et al., 1996; Tupasi et al., 1989; Yoder and
+IJHG
+28,4
+390
+
+Hornik, 1994). For example, diarrhea perceived to be severe was treated based on a doctor’s
+advice while those perceived to be mild were self-managed with no medication or with
+pharmaceuticals (Hardon, 1987). Among children with cough in Bohol in the southern
+Visayan Islands of the country, their caretakers would define the illness category such as
+cough due to ‘piang’ (sprain) and ‘ubo nga natural’ (natural cough) as necessitating treatment
+at home and by a traditional healer, respectively. Such practices, where patients first manage
+their symptoms or seek the help of traditional healers (albularyo or manghihilot) before seeing
+a health professional especially for severe conditions, contribute to delays in getting timely,
+effective and quality care that may increase risk for adverse outcomes and death (McNee
+et al., 1995). Symptoms and the nature of the illness also determined the choice of treatment.
+For acute respiratory illnesses, difficulty in breathing and even the color of mucus (i.e. clear
+vs. yellow) would dictate the type of treatment (i.e. no medication, self-medication, or
+treatment by a health professional) and source of treatment (i.e. self or caretaker for children,
+traditional healer, or health professional in a health facility). Confidence in treating these
+conditions also relied on how life-threatening they were perceived, with diarrhea perceived as
+more serious than cough (Tupasi et al., 1989).
+Discussion
+This scoping review provides insights into the current research landscape, understanding of
+self-care, and how self-care is practiced in managing acute health conditions. We found that
+Filipinos across different population groups and settings engaged in a variety of self-care
+practices – some of which can be potentially harmful: use of medicines with and without a
+prescription and antibiotics even for the common cough and cold, and delays in seeking
+adequate treatment from a health professional. Filipinos also engaged in recreational
+activities and adopted healthy habits and behaviors, which are recommended for the
+prevention of noncommunicable diseases. Additionally, they managed their own condition or
+sought care from a traditional healer or a health professional, influenced by various
+considerations. Specific to indigenous peoples, ceremonies and rituals are performed with
+traditional therapies because of passed on beliefs on the causes of sickness and disease.
+This review is aligned with the proposed research areas on self-care (Riegel et al., 2021) and
+described how self-care is practiced among the general population and indigenous peoples.
+Studies on indigenous peoples showed that culture and knowledge play a role in how diseases
+and self-care are viewed, which are important in better understanding and promoting self-
+care (Riegel et al., 2021). Additionally, in managing stress, it showed Filipinos’ resilience and
+how engaging in recreational activities helped. The role of social networks was also
+prominent across population groups and conditions, which highlights the need to involve
+them in promoting desired health behaviors and decision-making processes. More
+importantly, our review also shows the need to study self-care beyond chronic conditions
+as self-care practices for acute conditions are just as varied and have significant implications
+on AMR, T&CM, health, education and labor policy and economy. There may be a need,
+therefore, to include self-care for managing acute conditions in the research agenda since only
+chronic illnesses are spotlighted (Riegel et al., 2021).
+Despite our finding that self-care practices are well-enculturated in the Philippines, some
+self-care practices have been described as harmful. In the Philippines, the lifetime prevalence
+of sharing antimicrobials is estimated to be 78% (Barber et al., 2017), contributing to AMR in
+the country. Inappropriate antibiotic use and prescription sharing have been reported even
+for the common cold or cough (Barber et al., 2017; Sato et al., 2018), and may be reflective of
+misconceptions that antibiotics are useful against all types of common cold and cough and
+can even be considered as vitamins (Barber et al., 2017). Furthermore, beliefs and practices
+about the ethnophysiology of diseases that are deeply rooted in tradition and culture have
+Self-care
+practices for
+acute
+conditions
+391
+
+been demonstrated to cause delays in the decision to seek medical attention, sometimes with
+fatal consequences especially among children. Given that 1 in 2 Filipinos have limited health
+literacy (Tolabing et al., 2022), we need more information campaigns and inclusion of health
+literacy in the basic education curricula. Health professionals, together with community
+health workers, will need to actively engage with patients to emphasize responsible self-care
+and responsible use of medications (Amit et al., 2022; Robredo et al., 2022). On the other hand,
+our review also showed that Filipinos sought healthcare from the formal health system,
+instead of self-management at home or by a traditional healer, and engaged in prescription
+sharing or reuse based on several factors including the advice of their social networks.
+Seeking timely and appropriate care is a key component of self-care that needs to also be
+taught, given that significant delays can worsen the health status and increase risk of death
+(McNee et al., 1995). Equally important therefore is to empower individuals to evaluate
+information and make informed and timely health decisions, acknowledging their various
+considerations such as perceived severity of the condition, availability and perceived
+effectiveness of treatment, cost and advice from trusted sources of health information.
+Indigenous peoples mainly used herbal and ethnomedicinal plants. However, one study
+reported use of Western medicines because of the establishment of a community pharmacy
+(Balilla et al., 2014). Traditional and ethnomedical knowledge in indigenous communities may
+be lost as a result of relocation to cities and shifting into Western medical practices (Dapar
+and Alejandro, 2020). Conversely, Western medicines are predominantly used but T&CM is
+still practiced by the general population and even among Filipinos in more urban areas.
+Despite the lack of strong evidence of T&CM effectiveness and safety, as well as potential
+interactions that may occur with their concurrent use with conventional medicines, Filipinos
+continue to engage in this practice (Othman and Farooqui, 2015; Peltzer and Pengpid, 2018)
+with 4 in 5 not informing their doctors (Cruz et al., 2011). As many as 125 plant species have
+been identified for use in managing acute health conditions (Balangcod and Balangcod, 2011),
+with only 10 herbal plants endorsed by the Department of Health (Balangcod and Balangcod,
+2011; Marquez et al., 2020). Oregano is a popular herbal drug used by the general population
+and indigenous peoples, but it is not included in the list of herbal plants endorsed in the
+country (Marquez et al., 2020). House Bill No. 10059 (“An Act Strengthening the Traditional
+and Complementary Medicine System, Amending for the Purpose Republic Act No. 8423,
+Otherwise Known As the “Traditional And Alternative Medicine Act of 1997”) aims to modify
+provisions on the regulation and enforcement of T&CM in the country through the Philippine
+Institute of Traditional and Alternative Health Care (PITAHC) given its prevalent use (House
+of Representatives, 2021). Despite this legislation, the Philippines still has challenges to better
+integrate T&CM in the formal health system compared to other countries in the Western
+Pacific Region such as China, Japan, and the Republic of Korea that already have policies and
+regulatory systems in place (Park and Canaway, 2019). The lack of effectiveness and safety
+studies, despite the widespread use of T&CM highlight the need to invest in research that
+assesses their safety, effectiveness and interactions with other T&CM modalities and
+Western medications (Palileo-Villanueva et al., 2022). Data on these can be used to inform how
+T&CM should be integrated into the health system.
+Among all the acute conditions studied, only stress was managed through social and
+recreational activities and other health behaviors including engaging in physical activity and
+eating a healthy diet. These types of self-care practices are commonly mentioned and more
+pronounced for chronic illnesses (Newbould et al., 2006; Willis, 2016). Additionally, social
+support has been a common and more pronounced theme for chronic conditions. For self-
+limiting conditions and among the general population, relatives, friends, health providers
+including community health workers influenced management and health decisions (Sato
+et al., 2018; Tupasi et al., 1989). While fathers considered themselves the main decision-
+makers, mothers were still identified as the main caregivers (Sato et al., 2018). Among
+IJHG
+28,4
+392
+
+indigenous peoples, families and social networks were similarly their main sources of health
+information and influenced the decision to seek an indigenous healer (Villanueva, 2021), with
+practices passed on from generation to generation. Traditional healers were also important in
+healthcare decisions as sick individuals or their children would first seek them for healing
+rituals, given that T&CM among indigenous peoples is tied with the belief that certain
+conditions are caused by spirits and supernatural beings (Balangcod and Balangcod, 2011;
+Balilla et al., 2014). In addition to being important facilitators to self-care, families and friends
+were also depended on for money for hospital and health expenses, brand preferences of
+medicine and even during prescription and antibiotic sharing (Barber et al., 2017; Sato et al.,
+2018). We also found that families and peers played an important role in maintaining social
+and mental well-being (Caringal-Go et al., 2021; Cleofas, 2021). Social networks should
+therefore be involved when promoting health behaviors and lifestyles to individuals, as they
+can serve as facilitators or barriers to responsible and evidence-informed self-care.
+As self-care becomes recognized to play an integral role in advancing UHC goals, the
+different self-care dimensions including T&CM, self-medication and other health behaviors
+need to be better integrated in the health system (Bauer et al., 2022; Global Self-Care
+Federation, 2021; Park and Canaway, 2019). This means including self-care in health
+planning and health insurance mechanisms. The current financing model of the country is a
+case-based payment (Obermann et al., 2018) with the current benefit package called the
+“Konsultasyong Sulit at Tama” (“Konsulta”) encouraging access to primary care services.
+Other countries in the Americas and Europe are more advanced in institutionalizing self-care
+(Bauer et al., 2022), and the Philippines may draw lessons and insights to better regulate self-
+care practices towards UHC (Amit et al., 2022; Jaminola et al., 2022).
+This scoping review is a comprehensive examination of self-care practices to manage
+common acute health conditions in the Philippines. Our review did not apply any restrictions
+to the population groups, and we were, therefore, able to capture the different self-care
+practices of Filipinos including indigenous peoples. Because of the nature of this review
+however, we did not conduct any quality and risk of bias assessments. To ensure we captured
+as many local studies as possible, we searched HERDIN, which is the Philippines’ country-
+wide repository of health and health-related research. Our review only included 26 studies
+that captured different populations and settings including the young and old, female and
+male, general population and indigenous peoples throughout the Philippines. This low
+volume of studies may be due to the exclusion of articles that looked into self-care practices
+for chronic conditions, such that at least 90% excluded at the title and abstract level were
+studies on chronic illnesses. While we only studied practices to manage commonly
+experienced acute conditions, studies on self-care and self-management of chronic illnesses
+reported similar practices including use of medications and practice of healthy behaviors
+such as regular exercise and good diet (Newbould et al., 2006; Willis, 2016). In addition, some
+studies may still have been missed, especially those that are not published and registered in
+the local database. While one study estimated 8 in 10 Filipinos using any T&CM for acute
+health conditions, this study was published in 2013 but used data in 1999 (Morfe and Lim,
+2013). This may therefore be an underestimate or overestimate of current practices based on
+more updated data (Peltzer and Pengpid, 2018). Finally, our review excluded intervention
+studies on the outcomes of self-care, which limits our ability to make conclusions on the
+effectiveness of different modalities of self-care.
+Conclusions
+This is the first published review of self-care practices for managing common acute health
+conditions and captured practices of various groups and populations including indigenous
+peoples. Filipinos engage in a variety of “safe” (or evidence-informed) and “unsafe” (or
+Self-care
+practices for
+acute
+conditions
+393
+
+harmful) self-care practices including the use of medicines with and without a prescription,
+appropriate and inappropriate antibiotic use, T&CM, recreational activities and healthy
+behaviors and self-management or seeking care from a traditional healer or a health
+professional. Specific to indigenous peoples, ceremonies and rituals are performed with
+traditional therapies. A number of considerations influenced the decision on how to manage
+health conditions and symptoms including perceived severity of the condition, availability
+and perceived effectiveness of treatment, cost and advice from trusted sources of health
+information.
+The prevalent use of T&CM requires investing in research that determines the effectiveness
+and safety of these modalities and products – their interaction with conventional and Western
+medicines – together with other priority areas (i.e. self-care and mental health, habit formation).
+The bill on strengthening the regulation of T&CM is an important step towards a better
+integration in the health system; but standards for monitoring quality and safety will also need
+to be established and implemented. Additionally, our review showed that self-care practices are
+already widely enculturated and accepted among individuals. Health professionals and social
+networks have an important role to play in encouraging responsible self-care: how and when to
+do self-care vis-a-vis when to seek a health professional. Further research is also needed on the
+role of pharmaceutical industries and other commercial determinants of health, self-medication
+and prescription sharing behaviors, and the effects of habit formation and behavior change as
+these will inform information, education and communication (IEC) and behavioral change
+interventions to promote responsible optimal self-care practices. The success of engaging with
+and educating the population will require involving a range of cultural and social actors and
+networks to effect change. Our study shows the importance of studying self-care for managing
+acute health conditions, and we propose that the research agenda include these and their
+effectiveness and not only chronic illnesses. Finally, we recommend a national strategy to
+promote health literacy and self-care pursuant to the mandate of the UHC Law (Department of
+Health, 2019). This self-care strategy should contain a legal framework for reforms to promote a
+culture conducive to responsible self-care, including policy directions to promote research,
+improve T&CM regulations and strengthen health literacy. Through responsible and evidence-
+informed self-care, cost savings and improvement in quality of life can be achieved (Bauer et al.,
+2022; Global Self-Care Federation, 2021).
+References
+Amit, A.M.L., Pepito, V.C.F. and Dayrit, M.M. (2022), “Advancing universal health coverage in the
+Philippines through self-care interventions”, The Lancet Regional Health - Western Pacific, Vol. 26,
+100579.
+Antonio, C.A.T., Amit, A.M.L., Cochon, K.L., Guevarra, J.P., Bermudez, A.N.C., Torres, C.D.H. and
+Agbon, A.G. (2021), “Practical guidance in the conduct of a scoping review: insights from
+experience in the College of public health, University of the Philippines Manila”, Acta Medica
+Philippina, Vol. 55 No. 7, pp. 775-780, doi: 10.47895/amp.vi0.3070.
+Balangcod, T.D. and Balangcod, A.K.D. (2011), “Ethnomedical knowledge of plants and healthcare
+practices among the Kalanguya tribe in Tinoc, Ifugao, Luzon, Philippines”, Indian Journal of
+Traditional Knowledge, Vol. 10 No. 2, pp. 227-238.
+Balilla, V.S., Anwar McHenry, J., McHenry, M.P., Parkinson, R.M. and Banal, D.T. (2014), “The Assimilation
+of Western medicine into a Semi-nomadic healthcare system: a case study of the indigenous Aeta
+Magbukun, Philippines”, EcoHealth, Vol. 11 No. 3, pp. 372-382, doi: 10.1007/s10393-014-0919-x.
+Barber, D.A., Casquejo, E., Yba~nez, P.L., Pinote, M.T., Casquejo, L., Pinote, L.S., Estorgio, M. and
+Young, A.M. (2017), “Prevalence and correlates of antibiotic sharing in the Philippines:
+antibiotic misconceptions and community-level access to non-medical sources of antibiotics”,
+Tropical Medicine and International Health, Vol. 22 No. 5, pp. 567-575, doi: 10.1111/tmi.12854.
+IJHG
+28,4
+394
+
+Bauer, C., May, U., Pham, T.-K., Giulini-Limbach, C. and Schneider-Ziebe, A. (2022), The Global Social
+and Economic Value of Self-Care, available at: https://www.selfcarefederation.org/sites/default/
+files/media/documents/2022-05/GSCF%20Socio-Economic%20Research%20Executive%
+20Summary%20v16%20CDG.pdf
+Bernardo, M.J.D. and Tolentino, M.P. (2019), “Community social Capital and health status and health
+seeking behaviors among the Elderly”, Asia Pacific Social Science Review, Vol. 19 No. 3,
+pp. 155-166.
+Caringal-Go, J.F., Teng-Calleja, M., Bertulfo, D.J. and Manaois, J.O. (2021), “Work-life balance crafting
+during COVID-19: exploring strategies of telecommuting employees in the Philippines”,
+Community, Work and Family, Vol. 25 No. 1, pp. 112-131, doi: 10.1080/13668803.2021.1956880.
+Cleofas, J.V. (2021), “Self-care practices and online student engagement during Covid-19 in the
+Philippines: a mixed methods study”, Issues in Educational Research, Vol. 31 No. 3, pp. 699-717.
+Cordero, C. and Alejandro, G.J.D. (2021), “Medicinal plants used by the indigenous Ati tribe in Tobias
+Fornier, Antique, Philippines”, Biodiversitas Journal of Biological Diversity, Vol. 22 No. 2, doi: 10.
+13057/biodiv/d220203.
+Cruz, A., Tanchoco, C. and Orense, C. (2011), “Awareness, usage and perception of food supplements
+among Adult Residents in Metro Manila”, Philippine Journal of Internal Medicine, Vol. 49,
+pp. 30-37.
+Dapar, M. and Alejandro, G. (2020), “Ethnobotanical studies on indigenous communities in the
+Philippines: current status, challenges, Recommendations and Future perspectives”, Journal of
+Complementary Medicine Research, Vol. 11 No. 1, p. 432, doi: 10.5455/jcmr.2020.11.01.51.
+Del Mundo, J.C., Macanlalay, A. J.A. and Del Mundo, M.D.C. (2019), “Solo mother’s challenges and
+Coping strategies: a Phenomenological study in city of Manila”, Philippine Journal of Health
+Research and Development, Vol. 23 No. 1, pp. 29-37.
+Department of Health (2019), “Implementing Rules and regulations of the universal health care Act
+(Republic Act No. 11223)”, available at: https://www.philhealth.gov.ph/about_us/UHC-IRR_
+Signed.pdf
+Department of Health (2022), “Field health services information system: 2020 Annual Report”,
+available at: https://doh.gov.ph/sites/default/files/publications/FHSIS-2020-updated-
+June92022.pdf
+Dierick, B.J.H., van der Molen, T., Flokstra-de Blok, B.M.J., Muraro, A., Postma, M.J., Kocks, J.W.H. and
+van Boven, J.F.M. (2020), “Burden and socioeconomics of asthma, allergic rhinitis, atopic
+dermatitis and food allergy”, Expert Review of Pharmacoeconomics and Outcomes Research,
+Vol. 20 No. 5, pp. 437-453, doi: 10.1080/14737167.2020.1819793.
+Global Self-Care Federation (2021), “Self-care Readiness index”, available at: https://selfcarepromise.
+org/wp-content/uploads/2021/09/Self-Care-Readiness-Index-Report-1.pdf
+Hardon, A.P. (1987), “The use of modern pharmaceuticals in a Filipino village: doctors’ prescription
+and self-medication”, Social Science and Medicine, Vol. 25 No. 3, pp. 277-292, doi: 10.1016/0277-
+9536(87)90231-0.
+Hearn, J., Ssinabulya, I., Schwartz, J.I., Akiteng, A.R., Ross, H.J. and Cafazzo, J.A. (2019), “Self-
+management of non-communicable diseases in low- and middle-income countries: a scoping
+review”, in Joshi, R. (Ed.), PLoS One, Vol. 14 No. 7, p. e0219141, doi: 10.1371/journal.pone.0219141.
+House of Representatives (2021), “House bill No. 10059”, available at: https://hrep-website.s3.ap-
+southeast-1.amazonaws.com/legisdocs/basic_18/HB10059.pdf
+Jaarsma, T., Str€omberg, A., Dunbar, S.B., Fitzsimons, D., Lee, C., Middleton, S., Vellone, E., et al. (2020),
+“Self-care research: how to grow the evidence base?”, International Journal of Nursing Studies,
+Vol. 105, 103555, doi: 10.1016/j.ijnurstu.2020.103555.
+Jaminola, L.I., Negre, J.M., Pepito, V.C.F., Loreche, A.M. and Dayrit, M.M. (2022), “The policy
+environment of self-care: a case study of the Philippines”, Health Policy and Planning, Vol. 38
+No. 2, pp. 205-217, doi: 10.1093/heapol/czac095.
+Self-care
+practices for
+acute
+conditions
+395
+
+Katelaris, C.H., Lai, C.K.W., Rhee, C.-S., Lee, S.H., De Yun, W., Lim-Varona, L., Quang, V.T., et al. (2011),
+“Nasal Allergies in the Asian–Pacific population: Results from the Allergies in Asia–Pacific
+Survey”, American Journal of Rhinology and Allergy, Vol. 25 No. 5, pp. S3-S15, doi: 10.2500/ajra.
+2011.25.3674.
+Kim, S.A., Capeding, M.R.Z. and Kilgore, P.E. (2014), “Factors influencing healthcare utilization among
+children with pneumonia in Muntinlupa City, the Philippines”, The Southeast Asian Journal of
+Tropical Medicine and Public Health, Vol. 45 No. 3, pp. 727-735.
+Lozano, R., Fullman, N., Mumford, J.E., Knight, M., Barthelemy, C.M., Abbafati, C., Abbastabar, H.,
+et al. (2020), “Measuring universal health coverage based on an index of effective coverage of
+health services in 204 countries and territories, 1990-2019: a systematic analysis for the Global
+Burden of Disease Study 2019”, The Lancet, Vol. 396 No. 10258, S0140673620307509, doi: 10.
+1016/S0140-6736(20)30750-9.
+Maglalang-Co, N., Co, B.G. and Paje-Villar, E. (1999), “Drug utilization patterns and their determinants
+among self-medicators of common illnesses in Barangay 402, Zone 41, 4th District, Sampaloc,
+Manila”, The Santo Tomas Journal of Medicine, Vol. 48 No. 3, pp. 96-104.
+Marquez, D.R.L., Lingat, A., Silva, M.S.S., Rodriguez, A.A. and de Vera, O.M. (2020), “A descriptive
+study on the preferences of community members toward utilization of herbal medication
+compared to synthetic drugs in the National Capital Region, Philippines”, Enfermerıa Clınica,
+Vol. 30, pp. 113-119, doi: 10.1016/j.enfcli.2019.09.032.
+McNee, A., Khan, N., Dawson, S., Gunsalam, J., Tallo, V.L., Manderson, L. and Riley, I. (1995),
+“Responding to cough: Boholano illness classification and resort to care in response to childhood
+ARI”, Social Science & Medicine, Vol. 40 No. 9, pp. 1279-1289, doi: 10.1016/0277-9536(94)00242-L.
+Morfe, J.H.D. and Lim, V.S. (2013), “Complementary and alternative medicine among Filipinos:
+prevalence, costs and patterns of Use”, Philippine Journal of Internal Medicine, Vol. 51
+No. 4, pp. 1-9.
+Munn, Z., Peters, M.D.J., Stern, C., Tufanaru, C., McArthur, A. and Aromataris, E. (2018), “Systematic
+review or scoping review? Guidance for authors when choosing between a systematic or
+scoping review approach”, BMC Medical Research Methodology, Vol. 18 No. 1, p. 143, doi: 10.
+1186/s12874-018-0611-x.
+Newbould, J., Taylor, D. and Bury, M. (2006), “Lay-led self-management in chronic illness: a review of
+the evidence”, Chronic Illness, Vol. 2 No. 4, pp. 249-261, doi: 10.1179/174592006X157508.
+Nichter, M. and Nichter, M. (1993), “Acute respiratory illness: popular health culture and mother’s
+knowledge in the Philippines”, Medical Anthropology, Vol. 15 No. 4, pp. 353-375, doi: 10.1080/
+01459740.1994.9966099.
+Obermann, K., Jowett, M. and Kwon, S. (2018), “The role of national health insurance for achieving
+UHC in the Philippines: a mixed methods analysis”, Global Health Action, Vol. 11 No. 1, 1483638,
+doi: 10.1080/16549716.2018.1483638.
+Obermeyer, C.M., Schulein, M., Hardon, A., Sievert, L.L., Price, K., Santiago, A.C., Lazcano, O., et al.
+(2004), “Gender and medication use: an exploratory, multi-site study”, Women and Health,
+Vol. 39 No. 4, pp. 57-73, doi: 10.1300/j013v39n04_04.
+Ong, H.G. and Kim, Y.-D. (2014), “Quantitative ethnobotanical study of the medicinal plants used by the
+Ati Negrito indigenous group in Guimaras island, Philippines”, Journal of Ethnopharmacology,
+Vol. 157, pp. 228-242, doi: 10.1016/j.jep.2014.09.015.
+Othman, C.N. and Farooqui, M. (2015), “Traditional and complementary medicine”, Procedia - Social
+and Behavioral Sciences, Vol. 170, pp. 262-271, doi: 10.1016/j.sbspro.2015.01.036.
+O’Connell, S., Mc Carthy, V.J.C. and Savage, E. (2018), “Frameworks for self-management support for
+chronic disease: a cross-country comparative document analysis”, BMC Health Services
+Research, Vol. 18 No. 1, p. 583, doi: 10.1186/s12913-018-3387-0.
+Palileo-Villanueva, L.M., Palafox, B., Amit, A.M.L., Pepito, V.C.F., Ab-Majid, F., Ariffin, F.,
+Balabanova, D., et al. (2022), “Prevalence, determinants and outcomes of traditional,
+IJHG
+28,4
+396
+
+complementary and alternative medicine use for hypertension among low-income households in
+Malaysia and the Philippines”, BMC Complementary Medicine and Therapies, Vol. 22 No. 1, p.
+252, doi: 10.1186/s12906-022-03730-x.
+Papadakos, J.K., Hasan, S.M., Barnsley, J., Berta, W., Fazelzad, R., Papadakos, C.J., Giuliani, M.E., et al.
+(2018), “Health literacy and cancer self-management behaviors: a scoping review: health
+Literacy and Cancer Self-Management”, Cancer, Vol. 124 No. 21, pp. 4202-4210, doi: 10.1002/
+cncr.31733.
+Park, Y.L. and Canaway, R. (2019), “Integrating traditional and complementary medicine with
+National healthcare systems for universal health coverage in Asia and the Western Pacific”,
+Health Systems and Reform, Vol. 5 No. 1, pp. 24-31, doi: 10.1080/23288604.2018.1539058.
+Peltzer, K. and Pengpid, S. (2018), “Prevalence and determinants of traditional, complementary and
+alternative medicine provider Use among Adults from 32 countries”, Chinese Journal of
+Integrative Medicine, Vol. 24 No. 8, pp. 584-590, doi: 10.1007/s11655-016-2748-y.
+Peters, M., Godfrey, C., McInerney, P., Munn, Z., Tricco, A. and Khalil, H. (2020), “Chapter 11: scoping
+reviews”, in Aromataris, E. and Munn, Z. (Eds), JBI Manual for Evidence Synthesis, JBI, Adelaide.
+Rather, I.A., Kim, B.-C., Bajpai, V.K. and Park, Y.-H. (2017), “Self-medication and antibiotic resistance:
+Crisis, current challenges, and prevention”, Saudi Journal of Biological Sciences, Vol. 24 No. 4,
+pp. 808-812, doi: 10.1016/j.sjbs.2017.01.004.
+Riegel, B., Dunbar, S.B., Fitzsimons, D., Freedland, K.E., Lee, C.S., Middleton, S., Stromberg, A., et al.
+(2021), “Self-care research: where are we now? Where are we going?”, International Journal of
+Nursing Studies, Vol. 116, 103402, doi: 10.1016/j.ijnurstu.2019.103402.
+Robredo, J.P.G., Eala, M.A.B., Paguio, J.A., Salamat, M.S.S. and Celi, L.A.G. (2022), “The challenges of
+combatting antimicrobial resistance in the Philippines”, The Lancet Microbe, Vol. 3 No. 4,
+p. e246, doi: 10.1016/S2666-5247(22)00029-5.
+Sanico, A.M. (2004), “Latest Developments in the management of allergic rhinitis”, Clinical Reviews in
+Allergy and Immunology, Vol. 27 No. 3, pp. 181-190, doi: 10.1385/CRIAI:27:3:181.
+Sato, M., Oshitani, H., Tamaki, R., Oyamada, N., Sato, K., Nadra, A.R., Landicho, J., et al. (2018),
+“Father’s roles and perspectives on healthcare seeking for children with pneumonia: findings of
+a qualitative study in a rural community of the Philippines”, BMJ Open, Vol. 8 No. 11,
+p. e023857, doi: 10.1136/bmjopen-2018-023857.
+Simon, A., Janabi, M., Kalmayem, G., Waidubu, G., Galia, E., Pague, L., Manderson, L., et al. (1996),
+“Caretakers’ management of childhood acute respiratory infections and the Use of antibiotics,
+Bohol, the Philippines”, Human Organization, Vol. 55 No. 1, pp. 76-83, doi: 10.17730/humo.55.1.
+81q57527223x281u.
+Tolabing, Ma.C.C., Co, K.C.D., Mendoza, O.M., Mira, N.R.C., Quizon, R.R., Tempongko, Ma.S.B., Mamangon,
+M.A.M., et al. (2022), “Prevalence of limited health literacy in the Philippines: first National Survey”,
+Health Literacy Research and Practice, Vol. 6 No. 2, doi: 10.3928/24748307-20220419-01.
+Tricco, A.C., Lillie, E., Zarin, W., O’Brien, K.K., Colquhoun, H., Levac, D., Moher, D., et al. (2018),
+“PRISMA Extension for scoping reviews (PRISMA-ScR): checklist and Explanation”, Annals of
+Internal Medicine, Vol. 169 No. 7, pp. 467-473, doi: 10.7326/M18-0850.
+Tupasi, T.E., Miguel, C.A., Tallo, V.L., Bagasao, T.M.P., Natividad, J.N., Valencia, L.B., De Jesus,
+M.E.G. et al. (1989), “Child care practices of mothers: implications for intervention in acute
+respiratory infections”, Annals of Tropical Paediatrics, Vol. 9 No. 2, pp. 82-88, doi: 10.1080/
+02724936.1989.11748603.
+Villanueva, J.M. (2021), “Indigenous healing practices, policies and perceptions of young and Elderly
+Ga’dang people in Nueva Vizcaya, Philippines”, Journal of Natural Remedies, Vol. 21 No. 2,
+p. 149, doi: 10.18311/jnr/2021/25167.
+Visaya-Ceniza, R.A. (2015), “Dig to live: an Investigation of the Psychological well-being of Women
+Miners in Davao Oriental, Southeastern Philippines”, The Professional Counselor, Vol. 5 No. 1,
+pp. 91-99, doi: 10.15241/rav.5.1.91.
+Self-care
+practices for
+acute
+conditions
+397
+
+Willis, E. (2016), “Patients’ self-efficacy within online health communities: facilitating chronic disease
+self-management behaviors through peer education”, Health Communication, Vol. 31 No. 3,
+pp. 299-307, doi: 10.1080/10410236.2014.950019.
+World Health Organization (2002), Traditional Medicine Strategy 2002-2005, World Health
+Organization, available at: http://whqlibdoc.who.int/hq/2002/who_edm_trm_2002.1.pdf
+World Health Organization (2019), WHO Consolidated Guideline on Self-Care Interventions for Health:
+Sexual and Reproductive Health and Rights, World Health Organization, Geneva.
+Yoder, P.S. and Hornik, R.C. (1994), “Perceptions of severity of diarrhoea and treatment choice:
+a comparative study of HealthCom sites”, Journal of Tropical Medicine and Hygiene,
+Vol. 97, pp. 1-12.
+Zarsuelo, M.-A.M., Zordilla, Z.D. and Anacio, D.B. (2018), “Review of regulatory policies on and
+benefits of herbal medicine in the Philippines”, Acta Medica Philippina, Vol. 52 No. 5,
+pp. 473-479.
+Further reading
+Page, M.J., McKenzie, J.E., Bossuyt, P.M., Boutron, I., Hoffmann, T.C., Mulrow, C.D., et al. (2021), “The
+PRISMA, 2020 statement: an updated guideline for reporting systematic reviews”, BMJ,
+Vol. 372, n71, doi: 10.1136/bmj.n71.
+IJHG
+28,4
+398
+
+Supplemental material
+#
+Key themes
+Search details
+PubMed
+1
+Self-care practices
+(“self-care” [tiab] OR “Self-Care”[Mesh] OR “self-medication” [tiab] OR “Self-
+Medication”[Mesh] OR “OTC” [tiab] OR “OTC switch” [tiab] OR “over the
+counter” [tiab] OR “Nonprescription Drugs”[Mesh] OR “self-efficacy” [tiab]
+OR “Self-Efficacy”[Mesh] OR “self-management” [tiab] OR “Self-
+Management”[Mesh] OR “prescription sharing” [tiab] OR “TCAM” [tiab]
+OR “Complementary Therapies”[Mesh] OR “traditional medicine” [tiab] OR
+“traditional therapy” [tiab] OR “complementary therapies” [tiab] OR
+“complementary and alternative medicine” [tiab] OR “herbal medicine”
+[tiab] OR “herbal therapy” [tiab] OR “medicinal herbs” [tiab] OR “herbal
+extract” [tiab] OR “herbal product” [tiab] OR “herbal supplement” [tiab])
+2
+Health and health
+conditions
+(“health” [tiab] OR "Health"[Mesh] OR “minor ailment” [tiab] OR “acute
+condition” [tiab] OR “low back pain” [tiab] OR "Low Back Pain"[Mesh] OR
+“allergic rhinitis” [tiab] OR “Rhinitis, Allergic”[Mesh] OR “acute pain” [tiab]
+OR “Acute Pain”[Mesh] OR “cough” [tiab] OR “Cough”[Mesh] OR “cold”
+[tiab] OR “Common Cold”[Mesh] OR “diarrhea” [tiab] OR “Diarrhea”[Mesh]
+OR “constipation” [tiab] OR “Constipation”[Mesh] OR “stress” [tiab] OR
+“Stress, Psychological”[Mesh])
+3
+Philippines
+(Philippines [tiab] OR “Philippines”[Mesh])
+Search strategy: #1 AND #2 AND #3
+Scopus
+1
+Self-care practices
+TITLE-ABS-KEY (“self-care”) OR TITLE-ABS-KEY (“self-medication”)
+OR TITLE-ABS-KEY (“OTC”) OR TITLE-ABS-KEY (“OTC switch”) OR
+TITLE-ABS-KEY (“over the counter”) OR TITLE-ABS-KEY
+(“nonprescription”) OR TITLE-ABS-KEY (“self-efficacy”) OR TITLE-ABS-
+KEY (“self-management”) OR TITLE-ABS-KEY (“prescription sharing”)
+OR TITLE-ABS-KEY (“TCAM”) OR TITLE-ABS-KEY (“complementary
+therapies”) OR TITLE-ABS-KEY (“traditional medicine”) OR TITLE-ABS-
+KEY (“traditional medicine”) OR TITLE-ABS-KEY (“traditional therapy”)
+OR TITLE-ABS-KEY (“complementary therapy”) OR TITLE-ABS-KEY
+(“complementary and alternative medicine”) OR TITLE-ABS-KEY (“herbal
+medicine”) OR TITLE-ABS-KEY (“herbal therapy”) OR TITLE-ABS-KEY
+(“medicinal herb”) OR TITLE-ABS-KEY (“herbal extract”) OR TITLE-
+ABS-KEY (“herbal product”) OR TITLE-ABS-KEY (“herbal supplement”)
+2
+Health and health
+conditions
+TITLE-ABS-KEY (“health”) OR TITLE-ABS-KEY (“minor ailment”) OR
+TITLE-ABS-KEY (“acute condition”) OR TITLE-ABS-KEY (“low back
+pain”) OR TITLE-ABS-KEY (“back pain”) OR TITLE-ABS-KEY (“allergic
+rhinitis”) OR TITLE-ABS-KEY (“acute pain”) OR TITLE-ABS-KEY
+(“cough”) OR TITLE-ABS-KEY (“cold”) OR TITLE-ABS-KEY (“common
+cold”) OR TITLE-ABS-KEY (“diarrhea”) OR TITLE-ABS-KEY
+(“constipation”) OR TITLE-ABS-KEY (“stress”)
+3
+Philippines
+TITLE-ABS-KEY (“Philippines”)
+(continued)
+Table S1.
+Summary of the
+included studies
+Self-care
+practices for
+acute
+conditions
+399
+
+#
+Key themes
+Search details
+Search strategy: #1 AND #2 AND #3
+CINAHL
+1
+Self-care practices
+(MH “Self-Care Agency”) OR (MH “Self-Careþ”) OR “self-care” OR (MH
+“Self-Management”) OR (MH “Self-Diagnosisþ”) OR “self-management”
+OR (MH “Self-Medication”) OR “self-medication” OR “prescription sharing”
+OR “OTC” OR “OTC switch” OR “over the counter” OR “nonprescription
+drugs” OR (MH “Self-Efficacy”) OR (MH “Drugs, Non-Prescription”) OR
+“self-efficacy” OR (MH “Alternative Therapiesþ”) OR “complementary and
+alternative medicine” OR (MH “Medicine, Herbalþ”) OR “herbal medicine”
+OR “TCAM” or “complementary therapies” OR “traditional medicine” OR
+“traditional therapy” OR “medicinal herbs” OR “herbal therapy” OR
+“herbal extract” OR “herbal product” OR “herbal supplement”
+2
+Health and health
+conditions
+(MH “Healthþ”) OR “health” OR (MH “Acute Disease”) OR “acute
+condition” OR “minor ailment” OR (MH “Low Back Pain”) OR “low back
+pain” OR (MH “Back Painþ”) OR MH “Rhinitis, Allergic, Perennial”) OR
+(MH “Rhinitis, Allergic, Seasonal”) OR “allergic rhinitis” OR “acute pain”
+OR (MH “Cough”) OR “cough” OR (MH “Coldþ”) OR “cold” OR (MH
+“Common Cold”) OR (MH “Diarrhea”) OR “diarrhea” OR (MH
+“Constipationþ”) OR “constipation” OR (MH “Stressþ”) OR “stress” OR
+(MH “Stress, Physiologicalþ”)
+3
+Philippines
+(MH “Philippines”) OR “Philippines”
+Search strategy: #1 AND #2 AND #3
+ProQuest Central
+1
+Self-care practices
+MESH(Self-Care) OR AB,TI(self-care) OR MESH(Self-Medication) OR
+AB,TI(self-medication) OR AB,TI(OTC) OR AB,TI(“OTC switch”) OR
+AB,TI(“over the counter”) OR MESH(Nonprescription Drugs) OR
+MESH(Self-Efficacy) OR AB,TI(self-efficacy) OR AB,TI(self-management)
+OR MESH(Self-Management) OR AB,TI(prescription sharing) OR
+AB,TI(TCAM) OR MESH(Complementary Therapies) OR
+AB,TI(traditional medicine) OR AB,TI(traditional therapy) OR
+AB,TI(complementary therapies) OR AB,TI(complementary and
+alternative medicine) OR AB,TI(herbal medicine) OR AB,TI(herbal
+therapy) OR AB,TI(medicinal herbs) OR AB,TI(herbal extract) OR
+AB,TI(herbal product) OR AB,TI(herbal supplement)
+2
+Health and health
+conditions
+MESH(Health) OR AB,TI(health) OR AB,TI(“minor ailment”) OR
+AB,TI(“acute condition”) OR MESH(Low Back Pain) OR AB,TI(“low back
+pain”) OR MESH(Rhinitis, Allergic) OR AB,TI(allergic rhinitis) OR
+MESH(Acute Pain) OR AB,TI(“acute pain”) OR MESH(Cough) OR
+AB,TI(cough) OR MESH(Common Cold) OR AB,TI(cold) OR
+MESH(Diarrhea) OR AB,TI(diarrhea) OR MESH(Constipation) OR
+AB,TI(constipation) OR MESH(Stress, Psychological) OR AB,TI(stress)
+3
+Philippines
+MESH(Philippines) OR AB,TI(Philippines)
+Search strategy: #1 AND
+#2 AND #3
+JSTOR
+(((ab:(self-care) OR ab:(self-management)) AND ab:(health)) AND (Philippines)) AND la:(eng OR en)
+Subject restrictions
+health policy, health sciences, political science, population studies, public
+health, public policy and administration
+HERDIN
+“self-care” OR “self-management” OR “self-medication” OR “prescription sharing” OR “complementary
+therapy”
+Source(s): Author’s work
+Table S1.
+IJHG
+28,4
+400
+
+#
+Authors
+(Year)
+Title
+Objectives
+Design and method
+of data collection
+Setting
+Population and
+sample size
+Results
+1
+Balangcod
+TD and
+Balangcod
+AKD (2011)
+Ethnomedical knowledge
+of plants and healthcare
+practices among the
+Kalanguya tribe in Tinoc,
+Ifugao, Luzon, Philippines
+To document the
+indigenous knowledge of
+medicinal plants and
+healthcare practices
+among the Kalanguya in
+Tinoc, Ifugao and
+provide insights on some
+possible threats to their
+traditional knowledge
+•
+Mixed-methods
+•
+Extensive
+survey, focus
+group
+discussions,
+interviews
+Tinoc, Ifugao
+A total of 150
+individuals
+(16–90 years) were
+interviewed
+including the elderly
+and mabakis (local
+priests)
+•
+Colds: Mixture of leaves of Hibiscus
+rosa-sinensis, Citrus limon, Persea
+americana
+•
+Stomachache, dysentery, cough,
+muscle cramps: Hapal
+•
+Stomachache and stomach-related
+ailments: Preparations made by
+boiling leaves or stems or both, then
+taken as tea
+2
+Balilla et al.
+(2014)
+The assimilation of
+Western medicine into a
+semi-nomadic healthcare
+system: A case study of
+the Indigenous Aeta
+Magbukun, Philippines
+To provide a snapshot in
+time of simple Aeta
+Magbukun
+demographics, the self-
+reported subjective
+health levels and level of
+traditional
+ethnomedicine and
+Western medicine use
+within the past 2 weeks
+•
+Mixed-methods
+•
+Participant
+observations,
+informal
+interviews and
+community
+health survey
+Aeta village,
+Mariveles,
+Bataan
+Entire Aeta
+Magbukun
+community with 107
+members and 21
+families
+•
+Cough and colds: Honey
+•
+Stomach pain: Pangangagun
+(traditional healing by a shaman)
+later taken to the hospital
+3
+Barber et al.
+(2017)
+Prevalence and correlates
+of antibiotic sharing in the
+Philippines: antibiotic
+misconceptions and
+community-level access to
+non-medical sources of
+antibiotics
+To identify
+sociodemographic,
+knowledge and
+attitudinal correlates to
+antibiotic sharing among
+a community-based
+sample of adults (age 18
+and older) in a low-
+income setting of the
+Philippines and to
+explore community-level
+data on informal
+antibiotic distribution in
+roadside stands
+•
+Cross-sectional
+•
+Self-
+administered
+survey
+Low-income
+area in Central
+Visayas
+3,007 participants
+(age 18 or older)
+were recruited via
+convenience
+sampling
+Common cold and cough: Antibiotics
+(continued)
+Table S2.
+Summary of the
+included studies
+Self-care
+practices for
+acute
+conditions
+401
+
+#
+Authors
+(Year)
+Title
+Objectives
+Design and method
+of data collection
+Setting
+Population and
+sample size
+Results
+4
+Bernardo
+and
+Tolentino
+(2019)
+Community social capital
+and health status and
+health-seeking behaviors
+among the elderly
+To examine the
+relationships of
+community social capital
+and health status and
+health-seeking behaviors
+of the elderly in a rural
+community in the
+Philippines
+•
+Cross-sectional
+•
+Survey
+Rural
+community of
+Quezon, Nueva
+Ecija
+120 elderly aged
+60 years and above
+randomly selected
+for the survey
+Cough and headache: Self-medication
+(unspecified)
+5
+Caringal-Go
+et al. (2021)
+Work-life balance crafting
+during COVID-19:
+exploring strategies of
+telecommuting employees
+in the Philippines
+To explore the work-life
+balance (WLB) crafting
+strategies of employees
+with telecommuting
+work arrangements
+during the COVID-19
+pandemic
+•
+Mixed-methods
+•
+Online survey
+Philippines
+170 participants
+18 years old and
+above and have been
+employed for at least
+6 months at the time
+of the survey
+•
+Stress: Exercise after work
+•
+Burn out: Quick breaks from work or
+disengage by navigating the fluidity
+between work, rest and leisure
+6
+Cleofas
+(2021)
+Self-care practices and
+online student
+engagement during
+Covid-19 in the
+Philippines: A mixed-
+methods study
+To determine the
+relationship between
+self-care practices and
+online student
+engagement and
+describe the barriers in
+practising self-care
+among undergraduate
+students during the
+pandemic
+•
+Mixed-methods
+•
+Online survey
+De La Salle
+University
+202 university
+students
+•
+Stress: Meet with friends
+•
+Stress: Spend time outside to get
+fresh air
+(continued)
+Table S2.
+IJHG
+28,4
+402
+
+#
+Authors
+(Year)
+Title
+Objectives
+Design and method
+of data collection
+Setting
+Population and
+sample size
+Results
+7
+Cordero and
+Alejandro
+(2021)
+Medicinal plants used by
+the indigenous Ati tribe in
+Tobias Fornier, Antique,
+Philippines
+To document the
+ethnobotanical
+knowledge on the
+medicinal plants used by
+the indigenous Ati tribe
+in Sitio Pantad, Brgy.
+Igcalawagan, Tobias
+Fornier, Antique
+•
+Qualitative
+•
+Interviews and
+focus group
+discussions
+Sitio Pantad,
+Brgy.
+Igcalawagan,
+Tobias Fornier
+(formerly Dao)
+Antique
+22 informants
+(>10% of the Ati
+population in Sitio
+Pantad)
+•
+Cough, diarrhea, stomachache,
+pulmonary problems: C. cainito
+leaves, stem, or barks boiled alone or
+with Syzygium cumini (L.) Skeels and
+Pithecellobium dulce (Roxb.) Benth to
+be taken orally
+•
+Diarrhea, stomachache:
+H. suaveolens leaves heated and
+crushed, then applied on the
+stomach; leaves pounded and
+wrapped in banana leaf with seven
+rice grains, heated over the flame,
+then applied; roots boiled and
+decoction taken orally
+8
+Cruz et al.
+(2011)
+Awareness, usage and
+perception of food
+supplements among adult
+residents in Metro Manila
+To determine extent of
+current awareness,
+usage and perception of
+food supplements among
+adult residents in Metro
+Manila
+•
+Cross-sectional
+•
+Survey
+Metro Manila
+1,809 respondents
+(800 male and 1,009
+female) aged
+20 years and older
+who were subjects
+from sampled
+households included
+in the
+7th National
+Nutrition Survey
+(NNS) conducted in
+Metro Manila in
+2008
+Cough: Food supplements
+(continued)
+Table S2.
+Self-care
+practices for
+acute
+conditions
+403
+
+#
+Authors
+(Year)
+Title
+Objectives
+Design and method
+of data collection
+Setting
+Population and
+sample size
+Results
+9
+Del Mundo
+et al. (2019)
+Solo mother’s challenges
+and coping strategies:
+A phenomenological
+study in City of Manila
+To chart the challenges
+faced by solo mothers
+and to identify the
+coping strategies they
+employed through
+understanding their
+lived experiences
+•
+Qualitative
+•
+Interviews
+Manila
+13 solo mothers who
+raised their child
+alone
+Stress: Engaging in various activities
+including hiking, mountain climbing,
+exercising and dancing
+10 Hardon
+(1987)
+The use of modern
+pharmaceuticals in a
+Filipino village: Doctor’s
+prescription and self-
+medication
+To describe the use of
+modern pharmaceuticals
+in the common childhood
+illnesses of diarrhoea
+and respiratory infection
+in a Filipino rural village
+•
+Cross-sectional
+•
+Survey
+Rural village
+Mothers of 51
+children under the
+age of 18 months
+•
+Diarrhea: No medication, self-
+medication and doctors’ consultation
+•
+Diarrhea: Pharmaceuticals including
+anti-diarrheal combination products,
+analgesics, antibiotics
+•
+Cough: No medication, self-
+medication and doctors’ consultation
+•
+Cough: Analgesics, cough syrups,
+antibiotics and combinations of
+medications
+11 Katelaris
+et al. (2011)
+Nasal allergies in the
+Asian–Pacific population:
+Results from the Allergies
+in Asia–Pacific Survey
+To assess the prevalence
+of physician-diagnosed
+allergic rhinitis (AR) and
+its impact on quality of
+life (QOL), as well as
+existing treatment
+paradigms and patterns
+and gaps associated with
+AR
+•
+Cross-sectional
+•
+Interviewer-
+assisted survey
+Philippines
+1,285 individuals
+aged 4 and above
+who have reported
+currently
+experiencing or
+being treated for AR
+and having been
+diagnosed by a
+physician as having
+AR, nasal allergies
+(NAs), hay fever, or
+sinus disease within
+the past 1 year
+•
+Allergic rhinitis: Used prescribed
+medication
+•
+Allergic rhinitis: Used over-the-
+counter medication
+(continued)
+Table S2.
+IJHG
+28,4
+404
+
+#
+Authors
+(Year)
+Title
+Objectives
+Design and method
+of data collection
+Setting
+Population and
+sample size
+Results
+12 Kim et al.
+(2014)
+Factors influencing
+healthcare utilization
+among children with
+pneumonia in Muntinlupa
+City, the Philippines
+To evaluate factors
+influencing choice of
+healthcare institution to
+bring their children with
+pneumonia symptoms in
+Muntinlupa City, the
+Philippines
+
+Cross-sectional
+
+Survey
+Muntinlupa
+City
+1,330 caregivers of
+children aged 4 and
+below with
+pneumonia
+symptoms
+Pneumonia symptoms including cough:
+Bought medications without a
+prescription (choosing a brand previously
+prescribed by a doctor; choosing a brand
+suggested by a pharmacist)
+13 Maglalang-
+Co et al.
+(1999)
+Drug utilization patterns
+and their determinants
+among self-medicators of
+common illnesses in
+Barangay 402, Zone 41,
+4th District, Sampaloc,
+Manila
+To determine the pattern
+of drug utilization for
+cough, fever, headache
+and diarrhea and to
+describe the factors that
+influence drug use in the
+community among self-
+medicators
+•
+Cross-sectional
+•
+Survey
+Sampaloc,
+Manila
+195 households with
+1,051 family
+members who
+reported one or more
+of the common
+illnesses considered
+in the study
+•
+Cough: mucolytics, expectorants,
+antibiotics, antitussives, herbal
+[oregano (Origanum vulgare),
+lagundi (Vitex negundo), luya
+(Zingiber officinale), Chinese herbs)],
+bronchodilators
+•
+Diarrhea: Attapulgite, oral
+rehydration solution, Loperamide,
+Diphenoxylate, antibiotics, Herbal,
+Antacid
+14 Marquez
+et al. (2020)
+A descriptive study on the
+preferences of community
+members toward
+utilization of herbal
+medication
+compared to synthetic
+drugs in the National
+Capital Region,
+Philippines
+To determine the
+preference of specific
+community members in
+the National Capital
+Region toward the usage
+of herbal medications
+compared to synthetic
+drugs
+•
+Cross-sectional
+•
+Survey
+National Capital
+Region
+50 aged above 30
+purposely selected
+adult participants
+living within the
+National Capital
+Region
+•
+Aches: Crushed leaves of oregano
+•
+Stomachache and other gastric
+problems: Decoctions of oregano
+leaves
+•
+Respiratory tract: Crushed and
+inhaled Oregano leaves
+(continued)
+Table S2.
+Self-care
+practices for
+acute
+conditions
+405
+
+#
+Authors
+(Year)
+Title
+Objectives
+Design and method
+of data collection
+Setting
+Population and
+sample size
+Results
+15 McNee et al.
+(1995)
+Responding to cough:
+Boholano illness
+classification and resort to
+care in response to
+childhood ARI
+To explain health-
+seeking behavior of
+caretakers in response to
+ARI in children under
+five years of age
+•
+Qualitative
+•
+In-depth
+interviews and
+focus group
+discussions
+Bohol
+101 caretakers of
+children under five
+years of age with
+ARI
+•
+Cough: Home treatment, usually
+herbal mixtures and cough syrups
+•
+Cough due to sprain (piang) or winds
+(panuhot): Herbal therapies and
+massage through traditional healers
+•
+Cough with persistence of phlegm:
+Doctor who usually prescribes
+medications such as antibiotics
+16 Morfe and
+Lim (2013)
+Complementary and
+alternative medicine
+among Filipinos:
+prevalence, costs and
+patterns of use
+To determine the
+prevalence, costs and
+patterns of
+complementary and
+alternative medicine
+(CAM) use among
+Filipinos and identifying
+likely factors that
+influence practice
+•
+Cross-sectional
+•
+Survey
+Hospital in
+Metro Manila
+100 respondents
+aged 18 years or
+older
+•
+Musculoskeletal pains: Aromatic and
+soothing oils, liniments and balms
+•
+Musculoskeletal pains: Manipulative
+therapy
+•
+Diarrhea: Local herbal concoctions
+17 Nichter and
+Nichter
+(1993)
+Acute respiratory illness
+(ARI): Popular health
+culture and mother’s
+knowledge in the
+Philippines
+To explore and
+understand local
+knowledge, sign
+recognition, perceptions
+of severity and cultural
+factors influencing
+health care seeking of
+mothers
+•
+Qualitative
+•
+Interviews with
+structured
+research
+exercises
+Oriental
+Mindoro
+70 lower-class rural
+mothers with at least
+one child under
+5 years of age
+•
+ARI symptoms including cough and
+cold: Keeping a shirt on the child
+against the wind and changing a
+child’s shirt to prevent perspiration
+drying on the back
+•
+ARI symptoms including cough:
+Antibiotics and over-the-counter
+cough syrup
+•
+ARI symptoms: Treatment by a
+traditional healer
+(continued)
+Table S2.
+IJHG
+28,4
+406
+
+#
+Authors
+(Year)
+Title
+Objectives
+Design and method
+of data collection
+Setting
+Population and
+sample size
+Results
+18 Obermeyer
+et al. (2004)
+Gender and medication
+use: An exploratory,
+multi-site study
+To explore differences in
+women’s and men’s
+patterns of medication
+use
+•
+Cross-sectional
+•
+Survey
+Iloilo
+80 participants aged
+15–64 years old
+•
+Body aches: Medicine (unspecified)
+•
+Respiratory: Medicine (unspecified)
+•
+Gastrointestinal: Medicine
+(unspecified)
+•
+Psychosomatic: Medicine
+(unspecified)
+19 Ong and
+Kim (2014)
+Quantitative
+ethnobotanical study of
+the medicinal plants used
+by the Ati Negrito
+indigenous group in
+Guimaras island,
+Philippines
+To document the
+medicinal plants and
+their use in traditional
+therapies and to evaluate
+the medicinal plant
+knowledge and practices
+of the Ati indigenous
+people in Guimaras
+Island, Philippines
+•
+Qualitative
+•
+Interviews
+Guimaras
+65 participants
+(about 10% of the
+entire Guimaras Ati
+population) with age
+range of 18–83 years
+old representing
+different social roles
+and positions were
+interviewed
+•
+Cough: Buti-buti (Aerva lanata L.),
+sibuyas bombay (Allium cepa L),
+Babana (Annona muricata L.),
+Baston ni San Jose (Cordyline
+fruticosa A. (L.).Chev), Artamisa
+(Artemisia vulgaris L.), Oregano
+Plectranthus amboinicus (Lour.)
+Spreng), Adgaw/Agdaw (Premna
+odorata Blanco), Lagundi (Vitex
+trifolia subsp. litoralis Steenis),
+Labnog/Lamnog (Ficus
+septica Burm.f.), Malunggay
+(Moringa oleifera L.), Tanglad
+(Cymbopogon schoenanthus (L.)
+Spreng.), Luy-a (Zingiber officinale
+Roscoe)
+•
+Stomachache: Hitang-hitang/Itang-
+itang (Alstonia macrophylla Wall. ex
+G.Don)
+•
+Diarrhea: Rosas de baybayon
+(Catharanthus roseus (L.) G.Don),
+Abukado (Persea americana Mill.),
+Santol (Sandoricum koetjape
+(Burm.f.) Merr.), Tagpo-bayi (Ardisia
+elliptica Thunb.), Tagpo-laki (Ixora
+philippinensis Merr)
+(continued)
+Table S2.
+Self-care
+practices for
+acute
+conditions
+407
+
+#
+Authors
+(Year)
+Title
+Objectives
+Design and method
+of data collection
+Setting
+Population and
+sample size
+Results
+•
+Constipation: Kapayas (Carica
+papaya L.), Ubi (Dioscorea alata L.),
+Banayan (Dioscorea glabra Roxb.),
+Tugabang (Corchorus olitorius L.)
+•
+Diarrhea: Dapdap (Erythrina
+variegata L.), Luko-luko/Albaka
+(Hyptis suaveolens (L.) Poit.),
+Lumboy (Syzygium cumini (L.)
+Skeels), Kamatis (Solanum
+lycopersicum L.)
+20 Sato et al.
+(2018)
+Father’s roles and
+perspectives on
+healthcare seeking for
+children with pneumonia:
+findings of a qualitative
+study in a rural
+community of the
+Philippines
+To reveal fathers’ roles
+and perspectives with
+respect to the selection of
+care and treatment for
+children with pneumonia
+in a remote island of the
+Philippines
+•
+Qualitative
+•
+Semi-structured
+interviews
+Municipality of
+Caibiran of
+Biliran Province
+in the Eastern
+Visayas Region
+12 fathers whose
+children had
+pneumonia-like
+episodes in the
+6 months prior to the
+interview
+•
+Pneumonia-like symptoms including
+cough: Oregano and five-leaved
+chaste tree leaves (boiling the leaves,
+crushing or stemming the leaves,
+squeezing out the juice; adding lemon
+and sugar or milk)
+•
+Pneumonia-like symptoms including
+cough: Antibiotics bought without
+prescription or obtained from
+neighbors and relatives
+(continued)
+Table S2.
+IJHG
+28,4
+408
+
+#
+Authors
+(Year)
+Title
+Objectives
+Design and method
+of data collection
+Setting
+Population and
+sample size
+Results
+21 Simon et al.
+(1996)
+Caretakers’ management
+of childhood acute
+respiratory infections
+(ARI) and the use of
+antibiotics, Bohol, the
+Philippines
+To describe home
+management, health-
+seeking behavior and
+attitudes and practices
+with regard to the
+administration of
+pharmaceuticals for ARI
+•
+Qualitative
+•
+Interviews and
+observations
+Bohol
+65 mothers and 12
+grandmothers
+presenting with sick
+children under
+5 years of age
+•
+ARI symptoms including cough:
+Traditional remedies such as herbs,
+boiled water (tuob), infusions of onion
+leaves, lemon, lime, tomato juice
+•
+ARI symptoms including cough:
+medicines, cough syrups,
+embrocations such as Vicks
+Vaporub™, antipyretics, analgesics
+and bronchodilators from previous
+prescriptions
+•
+ARI symptoms: Specific over-the-
+counter and prescription medicines
+including Tikitiki™syrup,
+Aspilet™, Biogesic™, Coricidin™,
+Cortal, Medicol™, Paracetamol
+syrup, Tempra™, Rexidol™,
+Loviscol™, Salbutamol, Ventolin,
+Bricanyl™, Afebrin™and vitamins
+and Vicks Vaporub™, Kerosene and
+other rubefacients for the chest and
+antibiotics although seldom
+22 Tupasi et al.
+(1989)
+Child care practices of
+mothers: implications for
+intervention in acute
+respiratory infections
+(ARI)
+To identify determinants
+of child care practices of
+mothers
+•
+Qualitative
+•
+Survey and
+focus group
+discussions
+Bohol
+5,603 mothers of
+children under
+5 years of age for the
+survey and 56
+included for the
+focus group
+discussions
+•
+ARI symptoms including cough:
+Medicines previously prescribed or
+medicines chosen by trial-and-error
+based on advice of relatives or health
+workers or on advertisements
+•
+ARI symptoms including cough:
+Herbal medicines, antibiotics,
+antipyretics, cough mixtures,
+massage with balm of oil and
+kerosene
+(continued)
+Table S2.
+Self-care
+practices for
+acute
+conditions
+409
+
+#
+Authors
+(Year)
+Title
+Objectives
+Design and method
+of data collection
+Setting
+Population and
+sample size
+Results
+23 Villanueva
+(2021)
+Indigenous healing
+practices, policies and
+perceptions of young and
+elderly Ga’dang People in
+Nueva Vizcaya,
+Philippines
+To explore typical forms
+of indigenous healing
+practices, policies and
+perceptions of young and
+elderly Ga’dang
+(Indigenous Filipino
+peoples) in Nueva
+Vizcaya, Philippines
+•
+Qualitative
+•
+Observations,
+focus group
+discussions,
+interviews
+Nueva Vizcaya
+Ga’dang elderly in
+Nueva Vizcaya
+•
+Body pain, stomach ache: Massage
+and body therapy; decoction of
+leaves of atis, anonang (Cordia
+dichotoma) and bamboo for bathing,
+then application of coconut oil to the
+body with pain
+•
+Body pain and other pain brought
+about by stress and tension: Cotton
+with coconut oil set on fire, then
+covered with glass
+•
+Stomach ache for children: Coconut
+oil to the stomach
+•
+Cough: smoke from dried leaves or
+juice of extracted leaves [lasona
+(Allium cepa); gawed/ikmo/momma
+(Piper betle)]
+24 Visaya-
+Ceniza
+(2015)
+Dig to live: An
+investigation of the
+psychological well-being
+of women miners in
+Davao Oriental,
+Southeastern Philippines
+To determine the
+psychosocial health
+status of women
+artisanal miners in the
+Philippines
+•
+Mixed-methods
+•
+Survey,
+interviews,
+observations,
+focus group
+discussions
+Davao Oriental
+26 women miners
+ages 26–70
+•
+Stress: Coping through mining work
+to regain a sense of self-worth
+•
+Stress: Prayers
+•
+Stress: Join religious organizations to
+express feelings with fellow
+members
+•
+Stress: Watching teleseryes as a
+means of relaxation
+•
+Stress: Pastimes including karaoke,
+bingo, other social activities
+(continued)
+Table S2.
+IJHG
+28,4
+410
+
+#
+Authors
+(Year)
+Title
+Objectives
+Design and method
+of data collection
+Setting
+Population and
+sample size
+Results
+25 Yoder and
+Hornik
+(1994)
+Perceptions of severity of
+diarrhea and treatment
+choice: comparative study
+of HealthCom sites
+To examine the
+association of treatments
+given for childhood
+diarrhea with the
+severity of the illness as
+perceived by mothers
+and caretakers
+•
+Cross-sectional
+•
+Survey
+Philippines
+1,200 women with
+one or more children
+less than 5 years old
+•
+Diarrhea: Oral rehydration therapy
+•
+Diarrhea: Herbal medicine and
+enema
+•
+Diarrhea: Antibotics and anti-
+diarrheals
+26 Zarsuelo
+et al. (2018)
+Review of regulatory
+policies on and benefits of
+herbal medicine in the
+Philippines
+To review the current
+regulatory policies on
+production, registration,
+promotion and use of
+herbal medicines in the
+country
+•
+Review
+Philippines
+Local policies and
+guidelines
+•
+Cough: Lagundi
+•
+Diarrheal diseases: Tsaang gubat
+(Carmona retusa (Vahl) Masamune)
+•
+Body aches and pain: Yerba buena
+Source(s): Authors’ work
+Table S2.
+Self-care
+practices for
+acute
+conditions
+411
+
+Author Affiliations
+Arianna Maever Loreche, Center for Research and Innovation, Ateneo School of Medicine and Public
+Health, Ateneo de Manila University, Pasig, Philippines and National Clinical Trials and Translation
+Center, National Institutes of Health, University of the Philippines Manila, Manila, Philippines
+Veincent Christian F. Pepito, Manuel M. Dayrit, Center for Research and Innovation, Ateneo School of
+Medicine and Public Health, Ateneo de Manila University, Pasig, Philippines
+Corresponding author
+Arianna Maever Loreche can be contacted at: aamit@ateneo.edu
+For instructions on how to order reprints of this article, please visit our website:
+www.emeraldgrouppublishing.com/licensing/reprints.htm
+Or contact us for further details: permissions@emeraldinsight.com
+IJHG
+28,4
+412

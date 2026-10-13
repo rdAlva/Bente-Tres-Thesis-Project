@@ -1,0 +1,366 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+2021 
+Early Response to COVID-19 in the Philippines 
+Early Response to COVID-19 in the Philippines 
+Arianna Maever L. Amit 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, aamit@ateneo.edu 
+Veincent Christian F. Pepito 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, vpepito@ateneo.edu 
+Manuel M. Dayrit 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, mdayrit@ateneo.edu 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Health Policy Commons, Public Administration Commons, and the Public Health 
+Commons 
+Custom Citation 
+Custom Citation 
+Amit, A. M. L., Pepito, V. C. F., & Dayrit, M. M. (2021). Early response to COVID-19 in the Philippines. 
+Western Pacific Surveillance and Response, 12(1). https://doi.org/10.5365/wpsar.2020.11.1.014 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact research@ateneo.edu. 
+
+www.wpro.who.int/wpsar
+1
+WPSAR Vol 12, No 1, 2021  | doi: 10.5365/wpsar.2020.11.1.014
+Perspective
+a	 College of Medicine, University of the Philippines Manila, Manila, Philippines.
+b	 School of Medicine and Public Health, Ateneo de Manila University, Pasig City, Philippines.
+Published: 5 February 2021
+doi: 10.5365/wpsar.2020.11.1.014
+THE PHILIPPINE HEALTH SYSTEM AND 
+THE THREAT OF PUBLIC HEALTH EMER-
+GENCIES
+D
+espite improvements during the past decade, 
+the Philippines continues to face challenges 
+in responding to public health emergencies 
+because of poorly distributed resources and capacity. 
+The Philippines has 10 hospital beds and six 
+physicians per 10 000 people.1,2 and only about 
+2335 critical care beds nationwide.3 The available 
+resources are concentrated in urban areas, and rural 
+areas have only one physician for populations up to 
+20 000 people and only one bed for a population of 
+1000.4 Disease surveillance capacity is also unevenly 
+distributed among regions and provinces. The primary 
+care system comprises health centres and community 
+health workers, but these are generally ill-equipped 
+and poorly resourced, with limited surge capacity, as 
+evidenced by lack of laboratory testing capacity, limited 
+equipment and medical supplies, and lack of personal 
+protective equipment for health workers in both primary 
+care units and hospitals.5 Local government disaster 
+preparedness plans are designed for natural disasters 
+and not for epidemics.
+Inadequate, poorly distributed resources and ca-
+pacity nationally and subnationally have made it difficult 
+to respond adequately to public health emergencies in 
+the past, as in the case of typhoon Haiyan in 2013.6 
+The typhoon affected 13.3 million people, overwhelm-
+ing the Government’s capacity to mobilize human and 
+financial resources rapidly to affected areas.7 Failure 
+to deliver basic needs and health services resulted in 
+disease outbreaks, including a community outbreak of 
+gastroenteritis.8 Access to care has improved in recent 
+years due to an increase in the number of private hos-
+pital beds;5 however, improvements in private sector 
+facilities mainly benefit people who can afford them, in 
+both urban and rural areas.
+In this paper, we describe the challenges and early 
+response of the Philippine Government, focusing on 
+travel restrictions, community interventions, risk com-
+munication and testing, from 30 January 2020 when 
+the first case was reported, to 21 March 2020.
+EARLY RESPONSE TO COVID-19
+Travel restrictions
+Travel restrictions in the Philippines were imposed 
+as early as 28 January, before the first confirmed 
+case was reported on 30 January (Fig. 1a).9  After the 
+first few COVID-19 cases and deaths, the Government 
+conducted contact tracing and imposed additional 
+travel restrictions,10 with arrivals from restricted coun-
+tries subject to 14-day quarantine and testing. While 
+Early response to COVID-19 in the  
+Philippines
+Arianna Maever L. Amit,a,b Veincent Christian F. Pepitoa,b and Manuel M. Dayritb
+Correspondence to Arianna Maever L. (email: alamit@up.edu.ph)
+Low- and middle-income countries (LMICs) with weak health systems are especially vulnerable during the COVID-19 
+pandemic. In this paper, we describe the challenges and early response of the Philippine Government, focusing on travel 
+restrictions, community interventions, risk communication and testing, from 30 January 2020 when the first case was 
+reported, to 21 March 2020. Our narrative provides a better understanding of the specific limitations of the Philippines 
+and other LMICs, which could serve as basis for future action to improve national strategies for current and future public 
+health outbreaks and emergencies.
+Low- and middle-income countries (LMICs) with weak health systems are especially vulnerable during the COVID-19 
+pandemic. In this paper, we describe the challenges and early response of the Philippine Government, focusing on travel 
+restrictions, community interventions, risk communication and testing, from 30 January 2020 when the first case was 
+reported, to 21 March 2020. Our narrative provides a better understanding of the specific limitations of the Philippines 
+and other LMICs, which could serve as basis for future action to improve national strategies for current and future public 
+health outbreaks and emergencies.
+
+WPSAR Vol 12, No 1, 2021  | doi: 10.5365/wpsar. 2020.11.1.014
+www.wpro.who.int/wpsar
+2
+Amit et al
+Early response to COVID-19 in the Philippines
+only briefly, as the number of confirmed cases increased 
+in the weeks that followed.11 Fig. 1b shows all interven-
+tions, including travel restrictions undertaken before 6 
+March, when the Government declared the occurrence 
+of community spread, and after 11 March, when WHO 
+declared COVID-19 a pandemic.
+travel restrictions in the early phase of the COVID-19 
+response prevented spread of the disease by potentially 
+infected people, travellers from countries not on the 
+list of restricted countries were not subject to the same 
+screening and quarantine protocols. The restrictions 
+were successful in delaying the spread of the disease 
+Fig. 1a.	
+New cases of COVID-19 in the Philippines, 30 January–21 March 2020
+Community transmission reported
+in the Philippines
+Number of new cases
+01 Feb 2020
+0
+20
+40
+60
+80
+15 Feb 2020
+01 Mar 2020
+15 Mar 2020
+Declaration of state of public
+health emergency
+WHO declares COVID-19
+a pandemic
+Fig. 1b.	
+Timeline of key events and developments in the Philippines, 30 January–21 March 2020
+Travel restrictions
+Hubei Province, China
+Mainland China, Hong Kong SAR (China), Macau SAR (China)
+Taiwan (China)
+Republic Korea (select areas)
+Flexible work arrangements
+Prohibition of mass gatherings
+Suspension of classes
+Metro Manila under ECQ
+ECQ extended to entire Luzon
+Ramping up of testing capacity
+Field testing of local test kits
+Community transmission reported
+in the Philippines
+01 Feb 2020
+15 Feb 2020
+15 Mar 2020
+01 Mar 2020
+Declaration of state of public
+health emergency
+WHO declares COVID-19
+a pandemic
+Community interventions
+Testing
+
+WPSAR Vol 12, No 1, 2021  | doi: 10.5365/wpsar.2020.11.1.014
+www.wpro.who.int/wpsar
+3
+Early response to COVID-19 in the Philippines
+Amit et al
+that health systems were not overwhelmed.14 While the 
+lockdown implemented by the Government applied only 
+to the island of Luzon, local governments in other parts 
+of the country followed this example and also locked 
+down. The ECQ gave the country the opportunity to 
+mobilize resources and organize its pandemic response, 
+which was especially important in a country with poorly 
+distributed, scarce resources and capacity.
+Risk communication
+The Government strengthened and implemented na-
+tional risk communication plans to provide information 
+on the new disease. The Government conducted daily 
+press briefings, sponsored health-related television and 
+Internet advertisements and circulated infographics on 
+social media. Misinformation and conspiracy theories 
+about COVID-19 were nevertheless a challenge for a 
+population that spends more than 10 hours a day on the 
+Internet.15,16 These spread quickly and became increas-
+ingly difficult to correct. Furthermore, the Government’s 
+messages did not reach all households, despite access 
+Community interventions
+The Government declared “enhanced community quar-
+antine” (ECQ) for Metro Manila between 15 March and 
+14 April (Fig.  2a), which was subsequently extended 
+to the whole island of Luzon (Fig. 2b). The quarantine 
+consisted of: strict home quarantine in all households, 
+physical distancing, suspension of classes and introduc-
+tion of work from home, closure of public transport 
+and non-essential business establishments, prohibition 
+of mass gatherings and non-essential public events, 
+regulation of the provision of food and essential health 
+services, curfews and bans on sale of liquor and a 
+heightened presence of uniformed personnel to enforce 
+the quarantine procedures.12 ECQ – an unprecedented 
+move in the country’s history – was modelled on the 
+lockdown in Hubei, China, which was reported to have 
+slowed disease transmission.13 Region-wide disease 
+control interventions, such as quarantining of the entire 
+Luzon island, were challenging to implement because 
+of their scale and social and economic impacts, but 
+they were deemed necessary to “flatten the curve” so 
+Fig. 2.	
+Provinces placed under enhanced community quarantine (ECQ). (2a) The Government declared ECQ in 
+Metro Manila effective 15 March 2020; (2b) The Government declared ECQ on the entire island of Luzon 
+effective 17 March 2020.
+2a
+2b
+
+WPSAR Vol 12, No 1, 2021  | doi: 10.5365/wpsar. 2020.11.1.014
+www.wpro.who.int/wpsar
+4
+Amit et al
+Early response to COVID-19 in the Philippines
+ness, surveillance and testing capacity in particular is 
+a lesson that the Philippines and other LMICs should 
+learn from COVID-19.
+Acknowledgements
+None
+Conflict of interests
+None reported
+Funding
+Not applicable
+References
+1. 	 Hospital beds (per 1,000 people). Washington, DC: World Bank; 
+2020. 
+Available 
+from: 
+https://data.worldbank.org/indicator/
+SH.MED.BEDS.ZS.
+2. 	 World Bank open data. Washington, DC: World Bank; 2019. 
+Available from: https://data.worldbank.org/, accessed 18 March 
+2020.
+3. 	 Phua J, Faruq MO, Kulkarni AP, Redjeki IS, Detleuxay K, Mend-
+saikhan N, et al. Asian Analysis of Bed Capacity in Critical Care 
+(ABC) Study Investigators, and the Asian Critical Care Clinical Tri-
+als Group. Critical care bed capacity in Asian countries and re-
+gions. Crit Care Med. 2020;48(5):654–62. 
+4. 	 Human resources for health country profiles: Philippines. Ma-
+nila: WHO Regional Office for the Western Pacific; 2013. 
+Available 
+from: 
+https://iris.wpro.who.int/bitstream/han-
+dle/10665.1/7869/9789290616245_eng.pdf.
+5. 	 Dayrit M, Lagrada L, Picazo O, Pons M, Villaverde M. The Philip-
+pines health system review. New Delhi: WHO Regional Office for 
+South-East Asia; 2018. Available from: https://apps.who.int/iris/
+handle/10665/274579, accessed 28 August 2020.
+6. McPherson M, Counahan M, Hall JL. Responding to Typhoon Hai-
+yan in the Philippines. West Pac Surveill Response. 2015 Nov 
+6;6(Suppl1):1–4. doi:10.5365/wpsar.2015.6.4.HYN_026
+7. 	 Santiago JSS, Manuela WS Jr, Tan MLL, Sañez SK, Tong AZU. Of 
+timelines and timeliness: lessons from typhoon Haiyan in early 
+disaster response. Disasters. 2016;40(4):644–67. 
+8. 	 Ventura RJ, Muhi E, de los Reyes VC, Sucaldito MN, Tayag E. 
+A community-based gastroenteritis outbreak after typhoon Hai-
+yan, Leyte, Philippines, 2013. West Pac Surveill Response. 
+2015;6(1):1–6. 
+9. 	 Inter-Agency Task Force for the Management of Emerging Infec-
+tious Diseases. Resolution No. 01. Recommendations for the 
+management of the novel coronavirus situation. Manila: Depart-
+ment of Health; 2020. Available from: https://www.officialgazette.
+gov.ph/downloads/2020/01jan/20200128-IATF-RESOLUTION-
+NO-1-RRD.pdf, accessed 3 June 2020.
+10. 	February files. Manila: Civil Aeronautics Board; 2020. Available 
+from: 
+https://www.cab.gov.ph/announcements/category/febru-
+ary-16, accessed 19 March 2020.
+to health services and information, resulting in limited 
+knowledge of preventive practices, except for hand-
+washing.17
+Testing
+Testing is key to controlling the pandemic but was done 
+on a small scale in the Philippines. As of 19 March, 
+fewer than 1200 individuals had been tested,11 as only 
+the Research Institute for Tropical Medicine located in 
+Metro Manila performed tests and assisted subnational 
+reference laboratories in testing.18 No positivity rates 
+for RT-PCR tests were reported until early April 2020. 
+Because of the limited capacity for testing at the start 
+of the pandemic, the Department of Health imposed 
+strict protocols in order to ration testing resources while 
+ramping up testing capacity. Most tests were conducted 
+for individuals in urban areas, where the incidence was 
+highest.19
+CONCLUSIONS
+At the start of the COVID-19 pandemic, the country’s 
+initial response lacked organizational preparedness 
+to counter the public health threat. The Philippines’ 
+disease surveillance system could conduct contact 
+tracing, but this was overwhelmed in the early phases 
+of outbreak response. Similarly, in February, only one 
+laboratory could conduct reverse transcriptase polymer-
+ase chain reaction (RT–PCR) testing, so the country 
+could not rapidly deploy extensive laboratory testing 
+for infected cases. In addition, the primary care system 
+of the Philippines did not serve as a primary line of 
+defence, as people went straight to hospitals in urban 
+areas, overwhelming critical care capacity in the early 
+stages of the COVID-19 pandemic.
+In response to the early phase of the pandemic, 
+the Government of the Philippines implemented travel 
+restrictions, community quarantine, risk communication 
+and testing; however, the slow ramping up of capacities 
+particularly on testing contributed to unbridled disease 
+transmission. By 15 October, the number of confirmed 
+cases had exponentially grown to 340,000 of which 
+13.8% were deemed active.11 The lack of pandemic 
+preparedness had left the country poorly defended 
+against the new virus and its devastating effects. Invest-
+ing diligently and consistently in pandemic prepared-
+
+WPSAR Vol 12, No 1, 2021  | doi: 10.5365/wpsar.2020.11.1.014
+www.wpro.who.int/wpsar
+5
+Early response to COVID-19 in the Philippines
+Amit et al
+11. 	Updates of novel coronavirus disease (COVID-19). Manila: De-
+partment of Health; 2020. Available from: https://www.doh.gov.
+ph/2019-nCov, accessed 16 October 2020.
+12. 	Marquez C. Palace releases temporary guidelines on Metro Manila 
+community quarantine. Inquirer News. 14 March 2020. Available 
+from: https://newsinfo.inquirer.net/1241790/palace-releases-tem-
+porary-guidelines-on-metro-manila-community-quarantine, 
+ac-
+cessed 18 April 2020.
+13. 	Leung K, Wu JT, Liu D, Leung GM. First-wave COVID-19 transmis-
+sibility and severity in China outside Hubei after control measures, 
+and second-wave scenario planning: a modelling impact assess-
+ment. Lancet. 2020;395(10233):1382–93. 
+14. 	Wilder-Smith A, Freedman DO. Isolation, quarantine, social dis-
+tancing and community containment: pivotal role for old-style 
+public health measures in the novel coronavirus (2019-nCoV) out-
+break. J Travel Med. 2020;27(2).
+15. 	Digital 2020: The Philippines. DataReportal – global digital in-
+sights. Available from: https://datareportal.com/reports/digital-
+2020-philippines, accessed 28 August 2020.
+16. 	Nicomedes CJC, Avila RMA. An analysis on the panic during 
+COVID-19 pandemic through an online form. J Affect Disord. 
+2020;276:14–22. 
+17. 	Lau LL, Hung N, Go DJ, Ferma J, Choi M, Dodd W, et al. Knowl-
+edge, attitudes and practices of COVID-19 among income-poor 
+households in the Philippines: A cross-sectional study. J Glob 
+Health. 2020;10(1). 
+18. Nuevo CE, Sigua JA, Boxshall M. Wee Co PA, Yap ME. Scaling 
+up capacity for COVID-19 testing in the Philippines. Coronavirus 
+(COVID-19) blog posts collection. London: BMJ Journals; 2020. 
+Available from: https://blogs.bmj.com/bmjgh/2020/06/05/scal-
+ing-up-capacity-for-covid-19-testing-in-the-philippines/, accessed 
+28 August 2020.
+19. 	Decision tool for 2019 novel coronavirus acute respiratory disease 
+(2019-nCoV ARD) health event as of January 30, 2020. Manila: 
+Department of Health; 2020. Available from: https://www.doh.
+gov.ph/sites/default/files/health-update/COVID-19-Advisory-No2.
+pdf, accessed 28 August 2020.

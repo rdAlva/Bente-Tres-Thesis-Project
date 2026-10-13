@@ -1,0 +1,2001 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+SOSE Affiliate: Manila Observatory 
+School of Science and Engineering Research 
+Centers 
+2022 
+Greater Loss and Fragmentation of Savannas Than Forests Over 
+Greater Loss and Fragmentation of Savannas Than Forests Over 
+the Last Three Decades in Yunnan Province, China 
+the Last Three Decades in Yunnan Province, China 
+R Sedricke Lapuz 
+Chinese Academy of Sciences 
+Angelica Kristina M. Jaojoco 
+PS241 Consulting Inc. 
+Sheryl Rose C. Reyes 
+Geomatics for Environment and Development Laboratory, Manila Observatory 
+Jose Don T. De Alban 
+National University of Singapore 
+Kyle W. Tomlinson 
+Chinese Academy of Sciences 
+Follow this and additional works at: https://archium.ateneo.edu/manila-observatory 
+ Part of the Climate Commons, Environmental Monitoring Commons, and the Natural Resources 
+Management and Policy Commons 
+Custom Citation 
+Custom Citation 
+Lapuz, R.S., Jaojoco, A.K.M., Reyes, S.R.C., De Alban, J.D.T., & Tomlinson, K.W. (2022). Greater loss and 
+fragmentation of savannas than forests over the last three decades in Yunnan Province, China. 
+Environmental Research Letters, 17(1). https://doi.org/10.1088/1748-9326/ac3aa2 
+This Article is brought to you for free and open access by the School of Science and Engineering Research Centers 
+at Archīum Ateneo. It has been accepted for inclusion in SOSE Affiliate: Manila Observatory by an authorized 
+administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+LETTER • OPEN ACCESS
+Greater loss and fragmentation of savannas than
+forests over the last three decades in Yunnan
+Province, China
+To cite this article: R Sedricke Lapuz et al 2022 Environ. Res. Lett. 17 014003
+ 
+View the article online for updates and enhancements.
+You may also like
+Nitrogen emission and deposition budget
+in West and Central Africa
+C Galy-Lacaux and C Delon
+-
+Unsustainable fuelwood extraction from
+South African savannas
+K J Wessels, M S Colgan, B F N Erasmus
+et al.
+-
+Increased carbon uptake and water use
+efficiency in global semi-arid ecosystems
+Li Zhang, Jingfeng Xiao, Yi Zheng et al.
+-
+This content was downloaded from IP address 103.134.13.48 on 13/12/2022 at 00:50
+
+Environ. Res. Lett. 17 (2022) 014003
+https://doi.org/10.1088/1748-9326/ac3aa2
+OPEN ACCESS
+RECEIVED
+14 July 2021
+REVISED
+14 October 2021
+ACCEPTED FOR PUBLICATION
+17 November 2021
+PUBLISHED
+21 December 2021
+Original content from
+this work may be used
+under the terms of the
+Creative Commons
+Attribution 4.0 licence.
+Any further distribution
+of this work must
+maintain attribution to
+the author(s) and the title
+of the work, journal
+citation and DOI.
+LETTER
+Greater loss and fragmentation of savannas than forests over the
+last three decades in Yunnan Province, China
+R Sedricke Lapuz1,2, Angelica Kristina M Jaojoco3, Sheryl Rose C Reyes4,5, Jose Don T De Alban6
+and Kyle W Tomlinson1,7,∗
+1 Center for Integrative Conservation, Xishuangbanna Tropical Botanical Garden, Chinese Academy of Sciences, Menglun,
+Yunnan 666303, People’s Republic of China
+2 University of Chinese Academy of Sciences, No. 19A Yuquan Road, Beijing 10049, People’s Republic of China
+3 PS241 Consulting Inc., City of San Pedro, Laguna 4023, Philippines
+4 United Nations University—Institute for the Advanced Study of Sustainability, 5-53-70 Jingumae, Shibuya-ku, Tokyo 150-8925, Japan
+5 Geomatics for Environment and Development Laboratory, Manila Observatory, Ateneo de Manila University Campus, Loyola Heights,
+Quezon City 1101, Philippines
+6 Department of Biological Sciences, National University of Singapore, Singapore 117543, Singapore
+7 Center of Conservation Biology, Core Botanical Gardens, Chinese Academy of Sciences, Menglun, Yunnan 666303,
+People’s Republic of China
+∗Author to whom any correspondence should be addressed.
+E-mail: kyle.tomlinson@xtbg.org.cn
+Keywords: climate-vegetation interactions, fire, fragmentation, hybrid classification, Landsat, land-use change, woody encroachment
+Supplementary material for this article is available online
+Abstract
+Yunnan Province, southwest China, has a monsoonal climate suitable for a mix of fire-driven
+savannas and fire-averse forests as alternate stable states, and has vast areas with savanna
+physiognomy. Presently, savannas are only formally recognised in the dry valleys of the region, and
+a no-fire policy has been enforced nationwide since the 1980s. Misidentification of savannas as
+forests may have contributed to their low protection level and fire-suppression may be contributing
+to vegetation change towards forest states through woody encroachment. Here, we present an
+analysis of vegetation and land-use change in Yunnan for years 1986, 1996, 2006, and 2016 by
+classifying Landsat imagery using a hybrid of unsupervised and supervised classification. We
+assessed how much savanna area had changed over the 3 decades (area loss, fragmentation), and of
+this how much was due to direct human intervention versus vegetation transition. We also assessed
+how climate (mean annual temperature, aridity), landscape accessibility (slope, distance to roads),
+and fire had altered transition rates. Our classification yielded accuracy values of 77.89%, 82.16%,
+94.93%, and 86.84% for our four maps, respectively. In 1986, savannas had the greatest area of any
+vegetation type in Yunnan at 40.30%, whereas forest cover was 30.78%. Savanna coverage declined
+across the decades mainly due to a drop in open parkland savannas, while forest cover remained
+stable. Savannas experienced greater fragmentation than forests. Savannas suffered direct loss of
+coverage to human uses and to woody encroachment. Savannas in more humid environments
+switched to denser vegetation at a higher rate. Fire slowed the rate of conversion away from
+savanna states and promoted conversion towards them. We identified remaining savannas in
+Yunnan that can be considered when drafting future protected areas. Our results can inform more
+inclusive policy-making that considers Yunnan’s forests and savannas as distinct vegetation types
+with different management needs.
+© 2021 The Author(s). Published by IOP Publishing Ltd
+
+Environ. Res. Lett. 17 (2022) 014003
+R S Lapuz et al
+1. Introduction
+Savannas are ecosystems characterized by a ground
+layer dominated by grasses and an open canopy
+of trees that allows direct sun to penetrate to
+the understory (Scholes and Archer 1997). Com-
+petition between trees and grasses asymmetrically
+favours trees, therefore, savannas are dependent on
+disturbance to remove tree biomass and open up
+canopies, either by fire (Higgins et al 2000), herb-
+ivory (Sankaran et al 2013), or drought (Fensham
+et al 2009). In Asia, savannas are extensively found
+across the drier parts of the monsoonal belt of its
+tropical and subtropical regions (Ratnam et al 2016).
+Fossil and molecular evidence indicate that savan-
+nas and their associated species have been widely
+present in the region since at least the early Pleis-
+tocene (Shen et al 2009, Edwards et al 2010, Zhang
+et al 2011, Ratnam et al 2016, Chu et al 2021). Addi-
+tional pieces of evidence include stochastic gradient
+boosting models that predict the existence of savan-
+nas in Asia using savanna climate envelopes from
+other continents (Ratnam et al 2016) and dynamic
+global vegetation models that simulated vegetation
+patterns using current climate (Kumar et al 2020,
+Scheiter et al 2020); the presence of high endemism
+and richness of C4 grass species, which typify savan-
+nas (Ratnam et al 2016, Welker et al 2020, Chu et al
+2021); and several in situ studies that have charac-
+terized the physiognomy, diversity, and fire-adapted
+traits of these communities in South and Southeast
+Asia (Khaing et al 2019, Nguyen et al 2019, Ratnam
+et al 2019).
+Our research focuses on the parkland (PRK) and
+woodland (WDL) savannas of Yunnan Province in
+southwest China (figure 1), an elevated region with
+a strongly monsoonal and relatively dry climate (Shi
+et al 2017, Shi and Chen 2018) suitable for sustaining
+savannas and forests as alternative stable states (Bond
+et al 2005). In China, open-canopied PRK savan-
+nas were, until quite recently, only formally recog-
+nised in the dry valleys that incise Yunnan, and these
+have been subject to intense investigation (Jin and Ou
+2000, Zhu et al 2020). The vegetation outside the dry
+valleys of Yunnan was previously classified as ‘forest’
+with small patches of treeless grasslands recognised at
+higher elevations (Hou 2001). Their classification fol-
+lowed the Food and Agricultural Organization of the
+United Nations (FAO) definition of forests, in which
+vegetation with >10% tree cover is considered forest
+(Bastin et al 2017), but it is now well understood that
+the tree cover at which savanna switches to forest is
+between 60% and 80% (Hirota et al 2011, Staver et al
+2011, Griffith et al 2017, Khaing et al 2019). A new
+vegetation map of China concluded that much larger
+swathes of Yunnan are comprised of vegetation with a
+grass-dominated ground layer (Su et al 2020). North-
+ern Yunnan is presently dominated by pine and oak
+WDL savannas with denser canopies and a ground
+layer dominated by C4 grasses, a vegetation widely
+distributed across higher elevation tropical Asia (Jin
+2002, Ratnam et al 2016). Diversity in the valleys
+of Yunnan is well-researched with over 2000 plant
+species recorded (Jin 2002) among which there are
+at least 188 grass species, of which >80% are C4
+(Osborne et al 2014) dependent on open habitats, and
+79 species belong to the Andropogoneae clade, which
+dominate fire-prone savannas worldwide (Ripley et al
+2015). We are unaware of any published community
+studies of the savanna vegetation on the tablelands
+intervening the valleys. Nevertheless, there is strong
+evidence that C4 savannas have been widely present
+in Yunnan since at least the early Pleistocene, placing
+their existence prior to any possible impact by homin-
+ins. The antiquity of the valley savannas is supported
+by fossil evidence indicating substantial C4 presence
+and a switch from forest to grassy biomes at about
+3.4–2 Ma (Biasatti et al 2012, Yao et al 2012). A phylo-
+geographic study of two common C4 Andropogoneae
+grasses in Yunnan has demonstrated that savannas
+have been present extensively across Yunnan in the
+valleys and across the intervening tablelands since
+the early Pleistocene, but possibly as early as the late
+Miocene (Chu et al 2021). At present, land conser-
+vation in Yunnan protects the Hengduan Mountains
+Biodiversity Hotspot in the northwest and different
+forest types found throughout the province (Zhao
+et al 2019a). Only one nature reserve has been spe-
+cifically gazetted to protect the dry valley PRK savan-
+nas of Yuanjiang, and some montane grasslands are
+protected in the Hengduan Mountains and in lime-
+stone karsts in eastern Yunnan. The vast landscapes
+of WDL savannas are not viewed as conservation pri-
+orities, and as a result, their rates of loss under human
+impacts have not been evaluated.
+Numerous assessments of landscape change using
+remotely sensed imagery have demonstrated rapid
+rates of human-driven vegetation loss in Yunnan (Xu
+et al 2007, Liu et al 2014b, Ning et al 2018, Zhang
+et al 2019a, 2019b), but these studies have not spe-
+cifically assessed the spatiotemporal dynamics of PRK
+and WDL savanna coverage at the provincial scale.
+In addition, several national environmental policies
+have been put in place in China aiming for landscape
+protection, but with possible negative consequences
+for remaining intact savannas in Yunnan. Firstly, a
+national-level fire suppression policy has been effect-
+ively enforced since the late 1980s (Yi et al 2017),
+thereby limiting the occurrence of fires that are crucial
+for suppressing woody vegetation and maintaining
+savannas as open ecosystems in more humid envir-
+onments (Bond 2019, Fogarty et al 2020). Second,
+a national-level ecological restoration project intro-
+duced during the 1990s called ‘Grain To Green Pro-
+gram’ (GTGP) halted the decrease of forests, which
+may have inadvertently led to significant afforestation
+of grassland areas in the southwest (Liu et al 2014b).
+In addition to direct land-use changes and landscape
+2
+
+Environ. Res. Lett. 17 (2022) 014003
+R S Lapuz et al
+Figure 1. Map of Yunnan Province in southwest China with its autonomous prefectures. Colours indicate altitude; areas shaded
+brown are at lower elevation, while those shaded green are on higher elevation.
+policies, increased atmospheric CO2 may have been
+fertilizing the trees in Yunnan, in turn increasing their
+growth rates and causing increased woody encroach-
+ment (Buitenwerf et al 2012). Tree growth is sup-
+pressed by increased aridity and can be enhanced by
+increased temperature when water is not a limiting
+factor (Williams et al 2010, Panthi et al 2020), so it
+is probable that the changes in density in intact veget-
+ation are happening faster in wetter and or warmer
+parts of Yunnan.
+We analysed vegetation and land-use change
+in Yunnan for the period 1986–2016 (30 years of
+change) using Landsat imagery, which is the period
+over which the fire suppression policy and GTGP
+became effective (late 1980s and 1990s, respectively).
+Our specific objectives were to understand: (a) how
+much of the savanna vegetation had been lost and
+fragmented relative to the other major vegetation
+type in Yunnan, namely forest, (b) where savanna
+changes happened spatially across Yunnan and how
+much remained intact, and (c) which environmental
+drivers, either natural or anthropogenic, were associ-
+ated to the changes in savanna across Yunnan.
+2. Methods
+To address the above objectives, we had five goals
+in our analysis: first was to assess the full extent of
+savanna physiognomy in Yunnan in 1986. Second was
+to quantify the rates of attrition and fragmentation
+of savannas versus forests in the province. Third, we
+sought to determine whether the savanna vegetation
+had undergone woody encroachment by explicitly
+defining two savanna vegetation classes that differ in
+woody plant canopy cover (PRKs and WDLs), and
+then measure the rates of change in these classes as
+well as forests (higher woody canopy cover). Fourth,
+we tested whether climate variables, fire, and land-
+scape accessibility were correlated with changes in
+savanna canopy cover and transitions to other veget-
+ation (forest) and land cover types. Fifth, aware of the
+low level of conservation of savannas in Yunnan, we
+identified savannas that have remained mostly intact
+over the last 3 decades as potential sites for future pro-
+tected areas.
+2.1. Generating land cover maps and detecting
+inter-decadal changes
+Land cover maps of Yunnan were generated for years
+1986, 1996, 2006, and 2016, encompassing 3 dec-
+ades of change. Since we wanted to classify Landsat
+imagery as early as 1986, when no adequate refer-
+ence data to train a supervised classifier was avail-
+able, we used a hybrid of unsupervised and supervised
+techniques combined with knowledge-based inter-
+pretation (figure 2; see description of Yunnan and
+detailed methods in supplementary (available online
+at stacks.iop.org/ERL/17/014003/mmedia)).
+3
+
+Environ. Res. Lett. 17 (2022) 014003
+R S Lapuz et al
+Figure 2. Overall workflow of the land cover classification and change analysis.
+We first defined nine land cover classes in the
+province using a combination of field observa-
+tions, expert knowledge coupled with visual inspec-
+tion of high-resolution imagery from Google Earth
+(www.google.com/earth/desktop, accessed on 5 July
+2019) (Olofsson et al 2014), and existing land cover
+maps (Liu et al 2003, 2010, 2014b, Xu et al 2005,
+Diallo et al 2009, Zhao et al 2012, Lu et al 2015,
+Ning et al 2018, Zhang et al 2019a, Su et al 2020).
+We defined nine land cover classes, comprised of
+non-vegetated classes, namely water bodies (WATs),
+snowed regions (SNO), and built-up and bare rock
+areas (BURs); non-natural vegetation areas, namely
+croplands (CROs), tree plantations (TRPs), and bare
+ground (BAG); and natural vegetation areas, which
+are forests (FOR), which have closed tree canopies,
+and two savanna classes, which have open canopies:
+grassy, sparse-canopied PRKs and denser-canopied
+WDLs. See supplementary tables 1 and 2 for their full
+descriptions.
+Image composites used in the classification were
+generated for each mapping year from Google Earth
+Engine (GEE; http://earthengine.google.com) using
+a median ee.Reducer function that composited tier
+4
+
+Environ. Res. Lett. 17 (2022) 014003
+R S Lapuz et al
+1 calibrated top-of-atmosphere reflectance images
+obtained by Landsat-5 Thematic Mapper and the
+Landsat-8 Operational Land Imager available in the
+GEE image collection (Loveland and Dwyer 2012).
+The composites were comprised of seven spectral
+bands (BLUE, GREEN, RED, NIR, SWIR1, SWIR2,
+TIR) and were resampled from the original 30 m
+spatial resolution to 100 m using nearest neighbour
+method. Five spectral indices, which include normal-
+ized difference vegetation index (NDVI), enhanced
+vegetation index, soil-adjusted total vegetation index,
+normalized difference tillage index, and land surface
+water index, were also calculated for each study year
+and used to improve classifications (see supplement-
+ary S1.3). Each image stack per mapping year con-
+tained 12 image layers, consisting of the seven spectral
+bands and five indices.
+To delimit the classification algorithms only to
+vegetation classes, we masked the non-vegetated
+classes (WAT, SNO, BUR) from the image stacks.
+These classes were separated using their NDVI
+(Running et al 1995) and thermal band (Price 1981)
+values determined using a decision tree algorithm
+(De Alban et al 2018; see supplementary S1.4.1). To
+aid in our delineation of regions-of-interest (ROI)
+polygons, we first ran unsupervised classification on
+the masked image stacks to generate a computer-
+automated classified image with 100 clusters in
+GRASS GIS (GRASS Development Team 2020). We
+then assigned each cluster to the remaining vegetated
+land cover classes (both natural and non-natural)
+through visual interpretation conducted by cross-
+checking the pixels of each cluster with true-colour
+(RED-GREEN-BLUE) and false-colour (NIR-RED-
+BLUE) image composites, as well as high-resolution
+imagery from Google Earth (available for 2006 and
+2016) (Olofsson et al 2014).
+The resulting maps from the unsupervised classi-
+fication were then used to delineate ROIs for super-
+vised classification. We performed stratified random
+sampling over the pixels from the unsupervised map
+to generate 500 points used as guides in drawing the
+ROIs. Each ROI (at least 1 km2) was drawn around
+the points, with their extents delineated based on
+the potential homogeneity of the target land cover
+class. When delineating ROI polygons for 1986 and
+1996, we utilised additional mask layers generated
+from 2016 image statistics to assist in locating TRP
+and WDL classes due to challenges in discerning
+them during visual interpretation of the older Land-
+sat image composites and lack of high-resolution
+imagery for those years (see supplementary S1.4.4).
+ROIs were then divided for training (70%) and test-
+ing (30%).
+For supervised classification, we used random
+forest (RF) (Gislason et al 2006, Rodriguez-Galiano
+et al 2012) (see supplementary S1.4.5 for RF para-
+meterisation settings). We performed pixel-based
+accuracy assessment on the RF products by gener-
+ating confusion matrices for each year, and com-
+puted the overall accuracy, user’s and producer’s
+accuracies, for each land cover class. We computed
+error-adjusted area estimations and the confidence
+intervals for each land cover class to quantify estim-
+ation uncertainties (Olofsson et al 2013). Vegetation
+maps from RF and the non-vegetation maps masked
+out earlier were combined, and isolated pixels were
+smoothed out using a Majority Filter tool to produce
+final maps. The raster operations, supervised classi-
+fication, and accuracy assessments were performed
+in R (R Core Team 2021), while smoothing was per-
+formed in ArcMap (ESRI 2011).
+To detect inter-decadal land cover change dynam-
+ics, we utilised the final maps to produce cross-
+tabulation matrices that summarised the land cover
+changes from 1986 to 2016 using the Semi-Automatic
+Classification Plugin in Quantum GIS (Congedo
+2014). We used the older map as the ‘reference map’
+and more recent map as the ‘classification map’ (i.e.
+to detect change between 2006 and 2016, we used the
+2006 map as ‘reference’ and the 2016 map as ‘classi-
+fication’). To visualize the land cover changes, we cre-
+ated Sankey diagrams using the networkD3 package
+(Allaire et al 2017) in R.
+2.2. Assessing the fragmentation and legal
+protection levels of savannas and forests
+We calculated fragmentation statistics for natural
+vegetation classes PRK savanna, WDL savanna, and
+forest (FOR) for each mapping year. These included
+number of fragments, size of fragments (mean patch
+area, largest patch index), geometric complexity
+(mean patch shape ratio), physical connectedness
+(patch cohesion index), and edge density. These were
+calculated using the landscapemetrics package in R
+(Hesselbarth et al 2019).
+We also determined the level of protection that
+each land cover types received in 2016 by calcu-
+lating their areal extents within Yunnan protec-
+ted areas provided by CAS-RESDC (www.resdc.cn/
+data.aspx?DATAID=272, accessed on 16 May 2021).
+We also located persistent savanna areas by identify-
+ing unchanged pixels of PRK and WDL since 1986,
+and subsequently derived the number of decades a
+pixel had remained as PRK or WDL.
+2.3. Determining drivers of change in savanna
+coverage
+We conducted logistic regression analyses to assess
+whether retention or conversion of savannas to other
+land cover types were due to selected environmental
+5
+
+Environ. Res. Lett. 17 (2022) 014003
+R S Lapuz et al
+parameters, including climate (mean annual tem-
+perature (MAT), aridity), topography (slope), pres-
+ence of fire (hereafter referred to only as ‘fire’), and
+accessibility (distance from the nearest road (hereon
+referred to only as ‘distance’)). MAT and aridity both
+impact plant growth rates (Williams et al 2010, Panthi
+et al 2020), and hence rates of vegetation change.
+Fire reduces tree biomass, which helps to maintain
+open ecosystems such as savannas (Higgins et al
+2000, Lehmann et al 2009). Slope and distance both
+constrain human accessibility and thus direct human
+impacts (Liu et al 2014a, Alphan 2017).
+To assess drivers of woody encroachment, we
+analysed transitions of savanna to denser vegetation
+(PRK to WDL, PRK to FOR, and WDL to FOR).
+To assess drivers of fragmentation from land use
+conversion, we investigated transitions of PRK and
+WDL to/from farmlands and non-vegetation classes.
+In these analyses, we lumped together CRO, TRP, and
+BAG under one ‘farmland’ class, and BUR, WAT, and
+SNO under one ‘non-vegetation’ class. To quantify
+land cover change, we reclassified the transition maps
+into binary according to the transition being analysed.
+Pixels that retained their classification in the next time
+step were scored ‘0’, while those that transitioned to
+another were scored ‘1’.
+As we were interested in state changes between
+two levels (i.e. 0 and 1) in each analysis, we tested pre-
+dictors of land cover transitions using logistic regres-
+sion in R. Environmental data of both ‘0’ and ‘1’
+pixels were first extracted using the extract() func-
+tion of the raster package in R. The pixels environ-
+mental data served as predictors, while their land
+cover transition scores represented the change vari-
+able in the regression models. We used MAT, aridity,
+slope, and fire in analysing PRK and/or WDL con-
+version to denser-canopied WDL and FOR to test
+whether these predictors were responsible for indu-
+cing or preventing canopy closure. We added distance
+in assessing PRK and WDL conversion to/from farm-
+land to investigate whether accessibility influenced
+land cover change. In testing PRK and WDL conver-
+sion to/from non-vegetation, we used slope, distance,
+and fire. We transformed predictors as needed to
+approximate normality prior to regression. To assess
+the robustness of predictor coefficients, we ran the
+model for each type of transition 1000 times using
+randomly subsampled equal populations of 1’s and
+0’s for each run, and constructed 95% quantile inter-
+vals for each coefficient; 95% quantile intervals which
+did not overlap zero were considered significant.
+The explanatory power for each significant predictor
+was computed from the median of all the partial
+R-squared values calculated using the partR2 pack-
+age (Stoffel et al 2021) across all runs. We analysed
+changes across 3 decades (1986–2016) and decadal
+changes (1986–1996; 1996–2006; 2006–2016). Ana-
+lyses were conducted at 1 km resolution to match
+the native resolution of available environmental data.
+Sources of environmental data are listed in supple-
+mentary S2.
+3. Results
+3.1. Accuracy assessment
+Accuracy for the supervised classification of veget-
+ation land cover types were 77.89% ± 1.31%,
+82.16%
+±
+1.19%,
+94.93%
+±
+0.69%,
+and
+86.84% ± 1.06% for the 1986, 1996, 2006, and 2016
+maps, respectively (see supplementary table S3). For
+PRK savannas, user’s accuracy values (UA) ranged
+from 81.4% to 96.8%, while producer’s accuracy val-
+ues (PA) were 72.8%–92.3%, with the lowest and
+highest values from 1986 to 2006, respectively. For
+WDL savannas, UA ranged from 69.7% to 91.8% and
+PA ranged from 75.2% to 95.8%. Most of the misclas-
+sified PRK pixels belonged to CRO, BAG, and WDLs,
+while most of the misclassified WDLs were in PRKs
+and FORs, particularly during 1986 and 1996 (see
+supplementary table S4 for error matrices). Forest
+had high values for both UA (93.3%–99.2%) and PA
+(85.5%–97.3%).
+3.2. Net changes over 3 decades, 1986–2016
+In 1986, the majority of Yunnan was covered by nat-
+ural vegetation (figure 3). The combined savanna
+classes covered 40.30% of the landscape, with PRK
+savannas at 27.09% and WDL savannas at 13.21%,
+while FOR was at 30.78%. There were also substan-
+tial CROs at 17.73%, while TRPs had low cover at
+3.33%. BAG covered 5.38%, whereas BUR was at
+1.72%. WATs and SNO regions had the lowest cov-
+erage at 0.48% and 0.28%, respectively.
+By 1996, savannas had a net increase of 2.26%, as
+PRK cover increased by 4.29% and WDL declined by
+2.03%. FOR cover increased by 1.69%. CROs dropped
+by 4.85%, but BAG increased 1.67%. In 2006, savan-
+nas declined slightly due to a 6.32% drop in PRK
+areas despite a 5.35% increase in WDLs. Decreases
+in FOR (0.92%), CRO (0.74%), and BAG (1.47%)
+coverage occurred while TRPs (3.91%) and BURs
+(0.27%) increased.
+By
+2016,
+PRK
+savanna
+coverage
+substan-
+tially declined 8.56%, while WDL savanna slightly
+decreased 0.78%, bringing the overall savanna decline
+to 9.34%. Forest cover only had a slight decrease
+of 0.16%, whereas CRO (2.11%) and plantation
+(1.48%) coverage increased. The highest increases in
+BAG (4.15%) and BUR (1.30%) were observed this
+decade.
+3.3. Losses and gains in savanna coverage
+Extensive land cover changes were observed in Yun-
+nan between 1986 and 2016 (figure 4; see supple-
+mentary S5 for the land cover change matrices), and
+a total of 316 800 km2 (74.7% of Yunnan’s total land
+area) underwent change. The gross gains and losses
+6
+
+Environ. Res. Lett. 17 (2022) 014003
+R S Lapuz et al
+Figure 3. Land cover maps of Yunnan Province, China for (a) 1986, (b) 1996, (c), 2006, and (d) 2016.
+Figure 4. Sankey diagram of the land cover transitions in Yunnan Province, China from 1986 to 2016. Nodes indicate the land
+cover percentage for each particular time step, while the ribbons depict the transitions between land cover types. Colours follow
+that of the land cover map (figure 3). Note: PRK: parkland, WDL: woodland, FOR: forest, CRO: cropland, TRP: tree plantations,
+BAG: bare ground, BUR: built-up area and bare rock, WAT: water bodies, SNO: snow.
+within each land cover type indicated dynamic trans-
+itions throughout the study period. The observed
+decline in PRK savanna cover was largely due to
+woody cover increases to WDL savanna (5.60%) and
+FOR (3.66%), and direct land conversion to CRO
+(2.88%), BAG (4.04%), plantations (0.98%) and BUR
+(0.31%). Most PRK savanna that was persistent until
+2016 was on the eastern and northwest sections of
+Yunnan (figures 5(a) and 6). Gains in PRK savanna
+were scattered across the upper section of province,
+with a concentration of converted WDL savanna and
+CRO to PRK savanna in the east (figure 5(b)).
+Total WDL savanna coverage was very dynamic.
+Persistent WDL savanna was ∼6% of 13.21% in 1986,
+but the remainder changed substantially mostly due
+to tree cover changes between PRK savanna and FOR
+7
+
+Environ. Res. Lett. 17 (2022) 014003
+R S Lapuz et al
+Figure 5. PRK (a), (b) and WDL (c), (d) loss and gain between 1986 and 2016 in Yunnan Province, China. Colours in ‘loss’ figures
+(a), (c) depict land cover classes which PRK and WDL transitioned to, while colours in ‘gain’ figures (b), (d) represent classes
+from which PRK and WDL gained coverage from.
+states, and also through conversion to TRPs in the
+south and northeast (figure 5(c) and (d)).
+3.4. Fragmentation and protected area coverage
+analyses of natural vegetation cover types
+Fragmentation generally increased for all natural
+vegetation land cover types from 1986 to 2016, but
+was more severe for savannas (table 1). The num-
+ber of patches increased during this period for PRK
+savannas (29.3%), WDL savannas (59.8%), and FOR
+(23.9%). Fragment sizes also generally decreased,
+most severely for PRK, with mean patch area decreas-
+ing 52.9% (from 20.25 ha to 9.53 ha) between 1986
+and 2016. The mean patch areas of WDL (25.3%) and
+FOR (17.8%) decreased less. The largest patch index
+for PRK also decreased dramatically, from 6.84 to 0.33
+between 1986 and 2016. In contrast, the largest patch
+index values of WDL (0.17 vs 0.15) and FOR (2.78
+vs 2.97) had changed less during the same period.
+The edge density of WDLs (21.30 vs 29.77) and FORs
+(24.08 vs 25.57) increased, but decreased for PRKs
+(27.16 vs 25.56). Fragment connectivity of savannas
+decreased, with PRK (99.65%–96.23%) experiencing
+greater loss than WDL (93.28%–91.87%), whereas it
+remained stable for FOR (99.52%–99.43%). The geo-
+metric complexity of the fragments, as indicated by
+the mean patch shape ratio, was largely stable across
+time for savannas and forests.
+The protected area coverage analysis indicated
+low legal protection percentages for all natural veget-
+ation land cover types for 2016. Of the three, FOR had
+the most legal protection, with 7.60% (10 127 km2
+out of 133 160 km2 total 2016 coverage) inside pro-
+tected area boundaries. The savannas had lower
+protection, with PRK at 3.09% (2161/70 022 km2),
+and WDL at 1.84% (1233/66 824 km2). In addition,
+8
+
+Environ. Res. Lett. 17 (2022) 014003
+R S Lapuz et al
+Figure 6. Map of Yunnan Province, China showing savannas (PRKs and WDLs) with existing protected area boundaries (outlined
+in pink) from the Resource and Environment Science and Data Center of the Chinese Academy of Sciences. Colours indicate the
+age of savannas, with dark blue depicting savannas with 3 decades (1986–2016) of stability.
+most of these nature reserves do not cover the per-
+sistent savanna fragments (figure 6). PRK protec-
+tion is only 11.96% (2161 km2 out of 18 064 km2
+total nature reserve area), while WDL is at 6.82%
+(1233/18 064 km2). In contrast, FOR protection is at
+56.06% (10 127/18 064 km2), a clear indication that
+savannas are underrepresented in most of the protec-
+ted areas.
+3.5. Drivers of change in savannas
+The logistic regression models indicated varying sig-
+nificant associations between the different environ-
+mental parameters and land cover changes between
+and across the 3 decades (table 2). In the PRK savanna
+to WDL savanna and FOR transitions, the general
+trend in between decades indicated that PRK savan-
+nas located in warmer and wetter (more positive arid-
+ity index) areas had a greater probability to trans-
+ition to denser-canopied vegetation (WDL savanna
+or FOR). Although the overall analysis suggested that
+PRK in drier areas transitioned to WDL, aridity only
+weakly explained the variation (lowest partial R2) in
+this case. For WDL savanna to FOR transitions, WDL
+in wetter regions converted to FOR. The effect of tem-
+perature differed in between decades; however, the
+overall transition suggested that WDL in colder areas
+became FOR. While the effect of slope varied per dec-
+ade, the overall analyses suggested that PRK in gentler
+slopes (negative trend) converted to WDL, and WDL
+in steeper slopes (positive trend) converted to FOR.
+Fire had a negative effect on transitions to denser can-
+opy cover. In the majority of these transitions, MAT
+was the predictor explaining the most variation.
+Fire was positively related to conversion of WDL
+and FOR to more open PRK and WDL, but the rest of
+the predictors had variable effects in these transitions.
+The analyses suggested that WDLs in colder, wetter,
+and steeper regions converted to PRKs, and that FORs
+in drier and flatter places switched to PRK and WDL.
+MAT had a generally positive trend across the dec-
+ades, suggesting that transitions to more open vegeta-
+tion happened in warmer areas. Overall, FOR to PRK
+9
+
+Environ. Res. Lett. 17 (2022) 014003
+R S Lapuz et al
+Table 1. Fragmentation statistics of PRK savanna, WDL savanna, and FOR cover types for each year.
+Land cover
+type
+Year
+Number
+of patches
+Mean patch
+area (ha)
+Largest patch
+index (%)
+Mean patch
+shape ratio
+Edge density
+(m ha−1)
+Patch
+cohesion
+index (%)
+PRK savanna
+1986
+510 234
+20.25
+6.84
+1.29
+27.16
+99.65
+1996
+411 436
+29.18
+9.91
+1.33
+30.27
+99.78
+2006
+438 202
+21.87
+3.66
+1.32
+26.68
+99.36
+2016
+659 646
+9.53
+0.33
+1.28
+25.56
+96.23
+WDL
+savanna
+1986
+476 306
+10.62
+0.17
+1.34
+21.30
+93.28
+1996
+479 747
+8.90
+0.02
+1.32
+19.04
+89.40
+2006
+494 792
+12.80
+0.26
+1.34
+24.50
+95.89
+2016
+761 255
+7.93
+0.15
+1.33
+29.77
+91.87
+FOR
+1986
+331 344
+35.60
+2.78
+1.33
+24.08
+99.52
+1996
+303 699
+40.93
+4.52
+1.34
+23.57
+99.54
+2006
+360 306
+33.48
+3.08
+1.32
+23.75
+99.39
+2016
+410 501
+29.26
+2.97
+1.29
+25.57
+99.43
+transitions happened in colder places, while FOR to
+WDL occurred in warmer spots. MAT and aridity
+were the most important predictors in explaining
+variation.
+PRK and WDL that converted to farmlands dur-
+ing 1986–2016 were generally in warmer, wetter areas
+close to road networks and had no fire occurrence.
+PRK that converted to farms were in flatter places,
+while WDL that did were in steeper slopes. On the
+reverse side, farmlands that became PRK or WDL
+were in colder, steeper regions far from roads and had
+experienced fire. Moreover, there is a clear trend of
+wetter farmlands becoming WDL, while the trend for
+PRK is unclear. In these transitions, MAT, aridity, dis-
+tance, and slope explained most of the variation in the
+data.
+PRK conversion to non-vegetation areas were also
+in gentler slopes and near roads. Transitions to non-
+vegetation classes from 1986 to 2006 happened in
+colder PRKs. However, the overall transition sug-
+gested that PRK in warmer and wetter areas con-
+verted to non-vegetation. The overall WDL to non-
+vegetation transition had similar results, although
+there were insufficient data to analyse inter-decadal
+transitions for 1986–2006 due to the small percentage
+of WDL areas that were converted to non-vegetation
+areas. Conversely, non-vegetation areas that became
+PRK and WDL were located in steeper areas and
+far from roads. In addition, non-vegetation areas in
+warmer areas became WDL overall. Distance and
+slope explained most of the variation, whereas fire
+yielded non-significant associations.
+4. Discussion
+4.1. Accuracy
+While the overall accuracy numbers we obtained
+were acceptable for our analyses and comparable
+to other large-scale land cover studies (Brugge-
+man et al 2016, Su et al 2020), we observed vari-
+ations among decades. We attribute these to the
+different locations of the training ROIs used for
+each time step, despite ensuring the stability of their
+spectral signatures (see boxplots in supplementary
+S1.4.3). It was easier to discern between classes for
+2006 and 2016, with high-resolution imagery avail-
+able to guide ROI sampling, but more challenging
+for 1986 and 1996. Nevertheless, the UA and PA
+numbers we obtained for PRK and WDL savannas
+were well within reasonable range, and thus reli-
+able for analysing trends in savanna cover. Focusing
+on UA/PA of target land cover classes, which were
+savannas in our case, is included in the ‘good prac-
+tice’ recommendations for area change and accuracy
+assessment (Olofsson et al 2014). The confidence
+intervals from the area-adjusted accuracy computa-
+tions indicate that misclassified areas only comprise
+a small percentage of the total area of the savanna
+classes. These misclassified areas were between PRKs
+and CRO/BAG (see confusion matrices in supple-
+mentary S4), which could be due to similarity in spec-
+tral signatures of these classes, as grasses are the main
+vegetation in both classes. During field observations,
+we noticed some farmlands occur interspersed in
+between PRKs, which may have contributed to the
+confusion given the 100 m resolution used in the
+study. A finer-scale classification, however, would
+be less useful as our aim is to depict trends in
+savanna dynamics of a large area (∼400 000 km2);
+the environmental data are also only available in
+coarser resolution, thus, the land cover data would
+always be aggregated to accommodate the drivers
+of change analyses. We improved the separation of
+these classes by including spectral indices in the
+classification.
+4.2. Dynamic land cover changes in Yunnan
+exposed the loss of savanna coverage
+Our spatial analyses showed that savannas were much
+more extensive in Yunnan than previously mapped,
+accounting for 40.3% of Yunnan’s land area in 1986,
+and that savannas were not only limited to the hot
+10
+
+Environ. Res. Lett. 17 (2022) 014003
+R S Lapuz et al
+Table 2. ANOVA results for generalized linear regression analyses testing whether conversion of land cover types are driven by MAT,
+aridity, slope, presence of fire, or distance from roads. To achieve a normal distribution required by the model, aridity and slope were
+transformed using square root, while distance from roads was log10-transformed. For each land cover transition, columns under the
+time periods list each significant (P < 0.001) predictor’s coefficient sign and partial R2, while ns means not significant, and nd means no
+data, thus not included in the analysis.
+Overall
+1986–1996
+1996–2006
+2006–2016
+Variable
+Trend
+Partial R2
+Trend
+Partial R2
+Trend
+Partial R2
+Trend
+Partial R2
+PRK to WDL
+MAT
++
+0.0359
+−
+0.0095
++
+0.0084
++
+0.0536
+Aridity
+−
+0.0008
++
+0.0027
++
+0.0023
+ns
+Slope
+−
+0.0023
++
+0.0295
++
+0.0006
+—
+0.0009
+Fire
+−
+0.0020
+nd
+ns
+0.0003
+—
+0.0015
+n
+63 722
+88 722
+102 396
+65 082
+PRK to FOR
+MAT
++
+0.0035
+−
+0.0286
++
+0.0025
++
+0.0126
+Aridity
++
+0.0045
++
+0.0044
+−
+0.0010
++
+0.0023
+Slope
+ns
+0.0003
++
+0.0090
+ns
+ns
+Fire
+−
+0.0082
+nd
+−
+0.0012
+−
+0.0058
+n
+55 896
+88 772
+88 665
+51 962
+WDL to FOR
+MAT
+−
+0.0055
++
+0.0011
+−
+0.1748
+ns
+Aridity
++
+0.0073
++
+0.0020
++
+0.0128
++
+0.0118
+Slope
++
+0.0046
+−
+0.0034
+ns
++
+0.0044
+Fire
+−
+0.0068
+nd
+−
+0.0004
+−
+0.0055
+n
+31 510
+37 860
+36 115
+45 986
+WDL to PRK
+MAT
+−
+0.0179
++
+0.0375
+−
+0.0351
+−
+0.0273
+Aridity
++
+0.0105
++
+0.0066
++
+0.0018
+−
+0.0016
+Slope
++
+0.0005
+−
+0.0373
++
+0.0042
++
+0.0058
+Fire
++
+0.0076
+nd
++
+0.0050
++
+0.0049
+n
+22 943
+39 656
+30 775
+34 521
+FOR to PRK
+MAT
+−
+0.0218
++
+0.0522
++
+0.0046
+−
+0.0848
+Aridity
+−
+0.0618
+−
+0.0471
+−
+0.0420
+−
+0.0549
+Slope
+−
+0.0023
+−
+0.0158
+−
+0.0033
+ns
+Fire
++
+0.0161
+nd
++
+0.0132
++
+0.0143
+n
+96 676
+115 556
+112 905
+108 601
+FOR to WDL
+MAT
++
+0.0569
+−
+0.0062
++
+0.0349
++
+0.0283
+Aridity
+−
+0.0255
+ns
+−
+0.0016
+−
+0.0366
+Slope
+−
+0.0071
+−
+0.0118
+−
+0.0123
+−
+0.0052
+Fire
++
+0.0044
+nd
++
+0.0007
++
+0.0033
+n
+106 291
+113 234
+121 767
+117 058
+PRK to farmland
+MAT
++
+0.0808
++
+0.0160
++
+0.0451
++
+0.0997
+Aridity
+ns
++
+0.0042
+ns
+−
+0.0013
+Slope
+−
+0.0053
+−
+0.0022
+−
+0.0012
+−
+0.0027
+Fire
+−
+0.0015
+nd
+−
+0.0007
+−
+0.0011
+Distance
+−
+0.0085
+−
+0.0132
+−
+0.0100
+−
+0.0052
+n
+73 249
+96 005
+97 053
+82 671
+WDL to farmland
+MAT
++
+0.1322
++
+0.1235
++
+0.1393
++
+0.0645
+Aridity
++
+0.0546
++
+0.0382
++
+0.0276
++
+0.0495
+Slope
++
+0.0092
+−
+0.0202
+ns
++
+0.0118
+Fire
+−
+0.0022
+nd
+−
+0.0014
+−
+0.0015
+Distance
+−
+0.0039
+−
+0.0294
+−
+0.0051
+−
+0.0011
+n
+29 327
+31 996
+32 079
+41 176
+Farmland to PRK
+MAT
+−
+0.0857
+−
+0.0257
+−
+0.0179
+−
+0.0698
+Aridity
+ns
+0.0003
++
+0.0013
+ns
+−
+0.0025
+Slope
++
+0.0143
++
+0.0151
++
+0.0068
++
+0.0094
+Fire
++
+0.0030
+nd
++
+0.0012
++
+0.0032
+Distance
++
+0.0120
++
+0.0317
++
+0.0108
++
+0.0049
+n
+59 914
+81 375
+71 212
+67 998
+Farmland to WDL
+MAT
+−
+0.0081
+−
+0.0081
+−
+0.0321
+Ns
+Aridity
++
+0.0075
++
+0.0588
++
+0.0509
++
+0.0060
+Slope
++
+0.0189
++
+0.0649
++
+0.0282
++
+0.0181
+Fire
++
+0.0006
+nd
+ns
+ns
+Distance
++
+0.0202
++
+0.0394
++
+0.0349
++
+0.0126
+n
+59 253
+55 857
+58 924
+69 492
+(Continued.)
+11
+
+Environ. Res. Lett. 17 (2022) 014003
+R S Lapuz et al
+Table 2. (Continued.)
+Overall
+1986–1996
+1996–2006
+2006–2016
+Variable
+Trend
+Partial R2
+Trend
+Partial R2
+Trend
+Partial R2
+Trend
+Partial R2
+PRK to non-vegetation
+MAT
++
+0.0036
+−
+0.1046
+−
+0.1467
+ns
+Aridity
++
+0.0087
+ns
+ns
+ns
+Slope
+−
+0.0164
+−
+0.0495
+−
+0.0094
+−
+0.0066
+Fire
+ns
+nd
+ns
+−
+0.0028
+Distance
+−
+0.0594
+−
+0.0296
+−
+0.0577
+−
+0.0196
+n
+41 757
+80 173
+78 465
+49 458
+WDL to non-vegetation
+MAT
++
+0.0237
+ns
+Aridity
++
+0.0520
+−
+0.0552
+Slope
+−
+0.0126
+nd
+nd
+ns
+Fire
+ns
+nd
+nd
+ns
+Distance
+−
+0.0359
+nd
+nd
++
+0.0114
+n
+14 386
+26 318
+Non-vegetation to PRK
+MAT
+ns
+−
+0.0039
+ns
+ns
+Aridity
+ns
+ns
+ns
+ns
+Slope
++
+0.0502
++
+0.0396
++
+0.0337
++
+0.1534
+Fire
+ns
+nd
+ns
+ns
+Distance
++
+0.0039
+ns
+ns
++
+0.0258
+n
+5249
+5565
+4582
+5393
+Non-vegetation to WDL
+MAT
++
+0.0518
+−
+0.0677
+Aridity
+ns
+ns
+Slope
++
+0.0907
+ns
+nd
+nd
+Fire
+ns
+nd
+nd
+nd
+Distance
+ns
+ns
+nd
+nd
+n
+4565
+4697
+dry valleys of the province. This is direct land cover
+evidence that savannas indeed exist in Yunnan, as
+postulated by spatial models derived from climate
+spaces of savannas from other continents (Ratnam
+et al 2016) and by larger scale dynamic global vegeta-
+tion model simulations of tropical east Asian vegeta-
+tion (Scheiter et al 2020). The more detailed canopy-
+based classification scheme we used divided the pre-
+viously mapped ‘forests’ based on the FAO defini-
+tion, and thus gave more resolution to the vegetation
+types existing in Yunnan. PRKs occupied almost the
+entire northern and eastern regions of the province,
+then extended westward to Kunming Prefecture and
+the Dali-Lijiang area in the northwest, and southward
+to Lincang. WDLs were extensive in the northeast
+along the border with Guizhou province, in the Wen-
+shan area on the southeast, and occurred as trans-
+itions between PRKs and FORs in other parts of
+Yunnan.
+Savannas declined by 8% in coverage over the
+30 years due to the overall decrease in PRK areas,
+despite a small increase of WDLs. We observed two
+notable losses in PRK cover. First was the massive
+loss of PRKs converted to BAGs and CROs, which
+occurred concurrently with conversions of cropland
+to urban areas and plantations. This is corroborated
+by local-scale studies in the Hengduan mountains
+during 1990–2010 (Wang et al 2018) and 2000–2012
+(Wu et al 2015), and in the Dianchi Lake water-
+shed where a 62.1% decline in grassland cover dur-
+ing 1974–2008 was observed (Zhao et al 2012), mostly
+through conversion to urban and agricultural land.
+These PRK to farmland conversions occurred in
+warmer, gently sloped areas accessible via road net-
+works, whereas PRK to built-up area conversions took
+place in plateaued areas near roads. The most signific-
+ant drivers explaining these transitions were in areas
+with relatively warmer temperature and closer prox-
+imity from roads.
+Second, substantial areas of PRK converted to
+WDL and then to FOR, indicating woody plant
+encroachment across Yunnan Province. These trans-
+itions occurred throughout the study period, but
+most were apparent during 2006–2016, and in more
+humid environments that experienced no fire. This
+was observed in a local-scale land cover assessment
+of Greater Kunming, where 1200 km2 of grassland
+were converted to forest and thickets from 2003 to
+2010 (Lu et al 2015). These transitions may pos-
+sibly be due to afforestation, fire suppression, atmo-
+spheric CO2 enrichment, or a combination of all.
+In our analysis, PRKs in steeper regions converted
+to WDLs during 1996–2006, coinciding with pre-
+vious observations that open grasslands converted
+to woodlands in montane areas of southwest China
+due to implementation of the GTGP during this
+period (Liu et al 2014b). Fire was negatively associ-
+ated with transitions to denser canopy cover veget-
+ation and positively associated with transitions to
+more open vegetation, suggesting fire could promote
+the persistence of open PRKs in Yunnan, as in other
+ecosystems (Fogarty et al 2020). Atmospheric CO2
+12
+
+Environ. Res. Lett. 17 (2022) 014003
+R S Lapuz et al
+enrichment increases the growth efficiency of C3 trees
+(Ehleringer et al 1997, Hoffmann et al 2000, Kgope
+et al 2010), and is suggested to be responsible for
+woody encroachment in savannas in Africa (Buiten-
+werf et al 2011). Model simulations of tropical and
+subtropical Asian vegetation have also suggested that
+elevated CO2 is supporting woody plant biomass
+increases and vegetation transitions (Scheiter et al
+2020).
+4.3. Fragmentation of savannas in Yunnan is
+greater than for other vegetation types
+Although all three natural vegetation types experi-
+enced greater fragmentation over time, PRKs suffered
+the worst degradation, breaking into smaller patches
+with greater exposed edges and less connectivity.
+WDLs suffered a massive increase in patch number
+during 2006–2016, after being relatively stable from
+1986 to 2006; however, their connectivity slightly
+increased throughout the decades. Fragment num-
+bers also increased in FORs, but the largest forest frag-
+ments increased and patch cohesion barely changed
+throughout the decades. The decrease in connectivity
+of savanna fragments can negatively affect grassland
+species, which respond sensitively to fragmentation
+introduced by woody species (Fuhlendorf et al 2002,
+Cunningham and Johnson 2019), and can intro-
+duce disruptions in genetic flow between populations
+(Honnay et al 2007, Helm et al 2009), affecting the
+biodiversity supported by these habitats (Jin 2002,
+Simon et al 2009, Ratnam et al 2016). To our know-
+ledge, these are the first fragmentation statistics of
+Yunnan’s savannas. Existing fragmentation research
+in the region only focused on forests (Liang et al
+2014, Liu et al 2017, 2020, Zhang et al 2019a, Zhao
+et al 2019b). Our results suggest that fragmentation
+of savannas is severe and requires urgent attention.
+4.4. Conservation recommendations
+Our analysis suggests that Yunnan’s forest cover was
+largely stable, and even experienced a slight increase
+over the 3 decades. Forests also possessed a higher
+level of protection among the two vegetation types.
+These, combined with the fact that forest fragmenta-
+tion was also less compared to savannas, imply that
+the implementation of the GTGP and the protec-
+ted area systems in place are effectively protecting
+forests, despite the low protection coverage relative
+to the total forest land area. The province might also
+continue to observe an uptick in stable forest cover,
+as China continues its existing programs to con-
+serve and expand forests (Chen et al 2019). Policies
+affecting Yunnan include the sloping land conver-
+sion program (SLCP) to prevent cultivation on land
+with slopes steeper than 25◦(Xu et al 2005), and the
+GTGP established in 1999 to restore natural ecosys-
+tems through the return of former croplands back
+to forests or savannas (Chen et al 2019). A good
+policy model for savannas could be the SLCP, as
+our drivers analysis showed that steeper slopes did in
+fact contribute positively to PRK and WDL conver-
+sion from farmlands and non-vegetation areas. Well-
+informed implementation of the GTGP on former
+farmlands rather than PRKs would also be helpful.
+A policy regarding the controlled use of fire would
+also be beneficial for savanna protection, as its pres-
+ence was demonstrated to be favourable for retaining
+savannas. The use of fire for maintaining savannas is
+well-researched in other countries and demonstrated
+to be helpful for suppressing woody encroachment
+(Wilgen et al 2004, Andersen et al 2005, Schmidt et al
+2018).
+Considering the low protection presently given to
+savannas, it is vital to establish protected areas that
+are savanna-inclusive. We located several areas in the
+central and eastern side of the province where savan-
+nas have persisted as candidates for potential pro-
+tected areas (figure 6). While there are intact savan-
+nas that are currently unprotected, such as in central
+and southeast Yunnan, there are PRKs in the north
+that would benefit from the expansion of adjacent or
+nearby existing protected area boundaries.
+Finally, a study that looked at how land cover
+change is tied up with ecosystem service values (ESVs)
+in northeast Yunnan stated that increasing grassland
+proportion with respect to forestland would increase
+ESVs in certain counties (Wang et al 2018), which
+underscores the contributions of savannas and forests
+for human well-being and biodiversity conservation.
+A Yunnan-wide assessment of ESVs is recommended,
+for understanding potential synergies and trade-offs
+among multiple ecosystem services in savannas and
+other land cover types can help improve conservation
+priorities (Eastburn et al 2017), as well as land and
+fire management strategies that may encourage the
+participation of communities as stewards of savannas
+(Sangha et al 2021).
+Data availability statement
+All data that support the findings of this study are
+included within the article (and any supplementary
+files).
+Acknowledgments
+This research was supported by a joint Natural
+Science
+Foundation
+of
+China-Yunnan
+Govern-
+ment research Grant to KWT (U1502264). RSL
+was supported by CAS-TWAS President’s Fellow-
+ship for International Doctoral Students (Grant
+2016CTF096). JDTDA was supported by an Aca-
+demic Research Fund Grant (AcRF Tier 1) from the
+Singapore Ministry of Education.
+13
+
+Environ. Res. Lett. 17 (2022) 014003
+R S Lapuz et al
+Author contributions
+KWT, RSL and AKMJ planned and designed the
+project. RSL collected data and conducted the ana-
+lyses, with assistance from AKMJ, KWT, SRCR, and
+JDTDA. RSL led the writing and all authors contrib-
+uted critically to the drafts and gave final approval for
+publication.
+Declaration statement
+The authors declare that they have no known compet-
+ing financial interests or personal relationships that
+influence the work reported in this paper.
+ORCID iDs
+R Sedricke Lapuz https://orcid.org/0000-0002-
+5072-2306
+Angelica Kristina M Jaojoco 
+https://orcid.org/0000-0002-1583-584X
+Sheryl Rose C Reyes https://orcid.org/0000-0001-
+6201-1926
+Jose Don T De Alban https://orcid.org/0000-
+0002-1671-5786
+Kyle W Tomlinson https://orcid.org/0000-0003-
+3039-6766
+References
+Allaire J J, Gandrud C, Russell K and Yetman C J 2017 Networkd3:
+D3 Javascript network graphs from R. R package version 0.4
+(https://cran.r-project.org/web/packages/networkD3/
+index.html)
+Alphan H 2017 Analysis of road development and associated
+agricultural land use change Environ. Monit. Assess. 190 5
+Andersen A N, Cook G D, Corbett L K, Douglas M M, Eager R W,
+Russell-Smith J, Setterfield S A, Williams R J and
+Woinarski J C Z 2005 Fire frequency and biodiversity
+conservation in Australian tropical savannas: implications
+from the Kapalga fire experiment Austral Ecol. 30 155–67
+Bastin J-F et al 2017 The extent of forest in dryland biomes Science
+356 635–8
+Biasatti D, Wang Y, Gao F, Xu Y and Flynn L 2012 Paleoecologies
+and paleoclimates of late Cenozoic mammals from
+Southwest China: evidence from stable carbon and oxygen
+isotopes J. Asian Earth Sci. 44 48–61
+Bond W J 2019 Open Ecosystems: Ecology and Evolution beyond the
+Forest Edge (Oxford: Oxford University Press)
+Bond W J, Woodward F I and Midgley G F 2005 The global
+distribution of ecosystems in a world without fire New
+Phytol. 165 525–38
+Bruggeman D, Meyfroidt P and Lambin E F 2016 Forest cover
+changes in Bhutan: revisiting the forest transition Appl.
+Geogr. 67 49–66
+Buitenwerf R, Bond W J, Stevens N and Trollope W S W 2012
+Increased tree densities in South African savannas: >50 years
+of data suggests CO2 as a driver Glob. Chang Biol. 18 675–84
+Buitenwerf R, Swemmer A M and Peel M J S 2011 Long-term
+dynamics of herbaceous vegetation structure and
+composition in two African savanna reserves: effects of
+rainfall on herbaceous vegetation J. Appl. Ecol. 48 238–46
+Chen C et al 2019 China and India lead in greening of the world
+through land-use management Nat. Sustain. 2 122–9
+Chu Y, Wee A K S, Lapuz R S and Tomlinson K W 2021
+Phylogeography of two widespread C4 grass species suggest
+that tableland and valley grassy biome in southwestern
+China pre-date human modification Glob. Ecol. Conserv.
+31 e01835
+Congedo L 2014 Semi-automatic classification plugin
+documentation
+Cunningham M A and Johnson D 2019 Narrowness of habitat
+selection in woodland and grassland birds Avian Conserv.
+Ecol. 14 14
+De Alban J, Connette G, Oswald P and Webb E 2018 Combined
+Landsat and L-band SAR data improves land cover
+classification and change detection in dynamic tropical
+landscapes Remote Sens. 10 306
+Diallo Y, Hu G and Wen X 2009 Applications of remote sensing in
+land use/land cover change detection in Puer and Simao
+Counties, Yunnan Province J. Am. Sci. 5 157–66
+Eastburn D J, O’Geen A T, Tate K W and Roche L M 2017
+Multiple ecosystem services in a working landscape PLoS
+One 12 e0166595
+Edwards E J et al 2010 The origins of C4 grasslands: integrating
+evolutionary and ecosystem science Science
+328 587–91
+Ehleringer J R, Cerling T E and Helliker B R 1997 C4
+photosynthesis, atmospheric CO2, and climate Oecologia
+112 285–99
+ESRI 2011 ArcGIS Desktop: Release 10
+Fensham R J, Fairfax R J and Ward D P 2009 Drought-induced
+tree death in savanna Global Change Biol. 15 380–7
+Fogarty D T, Roberts C P, Uden D R, Donovan V M, Allen C R,
+Naugle D E, Jones M O, Allred B W and Twidwell D 2020
+Woody plant encroachment and the sustainability of
+priority conservation areas Sustainability 12 8321
+Fuhlendorf S D, Woodward A J W, Leslie D M and Shackford J S
+2002 Multi-scale effects of habitat loss and fragmentation on
+lesser prairie-chicken populations of the US Southern Great
+Plains Landscape Ecol. 17 617–28
+Gislason P O, Benediktsson J A and Sveinsson J R 2006 Random
+forests for land cover classification Pattern Recognit. Lett.
+27 294–300
+GRASS Development Team 2020 Geographic resources analysis
+support system (GRASS) software, version 7.8 Open Source
+Geospatial Foundation (https://grass.osgeo.org)
+Griffith D M et al 2017 Comment on ‘the extent of forest in
+dryland biomes’ Science 358 eaao1309
+Helm A, Oja T, Saar L, Takkis K, Talve T and Pärtel M 2009
+Human influence lowers plant genetic diversity in
+communities with extinction debt J. Ecol. 97 1329–36
+Hesselbarth M H K, Sciaini M, With K A, Wiegand K and
+Nowosad J 2019 landscapemetrics: an open-source R tool to
+calculate landscape metrics Ecography 42 1648–57
+Higgins S I, Bond W J and Trollope W S W 2000 Fire, resprouting
+and variability: a recipe for grass–tree coexistence in savanna
+J. Ecol. 88 213–29
+Hirota M, Holmgren M, Nes E H V and Scheffer M 2011 Global
+resilience of tropical forest and savanna to critical
+transitions Science 334 232–5
+Hoffmann W A, Bazzaz F A, Chatterton N J, Harrison P A and
+Jackson R B 2000 Elevated CO2 enhances resprouting of a
+tropical savanna tree Oecologia 123 312–7
+Honnay O, Adriaens D, Coart E, Jacquemyn H and Roldan-Ruiz I
+2007 Genetic diversity within and between remnant
+populations of the endangered calcareous grassland plant
+Globularia bisnagarica L Conserv. Genet. 8 293–303
+Hou X 2001 The Vegetation Atlas of China (1:1000000) (Beijing:
+Science Press)
+Jin Z 2002 Floristic Features of Dry-Hot and Dry-Warm Valleys,
+Yunnan and Sichuan (Kunming: Yunnan Science and
+Technology)
+Jin Z and Ou X 2000 Yuanjiang, Nujiang, Jinshajiang, Lancangjiang
+Vegetation of Dry-Hot Valley (Kunming: Yunnan University)
+Kgope B S, Bond W J and Midgley G F 2010 Growth responses of
+African savanna trees implicate atmospheric [CO2] as a
+driver of past and current changes in savanna tree cover
+Austral Ecol. 35 451–63
+14
+
+Environ. Res. Lett. 17 (2022) 014003
+R S Lapuz et al
+Khaing T T, Pasion B O, Lapuz R S and Tomlinson K W 2019
+Determinants of composition, diversity and structure in a
+seasonally dry forest in Myanmar Glob. Ecol. Conserv.
+13 e00669
+Kumar D, Pfeiffer M, Gaillard C, Langan L, Martens C and
+Scheiter S 2020 Misinterpretation of Asian savannas as
+degraded forest can mislead management and conservation
+policy under climate change Biol. Conserv. 241 108293
+Lehmann C E R, Prior L D and Bowman D M J S 2009 Fire
+controls population structure in four dominant tree species
+in a tropical savanna Oecologia 161 505–15
+Liang J, Liu Y, Ying L, Li P, Xu Y and Shen Z 2014 Road impacts
+on spatial patterns of land use and landscape fragmentation
+in three parallel rivers region, Yunnan Province, China Chin.
+Geogr. Sci. 24 15–27
+Liu J et al 2010 Spatial patterns and driving forces of land use
+change in China during the early 21st century J. Geogr. Sci.
+20 483–94
+Liu J et al 2014b Spatiotemporal characteristics, patterns, and
+causes of land-use changes in China since the late 1980s J.
+Geogr. Sci. 24 195–210
+Liu J, Liu M, Zhuang D, Zhang Z and Deng X 2003 Study on
+spatial pattern of land-use change in China during
+1995–2000 Sci. China 46 15
+Liu J, Yunhong T and Slik J W F 2014a Topography related habitat
+associations of tree species traits, composition and diversity
+in a Chinese tropical forest For. Ecol. Manage. 330 75–81
+Liu S, Dong Y, Cheng F, Zhang Y, Hou X, Dong S and Coxixo A
+2017 Effects of road network on Asian elephant habitat and
+connectivity between the nature reserves in Xishuangbanna,
+Southwest China J. Nat. Conserv. 38 11–20
+Liu W, Hughes A C, Bai Y, Li Z, Mei C and Ma Y 2020 Using
+landscape connectivity tools to identify conservation
+priorities in forested areas and potential restoration
+priorities in rubber plantation in Xishuangbanna, Southwest
+China Landscape Ecol. 35 389–402
+Loveland T R and Dwyer J L 2012 Landsat: building a strong
+future Remote Sens. Environ. 122 22–29
+Lu N, Hernandez A J and Ramsey R D 2015 Land cover dynamics
+monitoring with Landsat data in Kunming, China: a
+cost-effective sampling and modelling scheme using Google
+Earth imagery and random forests Geocarto Int. 30 186–201
+Nguyen T T, Murphy B P and Baker P J 2019 The existence of a
+fire-mediated tree-recruitment bottleneck in an Asian
+savanna J. Biogeogr. 46 745–56
+Ning J et al 2018 Spatiotemporal patterns and characteristics of
+land-use change in China during 2010–2015 J. Geogr. Sci.
+28 547–62
+Olofsson P, Foody G M, Herold M, Stehman S V, Woodcock C E
+and Wulder M A 2014 Good practices for estimating area
+and assessing accuracy of land change Remote Sens. Environ.
+148 42–57
+Olofsson P, Foody G M, Stehman S V and Woodcock C E 2013
+Making better use of accuracy data in land change studies:
+estimating accuracy and area and quantifying uncertainty
+using stratified estimation Remote Sens. Environ. 129 122–31
+Osborne C P, Salomaa A, Kluyver T A, Visser V, Kellogg E A,
+Morrone O, Vorontsova M S, Clayton W D and
+Simpson D A 2014 A global database of C4 photosynthesis
+in grasses New Phytol. 204 441–6
+Panthi S, Fan Z, Sleen P and Zuidema P A 2020 Long-term
+physiological and growth responses of Himalayan fir to
+environmental change are mediated by mean climate Glob.
+Change Biol. 26 1778–94
+Price J C 1981 The contribution of thermal data in Landsat
+multispectral classification Photogramm. Eng. 47 229–36
+R Core Team 2021 R: a language and environment for statistical
+computing
+Ratnam J, Chengappa S K, Machado S J, Nataraj N, Osuri A M
+and Sankaran M 2019 Functional traits of trees from dry
+deciduous ‘forests’ of southern India suggest seasonal
+drought and fire are important drivers Front. Ecol. Evol. 7 8
+Ratnam J, Tomlinson K W, Rasquinha D N and Sankaran M 2016
+Savannahs of Asia: antiquity, biogeography, and an
+uncertain future Phil. Trans. R. Soc. B 371 20150305
+Ripley B, Visser V, Christin P-A, Archibald S, Martin T and
+Osborne C 2015 Fire ecology of C3 and C4 grasses depends
+on evolutionary history and frequency of burning but not
+photosynthetic type Ecology 96 2679–91
+Rodriguez-Galiano V F, Ghimire B, Rogan J, Chica-Olmo M and
+Rigol-Sanchez J P 2012 An assessment of the effectiveness of
+a random forest classifier for land-cover classification ISPRS
+J. Photogramm. Remote Sens. 67 93–104
+Running S W, Loveland T R, Pierce L L, Nemani R R and Hunt E R
+1995 A remote sensing based vegetation classification logic
+for global land cover analysis Remote Sens. Environ. 51 39–48
+Sangha K K, Evans J, Edwards A, Russell-Smith J, Fisher R, Yates C
+and Costanza R 2021 Assessing the value of ecosystem
+services delivered by prescribed fire management in
+Australian tropical savannas Ecosyst. Serv. 51 101343
+Sankaran M, Augustine D J and Ratnam J 2013 Native ungulates
+of diverse body sizes collectively regulate long-term woody
+plant demography and structure of a semi-arid savanna J.
+Ecol. 101 1389–99
+Scheiter S, Kumar D, Corlett R T, Gaillard C, Langan L, Lapuz R S,
+Martens C, Pfeiffer M and Tomlinson K W 2020 Climate
+change promotes transitions to tall evergreen vegetation in
+tropical Asia Global Change Biol. 26 5106–24
+Schmidt I B, Moura L C, Ferreira M C, Eloy L, Sampaio A B,
+Dias P A and Berlinck C N 2018 Fire management in the
+Brazilian savanna: first steps and the way forward J. Appl.
+Ecol. 55 2094–101
+Scholes R J and Archer S R 1997 Tree-grass interactions in
+savannas Annu. Rev. Ecol. Syst. 28 517–44
+Shen G, Gao X, Gao B and Granger D E 2009 Age of Zhoukoudian
+Homo erectus determined with 26Al/10Be burial dating
+Nature 458 198–200
+Shi H and Chen J 2018 Characteristics of climate change and its
+relationship with land use/cover change in Yunnan
+Province, China Int. J. Climatol. 38 2520–37
+Shi Z, Sha Y and Liu X 2017 Effect of Yunnan–Guizhou
+topography at the Southeastern Tibetan Plateau on the
+Indian monsoon J. Clim. 30 1259–72
+Simon M F, Grether R, Queiroz L P, de Skema C, Pennington R T
+and Hughes C E 2009 Recent assembly of the Cerrado, a
+neotropical plant diversity hotspot, by in situ evolution of
+adaptations to fire PNAS 106 20359–64
+Staver A C, Archibald S and Levin S A 2011 The global extent and
+determinants of savanna and forest as alternative biome
+states Science 334 230–2
+Stoffel M A, Nakagawa S and Schielzeth H 2021 partR2:
+partitioning R2 in generalized linear mixed models bioRxiv
+2020.07.26.221168 (https://doi.org/10.1101/2020.07.26.
+221168)
+Su Y et al 2020 An updated vegetation map of China (1:1000000)
+Sci. Bull. 65 1125–36
+Wang Y, Dai E, Yin L and Ma L 2018 Land use/land cover change
+and the effects on ecosystem services in the Hengduan
+Mountain region, China Ecosyst. Serv. 34 55–67
+Welker C A D, McKain M R, Estep M C, Pasquet R S,
+Chipabika G, Pallangyo B and Kellogg E A 2020
+Phylogenomics enables biogeographic analysis and a new
+subtribal classification of Andropogoneae
+(Poaceae—Panicoideae) J. Syst. Evol. 58 1003–30
+Wilgen B W V, Govender N, Biggs H C, Ntsala D and Funda X N
+2004 Response of savanna fire regimes to changing
+fire-management policies in a large African National park
+Conserv. Biol. 18 1533–40
+Williams A P, Allen C D, Millar C I, Swetnam T W, Michaelsen J,
+Still C J and Leavitt S W 2010 Forest responses to increasing
+aridity and warmth in the southwestern United States Proc.
+Natl Acad. Sci. 107 21289–94
+Wu G, Gao Y, Wang Y, Wang Y and Xu D 2015 Land-use/land
+cover changes and their driving forces around wetlands in
+15
+
+Environ. Res. Lett. 17 (2022) 014003
+R S Lapuz et al
+Shangri-La County, Yunnan Province, China Int. J. Sustain.
+Dev. World Ecol. 22 110–6
+Xu J, Ai X and Deng X 2005 Exploring the spatial and temporal
+dynamics of land use in Xizhuang watershed of Yunnan,
+southwest China Int. J. Appl. Earth Obs. Geoinf. 7 299–309
+Xu J, Yang Y, Fox J and Yang X 2007 Forest transition, its causes
+and environmental consequences: empirical evidence from
+Yunnan of Southwest China Tropical Ecol. 48 137–50
+Yao Y-F, Bruch A A, Cheng Y-M, Mosbrugger V, Wang Y-F and
+Li C-S 2012 Monsoon versus uplift in Southwestern
+China–Late Pliocene climate in Yuanmou Basin, Yunnan
+PLoS One 7 e37760
+Yi K, Bao Y and Zhang J 2017 Spatial distribution and temporal
+variability of open fire in China Int. J. Wildland Fire 26 122
+Zhang J-Q, Corlett R T and Zhai D 2019a After the rubber boom:
+good news and bad news for biodiversity in Xishuangbanna,
+Yunnan, China Reg. Environ. Change 19 1713–24
+Zhang T-C, Comes H P and Sun H 2011 Chloroplast
+phylogeography of Terminalia franchetii (Combretaceae)
+from the eastern Sino-Himalayan region and its correlation
+with historical river capture events Mol. Phylogenetics Evol.
+60 1–12
+Zhang Z, Wang B, Buyantuev A, He X, Gao W, Wang Y and
+Yang Z 2019b Urban agglomeration of Kunming and Yuxi
+cities in Yunnan, China: the relative importance of
+government policy drivers and environmental constraints
+Landscape Ecol. 34 663–79
+Zhao H et al 2019a Individual-level performance of nature
+reserves in forest protection and the effects of
+management level and establishment age Biol. Conserv.
+233 23–30
+Zhao X, Ren B, Li D, Xiang Z, Garber P A and Li M 2019b Effects
+of habitat fragmentation and human disturbance on the
+population dynamics of the Yunnan snub-nosed monkey
+from 1994 to 2016 Peer J. 7 e6633
+Zhao Y, Zhang K, Fu Y and Zhang H 2012 Examining
+land-use/land-cover change in the lake dianchi watershed of
+the Yunnan-Guizhou Plateau of Southwest China with
+remote sensing and GIS techniques: 1974–2008 Int. J.
+Environ. Res. Public Health 9 3843–65
+Zhu H, Tan Y, Yan L and Liu F 2020 Flora of the savanna-like
+vegetation in hot dry valleys, Southwestern China with
+Implications to their origin and evolution Bot. Rev.
+86 281–97
+16

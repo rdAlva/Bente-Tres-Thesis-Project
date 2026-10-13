@@ -1,0 +1,2163 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+4-24-2020 
+Global Injury Morbidity and Mortality From 1990 to 2017: Results 
+Global Injury Morbidity and Mortality From 1990 to 2017: Results 
+From the Global Burden of Disease Study 2017 
+From the Global Burden of Disease Study 2017 
+Spencer L. James 
+University of Washington 
+Veincent Christian F. Pepito 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, vpepito@ateneo.edu 
+Global Burden of Disease Collaborators 
+595 co-authors 
+various institutions 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Epidemiology Commons 
+Custom Citation 
+Custom Citation 
+James, S. L., Castle, C. D., Dingels, Z. V., Fox, J. T., Hamilton, E. B., Liu, Z., Roberts, N. L. S., Sylte, D. O., 
+Henry, N. J., LeGrand, K. E., Abdelalim, A., Abdoli, A., Abdollahpour, I., Abdulkader, R. S., Abedi, A., 
+Abosetugn, A. E., Abushouk, A. I., Adebayo, O. M., Agudelo-Botero, M., … Vos, T. (2020). Global injury 
+morbidity and mortality from 1990 to 2017: Results from the Global Burden of Disease Study 2017. Injury 
+Prevention, 26(Suppl 2), i96–i114. https://doi.org/10.1136/injuryprev-2019-043494 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact research@ateneo.edu. 
+
+James SL, et al. Inj Prev 2020;0:1–19. doi:10.1136/injuryprev-2019-043494
+1
+Original research
+Global injury morbidity and mortality from 1990 to 
+2017: results from the Global Burden of Disease 
+Study 2017
+Spencer L James,1 Chris D Castle,1 Zachary V Dingels,1 Jack T Fox,1 Erin B Hamilton,1 
+Zichen Liu,1 Nicholas L S Roberts,1 Dillon O Sylte,1 Nathaniel J Henry,1 
+Kate E LeGrand,1 Ahmed Abdelalim,2 Amir Abdoli,3 Ibrahim Abdollahpour,4 
+Rizwan Suliankatchi Abdulkader,5 Aidin Abedi,6 Akine Eshete Abosetugn,7 
+Abdelrahman I Abushouk,8 Oladimeji M Adebayo,9 Marcela Agudelo-­Botero,10 
+Tauseef Ahmad,11,12 Rushdia Ahmed,13,14 Muktar Beshir Ahmed,15 
+Miloud Taki Eddine Aichour,16 Fares Alahdab,17 Genet Melak Alamene,18 
+Fahad Mashhour Alanezi,19 Animut Alebel,20 Niguse Meles Alema,21 
+Suliman A Alghnam,22 Samar Al-­Hajj,23,24 Beriwan Abdulqadir Ali,25,26 Saqib Ali,27 
+Mahtab Alikhani,28 Cyrus Alinia,29 Vahid Alipour,30,31 Syed Mohamed Aljunid,32,33 
+Amir Almasi-­Hashiani,34 Nihad A Almasri,35 Khalid Altirkawi,36 
+Yasser Sami Abdeldayem Amer,37,38 Saeed Amini,39 Arianna Maever Loreche Amit,40,41 
+Catalina Liliana Andrei,42 Alireza Ansari-­Moghaddam,43 Carl Abelardo T Antonio,44,45 
+Seth Christopher Yaw Appiah,46,47 Jalal Arabloo,30 Morteza Arab-­Zozani,48 
+Zohreh Arefi,49 Olatunde Aremu,50 Filippo Ariani,51 Amit Arora,52,53 Malke Asaad,54 
+Babak Asghari,55 Nefsu Awoke,56 Beatriz Paulina Ayala Quintanilla,57,58 
+Getinet Ayano,59 Martin Amogre Ayanore,60 Samad Azari,30 Ghasem Azarian,61 
+Alaa Badawi,62,63 Ashish D Badiye,64 Eleni Bagli,65,66 Atif Amin Baig,67,68 
+Mohan Bairwa,69,70 Ahad Bakhtiari,71 Arun Balachandran,72,73 Maciej Banach,74,75 
+Srikanta K Banerjee,76 Palash Chandra Banik,77 Amrit Banstola,78 
+Suzanne Lyn Barker-­Collo,79 Till Winfried Bärnighausen,80,81 Lope H Barrero,82 
+Akbar Barzegar,83 Mohsen Bayati,84 Bayisa Abdissa Baye,85 Neeraj Bedi,86,87 
+Masoud Behzadifar,88 Tariku Tesfaye Bekuma,89 Habte Belete,90 Corina Benjet,91 
+Derrick A Bennett,92 Isabela M Bensenor,93 Kidanemaryam Berhe,94 
+Pankaj Bhardwaj,95,96 Anusha Ganapati Bhat,97 Krittika Bhattacharyya,98,99 
+Sadia Bibi,100 Ali Bijani,101 Muhammad Shahdaat Bin Sayeed,102,103 
+Guilherme Borges,91 Antonio Maria Borzì,104 Soufiane Boufous,105 
+Alexandra Brazinova,106 Nikolay Ivanovich Briko,107 Shyam S Budhathoki,108 
+Josip Car,109,110 Rosario Cárdenas,111 Félix Carvalho,112 
+João Mauricio Castaldelli-­Maia,113 Carlos A Castañeda-­Orjuela,114,115 
+Giulio Castelpietra,116,117 Ferrán Catalá-López,118,119 Ester Cerin,120,121 
+Joht S Chandan,122 Wagaye Fentahun Chanie,123 Soosanna Kumary Chattu,124 
+Vijay Kumar Chattu,125 Irini Chatziralli,126,127 Neha Chaudhary,128,129 
+Daniel Youngwhan Cho,130 Mohiuddin Ahsanul Kabir Chowdhury,131,132 
+Dinh-­Toi Chu,133 Samantha M Colquhoun,134 Maria-­Magdalena Constantin,135,136 
+Vera M Costa,112 Giovanni Damiani,137,138 Ahmad Daryani,139 
+Claudio Alberto Dávila-­Cervantes,140 Feleke Mekonnen Demeke,141 
+Asmamaw Bizuneh Demis,142,143 Gebre Teklemariam Demoz,144,145 
+Desalegn Getnet Demsie,21 Afshin Derakhshani,146 Kebede Deribe,147,148 
+Rupak Desai,149 Mostafa Dianati Nasab,150 Diana Dias da Silva,151 
+Zahra Sadat Dibaji Forooshani,152 Kerrie E Doyle,153 Tim Robert Driscoll,154 
+To cite: James SL, Castle CD, 
+Dingels ZV, et al. Inj Prev 
+Epub ahead of print: [please 
+include Day Month Year]. 
+doi:10.1136/
+injuryprev-2019-043494
+►
+►Additional material is 
+published online only. To view 
+please visit the journal online 
+(http://​dx.​doi.​org/​10.​1136/​
+injuryprev-​2019-​043494).
+For numbered affiliations see 
+end of article.
+Correspondence to
+Dr Spencer L James, Institute for 
+Health Metrics and Evaluation, 
+University of Washington, 
+Seattle, WA 98121, USA; ​
+spencj@​uw.​edu
+Received 29 September 2019
+Revised 29 November 2019
+Accepted 6 December 2019
+© Author(s) (or their 
+employer(s)) 2020. Re-­use 
+permitted under CC BY. 
+Published by BMJ.
+ on July 22, 2020 by guest. Protected by copyright.
+http://injuryprevention.bmj.com/
+Inj Prev: first published as 10.1136/injuryprev-2019-043494 on 24 April 2020. Downloaded from 
+
+James SL, et al. Inj Prev 2020;0:1–19. doi:10.1136/injuryprev-2019-043494
+2
+Original research
+Eleonora Dubljanin,155 Bereket Duko Adema,156,157 Arielle Wilder Eagan,158,159 Aziz Eftekhari,160,161 
+Elham Ehsani-­Chimeh,162 Maysaa El Sayed Zaki,163 Demelash Abewa Elemineh,164 Shaimaa I El-­Jaafary,2 
+Ziad El-­Khatib,165,166 Christian Lycke Ellingsen,167,168 Mohammad Hassan Emamian,169 
+Daniel Adane Endalew,170 Sharareh Eskandarieh,171 Pawan Sirwan Faris,172,173 Andre Faro,174 
+Farshad Farzadfar,175 Yousef Fatahi,176 Wubalem Fekadu,90,177 Tomas Y Ferede,178 
+Seyed-­Mohammad Fereshtehnejad,179,180 Eduarda Fernandes,181 Pietro Ferrara,182 Garumma Tolu Feyissa,183 
+Irina Filip,184,185 Florian Fischer,186 Morenike Oluwatoyin Folayan,187 Masoud Foroutan,188 
+Joel Msafiri Francis,189 Richard Charles Franklin,190,191 Takeshi Fukumoto,192,193 
+Biniyam Sahiledengle Geberemariyam,194 Abadi Kahsu Gebre,195 Ketema Bizuwork Gebremedhin,196 
+Gebreamlak Gebremedhn Gebremeskel,197,198 Berhe Gebremichael,199 Getnet Azeze Gedefaw,200,201 
+Birhanu Geta,202 Mansour Ghafourifard,203 Farhad Ghamari,204 Ahmad Ghashghaee,205 
+Asadollah Gholamian,206,207 Tiffany K Gill,208 Alessandra C Goulart,93,209 Ayman Grada,210 Michal Grivna,211 
+Mohammed Ibrahim Mohialdeen Gubari,212 Rafael Alves Guimarães,213 Yuming Guo,214,215 Gaurav Gupta,216 
+Juanita A Haagsma,217 Nima Hafezi-­Nejad,218,219 Hassan Haghparast Bidgoli,220 Brian James Hall,221 
+Randah R Hamadeh,222 Samer Hamidi,223 Josep Maria Haro,224,225 Md Mehedi Hasan,226 
+Amir Hasanzadeh,227,228 Soheil Hassanipour,229 Hadi Hassankhani,230,231 Hamid Yimam Hassen,232,233 
+Rasmus Havmoeller,234 Khezar Hayat,235,236 Delia Hendrie,59 Fatemeh Heydarpour,237 Martha Híjar,238,239 
+Hung Chak Ho,240 Chi Linh Hoang,241 Michael K Hole,242 Ramesh Holla,243 Naznin Hossain,244,245 
+Mehdi Hosseinzadeh,246,247 Sorin Hostiuc,248,249 Guoqing Hu,250 Segun Emmanuel Ibitoye,251 
+Olayinka Stephen Ilesanmi,252 Irena Ilic,155 Milena D Ilic,253 Leeberk Raja Inbaraj,254 Endang Indriasih,255 
+Seyed Sina Naghibi Irvani,256 Sheikh Mohammed Shariful Islam,257,258 M Mofizul Islam,259 
+Rebecca Q Ivers,260 Kathryn H Jacobsen,261 Mohammad Ali Jahani,262 Nader Jahanmehr,263,264 
+Mihajlo Jakovljevic,265 Farzad Jalilian,266 Sudha Jayaraman,267 Achala Upendra Jayatilleke,268,269 
+Ravi Prakash Jha,270 Yetunde O John-­Akinola,251 Jost B Jonas,271,272 Nitin Joseph,273 Farahnaz Joukar,229 
+Jacek Jerzy Jozwiak,274 Suresh Banayya Jungari,275 Mikk Jürisson,276 Ali Kabir,277 Rajendra Kadel,278 
+Amaha Kahsay,94 Leila R Kalankesh,279 Rohollah Kalhor,280,281 Teshome Abegaz Kamil,282 Tanuj Kanchan,283 
+Neeti Kapoor,64 Manoochehr Karami,284 Amir Kasaeian,285,286 Hagazi Gebremedhin Kassaye,21 
+Taras Kavetskyy,287,288 Hafte Kahsay Kebede,289 Peter Njenga Keiyoro,290 Abraham Getachew Kelbore,291 
+Bayew Kelkay,292 Yousef Saleh Khader,293 Morteza Abdullatif Khafaie,294 Nauman Khalid,295 
+Ibrahim A Khalil,296 Rovshan Khalilov,297 Mohammad Khammarnia,298 Ejaz Ahmad Khan,299 Maseer Khan,300 
+Tripti Khanna,301,302 Habibolah Khazaie,303 Fatemeh Khosravi Shadmani,304 Roba Khundkar,305 
+Daniel N Kiirithio,306 Young-­Eun Kim,307 Daniel Kim,308 Yun Jin Kim,309 Adnan Kisa,310 Sezer Kisa,311 
+Hamidreza Komaki,312,313 Shivakumar K M Kondlahalli,314 Vladimir Andreevich Korshunov,107 
+Ai Koyanagi,315,316 Moritz U G Kraemer,317,318 Kewal Krishan,319 Burcu Kucuk Bicer,320,321 
+Nuworza Kugbey,322,323 Vivek Kumar,324 Nithin Kumar,273 G Anil Kumar,325 Manasi Kumar,326,327 
+Girikumar Kumaresh,328 Om P Kurmi,327,329 Oluwatosin Kuti,330 Carlo La Vecchia,331 Faris Hasan Lami,332 
+Prabhat Lamichhane,333 Justin J Lang,334 Van C Lansingh,335,336 Dennis Odai Laryea,337 Savita Lasrado,338 
+Arman Latifi,339 Paolo Lauriola,340 Janet L Leasher,341 Shaun Wen Huey Lee,342,343 Tsegaye Lolaso Lenjebo,344 
+Miriam Levi,51,345 Shanshan Li,214 Shai Linn,346 Xuefeng Liu,347 Alan D Lopez,1,348,349 Paulo A Lotufo,350 
+Raimundas Lunevicius,351,352 Ronan A Lyons,353 Mohammed Madadin,354 
+Muhammed Magdy Abd El Razek,355 Narayan Bahadur Mahotra,356 Marek Majdan,357 Azeem Majeed,358 
+Jeadran N Malagon-­Rojas,359,360 Venkatesh Maled,361,362 Reza Malekzadeh,363,364 
+Deborah Carvalho Malta,365 Navid Manafi,366,367 Amir Manafi,368 Ana-­Laura Manda,369 
+Narayana Manjunatha,370 Fariborz Mansour-­Ghanaei,229 Borhan Mansouri,371 Mohammad Ali Mansournia,372 
+Joemer C Maravilla,373 Lyn M March,374 Amanda J Mason-­Jones,375 Seyedeh Zahra Masoumi,376 
+Benjamin Ballard Massenburg,130 Pallab K Maulik,377,378 Gebrekiros Gebremichael Meles,379 
+Addisu Melese,141 Zeleke Aschalew Melketsedik,380 Peter T N Memiah,381 Walter Mendoza,382 
+ on July 22, 2020 by guest. Protected by copyright.
+http://injuryprevention.bmj.com/
+Inj Prev: first published as 10.1136/injuryprev-2019-043494 on 24 April 2020. Downloaded from 
+
+James SL, et al. Inj Prev 2020;0:1–19. doi:10.1136/injuryprev-2019-043494
+3
+Original research
+Ritesh G Menezes,383 Meresa Berwo Mengesha,384 Melkamu Merid Mengesha,385 Tuomo J Meretoja,386,387 
+Atte Meretoja,388,389 Hayimro Edemealem Merie,164 Tomislav Mestrovic,390,391 Bartosz Miazgowski,392 
+Tomasz Miazgowski,393 Ted R Miller,59,394 GK Mini,395,396 Andreea Mirica,397,398 Erkin M Mirrakhimov,399,400 
+Mehdi Mirzaei-­Alavijeh,266 Prasanna Mithra,273 Babak Moazen,401,402 Masoud Moghadaszadeh,403,404 
+Efat Mohamadi,405 Yousef Mohammad,406 Karzan Abdulmuhsin Mohammad,407,408 
+Aso Mohammad Darwesh,409 Naser Mohammad Gholi Mezerji,410 Abdollah Mohammadian-­Hafshejani,411 
+Milad Mohammadoo-­Khorasani,412 Reza Mohammadpourhodki,413 Shafiu Mohammed,80,414 
+Jemal Abdu Mohammed,415 Farnam Mohebi,175,416 Mariam Molokhia,417 Lorenzo Monasta,418 
+Yoshan Moodley,419 Mahmood Moosazadeh,420 Masoud Moradi,421 Ghobad Moradi,422,423 
+Maziar Moradi-­Lakeh,424 Farhad Moradpour,422 Lidia Morawska,425 Ilais Moreno Velásquez,426 
+Naho Morisaki,427 Shane Douglas Morrison,130 Tilahun Belete Mossie,90 Atalay Goshu Muluneh,428 
+Srinivas Murthy,429 Kamarul Imran Musa,430 Ghulam Mustafa,431,432 Ashraf F Nabhan,433,434 
+Ahamarshan Jayaraman Nagarajan,435,436 Gurudatta Naik,437 Mukhammad David Naimzada,438,439 
+Farid Najafi,440 Vinay Nangia,441 Bruno Ramos Nascimento,442 Morteza Naserbakht,424,443 Vinod Nayak,444 
+Duduzile Edith Ndwandwe,445 Ionut Negoi,446,447 Josephine W Ngunjiri,448 Cuong Tat Nguyen,449 
+Huong Lan Thi Nguyen,449 Rajan Nikbakhsh,450,451 Dina Nur Anggraini Ningrum,452,453 
+Chukwudi A Nnaji,445,454 Peter S Nyasulu,455 Felix Akpojene Ogbo,112 Onome Bright Oghenetega,456 
+In-­Hwan Oh,457 Emmanuel Wandera Okunga,458 Andrew T Olagunju,459,460 Tinuke O Olagunju,461 
+Ahmed Omar Bali,462 Obinna E Onwujekwe,463 Kwaku Oppong Asante,464,465 Heather M Orpana,466,467 
+Erika Ota,468 Nikita Otstavnov,438,469 Stanislav S Otstavnov,438,470 Mahesh P A,471 Jagadish Rao Padubidri,472 
+Smita Pakhale,473 Keyvan Pakshir,474 Songhomitra Panda-­Jonas,475 Eun-­Kee Park,476 
+Sangram Kishor Patel,477,478 Ashish Pathak,165,479 Sanghamitra Pati,480 George C Patton,481,482 
+Kebreab Paulos,483 Amy E Peden,191,484 Veincent Christian Filipino Pepito,485 Jeevan Pereira,486 
+Hai Quang Pham,449 Michael R Phillips,487,488 Marina Pinheiro,489 Roman V Polibin,490 Suzanne Polinder,217 
+Hossein Poustchi,363 Swayam Prakash,491 Dimas Ria Angga Pribadi,492 Parul Puri,493 Zahiruddin Quazi Syed,96 
+Mohammad Rabiee,494 Navid Rabiee,495 Amir Radfar,496,497 Anwar Rafay,498 Ata Rafiee,499 
+Alireza Rafiei,500,501 Fakher Rahim,502,503 Siavash Rahimi,504 Vafa Rahimi-­Movaghar,505 
+Muhammad Aziz Rahman,506,507 Ali Rajabpour-­Sanati,508 Fatemeh Rajati,421 Ivo Rakovac,509 
+Kavitha Ranganathan,510 Sowmya J Rao,511 Vahid Rashedi,512 Prateek Rastogi,513 Priya Rathi,514 
+Salman Rawaf,358,515 Lal Rawal,516 Reza Rawassizadeh,517 Vishnu Renjith,518 Andre M N Renzaho,519,520 
+Serge Resnikoff,521 Aziz Rezapour,522 Ana Isabel Ribeiro,523 Jennifer Rickard,524,525 
+Carlos Miguel Rios González,526,527 Luca Ronfani,418 Gholamreza Roshandel,363,528 Anas M Saad,529 
+Yogesh Damodar Sabde,530 Siamak Sabour,531 Basema Saddik,532 Saeed Safari,533 Roya Safari-­Faramani,534 
+Hamid Safarpour,535 Mahdi Safdarian,505,536 S Mohammad Sajadi,537 Payman Salamati,505 
+Farkhonde Salehi,538 Saleh Salehi Zahabi,539,540 Marwa R Rashad Salem,541 Hosni Salem,542 
+Omar Salman,543,544 Inbal Salz,545 Abdallah M Samy,546 Juan Sanabria,547,548 Lidia Sanchez Riera,549,550 
+Milena M Santric Milicevic,551,552 Abdur Razzaque Sarker,553 Arash Sarveazad,554 Brijesh Sathian,555,556 
+Monika Sawhney,557 Susan M Sawyer,558,559 Sonia Saxena,560 Mehdi Sayyah,561 David C Schwebel,562 
+Soraya Seedat,563 Subramanian Senthilkumaran,564 Sadaf G Sepanlou,363,364 Seyedmojtaba Seyedmousavi,565 
+Feng Sha,566 Faramarz Shaahmadi,567 Saeed Shahabi,568 Masood Ali Shaikh,569 
+Mehran Shams-­Beyranvand,570 Morteza Shamsizadeh,571 Mahdi Sharif-­Alhoseini,505 Hamid Sharifi,572 
+Aziz Sheikh,573,574 Mika Shigematsu,575 Jae Il Shin,576,577 Rahman Shiri,578 Soraya Siabani,579,580 
+Inga Dora Sigfusdottir,581,582 Pankaj Kumar Singh,583 Jasvinder A Singh,584,585 Dhirendra Narain Sinha,586,587 
+Catalin-­Gabriel Smarandache,588,589 Emma U R Smith,590,591 Amin Soheili,592,593 Bija Soleymani,237 
+Ali Reza Soltanian,594 Joan B Soriano,595,596 Muluken Bekele Sorrie,597 Ireneous N Soyiri,598,599 
+Dan J Stein,600,601 Mark A Stokes,602 Mu’awiyyah Babale Sufiyan,603 Hafiz Ansar Rasul Suleria,604 
+Bryan L Sykes,605 Rafael Tabarés-­Seisdedos,606,607 Karen M Tabb,608 Biruk Wogayehu Taddele,609 
+ on July 22, 2020 by guest. Protected by copyright.
+http://injuryprevention.bmj.com/
+Inj Prev: first published as 10.1136/injuryprev-2019-043494 on 24 April 2020. Downloaded from 
+
+James SL, et al. Inj Prev 2020;0:1–19. doi:10.1136/injuryprev-2019-043494
+4
+Original research
+Degena Bahrey Tadesse,197,610 Animut Tagele Tamiru,611 Ingan Ukur Tarigan,255 Yonatal Mesfin Tefera,612,613 
+Arash Tehrani-­Banihashemi,424,614 Merhawi Gebremedhin Tekle,199 Gebretsadkan Hintsa Tekulu,615 
+Ayenew Kassie Tesema,616 Berhe Etsay Tesfay,617 Rekha Thapar,273 Asres Bedaso Tilahune,618 
+Kenean Getaneh Tlaye,142 Hamid Reza Tohidinik,372,572 Roman Topor-­Madry,619,620 Bach Xuan Tran,621 
+Khanh Bao Tran,622,623 Jaya Prasad Tripathy,624 Alexander C Tsai,625,626 Lorainne Tudor Car,627 Saif Ullah,628 
+Irfan Ullah,629,630 Maida Umar,631 Bhaskaran Unnikrishnan,273 Era Upadhyay,632 Olalekan A Uthman,633 
+Pascual R Valdez,634,635 Tommi Juhani Vasankari,636 Narayanaswamy Venketasubramanian,637,638 
+Francesco S Violante,639,640 Vasily Vlassov,641 Yasir Waheed,642 Girmay Teklay Weldesamuel,197 
+Andrea Werdecker,643,644 Taweewat Wiangkham,645 Haileab Fekadu Wolde,428 Dawit Habte Woldeyes,646 
+Dawit Zewdu Wondafrash,647,648 Temesgen Gebeyehu Wondmeneh,415 Adam Belay Wondmieneh,196,649 
+Ai-­Min Wu,650 Rajaram Yadav,493 Ali Yadollahpour,651 Yuichiro Yano,652 Sanni Yaya,653 
+Vahid Yazdi-­Feyzabadi,654,655 Paul Yip,656,657 Engida Yisma,658 Naohiro Yonemoto,659 Seok-­Jun Yoon,307 
+Yoosik Youm,660 Mustafa Z Younis,661,662 Zabihollah Yousefi,663,664 Yong Yu,665 Chuanhua Yu,666,667 
+Hasan Yusefzadeh,29 Telma Zahirian Moghadam,30,668 Zoubida Zaidi,669 Sojib Bin Zaman,131,670 
+Mohammad Zamani,671 Maryam Zamanian,34 Hamed Zandian,668,672 Ahmad Zarei,673 Fatemeh Zare,674 
+Zhi-­Jiang Zhang,675 Yunquan Zhang,676,677 Sanjay Zodpey,678 Lalit Dandona,1,325,349 Rakhi Dandona,1,325 
+Louisa Degenhardt,1,679 Samath Dhamminda Dharmaratne,1,349, 680 Simon I Hay,1,349 Ali H Mokdad,1,349 
+Robert C Reiner Jr,1,349 Benn Sartorius,349,681 Theo Vos1,349
+Summary
+Background  Past research in population health trends has shown 
+that injuries form a substantial burden of population health loss. 
+Regular updates to injury burden assessments are critical. We report 
+Global Burden of Disease (GBD) 2017 Study estimates on morbidity 
+and mortality for all injuries.
+Methods  We reviewed results for injuries from the GBD 2017 study. 
+GBD 2017 measured injury-­specific mortality and years of life lost 
+(YLLs) using the Cause of Death Ensemble model. To measure non-­fatal 
+injuries, GBD 2017 modelled injury-­specific incidence and converted 
+this to prevalence and years lived with disability (YLDs). YLLs and YLDs 
+were summed to calculate disability-­adjusted life years (DALYs).
+Findings  In 1990, there were 4 260 493 (4 085 700 to 4 396 138) 
+injury deaths, which increased to 4 484 722 (4 332 010 to 4 585 554) 
+deaths in 2017, while age-­standardised mortality decreased from 1079 
+(1073 to 1086) to 738 (730 to 745) per 100 000. In 1990, there were 
+354 064 302 (95% uncertainty interval: 338 174 876 to 371 610 802) 
+new cases of injury globally, which increased to 520 710 288 (493 
+430 247 to 547 988 635) new cases in 2017. During this time, age-­
+standardised incidence decreased non-­significantly from 6824 (6534 to 
+7147) to 6763 (6412 to 7118) per 100 000. Between 1990 and 2017, 
+age-­standardised DALYs decreased from 4947 (4655 to 5233) per 
+100 000 to 3267 (3058 to 3505).
+Interpretation  Injuries are an important cause of health loss 
+globally, though mortality has declined between 1990 and 2017. 
+Future research in injury burden should focus on prevention in high-­
+burden populations, improving data collection and ensuring access to 
+medical care.
+Introduction
+Injury burden assessments are a critical component of popula-
+tion health measurement. Across the global landscape of popu-
+lation health research, injuries are unique in that they are almost 
+universally avertable yet can cause death or disability at any age. 
+Even common injuries such as concussion resulting from falls, 
+violence or road injuries may cause longer term sequelae, and 
+injuries such as spinal cord injuries or limb amputations can cause 
+long-­term disability.1 As a result, injuries are recognised as being 
+a source of lost health and human capital that could be averted 
+with improved safety and prevention programmes as well as 
+ensuring access to care resources.2 Across geographies, certain 
+injuries such as envenomation may be relevant in specific loca-
+tions where venomous creatures live, while injuries such as those 
+occurring from adverse medical events are an increasing area 
+of research in higher income areas of the world.3–5 Bolstering 
+such programmes, however, requires detailed measurement of 
+when, where and to whom injuries are occurring, necessitating 
+focused research studies to add insight and context to broader 
+geographical trends. Across all domains of injury prevention 
+research, it is important to measure the causes of injury, such as 
+road injuries, and the resulting disability, such as fractures, burns 
+or traumatic brain injury, that can occur as a result. Such detailed 
+measurement lends perspective for understanding burden and 
+anticipating resources needed to care for and hopefully prevent 
+future injury burden. Detailed measurements and assessments of 
+this nature are critical for empowering policy makers and health 
+system planners to appropriately plan and invest for mitigating 
+future health loss from injuries. Reducing injury burden is an 
+important component in global efforts such as the Sustainable 
+Development Goal 3 to ‘ensure healthy lives and promote well-­
+being for all at all ages’.6
+While some research has focused on a certain type of injury 
+or outcome from injury or specific area of the world,7–10 it 
+has become important in an era of more sophisticated popula-
+tion health measurement to measure health loss from injuries 
+comprehensively with detailed fatal and non-­fatal estimates 
+for different ages, sexes, across time periods and accounting 
+for multiple different types of morbidity that can occur in an 
+injury. Previously published literature on global injury burden 
+through 2015 has provided comprehensive measurements of 
+health loss due to injuries but still require regular updates to 
+help inform research and policy, as new years of estimates are 
+ on July 22, 2020 by guest. Protected by copyright.
+http://injuryprevention.bmj.com/
+Inj Prev: first published as 10.1136/injuryprev-2019-043494 on 24 April 2020. Downloaded from 
+
+James SL, et al. Inj Prev 2020;0:1–19. doi:10.1136/injuryprev-2019-043494
+5
+Original research
+added and as new injuries and injury outcomes are incorpo-
+rated.11 Comprehensive research of this nature shows how 
+injury burden varies dynamically by age, sex, year, area of the 
+world and type of injury, and hence, it is important to main-
+tain close monitoring of injury burden every year in all parts of 
+the world. In addition, as new datasets and statistical model-
+ling methods become available, producing regular updates to 
+burden estimation also ensures that results are as accurate as 
+possible.
+While the burden of injuries is widely studied and moni-
+tored through various methods of research, the Global Burden 
+of Diseases, Injuries, and Risk Factors (GBD) Study is the only 
+study framework that routinely provides estimates of morbidity 
+and mortality from an exhaustive list of injuries in all areas of 
+the world across ages and sexes. The most recent update to GBD 
+was published in 2018 and provided morbidity and mortality 
+estimates for 30 mutually exclusive causes of injury for 195 
+countries from 1990 to 2017.12–17 As part of this regular update, 
+new datasets on cause of death and incidence are incorporated 
+into the study, and additional geographical detail is added to 
+better measure heterogeneity in burden estimates at a subna-
+tional level. In addition, updates such as reporting both nature 
+of injury and cause of injury (described in more detail below) are 
+incorporated. In this study, we describe key components in the 
+GBD injury methodology and provide results from key trends 
+in injury burden in terms of incidence, prevalence, years lived 
+with disability (YLDs), cause-­specific mortality, years of life lost 
+(YLLs) and disability-­adjusted life years (DALYs) by country, age 
+groups, sex, year and injury type.
+Methods
+The methods and results in this study are the same as are 
+provided in GBD capstone publications, and a detailed descrip-
+tion of GBD data and methods used for all processes related 
+to GBD 2017 is provided in associated studies.12–17 Overall, 
+GBD methods are also summarised in online supplementary 
+appendix 1. Below, we summarise the specific methods used 
+for measurement of injuries morbidity and mortality in GBD 
+2017.
+Key components of GBD study design
+The GBD study incorporates several key components to allow 
+for internally consistent estimates across all burden measures 
+and metrics. First, population is measured to ensure consistent 
+denominators for all population-­level measurement. Second, all-­
+cause mortality is measured using demographic methods. Third, 
+cause-­specific mortality for a mutually exclusive, collectively 
+exhaustive hierarchy of diseases and injuries is measured, such 
+that every death has one underlying cause of death and such that 
+estimates for every possible cause of death are included, which 
+requires the use of residual causes like ‘other transport injuries’. 
+This results in the sum of cause-­specific mortality equalling total 
+all-­cause mortality. Fourth, non-­fatal health loss is measured for 
+individuals living with a disease or injury that detracts from their 
+full health status. Fifth, a composite measure of mortality and 
+morbidity is computed. These steps are conducted within an age, 
+sex and location hierarchy constructed such that demographic 
+detail is available but where all estimates are internally consistent 
+with all other estimates. GBD produces estimates for all causes, 
+ages, sexes, years and locations. Risk factors and attributable 
+burden for different are also measured, but those results are not 
+included in this study.
+Case definition and cause hierarchy
+The GBD case definition for an injury death is a death where the 
+injury was the underlying cause of death. For example, if an indi-
+vidual falls on ice and sustains an epidural haematoma and dies 
+after a seizure, the fall is the underlying cause. If an individual 
+sustains a myocardial infarction and then falls and sustains the 
+same epidural haematoma, then the myocardial infarction is the 
+underlying cause of death. For non-­fatal injuries, we define a 
+case as an injury that warranted medical care. For example, if an 
+individual slips and falls but does not sustain any bodily injury, 
+it is not considered an injury. Online supplementary appendix 
+table 1 provides the International Classification of Disease (ICD) 
+codes used to identify causes of injury.
+Cause-specific mortality estimation
+Cause-­specific mortality from injuries is measured using the 
+Cause of Death Ensemble model (CODEm). CODEm is described 
+in more detail elsewhere; a summary of its use for injuries is as 
+follows.18 First, all available data that can be used for cause of 
+death estimation are identified. For injuries, this includes vital 
+registration, verbal autopsy, police records, mortuary data and 
+census data. These data are processed for use in the GBD cause 
+and demographic hierarchy via a series of data processing steps 
+including a process whereby ill-­defined causes of death are reas-
+signed to true underlying causes of death, which is described in 
+more detail elsewhere but essentially is the process by which ill-­
+defined causes of death are reclassified to causes of death in the 
+GBD cause hierarchy.19 20 Next, a cause-­specific mortality model 
+is developed for each one of the 30 different causes of injury. For 
+example, falls are modelled differently than road injuries, though 
+both use the same CODEm modelling architecture. For each 
+cause of injury, covariates that may be associated with the cause 
+are identified and added as candidate covariates. CODEm runs 
+different combinations of models using different covariates and 
+outcome variables, specifically cause fraction models and cause-­
+specific mortality rate models. Ensembles of models are also 
+conducted to test performance of overall models formed from 
+submodels. Once all models have been run, the top-­performing 
+models are selected based on out-­of-­sample predictive validity, 
+wherein the model makes predictions on data that were not 
+included in developing the model. The top-­performing models 
+are then weighted according to performance, and the final esti-
+mates form the penultimate estimate for cause-­specific mortality 
+from that injury. Those estimates are then adjusted to fit within 
+the all-­cause mortality estimate, so that cause-­specific deaths 
+sum up to the overall mortality estimate for each population and 
+demographic. YLLs are computed as the cause-­specific mortality 
+rate at a given age multiplied by the residual life expectancy at 
+that age, which is based on the observed maximum global life 
+expectancy.
+Non-fatal injury estimation
+Non-­fatal injury estimation is also described in more detail in 
+GBD literature. Key components in this process are as follows. 
+First, data on incidence of non-­fatal injury causes (eg, road inju-
+ries) is obtained from the GBD collaborator network and other 
+injury research groups and researchers around the world. Data are 
+cleaned and organised according to GBD study guidelines. Next, 
+incidence of each cause of injury is modelled in DisMod-­MR 
+2.1, which is a Bayesian meta-­analysis tool used extensively in 
+GBD research. Incidence estimates of injuries requiring medical 
+care for each cause of injury then stream through an analyt-
+ical pipeline. During this process, injury incidence is split into 
+ on July 22, 2020 by guest. Protected by copyright.
+http://injuryprevention.bmj.com/
+Inj Prev: first published as 10.1136/injuryprev-2019-043494 on 24 April 2020. Downloaded from 
+
+James SL, et al. Inj Prev 2020;0:1–19. doi:10.1136/injuryprev-2019-043494
+6
+Original research
+inpatient and outpatient to account for the different severity that 
+is expected to occur. The coefficient that determines this split 
+is derived from locations where both inpatient and outpatient 
+data are available. After this, we measure the proportion of each 
+cause of injury that leads to one of 47 different natures of injury 
+using clinical data where both cause and nature are coded as well 
+a Dirichlet statistical modelling process. Based on these steps, 
+the incidence of each cause is also split into incidence of each 
+cause-­nature, which is the proportion of a given cause’s inci-
+dence leading to some specific nature of injury being the most 
+severe injury sustained as estimated by the Dirichlet regression. 
+These estimates are then converted to short-­term and long-­term 
+injuries based on probability of each injury becoming long term, 
+as determined by long-­term follow-­up injury surveys.21–27 For 
+short-­term injuries, incidence is converted to prevalence based 
+on multiplying incidence by an expected duration of injury as 
+determined by physicians and injury experts involved in the 
+GBD study. For long-­term injuries, incidence is converted to 
+prevalence using differential equations that take into account the 
+increased mortality for certain types of injury, for example, trau-
+matic brain injury.1 Disability weights as derived elsewhere in the 
+GBD study are then used to measure disability based on nature 
+of injury.28 These measures are then summed across natures of 
+injury for each cause to calculate YLDs. Each of these steps is 
+conducted for every cause, age, sex, year and location in the 
+GBD study design. Associated literature provides more detail on 
+each of these steps.12–17
+DALY measurement
+DALYs are calculated by summing YLLs and YLDs for each 
+cause, age, sex, year and location.
+Uncertainty measurement
+Uncertainty is measured at each step of the analytical process 
+based on the sample size, SE or original uncertainty interval (UI) 
+from each input to the study. Uncertainty is propagated through 
+each step of the analysis by maintaining distributions of 1000 
+draws on which each analytical step is conducted. Final 95% 
+UIs are determined based on the 25th and 975th values of the 
+ordered values across draws.
+Code and results
+Steps of the analytical process were conducted in Python version 
+2.7, Stata V.13.1 or R version 3.3. All steps of the analytical 
+process are available online at ​ghdx.​healthdata.​org. This study 
+reports a subset of measures and metrics for every cause of 
+injury. All results and results with additional detail by age, sex, 
+year and location can be downloaded at ​ghdx.​healthdata.​org.
+Guidelines for Accurate and Transparent Health Estimates 
+Reporting (GATHER) statement
+This study is adherent with guidelines from the GATHER 
+(described in more detail in online supplementary appendix 2).29
+Results
+Online supplementary appendix table 2 shows age-­standardised 
+incidence, prevalence, YLDs, deaths, YLLs and DALYs in 2017 
+by country as well as percentage change and UI from 1990 for 
+each metric. Online supplementary appendix table 3 shows all-­
+age numbers (ie, not divided by population) of incidence, prev-
+alence, YLDs, deaths, YLLs and DALYs in 2017 by country as 
+well as percentage change from 1990 and UI for each metric. 
+In some instances, the UI for the per cent change crosses zero, 
+meaning that statistically there was no significant difference. 
+Online supplementary appendix figures 1–6, show the incidence 
+and mortality from transport injuries, unintentional injuries, 
+and interpersonal violence and self-­harm by country for 2017 as 
+well as the percentage change for both incidence and mortality 
+between 1990 and 2017. All other results including age-­specific 
+and sex-­specific results can be viewed and downloaded via freely 
+and publicly available tools at ​ghdx.​healthdata.​org.
+Global trends in overall injury burden
+In terms of fatal outcomes, deaths due to all injuries increased from 
+4 260 493 (4 085 700 to 4 396 138) in 1990 to 4 484 722 (4 332 
+010 to 4 585 554) in 2017, while YLLs decreased from 232 104 
+206 (219 920 058 to 241 973 733) to 195 231 148 (188 807 653 
+to 199 825 464) and age-­standardised mortality rates decreased 
+from 1079 (1073 to 1086) to 738 (730 to 745) per 100 000. 
+In terms of non-­fatal outcomes, all-­injury incidence (new cases) 
+increased from 354 064 302 (338 174 876 to 371 610 802) in 
+1990 to 520 710 288 (493 430 247 to 547 988 635) in 2017, and 
+YLDs increased from 37 452 031 (27 805 854 to 49 010 103) to 
+57 174 469 (42 073 855 to 75 427 036), while age-­standardised 
+incidence rates decreased non-­significantly from 6824 (6534 to 
+7147) to 6763 (6412 to 7118) per 100 000. In terms of DALYs, 
+age-­standardised DALY rates decreased from 4947 (4655 to 5233) 
+per 100 000 in 1990 to 3267 (3058 to 3505) in 2017.
+Figure  1 shows age-­standardised DALY rates by country for 
+2017. While certain countries—specifically, Syria, Central African 
+Republic and Iraq—have much higher DALY rates than most 
+other countries, there still exists considerable heterogeneity across 
+countries that are not among these countries with the highest 
+burden. South Sudan, Somalia and Yemen have much higher injury 
+burden than much of the rest of the world, for example, with age-­
+standardised DALY rates of 7391.51 per 100 000 (6536.44 to 
+8440.14), 7364.66 per 100 000 (6143.11 to 8960.58) and 7297.88 
+per 100 000 (6525.7 to 8438.15), respectively. Papua New Guinea 
+also demonstrates high all-­injury burden with 6803.33 DALYs per 
+100 000 (5652.2 to 8040.89) in 2017.
+Figure 2 presents deaths as a stacked graph for overall injury 
+groups and population from 1990 to 2017 with labelled fatal 
+discontinuities, defined as changes in deaths due to sudden, 
+unexpected spikes in mortality that depart from the underlying 
+mortality trend.13 Although population has steadily increased in 
+the 28 years of the study, deaths per year due to injuries have 
+remained relatively consistent over time. Natural disasters, such 
+as earthquakes, have caused pronounced spikes in unintentional 
+injuries deaths, while conflict and genocide have caused spikes in 
+deaths in the interpersonal violence injury category.
+All-injury YLDs and YLLs by country in 2017
+Figure  3 shows the percentage of total all-­age, combined-­sex 
+YLDs by country in 2017. This figure shows several geographical 
+patterns that help depict the non-­fatal burden of injuries glob-
+ally in terms of their relative contribution to overall disability. 
+First, the percentage of total disability caused by injuries varies 
+widely by country. Mauritius experiences only 3.04% (2.79% to 
+3.29%) of non-­fatal burden from injuries, while Slovenia expe-
+riences 19.11% (17.11% to 21.27%) of non-­fatal burden from 
+injuries. In other words, if all disability in these two popula-
+tions is combined in 2017, there is over sixfold variation in how 
+much of this disability was caused by injuries. These patterns 
+also reflect burden from non-­injury conditions, since locations 
+with higher burden from communicable disease may have corre-
+spondingly lower proportion due to injuries. As an extension of 
+ on July 22, 2020 by guest. Protected by copyright.
+http://injuryprevention.bmj.com/
+Inj Prev: first published as 10.1136/injuryprev-2019-043494 on 24 April 2020. Downloaded from 
+
+James SL, et al. Inj Prev 2020;0:1–19. doi:10.1136/injuryprev-2019-043494
+7
+Original research
+Figure 1  Age-­standardised DALY rates by country, 2017. DALYs, disability-­adjusted life years.
+Figure 2  Global deaths for level 2 injuries and population from 1990 to 2017 with labelled fatal discontinuities.
+these geographical trends, this map makes it evident that there 
+are striking regional patterns in non-­fatal injury burden. Eastern 
+and Central Europe and Central Asia as well as Australasia have 
+a notably higher percentage of total non-­fatal burden from inju-
+ries than countries in other regions, while these percentages are 
+relatively lower in most areas of Africa, the Americas and areas 
+of South, East and Southeast Asia. To some extent, this map also 
+reflects the underlying burden from non-­injury causes, too, since 
+areas of the world with high non-­fatal disability from conditions 
+such as anaemia, communicable diseases and other types of health 
+loss could have correspondingly higher percentages of disability 
+from these conditions instead of injuries. This map also shows 
+examples of positive deviations from global trends; Indonesia, 
+for example, has a relatively low percentage of non-­fatal health 
+loss due to injuries compared with many other countries.
+Figure  4 similarly shows the percentage of total all-­age, 
+combined-­sex YLLs by country in 2017. This figure inter-
+estingly shows how mortality patterns demonstrate different 
+geographical trends than the non-­fatal burden, as depicted 
+in figure 2, though it should be noted that YLLs will also be 
+disproportionately higher in younger populations, all else being 
+equal. In particular, the locations with the highest percentage 
+of YLLs due to injuries are in certain countries in North Africa 
+and the Middle East, including Syria, where 59.51% (56.59% 
+to 62.35%) of YLLs were due to injuries in 2017, and Iraq, 
+where 41.34% of YLLs were due to injuries in 2017. Areas of 
+ on July 22, 2020 by guest. Protected by copyright.
+http://injuryprevention.bmj.com/
+Inj Prev: first published as 10.1136/injuryprev-2019-043494 on 24 April 2020. Downloaded from 
+
+James SL, et al. Inj Prev 2020;0:1–19. doi:10.1136/injuryprev-2019-043494
+8
+Original research
+Figure 3  Percentage of YLDs in all ages due to injuries in 2017. YLDs, years lived with disability.
+Figure 4  Percentage of YLLs in all ages due to injuries in 2017. YLLs, years of life lost.
+Latin America including Venezuela, Honduras and Belize also 
+have a relatively high percentage of total YLLs due to injuries. 
+Conversely, certain areas of the world also demonstrate a rela-
+tively low percentage of total YLLs due to injuries, specifically, 
+certain countries in Africa such as Nigeria and Madagascar 
+have relatively lower percentages, though this also reflects rela-
+tively higher mortality from other non-­injury causes in these 
+countries.
+ on July 22, 2020 by guest. Protected by copyright.
+http://injuryprevention.bmj.com/
+Inj Prev: first published as 10.1136/injuryprev-2019-043494 on 24 April 2020. Downloaded from 
+
+James SL, et al. Inj Prev 2020;0:1–19. doi:10.1136/injuryprev-2019-043494
+9
+Original research
+Figure 5  Age-­standardised DALY rates by sex for injuries in level 3 of the GBD cause hierarchy in 2017 and percentage change from 1990 to 2017. 
+DALY, disability-­adjusted life year; GBD, Global Burden of Disease.
+Cause-specific DALY rates by sex
+Figure 5 shows cause-­specific DALY rates by sex for 17 injuries in 
+2017 as well as percentage change from 1990 to 2017 by cause and 
+sex. The black and dark blue bars show causes with greater relative 
+improvement over the time period of this study, while lighter blue, 
+orange and red show injuries that have had lesser improvements, 
+no improvements or increasing burden over time.
+In 2017, men experienced higher age-­standardised DALY rates 
+than women for all injuries except fire, heat and hot substances. 
+The most marked differences, where DALY rates for men are 
+more than double those of women, can be seen in self-­harm, 
+interpersonal violence, road injuries, other transport inju-
+ries, exposure to mechanical forces, environmental heat and 
+cold exposure, and executions and police violence. Road inju-
+ries (1272 (1209 to 1331) per 100 000), self-­harm (577 (525 
+to 604)) and falls (550 (462 to 653)) were the causes with the 
+highest DALY rates for men in 2017. Women had the highest 
+DALY rates due to the same injuries, but at a lesser magnitude, 
+with rates of 467 (432 to 502) per 100 000 for road injuries, 367 
+(304 to 442) for falls and 282 (268 to 293) for self-­harm.
+The causes with the largest decreases in DALY rates for men 
+from 1990 to 2017 were exposure to forces of nature (72.4% 
+(63.8% to 79.1%)), drowning (62.7% (58.8% to 65.4%)) and 
+fire, heat and hot substances (43.6% (26.4% to 49.9%)). For 
+women, exposure to forces of nature (72.8% (63.8% to 79.6%)), 
+drowning (65.8% (58.6% to 69.2%)) and self-­harm (50.8% 
+(48.2% to 55.9%)) had the largest decreases in DALY rates. The 
+only increases in DALY rates were seen in executions and police 
+conflict for both women (298.0% (257.1% to 389.0%)) and 
+men (46.4% (31.2% to 173.0%)).
+Comparative regional DALY rates in 2017
+Figure  6 shows a heatmap of the number of standard devia-
+tions (SD) above or below the mean of a row (ie, a Z-­score) of 
+age-­standardised DALY rates for select injuries by GBD region 
+in 2017. For example, the figure shows that the rate of age-­
+standardised DALYs in Eastern Europe is approximately three 
+SD higher than the across mean age-­standardised DALY rates 
+of environmental heat and cold exposure across all regions. 
+Poisonings is also a cause with an age-­standardised DALY rate 
+that is approximately three SD higher than in other regions. 
+Positive deviance is seen in high-­income Asia Pacific for road 
+injuries, where age-­standardised DALYs are one SD lower than 
+the mean across regions. Conversely, Central sub-­Saharan Africa 
+has age-­standardised DALY rates that are two SD higher than the 
+mean across regions. This figure also demonstrates how certain 
+causes have relatively less variation across regions, for example, 
+most regions do not deviate from the mean age-­standardised 
+DALY rates across regions for exposure to forces of nature, with 
+the exception of the Caribbean, which had an age-­standardised 
+DALY rate that was approximately four SD above the mean 
+across regions in 2017. Oceania and Eastern Europe stand out as 
+having higher DALY rates for select injuries than other regions, 
+while East Asia, high-­income Asia Pacific, high-­income North 
+America, Western Europe and Southern Latin America experi-
+enced less than average burden of injuries in 2017.
+Discussion
+Measuring, understanding and acting on the global burden of 
+injuries should be considered a foundational component of 
+population health research. While this study has reviewed injury 
+burden trends from GBD 2017, it is also evident that these 
+trends are sufficiently different by injury type and geography 
+that it becomes difficult to succinctly generalise the findings in 
+this study. Nevertheless, this study reveals themes and principles 
+germane to the state of global injury burden in 2017 that are 
+relevant to injury burden and prevention research.
+First, it should be recognised that despite global popula-
+tion growth with increases in injury cases and deaths, age-­
+standardised death rates from injuries declined from 1990 to 
+2017. More research into successful improvements for specific 
+injuries in specific countries should be more investigated to help 
+guide efforts towards future improvements. In general terms, 
+the reduction in injury mortality likely represent the combined 
+effects of improvements in healthcare systems, investments in 
+injury prevention programmes and, in certain circumstances, 
+safety improvement such as vehicle safety testing, helmet, seatbelt 
+ on July 22, 2020 by guest. Protected by copyright.
+http://injuryprevention.bmj.com/
+Inj Prev: first published as 10.1136/injuryprev-2019-043494 on 24 April 2020. Downloaded from 
+
+James SL, et al. Inj Prev 2020;0:1–19. doi:10.1136/injuryprev-2019-043494
+10
+Original research
+Figure 6  Heatmap showing the Z-­score of age-­standardised mean DALY rates for select injuries by GBD region in 2017. GBD, Global Burden of 
+Disease.
+What is already known on the subject
+►
+►Injury burden globally varies across many dimensions but 
+remains as an important component of global health loss. 
+Regular updates in injury burden measurement are critical.
+►
+►Injuries can be largely preventable, but prevention efforts 
+must be guided by up-­to-­date estimates of injury burden that 
+can be used on an age-­specific, sex-­specific, year-­specific, 
+location-­specific and injury-­specific basis.
+What this study adds
+►
+►This study incorporates updated data and methods that were 
+used in Global Burden of Disease 2017 with updated burden 
+estimates for the year 2017, as well as newly available 
+results in terms of nature of injury.
+►
+►Global age-­standardised mortality and disability-­adjusted life 
+years decreased between 1990 and 2017. Decreases in age-­
+standardised incidence were not statistically significant.
+►
+►Trends over time vary depending on the specific injury, sex 
+and location.
+►
+►Injury burden in a population can be radically affected by 
+war, civil conflict and natural disasters.
+and drinking and driving laws. While burden trends across all 
+diseases and injuries vary by geography and time, these improve-
+ments in injury burden are generally consistent with reporting of 
+communicable and non-­communicable disease trends reported 
+in GBD 2017.
+Despite improvements in terms of rates, however, it is 
+important to consider the impact of absolute injury burden in 
+younger and adult ages on the social capital and workforce in 
+a country. Second, in reviewing temporal trends in figure 2, it 
+becomes evident that war and conflict and environmental disas-
+ters can cause profound increases in deaths over a short period 
+of time. This unfortunate and tragic reality should be made more 
+broadly visible as issues such as war, conflict and climate change 
+continue to threaten the populations of the 21st century. Third, 
+sex differentials in the burden of different injury types are large, 
+with men experiencing significantly higher burden from the four 
+leading causes of injury DALYs in 2017. Preventive research and 
+focused interventions into why this is occurring in road inju-
+ries, falls, self-­harm, interpersonal violence and drowning is 
+critical. It is also critical to address injuries such as fire, heat 
+and hot substance and sexual violence where females experience 
+greater burden and to better understand the factors that drive 
+sex differences. As a fourth theme, we observed that there are 
+cases of both positive and negative deviance from cross-­region 
+trends for each injury, as shown in figure 6, which appear to 
+occur even outside of expected differences by income group. 
+For example, understanding why high-­income Asia Pacific and 
+Western Europe are performing better than high-­income North 
+America in road injury burden could help improve road injury 
+burden even in this higher income setting.
+Beyond these four themes, there are evidently a great deal 
+of nuances and specific outcomes to measure and understand 
+in future injury research. While every cause of health loss in a 
+population is important to measure and understand, injuries are 
+unique in that understanding burden requires investigation of 
+an array of circumstances such as infrastructure, the built envi-
+ronment, rates of interpersonal violence in a population and 
+individual behaviours such as alcohol intoxication or drug use. 
+The findings in this paper also demonstrate how it is critical 
+to measure and understand the spectrum of health loss due to 
+injuries ranging from relatively silent injuries to injuries that 
+profoundly affect functional status. An incident as elemental as a 
+trip and fall can lead to profoundly disabling health consequences 
+ on July 22, 2020 by guest. Protected by copyright.
+http://injuryprevention.bmj.com/
+Inj Prev: first published as 10.1136/injuryprev-2019-043494 on 24 April 2020. Downloaded from 
+
+James SL, et al. Inj Prev 2020;0:1–19. doi:10.1136/injuryprev-2019-043494
+11
+Original research
+such as spinal cord injury, which can have lifelong disability. The 
+disability caused by shorter term injuries, such as an arm frac-
+ture, in addition to causing suffering and disability, can cause 
+loss of human capital.30 While this study focused more on the 
+causes of injury as defined in the GBD cause hierarchy, future 
+GBD studies should focus also on depicting the distribution of 
+nature of injury results to better understand how these types of 
+disability affect an individual’s functional status. Such analyses 
+become increasingly meaningful as research emerges on, for 
+example, the increased risk of dementia that traumatic brain 
+injury patients may experience.31 The findings in this paper also 
+demonstrate how measuring injury burden necessitates review 
+of the population factors that affect injury risk. For example, an 
+event as disastrous as an earthquake may have radically different 
+impacts on a population depending on infrastructure and access 
+to care resources. Understanding how populations can protect 
+themselves against future, unanticipated catastrophe could lead 
+to averted death and disability in the future. As was shown in 
+figure 2, catastrophic events both in terms of natural disasters 
+and war and conflict can significantly add to the death and 
+disability experienced by a population in a short period of time.
+The geographical trends shown in this paper are also critical to 
+review and understand by the broader global health community. 
+As shown in figure 6, considerable heterogeneity exists across 
+regions for certain causes. While vehicles were driven in nearly 
+every populated area of earth in 2017, this study shows that 
+different regions of the world have markedly different rates of 
+death and disability resulting from road injuries, underscoring 
+the importance of measuring and understanding the effects of 
+specific factors on injury burden.32 It is not necessarily surprising 
+to observe that countries or regions with relatively lower health-
+care access and quality, less road safety infrastructure and lower 
+utilisation of vehicles with modern safety standards would 
+have higher rates of road injuries DALYs. The question that 
+extends from this observation, however, is the extent to which 
+burden from this type of injury cause could be avoided were 
+every country to have the safety and prevention factors avail-
+able in higher income settings. The injury and safety research 
+communities should consider future investigation of counter-
+factual analyses to better measure and understand the impact 
+that road safety legislation, modernisation of roads and vehicles 
+and improving first response medical care could have on road 
+injury burden, as an example, though parallel examples can be 
+developed for other injury causes as well. This research could 
+help cost-­effectiveness analyses and guide investment in safer 
+infrastructure.
+These observations converge on a common theme: much of 
+the injury burden may be largely preventable and understanding 
+the success or failure of different prevention efforts should be 
+a prioritised area of health research. Moreover, it is critical for 
+there to be continued engagement across different areas of the 
+world for the purposes of discussing effective and ineffective 
+injury prevention strategies. Dialogue focused on findings across 
+injury prevention efforts via forums such as global safety confer-
+ences as well as studies published in research journals should 
+continue to help policy makers and public health planners make 
+strategic investments for preventing future injury burden.33 In 
+addition, more research into the cause of injury and resulting 
+bodily injury and environmental and contextual features where 
+injuries occur such type of road in a road injury or fires in 
+factories versus in residences may provide further insight into 
+preventing future injury burden.
+Known limitations of injury burden estimation in the GBD 
+framework have been reported previously in peer-­reviewed 
+literature.1 11 13 16 Generally, identified limitations include data 
+sparsity and correspondingly greater uncertainty in certain geog-
+raphies, limited geographical coverage of data informing long-­
+term disability estimates and cause–nature relationships, and 
+potential reporting biases for injuries such as self-­harm and inter-
+personal violence. These limitations have been discussed in the 
+aforementioned literature, and this overview study was addition-
+ally limited in scope due to the extensive size of the GBD cause 
+hierarchy and location hierarchy. Indeed, over 1400 different 
+cause–nature combinations are available for reporting in the 
+GBD cause hierarchy, and future research would benefit from 
+examining results in the detailed cause hierarchy and across the 
+detailed location, age and sex hierarchy. The GBD Study plat-
+form and collaborator network provide a constructive collabo-
+rative platform on which future assessments can be conducted 
+and published.
+Conclusion
+Injury burden is complex but foundational in formulating global 
+health loss. We have identified four broad trends in global injury 
+burden that converge on the principle that injuries should be 
+considered largely preventable but that detailed burden estimates 
+through recent years are a critical global resource to inform 
+meaningful policy. It will be important accurate measurement to 
+continue into the future to guide injury prevention policy.
+Author affiliations
+1Institute for Health Metrics and Evaluation, University of Washington, Seattle, WA, 
+USA
+2Department of Neurology, Cairo University, Cairo, Egypt
+3Department of Parasitology and Mycology, Jahrom University of Medical Sciences, 
+Jahrom, Iran
+4Neuroscience Research Center, Isfahan University of Medical Sciences, Isfahan, Iran
+5Department of Public Health, Ministry of Health, Riyadh, Saudi Arabia
+6Department of Orthopaedic Surgery, University of Southern California, Los Angeles, 
+CA, USA
+7Department of Public Health, Debre Berhan University, Debre Berhan, Ethiopia
+8Cardiovascular Medicine, Ain Shams University, Abbasia, Egypt
+9Department of Medicine, University College Hospital, Ibadan, Ibadan, Nigeria
+10School of Medicine Center for Politics, Population and Health Research, National 
+Autonomous University of Mexico, Mexico City, Mexico
+11Department of Epidemiology and Health Statistics, Southeast University Nanjing, 
+Nanjing, China
+12Department of Microbiology, Hazara University Mansehra, Mansehra, Pakistan
+13James P Grant School of Public Health, BRAC University, Dhaka, Bangladesh
+14Health Systems and Population Studies Division, International Centre for Diarrhoeal 
+Disease Research, Bangladesh, Dhaka, Bangladesh
+15Department of Epidemiology, Jimma University, Jimma, Ethiopia
+16Higher National School of Veterinary Medicine, Algiers, Algeria
+17Evidence Based Practice Center, Mayo Clinic Foundation for Medical Education and 
+Research, Rochester, MN, USA
+18School of Health Sciences, Madda Walabu University, Bale Goba, Ethiopia
+19Department of Computer Sciences, Imam Abdulrehman Bin Faisal University, 
+Dammam, Saudi Arabia
+20Department of Nursing, Debre Markos University, Debre Markos, Ethiopia
+21Department of Pharmacy, Adigrat University, Adigrat, Ethiopia
+22Department of Population Health Research, King Abdullah International Medical 
+Research Center, Riyadh, Saudi Arabia
+23Faculty of Health Sciences - Health Management and Policy, American University of 
+Beirut, Beirut, Lebanon
+24British Columbia Injury Research Prevention Unit, British Columbia Children’s 
+Hospital Research Institute, Vancouver, BC, Canada
+25Medical Technical Institute, Erbil Polytechnic University, Erbil, Iraq
+26Faculty of Pharmacy, Ishik University, Erbil, Iraq
+27Department of Information Systems, College of Economics and Political Science, 
+Sultan Qaboos University, Muscat, Oman
+28School of Health Management and Information Sciences, Department of Health 
+Services Management, Iran University of Medical Sciences, Tehran, Iran
+29Department of Health Care Management and Economics, Urmia University of 
+Medical Science, Urmia, Iran
+30Health Management and Economics Research Center, Iran University of Medical 
+Sciences, Tehran, Iran
+ on July 22, 2020 by guest. Protected by copyright.
+http://injuryprevention.bmj.com/
+Inj Prev: first published as 10.1136/injuryprev-2019-043494 on 24 April 2020. Downloaded from 
+
+James SL, et al. Inj Prev 2020;0:1–19. doi:10.1136/injuryprev-2019-043494
+12
+Original research
+31Health Economics Department, Iran University of Medical Sciences, Tehran, Iran
+32Department of Health Policy and Management, Kuwait University, Safat, Kuwait
+33International Centre for Casemix and Clinical Coding, National University of 
+Malaysia, Bandar Tun Razak, Malaysia
+34Department of Epidemiology, Arak University of Medical Sciences, Arak, Iran
+35Physiotherapy Department, The University of Jordan, Amman, Jordan
+36King Saud University, Riyadh, Saudi Arabia
+37Clinical Practice Guidelines Unit, King Saud University, Riyadh, Saudi Arabia
+38Alexandria Center for Evidence-­Based Clinical Practice Guidelines, Alexandria 
+University, Alexandria, Egypt
+39Health Services Management Department, Arak University of Medical Sciences, 
+Arak, Iran
+40Department of Epidemiology and Biostatistics, University of the Philippines Manila, 
+Manila, Philippines
+41Online Programs for Applied Learning, Johns Hopkins University, Baltimore, MD, 
+USA
+42Carol Davila University of Medicine and Pharmacy, Bucharest, Romania
+43Department of Epidemiology and Biostatistics, Health Promotion Research Center, 
+Zahedan, Iran
+44Department of Health Policy and Administration, University of the Philippines 
+Manila, Manila, Philippines
+45Department of Applied Social Sciences, Hong Kong Polytechnic University, Hong 
+Kong, China
+46Department of Sociology and Social Work, Kwame Nkrumah University of Science 
+and Technology, Kumasi, Ghana
+47Center for International Health, Ludwig Maximilians University, Munich, Germany
+48Social Determinants of Health Research Center, Birjand University of Medical 
+Sciences, Birjand, Iran
+49Department of Health Promotion and Education, Tehran University of Medical 
+Sciences, Tehran, Iran
+50School of Health Sciences, Birmingham City University, Birmingham, UK
+51Regional Centre for the Analysis of Data on Occupational and Work-­related Injuries 
+and Diseases, Local Health Unit Tuscany Centre, Florence, Italy
+52School of Science and Health, Western Sydney University, Sydney, New South 
+Wales, Australia
+53Oral Health Services, Sydney Local Health District, Sydney, New South Wales, 
+Australia
+54Department of Plastic Surgery, University of Texas, Houston, TX, USA
+55Department of Microbiology, Hamedan University of Medical Sciences, Azad Tabriz 
+University, Iran
+56Department of Nursing, Wolaita Sodo University, Wolaita Sodo, Ethiopia
+57The Judith Lumley Centre, La Trobe University, Melbourne, VIC, Australia
+58General Office for Research and Technological Transfer, Peruvian National Institute 
+of Health, Lima, Peru
+59School of Public Health, Curtin University, Perth, WA, Australia
+60Department of Health Policy Planning and Management, University of Health and 
+Allied Sciences, Ho, Ghana
+61Department of Environmental Health Engineering, Hamadan University of Medical 
+Sciences, Hamadan, Iran
+62Public Health Risk Sciences Division, Public Health Agency of Canada, Toronto, 
+Ontario, Canada
+63Department of Nutritional Sciences, University of Toronto, Toronto, Ontario, Canada
+64Department of Forensic Science, Government Institute of Forensic Science, Nagpur, 
+India
+65Department of Ophthalmology, University Hospital of Ioannina, Ioannina, Greece
+66Institute of Molecular Biology & Biotechnology, Foundation for Research & 
+Technology, Ioannina, Greece
+67Biochemistry Unit, Universiti Sultan Zainal Abidin, Kuala Terengganu, Malaysia
+68School of Health Sciences, Univeristi Sultan Zainal Abidin, Kuala Terengganu, 
+Malaysia
+69Institute of Health Management Research, Indian Institute of Health Management 
+Research University, Jaipur, India
+70Department of Epidemiology, Johns Hopkins University, Baltimore, MD, USA
+71Health Policy And Management Department, Tehran University of Medical Sciences, 
+Tehran, Iran
+72Department of Demography, University of Groningen, Groningen, Netherlands
+73Population Research Centre, Institute for Social and Economic Change, Bengaluru, 
+India
+74Department of Hypertension, Medical University of Lodz, Lodz, Poland
+75Polish Mothers’ Memorial Hospital Research Institute, Lodz, Poland
+76School of Health Sciences, Walden University, Minneapolis, MN, USA
+77Department of Noncommunicable Diseases, Bangladesh University of Health 
+Sciences (BUHS), Dhaka, Bangladesh
+78Department of Research, Public Health Perspective Nepal, Pokhara-­Lekhnath 
+Metropolitan City, Nepal
+79School of Psychology, University of Auckland, Auckland, New Zealand
+80Heidelberg Institute of Global Health (HIGH), Heidelberg University, Heidelberg, 
+Germany
+81T H Chan School of Public Health, Harvard University, Boston, MA, USA
+82Department of Industrial Engineering, Pontifical Javeriana University, Bogota, 
+Colombia
+83Occupational Health Department, Kermanshah University of Medical Sciences, 
+Kermanshah, Iran
+84Health Human Resources Research Center, Shiraz University of Medical Sciences, 
+Shiraz, Iran
+85Department of Public Health, Ambo University, Ambo, Ethiopia
+86Department of Community Medicine, Gandhi Medical College Bhopal, Bhopal, India
+87Jazan University, Jazan, Saudi Arabia
+88Social Determinants of Health Research Center, Lorestan University of Medical 
+Sciences, Khorramabad, Iran
+89Institute of Health Sciences, School of Public Health, Wollega University, Nekemte, 
+Ethiopia
+90Department of Psychiatry, Bahir Dar University, Bahir Dar, Ethiopia
+91Department of Epidemiology and Psychosocial Reseach, Ramón de la Fuente Muñiz 
+National Institute of Psychiatry, Mexico City, Mexico
+92Nuffield Department of Population Health, University of Oxford, Oxford, UK
+93Department of Internal Medicine, University of São Paulo, São Paulo, Brazil
+94Department of Nutrition and Dietetics, Mekelle University, Mekelle, Ethiopia
+95Department of Community Medicine and Family Medicine, All India Institute of 
+Medical Sciences, Jodhpur, India
+96Department of Community Medicine, Datta Meghe Institute of Medical Sciences, 
+Wardha, India
+97Department of Internal Medicine, University of Massachusetts Medical School, 
+Springfield, MA, USA
+98Department of Statistical and Computational Genomics, National Institute of 
+Biomedical Genomics, Kalyani, India
+99Department of Statistics, University of Calcutta, Kolkata, India
+100Institute of Soil and Environmental Sciences, University of Agriculture, Faisalabad, 
+Faisalabad, Pakistan
+101Social Determinants of Health Research Center, Babol University of Medical 
+Sciences, Babol, Iran
+102National Centre for Epidemiology and Population Health, Australian National 
+University, Canberra, ACT, Australia
+103Department of Clinical Pharmacy and Pharmacology, University of Dhaka, Dhaka, 
+Bangladesh
+104Department of Clinical and Experimental Medicine, University of Catania, Catania, 
+Italy
+105Transport and Road Safety (TARS) Research Department, University of New South 
+Wales, Sydney, New South Wales, Australia
+106Institute of Epidemiology, Comenius University, Bratislava, Slovakia
+107Department of Epidemiology and Evidence Based Medicine, I M Sechenov First 
+Moscow State Medical University, Moscow, Russia
+108Research Department, Golden Community, Kathmandu, Nepal
+109Centre for Population Health Sciences, Nanyang Technological University, 
+Singapore
+110Global eHealth Unit, Imperial College London, London, UK
+111Department of Population and Health, Metropolitan Autonomous University, 
+Mexico City, Mexico
+112Research Unit on Applied Molecular Biosciences (UCIBIO), University of Porto, 
+Porto, Portugal
+113Department of Psychiatry, University of São Paulo, São Paulo, Brazil
+114Colombian National Health Observatory, National Institute of Health, Bogota, 
+Colombia
+115Epidemiology and Public Health Evaluation Group, National University of 
+Colombia, Bogota, Colombia
+116Primary Care Services Area, Central Health Directorate, Region Friuli Venezia 
+Giulia, Trieste, Italy
+117Department of Medicine (DAME), University of Udine, Udine, Italy
+118National School of Public Health, Carlos III Health Institute, Madrid, Spain
+119Clinical Epidemiology Program, Ottawa Hospital Research Institute, Ottawa, ON, 
+Canada
+120Mary MacKillop Institute for Health Research, Australian Catholic University, 
+Melbourne, VIC, Australia
+121School of Public Health, University of Hong Kong, Hong Kong, China
+122Institute of Applied Health Research, University of Birmingham, Birmingham, UK
+123Department of Gynecology and Obstetrics, University of Gondar, Gondar, Ethiopia
+124Department of Public Health, Texila American University, Georgetown, Guyana
+125Department of Medicine, University of Toronto, Toronto, Canada
+1262nd Department of Ophthalmology, University of Athens, Haidari, Greece
+127Ophthalmology Private Practice Office, Independent Consultant, Athens, Greece
+128Department of Pediatrics, Harvard University, Boston, MA, USA
+129Department of Neonatology, Beth Israel Deaconess Medical center, Boston, MA, 
+USA
+130Department of Surgery, Division of Plastic and Reconstructive Surgery, University 
+of Washington, Seattle, WA, USA
+ on July 22, 2020 by guest. Protected by copyright.
+http://injuryprevention.bmj.com/
+Inj Prev: first published as 10.1136/injuryprev-2019-043494 on 24 April 2020. Downloaded from 
+
+James SL, et al. Inj Prev 2020;0:1–19. doi:10.1136/injuryprev-2019-043494
+13
+Original research
+131Maternal and Child Health Division, International Centre for Diarrhoeal Disease 
+Research, Bangladesh, Dhaka, Bangladesh
+132Department of Epidemiology and Biostatistics, University of South Carolina, 
+Columbia, SC, USA
+133Faculty of Biology, Hanoi National University of Education, Hanoi, Vietnam
+134Research School of Population Health, Australian National University, Action, ACT, 
+Australia
+135Department of Dermatology, Carol Davila University of Medicine and Pharmacy, 
+Bucharest, Romania
+1362nd Department of Dermatology, Colentina Clinical Hospital, Bucharest, Romania
+137Department of Dermatology, Case Western Reserve University, Cleveland, OH, 
+USA
+138Department of Dermatology, University of Milan, Milan, Italy
+139Toxoplasmosis Research Center, Mazandaran University of Medical Sciences, Sari, 
+Iran
+140Population and Development, Facultad Latinoamericana de Ciencias Sociales 
+Mexico, Mexico City, Mexico
+141Department of Medical Laboratory Sciences, Bahir Dar University, Bahir Dar, 
+Ethiopia
+142Department of Nursing, Woldia University, Woldia, Ethiopia
+143School of Nursing, Jimma University, Jimma, Ethiopia
+144School of Pharmacy, Aksum University, Aksum, Ethiopia
+145Addis Ababa University, Addis Ababa, Ethiopia
+146Immunology Research Center, Tabriz University of Medical Sciences, , Iran
+147Department of Global Health and Infection, Brighton and Sussex Medical School, 
+Brighton, UK
+148School of Public Health, Addis Ababa University, Addis Ababa, Ethiopia
+149Division of Cardiology, Atlanta Veterans Affairs Medical Center, Decatur, GA, USA
+150Department of Epidemiology, Shiraz University of Medical Sciences, Shiraz, Iran
+151Faculty of Pharmacy, University of Porto, Porto, Portugal
+152Tehran University of Medical Sciences, Tehran, Iran
+153School of Health and Biomedical Sciences, Royal Melbourne Institute of 
+Technology University, Bundoora, VIC, Australia
+154Sydney School of Public Health, University of Sydney, Sydney, NSW, Australia
+155Faculty of Medicine, University of Belgrade, Belgrade, Serbia
+156Public Health Department, Hawassa University, Hawassa, Ethiopia
+157Curtin University, Perth, WA, Australia
+158Department of Global Health and Social Medicine, Harvard University, Boston, 
+MA, USA
+159Department of Social Services, Tufts Medical Center, Boston, MA, USA
+160Department of Pharmacology and Toxicology, Maragheh University of Medical 
+Sciences, Maragheh, Iran
+161Department of Pharmacology and Toxicology, Tabriz University of Medical 
+Sciences, Tabriz, Iran
+162National Institute for Health Researches, Tehran University of Medical Sciences, 
+Tehran, Iran
+163Department of Clinical Pathology, Mansoura University, Mansoura, Egypt
+164Department of Statistics, Debre Markos University, Debre Markos, Ethiopia
+165Department of Public Health Sciences, Karolinska Institutet, Stockholm, Sweden
+166World Health Programme, Université du Québec en Abitibi-­Témiscamingue, Rouyn-­
+Noranda, QC, Canada
+167Department of Pathology, Stavanger University Hospital, Stavanger, Norway
+168Norwegian Institute of Public Health, Oslo, Norway
+169Ophthalmic Epidemiology Research Center, Shahroud University of Medical 
+Sciences, Shahroud, Iran
+170Department of Midwifery, Wolkite University, Wolkite, Ethiopia
+171Multiple Sclerosis Research Center, Tehran University of Medical Sciences, Tehran, 
+Iran
+172Biology Department, Salahaddin University-­Erbil, Erbil, Iraq
+173Biology and Biotechnolaniogy"L Spallanzani", University of Pavia, Pavia, Italy
+174Department of Psychology, Federal University of Sergipe, Sao Cristovao, Brazil
+175Non-­communicable Diseases Research Center, Tehran University of Medical 
+Sciences, Tehran, Iran
+176Pharmaceutical Nanotechnology, Tehran University of Medical Sciences, Tehran, 
+Iran
+177Department of Psychiatry, Addis Ababa University, Addis Ababa, Ethiopia
+178Nursing Department, Hawassa University, Hawassa, Ethiopia
+179Department of Neurobiology, Karolinska Institutet, Stockholm, Sweden
+180Division of Neurology, University of Ottawa, Ottawa, ON, Canada
+181REQUIMTE/LAQV, University of Porto, Porto, Portugal
+182Research Centre on Public Health (CESP), University of Milan Bicocca, Monza, Italy
+183Department of Health Education & Behavioral Sciences, Jimma University, Jimma, 
+Ethiopia
+184Psychiatry Department, Kaiser Permanente, Fontana, CA, USA
+185School of Health Sciences, A T Still University, Mesa, AZ, USA
+186Department of Population Medicine and Health Services Research, Bielefeld 
+University, Bielefeld, Germany
+187Department of Child Dental Health, Obafemi Awolowo University, Ile-­Ife, Nigeria
+188Abadan School of Medical Sciences, Abadan University of Medical Sciences, 
+Abadan, Iran
+189Department of Family Medicine and Primary Care, University of the Witwatersrand, 
+Johannesburg, South Africa
+190College of Public Health, Medical and Veterinary Science, James Cook University, 
+Douglas, QLD, Australia
+191Royal Life Saving Society, Sydney, NSW, Australia
+192Department of Dermatology, Kobe University, Kobe, Japan
+193Gene Expression & Regulation Program, The Wistar Institute, Philadelphia, PA, USA
+194Public Health Department, Madda Walabu University, Bale-­Robe, Ethiopia
+195School of Pharmacy, Mekelle University, Mekelle, Ethiopia
+196Department of Nursing and Midwifery, Addis Ababa University, Addis Ababa, 
+Ethiopia
+197Department of Nursing, Aksum University, Aksum, Ethiopia
+198Department of Nursing, Mekelle University, Mekelle, Ethiopia
+199School of Public Health, Haramaya University, Harar, Ethiopia
+200Bahir Dar University, Bahir Dar, Ethiopia
+201Haramaya University, Dire Dawa, Ethiopia
+202Department of Pharmacy, Wollo University, Dessie, Ethiopia
+203Department of Medical Surgery, Tabriz University of Medical Sciences, Tabriz, Iran
+204Occupational Health Department, Arak University of Medical Sciences, Arak, Iran
+205Department of Health Services Management, Iran University of Medical Sciences, 
+Tehran, Iran
+206Science and Research Branch, Islamic Azad University, Tehran, Iran
+207Young Researchers and Elite Club, Rasht Branch, Islamic Azad University, Rasht, 
+Iran
+208Adelaide Medical School, University of Adelaide, Adelaide, SA, Australia
+209Center for Clinical and Epidemiological Research, University of São Paulo, Sao 
+Paulo, Brazil
+210Department of Dermatology, Boston University, Boston, MA, USA
+211Institute of Public Health, United Arab Emirates University, Al Ain, United Arab 
+Emirates
+212Technical College of Health, Sulaimani Polytechnic University, Sulaimani, Iraq
+213Instituto de Patologia Tropical e Saúde Pública, Federal University of Goias, 
+Goiânia, Brazil
+214School of Public Health and Preventive Medicine, Monash University, Melbourne, 
+VIC, Australia
+215Department of Epidemiology and Biostatistics, Zhengzhou University, Zhengzhou, 
+China
+216Non-­Communicable Diseases (NCD), World Health Organization (WHO), New 
+Delhi, India
+217Department of Public Health, Erasmus University Medical Center, Rotterdam, 
+Netherlands
+218Department of Radiology and Radiological Sciences, Johns Hopkins University, 
+Baltimore, MD, USA
+219School of Medicine, Tehran University of Medical Sciences, Tehran, Iran
+220Institute for Global Health, University College London, London, UK
+221Global and Community Mental Health Research Group, University of Macau, 
+Macao, China
+222Department of Family and Community Medicine, Arabian Gulf University, 
+Manama, Bahrain
+223School of Health and Environmental Studies, Hamdan Bin Mohammed Smart 
+University, Dubai, United Arab Emirates
+224Biomedical Research Networking Center for Mental Health Network (CiberSAM), 
+Madrid, Spain
+225Research and Development Unit, San Juan de Dios Sanitary Park, Sant Boi de 
+Llobregat, Spain
+226Institute for Social Science Research, The University of Queensland, Indooroopilly, 
+QLD, Australia
+227Department of Microbiology, Maragheh University of Medical Sciences, Maragheh, 
+Iran
+228Department of Microbiology, Tehran University of Medical Sciences, Tehran, Iran
+229Gastrointestinal and Liver Disease Research Center, Guilan University of Medical 
+Sciences, Rasht, Iran
+230School of Nursing and Midwifery, Tabriz University of Medical Sciences, Tabriz, Iran
+231Independent Consultant, Tabriz, Iran
+232Department of Public Health, Mizan-­Tepi University, Tepi, Ethiopia
+233Unit of Epidemiology and Social Medicine, University Hospital Antwerp, Wilrijk, 
+Belgium
+234Department of Clinical Sciences, Karolinska University Hospital, Stockholm, 
+Sweden
+235Institute of Pharmaceutical Sciences, University of Veterinary and Animal Sciences, 
+Lahore, Pakistan
+236Department of Pharmacy Administration and Clinical Pharmacy, Xian Jiaotong 
+University, Xian, China
+237Medical Biology Research Center, Kermanshah University of Medical Sciences, 
+Kermanshah, Iran
+238Research Coordination, AC Environments Foundation, Cuernavaca, Mexico
+ on July 22, 2020 by guest. Protected by copyright.
+http://injuryprevention.bmj.com/
+Inj Prev: first published as 10.1136/injuryprev-2019-043494 on 24 April 2020. Downloaded from 
+
+James SL, et al. Inj Prev 2020;0:1–19. doi:10.1136/injuryprev-2019-043494
+14
+Original research
+239CISS, National Institute of Public Health, Cuernavaca, Mexico
+240Department of Urban Planning and Design, University of Hong Kong, Hong Kong, 
+China
+241Center of Excellence in Behavioral Medicine, Nguyen Tat Thanh University, Ho Chi 
+Minh City, Vietnam
+242Department of Pediatrics, Dell Medical School, University of Texas Austin, Austin, 
+TX, USA
+243Kasturba Medical College, Manipal Academy of Higher Education, Manipal, India
+244Department of Pharmacology and Therapeutics, Dhaka Medical College, Dhaka, 
+Bangladesh
+245Department of Pharmacology, Bangladesh Industrial Gases Limited, Tangail, 
+Bangladesh
+246Department of Computer Engineering, Islamic Azad University, Tehran, Iran
+247Computer Science Department, University of Human Development, Sulaymaniyah, 
+Iraq
+248Department of Legal Medicine and Bioethics, Carol Davila University of Medicine 
+and Pharmacy, Bucharest, Romania
+249Clinical Legal Medicine Department, National Institute of Legal Medicine Mina 
+Minovici, Bucharest, Romania
+250Department of Epidemiology and Health Statistics, Central South University, 
+Changsha, China
+251Department of Health Promotion and Education, University of Ibadan, Ibadan, 
+Nigeria
+252Department of Community Medicine, University of Ibadan, Ibadan, Nigeria
+253Department of Epidemiology, University of Kragujevac, Kragujevac, Serbia
+254Department of Family Medicine, Bangalore Baptist Hospital, Bangalore, India
+255Center for Health Resource and Services Research and Development, National 
+Institute of Health Research & Development, Jakarta, Indonesia
+256Research Institute for Endocrine Sciences, Shahid Beheshti University of Medical 
+Sciences, Tehran, Iran
+257Institute for Physical Activity and Nutrition, Deakin University, Burwood, VIC, 
+Australia
+258Sydney Medical School, University of Sydney, Sydney, NSW, Australia
+259School of Psychology and Public Health, La Trobe University, Bundoora, 
+Melbourne, VIC, Australia
+260School of Public Health and Community Medicine, University of New South Wales, 
+Sydney, Australia
+261Department of Global and Community Health, George Mason University, Fairfax, 
+VA, USA
+262Faculty of Medicine, Babol University of Medical Sciences, Babol, Iran
+263School of Management and Medical Education, Shahid Beheshti University of 
+Medical Sciences, Tehran, Iran
+264Safety Promotion and Injury Prevention Research Center, Shahid Beheshti 
+University of Medical Sciences, Tehran, Iran
+265Department for Health Care and Public Health, I M Sechenov First Moscow State 
+Medical University, Moscow, Russia
+266Social Development & Health Promotion Research Center, Kermanshah University 
+of Medical Sciences, Kermanshah, Iran
+267Department of Surgery, Virginia Commonwealth University, Richmond, VA, USA
+268Institute of Medicine, University of Colombo, Colombo, Sri Lanka
+269Faculty of Graduate Studies, University of Colombo, Colombo, Sri Lanka
+270Department of Community Medicine, Banaras Hindu University, Varanasi, India
+271Department of Ophthalmology, Heidelberg University, Mannheim, Germany
+272Beijing Ophthalmology & Visual Science Key Laboratory, Beijing Tongren Hospital, 
+Beijing, China
+273Department of Community Medicine, Kasturba Medical College, Manipal Academy 
+of Higher Education, Mangalore, India
+274Department of Family Medicine and Public Health, University of Opole, Opole, 
+Poland
+275School of Health Sciences, Savitribai Phule Pune University, Pune, India
+276Institute of Family Medicine and Public Health, University of Tartu, Tartu, Estonia
+277Minimally Invasive Surgery Research Center, Iran University of Medical Sciences, 
+Tehran, Iran
+278Personal Social Services Research Unit, London School of Economics and Political 
+Science, London, UK
+279Department of Medical Informatics, Tabriz University of Medical Sciences, Tabriz, 
+Iran
+280Social Determinants of Health Research Center, Research Institute for Prevention 
+of Non-­Communicable Diseases, Qazvin University of Medical Sciences, Qazvin, 
+Iran
+281Health Services Management Department, Qazvin University of Medical Sciences, 
+Qazvin, Iran
+282School of Public Health, Department of Health Informatics and Health Innovation, 
+A C S Medical College and Hospital, Mekelle, Ethiopia
+283Department of Forensic Medicine and Toxicology, All India Institute of Medical 
+Sciences, Jodhpur, India
+284Department of Epidemiology, Hamadan University of Medical Sciences, Hamadan, 
+Iran
+285Hematology-­Oncology and Stem Cell Transplantation Research Center, Tehran 
+University of Medical Sciences, Tehran, Iran
+286Pars Advanced and Minimally Invasive Medical Manners Research Center, Iran 
+University of Medical Sciences, Tehran, Iran
+287Department of Applied Physics, The John Paul II Catholic University of Lublin, 
+Lublin Voivodeship, Poland
+288Department of Biology and Chemistry, Drohobych Ivan Franko State Pedagogical 
+University, Drohobych, Ukraine
+289Department of Pharmacy, Jimma University, Jimma, Ethiopia
+290Open, Distance and eLearning Campus, University of Nairobi, Nairobi, Kenya
+291Department of Dermatology, Wolaita Sodo University, Wolaita Sodo, Ethiopia
+292Department of Midwifery, University of Gondar, Gondar, Ethiopia
+293Department of Public Health, Jordan University of Science and Technology, Irbid, 
+Jordan
+294Social Determinants of Health Research Center, Ahvaz Jundishapur University of 
+Medical Sciences, Ahvaz, Iran
+295School of Food and Agricultural Sciences, University of Management and 
+Technology, Lahore, Pakistan
+296Department of Global Health, University of Washington, Seattle, WA, USA
+297Department of Physiology, Baku State University, Baku, Azerbaijan
+298Health Care Management, Zahedan University of Medical Sciences, zahedan, Iran
+299Epidemiology and Biostatistics Department, Health Services Academy, Islamabad, 
+Pakistan
+300Faculty of Public Health and Tropical Medicine, Jazan University, Jazan, Saudi 
+Arabia
+301Department of Health Research, Indian Council of Medical Research, New Delhi, 
+India
+302Centre for Ethics, Jawahar Lal Nehru University, New Delhi, India
+303Department of Psychiatry, Kermanshah University of Medical Sciences, 
+Kermanshah, Iran
+304Department of Epidemiology, Kermanshah University of Medical Sciences, 
+Kermanshah, Iran
+305Nuffield Department of Surgical Sciences, Oxford University Global Surgery Group, 
+University of Oxford, Oxford, UK
+306Research and Data Solutions, Synotech Consultant, Nairobi, Kenya
+307Department of Preventive Medicine, Korea University, Seoul, South Korea
+308Department of Health Sciences, Northeastern University, Boston, MA, USA
+309School of Medicine, Xiamen University Malaysia, Sepang, Malaysia
+310School of Health Sciences, Kristiania University College, Oslo, Norway
+311Department of Nursing and Health Promotion, Oslo Metropolitan University, Oslo, 
+Norway
+312Neurophysiology Research Center, Hamadan University of Medical Sciences, 
+Hamadan, Iran
+313Brain Engineering Research Center, Institute for Research in Fundamental 
+Sciences, Tehran, Iran
+314Department of Public Health Dentistry, Deemed University, karad, India
+315CIBERSAM, San Juan de Dios Sanitary Park, Sant Boi de Llobregat, Spain
+316Catalan Institution for Research and Advanced Studies (ICREA), Barcelona, Spain
+317Department of Zoology, University of Oxford, Oxford, UK
+318Harvard Medical School, Harvard University, Boston, MA, USA
+319Department of Anthropology, Panjab University, Chandigarh, India
+320Department of Public Health, Yuksek Ihtisas University, Ankara, Turkey
+321Department of Public Health, Hacettepe University, Ankara, Turkey
+322Department of Family and Community Health, University of Health and Allied 
+Sciences, Ho, Ghana
+323Department of Psychology and Health Promotion, University of KwaZulu-­Natal, 
+Durban, South Africa
+324Department of Medicine, Brigham and Women’s Hospital, Harvard University, 
+Boston, MA, USA
+325Public Health Foundation of India, Gurugram, India
+326Department of Psychiatry, University of Nairobi, Nairobi, Kenya
+327Institute of Occupational and Environmental Medicine, University of Birmingham, 
+Birmingham, UK
+328Mechanical and Industrial Engineering, Indian Institute of Technology, Roorkee, 
+Roorkee, India
+329Department of Medicine, McMaster University, Hamilton, ON, Canada
+330Health and Nutrition Section, United Nations Childrens’ Fund (UNICEF), Accra, 
+Ghana
+331Department of Clinical Medicine and Community Health, University of Milan, 
+Milano, Italy
+332Department of Community and Family Medicine, University of Baghdad, Baghdad, 
+Iraq
+333School of Medicine, Deakin University, Geelong, VIC, Australia
+334Health Promotion and Chronic Disease Prevention Branch, Public Health Agency of 
+Canada, Ottawa, ON, Canada
+335HelpMeSee, New York, NY, USA
+336International Relations, Mexican Institute of Ophthalmology, Queretaro, Mexico
+337Disease Control Department, Ghana Health Service, Accra, Ghana
+ on July 22, 2020 by guest. Protected by copyright.
+http://injuryprevention.bmj.com/
+Inj Prev: first published as 10.1136/injuryprev-2019-043494 on 24 April 2020. Downloaded from 
+
+James SL, et al. Inj Prev 2020;0:1–19. doi:10.1136/injuryprev-2019-043494
+15
+Original research
+338Department of Otorhinolaryngology (ENT), Father Muller Medical College, 
+Mangalore, India
+339Department of Public Health, Maragheh University of Medical Sciences, Maragheh, 
+Iran
+340Institute of Clinical Physiology, Italian National Research Council, Pisa, Italy
+341College of Optometry, Nova Southeastern University, Fort Lauderdale, FL, USA
+342School of Pharmacy, Monash University, Bandar Sunway, Malaysia
+343School of Pharmacy, Taylor’s University Lakeside Campus, Subang Jaya, Malaysia
+344School of Public Health, Wolaita Sodo University, Wolaita Sodo, Ethiopia
+345Department of Health Sciences, University of Florence, Florence, Italy
+346School of Public Health, University of Haifa, Haifa, Israel
+347Department of Systems, Populations and Leadership, University of Michigan, Ann 
+Arbor, MI, USA
+348School of Population and Global Health, University of Melbourne, Melbourne, VIC, 
+Australia
+349Department of Health Metrics Sciences, School of Medicine, University of 
+Washington, Seattle, WA, USA
+350Department of Medicine, University of São Paulo, Sao Paulo, Brazil
+351Department of General Surgery, Aintree University Hospital National Health 
+Service (NHS) Foundation Trust, Liverpool, UK
+352Department of Surgery, University of Liverpool, Liverpool, UK
+353Health Data Research UK, Swansea University, Swansea, UK
+354College of Medicine, Pathology Department, Imam Abdulrahman Bin Faisal 
+University, Dammam, Saudi Arabia
+355Ophthalmology Department, Aswan Faculty of Medicine, Aswan, Egypt
+356Institute of Medicine, Tribhuvan University, Kathmandu, Nepal
+357Department of Public Health, Trnava University, Trnava, Slovakia
+358Department of Primary Care and Public Health, Imperial College London, London, 
+UK
+359Public Health Research Department, National Health Institute Colombia, Bogota, 
+Colombia
+360Faculty of Medicine, El Bosque University, Bogota, Colombia
+361Health Education and Research Department, SDM College of Medical Sciences & 
+Hospital, Dharwad, India
+362Rajiv Gandhi University of Health Sciences, Bangalore, India
+363Digestive Diseases Research Institute, Tehran University of Medical Sciences, 
+Tehran, Iran
+364Non-­communicable Diseases Research Center, Shiraz University of Medical 
+Sciences, Shiraz, Iran
+365Department of Maternal and Child Nursing and Public Health, Federal University 
+of Minas Gerais, Belo Horizonte, Brazil
+366Department of Ophthalmology, Iran University of Medical Sciences, Tehran, Iran
+367Ophthalmology Department, University of Manitoba, Winnipeg, MB, Canada
+368Department of Surgery, University of Virginia, Charlottesville, VA, USA
+369Surgery Department, Emergency University Hospital Bucharest, Bucharest, 
+Romania
+370Department of Psychiatry, National Institute of Mental Health and Neurosciences, 
+Bengaluru, India
+371Substance Abuse Prevention Research Center, Kermanshah University of Medical 
+Sciences, Kermanshah, Iran
+372Department of Epidemiology and Biostatistics, Tehran University of Medical 
+Sciences, Tehran, Iran
+373Institute for Social Science Research, The University of Queensland, Brisbane, QLD, 
+Australia
+374Institute of Bone and Joint Research, University of Sydney, St Leonards, NSW, 
+Australia
+375Department of Health Sciences, University of York, York, UK
+376Department of Midwifery-­Reproductive Health, Hamadan University of Medical 
+Sciences, Hamadan, Iran
+377Research Department, The George Institute for Global Health, New Delhi, India
+378School of Medicine, University of New South Wales, Sydney, NSW, Australia
+379Department of Public Health, Mekelle University, Mekelle, Ethiopia
+380Department of Nursing, Arba Minch University, Arba Minch, Ethiopia
+381Division of Epidemiology and Prevention, Institute of Human Virology, University 
+of Maryland, Baltimore, MD, USA
+382Peru Country Office, United Nations Population Fund (UNFPA), Lima, Peru
+383Forensic Medicine Division, Imam Abdulrahman Bin Faisal University, Dammam, 
+Saudi Arabia
+384College of Health Science, Department of Midwifery, Adigrat University, Adigrat, 
+Ethiopia
+385Department of Epidemiology and Biostatistics, Haramaya University, Harar, 
+Ethiopia
+386Breast Surgery Unit, Helsinki University Hospital, Helsinki, Finland
+387University of Helsinki, Helsinki, Finland
+388Neurocenter, Helsinki University Hospital, Helsinki, Finland
+389School of Health Sciences, University of Melbourne, Parkville, VIC, Australia
+390Clinical Microbiology and Parasitology Unit, ZoraProfozic Polyclinic, Zagreb, 
+Croatia
+391University Centre Varazdin, University North, Varazdin, Croatia
+392Center for Innovation in Medical Education, Pomeranian Medical University, 
+Szczecin, Poland
+393Department of Propedeutics of Internal Diseases & Arterial Hypertension, 
+Pomeranian Medical University, Szczecin, Poland
+394Pacific Institute for Research & Evaluation, Calverton, MD, USA
+395Achutha Menon Centre for Health Science Studies, Sree Chitra Tirunal Institute for 
+Medical Sciences and Technology, Trivandrum, India
+396Global Institute of Public Health (GIPH), Ananthapuri Hospitals and Research 
+Centre, Trivandrum, India
+397Department of Statistics and Econometrics, Bucharest University of Economic 
+Studies, Bucharest, Romania
+398President’s Office, National Institute of Statistics Romania, Bucharest, Romania
+399Faculty of Internal Medicine, Kyrgyz State Medical Academy, Bishkek, Kyrgyzstan
+400Department of Atherosclerosis and Coronary Heart Disease, National Center of 
+Cardiology and Internal Disease, Bishkek, Kyrgyzstan
+401Heidelberg Institute of Global Health (HIGH), Faculty of Medicine and University 
+Hospital, Heidelberg University, Heidelberg, Germany
+402Institute of Addiction Research (ISFF), Frankfurt University of Applied Sciences, 
+Frankfurt, Germany
+403Biotechnology Research Center, Tabriz University of Medical Sciences, Tabriz, Iran
+404Molecular Medicine Research Center, Tabriz University of Medical Sciences, Tabriz, 
+Iran
+405Health Equity Research Center, Tehran University of Medical Sciences, Tehran, Iran
+406Internal Medicine Department, King Saud University, Riyadh, Saudi Arabia
+407Research Center, Salahaddin University, Erbil, Iraq
+408Ishik University, Erbil, Iraq
+409Department of Information Technology, University of Human Development, 
+Sulaymaniyah, Iraq
+410Department of Biostatistics, Hamadan University of Medical Sciences, Hamadan, 
+Iran
+411Department of Epidemiology and Biostatistics, Shahrekord University of Medical 
+Sciences, Shahrekord, Iran
+412Department of Clinical Biochemistry, Faculty of Medicine, Gonabad University of 
+Medical Sciences, Gonabad, Iran
+413Department of Nursing, Shahroud University of Medical Sciences, Shahroud, Iran
+414Health Systems and Policy Research Unit, Ahmadu Bello University, Zaria, Nigeria
+415Department of Public Health, Samara University, Samara, Ethiopia
+416Iran National Institute of Health Research, Tehran University of Medical Sciences, 
+Tehran, Iran
+417Faculty of Life Sciences and Medicine, King’s College London, London, UK
+418Clinical Epidemiology and Public Health Research Unit, Burlo Garofolo Institute for 
+Maternal and Child Health, Trieste, Italy
+419Department of Public Health Medicine, University of KwaZulu-­Natal, Durban, 
+South Africa
+420Health Sciences Research Center, Mazandaran University of Medical Sciences, Sari, 
+Iran
+421Research Center for Environmental Determinants of Health, Kermanshah 
+University of Medical Sciences, Kermanshah, Iran
+422Social Determinants of Health Research Center, Kurdistan University of Medical 
+Sciences, Sanandaj, Iran
+423Department of Epidemiology and Biostatistics, Kurdistan University of Medical 
+Sciences, Sanandaj, Iran
+424Preventive Medicine and Public Health Research Center, Iran University of Medical 
+Sciences, Tehran, Iran
+425International Laboratory for Air Quality and Health, Queensland University of 
+Technology, Brisbane, QLD, Australia
+426Gorgas Memorial Institute for Health Studies, Panama City, Panama
+427Department of Social Medicine, National Center for Child Health and 
+Development, Setagaya, Japan
+428Department of Epidemiology and Biostatistics, University of Gondar, Gondar, 
+Ethiopia
+429Department of Pediatrics, University of British Columbia, Vancouver, BC, Canada
+430School of Medical Sciences, Science University of Malaysia, Kubang Kerian, 
+Malaysia
+431Department of Pediatric Medicine, Nishtar Medical University, Multan, Pakistan
+432Department of Pediatrics & Pediatric Pulmonology, Institute of Mother & Child 
+Care, Multan, Pakistan
+433Department of Obstetrics and Gynecology, Ain Shams University, Cairo, Egypt
+434Knowledge Translation and Utilization, Egyptian Center for Evidence Based 
+Medicine, Egypt
+435Research and Analytics, Initiative for Financing Health and Human Development, 
+Chennai, India
+436Research and Analytics, Bioinsilico Technologies, Chennai, India
+437Department of Epidemiology, University of Alabama at Birmingham, Birmingham, 
+AL, USA
+438Laboratory of Public Health Indicators Analysis and Health Digitalization, Moscow 
+Institute of Physics and Technology, Dolgoprudny, Russia
+ on July 22, 2020 by guest. Protected by copyright.
+http://injuryprevention.bmj.com/
+Inj Prev: first published as 10.1136/injuryprev-2019-043494 on 24 April 2020. Downloaded from 
+
+James SL, et al. Inj Prev 2020;0:1–19. doi:10.1136/injuryprev-2019-043494
+16
+Original research
+439Experimental Surgery and Oncology Laboratory, Kursk State Medical University of 
+the Ministry of Health of the Russian Federation, Kursk, Russia
+440Department of Epidemiology & Biostatistics, Kermanshah University of Medical 
+Sciences, Kermanshah, Iran
+441Suraj Eye Institute, Nagpur, India
+442Hospital of the Federal University of Minas Gerais, Federal University of Minas 
+Gerais, Belo Horizonte, Brazil
+443Mental Health Research Center, Iran University of Medical Sciences, Tehran, Iran
+444Department of Forensic Medicine and Toxicology, Manipal Academy of Higher 
+Education, Manipal, India
+445Cochrane Unit, South African Medical Research Council, Cape Town, South Africa
+446Department of General Surgery, Carol Davila University of Medicine and 
+Pharmacy, Bucharest, Romania
+447Department of General Surgery, Emergency Hospital of Bucharest, Bucharest, 
+Romania
+448Department of Biological Sciences, University of Embu, Embu, Kenya
+449Institute for Global Health Innovations, Duy Tan University, Hanoi, Vietnam
+450Department of Pharmacology, Shahid Beheshti University of Medical Sciences, 
+Tehran, Iran
+451Heidelberg University Hospital, Heidelberg, Germany
+452Public Health Department, Universitas Negeri Semarang, Kota Semarang, 
+Indonesia
+453Graduate Institute of Biomedical Informatics, Taipei Medical University, Taipei City, 
+Taiwan
+454School of Public Health and Family Medicine, University of Cape Town, Cape Town, 
+South Africa
+455Faculty of Medicine & Health Sciences, Stellenbosch University, Cape Town, South 
+Africa
+456Reproductive Health Sciences, Department Obstetrics and Gynecology, University 
+of Ibadan, Ibadan, Nigeria
+457Department of Preventive Medicine, Kyung Hee University, Dongdaemun-­gu, 
+South Korea
+458Disease Surveillance and Epidemic Response, Ministry of Health, Nairobi, Kenya
+459Department of Psychiatry and Behavioural Neurosciences, McMaster University, 
+Hamilton, ON, Canada
+460Department of Psychiatry, University of Lagos, Lagos, Nigeria
+461Department of Pathology and Molecular Medicine, McMaster University, Hamilton, 
+ON, Canada
+462Diplomacy and Public Relations Department, University of Human Development, 
+Sulaimaniyah, Iraq
+463Department of Pharmacology and Therapeutics, University of Nigeria Nsukka, 
+Enugu, Nigeria
+464Department of Psychology, University of Ghana, Accra, Ghana
+465Discipline of Psychology, University of KwaZulu-­Natal, Durban, South Africa
+466Applied Research Division, Public Health Agency of Canada, Ottawa, ON, Canada
+467School of Psychology, University of Ottawa, Ottawa, ON, Canada
+468Department of Global Health Nursing, St Luke’s International University, Chuo-­ku, 
+Japan
+469Academic department, Unium Ltd, Moscow, Russia
+470Department of Project Management, National Research University Higher School 
+of Economics, Moscow, Russia
+471Department of Respiratory Medicine, Jagadguru Sri Shivarathreeswara Academy of 
+Health Education and Research, Mysore, India
+472Department of Forensic Medicine, Manipal Academy of Higher Education, Manipal, 
+India
+473Department of Medicine, Ottawa Hospital Research Institute, OttawaON, Canada
+474Parasitology and Mycology, Shiraz University of Medical Sciences, Shiraz, Iran
+475Augenpraxis Jonas, Heidelberg University, Heidelberg, Germany
+476Department of Medical Humanities and Social Medicine, Kosin University, Busan, 
+South Korea
+477Research and Evaluation, Population Council, New Delhi, India
+478Indian Institute of Health Management Research University Delhi, Jaipur, India
+479Department of Pediatircs, RD Gardi Medical College, Ujjain, India
+480Regional Medical Research Centre, Indian Council of Medical Research, 
+Bhubaneswar, India
+481Department of Paediatrics, University of Melbourne, Melbourne, VIC, Australia
+482Population Health Theme, Murdoch Childrens Research Institute, Melbourne, VIC, 
+Australia
+483Department of Midwifery, Wolaita Sodo University, Wolaita Sodo, Ethiopia
+484School of Public Health and Community Medicine, Faculty of Medicine, University 
+of New South Wales, Sydney, NSW, Australia
+485Center for Research and Innovation, Ateneo De Manila University, Pasig City, 
+Philippines
+486Department of Orthopedics, Yenepoya Medical College, Mangalore, India
+487Shanghai Mental Health Center, Shanghai Jiao Tong University, Shanghai, China
+488Department of Psychiatry, Department of Epidemiology, Columbia University, New 
+York City, NY, USA
+489Department of Chemistry, Faculty of Pharmacy, University of Porto, Porto, Portugal
+490Department of Epidemiology and Evidence-­Based Medicine, Sechenon University, 
+Moscow, Russia
+491Department of Nephrology, Sanjay Gandhi Postgraduate Institute of Medical 
+Sciences, Lucknow, India
+492Health Sciences Department, Muhammadiyah University of Surakarta, Sukoharjo, 
+Indonesia
+493Department of Population Studies, International Institute for Population Sciences, 
+Mumbai, India
+494Biomedical Engineering Department, Amirkabir University of Technology, Tehran, 
+Iran
+495Department of Chemistry, Sharif University of Technology, Tehran, Iran
+496College of Medicine, University of Central Florida, Orlando, FL, USA
+497College of Graduate Health Sciences, A T Still University, Mesa, AZ, USA
+498Department of Epidemiology & Biostatistics, Contech School of Public Health, 
+Lahore, Pakistan
+499Department of Medicine, University of Alberta, EdmontonAB, Canada
+500Department of Immunology, Mazandaran University of Medical Sciences, Sari, Iran
+501Molecular and Cell Biology Research Center, Mazandaran University of Medical 
+Sciences, Sari, Iran
+502Thalassemia and Hemoglobinopathy Research Center, Ahvaz Jundishapur 
+University of Medical Sciences, Ahvaz, Iran
+503Metabolomics and Genomics Research Center, Tehran University of Medical 
+Sciences, Tehran, Iran
+504Faculty of Medicine, Mazandaran University of Medical Sciences, Sari, Iran
+505Sina Trauma and Surgery Research Center, Tehran University of Medical Sciences, 
+Tehran, Iran
+506School of Nursing and Healthcare Professions, Federation University Australia, 
+Berwick, VIC, Australia
+507School of Nursing and Midwifery, La Trobe University, Melbourne, VIC, Australia
+508Faculty of Medicine, Birjand University of Medical Sciences, Birjand, Iran
+509European Office for the Prevention and Control of Noncommunicable Diseases, 
+World Health Organization (WHO), Moscow, Russia
+510Department of Surgery, University of Michigan, Ann Arbor, MI, USA
+511Department of Oral Pathology, Srinivas Institute of Dental Sciences, Mangalore, 
+India
+512School of Behavioral Sciences and Mental Health, Tehran Institute of Psychiatry, 
+Tehran, Iran
+513Forensic Medicine, Manipal Academy of Higher Education, Mangalore, India
+514Kasturba Medical College, Manipal Academy of Higher Education, Mangalore, 
+India
+515Academic Public Health Department, Public Health England, London, UK
+516School of Health, Medical and Applied Sciences, CQ University, Sydney, NSW, 
+Australia
+517Department of Computer Science, Metropolitan College, Boston University, 
+Boston, USA
+518Neurology Department, Sree Chitra Tirunal Institute for Medical Sciences and 
+Technology, Thiruvananthapuram, India
+519School of Social Sciences and Psychology, Western Sydney University, Penrith, 
+NSW, Australia
+520Translational Health Research Institute, Western Sydney University, Penrith, NSW, 
+Australia
+521Brien Holden Vision Institute, Sydney, NSW, Australia
+522Organization for the Prevention of Blindness, Paris, France
+523EPIUnit - Public Health Institute University Porto (ISPUP), University of Porto, Porto, 
+Portugal
+524Surgery Department, University of Minnesota, Minneapolis, MN, USA
+525Surgery Department, University Teaching Hospital of Kigali, Kigali, Rwanda
+526Research Directorate, Nihon Gakko University, Fernando de la Mora, Paraguay
+527Research Direction, Universidad Nacional de Caaguazú, Coronel Oviedo, Paraguay
+528Golestan Research Center of Gastroenterology and Hepatology, Golestan 
+University of Medical Sciences, Gorgan, Iran
+529Faculty of Medicine, Ain Shams University, Cairo, Egypt
+530National Institute for Research in Environmental Health, Indian Council of Medical 
+Research, Bhopal, India
+531Department of Epidemiology, Shahid Beheshti University of Medical Sciences, 
+Tehran, Iran
+532College of Medicine, University of Sharjah, Sharjah, United Arab Emirates
+533Emergency Department, Shahid Beheshti University of Medical Sciences, Tehran, 
+Iran
+534Faculty of Public Health, Kermanshah University of Medical Sciences, Kermanshah, 
+Iran
+535Department of Health in Disasters and Emergencies, Shahid Beheshti University of 
+Medical Sciences, Tehran, Iran
+536Department of Neuroscience, Iran University of Medical Sciences, Tehran, Iran
+537Nanobiotechnology Center, Soran University, Soran, Iraq
+538Taleghani Hospital, Kermanshah University of Medical Sciences, Kermanshah, Iran
+539Radiology and Nuclear Medicine Department, Kermanshah University of Medical 
+Sciences, Kermanshah, Iran
+ on July 22, 2020 by guest. Protected by copyright.
+http://injuryprevention.bmj.com/
+Inj Prev: first published as 10.1136/injuryprev-2019-043494 on 24 April 2020. Downloaded from 
+
+James SL, et al. Inj Prev 2020;0:1–19. doi:10.1136/injuryprev-2019-043494
+17
+Original research
+540Research Deputy, Taleghani Hospital, Kermanshah, Iran
+541Public Health and Community Medicine Department, Cairo University, Giza, Egypt
+542Department of Urology, Cairo University, Cairo, Egypt
+543Public Health and Policy, London School of Hygiene & Tropical Medicine, London, 
+UK
+544Global Health Institute, American University of Beirut, Beirut, Lebanon
+545Health and Disability Intelligence Group, Ministry of Health, Wellington, New 
+Zealand
+546Department of Entomology, Ain Shams University, Cairo, Egypt
+547Department of Surgery, Marshall University, Huntington, WV, USA
+548Department of Nutrition and Preventive Medicine, Case Western Reserve 
+University, Cleveland, OH, USA
+549Rheumatology Department, University Hospitals Bristol NHS Foundation Trust, 
+Bristol, UK
+550Institute of Bone and Joint Research, University of Sydney, Syndey, NSW, Australia
+551Institute of Social Medicine, University of Belgrade, Belgrade, Serbia
+552Centre-­School of Public Health and Health Management, University of Belgrade, 
+Belgrade, Serbia
+553Health Economics, Bangladesh Institute of Development Studies (BIDS), Dhaka, 
+Bangladesh
+554Colorectal Research Center, Iran University of Medical Sciences, Tehran, Iran
+555Surgery Department, Hamad Medical Corporation, Doha, Qatar
+556Faculty of Health & Social Sciences, Bournemouth University, Bournemouth, UK
+557Department of Public Health Sciences, University of North Carolina at Charlotte, 
+Charlotte, NC, USA
+558Department of Paediatrics, University of Melbourne, Parkville, VIC, Australia
+559Centre for Adolescent Health, Murdoch Childrens Research Institute, Parkville, VIC, 
+Australia
+560School of Public Health, Imperial College London, London, UK
+561Faculty member of Education Development Center, Ahvaz Jundishapur University 
+of Medical Sciences, Ahvaz, Iran
+562Department of Psychology, University of Alabama at Birmingham, Birmingham, 
+AL, USA
+563Department of Psychiatry, Stellenbosch University, Cape Town, South Africa
+564Emergency Department, Manian Medical Centre, Erode, India
+565Microbiology Service, National Institutes of Health, Bethesda, MD, USA
+566Center for Biomedical Information Technology, Shenzhen Institutes of Advanced 
+Technology, Chinese Academy of Sciences, Shenzhen, China
+567Department of Health Promotion and Education, Alborz University of Medical 
+Sciences, Karaj, Iran
+568Health Policy Research Center, Shiraz University of Medical Sciences, Shiraz, Iran
+569Independent Consultant, Karachi, Pakistan
+570School of Medicine, Alborz University of Medical Sciences, Karaj, Iran
+571Chronic Diseases (Home Care) Research Center, Hamadan University of Medical 
+Sciences, Hamadan, Iran
+572HIV/STI Surveillance Research Center, and WHO Collaborating Center for HIV 
+Surveillance, Institute for Futures Studies in Health, Kerman University of Medical 
+Sciences, Kerman, Iran
+573Centre for Medical Informatics, University of Edinburgh, Edinburgh, UK
+574Division of General Internal Medicine, Harvard University, Boston, MA, USA
+575National Institute of Infectious Diseases, Tokyo, Japan
+576College of Medicine, Yonsei University, Seodaemun-­gu, South Korea
+577Division of Cardiology, Emory University, Atlanta, GA, USA
+578Finnish Institute of Occupational Health, Helsinki, Finland
+579Department of Health Education & Promotion, Kermanshah University of Medical 
+Sciences, Kermanshah, Iran
+580School of Health, University of Technology Sydney, Sydney, NSW, Australia
+581Department of Psychology, Reykjavik University, Reykjavik, Iceland
+582Department of Health and Behavior Studies, Columbia University, New York, NY, 
+USA
+583Department of Forensic Medicine, Kathmandu University, Dhulikhel, Nepal
+584Department of Medicine, University of Alabama at Birmingham, Birmingham, AL, 
+USA
+585Medicine Service, US Department of Veterans Affairs (VA), Birmingham, AL, USA
+586Department of Epidemiology, School of Preventive Oncology, Patna, India
+587Department of Epidemiology, Healis Sekhsaria Institute for Public Health, Mumbai, 
+India
+5882nd Department of Surgery-­SUUB, Carol Davila University of Medicine and 
+Pharmacy, Bucharest, Romania
+5892nd Surgery Department, Bucharest Emergency Hospital, Bucharest, Romania
+590Pain Management Research Institute (PMRI), Northern Clinical School, University 
+of Sydney, St Leonards, NSW, Australia
+591Michael J Cousins Pain Management & Research Centre, Northern Sydney Local 
+Health District, St Leonards, NSW, Australia
+592Department of Medical Surgical Nursing, Urmia University of Medical Science, 
+Urmia, Iran
+593Emergency Nursing Department, Semnan University of Medical Sciences, Semnan, 
+Iran
+594Department of Biostatistics, Hamedan University of Medical Sciences, Hamadan, 
+Iran
+595Hospital Universitario de la Princesa, Autonomous University of Madrid, Madrid, 
+Spain
+596Centro de Investigación Biomédica en Red Enfermedades Respiratorias (CIBERES), 
+Madrid, Spain
+597Department of Public Health, Arba Minch University, Arba Minch, Ethiopia
+598Hull York Medical School, University of Hull, Hull City, UK
+599Usher Institute of Population Health Sciences and Informatics, University of 
+Edinburgh, Edinburgh, UK
+600Department of Psychiatry and Mental Health, University of Cape Town, Cape 
+Town, South Africa
+601South African Medical Research Council, Cape Town, South Africa
+602Department of Psychology, Deakin University, Burwood, VIC, Australia
+603Department of Community Medicine, Ahmadu Bello University, Zaria, Nigeria
+604Department of Agriculture and Food Systems, University of Melbourne, Melbourne, 
+VIC, Australia
+605Department of Criminology, Law and Society, University of California Irvine, Irvine, 
+CA, USA
+606Department of Medicine, University of Valencia, Valencia, Spain
+607Carlos III Health Institute, Biomedical Research Networking Center for Mental 
+Health Network (CiberSAM), Madrid, Spain
+608School of Social Work, University of Illinois, Urbana, IL, USA
+609Department of Public Health, Arbaminch College of Health Sciences, Arbaminch 
+town sikela, Ethiopia
+610Axum College of Health Science, mekelle, Ethiopia
+611School of Midwifery, University of Gondar, Gondar, Ethiopia
+612School of Public Health, University of Adelaide, Adelaide, SA, Australia
+613Department of Environmental Health, Wollo University, Dessie, Ethiopia
+614Department of Community and Family Medicine, Iran University of Medical 
+Sciences, Tehran, Iran
+615Department of Pharmacognosy, Mekelle University, Mekelle, Ethiopia
+616Institute of Public Health, University of Gondar, Gondar, Ethiopia
+617Department of Public Health, Adigrat University, Adigrat, Ethiopia
+618Psychiatry Department, Hawassa University, Hawassa, Ethiopia
+619Institute of Public Health, Jagiellonian University Medical College, Krakow, Poland
+620The Agency for Health Technology Assessment and Tariff System, Warszawa, 
+Poland
+621Department of Health Economics, Hanoi Medical University, Hanoi, Vietnam
+622Department of Molecular Medicine and Pathology, University of Auckland, 
+Auckland, New Zealand
+623Clinical Hematology and Toxicology, Military Medical University, Hanoi, Vietnam
+624Department of Community Medicine, All India Institute of Medical Sciences, 
+Nagpur, India
+625Department of Psychiatry, Massachusetts General Hospital, Boston, MA, USA
+626Mbarara University of Science and Technology, Mbarara, Uganda
+627Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore
+628Institute of Soil and Environmental Sciences, A T Still University, Faisalabad, 
+Pakistan
+629Gomal Center of Biochemistry and Biotechnology, Gomal University, Dera Ismail 
+Khan, Pakistan
+630TB Culture Laboratory, Mufti Mehmood Memorial Teaching Hospital, Dera Ismail 
+Khan, Pakistan
+631Research Department, National Institute of Population Studies (NIPS), Islamabad, 
+Pakistan
+632Amity Institute of Biotechnology, Amity University Rajasthan, Jaipur, India
+633Division of Health Sciences, University of Warwick, Coventry, UK
+634Argentine Society of Medicine, Buenos Aires, Argentina
+635Velez Sarsfield Hospital, Buenos Aires, Argentina
+636UKK Institute, Tampere, Finland
+637Raffles Neuroscience Centre, Raffles Hospital, Singapore
+638Yong Loo Lin School of Medicine, National University of Singapore, Singapore
+639Department of Medical and Surgical Sciences, University of Bologna, Bologna, Italy
+640Occupational Health Unit, Sant’Orsola Malpighi Hospital, Bologna, Italy
+641Department of Health Care Administration and Economics, National Research 
+University Higher School of Economics, Moscow, Russia
+642Foundation University Medical College, Foundation University, Islamabad, Pakistan
+643Demographic Change and Ageing Research Area, Federal Institute for Population 
+Research, Wiesbaden, Germany
+644Center of Population and Health, Wiesbaden, Germany
+645Department of Physical Therapy, Naresuan University, Meung District, Thailand
+646Department of Human Anatomy, Histology, Embryology, Bahir Dar University, 
+Bahir Dar, Ethiopia
+647Department of Pharmacology and Toxicology, Mekelle University, Mekelle, Ethiopia
+648Department of Pharmacology, Addis Ababa University, Addis ababa, Ethiopia
+649Department of Nursing, Wollo University, Dessie, Ethiopia
+650Department of Orthopaedics, Wenzhou Medical University, Wenzhou, China
+ on July 22, 2020 by guest. Protected by copyright.
+http://injuryprevention.bmj.com/
+Inj Prev: first published as 10.1136/injuryprev-2019-043494 on 24 April 2020. Downloaded from 
+
+James SL, et al. Inj Prev 2020;0:1–19. doi:10.1136/injuryprev-2019-043494
+18
+Original research
+651Medical Physics Department, Ahvaz Jundishapur University of Medical Sciences, 
+Ahvaz, Iran
+652Department of Preventive Medicine, Northwestern University, Chicago, IL, USA
+653School of International Development and Global Studies, University of Ottawa, 
+OttawaON, Canada
+654Health Services Management Research Center, Kerman University of Medical 
+Sciences, Kerman, Iran
+655Department of Health Management, Policy and Economics, Kerman University of 
+Medical Sciences, Kerman, Iran
+656Centre for Suicide Research and Prevention, University of Hong Kong, Hong Kong, 
+China
+657Department of Social Work and Social Administration, University of Hong Kong, 
+Hong Kong, China
+658School of Allied Health Sciences, Addis Ababa University, Addis Ababa, Ethiopia
+659Department of Psychopharmacology, National Center of Neurology and Psychiatry, 
+Tokyo, Japan
+660Department of Sociology, Yonsei University, Seoul, South Korea
+661Department of Health Policy & Management, Jackson State University, Jackson, 
+MS, USA
+662School of Medicine, Tsinghua University, Beijing, China
+663Department of Environmental Health, Mazandaran University of Medical Sciences, 
+Sari, Iran
+664Department of Environmental Health, Academy of Medical Science, Sari, Iran
+665School of Public Health and Management, Hubei University of Medicine, Shiyan, 
+China
+666Department of Epidemiology and Biostatistics, Wuhan University, Wuhan, China
+667Global Health Institute, Wuhan University, Wuhan, China
+668Social Determinants of Health Research Center, Ardabil University of Medical 
+Science, Ardabil, Iran
+669Department of Epidemiology, University Hospital of Setif, Setif, Algeria
+670Department of Medicine, School of Clinical Sciences at Monash Health, Monash 
+University, Melbourne, VIC, Australia
+671Student Research Committee, Babol University of Medical Sciences, Babol, Iran
+672Department of Community Medicine, Ardabil University of Medical Science, 
+Ardabil, Iran
+673Department of Environment Health Engineering, Gonabad University of Medical 
+Sciences, Gonabad, Iran
+674Faculty of Medical Sciences, Department of Health Education, Tarbiat Modares 
+University, Tehran, Iran
+675Department of Preventive Medicine, Wuhan University, Wuhan, China
+676School of Public Health, Wuhan University of Science and Technology, Wuhan, 
+China
+677Hubei Province Key Laboratory of Occupational Hazard Identification and Control, 
+Wuhan University of Science and Technology, Wuhan, China
+678Indian Institute of Public Health, Public Health Foundation of India, Gurugram, 
+India
+679National Drug and Alcohol Research Centre, University of New South Wales, 
+Sydney, NSW, Australia
+680Department of Community Medicine, University of Peradeniya, Peradeniya, Sri 
+Lanka
+681Faculty of Infectious and Tropical Diseases, London School of Hygiene & Tropical 
+Medicine, London, UK
+Acknowledgements  Syed Aljunid acknowledges the Department of Health Policy 
+and Management, Faculty of Public Health, Kuwait University and International 
+Centre for Casemix and Clinical Coding, Faculty of Medicine, National University of 
+Malaysia and for the approval and support to participate in this research project. 
+Alaa Badawi acknowledges support from the Public Health Agency of Canada. Till 
+Bärnighausen acknowledges support from the Alexander von Humboldt Foundation 
+through the Alexander von Humboldt Professor award, funded by the German 
+Federal Ministry of Education and Research. Felix Carvalho acknowledges UID/
+MULTI/04378/2019 support with funding from FCT/MCTES through national 
+funds. Vera M Costa acknowledges her grant (SFRH/BHD/110001/2015), received 
+by Portuguese national funds through Fundação para a Ciência e Tecnologia 
+(FCT), IP, under the Norma Transitória DL57/2016/CP1334/CT0006. Kebede 
+Deribe acknowledges support from a grant from the Wellcome Trust [grant 
+number 201900] as part of his International Intermediate Fellowship. Tim Driscoll 
+acknowledges the work on occupational risk factors was partially supported by 
+funds from the World Health Organization. Eduarda Fernandes acknowledges UID/
+QUI/50006/2019 support with funding from FCT/MCTES through national funds. 
+Yuming Guo acknowledges support from Career Development Fellowships of the 
+Australian National Health and Medical Research Council (numbers APP1107107 
+and APP1163693). Sheikh Mohammed Shariful Islam acknowledges funding by a 
+Fellowship from National Heart Foundation of Australia and Institute for Physical 
+Activity and Nutrition, Deakin University.Mihajlo Jakovljevic acknowledges support 
+by the Ministry of Education Science and Technological Development of the 
+Republic of Serbia through the Grant number OI175014; publication of results 
+was not contingent upon Ministry’s censorship or approval. Sudha Jayaraman 
+acknowledges support from: NIH R21: 1R21TW010439-­01A1 (PI); Rotary 
+Foundation Global Grant #GG1749568 (PI); NIH P20: 1P20CA210284-­01A1 
+(Co-­PI); DOD grant W81XWH-16-2-0040 (Co-­I) during the submitted work. Yun Jin 
+Kim acknowledges support from a grant from the Research Management Centre, 
+Xiamen University Malaysia [grant number: XMUMRF/2018-­C2/ITCM/0001]. 
+Kewal Krishan acknowledges support by UGC Centre of Advanced Study (CAS II) 
+awarded to the Department of Anthropology, Panjab University, Chandigarh, India. 
+Manasi Kumar acknowledges FIC/NIH funding from grant K43 1K43MH114320-01. 
+Amanda Mason-­Jones acknowledges institutional support from the University of 
+York. Walter Mendoza is currently Program Analyst Population and Development 
+at the Peru Country Office of the United Nations Population Fund-­UNFPA, which 
+not necessarily endorses this study. Mariam Molokhia acknowledges support 
+from the National Institute for Health Research Biomedical Research Center at 
+Guy’s and St Thomas’ National Health Service Foundation Trust and King’s College 
+London. Ilais Moreno Velásquez acknowledges support by the Sistema Nacional de 
+Investigación (SNI, Senacyt, Panama). Mukhammad David Naimzada acknowledges 
+support from Government of the Russian Federation (Agreement No – 075-02-
+2019-967). Stanislav S. Otstavnov acknowledges the support from the Government 
+of the Russian Federation (Agreement No – 075-02-2019-967). Ashish Pathak 
+acknowledges support from the Indian Council of Medical Research (ICMR), New 
+Delhi, India (Grant number 2013-1253). Michael R Phillips acknowledges support in 
+part by a grant from the National Science Foundation of China (No. 81761128031). 
+Marina Pinheiro acknowledges FCT for funding support through program DL 
+57/2016-­Norma transitória. Abdallah M. Samy acknowledges support from a 
+fellowship from the Egyptian Fulbright Mission Program. Milena Santric Milicevic 
+acknowledges the support from the Ministry of Education, Science and Technological 
+Development, the Republic of Serbia (Contract No. 175087). Seyedmojtaba 
+Seyedmousavi acknowledges support from the Intramural Research Program of the 
+National Institutes of Health, Clinical Center, Department of Laboratory Medicine, 
+Bethesda, MD, USA. Rafael Tabarés-­Seisdedos acknowledges support in part by 
+the national grant PI17/00719 from ISCIII-­FEDER. Sojib Bin Zaman acknowledges 
+support from an "Australian Government Research Training Program (RTP) 
+Scholarship." Louisa Degenhardt acknowledges support from an Australian National 
+Health and Medical Research Council (NHMRC) Senior Principal Research Fellowship 
+(#1135991) and by a National Institute of Health (NIH) National Institute on Drug 
+Abuse (NIDA) grant (R01DA1104470).
+Funding  Bill and Melinda Gates Foundation OPP1152504.
+Map disclaimer  The depiction of boundaries on the map(s) in this article do not 
+imply the expression of any opinion whatsoever on the part of BMJ (or any member 
+of its group) concerning the legal status of any country, territory, jurisdiction or area 
+or of its authorities. The map(s) are provided without any warranty of any kind, either 
+express or implied.
+Competing interests  Dr. James reports grants from Sanofi Pasteur, outside the 
+submitted work. Dr. Driscoll reports grants from World Health Organization, during 
+the conduct of the study. Dr. Ivers reports grants from National Health and Medical 
+Research Council of Australia, during the conduct of the study. Dr. Jozwiak reports 
+personal fees from TEVA, personal fees from ALAB, personal fees from BOEHRINGER 
+INGELHEIM, personal fees from SYNEXUS, non-­financial support from SERVIER, non-­
+financial support from MICROLIFE, non-­financial support from MEDICOVER, outside 
+the submitted work. Dr. Rakovac reports grants from World Health Organization, 
+during the conduct of the study. Dr Shariful Islam is funded by National Heart 
+Foundation of Australia and Institute for Physical Activity and Nutrition, Deakin 
+University. Dr. Sheikh reports grants from Health Data Research UK, outside the 
+submitted work. Dr. Singh reports personal fees from Crealta/Horizon, Medisys, 
+Fidia, UBM LLC, Trio health, Medscape, WebMD, Clinical Care options, Clearview 
+healthcare partners, Putnam associates, Spherix, Practice Point communications, 
+the National Institutes of Health and the American College of Rheumatology, and 
+Speaker’s bureau of Simply Speaking, owns stock options in Amarin pharmaceuticals 
+and Viking pharmaceuticals, serves on the steering committee of OMERACT, an 
+international organization that develops measures for clinical trials and receives 
+arm’s length funding from 12 pharmaceutical companies, serves on the FDA 
+Arthritis Advisory Committee, is a member of the Veterans Affairs Rheumatology 
+Field Advisory Committee, and is the editor and the Director of the UAB Cochrane 
+Musculoskeletal Group Satellite Center on Network Meta-­analysis, outside the 
+submitted work. Dr. Stein reports personal fees from Lundbeck, personal fees from 
+Sun, outside the submitted work. Dr. Degenhardt reports grants from Indivior, 
+Seqirus, Reckitt Benckiser, outside the submitted work.
+Patient consent for publication  Not required.
+ on July 22, 2020 by guest. Protected by copyright.
+http://injuryprevention.bmj.com/
+Inj Prev: first published as 10.1136/injuryprev-2019-043494 on 24 April 2020. Downloaded from 
+
+James SL, et al. Inj Prev 2020;0:1–19. doi:10.1136/injuryprev-2019-043494
+19
+Original research
+Provenance and peer review  Not commissioned; externally peer reviewed.
+Data availability statement  Availability of input data depends on original 
+source. Select data are available in a public, open access repository. Select data are 
+available on reasonable request. Select data may be obtained from a third party and 
+are not publicly available. All results relevant to the study are included in the article 
+or uploaded as supplementary information or are available online.
+Open access  This is an open access article distributed in accordance with the 
+Creative Commons Attribution 4.0 Unported (CC BY 4.0) license, which permits 
+others to copy, redistribute, remix, transform and build upon this work for any 
+purpose, provided the original work is properly cited, a link to the licence is given, 
+and indication of whether changes were made. See: https://​creativecommons.​org/​
+licenses/​by/​4.​0/.
+References
+	 1	 GBD 2016 Traumatic Brain Injury and Spinal Cord Injury Collaborators. Global, 
+regional, and national burden of traumatic brain injury and spinal cord injury, 1990-
+2016: a systematic analysis for the global burden of disease study 2016. Lancet 
+Neurol 2016;18:56–87.
+	 2	 Kotagal M, Agarwal-­Harding KJ, Mock C, et al. Health and economic benefits of 
+improved injury prevention and trauma care worldwide. PLoS One 2014;9:e91862.
+	 3	 Sunshine JE, Meo N, Kassebaum NJ, et al. Association of adverse effects of 
+medical treatment with mortality in the United States: a secondary analysis of 
+the global burden of diseases, injuries, and risk factors study. JAMA Netw Open 
+2019;2:e187041.
+	 4	 Dandona R, Kumar GA, Kharyal A, et al. Mortality due to snakebite and other 
+venomous animals in the Indian state of Bihar: findings from a representative 
+mortality study. PLoS One 2018;13:e0198900.
+	 5	 Jha AK, Larizgoitia I, Audera-­Lopez C, et al. The global burden of unsafe medical care: 
+Analytic modelling of observational studies. BMJ Qual Saf 2013;22:809–15.
+	 6	 Goal 3. sustainable development knowledge platform. Available: https://​sust​aina​bled​
+evel​opment.​un.​org/​sdg3 [Accessed 29 Sep 2019].
+	 7	 Wong E, Leong MKF, Anantharaman V, et al. Road traffic accident mortality in 
+Singapore. J Emerg Med 2002;22:139–46.
+	 8	 Hsiao M, Malhotra A, Thakur JS, et al. Road traffic injury mortality and its mechanisms 
+in India: nationally representative mortality survey of 1.1 million homes. BMJ Open 
+2013;3:e002621.
+	 9	 Montazeri A. Road-­traffic-­related mortality in Iran: a descriptive study. Public Health 
+2004;118:110–3.
+	10	 Ohlin M, Algurén B, Lie A. Analysis of bicycle crashes in Sweden involving injuries with 
+high risk of health loss. Traffic Inj Prev 2019;20:613–8.
+	11	 Haagsma JA, Graetz N, Bolliger I, et al. The global burden of injury: incidence, 
+mortality, disability-­adjusted life years and time trends from the global burden of 
+disease study 2013. Injury Prevention 2015:injuryprev-2015-041616.
+	12	 Dicker D, Nguyen G, Abate D, et al. Global, regional, and national age-­sex-­specific 
+mortality and life expectancy, 1950–2017: a systematic analysis for the global burden 
+of disease study 2017. The Lancet 2018;392:1684–735.
+	13	 Roth GA, Abate D, Abate KH, et al. Global, regional, and national age-­sex-­specific 
+mortality for 282 causes of death in 195 countries and territories, 1980–2017: 
+a systematic analysis for the global burden of disease study 2017. The Lancet 
+2018;392:1736–88.
+	14	 Stanaway JD, Afshin A, Gakidou E, et al. Global, regional, and national comparative 
+risk assessment of 84 behavioural, environmental and occupational, and metabolic 
+risks or clusters of risks for 195 countries and territories, 1990–2017: a systematic 
+analysis for the global burden of disease study 2017. The Lancet 2018;392:1923–94.
+	15	 Kyu HH, Abate D, Abate KH, et al. Global, regional, and national disability-­adjusted 
+life-­years (DALYs) for 359 diseases and injuries and healthy life expectancy (HALE) for 
+195 countries and territories, 1990–2017: a systematic analysis for the global burden 
+of disease study 2017. The Lancet 2018;392:1859–922.
+	16	 James SL, Abate D, Abate KH, et al. Global, regional, and national incidence, 
+prevalence, and years lived with disability for 354 diseases and injuries for 195 
+countries and territories, 1990–2017: a systematic analysis for the global burden of 
+disease study 2017. The Lancet 2018;392:1789–858.
+	17	 Murray CJL, Callender CSKH, Kulikoff XR, et al. Population and fertility by age and 
+sex for 195 countries and territories, 1950–2017: a systematic analysis for the global 
+burden of disease study 2017. The Lancet 2018;392:1995–2051.
+	18	 Foreman KJ, Lozano R, Lopez AD, et al. Modeling causes of death: an integrated 
+approach using CODEm. Popul Health Metr 2012;10:1.
+	19	 Naghavi M, Makela S, Foreman K, et al. Algorithms for enhancing public health utility 
+of national causes-­of-­death data. Popul Health Metr 2010;8:9.
+	20	 Foreman KJ, Naghavi M, Ezzati M. Improving the usefulness of US mortality data: new 
+methods for reclassification of underlying cause of death. Popul Health Metr 2016;14.
+	21	 China Zhuhai Study 2006-2007 - China CDC | GHDx. Available: http://​ghdx.​
+healthdata.​org/​record/​china-​zhuhai-​study-​2006-​2007-​china-​cdc [Accessed 15 May 
+2018].
+	22	 Functional outcome at 2.5, 5, 9, and 24 months after injury in the Netherlands | 
+GHDx. Available: http://​ghdx.​healthdata.​org/​record/​functional-​outcome-​25-​5-​9-​and-​
+24-​months-​after-​injury-​netherlands [Accessed 15 May 2018].
+	23	 Health-­Related quality of life after burns: a prospective multicentre cohort study with 
+18 months follow-­up | GHDx. Available: http://​ghdx.​healthdata.​org/​record/​health-​
+related-​quality-​life-​after-​burns-​prospective-​multicentre-​cohort-​study-​18-​months-​
+follow [Accessed 15 May 2018].
+	24	 Netherlands injury surveillance system 2007 | GHDx. Available: http://​ghdx.​
+healthdata.​org/​record/​netherlands-​injury-​surveillance-​system-​2007 [Accessed 15 May 
+2018].
+	25	 Netherlands injury surveillance system 2010 | GHDx. Available: http://​ghdx.​
+healthdata.​org/​record/​netherlands-​injury-​surveillance-​system-​2010 [Accessed 14 May 
+2018].
+	26	 Mackenzie EJ, Rivara FP, Jurkovich GJ, et al. The national study on costs and outcomes 
+of trauma. J Trauma 2007;63:S54–67.
+	27	 Traumatic Brain Injury(TBI) Follow-­Up Registry and Surveillance of TBI in the 
+Emergency Department (ED); Notice of Availability of Funds. Federal Register, 2002. 
+Available: https://www.​federalregister.​gov/​documents/​2002/​05/​08/​02-​11359/​
+traumatic-​brain-​injurytbi-​follow-​up-​registry-​and-​surveillance-​of-​tbi-​in-​the-​emergency-​
+department-​ed [Accessed 14 May 2018].
+	28	 Salomon JA, Haagsma JA, Davis A, et al. Disability weights for the global burden of 
+disease 2013 study. Lancet Glob Health 2015;3:e712–23.
+	29	 Stevens GA, Alkema L, Black RE, et al. Guidelines for accurate and transparent health 
+estimates reporting: the gather statement. The Lancet 2016;388:e19–23.
+	30	 Lim SS, Updike RL, Kaldjian AS, et al. Measuring human capital: a systematic analysis 
+of 195 countries and territories, 1990–2016. The Lancet 2018;392:1217–34.
+	31	 Fann JR, Ribe AR, Pedersen HS, et al. Long-­Term risk of dementia among people with 
+traumatic brain injury in Denmark: a population-­based observational cohort study. The 
+Lancet Psychiatry 2018;5:424–31.
+	32	 Who | global status report on road safety, 2018. Available: https://www.​who.​int/​
+violence_​injury_​prevention/​road_​safety_​status/​2018/​en/ [Accessed 22 Jul 2019].
+	33	 Safety 2020. Safety 2020. Available: https://www.​worldsafety2020.​com [Accessed 22 
+Jul 2019].
+ on July 22, 2020 by guest. Protected by copyright.
+http://injuryprevention.bmj.com/
+Inj Prev: first published as 10.1136/injuryprev-2019-043494 on 24 April 2020. Downloaded from 

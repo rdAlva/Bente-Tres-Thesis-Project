@@ -1,0 +1,2228 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+10-2019 
+Mapping 123 million neonatal, infant and child deaths between 
+Mapping 123 million neonatal, infant and child deaths between 
+2000 and 2017 
+2000 and 2017 
+Roy Burstein 
+Institute for Health Metrics and Evaluation, University of Washington 
+Simon I. Hay 
+Institute for Health Metrics and Evaluation, University of Washington 
+Veincent Christian F. Pepito 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, vpepito@ateneo.edu 
+556 co-authors 
+various institutions 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Public Health Commons 
+Custom Citation 
+Custom Citation 
+Burstein, R., Henry, N. J., Collison, M. L., Marczak, L. B., Sligar, A., Watson, S., Marquez, N., Abbasalizad-
+Farhangi, M., Abbasi, M., Abd-Allah, F., Abdoli, A., Abdollahi, M., Abdollahpour, I., Abdulkader, R. S., Abrigo, 
+M. R. M., Acharya, D., Adebayo, O. M., Adekanmbi, V., Adham, D., … Hay, S. I. (2019). Mapping 123 million 
+neonatal, infant and child deaths between 2000 and 2017. Nature, 574(7778), 353–358. https://doi.org/
+10.1038/s41586-019-1545-0 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact research@ateneo.edu. 
+
+Article
+https://doi.org/10.1038/s41586-019-1545-0
+Mapping 123 million neonatal, infant and 
+child deaths between 2000 and 2017
+Since 2000, many countries have achieved considerable success in improving child survival, but localized progress 
+remains unclear. To inform efforts towards United Nations Sustainable Development Goal 3.2—to end preventable child 
+deaths by 2030—we need consistently estimated data at the subnational level regarding child mortality rates and trends. 
+Here we quantified, for the period 2000–2017, the subnational variation in mortality rates and number of deaths of 
+neonates, infants and children under 5 years of age within 99 low- and middle-income countries using a geostatistical 
+survival model. We estimated that 32% of children under 5 in these countries lived in districts that had attained rates of 25 
+or fewer child deaths per 1,000 live births by 2017, and that 58% of child deaths between 2000 and 2017 in these countries 
+could have been averted in the absence of geographical inequality. This study enables the identification of high-mortality 
+clusters, patterns of progress and geographical inequalities to inform appropriate investments and implementations that 
+will help to improve the health of all populations.
+Gains in child survival have long served as an important proxy meas-
+ure for improvements in overall population health and development1,2. 
+Global progress in reducing child deaths has been heralded as one of 
+the greatest success stories of global health3. The annual global num-
+ber of deaths of children under 5 years of age (under 5)4 has declined 
+from 19.6 million in 1950 to 5.4 million in 2017. Nevertheless, these 
+advances in child survival have been far from universally achieved, 
+particularly in low- and middle-income countries (LMICs)4. Previous 
+subnational child mortality assessments at the first (that is, states or 
+provinces) or second (that is, districts or counties) administrative level 
+indicate that extensive geographical inequalities persist5–7.
+Progress in child survival also diverges across age groups4. Global 
+reductions in mortality rates of children under 5—that is, the under-5 
+mortality rate (U5MR)—among post-neonatal age groups are greater 
+than those for mortality of neonates (0–28 days)4,8. It is relatively 
+unclear how these age patterns are shifting at a more local scale, pos-
+ing challenges to ensuring child survival. To pursue the ambitious 
+Sustainable Development Goal (SDG) of the United Nations9 to “end 
+preventable deaths of newborns and children under 5” by 2030, it is 
+vital for decision-makers at all levels to better understand where, and 
+at what ages, child survival remains most tenuous.
+Precision public health and child mortality
+Country-level estimates facilitate international comparisons but mask 
+important geographical heterogeneity. Previous assessments of mortal-
+ity of children under 5 have noted significant within-country heteroge-
+neity, particularly in sub-Saharan Africa5,7,10–14, as well as in Brazil15, 
+Iran16 and China17. Understanding public health risks at more granular 
+subpopulation levels is central to the emerging concept of precision 
+public health18, which uses “the best available data to target more effec-
+tively and efficiently interventions…to those most in need”18. Efforts 
+to produce high-resolution estimates of mortality of children under 5, 
+determinants at scales that cover the multiple countries are emerging, 
+including for vaccine coverage19,20, malaria21, diarrhoea22 and child 
+growth failure23,24. In a previous study, we produced comprehensive 
+estimates of African child mortality rates at a 5 × 5-km scale for 5-year 
+intervals5. For areas outside of Africa, in which 72% of the world’s chil-
+dren live and 46% of global child deaths occurred in 20174, subnational 
+heterogeneity remains mostly undescribed25.
+Here we produce estimates of death counts and mortality rates of chil-
+dren under 5, infants (under 1 years of age) and neonates (0–28 days) 
+in 99 countries at policy-relevant subnational scales (first and second 
+administrative levels) for each year from 2000 to 2017. We fit a geo-
+statistical discrete hazards model to a large dataset that is composed 
+of 467 geo-referenced household surveys and censuses, representing 
+approximately 15.9 million births and 1.1 million deaths of children 
+from 2000 to 2017. Our model includes socioeconomic, environmental 
+and health-related spatial covariates with known associations to child 
+mortality and uses a Gaussian process random effect to exploit the 
+correlation between data points near each other across dimensions of 
+space, time and age group, which helps to mitigate the limitations asso-
+ciated with data sparsity in our estimations. For this study, we report 
+U5MR as the expected number of deaths per 1,000 live births, reflecting 
+the probability of dying before the age of 5 for a given location and year.
+Unequal rates of child mortality
+The risk of a newborn dying before their fifth birthday varies tremen-
+dously based on where in the world, and within their country, they are 
+born. Across the 99 countries in this study, we estimate that U5MR 
+varied as much as 24-fold at the national level in 2017, with the highest 
+rate in the Central African Republic of 123.9 deaths (95% uncertainty 
+interval, 104.9–148.2) per 1,000 live births, and the lowest rate in Cuba 
+of 5.1 deaths (4.4–6.0)4. We observed large subnational variation within 
+countries in which overall U5MR was either high or comparatively 
+low. For example, in Vietnam, rates across second administrative units 
+(henceforth referred to as ‘units’) varied 5.7-fold, from 6.9 (4.6–9.8) in 
+the Tenth District in Hồ Chí Minh City to 39.7 (28.1–55.6) in Mường 
+Tè District in the Northwest region (Figs. 1b, 2).
+Decreases in U5MR between 2000 and 2017 were evident to some 
+extent throughout all units (Figs. 1a, b, 2). No unit showed a significant 
+increase in U5MR in this period, and in most units U5MR decreased 
+greatly, even in units in which the mortality risk was the highest. Out 
+of 17,554 units, 60.3% (10,585 units) showed a significant (defined 
+as 95% uncertainty intervals that did not overlap) decrease in U5MR 
+between 2000 and 2017. Across units in 2000, U5MR ranged from 7.5 
+(5.0–10.6) in Santa Clara district, Villa Clara province, Cuba, to 308.4 
+(274.9–348.4) in the Sabon Birni Local Government Area of Sokoto 
+State, Nigeria. By 2017, the unit with the highest estimated U5MR 
+across all 99 countries was Garki Local Government Area, Jigawa state, 
+Nigeria, at 195.1 (158.6–230.9). Overall, the total percentage of units 
+with a U5MR higher than 80 deaths per 1,000 live births decreased from 
+28.9% (5,070) of units in 2000 to 7.0% (1,236) in 2017. Furthermore, 
+OPEN
+A list of authors and their affiliations appears in the online version of the paper.
+1 7  O C T O B E R  2 0 1 9  |  V O L  5 7 4  |  N A T U R E  |  3 5 3
+
+Article
+RESEARCH
+32% of units, representing 11.9% of the under-5 population in the 99 
+countries, had already met SDG 3.2 for U5MR with a 90% certainty 
+threshold (Fig. 1c). For neonatal mortality, 34% of units met the target 
+of ≤12 deaths per 1,000 live births (Extended Data Fig. 1). Within 
+countries, successes were mixed in some cases. For example, Colombia, 
+Guatemala, Libya, Panama, Peru and Vietnam had all achieved SDG 
+3.2 for U5MR at the national level by 2017, but each country had units 
+that did not achieve the goal with 90% certainty (Fig. 1c).
+Successful reductions in child mortality were also observed through-
+out entire countries. For example, in 43 LMICs across several world 
+regions, the worst-performing unit in 2017 had a U5MR that was lower 
+than the best-performing unit in 2000 (Fig. 2). Nearly half of these 
+countries were in sub-Saharan Africa. Rwanda showed notable progress 
+during the study period, reducing mortality from 144.0 (130.0–161.6) 
+in its best-achieving district in 2000 (Rubavu) to 57.2 (47.4–72.1) in 
+its worst-achieving district in 2017 (Kayonza). These broad reduc-
+tions in U5MR have also led to a convergence of absolute subnational 
+geographical inequalities, although relative subnational inequalities 
+appear to be mostly unchanged between 2000 and 2017 (Fig. 2 and 
+Supplementary Fig. 6.12). Despite this success, the highest U5MRs in 
+2017 were still largely concentrated in areas in which rates were highest 
+in 2000 (Fig. 1a, b). We observed estimated U5MR ≥ 80 across large 
+geographical areas in Western and Central sub-Saharan Africa, and 
+within Afghanistan, Cambodia, Haiti, Laos and Myanmar (Fig. 1b).
+Deaths of neonates (0–28 days of age) and post-neonates (28–364 
+days of age) have come to encompass a larger fraction of overall mor-
+tality of children under 5 in recent years. By 2017 (Fig. 1d), neonatal 
+mortality increased as a proportion of total deaths of children under 
+5 in 91% (90) of countries and for 83% (14,656) of units compared to 
+2000. In almost all places where U5MR decreased, the share of the 
+mortality burden increased in the groups of children with younger ages. 
+Similarly, the mortality of infants (<1 year) has increased relative to 
+the mortality for children who are 1–4 years of age in many areas. For 
+example, in the Diourbel Region, Senegal, infant mortality constituted 
+54.4% (52.4–56.6) of total mortality of children under 5 in 2000; by 
+2017, the relative contribution of infant mortality was 73.2% (70.3–
+75.8). This shift towards mortality predominantly affecting neonates 
+and infants was not as evident in all locations; mortality for children 
+aged 1–4 years was responsible for more than 30% of overall under-5 
+deaths in 13% (2,226) of units, mostly within high-mortality areas in 
+sub-Saharan Africa.
+Distribution of under-5 deaths may not follow rates
+The goal of mortality-reduction efforts is ultimately to prevent prema-
+ture deaths, and not just to reduce mortality rates. Across the countries 
+studied here, there were 3.5 million (41%) fewer deaths of children 
+under 5 in 2017 than in 2000 (5.0 million compared to 8.5 million). At 
+the national level, the largest number of child deaths in 2017 occurred 
+in India (1.04 (0.98–1.10) million), Nigeria (0.79 (0.65–0.96) million), 
+Pakistan (0.34 (0.27–0.41) million) and the Democratic Republic of 
+the Congo (0.25 (0.21–0.31) million) (Fig. 3a). Within these countries, 
+the geographical concentration of the deaths of the children varied. In 
+Pakistan, over 50% of child deaths in 2017 occurred in Punjab province, 
+which had a U5MR of 63.3 (54.1–76.0) deaths per 1,000 live births 
+(Fig. 3b). By contrast, 50% of child deaths in the Democratic Republic 
+of the Congo in 2017 occurred across 9 out of 26 provinces. Such 
+findings are in a large part artefacts of how borders are drawn around 
+various at-risk populations (the provinces above account for 53% and 
+63%, respectively, of the under-5 population that is at risk in these two 
+countries), but can have a real impact at the level at which planning 
+occurs. Some concentrated areas with apparent high absolute numbers 
+of deaths highlighted by local-level estimates become less noticeable 
+when reporting at aggregated administrative levels; for example, areas 
+across Guatemala, Honduras and El Salvador are visually striking hot-
+spots in Fig. 3d, but less so in Fig. 3b, c.
+Our estimates indicate that targeting areas with a ‘high’ U5MR of 
+80 will have a lower overall effect than in previous years owing to 
+the reductions in mortality rates. In 2000, 23.7% of child deaths— 
+representing 2.0 (1.7–2.4) million deaths—occurred in regions in which 
+U5MR was less than 80 that year (Fig. 4). By comparison, in 2017, 
+69.5% of child deaths occurred in areas in which U5MR was below 80. 
+A growing proportion of deaths of children under 5 are occurring in 
+‘low’-mortality areas; 7.3% (5.1–10.2) of all deaths of children under 5 
+in 2017 occurred in locations in which the U5MR was below the SDG 
+3.2 target rate of 25, compared to 1.2% (0.9–1.6) in 2000. For instance, 
+Lima, Peru, has a U5MR in the 8th percentile of units in this study, yet 
+it ranks in the 96th percentile of highest number of deaths of children 
+under 5.
+a
+b
+Mortality rate
+per 1,000
+live births
+>200
+100
+25
+5
+Mortality rate
+per 1,000
+live births
+>200
+100
+25
+5
+c
+d
+Posterior probability of 
+meeting SDG for 
+under-5 mortality in 2017
+1.00
+0.75
+0.50
+0.25
+0
+Neonatal/
+under-5
+mortality ratio
+>0.75
+0.50
+<0.25
+Fig. 1 | U5MR estimates in 99 LMICs. a, U5MR at the second 
+administrative level in 2000. b, U5MR at the second administrative level 
+in 2017. c, Modelled posterior exceedance probability that a given second 
+administrative unit had achieved the SDG 3.2 target of 25 deaths per 
+1,000 live births for children under 5 in 2017. d, Proportion of mortality 
+of children under 5 occurring in the neonatal (0–28 days) group at the 
+second administrative level in 2017.
+3 5 4  |  N A T U R E  |  V O L  5 7 4  |  1 7  O C T O B E R  2 0 1 9
+
+Article RESEARCH
+Despite population growth, child deaths have declined due to the 
+outpaced decline in U5MR. For example, there were a total of 8.5 
+(7.2–10.0) million deaths of children under 5 in the countries in this 
+study in 2000; had the 2017 under-5 population been exposed to the 
+same U5MRs that were observed in 2000, there would have been 10.6 
+(9.0–12.5) million deaths in 2017. Instead, we observed 5.0 (3.8–6.6) 
+million deaths in 2017 (Extended Data Fig. 5).
+Finally, we combine estimates of subnational variation in mortality 
+rates and populations to gain a better understanding of the impact 
+of geographical inequality. Overall, 2.7 (2.5–2.9) million deaths, or 
+54% of the total number of deaths of children under 5, would have 
+been averted in 2017 had all units had a U5MR that matched the best- 
+performing unit in each respective country (Extended Data Fig. 2). 
+Over the 2000–2017 period, this number is 71.8 (68.5–74.9) million 
+deaths, or 58% (55–61) of the total number of deaths of children under 
+5. Total deaths attributable to inequality in this scenario ranged from 
+13 (6–24) deaths in Belize to 0.84 (0.72–0.99) million deaths in India. 
+Furthermore, had all units met the SDG 3.2 target of 25 deaths per 
+1,000, an estimated 2.6 (2.3–2.8) million deaths of children under 5 
+would have been averted in 2017.
+Discussion
+This study offers a comprehensive, geospatially resolved resource for 
+national and subnational estimates of child deaths and mortality rates 
+for 99 LMICs, where 93% of the world’s child deaths4 occurred in 2017. 
+Gains in child survival varied substantially within the vast majority of 
+countries from 2000 to 2017. Countries such as Vietnam, for example, 
+showed more than fivefold variation in mortality rates across second 
+administrative-level units. The inconsistency of successes, even at 
+subnational levels, indicates how differences in health policy, finan-
+cial resources, access to and use of health services, infrastructure, and 
+economic development ultimately contribute to millions of lives cut 
+short25–27. By providing detailed maps that show precisely where these 
+deaths are estimated to have occurred, we provide an important evi-
+dence base for looking both to the past, for examples of success, and 
+towards the future, in order to identify where precision public-health 
+initiatives could save the most lives.
+The epidemiological toll of child mortality should be considered both 
+in terms of total deaths and as rates of mortality. Focusing only on 
+mortality rates can effectively mask areas in which rates are compara-
+tively low but child deaths are high owing to large population sizes. The 
+number of deaths that occur in high-risk areas has declined, and most 
+under-5 deaths in recent years have occurred in lower-risk areas. This 
+‘prevention paradox’28 could indicate that whole-population interven-
+tions could have a larger overall impact than targeting high-risk areas29. 
+At the same time, strategies that target resources to those locations that 
+have the highest number of child deaths risk leaving behind some of 
+the world’s most marginalized communities: remote, more-sparsely 
+populated places in which, relative to the number of children born 
+each year, a large number of children die before their fifth birthday. 
+Instead, by considering subnational measures of both counts and rates 
+of deaths of children under 5, decision-makers can better tailor child 
+health programs to align with local contexts, norms and needs. Rural 
+communities with high rates but low counts may benefit from ‘last-
+mile’ initiatives to provide effective health services to populations who 
+lack adequate access to care. By contrast, locations with low rates but 
+high counts may require programs that focus on alleviating the cost of 
+care, unsafe environmental exposures or health risks that are uniquely 
+associated with urban slums30. The SDGs have pointed the global 
+development agenda towards progress in child survival. Our analysis 
+indicates that reaching the SDG 3.2 targets of 25 child deaths per 1,000 
+live births and 12 neonatal deaths per 1,000 live births will require 
+only modest improvements or have already been achieved by some 
+units; however, these targets are ambitious for other units in which 
+child mortality remains high. It is worth noting that many countries 
+contain areas that fit both of these profiles. For example, 11 countries 
+0
+100
+200
+300
+a
+b
+CUB
+CRI
+THA
+LKA
+TUN
+SLV
+PSE
+VNM
+NIC
+COL
+IRN
+PRY
+JOR
+JAM
+LBY
+HND
+VEN
+PER
+TTO
+PAN
+EGY
+BLZ
+ECU
+SYR
+CPV
+KGZ
+MAR
+DZA
+BWA
+UZB
+GTM
+IRQ
+GUY
+IDN
+PHL
+SUR
+TKM
+NPL
+DOM
+STP
+BTN
+BOL
+BGD
+KHM
+MNG
+ZAF
+TLS
+IND
+NAM
+GAB
+KEN
+MMR
+SDN
+ERI
+SWZ
+RWA
+YEM
+COM
+GMB
+TJK
+PNG
+DJI
+SEN
+MRT
+AFG
+PAK
+GHA
+ZWE
+HTI
+GNQ
+ETH
+UGA
+ZMB
+LAO
+TZA
+COG
+MWI
+LSO
+AGO
+GNB
+TGO
+MOZ
+MDG
+BDI
+CMR
+LBR
+CIV
+NGA
+COD
+BEN
+GIN
+SOM
+SSD
+BFA
+NER
+SLE
+TCD
+MLI
+CAF
+Under-5 mortality per 1,000 live births
+0
+1
+2
+3
+    4
+CUB
+CRI
+THA
+LKA
+TUN
+SLV
+PSE
+VNM
+NIC
+COL
+IRN
+PRY
+JOR
+JAM
+LBY
+HND
+VEN
+PER
+TTO
+PAN
+EGY
+BLZ
+ECU
+SYR
+CPV
+KGZ
+MAR
+DZA
+BWA
+UZB
+GTM
+IRQ
+GUY
+IDN
+PHL
+SUR
+TKM
+NPL
+DOM
+STP
+BTN
+BOL
+BGD
+KHM
+MNG
+ZAF
+TLS
+IND
+NAM
+GAB
+KEN
+MMR
+SDN
+ERI
+SWZ
+RWA
+YEM
+COM
+GMB
+TJK
+PNG
+DJI
+SEN
+MRT
+AFG
+PAK
+GHA
+ZWE
+HTI
+GNQ
+ETH
+UGA
+ZMB
+LAO
+TZA
+COG
+MWI
+LSO
+AGO
+GNB
+TGO
+MOZ
+MDG
+BDI
+CMR
+LBR
+CIV
+NGA
+COD
+BEN
+GIN
+SOM
+SSD
+BFA
+NER
+SLE
+TCD
+MLI
+CAF
+U5MR relative to
+national mean
+GBD super region
+Central Europe, eastern Europe and central Asia
+Latin America and the Caribbean
+North Africa and Middle East
+South Asia
+Southeast Asia, East Asia and Oceania
+Sub-Saharan Africa
+Country
+Fig. 2 | Geographical inequality in U5MR across 99 countries for 2000 
+and 2017. a, Absolute inequalities. Range of U5MR estimates in second 
+administrative-level units across 99 LMICs. b, Relative inequalities. Range 
+of ratios of U5MR estimates in second administrative-level units relative 
+to country means. Each dot represents a second administrative-level unit. 
+The lower bound of each bar represents the second administrative-level 
+unit with the lowest U5MR in each country. The upper end of each bar 
+represents the second administrative-level unit with the highest U5MR 
+in each country. Thus, each bar represents the extent of geographical 
+inequality in U5MRs estimated for each country. Bars indicating the 
+range in 2017 are coloured according to their Global Burden of Disease 
+super-region. Grey bars indicate the range in U5MR in 2000. The diamond 
+in each bar represents the median U5MR estimated across second 
+administrative-level units in each country and year. A coloured bar that is 
+shorter than its grey counterpart indicates that geographical inequality has 
+narrowed.
+1 7  O C T O B E R  2 0 1 9  |  V O L  5 7 4  |  N A T U R E  |  3 5 5
+
+Article
+RESEARCH
+had at least 1 unit that had already met SDG 3.2 with high certainty, 
+and at least 1 unit that had not. Subnational estimates can empower 
+countries to benchmark gains in child survival against their own sub-
+national exemplars as well as advances that have been achieved by their 
+peers. Through our counterfactual analysis we showed that even if all 
+units had met the SDG 3.2 goal in 2017, there would still have been 
+2.4 million deaths of children under 5, indicating that ‘ending pre-
+ventable child deaths’ is more complex than simply meeting a target 
+threshold. Future research efforts must address the causes of child mor-
+tality in local areas and more precisely identify causes of child deaths 
+that are amenable to intervention. To that end, new and innovative 
+data-collection efforts, such as the ongoing Child Health and Mortality 
+Prevention Surveillance network, offer promising prospects by applying 
+high-validity, pathology-based methods alongside verbal autopsies to 
+determine the cause of death31.
+This study offers a unique platform to support the identification of 
+local success stories that could be replicated elsewhere. In Rwanda, 
+for example, the highest U5MR at the district level in 2017 was 60.2% 
+(52.0–67.8%) lower than the lowest U5MR at the district level in 2000. 
+Such gains have been partially credited to focused investments in 
+the country’s poorest populations, expanding the Mutuelles de santé 
+insurance program, and developing a strong workforce of community 
+health workers who provide evidence-based treatment and health pro-
+motion32,33. Nepal and Cambodia are among the exemplars for consid-
+erably decreasing subnational inequalities in child survival since 2000. 
+In an era when narrowing disparities within countries is as important 
+as reducing national-level gaps, these results provide the evidence base 
+to inform best practices and stimulate national conversations about 
+related social determinants.
+Neonatal mortality rates have also declined but failed to keep pace 
+with reductions in mortality rates of older children, leading to a higher 
+proportion of deaths of children under 5 occurring within the first four 
+weeks of life: from 37.4% (37.1–37.7) in 2000 to 43.7% (43.1–44.3%) in 
+2017. This trend is probably related to the increase in scale of routine 
+programs and improved infrastructure (for example, vaccination34, and 
+water and sanitation35) and the introduction of effective interventions 
+to target communicable diseases (for example, malaria control36 and 
+prevention of mother-to-child transmission of HIV37). These inter-
+ventions have tended to target amenable causes of mortality that are 
+more common in older children under 5 rather than dominant causes 
+of neonatal mortality, such as prematurity and congenital anomalies38. 
+Notably, irrespective of income level or location, some causes of neo-
+natal death (for example, chromosomal anomalies and severe preterm 
+birth complications) remain difficult to prevent completely with cur-
+rent medical technologies. Ultimately, large gains in neonatal mortal-
+ity will require serious investment in health system strengthening39. 
+Affordable approaches to preventing the majority of neonatal deaths 
+in LMICs exist and there are success stories with lessons learned to 
+apply40–44, but decisions about which approaches to take must be based 
+on the local epidemiological and health system context. In the absence 
+of spatially detailed cause of death data, subnational neonatal mortality 
+estimates can indicate dominant causes and thus serve as a useful proxy 
+to guide prioritization of interventions45.
+The accuracy and precision of our estimates were primarily deter-
+mined by the timeliness, quantity and quality of available data. In Sri 
+Lanka, for example, there were no available surveys, and the wide 
+uncertainty intervals surrounding estimates reflect the dearth of availa-
+ble evidence in that country (Extended Data Figs. 3, 4). In certain areas, 
+this decreased the confidence that we had in claiming that a specific 
+subnational area met the SDG 3.2 target (Fig. 1c). This issue is most 
+concerning in cases in which estimated mortality rates are high, thus 
+helping to identify locations in which it would be most useful to focus 
+future data-collection efforts. High mortality rates with large uncer-
+tainty intervals were estimated across much of Eastern and Central 
+sub-Saharan Africa, and in Cambodia, Laos, Myanmar and Papua New 
+Guinea (Extended Data Figs. 3, 4). Furthermore, ongoing conflict in 
+countries such as Syria, Yemen and Iraq pose substantial challenges 
+to collecting more contemporaneous data, and our estimates may not 
+fully capture the effects of prolonged civil unrest or war46,47. Further 
+methodological and data limitations are discussed in the Methods.
+The accurate estimation of mortality is also a matter of equity; 
+highly refined health surveillance is common in high-income coun-
+tries, whereas in LMICs, in which rates of child mortality are the high-
+est, surveillance that helps to guide investments in health towards the 
+areas with the greatest need is less routine48. Ideally, all countries would 
+have high-quality, continuous, and complete civil and vital registration 
+systems that capture all of the births, deaths and causes of death at 
+the appropriate geographical resolution49. In the meantime, analyses 
+such as this serve to bridge the information gap that exists between 
+low-mortality countries with strong information systems and countries 
+that face a dual challenge of weaker information systems and higher 
+disease burden.
+a
+b
+Number
+of deaths (×103)
+>500
+200
+50
+5
+Number
+of deaths (×103)
+>50
+20
+5
+0.5
+c
+d
+Number
+of deaths (×103)
+>5
+2
+0.5
+0.05
+Number
+of deaths
+per grid cell
+>10
+4
+1
+Fig. 3 | Estimated number of children under 5 who died within 99 
+countries in 2017. a, Number of deaths of children under 5 in each 
+country. b, Number of deaths in each first administrative-level unit.  
+c, Number of deaths in each second administrative-level unit. d, Number 
+of deaths of children under 5 in each 5 × 5-km grid cell. Note that scales 
+vary for each aggregation unit.
+3 5 6  |  N A T U R E  |  V O L  5 7 4  |  1 7  O C T O B E R  2 0 1 9
+
+Article RESEARCH
+By harnessing the unprecedented availability of geo-referenced data 
+and developing robust statistical methods, we provide a high-resolution 
+atlas of child death counts and rates since 2000, covering countries 
+that account for 93% of child deaths. We bring attention to subna-
+tional geographical inequalities in the distribution, rates and absolute 
+counts of child deaths by age. These high-resolution estimates can help 
+decision-makers to structure policy and program implementation and 
+facilitate pathways to end preventable child deaths50 by 2030.
+Online content
+Any methods, additional references, Nature Research reporting summaries, source 
+data, extended data, supplementary information, acknowledgements, peer review 
+information; details of author contributions and competing interests; and statements of 
+data and code availability are available at https://doi.org/10.1038/s41586-019-1545-0.
+Received: 28 March 2019; Accepted: 6 August 2019;  
+Published online 16 October 2019.
+	1.	
+Reidpath, D. D. & Allotey, P. Infant mortality rate as an indicator of population 
+health. J. Epidemiol. Community Health 57, 344–346 (2003).
+	2.	
+United Nations General Assembly. United Nations Millennium Declaration: 
+Resolution adopted by the General Assembly. A/RES/55/2 (UN General 
+Assembly, 2000).
+	3.	
+Centers for Disease Control and Prevention. Ten Great Public Health 
+Achievements—Worldwide, 2001–2010. https://www.cdc.gov/mmwr/preview/
+mmwrhtml/mm6024a4.htm (2011).
+	4.	
+GBD 2017 Mortality Collaborators. Global, regional, and national age-sex-
+specific mortality and life expectancy, 1950–2017: a systematic analysis for the 
+Global Burden of Disease Study 2017. Lancet 392, 1684–1735 (2018).
+	5.	
+Golding, N. et al. Mapping under-5 and neonatal mortality in Africa, 2000–15: a 
+baseline analysis for the Sustainable Development Goals. Lancet 390, 
+2171–2182 (2017).
+	6.	
+Pezzulo, C. et al. Geospatial Modeling of Child Mortality across 27 Countries in 
+sub-Saharan Africa. DHS Spatial Analysis Reports No. 13 (USAID, 2016).
+	7.	
+Li, Z. et al. Changes in the spatial distribution of the under-five mortality rate: 
+small-area analysis of 122 DHS surveys in 262 subregions of 35 countries in 
+Africa. PLoS ONE 14, e0210645 (2019).
+	8.	
+Lawn, J. E., Cousens, S. & Zupan, J. 4 million neonatal deaths: When? Where? 
+Why? Lancet 365, 891–900 (2005).
+	9.	
+World Health Organization. SDG 3: Ensure healthy lives and promote wellbeing 
+for all at all ages. https://www.who.int/sdg/targets/en/ (2019).
+	10.	 Dwyer-Lindgren, L. et al. Estimation of district-level under-5 mortality in Zambia 
+using birth history data, 1980–2010. Spat. SpatioTemporal Epidemiol. 11, 
+89–107 (2014).
+	11.	 Dwyer-Lindgren, L. et al. Small area estimation of under-5 mortality in 
+Bangladesh, Cameroon, Chad, Mozambique, Uganda, and Zambia using 
+spatially misaligned data. Popul. Health Metr. 16, 13 (2018).
+	12.	 Wakefield, J. et al. Estimating under-five mortality in space and time in a 
+developing world context. Stat. Methods Med. Res. https://doi.
+org/10.1177/0962280218767988 (2018).
+	13.	 Burke, M., Heft-Neal, S. & Bendavid, E. Sources of variation in under-5 mortality 
+across sub-Saharan Africa: a spatial analysis. Lancet Glob. Health 4, e936–e945 
+(2016).
+	14.	 Macharia, P. M. et al. Sub national variation and inequalities in under-five 
+mortality in Kenya since 1965. BMC Public Health 19, 146 (2019).
+	15.	 Sousa, A., Hill, K. & Dal Poz, M. R. Sub-national assessment of inequality trends 
+in neonatal and child mortality in Brazil. Int. J. Equity Health 9, 21 (2010).
+	16.	 Mohammadi, Y. et al. Measuring Iran’s success in achieving Millennium 
+Development Goal 4: a systematic analysis of under-5 mortality at national and 
+subnational levels from 1990 to 2015. Lancet Glob. Health 5, e537–e544 (2017).
+	17.	 Wang, Y. et al. Under-5 mortality in 2851 Chinese counties, 1996–2012: a 
+subnational assessment of achieving MDG 4 goals in China. Lancet 387, 
+273–283 (2016).
+	18.	 Horton, R. Offline: in defence of precision public health. Lancet 392, 1504 (2018).
+	19.	 Takahashi, S., Metcalf, C. J. E., Ferrari, M. J., Tatem, A. J. & Lessler, J. The 
+geography of measles vaccination in the African Great Lakes region. Nat. 
+Commun. 8, 15585 (2017).
+	20.	 Utazi, C. E. et al. High resolution age-structured mapping of childhood 
+vaccination coverage in low and middle income countries. Vaccine 36, 
+1583–1591 (2018).
+	21.	 Gething, P. W. et al. Mapping Plasmodium falciparum mortality in Africa between 
+1990 and 2015. N. Engl. J. Med. 375, 2435–2445 (2016).
+	22.	 Reiner, R. C. Jr et al. Variation in childhood diarrheal morbidity and mortality in 
+Africa, 2000–2015. N. Engl. J. Med. 379, 1128–1138 (2018).
+	23.	 Osgood-Zimmerman, A. et al. Mapping child growth failure in Africa between 
+2000 and 2015. Nature 555, 41–47 (2018).
+	24.	 Amoah, B., Giorgi, E., Heyes, D. J., van Burren, S. & Diggle, P. J. Geostatistical 
+modelling of the association between malaria and child growth in Africa. Int. J. 
+Health Geogr. 17, 7 (2018).
+	25.	 Bishai, D. M. et al. Factors contributing to maternal and child mortality 
+reductions in 146 low- and middle-income countries between 1990 and 2010. 
+PLoS ONE 11, e0144908 (2016).
+	26.	 Marmot, M. Social determinants of health inequalities. Lancet 365, 1099–1104 
+(2005).
+	27.	 Victora, C. G. et al. Countdown to 2015: a decade of tracking progress for 
+maternal, newborn, and child survival. Lancet 387, 2049–2059 (2016).
+	28.	 Rose, G. Strategy of prevention: lessons from cardiovascular disease. Br. Med. J. 
+(Clin. Res. Ed.) 282, 1847–1851 (1981).
+	29.	 Mackenbach, J. P., Lingsma, H. F., van Ravesteyn, N. T. & Kamphuis, C. B. M. The 
+population and high-risk approaches to prevention: quantitative estimates of 
+their contribution to population health in the Netherlands, 1970–2010. Eur. J. 
+Public Health 23, 909–915 (2013).
+2017
+0
+1
+2
+3
+4
+5
+0
+25
+100
+200
+300
+0
+25
+100
+200
+300
+U5MR (per 1,000)
+U5MR (per 1,000)
+Number of under-5 deaths (×105)
+2000
+SDG 3.2 target
+SDG 3.2 target
+2000
+0
+1
+2
+3
+4
+5
+Number of under-5 deaths (×105)
+2017
+a
+b
+GBD super region
+Eastern Europe and 
+central Asia
+Latin America and 
+the Caribbean
+North Africa and 
+Middle East
+South Asia
+Southeast Asia, East Asia 
+and Oceania
+Sub-Saharan Africa
+Fig. 4 | Number of deaths of children under 5, distributed across 
+level of U5MR, in 2000 and in 2017, across 99 countries. Bar heights 
+represent the total number of deaths of children under 5 within all second 
+administrative-level units with corresponding U5MR. Bins are a width of 
+5 deaths per 1,000 live births. The colour of each bar represents the global 
+region as defined by the subset legend map. As such, the sum of heights 
+of all bars represents the total number of deaths across the 99 countries. 
+a, Deaths of children under 5 in 2000. b, Deaths of children under 5 in 
+2017. The dotted line in the 2000 plot is the shape of the distribution in 
+2017, and the dotted line in the 2017 plot represents the distribution in 
+2000.
+1 7  O C T O B E R  2 0 1 9  |  V O L  5 7 4  |  N A T U R E  |  3 5 7
+
+Article
+RESEARCH
+	30.	 Agarwal, S. & Taneja, S. All slums are not equal: child health conditions among 
+the urban poor. Indian Pediatr. 42, 233–244 (2005).
+	31.	 Farag, T. H. et al. Precisely tracking childhood death. Am. J. Trop. Med. Hyg. 97, 
+3–5 (2017).
+	32.	 Farmer, P. E. et al. Reduced premature mortality in Rwanda: lessons from 
+success. Br. Med. J. 346, f65 (2013).
+	33.	 Gurusamy, P. S. R. & Janagaraj, P. D. A success story: the burden of maternal, 
+neonatal and childhood mortality in Rwanda - critical appraisal of interventions 
+and recommendations for the future. Afr. J. Reprod. Health 22, 9–16 (2018).
+	34.	 McGovern, M. E. & Canning, D. Vaccination and all-cause child mortality from 
+1985 to 2011: global evidence from the Demographic and Health Surveys. Am. 
+J. Epidemiol. 182, 791–798 (2015).
+	35.	 Cheng, J. J., Schuster-Wallace, C. J., Watt, S., Newbold, B. K. & Mente, A. An 
+ecological quantification of the relationships between water, sanitation and 
+infant, child, and maternal mortality. Environ. Health 11, 4 (2012).
+	36.	 Steketee, R. W. & Campbell, C. C. Impact of national malaria control scale-up 
+programmes in Africa: magnitude and attribution of effects. Malar. J. 9, 299 (2010).
+	37.	 Kiragu, K., Collins, L., Von Zinkernagel, D. & Mushavi, A. Integrating PMTCT into 
+maternal, newborn, and child health and related services: experiences from the 
+global plan priority countries. J. Acquir. Immune Defic. Syndr. 75, S36–S42 (2017).
+	38.	 GBD 2017 Causes of Death Collaborators. Global, regional, and national 
+age-sex-specific mortality for 282 causes of death in 195 countries and 
+territories, 1980–2017: a systematic analysis for the Global Burden of Disease 
+Study 2017. Lancet 392, 1736–1788 (2018).
+	39.	 Pasha, O. et al. A combined community- and facility-based approach to 
+improve pregnancy outcomes in low-resource settings: a Global Network 
+cluster randomized trial. BMC Med. 11, 215 (2013).
+	40.	 Horton, S. et al. Ranking 93 health interventions for low- and middle-income 
+countries by cost-effectiveness. PLoS ONE 12, e0182951 (2017).
+	41.	 Simmons, L. E., Rubens, C. E., Darmstadt, G. L. & Gravett, M. G. Preventing 
+preterm birth and neonatal mortality: exploring the epidemiology, causes, and 
+interventions. Semin. Perinatol. 34, 408–415 (2010).
+	42.	 Darmstadt, G. L. et al. Evidence-based, cost-effective interventions: how many 
+newborn babies can we save? Lancet 365, 977–988 (2005).
+	43.	 Saugstad, O. D. Reducing global neonatal mortality is possible. Neonatology 99, 
+250–257 (2011).
+	44.	 Ntigurirwa, P. et al. A health partnership to reduce neonatal mortality in four 
+hospitals in Rwanda. Glob. Health 13, 28 (2017).
+	45.	 Knippenberg, R. et al. Systematic scaling up of neonatal care in countries. 
+Lancet 365, 1087–1098 (2005).
+	46.	 GBD 2015 Eastern Mediterranean Region Neonatal, Infant, and under-5 
+Mortality Collaborators. Neonatal, infant, and under-5 mortality and morbidity 
+burden in the Eastern Mediterranean region: findings from the Global Burden 
+of Disease 2015 study. Int. J. Public Health 63, 63–77 (2018).
+	47.	 Wagner, Z. et al. Armed conflict and child mortality in Africa: a geospatial 
+analysis. Lancet 392, 857–865 (2018).
+	48.	 Mikkelsen, L. et al. A global assessment of civil registration and vital statistics 
+systems: monitoring data quality and progress. Lancet 386, 1395–1406 
+(2015).
+	49.	 AbouZahr, C. et al. Civil registration and vital statistics: progress in the data 
+revolution for counting and accountability. Lancet 386, 1373–1385 (2015).
+	50.	 Annan, K. Data can help to end malnutrition across Africa. Nature 555, 7 
+(2018).
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional 
+claims in published maps and institutional affiliations.
+Open Access This article is licensed under a Creative Commons 
+Attribution 4.0 International License, which permits use, sharing, 
+adaptation, distribution and reproduction in any medium or 
+format, as long as you give appropriate credit to the original author(s) and the 
+source, provide a link to the Creative Commons license, and indicate if 
+changes were made. The images or other third party material in this article are 
+included in the article’s Creative Commons license, unless indicated otherwise 
+in a credit line to the material. If material is not included in the article’s 
+Creative Commons license and your intended use is not permitted by statutory 
+regulation or exceeds the permitted use, you will need to obtain permission 
+directly from the copyright holder. To view a copy of this license, visit http://
+creativecommons.org/licenses/by/4.0/.
+© The Author(s) 2019
+3 5 8  |  N A T U R E  |  V O L  5 7 4  |  1 7  O C T O B E R  2 0 1 9
+
+Article RESEARCH
+Roy Burstein1,612, Nathaniel J. Henry1,612, Michael L. Collison1, Laurie B. Marczak1, Amber 
+Sligar1, Stefanie Watson1, Neal Marquez1, Mahdieh Abbasalizad-Farhangi2, Masoumeh 
+Abbasi3, Foad Abd-Allah4, Amir Abdoli5, Mohammad Abdollahi6, Ibrahim Abdollahpour7,8, 
+Rizwan Suliankatchi Abdulkader9, Michael R. M. Abrigo10, Dilaram Acharya11,12, Oladimeji M. 
+Adebayo13, Victor Adekanmbi14, Davoud Adham15, Mahdi Afshari16, Mohammad Aghaali17, 
+Keivan Ahmadi18, Mehdi Ahmadi19, Ehsan Ahmadpour20, Rushdia Ahmed21,22, Chalachew 
+Genet Akal23, Joshua O. Akinyemi24, Fares Alahdab25, Noore Alam26, Genet Melak Alamene27, 
+Kefyalew Addis Alene28,29, Mehran Alijanzadeh30, Cyrus Alinia31, Vahid Alipour32,33, Syed 
+Mohamed Aljunid34,35, Mohammed J. Almalki36,37, Hesham M. Al-Mekhlafi38,39, Khalid 
+Altirkawi40, Nelson Alvis-Guzman41,42, Adeladza Kofi Amegah43, Saeed Amini44, Arianna 
+Maever Loreche Amit45,46, Zohreh Anbari44, Sofia Androudi47, Mina Anjomshoa48, Fereshteh 
+Ansari49, Carl Abelardo T. Antonio50,51, Jalal Arabloo33, Zohreh Arefi52, Olatunde Aremu53, 
+Bahram Armoon54,55, Amit Arora56,57, Al Artaman58, Anvar Asadi59, Mehran Asadi-Aliabadi60, 
+Amir Ashraf-Ganjouei7,61, Reza Assadi62, Bahar Ataeinia63, Sachin R. Atre64,65, Beatriz Paulina 
+Ayala Quintanilla66,67, Martin Amogre Ayanore68, Samad Azari33, Ebrahim Babaee60, Arefeh 
+Babazadeh69, Alaa Badawi70,71, Soghra Bagheri3, Mojtaba Bagherzadeh72, Nafiseh 
+Baheiraei73,74, Abbas Balouchi75, Aleksandra Barac76,77, Quique Bassat78,79, Bernhard T. 
+Baune80, Mohsen Bayati81, Neeraj Bedi37,82, Ettore Beghi83, Masoud Behzadifar84, Meysam 
+Behzadifar85, Yared Belete Belay86, Brent Bell1, Michelle L. Bell87, Dessalegn Ajema Berbada88, 
+Robert S. Bernstein89,90, Natalia V. Bhattacharjee1, Suraj Bhattarai91,92, Zulfiqar A. Bhutta93,94, 
+Ali Bijani95, Somayeh Bohlouli96, Nicholas J. K. Breitborde97,98, Gabrielle Britton99,100, Annie J. 
+Browne101, Sharath Burugina Nagaraja102, Reinhard Busse103, Zahid A. Butt104,105, Josip 
+Car106,107, Rosario Cárdenas108, Carlos A. Castañeda-Orjuela109,110, Ester Cerin111,112, Wagaye 
+Fentahun Chanie113, Pranab Chatterjee114, Dinh-Toi Chu115, Cyrus Cooper116,117, Vera M. 
+Costa118, Koustuv Dalal119,120, Lalit Dandona1,121, Rakhi Dandona1,121, Farah Daoud1, Ahmad 
+Daryani122, Rajat Das Gupta21, Ian Davis1, Nicole Davis Weaver1, Dragos Virgil Davitoiu123,124, 
+Jan-Walter De Neve125, Feleke Mekonnen Demeke126, Gebre Teklemariam Demoz127,128, Kebede 
+Deribe129,130, Rupak Desai131, Aniruddha Deshpande1, Hanna Demelash Desyibelew132, Sagnik 
+Dey133, Samath Dhamminda Dharmaratne1,134, Meghnath Dhimal135, Daniel Diaz136,137, Leila 
+Doshmangir138, Andre R. Duraes139,140, Laura Dwyer-Lindgren1,141, Lucas Earl1, Roya 
+Ebrahimi142, Soheil Ebrahimpour69, Andem Effiong143, Aziz Eftekhari144,145, Elham Ehsani-
+Chimeh146, Iman El Sayed147, Maysaa El Sayed Zaki148, Maha El Tantawi149,150, Ziad El-
+Khatib151, Mohammad Hassan Emamian152, Shymaa Enany153, Sharareh Eskandarieh7, 
+Oghenowede Eyawo154,155, Maha Ezalarab1, Mahbobeh Faramarzi156, Mohammad Fareed157, 
+Roghiyeh Faridnia158, Andre Faro159, Ali Akbar Fazaeli160, Mehdi Fazlzadeh161,162, Netsanet 
+Fentahun163, Seyed-Mohammad Fereshtehnejad164,165, João C. Fernandes166, Irina Filip167,168, 
+Florian Fischer169, Nataliya A. Foigt170, Masoud Foroutan171, Joel Msafiri Francis172, Takeshi 
+Fukumoto173,174, Nancy Fullman1, Silvano Gallus175, Destallem Gebremedhin Gebre176,177, 
+Tsegaye Tewelde Gebrehiwot178, Gebreamlak Gebremedhn Gebremeskel179,180, Bradford D. 
+Gessner181,182, Birhanu Geta183, Peter W. Gething101, Reza Ghadimi184, Keyghobad Ghadiri3, 
+Mahsa Ghajarzadeh185, Ahmad Ghashghaee186, Paramjit Singh Gill187, Tiffany K. Gill188, Nick 
+Golding609, Nelson G. M. Gomes189,190, Philimon N. Gona191, Sameer Vali Gopalani192,193, 
+Giuseppe Gorini194, Bárbara Niegia Garcia Goulart195, Nicholas Graetz1, Felix Greaves196,197, 
+Manfred S. Green198, Yuming Guo199,200, Arvin Haj-Mirzaian201,202, Arya Haj-Mirzaian201,203, 
+Brian James Hall204, Samer Hamidi205, Hamidreza Haririan206, Josep Maria Haro207,208, Milad 
+Hasankhani209, Edris Hasanpoor210, Amir Hasanzadeh211,212, Hadi Hassankhani213,214, Hamid 
+Yimam Hassen215,216, Mohamed I. Hegazy4, Delia Hendrie217, Fatemeh Heydarpour218, Thomas 
+R. Hird199,219, Chi Linh Hoang220, Gillian Hollerich1, Enayatollah Homaie Rad221,222, Mojtaba 
+Hoseini-Ghahfarokhi223, Naznin Hossain22,224, Mostafa Hosseini225, Mehdi Hosseinzadeh33,226, 
+Mihaela Hostiuc123,227, Sorin Hostiuc228,229, Mowafa Househ230,231, Mohamed Hsairi232, 
+Olayinka Stephen Ilesanmi233, Mohammad Hasan Imani-Nasab234, Usman Iqbal235, Seyed Sina 
+Naghibi Irvani236, Nazrul Islam237,238, Sheikh Mohammed Shariful Islam239,240, Mikk 
+Jürisson241, Nader Jafari Balalami242, Amir Jalali243, Javad Javidnia244, Achala Upendra 
+Jayatilleke245,246, Ensiyeh Jenabi247, John S. Ji248, Yash B. Jobanputra249, Kimberly Johnson1, 
+Jost B. Jonas250,251, Zahra Jorjoran Shushtari252, Jacek Jerzy Jozwiak253,254, Ali Kabir255, Amaha 
+Kahsay256, Hamed Kalani257,258, Rohollah Kalhor259, Manoochehr Karami260, Surendra 
+Karki261,262, Amir Kasaeian263,264, Nicholas J. Kassebaum1,265, Peter Njenga Keiyoro266, Grant 
+Rodgers Kemp1,267, Roghayeh Khabiri268,269, Yousef Saleh Khader270, Morteza Abdullatif 
+Khafaie271, Ejaz Ahmad Khan272, Junaid Khan273, Muhammad Shahzeb Khan274,275, Young-Ho 
+Khang276,277, Khaled Khatab278,279, Amir Khater280, Mona M. Khater281, Alireza Khatony3, 
+Mohammad Khazaei282, Salman Khazaei260, Maryam Khazaei-Pool283, Jagdish 
+Khubchandani284, Neda Kianipour3,285, Yun Jin Kim286, Ruth W. Kimokoti287, Damaris K. 
+Kinyoki1,141, Adnan Kisa288,289, Sezer Kisa290, Tufa Kolola291, Soewarta Kosen292, Parvaiz A. 
+Koul293, Ai Koyanagi79,294, Moritz U. G. Kraemer295,296, Kewal Krishan297, Kris J. Krohn1, 
+Nuworza Kugbey298,299, G. Anil Kumar121, Manasi Kumar300,301, Pushpendra Kumar302, 
+Desmond Kuupiel303,304, Ben Lacey305,306, Sheetal D. Lad307, Faris Hasan Lami308, Anders O. 
+Larsson309,310, Paul H. Lee311, Mostafa Leili282, Aubrey J. Levine1, Shanshan Li199, Lee-Ling 
+Lim312,313, Stefan Listl314,315, Joshua Longbottom316, Jaifred Christian F. Lopez45,317, Stefan 
+Lorkowski318,319, Sameh Magdeldin320,321, Hassan Magdy Abd El Razek322, Muhammed Magdy 
+Abd El Razek323, Azeem Majeed196, Afshin Maleki142, Reza Malekzadeh324,325, Deborah 
+Carvalho Malta326, Abdullah A. Mamun327, Navid Manafi328,329, Ana-Laura Manda330, Morteza 
+Mansourian331, Francisco Rogerlândio Martins-Melo332, Anthony Masaka333, Benjamin Ballard 
+Massenburg334, Pallab K. Maulik335,336, Benjamin K. Mayala1, Mohsen Mazidi337, Martin 
+McKee338, Ravi Mehrotra339, Kala M. Mehta340, Gebrekiros Gebremichael Meles88, Walter 
+Mendoza341, Ritesh G. Menezes342, Atte Meretoja343,344, Tuomo J. Meretoja345,346, Tomislav 
+Mestrovic347,348, Ted R. Miller217,349, Molly K. Miller-Petrie1, Edward J. Mills350, George J. 
+Milne351, G. K. Mini352, Seyed Mostafa Mir353,354, Hamed Mirjalali355, Erkin M. 
+Mirrakhimov356,357, Efat Mohamadi358, Dara K. Mohammad359,360, Aso Mohammad 
+Darwesh361, Naser Mohammad Gholi Mezerji362, Ammas Siraj Mohammed363, Shafiu 
+Mohammed364,365, Ali H. Mokdad1,141, Mariam Molokhia366, Lorenzo Monasta367, Yoshan 
+Moodley303, Mahmood Moosazadeh368, Ghobad Moradi369,370, Masoud Moradi3,59, Yousef 
+Moradi371, Maziar Moradi-Lakeh60, Mehdi Moradinazar59, Paula Moraga372, Lidia Morawska373, 
+Abbas Mosapour353,374, Seyyed Meysam Mousavi375, Ulrich Otto Mueller376,377, Atalay Goshu 
+Muluneh378, Ghulam Mustafa379,380, Behnam Nabavizadeh381, Mehdi Naderi382, Ahamarshan 
+Jayaraman Nagarajan383,384, Azin Nahvijou385, Farid Najafi386, Vinay Nangia387, Duduzile Edith 
+Ndwandwe388, Nahid Neamati353, Ionut Negoi389,390, Ruxandra Irina Negoi391,392, Josephine W. 
+Ngunjiri393, Huong Lan Thi Nguyen394, Long Hoang Nguyen395, Son Hoang Nguyen395, Katie R. 
+Nielsen396,397, Dina Nur Anggraini Ningrum610,611, Yirga Legesse Nirayo398, Molly R. Nixon1, 
+Chukwudi A. Nnaji388,399, Marzieh Nojomi60,400, Mehdi Noroozi401, Shirin Nosratnejad402, Jean 
+Jacques Noubiap403, Soraya Nouraei Motlagh234, Richard Ofori-Asenso404,405, Felix Akpojene 
+Ogbo406, Kelechi E. Oladimeji303,407, Andrew T. Olagunju408,409, Meysam Olfatifar410, Solomon 
+Olum411,412, Bolajoko Olubukunola Olusanya413, Mojisola Morenike Oluwasanu414, Obinna E. 
+Onwujekwe415, Eyal Oren416,417, Doris D. V. Ortega-Altamirano418, Alberto Ortiz419,420, 
+Osayomwanbo Osarenotor421, Frank B. Osei422,423, Aaron E. Osgood-Zimmerman1, Stanislav 
+S. Otstavnov424,425, Mayowa Ojo Owolabi426, Mahesh P. A.427, Abdol Sattar Pagheh122, Smita 
+Pakhale428, Songhomitra Panda-Jonas429, Animika Pandey121, Eun-Kee Park430, Hadi 
+Parsian353, Tahereh Pashaei142, Sangram Kishor Patel431,432, Veincent Christian Filipino 
+Pepito433, Alexandre Pereira434,435, Samantha Perkins1, Brandon V. Pickering1, Thomas 
+Pilgrim436, Majid Pirestani437, Bakhtiar Piroozi370, Meghdad Pirsaheb3, Oleguer Plana-
+Ripoll438, Hadi Pourjafar439,440, Parul Puri302, Mostafa Qorbani441, Hedley Quintana100, 
+Mohammad Rabiee442, Navid Rabiee72, Amir Radfar443,444, Alireza Rafiei445,446, Fakher 
+Rahim447,448, Zohreh Rahimi449, Vafa Rahimi-Movaghar450, Shadi Rahimzadeh63, Fatemeh 
+Rajati451, Sree Bhushan Raju452, Azra Ramezankhani453,454, Chhabi Lal Ranabhat455,456, Davide 
+Rasella457,458, Vahid Rashedi459, Lal Rawal56,460, Robert C. Reiner Jr1,141, Andre M. N. 
+Renzaho461, Satar Rezaei462, Aziz Rezapour33, Seyed Mohammad Riahi463,464, Ana Isabel 
+Ribeiro465, Leonardo Roever466, Elias Merdassa Roro467,468, Max Roser469, Gholamreza 
+Roshandel324,470, Daem Roshani471, Ali Rostami472, Enrico Rubagotti473,474, Salvatore 
+Rubino475, Siamak Sabour463, Nafis Sadat1, Ehsan Sadeghi59, Reza Saeedi476, Yahya Safari3, 
+Roya Safari-Faramani477, Mahdi Safdarian450,478, Amirhossein Sahebkar479,480, Mohammad 
+Reza Salahshoor481, Nasir Salam482, Payman Salamati450,483, Farkhonde Salehi484, Saleh Salehi 
+Zahabi485,486, Yahya Salimi386, Hamideh Salimzadeh324, Joshua A. Salomon487, Evanson 
+Zondani Sambala388, Abdallah M. Samy488, Milena M. Santric Milicevic489, Bruno Piassi Sao 
+Jose490, Sivan Yegnanarayana Iyer Saraswathy491,492, Rodrigo Sarmiento-Suárez493, Benn 
+Sartorius141,494, Brijesh Sathian495,496, Sonia Saxena497, Alyssa N. Sbarra1, Lauren E. Schaeffer1, 
+David C. Schwebel498, Sadaf G. Sepanlou324,325, Seyedmojtaba Seyedmousavi499,500, Faramarz 
+Shaahmadi501, Masood Ali Shaikh502, Mehran Shams-Beyranvand63,503, Amir Shamshirian504, 
+Morteza Shamsizadeh505, Kiomars Sharafi3, Mehdi Sharif506,507, Mahdi Sharif-Alhoseini450, 
+Hamid Sharifi508, Jayendra Sharma509, Rajesh Sharma510, Aziz Sheikh511,512, Chloe Shields1, 
+Mika Shigematsu513, Rahman Shiri514, Ivy Shiue515, Kerem Shuval198, Tariq J. Siddiqi275, João 
+Pedro Silva118, Jasvinder A. Singh516,517, Dhirendra Narain Sinha518,519, Malede Mequanent 
+Sisay378,520, Solomon Sisay521, Karen Sliwa403, David L. Smith1,141, Ranjani Somayaji522,523, 
+Moslem Soofi524, Joan B. Soriano525,526, Chandrashekhar T. Sreeramareddy527, Agus 
+Sudaryanto528, Mu’awiyyah Babale Sufiyan529, Bryan L. Sykes530, P. N. Sylaja531, Rafael 
+Tabarés-Seisdedos532,533, Karen M. Tabb534, Takahiro Tabuchi535, Nuno Taveira536,537, 
+Mohamad-Hani Temsah538,539, Abdullah Sulieman Terkawi540,541, Zemenu Tadesse Tessema378, 
+Kavumpurathu Raman Thankappan542, Sathish Thirunavukkarasu543, Quyen G. To544,  
+Marcos Roberto Tovani-Palone545, Bach Xuan Tran546, Khanh Bao Tran547,548, Irfan Ullah549,550, 
+Muhammad Shariq Usman275, Olalekan A. Uthman551, Amir Vahedian-Azimi552,553, Pascual R. 
+Valdez554,555, Job F. M. van Boven556,557, Tommi Juhani Vasankari558, Yasser Vasseghian462,  
+Yousef Veisani559, Narayanaswamy Venketasubramanian560,561, Francesco S. Violante562,563, 
+Sergey Konstantinovitch Vladimirov564,565, Vasily Vlassov566, Theo Vos1,141, Giang Thu Vu220, 
+Isidora S. Vujcic77, Yasir Waheed567, Jon Wakefield568, Haidong Wang1,141, Yafeng Wang569,  
+Yuan-Pang Wang570, Joseph L. Ward571, Robert G. Weintraub572,573, Kidu Gidey 
+Weldegwergs398, Girmay Teklay Weldesamuel574, Ronny Westerman575, Charles Shey 
+Wiysonge576,577, Dawit Zewdu Wondafrash578,579, Lauren Woyczynski1, Ai-Min Wu580,  
+Gelin Xu581, Abbas Yadegar355, Tomohide Yamada582, Vahid Yazdi-Feyzabadi583,584, 
+Christopher Sabo Yilgwan585,586, Paul Yip587,588, Naohiro Yonemoto589, Javad Yoosefi Lebni331, 
+Mustafa Z. Younis590,591, Mahmoud Yousefifard592, Hebat-Allah Salah A. Yousof593,  
+Chuanhua Yu569,594, Hasan Yusefzadeh595, Erfan Zabeh596,597, Telma Zahirian Moghadam33,598, 
+Sojib Bin Zaman599,600, Mohammad Zamani601, Hamed Zandian598,602, Alireza Zangeneh603, 
+Taddese Alemu Zerfu604,605, Yunquan Zhang606,607, Arash Ziapour331, Sanjay Zodpey608, 
+Christopher J. L. Murray1,141,613 & Simon I. Hay1,141,613*
+1Institute for Health Metrics and Evaluation, University of Washington, Seattle, WA, USA. 
+2Department of Nutrition, Tabriz University of Medical Sciences, Tabriz, Iran. 3Kermanshah 
+University of Medical Sciences, Kermanshah, Iran. 4Department of Neurology, Cairo University, 
+Cairo, Egypt. 5Department of Parasitology and Mycology, Jahrom University of Medical 
+Sciences, Jahrom, Iran. 6The Institute of Pharmaceutical Sciences, Tehran University of Medical 
+Sciences, Tehran, Iran. 7Multiple Sclerosis Research Center, Tehran University of Medical 
+Sciences, Tehran, Iran. 8Department of Epidemiology, Arak University of Medical Sciences, Arak, 
+Iran. 9Department of Public Health, Ministry of Health, Riyadh, Saudi Arabia. 10Research 
+Department, Philippine Institute for Development Studies, Quezon City, The Philippines. 
+11Department of Preventive Medicine, Dongguk University, Gyeongju, South Korea. 
+12Department of Community Medicine, Kathmandu University, Devdaha, Nepal. 13College of 
+Medicine, University College Hospital, Ibadan, Nigeria. 14School of Medicine, Cardiff University, 
+Cardiff, UK. 15School of Health, Ardabil University of Medical Science, Ardabil, Iran. 
+16Department of Community Medicine, Zabol University of Medical Sciences, Zabol, Iran. 
+17Department of Epidemiology and Biostatistics, Qom University of Medical Sciences, Qom, 
+Iran. 18School of Pharmacy, University of Lincoln, Lincoln, UK. 19Environmental Technologies 
+Research Center, Ahvaz Jundishapur University of Medical Sciences, Ahvaz, Iran. 20Department 
+of Parasitology and Mycology, Tabriz University of Medical Sciences, Tabriz, Iran. 21James P. 
+Grant School of Public Health, Brac University, Dhaka, Bangladesh. 22Health Systems and 
+Population Studies Division, International Centre for Diarrhoeal Disease Research Bangladesh, 
+Dhaka, Bangladesh. 23Department of Medical Laboratory Science, Bahir Dar University, Bahir 
+
+Article
+RESEARCH
+National Institute of Health, Bogota, Colombia. 110Epidemiology and Public Health Evaluation 
+Group, National University of Colombia, Bogota, Colombia. 111Mary Mackillop Institute for 
+Health Research, Australian Catholic University, Melbourne, Victoria, Australia. 112School of 
+Public Health, University of Hong Kong, Hong Kong, China. 113Department of Obstetrics and 
+Gynaecology, University of Gondar, Gondar, Ethiopia. 114Division of Epidemiology, National 
+Institute of Cholera and Enteric Diseases, Kolkata, India. 115Faculty of Biology, Hanoi National 
+University of Education, Hanoi, Vietnam. 116Department of Rheumatology, University of Oxford, 
+Oxford, UK. 117Medical Research Council Lifecourse Epidemiology Unit, University of 
+Southampton, Southampton, UK. 118Applied Molecular Biosciences Unit (UCIBIO), University of 
+Porto, Porto, Portugal. 119Institute of Public Health Kalyani, Kalyani, India. 120School of Health 
+Science, Orebro University, Orebro, Sweden. 121Public Health Foundation of India, Gurugram, 
+India. 122Toxoplasmosis Research Center, Mazandaran University of Medical Sciences, Sari, Iran. 
+123Department of General Surgery, Carol Davila University of Medicine and Pharmacy, 
+Bucharest, Romania. 124Department of Surgery, Clinical Emergency Hospital St Pantelimon, 
+Bucharest, Romania. 125Heidelberg Institute of Global Health (HIGH), Heidelberg University, 
+Heidelberg, Germany. 126Bahir Dar University, Bahir Dar, Ethiopia. 127School of Pharmacy, 
+Aksum University, Aksum, Ethiopia. 128Addis Ababa University, Addis Ababa, Ethiopia. 129School 
+of Public Health, Addis Ababa University, Addis Ababa, Ethiopia. 130Department of Global 
+Health and Infection, Brighton and Sussex Medical School, Brighton, UK. 131Division of 
+Cardiology, Atlanta Veterans Affairs Medical Center, Decatur, GA, USA. 132Public Health 
+Nutrition, Bahir Dar University, Bahir Dar, Ethiopia. 133Centre for Atmospheric Sciences, Indian 
+Institute of Technology Delhi, New Delhi, India. 134Department of Community Medicine, 
+University of Peradeniya, Peradeniya, Sri Lanka. 135Health Research Section, Nepal Health 
+Research Council, Kathmandu, Nepal. 136Center of Complexity Sciences, National Autonomous 
+University of Mexico, Mexico City, Mexico. 137Facultad de Medicina Veterinaria y Zootecnia, 
+Autonomous University of Sinaloa, Culiacan Rosales, Mexico. 138Department of Health Policy 
+and Economy, Tabriz University of Medical Sciences, Tabriz, Iran. 139School of Medicine, Federal 
+University of Bahia, Salvador, Brazil. 140Diretoria Médica, Roberto Santos General Hospital, 
+Salvador, Brazil. 141Department of Health Metrics Sciences, School of Medicine, University of 
+Washington, Seattle, WA, USA. 142Environmental Health Research Center, Kurdistan University 
+of Medical Sciences, Sanandaj, Iran. 143Clinical Epidemiology and Biostatistics, University of 
+Newcastle, Newcastle, New South Wales, Australia. 144Department of Toxicology and 
+Pharmacology, Tabriz University of Medical Sciences, Tabriz, Iran. 145Department of Basic 
+Sciences, Maragheh University of Medical Sciences, Maragheh, Iran. 146National Institute for 
+Health Researchers, Tehran University of Medical Sciences, Tehran, Iran. 147Medical Research 
+Institute, Alexandria University, Alexandria, Egypt. 148Department of Clinical Pathology, 
+Mansoura University, Mansoura, Egypt. 149Pediatric Dentistry and Dental Public Health, 
+Alexandria University, Alexandria, Egypt. 150Preventive Dental Sciences, Imam Abdulrahman 
+Bin Faisal University, Dammam, Saudi Arabia. 151Department of Public Health Sciences, 
+Karolinska Institutet, Stockholm, Sweden. 152Ophthalmic Epidemiology Research Center, 
+Shahroud University of Medical Sciences, Shahroud, Iran. 153Department of Microbiology and 
+Immunology, Suez Canal University, Ismailia, Egypt. 154Epidemiology and Population Health, 
+British Columbia Centre for Excellence in HIV/AIDS, Vancouver, British Columbia, Canada. 
+155Faculty of Health Sciences, Simon Fraser University, Burnaby, British Columbia, Canada. 
+156Babol University of Medical Sciences, Babol, Iran. 157College of Medicine, Imam Muhammad 
+Ibn Saud Islamic University, Riyadh, Saudi Arabia. 158Department of Parasitology, Mazandaran 
+University of Medical Sciences, Sari, Iran. 159Department of Psychology, Federal University of 
+Sergipe, Sao Cristovao, Brazil. 160Social Determinants of Health Research Center, Hamadan 
+University of Medical Sciences, Hamadan, Iran. 161Environmental Health Engineering, Tehran 
+University of Medical Sciences, Tehran, Iran. 162Department of Environmental Health 
+Engineering, Ardabil University of Medical Science, Ardabil, Iran. 163Department of Public 
+Health Nutrition, Bahir Dar University, Bahir Dar, Ethiopia. 164Department of Neurobiology, 
+Karolinska Institutet, Stockholm, Sweden. 165Division of Neurology, University of Ottawa, Ottawa, 
+Ontario, Canada. 166Center for Biotechnology and Fine Chemistry, Catholic University of 
+Portugal, Porto, Portugal. 167Psychiatry Department, Kaiser Permanente, Fontana, CA, USA. 
+168Department of Health Sciences, A.T. Still University, Mesa, AZ, USA. 169Department of Public 
+Health Medicine, Bielefeld University, Bielefeld, Germany. 170Institute of Gerontology, National 
+Academy of Medical Sciences of Ukraine, Kyiv, Ukraine. 171Abadan School of Medical Sciences, 
+Abadan, Iran. 172Clinical Medicine and Wits Reproductive Health and HIV Institute, University of 
+the Witwatersrand, Johannesburg, South Africa. 173Gene Expression & Regulation Program, 
+Cancer Institute (W.I.A.), Philadelphia, PA, USA. 174Department of Dermatology, Kobe University, 
+Kobe, Japan. 175Department of Environmental Health Science, Mario Negri Institute for 
+Pharmacological Research, Milan, Italy. 176Mekelle University, Mekelle, Ethiopia. 177Dr Tewelde 
+Legesse Health Sciences College, Mekelle, Ethiopia. 178Department of Epidemiology, Jimma 
+University, Jimma, Ethiopia. 179School of Nursing, Mekelle University, Mekelle, Ethiopia. 
+180Nursing Department, Aksum University, Aksum, Ethiopia. 181Vaccines Department, Pfizer, 
+Collegeville, PA, USA. 182Agency of Preventive Medicine, Paris, France. 183Department of 
+Pharmacy, Wollo University, Dessie, Ethiopia. 184Health Research Institute, Babol University of 
+Medical Sciences, Babol, Iran. 185Department of Neurology, Tehran University of Medical 
+Sciences, Tehran, Iran. 186Department of Health Services Management, Iran University of 
+Medical Sciences, Tehran, Iran. 187Unit of Academic Primary Care, University of Warwick, 
+Coventry, UK. 188Adelaide Medical School, University of Adelaide, Adelaide, South Australia, 
+Australia. 189Department of Chemistry, University of Porto, Porto, Portugal. 190REQUIMTE/LAQV, 
+Porto, Portugal. 191Nursing and Health Sciences Department, University of Massachusetts 
+Boston, Boston, MA, USA. 192Department of Biostatistics and Epidemiology, University of 
+Oklahoma, Oklahoma City, OK, USA. 193Department of Health and Social Affairs, Government of 
+the Federated States of Micronesia, Palikir, Federated States of Micronesia. 194Occupational and 
+Environmental Epidemiology Section, Cancer Prevention and Research Institute, Florence, Italy. 
+195Postgraduate Program in Epidemiology, Federal University of Rio Grande do Sul, Porto 
+Alegre, Brazil. 196Department of Primary Care and Public Health, Imperial College London, 
+London, UK. 197Health Improvement Directorate, Public Health England, London, UK. 198School 
+of Public Health, University of Haifa, Haifa, Israel. 199School of Public Health and Preventive 
+Medicine, Monash University, Melbourne, Victoria, Australia. 200Department of Epidemiology 
+Dar, Ethiopia. 24Epidemiology and Medical Statistics, University of Ibadan, Ibadan, Nigeria. 
+25Evidence Based Practice Center, Mayo Clinic Foundation for Medical Education and Research, 
+Rochester, MN, USA. 26Prevention Division, Queensland Health, Herston, Queensland, Australia. 
+27School of Health Sciences, Madda Walabu University, Bale Goba, Ethiopia. 28Institute of Public 
+Health, University of Gondar, Gondar, Ethiopia. 29Research School of Population Health, 
+Australian National University, Canberra, Australian Capital Territory, Australia. 30Qazvin 
+University of Medical Sciences, Qazvin, Iran. 31Department of Health Care Management and 
+Economics, Urmia University of Medical Science, Urmia, Iran. 32Health Economics Department, 
+Iran University of Medical Sciences, Tehran, Iran. 33Health Management and Economics 
+Research Center, Iran University of Medical Sciences, Tehran, Iran. 34Department of Health 
+Policy and Management, Kuwait University, Safat, Kuwait. 35International Centre for Casemix 
+and Clinical Coding, National University of Malaysia, Bandar Tun Razak, Malaysia. 36Faculty of 
+Public Health and Tropical Medicine, Jazan University, Jazan, Saudi Arabia. 37Jazan University, 
+Jazan, Saudi Arabia. 38Medical Research Center, Jazan University, Jazan, Saudi Arabia. 
+39Department of Medical Parasitology, Sana’a University, Sana’a, Yemen. 40King Saud 
+University, Riyadh, Saudi Arabia. 41Research Group in Health Economics, Universidad de 
+Cartagena, Cartagena, Colombia. 42Research Group in Hospital Management and Health 
+Policies, Universidad de la Costa, Barranquilla, Colombia. 43Biomedical Science, University of 
+Cape Coast, Cape Coast, Ghana. 44Health Services Management Department, Arak University of 
+Medical Sciences, Arak, Iran. 45Department of Epidemiology and Biostatistics, University of the 
+Philippines Manila, Manila, The Philippines. 46Online Programs for Applied Learning, Johns 
+Hopkins University, Baltimore, MD, USA. 47Department of Medicine, University of Thessaly, 
+Volos, Greece. 48Social Determinants of Health Research Center, Rafsanjan University of 
+Medical Sciences, Rafsanjan, Iran. 49Research Center for Evidence Based Medicine-Health 
+Management and Safety Promotion Research Institute, Tabriz University of Medical Sciences, 
+Tabriz, Iran. 50Department of Health Policy and Administration, University of the Philippines 
+Manila, Manila, The Philippines. 51Department of Applied Social Sciences, Hong Kong 
+Polytechnic University, Hong Kong, China. 52Department of Health Promotion and Education, 
+Tehran University of Medical Sciences, Tehran, Iran. 53School of Health Sciences, Birmingham 
+City University, Birmingham, UK. 54School of Nursing and Midwifery, Saveh University of 
+Medical Sciences, Saveh, Iran. 55Social Determinants of Health Research Center, Saveh 
+University of Medical Sciences, Saveh, Iran. 56School of Science and Health, Western Sydney 
+University, Penrith, New South Wales, Australia. 57Oral Health Services, Sydney Local Health 
+District, Sydney, New South Wales, Australia. 58Department of Community Health Sciences, 
+University of Manitoba, Winnipeg, Manitoba, Canada. 59Research Center for Environmental 
+Determinants of Health, Kermanshah University of Medical Sciences, Kermanshah, Iran. 
+60Preventive Medicine and Public Health Research Center, Iran University of Medical Sciences, 
+Tehran, Iran. 61Faculty of Medicine, Tehran University of Medical Sciences, Tehran, Iran. 
+62Education Development Center, Mashhad University of Medical Sciences, Mashhad, Iran. 
+63Non-communicable Diseases Research Center, Tehran University of Medical Sciences, Tehran, 
+Iran. 64Center for Clinical Global Health Education, Johns Hopkins University, Baltimore, MD, 
+USA. 65Dr D. Y. Patil Medical College, Pune, India. 66The Judith Lumley Centre, La Trobe 
+University, Melbourne, Victoria, Australia. 67General Office for Research and Technological 
+Transfer, Peruvian National Institute of Health, Lima, Peru. 68Department of Family and 
+Community Health, University of Health and Allied Sciences, Ho, Ghana. 69Center for Infectious 
+Diseases Research, Babol, Iran. 70Public Health Risk Sciences Division, Public Health Agency of 
+Canada, Toronto, Ontario, Canada. 71Department of Nutritional Sciences, University of Toronto, 
+Toronto, Ontario, Canada. 72Department of Chemistry, Sharif University of Technology, Tehran, 
+Iran. 73Tissue Engineering and Applied Cell Sciences Division, Tarbiat Modares University, 
+Tehran, Iran. 74Division of Diseases, Advanced Technologies Research Group, Tehran, Iran. 
+75School of Nursing and Midwifery, Iran University of Medical Sciences, Tehran, Iran. 76Clinic for 
+Infectious and Tropical Diseases, Clinical Center of Serbia, Belgrade, Serbia. 77Faculty of 
+Medicine, University of Belgrade, Belgrade, Serbia. 78Barcelona Institute for Global Health, 
+University of Barcelona, Barcelona, Spain. 79Catalan Institution for Research and Advanced 
+Studies (ICREA), Barcelona, Spain. 80Department of Psychiatry, Melbourne Medical School, 
+Melbourne, Victoria, Australia. 81Health Human Resources Research Center, Shiraz University of 
+Medical Sciences, Shiraz, Iran. 82Department of Community Medicine, Gandhi Medical College 
+Bhopal, Bhopal, India. 83Department of Neuroscience, Mario Negri Institute for Pharmacological 
+Research, Milan, Italy. 84Social Determinants of Health Research Center, Lorestan University of 
+Medical Sciences, Khorramabad, Iran. 85Hepatitis Research Center, Lorestan University of 
+Medical Sciences, Khorramabad, Iran. 86Pharmacoepidemiology and Social Pharmacy, Mekelle 
+University, Mekelle, Ethiopia. 87School of Forestry and Environmental Studies, Yale University, 
+New Haven, CT, USA. 88Department of Public Health, Arba Minch University, Arba Minch, 
+Ethiopia. 89Hubert Department of Global Health, Emory University, Atlanta, GA, USA. 
+90Department of Global Health, University of South Florida, Tampa, FL, USA. 91London School of 
+Hygiene & Tropical Medicine, London, UK. 92Nepal Academy of Science & Technology, Patan, 
+Nepal. 93The Centre for Global Child Health, Hospital for Sick Children, University of Toronto, 
+Toronto, Ontario, Canada. 94Center of Excellence in Women and Child Health, Aga Khan 
+University, Karachi, Pakistan. 95Social Determinants of Health Research Center, Babol University 
+of Medical Sciences, Babol, Iran. 96Department of Veterinary Medicine, Karaj Islamic Azad 
+University, Kermanshah, Iran. 97Department of Psychology, Ohio State University, Columbus, 
+OH, USA. 98Psychiatry and Behavioral Health Department, Ohio State University, Columbus, OH, 
+USA. 99Neuroscience Department, Institute for Scientific Research and High Technology 
+Services, City of Knowledge, Panama. 100Gorgas Memorial Institute for Health Studies, Panama, 
+Panama. 101Big Data Institute, Li Ka Shing Centre for Health Information and Discovery, 
+University of Oxford, Oxford, UK. 102Department of Community Medicine, Employees’ State 
+Insurance Model Hospital, Bangalore, India. 103Department for Health Care Management, 
+Technical University of Berlin, Berlin, Germany. 104School of Population and Public Health, 
+University of British Columbia, Vancouver, British Columbia, Canada. 105Al Shifa School of 
+Public Health, Al Shifa Trust Eye Hospital, Rawalpindi, Pakistan. 106Centre for Population Health 
+Sciences, Nanyang Technological University, Singapore, Singapore. 107Global Ehealth Unit, 
+Imperial College London, London, UK. 108Department of Population and Health, Metropolitan 
+Autonomous University, Mexico City, Mexico. 109Colombian National Health Observatory, 
+
+Article RESEARCH
+and Biostatistics, Zhengzhou University, Zhengzhou, China. 201Department of Pharmacology, 
+Tehran University of Medical Sciences, Tehran, Iran. 202Obesity Research Center, Research 
+Institute for Endocrine Sciences, Shahid Beheshti University of Medical Sciences, Tehran, Iran. 
+203Department of Radiology, Johns Hopkins University, Baltimore, MD, USA. 204Global and 
+Community Mental Health Research Group, University of Macau, Macao, China. 205School of 
+Health and Environmental Studies, Hamdan Bin Mohammed Smart University, Dubai, United 
+Arab Emirates. 206Tabriz University of Medical Sciences, Tabriz, Iran. 207Biomedical Research 
+Networking Center for Mental Health Network (CIBERSAM), Madrid, Spain. 208Research and 
+Development Unit, San Juan de Dios Sanitary Park, Sant Boi De Llobregat, Spain. 209School of 
+Nutrition and Food Sciences, Tabriz University of Medical Sciences, Tabriz, Iran. 210Healthcare 
+Management, Maragheh University of Medical Sciences, Maragheh, Iran. 211Department of 
+Microbiology, Tehran University of Medical Sciences, Tehran, Iran. 212Department of 
+Microbiology, Maragheh University of Medical Sciences, Maragheh, Iran. 213School of Nursing 
+and Midwifery Tabriz University of Medical Sciences, Tabriz, Iran. 214Independent Consultant, 
+Tabriz, Iran. 215Public Health Department, Mizan-Tepi University, Teppi, Ethiopia. 216Unit of 
+Epidemiology and Social Medicine, University Hospital Antwerp, Antwerp, Belgium. 217School of 
+Public Health, Curtin University, Bentley, Western Australia, Australia. 218Medical Biology 
+Research Center, Kermanshah University of Medical Sciences, Kermanshah, Iran. 219Population 
+Health, Baker Heart and Diabetes Institute, Melbourne, Victoria, Australia. 220Center of 
+Excellence in Behavioral Medicine, Nguyen Tat Thanh University, Ho Chi Minh, Vietnam. 
+221Social Determinants of Health Research Center, Guilan Road Trauma Research Center, 
+Guilan University of Medical Sciences, Rasht, Iran. 222Guilan Road Trauma Research Center, 
+Guilan University of Medical Sciences, Rasht, Iran. 223Radiology and Nuclear Medicine 
+Department, Kermanshah University of Medical Sciences, Kermanshah, Iran. 224Department of 
+Pharmacology and Therapeutics, University of Dhaka, Dhaka, Bangladesh. 225Department of 
+Epidemiology and Biostatistics, Tehran University of Medical Sciences, Tehran, Iran. 
+226Computer Science Department, University of Human Development, Sulaimaniyah, Iraq. 
+227Department of Internal Medicine, Bucharest Emergency Hospital, Bucharest, Romania. 
+228Faculty of Dentistry, Carol Davila University of Medicine and Pharmacy, Bucharest, Romania. 
+229Clinical Legal Medicine, National Institute of Legal Medicine Mina Minovici, Bucharest, 
+Romania. 230Division of Information and Computing Technology, Hamad Bin Khalifa University, 
+Doha, Qatar. 231Qatar Foundation for Education, Science and Community Development, Doha, 
+Qatar. 232Faculty of Medicine Tunis, Medicine School of Tunis, Baab Saadoun, Tunisia. 
+233Department of Community Medicine, University of Ibadan, Ibadan, Nigeria. 234Department of 
+Public Health, Lorestan University of Medical Sciences, Khorramabad, Iran. 235Global Health 
+and Development Department, Taipei Medical University, Taipei City, Taiwan. 236Research 
+Institute for Endocrine Sciences, Shahid Beheshti University of Medical Sciences, Tehran, Iran. 
+237MRC Epidemiology Unit, University of Cambridge, Cambridge, UK. 238Harvard University, 
+Boston, MA, USA. 239Institute for Physical Activity and Nutrition, Deakin University, Burwood, 
+Victoria, Australia. 240Sydney Medical School, University of Sydney, Sydney, New South Wales, 
+Australia. 241Institute of Family Medicine and Public Health, University of Tartu, Tartu, Estonia. 
+242Psychosis Department, Babol Nushirvani University of Technology, Babol, Iran. 243Psychiatric 
+Department, Kermanshah University of Medical Sciences, Kermanshah, Iran. 244Department of 
+Medical Mycology, Mazandaran University of Medical Sciences, Sari, Iran. 245Faculty of 
+Graduate Studies, University of Colombo, Colombo, Sri Lanka. 246Institute of Medicine, 
+University of Colombo, Colombo, Sri Lanka. 247School of Midwifery, A.T. Still University, Mesa, 
+AZ, USA. 248Environmental Research Center, Duke Kunshan University, Kunshan, China. 
+249Department of Medicine, University of Miami, Atlantis, FL, USA. 250Department of 
+Ophthalmology, Heidelberg University, Heidelberg, Germany. 251Beijing Institute of 
+Ophthalmology, Beijing Tongren Hospital, Beijing, China. 252Social Determinants of Health 
+Research Center, University of Social Welfare and Rehabilitation Sciences, Tehran, Iran. 
+253Faculty of Medicine and Health Sciences, University of Opole, Opole, Poland. 254Department 
+of Family Medicine and Public Health, University of Opole, Opole, Poland. 255Minimally Invasive 
+Surgery Research Center, Iran University of Medical Sciences, Tehran, Iran. 256Department of 
+Nutrition and Dietetics, Mekelle University, Mekelle, Ethiopia. 257Mazandaran University of 
+Medical Sciences, Sari, Iran. 258Isfahan University of Medical Sciences, Isfahan, Iran. 259Social 
+Determinants of Health Research Center, Qazvin University of Medical Sciences, Qazvin, Iran. 
+260Department of Epidemiology, Hamadan University of Medical Sciences, Hamadan, Iran. 
+261Research and Development, Australian Red Cross Blood Service, Sydney, New South Wales, 
+Australia. 262School of Public Health and Community Medicine, University of New South Wales, 
+Sydney, New South Wales, Australia. 263Hematologic Malignancies Research Center, Tehran 
+University of Medical Sciences, Tehran, Iran. 264Hematology-Oncology and Stem Cell 
+Transplantation Research Center, Tehran University of Medical Sciences, Tehran, Iran. 
+265Department of Anesthesiology & Pain Medicine, University of Washington, Seattle, WA, USA. 
+266Odel Campus, University of Nairobi, Nairobi, Kenya. 267Michigan State University, East 
+Lansing, MI, USA. 268Tabriz Health Management Research Center, Tabriz University of Medical 
+Sciences, Tabriz, Iran. 269National Institute for Health Research (NIHR), Tehran University of 
+Medical Sciences, Tehran, Iran. 270Department of Public Health and Community Medicine, 
+Jordan University of Science and Technology, Ramtha, Jordan. 271Social Determinants of Health 
+Research Center, Ahvaz Jundishapur University of Medical Sciences, Ahvaz, Iran. 
+272Epidemiology and Biostatistics Department, Health Services Academy, Islamabad, Pakistan. 
+273Population Studies, International Institute for Population Sciences, Mumbai, India. 
+274Department of Internal Medicine, John H. Stroger Jr Hospital of Cook County, Chicago, IL, 
+USA. 275Department of Internal Medicine, Dow University of Health Sciences, Karachi, Pakistan. 
+276Institute of Health Policy and Management, Seoul National University, Seoul, South Korea. 
+277Department of Health Policy and Management, Seoul National University, Seoul, South 
+Korea. 278Faculty of Health and Wellbeing, Sheffield Hallam University, Sheffield, UK. 
+279Department of Arts and Sciences, Ohio University, Zanesville, OH, USA. 280Internal Medicine 
+and Gastroenterology Department, National Hepatology and Tropical Research Institute, Cairo, 
+Egypt. 281Department of Medical Parasitology, Cairo University, Cairo, Egypt. 282Department of 
+Environmental Health Engineering, Hamadan University of Medical Sciences, Hamadan, Iran. 
+283Department of Public Health, Mazandaran University of Medical Sciences, Sari, Iran. 
+284Department of Nutrition and Health Science, Ball State University, Muncie, IN, USA. 
+285School of Public Health, Kermanshah University of Medical Sciences, Kermanshah, Iran. 
+286School of Medicine, Xiamen University Malaysia, Sepang, Malaysia. 287Department of 
+Nutrition, Simmons College, Boston, MA, USA. 288Department of Health Management and 
+Health Economics, Kristiania University College, Oslo, Norway. 289Department of Health 
+Services Policy and Management, University of South Carolina, Columbia, SC, USA. 290Nursing 
+and Health Promotion, Oslo Metropolitan University, Oslo, Norway. 291Department of Public 
+Health, Debre Berhan University, Debre Berhan, Ethiopia. 292Independent Consultant, Jakarta, 
+Indonesia. 293Department of Internal and Pulmonary Medicine, Sheri Kashmir Institute of 
+Medical Sciences, Srinagar, India. 294CIBERSAM, San Juan de Dios Sanitary Park, Sant Boi De 
+Llobregat, Spain. 295Department of Zoology, University of Oxford, Oxford, UK. 296Medical School, 
+Harvard University, Boston, MA, USA. 297Department of Anthropology, Panjab University, 
+Chandigarh, India. 298Family and Community Health, University of Health and Allied Sciences, 
+Ho, Ghana. 299Psychology and Health Promotion, University of Kwazulu-Natal, Durban, South 
+Africa. 300Department of Psychiatry, University of Nairobi, Nairobi, Kenya. 301Department of 
+Psychology, University College London, London, UK. 302International Institute for Population 
+Sciences, Mumbai, India. 303Department of Public Health Medicine, University of Kwazulu-
+Natal, Durban, South Africa. 304Nursing, St John of God Hospital, Duayaw Nkwanta, Ghana. 
+305Nuffield Department of Population Health, University of Oxford, Oxford, UK. 306Oxford 
+Biomedical Research Centre, National Institute for Health Research (NIHR), Oxford, UK. 
+307Department of Pediatrics, Post Graduate Institute of Medical Education and Research, 
+Chandigarh, India. 308Department of Community and Family Medicine, Academy of Medical 
+Science, Baghdad, Iraq. 309Department of Medical Sciences, Uppsala University, Uppsala, 
+Sweden. 310Department of Clinical Chemistry and Pharmacology, Uppsala University Hospital, 
+Uppsala, Sweden. 311School of Nursing, Hong Kong Polytechnic University, Hong Kong, China. 
+312Department of Medicine, University of Malaya, Kuala Lumpur, Malaysia. 313Department of 
+Medicine and Therapeutics, The Chinese University of Hong Kong, Shatin, China. 
+314Department of Dentistry, Radboud University, Nijmegen, The Netherlands. 315Section for 
+Translational Health Economics, Heidelberg University Hospital, Heidelberg, Germany. 
+316Department of Vector Biology, Liverpool School of Tropical Medicine, Liverpool, UK. 
+317Alliance for Improving Health Outcomes, Quezon City, The Philippines. 318Institute of 
+Nutrition, Friedrich Schiller University Jena, Jena, Germany. 319Competence Cluster for 
+Nutrition and Cardiovascular Health (NUTRICARD), Jena, Germany. 320Physiology Department, 
+Suez Canal University, Ismailia, Egypt. 321Proteomics and Metabolomics Unit, Suez Canal 
+University, Ismailia, Egypt. 322Department of Cardiology, Damietta University, Damietta, Egypt. 
+323Ophthalmology Department, Aswan Faculty of Medicine, Aswan, Egypt. 324Digestive Diseases 
+Research Institute, Tehran University of Medical Sciences, Tehran, Iran. 325Non-communicable 
+Diseases Research Center, Shiraz University of Medical Sciences, Shiraz, Iran. 326Department of 
+Maternal and Child Nursing and Public Health, Federal University of Minas Gerais, Belo 
+Horizonte, Brazil. 327Institute for Social Science Research, The University of Queensland, 
+Brisbane, Queensland, Australia. 328Ophthalmology Department, Iran University of Medical 
+Sciences, Tehran, Iran. 329Department Ophthalmology, University of Manitoba, Winnipeg, 
+Manitoba, Canada. 330Surgery Department, Emergency University Hospital Bucharest, 
+Bucharest, Romania. 331Department of Health Education and Health Promotion, Iran University 
+of Medical Sciences, Tehran, Iran. 332Campus Caucaia, Federal Institute of Education, Science 
+and Technology of Ceará, Caucaia, Brazil. 333Faculty of Health and Education, Botho University-
+Botswana, Gaborone, Botswana. 334Division of Plastic Surgery, University of Washington, 
+Seattle, WA, USA. 335School of Medicine, University of New South Wales, Sydney, New South 
+Wales, Australia. 336Research Department, The George Institute for Global Health, New Delhi, 
+India. 337Department of Biology and Biological Engineering, Chalmers University of Technology, 
+Gothenburg, Sweden. 338Department of Health Services Research and Policy, London School of 
+Hygiene & Tropical Medicine, London, UK. 339Preventive Oncology Department, National 
+Institute of Cancer Prevention and Research, Noida, India. 340Department of Epidemiology and 
+Biostatistics, University of California San Francisco, San Francisco, CA, USA. 341Peru Country 
+Office, United Nations Population Fund (UNFPA), Lima, Peru. 342Forensic Medicine Division, 
+Imam Abdulrahman Bin Faisal University, Dammam, Saudi Arabia. 343Neurocenter, Helsinki 
+University Hospital, Helsinki, Finland. 344School of Health Sciences, University of Melbourne, 
+Parkville, Victoria, Australia. 345Breast Surgery Unit, Helsinki University Hospital, Helsinki, 
+Finland. 346University of Helsinki, Helsinki, Finland. 347Clinical Microbiology and Parasitology 
+Unit, Dr Zora Profozic Polyclinic, Zagreb, Croatia. 348University Centre Varazdin, University 
+North, Varazdin, Croatia. 349Pacific Institute for Research & Evaluation, Calverton, MD, USA. 
+350Health, Evidence and Impact, McMaster University, Hamilton, Ontario, Canada. 
+351Department of Computer Science and Software Engineering, University of Western Australia, 
+Perth, Western Australia, Australia. 352Department of Public Health, Amrita Institute of Medical 
+Sciences, Kochi, India. 353Department of Clinical Biochemistry, Babol University of Medical 
+Sciences, Babol, Iran. 354Golestan University of Medical Sciences, Gorgan, Iran. 355Foodborne 
+and Waterborne Diseases Research Center, Shahid Beheshti University of Medical Sciences, 
+Tehran, Iran. 356Faculty of General Medicine, Kyrgyz State Medical Academy, Bishkek, 
+Kyrgyzstan. 357Department of Atherosclerosis and Coronary Heart Disease, National Center of 
+Cardiology and Internal Disease, Bishkek, Kyrgyzstan. 358Health Equity Research Center, Tehran 
+University of Medical Sciences, Tehran, Iran. 359Department of Medicine Huddinge, Karolinska 
+Institutet, Stockholm, Sweden. 360Department of Food Technology, College of Agriculture, 
+Salahaddin University-Erbil, Erbil, Iraq. 361Information Technology Department, University of 
+Human Development, Sulaimaniyah, Iraq. 362Department of Biostatistics, Hamadan University 
+of Medical Sciences, Hamadan, Iran. 363School of Pharmacy, Haramaya University, Harar, 
+Ethiopia. 364Institute of Public Health, Heidelberg University, Heidelberg, Germany. 365Health 
+Systems and Policy Research Unit, Ahmadu Bello University, Zaria, Nigeria. 366Faculty of Life 
+Sciences and Medicine, King’s College London, London, UK. 367Clinical Epidemiology and 
+Public Health Research Unit, Burlo Garofolo Institute for Maternal and Child Health, Trieste, 
+Italy. 368Health Sciences Research Center, Mazandaran University of Medical Sciences, Sari, 
+Iran. 369Department of Epidemiology and Biostatistics, Kurdistan University of Medical 
+Sciences, Sanandaj, Iran. 370Social Determinants of Health Research Center, Kurdistan 
+University of Medical Sciences, Sanandaj, Iran. 371Department of Epidemiology, Iran University 
+of Medical Sciences, Tehran, Iran. 372Department of Mathematical Sciences, University of Bath, 
+
+Article
+RESEARCH
+Bath, UK. 373International Laboratory for Air Quality and Health, Queensland University of 
+Technology, Brisbane, Queensland, Australia. 374Department of Clinical Biochemistry, Tarbiat 
+Modares University, Tehran, Iran. 375Department of Health Management and Economics, Tehran 
+University of Medical Sciences, Tehran, Iran. 376Federal Institute for Population Research, 
+Wiesbaden, Germany. 377Center for Population and Health, Wiesbaden, Germany. 
+378Department of Epidemiology and Biostatistics, University of Gondar, Gondar, Ethiopia. 
+379Department of Pediatric Medicine, Nishtar Medical University, Multan, Pakistan. 
+380Department of Pediatrics & Pediatric Pulmonology, Institute of Mother & Child Care, Multan, 
+Pakistan. 381Department of Urology, Tehran University of Medical Sciences, Tehran, Iran. 
+382Operating Room Department, Kermanshah University of Medical Sciences, Kermanshah, 
+Iran. 383Research and Analytics, Initiative for Financing Health and Human Development, 
+Chennai, India. 384Research and Analytics, Bioinsilico Technologies, Chennai, India. 385Cancer 
+Research Center of Cancer Institute, Tehran University of Medical Sciences, Tehran, Iran. 
+386Department of Epidemiology & Biostatistics, Kermanshah University of Medical Sciences, 
+Kermanshah, Iran. 387Suraj Eye Institute, Nagpur, India. 388Cochrane South Africa, South African 
+Medical Research Council, Cape Town, South Africa. 389Emergency Hospital of Bucharest, Carol 
+Davila University of Medicine and Pharmacy, Bucharest, Romania. 390General Surgery 
+Department, Carol Davila University of Medicine and Pharmacy, Bucharest, Romania. 
+391Anatomy and Embryology Department, Carol Davila University of Medicine and Pharmacy, 
+Bucharest, Romania. 392Department of Cardiology, Cardio-aid, Bucharest, Romania. 
+393Department of Biological Sciences, University of Embu, Embu, Kenya. 394Institute for Global 
+Health Innovations, Duy Tan University, Hanoi, Vietnam. 395Center for Excellence in Behavioral 
+Health, Nguyen Tat Thanh University, Ho Chi Minh, Vietnam. 396Global Health Department, 
+University of Washington, Seattle, WA, USA. 397Department of Pediatrics, University of 
+Washington, Seattle, WA, USA. 398Clinical Pharmacy Unit, Mekelle University, Mekelle, Ethiopia. 
+399Public Health Science Department, School of Public Health and Family Medicine, University 
+of Cape Town, Cape Town, South Africa. 400Department of Community and Family Medicine, 
+Iran University of Medical Sciences, Tehran, Iran. 401University of Social Welfare and 
+Rehabilitation Sciences, Tehran, Iran. 402Department of Health Economics, Tabriz University of 
+Medical Sciences, Tabriz, Iran. 403Department of Medicine, University of Cape Town, Cape Town, 
+South Africa. 404Centre of Cardiovascular Research and Education in Therapeutics, Monash 
+University, Melbourne, Victoria, Australia. 405Independent Consultant, Accra, Ghana. 
+406Translational Health Research Institute, Western Sydney University, Penrith, New South 
+Wales, Australia. 407Center for the Aid Program of Research in South Africa (CAPRISA) TB and 
+HIV Pathogenesis Unit, United Nations Programme on HIV/AIDS (UNAIDS), Durban, South 
+Africa. 408Department of Psychiatry and Behavioural Neurosciences, McMaster University, 
+Hamilton, Ontario, Canada. 409Department of Psychiatry, University of Lagos, Lagos, Nigeria. 
+410Gastroenterology and Liver Disease Research Center, A.C.S. Medical College and Hospital, 
+Tehran, Iran. 411Department of Food Science and Postharvest Technology, Gulu University, Gulu, 
+Uganda. 412Ghent University, Ghent, Belgium. 413Centre for Healthy Start Initiative, Lagos, 
+Nigeria. 414Department of Health Promotion and Education, University of Ibadan, Ibadan, 
+Nigeria. 415Department of Pharmacology and Therapeutics, University of Nigeria Nsukka, 
+Enugu, Nigeria. 416University of Washington, Seattle, WA, USA. 417Graduate School of Public 
+Health, San Diego State University, San Diego, CA, USA. 418Center for Health Systems Research, 
+National Institute of Public Health, Cuernavaca, Mexico. 419School of Medicine, Autonomous 
+University of Madrid, Madrid, Spain. 420Department of Nephrology and Hypertension, The 
+Institute for Health Research Foundation Jiménez Díaz University Hospital, Madrid, Spain. 
+421Environmental Management and Toxicology, University of Benin, Benin City, Nigeria. 
+422Faculty of Geoinformation Science and Earth Observation, University of Twente, Enschede, 
+The Netherlands. 423Department of Mathematics and Statistics, University of Energy and 
+Natural Resources, Sunyani, Ghana. 424Analytical Center, Moscow Institute of Physics and 
+Technology, Dolgoprudny, Russia. 425Committee for the Comprehensive Assessment of Medical 
+Devices and Information Technology, Health Technology Assessment Association, Moscow, 
+Russia. 426Institute for Advanced Medical Research and Training, University of Ibadan, Ibadan, 
+Nigeria. 427Department of Tb & Respiratory Medicine, Jagadguru Sri Shivarathreeswara 
+University, Mysore, India. 428Department of Medicine, Ottawa Hospital Research Institute, 
+Ottawa, Ontario, Canada. 429Heidelberg University, Heidelberg, Germany. 430Department of 
+Medical Humanities and Social Medicine, Kosin University, Busan, South Korea. 431Research 
+and Evaluation, Population Council, New Delhi, India. 432Indian Institute of Health Management 
+Research University, Jaipur, India. 433Center for Research and Innovation, Ateneo De Manila 
+University, Pasig City, The Philippines. 434Department of Genetics, Harvard University, Boston, 
+MA, USA. 435Laboratory of Genetics and Molecular Cardiology, University of São Paulo, Sao 
+Paulo, Brazil. 436Department of Cardiology, University of Bern, Bern, Switzerland. 
+437Parasitology and Entomology Department, Tarbiat Modares University, Tehran, Iran. 
+438National Centre for Register-Based Research, Aarhus University, Aarhus, Denmark. 
+439Department of Nutrition and Food Sciences, Maragheh University of Medical Sciences, 
+Maragheh, Iran. 440Department of Public Health, Maragheh University of Medical Sciences, 
+Maragheh, Iran. 441Non-communicable Diseases Research Center, Alborz University of Medical 
+Sciences, Karaj, Iran. 442Biomedical Engineering, Amirkabir University of Technology, Tehran, 
+Iran. 443College of Graduate Health Sciences, A.T. Still University, Mesa, AZ, USA. 444Medichem, 
+Barcelona, Spain. 445Molecular and Cell Biology Research Center, Mazandaran University of 
+Medical Sciences, Sari, Iran. 446Department of Immunology, Mazandaran University of Medical 
+Sciences, Sari, Iran. 447Endocrinology and Metabolism Molecular-Cellular Sciences Institute, 
+Tehran University of Medical Sciences, Tehran, Iran. 448Thalassemia and Hemoglobinopathy 
+Research Center, Ahvaz Jundishapur University of Medical Sciences, Ahvaz, Iran. 449Department 
+of Clinical Biochemistry, Kermanshah University of Medical Sciences, Kermanshah, Iran. 450Sina 
+Trauma and Surgery Research Center, Tehran University of Medical Sciences, Tehran, Iran. 
+451Department of Health Education & Promotion, Kermanshah University of Medical Sciences, 
+Kermanshah, Iran. 452Department of Nephrology, Nizam’s Institute of Medical Sciences, 
+Hyderabad, India. 453Prevention of Metabolic Disorders Research Center, Shahid Beheshti 
+University of Medical Sciences, Tehran, Iran. 454Critical Care Quality Improvement Research 
+Center, Shahid Beheshti University of Medical Sciences, Tehran, Iran. 455Policy Research 
+Institute, Kathmandu, Nepal. 456Institute for Poverty Alleviation and International Development, 
+Yonsei University, Wonju, South Korea. 457Institute of Public Health, Federal University of Bahia, 
+Salvador, Brazil. 458Gonçalo Moniz Institute, Oswaldo Cruz Foundation, Salvador, Brazil. 
+459School of Behavioral Sciences and Mental Health, Iran University of Medical Sciences, 
+Tehran, Iran. 460Social Science and Psychology, Western Sydney University, Penrith, New South 
+Wales, Australia. 461School of Social Sciences and Psychology, Western Sydney University, 
+Penrith, New South Wales, Australia. 462Research Center for Environmental Determinants of 
+Health (RCEDH), Kermanshah University of Medical Sciences, Kermanshah, Iran. 463Department 
+of Epidemiology,  Shahid Beheshti University of Medical Sciences, Tehran, Iran. 464Department 
+of Epidemiology, Birjand University of Medical Sciences, Birjand, Iran. 465EPIUnit, University of 
+Porto, Porto, Portugal. 466Department of Clinical Research, Federal University of Uberlândia, 
+Uberlândia, Brazil. 467Public Health, Addis Ababa University, Addis Ababa, Ethiopia. 
+468Department of Public Health, Wollega University, Nekemte, Ethiopia. 469Martin School, 
+University of Oxford, Oxford, UK. 470Golestan Research Center of Gastroenterology and 
+Hepatology, Golestan University of Medical Sciences, Gorgan, Iran. 471Epidemiology and 
+Biostatistics, Kurdistan University of Medical Sciences, Sanandaj, Iran. 472Infectious Diseases 
+and Tropical Medicine Research Center, Babol University of Medical Sciences, Babol, Iran. 
+473School of Biotechnology, Ikiam Amazon Regional University, Tena, Ecuador. 474Department 
+of Ocean Science and Engineering, Southern University of Science and Technology, Shenzhen, 
+China. 475Department of Biomedical Sciences, University of Sassari, Sassari, Italy. 
+476Department of Health, Safety and Environment (HSE), Shahid Beheshti University of Medical 
+Sciences, Tehran, Iran. 477Faculty of Public Health, Kermanshah University of Medical Sciences, 
+Kermanshah, Iran. 478Department of Neuroscience, Iran University of Medical Sciences, Tehran, 
+Iran. 479Neurogenic Inflammation Research Center, Mashhad University of Medical Sciences, 
+Mashhad, Iran. 480Biotechnology Research Center, Mashhad University of Medical Sciences, 
+Mashhad, Iran. 481Department of Anatomical Sciences, Kermanshah University of Medical 
+Sciences, Kermanshah, Iran. 482Department of Pathology, Al-Imam Mohammad Ibn Saud 
+Islamic University, Riyadh, Saudi Arabia. 483School of Health and Policy Management, Faculty of 
+Health, York University, Toronto, Ontario, Canada. 484Taleghani Hospital, Kermanshah University 
+of Medical Sciences, Kermanshah, Iran. 485Department of Radiology and Nuclear Medicine, 
+Kermanshah University of Medical Sciences, Kermanshah, Iran. 486Taleghani Hospital, 
+Kermanshah, Iran. 487Center for Health Policy & Center for Primary Care and Outcomes 
+Research, Stanford University, Stanford, CA, USA. 488Department of Entomology, Ain Shams 
+University, Cairo, Egypt. 489Centre School of Public Health and Health Management, University 
+of Belgrade, Belgrade, Serbia. 490Post-graduate Program in Infectious Diseases and Tropical 
+Medicine, Federal University of Minas Gerais, Belo Horizonte, Brazil. 491Department of 
+Community Medicine, PSG Institute of Medical Sciences and Research, Coimbatore, India. 
+492PSG-FAIMER South Asia Regional Institute, Coimbatore, India. 493Department of Health and 
+Society, Faculty of Medicine, University of Applied and Environmental Sciences, Bogotá, 
+Colombia. 494Faculty of Infectious and Tropical Diseases, London School of Hygiene & Tropical 
+Medicine, London, UK. 495Surgery Department, Hamad Medical Corporation, Doha, Qatar. 
+496Faculty of Health & Social Sciences, Bournemouth University, Bournemouth, UK. 497School 
+of Public Health, Imperial College London, London, UK. 498Department of Psychology, 
+University of Alabama at Birmingham, Birmingham, AL, USA. 499Center of Expertise in 
+Microbiology, Tehran University of Medical Sciences, Tehran, Iran. 500Invasive Fungi Research 
+Center, Mazandaran University of Medical Sciences, Sari, Iran. 501Department of Health 
+Promotion and Education, Alborz University of Medical Sciences, Karaj, Iran. 502Independent 
+Consultant, Karachi, Pakistan. 503School of Medicine, Dezful University of Medical Sciences, 
+Dezful, Iran. 504Medical Laboratory Sciences, Mazandaran University of Medical Sciences, Sari, 
+Iran. 505Chronic Diseases (Home Care) Research Center, Hamadan University of Medical 
+Sciences, Hamadan, Iran. 506Department of Laboratory Sciences, Karaj Islamic Azad University, 
+Kermanshah, Iran. 507Department of Basic Sciences, Karaj Islamic Azad University, 
+Kermanshah, Iran. 508HIV/STI Surveillance Research Center, Kerman University of Medical 
+Sciences, Kerman, Iran. 509Policy and Planning Division, Ministry of Health, Riyadh, Saudi 
+Arabia. 510University School of Management and Entrepreneurship, Delhi Technological 
+University, New Delhi, India. 511Division of General Internal Medicine and Primary Care, Harvard 
+University, Boston, MA, USA. 512Usher Institute of Population Health Sciences and Informatics, 
+University of Edinburgh, Edinburgh, UK. 513National Institute of Infectious Diseases, Tokyo, 
+Japan. 514Finnish Institute of Occupational Health, Helsinki, Finland. 515Institute of Medical 
+Epidemiology, Martin Luther University Halle-Wittenberg, Halle, Germany. 516Department of 
+Epidemiology, University of Alabama at Birmingham, Birmingham, AL, USA. 517Department of 
+Medicine, University of Alabama at Birmingham, Birmingham, AL, USA. 518Department of 
+Epidemiology, School of Preventive Oncology, Patna, India. 519Department of Epidemiology, 
+Healis Sekhsaria Institute for Public Health, Mumbai, India. 520Department of Physiotherapy 
+and Occupational Therapy, Næstved-Slagelse-Ringsted Hospitals, Slagelse, Denmark. 
+521Medical Division, German Leprosy and TB Relief Association Ethiopia, Addis Ababa, Ethiopia. 
+522Department of Medicine, University of Washington, Seattle, WA, USA. 523Department of 
+Medicine, University of Calgary, Calgary, Alberta, Canada. 524Social Development and Health 
+Promotion Research Center, Kermanshah University of Medical Sciences, Kermanshah, Iran. 
+525Hospital Universitario de la Princesa, Autonomous University of Madrid, Madrid, Spain. 
+526Centro de Investigación en Red de Enfermedades Respiratorias (CIBERES), Institute of 
+Health Carlos III, Madrid, Spain. 527Division of Community Medicine, International Medical 
+University, Kuala Lumpur, Malaysia. 528Department of Nursing, Muhammadiyah University of 
+Surakarta, Kartasura, Indonesia. 529Department of Community Medicine, Ahmadu Bello 
+University, Zaria, Nigeria. 530Department of Criminology, Law and Society, University of 
+California Irvine, Irvine, CA, USA. 531Neurology Department, Sree Chitra Tirunal Institute for 
+Medical Sciences and Technology, Trivandrum, India. 532Carlos III Health Institute, Biomedical 
+Research Networking Center for Mental Health Network (CIBERSAM), Madrid, Spain. 
+533Department of Medicine, University of Valencia, Valencia, Spain. 534School of Social Work, 
+University of Illinois, Urbana, IL, USA. 535Cancer Control Center, Osaka International Cancer 
+Institute, Osaka, Japan. 536University Institute ‘Egas Moniz’, Monte Da Caparica, Portugal. 
+537Research Institute for Medicines, Faculty of Pharmacy of Lisbon, University of Lisbon, Lisbon, 
+Portugal. 538Department of Pediatrics, King Saud University, Riyadh, Saudi Arabia. 539College of 
+Medicine, Alfaisal University, Riyadh, Saudi Arabia. 540Anesthesiology Department, University of 
+
+Article RESEARCH
+Virginia, Charlottesville, VA, USA. 541Syrian Expatriate Medical Association (SEMA), 
+Charlottesville, VA, USA. 542Department of Public Health and Community Medicine, Central 
+University Kerala, Kasaragod, India. 543Nanyang Technological University, Singapore, 
+Singapore. 544School of Exercise and Nutrition Sciences, Queensland University of 
+Technology, Brisbane, Queensland, Australia. 545Department of Pathology and Legal Medicine, 
+University of São Paulo, Sao Paulo, Brazil. 546Department of Health Economics, Hanoi Medical 
+University, Hanoi, Vietnam. 547Department of Molecular Medicine and Pathology, University of 
+Auckland, Auckland, New Zealand. 548Clinical Hematology and Toxicology, Military Medical 
+University, Hanoi, Vietnam. 549Gomal Center of Biochemistry and Biotechnology, Gomal 
+University, Dera Ismail Khan, Pakistan. 550TB Culture Laboratory, Mufti Mehmood Memorial 
+Teaching Hospital, Dera Ismail Khan, Pakistan. 551Division of Health Sciences, University of 
+Warwick, Coventry, UK. 552Department of Education and Health, Trauma Research Center, 
+Tehran, Iran. 553Critical and Intensive Care Department, Trauma Research Center, Tehran, Iran. 
+554Argentine Society of Medicine, Buenos Aires, Argentina. 555Velez Sarsfield Hospital, Buenos 
+Aires, Argentina. 556University Medical Center Groningen, University of Groningen, Groningen, 
+The Netherlands. 557Department of General Practice, University Medical Center Groningen, 
+Groningen, The Netherlands. 558Ukk Institute, Tampere, Finland. 559Psychosocial Injuries 
+Research Center, Ilam University of Medical Sciences, Ilam, Iran. 560Raffles Neuroscience 
+Centre, Raffles Hospital, Singapore, Singapore. 561Yong Loo Lin School of Medicine, National 
+University of Singapore, Singapore, Singapore. 562Department of Medical and Surgical 
+Sciences, University of Bologna, Bologna, Italy. 563Occupational Health Unit, Sant’orsola 
+Malpighi Hospital, Bologna, Italy. 564Department of Information Technologies and 
+Management, Moscow Institute of Physics and Technology, Dolgoprudny, Russia. 
+565Department of Information and Internet Technologies, I. M. Sechenov First Moscow State 
+Medical University, Moscow, Russia. 566Department of Health Care Administration and 
+Economy, National Research University Higher School of Economics, Moscow, Russia. 
+567Foundation University Medical College, Foundation University, Rawalpindi, Pakistan. 
+568Department of Statistics, University of Washington, Seattle, WA, USA. 569Department of 
+Epidemiology and Biostatistics, Wuhan University, Wuhan, China. 570Department of 
+Psychiatry, University of São Paulo, Sao Paulo, Brazil. 571Institute of Child Health, University 
+College London, London, UK. 572Cardiology Department, Royal Children’s Hospital, 
+Melbourne, Victoria, Australia. 573Murdoch Childrens Research Institute, Melbourne, Victoria, 
+Australia. 574School of Nursing, Aksum University, Aksum, Ethiopia. 575Competence Center of 
+Mortality-Follow-Up, Federal Institute for Population Research, Wiesbaden, Germany. 
+576Cochrane South Africa, Medical Research Council South Africa, Cape Town, South Africa. 
+577Department of Global Health, Stellenbosch University, Cape Town, South Africa. 
+578Department of Pharmacology and Toxicology, Mekelle University, Mekelle, Ethiopia. 
+579Department of Pharmacology, Addis Ababa University, Addis Ababa, Ethiopia. 580Zhejiang 
+Spine Research Center, Wenzhou Medical University, Wenzhou, China. 581School of Medicine, 
+Nanjing University, Nanjing, China. 582Department of Diabetes and Metabolic Diseases, 
+University of Tokyo, Tokyo, Japan. 583Department of Health Management, Policy and 
+Economics, Kerman University of Medical Sciences, Kerman, Iran. 584Health Services 
+Management Research Center, Kerman University of Medical Sciences, Kerman, Iran. 
+585Department of Pediatrics, University of Jos, Jos, Nigeria. 586Department of Pediatrics, Jos 
+University Teaching Hospital, Jos, Nigeria. 587Centre for Suicide Research and Prevention, 
+University of Hong Kong, Hong Kong, China. 588Department of Social Work and Social 
+Administration, University of Hong Kong, Hong Kong, China. 589Department of 
+Psychopharmacology, National Center of Neurology and Psychiatry, Tokyo, Japan. 590Health 
+Economics & Finance, Global Health, Jackson State University, Jackson, MS, USA. 591Research 
+Center for Public Health, Tsinghua University, Peking, China. 592Prevention of Cardiovascular 
+Disease Research Center, Shahid Beheshti University of Medical Sciences, Tehran, Iran. 
+593Medical Parasitology Department, Cairo University, Cairo, Egypt. 594Global Health Institute, 
+Wuhan University, Wuhan, China. 595Department of Health Management and Economics, 
+A.C.S. Medical College and Hospital, Tehran, Iran. 596Department of Electrical Engineering, 
+Sharif University of Technology, Tehran, Iran. 597Electrical Engineering, Institute for Research 
+in Fundamental Sciences, Tehran, Iran. 598Social Determinants of Health Research Center, 
+Ardabil University of Medical Science, Ardabil, Iran. 599Maternal and Child Health Division, 
+International Centre for Diarrhoeal Disease Research Bangladesh, Dhaka, Bangladesh. 
+600Department of Medicine, Monash University, Melbourne, Victoria, Australia. 601Student 
+Research Committee, Babol University of Medical Sciences, Babol, Iran. 602Department of 
+Community Medicine, Ardabil University of Medical Science, Ardabil, Iran. 603Social 
+Development and Health Promotion Research Center, Kermanshah University of Medical 
+Sciences, Kermanshah, Iran. 604Maternal and Child Wellbeing Unit, African Population Health 
+Research Centre, Nairobi, Kenya. 605Public Health Department, Dilla University, Dilla, Ethiopia. 
+606Department of Preventative Medicine, Wuhan University, Wuhan, China. 607School of 
+Public Health, Wuhan University of Science and Technology, Wuhan, China. 608Indian Institute 
+of Public Health, Public Health Foundation of India, Gurugram, India. 609School of 
+BioSciences, University of Melbourne, Parkville, Victoria, Australia. 610State University of 
+Semarang, Public Health Science Department, Kota Semarang, Indonesia. 611Graduate 
+Institute of Biomedical Informatics, Taipei Medical University, Taipei City, Taiwan. 612These 
+authors contributed equally: Roy Burstein, Nathaniel J. Henry. 613These authors jointly 
+supervised this work: Christopher J. L. Murray, Simon I. Hay. *e-mail: sihay@uw.edu
+
+Article
+RESEARCH
+Methods
+Overview. We fitted a discrete hazards geostatistical model51,52 with correlated 
+space–time–age errors and made predictions to generate joint estimates—with 
+uncertainty—of the probability of death (the number of deaths per live births) 
+and the number of deaths for children aged 0–28 days (neonates), children under 
+1 year old (infants) and children under 5 years old at the subnational level for 99 
+LMICs for each year from 2000 to 2017. The analytical process is summarized in 
+the flowchart in Extended Data Fig. 6. We made estimates at a grid-cell resolution 
+of approximately 5 × 5-km and then produced spatially aggregated estimates at 
+the first (that is, states or provinces) and second (that is, districts or counties) 
+administrative levels, as well as the country level.
+Countries were selected for inclusion in this study based on their socio- 
+demographic index (SDI) published in the Global Burden of Disease study (GBD)53. 
+The SDI is a measure of development based on income per capita, educational 
+attainment and fertility rates among women under 25 years old. We primarily aimed 
+to include all countries in the middle, low–middle or low SDI quintiles, with several 
+exceptions. Brazil and Mexico were excluded despite middle SDI status owing to 
+the availability of high-quality vital registration data in these countries, which have 
+served as the basis for existing subnational estimates of child mortality. Because this 
+study did not incorporate vital registration data sources (see ‘Limitations’), Brazil 
+and Mexico were not estimated directly; instead, state-level estimates from the GBD 
+2017 study were directly substituted in figures where appropriate4. Albania and 
+Moldova were excluded despite middle SDI status owing to geographical disconti-
+nuity with other included countries and lack of available survey data. North Korea 
+was excluded despite low–middle SDI status owing to geographical discontinuity 
+and insufficient data. As countries with high–middle SDI status in 2017, China and 
+Malaysia were excluded from this analysis. Libya was included despite high–middle 
+SDI status to create better geographical continuity. Island nations with populations 
+under 1 million were excluded because they typically lacked sufficient survey data 
+or geographical continuity for a geospatial analytic approach to be advantageous 
+over a national approach. Supplementary Figure 3.1 shows a map of the countries 
+included in this study and Supplementary Table 3.1 lists the countries.
+Data. We extracted individual records from 555 household sample survey and 
+census sources. Records came in the form of either summary birth histories (SBHs) 
+or complete birth histories (CBHs). All input data were subject to quality checks, 
+which resulted in the exclusion of 82 surveys and censuses owing to quality con-
+cerns (see Supplementary Information section 3.2 for more details). Data on life 
+and mortality experiences from CBH sources can be tabulated directly into discrete 
+period and age bins, thus allowing for period-specific mortality estimations, known 
+as the synthetic cohort method54–56. For SBH data, we used indirect estimation57 to 
+estimate age-specific mortality probabilities and sample sizes and assign them to 
+specific time periods. Complete details are available in Supplementary Information 
+section 3.3.2.
+In all cases, after pre-processing, each data point provided a number of deaths 
+and a sample size for an age bin in a specific year and location. We referenced 
+all data points to GPS coordinates (latitude and longitude) wherever possible. In 
+cases in which GPS data were unavailable, we matched data points to the smallest 
+possible areal unit (also referred to as ‘polygons’). All polygon data were spatially 
+resampled into multiple GPS coordinates and weighted based on the population 
+distribution following a previously described procedure5,22,23,58 and described 
+in Supplementary Information section 3.4. Our combined global dataset contained 
+approximately 15.9 million births and 1.1 million child deaths. A complete list of 
+data sources is provided in Supplementary Table 8.1.
+In addition to data on child mortality, we used a number of spatial data sources 
+for this analysis. These included a suite of geospatial covariates, population esti-
+mates and administrative boundaries68. These sources and processing procedures 
+are described in Supplementary Information section 4.
+Spatial covariates. We extracted values from each of 10 geospatial covariates at 
+each data point location. Geospatial covariates are spatial data represented at the 
+5 × 5-km grid-cell resolution. The covariates were travel time to the nearest city, 
+educational attainment of maternal-aged women, the ratio of population of chil-
+dren under 5 to women of reproductive age (ages 15–49 years old), the mass per 
+cubic meter of air of particles with a diameter less than 2.5 μm, total population, 
+a binary indicator of urbanicity, intensity of lights at night, the proportion of chil-
+dren aged 12–23 months who had received the third dose of diphtheria–pertussis– 
+tetanus vaccine, incidence rate of Plasmodium falciparum-associated malaria in 
+children under 5 and prevalence of stunting in children under 5 (see Supplementary 
+Information). All covariate values were centred on their means and scaled by their 
+standard deviations. Covariates typically had global spatial coverage and values that 
+vary by year. More details of the spatial covariates can be found in Supplementary 
+Information section 4.
+Analysis. Geostatistical model. To synthesize information across various sources, 
+and to make consistent estimates across space and time, we fitted discrete haz-
+ards51,52 geostatistical models59 to our data. The models were discrete in the sense 
+that ages were represented in seven mutually exclusive bins (0, 1–5, 6–11, 12–23, 
+24–35, 36–47 and 48–59 months), each with its own assumed constant mortality 
+probability. The model explicitly accounted for variation across age bin, year and 
+space through inclusion of both fixed and random effects. Indicator variables for 
+each age bin were included to form a discrete baseline mortality hazard function, 
+representing the risk of mortality in discrete bins from birth to 59 months of age 
+with covariates set at their means. Baseline hazard functions were allowed to vary 
+in space and time in response to changing covariate values, as well as in response 
+to linear effect on year. To model this relationship, we estimated the effect of each 
+covariate value on the risk of mortality. These estimated effects were then applied 
+to the gridded surface of covariate values to make predictions across the entire 
+study geography. We also included a Gaussian random effect across countries to 
+account for larger-scale variations due to political or institutional effects, as well as 
+a Gaussian random effect for each data source to account for source-specific biases. 
+Finally, we included a Gaussian process random effect with a covariance matrix 
+structured to account for remaining correlation across age, time and physical space. 
+As such, estimates at a specific age, time or place benefitted from drawing predic-
+tive strength from data points nearby in all of these dimensions.
+For each modelling region, we fitted one such discrete hazards model with a 
+binomial data likelihood. All data were prepared such that we counted or estimated 
+the number of children entering into (n) and dying within (Y) each period–age 
+bin from each GPS-point location (s) in each survey (k) within each country (c).
+The number of deaths for children in age band (a) in year (t) at location (s) was 
+assumed to follow a binomial distribution:
+~
+Y
+n
+P
+binomial(
+,
+)
+a s t
+a s t
+a s t
+, ,
+, ,
+, ,
+where Pa,s,t is the probability of death in age bin a, conditional on survival to that 
+age bin for a particular space–time location. Using a generalized linear regression 
+modelling framework, a logit link function is used to relate P to a linear combi-
+nation of effects:
+∑
+β
+β
+β
+β
+ν
+ν
+=
++
++
++
++
++
++
+=
+P
+I
+X
+t
+Z
+logit(
+)
+a s t
+a
+a
+s t
+c s
+k s
+a s t
+, ,
+0
+2
+7
+2
+,
+3
+[ ]
+[ ]
+, ,
+a
+1
+The first term, β0, is an intercept, representing the mean for the first age band when 
+all covariates are equal to zero, whereas βa
+1 are fixed effects for each age band, 
+representing the mean overall hazard deviation for each age band from the inter-
+cept, when all other covariates are equal to zero. β2 are the effects of geospatial 
+covariates (Xs,t), which we describe in detail in Supplementary Information section 
+4. β3 is an overall linear temporal effect to account for overall temporal trends 
+within the region. All geospatial covariates were centred and scaled by subtracting 
+their mean and dividing by their standard deviations. Each v term represents uncor-
+related Gaussian random effects: ν
+σ
+~ normal(0,
+)
+c s[ ]
+c
+2  is a country-level random 
+effect applied to all locations (s) within a country (c); ν
+σ
+~ normal(0,
+)
+k s[ ]
+k
+2  is a data 
+source-level random effect for the survey (k) from which the data at location s were 
+observed. Data source-level random effects were used to account for systematic 
+variation or biases across data sources and were included in model fitting but not 
+in prediction from fitted models. The term Za,s,t ~ Gaussian process(0, K) is a 
+correlated random effect across age, space and time, and is modelled as a four-di-
+mensional mean zero Gaussian process with covariance matrix K. This term 
+accounts for structured residual correlation across these spatial–age–temporal 
+dimensions that are not accounted for by any of the model’s other fixed or random 
+effects. This structure was chosen, because the hazard probability for each age 
+group is expected to vary in space and time, and such spatiotemporal correlations 
+are likely to be similar across ages. K is constructed as a separable process across 
+age, space and time 
+= Σ ⊗Σ ⊗Σ
+K
+(
+)
+a
+t
+s . The continuous spatial component is 
+modelled with a stationary isotropic Matérn covariance function, and the age and 
+temporal effects were each assumed to be discrete auto-regressive order 1. We 
+provide further details on model fitting and specification in Supplementary 
+Information section 5.1.
+We assigned priors to all model parameters and performed maximum a pos-
+teriori inference using Template Model Builder60 software in R version 3.4. We 
+fitted the model separately for each of 11 world regions (see Supplementary Fig. 
+3.1), owing to memory constraints and to allow model parameters to vary across 
+epidemiologically distinct regions.
+Post-estimation. Using the joint precision matrix and point estimates, we generated 
+1,000 draws from all model parameters using a multivariate-normal approxima-
+tion. These model parameter draws were used to predict corresponding draws 
+of mortality probabilities across all age groups for each grid cell in each year. In 
+other words, for each age bin in each year we estimated 1,000 gridded surfaces of 
+mortality probability estimates, each surface corresponding to one draw from the 
+posterior parameter estimates61. All subsequent post-estimation procedures were 
+carried out across draws to propagate model uncertainty. We used these estimated 
+
+Article RESEARCH
+spatiotemporal gridded surfaces of age-specific mortality probabilities to produce 
+various final resulting data products.
+From the fitted model parameters, we produced posterior mortality probability 
+estimates for each age group for each 5 × 5-km grid cell for each year from 2000 
+to 2017. We combined gridded age group estimates to obtain infant (under 1) 
+and child (under 5) mortality estimates at each gridded location. Using a con-
+version from mortality probability to mortality rates, and using a gridded surface 
+of population, we also estimated the number of deaths that occurred in each age 
+group at each location in each year. For both mortality probabilities and counts, 
+we multiplied out corresponding gridded estimates by a constant to ensure that at 
+the national—and in two countries, the first administrative-level unit—aggregated 
+estimates for each age group and year were calibrated such that they equalled esti-
+mates in the GBD study4. This calibration allowed us to take advantage of national 
+data sources, such as vital registration, that could not be used in this study. We also 
+aggregated grid-cell-level estimates to first and second administrative-level units 
+using gridded population surface to weight estimates. These steps are described 
+in Supplementary Information section 5.2.
+Model validation. We used fivefold cross-validation to assess and compare model 
+performance with respect to estimating local trends of age-specific mortality. Each 
+fold was created by combining complete surveys into subsets of approximately 20% 
+of data sources from the input data. Holding out entire surveys at a time served 
+as a comparable approximation to the type of missingness in our data, essentially 
+helping us check how well our model estimates of mortality probabilities compared 
+to empirical estimates of mortality probability from an unobserved data source 
+that did not inform the model.
+For each posterior draw, we aggregated to administrative units. Using data 
+aggregated to the administrative unit and aggregated estimate pairs, we calcu-
+lated the difference between out-of-sample empirical data estimates and modelled 
+estimates, and we report the following summary metrics: mean error, which serves 
+as a measure of bias, the square root of mean errors, which serves as a measure of 
+the total variation in the errors, the correlation and 95% coverage. At the second 
+administrative-level unit for under-5 mortality, our out-of-sample 95% coverage 
+was 93%, correlation was 0.78, mean absolute error was 0.015 and mean error was 
+−0.0011. These results indicate a good overall fit, with minimal bias. This proce-
+dure and the full validation results are discussed in Supplementary Information 
+section 5.3.
+Limitations. This work should be assessed in full acknowledgement of several 
+data and methodological limitations. We exclusively used CBH and SBH data from 
+household survey and census data sources. Ideally, estimates of child mortality 
+should incorporate all available data, including data from administrative vital 
+registration systems. Vital registration systems are commonly present in many 
+middle-income and all high-income countries. There are known data-quality issues 
+with vital registration sources in many middle-income countries48,62 that add com-
+plications to their inclusion in our modelling procedure. For example, systems may 
+not capture all deaths, and this level of ‘underreporting’ probably varies in space, 
+time and age. In addition, underreporting is probably negatively correlated with 
+mortality, and could contribute substantial bias to estimates. Statistical methods 
+must be developed to jointly estimate—and adjust for—underreporting in vital 
+registration data before such data can be used in geospatial models of child mor-
+tality. Promising work has begun in this domain in specific countries63, but further 
+advancement will be necessary to improve estimates across a time series and across 
+many countries at once.
+We assume that SBH and CBH data were retrospectively representative in the 
+locations in which they were collected. As such, we assume that survey respond-
+ents did not migrate. High-spatial-resolution migration estimates with which to 
+adjust estimates do not yet exist, and many of the data sources that we use do 
+not collect information on migration. We conducted a focused sensitivity anal-
+ysis (Supplementary Information section 5.4.4) for migration in six countries, 
+and found that although our results were generally robust, there was variation 
+by country. Furthermore, despite providing high-quality retrospective data from 
+representative samples of households, birth history data can suffer from certain 
+non-sampling issues, such as survival/selection biases64 and misplacement of 
+births65. We did not attempt to make corrections to data, and they were used as-is. 
+Furthermore, retrospective birth history data will—by design—have a changing 
+composition of maternal ages depending on the time since the survey. This was 
+minimized by limiting retrospective trends to up to 17 years.
+Although we collated a large geo-referenced database of survey data on child 
+mortality, these data represented about 1% (1.1 million) of total deaths of children 
+under 5 in study areas over the period. Where data do not exist or are not available 
+in certain locations, mean estimates are informed from smoothing to nearby 
+estimates and covariates. As such, there could be additional small-scale heterogeneity 
+that is not picked up by our model. Wider uncertainty intervals in areas with 
+no data account for these potential unknowns, and our 95% coverage estimates 
+in out-of-sample predictive tests appear to be well-calibrated at the second 
+administrative unit level. Furthermore, discrete localized mortality shock events 
+could be missing in our analysis due to the lack of data and selection biases in 
+surveys and censuses, and spatiotemporal smoothing. Fatal discontinuities are 
+explicitly accounted for at the national or province level by calibration to GBD 
+estimates. In all, 0.35% (0.4 million) of the 123 million deaths over this period were 
+attributed to fatal discontinuities.
+On the modelling side, we integrated point and areal data into a continuous 
+model by constructing pseudo-points from areal data. Modelling approaches that 
+integrate point and areal data as part of a joint model likelihood function are in 
+development66 but are currently computationally infeasible at the large geograph-
+ical scales at which we currently model. Furthermore, we divided our models into 
+11 regional fits (see Supplementary Fig. 3.1), as a full model that encompasses 
+all 99 countries would be computationally infeasible due to memory constraints. 
+Splitting up modelling in this way had the benefit of enabling parameters to vary 
+across epidemiologically distinct world regions. A preferred model, however, would 
+be fitted to all data simultaneously with parameters that are spatially variable.
+The separable model used for age–space–time correlations is a common par-
+simonious assumption afforded in applying spatiotemporal geostatistical models 
+due to efficient computation and inference; however, it yields the assumption of 
+fully symmetric covariance. The symmetry implicit in the separable model dictates, 
+for example, that (holding age constant for simplicity) the covariance between 
+the observations at (location 1, time 1) and (location 2, time 2) is the same as the 
+covariance between (location 1, time 2) and (location 2, time 1). Given our avail-
+able data density in space–age–time, we believe that attempting to parameterize a 
+more complex non-separable model would be challenging both computationally 
+and inferentially, and it is not clear whether there would be much to benefit from 
+the extra complications.
+There are several limitations to address with respect to the use of covariates in 
+the model. Most of the geospatial covariates that we used in the geostatistical model 
+were themselves estimates produced from various geospatial models. Some of those 
+estimated surfaces used covariates that were also included in our model in their 
+estimation process. As such, we emphasize that our model is meant to be predictive, 
+and that drawing inference from fitted coefficients across these highly correlated 
+covariates is problematic and not recommended. Furthermore, we assumed no 
+measurement error in the covariate values and assumed that the functional form 
+between mortality and all covariates was linear in logit space. In certain locations, 
+we used covariate values for prediction that were outside the observed range of the 
+training data. As we explore in Supplementary Information section 5.4.2, however, 
+these areas represent a relatively small proportion of the population.
+Finally, we used a method for indirect estimation of SBHs that was recently 
+developed and validated57. As such, indirect estimation was carried out as a 
+pre-processing step before fitting the geostatistical model. We attempted to prop-
+agate various forms of uncertainty that could be introduced in this step, which 
+resulted in halving the total effective sample size across all SBH data. In future, we 
+aim to fully integrate such processing into the statistical model; such methods are 
+in development67, but are not yet computationally feasible at scale.
+Reporting summary. Further information on research design is available in 
+the Nature Research Reporting Summary linked to this paper.
+Data availability
+The findings of this study are supported by data that are available from pub-
+lic online repositories, data that are publicly available upon request of the data 
+provider and data that are not publicly available due to restrictions by the data 
+provider. Non-publicly available data were used under a license for the current 
+study, but may be available from the authors upon reasonable request and with 
+permission of the data provider. A detailed table of data sources and availability 
+can be found in Supplementary Table 8.1. The full output of the analyses is publicly 
+available in the Global Health Data Exchange (GHDx; http://ghdx.healthdata.org/
+record/ihme-data/lmic-under5-mortality-rate-geospatial-estimates-2000-2017) 
+and can be explored using custom data visualization tools (https://vizhub. 
+healthdata.org/lbd/under5).
+ 
+	51.	 Lindgren, F., Rue, H. & Lindström, J. An explicit link between Gaussian fields and 
+Gaussian Markov random fields: the stochastic partial differential equation 
+approach. R. Stat. Soc. 73, 423–498 (2011).
+	52.	 Allison, P. D. Discrete-time methods for the analysis of event histories. Sociol. 
+Methodol. 13, 61 (1982).
+	53.	 Institute for Health Metrics and Evaluation. Global Burden of Disease Study  
+2017 (GBD 2017) Socio-Demographic Index (SDI) 1950–2017. http://ghdx.
+healthdata.org/record/ihme-data/gbd-2017-socio-demographic-index-sdi-
+1950%E2%80%932017 (GHDx, 2019).
+	54.	 Ahmad, O. B., Lopez, A. D. & Inoue, M. The decline in child mortality: a 
+reappraisal. Bull. World Health Organ. 78, 1175–1191 (2000).
+	55.	 Somoza, J. L. Illustrative Analysis: Infant and Child Mortality in Colombia.  
+World Fertility Survey Scientific Report No. 10 (International Statistical Institute, 
+1980).
+
+Article
+RESEARCH
+	56.	 Rutstein, S. O. Infant and child mortality: levels, trends and demographic 
+differentials. World Fertility Survey Scientific Report No. 43 (International 
+Statistical Institute, 1984).
+	57.	 Burstein, R., Wang, H., Reiner, R. C. Jr & Hay, S. I. Development and validation 
+of a new method for indirect estimation of neonatal, infant, and child 
+mortality trends using summary birth histories. PLoS Med. 15, e1002687 
+(2018).
+	58.	 Graetz, N. et al. Mapping local variation in educational attainment across Africa. 
+Nature 555, 48–53 (2018).
+	59.	 Diggle, P. & Ribeiro, P. J. Model-based Geostatistics (Springer, 2007).
+	60.	 Kristensen, K., Nielsen, A., Berg, C. W., Skaug, H. & Bell, B. M. TMB: automatic 
+differentiation and Laplace approximation. J. Stat. Softw. 70, 1–21 (2016).
+	61.	 Patil, A. P., Gething, P. W., Piel, F. B. & Hay, S. I. Bayesian geostatistics in health 
+cartography: the perspective of malaria. Trends Parasitol. 27, 246–253 
+(2011).
+	62.	 Phillips, D. E. et al. A composite metric for assessing data on mortality and 
+causes of death: the vital statistics performance index. Popul. Health Metr. 12, 
+14 (2014).
+	63.	 Schmertmann, C. P. & Gonzaga, M. R. Bayesian estimation of age-specific 
+mortality and life expectancy for small areas with defective vital records. 
+Demography 55, 1363–1388 (2018).
+	64.	 Walker, N., Hill, K. & Zhao, F. Child mortality estimation: methods used to adjust 
+for bias due to AIDS in estimating trends in under-five mortality. PLoS Med. 9, 
+e1001298 (2012).
+	65.	 Silva, R. Child mortality estimation: consistency of under-five mortality rate 
+estimates using full birth histories and summary birth histories. PLoS Med. 9, 
+e1001296 (2012).
+	66.	 Wilson, K. & Wakefield, J. Pointless spatial modeling. Biostatistics https://doi.
+org/10.1093/biostatistics/kxy041 (2018).
+	67.	 Wilson, K. & Wakefield, J. Child mortality estimation incorporating  
+summary birth history data. Preprint at https://arxiv.org/abs/1810.04140 
+(2018).
+	68.	 WorldPop Dataset (WorldPop, accessed 25 July 2017); http://www.worldpop.
+org.uk/data/get_data/
+Acknowledgements This work was primarily supported by grant OPP1132415 
+from the Bill & Melinda Gates Foundation.
+Author contributions S.I.H. and R.B. conceived and planned the study. R.B., 
+S.I.H., M.C., N.H., J.L, A.B., N.G. and S.W. identified and obtained data for this 
+analysis. M.C., N.H., J.L, A.B. and S.W. extracted, processed and geo-positioned 
+the data. R.B. and N.H. carried out the statistical analyses with assistance 
+and input from S.I.H., A.O.-Z. and N.M. R.B., N.H., M.C., S.W., L.W., K.J. and 
+L.E. prepared figures and tables. R.B. and L.B.M. wrote the first draft of the 
+manuscript with assistance from S.I.H., S.P., L.E.S. and N.D.W. and all authors 
+contributed to subsequent revisions. All authors provided intellectual input into 
+aspects of this study.
+Competing interests This study was funded by the Bill & Melinda Gates 
+Foundation. Co-authors employed by the Bill & Melinda Gates Foundation 
+provided feedback on initial maps and drafts of this manuscript. Otherwise, the 
+funders of the study had no role in study design, data collection, data analysis, 
+data interpretation, writing of the final report, or decision to publish. The 
+corresponding author had full access to all of the data in the study and had final 
+responsibility for the decision to submit for publication.
+Additional information
+Supplementary information is available for this paper at https://doi.org/ 
+10.1038/s41586-019-1545-0.
+Correspondence and requests for materials should be addressed to S.I.H.
+Peer review information Nature thanks Paloma Botella and the other, 
+anonymous, reviewer(s) for their contribution to the peer review of this work
+Reprints and permissions information is available at http://www.nature.com/
+reprints.
+
+Article RESEARCH
+Extended Data Fig. 1 | Neonatal and infant mortality rates in 2017.  
+a, b, Maps showing the mortality rates of neonates (a; birth to 28 days of 
+age) and infants (b; under 1 year of age) across second administrative-level 
+units in 2017. Note that the ranges in the keys are different for the two 
+maps.
+
+Article
+RESEARCH
+Extended Data Fig. 2 | Impact of inequality on U5MR. a, Potential 
+reduction in the number of deaths that would have occurred if all second 
+administrative-level units in the 20 countries with the greatest number of 
+deaths of children under 5 in 2017 realized a homogenous U5MR that was 
+equal to that of the lowest observed mortality rate in that country. In total, 
+66% of under-5 deaths could have been averted if all countries maintained 
+mortality rates equal to the second administrative-level unit with lowest 
+mortality. If this reference rate is set to the lowest observed rate across all 
+of the 99 countries that were included in this study, 95% of under-5 deaths 
+could have been averted. The size of each bar represents the total number 
+of under-5 deaths in each country. The red portion of each bar indicates 
+the number of deaths ‘attributed’ to geographical inequality in mortality 
+rates, whereas the blue portion represents the number of deaths that would 
+remain in the scenario in which all second administrative-level units 
+within countries had the same mortality rate as the best-performing unit. 
+b, Locations of under-5 deaths ‘attributable’ to geographical inequality, 
+across all second administrative-level units in each country. Each country 
+has one unit highlighted with a green diamond, which is the reference 
+unit, or the location with the lowest mortality rate in the country in 2017.
+
+Article RESEARCH
+Extended Data Fig. 3 | Relative uncertainty in U5MR estimates for 2017. 
+Relative uncertainty in second administrative-level estimates compared 
+with mean estimated U5MRs in each second administrative-level unit 
+for 2017. Mean rates and relative uncertainty are split into population-
+weighted quartiles. These cut-off points indicate the relative uncertainty 
+minimum, 25th, 50th and 75th percentiles, and maximum, which are 
+0.29, 0.51, 0.63 and 0.86, and 3.12, respectively. The under-5 mortality 
+minimum, 25th, 50th and 75th percentiles, and maximum are 1.4, 13.0, 
+22.9 and 44.8, and 190.6 deaths per 1,000 live births. Areas in which our 
+estimates are more uncertain are coloured with a scale of increasing blue 
+hue, whereas areas in which the mean estimates of U5MR are high are 
+coloured with a scale of increasing red hue. Purple areas have high, but 
+uncertain, estimates of U5MRs. White areas have low relative mortality, 
+with fairly certain estimates. Relative uncertainty is defined as the ratio of 
+the width of the 95% uncertainty interval to the mean estimate.
+
+Article
+RESEARCH
+Extended Data Fig. 4 | Lower and upper uncertainty interval boundaries for U5MR mortality estimates in 2017. a, b, Lower (a) and upper (b) 95% 
+uncertainty intervals for U5MR estimates across the second administrative-level units in 99 countries.
+
+Article RESEARCH
+Extended Data Fig. 5 | The counteracting forces of population change and mortality rate decline on total number of under-5 deaths. Arrow plots 
+show the mortality rate strata (bins of 10 per 1,000 livebirths) in 2000.
+
+Article
+RESEARCH
+Extended Data Fig. 6 | Flowchart summarizing analytical process. Standard demographic notation were used. n, length of age bin; x, starting age of age 
+bin; d, number of deaths; q, probability of death; a, average time lived in age bin by those who died in the age bin.
+
+1
+nature research  |  reporting summary
+October 2018
+Corresponding author(s):
+Simon Hay
+Last updated by author(s): Jul 9, 2019
+Reporting Summary
+Nature Research wishes to improve the reproducibility of the work that we publish. This form provides structure for consistency and transparency 
+in reporting. For further information on Nature Research policies, see Authors & Referees and the Editorial Policy Checklist.
+Statistics
+For all statistical analyses, confirm that the following items are present in the figure legend, table legend, main text, or Methods section.
+n/a Confirmed
+The exact sample size (n) for each experimental group/condition, given as a discrete number and unit of measurement
+A statement on whether measurements were taken from distinct samples or whether the same sample was measured repeatedly
+The statistical test(s) used AND whether they are one- or two-sided 
+Only common tests should be described solely by name; describe more complex techniques in the Methods section.
+A description of all covariates tested
+A description of any assumptions or corrections, such as tests of normality and adjustment for multiple comparisons
+A full description of the statistical parameters including central tendency (e.g. means) or other basic estimates (e.g. regression coefficient) 
+AND variation (e.g. standard deviation) or associated estimates of uncertainty (e.g. confidence intervals)
+For null hypothesis testing, the test statistic (e.g. F, t, r) with confidence intervals, effect sizes, degrees of freedom and P value noted 
+Give P values as exact values whenever suitable.
+For Bayesian analysis, information on the choice of priors and Markov chain Monte Carlo settings
+For hierarchical and complex designs, identification of the appropriate level for tests and full reporting of outcomes
+Estimates of effect sizes (e.g. Cohen's d, Pearson's r), indicating how they were calculated
+Our web collection on statistics for biologists contains articles on many of the points above.
+Software and code
+Policy information about availability of computer code
+Data collection
+No primary data collection was carried out for this analysis.
+Data analysis
+This analysis was carried out using R version 3.5.0. The main statistical model used the Template Model Builder (TMB) software version 
+1.7.14 in R. All code used for these analyses is publicly available online at https://github.com/ihmeuw/lbd/tree/u5mr-2019.
+For manuscripts utilizing custom algorithms or software that are central to the research but not yet described in published literature, software must be made available to editors/reviewers. 
+We strongly encourage code deposition in a community repository (e.g. GitHub). See the Nature Research guidelines for submitting code & software for further information.
+Data
+Policy information about availability of data
+All manuscripts must include a data availability statement. This statement should provide the following information, where applicable: 
+- Accession codes, unique identifiers, or web links for publicly available datasets 
+- A list of figures that have associated raw data 
+- A description of any restrictions on data availability
+The findings of this study are supported by data available in public online repositories, data publicly available upon request of the data provider, and data not 
+publicly available due to restrictions by the data provider. Non-publicly available data were used under license for the current study but may be available from the 
+authors upon reasonable request and with permission of the data provider. A detailed table of data sources and availability can be found in Supplementary Table 
+8.1. The full output of the analyses are publicly available in the Global Health Data Exchange (http://ghdx.healthdata.org/) and can further be explored via data 
+visualization tools (https://healthdata.org/lbd/under5).
+
+2
+nature research  |  reporting summary
+October 2018
+Field-specific reporting
+Please select the one below that is the best fit for your research. If you are not sure, read the appropriate sections before making your selection.
+Life sciences
+Behavioural & social sciences
+ Ecological, evolutionary & environmental sciences
+For a reference copy of the document with all sections, see nature.com/documents/nr-reporting-summary-flat.pdf
+Life sciences study design
+All studies must disclose on these points even when the disclosure is negative.
+Sample size
+This observational study incorporated all available survey data sources that met the inclusion criteria as described in the Methods section. The 
+combined dataset used in this analysis contained 25.1 million births and 1.3 million child deaths. 
+Data exclusions
+Surveys were excluded due to missingness greater than 10% in date of birth or death and children ever born or died, unrealistic geographic 
+trends compared to other surveys in nearby country-years, inability to match the microdata to geographic locations, or non-standard 
+methodology. A full list of excluded surveys is included in Supplementary Table 8.2.
+Replication
+This is an observational study using many years of survey and surveillance data and could be replicated.
+Randomization
+This analysis is an observational mapping study, there were no experimental groups.
+Blinding
+Blinding was not relevant to this study, as it was an observational study using survey and surveillance data.
+Reporting for specific materials, systems and methods
+We require information from authors about some types of materials, experimental systems and methods used in many studies. Here, indicate whether each material, 
+system or method listed is relevant to your study. If you are not sure if a list item applies to your research, read the appropriate section before selecting a response. 
+Materials & experimental systems
+n/a Involved in the study
+Antibodies
+Eukaryotic cell lines
+Palaeontology
+Animals and other organisms
+Human research participants
+Clinical data
+Methods
+n/a Involved in the study
+ChIP-seq
+Flow cytometry
+MRI-based neuroimaging

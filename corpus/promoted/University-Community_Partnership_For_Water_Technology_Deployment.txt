@@ -1,0 +1,1386 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo Innovation Center 
+School of Science and Engineering Research 
+Centers 
+2020 
+University-Community Partnership For Water Technology 
+University-Community Partnership For Water Technology 
+Deployment And Co-Innovation: A Decade Of Engagement 
+Deployment And Co-Innovation: A Decade Of Engagement 
+Paul M. Cabacungan 
+Ateneo de Manila University 
+Gregory L. Tangonan 
+Ateneo de Manila University 
+Nerissa G. Cabacungan 
+Follow this and additional works at: https://archium.ateneo.edu/aic 
+ Part of the Engineering Commons, and the Sustainability Commons 
+Custom Citation 
+Custom Citation 
+Paul M. Cabacungan, Gregory L. Tangonan, Nerissa G. Cabacungan, (2020), University-Community 
+Partnership For Water Technology Deployment And Co-Innovation: A Decade Of Engagement. 
+International Journal of Advanced Research and Publications (IJARP), Volume 4 Issue 5, 81-90. 
+This Article is brought to you for free and open access by the School of Science and Engineering Research Centers 
+at Archīum Ateneo. It has been accepted for inclusion in Ateneo Innovation Center by an authorized administrator 
+of Archīum Ateneo. For more information, please contact research@ateneo.edu. 
+
+ 
+ 
+                    International Journal of Advanced Research and Publications 
+                                                      ISSN: 2456-9992 
+                                             Volume 4 Issue 5, May 2020 
+                                                      www.ijarp.org 
+81 
+University-Community Partnership For Water 
+Technology Deployment And Co-Innovation: A 
+Decade Of Engagement 
+Paul M. Cabacungan, Gregory L. Tangonan, Nerissa G. Cabacungan 
+ 
+Ateneo de Manila University, Ateneo Innovation Center, 
+Loyola Heights, Quezon City, Philippines 1108 
+pcabacungan@ateneo.edu 
+ 
+Ateneo de Manila University, Ateneo Innovation Center, 
+Loyola Heights, Quezon City, Philippines 1108 
+gtangonan@ateneo.edu 
+ 
+Ateneo de Manila University, Ateneo Innovation Center, 
+Loyola Heights, Quezon City, Philippines 1108 
+ncabacungan@ateneo.edu 
+ 
+Abstract: The Ateneo de Manila University (Philippines), through its Ateneo Innovation Center (AIC), integrated existing simple 
+technologies into one system – the Water-Electricity-Lighting System (WELS) – to respond to the need for potable water, lighting and 
+communication.  WELS is a portable clean water system with provision for lighting and cellular phone charging.  It can be connected to a 
+rainwater harvesting facility. Ten years of WELS deployments revealed its flexibility for customization in order to address varied water 
+needs, especially for disaster response.  Review of documentations done on past installation experiences highlights the value of engagement 
+between university-based technology providers and community-recipients.  This engagement leads to technology improvement and 
+sustainability through co-innovation and contributes to community resilience and education through hands-on training.  This paper narrates 
+a decade of deployment experiences and presents the process of community involvement. We present a model of engaging the stakeholders 
+that brings mutual benefit to both university and community through this partnership.   
+ 
+Keywords: Co-Innovation, Community Empowerment, Innovative Water Technology, University-Community Partnership 
+ 
+1. INTRODUCTION 
+“Water all around but not a drop to drink.” This describes 
+the predicament of someone stranded in the middle of the 
+sea.  This scenario has become a frequent occurrence in 
+many parts of the world after flash flood, tsunami or other 
+natural calamities. Access to drinking water is a concern 
+emphasized after a calamity (Nasronudin, Juniastuti, 
+Oktamia, R. H. & Lusida, M. I., 2012).  This also paints 
+the daily struggle of island dwellers.  They may be rich in 
+sources of water but water quality is not safe for drinking.  
+In the Philippines, access to clean water is a long-standing 
+concern.  Around ten million Filipinos lack access to safe 
+water (WHO, 2019). Instead of promoting health, some 
+water used for drinking even cause illness.  About 80 
+percent of diseases are caused by contaminated water, 
+according to the executive director of the United Nations 
+Environment Program  (Tacio, H.D., 2018).  Due to water 
+scarcity or danger of water-borne diseases, a total of 2.6 
+million Filipino households resort to bottled water (PSA, 
+2019). This can aggravate the current waste problem and 
+the concern on the presence of microplastics in bottled 
+water, not only in tap water (Eerkes-Medrano, D., Leslie, 
+H.A. & Quinn, B., 2018). This paper describes an 
+initiative to respond to clean water needs through a 
+university-developed water technology that is deployable 
+to communities. This technology includes integration to a 
+rainwater harvesting facility.  The process of engaging the 
+community through university-community partnership 
+towards technology transfer is also presented. No conflict 
+of interest is to be declared because the proponents of this 
+paper conducted the research as part of their office 
+function and worked with communities that were in 
+partnership with their home institution. 
+ 
+2. LITERATURE REVIEW 
+ 
+2.1 Water Technology 
+Water-Electricity-Light System (WELS) uses water 
+treatment methods found effective in literature.  It is a 
+much better alternative to chlorination. Chlorination, 
+which is a universally accepted chemical water treatment 
+method 
+(Franken, 
+L., 
+2005), 
+generates 
+harmful 
+disinfection by-product (Havelaar A.H., et. al., 2000) and 
+leads to the formation of chloroform -- a known 
+carcinogen (Freese, S.D. & Nozaic, D.J., 2007). Instead of 
+chlorination, WELS combines ultraviolet irradiation and 
+ceramic filtration to disinfect water.  There are many 
+pathogenic organisms that are more susceptible to 
+ultraviolet (UV) than they are to chlorine (Pieterse, M.J., 
+1988).  UV irradiation is quickly gaining popularity in the 
+consumer market as a safe, effective, and economical 
+approach to disinfection (Sobsey, M.D., 1989).  Ceramic 
+filtration, on the other hand, reduces e-coli up to 99.9% 
+(Brown. J.M., 2007).  Both water cleaning methods are 
+part of the WELS unit. 
+ 
+2.2 Rainwater Harvesting  
+Rainwater harvesting (RWH) is seen as an “economical 
+and sustainable” way of obtaining water in Indonesia 
+(Song, J.M., Han, M.Y., Kim, T. & Song, J.E., 2009).  In 
+France, after a detailed analysis of RWH application in 
+eight countries (Australia, Brazil, Germany, India, Sri 
+Lanka, Uganda, United Kingdom and United States), it 
+was recommended that RWH be integrated into its urban 
+water management approaches ((De Gouvello, B., 
+
+ 
+ 
+                    International Journal of Advanced Research and Publications 
+                                                      ISSN: 2456-9992 
+                                             Volume 4 Issue 5, May 2020 
+                                                      www.ijarp.org 
+82 
+Gerolin, A. & Le Nouveau, N., 2014).  In developing 
+countries, especially in Africa and Asia, community-based 
+rainwater harvesting is considered an innovative solution 
+to develop sustainable drinking water supply systems 
+(Kim, Y.K., Han, M.Y., Kabubi, J., Sohn, H.G. & 
+Nguyen, D.C., 2016). In the Philippines, mean annual 
+rainfall varies from 965 to 4,064 millimeters annually 
+(DOST, 2014) and this water resource is being wasted.  In 
+2019, the House of Representatives approved House Bill 
+#4340 requiring subdivisions, condominium communities, 
+malls, government institutions and central business 
+districts to construct rainwater harvesting facility (HB 
+4340, 2019).  Ten years earlier, WELS had already been 
+integrating rainwater harvesting into its clean water 
+technology. 
+ 
+2.3 Community Engagement  
+Medina (2019) pointed out that higher education 
+institutions (HEIs) have a fundamental role to create 
+knowledge, through research, for the development of 
+communities, especially the underserved.  Within this 
+collaboration of HEIs and the larger communities, mutual 
+benefit is served through exchange of knowledge and 
+sharing of resources in a context of partnership.  It is 
+important that, in this engagement, the community 
+understands the purpose of the initiative.  Engagement 
+develops a sense of ownership where the community 
+commits to the process and the outcome and works toward 
+achieving success (Medina, 2019). This paper traces back 
+the process of community engagement before the 
+successful transfer of WELS to the community. In 
+summary, the water system that is to be presented in this 
+paper uses methods that, based on literature, are effective. 
+The system integrates lighting and cellphone charging.  It 
+can be connected to a rainwater harvesting system for 
+sustainable water supply.  Community engagement done, 
+for the eventual transfer of this water technology to the 
+target community and for the mutual benefit it brings, is 
+illustrated. 
+ 
+3. METHODOLOGY 
+We sifted through all the documentations done in relation 
+to a decade of deployments and installations of Water-
+Electricity-Lighting 
+System 
+(WELS) 
+all 
+over 
+the 
+Philippines. We read through the reports, magazine 
+articles, interview and personal notes. We reviewed email 
+exchanges as we coordinated and planned with donors and 
+recipients. We recalled feedback and comments given by 
+the communities. We shared lessons learned from all these 
+deployment experiences. This paper also highlights the 
+initial works and processes leading to technology transfer.  
+We narrate the important groundwork needed like 
+networking with benefactors or donors, preparing for 
+deployments, coordinating with and engaging the 
+community-recipients and transitioning to technology 
+transfer. 
+ 
+3.1 Technology: Water-Electricity-Light System 
+WELS is a portable clean water system with provision for 
+lighting and cellular phone charging. It has the following 
+components – rain catcher, mechanical filters and UV 
+irradiation, solar panels, charge converters, LED lights, 
+inverter, and car battery. Components that are included 
+during installation depend on the recipient’s needs and 
+context.  This system is an offshoot from a water 
+generation device fabricated for a graduate thesis in the 
+Ateneo de Manila University (Philippines). It aims to 
+address crucial water needs – for emergency use during 
+disaster and for daily use in areas without safe drinking 
+water sources.  WELS can be connected to a water storage 
+facility 
+or 
+a 
+damaged 
+municipal 
+water 
+source.  
+Components are acquired off-the-shelf so replacement 
+parts are accessible.  The cost of the whole system is 
+reasonably affordable ranging from US$600 to US$700 
+depending on components to be included. This system 
+illustrates a concrete way to build disaster resilience in a 
+community level.  Training is conducted to learn operation 
+and repair.  WELS is easily replicable and technical 
+support is readily available through QR code access. The 
+operation diagram of the system is seen in Figure 1.  In 
+depth discussion on the technical aspect of the system can 
+be found in Cabacungan, Tangonan and Cabacungan 
+(2020, in press). 
+ 
+ 
+ 
+Figure 1: Operation diagram of Water-Electricity-Light 
+System 
+ 
+3.2  Deployment Experiences  
+In a span of ten years, there are more than one hundred 
+forty (140) WELS installed in different parts of the 
+Philippines (National Capital Region, Luzon, Visayas and 
+Mindanao) serving varied purposes. 
+ 
+3.3  Everyday Use Installations 
+The first installation happened in 2008 in El Nido, an 
+island in Palawan, Philippines. The rest house had no 
+electricity and municipal water but had a rainwater 
+harvesting facility. Insufficient pressure to feed water into 
+the system was a major hurdle. We shifted from a gravity-
+feed approach to using a submersible pump, run by fuel-
+powered generator, to push water and feed into the 
+system. Two components of the system – the compact 
+fluorescent light (CFL) and the electronic battery charge 
+monitoring device – consumed too much energy that 
+easily drained the battery. We replaced the CFL with a 
+more energy-efficient LED bulb. The older model of 
+battery charge monitoring device was replaced with a 
+newer and more energy-efficient models. Realizing the 
+potential of the system in this very first experience, 
+installation in other off-grid communities followed.  We 
+saw a common problem faced by residents in remote areas 
+– due to lack of access to clean water, drinking water turns 
+out too expensive. For instance, the president of a private 
+college in Palawan (an isolated island in the Philippines), 
+shared that scarcity and high price of drinking water 
+
+ 
+ 
+                    International Journal of Advanced Research and Publications 
+                                                      ISSN: 2456-9992 
+                                             Volume 4 Issue 5, May 2020 
+                                                      www.ijarp.org 
+83 
+forced the students and residents to consume more soda, 
+which is cheaper, than water. This led to many cases of 
+urinary tract infection. Also, island residents would 
+transport gallons of water by boat and pay more. In Talim 
+Island in Rizal province, a Php25-container of water in 
+town port costs Php40 when it reaches the island. In Isla 
+Verde, from Php25 in Batangas City, a 20-liter of water 
+becomes Php75. When inclement weather prevents 
+transporting of purified water, residents would drink 
+untested ground or spring water. We encouraged the 
+communities to use rainwater instead of ground water. We 
+instructed them on the proper manner of water collection 
+and proper set-up and maintenance of harvesting storage.  
+In cases where even the rainwater from the house roof is 
+coliform-contaminated, usually caused by livestock 
+raising in the vicinity, we suggested to use chlorination. 
+We verify the right chlorine concentration using a test kit 
+for chlorine. The activated carbon filter of WELS lessens 
+the chlorine content to make it safe for human 
+consumption. Then, the UV light kills Cryptosporidium 
+parvum oocysts, which are resistant to chlorine. Water 
+tests helped reinforce the idea that the rainwater should be 
+kept separate of local water sources. We brought 
+biological water test kits during installation in Talim 
+Island.  Results mainly showed that their local water 
+sources were badly contaminated, having been that way 
+for a long time. Talim Island residents were surprised to 
+learn that they drink from e-coli-contaminated water 
+sources. One of the recipients of WELS realized that it 
+could be the reason why he suffered from severe diarrhea 
+in the past and was even hospitalized.  He said he was 
+even lucky because others would not make it to the 
+hospital. Another resident added that there was a time of 
+“diarrheal epidemic” in the island.  Only after they were 
+educated in the use of water test kits did they become 
+aware of detecting water contamination and realize the 
+dangers of drinking contaminated water.  Sample water 
+test kit indicating results of contaminated and cleaned 
+water is found in Figure 2. 
+ 
+ 
+Figure 2: Water test kits showing results of contaminated 
+(above) and cleaned water (below) in one installation site 
+ 
+In the NCR where electricity and tap water are available, 
+only the WELS filtration and disinfection components 
+were used in many residential houses. For drinking water 
+consumption of babies and the elderlies, city dwellers buy 
+distilled water by the liter/gallon. Connecting the 3-stage 
+filtration system with UV lamp to the household faucet 
+assured very clean water. This new appreciation of UV 
+disinfection was expressed by many, especially pregnant 
+women, as they say, “Make sure the blue light (from UV 
+lamp) is operating, it means the water is super clean”. 
+Bigger filters were installed in a residential house in 
+Novaliches that used brownish ground water for laundry 
+which caused discoloration to their clothes. When WELS 
+was connected, water became clear and no more 
+discoloration was experienced. In Pandi (Bulacan) 
+relocation site, water distribution follows a schedule. The 
+presence of WELS gave greater access to drinking water 
+and an alternative source of livelihood. A homeowner and 
+WELS recipient in Pandi reported that she made a 
+business out of WELS by selling drinking water to 
+neighboring communities.  The university-recommended 
+business model of selling cleaned water supports 
+sustainability of the system and a return of investment for 
+the entrepreneur in six months.  Shown in Figure 3 is the 
+thriving water selling business in Pandi, Bulacan. 
+ 
+ 
+Figure 3: Water selling business (showing list of sales) in 
+Pandi (Bulacan) leads to sustainability 
+ 
+Over the years several new strategies for cleaning 
+rainwater evolved. Realizing it takes only a motorcycle 
+battery to clean water, portable water cleaning stations are 
+viable. The entrepreneur takes the complete system to 
+homes with stored water and cleans 50 liters or more in 15 
+minutes for a small charge. Twenty or more homes can be 
+serviced this way with one battery. In Isla Verde, WELS 
+operates daily. Since the key to this system is stored 
+energy that can be transported, we developed a battery-
+charging system using a bicycle that can be used 24/7.  
+We see a demonstration of this system in Figure 4. 
+ 
+ 
+Figure 4: Pedal-powered alternator installed at Isla 
+Verde, Batangas 
+ 
+3.4  Post-Disaster Response Installations 
+The installations of WELS in disaster-stricken areas - like 
+in post-Sendong (Washi) Cagayan de Oro in 2011, post-
+earthquake Bohol and post-Yolanda (Haiyan) Tacloban 
+City in 2013 (all are Philippine provinces) – were done 
+immediately after the disaster and were met with great 
+
+ 
+ 
+                    International Journal of Advanced Research and Publications 
+                                                      ISSN: 2456-9992 
+                                             Volume 4 Issue 5, May 2020 
+                                                      www.ijarp.org 
+84 
+challenges. Quick response was always crucial. When 
+news reached us of the devastation in the affected areas, 
+we immediately go there, using our personal resources and 
+financial donations from colleagues. Later on, our home 
+institution established a “fast-track” cash disbursement for 
+immediate deployment of WELS. Finding a contact 
+person in the disaster-stricken areas was also crucial. We 
+looked for contacts of our institution in the affected areas, 
+usually coming from academic or religious institutions or 
+local government units who would be willing to 
+accommodate us.  We keep a directory of contact persons 
+for future communication and networking.  We realized 
+that even with the presence of contact persons, delay of 
+installation was to be expected. Everybody was busy in 
+giving assistance in time of disaster.  There were also 
+instances where key people themselves were affected so 
+they cannot perform their functions. Moreso, we saw the 
+wisdom of pre-positioning this asset in the community to 
+provide immediate relief. Transporting the equipment and 
+tools was another challenge. Filtration and disinfection 
+systems break easily so airports require them to be 
+checked in. When we told airport personnel that those 
+were meant to provide drinking water in the disaster areas, 
+they reconsidered.  During initial deployments, only one 
+installer would go to deploy the system. Carrying and 
+watching over the materials was a major concern.  A 
+buddy system – with one main installer and an assistant – 
+was applied for every installation. Uncomfortable 
+accommodation and unpredictable means of transportation 
+were to be expected. We experienced sleeping on the 
+grass outside the hospital in a post-earthquake Bohol and 
+hurriedly rode with a victim in an ambulance to catch a 
+flight 
+out 
+of 
+Tagbilaran 
+City 
+after 
+post-disaster 
+installation. Institutions that are open to the public were 
+chosen as installation sites for WELS -- schools, convents, 
+barangay or municipal halls, hospitals, resettlement areas 
+and police stations. Careful planning of itinerary was 
+needed to install in different sites by going from one place 
+to another in one sweep.  Post-disaster response 
+necessitates quick installations to cover more sites, thus, 
+work continues even at nighttime.  As shown in Figure 5, 
+WELS was connected to a water tank rationing drinking 
+water to the community after a disaster in Cagayan de 
+Oro.  Residents started fetching water immediately after 
+installation. 
+ 
+ 
+Figure 5: Nighttime installation in post-disaster Cagayan 
+de Oro 
+ 
+ 
+ 
+3.5  Pre-Positioning Installations  
+Twenty schools in Marikina and San Mateo (NCR) had 
+pre-positioned WELS units. WELS with solar powering 
+provision was attached to the school’s tap water or rain 
+catcher. There were frequent occurrences of heavy 
+monsoon rains in the past that caused flash flood in these 
+areas. Affected families were displaced and temporarily 
+sheltered in schools, which served as evacuation centers. 
+When we installed WELS immediately after a flash flood 
+incident, school principals saw the wisdom of having them 
+as pre-positioned assets. When schools turn to evacuation 
+centers again, they can readily provide drinking water 
+even if municipal water gets contaminated and the 
+electricity service is disrupted. On regular schooldays, it 
+gives additional cleaning and disinfecting to students’ 
+drinking stations.  Principals and teachers, though non-
+technical, attend hands-on training to facilitate WELS 
+installation in their respective schools.  Figure 6 shows 
+participants representing nine schools in Marikina City. 
+ 
+ 
+Figure 6: Training of principals and teachers for WELS 
+pre-positioning in schools 
+ 
+In Valenzuela (Metro Manila) buying and bringing water 
+every day to their community was alleviated using their 
+rain catchment. Figure 7 shows a TV interview with the 
+rain catchment at the background.  One resident quipped, 
+“Kapag umuulan, mahirap lumabas, puwede na dito sa 
+loob bumili ng inumin” (When it is raining, it is hard to go 
+out, at least we can buy drinking water within the 
+community). The locals started a thriving water selling 
+business. Similar pre-positioning installations done in 
+Valenzuela (NCR) were applied in GK communities in 
+Angat, Bulacan (Luzon) and Capiz (Visayas), LGUs in 
+Pila, Laguna and Magdalena, Sorsogon (Luzon), and in 
+some barangays in Aparri and Benguet (Luzon). Some 
+systems are not regularly used but are properly maintained 
+to be used in times of emergencies while others are in 
+operation for daily usage.  
+ 
+ 
+Figure 7: TV interview regarding WELS (shown behind 
+interviewee) in Valenzuela 
+
+ 
+ 
+                    International Journal of Advanced Research and Publications 
+                                                      ISSN: 2456-9992 
+                                             Volume 4 Issue 5, May 2020 
+                                                      www.ijarp.org 
+85 
+Based on our past installation experiences, we saw more 
+advantages in pre-positioning of WELS than installation 
+for emergency post-disaster situations.  The next table 
+summarizes the learning gained from pre- and post-
+disaster installation in key parts of the process. 
+ 
+Table 1: Difference in experiences between pre- and post-
+disaster installations 
+ 
+ 
+POST-DISASTER 
+PRE-DISASTER 
+FUNDING AND 
+BUDGETING 
+Personal; home-
+institution donation; 
+fluid budgeting due to 
+unpredictable 
+expenses; financial and 
+material resources 
+solely provided by 
+donor 
+Corporate social 
+responsibility, barangay or 
+local government project, 
+NGO support for adopted 
+communities; definite 
+budget because of certainty 
+of expenses to be incurred; 
+financial and material 
+resources can be shared by 
+donor and recipient 
+ 
+ 
+LOGISTICAL  
+PREPAREDNESS 
+Personally arranged; 
+uncertainty of 
+arrangement done by 
+community; no ocular 
+inspection -- 
+adjustment is done as 
+installation progresses 
+Well-arranged before 
+deployment; Memorandum 
+of Agreement stipulations; 
+defined responsibilities of 
+both parties; ocular 
+inspection or discussion on 
+installation site to anticipate 
+and address possible 
+obstacles 
+ 
+ 
+DEPLOYMENT 
+Safety of deployment 
+team and materials on 
+personal account; no 
+definite 
+accommodation/ 
+transport service; fluid 
+itinerary with expected 
+delays; point person 
+may not be around 
+during actual 
+installation causing 
+alterations afterwards; 
+Manila-based installers 
+Deployment needs are 
+explicitly discussed and 
+safety protocols are 
+arranged; identified contact 
+person to take care of the 
+deployment team; clear 
+itinerary with transportation 
+arrangement; point person 
+oversees the actual 
+installation to avoid 
+alterations afterwards; 
+shared manpower -- main 
+installer from Manila, local 
+skilled workers from 
+installation site 
+ 
+ 
+TRAINING 
+Accidental participants 
+-- whoever is available 
+at the time of turn-
+over; due to time 
+constraint, training 
+focuses on system 
+assembly and 
+operations only 
+Identified participants - 
+purposive selection of 
+participants based on 
+assigned responsibilities, 
+required skills to enable 
+system replication, or 
+department assigned to 
+oversee the system; training 
+covers system assembly, 
+operations, trouble shooting, 
+repair 
+ 
+ 
+TURN-
+OVER 
+No formal/official 
+turn-over; system is 
+left for use without 
+clear discussion on 
+sustainability 
+With formal/official turn-
+over and clear discussion on 
+sustainability and business 
+model for livelihood 
+ 
+PARTNERS
+HIP 
+Informal; no 
+continuing feedback-
+giving or sustained 
+communication  
+Formalized; continued 
+discussion for co-innovation 
+and feedback-giving; 
+continuing consultation 
+ 
+All WELS installations included training in system 
+operation, maintenance, and repair with complete 
+materials list. A tarpaulin showing the components and 
+maintenance procedures, together with the installer’s 
+contact details, was also posted in the installation site for 
+easy reference.  A sample of the reference poster made for 
+the initial trainings is in Figure 8. This eventually 
+improved to include more pertinent details like installer’s 
+contact information and QR code access for updates about 
+the technology. 
+ 
+ 
+Figure 8: First reference poster used during trainings 
+ 
+3.6  Learning and Innovations 
+Deployment experiences gave rise to innovations and 
+customization. What follows are the processes of 
+development in the different stages of deployment.  
+ 
+3.7 Wider Collaboration: From Personal to Funded 
+Donation  
+Initial installations started with personal initiative to 
+extend a helping hand during calamity, with a belief that 
+the system can address the need for drinking water. When 
+its importance was recognized, partnerships were forged 
+with local government units (LGUs) or with the 
+community or institution. Installation cost was shouldered 
+by the respective LGU or institution. Later on, non-
+government and civic organizations (like UN World Food 
+Program, Foundation for the Development of Urban Poor, 
+Philippine Support Service Agencies and Gawad Kalinga), 
+funded installations in their adopted communities or 
+selected beneficiaries. Some corporations or companies, 
+like Astoria Plaza, Gallego Architects and Honda World, 
+donated WELS units as part of their Corporate Social 
+Responsibility.  Even our home institution’s Ateneo 
+Disaster Response And Management (DReAM) Team 
+funded installations in evacuation centers in different 
+areas. Moreover, as part of AIC’s continued innovative 
+research on WELS, funds are sourced for installation.  
+ 
+3.8 Preparatory Work: From Transported to Shared 
+Resources  
+Once funding is settled, we purchase needed components 
+and materials. We double check if tools are complete and 
+reliable.   We bring spare consumable parts to the 
+installation site in case of breakage during transport.  We 
+bubble wrap breakable components and put in hard-
+covered bag to avoid being pressed on. We pack them 
+securely and tightly for land, water or air transport, 
+minimizing movements. Electronic parts are kept dry. We 
+hand carry delicate components like ceramic filters and 
+UV lamps. We always have a travel companion to help 
+
+ 
+ 
+                    International Journal of Advanced Research and Publications 
+                                                      ISSN: 2456-9992 
+                                             Volume 4 Issue 5, May 2020 
+                                                      www.ijarp.org 
+86 
+secure all the materials. Safety gears and equipment, like 
+ladder and waist band, are necessary when installing solar 
+panels, especially when installation is done in high places 
+or in earthquake-ravaged areas. In Bohol, we experienced 
+aftershocks while on top of a roof and installing solar 
+panels, safety gears with prayers kept us alive. First aid kit 
+is a must. Post-disaster deployment can be met with 
+challenging weather condition or unfavorable physical 
+condition.  Travel light but with a blanket that can keep 
+you warm, which you can also leave behind as donation. 
+Bring a personal go-bag packed with water and 
+emergency food.   Victims are prioritized in relief good 
+distribution. Chance to do ocular inspection is an 
+advantage in order to know plumbing and electrical lay-
+out and find the best location that has maximum sunlight 
+exposure for the solar panel. If inspection is not possible, 
+site description through discussion and pictures can help 
+AIC plan out the process of installation. This is more 
+feasible for pre-positioning of WELS, not for disaster 
+response. Identification of skilled workers on site and their 
+availability and daily wages can also be agreed upon even 
+before installation begins. All needed materials and 
+equipment used to be brought from Manila to the 
+installation site. Door-to-door delivery service, if available 
+in the area, can be explored by sending some equipment 
+ahead of time. However, from experience, relying on such 
+service may result to delay in delivery and/or breakage of 
+equipment being transported. Thus, close collaboration 
+with community-recipient is more advisable. Provide the 
+contact person on-site with the list of needed tools and 
+equipment and identify which ones are available in local 
+hardware stores within the vicinity to lessen materials to 
+be transported in a long haul. In some islands, car batteries 
+were purchased in the mainland.  Cost was higher but risk 
+of damage was less and the burden of transporting them at 
+a long distance was avoided. Service vehicle is an 
+advantage due to limited transportation in remote areas.  If 
+contact person cannot provide a vehicle, rent out a vehicle 
+on-site which the contact person can pre-arrange.  If this is 
+still not feasible, coordinate with agencies involved with 
+quick disaster response and see if equipment or personnel 
+can be squeezed in their service vehicle meant for rescue 
+or relief operations. 
+ 
+3.9 Community Involvement: From Educating to 
+Partnering   
+The community’s involvement goes through levels which 
+resembles a parallelism with the Public Involvement 
+Continuum Framework cited in Health Canada 2000 
+(Born, K. & Laupacis, A., 2012).  The framework is 
+illustrated in Figure 8.  This process happens when pre-
+deployment planning is involved and may not be 
+applicable for immediate and emergency disaster 
+response. 
+ 
+ 
+Figure 9: Public involvement continuum framework cited 
+in Health Canada 2000 
+ 
+Level 1: Information and Education. The initial 
+encounter is between AIC and the benefactor/donor and/or 
+authorized decision-maker in the community. At this 
+stage, the AIC presents the system and explains how it 
+works. It is a one-way communication where the AIC 
+educates while the other party receives information. 
+Sometimes, the other party is familiar with WELS and just 
+asks for possible customization.  
+ 
+Level 2: Gather Information. The AIC learns more 
+about the context of the prospective community-recipient 
+at this point. Listening to the need of the community 
+makes it easier for AIC to see the appropriateness of 
+WELS to address the community’s water needs. WELS’s 
+limitation in cleaning ground water and in removing 
+certain contaminants or pollutants is clear so AIC is on the 
+lookout for such condition in the community. AIC also 
+assesses possible hurdles that may be encountered onsite 
+and proactively prepares resolutions for anticipated 
+obstacles. 
+ 
+Level 3: Discussion.  At this point, discussion revolves 
+around installation scheme that is presented to and 
+approved by the benefactor and/or community leader. 
+Agreement in the terms and conditions set by both parties 
+is confirmed and sealed with the signing of the 
+Memorandum of Agreement (MOA). The MOA stipulates 
+guidelines and conditions to operate within. Logistical 
+details are also discussed, such as, availability of materials 
+and equipment in the area, the existence of storage facility 
+for the equipment, and presence of skilled personnel (like 
+plumber 
+and 
+technician). 
+Transportation 
+and 
+accommodation arrangements are also clarified. It is 
+reiterated that community decision-maker must be present 
+during installation to avoid delays or unnecessary 
+reconfigurations afterwards. Sometimes, the AIC is 
+invited to present the project to the community where 
+levels 1, 2 and 3 of the process can happen all at once. 
+ 
+Level 4: Engagement. At this level, the community 
+becomes involved in the WELS installation. AIC trains 
+the residents and supervises them as they do the actual 
+installation themselves. Tapping their skills and sense of 
+volunteerism empower them and make them the “local 
+heroes”. Engaging them gives them a sense of ownership 
+and greater commitment to care for the system. This was 
+evident in Ecoville resettlement area in Cagayan de Oro 
+where local youth worked together to install the WELS 
+and to build a “housing” for it in the relocation site’s 
+
+ 
+ 
+                    International Journal of Advanced Research and Publications 
+                                                      ISSN: 2456-9992 
+                                             Volume 4 Issue 5, May 2020 
+                                                      www.ijarp.org 
+87 
+common kitchen facility.  The youth’s confidence in 
+installing the system was evident as seen in Figure 10. 
+  
+ 
+Figure 10: Youth installed WELS in a relocation site’s 
+common kitchen facility 
+ 
+In every site, hands-on training is a must before and after 
+installation. With or without technical know-how, 
+recipients go through training to learn about the system’s 
+installation, operations and maintenance procedures. 
+ 
+ 
+Figure 11: Hands-on training educates the community 
+ 
+They oversee the actual installation or participate in 
+hands-on demonstration. In some cases, after the training, 
+people replicate the process and do the installation in their 
+respective community, like what happened in Javier 
+(Leyte). Sometimes, students in universities near the 
+installation site are gathered for a short lecture. 
+Discussions can stir interest and arouse awareness to 
+inspire future initiatives. After the training, a tarpaulin and 
+manual of instructions (written in English and Filipino -- 
+the local dialect), containing component specifications and 
+operational and maintenance procedures, are turned-over 
+to the caretakers. The installer’s contact information is 
+also given.  
+ 
+Level 5: Partnership. At this stage, AIC and the 
+community-recipient stand on equal footing where AIC 
+provides the technology while the community-recipient 
+suggests further development of the technology. In recent 
+installations, we saw the benefits of co-innovating with 
+partner communities. Both parties work together to solve a 
+problem of mutual interest and engage in a constant 
+feedback-giving. They co-innovate and develop the 
+technology further. It is a two-way communication where 
+AIC listens to the feedback and suggestions coming from 
+the 
+community 
+and, 
+on 
+the 
+other 
+hand, 
+gives 
+recommendations to ensure WELS sustainability, which 
+the community acts on. Such process was evident in Pandi 
+where the recipients suggested more appropriate water 
+storage. On the other hand, the community tried out the 
+AIC’s business model.  As the viability for business and 
+the sustainability of WELS are being studied, the 
+partnership between AIC and Pandi continues. Complete 
+transfer of technology also happens at this stage. The 
+community-recipient becomes self-reliant and works 
+towards replication of the system. This was true in 
+Kibungan, Benguet where the LGU sought funding to 
+install more systems in the province. The LGU installed 
+additional systems by themselves with AIC as consultant.  
+ 
+3.10 Technology Development through Co-Innovation  
+Continuous development and customization are applied on 
+WELS based on the concerns raised and feedback given 
+by the community. Co-innovation with the community 
+happened. Construction of concrete rainwater storage 
+facility is costly and may pose concerns.  In Leyte, we saw 
+a rainwater storage facility that has cracks and the walls 
+are full of moss.   We fabricated an improvised rainwater 
+storage using drums for easy maintenance cleaning as 
+shown in Figure 12.  
+ 
+ 
+Figure 12: Rainwater harvesting using drums directly 
+attached to roof downspouts 
+ 
+For installation sites with livestock nearby or where roof 
+is prone to bird droppings, tarpaulin is used as water 
+collection tool.  When it starts to rain, tarpaulin that was 
+kept inside the house is cleaned and spread out to catch 
+rainwater directly from the sky, not from the roof’s 
+downspout, then pour water down into a drum. This 
+approach is seen in Figure 13.   
+ 
+ 
+Figure 13: Improvised rainwater collection using 
+tarpaulin and drum 
+ 
+In Iloilo, a cistern is constructed before a covered court is 
+cemented to have stored rainwater for drinking even 
+during summer time.  For household use, small water 
+container can be attached to a do-it-yourself pump to suck 
+water out then into WELS for cleaning as illustrated in 
+
+ 
+ 
+                    International Journal of Advanced Research and Publications 
+                                                      ISSN: 2456-9992 
+                                             Volume 4 Issue 5, May 2020 
+                                                      www.ijarp.org 
+88 
+Figure 14.  With the use of DIY pump, WELS can 
+circulate in the community and clean water from any clean 
+container.   
+ 
+ 
+Figure 14: Do-it-yourself PVC pump to clean water from 
+any container 
+ 
+Some residents in Pila, Laguna complained that 
+transporting water is heavy, so we made a mobile clean 
+water system by putting WELS in a wheeler or tricycle as 
+seen in Figure 15.  Water cleaning kit in a backpack can 
+also be included in a “go bag” in time of disaster. 
+ 
+ 
+Figure 15: Clean water disaster kit (left) and mobile 
+clean water system (right) 
+ 
+WELS started with grid electrical powering. Installation in 
+off-grid communities necessitated alternative power 
+sourcing, thus, the use of solar panel.  Residents wondered 
+how they can clean water when it is cloudy. Insufficient 
+sunlight for 3 days can drain the battery, so we suggested 
+battery swapping.  Later on, we transitioned to pedal-
+powered alternator charging, which is available at 
+nighttime and rainy season.  This manner of battery 
+charging works well in Isla Verde. Some WELS recipients 
+complained about the high cost of UV lamp.  It led us to 
+conduct 
+experimentation 
+on 
+a 
+cheaper 
+aquarium 
+disinfecting 
+lamp and the results are promising 
+(Cabacungan, et.al., 2020. in press). Questions were raised 
+about detecting the safety of drinking the water that 
+passed through WELS.  We brought portable water testing 
+kits during installation that show results after 24 hours.  
+ 
+3.11 Students’ Involvement: Same HEI to Another 
+HEI  
+The AIC accommodates students from its home higher 
+education institution to work on research projects. They 
+build on top of existing technologies that AIC is working 
+on. After a while, college students from other universities, 
+who heard of AIC work or visited its website, are accepted 
+as interns.  They are given research projects and are 
+closely supervised and mentored by AIC-based professors. 
+Innovations done by different groups of students include 
+putting sensors to detect (1) if the UV light is emitting 
+radiation not intense enough to kill bacteria, then it will 
+signal that the light needs replacement, (2) if the rainwater 
+level in the tank is full so that a valve will open and 
+redirect water to the toilet tanks, and (3) if the water does 
+not have the right acidity or clarity then a valve will open 
+to dispose the water. Students’ work immensely 
+contributed to further innovations of WELS and their 
+participation in WELS’s deployments provided hands-on 
+learning to the students. Another major contribution of 
+students in technology development and deployment is 
+through training. Some Ateneo college students, from 
+different disciplines, went through training about the 
+assembly and operation of WELS, as part of their 
+government-mandated National Service Training Program 
+(NSTP). In the same manner, Ateneo graduate students, 
+enrolled in Master in Disaster Risk and Resilience 
+(MDRR), did the same thing.  Afterwards, they 
+themselves conducted training to the community by 
+demonstrating how to assemble the system and explaining 
+how it operates.  
+ 
+4. RESULT AND DISCUSSION 
+WELS installation proved to be beneficial in communities 
+whether its purpose is for regular daily use, for emergency 
+or future use.  Engagement with the community follows 
+stages which promotes greater appreciation of the 
+technology being transferred and emphasizes mutual 
+benefits in the partnership.  The community’s water need 
+is addressed, and livelihood alternative is provided, which 
+also ensures the technology’s sustainability. Resolutions 
+to challenges encountered in the past installations and the 
+community-recipients’ feedback led to further innovation 
+and customization. University students experience hands-
+on training in their participation during installations.  
+Their experience also allows formulation of innovative 
+ideas to further improve the technology and make it 
+customizable to different contexts. Pre- and post-
+deployment 
+processes 
+are 
+more 
+collaborative.  
+Collaboration with sponsors and partnership with 
+communities define the success of technology transfer. 
+Community-recipients 
+showed 
+their 
+gratitude 
+and 
+expressed it in different ways. In some areas, Certificates 
+of Appreciation were given to AIC for the effort. In Roxas 
+City, profound gratitude was shown by issuing a 
+resolution 
+recognizing 
+that 
+AIC 
+“has 
+responded 
+generously and swiftly to aid the victims and (AIC’s) 
+assistance and donation have eased and improved the 
+plight of our citizentry”. A mayor in Iloilo City announced 
+that he would issue a municipal ordinance mandating 
+future government structures to incorporate rainwater-
+harvesting facility. Some community members shared 
+how having WELS in their community affected their lives. 
+One of the Barangay Captains of Tabuelan in Cebu 
+province said after the post-Yolanda WELS installation, 
+“Salamat po sa ibinigay ninyo, sana dagdagan n’yo pa.” 
+(Thank you for what you gave, I hope you would give 
+more). One barangay captain of Jaro District in Iloilo City 
+said in a TV interview that water consumption in their 
+barangay day care center has lessened because of the 
+rainwater harvesting facility installed. One pregnant 
+woman in Cagayan de Oro resettlement area expressed her 
+
+ 
+ 
+                    International Journal of Advanced Research and Publications 
+                                                      ISSN: 2456-9992 
+                                             Volume 4 Issue 5, May 2020 
+                                                      www.ijarp.org 
+89 
+gratitude after the post-Sendong installation, saying, 
+“Salamat po sa idinonate ninyo dahil hindi na kami 
+magpuputol ng kahoy para magpakulo ng tubig” (Thank 
+you for your donation, we do not have to cut trees to boil 
+water).  Deforestation caused flashflood in the province. 
+In the same province, young boys were asked if they know 
+how to install WELS and they answered, “Ay, opo, madali 
+lang po, kayang-kaya namin!” (Yes, it’s easy, we can do 
+it!). Another TV interview of a resident of Coloong 
+(Valenzuela), a flood-prone city, expressed his confidence 
+that they are assured of drinking water inside the 
+community even if their area gets flooded and they cannot 
+go out to buy water. Installation in a hospital in Northern 
+Samar brought a doctor to near tears as she thanked the 
+team saying that “our long wait is over”. Drinking water is 
+a basic need and gaining access to it is seen as an 
+answered prayer.  
+ 
+5. SUMMARY 
+AND 
+RECOMMENDATIONS 
+Addressing a basic need, like drinking water, necessitates 
+a pre-positioning of a water technology that the 
+community has full understanding of and has great 
+engagement in the process of transfer.  Engagement is 
+practiced by making them informed and educated about 
+the technology – its operation, maintenance and repair, its 
+installation, replacement and replication – making them 
+local heroes of the community.  Engagement is felt when 
+they are involved in the preparatory and planning stage 
+together with the benefactors – providing and finding 
+local resources and manpower, whatever they can share 
+for the installation to materialize.  This signifies 
+ownership of the technology.  Engagement is highlighted 
+when they are sought for feedback and informed of 
+adjustments made on the system based on their feedback, 
+making them co-innovators of the technology.  This paper 
+presents a model of community engagement that ensures 
+mutual benefit to both university-based-technology 
+providers and community-recipients.We recommend a 
+more active role of higher education institutions in 
+producing research-based technologies that are deployable 
+in communities to address concrete community-wide 
+problems.  We further recommend that HEIs aggressively 
+forge industry-partnerships that may result in upscaling of 
+university-developed technologies and, at the same time, 
+support 
+technology-deployments 
+in 
+underserved 
+communities 
+as 
+part 
+of 
+their 
+corporate 
+social 
+responsibility.   Networking with HEI’s counterparts in 
+different parts of the country and establishing connections 
+with other service-oriented institutions will also widen 
+awareness of existing problems that may be addressed 
+through 
+its 
+research 
+initiatives 
+and 
+developed 
+technologies.  This established network can also facilitate 
+quick communication in time of emergency post-disaster 
+responses. We also recommend that local government 
+units conduct a vulnerability analysis of calamity-prone 
+areas and identify common facilities where critical assets 
+can be installed.  In remote communities, water sources 
+can be tested and appropriate interventions be given.  
+LGUs can source funding to enable replication of the 
+system and building of rainwater harvesting facilities to 
+provide safe drinking water.   
+ 
+6 ACKNOWLEDGMENTS 
+Our gratitude goes Ateneo DReAM Team that sponsored 
+WELS installations and referred some benefactors to AIC. 
+We express our appreciation to the University Research 
+Council (URC) of the Ateneo de Manila University and 
+Coastal 
+Cities 
+at 
+Risk 
+in 
+the 
+Philippines 
+(CCARPH)/International Development Research Center 
+(IDRC) for granting financial support to come up with this 
+paper and to explore further developments. We are 
+indebted to the Ateneo Innovation Center for serving as a 
+hub 
+for 
+WELS 
+development 
+since 
+its 
+initial 
+conceptualization until its actual deployment.  Thanks to 
+Mr. Carlos Oppus, AIC Director, and his team of research 
+assistants – Reymond Cao, Kerwin Caballas, Lawrence 
+Ibarrientos, Ashley Tan and Rolland Manlangit. Our most 
+heartfelt gratitude goes to God for answering our prayer to 
+be His instrument in providing clean water to our brothers 
+and sisters who live in remote and disaster-stricken areas. 
+Ad Majorem Dei Gloriam. 
+ 
+REFERENCES 
+[1]. Born, K. and Laupacis, A. (2012). Public 
+engagement in Ontario’s hospital: Opportunities 
+and 
+challenges. 
+In: 
+Patient-Centred 
+Care. 
+Retrieved 
+04/03/2019 
+from 
+https://www.longwoods.com/product/download/co
+de/23159  
+ 
+[2]. Brown. J.M. (2007). Effectiveness of ceramic 
+filtration 
+for 
+drinking 
+water 
+treatment 
+in 
+Cambodia. University of North Carolina, Chapel 
+Hill, 
+USA. 
+Retrieved 
+04/03/2019 
+ 
+from 
+https://sswm.info/sites/default/files/reference_atta
+chments/BROWN%202007%20Effectiveness%20
+of%20Ceramic%20Filtration%20in%20Cambodia
+.pdf 
+ 
+[3]. Cabacungan, 
+P.M., 
+Tangonan, 
+G.L. 
+& 
+Cabacungan, N.G.  (2020). Water-electricity-light-
+system: technology innovations.  International 
+Journal of Recent Technology and Engineering.  
+http://ijrte.org/download/volume-8-issue-6/, 
+in 
+press. 
+ 
+[4]. De Gouvello, B., Gerolin, A., Le Nouveau, N. 
+(2014). Rainwater harvesting in urban areas: how 
+can foreign experiences enhance the French 
+approach? Water Supply, 569–576. Retrieved 
+03/07/2020 
+from 
+https://doi.org/10.2166/ws.2014.029 
+ 
+[5]. Department of Science and Technology (2014). 
+Climate of the Philippines. Retrieved 03/07/2020 
+from 
+http://bagong.pagasa.dost.gov.ph/information/clim
+ate-philippines 
+ 
+[6]. Eerkes-Medrano, D., Leslie, H.A., Quinn, B. 
+(2019). Microplastics in drinking water: A review 
+and 
+assessment. 
+Current 
+Opinion 
+in 
+Environmental Science and Health, February 
+2019. Vol. 7, 69-75. Retrieved 03/08/2020 from 
+https://www.sciencedirect.com/science/article/pii/
+S2468584418300436 
+
+ 
+ 
+                    International Journal of Advanced Research and Publications 
+                                                      ISSN: 2456-9992 
+                                             Volume 4 Issue 5, May 2020 
+                                                      www.ijarp.org 
+90 
+ 
+[7]. Franken, L. (2005). The application of ozone 
+technology for public health and industry.  In: 
+Food Safety and Security at Kansas State 
+University. November 2005. Retrieved 09/20/2019 
+from http://fss.k-state.edu 
+ 
+[8]. Freese, S.D. and Nozaic, D.J. (2004). Chlorine: Is 
+it really so bad and what are the alternatives? 
+Water 
+Institute 
+of 
+South 
+Africa, 
+30(50). 
+http:///www.wrc.org.za 
+ 
+[9]. Havelaar A.H., De Hollander A.E., Teunis P.F., 
+Evers E.G., Van Kranen, H.J., Versteegh, J.F., 
+Van Koten, J.E., Slob, W. (2000). Balancing the 
+risks and benefits of drinking water disinfection: 
+disability adjusted life-years on the scale.  
+Environmental Health Perspectives 108(4): 315-
+321. 
+Retrieved 
+09/20/2019 
+from 
+https://ehp.niehs.nih.gov/doi/10.1289/ehp.001083
+15 
+ 
+[10]. Kim, Y.K., Han, M.Y., Kabubi, J., Sohn, H.G., 
+and Nguyen, D.C. (2016). Community-based 
+rainwater 
+harvesting 
+(CB-RWH) 
+to 
+supply 
+drinking water in developing countries: lessons 
+learned from case studies in Africa and Asia. 
+Water Science & Technology: Water Supply 
+(2016). 
+ 
+ 
+Retrieved 
+03/08/2020 
+from 
+https://pdfs.semanticscholar.org/a7ba/36f8f055bcf
+c53de4a2e722b66269030d10e.pdf?_ga=2.182864
+57.1380781319.1583725704-
+900793807.1583725704 
+ 
+[11]. Medina, B.O. (2019), Community engagement of 
+state universities and colleges in the Philippines: 
+Towards socially and culturally responsible 
+research and extension initiatives. International 
+Journal of Advanced Research and Publications, 
+3(4), 
+2019. 
+Retrieved 
+03/08/2020 
+from 
+http://www.ijarp.org/published-research-
+papers/apr2019/Community-Engagement-Of-
+State-Universities-And-Colleges-In-The-
+Philippines-Towards-Socially-And-Culturally-
+Responsible-Research-And-Extension-
+Initiatives.pdf 
+ 
+[12]. Nasronudin, Juniastuti, Oktamia, R. H., and 
+Lusida, M. I. Infectious diseases after tsunami 
+Aceh (Indonesia) experience. Journal of Disaster 
+Research, 2012, 7(6): 754-758 . Retrieved 
+09/21/2019 
+from 
+https://www.fujipress.jp/jdr/dr/dsstr000700060754
+/?highlight=%20clean%20water%20disaster 
+ 
+[13]. Philippine Statistics Authority (2019) 
+Most 
+Filipino families have access to improved source 
+of drinking water (Results from the 2017 annual 
+poverty indicators survey (APIS) and water 
+quality testing module). Retrieved 03/08/2020 
+from 
+http://www.psa.gov.ph/content/most-
+filipino-families-have-access-improved-source-
+drinking-water-results-2017-annual 
+ 
+[14]. Pieterse, M.J. (1988) The potential health risk of 
+trihalomethanes in drinking water: a perspective, 
+S. Afr. J. Sci. 84:166-170. Retrieved 09/21/2019 
+from 
+http://www.wrc.org.za/wp-
+content/uploads/mdocs/2808.pdf 
+ 
+[15]. Rainwater Harvesting Facility Act, HB 4340, 
+2019. Press and public affairs bureau. House of 
+Representatives, 18th congress, first regular 
+session. 14 February 2019.  Retrieved 03/08/2020 
+from 
+http://www.congress.gov.ph/press/details.php?pre
+ssid=11303 
+ 
+[16]. Sobsey, M.D. (1989). Inactivation of health-
+related microorganisms in water by disinfection 
+processes. Water Sci. Technol., 21(179). Retrieved 
+09/21/2019 from http://www.wrc.org.za 
+ 
+[17]. Song, J.M., Han, M.Y., Kim, T., and Song, J.E., 
+(2009). Rainwater harvesting as a sustainable 
+water supply option in Banda Aceh. Desalination, 
+248(1-3), 233-240 (2009). Retrieved 03/08/2020 
+from 
+https://www.sciencedirect.com/science/article/pii/
+S0011916409005906 
+ 
+[18]. Tacio, H.D. (2018). When water caused diseases 
+and deaths. Business Mirror, March 8, 2018. 
+Retrieved 
+03/08/2020 
+from 
+https://www.businessmirror.com.ph/2018/03/08/w
+hen-water-causes-diseases-and-deaths 
+ 
+[19]. World 
+Health 
+Organization. 
+(2019). 
+Water 
+shortage in the Philippines threatens sustainable 
+development and health.  Retrieved 03/08/2020 
+from 
+https://www.who.int/philippines/news/feature-
+stories/detail/water-shortage-in-the-philippines-
+threatens-sustainable-development-and-health 
+ 
+AUTHOR PROFILE 
+ 
+Mr. Paul M. Cabacungan received his 
+M.S. degree in Electronics Engineering 
+from Ateneo de Manila University in 
+2009. He is a senior research engineer and 
+the 
+operations 
+manager 
+of 
+Ateneo 
+Innovation 
+Center. 
+He 
+is 
+primarily 
+responsible for organizing the different 
+research groups of the center.  His 
+research initiatives are in the field of innovative solutions for 
+community disaster resilience and low-cost medical devices. He 
+has installed more than 140 units of solar clean water systems 
+nationwide, fabricated low-cost smart phototherapy units and 
+indoor aquaponics. He advocates for free transfer of innovative 
+technologies to empower communities. 

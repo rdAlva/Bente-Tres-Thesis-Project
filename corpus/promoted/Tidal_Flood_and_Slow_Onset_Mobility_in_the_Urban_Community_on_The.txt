@@ -1,0 +1,606 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+SOSE Affiliate: Manila Observatory 
+School of Science and Engineering Research 
+Centers 
+1-29-2025 
+Tidal Flood and Slow Onset Mobility in the Urban Community on 
+Tidal Flood and Slow Onset Mobility in the Urban Community on 
+The Northeast Coast of Central Java, Indonesia 
+The Northeast Coast of Central Java, Indonesia 
+Haryani Saptaningtyas 
+Universitas Sebelas Maret 
+Singgih Nugroho 
+Percik Institute 
+Damar Waskitojati 
+Percik Institute 
+Agung Waskito Adi 
+Percik Institute 
+Cicilia Dwi Wuryaningsih 
+Percik Institute 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/manila-observatory 
+ Part of the Environmental Sciences Commons 
+Custom Citation 
+Custom Citation 
+Saptaningtyas, H., Nugroho, S., Waskitojati, D., Adi, A. W., Wuryaningsih, C. D., Istiyani, A., Bacomo, L., & 
+Soreaga, R. (2025). Tidal flood and slow onset mobility in the urban community on The Northeast Coast 
+of Central Java, Indonesia. BIO Web of Conferences, 155, 06004. https://doi.org/10.1051/bioconf/
+202515506004 
+This Conference Proceeding is brought to you for free and open access by the School of Science and Engineering 
+Research Centers at Archīum Ateneo. It has been accepted for inclusion in SOSE Affiliate: Manila Observatory by an 
+authorized administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+Authors 
+Authors 
+Haryani Saptaningtyas, Singgih Nugroho, Damar Waskitojati, Agung Waskito Adi, Cicilia Dwi Wuryaningsih, 
+Ambar Istiyani, Louie Bacomo, and Rowena Soreaga 
+This conference proceeding is available at Archīum Ateneo: https://archium.ateneo.edu/manila-observatory/23 
+
+ 
+Tidal flood and slow onset mobility in the urban 
+community on The Northeast Coast of Central 
+Java, Indonesia 
+Haryani Saptaningtyas1*, Singgih Nugroho2, Damar Waskitojati2, Agung Waskito Adi2, 
+Cicilia Dwi Wuryaningsih2, Ambar Istiyani3, Louie Bacomo4, and Rowena Soreaga5  
+1Postgraduate Program. Sebelas Maret University. Surakarta. 57126, Central Java. Indonesia  
+2Percik Institute, Kampoeng Percik, Jl. Patimura Km.1, Salatiga 50711, Central Java, Indonesia 
+3Sekolah Tinggi Ilmu Ekonomi AMA, Salatiga, Central Java, Indonesia 
+4JRS Asia Pacific, 43 Soi Rachwithi 12, Victory Monument, Phayathai, Bangkok 10400, Thailand 
+5Institute of Environmental Science for Social Change (ESSC). 1/F. Manila Observatory Building 
+Ateneo de Manila University. Quezon City. 1108, Philippines.  
+ 
+Abstract. This paper analyzed the various mobility patterns related to 
+climate change in urban areas, focusing on the impacts of tidal floods and 
+land subsidence in the coastal area of Central Java. The gradual changes in 
+the coastal area are driven by climate change and development plans around 
+the village, which have increased vulnerability. The community often 
+experiences the impacts of rising sea levels and land surface subsidence, 
+damaging the residential environment, public facilities, and hindering 
+transportation and economic activities. This paper explores the experiences 
+of different mobility types, including displacement, voluntary mobility, and 
+immobility. A mixed-method approach was used, involving household 
+surveys, key informant interviews, and community mapping, emphasizing a 
+participatory approach to leverage research for advocacy. The findings 
+suggest that mobility was driven by both the urbanization process and 
+climate change, which have significantly impacted the community. There 
+are various factors influencing their decision to stay or leave the land. 
+Community resilience is one of the drivers of immobility, while the adaptive 
+capacity for livelihood transformation becomes a key factor in their struggle 
+to adapt to climate change impacts.  
+ 
+Keywords: tidal floods, climate change, urban setting, (im)mobility 
+1 
+Introduction 
+In recent decades, global warming and climate change have emerged as major concerns 
+worldwide. This issue is consistently prioritized on the agendas of countries and humanitarian 
+organizations committed to environmental sustainability. Climate change is a phenomenon 
+intricately linked to shifts in economic, social, political, and demographic environments, 
+ 
+* Corresponding author: h.saptaningtyas@staff.uns.ac.id  
+© The Authors, published by EDP Sciences. This is an open access article distributed under the terms of the Creative Commons 
+Attribution License 4.0 (https://creativecommons.org/licenses/by/4.0/).
+BIO Web of Conferences 155, 06004 (2025)	
+https://doi.org/10.1051/bioconf/202515506004
+10th ICCC 2024
+
+ 
+ 
+significantly impacting various aspects of human life, including food crises, ecological 
+disasters, and health impacts. On this paper, we concern on the flooding, which is easier to 
+be understood rather than drought [1] to indicate the ecological disaster related to climate 
+change.  
+One of the most prominent consequences of climate change is its effect on human 
+mobility, particularly migration and displacement. In its Fifth Assessment Report published 
+in 2014, the Intergovernmental Panel on Climate Change acknowledged mounting evidence 
+that extreme weather events associated with climate change are driving forced migration and 
+displacement, with their impact on human livelihoods further serving as indirect drivers of 
+this shift [2]. Millions of people worldwide have experienced becoming climate refugees. 
+Some have chosen to survive by changing livelihoods, reconstructing settlements, or moving 
+to other places in search of a better life. However, this migration phenomenon is often 
+overlooked in strategies to address climate change. Data from the United Nations High 
+Commission for Refugees as of April 2021 shows that the number of climate refugees has 
+increased to 21.5 million people [3]. 
+According to the World Bank report "Groundswell Part II," without substantial action to 
+mitigate climate change, as many as 216 million people could migrate across six global 
+regions by 2050. These regions include Sub-Saharan Africa, East Asia and the Pacific, South 
+Asia (with 40 million migrants), North Africa (19 million), Latin America (17 million), and 
+Eastern Europe and Central Asia (5 million) [4]. The report further indicates that migration 
+hotspots could emerge as early as 2030 and continue to spread and intensify by 2050. The 
+risks of life-threatening extreme weather events, deteriorating economic conditions and 
+livelihoods, and the loss of habitability in highly exposed areas are driving this population 
+mobility [5].  
+The term "climate refugees" refers to those who move from their areas of origin due to 
+disasters and natural phenomena related to climate change. Those who migrate because of 
+regional vulnerability to the climate crisis are called "climate migrants." Displacement or 
+disaster displacement in the future is triggered by factors such as disaster exposure, 
+community vulnerability, and hazards stemming from climate change [3]. According to data 
+from the Internal Displacement Monitoring Center, around 87.27 percent of population 
+movements between 2008 and 2018 were related to weather or climate [6]. 
+While not every weather-related disaster can be directly attributed to climate change, the 
+scientific evidence shows that climate change is increasing the frequency and intensity of 
+certain hazards, in this case is tidal floods and strong wave[7]. Furthermore, climate change 
+is exacerbating the vulnerability of communities, making it an increasingly urgent priority to 
+address the underlying drivers of displacement [8]. The groups most vulnerable to climate 
+change-induced migration are the lower middle class, whose livelihoods depend on natural 
+resources and who live in areas exposed to the dangers of climate change. The World Bank 
+predicts the number of climate change migrants based on factors such as vulnerability to 
+water scarcity, low crop productivity, rising sea levels, and high storm intensity. Human 
+mobility in the context of climate change can take various forms, including internal 
+displacement, cross-border migration, and planned relocation, with each presenting its own 
+unique challenges and policy considerations [7],[9]. 
+The UN Resolution 73/195 has encouraged countries to map, develop adaptation 
+strategies, and address climate refugees using a human rights approach. This recognizes 
+climate change and its associated disasters as drivers of migration that need to be addressed. 
+The UN Human Rights Council has also responded by issuing a document on climate change-
+induced migration from a human rights perspective. This includes efforts to prevent large-
+scale population displacements by providing a living environment that protects human rights 
+[8]. While a total of 164 countries have signed the 2018 Migration Agreement, which 
+2
+BIO Web of Conferences 155, 06004 (2025)	
+https://doi.org/10.1051/bioconf/202515506004
+10th ICCC 2024
+
+ 
+ 
+includes measures to reduce population movements due to climate change, its full 
+implementation remains uncertain. 
+In Indonesia, this phenomenon of climate migration is already occurring. However, 
+studies on climate change migration are limited. Among these limited studies, the LIPI 
+Population Research Center has investigated environmental migration in the Mahakam Delta, 
+East Kalimantan, in 2015-2016, as well as in North Lombok and East Lombok [9], [10]. 
+Laksmi Rachmawati and Ade Latifa's study in the Mahakam Delta utilized the livelihood 
+trajectories approach. In the case of the Mahakam Delta, migration serves as an adaptation 
+strategy triggered by the loss of mangrove land and increasing tidal waves. The decision to 
+migrate is not an instant process but rather part of a trajectory to maintain their livelihoods 
+[10]. The ability of each household to adapt varies greatly depending on their capabilities and 
+resources, making the adaptations more specific to individual households rather than 
+communal.  
+Schewel [12]  proves the limited research on mobility, without suitable understanding of 
+the causes and consequences of immobility hinders attempts to explain why, when, and how 
+people migrate, even for “migrant populations,” and the periods of immobility. Those raises 
+are essential for further research.  One of them is understanding the complex reasons and 
+interplay dimensions for someone to move or not to move. 
+Black et al.  [13] and Martin et al. [14] note that some communities do not see migration 
+as a feasible climate coping strategy as it is perceived as costly, involves high uncertainty, 
+and may lead to more challenging situations. Displacement tends to be perceived as a “failure 
+to adapt” and can be understood as a form of loss and damage associated with climate change 
+[15], while planned relocation and resettlement are increasingly recognized as climate 
+adaptation measures that also contribute to climate resiliency among communities [16]. Thus, 
+in the human mobility spectrum, the phenomenon of “immobility” that often leads to “trapped 
+populations”: those who are unable to move out of a direct danger or crisis due to physical, 
+financial, security, logistical, health and/or other reasons despite facing direct exposure and 
+existential threat from climate-related threats such as sea-level rise.  
+Intergovernmental Panel on Climate Change the Sixth Assessment Report or IPCC AR6 
+[5], the risk of displacement increases when communities in rural and urban areas that lack 
+the resources to migrate experience higher exposure to extreme weather events, particularly 
+in low-income developing countries. Thus, this paper highlights the motif, the strategies, and 
+time of the slow on-set mobility of the urban community who is threatened by tidal flood and 
+abrasion [17]. 
+Based on the book "Maleh Dadi Segoro" written by the Semarang Demak Coastal 
+Coalition team, it provides information related to various factors causing this ecological 
+crisis, namely that groundwater extraction originates from human needs for water both on a 
+household scale and (later)  on an industrial scale. That happened since the 1900s. It is 
+recorded that the total groundwater withdrawal in the city of Semarang is measured at an 
+average of 60 million cubic /year or 1.9 cubic / second [18]. 
+This paper examines the impacts of climate change and the adaptation strategies 
+employed by communities in the northern coastal region of Central Java. Drawing on a case 
+study of Tambakrejo Village, RW 16, Tanjung Mas Subdistrict, North Semarang District, 
+Semarang City, the article explores how these coastal communities are directly experiencing 
+the effects of climate change through tidal flooding and seawater intrusion. The natural 
+phenomena occurring in this area, including the Tanjung Mas Harbor region, are part of the 
+broader trend of rising sea levels driven by global warming. Tidal floods have been occurring 
+in the region since the early 1990s, a result of regional development that failed to account for 
+the impact on the natural environment. 
+ 
+3
+BIO Web of Conferences 155, 06004 (2025)	
+https://doi.org/10.1051/bioconf/202515506004
+10th ICCC 2024
+
+ 
+ 
+2 
+Method 
+A mixed method was used, involving household surveys, key informant interviews, and 
+community mapping, emphasizing a participatory approach to leverage research for 
+advocacy.  Purposive sampling was used to determine the respondents in the location, which 
+was chosen purposively based on the assessment stage. The advantage of purposive samples 
+is that they can generalize survey findings at the population level. The minimum research 
+sample size to ensure saturation through the full spectrum of gender, generation, and 
+socioeconomic status. The sample of this household survey was 200 people. The main 
+objectives of this survey are to obtain more detailed data regarding the respondent's 
+household profile (name, gender, age, occupation, education, organization, religion, marital 
+status, etc.) and to explore asset and place attachment.  This research also applies key 
+informant interviews to explore the experiences and adaptation strategies of families living 
+in coastal areas and remote islands facing climate change and extreme weather. Community 
+mapping was done participative involving community members to draw the cognitive map 
+of people.  Community mapping focuses on the social and land-used practices of the people 
+in the coastal area to encourage young and old people, men and women, to speak and to draw 
+the map, for they all have different experiences with the land and have different roles to play 
+[19]. 
+3. Results and Discussions 
+2.1 
+Overview of the Study Area 
+Tambakrejo Village is a coastal community with both urban and rural characteristics. This 
+village is home to 1,719 residents and 535 households, with a breakdown of 847 male and 
+872 female inhabitants. Administratively, Tambakrejo RW 16 is located within Tanjung Mas 
+Village, in the North Semarang District of Semarang City. The village is situated in close 
+proximity to Semarang's economic and transportation hubs, such as the Kota Lama area, the 
+train station, and Tanjung Emas Harbor. Geographically, Tambakrejo is surrounded by water 
+bodies. The northern boundary is the Java Sea, the eastern side is bordered by the East Flood 
+Canal and Banger River, while the Mati River defines the western boundary. 
+In the past, Tambakrejo was known for its fishing industry due to its coastal location. 
+However, since the 2000s, residents' fish ponds have begun to disappear, submerged by 
+seawater. Nowadays, the village's occupational profile has diversified, with some residents 
+employed in nearby industries like PT Pelindo and PT Indonesia Power, while others 
+continue the fishing tradition. Despite the decline in the fishing profession, residents who are 
+part of fishing groups are advocating for Tambakrejo to be recognized as a Maritime Village. 
+The community mapping exercise in Tambakrejo has revealed the village's experiences 
+with climate change, as evidenced by the disappearance of land and landmarks that the 
+residents have documented through participatory mapping techniques (see Picture 1). 
+4
+BIO Web of Conferences 155, 06004 (2025)	
+https://doi.org/10.1051/bioconf/202515506004
+10th ICCC 2024
+
+ 
+ 
+ 
+Figure 1. Result of Tambakrejo Integrated Community Mapping, a part of Participatory Research 
+Process 
+2.2 
+Vulnerability of Tambakrejo Area 
+Located near the sea, the Tambakrejo village frequently deeply impacts of rising sea levels 
+and also undergoing land subsidence, which has led to damage to residential environments 
+and public infrastructure like roads, as well as hindering transportation and economic 
+activities within the community. According to survey findings, the five most common 
+disasters experienced by residents include sea waves, increased beach and ocean litter, 
+flooding from high tides, mangrove forest loss, and soil/sand erosion. 
+The landscape of this area has undergone significant changes compared to the pre-2000s 
+period. Residents have reported that tidal waters began encroaching on the settlement around 
+July 1993, and by 2000, flooding and erosion had caused the loss of public facilities such as 
+cemeteries, sports fields, and ponds, while seawater also started inundating people's homes. 
+The most devastating disaster felt by Tambakrejo residents was the combination of high 
+waves and rising sea levels in 2015, which damaged 35 houses and numerous fish ponds 
+beyond repair due to permanent submersion. 
+This gradual transformation of the landscape is attributable not only to climate change 
+but also to the impacts of development around the village and the behavior of its residents. 
+For instance, the construction of the East Flood Canal embankment in 2020 caused the 
+Banger River to deteriorate. Additionally, improper household waste management by 
+residents has contributed to the degradation of the village environment. The survey revealed 
+various impacts from seawater intrusion, including damage to vehicles and homes, disruption 
+of work and social activities, and a pervasive sense of threat among the residents. 
+These changes in natural conditions, based on household survey data, have made the 
+majority of Tambakrejo residents feel uncomfortable and threatened by their environment. 
+The remaining residents reported feeling normal, and only 3 percent felt safe. This is 
+5
+BIO Web of Conferences 155, 06004 (2025)	
+https://doi.org/10.1051/bioconf/202515506004
+10th ICCC 2024
+
+ 
+ 
+understandable, as some residents consider the hazardous conditions to be a part of their daily 
+lives. 
+To address these issues, residents have proposed a sea embankment construction program 
+to the government. Over the past few years, the Pemali Juana River Basin Center, under the 
+control of the PUPR Ministry, has carried out the development of this sea embankment 
+project. While the community believes the sea embankment can reduce the impact of tidal 
+flooding, it cannot eliminate it completely, as seawater seepage still occurs along the old sea 
+embankment. The sea wall construction project also includes Tambak Mulyo Village, another 
+area in Tanjung Mas Subdistrict facing similar environmental challenges as Tambakrejo. For 
+residents, the sea embankment, accompanied by mangroves—an example of so-called gray-
+green architecture—has been crucial in mitigating the impacts of tidal flooding. 
+2.3 
+Economic Vulnerability 
+The loss of ponds in Tambakrejo has also impacted the local economy. Residents must adapt 
+to environmental changes, including shifting their livelihood strategies. Survey results 
+indicate that most residents derive income from private employment. Other income sources 
+include fishing, government assistance, and family support. Additional income comes from 
+small-scale businesses like freshwater fish farming, services, and home stalls. Fishermen who 
+depend their livelihood on the sea, face numerous challenges, including erratic seasons that 
+make it difficult to go to sea, and decreased production of green mussels. Furthermore, the 
+availability of nearshore fish has declined due to various developments in the Tambakrejo 
+area. 
+Based on survey data, the majority of residents' weekly expenditures are for food, 
+including kitchen needs, purchasing sea fish, and buying eggs and milk. Some residents also 
+spend on drinking water and fast food. For non-food expenses, the majority is spent on home 
+needs, education costs, and boat maintenance. Communication and savings costs are lower, 
+as are health-related expenses. 
+Limited income, coupled with demands for meeting life's necessities, leaves Tambakrejo 
+residents in a vulnerable economic position. The majority of non-food expenses go towards 
+home needs, education costs, and boat maintenance. Meanwhile, communication, savings, 
+and health-related costs are lower. The data shows that the majority of residents have 
+economic vulnerabilities in their households due to limited income and increasingly varied 
+spending demands. Residents' decisions not to move have significant consequences for their 
+housing needs. Some residents independently have to pay ± IDR 20 – 30 million to raise the 
+floor of their house by 1 meter every 5 years. Residents finance these home repairs through 
+various sources, such as their own businesses, help from family or relatives, debts to official 
+or unofficial lending institutions, government assistance, and support from civil society 
+institutions. 
+2.4 
+Water, Sanitation and Hygiene 
+The environmental changes have also impacted the availability of clean water, sanitation, and 
+cleanliness. According to health authorities, the quality of water from surface wells is no 
+longer recommended. Residents meet their clean water needs in two ways - for bathing and 
+for drinking. Thirty percent of residents use private artesian wells and water from the 
+municipal water supply. For drinking water, many residents purchase refillable or mineral 
+water, though some still obtain it from unpumped wells. When it comes to sanitation, 
+residents use either private or public toilet facilities. 
+6
+BIO Web of Conferences 155, 06004 (2025)	
+https://doi.org/10.1051/bioconf/202515506004
+10th ICCC 2024
+
+ 
+ 
+In the Tambakrejo area, there are no government or private health facilities. The health 
+of residents, particularly the elderly, mothers, and children, is only monitored through the 
+Posyandu program, which rotates across each neighborhood unit. The community previously 
+had a Posyandu building, constructed with private sector assistance, but it can no longer be 
+used as it has been submerged by floodwaters. 
+Waste management remains a significant challenge in this village. The lack of proper 
+waste disposal facilities has led to the proliferation of litter in various corners of the village, 
+including between houses, near water bodies, and in a designated communal dumping area 
+in RT 05. The waste originates from household consumption and is also brought in from 
+outside the village via the nearby river. Residents have developed different approaches to 
+managing waste, such as sorting, discarding it in communal areas, and even using it as 
+material to raise the floors of their homes. 
+2.5 
+(Im)mobility 
+Despite being aware that living in an area prone to disasters and environmental hazards is 
+unhealthy, the majority of Tambakrejo residents are reluctant to move to safer and more 
+comfortable locations. Reasons cited include strong attachment to their families and 
+livelihoods, as well as general contentment with their current situation. Other factors, such 
+as the cost of moving and not having another place to go, also contribute to this reluctance. 
+This reluctance is further reinforced by the survey findings, which indicate that 76% of 
+respondents are property owners in Tambakrejo. Additionally, most respondents have lived 
+in the area for more than 10 years, with some having resided there for multiple generations. 
+This deep-rooted connection to the place they call home makes the residents hesitant to leave.  
+The reluctance to move is also strengthened by several factors, including the status of 
+home asset ownership. This can be seen in the respondents' housing situation - the majority 
+own their own property or family-owned property, while others rent either with or without 
+payment. Additionally, the majority of respondents have lived in the study location for more 
+than 10 years, with some having resided there for multiple generations. The deep-rooted 
+connection to their home and community, as well as their livelihoods, are cited as key reasons 
+for their reluctance to relocate. 
+When respondents were asked whether they would consider moving, the majority said 
+they would not. Several reasons emerged, including strong attachment to their families and 
+livelihoods, as well as general contentment with their current situation. Other factors, such 
+as the high cost of moving and a lack of alternative places to relocate, also contributed to 
+their reluctance. This reluctance is evident in the survey results, which show that only 8 
+percent of family members have moved to another location in the last 10 years. 
+The residents' decision not to move, while understandable, has had significant economic 
+consequences. Some residents have had to independently pay substantial sums to repair their 
+homes, such as raising floors, foundations, walls, and roofs. These home repairs are financed 
+through various sources, including their own businesses, help from family or relatives, debts 
+to lending institutions, government assistance, and support from civil society organizations. 
+Additionally, there have been communal efforts to address the challenges, such as 
+constructing drainage systems, boundary walls, and providing water pumps. 
+Despite the majority of Tambakrejo residents remaining in their homes, the survey data 
+revealed instances of movement among some residents. There are two types of displacement 
+identified: forced and voluntary. The primary factors motivating residents to relocate include 
+eviction, damage to their homes due to disasters, securing better employment opportunities, 
+and marrying someone from outside the village. Additionally, government development 
+7
+BIO Web of Conferences 155, 06004 (2025)	
+https://doi.org/10.1051/bioconf/202515506004
+10th ICCC 2024
+
+ 
+ 
+policies, environmental threats and disasters, as well as family considerations have prompted 
+some residents to move. 
+One such case of independent movement was observed among residents of RT 05. Homes 
+in this neighborhood suffered damage from sea waves, forcing residents to relocate within 
+Tambakrejo or to nearby areas of Semarang City. Currently, RT 05 is occupied by only 
+around 15 families, down from the previous 45 households. Some of the residents who moved 
+have maintained their livelihoods in Tambakrejo. 
+For residents who were forced to relocate, their attachment to the sea remained influential. 
+The majority of respondents expressed a desire to move to urban locations near the coast. 
+This was the case for residents of RT 6 in Tambakrejo, who had previously lived along the 
+Banjir Kanal Timur. Their land was destroyed by a river management program, compelling 
+them to move. After a long process involving the Central Java provincial government and 
+civil society activists, these residents were eventually granted temporary housing by the 
+government in 2019. 
+2.6 
+Gender and (Im)mobility 
+Female respondents in Tambakrejo play a significant role in influencing their families' 
+decisions about whether to move or remain in their current homes. When it comes to the 
+reasons for staying in vulnerable areas, female respondents cited various factors, including: 
+a) strong family ties; b) reliance on local livelihoods; c) lack of alternative places to relocate; 
+d) the high cost of moving; and e) contentment with their current situation. 
+Both women and men in Tambakrejo agree that family ties and livelihood are two crucial 
+factors in deciding not to move. However, the survey indicates that family is a stronger factor 
+for women, with 56% of female respondents agreeing or strongly agreeing that they would 
+likely move if not for their families, compared to 47% of male respondents. Additionally, 
+more women expressed complete agreement that they have fond memories of the place and 
+are comfortable living there, while more men were in full agreement that Tambakrejo is 
+important to them. This perceived importance of the place by men could be related to their 
+primary occupation of fishing, as men tend to be the main breadwinners in their families. 
+When it comes to the decision to move, the main reason that emerged was eviction. Other 
+factors include loss of livelihood, loss of residence, and marriage. The consideration of 
+eviction as a primary reason for moving shows that there is awareness among the residents 
+regarding land ownership and government authority. 
+3 
+Research Implications 
+The findings from this study have several implications for understanding the complex 
+dynamics of human mobility and immobility in the context of coastal communities facing 
+environmental threats. First, it highlights the deep-rooted attachment and sense of place that 
+residents have towards their homes and communities, even in the face of significant 
+environmental challenges. This attachment, coupled with economic and social factors, 
+contributes to the reluctance of many residents to relocate, despite the risks they face 
+[20][22]. 
+Second, the study underscores the gendered nature of mobility decision-making, with 
+women playing a significant role in shaping the family's decision to stay or leave. This 
+suggests the importance of considering gender dynamics in understanding and addressing 
+climate-induced displacement and migration [23]. 
+Third, the study underscores the importance of considering both forced and voluntary 
+forms of mobility when examining the impacts of climate change on human settlements. 
+8
+BIO Web of Conferences 155, 06004 (2025)	
+https://doi.org/10.1051/bioconf/202515506004
+10th ICCC 2024
+
+ 
+ 
+While some residents may be forced to relocate due to disasters or development policies, 
+others may choose to move in search of better economic opportunities or personal reasons 
+[24]. Fourth, the study highlights the need for more holistic and integrated policies and 
+interventions that address the multidimensional aspects of climate-induced mobility, 
+including social, economic, and environmental factors [20].  
+4 
+Conclusion 
+The change in natural conditions, based on household survey data, has made the majority of 
+Tambakrejo residents feel uncomfortable with their environment (60 percent) and feel 
+threatened (9 percent). Climate changes heavily impact tidal flooding worsened by a lack of 
+good drainage management, which impacts poor water and sanitation.  
+The situation indirectly induced people to migrate to other locations or resist adapting, 
+living with flooding. Even though we found that some older generations prefer to stay in 
+vulnerable areas, the younger generation is primarily mobilized to urban sites. Living 
+conditions related to health, jobs, and education are the main priorities of women when 
+deciding between mobile or immobile.  
+This urbanized area experienced high exposure to climate change impacts, high 
+socioeconomic vulnerability. This gradual change in the landscape is caused by climate 
+change, and the impact of development around the village, such as the construction of the 
+East Flood Canal river embankment (river normalization) in 2020, has fostered the liveable 
+condition of the urban community.  
+Acknolwedgement : This research is part of the Research and Advocacy for Climate Policy and 
+Action-RACPA program. RACPA is a program designed by JRS AP, Percik, ESSC, with the support 
+of Caritas Australia and Australia AID, with a focus on the adaptive response of communities facing 
+high risks of internal displacement due to climate change and disasters, as well as the policy 
+environment that influences policies that have an impact on their response. This project aims to help 
+develop a deeper understanding and knowledge of climate change, vulnerability and displacement 
+among different stakeholders, and contribute to strengthening the resilience of coastal and island 
+communities, through the development of more inclusive and collaborative policies to address the 
+complexities of population displacement.  
+References 
+[1]       Choukri, M., Naimi, M., Chikhaoui, M. (2023). Drought characterization: A 
+systematic literature review. Sains Tanah Journal of Soil Science and 
+Agroclimatology, 20(2): 250-264. https://doi.org/10.20961/stjssa.v20i2.77206 
+[2] 
+C. Sabine, “The IPCC Fifth Assessment Report,” Carbon Management, vol. 5, no. 
+1. 2014, doi: 10.4155/cmt.13.80. 
+[3] 
+G. S. Goodwin-Gill and J. McAdam, “UNHCR and climate change, disasters, and 
+displacement,” UNHCR - UN Refug. Agency, 2017. 
+[4] 
+V. Clement et al., “Groundswell: Acting on internal climate migration,” World Bank 
+Gr., 2021. 
+[5] 
+K. Boudreau, M. Robinson, and Z. Farooqi, “The IPCC Sixth Assessment Report,” 
+Canadian Journal of Emergency Management, vol. 2, no. 1. 2022, doi: 
+10.25071/6sw6za31. 
+[6] 
+International Displacement Monitoring Centre, “Disaster Displacement: A global 
+review 2008-2018, Thematic Report.” pp. 1–56, 2019, [Online]. Available: 
+https://www.internal-
+displacement.org/sites/default/files/publications/documents/201905-disaster-
+9
+BIO Web of Conferences 155, 06004 (2025)	
+https://doi.org/10.1051/bioconf/202515506004
+10th ICCC 2024
+
+ 
+ 
+displacement-global-review-2008-2018.pdf. 
+[7] 
+M. E. Kabir, S. Serrao-Neumann, P. Davey, M. Hossain, and M. T. Alam, “Drivers 
+and temporality of internal migration in the context of slow-onset natural hazards: 
+Insights from north-west rural Bangladesh,” Int. J. Disaster Risk Reduct., vol. 31, 
+2018, doi: 10.1016/j.ijdrr.2018.06.010. 
+[8] 
+D. Manou, A. Baldwin, D. Cubie, A. Mihr, and T. Thorp, Climate change, migration 
+and human rights: Law and policy perspectives. 2017. 
+[9] 
+S. Balsari, C. Dresser, and J. Leaning, “Climate Change, Migration, and Civil 
+Strife,” Current Environmental Health Reports, vol. 7, no. 4. 2020, doi: 
+10.1007/s40572-020-00291-4. 
+[10] 
+L. Rachmawati and A. Latifa, “Lintasan Penghidupan (Livelihood Trajectories) dan 
+Migrasi Lingkungan di Delta maakam,” J. Kependud. Indones., vol. 15, no. 1, 2020, 
+doi: 10.14203/jki.v15i1.475. 
+[11] 
+A. Latifa and H. Romdiati, “Kebijakan Pengelolaan Migrasi dalam Konteks 
+Perubahan Iklim: Kasus Lombok Utara dan Lombok Timur,” J. Kependud. Indones. 
+|, vol. 12, no. Desember, 2017. 
+[12] 
+K. Schewel, “Understanding Immobility: Moving Beyond the Mobility Bias in 
+Migration 
+Studies,” 
+Int. 
+Migr. 
+Rev., 
+vol. 
+54, 
+no. 
+2, 
+2020, 
+doi: 
+10.1177/0197918319831952. 
+[13] 
+R. Black, W. N. Adger, N. W. Arnell, S. Dercon, A. Geddes, and D. Thomas, “The 
+effect of environmental change on human migration,” Glob. Environ. Chang., vol. 
+21, no. SUPPL. 1, 2011, doi: 10.1016/j.gloenvcha.2011.10.001. 
+[14] 
+M. Martin, M. Billah, T. Siddiqui, C. Abrar, R. Black, and D. Kniveton, “Climate-
+related migration in rural Bangladesh: A behavioural model,” Popul. Environ., vol. 
+36, no. 1, 2014, doi: 10.1007/s11111-014-0207-2. 
+[15] 
+Advisory Group on Climate Change and Human Mobility, “COP27 Must Act on 
+Human 
+Mobility.” 
+2021, 
+[Online]. 
+Available: 
+https://disasterdisplacement.org/resource/cop27-must-act-on-human-mobility/. 
+[16] 
+UNHCR, “Guidance on protecting people from disasters and environmental change 
+through planned relocation,” no. October. pp. 1–22, 2015, [Online]. Available: 
+https://www.refworld.org/policy/opguidance/unhcr/2015/en/117656. 
+[17] 
+Intergovernmental Panel on Climate Change (IPCC), Climate Change 2022 – 
+Impacts, Adaptation and Vulnerability. 2023. 
+[18] 
+B. Batubara, H. Warsilah, I. Wagner, and S. Salam, Maleh dadi Segoro; Krisis 
+Sosial-Ekologis Kawasan Pesisir Semarang-Demak, no. October. Yogyakarta: 
+Lintas Nalar, 2020. 
+[19] 
+Environmental Science for Social Change, “Community-Mapping-Manual.pdf.” 
+1998, [Online]. Available: https://essc.org.ph/content/archives/73. 
+[20] 
+B. Mallick, C. Priovashini, and J. Schanze, “‘I can migrate, but why should I?’—
+voluntary non-migration despite creeping environmental risks,” Humanit. Soc. Sci. 
+Commun., vol. 10, no. 1, 2023, doi: 10.1057/s41599-023-01516-1. 
+[21] 
+Z. Shu, Y. Du, and X. Li, “Homeland, emotions, and identity: Constructing the place 
+attachment of young overseas Chinese relatives in the returned Vietnam-Chinese 
+community,” Front. Psychol., vol. 14, 2023, doi: 10.3389/fpsyg.2023.984756. 
+[22] 
+W. P. Tyas, “Living in Prone Flooding Area: In Coastal Areas of Semarang,” in IOP 
+Conference Series: Earth and Environmental Science, 2018, vol. 123, no. 1, doi: 
+10.1088/1755-1315/123/1/012010. 
+[23] 
+B. Tripathy Furlong, H. Adams, I. Boas, J. Warner, and H. Van Dijk, “Gendered 
+(im)mobility: emotional decisions of staying in the context of climate risks in 
+Bangladesh,” Reg. Environ. Chang., vol. 22, no. 4, 2022, doi: 10.1007/s10113-022-
+10
+BIO Web of Conferences 155, 06004 (2025)	
+https://doi.org/10.1051/bioconf/202515506004
+10th ICCC 2024
+
+ 
+ 
+01974-4. 
+[24] 
+M. M. Naser, B. Mallick, R. Priodarshini, S. Huq, and A. Bailey, “Policy challenges 
+and responses to environmental non-migration,” npj Clim. Action, vol. 2, no. 1, 
+2023, doi: 10.1038/s44168-023-00033-w. 
+ 
+11
+BIO Web of Conferences 155, 06004 (2025)	
+https://doi.org/10.1051/bioconf/202515506004
+10th ICCC 2024

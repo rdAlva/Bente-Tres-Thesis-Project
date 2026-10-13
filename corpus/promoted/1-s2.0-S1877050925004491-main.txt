@@ -1,0 +1,362 @@
+ScienceDirect
+Available online at www.sciencedirect.com
+Procedia Computer Science 256 (2025) 28–35
+1877-0509 © 2025 The Authors. Published by Elsevier B.V.
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the scientific committee of the CENTERIS - International Conference on ENTERprise 
+Information Systems / ProjMAN - International Conference on Project MANagement / HCist - International Conference 
+on Health and Social Care Information Systems and Technologies
+10.1016/j.procs.2025.02.092
+Keywords: Veblen demand; Customer discovery; Agent-based modeling system; Large language models; ChatGPT; Economic theory; Computer 
+simulation; Economic theory; Simulations; Market validation; Artificial intelligence; AI
+* Corresponding author. Tel.: +632-8981-7543.
+E-mail address: zachary.alabastro@student.ateneo.edu
+CENTERIS – International Conference on ENTERprise Information Systems / ProjMAN –
+International Conference on Project MANagement / HCist – International Conference on 
+Health and Social Care Information Systems and Technologies 2024
+Exploratory customer discovery on Veblen goods using ChatGPT 
+and agent-based modeling system for business simulation
+Zachary Matthew Alabastroa,*, Reuel Matthew Cordovaa, Joseph Benjamin Ilagana, 
+Jose Ramon Ilagana
+aBusiness Insights Laboratory for Development, Ateneo de Manila University, Loyola Heights, Quezon City 1108, Philippines
+Abstract 
+The study of demand in a dynamic and complex market economy has been a point of discussion in observing consumer behavior. 
+Entrepreneurs have struggled with market research as customer discovery can be costly and time-consuming. The concept behind 
+non-intuitive demand curves has increased the complexities of predicting demand. Large language models (LLMs) are observed 
+to be computational models for humans, having the innate capacity to simulate human behavior and decision-making. Through a 
+simulation model and the agent-based modeling system (ABMS) approach, entrepreneurs can utilize LLMs by using their ability 
+for customer discovery. By applying prompting frameworks and chain-of-thought (CoT), LLMs such as ChatGPT-3.5 can generate 
+customer willingness-to-pay (WTP) without fine-tuning the model. The study experimented on two business models that pertained 
+to Veblen demand and prompted GPT-3.5 to simulate WTP without any explicit references to “Veblen” to determine its inherent 
+knowledge. The results show that some customer simulations generated with GPT-3.5 appear to form a non-inverted demand curve. 
+Future studies may be considered to understand the LLM’s capability of perceiving socio-economic and psycho-emotional behavior 
+regarding product demand and consumption.
+© 2025 The Authors. Published by Elsevier B.V.
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the scientific committee of the CENTERIS - International Conference on ENTERprise Information 
+Systems / ProjMAN - International Conference on Project MANagement / HCist - International Conference on Health and Social Care 
+Information Systems and Technologies
+
+Zachary Matthew Alabastro  et al. / Procedia Computer Science 256 (2025) 28–35
+29
+1. Introduction
+Entrepreneurs who intend to enter an industry may seek relevant information on possible customer demand for their 
+products to strategize their decisions in unfamiliar conditions. However, traditional customer discovery methods such 
+as interviews, surveys, and focus group discussions (FGDs) are costly [10, 18-20]. The entrepreneur is then left with 
+limited options to create decisions in uncertain conditions [17]. Simulations have been proposed as an alternative to 
+traditional customer discovery [14], offering low-cost alternatives by operating with a given set of parameters [21]. 
+Exploratory research has been done on using the innate knowledge of large language models (LLMs) as the engine 
+behind simulations [14-15]. The agent-based modeling system (ABMS) handles interactions and relationships between 
+individual and autonomous agents [23, 34] and their corresponding entrepreneurial and market contexts. In essence, 
+the user provides the attributes given to these agents, sets the environment of the simulation, and allows the elements 
+to interact in a system with a given situation [33]. Along with ABMS, the generated human subjects were experimented 
+on according to different contexts [14, 23]. With the concept of homo silicus, LLMs are designed to serve as 
+computational models of humans and are trained to possess latent social information [25]. By utilizing the capabilities 
+of LLMs, entrepreneurs can determine if the generated behavior from the provided business concepts would reflect 
+the phenomenon of Veblen as well.
+The law of demand [1] serves as a focal point of discussion in scholarly discussion. It is composed of how people 
+view market prices given their scarce resources [2]. Economists typically model demand for a product as inversely 
+proportional to its price [1, 3]. However, some events show that certain industries can defy the theoretical rule [4]. 
+This “law of demand” is common but not universal. Certain types of goods display non-intuitive demand curves [9]. 
+This paper focuses specifically on “Veblen goods,” products for which the demand is directly proportional to its price 
+[5-6]. This characteristic is theorized to be caused by these goods being bought for status rather than for pure utility 
+[7-8]. Automobiles, luxury wines, and high-end watches are examples of Veblen goods [11-13]. Customer willingness-
+to-pay (WTP), in this context, is derived from the idea behind conspicuous consumption as a driver of luxurious appeal 
+[13].
+The study explores ChatGPT as a simulation tool for customer discovery, in the case of non-intuitive demand. By 
+inciting its self-learning capabilities, the LLM will be tested on its ability to learn from its outputs and reflections. 
+This can be observed by allowing it to generate customer personas through a set of provided attributes, reflect on the 
+business models, and simulate customer behavior and feedback.
+RQ1) What general approach may be taken to determine whether the LLM is inherently knowledgeable of Veblen 
+products and demand, and if it can simulate customer willingness-to-pay (WTP) on certain business models?
+RQ2) What are the notable considerations involved in using LLMs to simulate WTP in the context of Veblen or 
+non-intuitive demand curves?
+Note that the study does not assert that the simulations done through ChatGPT be considered replacements for real-
+world customer discovery. This acts as a mere proposal to see if the LLM can serve as an accurate co-pilot to business 
+founders on whether or not it understands such business models and consumer behavior. The first research discussion 
+point aims to identify ChatGPT’s capability of inherently identifying the category of business models, in this case, 
+Veblen goods. This can determine whether its data training on human behavior suffices for non-intuitive industries. It 
+seeks to understand if the LLM, provided with “some help,” or conservative prompt engineering, can generate outputs 
+with better accuracy.
+2. Review of related literature
+Economic theory suggests that the law of demand follows a complex and dynamic system of relationships [31]. In 
+the case of normal consumption, individuals prefer to purchase cheaper alternatives in a perfectly competitive market 
+[32]. As market demand can dictate the value of products, businesses experience the need to strengthen their pricing 
+decisions so as not to be ruled out by an elastic market [2]. In identifying how the economy functions in relation to 
+the circulation of value and money, economic theory explains such phenomena using statistical analysis, logical 
+reasoning, and models [31]. In [22, 24], demand for normal goods was observed to increase as the real income of the 
+consumer increased. Previously discussed in the theory behind Veblen, this correlates to the higher standard of living 
+from the prestige that product consumption brings to the consumer [12, 26]. Exploring how Veblen demand occurs 
+
+30
+Zachary Matthew Alabastro  et al. / Procedia Computer Science 256 (2025) 28–35
+consists of identifying specific industries that resemble the factors behind such movement. In the case of non-intuitive 
+demand curves, consumer products such as luxury accessories, clothes, and automobiles [12-13] exploit the Veblen 
+effect and exhibit conspicuous consumption. A research study in Russia [12] observed the growing trend behind car 
+loans as a result of higher income status. It presents how people have become more inclined to incur liabilities to 
+purchase “prestigious” vehicles, connecting to conspicuous consumption. In [26-27], consumers possess the urge to 
+keep in proximity with high-end brands to maintain their social status. Hence, the WTP for luxurious items generally 
+increases as the price increases, although extending beyond ceteris paribus, the inclusion of socio-economic status 
+and household income produce complexities with human behavior [11, 13].
+In the context of performing customer discovery through ABMS approach, prompting is a required task [14, 16, 
+25]. No-shot prompting requires the LLM to generate output based solely on the task description, refraining from 
+endowing it with any examples. No-shot prompting is dependent on specific situations, and requires the prompt to be 
+explicit, concrete, and complete on its request in order to avoid potential hallucinations [28-29]. Another recent study 
+[14] revealed that the zero-shot learning approach serves as a useful tool for entrepreneurs to determine the potential 
+WTP of consumers targeted by their businesses. Through the implementation of chain-of-thought (CoT) techniques, 
+the entrepreneur does not have to fine-tune the LLM, therefore avoiding larger costs in doing customer discovery [35]. 
+By providing the agents [23] with certain preferences, biases, economic, and social information, their behavior can be
+explored through simulations. A study [25] conducted using a hiring scenario illustrated the ability of the LLM to 
+replicate employee responses to wage or compensation rates. The user can utilize homo silicus to predict social 
+interactions, but only to a certain extent [30]. Although the model is pre-trained on large amounts of data, it cannot 
+immediately understand the underlying conditions and factors that human subjects perceive. In [14], a CoT prompting 
+framework was presented, generating customer WTP to a tutoring service business which resembles the general law 
+of demand in the context provided. However, this does not conclude that the LLM knows about the law of demand. If 
+the responses retrieved contain a certain level of similarity with real human responses, they can serve as cost-efficient 
+ways of reaching out to customers [14]. Though ChatGPT may simulate customer discovery and market validation 
+activities, its accuracy must further be analyzed.
+3. Methodology
+As done in [14], the study centers on simulating customer WTP to the provided business model and price points. 
+By giving ChatGPT a persona as a business analyst, it can generate a price sensitivity analysis, resembling customer 
+discovery. As an alternative to surveys and interviews, ChatGPT’s generative capability can decrease the duration of 
+retrieving information on customer behavior. In this study, the simulations will be done using OpenAI’s GPT-3.5 to 
+determine its inherent knowledge using its base and static information.
+The study conducted two types of prompting methods. The simulation utilized zero-shot inference, both with and 
+without CoT. The prompts were applied on high-end automobile and luxury handbag businesses, both of which have 
+illustrated conspicuous consumption in real-world markets. Getting the WTP corresponding to a certain price range 
+can help the user compute the most optimal price point for revenue generation. Experimenting on Veblen can assist 
+the entrepreneur in analyzing which price point can generate the most revenue whilst retaining the overall demand.
+An initial zero-shot approach, without CoT, was employed wherein all the information (the business models and 
+end-goal) were placed into a single prompt. Another method consisted of CoT, where the prompts were divided into 
+a series of steps for the LLM to effectively process and respond to each.
+Fig. 1. Proposed prompting framework using chain-of-thought (CoT) to conduct WTP and resemble Veblen demand.
+Figure 1 begins with asking GPT-3.5 to generate 30 personas from a provided list of attributes. The temperature 
+was set to “1” in order to produce a diverse set of generated human subjects. The following personas were generated 
+
+Zachary Matthew Alabastro  et al. / Procedia Computer Science 256 (2025) 28–35
+31
+in a JSON format, and a new set of agents was generated per trial. GPT-3.5 was then given a persona as a business 
+research analyst. By applying this, the LLM is able to determine its role and offer preliminary insights and analysis 
+on the generated human agents. These can be used to develop some relevance between consumers and the business 
+model to be provided. A business model was inputted containing the characteristics of a new family business in the 
+industries of luxury handbags and high-end automobiles. The LLM began analyzing the business model and offered 
+perspective as to its characteristics. The insights were used by ChatGPT as a recipe for the final goal of producing a 
+WTP curve. The CoT framework consisted of different patterns found in [16]. GPT-3.5 managed to reflect on the 
+prompts and given information, and used its own output to produce the final goal of the experiment. Through the 
+context, the LLM had enough time to think through clearly broken down steps. The researchers also asked the LLM 
+to provide a rationale on the WTP curve, yielding explanations related to market preferences and perceived value. To 
+begin the generation, the LLM was prompted to generate a randomized set of attributes for each persona with certain 
+parameters. The LLM was prompted to generate a list of attributes associated with customer’s spending behaviors, 
+with various options provided for each attribute. Then, the LLM was tasked of randomly selecting an option for each 
+of the attributes in this list whilst taking into considering the attribute dependencies and connections: (1) occupation, 
+(2) age, (3) gender, (4) education level, (5) preferred shopping method, (5) interests, (6) social media usage, (7) 
+residential area, (8) travel frequency, (9) social event participation, and (9) attitude towards sustainability.
+4. Results
+Two hypothetical business models [12, 26] were created to conduct the customer discovery simulation. The 
+products were chosen specifically for the purposes of the experiment. Other industries and contexts may resemble 
+Veblen or non-intuitive demand and normal demand curves [14].
+         Table 1. Business model parameters used as context for the simulation of Veblen goods.
+Business
+Parameters
+Business model #1: 
+Handbag business
+•
+It mainly creates iconic handbags, crafted with exquisite material and meticulous craftsmanship. 
+These handbags have a spacious design and allow for customizable options.
+•
+There are only a few supplies of these handbags and drops each month, which are shared through 
+print magazines, social media platforms such as Instagram and Facebook, and on our website.
+•
+The product cannot be bought online, the customer must schedule a viewing at one of our 
+boutiques to purchase the product.
+Business model #2: 
+Automobile business
+•
+It primarily creates sleek cars where performance meets elegance, blending classic style and 
+modern aerodynamics. Powered by high-performance engines that are fit for the city and winding 
+roads.
+•
+The business releases new models of the car every year, and the drops are shared through print 
+magazines, television advertisements, and on our website.
+•
+The product cannot be bought online, the customer must visit its stores located in urban cities to 
+try out or test the products.
+In conducting the experiment, the LLM was able to generate a WTP table on each of the given price points. The 
+WTP results were retrieved through table format. Five conversation trials were performed for each method. Table 1 
+represents the number of trials that depicted a Veblen demand curve using zero-shot inference, with and without CoT 
+prompting. This comparison aids in determining if CoT can produce more accurate simulations.
+Table 2. Number of Veblen demand curves generated based on 5 trials using zero-shot inference.
+Hypothetical business model
+Zero-shot, no CoT
+Zero-shot, with CoT
+Handbag business
+2 
+4 
+Automobile business
+3
+4
+Using zero-shot learning without CoT, the LLM generated 5 out of 10 Veblen demand curves. After applying CoT, 
+it generated 8 Veblen curves. The x-axis contains the price points of the business, and the y-axis consists of the number 
+of average WTP from the 30 generated subjects. The line graphs refer to the average number of yeses.
+
+32
+Zachary Matthew Alabastro  et al. / Procedia Computer Science 256 (2025) 28–35
+Fig. 2. WTP from the generated personas (left), and the demand curve (right) of handbags using zero-shot without CoT.
+Fig. 3. WTP from the generated personas (left), and the demand curve (right) of automobiles using zero-shot without CoT.
+Fig. 4. WTP from the generated personas (left), and the demand curve (right) of handbags using zero-shot with CoT.
+Fig. 5. WTP from the generated personas (left), and the demand curve (right) of automobiles using zero-shot without CoT.
+
+Zachary Matthew Alabastro  et al. / Procedia Computer Science 256 (2025) 28–35
+33
+Using the average data from the five trials, the highest price points generated the most revenue, except Figure 2. 
+Through prompting, the results show that GPT-3.5 can generate curves that resemble Veblen demand, but this cannot 
+conclude that the LLM has inherent knowledge of what such demand is in specific situations. The LLM also gave 
+insights on some possible ways to iterate the business models in line with the generated customer personas. By offering 
+perspective on better marketing and promotions, customer segmentation, in-store experience, and product 
+modifications, ChatGPT was able to include potentially novel ideas into the model, though its value is another 
+discussion. Prices were validated based on realistic price points in real-world businesses and markets [15]. In the 
+context of Veblen, examining high-end goods provides a foundation for the business models inputted in the prompts. 
+Searches from Google on “high-end handbags and automobiles” yielded links showing the following results:
+• Brand X1: $10,400 - $48,700 (Bags) | Brand X2: $1,260 - $42,000 (Bags)
+• Brand Y1: $243,360 - $575,445 (Automobiles) | Brand Y2: $143,900 - $330,600 (Automobiles)
+Various adjustments took place in order to maintain a “clean” prompting framework. This means that nowhere in 
+the prompt should any implications of Veblen occur. With regards to character attributes, the researchers removed 
+any total income or monetary attributes. By removing these, the LLM refrains from using income as a signal of 
+exclusivity, which could hinder the study from determining its inherent abilities. Interest in investments was also 
+removed to avoid connections with conspicuous consumption and collectibles. The business models were revised to 
+ensure that no explicit references or mentions of “luxury” were retained. As the goal was to see if GPT-3.5 could 
+simulate the WTP of a business that resembles Veblen, this word was omitted to produce more accuracy. Both models 
+had to be realistic, hence the characteristics were based on the perspective of a new business with limited supply due 
+to manufacturing constraints, amateur product descriptions, and new operating procedures. Finally, the occupation 
+choices, brand consciousness, and customer interests were revised so as not to imply the Veblen WTP. By keeping 
+the nature of the generated human subjects more organic, the LLM can replicate real-world simulations with fairness. 
+This can help determine ChatGPT’s viability as a cost-efficient alternative for customer discovery.
+5. Discussion
+Revisiting the research questions presented above, together with the developed context from the simulation, yield 
+the following results:
+RQ1) What general approach may be taken to determine whether the LLM is inherently knowledgeable of Veblen 
+products and demand, and if it can simulate customer willingness-to-pay (WTP) on certain business models?
+Using GPT-3.5, zero-shot inference and the CoT technique can serve as viable simulation strategies for economic 
+theory and WTP. However, the information presented must be realistic and clear to prevent hallucinations. It is 
+essential to propose a business model that is reasonable and realistic, along with a range of price points that resemble 
+real-world products. The generated agents should also resemble organic human subjects, rather than possess attributes 
+that can imply Veblen demand. By applying various prompt patterns, including persona, context manager, reflective, 
+recipe, and format, simulations can aid in decreasing the time it takes to perform customer discovery. GPT-3.5 contains 
+stock knowledge of pre-trained data on economic movements, helping it generate demand that resembles non-intuitive 
+demand curves. This does not mean that it fully understands Veblen products or non-intuitive demand, as noted in 
+economic theory. The user must be careful in prompting as not to “beg” the simulation of Veblen curves, or else the 
+results may be inaccurate. By integrating ABMS into manual market research, this can assist in developing a stronger 
+foundation for future entrepreneurs entering competitive industries.
+RQ2) What are the notable considerations involved in using LLMs to simulate WTP in the context of Veblen or 
+non-intuitive demand curves?
+The problem consists of non-intuitive demand curves, hence the traditional law of demand does not apply in the 
+simulations. This produces more intricacies with regards to the perceived behavior of the generated human subjects, 
+especially since psychological and economic factors play an important role in conspicuous consumption. The data 
+quality must be analyzed. It means that the generated personas should be clear, and that the randomized attributes 
+should be consistent with each other. For example, it sounds more reasonable for a young influencer to have a higher 
+social media usage than others. Moreover, the LLM is still constrained by hallucinations, hence its interpretation of 
+
+34
+Zachary Matthew Alabastro  et al. / Procedia Computer Science 256 (2025) 28–35
+the business model may be faulty at times. This is why some trials simulated normal demand curves rather than 
+Veblen. In a more subtle note, the order of prompts must be studied since changing such order may alter the way the 
+LLM perceives the problem. It may see the business model and personas in a broader sense, until a business analyst 
+persona is given to it. This might change the WTP curve as well. Ethical considerations must also be discussed, as 
+with further iterations. Given the possible use of private information in the simulations, it is imperative to implement 
+proper safeguards that protect user data. If in the case that the prompts produced optimal accuracy of simulating 
+customer discovery, the LLM should not hinder people from obtaining quality jobs related to market research. 
+Moreover, due to the datasets that the LLM’s were trained on, the LLM may perpetuate existing social biases that can 
+lead to discriminatory outcomes. It is crucial not to treat the simulation as absolute representations of customer 
+behavior. This simulation only serves as a co-pilot for entrepreneurs and managers to seek more cost-efficient and 
+faster ways to comprehend consumer behavior and WTP.
+6. Conclusion
+Results show that the use of LLMs, specifically ChatGPT, can simulate customer WTP to certain price ranges. This 
+refers to the use of prompt engineering and CoT on GPT-3.5’s homo silicus characteristic, allowing it to replicate 
+demand on the generated subjects. The results suggest that further iterations and studies must be performed to develop 
+new ideas on the LLM’s capability of understanding complex human behavior. Without the need to train the model, 
+GPT-3.5 can serve as a viable co-pilot to customer discovery for future business entrepreneurs, but more experiments 
+must be performed to improve on its accuracy, leading to lower costs.
+No customized pre-training or fine-tuning was conducted as the LLM relied on its stock knowledge to generate 
+customer discovery simulations. Moreover, the LLM was tested only with the use of zero-shot and CoT prompting, 
+as the simulation creators focused on ChatGPT’s inherent capability to detect and apply the theory of Veblen effects 
+onto the business. Due to the nature of prompting, the lack of exposure to task-specific data may cause possible 
+inaccuracies. Future work may include few-shot learning or fine-tuning in order for the LLM to generate more accurate 
+and context-based customer discovery simulations. The researchers refrained from any explicit references to “Veblen 
+goods” and the concept of non-intuitive demand curves in order to avoid helping the LLM, as the goal was to analyze 
+its inherent knowledge on producing Veblen demand and WTP. Economic theory and “law of demand,” or any 
+reference thereof, were omitted from the prompts to avoid further implications. However, by omitting these references, 
+there is a risk of inadequately assessing the LLM’s capability to respond to the unique characteristics of Veblen goods.
+Before applying prompt engineering in real-world settings, more research must be conducted on its ability to 
+determine price point rationality, such as whether a product is deemed too expensive or cheap. Psychological human 
+behavior can also be studied in the context of agentic and customer discovery simulation using ChatGPT as it can 
+exhibit the usefulness in understanding more complex consumer behavior. This can be tested on qualitative feedback 
+as it uses the LLM’s natural language processing (NLP) abilities. Future simulations can also be done using GPT-4, 
+which allows for real-time web search, which may aid in providing a better context for the given business. The idea 
+of Veblen can be tested on other industries as well. This could create a more refined insight on non-intuitive demand 
+curves, which can be useful for economic discussions.
+Acknowledgements
+We would like to thank the John Gokongwei School of Management, the Department of Quantitative Methods and 
+Information Technology, Business Insights Laboratory for Development, and the Ateneo University Research Council 
+of the Ateneo de Manila University for making our participation in this study and our future presentation of this study 
+possible.
+References
+[1] Becker, G., 2015. Law of Demand, in: Wiley Encyclopedia of Management. John Wiley & Sons, Ltd, pp. 1–2. 
+https://doi.org/10.1002/9781118785317.weom080026
+[2] Cunningham, A.C., O’Connor, N.J., 1968. Consumer reaction to retail price and display changes. European Journal of Marketing 2, 147–149.
+
+Zachary Matthew Alabastro  et al. / Procedia Computer Science 256 (2025) 28–35
+35
+[3] Weeraratne, N., 2016. A Comparative Analysis of the Effectiveness of Ceteris Paribus Assumption in Economic Models. International journal 
+of scientific research in science, engineering and technology 2, 506–509.
+[4] Vallejo, H., 2021. A Theorem of the Law of Demand. Universidad de los Andes Department of Economics Research Paper Series.
+[5] Gilady, L., 2018. The Price of Prestige.
+[6] Patsiaouras, G., Fitchett, J.A., 2012. The evolution of conspicuous consumption. Journal of Historical Research in Marketing 4, 154–176.
+[7] Wohlgenant, M.K., 1985. Flexible Consumer Demand Functions and Linear Estimation: Comment. American Journal of Agricultural 
+Economics 67, 141–142. 
+[8] Dou, J., Ye, B., 2018. Product Differentiation, Exclusivity, and Multi-purchasing. Annals of Economics and Finance 19, 301–318.
+[9] Goldstein, R.S., 2019. Economic Experiments in Honor of Thorstein Veblen.
+[10] Jayasundara, C.C., 2022. A Mixed Methods Research Study Exploring Customer Satisfaction With the Quality of Service in University 
+Libraries in Sri Lanka. Handbook of Research on Mixed Methods Research in Information Science.
+[11] Kasztalska, A.M., 2017. The Economic Theory Of Luxury Goods.
+[12] Kurysheva, A.A., Vernikov, A., 2021. Veblen Was Right: Conspicuous Consumption and Car Loans in Russia. AARN: Consumption & 
+Economic Exchange (Topic).
+[13] Fassnacht, M., Dahm, J.M., 2021. Growing luxury brands by increasing the price: does the Veblen effect exist. Luxury Research J.
+[14] Ilagan, J.B., Alabastro, Z.M., Basallo, C.L., Ilagan, J.R., n.d. Exploratory customer discovery through simulation using ChatGPT and prompt 
+engineering.
+[15] Cadotte, E.R., 2014. The use of simulations in entrepreneurship education: opportunities, challenges and outcomes.
+[16] White, J., Fu, Q., Hays, S., Sandborn, M., Olea, C., Gilbert, H., Elnashar, A., Spencer-Smith, J., Schmidt, D.C., 2023. A Prompt Pattern 
+Catalog to Enhance Prompt Engineering with ChatGPT. ArXiv abs/2302.11382.
+[17] Singh, B.K., 2016. The Lean Startup: How Today’s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses.
+[18] Bin, Z.Y., 2008. An Elementary Discovery of Optimizing Distribution in Exploiting Cost of Residential Products. Journal of Qingdao 
+Technological University.
+[19] Glackin, C.E.W., Adivar, B., 2023. Improving Location Decisions For Charity Retailers: Applying Operations Research and Customer 
+Discovery. Nonprofit and Voluntary Sector Quarterly 52, 1778–1798.
+[20] Cornford, S.L., Wheeler, A., Feather, M.S., Plante, J., 2022. Assurance Equations: A Cost and Criticality Model for Optimizing Quality 
+Assurance Surveillance. 2022 IEEE Aerospace Conference (AERO) 1–13. 
+[21] Peters, T.D., Stamp, P.L., 2020. The virtual workplace: The impact of embedding business simulations into classroom culture. Journal of 
+Education for Business 96, 373–380.
+[22] Fisher, F.M., 1990. Normal goods and the expenditure function. Journal of Economic Theory 51, 431–433. https://doi.org/10.1016/0022-
+0531(90)90027-H
+[23] Vezhnevets, A.S., Agapiou, J.P., Aharon, A., Ziv, R., Matyas, J., Du’enez-Guzm’an, E.A., Cunningham, W.A., Osindero, S., Karmon, D., 
+Leibo, J.Z., 2023. Generative agent-based modeling with actions grounded in physical, social, or digital space using Concordia. ArXiv 
+abs/2312.03664.
+[24] Caldwell, L., 2019. Cognitive goods, normal goods and the market for information.
+[25] Horton, J.J., 2023. Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus? SSRN Electronic 
+Journal.
+[26] Peishan, S., Yufei, W., 2021. Luxury Brands Culture and Marketing: How Does Chanel Stay popular. Proceedings of the 2021 3rd 
+International Conference on Economic Management and Cultural Industry (ICEMCI 2021).
+[27] Araştırması, A., Örneği, K., Sabuncuoğlu, A., Özdemir, N.N., 2018. A Field Study On Conspicuous Consumption Tendencies Of Youth : 
+Konya Example.
+[28] Yong, G., Jeon, K., Gil, D., Lee, G., 2022. Prompt engineering for zero‐shot and few‐shot defect detection and classification using a visual‐
+language pretrained model. Computer‐Aided Civil and Infrastructure Engineering 38, 1536–1554.
+[29] Friel, R., Sanyal, A., 2023. Chainpoll: A high efficacy method for LLM hallucination detection. ArXiv abs/2310.18344. 
+[30] Manning, B.S., Zhu, K., Horton, J.J., 2024. Automated Social Science: Language Models as Scientist and Subjects.
+[31] Asimakopulos, A., 1979. An introduction to economic theory: Microeconomics.
+[32] Goodwin, N., Harris, J.M., Nelson, J.A., Rajkarnikar, P.J., Roach, B.A., Torras, M., 2018. Perfectly Competitive Markets. Principles of 
+Economics in Context.
+[33] Sabzian, H., Shafia, M.A., Maleki, A., Hashemi, S.M.S., Baghaei, A., Gharib, H., 2019. Theories and Practice of Agent based Modeling: 
+Some practical Implications for Economic Planners. arXiv: Theoretical Economics.
+[34] Macal, C.M., North, M.J., 2009. Agent-based modeling and simulation, in: Proceedings of the 2009 Winter Simulation Conference (WSC). 
+pp. 86–98. https://doi.org/10.1109/WSC.2009.5429318
+[35] Wei, J., Wang, X., Schuurmans, D., Bosma, M., Ichter, B., Xia, F., Chi, E., Le, Q., Zhou, D., 2023. Chain-of-Thought Prompting Elicits 
+Reasoning in Large Language Models.

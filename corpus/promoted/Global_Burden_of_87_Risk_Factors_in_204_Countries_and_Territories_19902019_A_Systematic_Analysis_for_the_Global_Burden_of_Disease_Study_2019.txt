@@ -1,0 +1,3998 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+10-17-2020 
+Global Burden of 87 Risk Factors in 204 Countries and Territories, 
+Global Burden of 87 Risk Factors in 204 Countries and Territories, 
+1990–2019: A Systematic Analysis for the Global Burden of 
+1990–2019: A Systematic Analysis for the Global Burden of 
+Disease Study 2019 
+Disease Study 2019 
+Christopher J L Murray 
+University of Washington 
+Veincent Christian F. Pepito 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, vpepito@ateneo.edu 
+GBD 2019 Risk Factors Collaborators 
+938 co-authors 
+various institutions 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Diseases Commons, Health Policy Commons, and the Public Health Commons 
+Custom Citation 
+Custom Citation 
+GBD 2019 Risk Factors Collaborators. (2020). Global burden of 87 risk factors in 204 countries and 
+territories, 1990–2019: A systematic analysis for the Global Burden of Disease Study 2019. The Lancet, 
+396(10258), 1223–1249. https://doi.org/10.1016/S0140-6736(20)30752-2 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact research@ateneo.edu. 
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1223
+Global burden of 87 risk factors in 204 countries and 
+territories, 1990–2019: a systematic analysis for the Global 
+Burden of Disease Study 2019
+GBD 2019 Risk Factors Collaborators*
+Summary
+Background Rigorous analysis of levels and trends in exposure to leading risk factors and quantification of their effect on 
+human health are important to identify where public health is making progress and in which cases current efforts are 
+inadequate. The Global Burden of Diseases, Injuries, and Risk Factors Study (GBD) 2019 provides a standardised and 
+comprehensive assessment of the magnitude of risk factor exposure, relative risk, and attributable burden of disease.
+Methods GBD 2019 estimated attributable mortality, years of life lost (YLLs), years of life lived with disability (YLDs), 
+and disability-adjusted life-years (DALYs) for 87 risk factors and combinations of risk factors, at the global level, 
+regionally, and for 204 countries and territories. GBD uses a hierarchical list of risk factors so that specific risk factors 
+(eg, sodium intake), and related aggregates (eg, diet quality), are both evaluated. This method has six analytical steps. 
+(1) We included 560 risk–outcome pairs that met criteria for convincing or probable evidence on the basis of research 
+studies. 12 risk–outcome pairs included in GBD 2017 no longer met inclusion criteria and 47 risk–outcome pairs for 
+risks already included in GBD 2017 were added based on new evidence. (2) Relative risks were estimated as a function 
+of exposure based on published systematic reviews, 81 systematic reviews done for GBD 2019, and meta-regression. 
+(3) Levels of exposure in each age-sex-location-year included in the study were estimated based on all available data 
+sources using spatiotemporal Gaussian process regression, DisMod-MR 2.1, a Bayesian meta-regression method, or 
+alternative methods. (4) We determined, from published trials or cohort studies, the level of exposure associated with 
+minimum risk, called the theoretical minimum risk exposure level. (5) Attributable deaths, YLLs, YLDs, and DALYs 
+were computed by multiplying population attributable fractions (PAFs) by the relevant outcome quantity for each age-
+sex-location-year. (6) PAFs and attributable burden for combinations of risk factors were estimated taking into account 
+mediation of different risk factors through other risk factors. Across all six analytical steps, 30 652 distinct data sources 
+were used in the analysis. Uncertainty in each step of the analysis was propagated into the final estimates of 
+attributable burden. Exposure levels for dichotomous, polytomous, and continuous risk factors were summarised 
+with use of the summary exposure value to facilitate comparisons over time, across location, and across risks. Because 
+the entire time series from 1990 to 2019 has been re-estimated with use of consistent data and methods, these results 
+supersede previously published GBD estimates of attributable burden.
+Findings The largest declines in risk exposure from 2010 to 2019 were among a set of risks that are strongly linked to 
+social and economic development, including household air pollution; unsafe water, sanitation, and handwashing; and 
+child growth failure. Global declines also occurred for tobacco smoking and lead exposure. The largest increases in 
+risk exposure were for ambient particulate matter pollution, drug use, high fasting plasma glucose, and high body-
+mass index. In 2019, the leading Level 2 risk factor globally for attributable deaths was high systolic blood pressure, 
+which accounted for 10·8 million (95% uncertainty interval [UI] 9·51–12·1) deaths (19·2% [16·9–21·3] of all deaths 
+in 2019), followed by tobacco (smoked, second-hand, and chewing), which accounted for 8·71 million (8·12–9·31) 
+deaths (15·4% [14·6–16·2] of all deaths in 2019). The leading Level 2 risk factor for attributable DALYs globally in 2019 
+was child and maternal malnutrition, which largely affects health in the youngest age groups and accounted for 
+295 million (253–350) DALYs (11·6% [10·3–13·1] of all global DALYs that year). The risk factor burden varied 
+considerably in 2019 between age groups and locations. Among children aged 0–9 years, the three leading detailed 
+risk factors for attributable DALYs were all related to malnutrition. Iron deficiency was the leading risk factor for those 
+aged 10–24 years, alcohol use for those aged 25–49 years, and high systolic blood pressure for those aged 50–74 years 
+and 75 years and older.
+Interpretation Overall, the record for reducing exposure to harmful risks over the past three decades is poor. Success 
+with reducing smoking and lead exposure through regulatory policy might point the way for a stronger role for public 
+policy on other risks in addition to continued efforts to provide information on risk factor harm to the general public.
+Funding Bill & Melinda Gates Foundation.
+Copyright © 2020 The Author(s). Published by Elsevier Ltd. This is an Open Access article under the CC BY 4.0 license.
+Lancet 2020; 396: 1223–49
+*For the list of Collaborators see 
+Viewpoint Lancet 2020; 
+396: 1135–59
+Correspondence to:
+Prof Christopher J L Murray, 
+Institute for Health Metrics and 
+Evaluation, University of 
+Washington, Seattle, WA 98195, 
+USA 
+cjlm@uw.edu
+
+Global Health Metrics
+1224	
+www.thelancet.com   Vol 396   October 17, 2020
+Introduction
+The mechanism for much of disease and injury preven­
+tion is through modifying environmental, occupational, 
+behavioural, and metabolic risk factors. Other pathways, 
+such as vaccination or addressing social determinants 
+of health, are crucially important, but a substantial 
+component of public health has targeted modifying the 
+aforementioned risk factors. Whether the risk factor is 
+targeted through public policy such as taxation or 
+regulation, through programmes such as water supply 
+improvement, or primary care advice and pharmacological 
+intervention, it is essential to track progress on risk 
+exposure. Which risk factors are declining, stagnating, or 
+even increasing gives insights into where current efforts 
+are working or are insufficient. Understanding where the 
+promise of prevention is being realised might generate 
+lessons that can be applied to other risks in which progress 
+is slow. Tracking the burden attributable to risk exposure, 
+measured by deaths, years of life lost (YLLs), years lived 
+with disability (YLDs), or disability-adjusted life-years 
+(DALYs), can also help governments, donor agencies, 
+international organisations, and civil society organisations 
+to identify new priorities.1–3
+To help track risk exposures and the burden 
+attributable to these exposures, many studies are pub­
+lished each year on the burden of specific risks, often 
+in specific countries or regions.4–7 To our knowledge, 
+the only effort to examine attributable burden with 
+standardised methods across a wide set of risk factors 
+spanning all countries is the Global Burden of Diseases, 
+Injuries, and Risk Factors Study (GBD).8–12 Many choices 
+go into the comparable quantification of the burden of 
+risk factors; GBD provides a rules-based approach to 
+evidence synthesis that follows the Guidelines on 
+Accurate and Transparent Health Estimates Reporting.13 
+Comparable quantification across risks over time 
+and across populations facilitates identi­fying relative 
+importance and how population health risks are 
+evolving over time. GBD also provides a framework 
+to understand both the trends in risk exposure and 
+the trends in burden attributable to risks. Quantifying 
+and reporting both exposure and attributable burden is 
+important because exposure might be increasing and 
+attributable burden decreasing if other drivers of the 
+underlying outcomes are declining at a fast enough 
+rate.
+Research in context
+Evidence before this study
+The Global Burden of Diseases, Injuries, and Risk Factors Study 
+(GBD) 2017 provided the most recent assessment of deaths, 
+years of life lost because of premature mortality, years of life 
+lived with disability, and disability-adjusted life-years 
+attributable to metabolic, environmental and occupational, 
+and behavioural risk factors. GBD 2017 provided estimates from 
+1990 to 2017 for 195 countries and territories. Many reports 
+explore the burden of disease that can be attributed to a specific 
+risk factor in a specific country or territory, region, or globally, 
+but none attempts to assess an extensive list of risk factors in all 
+countries and regions.
+Added value of this study
+GBD 2019 advances the technical quantification of attributable 
+burden in 12 ways. (1) In support of the agreement between GBD 
+and WHO, nine new countries have been added to the analysis: 
+Cook Islands, Monaco, San Marino, Nauru, Niue, Palau, Saint Kitts 
+and Nevis, Tokelau, and Tuvalu. (2) Subnational assessments for 
+Italy, Nigeria, Pakistan, the Philippines, and Poland have been 
+added to GBD 2019. (3) High and low non-optimal temperatures 
+have been added as risk factors (54 new risk–outcome pairs). 
+(4) For 81 risk–outcome pairs, new systematic reviews have been 
+done as part of GBD 2019. (5) For 139 risk–outcome pairs, 
+dose–response meta-regressions have been done to evaluate if 
+the relationship between exposure and relative risk might not be 
+adequately captured by assuming a log-linear relationship 
+between risk and per unit increase in exposure. (6) On the basis of 
+the systematic reviews and dose–response meta-regression, 
+12 risk–outcome pairs have been excluded from GBD 2019 
+because they no longer met inclusion criteria. (7) On the basis of 
+the systematic reviews and meta-regressions, 47 new risk–
+outcome pairs have been included for risks that were previously 
+included. This includes outcomes linked to low birthweight and 
+short gestational age as intermediate outcomes linked to 
+particulate matter with a diameter smaller than 2·5 μm (PM2·5), 
+which has increased the burden attributable to PM2·5. (8) New 
+cohorts, trials, and case-control studies have been added for the 
+assessment of risk functions. (9) New sources have been added 
+to the analysis of risk factor exposure by age, sex, and location. 
+(10) Corrections for non-reference method exposure 
+measurements have been revised using network or related 
+meta-regression. (11) For dietary risks, the theoretical minimum 
+risk exposure level (TMREL) has been revised based on the new 
+systematic reviews. (12) The distribution of alcohol use across 
+individuals has been revised to better capture the asymmetric 
+nature of the distribution. In addition to the technical 
+improvements in each step of the quantification of risk factor 
+exposure, relative risk, TMREL, and attributable burden, in this 
+study we have focused attention on the broad trends in risk 
+exposure by computing summary exposure values for 
+aggregations of risk factors. Isolating the long-term global and 
+national trends in risk exposure reveals in which cases the world 
+has been successful in reducing exposure to harmful risks.
+Implications of all the available evidence
+Improved analysis of risk exposure and burden attributable to 
+risk factors at the national, regional, and global level can help to 
+focus attention on risks for which exposure is increasing and in 
+which locations. This quantification is an essential input into 
+public health prioritisation and evaluation of programme 
+success.
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1225
+In this study, we present new or updated results for 
+the quantification of 560 risk–outcome pairs including 
+updated data for exposure, updated data for relative risks, 
+methods innovation in evaluating risk-exposure functions, 
+and the addition of two new risk factors—high and 
+low non-optimal temperatures. In addition to providing 
+quanti­fication of exposure and attributable burden in 
+204 locations over the period 1990–2019, we used summary 
+exposure values (SEVs) for aggregates of risk factors to 
+understand where public health is making progress 
+tackling the major environmental, occupational, beha­
+vioural, and metabolic risk factors, and where it is not.
+Methods
+Overview
+The GBD 2019 estimation of attributable burden fol­
+lowed the general framework established for comparative 
+risk assessment (CRA)14,15 used in GBD since 2002. Here, 
+we provide a general overview and details on major 
+innovations since GBD 2017. More detailed methods are 
+available in appendix 1. CRA can be divided into six key 
+steps: inclusion of risk–outcome pairs in the analysis; 
+estimation of relative risk as a function of exposure; 
+estimation of exposure levels and distributions; deter­
+mination of the counterfactual level of exposure, the level 
+of exposure with minimum risk called the theoretical 
+minimum risk exposure level (TMREL); computation of 
+population attributable fractions and attributable burden; 
+and estimation of mediation of different risk factors 
+through other risk factors such as high body-mass index 
+(BMI) and ischaemic heart disease, mediated through 
+elevated systolic blood pressure (SBP), elevated fasting 
+plasma glucose (FPG), and elevated LDL cholesterol, to 
+compute the burden attributable to various combinations 
+of risk factors.10
+Geographical units, age groups, and time periods
+GBD 2019 estimated prevalence of exposure and attri­
+butable deaths, YLLs, YLDs, and DALYs for 23 age 
+groups; males, females, and both sexes combined; 
+and 204 countries and territories that were grouped 
+into 21 regions and seven super-regions. GBD 2019 
+includes subnational analyses for Italy, Nigeria, Pakistan, 
+the Philippines, and Poland, and 16 countries previously 
+estimated at subnational levels (Brazil, China, Ethiopia, 
+India, Indonesia, Iran, Japan, Kenya, Mexico, New 
+Zealand, Norway, Russia, South Africa, Sweden, the UK, 
+and the USA). All subnational analyses are at the 
+first level of administrative organi­sation within each 
+country except for New Zealand (by Māori ethnicity), 
+Sweden (by Stockholm and non-Stockholm), the UK 
+(by local government authorities), and the Philippines 
+(by province). In this publication, we present subnational 
+estimates for Brazil, India, Indonesia, Japan, Kenya, 
+Mexico, Sweden, the UK, and the USA; given space 
+constraints, these results are presented in appendix 2. 
+For this cycle, nine countries and territories (Cook 
+Islands, Monaco, San Marino, Nauru, Niue, Palau, 
+Saint Kitts and Nevis, Tokelau, and Tuvalu) were added, 
+such that the GBD location hierarchy now includes 
+all WHO member states. These new locations were 
+previously included in regional totals by assuming 
+that age-specific rates were equal to the regional rates. 
+At the most detailed level, we generated estimates 
+for 990 locations. The GBD diseases and injuries 
+analytical framework generated estimates for every year 
+from 1990 to 2019.
+GBD risk factor hierarchy
+Individual risk factors such as low birthweight or 
+ambient ozone pollution are evaluated in the GBD CRA. 
+In addition, there has been policy interest in groups of 
+risk factors such as household air pollution combined 
+with ambient particulate matter. To accommodate these 
+diverse interests, the GBD CRA has a risk factor hier­
+archy. Level 1 risk factors are behavioural, environmental 
+and occupational, and metabolic; Level 2 risk factors 
+include 20 risks or clusters of risks; Level 3 includes 
+52 risk factors or clusters of risks; and Level 4 includes 
+69 spe­cific risk factors. Counting all specific risk factors 
+and aggregates computed in GBD 2019 yields 87 risks or 
+clusters of risks. For a full list of risk factors by level, see 
+appendix 1 (section 5, table S2).
+Determining the inclusion of risk–outcome pairs in GBD
+Since GBD 2010, we have used the World Cancer Research 
+Fund criteria for convincing or probable evidence of risk–
+outcome pairs.16 For GBD 2019, we completely updated our 
+systematic reviews for 81 risk–outcome pairs. Preferred 
+Reporting Items for Systematic Reviews and Meta-
+Analyses flowcharts on these reviews are available in 
+appendix 1 (section 4). Convincing evidence requires more 
+than one study type, at least two cohorts, no substantial 
+unexplained heterogeneity across studies, good-quality 
+studies to exclude the risk of confounding and selection 
+bias, and biologically plausible dose–response gradients. 
+For GBD, for a newly proposed or evaluated risk–outcome 
+pair, we additionally required that there was a significant 
+association (p<0·05) after taking into account sources of 
+potential bias. To avoid risk–outcome pairs repetitively 
+entering and leaving the analysis with each cycle of GBD, 
+the criteria for exclusion requires that with the available 
+studies the association has a p value greater than 0·1. 
+On the basis of these reviews and meta-regressions, 
+12 risk–outcome pairs included in GBD 2017 were excluded 
+from GBD 2019: vitamin A deficiency and lower respiratory 
+infections; zinc deficiency and lower respiratory infections; 
+diet low in fruits and four out­comes: lip and oral cavity 
+cancer, nasopharynx cancer, other pharynx cancer, and 
+larynx cancer; diet low in whole grains and two outcomes: 
+intracerebral haemorrhage and subarachnoid haemor­
+rhage; intimate partner violence and maternal abortion 
+and miscarriage; and high FPG and three outcomes: 
+chronic kidney disease due to hyper­tension, chronic 
+See Online for appendix 2
+See Online for appendix 1
+
+Global Health Metrics
+1226	
+www.thelancet.com   Vol 396   October 17, 2020
+kidney disease due to glomerulonephritis, and chronic 
+kidney disease due to other and unspecified causes. 
+In addition, on the basis of multiple requests to begin 
+capturing important dimensions of climate change into 
+GBD, we evaluated the direct relationship between high 
+and low non-optimal temperatures on all GBD disease and 
+injury outcomes. Rather than rely on a heterogeneous 
+literature with a small number of studies examining 
+relationships with specific diseases and injuries, we ana­
+lysed individual-level cause of death data for all locations 
+with available information on daily temperature, location, 
+and Inter­national Classification of Diseases-coded cause of 
+death. These data totalled 58·9 million deaths covering 
+eight countries. On the basis of this analysis, 27 GBD 
+cause Level 3 outcomes met the inclusion criteria for each 
+non-optimal risk factor (appendix 1 section 2.2.1) and were 
+included in this analysis. Other climate-related relation­
+ships, such as between precipitation or humidity and 
+health outcomes, have not yet been evaluated.
+Estimating relative risk as a function of exposure for 
+each risk–outcome pair
+In GBD, we use published systematic reviews and for 
+GBD 2019, we updated these where necessary to include 
+any new studies that became available before Dec 31, 2019. 
+We did meta-analyses of relative risks from these studies 
+as a function of exposure (appendix 1 sections 2.2.2, 4). For 
+GBD 2019, 81 new systematic reviews were done, including 
+for 44 diet risk–outcome pairs. To allow for risk functions 
+that might not be log-linear, we relaxed the meta-regres­
+sion assumptions to allow for monotonically increasing 
+or decreasing but potentially non-linear func­tions for 
+147 risk–outcome pairs. Appendix 1 (section 2) provides the 
+mathematical and computational details for how we 
+implemented this approach for meta-regression. 218 risk–
+outcome pairs were estimated assuming log-linear 
+relationships. For 126 risk–out­come pairs, exposure was 
+dichotomous or polytomous. For 37 risk–outcome pairs, 
+the population attributable fractions were assumed by 
+definition to be 100% (eg, 100% of diabetes is assumed to 
+be, by definition, related to elevated FPG). For 32 risk–
+outcome pairs, other approaches were used that reflected 
+the nature of the evidence that has been collected for 
+those risks (appendix 1 section 4). For risks that affect 
+cardiovascular outcomes, we adjusted relative risks by age 
+such that they follow the empirical pattern of attenuation 
+seen in published studies for elevated SBP, FPG, and LDL 
+cholesterol.
+Estimation of the distribution of exposure for each risk 
+by age-sex-location-year
+For each risk factor, we systematically searched for 
+pub­lished studies, household surveys, censuses, admin­
+istrative data, ground monitor data, or remote sensing 
+data that could inform estimates of risk exposure. To 
+estimate mean levels of exposure by age-sex-location-year, 
+specific methods varied across risk factors (appendix 1 
+sections 2.1, 4). For many risk factors, exposure data were 
+modelled using either spatiotemporal Gaussian process 
+regression or DisMod-MR 2.1,17,18 which are Bayesian sta­
+tistical models developed over the past 12 years for GBD 
+analyses. For most risk factors, the distribution of exposure 
+across individuals was estimated by modelling a measure 
+of dispersion, usually the SD, and fitting an ensemble of 
+parametric distributions to the predicted mean and SD. 
+Ensemble distributions for each risk were estimated 
+based on individual-level data. Details for each risk factor 
+modelling for mean, SD, and ensemble distribution are 
+available in appendix 1 (section 4). Because of the strong 
+dependency between birthweight and gestational age, 
+exposure for these risks was modelled as a joint distribution 
+using the copula method.19
+In many cases, exposure data were available for the 
+reference method of ascertainment and for alternative 
+methods, such as tobacco surveys reporting daily smoking 
+versus total smoking; in these cases, we esti­mated the 
+statistical relationship between the reference and alter­
+native methods of ascertainment using network meta-
+regression and corrected the alternative data using this 
+relationship.
+Determining the TMREL
+For harmful risk factors with monotonically increasing 
+risk functions, the theoretical minimum risk level was 
+set to 0. For risk factors with J-shaped or U-shaped risk 
+functions, such as for sodium and ischaemic heart 
+disease or BMI and ischaemic heart disease, the TMREL 
+was determined as the low point of the risk function. 
+When the bottom of the risk function was flat or 
+poorly determined, the TMREL uncertainty interval (UI) 
+captured the range over which risks are indistinguishable. 
+For protective risks with monotonically declining risk 
+functions with exposure, namely risk factors where 
+exposure lowers the risk of an outcome, the challenge is 
+selecting the level of exposure with the lowest level of 
+risk strongly supported by the available data. Projecting 
+beyond the level of exposure supported by the available 
+studies could exaggerate the attributable burden for a 
+risk factor. In these cases, for each risk–outcome pair, we 
+determined the exposure level at the 85th percentile of 
+exposure in the cohorts or trials used in the risk meta-
+regression. We then generated the TMREL by weighting 
+each risk–outcome pair by the relative global magnitude 
+of each outcome. Appendix 1 (section 2.4 and 4) provides 
+details on the TMREL estimation for each risk.
+Estimation of the population attributable fraction and 
+attributable burden
+For each risk factor j, we computed the population 
+attributable fraction (PAF) by age-sex-location-year using 
+the following general formula for a continuous risk: 
+PAFjoasgt= ∫x=lRRjoasg(x)Pjasgt(x)dx – RRjoasg(TMRELjas)
+u
+∫x = lRRjoasg(x)Pjasgt(x)dx
+u
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1227
+where PAFjoasgt is the PAF for cause o, for age group a, 
+sex s, location g, and year t; RRjoasg(x) is the relative risk as 
+a function of exposure level x for risk factor j, for cause o 
+controlled for confounding, age group a, sex s, and 
+location g with the lowest level of observed exposure as l 
+and the highest as u; Pjasgt(x) is the distribution of exposure 
+at x for age group a, sex s, location g, and year t; and 
+TMRELjas is the TMREL for risk factor j, age group a, and 
+sex s. Where risk exposure is dichotomous or polytomous, 
+this formula simplifies to the discrete form of the 
+equation.
+Estimation of the PAF took into account the risk 
+function and the distribution of exposure across 
+individuals in each age-sex-location-year. By drawing 
+1000 samples from the risk function, 1000 distributions 
+of 
+exposure 
+for 
+each 
+age-sex-location-year, 
+and 
+1000 samples from the TMREL, we propagated all of 
+these sources of uncertainty into the PAF distri­butions. 
+PAFs were also applied at the draw level to the uncer­
+tainty distributions of each associated outcome for that 
+age-sex-location-year.
+Estimating the PAF and attributable burden for 
+combinations of risk factors
+For the estimation of each specific risk factor, the 
+counterfactual distribution of exposure is the TMREL 
+for that specific risk with no change in other risk factors. 
+Thus, the sum of these risk-specific estimates of attri­
+butable burden can exceed 100% for some causes, such 
+as cardiovascular diseases. It is also useful to assess the 
+PAF and attributable burden for combinations of 
+risk factors, such as all diet components together or 
+household air and ambient particulate matter pollution. 
+To estimate the combined effects of risk factors, we 
+should take into account how one risk factor might be 
+mediated through another (eg, the effect of fruit intake 
+might be partly mediated through fibre intake). We used 
+the mediation matrix as developed in GBD 201712 to try 
+to correct for overestimation of the PAF and the attri­
+butable burden for combinations of risks if we were to 
+simply assume independence without any mediation. 
+Appendix 1 (section 5, table S6) provides the estimated 
+mediation matrix.
+Summary exposure value
+As in previous rounds of GBD, we summarised expo­
+sure distributions for dichotomous, polytomous, and 
+continuous risk factors using the SEV. The SEV 
+compares the distribution of excess risk times exposure 
+level to a population where everyone is at maximum 
+risk.
+For a given risk r and outcome c pair where RRmax is 
+the relative risk at the 99th percentile of the global 
+distribution of exposure. We then averaged across 
+outcomes to compute the SEV for a given risk as
+where N(c) is the total number of outcomes for a risk. 
+The SEV is effectively excess risk-weighted prevalence, 
+which allows for comparisons across different types of 
+exposures. Maximum risk in the denominator of the SEV 
+is determined by the relative risk at the 99th percentile of 
+the global distribution of exposure. The SEV is on a 
+0–100 scale where 100 means the entire population is at 
+maximum risk and 0 means everyone in the population 
+is at minimum risk. We computed age-standardised 
+SEVs by age-standardising age-specific SEVs across the 
+age groups in which that risk factor was evaluated; this 
+method is a change from GBD 2017 in which age-
+standardisation included age groups in which the risk 
+was not evaluated. For example, the SEV for low 
+birthweight is now age-standardised across age groups 
+0–6 days to 7–27 days.
+To estimate SEVs for groups of risk factors, we first 
+estimated the value of RR2 without mediation through 
+risk 1 (RR2/1).
+where RR2 is the relative risk of risk factor 2 and MF2/1 is 
+the mediation factor, or the proportion of the risk of risk 
+factor 2 that is mediated through risk factor 1. We then 
+computed the PAF using the non-mediated relative risk 
+(RR1/2) and computed the joint PAF as
+We cannot simply multiply RRmax values used for the 
+SEV of each component risk as this would exaggerate 
+the joint RRmax. We approximated the 99th percentile of 
+risk for the combination of risk factors by taking the 
+geometric mean of the ratio between the individual 
+risk maximum risk and the individual risk global mean 
+risk and multiplied that by the global mean joint risk. 
+Formally,
+where N(r) is the total number of risks. 
+Risk-deleted death rates
+We computed risk-deleted death rates as the death 
+rates that would be observed if all risk factors were set 
+to their respective TMRELs. This was calculated as 
+the death rate in each age-sex group multiplied by 
+SEVrc= ∫x=lP(x)RR(x)dx – 1
+u
+RRmax – 1
+SEVr= 1
+N(c)∑
+c
+SEVrc
+RR2/1=MF2/1(RR2 − 1) + 1
+PAF1..j =1 −∏
+n
+j=1
+(1 – PAFj).
+∏
+r RRglobal mean∏
+r
+RRmax
+RRglobal mean
+1
+N(r)
+—
+—
+
+Global Health Metrics
+1228	
+www.thelancet.com   Vol 396   October 17, 2020
+1 minus the all-risk PAF for that age-sex group in each 
+location.
+Role of the funding source
+The funders of the study had no role in study design, 
+data collection, data analysis, data interpretation, or 
+writing of the report. The corresponding author had full 
+access to all the data in the study and had final 
+responsibility for the decision to submit for publication.
+Results
+Global exposure to risks
+The table shows the trends in risk exposure for each risk 
+factor at the global level over two time intervals: the full 
+duration of the study, 1990–2019, and the past decade, 
+2010–19. On the basis of this table, we can divide risks 
+into three groups based on the percentage change in 
+the global SEV from 2010 to 2019: substantial declines 
+(annual rate of change larger than –0·5%), substantial 
+increases (annual rate of change greater than 0·5%) and 
+the remainder of risks with either non-significant rates 
+of change or significant rates of change between –0·5% 
+and 0·5%. The declining risks fall into two categories. 
+First, a set of risks that are strongly linked to social 
+and economic development, measured by the Socio-
+demographic Index (SDI): household air pollution; 
+unsafe water, sanitation, and handwashing; child growth 
+failure; vitamin A deficiency; and zinc deficiency. The 
+second set of declining risks includes tobacco smoking 
+and lead, which historically have not been negatively 
+correlated with SDI. These risks could in fact increase as 
+countries and territories increase SDI, at least for a phase 
+in the development process. For a long list of risk factors, 
+including some large risks, the annual rate of change 
+was either statistically insignificant (p>0·05) or the 
+annual rate of change was between –0·5% and 0·5% per 
+SEV 1990
+SEV 2010
+SEV 2019
+ARC 1990–2019
+ARC 2010–19
+All risk factors
+23·09 (20·22 to 25·67)
+21·21 (18·04 to 24·26)
+21·22 (18·05 to 24·42)
+–0·29% (-0·46 to -0·15)*
+0·00% (–0·18 to 0·20)
+Environmental and occupational risks
+52·55 (48·66 to 55·92)
+48·50 (44·44 to 52·15)
+45·36 (41·16 to 49·19)
+–0·51% (–0·62 to –0·40)*
+–0·74% (–0·88 to –0·61)*
+Unsafe water, sanitation, and 
+handwashing
+55·40 (54·39 to 56·61)
+49·70 (48·99 to 50·47)
+47·13 (46·51 to 47·84)
+–0·56% (–0·61 to –0·51)*
+–0·59% (–0·67 to –0·52)*
+Unsafe water source
+42·78 (41·06 to 44·39)
+36·29 (34·57 to 37·92)
+32·74 (30·82 to 34·41)
+–0·92% (–1·08 to –0·76)*
+–1·14% (–1·52 to –0·77)*
+Unsafe sanitation
+56·28 (54·14 to 58·38)
+38·21 (35·98 to 40·80)
+28·93 (26·81 to 31·24)
+–2·29% (–2·52 to –2·07)*
+–3·09% (–3·68 to –2·47)*
+No access to handwashing facility
+36·77 (36·54 to 37·03)
+34·05 (33·80 to 34·32)
+32·19 (31·92 to 32·48)
+–0·46% (–0·50 to –0·42)*
+–0·63% (–0·70 to –0·56)*
+Air pollution
+45·11 (32·85 to 56·03)
+38·36 (28·33 to 48·55)
+34·68 (25·76 to 44·37)
+–0·91% (–1·21 to –0·60)*
+–1·12% (–1·48 to –0·81)*
+Particulate matter pollution
+44·22 (31·97 to 55·06)
+37·56 (27·57 to 47·75)
+33·94 (25·11 to 43·56)
+–0·91% (–1·24 to –0·61)*
+–1·13% (–1·48 to –0·81)*
+Ambient particulate matter pollution
+15·65 (10·62 to 21·58)
+22·98 (18·28 to 27·62)
+26·22 (21·57 to 30·50)
+1·78% (0·95 to 2·71)*
+1·46% (0·81 to 2·10)*
+Household air pollution from solid fuels
+27·08 (16·20 to 38·13)
+16·33 (9·59 to 24·52)
+11·71 (6·64 to 18·27)
+–2·89% (–3·60 to –2·25)*
+–3·70% (–4·64 to –2·88)*
+Ambient ozone pollution
+47·56 (22·76 to 60·54)
+54·34 (29·48 to 65·36)
+55·06 (32·21 to 67·16)
+0·51% (0·27 to 1·24)*
+0·15% (–0·10 to 1·08)
+Non-optimal temperature
+29·57 (26·06 to 33·72)
+30·21 (26·17 to 34·83)
+29·53 (25·41 to 34·26)
+0·00% (–0·13 to 0·11)
+–0·25% (–0·39 to –0·13)*
+High temperature
+25·98 (22·07 to 30·21)
+29·25 (24·92 to 33·82)
+29·59 (25·16 to 34·26)
+0·45% (0·29 to 0·59)*
+0·13% (–0·01 to 0·26)
+Low temperature
+33·21 (29·24 to 37·58)
+33·47 (29·06 to 38·25)
+32·92 (28·44 to 37·82)
+–0·03% (–0·13 to 0·06)
+–0·18% (–0·31 to –0·07)*
+Other environmental risks
+50·81 (40·53 to 59·86)
+45·11 (34·46 to 55·29)
+39·67 (29·01 to 50·86)
+–0·85% (–1·18 to –0·55)*
+–1·43% (–1·95 to –0·93)*
+Residential radon
+18·54 (12·37 to 25·82)
+18·20 (12·23 to 25·41)
+18·12 (12·17 to 25·43)
+–0·08% (–0·27 to 0·10)
+–0·05% (–0·25 to 0·14)
+Lead exposure
+68·52 (53·18 to 80·97)
+59·82 (43·52 to 74·40)
+51·26 (35·09 to 67·32)
+–1·00% (–1·43 to –0·63)*
+–1·72% (–2·40 to –1·09)*
+Occupational risks
+3·36 (2·99 to 3·90)
+3·33 (2·97 to 3·89)
+3·32 (2·96 to 3·87)
+–0·05% (–0·15 to 0·05)
+–0·05% (–0·22 to 0·13)
+Behavioural risks
+16·80 (14·82 to 19·05)
+15·38 (13·28 to 17·72)
+15·09 (12·96 to 17·43)
+–0·37% (–0·50 to –0·25)*
+–0·21% (–0·36 to –0·07)*
+Child and maternal malnutrition
+20·05 (19·06 to 21·19)
+17·77 (16·61 to 19·07)
+17·23 (15·98 to 18·55)
+–0·52% (–0·67 to –0·40)*
+–0·34% (–0·51 to –0·18)*
+Suboptimal breastfeeding
+21·66 (20·28 to 22·96)
+20·05 (18·26 to 21·34)
+19·34 (17·42 to 20·68)
+–0·39% (–0·55 to –0·31)*
+–0·40% (–0·61 to –0·21)*
+Non-exclusive breastfeeding
+21·34 (14·67 to 29·82)
+19·40 (13·38 to 27·18)
+18·39 (12·91 to 25·53)
+–0·51% (–0·61 to –0·40)*
+–0·59% (–0·83 to –0·31)*
+Discontinued breastfeeding
+12·33 (12·04 to 12·65)
+10·73 (10·50 to 10·99)
+10·24 (9·96 to 10·54)
+–0·64% (–0·77 to –0·52)*
+–0·52% (–0·87 to –0·17)*
+Child growth failure
+4·93 (4·41 to 5·57)
+4·21 (3·70 to 4·78)
+3·53 (3·01 to 4·10)
+–1·15% (–1·43 to –0·83)*
+–1·95% (–2·37 to –1·50)*
+Child underweight
+13·32 (11·73 to 14·71)
+10·51 (8·98 to 11·97)
+8·13 (6·50 to 9·68)
+–1·70% (–2·05 to –1·45)*
+–2·86% (–3·54 to –2·37)*
+Child wasting
+5·28 (4·50 to 5·98)
+5·23 (4·41 to 5·97)
+4·89 (4·08 to 5·61)
+–0·26% (–0·34 to –0·21)*
+–0·74% (–0·88 to –0·64)*
+Child stunting
+24·07 (16·71 to 26·41)
+19·65 (13·76 to 22·01)
+16·24 (11·45 to 18·72)
+–1·36% (–1·63 to –1·17)*
+–2·11% (–2·68 to –1·74)*
+Low birthweight and short gestation
+11·92 (10·66 to 13·44)
+11·32 (10·15 to 12·67)
+11·10 (9·99 to 12·42)
+–0·25% (–0·46 to –0·10)*
+–0·21% (–0·49 to 0·02)
+Short gestation
+13·88 (12·81 to 15·20)
+13·04 (12·19 to 13·96)
+13·17 (12·30 to 14·13)
+–0·18% (–0·43 to –0·01)*
+0·11% (–0·22 to 0·39)
+Low birthweight
+11·03 (10·41 to 11·81)
+10·11 (9·68 to 10·52)
+9·69 (9·28 to 10·14)
+–0·45% (–0·69 to –0·28)*
+–0·47% (–0·76 to –0·21)*
+Iron deficiency
+22·65 (21·51 to 23·98)
+20·11 (18·78 to 21·59)
+19·57 (18·11 to 21·12)
+–0·50% (–0·65 to –0·38)*
+–0·30% (–0·47 to –0·14)*
+Vitamin A deficiency
+33·42 (30·78 to 36·10)
+22·00 (19·70 to 24·45)
+15·01 (13·55 to 16·86)
+–2·76% (–3·13 to –2·30)*
+–4·25% (–5·02 to –3·47)*
+Zinc deficiency
+13·84 (5·91 to 24·06)
+11·88 (4·96 to 21·34)
+8·78 (2·89 to 17·60)
+–1·57% (–2·57 to –1·07)*
+–3·35% (–6·44 to –2·04)*
+(Table continues on next page)
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1229
+year: ambient ozone pollution, high temperature, low 
+temperature, residential radon, occupational risks, sub-
+optimal breastfeeding, short gestation, low birthweight, 
+iron deficiency, chewing tobacco, dietary risks as a group, 
+intimate partner violence, low physical activity, high 
+LDL cholesterol, low bone mineral density, and kidney 
+dysfunction. Many of these stagnating risks have been or 
+are targets of concerted public health efforts spanning 
+public policy, targeted programmes, and primary care 
+intervention.
+Concerning for both current and future health are 
+the exposures that are increasing at more than 0·5% per 
+year. This list includes ambient particulate matter 
+pollution, alcohol use, drug use, childhood sexual 
+abuse, bullying victimisation, high FPG, high SBP, and 
+high BMI. Many of the increasing risks are metabolic 
+risk factors; in fact, taken together, the exposure to 
+metabolic risks increased 1·37% per year (95% UI 
+1·17–1·56) from 1990 to 2019 and 1·46% per year 
+(1·26–1·69) from 2010 to 2019. Figure 1A, which shows 
+the trends in the age-standardised SEV for each risk 
+factor compared with the fraction of global DALYs 
+attributable to each risk factor, further emphasises 
+these patterns. In 2019, there were three risks that 
+accounted for more than 1% of DALYs and were 
+increasing in age-standardised SEVs by more than 
+SEV 1990
+SEV 2010
+SEV 2019
+ARC 1990–2019
+ARC 2010–19 
+(Continued from previous page)
+Tobacco
+30·54 (29·08 to 32·10)
+25·32 (24·00 to 26·80)
+24·03 (22·75 to 25·44)
+–0·83% (–0·89 to –0·77)*
+–0·58% (–0·69 to –0·47)*
+Smoking
+14·85 (13·27 to 16·56)
+12·41 (11·08 to 13·94)
+11·14 (9·93 to 12·54)
+–0·99% (–1·04 to –0·94)*
+–1·20% (–1·29 to –1·11)*
+Chewing tobacco
+4·58 (4·18 to 4·98)
+4·95 (4·71 to 5·20)
+5·11 (4·80 to 5·44)
+0·37% (0·03 to 0·76)*
+0·36% (–0·32 to 1·05)
+Secondhand smoke
+43·20 (42·80 to 43·62)
+37·76 (37·32 to 38·19)
+37·51 (37·00 to 38·09)
+–0·49% (–0·54 to –0·43)*
+–0·07% (–0·20 to 0·06)
+Alcohol use
+6·50 (4·62 to 8·84)
+6·68 (4·81 to 9·02)
+6·99 (4·98 to 9·41)
+0·25% (0·00 to 0·56)
+0·50% (0·05 to 0·95)*
+Drug use
+0·18 (0·12 to 0·28)
+0·18 (0·13 to 0·27)
+0·19 (0·14 to 0·27)
+0·28% (–0·19 to 0·69)
+0·53% (0·06 to 0·97)*
+Dietary risks
+51·31 (40·44 to 62·42)
+48·28 (36·60 to 60·37)
+47·10 (35·39 to 59·62)
+–0·30% (–0·50 to –0·15)*
+–0·28% (–0·50 to –0·10)*
+Diet low in fruits
+66·70 (59·36 to 75·08)
+59·09 (51·17 to 67·81)
+56·86 (49·36 to 65·37)
+–0·55% (–0·71 to –0·42)*
+–0·43% (–0·58 to –0·29)*
+Diet low in vegetables
+51·32 (38·33 to 65·78)
+40·29 (29·88 to 52·52)
+40·24 (29·59 to 52·46)
+–0·84% (–0·93 to –0·74)*
+–0·02% (–0·14 to 0·10)
+Diet low in legumes
+69·46 (36·73 to 91·69)
+61·20 (28·89 to 84·10)
+59·67 (27·55 to 83·28)
+–0·52% (–1·08 to –0·32)*
+–0·28% (–0·67 to 0·00)
+Diet low in whole grains
+79·92 (72·52 to 87·44)
+79·57 (72·09 to 87·12)
+78·81 (71·06 to 86·78)
+–0·05% (–0·07 to –0·03)*
+–0·11% (–0·17 to –0·06)*
+Diet low in nuts and seeds
+57·76 (29·48 to 73·08)
+50·13 (25·10 to 68·03)
+47·47 (23·73 to 66·35)
+–0·68% (–0·92 to –0·29)*
+–0·61% (–0·91 to –0·26)*
+Diet low in milk
+80·09 (68·47 to 89·10)
+80·81 (70·31 to 89·37)
+82·54 (71·88 to 91·12)
+0·10% (0·05 to 0·18)*
+0·23% (0·16 to 0·33)*
+Diet high in red meat
+40·50 (33·75 to 47·06)
+43·15 (36·95 to 49·10)
+43·94 (38·03 to 49·58)
+0·28% (0·15 to 0·47)*
+0·20% (–0·04 to 0·50)
+Diet high in processed meat
+30·95 (20·80 to 42·39)
+30·56 (20·13 to 43·05)
+29·81 (19·04 to 43·32)
+–0·13% (–0·39 to 0·12)
+–0·27% (–0·69 to 0·10)
+Diet high in sugar-sweetened beverages
+29·97 (22·97 to 42·54)
+29·35 (21·94 to 41·88)
+30·36 (22·71 to 43·05)
+0·04% (–0·43 to 0·37)
+0·38% (–0·22 to 0·76)
+Diet low in fiber
+36·87 (25·93 to 47·86)
+31·43 (21·20 to 41·62)
+27·62 (18·60 to 36·95)
+–1·00% (–1·23 to –0·81)*
+–1·43% (–1·78 to –1·11)*
+Diet low in calcium
+52·64 (43·62 to 64·79)
+48·63 (38·79 to 62·22)
+46·02 (35·93 to 60·32)
+–0·46% (–0·68 to –0·23)*
+–0·61% (–0·89 to –0·31)*
+Diet low in seafood omega-3 fatty acids
+96·35 (93·21 to 99·89)
+93·13 (89·11 to 98·47)
+93·52 (88·71 to 99·41)
+–0·10% (–0·18 to –0·01)*
+0·05% (–0·07 to 0·15)
+Diet low in polyunsaturated fatty acids
+69·53 (49·68 to 82·70)
+62·66 (37·55 to 79·83)
+61·86 (35·56 to 80·13)
+–0·40% (–1·08 to –0·08)*
+–0·14% (–0·50 to 0·14)
+Diet high in trans fatty acids
+50·54 (43·82 to 63·48)
+45·22 (38·20 to 58·98)
+44·67 (37·57 to 58·75)
+–0·43% (–0·58 to –0·17)*
+–0·14% (–0·41 to 0·08)
+Diet high in sodium
+48·42 (32·26 to 64·13)
+46·04 (28·63 to 62·81)
+44·97 (27·44 to 62·14)
+–0·25% (–0·59 to –0·09)*
+–0·26% (–0·60 to –0·07)*
+Intimate partner violence
+22·48 (13·03 to 30·15)
+22·17 (13·13 to 29·08)
+22·98 (13·31 to 30·37)
+0·07% (0·00 to 0·16)
+0·40% (0·00 to 0·73)
+Childhood sexual abuse and bullying
+7·55 (4·99 to 11·23)
+8·46 (5·63 to 12·84)
+9·10 (6·04 to 13·85)
+0·65% (0·49 to 0·79)*
+0·81% (0·64 to 0·96)*
+Childhood sexual abuse
+8·68 (6·85 to 10·90)
+8·65 (6·89 to 10·78)
+9·36 (7·40 to 11·79)
+0·26% (0·18 to 0·33)*
+0·87% (0·60 to 1·15)*
+Bullying victimisation
+5·51 (2·34 to 11·04)
+6·83 (3·04 to 13·36)
+7·31 (3·25 to 14·34)
+0·98% (0·82 to 1·28)*
+0·76% (0·54 to 0·90)*
+Unsafe sex
+·· 
+··
+··
+··
+··
+Low physical activity
+3·34 (1·79 to 6·00)
+3·43 (1·90 to 6·08)
+3·54 (1·95 to 6·26)
+0·20% (0·06 to 0·41)*
+0·37% (–0·13 to 0·87)
+Metabolic risks
+14·90 (12·02 to 18·55)
+19·40 (16·12 to 23·38)
+22·14 (18·63 to 26·36)
+1·37% (1·17 to 1·56)*
+1·46% (1·26 to 1·69)*
+High fasting plasma glucose
+7·88 (6·96 to 8·85)
+10·41 (9·43 to 11·42)
+11·72 (10·56 to 12·94)
+1·37% (1·27 to 1·46)*
+1·32% (1·01 to 1·64)*
+High LDL cholesterol
+35·68 (32·92 to 38·73)
+32·67 (29·73 to 35·84)
+32·44 (29·49 to 35·57)
+–0·33% (–0·38 to –0·28)*
+–0·08% (–0·12 to –0·05)*
+High systolic blood pressure
+27·12 (25·51 to 28·87)
+26·50 (24·51 to 28·46)
+27·74 (25·70 to 29·72)
+0·08% (–0·12 to 0·28)
+0·51% (0·04 to 1·00)*
+High body-mass index
+11·09 (7·96 to 15·23)
+16·46 (12·79 to 21·04)
+19·45 (15·57 to 24·39)
+1·94% (1·56 to 2·35)*
+1·86% (1·55 to 2·19)*
+Low bone mineral density
+17·06 (12·11 to 23·39)
+16·42 (11·66 to 22·72)
+16·26 (11·41 to 22·60)
+–0·16% (–0·25 to –0·10)*
+–0·10% (–0·34 to 0·09)
+Kidney dysfunction
+20·56 (14·29 to 27·97)
+22·35 (15·82 to 29·79)
+22·74 (16·24 to 30·25)
+0·35% (0·26 to 0·47)*
+0·19% (0·13 to 0·28)*
+Data in parentheses are 95% uncertainty intervals. SEVs are measured on a 0 to 100 scale, in which 100 is when the entire population is exposed to maximum risk and 0 is when the entire population is at 
+minimum risk. SEVs are shown for all levels of the risk factor hierarchy. ARC=annualised rate of change. SEVs=summary exposure values. *Statistically significant increase or decrease. 
+Table: Global age-standardised SEVs for both sexes combined in 1990, 2010, and 2019, and annualised rate of change between 1990 and 2019 and 2010 and 2019
+
+Global Health Metrics
+1230	
+www.thelancet.com   Vol 396   October 17, 2020
+0
+2·5
+5·0
+7·5
+10·0
+2·5
+5·0
+7·5
+10·0
+–4·0
+–3·0
+–2·0
+–1·0
+0
+1·0
+2·0
+ARC in age-standardised SEVs, 2010–19 (%)
+0
+5·0
+10·0
+15·0
+–2·0
+–1·0
+0
+1·0
+2·0
+3·0
+A
+Global
+High SDI
+Behavioural
+Environmental or occupational
+Metabolic
+0
+5·0
+10·0
+15·0
+–1·0
+0
+–1·0
+2·0
+ARC in age-standardised SEVs, 2010–19 (%)
+0
+5·0
+10·0
+15·0
+–7·5
+–5·0
+–2·5
+0
+2·5
+High–middle SDI
+Middle SDI
+0
+–7·5
+–2·5
+–5·0
+0
+2·5
+5·0
+ARC in age-standardised SEVs, 2010–19 (%)
+DALYs attributable to each risk, 2019 (%)
+0
+5·0
+10·0
+15·0
+–5·0
+–2·5
+0
+5·0
+2·5
+DALYs attributable to each risk, 2019 (%)
+Low–middle SDI
+Low SDI
+Unsafe water source
+Unsafe sanitation
+Ambient particulate matter pollution
+Household air pollution from solid fuels
+Smoking
+Drug use
+High fasting plasma glucose
+High systolic blood pressure
+High body-mass index
+Dietary risks
+Occupational risks 
+Iron deﬁciency
+Child growth failure
+Short gestation
+Low birthweight
+Low temperature
+Alcohol  use
+Kidney dysfunction
+Secondhand
+smoke 
+High LDL cholesterol
+Smoking
+Dietary risks
+Occupational risks
+Kidney dysfunction
+Smoking
+Smoking
+Smoking
+Occupational risks
+Short gestation
+Low birthweight
+Low birthweight
+Low birthweight
+Kidney dysfunction
+Kidney
+dysfunction
+Kidney
+dysfunction
+Lead exposure
+Smoking
+Drug use
+ 
+Low temperature
+Lead
+exposure
+No access to handwashing facility
+High fasting plasma glucose
+High systolic blood pressure
+Low bone 
+mineral density
+Alcohol use
+High LDL cholesterol
+Low temperature
+Ambient particulate matter pollution
+Drug use
+High body-mass index
+Alcohol use
+Alcohol use
+Alcohol use
+High fasting plasma glucose
+High fasting plasma glucose
+High fasting plasma glucose
+Dietary risks
+Dietary risks
+Dietary risks
+High systolic blood pressure
+High systolic blood pressure
+High systolic blood pressure
+High LDL cholesterol
+High LDL cholesterol
+High LDL cholesterol
+Ambient particulate matter pollution
+Ambient particulate matter pollution
+Ambient particulate matter pollution
+Drug use
+Secondhand smoke
+Secondhand smoke
+Low temperature
+Child growth failure
+Occupational risks
+Low birthweight
+Short gestation
+Secondhand
+smoke
+Alcohol use
+High LDL cholesterol
+Kidney
+dysfunction
+Ambient particulate matter pollution
+High systolic blood pressure
+High fasting plasma glucose
+High body-mass index
+High body-mass index
+Dietary risks
+Household air pollution from solid fuels
+High body-mass index
+High body-mass index
+Iron deﬁciency
+Iron deﬁciency
+No access to 
+handwashing 
+facility
+No access to handwashing facility
+Short gestation
+Short gestation
+Unsafe sanitation
+Unsafe sanitation
+Household air pollution from solid fuels
+Household air pollution from solid fuels
+Occupational risks
+Occupational risks
+Child growth failure
+Child growth failure
+Unsafe water source
+Unsafe water source
+Non-exclusive breastfeeding
+(Figure 1 continues on next page)
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1231
+1% per year, dominating the figure: high FPG, high 
+BMI, and ambient particulate matter pollution. Reductions 
+in risks that currently still have large attributable burden 
+are almost exclusively those inversely associated with 
+rising SDI, except smoking. It might be assumed that 
+effective efforts to reduce risk exposure have been 
+concentrated on the world’s largest risk factors, but we 
+see no discernible pattern between trends in exposure 
+and attributable burden. The global trends shown in 
+the table and figure 1 give a high-level view of how well 
+the world is managing exposure to an extensive list 
+of harmful risks, but regional and country trends can 
+be markedly variable. Figure 1B shows trends for 
+the largest risks in terms of global attributable age-
+standardised DALY rates for countries grouped into 
+quintiles of SDI in 2019. There is considerable variation 
+across quintiles in trends in exposure. Notably, ambient 
+particulate matter pollution exposure is increasing in 
+the low SDI up to middle SDI quintiles but decreasing 
+in the high SDI quintile. High FPG and high BMI are 
+increasing in all quintiles, as is alcohol use. Smoking is 
+declining in all SDI quintiles. Regional and national 
+trends in SEVs are available in appendix 2 (table S1).
+Figure 2A provides an alternative way to consider 
+the link between risk exposures and overall trends in 
+mortality. Removing the effect of all risk factors included 
+in this study leads to large percentage reductions in 
+mortality in those younger than 5 years and in the middle 
+and older age groups. Risk reduction can have a slightly 
+larger effect on male mortality than female mortality; in 
+other words, some of the difference between male and 
+female life expectancy can be explained by risk exposures. 
+The percentage of age-specific mortality explained by all 
+risk factors combined in 1990 is very similar to the 
+share shown in figure 2A (appendix 2 table S3). Figure 2B 
+shows the annualised rate of decline in risk-deleted 
+age-specific mortality from 1990 to 2019. Risk-deleted 
+mortality rates declined from 1990 to 2019 in all age 
+groups other than in those aged 95 years and older, 
+declining between 1·0% and 3·3% per year for all the age 
+groups younger than 75 years, and at lower rates for 
+those aged 75 years and older. The substantial declines in 
+risk-deleted mortality rates are likely to be related to 
+reductions in risks not included in our assessment, 
+reductions in case-fatality rates, or other factors. The 
+observed rates of decline for all-cause mortality for ages 
+younger than 10 years and older than 65 years have been 
+faster than the risk-deleted rates, suggesting reduction 
+of risks included in our analysis has played a role in 
+progress in these age groups, particularly in those 
+younger than 5 years. Notably, risk-deleted death rates 
+have declined faster than observed rates, particularly for 
+Figure 1: ARC in age-standardised SEVs, globally and by SDI quintile, 2010–19
+(A) Level 4 risks and occupational risks, dietary risks, and child growth failure, compared with percentage of DALYs attributable to each risk. (B) Top nine Level 4 risks by attributable DALYs. Only risk 
+factors causing more than 1% of DALYs are shown in panel A. SEVs are measured on a 0–100 scale in which 100 is when the entire population is exposed to maximum risk and 0 is when the entire 
+population is at minimum risk. ARC=annualised rate of change. DALYs=disability-adjusted life-years. SDI=Socio-demographic Index. SEVs=summary exposure values.
+High systolic
+blood pressure
+Smoking
+High fasting
+plasma glucose
+Low birthweight
+High body-mass
+index
+Short gestation
+Ambient particulate
+matter pollution
+High LDL
+cholesterol
+Alcohol use
+–2·0
+–1·0
+0
+1·0
+2·0
+3·0
+4·0
+5·0
+ARC in age-standardised SEVs, 2010–19 (%)
+B
+Global
+Low SDI
+Low–middle SDI
+Middle SDI
+High–middle SDI
+High SDI
+
+Global Health Metrics
+1232	
+www.thelancet.com   Vol 396   October 17, 2020
+women aged between 25 and 59 years, implying that risk 
+exposure has increased in those age groups.
+Global attributable burden
+Figure 3A and 3B show global attributable deaths for 
+females and males in 2019 for the 20 risk factors at Level 2 
+of the risk factor hierarchy (appendix 2 table S3) The top 
+five risks for attri­butable deaths for females were high 
+SBP (5·25 million [95% UI 4·49–6·00] deaths, or 20·3% 
+[17·5–22·9] of all female deaths in 2019), dietary risks 
+(3·48 million [2·78–4·37] deaths, or 13·5% [10·8–16·7] of 
+all female deaths in 2019), high FPG (3·09 million 
+[2·40–3·98] deaths, or 11·9% [9·4–15·3] of all female 
+deaths in 2019), air pollution (2·92 million [2·53–3·33] 
+deaths or 11·3% [10·0–12·6] of all female deaths in 2019), 
+and high BMI (2·54 million [1·68–3·56] deaths or 9·8% 
+[6·5–13·7] of all female deaths in 2019). For males, the top 
+five risks differed slightly. In 2019, the leading Level 2 risk 
+factor for attributable deaths globally in males was tobacco 
+(smoked, second-hand, and chewing), which accounted 
+for 6·56 million (95% UI 6·02–7·10) deaths (21·4% 
+[20·5–22·3] of all male deaths in 2019), followed by high 
+SBP, which accounted for 5·60 million (4·90–6·29) deaths 
+(18·2% [16·2–20·1] of all male deaths in 2019). The third 
+largest Level 2 risk factor for attributable deaths among 
+males in 2019 was dietary risks (4·47 million [3·65–5·45] 
+deaths, or 14·6% [12·0–17·6] of all male deaths in 2019) 
+followed by air pollution (ambient particulate matter and 
+ambient ozone pollution, accounting for 3·75 million 
+[3·31–4·24] deaths (12·2% [11·0–13·4] of all male deaths 
+in 2019), and then high FPG (3·14 million [2·70–4·34] 
+deaths, or 11·1% [8·9–14·1] of all male deaths in 2019). 
+Outside of the top five, there were large differences 
+between attributable deaths in males and females due to 
+alcohol use, which accounted for 2·07 million (1·79–2·37) 
+deaths in males and 0·374 million (0·298–0·461) deaths in 
+females in 2019. Newly included in GBD 2019, non-optimal 
+temperature accounted for 1·01 million (0·880–1·15) 
+deaths in males and 0·946 million (0·812–1·09) deaths in 
+females. For both sexes combined, the leading Level 2 risk 
+factor for deaths was high SBP, accounting for 10·8 million 
+(9·51–12·1) deaths in 2019 (19·2% [16·9–21·3] of all deaths 
+that year), followed by tobacco, with 8·71 million 
+(8·12–9·31) deaths (15·4% [14·6–16·2] of all deaths that 
+year).
+When viewed in terms of DALYs (figure 3C, D), the 
+ranking of Level 2 risk factors reflects the differential ages 
+of death and the contribution of non-fatal disease 
+burden. Most notably, child and maternal malnutrition 
+(including low birth­weight, short gestation, child growth 
+failure, non-optimal breastfeeding, and low intake of 
+micronutrients), which has predominant health effects 
+among the young, was the second leading Level 2 risk 
+factor for males and leading risk factor for females in 
+2019, accounting for 11·5% (95% UI 10·1–13·1) of DALYs 
+for males and 11·7% (10·5–13·2) of DALYs for females. 
+Tobacco was ranked first for males and seventh for 
+females in terms of attributable DALYs. For both sexes 
+combined, the leading Level 2 risk factor globally for 
+attributable DALYs was child and maternal malnutri­
+tion, at 295 million (95% UI 253–350) DALYs in 2019 
+(11·6% [10·3–13·1] of all DALYs that year).
+Figure 4 shows the ranking of Level 2 risk factors by 
+attributable DALYs, both for SDI quintiles and the 21 GBD 
+Figure 2: Change in global mortality rates after risk deletion, by age group and sex 
+(A) Percentage change in age-specific mortality rates in 2019 after removing the effect of all risk factors in this 
+study. (B) ARC in risk-deleted mortality rates from 1990 to 2019. ARC=annualised rate of change.
+–70
+–60
+–50
+–40
+–30
+–20
+–10
+0
+A
+–80
+Change in mortality rate due to risk deletion, 2019 (%)
+Females
+Males
+Age (neonatal stage or years)
+–3·5
+–3·0
+–2·5
+–2·0
+–1·5
+–1·0
+–0·5
+0
+0·5
+B
+Early neonatal
+Late neonatal
+Post neonatal
+–4·0
+ARC in risk-deleted mortality rates, 1990–2019 (%)
+1–4
+5–9
+10–14
+15–19
+20–24
+25–29
+30–34
+35–39
+40–44
+45–49
+50–54
+55–59
+60–64
+65–69
+70–74
+75–79
+80–84
+85–89
+90–94
+≥95
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1233
+regions. Risk factors are shaded by the trend in the 
+attributable DALY rates over the past decade. In the 
+low SDI quintile, the most important risk factors were 
+malnutrition; air pollution; and water, sanitation, and 
+handwashing. In the low-middle SDI quintile, mal­nutri­
+tion and air pollution were still the leading risk factors for 
+attributable DALYs, but high SBP rose to third. In the 
+middle to high SDI quintiles, the leading risks transitioned 
+Childhood sexual abuse and bullying
+Intimate partner violence
+Drug use
+Low bone mineral density
+Occupational risks
+Other environmental risks
+Alcohol use
+Low physical activity
+Unsafe sex
+Unsafe water, sanitation, and handwashing
+Child and maternal malnutrition
+High LDL cholesterol
+High body-mass index
+Non-optimal temperature
+Kidney dysfunction
+Tobacco
+Air pollution
+ 
+High fasting plasma glucose
+Dietary risks
+High systolic blood pressure
+A Global attributable deaths from Level 2 risk factors for females in 2019
+Cardiovascular diseases
+Chronic respiratory diseases
+Diabetes and kidney diseases
+Digestive diseases
+Enteric infections
+HIV/AIDS and sexually transmitted infections
+Maternal and neonatal disorders
+Musculoskeletal disorders
+Neoplasms
+Neurological disorders
+Nutritional deﬁciencies
+Other infectious diseases
+Other non-communicable diseases
+Respiratory infections and tuberculosis
+Self-harm and interpersonal violence
+Substance use disorders
+Transport injuries
+Unintentional injuries
+Childhood sexual abuse and bullying
+Intimate partner violence
+Drug use
+Low bone mineral density
+Occupational risks
+Other environmental risks
+Alcohol use
+Low physical activity
+Unsafe sex
+Unsafe water, sanitation, and handwashing
+Child and maternal malnutrition
+High LDL cholesterol
+High body-mass index
+Non-optimal temperature
+Kidney dysfunction
+Tobacco
+Air pollution
+ 
+High fasting plasma glucose
+Dietary risks
+High systolic blood pressure
+0
+500
+1000
+1500
+2000
+2500
+3000
+3500
+4000
+5000
+4500
+5500
+6000
+6500
+Number of deaths (in 1000s)
+B Global attributable deaths from Level 2 risk factors for males in 2019
+(Figure 3 continues on next page)
+
+Global Health Metrics
+1234	
+www.thelancet.com   Vol 396   October 17, 2020
+to tobacco, high SBP, dietary risks, high BMI, and high 
+FPG. The risk transition is evident across quintiles. Select 
+regional patterns stand out. In the Caribbean and central 
+Latin America, large increases were seen in attributable 
+burden for high FPG, high BMI, high SBP, kidney 
+dysfunction, dietary risks, and high LDL cholesterol. In 
+seven regions, child and maternal malnutrition is the 
+leading risk factor, and in another seven regions, tobacco is 
+the leading risk factor. In the remainder of regions, the 
+leading risk factor is high SBP (four regions), high FPG 
+Figure 3: Global number of deaths and percentage of DALYs attributable to Level 2 risk factors, by cause and sex, 2019
+DALYs=disability-adjusted life-years. 
+Childhood sexual abuse and bullying
+Intimate partner violence
+Drug use
+Low bone mineral density
+Occupational risks
+Other environmental risks
+Alcohol use
+Low physical activity
+Unsafe sex
+Unsafe water, sanitation, and handwashing
+Child and maternal malnutrition
+High LDL cholesterol
+High body-mass index
+Non-optimal temperature
+Kidney dysfunction
+Tobacco
+Air pollution
+ 
+High fasting plasma glucose
+Dietary risks
+High systolic blood pressure
+C Global attributable DALYs from Level 2 risk factors for females in 2019
+Cardiovascular diseases
+Chronic respiratory diseases
+Diabetes and kidney diseases
+Digestive diseases
+Enteric infections
+HIV/AIDS and sexually transmitted infections
+Maternal and neonatal disorders
+Musculoskeletal disorders
+Neoplasms
+Neurological disorders
+Nutritional deﬁciencies
+Other infectious diseases
+Other non-communicable diseases
+Respiratory infections and tuberculosis
+Self-harm and interpersonal violence
+Sense organ diseases
+Substance use disorders
+Transport injuries
+Unintentional injuries
+0
+2
+4
+6
+8
+10
+12
+14
+Childhood sexual abuse and bullying
+Drug use
+Low bone mineral density
+Occupational risks
+Other environmental risks
+Alcohol use
+Low physical activity
+Unsafe sex
+Unsafe water, sanitation, and handwashing
+Child and maternal malnutrition
+High LDL cholesterol
+High body-mass index
+Non-optimal temperature
+Kidney dysfunction
+Tobacco
+Air pollution
+ 
+High fasting plasma glucose
+Dietary risks
+High systolic blood pressure
+DALYs (%)
+D Global attributable DALYs from Level 2 risk factors for males in 2019
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1235
+(one region), high BMI (one region), and unsafe sex (one 
+region). The largest rates of increase in attributable DALYs 
+have been seen for high FPG in ten of 21 regions and for 
+high BMI in ten of 21 regions.
+Attributable burden by age group
+The pattern of risk-factor-attributable burden varied 
+considerably by age and over time, as shown in figure 5, 
+which includes arrows plots for all age groups combined 
+Figure 4: Leading ten Level 2 risk factors for attributable DALYs by GBD region and SDI quintile, 2019
+For each region and SDI quintile, Level 2 risks are ranked by attributable DALYs from left (first) to right (tenth). Risks are coloured by their annualised rate of change in all-age DALY rates from 2010 to 
+2019. GBD=Global Burden of Diseases, Injuries, and Risk Factors Study. Malnutrition=child and maternal malnutrition. SDI=Socio-demographic Index. WaSH=water, sanitation, and handwashing.
+Dietary risks
+Dietary risks
+Dietary risks
+Dietary risks
+Tobacco
+Dietary risks
+Unsafe sex
+Alcohol use
+Dietary risks
+Tobacco
+Dietary risks
+Air pollution
+Dietary risks
+Dietary risks
+Dietary risks
+Tobacco
+Air pollution
+Dietary risks
+Tobacco
+Air pollution
+Unsafe sex
+Dietary risks
+Tobacco
+Tobacco
+Dietary risks
+Unsafe sex
+WaSH
+Dietary risks
+Dietary risks
+Dietary risks
+Air pollution
+Dietary risks
+Dietary risks
+WaSH
+Malnutrition
+Tobacco
+Air pollution
+Air pollution
+Air pollution
+Tobacco
+Dietary risks
+WaSH
+Tobacco
+Air pollution
+Air pollution
+Air pollution
+Tobacco
+Malnutrition
+WaSH
+Malnutrition
+Malnutrition
+Tobacco
+Tobacco
+Malnutrition
+Tobacco
+Malnutrition
+Tobacco
+Malnutrition
+Tobacco
+Malnutrition
+Tobacco
+Tobacco
+Malnutrition
+Malnutrition
+Tobacco
+Unsafe sex
+Tobacco
+Malnutrition
+High systolic
+blood pressure
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+Kidney
+dysfunction
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High body-
+mass index
+High body-
+mass index
+High body-
+mass index
+High body-
+mass index
+High body-
+mass index
+High body-
+mass index
+Alcohol use
+Alcohol use
+Alcohol use
+ 
+Drug use
+Tobacco
+Air pollution
+Unsafe sex
+Alcohol use
+Malnutrition
+Dietary risks
+Air pollution
+Air pollution
+Tobacco
+Kidney
+dysfunction
+Kidney
+dysfunction
+Kidney
+dysfunction
+Kidney
+dysfunction
+Kidney
+dysfunction
+Occupational
+risks
+Occupational
+risks
+Occupational
+risks
+Occupational
+risks
+Occupational
+risks
+Occupational
+risks
+ 
+Tobacco
+Drug use
+ 
+Alcohol use
+Air pollution
+Air pollution
+WaSH
+Alcohol use
+High body-
+mass index
+High body-
+mass index
+High body-
+mass index
+Kidney
+dysfunction
+Kidney
+dysfunction
+Kidney
+dysfunction
+Kidney
+dysfunction
+Kidney
+dysfunction
+Kidney
+dysfunction
+Kidney
+dysfunction
+Kidney
+dysfunction
+Occupational
+risks
+Occupational
+risks
+Unsafe sex
+WaSH
+ 
+Alcohol use
+Drug use
+Alcohol use
+ 
+Alcohol use
+ 
+Air pollution
+Tobacco
+Dietary risks
+Alcohol use
+Dietary risks
+WaSH
+Alcohol use
+Dietary risks
+High body-
+mass index
+Kidney
+dysfunction
+Kidney
+dysfunction
+Occupational
+risks
+Occupational
+risks
+Malnutrition
+Air pollution
+ 
+Air pollution
+Air pollution
+Alcohol use
+Malnutrition
+Alcohol use
+Alcohol use
+Dietary risks
+WaSH
+Malnutrition
+Tobacco
+Malnutrition
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High body-
+mass index
+Kidney
+dysfunction
+Occuptional
+risks
+Kidney
+dysfunction
+Kidney
+dysfunction
+Tobacco
+Alcohol use
+Air pollution
+Alcohol use
+Dietary risks
+Malnutrition
+ 
+Alcohol use
+Alcohol use
+Alcohol use
+Drug use
+Air pollution
+Dietary risks
+Alcohol use
+Air pollution
+Alcohol use
+Alcohol use
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High body-
+mass index
+High body-
+mass index
+High body-
+mass index
+High body-
+mass index
+High body-
+mass index
+High body-
+mass index
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High fasting
+plasma glucose
+High body-
+mass index
+High body-
+mass index
+High body-
+mass index
+High body-
+mass index
+High body-
+mass index
+High body-
+mass index
+High body-
+mass index
+High body-
+mass index
+High body-
+mass index
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+–9·7% to <–3·3% –3·3% to <–1·4% –1·4% to <–0·7% –0·7% to <–0·3% –0·3% to <0·0%
+0·0% to <0·4%
+0·4% to <0·8%
+0·8% to <1·1%
+1·1% to <1·6%
+1·6% to <5·0%
+Annual rate of change in all-age DALYs from 2010 to 2019
+Low SDI
+Low-middle SDI
+Middle SDI
+High-middle SDI
+High SDI
+Andean Latin America
+Australasia
+Caribbean
+Central Asia
+Central Europe
+Central Latin America
+Central sub-Saharan Africa
+East Asia
+Eastern Europe
+Eastern sub-Saharan Africa
+High-income Asia Paciﬁc
+High-income North America
+North Africa and Middle East
+Oceania
+South Asia
+Southeast Asia
+Southern Latin America
+Southern sub-Saharan Africa
+Tropical Latin America
+Western Europe
+Western sub-Saharan Africa
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High systolic
+blood pressure
+High LDL
+cholesterol
+High LDL
+cholesterol
+High LDL
+cholesterol
+High LDL
+cholesterol
+High LDL
+cholesterol
+High LDL
+cholesterol
+High LDL
+cholesterol
+High LDL
+cholesterol
+High LDL
+cholesterol
+High LDL
+cholesterol
+High LDL
+cholesterol
+High LDL
+cholesterol
+High LDL
+cholesterol
+High LDL
+cholesterol
+High LDL
+cholesterol
+High LDL
+cholesterol
+High LDL
+cholesterol
+High LDL
+cholesterol
+High LDL
+cholesterol
+High LDL
+cholesterol
+High LDL
+cholesterol
+
+Global Health Metrics
+1236	
+www.thelancet.com   Vol 396   October 17, 2020
+and for five broad age groups (0–9, 10–24, 25–49, 50–74, 
+and 75 years and older). These figures show specific risk 
+factors at Level 4 of the risk factor hierarchy. Figure 5A 
+shows how risk exposure trends, underlying changes in 
+disease rates, and rising mean age of populations have 
+led to marked changes in risk rankings from 1990 to 2019. 
+In 1990, the leading risk factors were child wasting, 
+low birthweight, short gestation, and household air 
+pollution, all of which have dropped substantially in 
+magnitude in terms of percentage of attributable DALYs 
+Environmental and occupational risks
+Behavioural risks
+Metabolic risks
+11·4 (9·5 to 13·6)
+9·3 (8·2 to 10·5)
+10·6 (9·9 to 11·4)
+7·9 (7·2 to 8·6)
+8·7 (8·1 to 9·5)
+6·8 (5·8 to 8·0)
+8·0 (6·2 to 10·0)
+6·3 (5·5 to 7·3)
+6·2 (5·8 to 6·6)
+6·3 (4·2 to 8·6)
+6·2 (4·7 to 7·6)
+5·5 (4·7 to 6·3)
+5·9 (5·3 to 6·5)
+4·7 (3·8 to 5·5)
+–27·0 (–31·7 to –22·6) 
+–39·0 (–43·1 to –34·4) 
+7·4 (1·5 to 13·8)
+–41·3 (–49·6 to –30·8) 
+18·0 (2·2 to 42·3)
+–38·9 (–47·4 to –27·9) 
+0·3 (–21·2 to 30·7)
+4·9 (3·9 to 6·3)
+3·9 (3·2 to 4·7)
+4·6 (3·7 to 5·6)
+3·7 (3·3 to 4·1)
+1 Child wasting
+2 Low birthweight
+3 Short gestation
+4 Household air pollution 
+5 Smoking
+6 Unsafe water
+7 High systolic blood pressure
+ 
+8 Child underweight
+9 Unsafe sanitation
+10 Handwashing
+3·2 (2·3 to 4·0)
+1 High systolic blood pressure
+2 Smoking
+3 High fasting plasma glucose  
+4 Low birthweight
+5 High body-mass index
+6 Short gestation
+7 Ambient particulate matter 
+8 High LDL cholesterol 
+9 Alcohol use
+10 Household air pollution
+3·6 (2·7 to 4·6)
+11 High fasting plasma glucose
+11 Child wasting
+3·3 (2·6 to 4·1)
+13 Ambient particulate matter
+13 Unsafe water
+2·6 (1·9 to 3·3)
+14 High LDL cholesterol 
+2·7 (2·2 to 3·2)
+17 Unsafe sanitation
+1·6 (1·3 to 2·1)
+15 Alcohol use
+2·6 (2·3 to 2·9)
+19 Handwashing
+1·3 (0·9 to 1·8)
+16 High body-mass index
+22 Child underweight
+1·1 (0·9 to 1·4)
+53·1 (43·0 to 62·7)
+24·3 (15·9 to 33·9)
+122·9 (110·0 to 135·7)
+–41·4 (–49·7 to –31·0)
+138·2 (106·1 to 186·9)
+–38·9 (–47·3 to –28·0)
+67·7 (27·9 to 126·1)
+41·5 (31·1 to 50·4)
+37·1 (27·3 to 47·9)
+–56·1 (–64·7 to –46·0)
+–71·7 (–77·4 to –65·2)
+–59·3 (–68·1 to –46·7)
+65·5 (–72·9 to –54·8)
+–58·7 (–65·9 to –49·8)
+–77·8 (–82·7 to –71·7)
+–32·2 (–36·7 to –27·8)
+–23·7 (–29·2 to –17·7)
+–68·2 (–74·0 to –61·6)
+–72·9 (–78·4 to –66·6)
+–65·9 (–73·0 to –55·4)
+–71·0 (–77·0 to –61·8)
+–64·2 (–70·5 to –56·3)
+–79·5 (–84·0 to –73·8)
+3·0 (2·5 to 3·5)
+2·7 (1·8 to 3·8)
+2·6 (1·5 to 4·0)
+1 Occupational injury
+3·2 (2·8 to 3·7)
+3·0 (2·3 to 3·8)
+–17·6 (–26·4 to –8·8)
+2 Iron deﬁciency
+2·8 (2·1 to 3·6)
+2·6 (2·1 to 3·1)
+–22·6 (–28·0 to –17·2)
+3 Unsafe water
+2·7 (1·7 to 4·2)
+2·1 (1·5 to 2·9)
+4 Alcohol use
+2·6 (2·1 to 3·0)
+2·0 (1·3 to 3·0)
+5 Unsafe sanitation
+2·0 (1·3 to 3·1)
+1·8 (1·6 to 2·1)
+6 Drug use
+1·4 (1·1 to 1·7)
+1·8 (1·4 to 2·3)
+7 Handwashing
+1·0 (0·7 to 1·5)
+1·3 (1·0 to 1·6)
+8 Unsafe sex
+1·0 (0·7 to 1·4)
+1·3 (1·0 to 1·6)
+9 Kidney dysfunction
+0·9 (0·8 to 1·0)
+1·2 (0·9 to 1·8)
+10 Bullying
+0·7 (0·2 to 1·4)
+1 Iron deﬁciency
+2 Alcohol use
+3 Unsafe sex
+4 Unsafe water
+5 Occupational injury 
+6 Drug use
+7 Short gestation
+8 Low birthweight 
+9 Unsafe sanitation 
+10 Bullying
+1·1 (0·4 to 2·2)
+0·6 (0·5 to 0·8)
+11 Kidney dysfunction
+1·1 (0·9 to 1·3)
+–1·2 (–9·4 to 6·7)
+11 Short gestation  
+12 Low birthweight
+0·6 (0·5 to 0·8)
+12 Handwashing
+0·8 (0·6 to 1·1)
+–0·9 (–11·4 to 9·5)
+–6·3 (–12·9 to 0·3)
+108·3 (78·5 to 140·5)
+–29·8 (–43·6 to –4·4)
+–47·7 (–54·0 to –40·8)
+20·4 (13·7 to 27·1)
+84·6 (68·2 to 99·4)
+84·6 (68·2 to 99·4)
+–42·4 (–53·9 to –21·6)
+50·7 (41·3 to 69·4)
+73·4 (47·4 to 98·5)
+–40·5 (–53·1 to –20·4)
+–56·6 (–61·9 to –51·0)
+–0·6 (–6·2 to 4·9)
+54·1 (40·0 to 66·0)
+54·1 (40·0 to 66·0)
+–51·1 (–61·7 to –34·7)
+26·9 (17·5 to 41·3)
+19·0 (9·1 to 28·6)
+–28·8 (–41·4 to –8·1)
+–40·0 (-51·2 to –23·6)
+A
+Leading risks 1990
+Percentage of DALYs 
+1990
+Leading risks 2019
+Percentage of DALYs 
+2019
+Percentage change in 
+number of DALYs, 
+1990–2019
+Percentage change in 
+age-standardised DALY rate, 
+1990–2019
+C
+Leading risks 1990
+Percentage of DALYs 
+1990
+Leading risks 2019
+Percentage of DALYs 
+2019
+Percentage change in 
+number of DALYs, 
+1990–2019
+Percentage change in 
+age-standardised DALY rate, 
+1990–2019
+24·7 (20·7 to 28·9)
+28·9 (27·3 to 30·4)
+23·1 (22·1 to 24·1)
+24·7 (23·3 to 26·1)
+19·0 (18·1 to 19·9)
+14·8 (12·3 to 17·3)
+11·2 (8·7 to 14·2)
+7·7 (6·0 to 9·5)
+11·0 (8·5 to 13·3)
+7·7 (5·9 to 9·4)
+10·4 (8·2 to 13·3)
+5·1 (4·3 to 6·0)
+8·2 (6·8 to 9·7)
+4·5 (3·2 to 5·8)
+6·2 (3·2 to 10·5)
+4·4 (3·6 to 5·4)
+1 Child wasting
+2 Low birthweight
+3 Short gestation
+4 Household air pollution 
+5 Unsafe water
+6 Child underweight
+7 Unsafe sanitation
+8 Child stunting
+9 Handwashing
+6·0 (4·3 to 7·6)
+4·0 (2·8 to 5·2)
+10 Non-exclusive breastfeeding
+1 Low birthweight
+2 Short gestation
+3 Child wasting
+4 Household air pollution
+5 Unsafe water
+6 Unsafe sanitation
+7 Handwashing
+8 Child underweight
+9 Ambient particulate matter 
+10 Child stunting
+2·7 (1·3 to 4·8)
+–43·3 (–51·8 to –33·0)
+–41·2 (–49·6 to –30·2)
+–72·9 (–78·4 to –66·3)
+–68·8 (–75·2 to –60·6)
+–68·3 (–75·8 to –57·4)
+–72·0 (–78·7 to –62·0)
+–66·0 (–72·9 to –57·0)
+–80·8 (–85·2 to –75·3)
+–23·3 (–45·9 to 11·5)
+–80·3 (–85·8 to –74·5)
+–42·6 (–51·2 to –32·2)
+–40·4 (–49·0 to –29·3)
+–73·6 (–79·1 to –67·3)
+–68·9 (–75·4 to –60·9)
+–68·9 (–76·4 to –58·6)
+–72·5 (–79·3 to –63·0)
+–66·7 (–73·6 to –58·0)
+–81·4 (–85·7 to –76·1)
+–20·5 (–46·3 to 10·8)
+–81·1 (–86·4 to –75·5)
+11 Ambient particulate matter
+11 Non-exclusive breastfeeding
+2·4 (1·8 to 3·0)
+–72·1 (–77·8 to –65·3)
+–72·1 (–77·8 to –65·3)
+3·8 (2·8 to 4·9)
+2·3 (1·3 to 3·9)
+B
+All ages
+10–24 years
+0–9 years
+Leading risks 1990
+Percentage of DALYs 
+1990
+Leading risks 2019
+Percentage of DALYs 
+2019
+Percentage change in 
+number of DALYs, 
+1990–2019
+Percentage change in 
+age-standardised DALY rate, 
+1990–2019
+(Figure 5 continues on next page)
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1237
+and rank by 2019. The leading risks in 2019 were high 
+SBP, smoking, high FPG, low birthweight, and high 
+BMI. Other notable shifts include the large increase in 
+percentage of attributable DALYs and rank for ambient 
+particulate matter pollution, high LDL cholesterol, and 
+alcohol use. Among the youngest age group (0–9 years), 
+shown in figure 5B, the leading Level 4 risk factors 
+were composed exclusively of malnutrition and environ­
+mental risk factors. Over the 1990–2019 period, there 
+were substantial reductions in the burden attributable to 
+these risk factors in both absolute numbers and rates. 
+The largest declines among the leading ten risks were 
+for child growth failure (child underweight, stunting, 
+and wasting); water, sanitation, and handwashing; 
+and house­hold air pollution. Large but more moderate 
+declines in attributable burden occurred for short 
+gestation and low birthweight, with the smallest reduc­
+tion observed for ambient particulate matter pollution.
+Among adolescents and young adults (aged 10–24 years; 
+figure 5C), the pattern of risk factor burden was notably 
+different from the 0–9 years age group, with iron 
+deficiency, alcohol use, and unsafe sex ranking first to 
+Figure 5: Leading ten Level 4 risks by attributable DALYs, 1990–2019
+For all ages (A), 0–9 years (B), 10–24 years (C), 25–49 years (D), 50–74 years (E), and 75 years and older (F). DALYs=disability-adjusted life-years. 
+D
+Leading risks 1990
+Percentage of DALYs 
+1990
+Leading risks 2019
+Percentage of DALYs 
+2019
+Percentage change in 
+number of DALYs, 
+1990–2019
+Percentage change in 
+age-standardised DALY rate, 
+1990–2019
+E
+Leading risks 1990
+Percentage of DALYs 
+1990
+Leading risks 2019
+Percentage of DALYs 
+2019
+Percentage change in 
+number of DALYs, 
+1990–2019
+Percentage change in 
+age-standardised DALY rate, 
+1990–2019
+F
+25–49 years
+50–74 years
+≥75 years
+Leading risks 1990
+Percentage of DALYs 
+1990
+Leading risks 2019
+Percentage of DALYs 
+2019
+Percentage change in 
+number of DALYs, 
+1990–2019
+Percentage change in 
+age-standardised DALY rate, 
+1990–2019
+Environmental and occupational risks
+Behavioural risks
+Metabolic risks
+1 Alcohol use
+6·7 (5·9 to 7·5)
+1 Alcohol use
+6·3 (5·5 to 7·3)
+2 Smoking
+6·6 (5·9 to 7·2)
+2 High systolic blood pressure
+6·0 (4·9 to 7·1)
+3 High systolic blood pressure
+5·4 (4·4 to 6·4)
+3 High body-mass index
+4 Occupational injury
+3·9 (3·5 to 4·3)
+4 Smoking
+5·0 (4·5 to 5·6)
+5 High LDL cholesterol 
+3·5 (3·0 to 4·1)
+5 Unsafe sex
+4·9 (4·1 to 6·0)
+6 Household air pollution
+6 High fasting plasma glucose
+7 High body-mass index
+7 High LDL cholesterol 
+3·8 (3·1 to 4·5)
+8 Unsafe sex
+2·8 (2·1 to 3·7)
+8 Drug use
+2·9 (2·5 to 3·3)
+9 High fasting plasma glucose
+9 Ambient particulate matter
+10 Drug use
+2·0 (1·7 to 2·3)
+10 Kidney dysfunction
+2·4 (2·0 to 2·7)
+11 Kidney dysfunction
+1·9 (1·7 to 2·2)
+11 Occupational injury
+2·3 (2·1 to 2·6)
+12 Ambient particulate matter
+12 Household air pollution
+1 Smoking
+2 High systolic blood pressure
+3 Household air pollution
+4 High fasting plasma glucose
+5 High body-mass index
+6 High LDL cholesterol 
+7 Alcohol use
+8 Ambient particulate matter
+9 High sodium
+10 Kidney dysfunction
+1 High systolic blood pressure
+2 Smoking
+3 High fasting plasma glucose
+ 
+4 High LDL cholesterol 
+5 Household air pollution
+6 High body-mass index
+7 Ambient particulate matter
+8 Kidney dysfunction
+9 Low temperature
+10 Low whole grains
+16·1 (14·2 to 18·0)
+15·5 (14·1 to 16·7)
+12·2 (10·4 to 14·4)
+11·8 (7·9 to 16·0)
+6·8 (5·7 to 8·0)
+6·2 (4·9 to 7·7)
+5·0 (4·4 to 5·7)
+4·7 (4·0 to 5·3)
+3·5 (2·4 to 4·8)
+3·4 (1·1 to 7·1)
+19·4 (18·2 to 20·6)
+16·8 (14·9 to 18·7)
+8·5 (6·3 to 10·7)
+8·3 (7·0 to 9·8)
+7·6 (4·3 to 11·6)
+7·0 (5·6 to 8·5)
+5·1 (4·5 to 5·7)
+4·7 (3·3 to 6·3)
+4·0 (1·4 to 8·0)
+3·7 (3·2 to 4·2)
+22·0 (18·6 to 25·3)
+14·8 (13·9 to 15·7)
+10·5 (7·8 to 14·4)
+9·2 (6·0 to 13·2)
+7·8 (5·7 to 10·2)
+5·7 (3·0 to 9·2)
+5·2 (3·7 to 6·8)
+5·1 (4·1 to 6·1)
+4·6 (3·9 to 5·3)
+3·5 (1·8 to 4·4)
+1 High systolic blood pressure
+2 Smoking
+3 High fasting plasma glucose
+4 High body-mass index
+5 Ambient particulate matter
+6 High LDL cholesterol 
+7 Alcohol use
+8 Kidney dysfunction
+9 Household air pollution
+10 High sodium
+1 High systolic blood pressure
+2 High fasting plasma glucose
+3 Smoking
+4 High body-mass index
+5 High LDL cholesterol 
+6 Ambient particulate matter
+7 Kidney dysfunction
+8 Low temperature
+9 Household air pollution
+10 Low whole grains
+19·5 (16·3 to 22·7)
+13·5 (10·2 to 18·0)
+12·3 (11·4 to 13·0)
+7·3 (4·3 to 11·1)
+7·2 (4·5 to 10·6)
+6·7 (5·6 to 7·8)
+5·9 (4·9 to 6·9)
+3·4 (2·9 to 3·9)
+3·1 (2·1 to 4·3)
+3·0 (1·6 to 3·9)
+47·7 (36·9 to 58·0)
+22·6 (13·9 to 32·6)
+127·2 (113·4 to 141·5)
+138·4 (106·5 to 186·2)
+122·5 (78·2 to 185·1)
+37·8 (27·8 to 47·5)
+51·2 (37·6 to 65·1)
+92·8 (80·4 to 105·3)
+–36·7 (–50·4 to –21·6)
+31·9 (–1·6 to 51·0)
+69·6 (58·6 to 80·5)
+144·5 (130·1 to 158·7)
+58·2 (48·9 to 69·1)
+145·1 (123·1 to 180·2)
+50·0 (39·2 to 58·7)
+143·7 (94·6 to 211·9)
+121·7 (108·6 to 134·1)
+42·2 (32·5 to 53·1)
+–24·5 (–41·1 to –4·8)
+66·2 (57·6 to 74·6)
+–28·3 (–33·6 to –23·3)
+–40·3 (–44·6 to –35·5)
+10·2 (3·4 to 17·0)
+19·1 (0·7 to 39·5)
+9·8 (–13·6 to 38·3)
+–32·6 (–37·5 to –27·8)
+–25·8 (–32·6 to –19·1)
+–6·4 (–12·6 to –0·5)
+–69·3 (–76·0 to –62·0)
+–37·1 (–52·1 to –26·5)
+–30·0 (–34·3 to –25·7)
+1·8 (–4·8 to 7·9)
+–31·9 (–35·8 to –27·3)
+4·7 (–6·0 to 17·9)
+–40·2 (–43·5 to –37·1)
+4·1 (–18·2 to 31·0)
+–8·6 (–14·2 to –3·6)
+–41·8 (–45·7 to –37·6)
+–67·7 (–74·9 to –59·4)
+–32·3 (–35·7 to –28·8)
+3·4 (2·6 to 4·3)
+3·3 (1·9 to 5·2)
+ 2·8 (2·4 to 3·2)
+1·8 (1·2 to 2·3)
+5·9 (4·2 to 7·8)
+4·0 (3·4 to 4·6)
+2·9 (2·4 to 3·5)
+1·7 (1·2 to 2·3)
+ 26·7 (18·0 to 35·7)
+ 48·4 (34·4 to 61·8)
+ 136·1 (95·0 to 203·5)
+ 1·9 (–5·7 to 9·7)
+ 131·3 (102·8 to 171·1)
+ 90·9 (76·6 to 104·3)
+ 41·4 (28·4 to 54·5)
+ 94·4 (84·5 to 106·7)
+ 120·4 (76·2 to 180·7)
+ 62·4 (49·9 to 75·0)
+ –23·5 (–28·8 to –18·0)
+ –15·1 (–23·0 to –7·4)
+ 40·5 (12·1 to 73·9)
+ –42·8 (–47·1 to –38·4)
+ 45·1 (26·9 to 67·2)
+ 10·0 (1·9 to 17·8)
+ –18·9 (–26·2 to –11·6)
+ 22·9 (16·6 to 30·4)
+ 29·4 (1·8 to 62·5)
+ –4·2 (–11·8 to 3·1)
+ 
+–21·3 (–30·0 to –11·8)
+ 
+–34·2 (–47·2 to –21·0)
+ 
+–50·4 (–55·9 to –44·5)
+ 
+–61·9 (–69·4 to –54·2)
+
+Global Health Metrics
+1238	
+www.thelancet.com   Vol 396   October 17, 2020
+Caribbean and central America
+Persian Gulf
+West Africa
+Balkan Peninsula
+Eastern 
+Mediterranean
+Southeast Asia
+Northern Europe
+B High systolic blood pressure
+Caribbean and central America
+Persian Gulf
+West Africa
+Balkan Peninsula
+Eastern 
+Mediterranean
+Southeast Asia
+Northern Europe
+A Child and maternal malnutrition
+0% to <2%
+2% to <4%
+4% to <6%
+6% to <8%
+8% to <10%
+10% to <12·5%
+12·5% to <15%
+15% to <17·5%
+17·5% to <20%
+≥20%
+DALYs attributable
+0% to <2%
+2% to <4%
+4% to <6%
+6% to <8%
+8% to <10%
+10% to <12·5%
+12·5% to <15%
+15% to <17·5%
+17·5% to <20%
+≥20%
+DALYs attributable
+(Figure 6 continues on next page)
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1239
+(Figure 6 continues on next page)
+Caribbean and central America
+Persian Gulf
+West Africa
+Balkan Peninsula
+Eastern 
+Mediterranean
+Southeast Asia
+Northern Europe
+D Air pollution
+Caribbean and central America
+Persian Gulf
+West Africa
+Balkan Peninsula
+Eastern 
+Mediterranean
+Southeast Asia
+Northern Europe
+C Tobacco
+0% to <2%
+2% to <4%
+4% to <6%
+6% to <8%
+8% to <10%
+10% to <12·5%
+12·5% to <15%
+15% to <17·5%
+17·5% to <20%
+≥20%
+DALYs attributable
+0% to <2%
+2% to <4%
+4% to <6%
+6% to <8%
+8% to <10%
+10% to <12·5%
+12·5% to <15%
+15% to <17·5%
+17·5% to <20%
+≥20%
+DALYs attributable
+
+Global Health Metrics
+1240	
+www.thelancet.com   Vol 396   October 17, 2020
+third for attributable DALYs in this age group in 2019. 
+There were declines in unsafe sex DALYs in the second 
+half of the study period, but due to rapid increases 
+from 1990 to 2004, there was still a 108·3% (95% UI 
+78·5–140·5) increase in unsafe sex DALYs from 1990 to 
+2019. The long-term consequences of short gestation and 
+low birthweight also increased in importance.
+In the 25–49 years age group (figure 5D), alcohol use was 
+the leading Level 4 risk factor for attributable burden, 
+followed by high SBP and then high BMI, smoking, unsafe 
+sex, and high FPG. The number of DALYs increased for all 
+the top ten risks, but age-standardised attributable DALY 
+rates increased only for high BMI, unsafe sex, high FPG, 
+drug use, and ambient particulate matter pollution. In the 
+two oldest age groups, the set of leading risks are quite 
+similar to one another, dominated by high SBP at the top, 
+and followed by other metabolic risk factors including 
+high FPG, high BMI, high LDL cholesterol, and kidney 
+dysfunction. Smoking also contributed substantially to 
+the risk attributable burden in these age groups, ranked 
+second in ages 50–74 years (figure 5E) and third in ages 
+75 years and older (figure 5F). In the oldest age group, 
+low temperature was also one of the top ten risks, 
+although 
+age-standardised 
+attributable 
+DALY 
+rates 
+declined from 1990 to 2019. Sex-specific rankings by age 
+group are available in appendix 2 (figures S4, S5).
+National findings
+The leading risk factors for attributable DALYs had 
+highly varied geographical patterns, as shown in figure 6, 
+which presents maps of the percentage of burden 
+attributable to the top five Level 2 risk factors globally 
+in 2019. The highest proportions (greater than 20%) of 
+burden attributable to the leading Level 2 risk factor 
+in 2019, child and maternal malnutrition, were seen 
+in most of western, central, and eastern sub-Saharan 
+African regions (figure 6A). In addition, rates greater 
+than 20% were seen in Afghanistan, Pakistan, states in 
+northern India, Yemen, and Papua New Guinea. Rates 
+between 10% and 20% were seen in a diverse set of 
+central American countries, states in Brazil, Tajikistan, 
+Uzbekistan, Myanmar, regions of the Philippines, and 
+some Indonesian provinces.
+Figure 6B shows the burden attributable to the second 
+leading Level 2 risk factor in 2019, high SBP. Locations 
+with more than 20% of DALYs attributable to high SBP 
+included Georgia and most of central and eastern 
+Europe. Most countries in north Africa and the Middle 
+East had between 10% and 20% of DALYs attributable to 
+high SBP as did states in southern India and many parts 
+of southeast Asia. The only countries with less than 
+2% of all-age DALYs attributable to high SBP were in 
+western sub-Saharan Africa.
+Figure 6: Percentage of all DALYs attributable to the five leading Level 2 risk factors, 2019
+DALYs attributable to child and maternal malnutrition (A), high systolic blood pressure (B), tobacco (C), air pollution (D), and dietary risks (E). DALYs=disability-adjusted life-years.
+Caribbean and central America
+Persian Gulf
+West Africa
+Balkan Peninsula
+Eastern 
+Mediterranean
+Southeast Asia
+Northern Europe
+E Dietary risks
+0% to <2%
+2% to <4%
+4% to <6%
+6% to <8%
+8% to <10%
+10% to <12·5%
+12·5% to <15%
+15% to <17·5%
+17·5% to <20%
+≥20%
+DALYs attributable
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1241
+The third leading Level 2 risk factor, tobacco, is shown 
+in figure 6C. Locations with more than 20% of DALYs 
+attributable in 2019 include countries in the Balkan 
+Peninsula and two provinces in China—Liaoning and 
+Heilongjiang. Most countries in Europe had between 
+10% and 20% of DALYs attributable to smoking; Canada, 
+most states in the USA, Russia, the rest of China, and 
+many parts of southeast Asia were also in this category. 
+Attributable burden remains less than 6% in most of 
+Mexico, central America, and Andean Latin America. 
+The burden attributable to tobacco is less than 2% in 
+much of western and eastern sub-Saharan Africa.
+Figure 6D shows the burden attributable to air pollution 
+(ambient particulate matter, household air pollution, and 
+ambient ozone pollution). No location had more than 
+20% of DALYs attributable to air pollution. But a wide 
+range of countries in western and eastern sub-Saharan 
+Africa had attributable burden percentages between 10% 
+and 15%. Similarly, nearly all locations in south Asia, 
+many parts of southeast Asia, and most provinces in 
+China also had the same levels of attributable burden. The 
+spatial patterns of the constituent risks included in air 
+pollution—particularly ambient particulate matter and 
+household air pollution—were quite different (see GBD 
+Compare for data), with ambient particulate matter 
+pollution playing a much greater role in Asia than in 
+Africa.
+The fifth most important Level 2 risk factor was the 
+dietary risks that are based on the joint effects of 15 diet 
+quality components (figure 6E). In Bulgaria, dietary risks 
+accounted for more than 20% of attributable DALYs. 
+However, diet accounts for more than 10% of DALYs in 
+many locations in central and eastern Europe, central 
+Asia, and most of China. The lowest shares of DALYs 
+attributed to dietary risks are in sub-Saharan Africa, 
+particularly countries in the Sahel.
+Risk-specific trends
+Two-page risk-specific summaries provide detailed 
+results on attri­butable deaths, YLLs, YLDs, and DALYs 
+for a selection of the 87 risk factors in the GBD risk 
+hierarchy. These summaries include 2019 counts, age-
+standardised rates, and rankings for attributable burden; 
+the com­position of attributable burden for leading 
+causes; patterns of attributable burden over time and 
+age; and age-standardised SEVs by location and SDI. 
+They were written to increase the accessibility to and 
+transparency of GBD estimates for each risk factor. 
+Summaries for select risk factors are highlighted in print 
+(pp S216–319); summaries for all risk factors can be 
+found online.
+Discussion
+Main findings 
+Our 
+analysis 
+of 
+risk-attributable 
+burden 
+using 
+30 652 sources for exposure, relative risk, and the TMREL 
+showed that in 2019, 47·8% (95% UI 45·3–50·1) of global 
+DALYs were attributed to present and past exposure for 
+the 87 environmental, occupational, behavioural, and 
+metabolic risk factors and combinations of risk factors 
+included in this analysis. Overall, combined global expo­
+sure to the risks included in this study has remained 
+remarkably constant over the past 30 years. Risk-deleted 
+mortality rates over the same period have declined, 
+ranging from a 3·3% decline per year in females aged 
+1–4 years to a 0·3% decline per year in males aged 
+90–94 years. Despite this overall pattern, reductions in 
+key risks highly correlated with SDI—unsafe water, 
+sanitation, and handwashing; household air pollution; 
+child growth failure; and vitamin A and zinc defi­
+ciencies—have contributed to reductions in global child 
+death rates. Among the most detailed major non-commu­
+nicable disease risks, only tobacco smoking has declined 
+steadily. At the global level in 2019, there were three risk 
+factors that accounted for more than 1% of DALYs and 
+were increasing in exposure by more than 1% per year: 
+high BMI, ambient particulate matter pollution, and 
+high FPG. There is large scope for public regulatory 
+policy, community programmes, and primary care inter­
+ventions on risks to have a greater effect on prevention. 
+These broad global patterns mask considerable hetero­
+geneity in risk levels and trends at the country level, 
+reinforcing the need for country assessments and 
+country-specific prevention planning.
+Important risk factor trends
+Some risk exposures are highly correlated with social 
+and economic development, as measured by SDI. 
+As countries and territories increase SDI through 
+higher levels of education, particularly among women; 
+increased GDP per capita; and improved access to 
+modern contraceptives, we should expect progress on 
+these risks. The incremental effect of campaigns, 
+policies, and programmes on top of this social and 
+economic development process is yet to be established 
+in this analysis. Bending the development curve is 
+possible, as evidenced by the abrupt accelerations in the 
+decline in some risk factors, such as the recent decline 
+in unsafe sanitation in India.20 Even for risks that 
+are historically highly correlated with SDI, intervention 
+can accelerate progress. The range of policy initiatives to 
+accelerate the transition to cleaner cooking fuels is 
+another example of this effort.21,22 Analysis of exemplars, 
+countries with lower SEVs for these risks for their level 
+of SDI or faster progress than expected for the change in 
+SDI, could yield further insights.
+Two risk factors that have not been highly correlated 
+with SDI in the past have also seen declines in exposure 
+at nearly 1% per year over the study period: tobacco 
+smoking and lead exposure. Progress on exposure to 
+these risks stands out compared with the increases in 
+exposure to many metabolic risks and no substantial 
+change for others such as diet quality. In both of these 
+cases, government action through taxation and regulatory 
+For GBD Compare see 
+https://vizhub.healthdata.org/
+gbd-compare/
+For all two-page summaries see 
+https://www.thelancet.com/
+gbd/summaries
+
+Global Health Metrics
+1242	
+www.thelancet.com   Vol 396   October 17, 2020
+policy for tobacco smoking,23 including advertising bans 
+and clean air legislation, and regulation of lead content,24,25 
+have had a major effect. Tobacco interventions highlight 
+how regulatory policy can lead to behaviour change. 
+International efforts for tobacco control have also been 
+bolstered by the Framework Convention on Tobacco 
+Control.26 Despite the more than 1% per year decline in 
+age-standardised tobacco smoking exposure between 
+2010 and 2019, tobacco remains the third leading risk 
+factor for attributable DALYs among Level 2 risks. For 
+the three major and rapidly increasing risks, the role of 
+taxation and regulatory policy should be examined. For 
+ambient particulate matter pollution, regulation can 
+clearly have a direct impact.27,28 For the nexus of high FPG 
+and high BMI, regulatory strategies are less clear. We are 
+failing to deal with these risks, and concerted research 
+and policy efforts are needed to reverse the trends.
+The marked rise of metabolic risks as a group, in 
+particular high FPG and high BMI, and their large 
+contribution to attributable burden is perhaps most 
+disturbing. During this period of rising metabolic risk 
+exposure, global cardiovascular disease age-standardised 
+mortality has been declining as documented in GBD 2019 
+for diseases and injuries.29 The seeming paradox could, to 
+a large extent, be explained by the effect of access to care,30 
+social determinants of health, cohort effects, and other 
+behavioural, occupational, and environmental risks not 
+quantified here. Rising metabolic risks might at some 
+point overwhelm these other drivers and eventually lead to 
+rising cardiovascular mortality in the future. This situation 
+might have arrived in some high-income countries in 
+which age-stan­dardised cardio­vascular disease mortality 
+has plateaued or increased since 2017.31 If year-on-year 
+declines in cardiovascular disease mortality come to an 
+end, the effect on mortality and longevity at the global level 
+could be massive. While high BMI and high FPG have 
+steadily increased, high LDL cholesterol has remained 
+constant over the past decade despite the expected 
+correlation with BMI; this finding warrants further 
+investigation and could be related to changes in diet 
+quality, pharmacological intervention, or other factors. 
+Although not increasing at the rate of high BMI or high 
+FPG, high SBP has become the leading risk factor for 
+disease burden at the global level, among the most 
+detailed risks in this analysis. A range of strategies 
+including primary care management and reduc­tions in 
+sodium intake are known to be potentially effective in 
+reducing the burden of this critical risk factor.32,33
+The rise of high BMI and its probable role in increasing 
+high FPG needs further examination. Increased BMI can 
+be traced to the combination of physical inactivity, excess 
+caloric intake, and diet quality.34 At the global level, we 
+find that high BMI is rising considerably faster than low 
+physical activity and poor diet quality. Diet quality on its 
+own is the fifth leading Level 2 risk factor for attributable 
+DALYs. The effect of diet on human health goes beyond 
+diet quality and should include the contribution of diet 
+intake above energy requirements. Some studies sug­
+gest that certain diet components are more likely to 
+contribute to increased BMI than others; the mechanism 
+of these effects can be complex and include effects on 
+appetite, absorption, and displacement of other foods.35 It 
+is currently hard to understand the role of physical 
+inactivity, excess caloric intake, and diet quality in driving 
+the increase in BMI. The large combined burden of 
+diet quality, physical inactivity, and high BMI (11·9% 
+[95% UI 9·6–14·5] of all DALYs in 2019) indicates just 
+how profoundly important the nexus of diet and physical 
+activity can be to current and future health. The setting 
+for understanding the potential of changes in overall diet 
+is to use future health scenarios to trace how public 
+policies such as subsidies, taxes, information campaigns, 
+and improving accessibility can affect health in each 
+country. In this study, no country or territory has had a 
+significant decline in the proportion of the population 
+with high BMI between 1990 to 2019 or in the past 
+decade. The complete failure to reduce BMI at the 
+national level implies that efforts to modify the nexus of 
+physical inactivity, diet quality, and excess energy intake 
+might be very challenging. Tackling this diet quality and 
+excess energy intake will not only be important for 
+human health but has important ramifications for 
+environmental sustainability.36
+The two types of exposure to particulate matter with a 
+diameter of less than 2·5 μm (PM2·5) have profoundly 
+different relationships with socio-demo­graphic develop­
+ment: household air pollution is strongly related to SDI 
+and tends to decrease steadily with socio-demographic 
+development. By contrast, ambient particulate matter 
+pollution tends to increase with industrialisation and 
+then decline with air-quality management at higher levels 
+of SDI.37,38 The global increases in ambient particulate 
+matter pollution exposure are being driven by the middle 
+SDI quintiles, as seen in figure 1B. Studies have shown 
+that for ambient particulate matter pollution (ambient 
+PM2·5), the main sources of exposure are residential 
+energy use, industry, and power generation.39 The con­
+centration of PM2·5 burden in south Asia highlights how 
+the absence of national policy actions can have a major 
+effect. Among the large risk factors in which exposure is 
+increasing, ambient particulate matter pollution stands 
+out because exposure is declining in countries with a 
+higher SDI. Like tobacco and lead, regulation can have a 
+profound effect on exposure to and health effects of 
+ambient particulate matter pollution and does not require 
+individual action.40,41 There is a clear role for global 
+organisations to encourage regulatory change in middle 
+SDI countries with large and increasing exposure to 
+ambient particulate matter pollution. This agenda is all 
+the more urgent because of the direct linkage to global 
+climate change.
+Because of profound global interest in the potential 
+health effects of climate change, we have included high 
+and low non-optimal temperatures in GBD 2019. Climate 
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1243
+change will have impacts on human health through 
+many mechanisms: direct effects of temperature rise, 
+humidity changes, sea-level rise, extreme weather events, 
+and reduced agricultural yields and increased rural 
+poverty.42,43 We have so far included only one of these 
+pathways in the GBD analysis, namely the direct effects 
+of ambient temperature on different disease outcomes. 
+Our analysis showed that the TMREL varies as a function 
+of mean annual temperature. Locations where mean 
+temperature is higher tend to have higher optimal 
+temperatures, probably through physical and social 
+adaptation. In 2019, the burden (as measured by 
+percentage of total DALYs) attributable to low temperature 
+was 2·2 times greater than the burden attributable to 
+high temperature. This balance does not, however, hold 
+true when looking at specific locations or regions. While 
+for high SDI countries, the cold-related burden is 
+15·4 times greater than the heat-related burden, this 
+relationship is switched for other regions, such as south 
+Asia where we observed a 1·7 times greater heat-related 
+burden and sub-Saharan Africa where we observed 
+a  3·6 times greater heat-related burden. Rising tem­
+perature will probably have a substantial effect in 
+locations with less capacity to adapt to increased 
+temperature, potentially exacerbating health inequalities 
+across countries. The social capacity to adapt is also 
+probably tied to economic development: for example, air 
+conditioners in the USA have mitigated the impact of 
+heat waves over the past 50 years.44 In terms of trends, 
+there was a marked increase in exposure to high 
+temperature from 1990 to 2010 and then a slight decline 
+from 2010 to 2019; there are major annual fluctuations in 
+temperature exposure on top of long-term warming 
+trends, and 2010 stood out as a year with high tempe­
+ratures in many regions. Our analysis does not provide a 
+basis for understanding the full effects of future climate 
+change, which will operate through many different 
+pathways in addition to the direct effects of temperature.
+In the GBD CRA work to date, we have estimated the 
+burden attributable to past exposure in a given year. The 
+CRA framework also laid out the important utility for 
+policy making of estimating how changes in current and 
+future exposure can change future levels of health; this 
+concept is called avoidable burden. Most CRA work to 
+date has focused on estimating attributable burden, 
+even though avoidable burden is arguably more relevant 
+to policy prioritisation. The dominance of work on attri­
+butable burden is founded on two premises: it is very 
+difficult to estimate avoidable burden as this estimate 
+requires a comprehensive future health scenarios frame­
+work; and attributable burden is likely to be highly 
+correlated with avoidable burden. With the availability of 
+a GBD-informed future health scenarios platform,45,46 the 
+possibility of estimating avoidable burden is much more 
+tractable. Future work on avoidable burden for each GBD 
+risk factor might allow us to examine the true relationship 
+between the two approaches to CRA. The relationships 
+between avoidable and attributable burden can vary 
+across countries; in high mortality settings, competing 
+risks might mean that avoidable burden will be sys­
+tematically smaller than attributable burden.
+For GBD 2019 and all previous GBD CRA efforts, our 
+inclusion criteria for a risk–outcome pair were based on 
+the World Cancer Research Fund criteria for convincing 
+or probable evidence. We also required that published 
+studies, when meta-analysed together, yielded a sig­
+nificant (p<0·05) relative risk for any risk–outcome pair 
+meeting these criteria. To avoid risk–outcome pairs on 
+the cusp of statistical significance coming in and out of 
+GBD with different cycles, we introduced a threshold of 
+p>0·1 to exclude a risk–outcome pair that has previously 
+been included in GBD. Among the included risk–
+outcome pairs, the consistency of the evidence and risk 
+of bias varies considerably. The evidence linking smoking 
+to lung cancer is clearly far stronger than the evidence on 
+omega-3 and ischaemic heart disease. The UI of the 
+mean effect does not fully capture this difference in the 
+consistency of evidence or the risk of bias. A more robust 
+measure needs to take into account various risks of bias 
+and the unexplained variation in effect after taking into 
+account these risks of bias as well as the magnitude of 
+the effect size. The relative risk of lung cancer from 
+smoking is very high across levels of exposure, with a 
+relative risk of 3·4 at ten pack-years of smoking and a 
+relative risk of 6·5 at 20 pack-years of smoking, which 
+makes it far more likely to be causal than an exposure 
+with a relative risk of 1·1. If we included the unexplained 
+heterogeneity across studies after adjusting for risk of 
+bias in the UI of the relative risks, several risk–outcome 
+pairs might not meet inclusion criteria. We are working 
+on developing an evidence scoring system that quantifies 
+consistency and risk of bias for GBD and would allow 
+readers to understand that not all risk–outcome pairs 
+have the same evidence base. It would, however, be 
+misleading and potentially harmful to argue that we 
+should only examine the GBD risk–outcome pairs 
+with the highest grade of evidence. The precautionary 
+principle for public policy implies that governments have 
+a duty to act on risk factors that are probably or potentially 
+harmful and not only those that have overwhelming 
+evidence.47 Relying only on effects on the basis of the 
+highest degree of evidence will very seriously delay public 
+recognition and proactive policies, which in turn would 
+result in perpetuating preventable burden. We hope to 
+inform both individuals and public policy makers with 
+quantification of burden and strength of evidence so they 
+are empowered to make sense of the available data.
+Analysing relative risks to inform choices by individuals 
+and choices by population health decision makers might 
+legitimately have different perspectives. Some guidelines 
+on systematic reviews48,49 recommend reporting absolute 
+risk levels related to exposure; this method is perhaps 
+appropriate for informing individual choice. For public 
+policy, attributable burden might be more relevant. If a 
+
+Global Health Metrics
+1244	
+www.thelancet.com   Vol 396   October 17, 2020
+risk factor is related to 1000 deaths, from a public policy 
+perspective, the concentration of the risk in a smaller or 
+larger group of individuals might matter less than it does 
+to individuals. To provide a synthesis of the evidence for 
+different users, we included estimation of the all-cause 
+mortality relative risk associated with exposure levels of 
+each risk factor using the global distribution of burden 
+across outcomes. However, risks that cause relatively 
+modest increases for individuals but are highly prevalent, 
+such as air pollution, are, nevertheless, legitimate targets 
+for public policy.
+Substantial changes compared with GBD 2017
+Compared with GBD 2017, our GBD 2019 estimates of 
+the burden (as measured by percentage of total DALYs) 
+attributable to diet quality in 2017 were 29·7% lower. 
+These reductions stem from three major sources: 
+changes in the crosswalks between alternative and 
+reference methods for estimating diet intake, new 
+systematic reviews and meta-regressions, and more 
+empirical standardised methods for selecting the TMREL 
+for protective factors. Although there were changes in 
+the overall burden of diet, there were larger changes 
+in the diet components themselves, particularly the 
+substantial increase in the attributable burden from 
+red meat and the decline in the burden attributable to 
+low vegetable intake. The sources of the changes were 
+the same as for diet quality overall. One of the most 
+important insights from this enriched analysis is that for 
+many harmful and protective factors, the relative risk 
+functions tend to flatten out at higher exposure levels; 
+the previous practice of imposing a log-linear functional 
+form on the risk equation—widely used in the scientific 
+literature—might have led to overestimation. For protec­
+tive diet components (whole grains, fruit, fibre, nuts 
+and seeds, omega-3, polyunsaturated fatty acids, veg­
+etables, milk, and calcium), we set the TMREL to the 
+85th percentile of levels of exposure included in the 
+published cohort studies or randomised controlled trials. 
+With further study of individuals with higher levels of 
+intake, it is possible that the level of intake associated 
+with the lowest risk is in fact higher than the TMREL 
+set for protective diet components in GBD 2019. 12 diet 
+risk–outcome pairs from GBD 2017 were excluded 
+from GBD 2019 because our re-analysis with updated 
+data suggested that the effects were no longer signifi­
+cant. Some risk–outcome pairs, such as omega-3 and 
+ischaemic heart disease, which remained in the analysis 
+as the result of the new meta-regression of 21 trials and 
+27 cohort studies, met inclusion criteria but future 
+studies could shift the balance of the evidence to be 
+excluded.
+Particulate matter pollution burden in 2017 was 44·6% 
+higher in GBD 2019 than in GBD 2017. The increase was 
+due to the inclusion of low birthweight and short 
+gestation as risk factors that are themselves affected by 
+PM2·5, as well as increases in the relative risk curve for 
+cardiovascular diseases, particularly stroke, due to newly 
+added data and changes in fitting the exposure-response 
+curves. Given the very large burden of low birthweight 
+and short gestation on neonatal mortality, the inclusion 
+of these intermediates has been an important change in 
+our assessment. The burden of stroke and ischaemic 
+heart disease attributable to kidney dysfunction increased 
+between GBD 2017 and GBD 2019 after updating the 
+relative risks with new data from 44 cohorts. For instance, 
+the comparable estimate of the proportion of cardio­
+vascular DALYs due to kidney dysfunction in 2010 
+increased from 6·8% (95% UI 6·0–7·6) to 8·5% 
+(6·8–10·3).
+Limitations
+In GBD 2019, we undertook a reassessment of dose–
+response relationships and relaxed previous assumptions 
+that the risk curve is log-linear. This reassessment was 
+limited, however, to dietary risks, kidney dysfunction, and 
+air pollution. Future reassess­ments of other continuous risk 
+factors that currently assume a log-linear relationship could 
+materially change risk factor rankings in the future and 
+could also lead to exclusion of other risk–outcome pairs.
+Assessment of the joint effects of risk factors depends 
+on two critical factors: the correlation of risk exposure 
+and the estimation of the joint effects of groups of risks 
+together. For exposure, we assumed that for each age-sex-
+location-year, the estimates of the prevalence of exposure 
+were independent. Previous simulation analyses under­
+taken for GBD 20108 with use of US data from the 
+National Health and Nutrition Examination Survey 
+suggested this assumption did not materially bias our 
+findings. To assess the joint effects of risk factors, we 
+assumed in general that relative risks are multiplicative. 
+This simple assumption has been modified to take into 
+account known pathways in which one risk factor, such 
+as fruit consumption, is mediated through another risk 
+factor such as fibre intake. To avoid over-estimation of 
+the joint effects, we computed the non-mediated relative 
+risks and then assumed that non-mediated relative 
+risks are multiplicative. This approach does not capture 
+potential synergy between relative risks in which some 
+combinations might be super-multiplicative. For some 
+areas such as diet, the joint estimation is very important 
+for public policy. Further, more detailed work is needed 
+to strengthen the evidence base for understanding 
+mediation. In particular, mediation implies necessarily 
+that exposure between mediated risks is correlated. 
+Factoring in that implied correlation into risk exposure 
+estimation could strengthen estimates in the future.
+The main limitation of our estimates of risk-
+attributable burden is the availability and quality of 
+primary data that underpin the analysis. Data for risk 
+relationships of several risk factors, such as ambient 
+ozone pollution, residential radon, occupational risks, 
+child­hood sexual abuse, intimate partner violence, 
+bullying victimisation, and child growth failure are 
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1245
+sparse. For exposure measurement, patterns of data 
+availability are non-uniform across geography and over 
+time and, where available, might be based on less 
+reliable modes of data collection such as self-report. In 
+GBD 2019, we implemented more explicit corrections 
+for bias associated with non-reference methods of 
+exposure measurement that improved the estimation of 
+risk exposure. Furthermore, these assessments can be 
+used to guide future data collection efforts by identifying 
+those populations with not only sparse but low-quality 
+data based on the collection mode.
+Our analysis, particularly the overall assessment of 
+burden attributable to all risks combined and risk-
+deleted mortality, is limited by several potentially 
+important risk factors not included in this analysis. The 
+most important set is likely to be social determinants of 
+health such as educational attainment, poverty, or social 
+exclusion. We are currently doing systematic reviews on 
+educational attainment, which will be the first social 
+determinant to be incorporated into future rounds of 
+the GBD CRA. There is also a wide range of other 
+risk factors not yet included such as nitrous oxide, heavy 
+metals, environ­mental noise, sleep, stress, UV radiation, 
+among others. Future rounds of GBD might evaluate 
+whether these risk factors meet inclusion criteria.
+To date, GBD has not included Mendelian ran­
+domisation studies in meta-regression. These studies 
+could provide new insights on the causal connections 
+between risks and outcomes.50 Not all Mendelian 
+randomisation studies are appropriate for inclusion.51–53 
+Future rounds of GBD will give careful consideration to 
+including these studies for some risk–outcome pairs.
+For harmful risks with monotonically increasing risk 
+functions, we have generally assumed that the TMREL 
+is 0. For protective risks such as fruit or whole grain 
+intake, selecting the level of exposure that is minimum 
+risk is more challenging. Extrapolating the risk function 
+beyond where the available cohort studies or trials 
+support the protective effect could easily lead to both 
+exaggerated estimates of attributable burden and implau­
+sible recom­mendations on consumption. To avoid this 
+exaggeration, we set the TMREL for protective risks to be 
+equal to the 85th percentile of exposure in the available 
+cohorts and trials. The 85th percentile is arbitrary, but 
+sensitivity analysis did not suggest major changes if we 
+selected the 90th or 80th percentiles.
+Lastly, in most cases, we assume that relative risks as 
+a function of exposure are universal and apply in 
+all locations and time periods. Exceptions include 
+temperature, in which the risk functions clearly depend 
+on the annual mean temperature, and the relative risks 
+for high BMI for breast cancer that differ in Asian and 
+non-Asian populations. Our rules require that there is 
+evidence of significant differences in the relative risk for 
+different subgroups; to date, few cases have met this 
+standard. As evidence accumulates, more location-
+specific or subgroup relative risks might be identified.
+Conclusion
+Using the most up-to-date assessment of the data for 
+exposure and relative risk, we found that global exposure 
+to harmful environmental risks has been declining, with 
+the notable exception of ambient particulate matter 
+pollution. Environ­mental risk reduction is making an 
+important contribution to reductions in child mortality. In 
+aggregate, there has been no real progress reducing 
+exposure to behavioural risks, while metabolic risks are, 
+on average, increasing every year. As a world, we are 
+failing to change some behaviours, particularly those 
+related to diet quality, caloric intake, and physical activity. 
+Progress on reducing harm from one crucial behaviour, 
+tobacco smoking, shows the power of taxation and 
+regulation. The promise of prevention through risk 
+modification is not being realised in adult populations 
+around the world. Urgent attention on more successful 
+strategies to reduce risks is needed.
+Contributors
+Please see appendix 1 for more detailed information about individual 
+author contributions to the research, divided into the following 
+categories: managing the estimation process; writing the first draft of the 
+manuscript; providing data or critical feedback on data sources; 
+developing methods or computational machinery; applying analytical 
+methods to produce estimates; providing critical feedback on methods or 
+results; drafting the work or revising it critically for important intellectual 
+content; extracting, cleaning, or cataloguing data; designing or coding 
+figures and tables; and managing the overall research enterprise.
+Declaration of interests
+C A T Antonio reports personal fees from Johnson & Johnson 
+(Philippines), outside of the submitted work. E Beghi reports grants from 
+Italian Ministry of Health and SOBI, and personal fees from Arvelle 
+Therapeutics, outside of the submitted work. Y Béjot reports personal 
+fees from AstraZeneca, Bristol-Myers Squibb, Pfizer, Medtronic, Merck 
+Sharpe & Dohme, and Amgen; grants and personal fees from Boehringer 
+Ingelheim; personal fees and non-financial support from Servier; and 
+non-financial support from Biogen, outside of the submitted work. 
+M L Bell reports grants from US Environmental Protection Agency, 
+National Institutes of Health (NIH), and from Wellcome Trust 
+Foundation, during the conduct of the study; and Honorarium or travel 
+reimbursement from the NIH (for review of grant proposals), 
+American Journal of Public Health (participation as editor), Global Research 
+Laboratory and Seoul National University, Royal Society, Ohio University, 
+Atmospheric Chemistry Gordon Research Conference, Johns Hopkins 
+Bloomberg School of Public Health, Arizona State University, Ministry of 
+the Environment Japan, Hong Kong Polytechnic University, University of 
+Illinois–Champaign, and the University of Tennessee–Knoxville, outside 
+of the submitted work. H Christensen reports personal fees from Bristol 
+Myers Squibb, Bayer, and Boehringer Ingelheim, outside of the 
+submitted work. S-C Chung reports grants from GlaxoSmithKline, 
+outside of the submitted work. L Degenhardt reports grants from 
+Indivior and Seqirus, outside of the submitted work. S M S Islam reports 
+grants from National Heart Foundation of Australia and Deakin 
+University, during the conduct of the study. S L James reports grants 
+from Sanofi Pasteur and employment from Genentech, outside of the 
+submitted work. V Jha reports grants from Baxter Healthcare, 
+GlaxoSmithKline, Zydus Cadilla, and Biocon and personal fees from 
+NephroPlus, outside of the submitted work. J J Jozwiak reports personal 
+fees from Amgen, ALAB Laboratoria, Teva, Synexus, and Boehringer 
+Ingelheim, outside of the submitted work. S V Katikireddi reports grants 
+from NRS Senior Clinical Fellowship, UK Medical Research Council, and 
+the Scottish Government Chief Scientist Office, during the conduct of 
+the study. M Kivimäki reports grants from the Medical Research Council, 
+UK (MR/R024227/1), during the conduct of the study. S Lorkowski 
+reports personal fees from Akcea Therapeutics, Amedes, Amgen, Berlin-
+Chemie, Boehringer Ingelheim Pharma, Daiichi Sankyo, Merck Sharp & 
+
+Global Health Metrics
+1246	
+www.thelancet.com   Vol 396   October 17, 2020
+Dohme, Novo Nordisk, Sanofi-Aventis, Synlab, Unilever, and Upfield, 
+and non-financial support from Preventicus, outside of the submitted 
+work. R V Martin reports grants from the Natural Science and 
+Engineering Research Council of Canada, during the conduct of the 
+study. T R Miller reports having a contract from the AB InBev 
+Foundation, outside of the submitted work. J F Mosser reports grants 
+from the Bill & Melinda Gates Foundation, during the conduct of the 
+study. S Nomura reports grants from the Ministry of Education, Culture, 
+Sports, Science, and Technology. S B Patten reports funding from the 
+Cuthbertson & Fischer Chair in Pediatric Mental Health at the University 
+of Calgary, during the conduct of the study. C D Pond reports personal 
+fees from Nutricia, outside of the submitted work; and grants from the 
+National Medical Research council in relation to dementia, and travel 
+grants and remuneration related to education of primary care 
+professionals in relation to dementia. M J Postma reports grants from 
+BioMerieux, WHO, European Union, FIND, Antilope, DIKTI, LPDP, 
+Bayer, and Budi; personal fees from Quintiles, Novartis, and Pharmerit; 
+grants and personal fees from IQVIA, Bristol-Myers Squibb, Astra 
+Zeneca, Seqirus, Sanofi, Merck Sharpe & Dohme, GlaxoSmithKline, 
+Pfizer, Boehringer Ingelheim, and Novavax; stocks from Ingress Health, 
+and PAG; and is acting as adviser to Asc Academics, all outside of the 
+submitted work. I Rakovac reports grants from WHO, during the 
+conduct of the study. A E Schutte reports personal fees from Omron, 
+Servier, Takeda, Novartis, and Abbott, outside of the submitted work. 
+J A Singh reports personal fees from Crealta/Horizon, Medisys, Fidia, 
+UBM LLC, Trio Health, Medscape, WebMD, Clinical Care Options, 
+Clearview Healthcare Partners, Putnam Associates, Spherix, Practice 
+Point Communications, the NIH, and the American College of 
+Rheumatology; personal fees from Simply Speaking; stock options in 
+Amarin Pharmaceuticals and Viking Pharmaceuticals; membership in 
+the steering committee of OMERACT (an international organisation that 
+develops measures for clinical trials and receives arm’s length funding 
+from 12 pharmaceutical companies), the FDA Arthritis Advisory 
+Committee, and the Veterans Affairs Rheumatology Field Advisory 
+Committee; and non-financial support from UAB Cochrane 
+Musculoskeletal Group Satellite Center on Network Meta-analysis, 
+outside of the submitted work. S T S Skou reports personal fees from 
+Journal of Orthopaedic & Sports Physical Therapy and Munksgaard and 
+grants from The Lundbeck Foundation, outside of the submitted work; 
+and being co-founder of GLA:D. GLA:D is a non-profit initiative hosted at 
+University of Southern Denmark aimed at implementing clinical 
+guidelines for osteoarthritis in clinical practice. J D Stanaway reports 
+grants from the Bill & Melinda Gates Foundation, during the conduct of 
+the study. D J Stein reports personal fees from Lundbeck, and Sun, 
+outside of the submitted work. F Topouzis reports grants from Pfizer, 
+Thea, Novartis, Rheon, Omikron, Pharmaten, Bayer, and 
+Bausch & Lomb; and personal fees from Novartis, and Omikron, outside 
+of the submitted work. R Uddin reports travel and accommodation 
+reimbursement from Deakin University Institute for Physical Activity 
+and Nutrition, outside of the submitted work. All other authors declare 
+no competing interests.
+Data sharing
+To download the data used in these analyses, please visit the Global 
+Health Data Exchange GBD 2019 website.
+Acknowledgments
+Research reported in this publication was supported by the Bill & 
+Melinda Gates Foundation; Bloomberg Philanthropies; the University of 
+Melbourne; Queensland Department of Health, Australia; the National 
+Health and Medical Research Council, Australia; Public Health England; 
+the Norwegian Institute of Public Health; St Jude Children’s Research 
+Hospital; the Cardiovascular Medical Research and Education Fund; 
+the National Institute on Ageing of the National Institutes of Health 
+(NIH; award P30AG047845); and the National Institute of Mental Health 
+of the NIH (award R01MH110163). The content is solely the 
+responsibility of the authors and does not necessary represent the official 
+views of the funders. Data for this research was provided by MEASURE 
+Evaluation, funded by the United States Agency for International 
+Development (USAID). Views expressed do not necessarily reflect those 
+of USAID, the US Government, or MEASURE Evaluation. This research 
+used data from the Chile National Health Survey 2003 and 2009–10. 
+The authors are grateful to the Ministry of Health, the survey copyright 
+owner, for allowing them to have the database. All results of the study 
+are those of the authors and in no way committed to the Ministry. 
+This research used data from China Family Panel Studies, funded by 
+985 Program of Peking University and carried out by the Institute of 
+Social Science Survey of Peking University. The Costa Rican Longevity 
+and Healthy Aging Study project is a longitudinal study by the 
+University of Costa Rica’s Centro Centroamericano de Población and 
+Instituto de Investigaciones en Salud, in collaboration with the 
+University of California at Berkeley. The original pre-1945 cohort was 
+funded by the Wellcome Trust (grant 072406), and the 1945-1955 
+Retirement Cohort was funded by the US National Institute on Aging 
+(grant R01AG031716). The Principal Investigators are Luis Rosero-Bixby 
+and William H Dow, and co-Principal Investigators Xinia Fernández and 
+Gilbert Brenes. This paper uses data from Eurostat. The responsibility 
+for all conclusions drawn from the data lies entirely with the authors. 
+The Health Behaviour in School-Aged Children study is an international 
+study carried out in collaboration with WHO/EURO. The International 
+Coordinator of the 1997–98, 2001–02, 2005–06, and 2009–10 surveys was 
+Candace Currie and the Data Bank Manager for the 1997–98 survey was 
+Bente Wold, whereas for the following survey Oddrun Samdal was the 
+Databank Manager. A list of principal investigators in each country can 
+be found at http://www.hbsc.org. This paper uses data from the WHO 
+Study on global AGEing and adult health. Researchers interested in 
+using Irish Longitudinal Study on Ageing data can access the data for 
+free from the following sites: Irish Social Science Data Archive at 
+University College Dublin (http://www.ucd.ie/issda/data/tilda/); 
+Interuniversity Consortium for Political and Social Research at the 
+University of Michigan (http://www.icpsr.umich.edu/icpsrweb/ICPSR/
+studies/34315). Data used in this paper come from the 2009–10 Ghana 
+Socioeconomic Panel Study Survey, which is a nationally representative 
+survey of more than 5000 households in Ghana. The survey is a joint 
+effort undertaken by the Institute of Statistical, Social and Economic 
+Research (ISSER) at the University of Ghana, and the Economic Growth 
+Centre (EGC) at Yale University. It was funded by EGC. At the same 
+time, ISSER and the EGC are not responsible for the estimations 
+reported by the analysts. The Palestinian Central Bureau of Statistics 
+granted the researchers access to relevant data in accordance with 
+license number SLN2014-3-170, after subjecting data to processing 
+aiming to preserve the confidentiality of individual data in accordance 
+with the General Statistics Law, 2000. The researchers are solely 
+responsible for the conclusions and inferences drawn upon available 
+data. The authors thank the Russia Longitudinal Monitoring Survey, 
+RLMS-HSE, conducted by the National Research University Higher 
+School of Economics and ZAO Demoscope together with Carolina 
+Population Center, University of North Carolina at Chapel Hill, and the 
+Institute of Sociology, RAS for making data available. This paper uses 
+data from the Armenia 2016, Bangladesh 2009–10, Belarus 2016–17, 
+Benin 2015, Bhutan 2014, Iraq 2015, Kuwait 2006 and 2014, Libya 2009, 
+Malawi 2009, Moldova 2013, and Sudan 2016 STEP Surveys, all 
+implemented with the support of WHO. This paper uses data from 
+Survey of Health, Ageing and Retirement in Europe (SHARE) Waves 1 
+(DOI:10.6103/SHARE.w1.700), 2 (10.6103/SHARE.w2.700), 3 (10.6103/
+SHARE.w3.700), 4 (10.6103/SHARE.w4.700), 5 (10.6103/SHARE.w5.700), 
+6 (10.6103/SHARE.w6.700), and 7 (10.6103/SHARE.w7.700); see Börsch-
+Supan and colleagues (2013) for methodological details. The SHARE 
+data collection has been funded by the European Commission through 
+FP5 (QLK6-CT-2001-00360), FP6 (SHARE-I3: RII-CT-2006-062193, 
+COMPARE: CIT5-CT-2005-028857, SHARELIFE: CIT4-CT-2006-028812), 
+FP7 (SHARE-PREP: GA number 211909, SHARE-LEAP: GA number 
+227822, SHARE M4: GA number 261982), and Horizon 2020 
+(SHARE-DEV3: GA number 676536, SERISS: GA number 654221) and 
+by DG Employment, Social Affairs & Inclusion. Additional funding from 
+the German Ministry of Education and Research, the Max Planck Society 
+for the Advancement of Science, the US National Institute on Aging 
+(U01_AG09740-13S2, P01_AG005842, P01_AG08291, P30_AG12815, 
+R21_AG025169, Y1-AG-4553-01, IAG_BSR06-11, OGHA_04-064, 
+HHSN271201300071C) and from various national funding sources is 
+gratefully acknowledged (www.share-project.org). The United States 
+Aging, Demographics, and Memory Study is a supplement to the Health 
+and Retirement Study, which is sponsored by the National Institute of 
+For more on SHARE see 
+http://www.share-project.org
+For the Global Health Data 
+Exchange GBD 2019 website 
+see http://ghdx.healthdata.org/
+gbd−2019
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1247
+Aging (grant number NIA U01AG009740). It was conducted jointly by 
+Duke University and the University of Michigan. This paper uses data 
+from Add Health, a programme project designed by J Richard Udry, 
+Peter S Bearman, and Kathleen Mullan Harris, and funded by a grant 
+P01-HD31921 from the Eunice Kennedy Shriver National Institute of 
+Child Health and Human Development, with cooperative funding from 
+17 other agencies. Special acknowledgment is due to Ronald R Rindfuss 
+and Barbara Entwisle for assistance in the original design. Information 
+on how to obtain the Add Health data files is available on the Add Health 
+website. No direct support was received from grant P01-HD31921 for this 
+analysis. This paper uses data from the NIH. The content is solely the 
+responsibility of the authors and does not necessarily represent the 
+official views of the NIH. This analysis uses data or information from 
+the Longitudinal Aging Study in India (LASI) Pilot microdata and 
+documentation. The development and release of the LASI Pilot Study 
+was funded by the National Institute on Aging, a division of the NIH 
+(R21AG032572, R03AG043052, and R01 AG030153). L G Abreu 
+acknowledges support from Coordenação de Aperfeiçoamento de 
+Pessoal de Nível Superior, Brazil (finance Code 001) and Conselho 
+Nacional de Desenvolvimento Científico e Tecnológico. L Abu-Raddad 
+acknowledges the support of Qatar National Research Fund 
+(NPRP 9-040-3-008). O Adetokunboh acknowledges the South African 
+Department of Science and Innovation, and National Research 
+Foundation. A Agrawal acknowledges support from the Wellcome Trust 
+DBT India Alliance Senior Fellowship. R Akinyemi acknowledges 
+support by Grant U01HG010273 from the NIH as part of the H3Africa 
+Consortium and support by the FLAIR fellowship funded by the 
+UK Royal Society and the African Academy of Sciences. S Aljunid 
+acknowledges the Department of Health Policy and Management, 
+Faculty of Public Health, Kuwait University and International Centre for 
+Casemix and Clinical Coding, Faculty of Medicine, and the National 
+University of Malaysia for the approval and support to participate in this 
+research project. T Bärnighausen acknowledges support from the 
+Alexander von Humboldt Foundation through the Alexander von 
+Humboldt Professor award, funded by the German Federal Ministry of 
+Education and Research. A Badawi acknowledges support from the 
+Public Health Agency of Canada. G Britton acknowledges support from 
+the Sistema Nacional de Investigación of SENACYT, Panamá. J J Carrero 
+acknowledges support from the Swedish Research Council (2019-01059). 
+F Caravlho acknowledges support from UID/MULTI/04378/2019 and 
+UID/QUI/50006/2019 with funding from FCT/MCTES through national 
+funds. A Cohen acknowledges support from Health Effects Institute, 
+Boston. V M Costa acknowledges support from Grant 
+SFRH/BHD/110001/2015, received by Portuguese national funds 
+through Fundação para a Ciência e Tecnologia, IP, under the Norma 
+Transitória DL57/2016/CP1334/CT0006. M DeLang acknowledges the 
+NASA grant number NNX16AQ30G and NIOSH grant number 
+T42-OH008673 for supporting the work to estimate global ozone. 
+H Erskine acknowledges support from the Australian National Health 
+and Medical Research Council Early Career Fellowship (APP1137969) 
+and is employed by the Queensland Centre for Mental Health Research, 
+which receives core funding from Queensland Health. E Fernandes 
+acknowledges support from UID/MULTI/04378/2019 and 
+UID/QUI/50006/2019 with funding from FCT/MCTES through national 
+funds. A Ferrari acknowledges support from a National Health and 
+Medical Research Council Early Career Fellowship Grant (APP1121516) 
+and the Queensland Centre for Mental Health Research, which receives 
+funding from the Queensland Department of Health. M Ferreira 
+acknowledges support from a National Health and Medical Council of 
+Australia fellowship. M Freitas acknowledges financial support from the 
+EU (FEDER funds through COMPETE POCI-01-0145-FEDER-029248), 
+and National Funds (FCT, Fundação para a Ciência e Tecnologia) 
+through project PTDC/NAN-MAT/29248/2017. M Ausloos, C Herteliu, 
+and A Pana acknowledge partial support by a grant of the Romanian 
+National Authority for Scientific Research and Innovation, 
+CNDS-UEFISCDI, project number PN-III-P4-ID-PCCF-2016-0084. 
+C Herteliu acknowledges partial support by a grant co-funded by 
+European Fund for Regional Development through Operational 
+Program for Competitiveness, Project ID P_40_382. P Hoogar 
+acknowledges the Bio Cultural Studies, Manipal Academy of Higher 
+Education, and Manipal and Centre for Holistic Development and 
+Research, Kalaghatgi. B-F Hwang acknowledges support from China 
+Medical University (107-Z-04), Taichung, Taiwan. N Ikeda acknowledges 
+support from The Japan Society for the Promotion of Science (grant 
+number 15K08762 and 18H03063). S M S Islam acknowledges support 
+from the National Heart Foundation of Australia and Deakin University. 
+M Jakovljevic acknowledges grant OI175014 of the Ministry of Education 
+Science and Technological Development of the Republic of Serbia for 
+supporting the Serbian portion of this GBD study. P Jeemon supported 
+by a Clinical and Public Health intermediate fellowship (grant number 
+IA/CPHI/14/1/501497) from the Wellcome Trust-Department of 
+Biotechnology, India Alliance (2015–20). O John acknowledges receiving 
+the UIPA scholarship from UNSW, Sydney. S V Katikireddi 
+acknowledges funding from a NRS Senior Clinical Fellowship 
+(SCAF/15/02), the Medical Research Council (MC_UU_12017/13 & 
+MC_UU_12017/15), and the Scottish Government Chief Scientist Office 
+(SPHSU13 & SPHSU15). C Kieling acknowledges employment with the 
+Conselho Nacional de Desenvolvimento Científico e Tecnológico 
+(a Brazilian public funding agency) and being a UK Academy of Medical 
+Sciences Newton Advanced Fellow. Y J Kim acknowledges support from 
+the Research Management Centre, Xiamen University Malaysia, 
+XMUMRF/2018-C2/ITCM/0001. K Krishan acknowledges support from 
+UGC Centre of Advanced Study (CAS II) awarded to the Department of 
+Anthropology, Panjab University, Chandigarh, India. B Lacey 
+acknowledges support from the NIHR Oxford Biomedical Research 
+Centre and the BHF Centre of Research Excellence, Oxford. T Lallukka 
+acknowledges support from the Academy of Finland (grant 
+number 319200). I Landires is member of the Sistema Nacional de 
+Investigación, which is supported by the Secretaría Nacional de Ciencia, 
+Tecnología e Innovación, Panamá. S Langan acknowledges support from 
+a Wellcome Trust Senior Clinical Fellowship (205039/Z/16/Z). J Lazarus 
+acknowledges support from a Spanish Ministry of Science, Innovation 
+and Universities Miguel Servet grant (Instituto de Salud Carlos III/ESF, 
+EU [CP18/00074]). S Lorkowski acknowledges support from the German 
+Federal Ministry of Education and Research (nutriCARD, grant 
+agreement number 01EA1808A). A M Mantilla-Herrera is affiliated with 
+the Queensland Centre for Mental Health Research which receives core 
+funding from the Department of Health, Queensland Government. 
+R Martin is grateful to Washington University for additional institutional 
+support. J McGrath acknowledges support from the Danish National 
+Research Foundation (Niels Bohr Professorship), and the Queensland 
+Health Department (via West Moreton HHS). W Mendoza acknowledges 
+Population and Development department at the United Nations 
+Population Fund Country Office in Peru, which does not necessarily 
+endorse this study. U Mueller acknowledges support from the German 
+National Cohort Study BMBF grant number 01ER1801D. S Nomura 
+acknowledges support from the Ministry of Education, Culture, Sports, 
+Science, and Technology of Japan (18K10082). A Ortiz acknowledges 
+support from ISCIII PI19/00815, DTS18/00032, ISCIII-RETIC 
+REDinREN RD016/0009 Fondos FEDER, FRIAT, Comunidad de Madrid 
+B2017/BMD-3686 CIFRA2-CM; these funding sources had no role in the 
+writing of the manuscript or the decision to submit it for publication. 
+S Patten acknowledges support from the Cuthbertson and Fischer Chair 
+in Pediatric Mental Health at the University of Calgary. G Patton 
+acknowledges support from a National Health & Medical Research 
+Council Fellowship. M R Phillips acknowledges support in part by the 
+National Natural Science Foundation of China (number 81371502 and 
+81761128031). A Raggi, D Sattin, and S Schiavolin acknowledge support 
+by a grant from the Italian Ministry of Health (Ricerca Corrente, 
+Fondazione Istituto Neurologico C Besta, Linea 4 - Outcome Research: 
+dagli Indicatori alle Raccomandazioni Cliniche). D Ribeiro acknowledges 
+the financial support from the EU (FEDER funds through the 
+Operational Competitiveness Program [COMPETE]; POCI-01-0145-
+FEDER-029253). D C Ribeiro acknowledges support from The 
+Sir Charles Hercus Health Research Fellowship (number 18/111) Health 
+Research Council of New Zealand. P Sachdev acknowledges support 
+from the National Health and Medical Research Council of Australia 
+Program Grant. A M Samy acknowledges support from a fellowship 
+from the Egyptian Fulbright Mission Program. D Santomauro 
+acknowledges affiliation with the Queensland Centre for Mental Health 
+Research, which receives core funding from the Department of Health. 
+M Santric-Milicevic acknowledges support from the Ministry of 
+For the Add Health website see 
+http://www.cpc.unc.edu/
+addhealth
+
+Global Health Metrics
+1248	
+www.thelancet.com   Vol 396   October 17, 2020
+Education, Science and Technological Development of the Republic of 
+Serbia (contract number 175087). R Sarmiento acknowledges support 
+from the Applied and Environmental Sciences University in Bogota, 
+Colombia and Carlos III Institute of Health Madrid Spain. A Schutte 
+acknowledges support from the South African National Research 
+Foundation SARChI Chair initiative (GUN 86895) and the South African 
+Medical Research Council. M Serre acknowledges the NASA grant 
+number NNX16AQ30G for supporting the work to estimate global 
+ozone. S T Skou acknowledges support from a grant from Region 
+Zealand (Exercise First) and a grant from the European Research 
+Council under the EU’s Horizon 2020 research and innovation 
+programme (grant agreement number 801790). J B Soriano 
+acknowledges support by Centro de Investigación en Red de 
+Enfermedades Respiratorias, Instituto de Salud Carlos III, Madrid, 
+Spain. R Tabarés-Seisdedos acknowledges support in part by the 
+national grant PI17/00719 from ISCIII-FEDER. N Taveira acknowledges 
+partial support from the European & Developing Countries Clinical 
+Trials Partnership, EU (LIFE project, reference RIA2016MC-1615). 
+M Tonelli acknowledges support from the David Freeze chair in health 
+services research, University of Calgary. S Tyrovolas acknowledges 
+support from the Foundation for Education and European Culture, 
+the Sara Borrell postdoctoral program (reference number CD15/00019 
+from the Instituto de Salud Carlos III), and the Fondos Europeo de 
+Desarrollo Regional. M Wei acknowledges support from the National 
+Institute on Aging at the NIH (K23AG056638). J J West acknowledges 
+support from NASA grant number NNX16AQ30G and NIOSH number 
+T42-OH008673.
+Editorial note: the Lancet Group takes a neutral position with respect to 
+territorial claims in published maps and institutional affiliations.
+References
+1	
+WHO. Global action plan for the prevention and control of 
+noncommunicable diseases. 2013–2020. Geneva: World Health 
+Organization, 2013.
+2	
+WHO. UN Task Force on NCDs: The government of Ethiopia is 
+working jointly with the UN system to strengthen the national 
+NCD response. 2017. http://www.who.int/ncds/un-task-force/joint-
+programming-missions/ethiopia-november-2017/en/ (accessed 
+Feb 25, 2020).
+3	
+Centers for Disease Control and Prevention. The National 
+Environmental Public Health Tracking Program. 2019. https://www.
+cdc.gov/nceh/information/tracking_network.htm (accessed 
+Feb 25, 2020).
+4	
+WHO. Global health risks: mortality and burden of disease 
+attributable to selected major risks. Geneva: World Health 
+Organization, 2009.
+5	
+Nowbar AN, Gitto M, Howard JP, Francis DP, Al-Lamee R. Mortality 
+from ischemic heart disease. Circ Cardiovasc Qual Outcomes 2019; 
+12: e005375.
+6	
+Zhou B, Bentham J, Di Cesare M, et al. Worldwide trends in blood 
+pressure from 1975 to 2015: a pooled analysis of 1479 population-
+based measurement studies with 19·1 million participants. Lancet 
+2017; 389: 37–55.
+7	
+NCD Risk Factor Collaboration (NCD-RisC). Trends in adult body-
+mass index in 200 countries from 1975 to 2014: a pooled analysis of 
+1698 population-based measurement studies with 19·2 million 
+participants. Lancet 2016; 387: 1377–96.
+8	
+Lim SS, Vos T, Flaxman AD, et al. A comparative risk assessment 
+of burden of disease and injury attributable to 67 risk factors and 
+risk factor clusters in 21 regions, 1990–2010: a systematic analysis 
+for the Global Burden of Disease Study 2010. Lancet 2012; 
+380: 2224–60.
+9	
+Forouzanfar MH, Alexander L, Anderson HR, et al. 
+Global, regional, and national comparative risk assessment of 
+79 behavioural, environmental and occupational, and metabolic 
+risks or clusters of risks in 188 countries, 1990–2013: a systematic 
+analysis for the Global Burden of Disease Study 2013. Lancet 2015; 
+386: 2287–323.
+10	
+Forouzanfar MH, Afshin A, Alexander LT, et al. Global, regional, 
+and national comparative risk assessment of 79 behavioural, 
+environmental and occupational, and metabolic risks or clusters of 
+risks, 1990–2015: a systematic analysis for the Global Burden of 
+Disease Study 2015. Lancet 2016; 388: 1659–724.
+11	
+Gakidou E, Afshin A, Abajobir AA, et al. Global, regional, 
+and national comparative risk assessment of 84 behavioural, 
+environmental and occupational, and metabolic risks or clusters of 
+risks, 1990–2016: a systematic analysis for the Global Burden of 
+Disease Study 2016. Lancet 2017; 390: 1345–422.
+12	
+Stanaway JD, Afshin A, Gakidou E, et al. Global, regional, and national 
+comparative risk assessment of 84 behavioural, environmental and 
+occupational, and metabolic risks or clusters of risks for 195 countries 
+and territories, 1990–2017: a systematic analysis for the Global Burden 
+of Disease Study 2017. Lancet 2018; 392: 1923–94.
+13	
+Stevens GA, Alkema L, Black RE, et al. Guidelines for accurate and 
+transparent health estimates reporting: the GATHER statement. 
+Lancet 2016; 388: e19–23.
+14	
+Murray CJ, Lopez AD. Global mortality, disability, and the 
+contribution of risk factors: Global Burden of Disease Study. Lancet 
+1997; 349: 1436–42.
+15	
+Murray CJ, Ezzati M, Lopez AD, Rodgers A, Vander Hoorn S. 
+Comparative quantification of health risks conceptual framework 
+and methodological issues. Popul Health Metr 2003; 1: 1.
+16	
+World Cancer Research Fund, American Institute for Cancer 
+Research. Food, nutrition, and physical activity, and the prevention 
+of cancer: a global perspective. Washington DC: AICR, 2007.
+17	
+James SL, Abate D, Abate KH, et al. Global, regional, and national 
+incidence, prevalence, and years lived with disability for 
+354 diseases and injuries for 195 countries and territories, 
+1990–2017: a systematic analysis for the Global Burden of Disease 
+Study 2017. Lancet 2018; 392: 1789–858.
+18	
+Griswold MG, Fullman N, Hawley C, et al. Alcohol use and burden 
+for 195 countries and territories, 1990–2016: a systematic analysis 
+for the Global Burden of Disease Study 2016. Lancet 2018; 
+392: 1015–35.
+19	
+Kurowicka D, Cooke R. Sampling algorithms for generating joint 
+uniform distributions using the vine-copula method. 
+Comput Stat Data Anal 2007; 51: 2889–906.
+20	 Curtis V. Explaining the outcomes of the ‘Clean India’ campaign: 
+institutional behaviour and sanitation transformation in India. 
+BMJ Glob Health 2019; 4: e001892.
+21	
+Quinn A, Bruce N, Puzzolo E, et al. An analysis of efforts to scale 
+up clean household energy for cooking around the world. 
+Energy Sustain Dev 2018; 46: 1–10.
+22	 Dabadge A, Sreenivas A, Josey A. What has the pradhan mantri 
+ujjwala yojana achieved so far? Econ Polit Wkly 2018; 53: 69–75.
+23	 Yach D, McKee M, Lopez AD, Novotny T. Improving diet and 
+physical activity: 12 lessons from controlling tobacco smoking. 
+BMJ 2005; 330: 898–900.
+24	
+Davis JM, Elias RW, Grant LD. Current issues in human lead 
+exposure and regulation of lead. Neurotoxicology 1993; 14: 15–27.
+25	 Dignam T, Kaufmann RB, LeStourgeon L, Brown MJ. Control of 
+lead sources in the United States, 1970–2017: public health progress 
+and current challenges to eliminating lead expsoure. 
+J Public Health Manag Pract 2019; 25: S13–22.
+26	 Chung-Hall J, Craig L, Gravely S, Sansone N, Fong GT. Impact of 
+the WHO FCTC over the first decade: a global evidence review 
+prepared for the Impact Assessment Expert Group. Tob Control 
+2019; 28 (suppl 2): 119–28.
+27	
+United States Environmental Protection Agency. National air 
+quality status and trends through 2007. Research Triangle Park, 
+North Carolina: U.S. Environmental Protection Agency. Office of 
+Air Quality Planning and Standards, 2008. https://www.epa.gov/
+sites/production/files/2017-11/documents/trends_brochure_2007.
+pdf (accessed Feb 25, 2020).
+28	 Zalakeviciute R, Rybarczyk Y, López-Villada J, Diaz Suarez MV. 
+Quantifying decade-long effects of fuel and traffic regulations on 
+urban ambient PM2·5 pollution in a mid-size South American city. 
+Atmos Pollut Res 2018; 9: 66–75.
+29	 GBD 2019 Diseases and Injuries Collaborators. Global burden of 
+369 diseases and injuries in 204 countries and territories, 
+1990–2019: a systematic analysis for the Global Burden of Disease 
+Study 2019. Lancet 2020; 396: 1204–22.
+30	 Fullman N, Yearwood J, Abay SM, et al. Measuring performance on 
+the Healthcare Access and Quality Index for 195 countries and 
+territories and selected subnational locations: a systematic analysis 
+from the Global Burden of Disease Study 2016. Lancet 2018; 
+391: 2236–71.
+
+Global Health Metrics
+www.thelancet.com   Vol 396   October 17, 2020	
+1249
+31	
+Lopez AD, Adair T. Is the long-term decline in cardiovascular-
+disease mortality in high-income countries over? Evidence from 
+national vital statistics. Int J Epidemiol 2019; 48: 1815–23.
+32	 Saiz LC, Gorricho J, Garjón J, Celaya MC, Erviti J, Leache L. Blood 
+pressure targets for the treatment of people with hypertension and 
+cardiovascular disease. Cochrane Database Syst Rev 2018; 7: CD010315.
+33	 He FJ, Li J, MacGregor GA. Effect of longer-term modest salt 
+reduction on blood pressure. Cochrane Database Syst Rev 2013; 
+4: CD004937.
+34	
+The Lancet. The global syndemic of obesity, undernutrition, 
+and climate change: The Lancet Commission report. Lancet 2019; 
+393: 791–846.
+35	 Mozaffarian D, Hao T, Rimm EB, Willett WC, Hu FB. Changes in 
+diet and lifestyle and long-term weight gain in women and men. 
+N Engl J Med 2011; 364: 2392–404.
+36	 Willett W, Rockström J, Loken B, et al. Food in the Anthropocene: 
+the EAT–Lancet Commission on healthy diets from sustainable 
+food systems. Lancet 2019; 393: 447–92.
+37	
+Adesina JA, Piketh SJ, Qhekwana M, Burger R, Language B, 
+Mkhatshwa G. Contrasting indoor and ambient particulate matter 
+concentrations and thermal comfort in coal and non-coal burning 
+households at South Africa Highveld. Sci Total Environ 2020; 
+699: 134403.
+38	 HEI International Scientific Oversight Committee. Section 11. 
+Development, air pollution expsoure, and population health. In: 
+Outdoor air pollution and health in developing countries of Asia: 
+a comprehensive review. Special Report 18. Boston, MA: Health 
+Effects Institute, 2010. https://www.healtheffects.org/system/files/
+SR18AsianLitReview.pdf (accessed Nov 27, 2019).
+39	 Weagle CL, Snider G, Li C, et al. Global sources of fine particulate 
+matter: interpretation of PM2·5 chemical composition observed by 
+SPARTAN using a global chemical transport model. 
+Environ Sci Technol 2018; 52: 11670–81.
+40	
+Correia AW, Pope CA, Dockery DW, Wang Y, Ezzati M, Dominici F. 
+Effect of air pollution control on life expectancy in the United States: 
+an analysis of 545 U.S. counties for the period from 2000 to 2007. 
+Epidemiology 2013; 24: 23–31.
+41	
+Dedoussi IC, Eastham SD, Monier E, Barrett SRH. Premature 
+mortality related to United States cross-state air pollution. Nature 
+2020; 578: 261–65.
+42	
+Smith, KR, Woodward A, Campbell-Lendrum D, et al. Human health: 
+impacts, adaptation, and co-benefits. In: Climate Change 2014: 
+Impacts, Adaptation, and Vulnerability. Part A: Global and Sectoral 
+Aspects. Contribution of Working Group II to the Fifth Assessment 
+Report of the Intergovernmental Panel on Climate Change [Field CB, 
+Barros VR, Dokken DJ, et al (eds)]. Cambridge, UK and New York, NY: 
+Cambridge University Press. 2014.
+43	 IPCC. Global warming of 1·5°C. An IPCC special report on the 
+impacts of global warming of 1·5°C above pre-industrial levels 
+and related global greenhouse gas emission pathways, in the 
+context of strengthening the global response to the threat of 
+climate change, sustainable development, and efforts to eradicate 
+poverty. Geneva, Switzerland: World Meteorological 
+Organization, 2018.
+44	
+Barreca A, Clay K, Deschenes O, Greenstone M, Shapiro JS. Adapting 
+to climate change: the remarkable decline in the US temperature-
+mortality relationship over the twentieth century. J Polit Econ 2016; 
+124: 105–59.
+45	
+Foreman KJ, Marquez N, Dolgert A, et al. Forecasting life 
+expectancy, years of life lost, and all-cause and cause-specific 
+mortality for 250 causes of death: reference and alternative 
+scenarios for 2016–40 for 195 countries and territories. Lancet 2018; 
+392: 2052–90.
+46	
+Vollset S, Goren E, Yuan C-W, et al. Fertility, mortality, migration, 
+and population scenarios for 195 countries and territories from 2017 
+to 2100: a forecasting analysis for the Global Burden of Disease 
+Study. Lancet 2020; 396: 1285–306.
+47	
+Saltelli A, Funtowicz S. The Precautionary Principle: implications 
+for risk management strategies. Int J Occup Med Environ Health 
+2004; 17: 47–57.
+48	
+Alonso-Coello P, Carrasco-Labra A, Brignardello-Petersen R, et al. 
+A methodological survey of the analysis, reporting and 
+interpretation of Absolute Risk ReductiOn in systematic revieWs 
+(ARROW): a study protocol. Syst Rev 2013; 2: 113.
+49	
+Nuovo J, Melnikow J, Chang D. Reporting number needed to treat 
+and absolute risk reduction in randomized controlled trials. JAMA 
+2002; 287: 2813–14.
+50	 Millwood IY, Walters RG, Mei XW, et al. Conventional and genetic 
+evidence on alcohol and vascular disease aetiology: a prospective 
+study of 500 000 men and women in China. Lancet 2019; 
+393: 1831–42.
+51	
+Adam D. The gene-based hack that is revolutionizing epidemiology. 
+Nature 2019; 576: 196–99.
+52	 Burgess S, Davey Smith G. How humans can contribute to 
+Mendelian randomization analyses. Int J Epidemiol 2019; 48: 661–64.
+53	 Burgess S, Timpson NJ, Ebrahim S, Davey Smith G. Mendelian 
+randomization: where are we now and where are we going? 
+Int J Epidemiol 2015; 44: 379–88.

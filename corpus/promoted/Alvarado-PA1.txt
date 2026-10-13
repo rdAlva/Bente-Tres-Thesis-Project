@@ -1,0 +1,53 @@
+Rafael Allan D. Alvarado 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   June 25, 2025 
+CS-302  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6IMSOFTENG 
+ 
+Based on the video, answer the following questions concisely and supported with details (using at least 5 
+sentences). Use the given rubric as your guide. Each answer is worth 5 points.  
+1.  
+1. Compare and contrast the challenges faced by software engineers in the past versus those 
+in the present.  
+The challenges faced by past developers included a lack of automation and coding with 
+punch cards, which limited their productivity. Software engineers of that era used 
+machines that filled entire rooms. In contrast, modern software engineers struggle to keep 
+up with the rapid growth of AI, or artificial intelligence. Many tech workers have been 
+laid off by their companies to cut costs and replaced with automation. Since AI can now 
+write its own code, it can solve problems from simple to complex. With the rise of AI, 
+companies now prefer using automation tools instead of hiring junior developers. 
+2. As a student from the School of Computing, how do you see your role in adapting to the 
+evolving responsibilities and expectations of software engineers in today's industry? 
+As a student from the School of Computing, I see my role as a continuous learner in 
+adapting to the evolving responsibilities and expectations of software engineers in today's 
+industry. I recognize that as AI continues to improve, it's important to learn how to 
+collaborate with it on tasks. Using AI to write code for programs is now more efficient. 
+However, it's also essential for programmers to know how to code themselves and not 
+rely too heavily on AI. We need to find the right balance when collaborating with AI 
+because I believe that even if the world replaces humans with AI technology, it still can’t 
+match human ingenuity and creativity. Staying updated on the industry's evolving nature 
+is crucial to remaining relevant. 
+ 
+ 
+ 
+ 
+ 
+References: 
+Grammarly: free AI writing assistance. (n.d.). https://app.grammarly.com/ 
+Economy Media. (2025, April 1). The rise and fall of software engineers [Video]. YouTube. 
+https://www.youtube.com/watch?v=rNkRjO_Svww 

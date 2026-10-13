@@ -1,0 +1,1174 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+SOSE Affiliate: Manila Observatory 
+School of Science and Engineering Research 
+Centers 
+2022 
+Stubborn Aerosol: Why Particulate Mass Concentrations Do Not 
+Stubborn Aerosol: Why Particulate Mass Concentrations Do Not 
+Drop During the Wet Season in Metro Manila, Philippines 
+Drop During the Wet Season in Metro Manila, Philippines 
+Miguel Ricardo A. Hilario 
+University of Arizona, USA 
+Paola Angela Bañaga 
+Manila Observatory 
+Grace Betito 
+Manila Observatory, gbetito@ateneo.edu 
+Rachel A. Braun 
+University of Arizona 
+Maria Obiminda L. Cambaliza 
+Ateneo de Manila University, mcambaliza@ateneo.edu 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/manila-observatory 
+ Part of the Atmospheric Sciences Commons, and the Environmental Monitoring Commons 
+Custom Citation 
+Custom Citation 
+Hilario, M.R.A., Bañaga, P.A., Betito, G., Braun, R.A., Cambaliza, M.O., Cruz, M.T., Lorenzo, G.R., MacDonald, 
+A.B., Pabroa, P.C., Simpas, J.B., Stahl, C., Yee, J.R., & Sorooshian, A. (2022). Stubborn aerosol: why 
+particulate mass concentrations do not drop during the wet season in Metro Manila, Philippines. 
+Environmental Science: Atmospheres, 6, 1428-1437. https://doi.org/10.1039/d2ea00073c 
+This Article is brought to you for free and open access by the School of Science and Engineering Research Centers 
+at Archīum Ateneo. It has been accepted for inclusion in SOSE Affiliate: Manila Observatory by an authorized 
+administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+Authors 
+Authors 
+Miguel Ricardo A. Hilario, Paola Angela Bañaga, Grace Betito, Rachel A. Braun, Maria Obiminda L. 
+Cambaliza, Melliza Templonuevo Cruz, Genevieve Rose Lorenzo, Alexander B. MacDonald, Preciosa 
+Corazon Pabroa, and James Bernard Simpas 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/manila-observatory/10 
+
+Stubborn aerosol: why particulate mass
+concentrations do not drop during the wet season
+in Metro Manila, Philippines†
+Miguel Ricardo A. Hilario,
+a Paola Angela Ba˜naga,bc Grace Betito,bc
+Rachel A. Braun,‡d Maria Obiminda Cambaliza,bc Melliza Templonuevo Cruz,b
+Genevieve Rose Lorenzo,a Alexander B. MacDonald,
+§d Preciosa Corazon Pabroa,e
+James Bernard Simpas,bc Connor Stahl,d John Robin Yeee
+and Armin Sorooshian
+*ad
+Wet scavenging is the most important sink for particulate matter (PM) and is expected to decrease PM
+concentrations in the wet season. However, Metro Manila, Philippines has highly similar PM mass across
+seasons despite large diﬀerences in seasonal rainfall. It is important to identify factors contributing to
+seasonally consistent PM mass as these may be present in similar developing megacities besides Metro
+Manila, leading to PM accumulation and posing signiﬁcant health risks. We use size-resolved aerosol
+composition, aerosol optical depth, and meteorological data to reveal that the seasonally consistent PM
+mass in Metro Manila is due to (1) opposing seasonal cycles of black carbon and water-soluble PM, (2)
+ineﬃcient scavenging by short rain events (<1 h), and (3) the high frequency (50%) of these short rain events.
+Water-soluble PM was most sensitive to scavenging within the 0.18–1.0 mm and 1.8–5.6 mm size ranges but
+more clearly for rain events lasting over an hour, pointing to the importance of rain duration for eﬃcient
+scavenging. We demonstrate that the presence of rain does not imply wet scavenging is taking place
+eﬃciently and rain characteristics are critical to properly estimating wet scavenging. In a changing climate,
+our understanding of factors such as rain duration and aerosol accumulation will become more important
+for guiding air quality-related policymaking and ensuring sustainable growth in developing megacities.
+Environmental signicance
+Wet scavenging is the most important sink for particulate matter (PM) and is expected to decrease PM concentrations during the high rainfall season. However,
+Metro Manila, Philippines has highly similar PM mass across seasons despite large diﬀerences in seasonal rainfall. It is important to identify factors
+contributing to seasonally consistent PM mass as these may be present in similar developing megacities besides Metro Manila, leading PM accumulation and
+posing signicant health risks. This work uses a combination of size-resolved aerosol composition, meteorology, and aerosol optical depth over Metro Manila to
+demonstrate that the presence of rain does not imply wet scavenging is taking place eﬃciently and rain characteristics are critical to properly estimating wet
+scavenging. In a changing climate, our understanding of factors contributing to wet scavenging will become more important for guiding air quality-related
+policymaking and ensuring sustainable growth in developing megacities. This study motivates further research into circumstances when wet scavenging
+becomes ineﬃcient, which is especially important over megacities where pollution accumulation poses serious health risks for millions of people.
+1
+Introduction
+Wet scavenging is the dominant particle removal mechanism in
+the atmosphere1 and is an important process for global-scale
+scavenging of anthropogenic pollutants.2 However, the eﬀect
+of precipitation on particulate matter (PM) is dependent on
+several factors. Previous work associated light rain amounts
+(<1 h; <0.5 mm) with elevated PM and heavy rain amounts (>10
+mm) with decreased PM.3 While some studies have shown that
+aerosol scavenging is sensitive to rain intensity,4 others argue
+that rain frequency is more important than intensity in modu-
+lating aerosol removal.5–7 Such ndings demonstrate the
+aDepartment of Hydrology and Atmospheric Sciences, University of Arizona, Tucson, AZ
+85721, USA. E-mail: armin@arizona.edu
+bManila Observatory, Quezon City 1108, Philippines
+cDepartment of Physics, School of Science and Engineering, Ateneo de Manila
+University, Quezon City 1108, Philippines
+dDepartment of Chemical and Environmental Engineering, University of Arizona,
+Tucson, AZ 85721, USA
+ePhilippine Nuclear Research Institute – Department of Science and Technology,
+Commonwealth Avenue, Diliman, Quezon City 1101, Philippines
+† Electronic
+supplementary
+information
+(ESI)
+available.
+See
+https://doi.org/10.1039/d2ea00073c
+‡ Now
+at:
+Healthy
+Urban
+Environments
+Initiative,
+Global
+Institute
+of
+Sustainability and Innovation, Arizona State University, Tempe, AZ, USA.
+§ Now at: Department of Environmental Sciences, University of California,
+Riverside, CA, 92521, USA.
+Cite this: Environ. Sci.: Atmos., 2022, 2,
+1428
+Received 21st June 2022
+Accepted 30th August 2022
+DOI: 10.1039/d2ea00073c
+rsc.li/esatmospheres
+1428 | Environ. Sci.: Atmos., 2022, 2, 1428–1437
+© 2022 The Author(s). Published by the Royal Society of Chemistry
+Environmental Science:
+Atmospheres
+PAPER
+Open Access Article. Published on 02 September 2022. Downloaded on 1/16/2023 4:50:46 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+View Journal | View Issue
+
+complexity of wet scavenging, as characteristics of light and
+heavy rain remain challenging to capture for both global
+models8 and satellite retrievals.9 Since precipitation is expected
+to become more intense and less frequent due to climate
+change,10,11 it is important to understand how these changes
+may
+aﬀect
+aerosol
+scavenging,
+particularly
+over
+highly-
+populated environments wherein ineﬃcient scavenging may
+lead to the accumulation of PM and exacerbate health risks
+associated with poor air quality.
+Metro Manila, Philippines is a rapidly developing megacity
+lacking strict air quality monitoring and regulation even though
+there are many PM sources including vehicular, industrial,
+rework, and cooking emissions as well as secondary forma-
+tion, based on previous source apportionment work.12–19 Recent
+size-resolved measurements focusing on source apportionment
+showed that most of the PM mass in Metro Manila resides
+within the submicrometer range.14 Though PM levels (i.e., mass
+concentrations) are expected to be lower in the wet season
+(May–October) than the dry season (November–April) due to wet
+scavenging by precipitation, Kim Oanh et al.20 revealed that PM
+levels in Metro Manila are remarkably consistent between wet
+(44 mg m3) and dry (43 mg m3) seasons, later corroborated by
+Simpas et al.21
+Potential contributors towards the seasonally consistent PM
+include ineﬃcient scavenging, seasonal emissions, and mete-
+orological inuences. Although wet scavenging is expected to be
+the dominant sink for PM,2 a large fraction of rain in Metro
+Manila is stratiform22 and light rain is dominant throughout
+northern Philippines,23 which suggests that precipitation may
+not always be an eﬃcient removal mechanism for PM. Addi-
+tionally, other meteorological variables may also inuence PM
+levels24 and counter the eﬀect of wet scavenging on PM (e.g.,
+hygroscopic growth facilitated by high relative humidity (RH)),
+resulting in sustained PM levels even in the presence of rain.
+Black carbon (BC) particles have been shown to catalyze sulfate
+formation in both laboratory25 and in situ studies26 by serving as
+a surface for SO2 oxidation with NO2 and NH3 present at
+moderate RH (30–70%). Thus, BC may also play a role in
+sustaining PM concentrations throughout the year due to the
+predominance of both BC and sulfate in Metro Manila.14
+Though this study focuses on Metro Manila, it is important
+to note that Metro Manila may not be unique in its seasonally
+consistent PM and that factors promoting such a consistency
+may be present in other megacities lacking adequate air quality
+monitoring, contributing to PM accumulation even in the
+presence of rain and posing major health risks. Deteriorating
+air quality, poor infrastructure, and worsening traﬃc are
+problems faced by megacities globally27 such as Lagos,28
+Malaysia,29 Jakarta,30 Beijing,31 and Kolkata.32 Seasonal meteo-
+rology over several Asian megacities is inuenced by the Asian
+monsoon.33 For example, Chennai experiences a two-phase
+seasonal cycle of wet and dry seasons, has relatively consistent
+PM levels between seasons, and shows a clear weekday PM
+enhancements34 indicative of dominant urban emissions,
+similar to Metro Manila.35 It is important to identify factors
+leading to seasonally consistent PM mass as these may be
+present in similar developing megacities besides Metro Manila,
+promoting PM accumulation and posing signicant health
+risks. The analysis will serve to guide air quality-related poli-
+cymaking and the formulation of appropriate mitigation
+measures towards more sustainable development in growing
+megacities.
+Most past in situ studies investigating the relationship
+between rain and PM focused on either chemically resolved
+bulk PM36,37 or size-resolved number concentrations.38,39 In this
+study, we consider both particle composition and size using
+size-resolved aerosol composition data collected in Metro
+Manila, allowing for a more comprehensive analysis of PM-rain
+relationships. In order to explain the occurrence of seasonally
+consistent PM levels, we focus on addressing the following: (1)
+what particle sizes and species contribute to the sustained PM
+during the wet season despite increased rain?; and (2) What
+rain characteristics may decrease scavenging eﬃciency during
+the wet season? To answer these science questions, we propose
+the following hypotheses: (1) submicrometer particles will be
+ineﬃciently scavenged by rain, which is largely light in intensity
+over Metro Manila; and (2) more conducive conditions for
+secondary formation will contribute to sustained PM during the
+wet season.
+2
+Methods
+2.1.
+PM sampling
+Size-resolved aerosol composition was sampled in Metro
+Manila, Philippines in support of the Cloud, Aerosol, and
+Monsoon
+Processes
+Philippines
+Experiment40
+(CAMP2Ex)
+weatHEr
+and
+CompoSition
+Monitoring
+(CHECSM)
+campaign.14,41 PM was measured using Micro-Orice Uniform
+Deposit Impactors (MOUDIs) stationed at the Manila Observa-
+tory (MO; 14.64N, 121.08E; 87 m above sea level) between July
+2018 and October 2019. The MO site is well-established in the
+literature as a well-mixed urban background site for Metro
+Manila emissions.13,14,20,21 Measurements of PM at the site are
+representative of Metro Manila as it is located more than 100 m
+away from the nearest road, ensuring ample time for mixing to
+occur prior to sampling.
+Complete details of the sampling methodology and analysis
+are described elsewhere42 with a brief summary provided here.
+The MOUDI sampled PM over approximately 48 hour periods at
+least once every week at the following aerodynamic cutpoint
+diameters: 18, 10, 5.6, 3.2, 1.8, 1.0, 0.56, 0.32, 0.18, 0.10, 0.056
+mm. Aqueous extracts of collected substrates using ultrapure
+water were subsequently analyzed for ions by ion chromatog-
+raphy (IC; Thermo Scientic Dionex ICS-2100 system) and for
+elements by triple quadrupole inductively coupled plasma mass
+spectrometry (ICP-QQQ; Agilent 8800 Series). MOUDI species
+concentrations have relative uncertainties of <20%.42 The water-
+soluble component of PM (hereaer PM-WS) was calculated as
+the total mass concentration of speciated ions (nitrate, maleate,
+magnesium, phthalate, sodium, calcium, pyruvate, succinate,
+adipate, oxalate, MSA, TMA/DEA, ammonium, sulfate, chloride,
+and DMA) and elements (Mo, Ni, Ti, Fe, Al, Cr, Tl, Zn, V, Cs, K,
+Zr, Sr, Nb, Ba, Y, Cu, As, Rb, Mn, Se, Ag, Co, Sn, Pb, Cd, and Hf).
+Black carbon (BC) was analyzed with a multi-wavelength
+© 2022 The Author(s). Published by the Royal Society of Chemistry
+Environ. Sci.: Atmos., 2022, 2, 1428–1437 | 1429
+Paper
+Environmental Science: Atmospheres
+Open Access Article. Published on 02 September 2022. Downloaded on 1/16/2023 4:50:46 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+absorption black carbon instrument (MABI; Australian Nuclear
+Science and Technology Organization) at a wavelength of
+870 nm for consistency with previous work.14 Note that PM-WS
+does not include BC due to the less frequent measurements of
+BC. Gravimetric mass was measured by a Sartorius ME5-F
+microbalance (sensitivity: 1 mg). Full details of the measure-
+ments are provided in the data descriptor.42
+A total of 54 MOUDI sets measured ionic and elemental
+concentrations while 11 sets measured gravimetric mass and
+BC. In this study, we dene the wet (dry) season as May–October
+(November–April), corresponding roughly to the two phases of
+the Asian monsoon as established in previous studies.23,43–47 As
+a result, we have 32 (22) MOUDI sets measuring PM-WS and 8
+(3) MOUDI sets measuring gravimetric mass and BC for the wet
+(dry) season. Note that 23 out of 32 MOUDI sets during the wet
+season were inuenced by rain.
+Although 65 MOUDI sets (11 of them with gravimetric and
+BC data) may be seen as a limited sample size, the MOUDI
+dataset is the rst time to our knowledge that size- and
+chemically-resolved measurements of PM have been collected
+in Metro Manila at such a frequency (at least once and up to
+three times per week) and duration (16 months with coverage of
+both monsoon seasons). Thus, ndings from this dataset are
+a valuable contribution to the characterization and under-
+standing of mechanisms that govern a relatively understudied
+but rapidly developing region of the world.
+2.2.
+Meteorological data
+Meteorological data (2010–2020) were collected at 5 min reso-
+lution by a Davis Vantage Pro2™Plus automatic weather
+station (AWS) on the rooop of the Manila Observatory (90 m
+above sea level). The data was quality-screened for meteoro-
+logical values within acceptable ranges based on previous
+criteria.22 To compare the meteorological data and MOUDI sets
+more directly, meteorological data was averaged between the
+start and end times of each MOUDI set except for precipitation
+which was accumulated per MOUDI set. Missing values such as
+those from maintenance periods were replaced with measure-
+ments from two nearby AWS stations (2 km and 5 km away). A
+complete description of the syncing of AWS data to the MOUDI
+sets is provided elsewhere.35
+Rain events are dened as consecutive timestamps with non-
+zero rain amounts. For each rain event, we calculated rain
+amount (total rain amount during each rain event), rate (mean
+rain rate during each rain event), and duration (number of
+hours). For the MOUDI analysis, these characteristics were
+either summed or averaged per MOUDI set (e.g., if three rain
+events occurred during a single MOUDI set (48 hours), their
+respective rain amounts and duration were added while their
+intensities were averaged).
+2.3.
+AERONET data
+To complement the long-term AWS data with a proxy of aerosol
+loading, we used Level 2 aerosol optical depth (AOD; 500 nm)
+data collected by the NASA AErosol RObotic NETwork (AERO-
+NET)48 photometer on the rooop of the Manila Observatory.
+The AOD data has a reported uncertainty of <0.02.49,50 In order to
+quantify the response of AOD to rain event characteristics, we
+calculated the percent diﬀerence between AOD averaged three
+hours aer (i.e., aer the end of the rain event until three hours
+later) and three hours before each rain event, termed DAOD
+(unit: %). If two rain events occurred with less than one hour
+between them, we considered the two as a single rain event. We
+use a percent diﬀerence in AOD in order to normalize for
+diﬀering AOD values between rain events and to isolate the
+eﬀect of wet scavenging by rainfall. The use of percent diﬀer-
+ences also accounts for the natural variability in sources over
+long time periods. Varying the averaging window between two
+and six hours reveals that the overall trends are robust to the
+width of the AOD averaging window. There was a total of 51 rain
+events across wet and dry seasons between 2010–2019 with
+useable AERONET data before and aer the event (29 during the
+wet season between 2012–2019). The strict ltering down to 51
+rain events was necessary to reduce possibility of confounding
+eﬀects (e.g., immediately consecutive rain events) in order to
+capture the full impact of wet scavenging on PM. We note that
+although AERONET and MOUDI data span diﬀerent timescales
+(10 years and 16 months, respectively), both sources of data are
+robust and reveal very similar results, providing further con-
+dence in our conclusions.
+2.4.
+Curve-tting
+To provide a more quantitative description of the relationships
+between aerosol variables (AOD and PM concentration) and
+meteorology, we performed curve-tting based on a simple
+exponential decay function y ¼ beax where x is the meteoro-
+logical variable (e.g., rain duration), y is the aerosol variable
+(e.g., PM concentration), and a and b depend on aerosol char-
+acteristics. This can be linearized such that a and ln(b) are
+interpretable as the slope and intercept, respectively. When
+tting curves involving DAOD, an oﬀset (c), dened as the
+absolute value of the minimum DAOD, was added to all DAOD
+values prior to curve-tting to account for the non-negative
+constraints of exponential decay functions. Aer obtaining the
+curve-t parameters (a, b), the oﬀset was subtracted to revert
+DAOD values back to their original range. To quantify the
+goodness-of-t of the resulting curves, we use scatter index (SI)
+which is the root mean squared error (RMSE) divided by the
+mean DAOD (with oﬀset) or PM concentrations and has been
+used in previous work on error quantication.51–53
+3
+Results & discussion
+3.1.
+Consistent PM across wet and dry seasons
+The seasonal consistency in PM observed by Kim Oanh et al.20
+motivates the question of what factors contribute to this
+feature, with possibilities including ineﬃcient wet scavenging
+and enhanced secondary production during the wet season. The
+average gravimetric mass is nearly identical across seasons for
+both PM1 and PM10 size ranges (Fig. 1), corroborating previous
+work in Metro Manila.20,21 The consistent gravimetric mass is
+explained by the opposing seasonal trends in PM-WS and BC
+1430 | Environ. Sci.: Atmos., 2022, 2, 1428–1437
+© 2022 The Author(s). Published by the Royal Society of Chemistry
+Environmental Science: Atmospheres
+Paper
+Open Access Article. Published on 02 September 2022. Downloaded on 1/16/2023 4:50:46 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+(Fig. 1): while BC was higher during the dry season, PM-WS was
+higher during the wet season. Combined, these two major
+components of total PM result in seasonally consistent gravi-
+metric mass. We assume gravimetric mass to be mainly
+composed of BC and PM-WS with the unaccounted fraction
+attributable to non-BC and non-water-soluble components of
+PM that were not measurable by IC or ICP-QQQ. Since BC is
+relatively inert, its main sink is wet scavenging.54 While the
+increased BC in the dry season is expected due to the lower
+levels of rainfall and therefore precipitation scavenging, the
+increased PM-WS in the wet season is initially counter-intuitive.
+Since scavenging eﬃciency is composition-dependent6,55 and
+PM-WS in Metro Manila is mostly composed of sulfate and
+ammonium,14 PM-WS is expected to be susceptible to wet
+scavenging and should have lower levels during the wet season.
+This interesting seasonal feature is the focus of the analysis in
+this study as the enhancement in PM-WS is enough to oﬀset the
+reduced BC concentrations in the wet season.
+We considered if seasonal diﬀerences in PM in Metro Manila
+could arise from emissions that exhibit seasonal cycles.
+However, seasonal diﬀerences in meteorology may be seen as
+the chief driver of seasonal trends in PM due to the following
+reasons: (1) sampling was conducted within Metro Manila with
+the main PM sources including vehicular emissions, industry,
+cooking, sea salt, and waste processing,12–19 which are consis-
+tent throughout the year given the tropical urban setting; (2)
+urban emissions are expected to be consistent throughout the
+year as Metro Manila has a tropical climate with relatively stable
+year-round temperatures (primarily between 25–30 C),35 thus
+emissions
+from
+heating
+or
+cooling
+remain
+consistent
+throughout the year; and (3) although the Philippines does
+receive long-range transport from East Asia and the Maritime
+Continent,13,35,40,56–58 Metro Manila itself is largely insulated by
+mountains and ocean from these sources. Previous work has
+shown that the long-range transport of PM to the Philippines is
+naturally transient and PM levels return to normal values aer
+episodes of long-range transport.58 Since peaks in PM related to
+transport are both occasional and transient, a seasonal PM
+average measured within Metro Manila will mainly reect local
+emissions, which are consistent throughout the year. This is in
+contrast to cities such as Delhi, India which are situated close to
+biomass burning areas and experience seasonal cycles in
+emissions as a result.59 Besides wet scavenging, we do not
+discount the presence of other factors that may aﬀect seasonal
+PM averages. Although the MOUDI dataset is rich in both size-
+and chemically-resolved information, the determination of
+causation in the observed relationships in this study is a natural
+limitation, and future work is encouraged to employ high-
+resolution modeling to isolate contributions of diﬀerent
+factors to total PM.
+Seasonal diﬀerences in the size distributions of gravimetric
+mass (Fig. 2a) revealed that submicrometer concentrations were
+slightly higher in the dry season, especially between 0.18–0.32
+mm, while supermicrometer concentrations were slightly higher
+during the wet season, notably between 1.8–5.6 mm. A wet
+season enhancement is observed for gravimetric mass between
+0.32–1.0 mm (Fig. 2a). Aged aerosol particles from secondary
+processes have been identied as the most important source of
+PM in this size range;14 thus, gravimetric mass in this size range
+may be enhanced due to more conducive meteorological
+conditions for secondary aerosol processing in the wet season,
+which have been shown to be a factor in Metro Manila (i.e.,
+higher RH, lower boundary layer height).35
+A lack of signicant wet season enhancement in typical
+supermicrometer
+aerosol
+tracers
+(e.g.,
+sodium,
+calcium)
+(Fig. S1d and f†) suggests that the supermicrometer peak in
+gravimetric mass during the wet season (Fig. 2a) is largely
+unaccounted for by the species measured in this study. Aer
+considering contributions from PM-WS and BC, an average of
+27.1% of PM10 gravimetric mass remained unaccounted for,
+reecting a similar result in Cruz et al.,14 while an average of
+only 6.8% was unaccounted for in the PM1 range. This suggests
+that there exists a supermicrometer mode component of total
+gravimetric mass that cannot be fully explained by the MOUDI
+data (i.e., water-soluble species and BC). One possible source for
+the enhanced supermicrometer mode are particles that are
+relatively water-insoluble (i.e., not detected by IC/ICP-QQQ
+analyses) and do not contain BC (i.e., not detected by the
+MABI). The investigation of this possibility and its source is le
+to future work.
+BC and PM-WS (Fig. 2b and c) experienced the greatest
+seasonal changes in the submicrometer range. The heightened
+PM1-WS concentrations during the wet season are well-
+explained by similar wet season enhancements of PM1 sulfate
+Fig. 1
+Seasonal medians of gravimetric mass, black carbon (BC), and
+total water-soluble species (PM-WS) for PM1 and PM10 size ranges. Wet
+(dry) season is deﬁned as May to October (November to April). PM-WS
+was measured for 32 (22) sets during the wet (dry) season; gravimetric
+mass and BC were measured for 8 (3) MOUDI sets during the wet (dry)
+season. Lower and upper ends of error bars represent the 25th and
+75th percentile concentrations, respectively.
+© 2022 The Author(s). Published by the Royal Society of Chemistry
+Environ. Sci.: Atmos., 2022, 2, 1428–1437 | 1431
+Paper
+Environmental Science: Atmospheres
+Open Access Article. Published on 02 September 2022. Downloaded on 1/16/2023 4:50:46 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+and ammonium (Fig. S1a and b†). Higher PM1 sulfate and
+ammonium
+concentrations
+may
+point
+to
+meteorological
+conditions during the wet season that are conducive for
+secondary production (e.g., higher RH, lower boundary layer
+height35) despite increased rain. Lower boundary layer heights
+over Metro Manila in the wet season35 may also increase surface
+PM concentrations, which may also contribute to sustained wet
+season PM-WS; however, the lack of a similar enhancement in
+BC suggests boundary layer height may not be an important
+factor for explaining the seasonal consistency in gravimetric
+mass. Additionally, due to BC's high contribution to total PM in
+Metro Manila,14 BC-catalyzed sulfate formation may also serve
+as an important contributor to sulfate concentrations.25,26
+In summary, total PM mass was consistent across seasons
+due to opposing seasonal cycles of BC and PM-WS concentra-
+tions. While BC is generally higher in the dry season, PM-WS
+concentrations are higher in the wet season. The largest
+seasonal enhancements in BC and PM-WS occur in the sub-
+micrometer range, suggestive of the contributions of secondary
+formation14 due to conducive meteorology (i.e., high RH).
+3.2.
+Relationships between PM and rain duration
+Compared to rain amount (i.e., accumulated rain during event)
+and rain intensity (i.e., mean rain rate during event) (Fig. S2†),
+rain duration showed the clearest relationships with AOD and
+PM1-WS (Fig. 3a and b), suggestive of wet scavenging, and is
+thus the focus of this section. Rain events with duration less
+than one hour are generally associated with heightened AOD
+aer the event, perhaps due to RH-related eﬀects on AOD,60
+while rain events longer than one hour tend towards lower AOD
+aerwards (Fig. 3a). Similarly, MOUDI sets with mean rain
+durations over one hour have notably lower concentrations of
+PM1-WS
+(Fig.
+3b),
+sulfate
+(Fig.
+S3a†),
+and
+ammonium
+(Fig. S3b†). This suggests that one hour may serve as a rough
+threshold for eﬃcient wet scavenging.
+To provide long-term context for rain in the sampling area,
+a multi-year characterization of rain duration during the wet
+season (2010–2020) revealed that 50% of rain events last less
+than one hour (Fig. 3c). Furthermore, rain has been shown to be
+mostly light in intensity over Metro Manila22 and over the island
+of Luzon (northern Philippines) where Metro Manila is located
+(0–2.5 mm h1).23 Considering the trends in Fig. 3a and b, the
+predominance of light and short rain events and their ineﬃ-
+cient scavenging may be partly why PM-WS is higher in the wet
+season than the dry season. This is supported by Sun et al.3 who
+showed that light rain (<1 h and <0.5 mm) did not scavenge PM
+eﬃciently. In addition to ineﬃcient wet scavenging, we also
+note that elevated RH (Fig. S4†) and lower boundary layer
+heights35 during the wet season in Metro Manila may also
+counteract scavenging by creating conducive conditions for
+secondary production of sulfate and ammonium. Besides
+sulfate and ammonium, secondary production is an important
+source of several species such as organic acids;61 however, PM1-
+WS in Manila is composed largely of sulfate (58% of PM1-WS
+mass, on average) and ammonium (28%), which are much more
+abundant than other secondarily produced species such as
+organic acids (2%). Note that we focus on PM1 because most of
+the PM mass resides within this range in Metro Manila based on
+previous source apportionment work.14
+Stratifying Fig. 3a by rain rate reveals specic rain charac-
+teristics under which AOD can increase or decrease (Fig. 4).
+Note that in Fig. 4 we included data from the dry season to
+increase the number of data points for stratication; however,
+the inclusion of dry season data did not change the overall
+trends. We use percent diﬀerences in AOD rather than absolute
+diﬀerences in AOD to isolate the impact of each rain event on
+AOD while accounting for the confounding factor of pre-rain
+AOD levels which will naturally vary between rain events. Note
+that the use of percent diﬀerences also accounts for possible
+variability in sources over diﬀerent time periods.
+Fig. 2
+Size-resolved diﬀerences in seasonal median concentrations (dry minus wet) of (a) gravimetric mass, (b) black carbon (BC), and (c) total
+water-soluble species (PM-WS). A positive (negative) value indicates higher dry (wet) season concentrations. Lower (upper) ends of error bars
+represent the diﬀerences in 25th (75th) percentile concentrations between seasons.
+1432 | Environ. Sci.: Atmos., 2022, 2, 1428–1437
+© 2022 The Author(s). Published by the Royal Society of Chemistry
+Environmental Science: Atmospheres
+Paper
+Open Access Article. Published on 02 September 2022. Downloaded on 1/16/2023 4:50:46 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+At low rain rates (Fig. 4a), shorter rain durations were asso-
+ciated with highly variable eﬀects on AOD, with most points
+falling within the range of 50% and +50%. Longer rain dura-
+tions exceeding 30 minutes were associated with more consis-
+tent decreases in post-rain AOD even if rain rate was low. At
+moderate rain rates (Fig. 4b), AOD tends to increase slightly
+post-rain, perhaps due to the enhanced moisture provided by
+moderate rain leading to higher AOD.60 When rain durations
+exceed one hour, this enhancement in AOD is less pronounced.
+At high rain rates (Fig. 4c), we observe the clearest dependence
+of AOD on rain duration. For longer (shorter) rain events, a large
+decrease (increase) in AOD is observed post-rain. We hypothe-
+size that this is due to the initial supply of moisture by shorter
+rain events that enhances AOD post-rain, but AOD is reduced
+aer longer rain events wherein aerosol scavenging is more
+eﬃcient. The enhancement of AOD aer short rain events may
+be due to a combination of the following reasons: (1) intense
+rain supplies the necessary moisture for hygroscopic growth,60
+(2) intense rain causes a disturbance at the surface and
+a resuspension of aerosol,62 and (3) shorter rain events may not
+scavenge aerosol particles eﬃciently. The overall trends in AOD
+reect the ndings from the MOUDI data (Fig. 3b), which
+further suggests more eﬃcient aerosol removal occurs with
+longer rain events.
+As precipitation is expected to become more intense and less
+frequent due to climate change,10,11 it is possible that rain events
+Fig. 3
+Scatterplots of the (a) percent diﬀerence in AOD before and after rain events (DAOD; %; 2012–2019). (b) MOUDI total water-soluble
+species (PM1-WS; mg m3; 2018–2019) as a function of rain duration (hours). (c) Histogram of rain duration (2010–2020). Rain duration in (b)
+refers to the mean duration of all rain events during each MOUDI set with error bars along the x-axis representing one standard deviation. Note
+that points in (b) without error bars consist of single rain events. The black dashed vertical lines in (a–c) mark the median rain duration based on
+(c). In (c), the red lines represent the 25th–75th percentile range (interquartile range, IQR). Number of data points per panel (N) is provided. Only
+data from the wet season were plotted (May–October). Curve-ﬁtting for (a and b) is described in Section 2.4.
+Fig. 4
+Scatterplots of the percent diﬀerence in AOD post-rain event (DAOD; %) as a function of rain duration (hours) and colored by season. Data
+are stratiﬁed by rain rate (R; mm h1): (a) 0 < R < 2, (b) 2 < R < 8, (c) 8 < R < 30. Wet (dry) season is deﬁned as May to October (November to April).
+Number of data points per panel (N) is provided. The black dashed vertical lines mark the median rain duration based on Fig. 3c. Curve-ﬁtting was
+performed as in Fig. 3a (see Section 2.4).
+© 2022 The Author(s). Published by the Royal Society of Chemistry
+Environ. Sci.: Atmos., 2022, 2, 1428–1437 | 1433
+Paper
+Environmental Science: Atmospheres
+Open Access Article. Published on 02 September 2022. Downloaded on 1/16/2023 4:50:46 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+will shorten in duration, which may reduce wet scavenging
+eﬃciency and contribute to PM accumulation in other mega-
+cities besides Metro Manila. We do note that the relationship
+between
+precipitation
+intensity–frequency–duration
+is
+complex,7,63 pointing to the importance of understanding
+aerosol-rain relationships in a warming world.5
+In summary, rain events longer than one hour were associ-
+ated with decreases in PM1-WS and AOD. AOD tended to
+increase (decrease) aer rain events shorter (longer) than one
+hour in duration, a trend that was more apparent at higher rain
+rates (>2 mm h1). A long-term characterization of rain duration
+revealed that during the wet season 50% of rain events last less
+than one hour. This nding, in addition to the insensitivity of
+PM-WS to shorter rain events, implies that ineﬃcient scav-
+enging occurs approximately half the time in Metro Manila and
+explains how total PM mass can remain elevated during the wet
+season.
+3.3.
+Relationships of size-resolved PM and meteorology
+In order to explore how aerosol size distributions change as
+a function of rain duration, we analyze size-resolved aerosol
+composition grouped by rain duration. Note that adjustments to
+the rain duration categories in Fig. 5 and S5† resulted in the
+same general conclusions. For rain events lasting less than one
+hour, PM-WS is bimodal (Fig. 5a), peaking at 0.56–1.0 mm and
+1.8–3.2 mm. Rain events longer than one hour are associated with
+lower PM-WS concentrations (Fig. 5a) particularly between 0.18–
+1.0 mm and 1.8–5.6 mm, suggestive of more scavenging on an
+absolute mass basis within these size ranges by long rain events.
+The PM-WS supermicrometer mode peak experienced a relatively
+large decrease (50%), likely due to the high hygroscopicity of
+species that compose most of the speciated supermicrometer
+mode mass (i.e., nitrate, sodium, calcium, chloride; Fig. S5†).
+Based on previous source apportionment work,14 sodium and
+chloride (calcium) in Metro Manila mostly originate from sea salt
+(dust) while nitrate was sourced from HNO3 partitioning onto sea
+salt particles.64 Dust65 and sea salt66,67 are eﬃciently removed by
+wet scavenging, which explains the large concentration drop in
+response to higher duration precipitation.
+Both sulfate (Fig. 5b) and ammonium (Fig. 5c) tend to decrease
+when rain duration exceeds one hour similar to PM-WS; however,
+ammonium experienced a relatively larger decrease within the
+0.32–0.56 mm range wherein concentrations dropped as much as
+30% (1 mg m3) in response to longer rain durations. This is
+explainable by the higher scavenging eﬃciency of ammonium
+compared to sulfate.68,69 We emphasize that, although most of the
+PM-WS mass (Fig. 5a) is composed of hygroscopic species (i.e.,
+sulfate, ammonium), PM-WS is largely unresponsive to rain
+events shorter than one hour (i.e., the division of samples into
+more rain duration groups (not shown) reects the patterns
+shown in Fig. 5). This result supports our previous analysis
+(Section 3.2) where we demonstrated that rain durations shorter
+than one hour tend to be ineﬃcient at aerosol scavenging.
+4
+Summary and conclusions
+As wet scavenging is the main aerosol sink, its characterization
+is important for modeling aerosol lifecycle and guiding air
+quality-related
+policymaking
+in
+megacities
+that
+may
+be
+susceptible to pollution accumulation despite the presence of
+rain. It is generally expected that PM mass concentrations
+during the wet season will be lower than those during the dry
+season. However, previous work observed seasonally consistent
+PM in Metro Manila, Philippines. Using a rich dataset of size-
+resolved aerosol composition, meteorology, and AOD retrieved
+by AERONET, the following major conclusions are reached:
+(1) Consistent PM concentrations across wet and dry seasons
+are due to opposite-phase seasonal cycles of BC and PM-WS
+concentrations. While BC is generally higher in the dry
+season, PM-WS concentrations are higher in the wet season.
+The largest seasonal enhancements in BC and PM-WS occur in
+the submicrometer range, pointing to the role of anthropogenic
+emissions
+and
+secondary
+formation.
+Heightened
+PM-WS
+concentrations during the wet season are largely due to sub-
+micrometer sulfate and ammonium. Wet season enhancements
+are at least partially attributable to favorable conditions (e.g.,
+high RH) for secondary formation and hygroscopic growth.
+(2) The presence of rain does not imply wet scavenging is
+taking place eﬃciently. The characteristics of rain are critical to
+estimating wet scavenging. Rain events longer than one hour
+were associated with decreases in PM1-WS and AOD. AOD
+Fig. 5
+Size distributions of median (a) total water-soluble species (PM-
+WS), (b) sulfate, and (c) ammonium grouped by mean rain duration
+during each MOUDI set. Only data from the wet season were plotted
+(May–Oct). Note that y-axis limits are not the same across panels. The
+number of MOUDI sets per grouping is provided in parentheses in the
+legend. Lower and upper ends of error bars represent the 25th and
+75th percentile concentrations, respectively.
+1434 | Environ. Sci.: Atmos., 2022, 2, 1428–1437
+© 2022 The Author(s). Published by the Royal Society of Chemistry
+Environmental Science: Atmospheres
+Paper
+Open Access Article. Published on 02 September 2022. Downloaded on 1/16/2023 4:50:46 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+tended to increase (decrease) aer rain events shorter (longer)
+than one hour in duration, a trend that was more apparent at
+high rain rates. A long-term characterization of rain duration
+revealed that 50% of rain events during the wet season last less
+than one hour. This nding, in addition to the insensitivity of
+PM-WS to shorter rain events, implies that ineﬃcient scav-
+enging may occur approximately half the time in Metro Manila
+and explains how gravimetric mass remains elevated during the
+wet season.
+(3) Size-resolved composition grouped by rain duration
+revealed the sensitivity of major PM-WS components (sulfate
+and ammonium) to rain events longer than one hour. On an
+absolute mass basis, the size ranges 0.18–1.0 mm and 1.8–5.6
+mm were the most sensitive to wet scavenging via longer rain
+events. Notably, ammonium experienced a large decrease (up to
+30%) in response to rain events exceeding one hour. Though
+most PM-WS mass resides in the submicrometer range, the
+clear decrease in PM-WS concentrations in response to longer
+rain events indicates the importance of composition in
+explaining wet scavenging trends.
+With the expectation of more intense, less frequent precip-
+itation due to climate change,10,11 changes in rain duration with
+increasing temperatures may result in ineﬃcient wet scav-
+enging over megacities aside from Metro Manila and contribute
+to the accumulation of PM and degradation of air quality. Thus,
+further work is needed to better understand factors leading to
+ineﬃcient aerosol scavenging as well as the potential inuence
+of these factors in other parts of the world. Future work is
+encouraged to: (1) examine size-resolved composition data at
+higher
+temporal
+resolution
+to
+further
+characterize
+PM
+responses to rain, (2) investigate the inuence of Metro Manila's
+large BC contributions (26.9% of total mass14) on aerosol
+hygroscopicity, scavenging eﬃciency, and sulfate formation, (3)
+analyze speciated size distributions in response to diﬀerent
+raindrop size distributions, (4) compare aerosol & meteorolog-
+ical data in other megacities to assess the prevalence of ineﬃ-
+cient wet scavenging and to build more statistics on these
+relationships, and (5) high-resolution modeling to further
+explore causation behind the observed relationships between
+PM and meteorology in this study.
+Author contributions
+Formal analysis, visualization, writing – original dra: MRAH.
+Writing – review & editing: PAB, GB, RAB, MOC, MTC, GRL,
+ABM, PCP, JBS, CS, JRY, AS.
+Data curation: PAB, GB, RAB, MOC, MTC, GRL, ABM, PCP,
+JBS, CS, JRY, AS.
+Conﬂicts of interest
+There are no conicts to declare.
+Acknowledgements
+This work was supported by NASA grant 80NSSC18K0148 as part
+of CAMP2Ex. A. B. MacDonald acknowledges support from the
+Mexican National Council for Science and Technology (CON-
+ACYT). M. T. Cruz acknowledges support from the Philippine
+Department of Science and Technology's ASTHRD Program. R.
+A. Braun acknowledges support from the ARCS Foundation. We
+gratefully acknowledge Agilent Technologies and Shane Snyd-
+er's laboratories for ICP-QQQ analysis. The MOUDI dataset is
+accessible at https://doi.org/10.6084/m9.gshare.11861859.v2.
+AERONET
+data
+may
+be
+accessed
+at:
+https://
+aeronet.gsfc.nasa.gov/.
+References
+1 J. H. Seinfeld and S. N. Pandis, Atmospheric Chemistry and
+Physics: from Air Pollution to Climate Change, John Wiley &
+Sons, Inc, New Jersey, Third., 2016.
+2 C. Textor, M. Schulz, S. Guibert, S. Kinne, Y. Balkanski,
+S. Bauer, T. Berntsen, T. Berglen, O. Boucher, M. Chin,
+F. Dentener, T. Diehl, R. Easter, H. Feichter, D. Fillmore,
+S. Ghan, P. Ginoux, S. Gong, A. Grini, J. Hendricks,
+L. Horowitz, P. Huang, I. Isaksen, I. Iversen, S. Kloster,
+D. Koch, A. Kirkev˚ag, J. E. Kristjansson, M. Krol, A. Lauer,
+J. F. Lamarque, X. Liu, V. Montanaro, G. Myhre, J. Penner,
+G. Pitari, S. Reddy, Ø. Seland, P. Stier, T. Takemura and
+X. Tie, Atmos. Chem. Phys., 2006, 6, 1777–1813.
+3 Y. Sun, C. Zhao, Y. Su, Z. Ma, J. Li, H. Letu, Y. Yang and
+H. Fan, Earth Space Sci., 2019, 6, 1915–1925.
+4 X. Zhao, Y. Sun, C. Zhao and H. Jiang, Atmosphere, 2020, 11,
+906.
+5 Y. Wang, W. Xia, X. Liu, S. Xie, W. Lin, Q. Tang, H.-Y. Ma,
+Y. Jiang, B. Wang and G. J. Zhang, Nat. Geosci., 2021, 14,
+72–76.
+6 Y. Wang, W. Xia and G. J. Zhang, Atmos. Chem. Phys. Discuss.,
+2021, 1–33.
+7 P. Hou, S. Wu, J. L. McCarty and Y. Gao, Atmos. Chem. Phys.,
+2018, 18, 8173–8182.
+8 L. Zhang, P. Wu, T. Zhou, M. J. Roberts and R. Schiemann,
+Atmos. Sci. Lett., 2016, 17, 646–657.
+9 H. Chen, B. Yong, Y. Shen, J. Liu, Y. Hong and J. Zhang, J.
+Hydrol., 2020, 581, 124376.
+10 K. E. Trenberth, Clim. Res., 2011, 47, 123–138.
+11 K. E. Trenberth, A. Dai, R. M. Rasmussen and D. B. Parsons,
+Bull. Am. Meteorol. Soc., 2003, 84, 1205–1218.
+12 M. AzadiAghdam, R. A. Braun, E.-L. Edwards, P. A. Ba˜naga,
+M. T. Cruz, G. Betito, M. O. Cambaliza, H. Dadashazar,
+G. R. Lorenzo, L. Ma, A. B. MacDonald, P. Nguyen,
+J. B. Simpas, C. Stahl and A. Sorooshian, Atmos. Environ.,
+2019, 216, 116922.
+13 R. A. Braun, M. A. Aghdam, P. A. Ba˜naga, G. Betito,
+M.
+O.
+Cambaliza,
+M.
+T.
+Cruz,
+G.
+R.
+Lorenzo,
+A. B. MacDonald, J. B. Simpas, C. Stahl and A. Sorooshian,
+Atmos. Chem. Phys., 2020, 20, 2387–2405.
+14 M. T. Cruz, P. A. Ba˜naga, G. Betito, R. A. Braun, C. Stahl,
+M.
+A.
+Aghdam,
+M.
+O.
+Cambaliza,
+H.
+Dadashazar,
+M. R. Hilario, G. R. Lorenzo, L. Ma, A. B. MacDonald,
+P. C. Pabroa, J. R. Yee, J. B. Simpas and A. Sorooshian,
+Atmos. Chem. Phys., 2019, 19, 10675–10696.
+© 2022 The Author(s). Published by the Royal Society of Chemistry
+Environ. Sci.: Atmos., 2022, 2, 1428–1437 | 1435
+Paper
+Environmental Science: Atmospheres
+Open Access Article. Published on 02 September 2022. Downloaded on 1/16/2023 4:50:46 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+15 M. E. Gonzalez, C. Stahl, M. T. Cruz, P. A. Ba˜naga, G. Betito,
+R.
+A.
+Braun,
+M.
+Azadi
+Aghdam,
+M.
+O.
+Cambaliza,
+G. R. Lorenzo, A. B. MacDonald, J. B. Simpas, J. Csavina,
+A. E. S´aez, E. Betterton and A. Sorooshian, Atmos. Pollut.
+Res., 2021, 12, 352–361.
+16 S. Kecorius, L. Madue˜no, E. Vallar, H. Alas, G. Betito,
+W. Birmili, M. O. Cambaliza, G. Catipay, M. Gonzaga-
+Cayetano,
+M.
+C.
+Galvez,
+G.
+Lorenzo,
+T.
+M¨uller,
+J. B. Simpas, E. G. Tamayo and A. Wiedensohler, Atmos.
+Environ., 2017, 170, 169–183.
+17 G. R. Lorenzo, P. A. Ba˜naga, M. O. Cambaliza, M. T. Cruz,
+M.
+AzadiAghdam,
+A.
+Arellano,
+G.
+Betito,
+R.
+Braun,
+A. F. Corral, H. Dadashazar, E.-L. Edwards, E. Eloranta,
+R. Holz, G. Leung, L. Ma, A. B. MacDonald, J. S. Reid,
+J. B. Simpas, C. Stahl, S. M. Visaga and A. Sorooshian,
+Atmos. Chem. Phys., 2021, 21, 6155–6173.
+18 L. Madue˜no, S. Kecorius, W. Birmili, T. M¨uller, J. Simpas,
+E. Vallar, M. C. Galvez, M. Cayetano and A. Wiedensohler,
+Atmosphere, 2019, 10, 603.
+19 C. Stahl, M. T. Cruz, P. A. Ba˜naga, G. Betito, R. A. Braun,
+M.
+A.
+Aghdam,
+M.
+O.
+Cambaliza,
+G.
+R.
+Lorenzo,
+A. B. MacDonald, M. R. A. Hilario, P. C. Pabroa, J. R. Yee,
+J. B. Simpas and A. Sorooshian, Atmos. Chem. Phys., 2020,
+20, 15907–15935.
+20 N. T. Kim Oanh, N. Upadhyay, Y.-H. Zhuang, Z.-P. Hao,
+D. V. S. Murthy, P. Lestari, J. T. Villarin, K. Chengchua,
+H. X. Co and N. T. Dung, Atmos. Environ., 2006, 40, 3367–
+3380.
+21 J. B. Simpas, G. R. H. Lorenzo and M. T. Cruz, in Improving
+Air Quality in Asian Developing Countries: Compilation of
+Research Findings, Vietnam Publishing House of Natural
+Resources, Environment and Cartography, Vietnam, 2014.
+22 E. N. Ba˜nares, G. T. T. Narisma, J. B. B. Simpas, F. T. Cruz,
+G. R. H. Lorenzo, M. O. L. Cambaliza and R. C. Coronel,
+Atmos. Res., 2021, 258, 105646.
+23 M. R. A. Hilario, L. M. Olaguera, G. T. Narisma and
+J. Matsumoto, Asia-Pacic Journal of Atmospheric Sciences,
+2020, 57, 573–585.
+24 A. P. K. Tai, L. J. Mickley and D. J. Jacob, Atmos. Environ.,
+2010, 44, 3976–3984.
+25 F. Zhang, Y. Wang, J. Peng, L. Chen, Y. Sun, L. Duan, X. Ge,
+Y. Li, J. Zhao, C. Liu, X. Zhang, G. Zhang, Y. Pan, Y. Wang,
+A. L. Zhang, Y. Ji, G. Wang, M. Hu, M. J. Molina and
+R. Zhang, Proc. Natl. Acad. Sci. U. S. A., 2020, 117, 3960–3966.
+26 G. Zhang, Y. Fu, X. Peng, W. Sun, Z. Shi, W. Song, W. Hu,
+D. Chen, X. Lian, L. Li, M. Tang, X. Wang and X. Bi, J.
+Geophys. Res.: Atmos., 2021, e2021JD035226.
+27 L. T. Molina, Faraday Discuss., 2021, 226, 9–52.
+28 L. Croitoru, J. C. Chang and A. Kelly, The Cost of Air Pollution
+in Lagos, World Bank, Washington, DC, 2020.
+29 S. N. Brohi, T. R. Pillai, D. Asirvatham, D. Ludlow and
+J. Bushell, IOP Conf. Ser. Earth Environ. Sci., 2018, 167,
+012015.
+30 A. A. Yusuf and B. P. Resosudarmo, Ecol. Econ., 2009, 68,
+1398–1407.
+31 P. Zhao and H. Hu, Cities, 2019, 92, 164–174.
+32 D. Mukherjee and S. Mitra, Transportation in Developing
+Economies, 2019, 5, 6.
+33 B. Wang, The Asian Monsoon, Springer Science & Business
+Media, 2006.
+34 Y. Chen, O. Wild, L. Conibear, L. Ran, J. He, L. Wang and
+Y. Wang, Atmos. Environ.: X, 2020, 5, 100052.
+35 M. R. A. Hilario, M. T. Cruz, P. A. Ba˜naga, G. Betito,
+R. A. Braun, C. Stahl, M. O. Cambaliza, G. R. Lorenzo,
+A. B. MacDonald, M. AzadiAghdam, P. C. Pabroa, J. R. Yee,
+J. B. Simpas and A. Sorooshian, J. Geophys. Res.: Atmos.,
+2020, 125, 13.
+36 B. Ge, D. Xu, O. Wild, X. Yao, J. Wang, X. Chen, Q. Tan,
+X. Pan and Z. Wang, Atmos. Chem. Phys., 2021, 21, 9441–
+9454.
+37 D. Xu, B. Ge, Z. Wang, Y. Sun, Y. Chen, D. Ji, T. Yang, Z. Ma,
+N. Cheng, J. Hao and X. Yao, Environ. Pollut., 2017, 230, 963–
+973.
+38 C. Blanco-Alegre, A. I. Calvo, A. Castro, F. Oduber, E. Alonso-
+Blanco and R. Fraile, Environ. Pollut., 2021, 285, 117371.
+39 S. Licen, S. Cozzutto and P. Barbieri, Aerosol Air Qual. Res.,
+2020, 20, 800–809.
+40 M. R. A. Hilario, E. Crosbie, M. Shook, J. S. Reid,
+M.
+O.
+L.
+Cambaliza,
+J.
+B.
+B.
+Simpas,
+L.
+Ziemba,
+J. P. DiGangi, G. S. Diskin, P. Nguyen, F. J. Turk,
+E. Winstead, C. E. Robinson, J. Wang, J. Zhang, Y. Wang,
+S.
+Yoon,
+J.
+Flynn,
+S.
+L.
+Alvarez,
+A.
+Behrangi
+and
+A. Sorooshian, Atmos. Chem. Phys., 2021, 21, 3777–3802.
+41 M. AzadiAghdam, R. A. Braun, E.-L. Edwards, P. A. Ba˜naga,
+M. T. Cruz, G. Betito, M. O. Cambaliza, H. Dadashazar,
+G. R. Lorenzo, L. Ma, A. B. MacDonald, P. Nguyen,
+J. B. Simpas, C. Stahl and A. Sorooshian, Atmos. Environ.,
+2019, 216, 116922.
+42 C. Stahl, M. T. Cruz, P. A. Ba˜naga, G. Betito, R. A. Braun,
+M.
+A.
+Aghdam,
+M.
+O.
+Cambaliza,
+G.
+R.
+Lorenzo,
+A. B. MacDonald, P. C. Pabroa, J. R. Yee, J. B. Simpas and
+A. Sorooshian, Sci. Data, 2020, 7, 128.
+43 F. T. Cruz, G. T. Narisma, M. Q. Villafuerte, K. U. Cheng Chua
+and L. M. Olaguera, Atmos. Res., 2013, 122, 609–616.
+44 J. Matsumoto, L. M. P. Olaguera, D. Nguyen-Le, H. Kubota
+and M. Q. Villafuerte, Int. J. Climatol., 2020, 40, 4843–4857.
+45 I. Akasaka, Int. J. Climatol., 2010, 30, 1301–1314.
+46 I. Akasaka, W. Morishima and T. Mikami, Int. J. Climatol.,
+2007, 27, 715–725.
+47 L. M. Olaguera, J. Matsumoto, H. Kubota, T. Inoue,
+E. O. Cayanan and F. D. Hilario, Atmosphere, 2018, 9, 464.
+48 B. N. Holben, T. F. Eck, I. Slutsker, D. Tanr´e, J. P. Buis,
+A. Setzer, E. Vermote, J. A. Reagan, Y. J. Kaufman,
+T. Nakajima, F. Lavenu, I. Jankowiak and A. Smirnov,
+Remote Sens. Environ., 1998, 66, 1–16.
+49 O. Dubovik, B. Holben, T. F. Eck, A. Smirnov, Y. J. Kaufman,
+M. D. King, D. Tanr´e and I. Slutsker, J. Atmos. Sci., 2002, 59,
+590–608.
+50 T. F. Eck, B. N. Holben, J. S. Reid, O. Dubovik, A. Smirnov,
+N. T. O'Neill, I. Slutsker and S. Kinne, J. Geophys. Res.,
+1999, 104, 31333–31349.
+51 J. J. Williams and L. S. Esteves, Adv. Civ. Eng., 2017, 2017,
+e5251902.
+1436 | Environ. Sci.: Atmos., 2022, 2, 1428–1437
+© 2022 The Author(s). Published by the Royal Society of Chemistry
+Environmental Science: Atmospheres
+Paper
+Open Access Article. Published on 02 September 2022. Downloaded on 1/16/2023 4:50:46 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+52 R. M. Campos and C. Guedes Soares, Ocean Eng., 2016, 112,
+320–334.
+53 S. Abdalla, P. A. E. M. Janssen and J.-R. Bidlot, Mar. Geodes.,
+2011, 34, 393–406.
+54 N. Moteki, Y. Kondo, N. Oshima, N. Takegawa, M. Koike,
+K. Kita, H. Matsui and M. Kajino, Geophys. Res. Lett., 2012,
+39, L13802.
+55 S. Izhar, T. Gupta and A. K. Panday, Atmos. Res., 2020, 235,
+104767.
+56 J. S. Reid, E. J. Hyer, R. S. Johnson, B. N. Holben,
+R. J. Yokelson, J. Zhang, J. R. Campbell, S. A. Christopher,
+L.
+Di
+Girolamo,
+L.
+Giglio,
+R.
+E.
+Holz,
+C.
+Kearney,
+J. Miettinen, E. A. Reid, F. J. Turk, J. Wang, P. Xian,
+G. Zhao, R. Balasubramanian, B. N. Chew, S. Janjai,
+N.
+Lagrosas,
+P.
+Lestari,
+N.-H.
+Lin,
+M.
+Mahmud,
+A.
+X.
+Nguyen,
+B.
+Norris,
+N.
+T.
+K.
+Oanh,
+M.
+Oo,
+S. V. Salinas, E. J. Welton and S. C. Liew, Atmos. Res., 2013,
+122, 403–468.
+57 J. S. Reid, P. Xian, E. J. Hyer, M. K. Flatau, E. M. Ramirez,
+F. J. Turk, C. R. Sampson, C. Zhang, E. M. Fukada and
+E. D. Maloney, Atmos. Chem. Phys., 2012, 12, 2117–2147.
+58 M. R. A. Hilario, M. T. Cruz, M. O. L. Cambaliza, J. S. Reid,
+P. Xian, J. B. Simpas, N. D. Lagrosas, S. N. Y. Uy, S. Cliﬀ
+and Y. Zhao, Atmos. Chem. Phys., 2020, 20, 1255–1276.
+59 S. Bikkina, A. Andersson, E. N. Kirillova, H. Holmstrand,
+S. Tiwari, A. K. Srivastava, D. S. Bisht and ¨O. Gustafsson,
+Nat. Sustain., 2019, 2, 200–205.
+60 C. Zheng, C. Zhao, Y. Zhu, Y. Wang, X. Shi, X. Wu, T. Chen,
+F. Wu and Y. Qiu, Atmos. Chem. Phys., 2017, 17, 13473–13489.
+61 A. Hodzic, P. S. Kasibhatla, D. S. Jo, C. D. Cappa,
+J. L. Jimenez, S. Madronich and R. J. Park, Atmos. Chem.
+Phys., 2016, 16, 7917–7941.
+62 Y. S. Joung and C. R. Buie, Nat. Commun., 2015, 6, 6083.
+63 P. Hosseinzadehtalaei, H. Tabari and P. Willems, J. Hydrol.,
+2020, 590, 125249.
+64 G. Prabhakar, A. Sorooshian, E. Toﬀol, A. F. Arellano and
+E. A. Betterton, Atmos. Environ., 2014, 92, 339–347.
+65 P. Ginoux, M. Chin, I. Tegen, J. M. Prospero, B. Holben,
+O. Dubovik and S.-J. Lin, J. Geophys. Res.: Atmos., 2001,
+106, 20255–20273.
+66 D. M. Murphy, K. D. Froyd, H. Bian, C. A. Brock, J. E. Dibb,
+J.
+P.
+DiGangi,
+G.
+Diskin,
+M.
+Dollner,
+A.
+Kupc,
+E. M. Scheuer, G. P. Schill, B. Weinzierl, C. J. Williamson
+and P. Yu, Atmos. Chem. Phys., 2019, 19, 4093–4104.
+67 J. S. Schlosser, H. Dadashazar, E.-L. Edwards, A. H. Mardi,
+G. Prabhakar, C. Stahl, H. H. Jonsson and A. Sorooshian, J.
+Geophys. Res.: Atmos., 2020, 125, e2019JD032346.
+68 S.
+Gilardoni,
+P.
+Massoli,
+L.
+Giulianelli,
+M.
+Rinaldi,
+M.
+Paglione,
+F.
+Pollini,
+C.
+Lanconelli,
+V.
+Poluzzi,
+S. Carbone, R. Hillamo, L. M. Russell, M. C. Facchini and
+S. Fuzzi, Atmos. Chem. Phys., 2014, 14, 6967–6981.
+69 A. Kasper-Giebl, M. F. Kalina and H. Puxbaum, Atmos.
+Environ., 1999, 33, 895–906.
+© 2022 The Author(s). Published by the Royal Society of Chemistry
+Environ. Sci.: Atmos., 2022, 2, 1428–1437 | 1437
+Paper
+Environmental Science: Atmospheres
+Open Access Article. Published on 02 September 2022. Downloaded on 1/16/2023 4:50:46 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online

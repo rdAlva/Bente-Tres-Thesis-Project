@@ -1,0 +1,922 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+1-1-2023 
+COVID-19 Vaccine Hesitancy in ASEAN: Insights from a Multi-
+COVID-19 Vaccine Hesitancy in ASEAN: Insights from a Multi-
+Wave Survey Database from July 2020 to March 2021 
+Wave Survey Database from July 2020 to March 2021 
+Kenneth Y. Hartigan-Go 
+Asian Institute of Management Makati City 
+Ronald U. Mendoza 
+Ateneo de Manila University 
+Madeline Mae A. Ong 
+Ateneo de Manila University 
+Jurel K. Yap 
+Ateneo de Manila University 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Infectious Disease Commons, Medical Immunology Commons, and the Public Health 
+Commons 
+Custom Citation 
+Custom Citation 
+Hartigan-Go, K. Y., Mendoza, R. U., Ong, M. M. A., & Yap, J. K. (2023). COVID-19 Vaccine Hesitancy in 
+ASEAN: Insights from a Multi-wave Survey Database from July 2020 to March 2021. Acta Medica 
+Philippina, 57(1). https://doi.org/10.47895/amp.vi0.3679 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+COVID-19 Vaccine Hesitancy in ASEAN:
+Insights from a Multi-wave Survey Database
+from July 2020 to March 2021
+Kenneth Y. Hartigan-Go, MD, MD(UK),1,2 Ronald U. Mendoza, PhD,3 Madeline Mae A. Ong, MD4 and Jurel K. Yap, MSc2
+1Asian Institute of Management, Makati City, Metro Manila, Philippines
+2Ateneo Policy Center, School of Government, Ateneo de Manila University, Quezon City, Metro Manila, Philippines
+3School of Government, Ateneo de Manila University, Quezon City, Metro Manila, Philippines
+4Ateneo School of Medicine and Public Health, Pasig City, Metro Manila, Philippines
+ABSTRACT
+Objectives. Early studies on COVID-19 vaccine hesitancy showed varied intensity across countries, which was linked 
+to various factors such as socio-economic conditions, information sources, and issues of trust in government, scientific 
+experts, and the health sector. This study aims to evaluate the determinants of vaccine hesitancy to offer insights into 
+the strategies that may be successful in designing communications campaigns for enhanced vaccination uptake.
+Methods. Through logistic regression, this study examines correlates of survey data from five Southeast Asian countries, 
+namely Indonesia (ID), Malaysia (MY), Philippines (PH), Thailand (TH), Vietnam (VN) collected by the Massachusetts 
+Institute of Technology Initiative on Digital Economy and Facebook between July 2020 and March 2021.
+Results. Some significant determinants at the 5% or 1% level of significance of COVID-19 vaccine hesitancy in 
+the countries of interest include gender [ID: 1.17 (1.01, 1.15), MY: 1.35 (1.2,1.53), PH: 1.92 (1.68,2.19), VN: 1.28 
+(1.04,1.58)], age [MY:1.11 (1.06,1.17), PH: 0.92 (0.88, 0.97), TH: 1.17 (1.11, 1.23)], knowing someone who tested 
+positive for COVID-19 [ID: 0.75 (0.65,0.88), MY: 0.82 (0.71,0.95), PH: 0.76 (0.67, 0.87), TH: 0.76 (0.59, 0.99), VN: 
+0.72 (0.54,0.97)], and perceived effectiveness of mask wearing [ID: 0.83 (0.74, 0.94), MY: 0.86 (0.79, 0.95), TH: 0.88 
+(0.8,0.98)]. Vaccine hesitancy is particularly strong among women in 3 countries—peaking at 52% in Indonesia, 42% in 
+Malaysia, and 56% in the Philippines. 
+Conclusion. Results from the survey highlight the significance of a targeted vaccine education and research campaign. 
+This study calls for streamlining of communications campaigns towards messages that promote vaccine uptake in the 
+region, while better targeting those groups most vulnerable guided by the empirical findings herein.
+Keywords: COVID-19, health communication, Asia, Southeastern, Vaccine hesitancy
+All four authors share primary authorship for this manuscript.
+Corresponding author: Jurel K. Yap, MSc
+Ateneo Policy Center
+School of Government
+Ateneo de Manila University
+Katipunan Avenue, Loyola Heights, 
+Quezon City 917, Philippines
+Email: jkyap@ateneo.edu
+INTRODUCTION
+As the first COVID-19 vaccines became available in late 
+2020, an increasing number of countries are proceeding to 
+vaccinate their health workers and vulnerable populations. 
+Much of the world is headed towards the largest mass 
+vaccination campaign the world has ever embarked on. Issues 
+of vaccine access will soon give way to even deeper issues of 
+vaccine hesitancy—the reluctance or refusal to get vaccinated. 
+Even before the pandemic, vaccine hesitancy was already a 
+challenge in many developing and some industrial countries.1-2 
+Early studies3-6 on vaccine hesitancy in the context of the 
+COVID-19 pandemic suggest that this phenomenon varied 
+in intensity across countries, and it can be linked to various 
+underlying factors ranging from socio-economic conditions 
+VOL. 57 NO. 1 2023
+10
+ORIGINAL ARTICLE
+
+to information sources, and issues of trust in government, 
+scientific experts and the health sector.
+In the context of the continuing tally of new cases in 
+the ASEAN region, especially in Indonesia, Malaysia, and 
+the Philippines where more than a thousand new cases are 
+still added per day (as of March 11, 2021), there is a need for 
+a baseline understanding of the levels of vaccine hesitancy 
+in the countries, as well as the conditions and factors that 
+drive it. Policy makers may use this information to craft 
+communications strategies towards increasing vaccine 
+confidence in these countries given the aim to increase vaccine 
+inoculation throughout 2021. This study aims to evaluate 
+the correlates of vaccine hesitancy to offer perceptions into 
+the strategies that may be successful in designing commu-
+nications campaigns for enhanced vaccination uptake in the 
+ASEAN region.
+The study aims to assess the correlates of vaccine hesitancy 
+to offer insights into strategies that may be successful in 
+targeting and designing communications and outreach 
+campaigns for enhanced vaccination uptake. Focused on 
+selected Southeast Asian countries (Indonesia, Malaysia, 
+Philippines, Thailand, Vietnam), this empirical study 
+examines a novel database from a large-scale international 
+survey on topics linked to the COVID-19 pandemic. It aims 
+to find evidence on the correlation of vaccine hesitancy with 
+demographic characteristics, knowledge and perceptions 
+around COVID-19, and trust in various information sources 
+among Southeast Asian countries. 
+Methods
+Between July 7, 2020 and March 29, 2021, the 
+Massachusetts Institute of Technology (MIT) Initiative on 
+Digital Economy with Facebook conducted a large-scale 
+international survey in over 60 countries on topics related 
+to COVID-19 pandemic. The Committee on the Use of 
+Humans as Experimental Subjects review board at MIT 
+approved the ethics review for this study with protocol ID 
+#E-2294. MIT granted permission to use the data through 
+a signed Data Use Agreement between the MIT and the 
+author’s institution. The author’s institution also approved 
+the ethics review for this study with protocol ID #21_029. 
+The survey was conducted in continuous 2-week waves 
+beginning in early July 2020. By March 29, 2021, 19 survey 
+waves have been completed, and this study examined that 
+dataset. Data collection was done online via the Qualtrics 
+platform, and respondents were collected via Facebook. 
+Because of this data collection method and the different 
+internet and social media (particularly Facebook) access 
+rates in these countries, the survey data was adjusted. Non-
+response and coverage biases (age, gender, and region of 
+residence) were adjusted using analytic weights to create a 
+survey sample that is generalizable to the population.7
+We acknowledge the limitations that accompany using 
+online survey data. Given that the respondents were fielded 
+via Facebook, non-response bias is present for those who 
+have limited to no access to the internet, or non-users of 
+the platform. Sampling bias may tend towards areas with 
+high internet penetration and frequent Facebook users. 
+Nevertheless, we recommend readers proceed with care 
+in interpreting and generalizing the results for entire 
+populations, given the sampling and non-response biases in 
+the sample.8,9
+For this study, we focused on respondents from the 
+ASEAN, specifically Indonesia (ID), Malaysia (MY), the 
+Philippines (PH), Thailand (TH), and Vietnam (VN). 
+Respondents from the other five ASEAN member nations 
+were not included because on average, the countries had 
+over 90% less respondents than the five countries included 
+in this study, each of which has over 30,000 respondents. 
+We also only include those reached the end of the entire 
+survey. Some items have less responses than others due to 
+nonresponse to individual questions. Appendix Table 1 
+features the data used in this study and the survey questions. 
+Statements were measured mostly using Likert scales. The 
+survey also reported the respondents perceived level of trust 
+for the main sources of news and information on COVID-19 
+using a 3-point scale. We calculated and described the vaccine 
+hesitancy trends among these five countries, and used a 
+logistic regression model to identify possible factors linked 
+to vaccine hesitancy for each country. 
+To obtain the determinants of vaccine hesitancy, we 
+modelled the likelihood of each respondent answering ‘no’ 
+or ‘don’t know’ to each vaccine hesitancy question versus the 
+other variables in the survey for each of the five ASEAN 
+countries in the study. This approach measures the links across 
+vaccine hesitancy and facets of the survey such as perceived 
+existence of drugs or vaccines, perceived effectiveness of 
+system delivering the vaccine, perceived risk of disease, 
+perceived effectiveness of means to prevent spread, trust on 
+information mediums/sources, and information volume.10 
+We used a logistic regression model to examine the 
+determinants of vaccine hesitancy across the 19 waves. Given 
+the type of data (e.g., the independent variable is a binary 
+variable), we chose to use a survey-weighted generalized linear 
+model with a logistic canonical link function. Generalized 
+linear models are often used for survey data in various fields 
+(including health sciences) to study correlates and risk factors 
+related to with binary variables, such as this study.11,12 The 
+variables chosen in the regression model are all the survey 
+questions that have been consistently covered in the 19 
+waves of the survey. No questions/variables were eliminated 
+so that the readers may freely explore the survey correlates 
+that are possibly related to vaccine hesitancy. The statistical 
+model was implemented in the statistical software R (version 
+4.0.3) using the ‘survey’ package (version 4.0). 
+5% and 1% level of significance was used in the results 
+section below since in survey research, these levels of 
+significance are typically chosen to represent 95% level of 
+confidence and 99% level of confidence respectively.13 
+VOL. 57 NO. 1 2023
+11
+COVID-19 Vaccine Hesitancy in ASEAN
+
+Due to non-response to individual questions, some 
+rows of the data had to be dropped, thus the lower number 
+of responses used in the regression model compared to the 
+number of total responses in the summary statistics table 
+(Appendix Table 2). The logistic regression model used the 
+provided survey weights by the Facebook and MIT, which 
+was calculated using two-way cross-classification of age 
+brackets and gender that are reflective of each country’s 
+adult population.8 
+Results 
+Demographic profile
+All five countries in the sample had predominantly male 
+respondents, except the Philippines (Table 1). For Malaysia, 
+Philippines, and Thailand, the median age group was 31–40 
+years. Thailand’s median age group was 41–50 years, while 
+Vietnam had the youngest median age group at 21–30 years.
+Vaccine Hesitancy Trends in ASEAN
+Across the survey waves, we found that vaccine hesitancy 
+(e.g., Those who responded either “No” or “Don’t know” 
+to “If a vaccine for COVID-19 becomes available, would you 
+choose to get vaccinated”) was highest in Indonesia (42%; N 
+= 34,480), closely followed by the Philippines (41%), then 
+Malaysia (27%), Thailand (23%), and Vietnam (17%). The 
+ranking for vaccine hesitancy was similar to the ASEAN 
+rank for COVID-19 cases per million14 where among the 5 
+nations: Malaysia ranked 1st, the Philippines 2nd, Indonesia 
+3rd, Thailand 4th, and Vietnam 5th. During the pandemic, 
+vaccine hesitancy was on the downtrend for Indonesia and 
+Malaysia, while on the upswing for the Philippines and 
+Thailand (Figure 1). It seems that vaccine hesitancy has 
+plateaued in the Philippines after it rose steeply to around 
+half of the population since the fourth wave in mid-to-late 
+August 2020. 
+On average across all waves, Vietnamese respondents 
+perceived their country’s overall response to the crisis the 
+highest (4.29/5), while Filipino respondents had the lowest 
+score (2.69). In terms of rating their community’s handling 
+of COVID-19, likewise, Vietnamese respondents gave the 
+highest rating (3.99), while Filipino respondents gave the 
+lowest (3.08). 
+In terms of news media, the top-rated medium was 
+TV for all countries. For sources of information, scientists, 
+local health workers, and the World Health Organization 
+Figure 1.	 Vaccine hesitancy trends in the ASEAN.
+Source: Authors’ calculations using the MIT-Facebook database
+Table 1.	Demographic profile of respondents
+Characteristic
+Country
+N
+Statistic
+%
+Gender
+ID
+34480
+% Female
+32%
+MY
+38842
+46%
+PH
+40367
+53%
+TH
+37886
+44%
+VN
+36082
+41%
+Age
+ID
+34464
+Median age 
+group
+31–40 y/o
+MY
+38820
+31­–40 y/o
+PH
+40352
+31–40 y/o
+TH
+37869
+41–50 y/o
+VN
+36068
+20–30 y/o
+Source: Authors’ calculations using the MIT-Facebook database
+VOL. 57 NO. 1 2023
+12
+COVID-19 Vaccine Hesitancy in ASEAN
+
+(WHO) enjoyed consistently high trust ratings for each 
+country, while politicians and people respondents did not 
+personally know had the lowest ratings. 
+In terms of the level of exposure to COVID-19 news 
+and information, respondents across countries agreed that 
+they consumed between moderate-to-a lot of information 
+on COVID-19, with Filipinos consuming the most (3.48/4). 
+Respondents across all countries were in between wanting 
+more and having just the right amount of information 
+on COVID-19. 
+The survey also measured perceptions towards common 
+practices in preventing the spread of COVID-19. In general, 
+respondents from these selected ASEAN countries tend 
+to perceive handwashing and facemask wearing as effective 
+(all ratings between 3.8 and 4.4/5). 
+Determinants of Vaccine Hesitancy
+Estimates of determinants showed that women were 
+more likely to be vaccine hesitant using the survey-weighted 
+logistic regression model for four of the five countries 
+(Indonesia, Malaysia, Philippines and Vietnam) in the sample 
+with at least 5% level of significance (OR 1.17, 1.35, 1.92, 
+and. 1.28, respectively) (Table 2). The positive link between 
+female respondents and vaccine hesitancy is strongest in 
+the Philippines, with odds ratio 0.57 higher than the next 
+highest country, Malaysia. Older respondents were more 
+likely to be vaccine hesitant in Malaysia (OR 1.11) and 
+Thailand (OR 1.17), while less hesitant in the Philippines 
+(OR 0.92) with a 1% level of significance. Those who perso-
+nally knew someone who tested positive for COVID-19 
+were less likely to be vaccine hesitant in all five countries 
+(OR 0.72–0.82) with at least 5% level of significance. 
+Increased knowledge that a vaccine exists was linked to 
+a decreased likelihood of vaccine hesitancy only in Indonesia 
+(OR 0.48), while the converse was true in Thailand (OR 1.16) 
+with at least 5% level of significance. 
+There was strong evidence at the 1% level of significance 
+that increased satisfaction in the respondents’ country’s 
+pandemic response is linked to decreased hesitancy in 
+Malaysia (OR: 0.91), while the opposite is manifest in the 
+Philippines (OR: 1.14). 
+The increased perceived effectiveness of wearing masks 
+was associated with decreased likelihood of vaccine hesi-
+tancy in Indonesia (OR: 0.83), Malaysia (OR: 0.86), and 
+Thailand (OR: 0.88) at least at the 5% level of significance. 
+Handwashing seemed to have weaker evidence than mask-
+wearing as it was only linked to a decreased likelihood of 
+vaccine hesitancy in the Philippines (OR: 0.75) at the 1% 
+level of significance. 
+In terms of trust in news sources, there seems to be 
+scattered evidence across five countries linking increased 
+trust in certain information sources with decreased vaccine 
+hesitancy. First, there is consistently strong evidence across 
+5 countries that increased trust in the WHO is linked to 
+decreased vaccine hesitancy at least at the 5% level of signi-
+ficance (OR range, 0.66 to 0.85). Next, trust in government 
+health authorities is linked to decreased vaccine hesitancy in 
+Indonesia (OR 0.71), Malaysia (OR 0.86), and Vietnam (OR 
+0.73) at least at the 5% level of significance. Nevertheless, 
+trust in scientists was linked to decreased vaccine hesitancy 
+in the Philippines (OR 0.65) at the 1% level of significance. 
+Increased 
+trust 
+in 
+journalists 
+was 
+associated 
+with 
+decreased vaccine hesitancy in Thailand (OR: 0.82) at the 
+1% level of significance, while trust in local health workers 
+is linked with decreased vaccine hesitancy in Indonesia 
+(OR 0.83) at the 5% level of significance. 
+Compared to news sources, news mediums have weaker 
+evidence supporting its link to decreased vaccine hesitancy. 
+Increased trust in radio is linked to decreased vaccine 
+hesitancy only in Vietnam (OR: 0.76) at the 5% level of 
+significance. Increased trust in TV was linked with increased 
+vaccine hesitancy in the Philippines (OR 1.20), while linked 
+to decreased vaccine hesitancy in Indonesia (OR 0.82) at the 
+5% level of significance. It is possible that wide television 
+news coverage of a still ongoing vaccine controversy—linked 
+to the Dengvaxia anti-dengue vaccine—may be partly behind 
+this curious link in the Philippines.15
+Increased trust in messaging applications was associated 
+with decreased likelihood of vaccine hesitancy in Thailand 
+(OR 0.8) at the 1% level of significance. Finally, increased trust 
+in newspapers was linked to decreased vaccine hesitancy only 
+in the Philippines (OR 0.75) at the 1% level of significance. 
+Evidence was strong on the link between increased 
+information exposure on COVID-19 news and decreased 
+vaccine hesitancy, with results being significant at least at 
+the 5% level in Indonesia (OR 0.91), Malaysia (OR 0.79), 
+Philippines (OR 0.85), and Thailand (OR 0.87). Increased 
+appetite for information on COVID-19 was linked to 
+decreased vaccine hesitancy in Indonesia (OR 0.91) and 
+Vietnam (OR 0.85) at the 1% level of significance.
+In the Philippines, vaccine hesitancy was strongly linked 
+with women at the 5% significance level across many survey 
+waves (Appendix Figure 3 and Table 6), especially high in the 
+most recent survey wave (March 16–31, 2021). In Thailand, 
+older respondents were linked to increased vaccine hesitancy 
+across survey waves from Oct 26, 2020 to Jan 18, 2021 
+(Appendix Figure 4 and Table 7). Finally, vaccine hesitancy 
+was very strong among women in the final wave (March 16–
+31, 2021) in Thailand, Vietnam, and Philippines (OR > 2.1) 
+with 5% level of significance (Appendix Figures 3 to 5). 
+Discussion
+Survey results showed that the trend for vaccine 
+hesitancy has increased for women in the Philippines and 
+Thailand. Between the survey wave 1 in July 2020 to wave 
+17 in February 2021, vaccine hesitancy in women increased 
+from 36% to 56% in the Philippines – while in Indonesia 
+and Malaysia, vaccine hesitancy in women peaked at 52% 
+and 42% respectively in late December 2020 to January 2021.
+VOL. 57 NO. 1 2023
+13
+COVID-19 Vaccine Hesitancy in ASEAN
+
+Table 2.	Determinants of vaccine hesitancy per country using logistic regression model (Odds ratio [OR], 95% CI)
+Dependent variable: Vaccine Hesitancy
+ID
+MY
+PH
+TH
+VN
+Age (per bracket)
+1.00
+1.11‡
+0.92‡
+1.17‡
+1.07
+(0.94, 1.07)
+(1.06, 1.17)
+(0.88, 0.97)
+(1.11, 1.23)
+(0.97, 1.18)
+Sex (Women)
+1.17†
+1.35‡
+1.92‡
+1.11
+1.28†
+(1.01, 1.35)
+(1.20, 1.53)
+(1.68, 2.19)
+(0.97, 1.26)
+(1.04, 1.58)
+Agrees that COVID-19 drug exists
+1.15
+0.91
+0.86
+0.97
+0.90
+(0.96, 1.39)
+(0.73, 1.12)
+(0.71, 1.05)
+(0.78, 1.20)
+(0.60, 1.35)
+Agrees that COVID-19 vaccine exists
+0.48‡
+0.89*
+0.99
+1.16†
+1.02
+(0.41, 0.55)
+(0.79, 1.01)
+(0.87, 1.13)
+(1.02, 1.33)
+(0.83, 1.25)
+Country management
+0.91*
+0.84‡
+1.14‡
+0.94
+0.96
+(0.82, 1.01)
+(0.78, 0.90)
+(1.05, 1.24)
+(0.86, 1.03)
+(0.79, 1.17)
+Community management
+1.13†
+1.01
+1.01
+1.10*
+1.01
+(1.01, 1.26)
+(0.93, 1.09)
+(0.93, 1.10)
+(0.99, 1.21)
+(0.84, 1.23)
+News medium — Trust radio
+1.08
+0.88
+0.99
+0.97
+0.76†
+(0.89, 1.30)
+(0.74, 1.05)
+(0.82, 1.20)
+(0.81, 1.16)
+(0.60, 0.97)
+News medium — Trust TV
+0.82†
+1.08
+1.20†
+1.02
+0.99
+(0.70, 0.97)
+(0.90, 1.29)
+(1.00, 1.43)
+(0.87, 1.19)
+(0.74, 1.33)
+News medium — Trust messaging apps
+0.93
+1.04
+0.94
+0.80‡
+0.96
+(0.82, 1.05)
+(0.94, 1.16)
+(0.84, 1.06)
+(0.71, 0.90)
+(0.79, 1.18)
+News medium — Trust newspapers
+0.88
+0.98
+0.75‡
+0.98
+0.89
+(0.73, 1.07)
+(0.83, 1.15)
+(0.63, 0.89)
+(0.82, 1.17)
+(0.67, 1.19)
+News medium — Trust online sources
+1.07
+1.09
+0.88*
+0.91
+1.01
+(0.91, 1.26)
+(0.95, 1.24)
+(0.76, 1.02)
+(0.80, 1.05)
+(0.80, 1.27)
+News source — Trust local health workers
+0.83†
+0.93
+0.93
+0.93
+1.07
+(0.70, 0.97)
+(0.80, 1.08)
+(0.80, 1.08)
+(0.80, 1.08)
+(0.85, 1.34)
+News source — Trust scientists
+0.91
+0.91
+0.65‡
+0.87*
+1.00
+(0.76, 1.07)
+(0.79, 1.05)
+(0.55, 0.78)
+(0.75, 1.00)
+(0.78, 1.27)
+News source — Trust government health authorities
+0.71‡
+0.86†
+1.09
+0.97
+0.73†
+(0.61, 0.82)
+(0.75, 1.00)
+(0.96, 1.24)
+(0.85, 1.11)
+(0.58, 0.93)
+News source — Trust politicians
+0.98
+0.93
+0.89*
+0.96
+0.93
+(0.86, 1.12)
+(0.83, 1.03)
+(0.78, 1.01)
+(0.85, 1.09)
+(0.79, 1.10)
+News source — Trust World Health Organization
+0.66‡
+0.61‡
+0.66‡
+0.85†
+0.71‡
+(0.57, 0.76)
+(0.54, 0.70)
+(0.57, 0.76)
+(0.74, 0.96)
+(0.60, 0.84)
+News source — Trust people I don’t know personally
+1.06
+1.09
+1.07
+1.07
+0.88
+(0.93, 1.21)
+(0.97, 1.22)
+(0.94, 1.23)
+(0.95, 1.21)
+(0.72, 1.09)
+News source — Trust people I know personally
+1.06
+1.04
+1.08
+1.12*
+1.29†
+(0.94, 1.21)
+(0.93, 1.17)
+(0.96, 1.23)
+(0.98, 1.28)
+(1.01, 1.65)
+News source — Trust journalists
+0.98
+0.90
+1.12
+0.82‡
+1.10
+(0.84, 1.15)
+(0.80, 1.02)
+(0.98, 1.29)
+(0.71, 0.94)
+(0.88, 1.36)
+Know positive case (Yes)
+0.75‡
+0.82‡
+0.76‡
+0.76†
+0.72†
+(0.65, 0.88)
+(0.71, 0.95)
+(0.67, 0.87)
+(0.59, 0.99)
+(0.54, 0.97)
+Perception of mask
+0.83‡
+0.86‡
+0.91
+0.88†
+0.86*
+(0.74, 0.94)
+(0.79, 0.95)
+(0.82, 1.02)
+(0.80, 0.98)
+(0.74, 1.01)
+Perception of handwashing
+1.06
+0.94
+0.75‡
+1.01
+0.88
+(0.94, 1.20)
+(0.85, 1.03)
+(0.68, 0.84)
+(0.91, 1.11)
+(0.76, 1.03)
+Info exposure past week
+0.91†
+0.79‡
+0.85‡
+0.87‡
+0.97
+(0.83, 0.99)
+(0.73, 0.87)
+(0.77, 0.93)
+(0.79, 0.95)
+(0.85, 1.11)
+Info exposure appetite
+0.91‡
+0.98
+0.97
+0.95
+0.85‡
+(0.86, 0.97)
+(0.91, 1.04)
+(0.91, 1.04)
+(0.88, 1.03)
+(0.77, 0.94)
+Constant
+15.26‡
+10.54‡
+30.46‡
+1.19
+4.03‡
+(9.31, 25.01)
+(6.43, 17.29)
+(17.56, 52.82)
+(0.71, 1.99)
+(1.81, 8.96)
+Observations
+8,034
+10,681
+11,421
+9,730
+8,580
+Log Likelihood
+-4,384.11
+-5,944.37
+-6,307.37
+-4,791.49
+-3,241.70
+Akaike Inf. Crit.
+8,818.22
+11,938.74
+12,664.75
+9,632.97
+6,533.40
+*Significant at p<0.1; †Significant at p<0.05; ‡Significant at p<0.01
+Source: Authors’ calculations using the MIT-Facebook database
+VOL. 57 NO. 1 2023
+14
+COVID-19 Vaccine Hesitancy in ASEAN
+
+While vaccine hesitancy among women has been 
+observed in other countries such as France, Australia and 
+the US, this is still contrary to the global trend, where 
+men are more strongly linked to lower vaccine uptake.16-18 
+More investigation is needed to determine the root causes 
+for distrust among women. However, there is a possible 
+connection through women’s networks — and possibly 
+among mothers­ — as the growing global online anti-
+vaccine movement has been found to be composed mostly 
+of women.19 Communications campaigns for vaccine uptake 
+in these ASEAN countries must keep this gender difference 
+in mind, devising campaigns that specifically target women 
+since they appear to be at higher risk for vaccine hesitancy.
+Other significant determinants also highlight the 
+influence of effective communication and accurate news in 
+decreasing vaccine hesitancy. With increased trust in the 
+WHO while government health authorities were linked to 
+decreased vaccine hesitancy, it is imperative to reinforce trust 
+in these sources among the population to increase vaccine 
+acceptance. Since more exposure to COVID-19 information 
+was also linked to decreased vaccine hesitancy, it would be 
+beneficial to expand the reach and increase the frequency of 
+exposure to these trusted sources. 
+The content of COVID-19 vaccination communication 
+campaigns can also be streamlined around messages that 
+have been linked to decreased vaccine hesitancy. For instance, 
+in this study, it appears that communications campaigns to 
+promote mask wearing was effective in promoting positive 
+attitudes towards vaccination. Knowing a positive case 
+has also been linked to decreased hesitancy, which may be 
+attributed to an increased perceived risk of COVID-19 when 
+a close contact has been infected. Perceived risk has been 
+found to be a significant predictor of COVID-19 vaccination 
+intention.20-22 Accordingly, communicating the risk of 
+COVID-19 can be helpful in vaccination communication 
+efforts. In localized communication campaigns that may use 
+social media platforms, testimonies by community members 
+who have recovered from COVID-19 or have already been 
+vaccinated may be helpful in convincing more vaccinations.
+Conclusion
+It is critical to consider the following key strategic points 
+for engagement. First, during crisis, the national government 
+can bring together selected (trusted) media practitioners to 
+level off the basic science of pandemics so that reporting can 
+be accurate without unnecessarily editorializing the content, 
+which if done improperly, either makes public alarmed or 
+complacent. In addition, government listening posts should 
+be quick to address any budding misinformation circulating.  
+Understandably they cannot do this alone and must 
+work with the private sector and other health governance 
+stakeholders to help (e.g. academia, local civil society groups, 
+religious groups).
+Second, the government has to learn how to apply 
+marketing principles—better understanding consumer needs 
+to determine what level of information that the public will 
+need or demand. This is to fine tune information content and 
+delivery according to segmentation.   This also means that 
+government must embrace working with private sector more 
+closely during crisis periods.  This underscores trust-building 
+among stakeholders with government. Industry on the other 
+hand must consider their critical role at these times and be 
+called out to cooperate and not compete with each other.   
+The pharmaceutical industry and non-health sector industry 
+leaders have an implicit and tacit obligation to engage the 
+public and their organization employees to help strengthen 
+vaccine literacy.  They can do this whether the government 
+calls for it or not.
+Lastly, health scientists, while most trusted, may not 
+always agree on details of science and interpretation thereof.  
+They have an important duty to help non-scientists and 
+decision makers to appreciate how to make risk benefit 
+decisions.   Scientists can erode their reputational capital 
+when they argue in public—and notably in informal contexts 
+such as through social media—often poorly appreciating the 
+consequence of their actions.  The public can be confused with 
+evolving and inconsistent messaging of science.  Over time, 
+the public can lose trust in these experts, if the way they settle 
+differences in opinion and interpretation of evidence exposes 
+deep differences rather than broad and unified support for 
+certain health actions.
+Statement of Authorship
+All authors contributed equally in the conceptualization 
+of work, drafting and revising and approved the final version 
+submitted. Author Jurel Yap was primarily in charge of the 
+acquisition and statistical analysis of the data.
+Author Disclosure
+All authors declared no conflicts of interest.
+Funding Source
+The study has no funding support.
+Supplemental Data
+Appendix figures and tables are available upon request 
+from the corresponding author.
+ 
+REFERENCES
+1.	
+Schuster M, Eskola J, Duclos P, SAGE Working Group on Vaccine 
+Hesitancy. Review of vaccine hesitancy: Rationale, remit and methods. 
+Vaccine. 2015 Apr;33(34):4157-60. doi: 10.1016/j.vaccine.2015.04.035.
+2.	
+World Health Organization. Sage Working Group on Vaccine 
+Hesitancy Literature Review [Internet]. 2013 [cited 2021 May]. 
+Available from: https://www.who.int/immunization/sage/meetings/ 
+2013/april/2_Systematic-lit_Review.pdf?ua=1.
+3.	
+Khubchandani J, Sharma S, Price JH, Wiblishauser MJ, Sharma M, 
+Webb FJ. COVID-19 Vaccination Hesitancy in the United States: 
+VOL. 57 NO. 1 2023
+15
+COVID-19 Vaccine Hesitancy in ASEAN
+
+A Rapid National Assessment. J Community Health. 2021 Apr;46: 
+270-7. doi: 10.1007/s10900-020-00958-x.
+4.	
+Lazarus JV, Ratzan SC, Palayew A, Gostin LO, Larson HJ, Rabin 
+K, Kimball S et al. A global survey of potential acceptance of a 
+COVID-19 vaccine. Nat Med. 2020 Oct;27:225-228. doi: 10.1038/
+s41591-020-1124-9.
+5.	
+Lin Y, Hu Z, Zhao Q, Alias H, Danaee M, Wong LP. Understanding 
+COVID-19 vaccine demand and hesitancy: A nationwide online 
+survey in China. PLoS Negl Trop Dis. 2020 Dec;14(12). doi: 10.1371/
+journal.pntd.0008961.
+6.	
+Migriño Jr J, Gayados B, Birol RJ, De Jesus L, Lopez CW, Mercado 
+WC, et al. Factors affecting vaccine hesitancy among families with 
+children 2 years old and younger in two urban communities in 
+Manila, Philippines. Western Pac Surveill Response J. 2020 Jun;11(2): 
+20-6. doi: 10.5365/wpsar.2019.10.2.006.
+7.	
+Massachusetts Institute of Technology (MIT) and Facebook. 
+COVID-19 Preventive Health Survey Overview [Internet]. 2020 
+[cited 2021 May]. Available from: https://dataforgood.fb.com/wp-
+content/uploads/2020/07/COVID-19-Preventive-Health-Survey_
+Overview.pdf. 
+8.	
+Collis A, Garimella K, Moehring A, Rahiman MA, Babalola S, Gobat 
+N et al. Global Survey on COVID-19 Beliefs, Behaviors, and Norms. 
+MIT Sloan Institute of Management 2020 Nov. Available from: 
+https://osf.io/7r5sj. 
+9.	
+Tanner, K. Chapter 6 – Survey Designs. In: Williamson D, 
+Johanson G, eds. Research Methods, 2nd ed. Cambridge: Chandos 
+Publishing. pp. 159-92. doi: https://doi.org/10.1016/B978-0-08-
+102220-7.00006-6
+10.	
+MacDonald, NE, SAGE Working Group on Vaccine Hesitancy. 
+Vaccine Hesitancy: Definition, Scope and Determinants. Vaccine. 
+2015 Aug; 33(34):4161–64. doi: 10.1016/j.vaccine.2015.04.036.
+11.	
+Hosmer D, Stanely Lemeshow, Rodney Sturdivant. Application 
+of Logistic Regression in Different Sampling Models. In: Applied 
+Logistic Regression, 3rd ed. New Jersey: Wiley & Sons. pp. 227-35.
+12.	
+Rodrigues S, Natario I, Martins M. Logistic Regression Modelling 
+for Complex Survey Data with an Application to Bed Net Use in 
+Mozambique. Open Journal of Statistics. 2016 January; 6: 898-907. 
+doi: 10.4236/ojs.2016.65074. 
+13.	
+Rea L, Parker R. Designing and Conducting Survey Research: A 
+Comprehensive Guide, 1st ed. San Francisco: Jossey-Bass. pp. 163-177.
+14.	
+Center for Strategic and International Studies, Southeast Asia 
+COVID-19 Tracker 
+[Internet]. 
+2021 
+[cited 
+2021 
+March]. 
+Available  from:  https://www.csis.org/programs/southeast-asia-
+program/projects/southeast-asia-covid-19-tracker 
+15.	
+Dayrit M, Mendoza RU, Valenzuela SA. The importance of effective 
+risk communication and transparency: lessons from the dengue 
+vaccine controversy in the Philippines. J Public Health Policy. 
+2020 Sep;41(3):252-67. doi: 10.1057/s41271-020-00232-3.
+16.	
+Figueiredo AD, Simas C, Karafillakis E, Paterson P, Larson HJ. 
+Mapping Global Trends in Vaccine Confidence and Investigating 
+Barriers to Vaccine Uptake: A Large-Scale Retrospective Temporal 
+Modelling Study. Lancet. 2020 Sep;396(10255):898–908. doi: 
+10.1016/S0140-6736(20)31558-0.
+17.	
+Schwarzinger M, Watson V, Arwidson P, Alla F, Luchini S. COVID-19 
+vaccine hesitancy in a representative working-age population in 
+France: a survey experiment based on vaccine characteristics. Lancet 
+Public Health. 2021 Feb; 6(4):210-21. doi: 10.1016/S2468-2667(21) 
+00012-8.
+18.	
+Rhodes A, Hoq M, Measey M-A, Danchin M. Intention to vaccinate 
+against COVID-19 in Australia. Lancet Infect Dis. 2021 May;21(5). 
+doi: 10.1016/S1473-3099(20)30724-6.
+19.	
+Smith N, Graham T. Mapping the anti-vaccination movement on 
+Facebook.  Inf Commun Soc. 2017 Dec; 22(9):1310-27. doi: 10.1080/ 
+1369118X.2017.1418406.
+20.	
+Al-Qerem WA, Jarab AS. COVID-19 Vaccination Acceptance and 
+Its Associated Factors Among a Middle Eastern Population. Front 
+Public Health. 2021 2021;9. doi: 10.3389/fpubh.2021.632914.
+21.	
+Ward JK, Alleaume C, Peretti-Watel P. The French public's attitudes 
+to a future COVID-19 vaccine: the politicization of a public health 
+issue. Soc Sci Med. 2020 Oct; 265:113414. doi: 10.1016/j.socscimed. 
+2020.113414.
+22.	
+Wang J, Jing R, Lai X, Zhang H, Lyu Y, Knoll MD, et al. Acceptance 
+of COVID-19 Vaccination during the COVID-19 Pandemic in 
+China. Vaccine. 2020 July;8(3):482. doi: 10.3390/vaccines8030482.
+VOL. 57 NO. 1 2023
+16
+COVID-19 Vaccine Hesitancy in ASEAN

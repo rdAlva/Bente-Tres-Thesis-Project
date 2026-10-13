@@ -1,0 +1,826 @@
+Effect of a Brief Training Program on the
+Knowledge of Filipino Primary Care Providers in a
+Rural and a Remote Setting: a Before and After Study
+Julianne Keane M. Pascual, MD,1 Arianna Maever Loreche, MAS,2,3 Regine Ynez H. De Mesa,4
+Noleen Marie C. Fabian,4 Josephine T. Sanchez, RN,4 Janelle Micaela S. Panganiban,4 Mia P. Rey, PhD,5
+Carol Stephanie C. Tan-Lim, MD, MSc,6 Mark Anthony U. Javelosa,6 Ramon Pedro P. Paterno, MD, MPH,4
+Ray U. Casile,4 Leonila F. Dans, MD, MSc1 and Antonio L. Dans, MD, MSc7
+1Department of Pediatrics, Philippine General Hospital, University of the Philippines Manila, Manila, Philippines
+2National Clinical Trials and Translation Center, National Institutes of Health, University of the Philippines Manila, Manila, Philippines
+3Center for Research and Innovation, School of Medicine and Public Health, Ateneo de Manila University, Pasig City, Philippines
+4Center for Integrative and Development Studies, University of the Philippines Diliman, Quezon City, Philippines
+5Department of Accounting and Finance, Cesar E. A. Virata School of Business, University of the Philippines Diliman, Quezon City, Philippines
+6Department of Clinical Epidemiology, College of Medicine, University of the Philippines Manila, Manila, Philippines
+7College of Medicine, University of the Philippines Manila, Manila, Philippines
+ABSTRACT
+Background and Objective. Primary care providers are key players in providing quality care to patients and advancing 
+Universal Health Care (UHC). However, effective and quality healthcare delivery may be affected by inadequate 
+knowledge and failure to adhere to evidence-based guidelines among providers. The Philippine Primary Care Studies 
+(PPCS) is a five-year program that pilot tested interventions aimed at strengthening the primary care system in 
+the country. Evidence-based training modules for healthcare providers were administered in Sorsogon and Bataan 
+from the years 2018 to 2021. Module topics were selected based on common health conditions encountered by 
+providers in rural and remote settings. This program aimed to evaluate the effectiveness of training in increasing 
+provider knowledge.
+Methods. A series of training workshops were conducted among 184 remote- and 210 rural-based primary care 
+providers [nurses, midwives, barangay or village health workers (BHWs)]. They covered four modules: essential 
+intrapartum and newborn care (EINC), integrated management of childhood illness (IMCI), non-communicable 
+diseases (NCD), and geriatrics. A decision support system (UpToDate) was provided as a supplementary resource 
+for all participants. We administered pre-tests and post-tests consisting of multiple-choice questions on common 
+health conditions. Data was analyzed using paired one-tailed t-test, with an alpha of 0.05.
+ 
+Results. The knowledge of nurses, midwives, and BHWs 
+improved after the training workshops were conducted. 
+The largest increase from pre-test to post-test scores 
+were observed among the midwives, with a mean 
+difference (MD) of 32.9% (95% CI 23.9 to 41.9) on the 
+EINC module, MD of 25.0% (95% CI 16.6 to 33.4) in 
+the geriatrics module, and MD of 13.5% (95% CI 6.9 to 
+20.1) in the NCDs module. The nurses had the greatest 
+improvement in the IMCI module (MD 10.8%, 95% CI 
+2.5 to 19.1). The knowledge of BHWs improved in all 
+participated modules, with greatest improvement in the 
+NCD module (MD 9.0%, 95% CI 5.77 to 12.14).
+Conclusions. Primary care workshops, even if 
+conducted as single-sessions and on a short-term basis, 
+are effective in improving short-term knowledge of 
+providers. However, this may not translate to long-term 
+eISSN 2094-9278 (Online)
+Published: January 15, 2025
+https://doi.org/10.47895/amp.vi0.8869
+Copyright: The Author(s) 2025
+Corresponding author: Carol Stephanie C. Tan-Lim, MD, MSc
+Department of Clinical Epidemiology
+College of Medicine
+University of the Philippines Manila
+Pedro Gil St., Ermita, Manila 1000, Philippines
+Email: cctan7@up.edu.ph
+ORCiD: https://orcid.org/0000-0001-8815-4191
+VOL. 59 NO. 1 2025
+66
+ORIGINAL ARTICLE
+
+knowledge and application in practice. Furthermore, 
+comparisons across provider categories cannot be made 
+as participant composition for each training workshop 
+varied. Ultimately, this study shows enhancing provider 
+knowledge and competence in primary care will therefore 
+require regular and diverse learning interventions and 
+access to clinical decision support tools.
+Keywords: capacity building, clinical decision support tools, 
+health workforce, Philippines, primary care, UpToDate
+BACKGROUND
+Essential to quality care is the provision of evidence-
+based treatment plans and services that directly address a 
+patient’s underlying health conditions.1 Health provider 
+knowledge impacts the ability of a primary care system to 
+address the needs of patients at all points of care.2 More 
+importantly, knowledgeable primary care providers contribute 
+to advancing Universal Health Care (UHC) goals of providing 
+quality and affordable healthcare to all, especially among 
+those residing in rural and remote areas.3,4 In these areas, 
+providers encounter a variety of health conditions affecting all 
+life spans: newborn care issues, common childhood illnesses, 
+non-communicable diseases among adults, and geriatric 
+health issues. These aforementioned issues are addressed by 
+primary care. The implementation of UHC and provision of 
+primary care services, however, have been negatively affected 
+by the COVID-19 pandemic with increasing disparities in 
+access to quality care particularly in low- and middle-income 
+countries.5 
+Up-to-date clinical practice guidelines (CPGs) are cen-
+tral topics in traditional and blended educational interven-
+tions,6 and are critical in ensuring quality care is provided to 
+patients. CPGs give evidence-based directives to aid in the 
+delivery of standardized treatment plans. Despite their role 
+in improving healthcare delivery and processes,7-9 as few as 
+two in 10 health providers adhere to CPGs. Additionally, 
+providers receive limited support in enhancing their knowl-
+edge and skills on primary care in the Philippine setting.
+These issues emphasize the need for timely and adequate 
+learning interventions to ensure that provider knowledge is 
+optimal. 
+Continuous training among primary care providers 
+is critical in providing appropriate responses to medical 
+concerns.10 Effective interventions to improve knowledge 
+and service delivery processes include educational games,11 
+mobile health technologies,12 and peer education,13 which are 
+employed using traditional or blended learning approaches14. 
+Passive methods such as mass mailings were reported to have 
+less impact on knowledge compared to designs with interactive 
+features.15 However, unequal access to training opportunities 
+– especially in remote communities where funding is limited 
+and technological infrastructure is underdeveloped, affects 
+provider knowledge and consequently impacts the delivery 
+of quality primary care services.3,16-18 Clinical decision 
+support tools and online resources address this barrier by 
+providing an alternative to in-person trainings.19 
+Health systems need to allocate resources to provide 
+flexible and affordable avenues for learning, which are 
+integral to augmenting the quality of healthcare delivery. 
+Previous literature focused on evaluating the effectiveness 
+of training for physicians, physician assistants, and nurse 
+practitioners.20,21 There are limited studies that evaluate 
+knowledge improvement after training interventions for 
+providers with no medical qualifications or formal medical 
+training,22 including barangay or village health workers 
+(BHWs). In the Philippine health system, BHWs are 
+essential members of the health workforce and play crucial 
+roles in healthcare delivery.23 Research on the effectiveness of 
+training primary care providers, including BHWs, midwives, 
+and nurses, is therefore needed to explore how various 
+healthcare providers respond to educational interventions. 
+This is especially relevant as the Philippine health system 
+transitions towards UHC implementation. 
+The Philippine Primary Care Studies (PPCS) is a five-
+year program that aimed to strengthen the primary care 
+system in three pilot sites in the Philippines. The program 
+pilot tested interventions among patients and providers 
+to improve the primary care system, one of which was the 
+conduct of a series of training workshops on the management 
+of health conditions among nurses, midwives, and BHWs. 
+This paper aimed to evaluate the effectiveness of primary care 
+training on four educational modules in increasing provider 
+knowledge in rural and remote settings.
+METHODS
+Study Design
+PPCS pilot tested a series of interventions among 
+patients and health providers in remote, rural, and urban 
+communities in the Philippines. This paper utilized pre- and 
+post-training data collected from its rural and remote sites, 
+situated in Bulusan, Sorsogon and Samal, Bataan, respectively. 
+Data collection was conducted in both sites from November 
+2018 to May 2021. Training workshops on four modules were 
+conducted: essential intrapartum and newborn care (EINC), 
+integrated management of childhood illness (IMCI), non-
+communicable diseases (NCDs), and geriatrics. Additional 
+details for each specific workshop and materials used are 
+discussed in the Training Workshop subsection below. 
+Study Setting
+Samal has one rural health unit (RHU) managed by 
+a municipal health officer. There are also barangay health 
+stations in each of the 14 barangays and a three-bed capacity 
+maternity unit. As of 2019, four medical doctors, 16 nurses, 
+20 midwives, one medical technologist, and 100 BHWs cater 
+to the medical needs in the community. No private clinics 
+have been established in the site. Similarly, Bulusan has one 
+VOL. 59 NO. 1 2025
+67
+Effect of a Brief Training Program on the Knowledge of Filipino Primary Care Providers
+
+Table 1.	Summary of Information about the Primary Care Workshops Conducted from November 2018 to May 2021
+Training
+Date and duration
+No. of 
+facilitators
+Time allotted for content 
+development (in hours)
+Essential intrapartum and newborn 
+care (EINC)
+November 19-20, 2018
+8 to 5 PM
+4
+10 
+Integrated management of childhood 
+illness (IMCI)
+September 26-27, 2018
+8 to 5 PM
+5
+9 
+Non-communicable diseases (NCDs)
+July 15, 2019
+8 to 5 PM
+8
+2.5 
+Geriatrics
+April 27, 2021 for Samal; May 25, 2021 for Bulusan
+8 to 11:30 AM
+17
+1.5 
+RHU supervised by a municipal health officer-in-charge. 
+There are only six barangay health stations for a total of 24 
+barangays. As of 2019, they have three doctors, three nurses, 
+six midwives, one medical technologist, and 141 BHWs. A 
+total of three private practitioners specializing in orthopedics, 
+obstetrics, gynecology, and pediatrics hold clinics in the 
+municipality. 
+Study Participants 
+All primary care providers (physicians, nurses, midwives, 
+medical technologists, BHWs) from both sites were invited 
+to participate in the training workshops. Participants who 
+attended the entire training module and submitted both pre-
+and post-tests were included in our analyses. 
+Training Workshops
+The workshops were developed by physicians with 
+knowledge and clinical experience in the respective topics. 
+Training workshops on EINC, IMCI, NCDs, and geriatrics 
+were conducted from 2018 to 2021. Workshops for the 
+EINC module and IMCI module were conducted for two 
+consecutive days each, the NCD module was delivered as a 
+one-day training workshop, and the geriatrics module was 
+delivered as a half-day training workshop. All workshops 
+were conducted face to face. The workshops consisted of 
+didactic lectures followed by interactive sessions based on 
+prepared vignettes.
+A brief introduction to primary care was given before 
+the training proper. The pre-test was then administered, after 
+which discussions on clinical vignettes were carried out in 
+groups of 10-15 participants. Trained facilitators, selected 
+based on their experience and knowledge of healthcare 
+issues, guided participants in the group discussions. During 
+the training workshops, participants were encouraged 
+to use UpToDate – a mobile application that functions 
+as an online clinical encyclopedia and provides medical 
+information in English – and apply what they learned 
+in their case presentations for the geriatric and NCD 
+workshops. Participants were instructed to use the ’Patient’ 
+tab of UpToDate, which used fewer medical terms, to 
+better facilitate understanding. Post-tests were administered 
+immediately after each module. All clinical vignettes, 
+instructional materials, training curricula, and exams were 
+developed by credentialed health professionals and translated 
+into Filipino. Translators were selected based on their fluency 
+in both English and Filipino languages. A summary of the 
+training workshops with their description is provided in 
+Table 1.
+Data Collection
+Pre-tests and post-tests consisting of multiple-choice 
+questions were administered via pen and paper, in Filipino. 
+Conduct of tests were supervised by trained facilitators. The 
+maximum score (raw value) that could be obtained per test 
+were as follows: (a) EINC: 15, (b) IMCI: 13, (c) NCDs: 10, 
+and (d) Geriatrics: 10. The scores of the participants in the 
+pre-tests and post-tests were collected and analyzed for this 
+study. Informal feedback was obtained from the participants 
+through a self-administered feedback form asking about 
+comments and overall feedback about the sessions provided 
+after administration of the post-test.
+ 
+Data Analysis 
+Descriptive statistics were used to examine the pro-
+fessional background and sex of respondents. For each of the 
+training modules conducted, the scores in the pre- and post-
+tests were converted to percentages by dividing the number 
+of correct answers by the total number of items, multiplied by 
+a factor of 100. These were then averaged to obtain the mean 
+scores for each training by profession. Using STATA 15, we 
+compared pre- and post-test scores using a paired one-tailed 
+t-test with a level of significance of 0.05. The difference in 
+the mean change of knowledge was estimated at 95% con- 
+fidence level separately for nurses, midwives, and BHWs.
+Ethics Approval and Consent to Participate
+This study was approved by the University of the 
+Philippines Manila Research Ethics Board (UPMREB) 
+under study protocol code UPMREB 2015-489-01, as well 
+as the Single Joint Research Ethics Board (SJREB-2029-55). 
+The study was conducted in compliance with the rules of 
+these ethics boards and the Declaration of Helsinki. Verbal 
+and written informed consent were obtained from all 
+study participants.
+VOL. 59 NO. 1 2025
+68
+Effect of a Brief Training Program on the Knowledge of Filipino Primary Care Providers
+
+RESULTS 
+Characteristics of Participants 
+All 403 target participants attended a training workshop 
+and completed the pre- and post-tests. Because of the low 
+sample size of physicians (n=9) that would make forming 
+conclusions on the effectiveness of workshops difficult, we 
+excluded them from our analyses. Thus, only nurses, midwives, 
+and BHWs were included in this study. The flow diagram of 
+participants can be seen in Figure 1. There were no data points 
+excluded due to incomplete information.
+Of the 394 participants included in this study, more than 
+half were from the remote site (210/394 or 53%). Majority of 
+the participants were female (>93% for each of the training 
+modules). For the EINC module, majority of the participants 
+in the rural site were midwives (13/20, 65%) while majority 
+of the participants in the remote site were nurses (8/10, 80%). 
+For the IMCI, NCD, and geriatrics modules, majority of 
+the participants were BHWs for both rural and remote sites 
+(Table 2). All 394 participants are unique individuals, with 
+no crossover participants across modules.
+Effectiveness of Training Workshops
+Midwives had relatively low pre-test scores in the EINC 
+module, with an average of 55.6%. Both the midwives and 
+nurses had a marked improvement in their post-test scores. 
+There was a greater change in the pre- and post-test scores 
+of midwives (mean difference [MD]=32.9%, 95% confidence 
+interval [CI] 23.90 to 41.87) compared to the nurses 
+(MD=28.4%, 95% CI 17.96 to 38.93). No BHW attended the 
+EINC module. Overall, there was a significant improvement 
+in the knowledge of nurses and midwives after the EINC 
+training (p<0.01), as shown in Table 3. 
+In the IMCI module, the nurses and midwives had good 
+pre-test and post-test scores. In contrast, BHWs had relatively 
+low pre-test and post-test scores. The greatest improvement in 
+test scores was seen among nurses (MD=10.8%, 95% CI 2.48 
+to 19.05), while the smallest improvement was seen among 
+midwives (MD=4.6%, 95% CI -1.61 to 10.84). Overall, 
+there was an improvement in the health worker scores after 
+the IMCI training, with the difference reaching statistical 
+significance for nurses (p=0.02) and BHWs (p<0.01), as 
+shown in Table 4.
+For the NCD module, the nurses had relatively high 
+pre-test scores with a small increase after the workshop 
+(MD=4.7%, 95% CI -4.03 to 13.45). The midwives had the 
+greatest increase in scores after the training (MD=13.5%, 
+95% CI 6.88 to 20.08). The BHWs had the lowest average 
+pre-test scores, with significant improvement observed 
+after the training (MD=9.0%, 95% CI 5.77 to 12.14). The 
+improvement in knowledge after the NCD training was 
+statistically significant for midwives and BHWs (p<0.01), as 
+shown in Table 5.
+In the Geriatrics module, the nurses had good pre-
+test scores with even higher post-test scores. The midwives 
+showed the greatest improvement in test scores (MD=25.0%, 
+95% CI 16.57 to 33.43). The BHWs had the lowest average 
+pre-test scores, with improvement observed after the training 
+workshop (MD=8.3%, 95% CI 3.92 to 12.74). Overall, there 
+was a significant improvement in the knowledge of nurses, 
+midwives, and BHWs after the Geriatrics training (p<0.01), 
+as shown in Table 6. 
+Informal feedback obtained through the self-administered 
+feedback form yielded generally positive comments. Some 
+respondents expressed that the training workshops were 
+well-conducted and they enjoyed the learning experience. 
+Respondents also requested for future training workshops. 
+Some respondents commented that the audio was not so 
+good, while others requested for more time allotment for the 
+workshops to allow participants more preparation time for 
+the interactive sessions. 
+* Excluded participants were all physicians. This provider category’s 
+low sample sizes in each training module made forming conclusions of 
+workshop effectiveness difficult.
+Figure 1. Study inclusion-exclusion flow diagram.
+Target participants, n=403
+Included, n=394
+Excluded*, n=9
+Completed workshops; agreed to participate, n=403
+Remote, n=210
+Remote, n=5
+Rural, n=184
+Rural, n=4
+Table 2.	Distribution of Participants by Module and Profession (n=394)
+Workshop
+Site
+EINC (n, %)
+IMCI (n, %)
+NCD (n, %)
+Geriatrics (n, %)
+Rural
+(n=20)
+Remote
+(n=10)
+Rural
+(n=48)
+Remote
+(n=82)
+Rural
+(n=76)
+Remote
+(n=60)
+Rural
+(n=40)
+Remote
+(n=58)
+Nurses (n=58)
+7 (35.0)
+8 (80.0)
+8 (16.7)
+2 (2.4)
+9 (11.8)
+8 (13.3)
+7 (17.5)
+9 (15.5)
+Midwives (n=68)
+13 (65.0)
+2 (20.0)
+18 (37.5)
+2 (2.4)
+15 (19.7)
+8 (13.3)
+10 (25.0)
+0
+BHWs (n=268)
+0 
+0
+22 (45.8)
+78 (95.1)
+52 (68.4)
+44 (73.3)
+23 (57.5)
+49 (84.5)
+EINC – Essential Intrapartum and Newborn Care, IMCI – Integrated Management of Childhood Illness, NCD – Non-Communicable Diseases, BHW – 
+Barangay Health Worker
+VOL. 59 NO. 1 2025
+69
+Effect of a Brief Training Program on the Knowledge of Filipino Primary Care Providers
+
+DISCUSSION 
+Our study findings showed that training workshops 
+were generally effective in improving provider knowledge on 
+the four topics covered, namely, EINC, IMCI, NCDs, and 
+geriatrics. The midwives had the greatest improvement in the 
+modules on EINC (MD=32.9%, 95% CI 23.90 to 41.87), 
+NCD (MD=13.5%, 95% CI 6.88 to 20.08), and geriatrics 
+(MD=25.0%, 95% CI 16.57 to 33.43). The nurses had the 
+greatest improvement in the IMCI module (MD=10.8%, 95% 
+CI 2.48 to 19.05). The knowledge of BHWs also improved 
+across all training modules, although both pre- and post-test 
+scores were relatively low. These findings are consistent with 
+published research that show that even single-session and 
+short duration trainings can make modest and immediate 
+gains in knowledge.24 Additionally, our findings suggest 
+that more support is needed for providers without medical 
+qualifications such as BHWs, who are essential members of 
+the health system.23,25 This support may include providing 
+them medical information in lay terms and access to user-
+friendly digital technologies.25
+The quantitative change in knowledge may be affected 
+by participant baseline knowledge,26 and familiarity and 
+use of supplementary online tools such as UpToDate.27 In 
+our assessments, medical terminologies were not translated 
+into lay language. This may have affected baseline scores of 
+primary care providers who have less exposure to medical 
+education, such as BHWs who are voluntary health 
+workers in the communities.28 UpToDate was provided as 
+a supplementary resource for all participants in the NCD 
+and geriatrics modules, and participants were allowed to 
+access UpToDate during the assessments for these modules. 
+UpToDate may have been utilized more by participants who 
+were familiar in navigating online resources or using such 
+tools (i.e., nurses than midwives and BHWs).25 Support 
+for digital solutions, in addition to training on primary care 
+content and delivery, is necessary especially for BHWs in 
+rural and remote settings.3 
+Diverse learning methods for the health workforce, 
+including interactive methods and small-group learning, 
+have reported benefits including greater participation and 
+reach in rural or satellite locations.3 Our training workshops 
+were conducted with participation from a variety of health 
+providers who have worked together in some capacity or who 
+were familiar with each other. This encouraged participants to 
+actively engage in the sessions and improve their knowledge. 
+Providers’ attitudes towards such learning interventions 
+can be positively influenced by addressing their needs (e.g., 
+Table 6.	Effectiveness of Geriatrics Training Workshop (n=98)
+Participant
+Pre-test score, Mean (SD)
+Post-test score, Mean (SD)
+Mean Difference, (95% CI)
+p-value
+Nurses (n=16)
+79.4 (12.89)
+87.5 (12.91)
+8.1 (3.68, 12.57)
+<0.01
+Midwives (n=10)
+71.0 (12.87)
+96.0 (6.99)
+25.0 (16.57, 33.43)
+<0.01
+BHWs (n=72)
+66.5 (16.45)
+74.9 (17.52)
+8.3 (3.92, 12.74)
+<0.01
+SD – standard deviation, CI – confidence interval, BHW – Barangay Health Worker
+Table 5.	Effectiveness of NCD Training Workshop (n=136)
+Participant
+Pre-test score, Mean (SD)
+Post-test score, Mean (SD)
+Mean Difference, (95% CI)
+p-value
+Nurses (n=17)
+76.5 (9.96)
+81.2 (11.66)
+4.7 (-4.03, 13.45)
+0.27
+Midwives (n=23)
+68.3 (10.29)
+81.7 (8.34)
+13.5 (6.88. 20.08)
+<0.01
+BHWs (n=96)
+62.8 (15.34)
+71.8 (17.04)
+9.0 (5.77, 12.14)
+<0.01
+SD – standard deviation, CI – confidence interval, BHW – Barangay Health Worker
+Table 4.	Effectiveness of IMCI Training Workshop (n=130)
+Participant
+Pre-test score, Mean (SD)
+Post-test score, Mean (SD)
+Mean Difference, (95% CI)
+p-value
+Nurses (n=10)
+73.1 (6.54)
+83.8 (9.21)
+10.8 (2.48, 19.05)
+0.02
+Midwives (n=20)
+78.5 (11.86)
+83.1 (10.76)
+4.6 (-1.61, 10.84)
+0.14
+BHWs (n=100)
+57.8 (13.37)
+66.5 (12.63)
+8.8 (6.20, 11.34)
+<0.01
+SD – standard deviation, CI – confidence interval, BHW – Barangay Health Worker
+Table 3.	Effectiveness of EINC Training Workshop (n=30)
+Participant
+Pre-test score, Mean (SD)
+Post-test score, Mean (SD)
+Mean Difference, (95% CI)
+p-value
+Nurses (n=15)
+67.6 (17.79)
+96.0 (4.91)
+28.4 (17.96, 38.93)
+<0.01
+Midwives (n=15)
+55.6 (20.26)
+88.4 (9.58)
+32.9 (23.90, 41.87)
+<0.01
+SD – standard deviation, CI – confidence interval
+VOL. 59 NO. 1 2025
+70
+Effect of a Brief Training Program on the Knowledge of Filipino Primary Care Providers
+
+flexibility with schedules) and providing support through 
+their peers and digital resources.3 
+We found that even single-session and short-term 
+workshops are effective in increasing knowledge on primary 
+care; however, results of post-tests that are conducted 
+immediately after may be reflective of immediate effects and 
+may not predict long-term improvement in knowledge.29 
+Regardless of the learning approach employed – traditional, 
+online or blended – learning interventions and programs 
+that are brief may not lead to increased competence, more 
+effective service delivery, and better patient outcomes.30 
+Enhancing knowledge among primary care providers 
+therefore requires constant retraining and more sustainable 
+learning approaches.3,11,14,25,30 The decision on the frequency 
+of training workshops to promote both short-term and 
+long-term benefits is subject to multiple variables: economic 
+capacity, political will, availability of resource personnel, 
+and availability of participants. The introduction of hybrid 
+training modules can also play a role in the effective 
+implementation of workshops in the future. 
+In the interim, clinical decision support tools such 
+as UpToDate may be a potential resource for self-directed 
+learning, since it contains standardized evidence-based 
+guidelines and decision-making strategies. While such tools 
+have a role in promoting learning among allied medical 
+professionals, it must be noted, however, that UpToDate 
+information is largely based on Western practices.3,14,25,31 
+The availability of diagnostics and medications listed on the 
+application are not always applicable to the Filipino setting. 
+Accessibility to management recommendations listed is also a 
+concern especially in remote and resource-poor areas. 
+This study has several limitations. First, the sample size 
+of this study is small and findings may only be generalizable 
+to providers with similar characteristics to those included 
+in our study and from similar settings. We also could not 
+do subgroup analysis based on length of service due to the 
+small sample size. Second, UpToDate was only provided 
+and used in two out of the four training modules. While this 
+may have influenced the resulting test scores, examining the 
+potential effect of UpToDate use or any other confounder on 
+healthcare provider scores was outside the scope of the study. 
+Third, this study only measured short-term improvement in 
+knowledge given the brevity of the workshops, and the short 
+interval between trainings and assessments. We cannot make 
+conclusions about the effectiveness of training over time 
+because no follow-up data was collected from participants. 
+Furthermore, no comparisons across provider categories 
+could be made as participant composition for each training 
+workshop varied. The results of the few physicians who 
+attended the modules were also not included in this paper. 
+Pilot testing of the training workshops and assessment tools 
+were not done. No framework was used in designing the 
+assessment tools, and the assessment tools were not translated 
+to lay language, which may have affected the scores of 
+midwives and BHWs relative to nurses who received relevant 
+formal training on patient management. Lastly, qualitative 
+feedback was not formally collected and analyzed. 
+CONCLUSIONS 
+Primary care workshops, even if single-session and short-
+term, are effective in contributing to improved short-term 
+knowledge transfer among primary care providers in rural and 
+remote settings. However, this may not translate to long-term 
+knowledge and application in practice. Enhancing provider 
+knowledge and competence will therefore require regular and 
+diverse learning interventions and access to clinical decision 
+support tools such as UpToDate. Such tools may especially 
+be beneficial for providers in resource-limited settings, where 
+in-person training is not always feasible. Efforts to strengthen 
+the primary care system should be inclusive of BHWs and 
+responsive to their learning needs. This will ensure delivery 
+of quality and effective services, even in communities with 
+significant health workforce and physician maldistribution. 
+Acknowledgments
+The authors acknowledge the support of the healthcare 
+worker participants, the University of the Philippines Health 
+Service administration, and the local government units in 
+Samal and Bulusan. They also thank their field teams for their 
+work on this project. 
+Statement of Authorship
+All authors certified fulfillment of ICMJE authorship 
+criteria.
+Author Disclosure 
+All authors declared no conflicts of interest.
+Funding Source
+The authors received funding from the Philippine 
+Department of Health, University of the Philippines-Center 
+for Integrative and Development Studies (UP-CIDS), 
+Philippine Health Insurance Corporation (PhilHealth), 
+Emerging Interdisciplinary Research Program (EIDR), 
+Philippine Council for Health Research and Development 
+(PCHRD), and the National Academy of Science and 
+Technology (NAST) under the Department of Science and 
+Technology (DOST). 
+REFERENCES
+1.	
+Connor L, Dean J, McNett M, Tydings DM, Shrout A, Gorsuch PF, et 
+al. Evidence-based practice improves patient outcomes and healthcare 
+system return on investment: Findings from a scoping review. 
+Worldviews Evid Based Nurs. 2023 Feb;20(1):6-15. doi: 10.1111/
+wvn.12621. PMID: 36751881.
+2.	
+Galingana CLT, De Mesa RYH, Marfori JRA, Paterno RP, Rey MP, 
+Co EEA, et al. Setting core competencies of health workers towards 
+quality primary care: Proceedings of a national consultative workshop. 
+Acta Med Philipp. 2020 Oct 5. doi: 10.47895/amp.v54i0.2068. 
+VOL. 59 NO. 1 2025
+71
+Effect of a Brief Training Program on the Knowledge of Filipino Primary Care Providers
+
+3.	
+Jacob RR, Duggan K, Allen P, Erwin PC, Aisaka K, Yang SC, et al. 
+Preparing public health professionals to make evidence-based decisions: 
+a comparison of training delivery methods in the United States. 
+Front Public Health. 2018 Sep 13;6:257. doi: 10.3389/fpubh.2018. 
+00257. PMID: 30271767; PMCID: PMC6146213.
+4.	
+Department of Health. Implementing Rules and Regulations of the 
+Universal Health Care Act (Republic Act No. 11223) [Internet]. 2019 
+[cited 2023 Feb]. Available from: https://www.philhealth.gov.ph/
+about_us/UHC-IRR_Signed.pdf
+5.	
+Amit AML, Pepito VCF, Dayrit MM. Advancing Universal Health 
+Coverage in the Philippines through self-care interventions. Lancet 
+Reg Health West Pac. 2022 Sep 5;26:100579. doi: 10.1016/j.
+lanwpc.2022.100579. PMID: 36105555; PMCID: PMC9465409.
+6.	
+Miguel RTD, Silvestre MAA, Imperial MLS, Ho BLC, Dans 
+LF. Appraisal of the methodological quality of clinical practice 
+guidelines in the Philippines. Int J Health Plann Manage. 2019 
+Oct;34(4):e1723-e1735. doi: 10.1002/hpm.2886. PMID: 31433544.
+7.	
+Lugtenberg M, Burgers JS, Westert GP. Effects of evidence-based 
+clinical practice guidelines on quality of care: a systematic review. 
+Qual Saf Health Care. 2009 Oct;18(5):385-92. doi: 10.1136/
+qshc.2008.028043. PMID: 19812102.
+8.	
+Erasmus V, Daha TJ, Brug H, Richardus JH, Behrendt MD, Vos MC, 
+et al. Systematic review of studies on compliance with hand hygiene 
+guidelines in hospital care. Infect Control Hosp Epidemiol. 2010 
+Mar;31(3):283-94. doi: 10.1086/650451. PMID: 20088678.
+9.	
+Wetterneck TB, Pak MH. Using clinical practice guidelines to improve 
+patient care. WMJ. 2005 Apr;104(3):30-3. PMID: 15966629.
+10.	
+Fairall L, Bateman E, Cornick R, Faris G, Timmerman V, Folb N, et al. 
+Innovating to improve primary care in less developed countries: towards 
+a global model. BMJ Innov. 2015 Oct;1(4):196-203. doi: 10.1136/
+bmjinnov-2015-000045. PMID: 26692199; PMCID: PMC4680195.
+11.	
+Akl EA, Kairouz VF, Sackett KM, Erdley WS, Mustafa RA, Fiander M, 
+et al. Educational games for health professionals. Cochrane Database 
+Syst Rev. 2013 Mar 28;2013(3):CD006411. doi: 10.1002/14651858.
+CD006411.pub4. PMID: 23543543; PMCID: PMC7389433.
+12.	
+Free C, Phillips G, Watson L, Galli L, Felix L, Edwards P, et al. The 
+effectiveness of mobile-health technologies to improve health care 
+service delivery processes: a systematic review and meta-analysis. PLoS 
+Med. 2013;10(1):e1001363. doi: 10.1371/journal.pmed.1001363. 
+PMID: 23458994; PMCID: PMC3566926.
+13.	
+Charandabi SM, Vahidi R, Marions L, Wahlström R. Effect of a 
+peer-educational intervention on provider knowledge and reported 
+performance in family planning services: a cluster randomized trial. 
+BMC Med Educ. 2010 Feb 2;10:11. doi: 10.1186/1472-6920-10-11. 
+PMID: 20122176; PMCID: PMC2830222.
+14.	
+Mastellos N, Tran T, Dharmayat K, Cecil E, Lee HY, Wong CCP, et 
+al. Training community healthcare workers on the use of information 
+and communication technologies: a randomised controlled trial of 
+traditional versus blended learning in Malawi, Africa. BMC Med 
+Educ. 2018 Apr 2;18(1):61. doi: 10.1186/s12909-018-1175-5. PMID: 
+29609596; PMCID: PMC5879741.
+15.	
+Sasaki N, Yamaguchi N, Okumura A, Yoshida M, Sugawara H, Shin 
+JH, et al. Factors affecting the use of clinical practice guidelines by 
+hospital physicians: the interplay of IT infrastructure and physician 
+attitudes. Implement Sci. 2020 Nov 25;15(1):101. doi: 10.1186/
+s13012-020-01056-1. PMID: 33239076; PMCID: PMC7687727.
+16.	
+Yamashita T, Suplido SA, Llave C, Tuliao MTR, Tanaka Y, Matsuo 
+H. Understanding postpartum healthcare services and exploring the 
+challenges and motivations of maternal health service providers in the 
+Philippines: a qualitative study. Trop Med Health. 2015 Jun;43(2): 
+123-30. doi: 10.2149/tmh.2014-40. Epub 2015 Mar 14. PMID: 
+26161030; PMCID: PMC4491496.
+17.	
+World Health Organization. Retention of the health workforce in 
+rural and remote areas: a systematic review [Internet]. 2020 [cited 
+2022 Oct 23]. Available from: https://apps.who.int/iris/bitstream/
+handle/10665/337195/9789240013889-eng.pdf
+18.	
+Strasser R, Neusy AJ. Context counts: training health workers in 
+and for rural and remote areas. Bull World Health Organ. 2010 Oct 
+1;88(10):777-82. doi: 10.2471/BLT.09.072462. PMID: 20931063; 
+PMCID: PMC2947041.
+19.	
+Long LA, Pariyo G, Kallander K. Digital technologies for health 
+workforce development in low- and middle-income countries: a 
+scoping review. Glob Health Sci Pract. 2018 Oct 10;6(Suppl 1): 
+S41–48. doi: 10.9745/GHSP-D-18-00167. PMID: 30305338; 
+PMCID: PMC6203417.
+20.	
+Stoner SA, Mikko AT, Carpenter KM. Web-based training for 
+primary care providers on screening, brief intervention, and referral to 
+treatment (SBIRT) for alcohol, tobacco, and other drugs. J Subst Abuse 
+Treat. 2014 Nov-Dec;47(5):362-70. doi: 10.1016/j.jsat.2014.06.009. 
+PMID: 25115136; PMCID: PMC4196703.
+21.	
+Helitzer DL, Lanoue M, Wilson B, de Hernandez BU, Warner T, 
+Roter D. A randomized controlled trial of communication training 
+with primary care providers to improve patient-centeredness and 
+health risk communication. Patient Educ Couns. 2011 Jan;82(1): 
+21-9. doi: 10.1016/j.pec.2010.01.021. PMID: 20219315; PMCID: 
+PMC3539754.
+22.	
+Das J, Holla A, Das V, Mohanan M, Tabak D, Chan B. In urban 
+and rural India, a standardized patient study showed low levels of 
+provider training and huge quality gaps. Health Aff (Millwood). 
+2012 Dec;31(12):2774-84. doi: 10.1377/hlthaff.2011.1356. PMID: 
+23213162; PMCID: PMC3730274.
+23.	
+Mallari E, Lasco G, Sayman DJ, Amit AML, Balabanova D, McKee 
+M, et al. Connecting communities to primary care: a qualitative 
+study on the roles, motivations and lived experiences of community 
+health workers in the Philippines. BMC Health Serv Res. 2020 Sep 
+11;20(1):860. doi: 10.1186/s12913-020-05699-0. PMID: 32917203; 
+PMCID: PMC7488850. 
+24.	
+Novak I, McIntyre S. The effect of education with workplace 
+supports on practitioners' evidence-based practice knowledge and 
+implementation behaviours. Aust Occup Ther J. 2010 Dec;57(6): 
+386-93. doi: 10.1111/j.1440-1630.2010.00861.x. PMID: 21091704.
+25.	
+Huang W, Long H, Li J, Tao S, Zheng P, Tang S, et al. Delivery of 
+public health services by community health workers (CHWs) in 
+primary health care settings in China: a systematic review (1996-
+2016). Glob Health Res Policy. 2018 Jun 6;3:18. doi: 10.1186/s41256-
+018-0072-0. PMID: 29992191; PMCID: PMC5989355.
+26.	
+Labeau SO, Rello J, Dimopoulos G, Lipman J, Sarikaya A, Oztürk 
+C, et al. The value of e-learning for the prevention of healthcare-
+associated infections. Infect Control Hosp Epidemiol. 2016 
+Sep;37(9):1052-9. doi: 10.1017/ice.2016.107. PMID: 27174463.
+27.	
+Ozdalga E, Ozdalga A, Ahuja N. The smartphone in medicine: a 
+review of current and potential use among physicians and students. J 
+Med Internet Res. 2012 Sep 27;14(5):e128. doi: 10.2196/jmir.1994. 
+PMID: 23017375; PMCID: PMC3510747.
+28.	
+Ugolini D, Casanova G, Ceppi M, Mattei F, Neri M. Familiarity 
+of physicians, translational researchers, nurses, and other health 
+professionals with evidence-based medicine terms and resources. J 
+Cancer Educ. 2014 Sep;29(3):514-21. doi: 10.1007/s13187-014-
+0631-0. PMID: 24585401.
+29.	
+Murugesan N, Shobana R, Snehalatha C, Kapur A, Ramachandran A. 
+Immediate impact of a diabetes training programme for primary care 
+physicians--an endeavour for national capacity building for diabetes 
+management in India. Diabetes Res Clin Pract. 2009 Jan;83(1): 
+140-4. doi: 10.1016/j.diabres.2008.11.005. PMID: 19095326.
+30.	
+Valenstein-Mah H, Greer N, McKenzie L, Hansen L, Strom TQ, 
+Wiltsey Stirman S, et al. Effectiveness of training methods for delivery 
+of evidence-based psychotherapies: a systematic review. Implement 
+Sci. 2020 May 27;15(1):40. doi: 10.1186/s13012-020-00998-w. 
+PMID: 32460866; PMCID: PMC7251851.
+31.	
+Isaac T, Zheng J, Jha A. Use of UpToDate and outcomes in US 
+hospitals. J Hosp Med. 2012 Feb;7(2):85-90. doi: 10.1002/jhm.944. 
+PMID: 22095750.
+VOL. 59 NO. 1 2025
+72
+Effect of a Brief Training Program on the Knowledge of Filipino Primary Care Providers

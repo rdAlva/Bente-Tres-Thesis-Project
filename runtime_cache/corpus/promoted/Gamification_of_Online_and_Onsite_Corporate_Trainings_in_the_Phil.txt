@@ -1,0 +1,450 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Business Insights Laboratory for Development 
+(BUILD) 
+John Gokongwei School of Management 
+(JGSOM) Research Centers 
+2026 
+Gamification of Online and Onsite Corporate Trainings in the 
+Gamification of Online and Onsite Corporate Trainings in the 
+Philippines 
+Philippines 
+Jyro B. Triviño 
+Kylie Rayne S. Cai 
+Jan Angeli G. Cane 
+Clarissa Marie R. Fernandez 
+Faith D. Goli Cruz 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/build 
+ Part of the Organizational Behavior and Theory Commons, Performance Management Commons, and 
+the Technology and Innovation Commons 
+
+Authors 
+Authors 
+Jyro B. Triviño, Kylie Rayne S. Cai, Jan Angeli G. Cane, Clarissa Marie R. Fernandez, Faith D. Goli Cruz, and 
+Kleid L. Pedraja 
+
+Gamiﬁcation of Online and Onsite Corporate 
+Trainings in the Philippines 
+Jyro B. Triviñoenvelope symbol, Kylie Rayne S. Cai, Jan Angeli G. Cane, 
+Clarissa Marie R. Fernandez, Faith D. Goli Cruz, and Kleid L. Pedraja 
+John Gokongwei School of Management, Ateneo de Manila University, Quezon, Philippines 
+jtrivino@ateneo.edu 
+Abstract. This study examined Filipino corporate trainers’ views on the effec-
+tiveness of gamiﬁcation in onsite and online training. Using Clark and Braun’s 
+thematic analysis, eight trainers shared their insights into its impact on engage-
+ment, motivation, and reinforcement. Results showed gamiﬁcation can boost par-
+ticipation and structure learning, but its success depends on deliberate integration 
+of game elements and digital tools. This varied slightly between modalities, espe-
+cially when involving inductive and deductive assessments. Trainers emphasized 
+the importance of incorporating interactive activities, providing feedback, enhanc-
+ing competition, and offering rewards to strengthen engagement. The study also 
+identiﬁed the complementary beneﬁts of online and onsite training when combined 
+with gamiﬁcation techniques in a human-computer interaction setup. However, a 
+strategic approach is crucial when aligning gamiﬁcation with learning objectives. 
+Keywords: Corporate training cdot Gamiﬁcation cdot Human-computer interaction 
+1 
+Background of the Study 
+Organizations are continually exploring various online and onsite training strategies 
+to enhance workforce skills and performance [9]. One approach is through gamiﬁca-
+tion, which involves incorporating game design elements such as rewards, rankings, 
+and achievements into training programs [10]. It has become increasingly prevalent in 
+contributing to employee engagement and knowledge retention [22]. However, while 
+widely adopted, gamiﬁcation remains a strategy that has yet to be fully explored and 
+developed. 
+Corporate training in the Philippines has continued to utilize both on-site and online 
+training methods, even after the COVID-19 pandemic. This study examined how Filipino 
+corporate trainers perceive the effectiveness of gamiﬁcation in training programs. It also 
+explored the challenges and opportunities that corporate trainers face when integrating 
+and scaling gamiﬁcation strategies, as well as how emerging technologies, particularly 
+artiﬁcial intelligence, can contribute to these strategies and assess their adaptability 
+within a corporate training landscape.
+© The Author(s) 2026 
+X. Yang et al. (Eds.): ICICT 2026, LNNS 2029, pp. 1–10, 2026. 
+https://doi.org/10.1007/978-3-032-28964-3_1 
+
+2
+J.B. Triviño et al.
+2 
+Review of Related Literature 
+2.1 
+Corporate Training and Gamiﬁcation 
+Digital change presents both opportunities and challenges for corporate trainers, necessi-
+tating enhanced communication, reﬁned instructional design methodologies, and align-
+ment with employees’ preferred learning styles [25]. The trend toward corporate e-
+learning is emphasized as a means of increasing worker productivity and ﬂexibility, 
+supporting a well-rounded plan that combines online and traditional training method-
+ologies [9]. A crucial area is virtual onboarding, where ensuring a smooth transition into 
+corporate culture depends on effective communication, the formation of digital work 
+connections, and the availability of appropriate tools [26]. 
+Artiﬁcial intelligence (AI) is particularly revolutionizing corporate digital transfor-
+mation by enhancing learning and development through personalized training, AI-driven 
+coaching, and immersive technologies, while also optimizing human resource functions 
+[16]. AI-powered corporate training aligns with Industry 4.0 standards by incorporat-
+ing ethical principles such as accountability, privacy, and equity while leveraging sys-
+tems theory, psychology, and economics to enhance training effectiveness and human-
+centered learning [3, 7]. Despite these training improvements, virtual learning still faces 
+challenges with participation and teamwork, which can be mitigated by incorporating 
+structured interactions and emotional intelligence components [24]. The application of 
+virtual training enhances performance and creativity among employees [1]. 
+Gamiﬁcation incorporates game elements into corporate training programs and other 
+learning and development interventions, boosting engagement that further strengthens 
+learner motivation by providing feedback on small achievements, which helps keep 
+professionals focused on their training goals [18]. It enhances training effectiveness 
+by leveraging technologies such as AI, which can personalize learning, create adaptive 
+environments, and improve employee performance [10]. Despite these outcomes, gaps 
+remain in exploring the long-term effectiveness of virtual training, as many evaluations 
+focus on immediate learning gains rather than overall behavioral changes and business 
+improvements [19]. 
+The integration of game-like elements engages employees, leading to improved 
+learning outcomes through emerging methods that incorporate gamiﬁcation into train-
+ing programs [20, 22]. Common elements used in this design process include leader-
+boards, rewards, narratives, and personalization, which have become increasingly preva-
+lent in redesigning educational and corporate onsite training to increase participation 
+[6, 22]. This method has gained traction with advancements in technology, creating 
+an immersive learning environment in a dynamic business setting [10]. Rapid digital-
+ization requires trainers to adopt new approaches, particularly through visualization 
+techniques, to enhance efﬁciency in skills training, as the current technology-driven 
+workplace demands [23, 26]. 
+2.2 
+Training Impact and Employee Development 
+Effective corporate design integrates various methodologies and perspectives from train-
+ers to enhance employee development and performance [4]. Implementing pedagogi-
+cal interventions effectively enhances employees’ emotional intelligence, highlighting
+
+Gamiﬁcation of Online and Onsite Corporate Trainings
+3
+its crucial role in enabling better teamwork and adaptability [14]. Connecting diverse 
+people across departments and communities involves cooperative learning [20]. There-
+fore, trainers should stay updated as they facilitate cross-departmental collaboration and 
+knowledge sharing [15, 17]. 
+Given the direct impact of structured training programs on an organization’s progress, 
+training initiatives help employees reﬁne their skills and behaviors, creating a more 
+productive work environment [8, 12]. Training contributes to corporate entrepreneurship 
+by enhancing employees’ strategic decision-making skills and promoting innovation in 
+business models and processes, thereby enabling them to remain competitive in the 
+market [11]. In this regard, on-the-job training is crucial for developing employees’ 
+technical and managerial skills, allowing them to learn by performing key tasks, develop 
+expertise under supervision, and acquire interpersonal and problem-solving skills for 
+effective workplace performance [11, 13]. 
+Meanwhile, advancements in digital tools and AI-powered systems further enhance 
+the impact of training, as AI-generated negative performance feedback can positively 
+affect employee motivation and improve performance more effectively than human-
+delivered feedback [21]. Learning management systems can provide structured feedback 
+that helps improve goal setting and learning outcomes in corporate training [8]. 
+2.3 
+Synthesis 
+A knowledge gap in corporate digital training and gamiﬁcation stems from limited inter-
+disciplinary integration, as current research lacks insights from the theoretical underpin-
+nings of psychology, education, and ethics. While gamiﬁcation strategies are expected to 
+enhance corporate training, ﬁndings highlight the short-term beneﬁts that limit the under-
+standing of how these strategies inﬂuence employee engagement, motivation, and knowl-
+edge retention [8]. Understanding how gamiﬁcation strategies can integrate into existing 
+training systems may help maximize their potential and overcome resistance to change. 
+Technological developments can serve as potential learning scaffolds for many organi-
+zations. The effectiveness and adaptability of technology-integrated gamiﬁcation strate-
+gies in training, alongside conventional gamiﬁcation methods, remain underexplored, 
+particularly from the perspective of corporate trainers based in the Philippines. 
+3 
+Framework of the Study
+Fig. 1. Conceptual Framework of Filipino Corporate Trainers’ Perspectives on Effective Training 
+Programs. 
+
+4
+J.B. Triviño et al.
+Fig. 1 presents the variables using the Input-Process-Output model. Training Modal-
+ity as an input captures the training delivery format options. It is the ﬁrst element that 
+inﬂuences the decision on which appropriate methodology to implement. When a train-
+ing program is delivered in any of these modalities, each offers different advantages and 
+constraints for the corporate trainers. However, this only sets the initial conditions for 
+effective learning experiences. Training Design, which encompasses two complemen-
+tary themes, presents itself as the transformation of the modality into practice. Training 
+Effectiveness as an output is the result of the transformation, whether learner engagement, 
+motivation, and reinforcement occurred. 
+3.1 
+Propositions of the Study 
+1. Integrating technology and gamiﬁcation enhances the adaptability of corporate train-
+ing programs across both on-site and online modalities by creating more engaging 
+and compelling learning experiences. 
+2. Integrating game-like elements into corporate training programs can signiﬁcantly 
+enhance individual employee engagement and motivation, especially when combined 
+with different training methodologies. 
+3. A well-rounded training plan that integrates technology-supplemented gamiﬁed 
+activities fosters team engagement and social interaction in corporate learning 
+environments. 
+4 
+Methodology 
+The study was conducted with eight Filipino corporate trainers through recorded Zoom 
+video calls. Each individual in-depth interview lasted no more than 45 min. The chosen 
+respondents have utilized gamiﬁcation strategies in their programs and possess relevant 
+experience in both onsite and online training modalities. 
+This study employed a descriptive and exploratory approach. For the descriptive 
+aspect, the study describes the experiences, perspectives, and insights of Filipino corpo-
+rate trainers regarding the use of gamiﬁcation and technology in both onsite and online 
+training modalities. It seeks to understand how they perceive the impact of these elements 
+on various aspects of employee development. Furthermore, given the evolving nature 
+of digital transformation in corporate learning and the growing focus on gamiﬁcation 
+within the corporate training industry, this exploratory study examines the nuances and 
+complexities of these phenomena from the perspectives of Filipino corporate trainers. It 
+seeks to uncover patterns, preferences, challenges, and even functional practices in the 
+Philippine setting. 
+The research instrument used for this study is a structured interview consisting of four 
+parts. Questions revolved around the participants’ experiences with onsite and online 
+training programs, the role of technology and gamiﬁcation in corporate training, and their 
+perceived impact on employee engagement, motivation, and learning reinforcement. 
+Given this, the study uses thematic analysis patterned from Braun and Clarke (2022), 
+which involves an organic and comprehensive process: ﬁrst familiarizing with the inter-
+view data by highlighting relevant keywords and quotations, then identifying codes
+
+Gamiﬁcation of Online and Onsite Corporate Trainings
+5
+that were subsequently reviewed and collated into potential themes that meaning-based 
+interpretative themes, rather than predetermined topic summaries, based on the gathered 
+qualitative data from the interviews. Thematic analysis was employed over other types 
+of qualitative data analysis to allow for ﬂexibility in identifying patterns across the data 
+while maintaining the depth of trainers’ perspectives. 
+5 
+Discussion of Results 
+The study validated that gamiﬁcation, supported by digital tools, has created more engag-
+ing and adaptable learning experiences. As supported by the corporate trainers, they 
+observed higher participation when interactive elements were consistently integrated. 
+Corporate Trainer 8 expressed, “When I am able to make the program interactive and 
+enjoyable, I notice that there’s a higher level of participation and completion rate.” 
+Such responses highlight how the use of technology in modern gamiﬁcation offers new 
+heights of opportunities for gauging participation and performance. The same corpo-
+rate trainer emphasized, “because of technology and digitalization, training progress 
+can now be more easily monitored and personalized.” Corporate Trainer 2 speciﬁcally 
+brought up the tools they often use like “Mentimeter, Kahoot, and Google Slides”  at  the  
+same time emphasizing that, for them, “breakout rooms in Zoom are very critical”  for  
+encouraging group collaboration via online engagement. This sentiment extends across 
+modalities, providing the convenience of remote learning, with Corporate Trainer 8 not-
+ing that “digitalization has had a great inﬂuence positively on how I design my training 
+programs for on-site training.” This demonstrates that gamiﬁcation augmented by tech-
+nology crosses the boundary between online and onsite learning to create more effective 
+and productive learning environments in both contexts.
+Beyond implementation considerations, the study identiﬁed advantages unique with 
+what technology-integrated gamiﬁcation offers. Corporate Trainer 8 quotes that when 
+“participants can receive instant feedback, it helps them assess their progress and adjust 
+accordingly.” Rather than positioning online and onsite training as opposing approaches, 
+determining which is better than the other, the ﬁndings suggest that they offer comple-
+mentary beneﬁts that can be combined. Corporate Trainer 5 expressed that “there are 
+pros and cons to both. And deciding on which mode to use depends on the client objective, 
+as well as the learning objective.” They further noted, “nowadays, it seems there’s no 
+limit to what you can do really in training, whether it’s on site or online, because of these 
+technology advancements and digital integration.” Given that, for future developments, 
+participants showed enthusiasm for emerging technologies, with Corporate Trainer 8 
+predicting “a strong shift towards highly personalized learning…with AI adapting the 
+content and the assessment just to ﬁt the individual needs.” They also look forward to 
+the possibility of how “virtual (VR) and augmented reality (AR)” will “revolutionize 
+experiential learning.” This encourages corporate trainers and organizations to contin-
+ually evolve and invest in their training programs to achieve better corporate learning 
+outcomes. Hence, with the growing importance of technology in corporate training, it 
+not only shapes how programs are delivered but also inﬂuences the tools and strategies 
+that trainers utilize.
+
+6
+J.B. Triviño et al.
+Building on this, the study identiﬁed the speciﬁc game-like elements that can foster 
+both engagement and motivation among employees. Indeed, the integration of competi-
+tive, game-like features goes beyond entertainment purposes, as it can signiﬁcantly inﬂu-
+ence and enhance the learning experience as well. One of the most common approaches 
+of corporate trainers involves the use of point systems and prizes, whether in online or 
+onsite training. Corporate Trainer 2 explained, “I usually use point systems [onsite]…for 
+example there’s an activity and usually the organizations would have sponsorship on 
+prizes. So deﬁnitely we need to craft points for those things so that at least they’re moti-
+vated to enjoy the activity.” Similarly, Corporate Trainer 7 highlighted the importance 
+of incentives, stating that “…the game-like elements that are most effective [online] 
+would be incentives,” which can include virtual rewards. These ﬁndings reveal how such 
+reward systems can sustain employee interest and participation throughout a training 
+program. However, it is important to note that the impact of these strategies was found 
+to be often limited to the period of the training itself, as Corporate Trainer 4 pointed out, 
+“I’m not involved in the post-program already,” which brings about questions regard-
+ing their long-term impact on employee behavior and development once the program 
+is ﬁnished. In addition to points and prizes, elements such as leaderboards and compe-
+tition were also noted for their role in driving employee motivation and performance. 
+As Corporate Trainer 8 observed, “…this helps me reinforce positive behavior and it 
+keeps the motivation levels high…it adds a competitive element, so it drives the par-
+ticipants to perform better.” The effectiveness of these game-like elements, however, 
+seemingly depends on how well and purposefully they are integrated into the overall 
+training design—combined with other methodologies or strategies. Corporate Trainer 5 
+speciﬁcally emphasized this point, stating that gamiﬁcation is “good to grab attention 
+and to keep attention, but whether or not it can deepen the learning, I think it should be 
+coupled with other strategies.” The same corporate trainer also expressed apprehension 
+about “how gamiﬁcation should be used for more in-depth learning rather than surface 
+attention-grabbing objectives.” Therefore, when designing effective training programs, 
+it is essential for corporate trainers to avoid focusing exclusively on gamiﬁcation strate-
+gies and, as Corporate Trainer 4 noted, ensure that they “have a good mix of different 
+methodologies that ﬁt.” 
+These methodologies require a well-structured approach to training and development 
+plans. A primary consideration to this includes assessments that must cohesively tie 
+to the gamiﬁed experience of participants, regardless of modality. Corporate Trainer 
+7 states, “I would consider it as a structured learning experience…one activity and 
+then there’s a processing after. And then relating that activity to the bigger concept.” 
+Processing activities ensure safeguards that check for understanding. These assessments 
+of learning manifest in two distinct ways: through deductive and inductive learning. 
+Deductive learning is crucial for information delivered explicitly by trainers. Interview 
+6 mentions, “So right now, for us to know [if they understood a topic], we add some 
+small assessments, short assessments, just for the topic adjustment.” 
+Meanwhile, inductive learning ensures that participants organically absorb the 
+intended learnings from sessions, as mentioned also by Corporate Trainer 6: “…the 
+meat of most of my activities are done in group works. So, whether it be on site or online, 
+they work on case studies, they share personal experiences.” Employing these different
+
+Gamiﬁcation of Online and Onsite Corporate Trainings
+7
+assessments helps ensure training plans are deliberately well-rounded. As such, training 
+sessions with cohesive training structures do contribute to positive team engagement. In 
+the study, two major group types were distinguished: one for homogenous groups whose 
+participants come from the same company, and the other a more heterogeneous mix of 
+participants coming from multiple institutions. For heterogeneous groups, it was noted 
+that learning should capitalize on the knowledge already acquired by the participants. 
+Corporate Trainer 2 exclaims, “…we believe that the knowledge is within the partici-
+pant, and we need to draw out that knowledge so that at least they will be aware of it.” 
+Corporate Trainer 1 supports this claim, saying that, “[The activity] has to be familiar 
+to them..it can’t be overly complicated.” 
+Meanwhile, for homogeneous groups, it is crucial to leverage adjacent parts of the 
+training management cycle. It is crucial to ﬁnd opportunities to tailor training sessions 
+to their organizational context. Corporate Trainer 8 shares, “I would recommend orga-
+nizations to start as usual by assessing the speciﬁc needs of their particular workforce, 
+and the type of training that will best suit those needs.” Apart from training needs, it is 
+also crucial to consider the post-session effectiveness of the training, as mentioned by 
+Corporate Trainer 7: “I ask them to have an accountability buddy who they will share 
+their commitments with.” and that “The last one would be action planning because 
+unfortunately in training sessions it’s just a one-off session, so after that I will no longer 
+have visibility on whether they change their learning behaviors.” Measures such as 
+using accountability buddies and action planning segments leverage the homogeneity 
+of the group. All in all, these ﬁndings suggest that gamiﬁcation plays a crucial role in 
+encouraging active employee participation in both onsite and online training settings. 
+6 
+Recommendations 
+With Corporate Trainer 8’s observation that “when participants are able to receive 
+instant feedback, it helps them assess their progress and adjust accordingly,” corporate 
+trainers should immediately and consistently use quick polls and verbal feedback in 
+both online and onsite training to improve self-awareness of their progress and increase 
+information retention. Furthermore, Corporate Trainer 2 speciﬁcally emphasized that 
+these “breakout rooms in Zoom are very critical” for encouraging group collaboration 
+via online engagement. Hence, within the next month, corporate trainers who conduct 
+online training programs via platforms like Zoom or Microsoft Teams should maximize 
+the use of breakout rooms, with clear tasks and reporting mechanisms to foster peer 
+learning and enhance engagement in the virtual environment. Within the next one (1) to 
+three (3) months, corporate trainers should integrate interactive gamiﬁcation elements, 
+particularly readily available digital tools like Mentimenter, Kahoot, and Google Slides, 
+into existing training modules to boost engagement and provide immediate feedback 
+on understanding, aiming for higher participation and completion rates—as Corporate 
+Trainer 8 expressed, “When I am able to make the program interactive and enjoyable, 
+I notice that there’s a higher level of participation and completion rate,” and Corporate 
+Trainer 2 mentioned using “Mentimeter, Kahoot, and Google Slides.” Lastly, Corporate 
+Trainer 2 explained using “point systems [onsite]…so that at least they’re motivated 
+to enjoy the activity,” and Corporate Trainer 7 highlighted that “…the game-like ele-
+ments that are most effective would be incentives.” Corporate Trainer 8 also noted that
+
+8
+J.B. Triviño et al.
+competition “drives the participants to perform better.” Therefore, corporate trainers 
+and organizations’ HR departments should design and pilot a system within two (2) 
+months to acknowledge participation and achievement with low-cost rewards, such as 
+public acknowledgement, digital badges, or small company-branded items, increasing 
+motivation and engagement throughout the training program and fostering a competitive 
+yet collaborative learning environment. 
+It is recommended that corporate trainers employ a well-structured, gamiﬁed learning 
+framework that combines online and onsite training methodologies, given how Corpo-
+rate Trainer 4 emphasized that “Training programs must have a good mix of differ-
+ent methodologies…” This strategy should carefully align speciﬁc workforce learning 
+objectives and performance evaluations with game elements such as leaderboards, point 
+systems, and incentives complemented with onsite methodologies such as team building 
+and collaborative activities like role playing for better learning outcomes. This should 
+be implemented within six (6) to twelve (12) months, with the assistance of instruc-
+tional designers, digital platforms, and systematic post-training follow-up mechanisms. 
+According to the corporate trainers interviewed, this type of integration promotes infor-
+mation retention, motivation, and employee engagement in a variety of ways, especially 
+when gamiﬁcation is purposefully planned and supported by collaborative exercises. 
+Acknowledgments. The researchers would like to acknowledge Ateneo de Manila University for 
+its support in the conference presentation and publication of this research. 
+References 
+1. Aldulaimi, S., Abdeldayem, M., Yas, Q.: The evaluation of virtual training and employee 
+effectiveness: a case study from Babco. Glob. Sci. J.S. 10(5), 2309–2324 (2022) 
+2. Al-Zoubi, M.O., Masa’deh, R., Twaissi, N.M.: Exploring the relationship among structured-
+on-the job training, mentoring, job rotation, work environment factors and tacit knowledge 
+transfer. VINE J. Inf. Knowl. Manag. Syst. 55(1), 24–267 (2022) 
+3. Bapat, O.J., Prakash, C., Paliwal, M.: Usage of gen AI in employee training and development: 
+a human resources development perspective. Hum. Resour. Manag. Age Gener. AI, 103–131 
+(2025) 
+4. Bezrukova, K., Spell, C., Perry, J.: Organizational diversity training programs. Curr. Opin. 
+Psychol. 60, 101907 (2024) 
+5. Braun, V., Clarke, V.: Toward good practice in thematic analysis: avoiding common problems 
+and be(com)ing a knowing researcher. Int. J. Transgender Health. 24(1), 1–6 (2022) 
+6. Byundyugova, T., Babikova, A., Kornienko, E.: Visualization in the context of motivation 
+development within the framework of corporate training. Int. J. Media Inf. Lit. 8(1), 4–13 
+(2023) 
+7. Chen, Z.: Responsible AI in organizational training: applications, implications, and recom-
+mendations for future development. Hum. Resour. Dev. Rev. 23(4), 498–521 (2024) 
+8. Duan, L. et al.: The inﬂuence of feedback on employees’ goal setting and performance in 
+online corporate training: a moderation effect. Inf. Learn. Sci. 124(11/12), 442–459 (2023) 
+9. Gabelaia, I., Bucovetchi, O.: The relevance of corporate e-learning/e-training for job devel-
+opment: crafting culture and evolving yourself. eLearning and software for. Education. 1, 
+491–498 (2020)
+
+Gamiﬁcation of Online and Onsite Corporate Trainings
+9
+10. Getman, A.P., Yaroshenko, O.M., Demenko, O.І., Lutsenko, О.Y., Prokopiev, R.Y.: Gamiﬁca-
+tion for staff motivation: impact on work efﬁciency and corporate culture at the international 
+level. J. Econ. Manag. 46, 274–299 (2024) 
+11. González-Tejero, C.B., Molina, C.M.: Training, corporate culture and organizational work 
+models for the development of corporate entrepreneurship in SMEs. J. Enterprising Commu-
+nities: People Places Glob. Econ. 16(1), 168–188 (2022) 
+12. Ismael, N.B. et al.: The role of training and development on organizational effectiveness. Int. 
+J. Eng. Bus. Manag. 5(3), 15–24 (2021) 
+13. Kalli, N.K.A., Abba, N.Y.B., Bukar, N.A.G.: An assessment of the effect of training and 
+development on employee performance: a review perspective. World J. Adv. Res. Rev. 18(2), 
+258–270 (2023) 
+14. Matulčíková, M., Breveníková, D., Vaľko, M., Gawrych, R., Procházka, D.A.: Strategies for 
+pedagogical interventions to develop emotional intelligence (EI) of employees in a hybrid 
+work schedule. Emerg. Sci. J. 8(5), 2073–2090 (2024) 
+15. Ofstad, B., Bartel-Radic, A.: Cooperative learning through boundary spanning: how a corpo-
+rate learning department ensures that trainers and content stay current. M@n@gement. 27(4) 
+(2024) 
+16. Pavitra, K.H., Agnihotri, A.: Artiﬁcial intelligence in corporate learning and development: 
+current trends and future possibilities. Second. Int. Conf. Smart Technol. Smart Nation 
+(SmartTechCon). 2023, 688–693 (2023) 
+17. Rybnikova, I., Weigel, A.: The effectiveness of corporate diversity training from the trainers’ 
+perspective: results of a qualitative study in Germany. Equal. Divers. Incl. Int. J. 43(8), 1259– 
+1275 (2024) 
+18. Santos, S.A., Trevisan, L.N., Veloso, E.F.R., Treff, M.A.: Gamiﬁcation in training and devel-
+opment processes: perception on effectiveness and results. Rev. Gestão. 28(2), 133–146 
+(2021) 
+19. Strojny, P., Dużmańska-Misiarczyk, N.: Measuring the effectiveness of virtual training: a 
+systematic review. Comput. Educ.: X R.ity. 2, 100006 (2023) 
+20. Triviño, J.B.: Role of human resources in memorable customer experience. SN Bus. Econ. 4, 
+(16) (2024) 
+21. Wang, G., Long, L., Li, S., Sun, F., Wang, J., Huang, S.: A comparative study on human or 
+AI delivering negative performance feedback inﬂuencing employees’ motivation to improve 
+performance. Acta Psychol. Sin. 57(2), 298–314 (2025) 
+22. Wang, Y., Hsu, Y., Fang, K.: The key elements of gamiﬁcation in corporate training – the 
+Delphi method. Entertain. Comput. 40, 100463 (2021) 
+23. Warren, S.J., Churchill, C., Hayes, A.: A service-based measurement model for determining 
+disruptive workforce training technology value: return on investment calculations and exam-
+ple. In: Delello, J.A., McWhorter, R.R. (eds.) Advances In Business Information Systems And 
+Analytics, pp. 206–231 (2024) 
+24. Wavre, S.P., Kuknor, S.: Enhancing effectiveness of online training program through 
+assessment of participant engagement index. Dev. Learn. Organ.: Int. J. 38(1), 4–8 (2024) 
+25. Wintersberg, L., Pittich, D.: Digital transformation of corporate technical education and 
+training – a case study on instructional designers’ perceptions. Vocat. Learn. 18(3) (2025) 
+26. Yarbrough, J.W., Ramos Salazar, L.: Virtual onboarding and socialization, an exploration of 
+employee discussions and experiences. Corp. Commun. Int. J. 28(5), 707–723 (2023)
+
+10
+J.B. Triviño et al.
+Open Access This chapter is licensed under the terms of the Creative Commons Attribution-
+NonCommercial-NoDerivatives 4.0 International License (http://creativecommons.org/licenses/ 
+by-nc-nd/4.0/), which permits any noncommercial use, sharing, distribution and reproduction in 
+any medium or format, as long as you give appropriate credit to the original author(s) and the 
+source, provide a link to the Creative Commons license and indicate if you modiﬁed the licensed 
+material. You do not have permission under this license to share adapted material derived from 
+this chapter or parts of it. 
+The images or other third party material in this chapter are included in the chapter’s Creative 
+Commons license, unless indicated otherwise in a credit line to the material. If material is not 
+included in the chapter’s Creative Commons license and your intended use is not permitted by 
+statutory regulation or exceeds the permitted use, you will need to obtain permission directly from 
+the copyright holder.

@@ -1,0 +1,55 @@
+Rafael Allan D. Alvarado 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   July 7, 2025 
+CS-302  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6IMSOFTENG 
+ 
+Answer the following questions concisely and supported with details (using at least 5 sentences). Use the 
+given rubric as your guide. Each answer is worth 5 points.  
+1. After watching the video, summarize the major ethical concerns surrounding Artificial 
+Intelligence (AI). 
+The three main ethical concerns surrounding Artificial Intelligence (AI) are the potential misuse 
+of AI, limited access to AI development, and AI’s lack of shared human values. We must ensure 
+that the AI we create benefits people and consider how this technology might have a negative 
+impact on us. Because running AI requires high resources, big companies control our access to 
+this data, restricting how AI will be used in the future. AI will perform tasks as instructed, but it is 
+a machine that does not share our values and could take misguided actions. This raises ethical 
+questions about the risks AI could pose to us. 
+ 
+2. Select one ethical concern discussed in the video and do one of the following: 
+• 
+Share a personal experience that relates to this issue. 
+or  
+• 
+If you haven’t encountered it personally, explain how you can avoid or address such 
+ethical challenges when using or developing AI technologies. 
+ 
+I haven’t faced the ethical concerns discussed in the video. I will ensure that any AI I develop 
+benefits or helps people. I plan to thoroughly research how this technology might be misused so I 
+can prevent it. Since AI is advancing rapidly, it’s difficult to predict all the ways good AI could be 
+misused. That’s why, as computer science students, it’s our responsibility to help reduce or 
+prevent misuse. 
+ 
+ 
+ 
+ 
+ 
+Reference 
+MaRS Discovery District. (2019, April 9). The three big ethical concerns with artificial 
+intelligence [Video]. YouTube. https://www.youtube.com/watch?v=1LyacmzB1Og 
+ 

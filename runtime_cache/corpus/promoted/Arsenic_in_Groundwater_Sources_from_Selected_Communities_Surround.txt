@@ -1,0 +1,863 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+3-15-2022 
+Arsenic in Groundwater Sources from Selected Communities 
+Arsenic in Groundwater Sources from Selected Communities 
+Surrounding Taal Volcano, Philippines: An Exploratory Study 
+Surrounding Taal Volcano, Philippines: An Exploratory Study 
+Geminn Louis C. Apostol 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, gapostol@ateneo.edu 
+Sary Valenzuela 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University 
+Xerxes Seposo 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Public Health Commons, and the Water Resource Management Commons 
+Custom Citation 
+Custom Citation 
+Apostol, G. L. C., Valenzuela, S., & Seposo, X. (2022). Arsenic in groundwater sources from selected 
+communities surrounding Taal Volcano, Philippines: An exploratory study. Earth, 3(1), 448–459. 
+https://doi.org/10.3390/earth3010027 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+
+
+Citation: Apostol, G.L.C.; Valenzuela,
+S.; Seposo, X. Arsenic in Groundwater
+Sources from Selected Communities
+Surrounding Taal Volcano, Philippines:
+An Exploratory Study. Earth 2022, 3,
+448–459. https://doi.org/10.3390/
+earth3010027
+Academic Editor: Laura Bulgariu
+Received: 10 February 2022
+Accepted: 14 March 2022
+Published: 15 March 2022
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright:
+© 2022 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+Article
+Arsenic in Groundwater Sources from Selected Communities
+Surrounding Taal Volcano, Philippines: An Exploratory Study
+Geminn Louis C. Apostol 1,*
+, Sary Valenzuela 1
+and Xerxes Seposo 1,2
+1
+School of Medicine and Public Health, Ateneo de Manila University, Don Eugenio Lopez Sr. Medical
+Complex, Ortigas Ave, Pasig 1604, Philippines; saryvalenzuela@yahoo.com (S.V.);
+seposo.xerxestesoro@nagasaki-u.ac.jp (X.S.)
+2
+School of Tropical Medicine and Global Health, Nagasaki University, 1-12-4 Sakamoto,
+Nagasaki 852-8102, Japan
+*
+Correspondence: gapostol@ateneo.edu; Tel.: +63-02-531-4151
+Abstract: Arsenic (As) is a highly toxic, carcinogenic trace metal that can potentially contaminate
+groundwater sources in volcanic regions. This study provides the ﬁrst comparative documentation
+of As concentrations in groundwater in a volcano-sedimentary region in the Philippines. Matched,
+repeated As measurements and physico-chemical analyses were performed in 26 individual wells
+from 11 municipalities and city in Batangas province from July 2020 to November 2021. Using the
+electrothermal atomic absorption spectrometric method, analysis of the wells revealed that in 2020, 23
+out of 26 (88.46%) had As levels above the WHO limit of >10 ppb while 20 out of 26 wells (76.92%) had
+persistently high As levels a year later. Using a Wilcoxon signed-rank test, levels of As were found to
+be statistically elevated compared to the national safe limit of 10 pbb in the 26 matched sampling
+sites in both 2020 (p-value < 0.001) and 2021 (p-value = 0.013). Additionally, a two-paired Wilcoxon
+signed-rank test revealed that As levels were statistically higher in 2020 than in 2021 (p-value = 0.003),
+suggesting that As levels may be higher in years when there is more volcanic activity; however, this
+remains to be further elucidated with suitable longitudinal data, as this study is still in its preliminary
+stages. The data was also analyzed using a bivariable regression, which showed no evidence of a
+signiﬁcant relationship between As levels and distance from the danger zone (Taal volcano crater);
+however, results showed an inverse but statistically insigniﬁcant relationship between As levels
+and elevation. Due to the toxic proﬁle and persistence of As in groundwater in Batangas Province,
+continuous groundwater As monitoring, timely public health risk communication, and the provision
+of alternative water sources to affected populations are recommended.
+Keywords: Taal volcano; arsenic; groundwater; aquifer
+1. Introduction
+Arsenic (As) is a naturally-occurring trace element that is well distributed in the earth’s
+crust, and as such, may be present in the soil, water, air, and even in living organisms at
+variable concentrations [1–3]. Humans may be exposed to high levels of As through several
+pathways: through contaminated air, food, water, and soil. However, drinking water from
+contaminated groundwater sources is the most common cause for As poisoning and is
+therefore a cause of greater public health concern compared to other exposure pathways [4].
+The acceptable limit of As in drinking water is established as 0.010 mg/L (10 ppb) [5].
+As-contaminated water, even at high concentrations, shows no apparent change in taste,
+odor, or appearance and may go undetected without chemical tests and analysis [4]. This
+poses a major public health concern, as the failure to conduct routine screening or extensive
+monitoring of groundwater sources in regions at risk for high levels of As can lead to long-
+term consumption, unbeknownst to the population [6]. Chronic exposure to the metalloid,
+for months or even years, is needed to build up in the body before symptoms manifest.
+Health impacts may vary amongst individuals depending on the amount ingested, the
+Earth 2022, 3, 448–459. https://doi.org/10.3390/earth3010027
+https://www.mdpi.com/journal/earth
+
+Earth 2022, 3
+449
+duration of exposure, immunity, and genetics, but manifestations may show signs of acute
+or chronic toxicity, ranging from the development of dark spots on the skin (arsenicosis)
+from as early as six months, and over time, to cancer in the skin and other internal organs
+secondary to prolonged exposure [1,3,7].
+Cases of As poisoning from contaminated groundwater sources are widely reported
+worldwide, including in the Philippines [1,2,8]. One of the largest incidences of As poison-
+ing from contaminated groundwater was documented in Bangladesh [9], affecting more
+than 70 million people. In the Philippines, an index case of a patient admitted for chronic
+As exposure in Lubao, Pampanga in 2014 prompted immediate water quality assessments,
+revealing groundwater samples containing As levels of as much as 300 ppb due to both
+industrial and geologic contaminants [10]. Data validation from ﬁve barangays in the same
+city showed 215 cases of suspected arsenicosis documented from 2010 to 2014, and further
+interviews revealed 69 respiratory, 47 neurological, and 98 dermatologic incidences of
+symptoms in 123 interviewed residents from the same and neighboring municipalities [10].
+Similar case studies of dermatologic symptoms and squamous cell carcinoma due to As
+toxicity were also reported in the Southern Luzon and Southern Mindanao regions of the
+country [11–13].
+As contamination of groundwater sources is the result of a complex combination of
+natural geochemical processes exacerbated by manmade pollution [3,7]. Water contami-
+nation may occur as a result of anthropogenic processes such as mining, improper waste
+disposal, pesticides, fertilizer use, industrial processes such as smelting, and the burning
+of fossil fuels, and their environmental impacts may be felt for decades [1,8,10]. In fact, a
+study in Hungary demonstrated that improperly disposed liquid waste can continue to
+accumulate and contaminate groundwater even several decades after the elimination of
+pollution sources [14]. It is, however, suggested that the extensive, regional extent of As in
+groundwater in arid to semi-arid countries such as the Philippines is likely to be largely
+accounted for by the mobilization of geological sources [7].
+Volcanism, in particular, is postulated to be one of the major drivers of As mobilization
+into groundwater sources [9,15]. Toxic levels of As have been found in groundwater
+near volcanic regions all over the world, including Central Italy [16,17], wells fed by the
+Tahlab aquifer in Iran [18], groundwater from thermal springs all around Latin America [6],
+and the deep groundwater of a volcano-sedimentary region in north-central Mexico [19].
+Deteriorating conditions in these waters, along with optimal pH, temperature, and solution
+compositions, favor the solubilization of geogenic As into water [1,8].
+On the 12 January 2020, Taal Volcano, located in Southwest Luzon in the Philippines,
+erupted for the ﬁrst time since 1977, greatly impacting the livelihood and health of the
+people in Batangas Province and nearby regions [20]. This index volcanic event, which
+was followed by continuous volcanic activity throughout 2020, prompted an investigation
+into the quality of groundwater sources in communities surrounding the volcano. To
+date, there are very few studies on levels of As in groundwater near volcanic areas in the
+Philippines. This study provides the ﬁrst comparative documentation of As concentrations
+in groundwater in a volcano-sedimentary region in the Philippines and whether there
+is a signiﬁcant change in As levels after a considerable amount of time. It also aims to
+investigate the relation of As levels with elevation and distance from Taal Volcano. Through
+the use of both quantitative and qualitative measures, this study contributes to the growing
+literature on the extent of known public health risks in volcanic regions in arid-to-semi-arid
+countries and provides information on water quality and safety in the Philippines.
+2. Materials and Methods
+2.1. Study Area
+Batangas Province, located in Southwest Luzon in the Philippines, has a total land
+area of 3119.75 km2 and is subdivided into six administrative districts. Its 30 municipalities
+and 4 cities are further subdivided into 1078 smaller political units called barangays. As
+
+Earth 2022, 3
+450
+of 2020, the province has a reported population of 2,908,494 and a population density of
+934 persons/km2 [21].
+Geographically, the province is a combination of plains and mountains, notably Taal
+Volcano, with an elevation of 600 m (2000 ft). Taal Volcano is one of the most active volcanoes
+on earth. It is surrounded by Taal lake and sits on the Macolod Corridor, an active fault
+system and volcanic area [22]. A magnetotelluric survey previously characterized an active
+large-scale hydrothermal system located beneath the volcano [23]. The main crater, with a
+diameter of 2 km, is ﬁlled with volcanic ﬂuids and meteoric water from its hydrothermal
+system, as well as seawater from the South China Sea [22,24]. There is the presence of
+seawater, volcanic water, and Taal Lake water in the main crater lake and spring discharges
+in the province suggest a relationship or connection between the volcanic hydrothermal
+system, the lake, and the groundwater aquifer in Batangas Province [22,25,26].
+Batangas province sits on a regional, deep, and conﬁned groundwater aquifer; pockets
+of unconﬁned and shallow groundwater aquifers also abound inland and some even
+extend toward the province’s coastal borders. The recharging of the aquifer largely relies
+on rainfall, which collects into watersheds and then percolates into the soil [27,28]. The
+provincial groundwater aquifer almost exclusively feeds the majority of the point sources
+of drinking water in the province (Figure 1). The top point sources include own-use
+faucets (54.9%), bottled water (15.4%), and shared-use faucets (8.86%)—all of which are
+supplied by local water districts and village waterworks (Level 3 water sources) that pump
+groundwater from the main provincial aquifer [21]. Recent groundwater assessments by the
+local government in 2019 also showed that point source (Level 1) deep (>25 m) and shallow
+wells (<25 m)—also fed by the provincial aquifer—likewise remain a signiﬁcant source
+of drinking water for households, private business owners, and public establishments
+in Batangas province [27,29]. Though groundwater supply is currently sufﬁcient for the
+demand, a continued reliance on groundwater extraction may prove to be unsustainable in
+the long run due to rising urban development and the destruction of watersheds [27].
+Figure 1. Point sources of drinking water supply in Batangas Province.
+2.2. Proﬁle of Sample Wells
+In this study, 26 individual wells were sampled in 2020 and 2021. The majority (69.23%)
+of the wells were classiﬁed as Level 1 or point water sources, which includes deep wells
+(n = 13, 50%), shallow wells (n = 4, 15.38%), and one protected spring (3.85%). The rest of the
+samples (n = 8, 30.77%) were collected from wells classiﬁed as Level 3 waterworks systems,
+operated by municipal and barangay water districts, which supply multiple households.
+Limited interviews with residents living within 20 m of the wells included in the study
+showed that the households tend to use water from these sources for domestic purposes,
+i.e., for cooking, washing food and non-food items, bathing, laundry, and other domestic
+
+Earth 2022, 3
+451
+functions. Fourteen wells (53.85%) were identiﬁed as sources of drinking water based on
+the limited interviews conducted. Several wells (n = 6, 23.08%) were in low-lying areas
+(<20 m above sea level) and the majority of the wells are rarely submerged in ﬂoodwaters
+during the rainy season.
+2.3. Water Sampling Method
+Water samples were extracted from both public and privately-owned handpumps and
+faucets, herein referred to as wells. Due to mobility restrictions brought on by the COVID-19
+pandemic and upon the recommendation and approval of local leaders and stakeholders,
+convenience sampling was performed in order to identify the wells to be tested across
+11 municipalities and 1 city in Batangas province within the 7 km, 10 km, and 14 km
+danger zones from the crater of Taal Volcano [30–33]. These danger zone classiﬁcations
+are used by the Philippine Institute for Volcanology and Seismology (PHIVOLCS) and
+the United Nations Ofﬁce for the Coordination of Human Affairs (UN-OCHA) to guide
+risk management initiatives and emergency responses during volcanic eruptions. Among
+the 26 wells sampled, 5, 8, and 7 wells belonged to the 7 km, 10 km, and 14 km danger
+zones, respectively. The rest (n = 6) were found beyond 14 km from the Taal Volcano crater.
+The ﬁrst set of measurements were conducted from July to August 2020, and repeated
+measurements were conducted in November 2021.
+The operating standards of the Philippine National Standards for Drinking Water 2017
+were followed during water sampling collection and analysis. Proper personal protective
+equipment (i.e., face masks and gloves) were used to prevent the contamination of samples.
+Prior to sampling, faucet taps, and pumps were visually inspected for rust, dirt, or other
+contaminants. The outlets were then turned on or pumped for 2–3 min to ﬂush out service
+lines. Disinfection was then performed by ﬂaming the solution of sodium hypochlorite
+that was applied to the faucet/outlet, which was then turned on for another 2–3 min.
+Afterward, water samples were collected in clean PET bottles, labeled accordingly, and
+placed in an icebox to preserve the samples for same-day transport and analysis at the
+National Reference Laboratory in Metro Manila. Approximately 10 mL of sample was
+passed through a 0.4 µm syringe ﬁlter and stored in 15 mL polypropylene centrifuge tubes
+for analysis.
+The total levels of As in the water samples were measured via the electrothermal
+atomic absorption spectrometric method using the GTA120 Graphite Tube Atomizer from
+Agilent Technologies [34]. Analysis was achieved by dispensing a small volume of sample
+into a graphite tube, which was then heated until the sample was dried, charred, and
+atomized. The vapor produced absorbs the monochromatic radiation from a light source,
+and a photoelectric detector measures the intensity of transmitted radiation. Data from
+the graphite furnace AAS was analyzed using the SpectrAA software [34]. Both an initial
+calibration method and a continuous calibration method were performed throughout the
+analysis, while a quality assurance check at 50 ppb ± 10% was performed every 15 samples.
+The method detection limit for total As was 0.9 ppb. The electrometric method was used
+to measure pH, the visual comparison method to measure color, and the Nephelometric
+method to measure turbidity.
+The geographic coordinates of the sampling points were also recorded and then mapped
+using the R statistical package “ggmap”. Figure 2, below, shows the 26 matched, geocoded
+sampling sites in 2020 and 2021, classified according to the 7 km, 10 km, and 14 km danger
+zones set by the PHIVOLCS and the UN-OCHA. Most of the locations are located within
+these volcanic site danger zones, with a few of them being more distant. Estimated elevations
+ranged from 8.4–178 m above sea level, with a median elevation of 53.2 m.
+
+Earth 2022, 3
+452
+Figure 2. Geocoded sampling sites (26 matched locations).
+2.4. Statistical Analyses
+We employed various statistical techniques using the program R statistical program-
+ming version 4.1.2 (1 November 2021) to elucidate the aforementioned research inquiries.
+Due to the non-normal distribution of the As level measurements, we utilized a Wilcoxon
+signed-rank test to test whether the As levels in 2020 and 2021 were statistically different
+from the national (maximum) standard of 10 ppb [35]. We also carried out paired two-
+sample Wilcoxon signed-rank tests using the same 26 locations, to determine whether there
+was a difference between the As levels measured in 2020 compared to those of 2021.
+We further implemented a bivariable regression to examine whether well parameters
+(such as distance and elevation) from the Taal volcano are associated with the observed
+As levels. In brief, we transformed the non-normal As level measurements to the log form
+as an attempt to normalize the distribution of the observations. We then subsequently
+implemented Equation (1):
+log (Y) ~ covariate + e
+(1)
+where log(Y) is the log-transformed As measurement (in ppb) and covariate represents
+either the distance (in kilometers; km) from the volcanic site or the location’s elevation (in
+meters; m) from sea level. We adjusted the said covariates one at a time in the model. e is
+the error term. A p-value < 0.05 was used to determine statistical signiﬁcance. All statistical
+analyses were implemented using R statistical programming.
+3. Results and Discussion
+3.1. Levels of As and Other Relevant Physico-Chemical Parameters
+The number of wells with measured As levels > 10 ppb in each municipality are
+indicated in Table 1 and visualized in Figure 3. In 2020, 23 of the 26 wells tested (88.46%)
+were found to have As levels > 10 ppb, the highest being 77 ppb in a well located in a
+municipality 7 km away from the Taal volcano. In 2021, 20 of the 26 wells tested (76.92%)
+
+Earth 2022, 3
+453
+were found to have As levels > 10 ppb, the highest being 46 ppb and from the same well
+in the same municipality. There were 20 wells in 2021 that had persistently high As levels
+above 10 ppb in between the two sampling periods (Figure 4). Two wells with previously
+elevated As levels in 2020 had levels below 10 ppb in 2021.
+Table 1. Proﬁle and As levels of study wells in selected municipalities surrounding Taal volcano,
+2020 vs. 2021.
+Code
+Location of
+Sampled Well *
+Dist. from
+Mt. Taal
+(In km)
+Est.
+Elevation
+(In m)
+Type of
+Source
+Used for
+Drinking?
+2020 As
+Levels
+(In ppb) **
+2021 As
+Levels
+(In ppb) **
+A
+Banyaga, Agoncillo
+5
+38.4
+Waterworks
+Yes
+4.7
+1.2
+B
+Bilibinwang
+Agoncillo
+5
+60.7
+Deep well
+Yes
+1.2
+0.27
+C
+Buso-buso, Laurel
+6
+113.3
+Shallow well
+No
+14
+8.4
+D
+Bugaan East, Laurel
+7
+11.5
+Shallow well
+No
+11
+2.6
+E
+San Sebastian, Balete
+7
+23.9
+Deep well
+No
+77
+20
+F
+San Sebastian, Balete
+8
+23.9
+Waterworks
+Yes
+20
+46
+G
+Looc, Balete
+10
+34.9
+Waterworks
+Yes
+27
+16
+H
+Sampaloc, Talisay
+10
+38.5
+Prot. spring
+No
+3.2
+2.2
+I
+Abelo, San Nicolas
+10
+21.3
+Waterworks
+Yes
+39
+28
+J
+Poblacion, San
+Nicolas
+10
+17.9
+Deep well
+No
+27
+28
+K
+Abelo, San Nicolas
+10
+21.3
+Deep well
+No
+44
+33
+L
+Balukbaluk, Sn
+Nicolas
+10
+23.5
+Waterworks
+Yes
+21
+20
+M
+Balete, San Nicolas
+11
+23.8
+Waterworks
+Yes
+16
+13
+N
+Kinalaglagan, MnK
+10
+53.2
+Shallow well
+No
+16
+13
+O
+Lumang Lipa, MnK
+11
+160
+Deep well
+Yes
+13
+10
+P
+Poblacion W,
+Alitagtag
+14
+178.8
+Deep well
+No
+16
+11
+Q
+Burol, Sta. Teresita
+13
+84
+Waterworks
+Yes
+21
+15
+R
+Cahilan, Lemery
+14
+36.9
+Deep well
+Yes
+12
+12
+S
+Sinisian, Lemery
+18
+16.7
+Deep well
+No
+12
+16
+T
+Butong, Taal
+18
+10.6
+Deep well
+Yes
+12
+12
+U
+Butong, Taal
+18
+10.6
+Deep well
+No
+43
+44
+V
+Bolbok, Taal
+27
+122.5
+Waterworks
+Yes
+14
+11
+W
+Ambulong, Tanauan
+12
+8.6
+Deep well
+No
+28
+14
+X
+Sulpoc, Tanauan
+16
+267
+Deep well
+Yes
+18
+11
+Y
+Pagaspas, Tanauan
+19
+140.4
+Deep well
+Yes
+15
+15
+Z
+Balete, Tanuan
+12
+137.1
+Deep well
+No
+10
+6.6
+* Exact locations of sampling sites were anonymized in compliance with the Philippine Data Privacy Act of 2012.
+** Wells with As levels 10 ppb and higher are highlighted in red.
+In terms of other physico-chemical parameters, water from the sample wells was
+found to be clear, colorless, and odorless overall. The median pH of groundwater samples
+was determined to be 7.48 (range: 7.04–7.99) in 2020 and 7.475 (range: 7.02–7.97) in 2021,
+thus slightly basic, though still within the national standard range of 6.5 to 8.5. At higher
+pH, the active adsorption or binding sites for As compounds, such as the minerals in the
+aquifer, tend to be occupied more by the hydroxyl (OH-) molecule from water, neutralizing
+these sites. This favors the mobilization of As oxyanions into the aqueous phase, increasing
+the concentration of As in groundwater [36]. Dry, arid conditions in the region may also
+further increase As concentrations (through evaporation and/or desorption due to the
+relatively high pH of groundwater sources found under these conditions). Lastly, the
+increasing compaction of clay layers into the aquifer, either by natural means or as a result
+of groundwater over-extraction, may also have caused As-rich porewater to be introduced
+to the aqueous layer [37,38].
+
+Earth 2022, 3
+454
+Figure 3. Comparative graph of As levels in study well surrounding Taal volcano, 2020 vs. 2021.
+Figure 4. Geocoded map of study wells with persistently high As levels in 2020 and 2021.
+3.2. Exploratory Analyses
+In the succeeding exploratory analyses, we examined whether (1) current As levels (in
+either or both years) were signiﬁcantly higher than the national and global As standard for
+drinking water (10 ppb), and whether (2) the distance (in km) as well as elevation (in m) of
+the wells in relation to Taal volcano is associated with increased As levels.
+As shown in Table 2, the median value of As levels in 2020 was 16, whereas in 2021 it
+was 13 ppb. We observed a wider variability in As levels in 2021 (with an interquartile range
+(IQR) of 13.5) compared to in 2020 (IQR = 9.75). In 2020, As levels across the 26 locations
+were statistically higher (p-value < 0.001) than the 10 ppb limit set by the World Health
+Organization (WHO) and the Philippine National Standards for Drinking Water (PNSDW).
+
+Earth 2022, 3
+455
+We also observed statistically higher As levels (compared to the 10 ppb limit) in 2021
+(p-value = 0.013).
+Table 2. Descriptive summary statistics for As levels in selected wells surrounding Taal volcano as
+compared to the national standard, and comparing 2020 vs. 2021.
+2020
+2021
+Median
+16
+13
+Interquartile range (IQR)
+13.5
+9.75
+One-sample Wilcoxon signed rank test
+p < 0.001 *
+p = 0.013 *
+Paired, two-sample Wilcoxon signed rank test
+p = 0.003 *
+* p-value < 0.05.
+In the paired, two-sample Wilcoxon signed-rank test (Figure 5), we observed a statis-
+tically signiﬁcant difference (p-value = 0.003) between the sampling years. In particular,
+we noted that the 2020 levels were statistically higher than the 2021 levels. The increased
+activity of the Taal volcano in 2020 potentially explains the signiﬁcantly higher than usual
+As levels in the wells sampled that year. In 2020, PHIVOLCS reported one Taal volcano
+eruption in January that reached Alert Level 4 and increased seismic activity (1529 re-
+ported earthquakes, n = 1529) in Batangas province, 820 of which happened in January
+2020 (n = 820, 53.63%). In comparison, a phreatomagmatic eruption occurred in July 2021,
+followed by multiple, smaller phreatomagmatic bursts over the following days, reaching
+Alert Level 3 [39]. Seismic activity in Batangas province was also reported to be signif-
+icantly lower in 2021 (n = 872), with July having the most instances (n = 170, 19.50%).
+The statistics on seismic activity were aggregated from the PHIVOLCS Earthquake Infor-
+mation Database [40]. Ground movements, as a result of volcanic activity, may cause a
+greater interaction between groundwater and As-rich rocks and magma, causing the As to
+concentrate to increase. Previous studies have shown that As concentrations are highest
+where active hydrothermal circulation takes place [41]. High temperatures and lower pH
+favor mineral solubility during rock leaching and the mobilization of As through chemical
+processes after prolonged water-rock interactions at the reservoir [1,8,17,41]. However, this
+remains to be further elucidated with suitable longitudinal data, as this study is still in its
+preliminary stages.
+We observed no evidence of increased As levels in proximal sampling sites in both
+years, as shown in Table 3. In a modeling study, Saunders et al. [42] argued that geo-
+chemical and geomicrobiologic processes working in concert may lead to the long-distance
+transportation of As, which may be partially related to the lack of a difference in proximal
+and distal As levels in the study. In Madrid, Spain, Gomez-Gonzalez et al. [43] also noted
+a long-distance dispersion of As, but this was mainly associated with mobile colloids,
+which is in contrast to several studies noting that proximate locations measure substantially
+higher As concentrations. A study in Central Italy [16] found that groundwater As levels
+were higher in areas with more deeply faulted zones. In the Dalsung Cu–W mine, in Korea,
+As in stream sediments sampled at various distances decreased with the distance from
+the mine [44]. Similarly, in Iran, Hajalilou et al. [45] observed decreasing As levels with
+increasing distances from the source.
+
+Earth 2022, 3
+456
+ 
+Figure 5. Graphical representation of the paired, two-sample Wilcoxon signed-rank test comparing
+As levels in selected wells, 2020 vs. 2021.
+Table 3. Bivariable regression.
+Sampling Year
+Adjusted Covariates
+Estimate * (95% CI)
+p-Value
+2020
+distance
+1.020 (0.959, 1.085)
+0.537
+elevation
+0.998 (0.993, 1.003)
+0.500
+2021
+distance
+1.066 (0.984, 1.154)
+0.128
+elevation
+0.998 (0.991, 1.004)
+0.584
+* The beta coefﬁcient derived from the linear regression was back-transformed by exponentiating the beta
+coefﬁcient. CI: Conﬁdence Intervals.
+Similarly, we did not observe any association between elevation (of water source) with
+As levels. This contrasts with studies noting either a positive or negative (correlational)
+association between water source depth and As levels. In California, Fujii and Swain [46] ob-
+served increasing groundwater As concentrations with an increase in well depth. Similarly,
+in Xinjiang Province, China, Wang and Huang [47] noted that As concentrations in artesian
+groundwater were found to increase with depth. In Bangladesh, however, a negative
+correlation (correlation coefﬁcient (r) = −0.0999765) between aquifer depths and As concen-
+trations was observed [48]. The current study’s results, albeit statistically not signiﬁcant,
+indicate an inverse association of As level with elevation. Several plausible physio-chemical
+mechanisms may potentially be related to this directional association [49]. This is, however,
+beyond the scope of this study, and thus subsequent examination is warranted.
+
+Earth 2022, 3
+457
+3.3. Limitations
+The current exploratory study, which is still in its preliminary stages, has several
+limitations. First, only 26 sampling sites were continuously observed in both years. The
+limited sample size makes it to rule out substantial explanations for the observed patterns
+in the measurements and the subsequent statistical signiﬁcance. It is thus recommended to
+have an increased number of sampling sites to be monitored consistently across sampling
+years. Second, the lack of possible control locations poses a challenge to the internal validity
+of the results only observed in areas affected by the increased As levels. A case-control
+study, to be empirically performed subject to the availability of suitable data, may address
+this limitation.
+4. Conclusions
+Through the use of a Wilcoxon signed-rank test, this study found signiﬁcantly elevated
+As levels in 23 out of 26 (88.46%) individual wells in unique locations in Batangas Province
+in 2020 (p-value < 0.001), which is as high as seven times more than the 10 ppb safe limit.
+Of these, 20 out of the 26 wells (76.92%) had persistently elevated As levels through to 2021
+(p-value = 0.013). A two-paired Wilcoxon signed-rank test revealed that As levels were
+statistically higher in 2020 than 2021 (p-value = 0.003). The reduction of As levels in some
+of the wells may be explained by higher volcanic activity in 2020 compared to in 2021, but
+this must be further conﬁrmed by more extensive longitudinal data. Increasing the number
+of sampling sites and the frequency and duration of the investigation in future studies
+may mitigate this limitation. Bivariable regression showed no evidence of an association
+between As levels and distance (p-value 2020, 2021 = 0.537, 0.128) or elevation in relation to
+the source (p-value 2020, 2021 = 0.500, 0.584), which supports the notion of As groundwater
+contamination through volcanic hydrothermal systems. We recommend geomapping of the
+hydrothermal system that interacts with the groundwater aquifer in Batangas Province and
+the inclusion of sampling sites at the perimeter of the aquifer in order to more accurately
+determine the extent of the affected local inhabitants’ exposure to As. Continuing and
+province-wide water quality assessment (blanket testing) of drinking water will also help to
+identify and predict areas at risk of future groundwater contamination and locate safe and
+unsafe drinking water sources. Furthermore, we recommend investigations on the relation-
+ship of As levels with other physico-chemical parameters such as pH, oxidation-reduction
+potential, and sulﬁde levels, as well as geo-climatic parameters such as precipitation and
+terrain, among others. Doing so may be helpful in assessing future options for ground-
+water resource management. Due to the persistence and innate nature of As, population
+bioexposure assessments and screening for asenicosisis is recommended for the affected
+communities. In terms of risk mitigation, the rapid conduct of risk communication efforts
+for the affected populations, alongside the provision of safe drinking water alternatives in
+the short-term, as well as the identiﬁcation of cost-effective treatment technologies and/or
+the exploration of uncontaminated groundwater sources are critical steps in minimizing
+public health risks and protecting the population’s health moving forward.
+Author Contributions: G.L.C.A. conceptualized the study, obtained the data, and wrote the manuscript.
+S.V. managed the data and wrote the manuscript. X.S. analyzed the data and wrote the manuscript.
+All authors have read and agreed to the published version of the manuscript.
+Funding: This research received no external funding.
+Institutional Review Board Statement: Not Applicable.
+Informed Consent Statement: Not Applicable.
+Data Availability Statement: Data is subject to the internal procedures of the Environmental Man-
+agement Bureau of the Republic of the Philippines.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+
+Earth 2022, 3
+458
+References
+1.
+IARC Working Group on the Evaluation of Carcinogenic Risks to Humans. Arsenic and arsenic compounds. In Arsenic, Metals,
+Fibres and Dusts; International Agency for Research on Cancer: Lyon, France, 2012.
+2.
+Smedley, P.L.; Kinniburgh, D.G. Arsenic in groundwater and the environment. In Essentials of Medical Geology; Springer: Dordrecht,
+The Netherlands, 2013; pp. 279–310.
+3.
+Duker, A.A.; Carranza, E.; Hale, M. Arsenic geochemistry and health. Environ. Int. 2005, 31, 631–641. [CrossRef]
+4.
+Petrusevski, B.; Sharma, S.; Schippers, J.C.; Shordt, K. Arsenic in Drinking Water; IRC International Water and Sanitation Centre:
+Delft, The Netherlands, 2007; Volume 17, pp. 36–44.
+5.
+World Health Organization. Guidelines for Drinking-Water Quality; WHO: Geneva, Switzerland, 2006.
+6.
+López, D.L.; Bundschuh, J.; Birkle, P.; Armienta, M.A.; Cumbal, L.; Sracek, O.; Cornejo, L.; Ormachea, M. Arsenic in volcanic
+geothermal ﬂuids of Latin America. Sci. Total Environ. 2012, 429, 57–75. [CrossRef] [PubMed]
+7.
+Hossain, M.F. Arsenic contamination in Bangladesh—An overview. Agric. Ecosyst. Environ. 2006, 113, 1–16. [CrossRef]
+8.
+Nordstrom, D.K. Worldwide occurrences of arsenic in ground water. Science 2002, 296, 2143–2145. [CrossRef]
+9.
+Khan, M.A.; Ho, Y. Arsenic in drinking water: A review on toxicological effects, mechanism of accumulation and remediation.
+Asian J. Chem. 2011, 23, 1889–1901.
+10.
+Kleinendorst, T.; Petrusevski, B.; Ramos, E.; Muijtjens, R. DRR Team Central Luzon Mission Report; DRR Team: Manila, Philippines,
+2015. Available online: https://www.drrteam-dsswater.nl/wp-content/uploads/2015/06/DRR-Central-Luzon-mission-report-
+V5-ﬁnal.pdf (accessed on 5 September 2021).
+11.
+Sy, S.M.T.; Salud-Gnilo, C.M.; Nogas-Perez, E.J. Speckled pigmentation and palmoplantar keratoses leading to the mass detection
+of chronic arsenic poisoning. Acta Med. Philipp. 2017, 51, 146–149. [CrossRef]
+12.
+Camaclang, M.L.A.; Cubillan, E.L.A.; Yap-Silva, C. Arsenicosis presenting with cutaneous squamous cell carcinoma: A case
+report. Acta Med. Philipp. 2019, 53, 171–176. [CrossRef]
+13.
+Ang-tangtatco, J.A.; Alabado, K.L.; Visitacion, L. Squamous cell carcinoma secondary to arsenic keratoses in a father and son. J.
+Philipp. Dermatol. Soc. 2017, 26, 69–73.
+14.
+Mester, T.; Szabó, G.; Sajtos, Z.; Baranyai, E.; Szabó, G.; Balla, D. Environmental Hazards of an Unrecultivated Liquid Waste
+Disposal Site on Soil and Groundwater. Water 2022, 14, 226. [CrossRef]
+15.
+Hughes, M.F.; Beck, B.D.; Chen, Y.; Lewis, A.S.; Thomas, D.J. Arsenic Exposure and Toxicology: A historical perspective. Toxicol.
+Sci. 2011, 123, 305–332. [CrossRef] [PubMed]
+16.
+Angelone, M.; Cremisini, C.; Piscopo, V.; Proposito, M.; Spaziani, F. Inﬂuence of hydrostratigraphy and structural setting on the
+arsenic occurrence in groundwater of the Cimino-Vico volcanic area (central Italy). Hydrogeol. J. 2009, 17, 901–914. [CrossRef]
+17.
+Aiuppa, A.; Avino, R.; Brusca, L.; Caliro, S.; Chiodini, G.; D’Alessandro, W.; Favara, R.; Federico CGinevra, W.; Inguaggiato, S.;
+Longo, M.; et al. Mineral control of arsenic content in thermal waters from volcano-hosted hydrothermal systems: Insights from
+island of Ischia and Phlegrean Fields (Campanian Volcanic Province, Italy). Chem. Geol. 2006, 229, 313–330. [CrossRef]
+18.
+Ghoreyshinia, S.K.; Shakeri, A.; Mehrabi, B.; Tassi, F.; Mehr, M.R.; Deshaee, A. Hydrogeochemistry, circulation path and arsenic
+distribution in Tahlab aquifer, East of Taftan Volcano, SE Iran. Appl. Geochem. 2020, 119, 104629. [CrossRef]
+19.
+Banning, A.; Cardona, A.; Rüde, T.R. Uranium and arsenic dynamics in volcano-sedimentary basins–An exemplary study in
+North-Central Mexico. Appl. Geochem. 2012, 27, 2160–2172. [CrossRef]
+20.
+Jing, F.; Chauhan, A.; PSingh, R.; Dash, P. Changes in atmospheric, meteorological, and ocean parameters associated with the 12
+January 2020 Taal volcanic eruption. Remote Sens. 2020, 12, 1026. [CrossRef]
+21.
+Philippine Statistics Authority. 2021 Calabarzon Regional Social and Economic Trends. Available online: http://rsso04a.psa.
+gov.ph/sites/default/ﬁles/2021%20Regional%20Social%20and%20Economic%20Trends%20CALABARZON.pdf (accessed on 2
+January 2022).
+22.
+Hernández, P.A.; Melián, G.V.; Somoza, L.; Arpa, M.C.; Pérez, N.M.; Bariso, E.; Sumino, H.; Padron, E.; Varekamp, J.C.; Albert-
+Beltran, J.; et al. The acid crater lake of Taal Volcano, Philippines: Hydrogeochemical and hydroacoustic data related to the
+2010–11 volcanic unrest. Geol. Soc. Lond. Spec. Publ. 2017, 437, 131–152. [CrossRef]
+23.
+Yamaya, Y.; Alanis PK, B.; Takeuchi, A.; Cordon, J.M.; Mogi, T.; Hashimoto, T.; Sasai, Y.; Nagao, T. A large hydrothermal reservoir
+beneath Taal Volcano (Philippines) revealed by magnetotelluric resistivity survey: 2D resistivity modeling. Bull. Volcanol. 2013,
+75, 1–13. [CrossRef]
+24.
+Alanis, P.K.; Yamaya, Y.; Takeuchi, A.; Sasai, Y.; Okada, Y.; Nagao, T. A large hydrothermal reservoir beneath Taal Volcano
+(Philippines) revealed by magnetotelluric observations and its implications to the volcanic activity. Proc. Jpn. Acad. Ser. B 2013, 89,
+383–389. [CrossRef]
+25.
+Cardenas, M.B.; Lagmay, A.A.; Andrews, B.; Rodolfo, R.S.; Cabria, H.B.; Zamora, P.B.; Lapus, M.R. Intense groundwater
+circulation and heat ﬂow near a volcanic lake: Taal Volcano, Philippines. In AGU Fall Meeting Abstracts; American Geophysical
+Union: Washington, DC, USA, 2011; Volume 2011, p. H31G-1262.
+26.
+Delmelle, P.; Kusakabe, M.; Bernard, A.; Fischer, T.; De Brouwer, S.; Del Mundo, E. Geochemical and isotopic evidence for
+seawater contamination of the hydrothermal system of Taal Volcano, Luzon, the Philippines. Bull. Volcanol. 1998, 59, 562–576.
+[CrossRef]
+
+Earth 2022, 3
+459
+27.
+Canlas, Alen Clyde A. “MGB IV Conducts Groundwater Resource Assessment and Mapping in Cuenca, Tanauan, and Lipa,
+Batangas”. DENR: Mines and Geosciences Bureau. Available online: https://region4a.mgb.gov.ph/7295-2/ (accessed on 26
+February 2022).
+28.
+Sopsop, G.O.; Abucay, E.R.; Silvestre, P.R.; Custodio, H.M.; Manikham, D.T. Spatio-temporal pattern of landscape change due to
+urbanization: A case of Batangas City. J. Nat. Stud. 2016, 15, 11–22.
+29.
+Tabios, G.; David, C. Competing uses of water: Cases of Angat reservoir, Laguna Lake and groundwater systems of Batangas City
+and Cebu City. Win. Water War 2004, 105–131.
+30.
+Agence France-Presse. Phivolcs: Prohibit Entry into 7-Km Taal Danger Zone Despite Decreased Volcanic Activity. PhilStar Global.
+Available online: https://www.philstar.com/headlines/2020/01/27/1988195/phivolcs-prohibit-entry-7-km-taal-danger-zone-
+despite-decreased-volcanic-activity (accessed on 24 February 2022).
+31.
+Gabriel Pabico Lalu. Evacuations Underway in Batangas Towns Near Taal Volcano. Inquirer.Net. Available online: https:
+//newsinfo.inquirer.net/1454348/evacuations-underway-in-batangas-towns-near-taal-volcano (accessed on 7 February 2022).
+32.
+OCHA Philippines. Reference Map: Taal Vocano Danger Zones. Available online: https://reliefweb.int/sites/reliefweb.int/ﬁles/
+resources/map_280.pdf (accessed on 24 February 2022).
+33.
+OCHA Services. DSWD DROMIC Report #31 on the Taal Volcano Eruption as of 29 January 2020, 6PM. ReliefWeb.int. Available
+online: https://reliefweb.int/report/philippines/dswd-dromic-report-31-taal-volcano-eruption-29-january-2020-6pm (accessed
+on 24 February 2022).
+34.
+Goulden, P.D.; Brooksbank, P. Automated atomic absorption determination of arsenic, antimony, and selenium in natural waters.
+Anal. Chem. 1974, 46, 1431–1436. [CrossRef] [PubMed]
+35.
+DENR Administrative Order No. 2016-08, p.7, 2016 § 6.1. 2016. Available online: https://pab.emb.gov.ph/wp-content/uploads/
+2017/07/DAO-2016-08-WQG-and-GES.pdf (accessed on 31 January 2022).
+36.
+Mudzielwana, R.; Gitari, M.W.; Ndungu, P. Uptake of as (V) from Groundwater Using Fe-Mn Oxides Modiﬁed Kaolin Clay:
+Physicochemical Characterization and Absorption Data Modeling. Water 2019, 11, 1245. [CrossRef]
+37.
+Soria, J.L.; Siringan, F.; Rodolfo, K.S. Compaction rates and paleo-sea levels along the delta complex north of Manila Bay, Luzon
+Island, Philippines. Sci. Diliman 2005, 17, 39–45.
+38.
+Smith, R.; Knight, R.; Fendorf, S. Overpumping leads to California groundwater arsenic threat. Nat. Commun. 2018, 9, 2089.
+[CrossRef] [PubMed]
+39.
+IFRC. Philippines: Taal Volcano Eruption—Final Report (n◦MDRPH043). ReliefWeb.Int. Available online: https://reliefweb.int/
+report/philippines/philippines-taal-volcano-eruption-ﬁnal-report-n-mdrph043 (accessed on 24 February 2022).
+40.
+PHIVOLCS. (n.d.). Earthquake Information. Department of Science and Technology: PHIVOLCS. Available online: https:
+//www.phivolcs.dost.gov.ph/index.php/earthquake/earthquake-information3 (accessed on 24 February 2022).
+41.
+Aiuppa, A.; D’Alessandro, W.; Federico, C.; Palumbo, B.; Valenza, M. The aquatic geochemistry of arsenic in volcanic groundwa-
+ters from southern Italy. Appl. Geochem. 2003, 18, 1283–1296. [CrossRef]
+42.
+Saunders, J.A.; Lee, M.K.; Uddin, A.; Mohammad, S.; Wilkin, R.T.; Fayek, M.; Korte, N.E. Natural arsenic contamination of
+Holocene alluvial aquifers by linked tectonic, weathering, and microbial processes. Geochem. Geophys. Geosystems 2005, 6.
+[CrossRef]
+43.
+Gomez-Gonzalez, M.A.; Villalobos, M.; Marco, J.F.; Garcia-Guinea, J.; Bolea, E.; Laborda, F.; Garrido, F. Iron oxide-clay composite
+vectors on long-distance transport of arsenic and toxic metals in mining-affected areas. Chemosphere 2018, 197, 759–767. [CrossRef]
+[PubMed]
+44.
+Jung, M.C.; Thornton, I.; Chon, H.T. Arsenic, Sb and Bi contamination of soils, plants, waters and sediments in the vicinity of the
+Dalsung Cu–W mine in Korea. Sci. Total Environ. 2002, 295, 81–89. [CrossRef]
+45.
+Hajalilou, B.; Mosaferi, M.; Khaleghi, F.; Jadidi, S.; Vosugh, B.; Fatehifar, E. Effects of abandoned arsenic mine on water resources
+pollution in north west of Iran. Health Promot. Perspect. 2011, 1, 62.
+46.
+Fujii, R.; Swain, W.C. Areal Distribution of Selected Trace Elements, Salinity, and Major Ions in Shallow Groundwater, Tulare Basin, Southern
+San Joaquin Valley, California; USGS Water-Resources Investigation, (Report No. 95-4048); USGS: Washington, DC, USA, 1995.
+47.
+Wang, L.; Huang, J. Chronic arsenism from drinking water in some areas of Xinjiang, China. In Arsenic in the Environment, Part II:
+Human Health and Ecosystem Effects; Nriagu, J.O., Ed.; John Wiley: New York, NY, USA, 1994; pp. 159–172.
+48.
+Hassan, M.M.; Atkins, P.J.; Dunn, C.E. Patterns of Groundwater Arsenic Concentrations: What Level of Arsenic Exists in Different
+Aquifers? Orient. Geogr. 2006, 50, 1–17.
+49.
+Haugen, E.A.; Jurgens, B.C.; Arroyo-Lopez, J.A.; Bennett, G.L. Groundwater development leads to decreasing arsenic concentra-
+tions in the San Joaquin Valley, California. Sci. Total Environ. 2021, 771, e145223. [CrossRef] [PubMed]

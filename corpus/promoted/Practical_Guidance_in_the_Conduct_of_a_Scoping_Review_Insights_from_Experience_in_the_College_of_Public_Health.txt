@@ -1,0 +1,646 @@
+Practical Guidance in the Conduct of a Scoping Review: 
+Insights from Experience in the College of 
+Public Health, University of the Philippines Manila
+Carl Abelardo T. Antonio, MD, MPH,1,2 Arianna Maever L. Amit, MAS, MS,3,4 Ma. Sophia Graciela L. Reyes, BSPH,3,5 
+Kim L. Cochon, MSPH,6 Jonathan P. Guevarra, MAN,7,8 Amiel Nazer C. Bermudez, MD, MPH,9,10 
+Chelseah Denise H. Torres, BSPH3,11 and Azar G. Agbon, BSN3
+1Department of Health Policy and Administration, College of Public Health, University of the Philippines Manila, Manila, Philippines
+2Department of Applied Social Sciences, The Hong Kong Polytechnic University, Kowloon, Hong Kong
+3College of Public Health, University of the Philippines Manila, Manila, Philippines
+4School of Medicine and Public Health, Ateneo de Manila University, Pasig City, Philippines
+5Duke-NUS Medical School, Singapore
+6JC School of Public Health and Primary Care, Faculty of Medicine, The Chinese University of Hong Kong, Shatin, Hong Kong
+7Department of Health Promotion and Education, College of Public Health, University of the Philippines Manila, Manila, Philippines
+8College of Development Communication, University of the Philippines Los Baños, Los Baños, Laguna, Philippines
+9Department of Epidemiology and Biostatistics, College of Public Health, University of the Philippines Manila, Manila, Philippines
+10Department of Epidemiology, School of Public Health, Brown University, Providence, Rhode Island, United States of America
+11University of Santo Tomas Faculty of Medicine and Surgery, Manila, Philippines
+ABSTRACT
+Objective. We aimed to provide practical guidance on the scoping review process, building on the methodologies 
+and general steps outlined by Arksey and O’Malley, Levac et al. and The Joanna Briggs Institute.
+Methods. We reviewed the methodologies of three scoping studies conducted by the authors in the College of 
+Public Health, University of the Philippines Manila between 2016 and 2017. For each project, we outlined the steps, 
+tools utilized, good practices performed, challenges encountered, and recommendations for improving the scoping 
+review process in relation to existing guidelines. We compared the similarities and differences across the three 
+reviews and guidelines to come up with a list of good practices and recommendations.
+Results. We propose an expanded 10-step and iterative framework based on our analysis of three scoping studies: 
+1. Define your research question; 2. Specify your research statement according to population, concept, and context; 
+3. Prepare the necessary tools, forms, and software packages; 4. Assemble your expert panel and/or consultants; 
+5. Develop your search strategy; 6. Implement the search strategy and retrieve identified studies; 7. Screen and 
+assess studies for inclusion in the scoping review; 8. Chart the data; 9. Synthesize your results; and 10. Prepare your 
+final report.
+Conclusion. Scoping reviews as a method of evidence synthesis are increasingly gaining popularity among 
+researchers due to the scope of what can be reviewed in a relatively short amount of time. With only three scoping 
+studies informing our proposed methodology, other issues and challenges in the conduct of a scoping review may 
+have been missed in the expanded framework presented in this paper. We suggest future studies to apply existing 
+scoping review methodologies, to further enhance this rapidly evolving framework in research, policy, and practice.
+Key Words: Scoping review, Review [Publication Type], Methods, Philippines, evidence synthesis
+Introduction
+Scoping reviews have been broadly defined as studies 
+that rapidly map, synthesize, and analyze key concepts 
+underpinning a research area; to identify gaps and the current 
+state of understanding in the subject of interest; and/or assess 
+the scope of research literature.1–4 Several methodological 
+Corresponding author: Carl Abelardo T. Antonio, MD, MPH
+Department of Health Policy and Administration
+College of Public Health
+University of the Philippines Manila
+625 Pedro Gil Street, Ermita, Manila 1000, Philippines
+Email: ctantonio@up.edu.ph
+VOL. 55 NO. 7 2021
+775
+ORIGINAL ARTICLE
+
+Results AND DISCUSSION
+The Scoping Review Process: Good Practices and 
+Recommendations
+We conducted three scoping studies between 2016 
+and 2017 7–9 following the JBI Manual.6 We detailed our 
+methodology according to the prescribed steps in a scoping 
+review,6 and identified good practices and challenges in 
+each of our studies. Based on our results and comparisons 
+to three existing guidance documents on the scoping review 
+process,2,5,6 we provided recommendations that would best 
+address the current needs on scoping reviews. 
+We present our framework according to the following 
+expanded steps: 
+1.	
+Define your research question;
+2.	
+Specify your research statement according to population, 
+concept, and context (PCC);
+3.	
+Prepare the necessary tools, forms, and software packages;
+4.	
+Assemble your expert panel and/or consultants;
+5.	
+Develop your search strategy;
+6.	
+Implement the search strategy and retrieve identified 
+studies;
+7.	
+Screen and assess studies for inclusion in the scoping 
+review;
+8.	
+Chart the data;
+9.	
+Synthesize your results; and
+10.	 Prepare your final report.
+1. Define your research question
+The research question paves the way for an effective 
+literature search and a clearly written report. Sometimes 
+used interchangeably with ‘research problem’, there is general 
+consensus that it has to be well-defined.10 The challenge is 
+in determining which relevant questions may be studied 
+through a scoping review and in rationalizing the need for an 
+investigation into the topic of interest.11 This is addressed by 
+various methods including observations, literature searches, 
+interviews with patients and experts in the field, and an 
+up-to-date understanding and awareness of the current 
+context of the problem.11,12 We emphasize that this is not 
+an all-inclusive definition, such that the research question 
+may be derived from a call for tenders or formulated with 
+a collaborating or funding institution. In settings where the 
+working group defines the research question themselves, it 
+is important to identify existing studies, scoping reviews, 
+and other synthesis papers that are relevant to the topic 
+of interest.6,11 If such reviews exist, a justification must be 
+included in the written report to discuss how the current 
+review differs from others done on the same topic.6 
+In general, we recommend that the FINER criteria11,13 
+be used in the development of the research question as 
+it highlights the attributes of a good question (Table 1). 
+For this type of research, considerations must be given on 
+the project timeline and breadth of scope of the databases, 
+together with the sources of evidence that will be included. 
+frameworks have been proposed for scoping reviews, three 
+of which were considered in this current methodological 
+note.2,5,6 These frameworks2,5,6 follow the same prescribed 
+steps of: 1. Identifying the research question; 2. Identifying 
+relevant studies; 3. Selecting studies; 4. Charting the data; 
+5. Collating, summarizing, and reporting the results; and 
+6. Conducting consultation exercises (Optional). 
+Given that scoping reviews are relatively new in health 
+research and literature3 and have not been detailed in full 
+extent5 even within the three existing frameworks, researchers 
+are presented with the challenge of adapting their own 
+strategies to conduct a scoping study (i.e., researchers develop 
+their own techniques to operationalize the broad steps 
+outlined in the existing frameworks, as was our experience). 
+We aimed to provide practical guidance on the conduct 
+of the scoping review process using insights from three 
+scoping studies conducted by the authors in the College 
+of Public Health, University of the Philippines Manila. 
+Methods
+We reviewed the methodologies of three scoping 
+studies conducted by the authors in the College of Public 
+Health, University of the Philippines Manila between 
+2016 and 2017.7–9 Briefly, these scoping reviews followed 
+the methodology described by The Joanna Briggs Institute 
+(JBI),6 which in turn were informed by the work of Arksey 
+and O’Malley2 and Levac et al.,5 and aimed: 
+1.	
+To synthesize evidence regarding the benefits, risks, 
+costs, and barriers of paid maternity leave policies in 
+the workplace;7
+2.	
+To support a landscape analysis to identify lessons, 
+and describe existing models and frameworks of inter-
+sectoral collaborations in the context of dengue, malaria, 
+and yellow fever;8 and
+3.	
+To address the question “What types of institutional 
+and support systems were put in place by low- and 
+middle-income countries in the implementation 
+of compulsory service policies for selected health 
+professionals?”.9
+Each of these was broken down into steps according to 
+the guidelines stipulated in the methodological framework 
+for scoping reviews2 and the manual for JBI Scoping 
+Reviews.6 For each project, we outlined the steps, tools 
+utilized, good practices performed, challenges encountered, 
+and recommendations for improving the scoping review 
+process in relation to the three existing frameworks.2,5,6 We 
+compared the similarities and differences across the three 
+reviews and guidelines to come up with a list of good practices 
+and recommendations.
+VOL. 55 NO. 7 2021
+776
+Practical guidance for scoping reviews
+
+As with any study, proposed scoping reviews must have 
+a significant contribution to the field and topic of interest. 
+We further highlight that ethical concerns may be of a lesser 
+priority in these types of studies since scoping reviews only 
+examine articles and documents without any involvement 
+of human subjects.14
+2. Specify your research statement according to 
+population, concept, and context (PCC)
+In any research undertaking, the question serves as a 
+reference point throughout the study that guides protocol 
+development, literature search, and implementation.15 For 
+scoping reviews, both the research question and objectives 
+should sufficiently address the three elements of PCC.6 This 
+framework differs from that of other studies such as evidence-
+based medicine or clinical research that follows the PICO16 
+or PICOT criteria:12 population (patients); intervention 
+(for intervention studies only); comparison group; outcome 
+of interest; and time. Similarly, Cochrane reviews follow 
+the PICO criteria, with the additional specification of the 
+types of studies that will be included.17 
+Briefly, the PCC elements (Table 2) must be reflected 
+consistently in the scoping review: in the title; research 
+question; objectives; and inclusion criteria.6 These guide 
+both the readers and reviewers in understanding the 
+context of the study and making decisions about sources 
+and references to include in the search.6 All three studies 
+conducted by the authors followed this guideline.7–9
+3. Prepare the necessary tools, forms, and software 
+packages 
+Each step in the scoping review process requires 
+different tools, forms, and software packages. We propose 
+that these be prepared before the actual conduct of the 
+three-step search strategy.6 The inclusion of this step early 
+in the process will avoid delays in the search proper and 
+increase efficiency by allotting enough time to develop data 
+extraction tools or purchase the products needed. Preparation 
+of data extraction forms in advance was done by only one 
+of three reviews conducted by the authors.7 However, we 
+could not conclude on the relative efficiency of this method 
+compared to preparation of forms at a later stage where 
+these are needed since we did not implement both methods 
+on any single scoping review. We also suggest that at this 
+stage, researchers construct dummy tables and graphs to be 
+used for presenting results. These data visualizations, along 
+with the PRISMA Flow Diagram,18 may be filled out and 
+completed simultaneously during the search and extraction 
+of data from relevant literature.
+4. Assemble your expert panel and/or consultants
+There are two contrasting recommendations on the 
+conduct of a consultation exercise in the scoping review 
+process: the original framework by Arksey and O’Malley 
+noted this is an optional element,2 while the later publication 
+by Levac et al made consultation an essential component 
+of the scoping study methodology.5 All three reviews 
+conducted by the authors7–9 included consultations with at 
+least one content expert and a methods expert throughout 
+the process of the review to discuss and resolve any issues 
+encountered. One other study included solicitation of 
+feedback from experts using a modified Delphi process.8 
+Regardless of the approach to consultation, we indicated 
+this as the fourth stage in our proposed framework, and not 
+the last,2,5,6 due to its importance in achieving the aims of 
+the scoping review. Specifically, consultation can aid in the 
+development of the research question (i.e., better alignment 
+with the knowledge or policy gaps), refinement of the search 
+strategy, identification of additional references or records, 
+especially grey literature, and validation of findings.2,5 
+Experts can include those who are well-versed on the topic or 
+research area, program or policy (e.g., practitioner, advocate), 
+and/or approach (e.g., librarian, evidence synthesis specialist). 
+We recommend that the expert panel and/or consultants be 
+actively involved at each stage of the review to ensure that all 
+insights and suggestions are incorporated in a timely manner.
+5. Develop your search strategy
+Once the research question and inclusion criteria for 
+records or studies have been defined, additional eligibility 
+criteria may be specified. These include restrictions to 
+language, publication dates, and sources of evidence (e.g., 
+peer-reviewed articles, grey literature). After these have 
+been indicated adequately, a list of databases and other 
+sources that will be utilized in the scoping review should be 
+identified and selected. This step may be done with the help 
+of an experienced librarian and/or information specialist. 
+Depending on the time and available resources for the 
+study, the following eligibility criteria may be included to be 
+comprehensive in answering the central research question:2 
+1.	
+More than the prescribed minimum of two databases;6
+2.	
+Languages other than English;
+Table 1. FINER Criteria11,13
+Feasible
+Manageable in scope
+Interesting
+Getting the answer that intrigues investigators, 
+peers, and community
+Novel
+Confirms, refutes, or extends previous findings
+Ethical
+Amenable to a study that the institutional 
+review board will approve
+Relevant
+To scientific knowledge, to clinical and health 
+policy, and to future research
+Table 2. Population, Concept, and Context in a Scoping Review6
+Population
+Which types of participants (e.g., age group, 
+sex) are you interested in?
+Concept
+What specific interventions and/or outcomes 
+will be included in your scoping review?
+Context
+What settings (i.e., geographic, cultural) will 
+you consider?
+VOL. 55 NO. 7 2021
+777
+Practical guidance for scoping reviews
+
+3.	
+A greater range of years; and
+4.	
+Grey literature.
+Additional information that may also be specified in the 
+search strategy include plans for hand-searching key journals 
+and contacting authors for access to full-text articles and 
+other necessary data. All three scoping reviews7–9 followed 
+the first two steps of the JBI search strategy,6 while only 
+one7 conducted an additional search using the reference 
+lists of the identified articles. 
+The three-step search strategy6 is as follows:
+1.	
+Initial limited search of at least two online databases 
+of relevance to the research questions followed by an 
+analysis of text words in the title, abstract, and index 
+terms in the articles; 
+2.	
+Second search utilizing all identified keywords and index 
+terms across all databases and sources specified in the 
+protocol; and 
+3.	
+Third search using the reference lists or contact of authors 
+for further information.
+Any deviations from these steps must sufficiently be 
+justified and included in the limitations of the study.
+Two important aspects must be noted by researchers new 
+to scoping reviews. First, the three-step process mentioned 
+above is iterative in nature, with continual refinement applied 
+to the search strategy as additional keywords or search terms 
+are discovered through perusal of the literature. Second, it is 
+desirable that search strategies be highly sensitive or inclusive 
+(i.e., capture a high number of records initially) to avoid 
+missing out on important studies or papers. An initial search 
+with few hits may mean that the topic has not been fully 
+researched yet, or that the search strategy has to be modified.
+For all three reviews conducted,7–9 PubMed (MEDLINE) 
+was identified as a primary database given that the topics 
+were of biomedical nature (i.e., paid maternity leave, 
+vector-borne diseases, return service agreement for health 
+professionals). After refinement of the search strategy, we 
+conducted the second search,7–9 as well as the third,7 in all 
+identified relevant databases and providers that include 
+PubMed, Scopus, PLoS, and ProQuest. We recommend 
+documentation of the following at the minimum: date and 
+time of search; number of records identified in a database; 
+operators; and other techniques used in the search. This 
+serves four main purposes: 
+1.	
+For reproducibility of findings;
+2.	
+For ease in identification of any errors in the search 
+conducted;
+3.	
+For documentation of any changes in this iterative 
+process; and 
+4.	
+For facilitation of report writing. 
+6. Implement the search strategy and retrieve 
+identified studies
+There is no general agreement at which levels the 
+eligibility criteria should be applied. For instance, if one of 
+the inclusion criteria is ‘full-text article is available’, exclusion 
+of papers without full-text copies may be done prior to 
+retrieval of these articles through other sources (e.g., authors 
+themselves, digital repositories). In other cases where the 
+timeline of the project accommodates such attempts, no 
+filters or restrictions may be applied in all databases at the 
+initial database search, and even during screening of article 
+titles and abstracts. This decision is at the discretion of the 
+researchers and expert panel, and justifications must be stated 
+in the report. Additionally, it may be iterative such that criteria 
+are applied throughout the search and screening process; this 
+must be carefully documented as well. We provide some 
+insights about the advantages and disadvantages of applying 
+eligibility criteria at different stages of the scoping review 
+process (Table 3).
+Searching several databases and sources will result to 
+some duplicate records. We merged and deduplicated the 
+retrieved articles using different tools and software, namely 
+EndNote, Microsoft Excel, and Covidence. Both EndNote 
+and Microsoft Excel are sensitive to formatting variations and 
+hence, may not be able to detect all duplicates. In such cases, 
+manual deduplication may be done afterwards. If any are 
+missed manually, these may be further deduplicated through 
+an online platform developed for screening and evaluation 
+of articles (e.g., Covidence). Deduplication can also be 
+performed using other reference managers (e.g., Mendeley, 
+Zotero), although the authors have not used these tools in 
+any of the three scoping studies referenced in this paper.
+7. Screen and assess studies for inclusion in the 
+scoping review
+Prior to screening and evaluation of studies, the 
+population, concept, and context elements must be compre-
+hensively understood by all researchers. This will avoid 
+Table 3.	Advantages and Disadvantages of Applying Eligibility Criteria at Different Stages of the Scoping Review
+Step
+Advantages
+Disadvantages
+Initial search
+•	 Manageable number of records
+•	 Fastest to conduct
+•	 May not be exhaustive and comprehensive to include all 
+relevant studies
+Second search
+•	 Manageable number of records, depending on 
+number of databases and sources included
+•	 Relatively fast to conduct
+•	 May obtain enough relevant records to identify gaps in 
+knowledge and literature related to the topic
+Third search
+•	 Exhaustive and comprehensive to include most 
+studies of relevance
+•	 Not feasible where budget and time constraints are present
+•	 Large volume of records to screen and assess
+VOL. 55 NO. 7 2021
+778
+Practical guidance for scoping reviews
+
+variations in the stringency of screening of relevant literature. 
+For example, if ‘malaria’ is included as a criterion for Concept, 
+the team should agree beforehand that articles mentioning 
+malaria in passing but do not discuss the disease in detail, 
+are not eligible for inclusion in the review. As emphasized 
+by Levac et al.:
+“This stage should be considered an iterative 
+process of searching the literature, refining the search 
+strategy, and reviewing articles for study inclusion 
+[…] Reviewers should meet at the beginning, midpoint 
+and final stages of the abstract review process to discuss 
+challenges and uncertainties related to study selection 
+and to go back and refine the search strategy, if needed”.5
+These iterations were done by only one of the three 
+reviews conducted.8 All retrieved articles were screened and 
+assessed independently by at least two members of these 
+projects:7–9 1. At the title and abstract level; and 2. At the 
+full-text level. 
+At the screening of titles and abstracts, the assigned 
+reviewers independently screened the articles for relevance 
+to the study according to the pre-specified inclusion criteria. 
+Conflicting evaluations were resolved either through 
+consensus and/or third-party arbitration. All papers that 
+met the inclusion criteria of the three scoping reviews were 
+evaluated further through full-text assessments given that 
+abstracts may be insufficient in describing the full extent of 
+the article.2,19 Similar to screening of titles and abstracts, full-
+text evaluations were conducted by at least two independent 
+reviewers in these projects.7–9 Any conflicts were also 
+resolved through consensus and/or a third-party arbitration. 
+We suggest that all reasons for exclusion be described and 
+documented at this stage, and indicated simultaneously in 
+the PRISMA Flow Chart.18 Both screening and assessments 
+may be done using Microsoft Excel, Covidence, or other tools 
+accessible to the research team. The PRISMA Flow Chart is 
+automatically produced when using Covidence for screening 
+relevant literature.
+8. Chart the data
+‘Charting’ in a scoping review, akin to ‘data extraction’ 
+in a systematic review, entails obtaining key information 
+according to issues and/or themes related to the research 
+question.5 Data extraction forms prepared in step 3 that 
+contain at least the names of the authors, year of publication, 
+study population, methodology, and outcome measures,2 
+will be filled out and continually updated (i.e., as additional 
+records are retrieved from citations searching). Although 
+the current studies only followed the JBI methodology,6 
+we agree with the recommendation provided by Levac and 
+colleagues (2010) and reiterate in this paper: Charting the 
+data should involve independent extraction from about five 
+to ten studies using available data extraction forms (i.e., from 
+other published studies; online resources such as Cochrane 
+Learning Resources website) to determine consistency with 
+the research question. Refinement of these forms should be 
+done as needed to ensure alignment with the needs of the 
+scoping study (e.g., inclusion or deletion of certain variables 
+or data points).
+9. Synthesize your results
+This stage is said to be the most extensive in the 
+scoping review process, and involves analysis, reporting, 
+and interpretation of findings.5 Analysis, also referred to as 
+collation and summarization, requires a descriptive numerical 
+summary (e.g., number of records included, per year of 
+publication, per source country, per PCC elements) and a 
+thematic analysis.2,5 Accordingly, three components should 
+be considered:5
+1.	
+Qualitative data analysis software to facilitate analyses of 
+themes and content;
+2.	
+Best approach in relating the findings to readers (e.g., 
+framework, tables); and
+3.	
+Implications situated in the context of research, policy, 
+and practice. 
+In relation to these three elements, one review conducted 
+by the authors utilized NVivo to generate a mind map of 
+themes and coded data from the articles using the software.8 
+We suggest that reviewers be oriented on how to conduct 
+data analysis (e.g., thematic analysis) and be reminded of the 
+scope of the study prior to the conduct of this stage. These 
+will ensure that only relevant data will be included, and 
+incongruence in interpretation of data will be minimized. 
+If codes are to be used, a codebook that defines these may 
+be created to improve coding of text by multiple researchers. 
+Themes and anecdotes must be properly cited. Meanwhile, 
+the three reviews conducted by the authors applied several 
+approaches in presenting the findings (i.e., framework, 
+tables, graphs), given that various research questions are 
+best represented in different ways. Lastly, our conclusions 
+incorporated research and policy implications, and provided 
+recommendations to stakeholders.
+10. Prepare your final report
+Depending on how the research question was formulated 
+(i.e., by the research team, derived from a call for tenders, 
+or with a collaborating or funding agency), the format of 
+the report may follow the guidelines of the collaborating or 
+funding institution, or the target journal. Generally, the final 
+report includes the title of the scoping review, review authors, 
+background and rationale, objectives, inclusion criteria, types 
+of sources, search strategy, charting table or forms, results, 
+discussion, conclusions, implications, and references.6
+Conclusions
+Scoping reviews are increasingly gaining popularity 
+among researchers as a method of evidence synthesis due to 
+the breadth and scope these can encompass in a relatively 
+VOL. 55 NO. 7 2021
+779
+Practical guidance for scoping reviews
+
+2.	
+Arksey H, O’Malley L. Scoping studies: towards a methodological 
+framework. Int J Soc Res Methodol. 2005;8(1):19–32. doi:10.1080/ 
+1364557032000119616.
+3.	
+Davis K, Drey N, Gould D. What are scoping studies? A review of 
+the nursing literature. Int J Nurs Stud. 2009 Oct;46(10):1386-400. 
+doi: 10.1016/j.ijnurstu.2009.02.010.
+4.	
+Grant MJ, Booth A. A typology of reviews: an analysis of 14 review 
+types and associated methodologies. Health Info Libr J. 2009 
+Jun;26(2):91-108. doi: 10.1111/j.1471-1842.2009.00848.x.
+5.	
+Levac D, Colquhoun H, O'Brien KK. Scoping studies: advancing 
+the methodology. Implement Sci. 2010 Sep 20;5:69. doi: 10.1186/ 
+1748-5908-5-69.
+6.	
+The Joanna Briggs Institute. (2015) Joanna Briggs Institute Reviewers’ 
+Manual: 2015 edition. Adelaide: The Joanna Briggs Institute; 2002.
+7.	
+Amit AM, Asence A, Jurado JE, Antonio CA. Prioritizing maternal 
+and child health through paid maternity leave policies in the workplace: 
+A scoping review. Poster presented at: Fifth Global Symposium 
+on Health Systems Research; 8-12 Oct 2018; ACC Liverpool, 
+Liverpool, United Kingdom.
+8.	
+Reyes ML, Torres CH, Bermudez AC, Cochon KL, Roxas EA, Liao 
+SP, Ortega DN, Silang AC, Uezono DR, Salamat MS, Antonio CT. 
+Intersectoral collaborations for the prevention and control of vector 
+borne diseases: a scoping review. Acta Med Philipp. 2019;53(4): 
+343-53.
+9.	
+Antonio CT, Guevarra JP, Medina PN, Avelino MD, Agbon AG, Sepe 
+DC, Bardelosa DD, Cengca MM, Ting ML, Lara AB. Components 
+of compulsory service program for health professionals in low-
+and middle-income countries: A scoping review. Perspect Public 
+Health. 2020;140(1):54–61. doi: 10.1177/1757913919839432.
+10.	
+Supino PG, Borer JS. Principles of research methodology: a guide 
+for clinical investigators. New York: Springer; 2012.
+11.	
+Farrugia P, Petrisor BA, Farrokhyar F, Bhandari M. Research questions, 
+hypotheses and objectives. Can J Surg. 2010 Aug;53(4): 278–81.
+12.	
+Haynes RB. Forming research questions. J Clin Epidemiol. 2006 
+Sep;59(9):881–886. DOI:10.1016/j.jclinepi.2006.06.006.
+13.	
+Hulley S, Cummings S, Browner W. Designing clinical research, 
+3rd ed: Philadelphia: Lippincott Williams and Wilkins; 2007.
+14.	
+World Health Organization. Ethical standards and procedures for 
+research with human beings [Online]. 2011 [cited 2018 Jul 02]. 
+Available from: http://www.who.int/ethics/research/en/.
+15.	
+Thoma A, McKnight L, McKay P, Haines T. Forming the research 
+question. Clin Plast Surg. 2008 Apr;35(2):189–93. doi: 10.1016/ 
+j.cps.2007.10.009.
+16.	
+Sackett D, Straus S, Richardson WS, Rosenberg W, Haynes RB. 
+Evidence-based medicine: How to practice and teach EBM. 
+London: Churchill Livingstone; 1999.
+17.	
+O’Connor D, Green S, Higgins J. Chapter 5: Deﬁning the review 
+question and developing criteria for including studies. In: Higgins 
+J, Green S, eds. Cochrane handbook for systematic reviews of 
+interventions. Chichester: Wiley-Blackwell; 2008. pp. 83–94. 
+18.	
+Moher D, Liberati A, Tetzlaff J, Altman DG; PRISMA Group. 
+Preferred reporting items for systematic reviews and meta-analyses: 
+the PRISMA statement. PLoS Med. 2009 Jul 21;6(7):e1000097. 
+doi: 10.1371/journal.pmed.1000097.
+19.	
+Badger D, Nursten J, Williams P, Woodward M. Should all literature 
+reviews be systematic? Evaluation and Research in Education. 
+2000;14(3 & 4):220–230. doi:10.1080/09500790008666974.
+short amount of time.2,5 We presented an expanded and 
+iterative framework based on three scoping studies,7–9 
+building on previous methodologies:2,5,6 
+1.	
+Define your research question;
+2.	
+Specify your research statement according to population, 
+concept, and context;
+3.	
+Prepare the necessary tools, forms, and software packages;
+4.	
+Assemble your expert panel and/or consultants;
+5.	
+Develop your search strategy;
+6.	
+Implement the search strategy and retrieve identified 
+studies;
+7.	
+Screen and assess studies for inclusion in the scoping 
+review;
+8.	
+Chart the data;
+9.	
+Synthesize your results; and
+10.	 Prepare your final report. 
+Even though only three scoping studies informed 
+our proposed framework that may have been insufficient 
+to cover other issues and challenges, thus limiting our list 
+of recommendations, these were done based on different 
+approaches for arriving at a research question; inclusion 
+criteria; tools, forms, and software products utilized; expert 
+panels and consultants involved; and search strategies 
+developed. Consequently, these variations may have 
+compensated for the limited number of studies included,7–9 
+and guidelines compared and contrasted.2,5,6 We recommend 
+future studies to apply existing scoping review methodologies, 
+and further enhance this rapidly evolving framework for 
+uptake in research, policy, and practice.
+Statement of Authorship
+All authors participated in data collection and analysis, 
+and approved the final version submitted.
+Author Disclosure
+All authors declared no conflicts of interest.
+Funding Source
+No funding support.
+REFERENCES
+1.	
+Anderson S, Allen P, Peckham S, Goodwin N. Asking the right 
+questions: scoping studies in the commissioning of research on the 
+organisation and delivery of health services. Health Res Policy Syst. 
+2008 Jul 9;6:7. doi: 10.1186/1478-4505-6-7.
+VOL. 55 NO. 7 2021
+780
+Practical guidance for scoping reviews

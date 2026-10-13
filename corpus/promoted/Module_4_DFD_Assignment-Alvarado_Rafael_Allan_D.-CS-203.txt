@@ -1,0 +1,87 @@
+Rafael Allan D. Alvarado 
+CS-203 
+ 
+Module 4 – Process Modelling Assignment: 
+1. Explain the four elements given in the figure below. Discuss also each notation 
+Provided. 
+ 
+ 
+Four Elements of Process Modelling 
+ 
+External entity  
+An external entity is a person, institution, or department outside of the modeled system.  It is a system in 
+which data originates (data source) and usually ends (data sink). 
+ 
+Process 
+The process is a system's input-to-output transformation that results from a process function. Process 
+symbols might be rectangular with rounded corners, oval, rectangle, or circle. The process is referred to as a 
+brief sentence, in one word or phrase to explain its essence. 
+ 
+Data store  
+A data store is a collection of data saved in a warehouse for future use. The store symbol is made up of two 
+horizontal lines. The warehouse is not limited to being a data file. It can be anything from a folder of 
+documents to an optical disc to a filing cabinet. The data warehouse can be seen independently of how it 
+was implemented. 
+ 
+Data flow  
+Data flow outlines how information is transferred between different elements of a system. The arrow is a 
+symbol for data transmission. To identify the information being transported, give the flow a relatable name. 
+ 
+ 
+Four notations of process Modelling 
+ 
+Yourdon and DeMarco notation  
+The Yourdon and DeMarco notation is a graphical depiction of a system's data flow, depicting how data 
+moves between processes, external entities, and data stores. It is utilized for structured system analysis and 
+understanding a system's functional breakdown. 
+ 
+Gane & Sarson notation  
+It is used to display system operations, external entities, data stores, and data flows, assisting analysts and 
+designers in understanding system functionality. It differs from Yourdon and DeMarco's notation by the 
+forms used to express processes and things. 
+ 
+SSADM Notation 
+It is a structured method for information system analysis, design, and documentation. It provides an 
+organized framework for employing standardized diagrams to depict system interactions, data flows, and 
+processes. 
+ 
+Unified Notation 
+It's a standardized visual notation for representing software and business processes. UML offers a uniform 
+method for modeling system structures, behaviors, and interactions in a consistent and orderly manner. 
+ 
+ 
+ 
+ 
+
+2. Among the four(4) notation given, choose one and make your own example on 
+how does this notation is applied in presenting the flow of your data. Apply the 
+chosen notation in creating your first diagram in DFD (Context Diagram). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In a level 0 data flow diagram using the Yourdon and DeMarco notation, the process begins when 
+the student requests books from the library system. The library system retrieves the requested book's 
+information from its database and then gives it to the students. Then, the student receives the requested 
+book. Finally, the librarian receives an inventory report for the transaction. 
+ 

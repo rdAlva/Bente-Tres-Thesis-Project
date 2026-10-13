@@ -1,0 +1,809 @@
+{% extends "base.html" %}
+
+{% block title %}HAUdemicCheck{% endblock %}
+
+{% block head %}
+<!-- Intro.js CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intro.js@7.0.1/introjs.min.css">
+<style>
+    /* =========================
+       Threshold Slider
+       ========================= */
+    .threshold-display {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.25rem;
+        background: #FAF6EC;
+        border-radius: 6px;
+    }
+
+    .threshold-label {
+        font-weight: 600;
+    }
+
+    .threshold-current {
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: #6B0F1A;
+    }
+
+    .slider-container {
+        width: 100%;
+    }
+
+    .slider-labels {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.4rem;
+    }
+
+    .threshold-slider {
+        width: 100%;
+        accent-color: #6B0F1A;
+        cursor: pointer;
+        height: 6px;
+    }
+
+    .threshold-slider:focus-visible {
+        outline: 2px solid #C5A028;
+        outline-offset: 4px;
+    }
+
+    .slider-labels-reference {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0.5rem;
+        font-size: 0.75rem;
+        color: #6B5F5B;
+    }
+
+    .threshold-descriptions {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 1rem;
+    }
+
+    .threshold-desc-item {
+        background: #FAF9F6;
+        border-left: 3px solid #6B0F1A;
+        padding: 1rem;
+        border-radius: 6px;
+    }
+
+    .desc-value {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #6B0F1A;
+    }
+
+    .desc-title {
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 0.25rem;
+    }
+
+    .desc-text {
+        font-size: 0.8rem;
+        color: #6B5F5B;
+        margin-top: 0.25rem;
+    }
+
+    /* =========================
+       Algorithm Explanation
+       ========================= */
+    .algorithm-formula {
+        background: #FAF9F6;
+        border-left: 4px solid #C5A028;
+        padding: 1.25rem;
+        border-radius: 6px;
+    }
+
+    .formula-title {
+        color: #6B0F1A;
+    }
+
+    .formula-math {
+        font-family: monospace;
+        overflow-x: auto;
+    }
+
+    /* =========================================================
+       Intro.js Walkthrough – HAUdemicCheck Theme
+       ========================================================= */
+    .introjs-overlay {
+        background: rgba(42, 35, 33, 0.75);
+    }
+
+    .introjs-tooltip {
+        background-color: #ffffff;
+        color: var(--hau-text);
+        border-radius: 12px;
+        border: 1px solid var(--hau-maroon);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+        min-width: 300px;
+        max-width: 420px;
+        padding: 1.25rem 1.5rem 1rem;
+        font-family: inherit;
+        position: relative;
+    }
+
+    .introjs-tooltip-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.75rem;
+        margin-bottom: 0.75rem;
+        padding-right: 4.5rem;
+    }
+
+    .introjs-tooltiptitle {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: var(--hau-maroon);
+        margin: 0;
+    }
+
+    .introjs-skipbutton {
+        display: block !important;
+        background-color: transparent !important;
+        color: var(--hau-text-muted);
+        border: none !important;
+        box-shadow: none !important;
+        border-radius: 0;
+        padding: 0.3rem 0.5rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+        text-shadow: none;
+        transition: color 0.2s;
+        position: absolute;
+        right: 0.5rem;
+        top: 0.5rem;
+        z-index: 10;
+        cursor: pointer;
+    }
+
+    .introjs-skipbutton:hover,
+    .introjs-skipbutton:focus {
+        background-color: transparent;
+        color: var(--hau-maroon);
+        text-decoration: underline;
+    }
+
+    .introjs-skipbutton:focus-visible {
+        outline: 2px solid var(--hau-gold);
+        outline-offset: 2px;
+    }
+
+    .introjs-tooltiptext {
+        color: var(--hau-text-muted);
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+    }
+
+    .introjs-button {
+        background-color: var(--hau-maroon);
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        padding: 0.5rem 1rem;
+        font-weight: 600;
+        font-size: 0.85rem;
+        text-shadow: none;
+        cursor: pointer;
+        transition: background-color 0.2s, box-shadow 0.2s;
+        box-shadow: 0 2px 4px rgba(107, 15, 26, 0.15);
+    }
+
+    .introjs-button:hover,
+    .introjs-button:focus {
+        background-color: var(--hau-maroon-dark);
+        color: #fff;
+        box-shadow: 0 4px 8px rgba(107, 15, 26, 0.25);
+    }
+
+    .introjs-button:focus-visible {
+        outline: 2px solid var(--hau-gold);
+        outline-offset: 2px;
+    }
+
+    .introjs-button.introjs-disabled,
+    .introjs-button.introjs-disabled:hover,
+    .introjs-button.introjs-disabled:focus {
+        background-color: #e0e0e0;
+        color: #9e9e9e;
+        cursor: not-allowed;
+        box-shadow: none;
+    }
+
+    .introjs-prevbutton {
+        background-color: transparent;
+        color: var(--hau-maroon);
+        border: 1px solid var(--hau-maroon);
+        box-shadow: none;
+    }
+
+    .introjs-prevbutton:hover,
+    .introjs-prevbutton:focus {
+        background-color: rgba(107, 15, 26, 0.06);
+        color: var(--hau-maroon);
+    }
+
+    .introjs-progress {
+        background-color: rgba(107, 15, 26, 0.1);
+        border-radius: 999px;
+        height: 6px;
+        margin-bottom: 0.75rem;
+        overflow: hidden;
+    }
+
+    .introjs-progressbar {
+        background-color: var(--hau-gold);
+        border-radius: 999px;
+        transition: width 0.3s ease;
+    }
+
+    .introjs-bullets ul li a {
+        background-color: #ccc;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin: 0 4px;
+        transition: background-color 0.2s;
+    }
+
+    .introjs-bullets ul li a.active {
+        background-color: var(--hau-maroon);
+    }
+
+    .introjs-helperLayer {
+        background-color: rgba(255, 255, 255, 0.85);
+        border: 2px solid var(--hau-gold);
+        border-radius: 8px;
+        box-shadow: 0 0 0 4px rgba(197, 160, 40, 0.3);
+    }
+
+    .introjs-arrow.top,
+    .introjs-arrow.top-right,
+    .introjs-arrow.top-middle {
+        border-bottom-color: #ffffff;
+    }
+
+    .introjs-arrow.bottom,
+    .introjs-arrow.bottom-right,
+    .introjs-arrow.bottom-middle {
+        border-top-color: #ffffff;
+    }
+
+    .introjs-arrow.left,
+    .introjs-arrow.left-bottom {
+        border-right-color: #ffffff;
+    }
+
+    .introjs-arrow.right,
+    .introjs-arrow.right-bottom {
+        border-left-color: #ffffff;
+    }
+
+    @media (max-width: 576px) {
+        .introjs-tooltip {
+            min-width: auto;
+            max-width: 90vw;
+            padding: 1rem;
+        }
+
+        .introjs-tooltip-header {
+            padding-right: 4rem;
+        }
+
+        .introjs-skipbutton {
+            top: 0.25rem;
+            right: 0.25rem;
+            padding: 0.25rem 0.7rem;
+            font-size: 0.75rem;
+        }
+    }
+
+    /* =========================
+       Similarity Algorithm Overview Toggle
+       ========================= */
+    .algo-toggle {
+        font-size: inherit;
+        line-height: inherit;
+        color: inherit;
+    }
+
+    .algo-toggle:hover {
+        color: inherit;
+    }
+
+    .algo-toggle:focus-visible {
+        outline: 2px solid #6B0F1A;
+        outline-offset: 2px;
+        border-radius: 4px;
+    }
+
+    .algo-toggle-icon {
+        transition: transform 0.2s ease;
+    }
+
+    .algo-toggle[aria-expanded="true"] .algo-toggle-icon {
+        transform: rotate(180deg);
+    }
+
+    /* =========================
+       Upload Documents Info Icon + Tooltip
+       ========================= */
+    .upload-info-icon {
+        background: transparent;
+        border: none;
+        padding: 0 0.25rem;
+        line-height: 1;
+        font-size: 1rem;
+        color: rgba(255, 255, 255, 0.8);
+        cursor: help;
+        transition: color 0.2s ease;
+    }
+
+    .upload-info-icon:hover,
+    .upload-info-icon:focus-visible {
+        color: var(--hau-gold-light);
+    }
+
+    .upload-info-icon:focus-visible {
+        outline: 2px solid var(--hau-gold-light);
+        outline-offset: 2px;
+        border-radius: 4px;
+    }
+
+    /* Themed Bootstrap tooltip (positioned above by data-bs-placement) */
+    .tooltip.upload-info-tooltip .tooltip-inner {
+        background-color: var(--hau-maroon-dark);
+        color: #ffffff;
+        border: 1px solid var(--hau-gold);
+        border-radius: var(--hau-radius);
+        box-shadow: var(--hau-shadow);
+        max-width: 260px;
+        text-align: left;
+        padding: 0.6rem 0.8rem;
+        font-size: 0.85rem;
+    }
+
+    .tooltip.upload-info-tooltip .tooltip-arrow::before {
+        border-top-color: var(--hau-maroon-dark);
+    }
+
+</style>
+{% endblock %}
+
+{% block content %}
+
+<div class="text-center">
+    <img src="{{ url_for('static', filename='images/logo.png') }}" alt="HAUdemicCheck logo" class="mb-4" width="120">
+
+    <h1 class="display-5 fw-bold">HAUdemicCheck</h1>
+
+    <p class="lead">
+        Upload one or more PDF documents for academic similarity detection.
+    </p>
+
+    <!-- Tutorial button -->
+    <div class="mt-3">
+        <button type="button" id="startTutorialBtn" class="btn btn-outline-primary">
+            <i class="bi bi-question-circle me-1"></i> Tutorial
+        </button>
+    </div>
+</div>
+
+<!-- ============================================================
+     1. UPLOAD CARD
+     ============================================================ -->
+
+<div class="card shadow-lg mt-5" id="uploadCard">
+    <div class="card-header">
+        <div class="d-flex justify-content-between align-items-center gap-2">
+            <h2 class="h5 mb-0">Upload Documents</h2>
+
+            <button
+                type="button"
+                id="uploadInfoIcon"
+                class="upload-info-icon"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                data-bs-custom-class="upload-info-tooltip"
+                data-bs-title="{% if repository_count %}Upload a document here to compare it against the {{ repository_count }} documents in the known repository.{% else %}Upload a document here to compare it against the documents in the known repository.{% endif %}"
+                aria-label="Information about plagiarism check uploads"
+            >
+                <i class="bi bi-info-circle" aria-hidden="true"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="card-body p-3 p-md-5">
+
+        <form id="uploadForm" method="POST" enctype="multipart/form-data" novalidate>
+
+            {{ form.hidden_tag() }}
+
+            <!-- PDF Upload -->
+            <div class="mb-4">
+                <label class="form-label fw-semibold" for="files">
+                    Select PDF File(s)
+                </label>
+
+                <div id="dropZone" class="drop-zone">
+                    <i class="bi bi-cloud-arrow-up drop-zone-icon" aria-hidden="true"></i>
+
+                    <p class="mb-1 fw-semibold">
+                        Drag files here or click to browse
+                    </p>
+
+                    <p class="mb-0 text-muted small">
+                        Only .pdf files below 50MB per file are accepted
+                    </p>
+
+                    {{ form.files(
+                    class="drop-zone-input" ~
+                    (" is-invalid" if form.files.errors else ""),
+                    multiple=True,
+                    accept=".pdf",
+                    id="files",
+                    aria_describedby="filesHelp",
+                    aria_invalid="true" if form.files.errors else "false"
+                    ) }}
+                </div>
+
+                {% if form.files.errors %}
+                <div class="invalid-feedback d-block">
+                    {% for error in form.files.errors %}
+                    {{ error }}
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                <div id="clientSizeFeedback" class="invalid-feedback d-block d-none" role="alert"></div>
+
+                <div id="filesHelp" class="form-text mt-2">
+                    Hold <strong>Ctrl</strong> (or <strong>Cmd</strong> on Mac)
+                    to select multiple files, or
+                    <strong>Shift</strong> to select a range.
+                </div>
+            </div>
+
+            <!-- Selected Files -->
+            <div class="mb-4" id="selectedFilesContainer" style="display:none;">
+                <h2 class="h6" id="selectedFilesLabel">
+                    Selected Files
+                </h2>
+
+                <ul id="selectedFiles" class="list-group" aria-live="polite">
+                    <!-- dynamically added -->
+                </ul>
+
+                <div id="selectedFilesStatus" class="visually-hidden" aria-live="polite"></div>
+            </div>
+
+            <hr class="my-4">
+
+            <!-- Upload Button / Processing State -->
+            <div class="d-grid gap-2">
+
+                {{ form.submit(
+                class="btn btn-primary btn-lg",
+                id="uploadButton"
+                ) }}
+
+                <div id="uploadStatus"
+                    class="text-center text-muted d-flex align-items-center justify-content-center gap-2 d-none"
+                    role="status" aria-live="polite" hidden>
+                    <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+
+                    <span>
+                        Processing documents. Please wait.
+                    </span>
+                </div>
+
+                <p id="processingNote" class="text-center text-muted small mt-1 d-none" hidden>
+                    This may take a few moments.
+                    You’ll be redirected to your results automatically.
+                </p>
+
+            </div>
+
+        </form>
+
+    </div>
+</div>
+
+
+<!-- ============================================================
+     2. SIMILARITY THRESHOLD CARD
+     ============================================================ -->
+
+<div class="card shadow-lg mt-4" id="thresholdCard">
+    <div class="card-header">
+        <h2 class="h5 mb-0">Similarity Threshold</h2>
+    </div>
+
+    <div class="card-body p-3 p-md-5">
+
+        <fieldset class="mb-0">
+
+            <div class="threshold-display">
+                <span class="threshold-label">
+                    Current Threshold
+                </span>
+
+                <span class="threshold-current" id="thresholdDisplay">
+                    0.30
+                </span>
+            </div>
+
+            <div class="slider-container mt-4">
+
+                <div class="slider-labels">
+                    <span>0.25</span>
+                    <span>0.35</span>
+                </div>
+
+                <input type="range" id="thresholdSlider" name="threshold" form="uploadForm" class="threshold-slider"
+                    min="0.25" max="0.35" step="0.01" value="0.30" aria-label="Similarity Threshold"
+                    aria-valuemin="0.25" aria-valuemax="0.35" aria-valuenow="0.30" aria-valuetext="Balanced (0.30)">
+
+                <div class="slider-labels-reference">
+                    <span>High Sensitivity</span>
+                    <span>Balanced</span>
+                    <span>Low Sensitivity</span>
+                </div>
+
+            </div>
+
+            <div class="threshold-descriptions mt-4">
+
+                <div class="threshold-desc-item">
+                    <div class="desc-value">0.25</div>
+
+                    <div class="desc-title">
+                        High Sensitivity
+                    </div>
+
+                    <div class="desc-text">
+                        Detects more potential similarity cases.
+                    </div>
+                </div>
+
+                <div class="threshold-desc-item">
+                    <div class="desc-value">0.30</div>
+
+                    <div class="desc-title">
+                        Balanced
+                    </div>
+
+                    <div class="desc-text">
+                        Recommended for general use.
+                    </div>
+                </div>
+
+                <div class="threshold-desc-item">
+                    <div class="desc-value">0.35</div>
+
+                    <div class="desc-title">
+                        Low Sensitivity
+                    </div>
+
+                    <div class="desc-text">
+                        Requires a higher similarity score before
+                        withholding or reviewing a document.
+                    </div>
+                </div>
+
+            </div>
+
+        </fieldset>
+
+    </div>
+</div>
+
+
+<!-- ============================================================
+     3. SIMILARITY ALGORITHM CARD
+     ============================================================ -->
+
+<div class="card shadow-lg mt-4 mb-5" id="algorithmCard">
+
+    <div class="card-header">
+        <h2 class="h5 mb-0">
+            <button
+                class="algo-toggle btn w-100 d-flex justify-content-between align-items-center p-0 border-0 bg-transparent"
+                type="button" data-bs-toggle="collapse" data-bs-target="#algorithmOverviewBody" aria-expanded="false"
+                aria-controls="algorithmOverviewBody">
+                Algorithm Overview
+
+                <i class="bi bi-chevron-down algo-toggle-icon" aria-hidden="true"></i>
+            </button>
+        </h2>
+    </div>
+
+    <div class="collapse" id="algorithmOverviewBody">
+
+        <div class="card-body p-3 p-md-5">
+
+            <!-- Formula -->
+            <div class="algorithm-formula mb-4">
+
+                <div class="formula-title fw-bold mb-2">
+                    Combined Similarity Score
+                </div>
+
+                <div class="formula-math bg-white border rounded p-3">
+                    <strong>S<sub>combined</sub></strong>
+                    =
+                    (C + J<sub>1</sub> + J<sub>2</sub> + J<sub>3</sub>) / 4
+                </div>
+
+            </div>
+
+            <!-- Components -->
+            <div class="row g-3 mb-4">
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-3 bg-light border-start border-3 rounded">
+                        <strong>C</strong>
+
+                        <div class="small text-muted mt-1">
+                            TF-IDF Cosine Similarity
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-3 bg-light border-start border-3 rounded">
+                        <strong>J<sub>1</sub></strong>
+
+                        <div class="small text-muted mt-1">
+                            Unigram Jaccard Similarity
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-3 bg-light border-start border-3 rounded">
+                        <strong>J<sub>2</sub></strong>
+
+                        <div class="small text-muted mt-1">
+                            Bigram Jaccard Similarity
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-3 bg-light border-start border-3 rounded">
+                        <strong>J<sub>3</sub></strong>
+
+                        <div class="small text-muted mt-1">
+                            Trigram Jaccard Similarity
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Explanation -->
+            <p class="text-muted mb-4">
+                Cosine Similarity looks at how similar the overall content
+                and important terms are between two documents, while Jaccard
+                Similarity looks at how much their words and word combinations
+                overlap. Using both helps the system detect documents that are
+                similar in meaning as well as documents that share the same or
+                very similar wording.
+            </p>
+
+            <p class="text-muted mb-4">
+                The system calculates the final document similarity score by
+                averaging the TF-IDF cosine similarity and the three Jaccard
+                similarity scores.
+            </p>
+
+            <!-- Decision Rule -->
+            <div class="p-3 rounded" style="
+                background: rgba(197, 160, 40, 0.15);
+                border-left: 4px solid #C5A028;
+            ">
+
+                <div class="fw-bold mb-2">
+                    Decision Rule
+                </div>
+
+                <div class="mb-2">
+                    If:
+                    <strong>
+                        S<sub>combined</sub> ≥ Threshold
+                    </strong>
+                    →
+
+                    <span class="badge bg-danger">
+                        WITHHOLD / REVIEW
+                    </span>
+                </div>
+
+                <div>
+                    If:
+                    <strong>
+                        S<sub>combined</sub> &lt; Threshold
+                    </strong>
+                    →
+
+                    <span class="badge bg-success">
+                        PROMOTE
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<!-- Intro.js JS -->
+<script src="https://cdn.jsdelivr.net/npm/intro.js@7.0.1/intro.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const tutorialBtn = document.getElementById('startTutorialBtn');
+
+        if (tutorialBtn && typeof introJs !== 'undefined') {
+            tutorialBtn.addEventListener('click', function () {
+                const steps = [
+                    {
+                        element: '#dropZone',
+                        intro: 'Drag and drop your PDF files here, or click to browse.',
+                        position: 'bottom'
+                    },
+                    {
+                        element: '#uploadButton',
+                        intro: 'Click this button to start the similarity detection process.',
+                        position: 'top'
+                    },
+                    {
+                        element: '#thresholdSlider',
+                        intro: 'Adjust the similarity threshold to control how strict the plagiarism detection is.',
+                        position: 'top'
+                    },
+                    {
+                        element: '#algorithmCard',
+                        intro: 'Learn how the final similarity score is calculated.',
+                        position: 'top'
+                    }
+                ];
+
+                const intro = introJs();
+                intro.setOptions({
+                    steps: steps,
+                    showProgress: true,
+                    showBullets: true,
+                    exitOnOverlayClick: true,
+                    exitOnEsc: true,
+                    nextLabel: 'Next →',
+                    prevLabel: '← Back',
+                    skipLabel: 'Skip',
+                    doneLabel: 'Done'
+                });
+
+                intro.start();
+            });
+        }
+
+        // Upload info icon: native Bootstrap tooltip (hover + focus).
+        // The Bootstrap bundle with Popper is loaded in base.html.
+        const uploadInfoIcon = document.getElementById('uploadInfoIcon');
+        if (uploadInfoIcon && window.bootstrap && bootstrap.Tooltip) {
+            new bootstrap.Tooltip(uploadInfoIcon);
+        }
+    });
+</script>
+{% endblock %}

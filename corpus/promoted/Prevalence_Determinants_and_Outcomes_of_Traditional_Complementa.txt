@@ -1,0 +1,1646 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+2022 
+Prevalence, Determinants and Outcomes of Traditional, 
+Prevalence, Determinants and Outcomes of Traditional, 
+Complementary and Alternative Medicine Use for Hypertension 
+Complementary and Alternative Medicine Use for Hypertension 
+Among Low-Income Households in Malaysia and the Philippines 
+Among Low-Income Households in Malaysia and the Philippines 
+Lia M. Palileo-Villanueva 
+University of the Philippines Manila 
+Benjamin Palafox 
+London School of Hygiene and Tropical Medicine 
+Arianna Maever L. Amit 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, aamit@ateneo.edu 
+Veincent Christian F. Pepito 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, vpepito@ateneo.edu 
+Fadhlina Ab-Majid 
+Universiti Teknologi MARA 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Alternative and Complementary Medicine Commons, and the Cardiovascular Diseases 
+Commons 
+Custom Citation 
+Custom Citation 
+Palileo-Villanueva, L.M., Palafox, B., Amit, A.M.L., Pepito, V.C.F., Ab-Majid, F., Ariffin, F., Balabanova, D., Isa, 
+M.R., Mat-Nasir, N., My, M., Renedo, A., Seguin, M.L., Yusoff, K., Dans, A.L., & Mckee, M. (2022). Prevalence, 
+determinants and outcomes of traditional, complementary and alternative medicine use for hypertension 
+among low-income households in Malaysia and the Philippines. BMC Complementary Medicine and 
+Therapies, 22. https://doi.org/10.1186/s12906-022-03730-x 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+Authors 
+Authors 
+Lia M. Palileo-Villanueva, Benjamin Palafox, Arianna Maever L. Amit, Veincent Christian F. Pepito, Fadhlina 
+Ab-Majid, Farnaza Ariffin, Dina Balabanova, Mohamad-Rodi Isa, Nafiza Mat-Nasir, and Mazapuspavina My 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/asmph-pubs/107 
+
+Palileo‑Villanueva et al. 
+BMC Complementary Medicine and Therapies          (2022) 22:252  
+https://doi.org/10.1186/s12906-022-03730-x
+RESEARCH
+Prevalence, determinants and outcomes 
+of traditional, complementary and alternative 
+medicine use for hypertension 
+among low‑income households in Malaysia 
+and the Philippines
+Lia M. Palileo‑Villanueva1†, Benjamin Palafox2*†, Arianna Maever L. Amit1,3, Veincent Christian F. Pepito1,3, 
+Fadhlina Ab‑Majid4, Farnaza Ariffin4, Dina Balabanova2, Mohamad‑Rodi Isa4, Nafiza Mat‑Nasir4, 
+Mazapuspavina My4, Alicia Renedo2, Maureen L. Seguin2, Khalid Yusoff4,5^, Antonio L. Dans1 and Martin Mckee2 
+Abstract 
+Background:  Traditional, complementary and alternative medicine (TCAM) is used to treat a broad range of con‑
+ditions. In low- and middle-income countries (LMICs), TCAM use is particularly common among those with low 
+socio-economic status. To better understand the patterns and impact of TCAM use on the management of non-
+communicable diseases in these populations, this study examines the prevalence and characteristics of TCAM use for 
+hypertension, its determinants, and its association with hypertension management outcomes and wellbeing among 
+low-income adults in two Southeast Asian countries at different levels of economic and health system development, 
+Malaysia and the Philippines.
+Methods:  We analysed cross-sectional data from 946 randomly selected adults diagnosed with hypertension from 
+low-income rural and urban communities in Malaysia (n = 495) and the Philippines (n = 451). We compared the preva‑
+lence, characteristics and household expenditure on TCAM use between countries and used multi-level, mixed-effects 
+regression to estimate associations between TCAM use and its determinants, and five hypertension management 
+outcomes and wellbeing.
+Results:  The prevalence of TCAM use to manage hypertension was higher in the Philippines than in Malaysia (18.8% 
+vs 8.8%, p < 0.001). Biologically-based modalities, e.g. herbal remedies, were the most common type of TCAM used in 
+both countries, mainly as a complement, rather than an alternative to conventional treatment. Households allo‑
+cated around 10% of health spending to TCAM in both countries. Belief that TCAM is effective for hypertension was 
+© The Author(s) 2022. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which 
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the 
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or 
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line 
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory 
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this 
+licence, visit http://​creat​iveco​mmons.​org/​licen​ses/​by/4.​0/. The Creative Commons Public Domain Dedication waiver (http://​creat​iveco​
+mmons.​org/​publi​cdoma​in/​zero/1.​0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+Open Access
+BMC Complementary
+Medicine and Therapies
+†Lia M. Palileo-Villanueva and Benjamin Palafox were contributed equally to 
+the study.
+^Khalid Yusoff was deceased.
+*Correspondence:  benjamin.palafox@lshtm.ac.uk
+2 Faculty of Public Health and Policy, London School of Hygiene and Tropical 
+Medicine, Centre for Global Chronic Conditions, 15‑17 Tavistock Place, 
+London WC1H 9SH, UK
+Full list of author information is available at the end of the article
+
+Page 2 of 13
+Palileo‑Villanueva et al. BMC Complementary Medicine and Therapies          (2022) 22:252 
+Background
+Every day large numbers of people use traditional, com-
+plementary and alternative medicines (TCAM) to sup-
+port their health and wellbeing [1–3]. The World Health 
+Organization (WHO) defines traditional medicine as the 
+“sum total of the knowledge, skill and practices based on 
+the theories, beliefs and experiences indigenous to differ-
+ent cultures, used in the maintenance of health as well as 
+in the prevention, diagnosis, improvement or treatment” 
+of illness; while complementary or alternative medicine 
+encompasses a broad set of health care practices that are 
+not considered within the conventional Western allo-
+pathic medical model [4]. The extent to which these ser-
+vices and products are used is considerable, but varies 
+widely from country to country. A systematic review cov-
+ering mainly high- and upper-middle income countries 
+found that 26% of the general population in the United 
+Kingdom had used any form of TCAM in the previous 
+year, but this rose to 76% in Japan [1]. Except in Aus-
+tralia, TCAM use was higher in non-Western countries, 
+[1] reflecting differences in the cultural embeddedness of 
+TCAM from context to context [5].
+The dominant forms of TCAM used also varies, par-
+ticularly across low- and middle-income countries 
+(LMICs), as shown by two systematic reviews conducted 
+across Sub-Saharan Africa and ASEAN member states 
+[2, 3]. These found that herbs and supplements were the 
+common modalities used in both regions [2, 3]. Manipu-
+lative and body-based therapies, such as massage, were 
+also common; as were mind–body methods, such as 
+prayer and meditation; while the frequent use of alterna-
+tive medical systems, including traditional Chinese medi-
+cine, and energy therapies like acupuncture, was noted 
+only in Southeast Asia [2, 3].
+Both reviews also illustrate the broad range of health 
+concerns for which these treatments were used. In 
+Sub-Saharan Africa, TCAM was used for an espe-
+cially wide array of conditions, including reproductive 
+and sexual health concerns, communicable diseases, 
+ophthalmic conditions, musculoskeletal pain and to 
+mend broken bones [2]. These are in addition to the 
+applications found to be common across both regions, 
+including for HIV/AIDS, mental health, neurological 
+conditions, and a range of other non-communicable 
+diseases (NCDs), including cancer, diabetes, asthma 
+and hypertension [2, 3].
+The relationship between TCAM and conventional 
+medicine also varies. An average of 55% of general popu-
+lations across Sub-Saharan Africa use TCAM alongside 
+conventional medicine [2]. In Southeast Asia, detailed 
+national findings from Malaysia found that 41% of users 
+do so concurrently with conventional treatment, while 
+40% choose to seek treatment initially from TCAM pro-
+viders before obtaining conventional care, while the 
+remainder use TCAM only as an alternative to conven-
+tional treatment [6].
+By 2018, 150 of 170 World Health Organization 
+(WHO) member states had formally recognised the use 
+of TCAM in laws, regulations, or institutional structures; 
+however, the degree and means of ensuring the safety 
+and effectiveness of TCAM products and services, and 
+of their integration with conventional medical care dif-
+fers from country to country [4]. Initiatives, such as the 
+‘Roadmap for an Association of Southeast Asian Nations 
+(ASEAN) Community (2009–2015)’, have sought to har-
+monise the production, regulation, marketing and inte-
+gration of TCAM in the region, [7] again reflecting the 
+cultural significance that non-Western systems of medi-
+cine play in these countries [5].
+Alongside cultural factors, TCAM use in LMICs is 
+also driven by access. In many of these settings, national 
+health system weaknesses mean that TCAM services 
+are more physically accessible and affordable than con-
+ventional healthcare options [8, 9]. Consequently, those 
+suffering from chronic and/or multiple conditions, from 
+poorer households and more remote communities are 
+all more likely to use TCAM products and services [2, 3, 
+10–12]. These individuals are also some of the most likely 
+to experience the devastating economic and social con-
+sequences of ill health [13, 14]. Therefore, understanding 
+the patterns and impacts of TCAM use for poor, chroni-
+cally ill people in different LMIC contexts is important as 
+a positive predictor of TCAM use, while belief in conventional medicine was a negative predictor. TCAM use was not 
+strongly associated with current use of medications for hypertension, self-reported medication adherence, blood 
+pressure level and control, or wellbeing in either country.
+Conclusions:  A small, but significant, proportion of individuals living in low-income communities in Malaysia and 
+the Philippines use TCAM to manage their hypertension, despite a general lack of evidence on efficacy and safety of 
+commonly used TCAM modalities. Recognising that their patients may be using TCAM to manage hypertension will 
+enable health care providers to deliver safer, more patient-centred care.
+Keywords:  Hypertension, Blood pressure, Traditional, complementary and alternative medicine, Non-communicable 
+disease control, Malaysia, Philippines
+
+Page 3 of 13
+Palileo‑Villanueva et al. BMC Complementary Medicine and Therapies          (2022) 22:252 
+	
+these countries work toward reducing health and social 
+inequalities in the push to achieve universal health cover-
+age and the Sustainable Development Goals. To date, few 
+such targeted data exist.
+This paper explores the use of TCAM for the manage-
+ment of hypertension by people living in low-income 
+communities in two Southeast Asian countries with dif-
+ferent health systems and at different levels of economic 
+development: the Philippines, a lower-middle income 
+nation with a pluralistic health system where a recent 
+study reported that 43% of adults aged 20 to 50 years had 
+used it in the past 6 months; [15] and Malaysia, a richer 
+country with a more developed public healthcare system 
+where 53%-56% of the population reported using TCAM 
+in the previous year [12, 16, 17]. Although the health 
+systems in both countries are composed of a tax-funded 
+public sector and a large private sector funded primarily 
+via user fees at the point of service, these countries were 
+selected in part to study the effect of key health system 
+differences on the management of hypertension in our 
+study population of low-income adults.
+The Philippines is a large archipelago of more than 
+7000 islands, with a population greater than 100 mil-
+lion [18]. While the nation’s economy is one of the fast-
+est growing in the region, nearly a fifth of the population 
+remains impoverished [19]. Public sector health services 
+are delivered by various levels of government, and pri-
+mary care is the responsibility of municipal and city gov-
+ernments implemented through their networks of rural 
+health units, health centres and barangay (village) health 
+stations. However, access to both public and private care 
+remains inequitable due to the maldistribution of health 
+facilities and staff [18].
+In contrast, Malaysia is a multi-cultural and highly 
+urbanised nation with less than a third of the Philip-
+pine population [20]. Malaysia’s health system has 
+been noted for its highly developed public sector, and 
+particularly its extensive network of health centres and 
+community clinics that provide good levels of access 
+to free primary care throughout the country [20]. As 
+a result, government services have increasingly served 
+rural populations and the poor, while private services 
+tend to be used more by better-off people who live 
+in urban areas – a pattern of health service use also 
+observed in the Philippines [18, 20].
+The difference in national wealth and economic devel-
+opment between the two countries is also reflected in 
+spending on health, with total expenditure in Malaysia 
+being three times the level in the Philippines (i.e. per cap-
+ita total health expenditure in 2019 was 142 US Dollars 
+in the Philippines vs. 437 US Dollars in Malaysia). While 
+over half of the spending on health in Malaysia is cov-
+ered by government transfers raised by taxation (51.5%) 
+with another 34.6% paid by out-of-pocket spending from 
+individuals and households, the situation in Philippines is 
+reversed, with 48.6% of health spending coming out-of-
+pocket and 34.0% covered by government transfers [21].
+In the Philippines, a small but significant portion of 
+health care is also financed via social health insurance 
+administered by the Philippine Health Insurance Cor-
+poration (PhilHealth), which covers more than 90% of 
+the population, including the poor whose insurance pre-
+miums are subsidised by the government. However, the 
+financial protection provided by PhilHealth is limited, 
+as coverage focuses on inpatient care and only the out-
+patient care poor PhilHealth members, resulting in high 
+levels of out-of-pocket spending [18].
+Hypertension, or high blood pressure, is a common 
+chronic condition for which existing conventional medi-
+cine offers safe and effective treatments – yet, only a third 
+of affected individuals are able to successfully manage the 
+condition [22]. Hypertension is the leading risk factor for 
+cardiovascular disease (CVD), which in turn, is the key 
+driver of the global burden from NCDs, [23] and par-
+ticularly in Southeast Asia [24]. In Malaysia, NCDs now 
+account 74% of all disability-adjusted life years lost, and 
+65% in the Philippines [23]. While several studies have 
+explored the use of TCAM by individuals with hyperten-
+sion in a number of Southeast Asian countries, [11, 25–
+30] similar evidence from the Philippines and Malaysia is 
+unavailable or of limited scope. As such, this study pri-
+marily aims to describe and compare the use of TCAM 
+specifically for the management of hypertension among 
+low-income individuals. It also seeks to assess the poten-
+tial determinants of TCAM use for hypertension and the 
+potential effects of TCAM use on hypertension manage-
+ment outcomes. It is hoped that the resulting evidence 
+could inform more equitable and inclusive strategies to 
+improve hypertension management outcomes in both 
+countries, and LMICs more broadly.
+Methods
+Data collection
+Data were collected within the Responsive and Equita-
+ble Health Systems-Partnership on Non-Communicable 
+Diseases (RESPOND) project, a mixed-methods, lon-
+gitudinal, observational study on treatment seeking for 
+hypertension in Malaysia and the Philippines, the details 
+of which have been published elsewhere [31].
+Briefly, low-income communities (i.e. ‘mukim’ in 
+Malaysia and ‘barangays’ in the Philippines with high 
+proportions of households qualifying for government 
+subsides) were selected in urban and rural strata with 
+probability proportional to size in purposefully selected 
+states (Malaysia) and provinces/cities (Philippines). In 
+Malaysia, these peninsular states included Selangor, 
+
+Page 4 of 13
+Palileo‑Villanueva et al. BMC Complementary Medicine and Therapies          (2022) 22:252 
+Kelantan, Perak and Johor. In the Philippines, urban com-
+munities are in the City of Valenzuela in Metro Manila 
+and 8 urban and 15 rural communities in Quezon prov-
+ince. Within selected low-income communities, house-
+holds were randomly selected either using lists obtained 
+from local government units, or in the absence of suit-
+able records, using the WHO Expanded Programme on 
+Immunisation sampling approach [32].
+Selected households were eligible for participation if 
+they were low-income (i.e. self-reported as qualifying for 
+government subsidies under the BR1M programme in 
+Malaysia [33] and the 4P programme in the Philippines, 
+[34] which are both national cash transfer programmes 
+for poverty alleviation, social assistance and develop-
+ment); and if at least one household member was an 
+adult aged 35–70 who either self-reported a history of 
+hypertension diagnosis or were identified as hyperten-
+sive during blood pressure screening following a stand-
+ardised procedure [35]. Those without a self-reported 
+history of hypertension were categorised as hypertensive 
+if either the average systolic or diastolic blood pressure 
+was equal to or above 140 mmHg or 90 mmHg, respec-
+tively. One among all hypertensive members in eligible 
+households was randomly selected to participate, result-
+ing in a representative sample from included communi-
+ties. A priori sample size determination took account 
+of many possible analyses. For example, the ability to 
+detect an cross-country difference in TCAM use, which 
+recent estimates suggest could as large as 13 percentage 
+points (43% in the Philippines, 56% in Malaysia), [3, 15] 
+would require a sample of 461 individuals with hyperten-
+sion across 21 communities from each country (α = 0.05, 
+power = 0.8 (two-tailed), intra-class coefficient = 0.05, 
+cluster size = 20).
+On enrolment, field personnel trained using a demon-
+stration-return demonstration approach administered 
+a questionnaire comprised of validated instruments to 
+participants within their homes to collect information 
+on housing characteristics, socio-economic character-
+istics of households and participants, and hyperten-
+sion-related care experiences, practices, knowledge and 
+attitudes [31]. Questions on TCAM use specifically for 
+hypertension were adapted from the international CAM 
+questionnaire (I-CAM-Q), which asked about the types 
+of providers visited and treatments received, the use of 
+herbs and supplements, and self-care practices [36]. Fol-
+lowing piloting and due to feasibility, all respondents in 
+the Philippines and a random sub-sample of respond-
+ents in Malaysia also provided information on household 
+income and expenditure, and expenditure related to gen-
+eral health and hypertension management. This analysis 
+of TCAM use for hypertension uses cross-sectional base-
+line data collected in 2018; as such, only participants who 
+self-reported as having been diagnosed with hyperten-
+sion by a health professional at baseline were included.
+Variables of interest
+To assess the determinants of TCAM use among our 
+study population, we evaluate one binary outcome, cur-
+rent use of TCAM, which is defined by self-reports of 
+using any type of TCAM for hypertension, where ‘cur-
+rent’ describes regular use in the preceding 2  weeks. 
+Acknowledging that no general standard exists on what 
+constitutes a TCAM therapy, and the inherent chal-
+lenges of defining and categorising certain therapies, 
+[37] in our analyses, TCAM services, practices and 
+products, whether used in self-care or rendered by pro-
+viders, are categorised into the five domains adopted by 
+Wieland et al. in 2011, [38] and as originally developed 
+by the National Center for Complementary and Alter-
+native Medicine in the United States (now known as 
+the National Center for Complementary and Integra-
+tive Health): 1) mind–body therapies (e.g. yoga, Tai Chi, 
+meditation), 2) natural and biological-based therapies 
+(e.g. herbs, supplements), 3) manipulative and body-
+based systems (e.g. massage), 4) energy therapies (e.g. 
+acupuncture, Reiki), and 5) whole medical systems that 
+cut across the previous domains and comprise theories 
+and practices outside of the conventional Western allo-
+pathic model (e.g. homeopathy, naturopathy, traditional 
+Chinese medicine) [38]. To assess the potential effect of 
+TCAM use at different stages of the hypertension man-
+agement pathway, we report and estimate its association 
+with the following internationally standardised indica-
+tors: 1) current use of conventional hypertension medi-
+cation and 2) blood pressure control among those with 
+a self-reported history of hypertension; 3) current adher-
+ence among those currently using hypertension medica-
+tion; 4) average systolic and 5) average diastolic blood 
+pressure measured in mmHg; and, 6) self-reported gen-
+eral wellbeing, rated on a scale ranging from 1 (least satis-
+fied) to 10 (most satisfied). In line with globally accepted 
+survey practice, current use of medication is defined by 
+self-reports of using any type of conventional antihyper-
+tensive medication in the past 2  weeks, and control as 
+participants with a history of hypertension whose aver-
+age systolic and diastolic blood pressure was measured 
+to be less than 140/90  mmHg [39]. Appendix 1 in the 
+Supplemental information provides full definitions of all 
+variables.
+Independent variables and covariates
+The selection of variables examined as potential deter-
+minants of TCAM use and as covariates for the asso-
+ciations between TCAM use and the six hypertension 
+management outcomes described above was theoretically 
+
+Page 5 of 13
+Palileo‑Villanueva et al. BMC Complementary Medicine and Therapies          (2022) 22:252 
+	
+informed by the CAM Healthcare Model, which was 
+adapted from Andersen’s Behavioural Model of Health 
+Service Use [40]. Following this model, selected vari-
+ables address the domains of participant demograph-
+ics (sex, age, marital status), social factors (education, 
+hypertension knowledge), beliefs and values (confidence 
+in health system, receives regular health care), risk per-
+ception (belief that TCAM and/or convention medicine 
+is effective to treat hypertension), personal factors (belief 
+that one can do something to maintain health), resources 
+(household wealth, employment), geographic location 
+(urban vs. rural location), and evaluated need for care 
+(self-reported history of NCDs, time since hypertension 
+diagnosis). Appendix 1 in the Supplemental information 
+provides full definitions of all variables.
+Statistical analysis
+We present summary statistics of participant and house-
+hold characteristics, and indicators of TCAM use and 
+hypertension management as percentages and means by 
+country. Wald tests assess differences in proportions or 
+means across countries. The distribution of TCAM types 
+used for hypertension by country is based on the num-
+ber of times each was mentioned by participants (i.e. par-
+ticipants may report using more than one type of TCAM 
+simultaneously) over the total number of mentions.
+We estimated the association between TCAM use 
+and its determinants, and between TCAM use and the 
+six hypertension management outcomes in separate 
+country-specific models for participants with known 
+hypertension history. We used multi-level, mixed-effects 
+logistic (for binary outcomes) and linear (for continu-
+ous outcomes) regression models with a community-
+level random effect to account for clustering arising from 
+unobserved factors that vary by community. According 
+to the CAM healthcare model, such unobserved fac-
+tors could relate to cultural norms and practices, and 
+the availability and accessibility of TCAM and conven-
+tional medical providers, services, products and informa-
+tion [40]. Therefore, our models attempt to control for 
+such important community-level sources of unobserved 
+confounding.
+We present both crude and adjusted estimates as 
+odds ratios (for binary outcomes) and regression coef-
+ficients (for continuous outcomes) with their 95% con-
+fidence intervals. For the multivariable model of TCAM 
+use, each determinant is mutually adjusted for all other 
+potential determinants described above. The models 
+assessing the association between each of the hyperten-
+sion management outcomes and TCAM use are adjusted 
+for belief in the effectiveness of TCAM and conventional 
+medicine for hypertension, knowledge of hypertension, 
+time since diagnosed with hypertension, history of NCD 
+comorbidity, frequency of health provider visits, sex, 
+age, education, marital/co-habitation status, employ-
+ment, confidence in health system, belief that one can 
+do something to maintain health, urban–rural location 
+and household wealth. Models assessing the association 
+between TCAM use and hypertension control, systolic 
+and diastolic blood pressure, and wellbeing are further 
+adjusted for current use of antihypertensive medication. 
+We also performed tests of interaction by country using 
+Wald tests for the equality of country-specific adjusted 
+associations (i.e. for each TCAM use determinant, and 
+its effect on each of the hypertension management out-
+comes) in fully interacted models of the combined coun-
+try dataset [41].
+Summary statistics, crude and adjusted odds ratios 
+and coefficients from regression models, and Wald tests 
+are weighted for sampling probability and adjusted for 
+community-level clustering to account for the sampling 
+design. Therefore, estimates aim to be representative for 
+the low-income populations of the selected states, prov-
+inces and cities in the two countries. Appendix 2 in the 
+Supplemental information provides information on the 
+derivation of the probability-based sampling weights.
+Results
+Of the 1191 participants categorised as hyperten-
+sive and enrolled in the RESPOND study, 946 of these 
+reported having been diagnosed by a health professional 
+for hypertension and were included in this analysis of 
+TCAM use for hypertension, 451 in the Philippines and 
+495 in Malaysia. We excluded 39 participants (4.1%) 
+from this analysis due to missing data, but they did not 
+appear to differ notably from those included in terms of 
+age, time since diagnosis, marital or employment status; 
+although fewer in the group excluded in the Philippines 
+had any post-secondary education, and in Malaysia the 
+group included more females, were slightly younger and 
+reported fewer NCD comorbidities (see Appendix 3 in 
+the Supplemental information; Appendix 4 provides a 
+completed reporting checklist for cross-sectional studies 
+and flow diagram illustrating the derivation of our ana-
+lytical sample).
+Sociodemographic and health‑seeking characteristics
+In both countries, most participants were female, mar-
+ried/cohabitating and not currently employed (Table 1). 
+Less than a third of participants in the Philippines 
+(27.2%) and Malaysia (28.9%) had controlled hyperten-
+sion, despite most reporting current use of blood-pres-
+sure lowering medications (82.4% vs. 88.4%). A higher 
+proportion of participants in Malaysia reported good 
+adherence to their anti-hypertension medications com-
+pared to the Philippines (98.8% vs. 65.3%, p < 0.001).
+
+Page 6 of 13
+Palileo‑Villanueva et al. BMC Complementary Medicine and Therapies          (2022) 22:252 
+More participants in Malaysia had good hypertension-
+related knowledge than in the Philippines (58.9% vs. 
+39.6%, p < 0.001), reported more co-morbidities (53.7% 
+vs. 28.8%, p < 0.001), and visited a health provider at 
+least twice per year (85.2% vs. 54.6%, p < 0.001). Trust in 
+the health system was high in both countries (91.4% in 
+the Philippines and 94.3% in Malaysia), as was the belief 
+that one could do something to maintain health (94.4% 
+vs. 84.9%). On the other hand, mean self-reported life 
+satisfaction score was higher in Malaysia compared to 
+the Philippines (7.9 vs. 6.1 out of 10, p < 0.001).
+There were significantly more participants in the 
+Philippines than Malaysia who reported using TCAM 
+currently for hypertension (18.8% vs. 8.8%, p < 0.001), 
+the majority of whom were using TCAM concurrently 
+with antihypertensive medications (82.4% in the Philip-
+pines and 71.6% in Malaysia, p < 0.001). A much higher 
+proportion in the Philippines believed that TCAM is 
+effective in treating hypertension compared to Malaysia 
+(54.9% vs. 21.0%, p < 0.001).
+Types of TCAM used in Malaysia and the Philippines
+Natural and biologically-based therapies were the 
+most commonly mentioned category of TCAM used 
+for hypertension in both countries, comprising 90.6% 
+of mentions in the Philippines and 56.8% in Malaysia 
+Table 1  Sociodemographic and health-seeking characteristics of diagnosed hypertensive adults from low-income communities, by 
+country
+^Wald test for a difference in proportions/means (weighted for sampling probability and adjusted for community-level clustering)
+~ N for this indicator is number aware hypertensive adults currently using antihypertensive medications
++ N for this indicator is number aware hypertensive adults currently using TCAM for hypertension
+* N is lower for this indicator due to refusals and ’don’t know’ responses
+** N for this indicator is lower in Malaysia as expenditure data was collected from a sub-sample of enrolled households
+Characteristic by category
+Philippines (N = 444)
+Malaysia (N = 463)
+p-value^
+Sociodemographic
+  % female
+73.4
+72.7
+0.845
+  Mean age (years)
+55.6
+59.7
+ < 0.001
+  % with post-secondary education
+63.9
+46.8
+ < 0.001
+  % married or cohabitating
+72.7
+73.1
+0.895
+  % currently employed
+44.8
+20.5
+ < 0.001
+  Mean household size
+4.5
+3.8
+0.012
+  Median monthly household income (local currency units)*
+11,000 PHP
+1500 MYR
+Hypertension and health-seeking
+  Mean number of years since hypertension diagnosis
+7.6
+8.3
+0.810
+  Mean systolic blood pressure (mmHg)
+150.9
+146.1
+0.050
+  Mean diastolic blood pressure (mmHg)
+93.1
+88.2
+ < 0.001
+  % with hypertension controlled
+27.2
+28.9
+0.532
+  % currently using antihypertensive medications
+82.4
+88.4
+0.019
+  % of current antihypertensive medication users reporting good adherence ~ 
+65.3
+98.8
+ < 0.001
+  % who believe conventional medicine is effective to treat hypertension
+88.2
+81.8
+0.042
+  % with good knowledge of hypertension
+39.6
+58.9
+ < 0.001
+  % with self-reported NCD comorbidities
+28.8
+53.7
+ < 0.001
+  % visiting a health provider at least 2 times per year for any reason
+54.6
+85.2
+ < 0.001
+  % that trust the health system
+91.4
+94.3
+0.158
+  % that believe they can do something to maintain health
+94.4
+84.9
+0.040
+  Mean self-reported life satisfaction score (1–10, least to most satisfied)
+6.1
+7.9
+ < 0.001
+TCAM
+  % currently using TCAM for hypertension
+18.8
+8.8
+ < 0.001
+  % using TCAM concurrently with antihypertensive ­medication+
+82.4
+71.6
+ < 0.001
+  % using TCAM only (and not antihypertensive medication) +
+17.6
+28.4
+0.219
+  % who were advised to take TCAM when diagnosed with hypertension
+6.1
+14.4
+0.112
+  % who believe TCAM is effective to treat hypertension
+54.9
+21.0
+ < 0.001
+  Mean % of per capita total household expenditure spent on TCAM for any reason**
+0.3
+1.4
+0.243
+  Mean % of per capita household health expenditure spent on TCAM for any reason**
+7.0
+12.1
+0.446
+
+Page 7 of 13
+Palileo‑Villanueva et al. BMC Complementary Medicine and Therapies          (2022) 22:252 
+	
+(Tables  2 and 3). However, the most frequently men-
+tioned TCAM modalities used in Malaysia were mas-
+sage (21.6%) and cupping (16.2%), both manipulative and 
+body-based treatments; while in the Philippines, Annona 
+muricata [guyabano (soursop)] (20.3%), Cymbopogon sp. 
+[lemongrass] (19.5%), Rauvolfia serpentina [serpentina] 
+(12.3%) and Blumea balsamifera [sambong] (11.3%), all 
+natural and biologically-based treatments, were most fre-
+quently mentioned. Participants did not mention modali-
+ties related to mind–body therapies in either country; 
+and while some specific mentions, such as acupuncture, 
+may fall within the cross-cutting domain related to whole 
+medical systems, participants did not mention any spe-
+cific system.
+Determinants of TCAM use
+In both countries, participants who believed that TCAM 
+is effective as hypertension treatment were more likely to 
+use it (Table 4). Conversely, those who believed in con-
+ventional medicine were less likely to use TCAM; how-
+ever, strong evidence for this association was observed 
+only in the Philippines (aOR: 0.30, 95%CI: 0.15–0.62), 
+but not in Malaysia (aOR: 0.55, 95%CI: 0.23–1.36). In 
+Malaysia only, there was strong evidence that being diag-
+nosed with hypertension for at least 5 years (aOR: 0.44, 
+95%CI: 0.20–1.00) and increasing household wealth 
+(aOR: 0.70, 95%CI: 0.53–0.92) decreased the likelihood of 
+TCAM use, while having any post-secondary education 
+increased this likelihood (aOR: 2.82, 95%CI: 1.20–6.62). 
+The adjusted point estimates in both countries suggest 
+that females are more likely to use TCAM, but without 
+strong statistical evidence. Strong evidence that coun-
+try is an effect modifier was noted for the adjusted asso-
+ciations between TCAM use and time since diagnosis 
+(p = 0.023) and education (p = 0.037). Sex, age, marital 
+status, employment status, trust in the health system, 
+self-efficacy, urban–rural location, good knowledge of 
+hypertension or self-reported co-morbidities were not 
+significantly associated with TCAM use for hypertension.
+Effect of TCAM use on hypertension management 
+and wellbeing
+Our analysis did not find strong evidence for any of the 
+associations between TCAM use and the use of blood 
+pressure-lowering medications, self-reported adherence 
+to that medication, blood pressure level and control, or 
+wellbeing in either country, or for any significant differ-
+ences across the two countries (Table 5).
+Discussion
+In this study of hypertensive adults living in low-income 
+communities in two middle-income Southeast Asian 
+countries, 9% in Malaysia and 19% in the Philippines 
+reported that they were currently using some form of 
+TCAM for hypertension, most of whom were using it to 
+complement their treatment with conventional medica-
+tions (Table 1).
+Making comparisons with other literature is challeng-
+ing due to differences in how TCAM use is measured, 
+and our focus on hypertension and on the poorest com-
+munities [2, 36]. What we observed is considerably lower 
+than what has been seen in the general populations of 
+both Malaysia (56%) and the Philippines (43%), [1, 15] 
+however, these estimates capture any use over the past 
+6 or 12  months for any reason, as opposed to our esti-
+mates of current use (i.e. in the past 2 weeks) for hyperten-
+sion. Similarly, our figures are lower than what has been 
+observed among hypertensive primary care patients both 
+in Thailand and Cambodia, 33% of whom used herbal 
+medicine over the past 12 months, as opposed to use in 
+the past 2 weeks of any TCAM modality as in our met-
+ric; [27, 42] and also in Malaysia, 27% of whom reported 
+using any TCAM [30]. Our observations are, however, 
+broadly consistent with national estimates among people 
+diagnosed with hypertension from the WHO STEPS sur-
+veys in the region, which found that 15% in Cambodia, 
+Table 2  Distribution of mentions (n = 212) of TCAM modalities 
+used for hypertension in the Philippines
+Type of TCAM (by domain)
+% of mentions
+  Natural and biologically-based products
+90.6
+    Annona muricata (guyabano/soursop) leaves
+20.3
+    Cymbopogon sp. (lemongrass) leaves, tea, roots
+19.8
+    Rauvolfia serpentina (serpentina) leaves
+12.3
+    Blumea balsamifera (sambong) leaves
+11.3
+    Pandanus amaryllifolius (pandan) leaves, tea
+3.8
+    Cymbopogon citratus (tanglad) leaves
+3.3
+    Lagerstroemia speciosa (banaba) leaves
+2.8
+    Allium sativum (garlic) oil, tea, with honey, cap‑
+sules
+2.8
+    Coleus amboinicus (oregano) leaves
+2.8
+    Eleusine indica (paragis) leaves, grass, tea
+2.8
+    Vitex negundo (lagundi) leaves
+2.4
+    Moringa oleifera (malunggay) leaves
+2.4
+    Musa sp. (banana) leaves
+1.9
+  Ehretia microphylla (tsaang gubat), tea or juice
+1.9
+  Manipulative and body-based systems
+7.5
+    Massage
+6.1
+    Hilot (traditional Filipino massage)
+0.5
+    Physical Therapy
+0.5
+    Reflexology
+0.5
+  Energy therapies
+0.5
+    Acupuncture
+0.5
+  Other non-medical, non-herbal
+1.4
+
+Page 8 of 13
+Palileo‑Villanueva et al. BMC Complementary Medicine and Therapies          (2022) 22:252 
+13% in Myanmar, but also 3% in Laos consulted TCAM 
+providers for any reason during the previous 12 months 
+(as opposed to used any TCAM modality for hyperten-
+sion specifically) [3].
+Although our samples include only low-income house-
+holds and women are over-represented – both of which 
+are known predictors of TCAM use and would, therefore, 
+predict higher rates of use [10] – our lower estimates 
+are not entirely unexpected. Other RESPOND study 
+findings have clearly demonstrated that hypertension is 
+widely viewed as a minor health condition that requires 
+treatment with medications only when experiencing 
+symptoms [43]. This general attitude toward treatment 
+is likely to extend to the use of TCAM for hypertension, 
+predisposing a lower rate of current TCAM use given the 
+largely asymptomatic nature of hypertension. Also, quali-
+tative findings indicate that a major reason patients use 
+TCAM is to manage the side effects of conventional anti-
+hypertensive medications when they arise, [44, 45] and 
+therefore, may only be used intermittently.
+What is perhaps more telling is that the prevalence of 
+TCAM use for hypertension in the Philippines is double 
+what was observed in Malaysia. Our analysis of the deter-
+minants of TCAM use showed that belief in the effective-
+ness of TCAM for hypertension treatment increased the 
+likelihood of use in both countries (although, we cannot 
+rule out the possible effect of reverse causality in this 
+observation as a cross-sectional study). Nevertheless, the 
+much higher proportion of Filipinos who held this belief 
+compared to in Malaysia (55% vs. 21%) is a clear driver 
+of this difference. There may be other important predis-
+posing factors underlying this difference that we did not 
+examine in our study, such as the level of satisfaction 
+with conventional medicine, and the influence of friends 
+and family [2, 46].
+The mix of commonly used TCAM modalities is also 
+likely to underlie this cross-country difference in the 
+prevalence of TCAM use, which is, in turn, a product of 
+individual preferences, and the modalities available and 
+affordable to them. Natural and biologically-based thera-
+pies were the most commonly mentioned form in both 
+countries, comprising 91% of mentions in the Philip-
+pines, but only 57% in Malaysia; and most of these men-
+tions referred to herbal remedies that may be affordably 
+purchased or grown in gardens for self-administration. 
+This predominance of herbal treatments for hyperten-
+sion has also been noted in studies from Cambodia, [42] 
+Laos, [28] Myanmar, [26] and Thailand [25, 27]. While in 
+Malaysia, more costly provider-based treatments, namely 
+massage and cupping, were also often used (Tables  2 
+and 3). This preference for more costly provider-based 
+treatments is also reflected in the observed levels of 
+TCAM expenditures (Table 1), where Malaysian house-
+holds tended to allocate more of their total household 
+and health budgets on TCAM, despite their lower use. 
+Yet overall, spending on TCAM by low-income house-
+holds in both countries was relatively low, meaning that 
+it not likely to be a significant driver of health or social 
+inequality.
+Finally, the difference in TCAM use for hypertension 
+may also reflect lower levels of available, affordable and 
+acceptable conventional primary care services and medi-
+cations for hypertension in the Philippines, when com-
+pared to Malaysia. For example, despite high levels of 
+confidence in the overall health system in both countries, 
+only about half in the Philippines (55%) reported visiting 
+a health provider at least 2 times per year for any reason 
+compared to 85% in Malaysia, reflecting a crucial differ-
+ence in realised access to or actual use of conventional 
+care. Realised access accounts for both the care that is on 
+offer and whether the individual is willing and able to use 
+it [47]. A number of known supply-side drivers of TCAM 
+use related to dissatisfaction with conventional health-
+care, such as long distance to facilities, unavailability of 
+medicines, negative attitude of healthcare providers and 
+Table 3  Distribution of mentions (n = 37) of TCAM modalities 
+used for hypertension in Malaysia
+TCAM type (by domain)
+% of 
+mentions
+  Manipulative and body-based systems
+40.5
+    Massage
+21.6
+    Cupping
+16.2
+    Ceragam™ thermal massage
+2.7
+  Energy therapies
+2.7
+    Acupuncture
+2.7
+  Natural and biologically-based
+59.5
+    Non-specific root (akar kayu) drinks
+8.1
+    Bitter melon/gourd (peria katak) juice, capsules
+5.4
+    Al Sharia™ herbal medicine
+2.7
+    Andrographis paniculate (hempedu bumi) leaves
+2.7
+    Annona muricata (soursop) juice
+2.7
+    Cynometra cauliflora (nam nam) fruit
+2.7
+    Eskayvie phytax™ drink of various fruit extracts
+2.7
+    Fig vinegar
+2.7
+    Gardenia augusta (kacapiring/jasmine) leaves
+2.7
+    Genus stichopus (Gamat/sea cucumber)
+2.7
+    Herbal juice
+2.7
+    Herbalife™ product with protein powder, fruit extracts, herbs
+2.7
+    Honey
+2.7
+    Javanese sour herbs
+2.7
+    Olive oil
+2.7
+    Phaleria macrocarpa (Mahkota dewa) fruit
+2.7
+    Physalis angulata (letup-letup) leaves
+2.7
+    Pil mujarab (non-specific herbal tablet)
+2.7
+    Strobilanthen crispa (pecah kaca) leaves
+2.7
+
+Page 9 of 13
+Palileo‑Villanueva et al. BMC Complementary Medicine and Therapies          (2022) 22:252 
+	
+Table 4  Determinants of TCAM use, by country (odds ratios with [95% confidence intervals])
+Evidence from Wald tests for the equality of adjusted coefficients by country in the combined dataset was observed for ‘Diagnosed with hypertension for at least 
+5 years’ (p = 0.023), and ‘Any post-secondary education’ (p = 0.037)
+* p < 0.05
+** p < 0.01
+*** p < 0.001
+Determinant
+Philippines (N = 444)
+Malaysia (N = 463)
+Crude
+Adjusted
+Crude
+Adjusted
+Believes TCAM is effective
+No
+1
+1
+1
+1
+Yes
+2.54***
+3.19***
+5.97***
+6.79***
+[1.47,4.37]
+[1.78,5.72]
+[2.93,12.16]
+[3.12,14.77]
+Believes conventional medicine is effective
+No
+1
+1
+1
+1
+Yes
+0.38**
+0.30**
+0.50
+0.55
+[0.20,0.72]
+[0.15,0.62]
+[0.23,1.07]
+[0.23,1.36]
+Good knowledge of hypertension
+No
+1
+1
+1
+1
+Yes
+1.02
+1.02
+0.67
+0.93
+[0.63,1.66]
+[0.60,1.75]
+[0.34,1.34]
+[0.43,2.01]
+Diagnosed with hypertension for at least 5 years
+No
+1
+1
+1
+1
+Yes
+1.15
+1.36
+0.43*
+0.44*
+[0.71,1.87]
+[0.81,2.30]
+[0.21,0.87]
+[0.20,1.00]
+Self-reported history of NCD comorbidity
+No
+1
+1
+1
+1
+Yes
+1.21
+1.25
+0.80
+1.07
+[0.70,2.08]
+[0.70,2.26]
+[0.40,1.58]
+[0.49,2.34]
+Visits health provider at least 2 times per year for any reason
+No
+1
+1
+1
+1
+Yes
+1.66*
+1.57
+0.71
+1.01
+[1.01,2.72]
+[0.92,2.68]
+[0.29,1.72]
+[0.33,3.06]
+Female
+No
+1
+1
+1
+1
+Yes
+1.38
+1.50
+1.22
+2.31
+[0.79,2.42]
+[0.82,2.72]
+[0.53,2.78]
+[0.80,6.66]
+Age 50 + years
+No
+1
+1
+1
+1
+Yes
+1.18
+1.06
+0.65
+0.85
+[0.67,2.10]
+[0.56,1.99]
+[0.24,1.79]
+[0.26,2.84]
+Any post-secondary education
+No
+1
+1
+1
+1
+Yes
+0.85
+0.96
+2.52*
+2.82*
+[0.52,1.38]
+[0.56,1.66]
+[1.21,5.25]
+[1.20,6.62]
+Married/cohabitating
+No
+1
+1
+1
+1
+Yes
+1.04
+1.26
+0.90
+0.93
+[0.61,1.77]
+[0.71,2.25]
+[0.43,1.90]
+[0.37,2.38]
+Currently employed
+No
+1
+1
+1
+1
+Yes
+0.63
+0.68
+1.69
+1.38
+[0.39,1.02]
+[0.40,1.17]
+[0.77,3.73]
+[0.51,3.77]
+Has confidence in health system
+No
+1
+1
+1
+1
+Yes
+0.76
+0.94
+2.75
+2.21
+[0.38,1.52]
+[0.43,2.04]
+[0.36,21.01]
+[0.27,18.33]
+Believes one can do something to maintain health
+No
+1
+1
+1
+1
+Yes
+0.72
+0.89
+2.12
+2.94
+[0.26,2.03]
+[0.29,2.69]
+[0.62,7.23]
+[0.74,11.63]
+Rural location
+No
+1
+1
+1
+1
+Yes
+1.06
+1.13
+1.81
+1.72
+[0.66,1.71]
+[0.62,2.05]
+[0.80,4.12]
+[0.77,3.83]
+Household wealth score
+0.98
+0.95
+0.76*
+0.70*
+[0.86,1.12]
+[0.81,1.12]
+[0.61,0.95]
+[0.53,0.92]
+Constant
+0.15*
+0.00***
+[0.02,0.99]
+[0.00,0.10]
+
+Page 10 of 13
+Palileo‑Villanueva et al. BMC Complementary Medicine and Therapies          (2022) 22:252 
+long waiting times, [2, 40] are all more prevalent in the 
+Philippines [18, 20].
+Our finding that TCAM is mainly being used concur-
+rently with, rather than as an alternative to conventional 
+medication, which has also been reported in other South-
+east Asian studies, [29, 30] is potentially encouraging. 
+This is also consistent with our observation that TCAM 
+use was not associated with decreased (or increased) use 
+of conventional antihypertensive medication (Table  5). 
+As noted above, qualitative findings from both countries 
+indicate that many use TCAM concurrently to relieve the 
+perceived side effects of their conventional medications 
+[44, 45]. However, among the forms that were used in our 
+study population, namely a wide range of herbal treat-
+ments, massage, cupping and acupuncture, evidence on 
+their effectiveness at lowering blood pressure as a com-
+plementary or alternative treatment to antihypertensive 
+medications is either of low quality, conflicting or sugges-
+tive of no benefit [48–52].
+Of particular concern is the lack of safety data on such 
+treatments when used either alone on as an adjuvant to 
+conventional hypertension medications. Thus, address-
+ing this knowledge gap provides a clear justification for 
+the national TCAM policies, regulations and institutions 
+enacted in many countries, including Malaysia and the 
+Philippines, and a focus for the work on establishing the 
+efficacy, adverse effects and drug interactions that they 
+must do. In the interim, the absence of such safety data 
+must guide regulation of the marketing of these treat-
+ments, and should be highlighted in clinical and public 
+health messaging to empower individuals to make more 
+evidence-informed decisions about TCAM use for the 
+management of hypertension.
+While there may be little evidence on either the ben-
+efits or harms of TCAM for hypertension when used as 
+an alternative or complementary to conventional treat-
+ments, there is strong evidence that TCAM use could 
+reduce adherence to conventional blood pressure-lower-
+ing medication and, ultimately, the likelihood of achiev-
+ing hypertension control, [53] which is also suggested by 
+our study findings (Table  5). Qualitative findings from 
+Malaysia may help to explain this negative association, 
+which reveal a widely-held belief among TCAM practi-
+tioners that hypertension was curable and that traditional 
+remedies for hypertension should not be taken concur-
+rently with conventional medications [45]. Our inability 
+to detect statistically significant associations between 
+TCAM use and hypertension medication adherence and 
+control is likely due to a lack of power. But in the case of 
+adherence which is measured using self-reports, we also 
+acknowledge that our estimates are affected by measure-
+ment error, as lay understandings of adherence and the 
+chronic nature of hypertension are known to substan-
+tially differ from clinical ones [43, 54]. Hence, our lev-
+els of adherence are likely to be overestimated and the 
+association between TCAM use and adherence is likely 
+to be underestimated. Our finding that TCAM use was 
+not associated with self-rated wellbeing is also consistent 
+with evidence from the literature [55]. Therefore, clinical 
+and public health messaging to hypertensive populations 
+should aim to increase knowledge and understanding of 
+the importance of long-term medication adherence for 
+Table 5  Associations of TCAM use with hypertension outcomes and wellbeing (odds ratios or regression coefficients with [95% 
+confidence intervals])
++ Model for adherence is restricted to participants who reported current use of antihypertensive medication. No evidence from Wald tests for the equality of 
+adjusted coefficients by country in the combined dataset was noted. All models are adjusted for belief in the effectiveness of TCAM and conventional medicine 
+for hypertension, knowledge of hypertension, time since diagnosed with hypertension, history of NCD comorbidity, frequency of health provider visits, sex, age, 
+education, marital/co-habitation status, employment, confidence in health system, belief that one can do something to maintain health, urban–rural location, 
+household wealth. Models assessing the association between hypertension control, systolic and diastolic blood pressure and wellbeing and TCAM use are further 
+adjusted for current use of antihypertensive medication. Appendix 5 in the Supplemental information provides the full results for each model
+* p < 0.05
+** p < 0.01
+*** p < 0.001
+Binary outcomes
+Philippines
+Malaysia
+Crude odds ratio
+Adjusted odds ratio
+Crude odds ratio
+Adjusted odds ratio
+Current antihypertensive medication use
+1.05 [0.58, 1.91]
+1.07 [0.56, 2.06]
+0.41 [0.18, 0.91]
+1.00 [0.32, 3.12]
+Antihypertensive medication ­adherence+
+0.75 [0.42, 1.36]
+0.67 [0.34, 1.31]
+0.28 [0.03, 2.59]
+0.30 [0.02, 3.89]
+Hypertension control
+0.68 [0.37, 1.24]
+0.75 [0.40, 1.42]
+0.55 [0.23, 1.32]
+0.69 [0.27, 1.77]
+Continuous outcomes
+Crude coefficient
+Adjusted coefficient
+Crude coefficient
+Adjusted coefficient
+Systolic blood pressure (mmHg)
+1.97 [-3.80, 7.74]
+0.19 [-5.50, 5.88]
+8.97 [0.06, 17.88]
+3.35 [-5.40, 12.09]
+Diastolic blood pressure (mmHg)
+0.91 [-2.50, 4.32]
+0.23 [-3.07, 3.52]
+4.96 [-0.38, 10.30]
+1.29 [-3.61, 6.18]
+Wellbeing (1–10, most to least satisfied)
+0.23 [-0.41, 0.88]
+0.37 [-0.28, 1.03]
+-0.05 [-0.57, 0.48]
+-0.16 [-0.69, 0.37]
+
+Page 11 of 13
+Palileo‑Villanueva et al. BMC Complementary Medicine and Therapies          (2022) 22:252 
+	
+hypertension, especially in light of its typically asympto-
+matic – yet chronic – nature, along with the effectiveness 
+of existing medications, which itself was a strong deter-
+minant of TCAM use.
+One final consideration in interpreting our findings 
+concerns their generalisability to other low-income 
+communities in Malaysia and the Philippines, and to 
+other LMICs. Although there were some notable dif-
+ferences in the characteristics of the participants 
+included and excluded in this analysis (Appendix 3 in 
+the Supplemental information), the small numbers of 
+those excluded are unlikely to affect our estimates. Our 
+results on the determinants of TCAM use in Malaysia 
+align with those from a study of the rural Malaysian 
+population, which also found belief in the effectiveness 
+of TCAM, higher education levels and lower house-
+hold wealth to be strong predictors [12] While this 
+finding on education is inconsistent with other stud-
+ies, particularly from LMICs, [2, 10] a similar positive 
+association between TCAM use and education has 
+been observed in various high-income settings, [56, 
+57] likely reflecting Malaysia’s current socio-economic 
+status and trajectory. As previously noted, women were 
+over-represented in our sample, likely reflecting their 
+higher availability and/or willingness to participate; but 
+this does not appear to have produced any inexplicable 
+findings. Others have also suggested that TCAM use 
+is likely to be underreported due to social desirability 
+bias; [45, 58, 59] yet we have taken steps to minimise 
+this by interviewing respondents in their homes (rather 
+than in clinical settings) and by deploying non-medical 
+professionals trained in non-judgemental interviewing 
+techniques. On the other hand, we accept that partic-
+ipants may have still considered the study as ‘clinical’ 
+because it involved blood pressure measurement at 
+enrolment. The median household income, level of 
+hypertension control, education and employment 
+observed in our country samples are closely aligned 
+with national data, [22, 60, 61] which suggests that we 
+have, indeed, sampled a suitable cross-section of hyper-
+tensive adults in low-income communities.
+Conclusion
+TCAM is used in the management of hypertension by 
+a relatively small, but not insignificant, proportion of 
+affected individuals living in low-income communities 
+in Malaysia and the Philippines. Yet, evidence to estab-
+lish the efficacy and safety of commonly used TCAM 
+modalities, and on their potential interactions with con-
+ventional medications, is needed to ensure they are used 
+for optimal benefit. In the interim, national health sys-
+tems must continue to work to improve access to primary 
+care services, and health care providers seeking to pro-
+vide effective patient-centred care for hypertension must 
+recognise that their patients may be receiving advice and 
+treatment from a variety of sources that may influence 
+their knowledge, understanding and, ultimately, the man-
+agement of their condition.
+Abbreviations
+aOR: Adjusted odds ratio; ASEAN: Association of Southeast Asian Nations; 
+cOR: Crude odds ratio; CVD: Cardiovascular disease; DBP: Diastolic blood pres‑
+sure; LMIC: Low- and middle-income country; MYR: Malaysian Ringgit; NCD: 
+Non-communicable disease; PHP: Philippine Peso; RESPOND: Responsive and 
+Equitable Health Systems – Partnership on NCDs; SBP: Systolic blood pressure; 
+TCAM: Traditional and complementary/alternative medicine; WHO: World 
+Health Organization; 95%CI: 95% Confidence interval.
+Supplementary Information
+The online version contains supplementary material available at https://​doi.​
+org/​10.​1186/​s12906-​022-​03730-x.
+Additional file 1: Appendix 1. Variable definitions. Appendix 2. Deriva‑
+tion of sampling probability weights. Appendix 3.  Characteristics of par‑
+ticipants included and excluded from the RESPOND study TCAM analysis. 
+Appendix 4. STROBE checklist of items that should be included in reports 
+of cross-sectional studies and sample derivation flow diagram. Appen‑
+dix 5. Full model results for association of TCAM use with hypertension 
+management outcomes and wellbeing.
+Acknowledgements
+This paper is dedicated to the memory of Professor Dato’ Dr Khalid Yusoff, 
+one of the lead investigators of the RESPOND study, who passed away in 
+April 2021. The authors would like to thank the research participants and 
+the Wellcome Trust/Newton Fund-MRC Humanities and Social Science 
+Collaborative Award scheme (200346/Z/15/Z) for providing funding for this 
+research.
+Authors’ contributions
+LMP-V, BP conceived and led the analysis and writing of this paper, contribut‑
+ing equally. LMP-V, BP, DB, FAM, AR, MLS, ALD, KY, MM designed, initiated and 
+coordinated the RESPOND study. All authors contributed to study imple‑
+mentation, interpretation of results, critical review and revision all drafts, and 
+approved the final version of this manuscript. All authors agree to be account‑
+able for all aspects of the work.
+Funding
+This study was supported by a grant from the Wellcome Trust/Newton 
+Fund-MRC Humanities & Social Science Collaborative Award scheme 
+(200,346/Z/15/Z). The funder had no role in study design, data collection, 
+analysis, interpretation or reporting.
+Availability of data and materials
+The dataset analysed for the current study are not publicly available due to 
+concerns about the privacy and confidentiality of participant data, but are 
+available from the corresponding author on reasonable request, subject to 
+approval of the RESPOND study co-investigators.
+Declarations
+Ethics approval and consent to participate
+Ethical approval for this study was granted by the Observational Research 
+Ethics Committee at the London School of Hygiene & Tropical Medicine 
+(Ref: 12214), the Research Ethics Boards at the Universiti Putra Malaysia 
+(JKEUPM-2017–229) and the University of the Philippines Manila (UPM‑
+REB-2017–481-01). All methods were performed in accordance with the 
+relevant guidelines and regulations. All participants gave informed consent.
+
+Page 12 of 13
+Palileo‑Villanueva et al. BMC Complementary Medicine and Therapies          (2022) 22:252 
+Consent for publication
+Not applicable.
+Competing interests
+LMP-V and ALD have been and/or are currently involved in clinical trials of 
+antihypertensive medications that receive some funding from industry. All 
+other author declare that they have no competing interests.
+Author details
+1 College of Medicine, University of the Philippines Manila, Manila, Philippines. 
+2 Faculty of Public Health and Policy, London School of Hygiene and Tropical 
+Medicine, Centre for Global Chronic Conditions, 15‑17 Tavistock Place, London  
+WC1H 9SH, UK. 3 School of Medicine and Public Health, Ateneo de Manila 
+University, Pasig City, Philippines. 4 Faculty of Medicine, Universiti Teknologi 
+MARA​, Sungai Buloh, Malaysia. 5 Faculty of Medicine and Health Sciences, UCSI 
+University, Kuala Lumpur, Malaysia. 
+Received: 9 December 2021   Accepted: 19 September 2022
+References
+	1.	
+Harris PE, Cooper KL, Relton C, Thomas KJ. Prevalence of complementary 
+and alternative medicine (CAM) use by the general population: a system‑
+atic review and update. Int J Clin Pract. 2012;66(10):924–39.
+	2.	
+James PB, Wardle J, Steel A, Adams J. Traditional, complementary and 
+alternative medicine use in Sub-Saharan Africa: a systematic review. BMJ 
+Glob Health. 2018;3(5):e000895.
+	3.	
+Peltzer K, Pengpid S. Utilization and practice of traditional/ complemen‑
+tary/ alternative medicine (T/CAM) in Southeast Asian nations (asean) 
+member States. Stud Ethno-Med. 2015;9(2):209–18.
+	4.	
+World Health Organization. WHO global report on traditional and com‑
+plementary medicine. Geneva: World Health Organization; 2019.
+	5.	
+Maldonado Miranda JJ. Chapter 7 - Medicinal plants and their traditional 
+uses in different locations. in: Bhat RA, Hakeem KR, Dervash MA, editors. 
+Phytomedicine: Academic Press; 2021. p. 207–23.
+	6.	
+Institute for public health. National health and morbidity survey 2015 
+(NHMS 2015). Vol. IV: Traditional and complementary medicine. Kuala 
+Lumpur: Institute for public health, ministry of health, Malaysia; 2015.
+	7.	
+ASEAN Secretariat. Roadmap for an ASEAN community 2009–2015. 
+Jakarta: ASEAN secretariat; 2009.
+	8.	
+Kim JK, Kim KH, Shin YC, Jang B-H, Ko S-G. Utilization of traditional 
+medicine in primary health care in low- and middle-income countries: a 
+systematic review. Health Policy Plan. 2020;35(8):1070–83.
+	9.	
+Wardle J, Lui CW, Adams J. Complementary and alternative medicine in 
+rural communities: current research and future directions. J Rural Health. 
+2012;28(1):101–12.
+	10.	 Peltzer K, Pengpid S. Prevalence and determinants of traditional, comple‑
+mentary and alternative medicine provider use among adults from 32 
+countries. Chin J Integr Med. 2018;24(8):584–90.
+	11.	 Peltzer K, Pengpid S, Puckpinyo A, Yi S, le Anh V. The utilization of tradi‑
+tional, complementary and alternative medicine for non-communicable 
+diseases and mental disorders in health care patients in Cambodia, 
+Thailand and Vietnam. BMC Complement Altern Med. 2016;16:92.
+	12.	 Ganasegeran K, Rajendran AK, Al-Dubai SA. Psycho-socioeconomic 
+factors affecting complementary and alternative medicine use among 
+selected rural communities in Malaysia: a cross-sectional study. PLoS 
+ONE. 2014;9(11):e112124.
+	13.	 Murphy A, Palafox B, Walli-Attaei M, Powell-Jackson T, Rangarajan S, 
+Alhabib KF, et al. The household economic burden of non-communicable 
+diseases in 18 countries. BMJ Glob Health. 2020;5(2): e002040.
+	14.	 McIntyre D, Thiede M, Dahlgren G, Whitehead M. What are the 
+economic consequences for households of illness and of paying for 
+health care in low- and middle-income country contexts? Soc Sci Med. 
+2006;62(4):858–65.
+	15.	 Ladia MAJ, Sison OT, Castillo-Carandang NT, Sy RG, Llanes EJB, Reganit 
+PFM. et al. Prevalence of and associations for complementary and 
+alternative medicine use among apparently healthy individuals in the 
+Philippine LIFECARE cohort. Acta Medica Philippina. 2018;52(5):404–10.
+	16.	 Tengku Mohamad TAS, Islahudin F, Jasamai M, Jamal JA. Preference, 
+perception and predictors of herbal medicine use among Malay women 
+In Malaysia. Patient Prefer Adherence. 2019;13:1829–37.
+	17.	 Siti ZM, Tahir A, Farah AI, Fazlin SM, Sondi S, Azman AH, et al. Use of 
+traditional and complementary medicine in Malaysia: a baseline study. 
+Complement Ther Med. 2009;17(5–6):292–9.
+	18.	 Dayrit MM, Lagrada LP, Picazo OF, Pons MC, Villaverde MC. The Philippines 
+health system review. Mumbai: WHO Regional Office for South-East Asia; 
+2018.
+	19.	 Proportion of poor Filipinos was recorded at 18.1 percent in 2021 [press 
+release]. Philippine Statistics Authority, Republic of the Philippines, 15 
+August 2022.
+	20.	 World Health Organization. Malaysia health system review. Manila: WHO 
+Regional Office for the Western Pacific; 2012.
+	21.	 World Health Organization. Global health expenditure database Geneva: 
+World Health Organization; 2022 [Available from: https://​apps.​who.​int/​nha/​
+datab​ase.
+	22.	 Chow CK, Teo KK, Rangarajan S, Islam S, Gupta R, Avezum A, et al. Preva‑
+lence, Awareness, treatment, and control of hypertension in rural and 
+urban communities in high-, middle-, and low-income countries. JAMA. 
+2013;310(9):959–68.
+	23.	 Vos T, Lim SS, Abbafati C, Abbas KM, Abbasi M, Abbasifard M, et al. Global 
+burden of 369 diseases and injuries in 204 countries and territories, 
+1990–2019: a systematic analysis for the global burden of disease study 
+2019. Lancet. 2020;396(10258):1204–22.
+	24.	 Dans A, Ng N, Varghese C, Tai ES, Firestone R, Bonita R. The rise of chronic 
+non-communicable diseases in southeast Asia: time for action. Lancet. 
+2011;377(9766):680–9.
+	25.	 Kanjanahattakij N, Kwankhao P, Vathesatogkit P, Thongmung N, Gleebbua Y, 
+Sritara P, et al. Herbal or traditional medicine consumption in a Thai worker 
+population: pattern of use and therapeutic control in chronic diseases. BMC 
+Complement Altern Med. 2019;19(1):258.
+	26.	 Peltzer K, Myint Oo W, Pengpid S. Traditional, complementary and alterna‑
+tive medicine use of chronic disease patients in a community population in 
+Myanmar. Afr J Tradit Complement Altern Med. 2016;13(3):150–5.
+	27.	 Peltzer K, Pengpid S. The use of herbal medicines among chronic disease 
+patients in Thailand: a cross-sectional survey. J Multidiscip Healthc. 
+2019;12:573–82.
+	28.	 Peltzer K, Sydara K, Pengpid S. Traditional, complementary and alternative 
+medicine use in a community population in Lao PDR. Afr J Tradit Comple‑
+ment Altern Med. 2016;13(3):95–100.
+	29.	 Teo TY, Yap J, Shen T, Yeo KK. Complementary and alternative medicine use 
+amongst patients with cardiovascular disease in Singapore. BMC Comple‑
+ment Altern Med. 2016;16(1):446.
+	30.	 Mahfudz AS, Chan SC. Use of complementary medicine amongst hyper‑
+tensive patients in a public primary care clinic in Ipoh. Med J Malaysia. 
+2005;60(4):454–9.
+	31.	 Palafox B, Seguin ML, McKee M, Dans AL, Yusoff K, Candari CJ, et al. Respon‑
+sive and equitable health systems-partnership on non-communicable dis‑
+eases (RESPOND) study: a mixed-methods, longitudinal, observational study 
+on treatment seeking for hypertension in Malaysia and the Philippines. BMJ 
+Open. 2018;8(7):e024000.
+	32.	 Bostoen K, Chalabi Z. Optimization of household survey sampling without 
+sample frames. Int J Epidemiol. 2006;35(3):751–5.
+	33.	 Khan SJM, Abdullah N, Mat SHC, Bakar ASA, Ali J, Abdullah H. The effective‑
+ness of 1Malaysia people’s aid program to the B40 group in the rising cost 
+of living: An exploratory case study in rural district of Kedah. J Soc Sci Res. 
+2018;958–64:6.
+	34.	 Fernandez L, Olfindo R. Overview of the Philippines’ conditional cash trans‑
+fer program: The Pantawid Pamilyang Pilipino Program (Pantawid Pamilya). 
+2011.
+	35.	 World Health Organization. WHO STEPS surveillance manual: the WHO 
+STEPwise approach to chronic disease risk factor surveillance. World Health 
+Organization; 2005. Report No.: 9241593830.
+	36.	 Quandt SA, Verhoef MJ, Arcury TA, Lewith GT, Steinsbekk A, Kristoffersen 
+AE, et al. Development of an international questionnaire to measure use of 
+complementary and alternative medicine (I-CAM-Q). J Altern Complement 
+Med. 2009;15(4):331–9.
+	37.	 Ng JY, Dhawan T, Dogadova E, Taghi-Zada Z, Vacca A, Wieland LS, et al. 
+Operational definition of complementary, alternative, and integrative 
+
+Page 13 of 13
+Palileo‑Villanueva et al. BMC Complementary Medicine and Therapies          (2022) 22:252 
+	
+•
+ 
+fast, convenient online submission
+ 
+•
+  
+thorough peer review by experienced researchers in your ﬁeld
+• 
+ 
+rapid publication on acceptance
+• 
+ 
+support for research data, including large and complex data types
+•
+  
+gold Open Access which fosters wider collaboration and increased citations 
+ 
+maximum visibility for your research: over 100M website views per year 
+•
+  
+At BMC, research is always in progress.
+Learn more biomedcentral.com/submissions
+Ready to submit your research
+Ready to submit your research ?  Choose BMC and benefit from: 
+?  Choose BMC and benefit from: 
+medicine derived from a systematic search. BMC Complement Med Ther. 
+2022;22(1):104.
+	38.	 Wieland LS, Manheimer E, Berman BM. Development and classification of 
+an operational definition of complementary and alternative medicine for 
+the cochrane collaboration. Altern Ther Health Med. 2011;17(2):50–9.
+	39.	 Gee ME, Campbell N, Sarrafzadegan N, Jafar T, Khalsa TK, Mangat B, et al. 
+Standards for the uniform reporting of hypertension in adults using popula‑
+tion survey data: recommendations from the world hypertension league 
+expert committee. J Clin Hypertens (Greenwich). 2014;16(11):773–81.
+	40.	 Fouladbakhsh JM, Stommel M. Using the behavioral model for complemen‑
+tary and alternative medicine: The CAM healthcare model. J Complement 
+Integr Med. 2007;4(1). https://​doi.​org/​10.​2202/​1553-​3840.​1035.
+	41.	 Allison PD. Comparing logit and probit coefficients across groups. Sociol 
+Methods Res. 1999;28(2):186–208.
+	42.	 Pearson H, Fleming T, Chhoun P, Tuot S, Brody C, Yi S. Prevalence of and 
+factors associated with utilization of herbal medicines among outpatients 
+in primary health centers in Cambodia. BMC Complement Altern Med. 
+2018;18(1):114.
+	43.	 Lasco G, Mendoza J, Renedo A, Seguin ML, Palafox B, Palileo-Villanueva LM, 
+et al. Nasa dugo (‘It’s in the blood’): lay conceptions of hypertension in the 
+Philippines. BMJ Glob Health. 2020;5(7):e002295.
+	44.	 Mendoza JA, Lasco G, Renedo A, Palileo-Villanueva L, Seguin M, Palafox 
+B, et al. (De)constructing ‘therapeutic itineraries’ of hypertension care: A 
+qualitative study in the Philippines. Soc Sci Med. 2021;300:114570.
+	45.	 Risso-Gill I, Balabanova D, Majid F, Ng KK, Yusoff K, Mustapha F, et al. Under‑
+standing the modifiable health systems barriers to hypertension manage‑
+ment in Malaysia: a multi-method health systems appraisal approach. BMC 
+Health Serv Res. 2015;15(1):254.
+	46.	 Jasamai M, Islahudin F, Samsuddin NF. Attitudes towards complemen‑
+tary alternative medicine among Malaysian adults. J Appl Pharm Sci. 
+2017;7(06):190–3.
+	47.	 Levesque JF, Harris MF, Russell G. Patient-centred access to health care: 
+conceptualising access at the interface of health systems and populations. 
+Int J Equity Health. 2013;12:18.
+	48.	 Brook Robert D, Appel Lawrence J, Rubenfire M, Ogedegbe G, Bisognano 
+John D, Elliott William J, et al. Beyond medications and diet: alternative 
+approaches to lowering blood pressure. Hypertens. 2013;61(6):1360–83.
+	49.	 Xiong XJ, Li SJ, Zhang YQ. Massage therapy for essential hypertension: a 
+systematic review. J Hum Hypertens. 2015;29(3):143–51.
+	50.	 de Lima PR, Duque AP, Moreira BR, Rodrigues LF. Acupuncture for the treat‑
+ment of cardiovascular diseases: A systematic review. J Acupunct Meridian 
+Stud. 2019;12(2):43–51.
+	51.	 Wang J, Xiong X. Outcome measures of Chinese herbal medicine for 
+hypertension: An overview of systematic reviews. Evid-Based Complement 
+Alternat Med. 2012;2012:697237.
+	52.	 Chrysant SG, Chrysant GS. Herbs used for the treatment of hypertension 
+and their mechanism of action. Curr Hypertens Rep. 2017;19(9):77.
+	53.	 Macquart de Terline D, Kane A, Kramoh KE, Ali Toure I, Mipinda JB, Diop IB, 
+et al. Factors associated with poor adherence to medication among hyper‑
+tensive patients in twelve low and middle income Sub-Saharan countries. 
+PLoS One. 2019;14(7):e0219266-e.
+	54.	 Marshall IJ, Wolfe CDA, McKevitt C. Lay perspectives on hypertension and 
+drug adherence: systematic review of qualitative research. BMJ : British Med 
+J. 2012;345:e3953.
+	55.	 Zhang F, Kong L-l, Zhang Y-y, Li S-C. Evaluation of impact on health-related 
+quality of life and cost effectiveness of traditional Chinese medicine: A 
+systematic review of randomized clinical trials. J Altern Complement Med. 
+2012;18(12):1108–20.
+	56.	 Kemppainen LM, Kemppainen TT, Reippainen JA, Salmenniemi ST, Vuolanto 
+PH. Use of complementary and alternative medicine in Europe: Health-
+related and sociodemographic determinants. Scandinavian J Public Health. 
+2018;46(4):448–55.
+	57.	 Reid R, Steel A, Wardle J, Trubody A, Adams J. Complementary medicine use 
+by the Australian population: a critical mixed studies systematic review of 
+utilisation, perceptions and factors associated with use. BMC Complement 
+Altern Med. 2016;16(1):176.
+	58.	 Asfaw Erku D, Basazn MA. Prevalence and correlates of complementary and 
+alternative medicine use among hypertensive patients in Gondar town. 
+Ethiopia Evid Based Complement Alternat Med. 2016;2016:6987636.
+	59.	 Farooqui M, Hassali MA, Shatar AKA, Farooqui MA, Saleem F, Haq NU, et al. 
+Use of complementary and alternative medicines among Malaysian cancer 
+patients: A descriptive study. J Tradit Complement Med. 2015;6(4):321–6.
+	60.	 Philippine Statistics Authority. 2018 Family income and expenditure survey, 
+Volume I, National and regional estimates (ISHB Series No. 182). Quezon 
+City: Philippine Statistics Authority; 2020.
+	61.	 Department of Statistics. Household Income Survey and Basic Amenities 
+2019 Report. Putrajaya: Department of Statistics, Malaysia; 2020.
+Publisher’s note
+Springer Nature remains neutral with regard to jurisdictional claims in pub‑
+lished maps and institutional affiliations.

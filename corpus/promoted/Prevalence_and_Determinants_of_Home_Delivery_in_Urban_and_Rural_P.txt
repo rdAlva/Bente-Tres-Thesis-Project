@@ -1,0 +1,1831 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+2022 
+Prevalence and Determinants of Home Delivery in Urban and Rural 
+Prevalence and Determinants of Home Delivery in Urban and Rural 
+Philippines: Evidence from the 2017 National Demographic and 
+Philippines: Evidence from the 2017 National Demographic and 
+Health Survey 
+Health Survey 
+Arianna Maever L. Amit 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, aamit@ateneo.edu 
+Veincent Christian F. Pepito 
+Ateneo School of Medicine and Public Health, vpepito@ateneo.edu 
+Sarah J. De Los Reyes 
+Ateneo School of Medicine and Public Health 
+Clinton S. Tang 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University 
+Neil Andrew K. Aliazas 
+Ateneo School of Medicine and Public Health 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Health and Medical Administration Commons, Health Services Administration Commons, 
+Health Services Research Commons, and the Maternal and Child Health Commons 
+Custom Citation 
+Custom Citation 
+Amit, A.M.L., Pepito, V.C.F., De Los Reyes, S.J., Tang, C.S., Aliazas, N.A.K., & Sumpaico-Tanchanco, L. 
+(2022). Women's Health, 18, 1-13. https://doi.org/10.1177/17455057221117957 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+Authors 
+Authors 
+Arianna Maever L. Amit, Veincent Christian F. Pepito, Sarah J. De Los Reyes, Clinton S. Tang, Neil Andrew 
+K. Aliazas, and Lourdes S. Tanchanco 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/asmph-pubs/90 
+
+https://doi.org/10.1177/17455057221117957
+Women’s Health
+Volume 18: 1­–13
+© The Author(s) 2022
+Article reuse guidelines:  
+sagepub.com/journals-permissions
+DOI: 10.1177/17455057221117957
+journals.sagepub.com/home/whe
+Creative Commons Non Commercial CC BY-NC: This article is distributed under the terms of the Creative Commons 
+Attribution-NonCommercial 4.0 License (https://creativecommons.org/licenses/by-nc/4.0/) which permits non-commercial use, 
+reproduction and distribution of the work without further permission provided the original work is attributed as specified on the SAGE and 
+Open Access pages (https://us.sagepub.com/en-us/nam/open-access-at-sage).
+Prevalence and determinants of home 
+delivery in urban and rural Philippines: 
+Evidence from the 2017 National 
+Demographic and Health Survey
+Arianna Maever L. Amit1,2
+, Veincent Christian F. Pepito1,  
+Sarah J. De los Reyes1,3, Clinton S. Tang1, Neil Andrew Kiamco Aliazas1
+  
+and Lourdes Sumpaico-Tanchanco1,4
+Abstract
+Background: Women’s choice of place of delivery has implications on maternal and child mortality. This study aims to 
+provide an updated and detailed comparison of prevalence and determinants of home delivery in the Philippines, and in 
+urban and rural communities.
+Methods: Based on data from the 2017 Philippine National Demographic and Health Survey (NDHS), we estimated the 
+prevalence of home delivery and determined factors influencing women’s decision to deliver at home. Analyses were 
+restricted to data from 7229 women who were cohabiting or married, and their last-born child using logistic regression 
+methods for survey data.
+Results: There remain a considerable proportion of women aged 15–49 years old who delivered at home (17.92% 
+(95% confidence interval (CI): 15.77, 20.30)). More women in rural areas delivered at home (23.53% (95% CI: 20.38, 
+26.99)) than their counterparts in urban areas (10.72% (95% CI: 8.23, 13.85)), reflecting a significant difference in the 
+home delivery prevalence of women relative to their place of residence. Our regression analyses showed that there is 
+a relatively greater effect observed for the rural population in most of the proximal factors considered including birth 
+order, women’s decision-making power, and emergency preparedness during pregnancy. Wealth index has the most 
+pronounced effect with a significant increase in odds of home delivery among urban and rural women of the lowest 
+wealth categories.
+Conclusion: The use of institutional childbirth services remains suboptimal in the Philippines with significant disparities 
+between urban and rural communities. Current strategies therefore need to adopt a multi-sectoral approach to address 
+the complex factors influencing women’s decision on place of delivery. Targeted efforts specific to population groups 
+should also be made to contextualize and co-create health care services and solutions that will motivate them to deliver 
+in health facilities.
+Keywords
+childbirth, demographic health survey, home delivery, maternal health, Philippines, Sustainable Development Goals, 
+universal health care
+Date received: 26 October 2021; revised: 14 July 2022; accepted: 19 July 2022
+1School of Medicine and Public Health, Ateneo de Manila University, 
+Pasig City, Philippines
+2National Clinical Trials and Translation Center, National Institutes of 
+Health, University of the Philippines Manila, Manila, Philippines
+3Fe Del Mundo Medical Center, Quezon City, Philippines
+4MedMom Institute for Human Development, Pasig City, Philippines
+Corresponding author:
+Arianna Maever L Amit, School of Medicine and Public Health, Ateneo 
+de Manila University, Pasig City 1604, Philippines. 
+Email: aamit@ateneo.edu
+1117957 WHE0010.1177/17455057221117957Women’s HealthAmit et al.
+research-article2022
+Original Research Article
+
+2	
+Women’s Health ﻿
+Introduction
+The global health prioritization of improving maternal 
+health outcomes and child survival has largely been suc-
+cessful.1,2 From 2000 to 2015, world leaders committed 
+to the Millennium Development Goals (MDGs) that aimed 
+to meet development- and health-related targets.3 This 
+included MDG 4 that targeted a two-third reduction in 
+child mortality and MDG 5 that aimed for a 75% reduction 
+in the maternal mortality ratio (MMR).3,4 Many develop-
+ing countries however failed to meet the ambitious MDG 
+targets, and this has given way to the subsequent mater-
+nal mortality- and child mortality-related targets for the 
+Sustainable Development Goals (SDGs).1,2,5 The global 
+MMR declined in 2015, but progress needs to be acceler-
+ated to meet the SDG targets by 2030.1,6 Similarly, global 
+child mortality rates declined; however, only developed 
+countries achieved MDG 4 with other countries far behind 
+and seemingly far from meeting the SDG target of ending 
+preventable deaths of newborns and children under 5 years 
+of age.2,6
+The intrapartum care strategy for women centers health 
+care on women’s needs to optimize experience of labor 
+and childbirth.7,8 This approach recognizes that most 
+maternal deaths occur during labor, delivery, or 24-h post-
+partum, and that complications are not predictable, thus 
+requiring care at a health facility.8 It further emphasizes the 
+importance of institutional deliveries, but at the same time 
+allows a positive birthing experience. There is general 
+consensus that delivery at a health facility is effective in 
+bringing down high rates of maternal and child mortal-
+ity,7,9 and this is supported by interventions and policies 
+instituted locally by countries. The Philippines makes for 
+an interesting case study as it continues to fall behind the 
+SDG targets for both women and children despite substan-
+tial improvements in facility-based deliveries and cover-
+age of skilled attendants.1,2,5,10
+The Philippines is an archipelagic low- and middle-
+income country with its health system transitioning 
+toward universal health care that promises major reforms 
+in the health sector to provide equitable access to health 
+care for all Filipinos.11 However, health resources and 
+capacity remain poorly and unequally distributed with 
+rural and remote areas disadvantaged, as evidenced in 
+key maternal and child health indicators.2,5,9–13 For 
+example, the Philippines is one of the countries that 
+accounts for 80% of child deaths worldwide2 with a low 
+relative reduction in MMR from 1990 to 2015.1,14 More 
+importantly, evidence suggests that 96% women who 
+belonged to higher income classes delivered their child 
+with a skilled provider increasing chances of survival, 
+but this was only 42% for women in the poorest quin-
+tile.15 Recognizing the importance of maternal health 
+and the need to address related issues, the Philippine 
+Department of Health (DOH) launched the Women’s 
+Health and Safe Motherhood Project 2 in 2006 and the 
+Maternal, Newborn, Child Health and Nutrition 
+(MNCHN) strategy in 2014 with focus on priority groups 
+such as those in low-resource areas.9,16 Because mater-
+nal, neonatal, and child mortalities can be prevented 
+with timely receipt of appropriate emergency obstetric 
+care, strategies and recommendations are focused on 
+encouraging women to deliver in health facilities.9,16,17 
+The MNCHN strategy and the Universal Health Care 
+(UHC) Act of 2019 both identify service delivery net-
+works to improve coordination across all health care lev-
+els and access to health facilities.9,11 The MNCHN 
+strategy specifically prohibits giving birth at home.9,18
+Despite such policies, there is evidence that women 
+continue to deliver at home because of financial and envi-
+ronmental or geographic barriers, influences from net-
+works, individual preferences, and social and cultural 
+factors.19 These need to be studied at a local context to 
+effectively inform interventions and programs to acceler-
+ate progress in improving maternal health. Previous stud-
+ies have focused on health care utilization of women at the 
+country level.20–27 However, there is a need to conduct a 
+disaggregated analysis of women in urban and rural com-
+munities given the differences in availability and access to 
+services, their subsequent impact on health outcomes, and 
+need for targeted interventions for each of these groups. 
+Urban–rural estimates on place of delivery have been pub-
+lished using data from the African region and have shown 
+that there are notable differences in the uptake of skilled 
+delivery services in urban and rural communities.28–30 
+Such studies are especially important with the ongoing 
+COVID-19 pandemic overwhelming the health system and 
+further discouraging women to seek health care and ser-
+vices in health facilities. Because women are often dispro-
+portionately affected during disasters, further strengthening 
+the health facilities across the country and integrating in 
+the pandemic response strategies for women to birth safely 
+will be critical to advancing progress to reduce maternal 
+mortality.1,31 In this article, we aimed to determine the 
+prevalence and factors influencing women’s choice of 
+delivering at home in the Philippines, and disaggregated 
+for urban and rural communities. In doing so, we can con-
+textualize and co-create innovations and solutions that will 
+motivate women to deliver in health facilities. This article 
+can further provide useful insights and recommendations 
+to how disparities can be reduced to achieve the goal of 
+Universal Health Care.
+Methods
+Data sources
+The Demographic and Health Surveys (DHS) program 
+provides estimates on demographic and health indicators. 
+Part of the program, the Philippine National Demographic 
+and Health Survey (NDHS) is a nationally representative 
+survey that provides population, health, and nutrition data 
+
+Amit et al.	
+3
+in the country. We used the latest 2017 Philippine NDHS 
+dataset in our analysis.32
+The survey utilized a two-stage stratified sampling 
+design referencing the Master Sampling Frame designed 
+by the Philippine Statistics Authority. The first stage 
+involved the selection of 1250 primary sampling units 
+(PSUs) which were barangays (or villages), portions of 
+large barangays, or two or more adjacent small barangays. 
+The second stage involved systematic random sampling 
+of 20 or 26 housing units. Women 15–49 years old who 
+resided in the eligible households were asked on birth his-
+tory and child mortality, knowledge and use of family 
+planning methods, fertility preferences, pregnancy, deliv-
+ery, postnatal care, infant feeding practices, vaccinations 
+and childhood illnesses, and other health issues with refer-
+ence to the index child. Survey weights were computed to 
+ensure representative estimates of all indicators. Additional 
+information on the survey methodology is provided in the 
+2017 Philippine NDHS published report.32
+Study population
+The 2017 Philippine NDHS surveyed over 31,000 house-
+holds and more than 25,000 women ages 15–49.32 For our 
+analytic sample, we extracted a subset of the 2017 
+Philippine NDHS dataset using the following criteria: 
+mother–child dyads (with women of reproductive age of 
+15–49 years and children being the last-born who are mar-
+ried or cohabiting). The basis for the criterion on marital 
+status is that partner’s educational attainment and women’s 
+decision-making power are significant determinants in 
+women’s choice for home delivery.21,23,33–37 In the dataset, 
+only married women and those living with their partners 
+had data on decision-making power and more importantly, 
+the outcome of interest. Data of last-born children were 
+used to ensure that the woman’s most recent delivery 
+would match the questions pertaining to pregnancy and 
+delivery and to minimize issues with reverse causality. The 
+births recode (PHBR71FL) file was used, and we limited 
+our regression analyses to women with no missing data in 
+any of our study variables. To ensure that all models were 
+comparable during model-building, we excluded from the 
+multivariable analyses observations with missing data in 
+any of the remaining variables of interest. Thus, only 7229 
+respondents were included in the final analysis for the 
+overall population, 2266 respondents for the urban popula-
+tion, and 4963 for the rural population.
+Study variables
+In this study, our primary outcome variable is place of 
+delivery, which we dichotomized into 0 if the woman 
+delivered at a health facility and 1 if she delivered at home. 
+We make comparisons based on place of location (urban or 
+rural) and build three separate regression models for each, 
+namely, Philippines, urban, and rural. We selected poten-
+tial determinants of home delivery based on evidence from 
+previous studies and reviews.19,21,23–25,33–42 Socio-economic 
+factors included respondent’s and partner’s highest educa-
+tional attainment, employment status, and wealth index. 
+The wealth index was derived from a principal compo-
+nents analysis conducted by ICF International and was cal-
+culated as a score of ownership of household assets, 
+durable goods, and household facilities. This index was 
+classified into five categories with each household assigned 
+to one of the categories: poorest, poorer, middle, richer, 
+and richest. We used the combined wealth index for over-
+all descriptive statistics, then recategorized into three 
+because data for the richer and richest categories are sparse 
+resulting to poor, middle, and rich categories. We used the 
+wealth index separately computed for urban and rural pop-
+ulations for our urban–rural analyses. Similar categoriza-
+tions were made. We also included in our models maternal 
+age, marital status, women’s decision-making power as 
+measured by who makes decisions about health, parity, 
+birth order, number of antenatal care (ANC) visits, and 
+emergency preparedness during pregnancy. The opera-
+tional definition of study variables is presented in Table 1.
+Statistical analysis
+We performed all analyses using complex survey data 
+analysis considering the PSU, stratum, and sample weight 
+adjusting for selection probabilities. All our analyses are 
+weighted, except for analyses that do not have an option 
+for weighting. Proportions, means, odds ratios (ORs), 
+except for tests of normality and rank-sum tests, are 
+weighted. However, we still showed the number of obser-
+vations, which are unweighted. We described our study 
+variables using percentages for categorical variables and 
+measures of central tendency for continuous variables for 
+the overall population and urban–rural residence. We then 
+assessed the association between dependent variables and 
+independent variables in the Philippines and urban–rural 
+residence using Pearson’s chi-square test for categorical 
+variables and Wilcoxon rank-sum test for continuous vari-
+ables. We categorized our study variables into distal and 
+proximal factors based on how closer they are in the causal 
+pathway of association. We identified mother’s and part-
+ner’s highest educational attainment, working status, 
+maternal age, and marital status as distal factors. These 
+factors are further back in the causal pathway and do not 
+directly (or almost directly) influence the outcome of inter-
+est.43 We considered wealth index and variables related to 
+pregnancy (parity, birth order, women’s decision-making 
+power, emergency preparedness during pregnancy, ANC 
+visits) as proximal factors. We included the location 
+(urban–rural) variable in our model for the overall 
+Philippine population and considered this as proximal. 
+This categorization is consistent with the World Health 
+
+4	
+Women’s Health ﻿
+Report,43 and findings reported in previous studies in 
+which we based the variables to be included and that 
+showed strong association between pregnancy-related 
+factors and wealth with birthing place decisions. For each 
+potential determinant, we ran bivariate logistic regression 
+separately with the outcome variable before carrying out 
+the multivariable analyses. Study variables with p value of 
+less than 0.20 were entered into the multivariable models 
+to determine factors associated with home delivery in the 
+Philippines and in urban–rural settings. Distal factors were 
+then regressed on proximal factors, and both distal and 
+proximal risk factors were regressed on home delivery in 
+the three separate models. We included variables with p 
+values of 0.05 in our final model. Variables that had p val-
+ues greater than 0.05, but were important in the decision 
+for home delivery based on literature were also retained in 
+our final model.19,21,23–25,33–42 Only participants with com-
+plete data were included in our logistic regression analy-
+ses. We used Stata 14.0 IC for our analyses and set the 
+level of significance at 0.05.44 We present the results of 
+multivariable logistic regression for women with adjusted 
+odds ratio (aOR) and 95% confidence interval (CI) for 
+each of the three models (Philippines, urban, and rural).
+Results
+Participant characteristics
+Among 7229 women aged 15–49 years with a median age 
+of 30 years old, majority were married with a significant 
+proportion of women and their partners having finished at 
+least secondary education. Almost half were employed 
+and were classified as having lower wealth index scores. 
+A greater proportion of women in rural communities were 
+married compared to the overall and urban populations. 
+More urban women were employed, finished at least sec-
+ondary education with a partner who similarly had a sec-
+ondary-level of education, and belonged to high-income 
+classes compared to the overall and rural populations 
+(Table 2).
+Place of birth and related study variables across 
+geographic strata
+Among 7229 women aged 15–49 years old included in our 
+analyses, 1554 women (17.92% (95% CI: 15.77, 20.30)) 
+gave birth at home while 5675 (82.08% (95% CI: 79.70, 
+84.23)) women gave birth at health facilities. More women 
+in rural areas delivered at home (23.53% (95% CI: 20.38, 
+26.99)) than their counterparts in urban areas (10.72% 
+(95% CI: 8.23, 13.85)), reflecting a significant difference 
+in the prevalence of home deliveries relative to their place 
+of residence.
+Our study consistently found a higher home delivery 
+prevalence for women with secondary education and 
+whose partners had primary education or lower in all three 
+models (national, urban, rural). Home delivery prevalence 
+is highest among women who are unemployed and who 
+belong to the poorest wealth category. Home delivery is 
+more prevalent among rural women who are married 
+(74.51% (95% CI: 70.13, 78.44)) compared to their overall 
+Philippine and rural counterparts. Proportions of women 
+Table 1.  List of study variables and their operational definition.
+Variable
+Description
+Categories
+Place of delivery (Outcome)
+Where the mother gave birth for the index child
+Health facility, home
+Place of residence
+Type of place of residence
+Philippines (overall), urban, rural
+Age
+Current age of respondent at time of interview
+Age in years (as is)
+Marital status
+Current marital status of respondent at time of 
+interview
+Married, cohabiting
+Mother’s education
+Highest level of educational attainment of the 
+mother/respondent
+University or higher education, secondary 
+education, primary education or lower
+Partner’s education
+Highest level of educational attainment of 
+respondent’s husband/partner
+University or higher education, secondary 
+education, primary education or lower
+Mother’s employment status Current working status of the mother/respondent Employed, unemployed
+Wealth index
+Derived variable using ownership of household 
+assets, durable goods, and household facilities
+Rich, middle, poor
+Women’s decision-making 
+power
+Person who usually decides on respondent’s 
+health care
+Respondent alone; both respondent and husband/
+partner; husband/partner, or someone else
+Parity
+Number of children ever born
+Para 1, Para 2–4, Para 5 or more
+Birth order
+Birth order of index child
+Birth order (as is)
+ANC visits
+Adequate number (4 or more) of ANC visits as 
+per protocol
+Adequate, inadequate
+Emergency preparedness
+Prepared money in case of emergency during 
+pregnancy
+Prepared, not prepared
+ANC: antenatal care.
+
+Amit et al.	
+5
+who gave birth at home were comparable across the three 
+models among those who made their own health care deci-
+sions and those who had an emergency preparedness plan. 
+A considerable proportion of urban and rural women still 
+delivered at home despite having adequate ANC visits 
+(Table 3).
+Determinants of home delivery in the 
+Philippines
+The weighted univariate logistic regression analysis 
+showed that home delivery is negatively associated with 
+cohabiting and making health care decisions with their 
+husband or partner, and positively associated with all other 
+determinants in the unadjusted model as shown in Table 4. 
+The weighted multivariable logistic regression analysis 
+indicates that the odds of home delivery is 2% less with 
+each year increase in age (aOR: 0.98 (95% CI: 0.96, 0.99)) 
+while each increase in birth order results in a 12% increase 
+in the odds of home delivery (aOR: 1.12 (95% CI: 1.03, 
+1.23)). For education of mothers and their partners, the 
+observed relationship is similar with an increasing trend in 
+the odds of home delivery from secondary to primary edu-
+cation or lower. We observe similar positive trends for 
+home delivery for wealth index with those in the middle 
+category having 2.25 times higher odds (aOR: 2.25 (95% 
+CI: 1.32, 3.83)), and those categorized as poor having 3.25 
+higher odds of home delivery (aOR: 3.25 (95% CI: 1.97, 
+5.37)). A similar increasing trend is observed for parity 
+with those having two to four (aOR: 1.41 (95% CI: 1.05, 
+1.89)) and five or more children (aOR: 1.69 (95% CI: 1.03, 
+2.78)) being more likely to deliver at home compared to 
+those with only one child. Women whose decision-making 
+power depends on other individuals but themselves are 
+more likely to have a home delivery by 1.41 times (95% 
+CI: 0.99, 2.01) compared to those who decide for them-
+selves, although there is relatively weak evidence for this 
+association (p = 0.06). Inadequate ANC visits and having 
+no emergency preparedness plan also increase the odds of 
+the mother giving birth at home (aOR: 3.64 (95% CI: 2.88, 
+4.61); aOR: 1.08 (95% CI: 0.84, 1.39)). We also included 
+location in this model and found that women belonging in 
+rural communities had 59% times higher odds of deliver-
+ing at home compared to those in urban areas (aOR: 1.59 
+(95% CI: 1.12, 2.26)). We found no apparent differences in 
+the effect of proximal and distal factors in the decision of 
+women to deliver at home.
+Determinants of home delivery for urban and 
+rural communities in the Philippines
+The weighted univariate logistic regression analysis pre-
+sented in Table 5 shows that similar to the overall analysis 
+for the Philippines, home delivery is negatively associated 
+with age and cohabiting for urban and rural populations, 
+and making health care decisions with their husband or 
+partner but only among urban women. Home delivery is 
+positively associated with all other determinants in the 
+unadjusted models in both populations. The weighted mul-
+tivariable logistic regression analyses show that the odds of 
+home delivery decreased by 4% and 2% for each year 
+increase in age among urban and rural women, respectively 
+Table 2.  Characteristics of women 15–49 years of age, 2017 Philippine NDHS.
+Characteristic
+Philippines (n = 7229)
+Urban (n = 2266)
+Rural (n = 4963)
+n
+% (95% CI)
+n
+% (95% CI)
+n
+% (95% CI)
+Age (median, IQR)
+30 (25–36)
+30 (25–35)
+30 (25–36)
+Marital status
+  Cohabiting
+2356
+37.69 (35.86, 39.56)
+926
+44.50 (41.51, 47.53)
+1430
+32.40 (30.12, 34.77)
+  Married
+4873
+62.31 (60.44, 64.14)
+1340
+55.50 (52.47, 58.49)
+3533
+67.60 (65.23, 69.88)
+Mother’s education
+  Primary or lower
+1534
+17.88 (16.22, 19.67)
+289
+12.33 (9.82, 15.37)
+1245
+22.20 (19.95, 24.63)
+  Secondary
+3580
+51.68 (49.50, 53.85)
+1162
+53.06 (49.74, 56.36)
+2418
+50.60 (47.72, 53.49)
+  University or higher
+2115
+30.43 (28.09, 32.88)
+815
+34.60 (31.21, 38.16)
+1300
+27.19 (23.84, 30.82)
+Partner’s education
+  Primary or lower
+2212
+25.32 (23.45, 27.29)
+416
+16.67 (14.08, 19.62)
+1796
+32.05 (29.31, 34.93)
+  Secondary
+3125
+45.42 (43.35, 47.51)
+1029
+46.92 (43.88, 49.99)
+2096
+44.25 (41.47, 47.07)
+  University or higher
+1892
+29.26 (26.76, 31.89)
+821
+36.41 (33.39, 39.54)
+1071
+23.69 (19.79, 28.09)
+Employed
+3442
+46.47 (44.70, 48.26)
+1106
+47.68 (44.57, 50.82)
+2336
+45.53 (43.46, 47.61)
+Wealth index
+  Poor
+4221
+47.74 (45.11, 50.39)
+1177
+48.23 (44.32, 52.16)
+2812
+49.19 (45.36, 53.03)
+  Middle
+1280
+20.27 (29.10, 35.02)
+436
+20.37 (17.90, 23.08)
+939
+19.46 (17.56, 21.50)
+  Rich
+1728
+31.99 (29.10, 35.02)
+653
+31.41 (27.93, 35.11)
+1212
+31.35 (27.12, 35.93)
+CI: confidence interval; IQR: interquartile range.
+
+6	
+Women’s Health ﻿
+Table 3.  Prevalence of home delivery by study factors among women aged 15–49 years.
+Variable
+Philippines
+Urban
+Rural
+n
+% home delivery 
+(95% CI)
+p value
+n
+% home delivery 
+(95% CI)
+p value
+n
+% home delivery 
+(95% CI)
+p value
+Age
+–
+–
+0.02
+–
+–
+0.58
+–
+–
+<0.01
+Marital status
+<0.01
+0.32
+<0.01
+  Cohabiting
+359
+29.37 (25.82, 33.18)
+95
+40.29 (31.47, 49.79)
+264
+25.49 (21.56, 29.87)
+ 
+  Married
+1195
+70.63 (66.82, 74.18)
+179
+59.71 (50.21, 68.53)
+1016
+74.51 (70.13, 78.44)
+ 
+Mother’s education
+<0.01
+<0.01
+<0.01
+  Primary or lower
+726
+44.03 (39.18, 48.99)
+117
+42.27 (29.15, 56.58)
+609
+44.65 (40.17, 49.23)
+  Secondary
+669
+46.98 (41.52, 52.51)
+129
+49.41 (36.72, 62.17)
+540
+46.12 (40.25, 52.09)
+  University or higher
+159
+8.99 (6.32, 12.64)
+28
+8.32 (5.01, 13.52)
+131
+9.23 (5.97, 13.99)
+Partner’s education
+<0.01
+<0.01
+<0.01
+  Primary or lower
+919
+54.27 (48.64, 59.79)
+134
+48.77 (35.77, 61.93)
+785
+56.21 (49.85, 62.38)
+  Secondary
+501
+36.28 (32.33, 40.42)
+107
+39.45 (29.22, 50.69)
+394
+35.16 (31.14, 39.40)
+  University or higher
+134
+9.45 (6.73, 13.13)
+33
+11.78 (6.93, 19.33)
+101
+8.63 (5.52, 13.24)
+Mother’s employment status
+0.16
+0.70
+0.20
+  Unemployed
+877
+56.82 (51.85, 61.66)
+158
+54.28 (43.85, 64.36)
+719
+57.72 (52.20, 63.06)
+  Employed
+677
+43.18 (38.34, 48.15)
+116
+45.72 (35.64, 56.15)
+561
+42.28 (36.94, 47.80)
+Wealth index
+<0.01
+<0.01
+<0.01
+  Poor
+1340
+79.64 (75.72, 83.07)
+239
+85.87 (78.59, 90.96)
+1027
+71.31 (63.31, 78.16)
+  Middle
+154
+13.86 (11.29, 16.92)
+24
+7.69 (4.34, 13.27)
+163
+16.91 (13.20, 21.41)
+  Rich
+60
+6.50 (4.04, 10.28)
+11
+6.44 (3.32, 12.14)
+90
+11.78 (8.29, 16.47)
+Parity
+<0.01
+<0.01
+<0.01
+  Para one
+213
+13.42 (11.09, 16.14)
+39
+11.40 (7.07, 17.88)
+174
+14.13 (11.57, 17.16)
+  Para 2–4
+821
+54.05 (50.83, 57.24)
+161
+60.53 (52.77, 67.80)
+660
+51.75 (48.42, 55.07)
+  Para 5 or more
+520
+32.53 (29.43, 35.80)
+74
+28.07 (21.09, 36.30)
+446
+34.12 (30.84, 37.55)
+Birth order
+–
+–
+<0.01
+–
+–
+<0.01
+–
+–
+<0.01
+Women’s decision-making power
+0.02
+0.07
+0.21
+  Respondent alone
+664
+46.90 (43.33, 50.50)
+124
+47.81 (40.99, 54.71)
+540
+46.58 (42.31, 50.90)
+  Both respondent and husband/partner
+786
+46.77 (43.21, 50.36)
+132
+45.27 (38.04, 52.71)
+654
+47.30 (43.17, 51.46)
+  Husband/partner, or someone else
+104
+6.33 (4.79, 8.33)
+18
+6.92 (4.27, 11.02)
+86
+6.13 (4.33, 8.60)
+ANC visits
+<0.01
+<0.01
+<0.01
+  Inadequate ANC visits (less than 4)
+594
+34.53 (29.48, 39.95)
+93
+37.94 (26.07, 51.45)
+501
+33.32 (28.25, 38.80)
+  Adequate ANC visits (at least 4)
+960
+65.47 (60.05, 70.52)
+181
+62.06 (48.55, 73.93)
+779
+66.68 (61.20, 71.75)
+Emergency preparedness during pregnancy
+<0.01
+<0.01
+<0.01
+  Not prepared
+346
+20.66 (16.88, 25.02)
+59
+21.66 (15.45, 29.50)
+287
+20.30 (15.79, 25.70)
+  Prepared
+1208
+79.34 (74.98, 83.12)
+215
+78.34 (70.50, 84.55)
+993
+79.70 (74.30, 84.21)
+CI: confidence interval; ANC: antenatal care.
+
+Amit et al.	
+7
+(urban aOR: 0.96 (95% CI: 0.93, 0.99); rural aOR: 0.98 
+(95% CI: 0.96, 1.01)). Among urban mothers, the odds of 
+home delivery is 1.03 times more (95% CI: 0.86, 1.23) for 
+each increase in birth order with evidence for this being 
+weak (p = 0.77). A similar association was observed for 
+rural women (aOR: 1.18 (95% CI: 1.06, 1.31)) with strong 
+evidence for it (p < 0.01). Among urban women, a signifi-
+cant negative association is observed for cohabiting (aOR: 
+0.58 (95% CI: 0.39, 0.86)). Negative associations were also 
+observed between home delivery and making decisions 
+with her husband or partner (aOR: 0.79 (95% CI: 0.53, 
+1.19)) and not having emergency preparedness plans dur-
+ing pregnancy (aOR: 0.91 (95% CI: 0.54, 1.54)) with evi-
+dence being weak for both (p > 0.05). For rural women, a 
+negative association was only observed for cohabiting 
+(aOR: 0.73 (95% CI: 0.57, 0.93)). Lower levels of educa-
+tion among mothers and their partners increased the odds of 
+a home delivery for both population groups. There is an 
+increasing trend in home delivery favoring the poorest 
+wealth category with an increased odds of home delivery 
+compared to those in the richest category (urban aOR: 3.28 
+(95% CI: 1.57, 6.85); rural aOR: 1.79 (95% CI: 1.17, 2.75)). 
+Evidence for this association with wealth index is strong 
+for both populations (p < 0.01). This positive association is 
+similarly observed for parity, with those having five or 
+more children having the highest odds of home delivery for 
+both urban and rural populations although evidence is weak 
+for rural women. Urban women with inadequate ANC vis-
+its have a higher odds of giving birth at home compared to 
+those with at least four ANC visits (aOR: 3.66 (95% CI: 
+Table 4.  Determinants of home delivery among 15- to 49-year-old women in the Philippines.
+Variable
+Crude OR (95% CI)
+p value
+Adjusted OR (95% CI)a
+p value
+Age
+1.02 (1.01, 1.03)
+0.01
+0.98 (0.96, 0.99)
+0.03
+Marital status
+  Married
+1.00
+–
+1.00
+–
+  Cohabiting
+0.64 (0.53, 0.76)
+<0.01
+0.69 (0.56, 0.86)
+<0.01
+Mother’s education
+  University or higher
+1.00
+–
+1.00
+–
+  Secondary
+3.48 (2.27, 5.34)
+<0.01
+1.66 (1.13, 2.44)
+0.01
+  Primary or lower
+14.12 (9.43, 21.15)
+<0.01
+3.19 (2.25, 4.52)
+<0.01
+Partner’s education
+  University or higher
+1.00
+–
+1.00
+–
+  Secondary
+2.72 (1.91, 3.86)
+<0.01
+1.15 (0.82, 1.62)
+0.41
+  Primary or lower
+10.14 (6.55, 15.71)
+<0.01
+1.84 (1.21, 2.80)
+<0.01
+Wealth index
+  Rich
+1.00
+–
+1.00
+–
+  Middle
+3.70 (2.11, 6.49)
+<0.01
+2.25 (1.32, 3.83)
+<0.01
+  Poor
+11.29 (6.74, 18.91)
+<0.01
+3.25 (1.97, 5.37)
+<0.01
+Location
+  Urban
+1.00
+–
+1.00
+–
+  Rural
+2.56 (1.81, 3.62)
+<0.01
+1.59 (1.12, 2.26)
+0.01
+Parity
+  Para one
+1.00
+–
+1.00
+–
+  Para 2–4
+2.02 (1.59, 2.55)
+<0.01
+1.41 (1.05, 1.89)
+0.02
+  Para 5 or more
+6.15 (4.76, 7.94)
+<0.01
+1.69 (1.03, 2.78)
+0.04
+Birth order
+1.35 (1.30, 1.41)
+<0.01
+1.12 (1.03, 1.23)
+0.01
+Women’s decision-making power
+  Respondent alone
+1.00
+–
+1.00
+–
+  Both respondent and husband/partner
+0.98 (0.82, 1.16)
+0.78
+1.01 (0.83, 1.22)
+0.91
+  Husband/partner, or someone else
+1.61 (1.15, 2.26)
+0.01
+1.41 (0.99, 2.01)
+0.06
+ANC visits
+  Adequate ANC visits (at least 4)
+1.00
+–
+1.00
+–
+Inadequate ANC visits (less than 4)
+5.83 (4.52, 7.50)
+<0.01
+3.64 (2.88, 4.61)
+<0.01
+Emergency preparedness during pregnancy
+  Prepared
+1.00
+–
+1.00
+–
+  Not prepared
+2.06 (1.57, 2.71)
+<0.01
+1.08 (0.84, 1.39)
+0.54
+OR: odds ratio; CI: confidence interval; ANC: antenatal care.
+aWeighted multivariable logistic regression analysis, with place of delivery (health facility or home) as the dependent variable, and all other variables 
+in this table as independent. Age and birth order were modeled as continuous variables.
+
+8	
+Women’s Health ﻿
+Table 5.  Determinants of home delivery among 15- to 49-year-old women in urban and rural communities in the Philippines.
+Variable
+Urban
+Rural
+Crude OR  
+(95% CI)
+p value
+Adjusted OR 
+(95% CI)a
+p value
+Crude OR  
+(95% CI)
+p value
+Adjusted OR 
+(95% CI)a
+p value
+Age
+1.00 (0.97, 1.03)
+0.88
+0.96 (0.93, 0.99)
+0.02
+1.03 (1.01, 1.04)
+<0.01
+0.98 (0.96, 1.01)
+0.17
+Marital status
+  Married
+1.00
+–
+1.00
+–
+1.00
+–
+1.00
+–
+  Cohabiting
+0.82 (0.56, 1.20)
+0.32
+0.58 (0.39, 0.86)
+<0.01
+0.65 (0.52, 0.81)
+<0.01
+0.73 (0.57, 0.93)
+0.01
+Mother’s education
+  University or higher
+1.00
+–
+1.00
+–
+1.00
+–
+1.00
+–
+  Secondary
+4.19 (2.34, 7.51)
+<0.01
+1.71 (0.92, 3.18)
+0.09
+3.15 (1.84, 5.36)
+<0.01
+1.80 (1.09, 2.96)
+0.02
+  Primary or lower
+21.96 (10.33, 46.63)
+<0.01
+4.28 (2.18, 8.39)
+<0.01
+10.35 (6.38, 16.77)
+<0.01
+3.21 (2.09, 4.94)
+<0.01
+Partner’s education
+  University or higher
+1.00
+–
+1.00
+–
+1.00
+–
+1.00
+–
+  Secondary
+2.76 (1.57, 4.85)
+<0.01
+1.44 (0.77, 2.68)
+0.25
+2.45 (1.53, 3.93)
+<0.01
+1.20 (0.78, 1.85)
+0.40
+  Primary or lower
+12.72 (5.99, 27.02)
+<0.01
+2.47 (1.18, 5.18)
+0.02
+7.49 (4.20, 13.36)
+<0.01
+1.88 (1.12, 3.15)
+0.02
+Wealth index
+  Rich
+1.00
+–
+1.00
+–
+1.00
+–
+1.00
+–
+  Middle
+1.88 (0.78, 4.54)
+0.16
+1.19 (0.47, 3.02)
+0.72
+2.65 (1.88, 3.74)
+<0.01
+1.50 (1.06, 2.12)
+0.02
+  Poor
+10.49 (5.15, 21.37)
+<0.01
+3.28 (1.57, 6.85)
+<0.01
+5.34 (3.32, 8.58)
+<0.01
+1.79 (1.17, 2.75)
+<0.01
+Parity
+  Para one
+1.00
+–
+1.00
+–
+1.00
+–
+1.00
+–
+  Para 2–4
+2.79 (1.61, 4.81)
+<0.01
+2.54 (1.39, 4.63)
+<0.01
+1.75 (1.36, 2.24)
+<0.01
+1.13 (0.82, 1.57)
+0.45
+  Para 5 or more
+8.92 (4.58, 17.36)
+<0.01
+4.40 (1.65, 11.69)
+<0.01
+4.68 (3.61, 6.05)
+<0.01
+1.16 (0.67, 2.01)
+0.59
+Birth order
+1.37 (1.25, 1.51)
+<0.01
+1.03 (0.86, 1.23)
+0.77
+1.31 (1.26, 1.37)
+<0.01
+1.18 (1.06, 1.31)
+<0.01
+Women’s decision-making power
+  Respondent alone
+1.00
+–
+1.00
+–
+1.00
+–
+1.00
+–
+  Both respondent and husband/partner
+0.91 (0.65, 1.26)
+0.57
+0.79 (0.53, 1.19)
+0.26
+1.01 (0.83, 1.23)
+0.91
+1.10 (0.90, 1.35)
+0.02
+  Husband/partner, or someone else
+1.89 (1.07, 3.34)
+0.03
+1.37 (0.68, 2.74)
+0.37
+1.45 (0.95, 2.22)
+0.08
+1.79 (1.17, 2.75)
+0.01
+ANC visits
+  Adequate ANC visits (at least 4)
+1.00
+–
+1.00
+–
+1.00
+–
+1.00
+–
+  Inadequate ANC visits (less than 4)
+6.96 (4.00, 12.10)
+<0.01
+3.66 (2.36, 5.68)
+<0.01
+5.38 (4.05, 7.14)
+<0.01
+3.56 (2.72, 4.65)
+<0.01
+Emergency preparedness during pregnancy
+  Prepared
+1.00
+–
+1.00
+–
+1.00
+–
+1.00
+–
+  Not prepared
+2.03 (1.29, 3.18)
+<0.01
+0.91 (0.54, 1.54)
+0.73
+2.17 (1.55, 3.04)
+<0.01
+1.18 (0.88, 1.58)
+0.27
+OR: odds ratio; CI: confidence interval; ANC: antenatal care.
+aWeighted multivariable logistic regression analysis, with place of delivery (health facility or home) as the dependent variable, and all other variables in this table as independent variables for all models. 
+Age and birth order were modeled as continuous variables.
+
+Amit et al.	
+9
+2.36, 5.68)), but this association is slightly attenuated 
+among rural women (aOR: 3.56 (95% CI: 2.72, 4.65)). We 
+found that most of the proximal factors considered had a 
+greater effect on the decision to deliver at home among 
+rural women compared to those in urban communities.
+Discussion
+Our study showed that 18% of women aged 15–49 years in 
+the Philippines delivered at home. This proportion was 
+higher than what was reported among urban mothers 
+(11%) but much lower than what was reported in the rural 
+communities (24%). This has been the lowest proportion 
+of home deliveries since the 1993 NDHS32 and mirrors the 
+improvements made in reducing the infant mortality rate, 
+under-5 mortality rate, and maternal mortality rate in the 
+country.1,9 Despite this progress and policies prohibiting 
+home births,9,18 surveys and the present analysis continue 
+to show that women still deliver at home where there is 
+low possibility of being assisted by skilled birth attend-
+ants. More importantly, delivering at home could delay 
+life-saving treatment should complications due to child-
+birth occur.8 Compared to similar studies in the African 
+region,28–30 we found wealth index had the most pro-
+nounced effect on both urban and rural estimates although 
+there is consistency in the finding that more rural women 
+deliver at home. This may be driven by income differences 
+with use of maternal and child health services favoring the 
+rich despite subsidies.25,45 Therefore, achieving Universal 
+Health Care will require strategies that address these 
+urban–rural and rich–poor disparities.
+There are a number of factors that influence the choice 
+of women to deliver at home: age, marital status, mother’s 
+education, husband’s or partner’s education, wealth index, 
+parity, birth order, women’s decision-making power, ANC 
+visits, and emergency preparedness. Our findings suggest 
+these factors yield similar results in the three models 
+(overall, urban, and rural), consistent with the findings of 
+a previous study that there were shared determinants 
+between urban and rural populations.30 The present study 
+also highlights existing disparities between women in the 
+rural communities with more home deliveries despite 
+comparable proportions of rural to urban women on key 
+variables such as having adequate ANC visits and being 
+prepared financially during pregnancy for emergencies. 
+These likely reflect the inequalities associated with health 
+service delivery, specifically in the distribution of health 
+professionals and low investments in the health sector 
+infrastructure.24 We also found that proximal factors – 
+birth order, women’s decision-making power, and emer-
+gency preparedness during pregnancy – had a more 
+pronounced effect in rural women’s decision to deliver at 
+home. This could point to the need for a multi-sectoral 
+approach in addressing this public health problem. A local 
+study on the trends in neonatal mortality and child health 
+inequality used facility-based delivery as a proxy of health 
+service delivery, and determined that it is an effective but 
+complex intervention that requires a fully functional sys-
+tem.24 The government has since made efforts to make 
+health care services more accessible through the MNCHN 
+Strategy and the newly passed Universal Health Care 
+Act.9,11 Our study also identified wealth through assets 
+and wealth proxied by having emergency funds during 
+pregnancy as important factors influencing the choice of 
+home delivery. The odds of home delivery is most pro-
+nounced in the poorest wealth category with a slightly 
+larger effect among urban women. The observed associa-
+tion between home delivery and wealth index is consistent 
+with the results of other studies.34,37,40,41 Women of low 
+economic status are likely to choose birth at home because 
+of associated costs with health facility delivery.41 The 
+National Health Insurance Program (NHIP) covers health 
+expenses during antenatal period and delivery of women.46 
+However, there are other costs related to pregnancy and 
+delivery that need to be considered and acknowledged 
+when interpreting our findings and when advocating for 
+institutional delivery. In our analyses, we found that lack 
+of emergency funds during pregnancy resulted in an 
+increased likelihood for home delivery among rural 
+women but found the reverse for urban women. Especially 
+in rural areas and geographically isolated and disadvan-
+taged areas (GIDA), transportation costs to the facility 
+are expensive because of the long distance travel, which 
+could discourage women from seeking care at these facil-
+ities. However, this hypothesis of distance and transpor-
+tation costs being associated with place of delivery has 
+been refuted by a local study, with most home deliveries 
+being close to health facilities.42 A geospatial analysis in 
+Indonesia supports this finding that area of residence is 
+not associated with place of delivery.47 Increasing health 
+insurance coverage is likely effective in increasing facil-
+ity-based deliveries,25 but we also need to account for 
+cultural context and maternal satisfaction when we inter-
+pret findings on this topic and make recommendations 
+for policy.26,42,48
+Women’s decision-making power in health care also 
+influences the choice of place of delivery. We found that 
+women in both urban and rural settings whose health care 
+decisions were based on their husband, partner, or some-
+one else were more likely to give birth at home. This is 
+consistent with previous reports that there is a negative 
+effect on the use of institutional services when women 
+themselves are not the ultimate decision maker.34,49–51 This 
+observed relationship however is more complex as others 
+have documented an increase in home deliveries among 
+women who make decisions for themselves.23,52 In our 
+study population, there were more married women than 
+those living with their partners, and we found cohabiting 
+decreases the odds of giving birth at home among urban 
+and rural women. This may be related to empowerment of 
+
+10	
+Women’s Health ﻿
+women in making decisions as more women living with 
+their partners made health care decisions on their own. 
+However, we were not able to account for the beliefs of the 
+women and their partners that could influence the associa-
+tion and could explain the slightly higher odds for home 
+delivery observed among rural women. Also related is 
+education, which is sometimes used as a proxy measure 
+for women’s autonomy.50 About half of women and their 
+partners in our study received a secondary education with 
+an increased odds of home delivery among those with 
+lower levels of education. The association is attenuated 
+among rural women. Most studies on pregnancy and deliv-
+ery have studied the role of education in influencing 
+women’s health care decisions.23,33,34,36,37,39–42,49 Possible 
+explanations that support our results include educated 
+individuals having better access to health service informa-
+tion and having the ability to evaluate and apply such 
+information, making them more health literate and thus 
+more likely to seek care during pregnancy. These individ-
+uals are also likely to belong in richer wealth categories, 
+allowing them to access quality health services better and 
+with greater ease. Women who belong in poorer wealth 
+categories in our study also had fewer ANC visits and 
+having inadequate ANC visits increases the odds of home 
+delivery among urban and rural women. Our findings on 
+decision-making power, the role of partners and networks, 
+and the role of education highlight the importance of co-
+creation and patient participation in health service deliv-
+ery involving not only the mother and her partner, but her 
+parents and other family members, and close networks as 
+well.36,37 This includes developing innovative strategies 
+that leverage social capital and networks of women such 
+as providing incentives to traditional birth attendants 
+whom women go to for health care to refer them to health 
+facilities.53 In addition to empowering women and mak-
+ing health information and services more accessible, pro-
+viding women with better formal education is also as 
+important as it influences health outcomes of both mother 
+and child.50
+Our study showed that each year of increase in age of 
+women decreased the odds of home delivery in our study. 
+This is in conflict with other studies that reported an 
+increase in maternal age increased the odds of home deliv-
+ery.36,37 Previous experiences in health services may have 
+been positive among our study population. It is also pos-
+sible that these women had pregnancy complications that 
+required an institutional delivery or that older women have 
+greater autonomy and decision-making power. However, 
+only decision-making power was measured in our study 
+with complications and past experiences not measured in 
+the NDHS. Because there is still a considerable proportion 
+of women who deliver at a relatively young age, the repro-
+ductive health program may need to integrate and empha-
+size the importance of institutional deliveries. In our study, 
+we also found that a significant proportion of women 
+reported parity of at least two and a relatively high birth 
+order number. The odds of home delivery increased with 
+parity of two or more for both urban and rural women. For 
+birth order, each increase in birth order also increased the 
+odds of home delivery for both populations. Previous lit-
+erature similarly reported that multiparity is associated 
+with home delivery with the following possible explana-
+tions: larger family sizes demand more time and resources 
+from the mother that could limit her ability to avail of 
+health services, and uneventful deliveries with traditional 
+birth attendants may lower risk perceptions of home deliv-
+ery.33,41 Because the risk of complications increases with 
+each additional pregnancy,54 women should be supported 
+throughout pregnancy and delivery to encourage them to 
+continue having institutional deliveries for all their preg-
+nancies. Beyond factors working at the individual level, a 
+newly published research has also demonstrated that local-
+ities with ordinances prohibiting home birthing without a 
+skilled birth attendant have higher rates of facility-based 
+births, highlighting the importance of implementing such 
+policies.18 This should be coupled with local government 
+investments on transportation vehicles to health facilities, 
+both from the public sector (e.g. ambulance) and the pri-
+vate sector (e.g. public transportation).18 The study has 
+important methodological limitations that should be con-
+sidered. There is potential selection bias because our anal-
+yses excluded data from women who are single, separated, 
+widowed, or divorced as they did not have the outcome of 
+interest in our analytic sample. We also excluded observa-
+tions due to missing data, which could also potentially lead 
+to selection bias. However, we are unable to quantify the 
+magnitude of bias in our analysis. Our study may also have 
+unmeasured confounding that could affect the observed 
+associations as our analyses relied on data collected and 
+reported in the 2017 Philippine NDHS. Some possible fac-
+tors based on previous studies include receipt of health 
+information during pregnancy, knowledge of danger signs, 
+transport availability, time and distance to a health facility, 
+past experiences, and history of complications. However, 
+we considered other known important factors such as 
+women’s decision-making power, wealth index, parity, 
+birth order, ANC visits, and emergency preparedness. In 
+addition, because MMR remains high in the country,1,5,9 
+our study could potentially have Neyman bias,55 where 
+those with poor maternal outcomes or those who have died 
+due to complications during pregnancy or delivery could 
+not be included in the survey. Because this is a secondary 
+analysis, we are not able to quantify the biases present aris-
+ing from various sources such as non-participation. There 
+also could be recall and/or social desirability biases pre-
+sent because the information collected in the survey was 
+based on self-reporting. We therefore restricted the present 
+analysis to the last-born child of women and no longer 
+included information from other births from previous 
+years to minimize potential for recall issues and reverse 
+causality. Our study also focused mainly on variables that 
+are “static” and unchanged over time that could further 
+
+Amit et al.	
+11
+minimize these problems. Typical in cross-sectional study 
+designs, our study cannot establish a clear temporal asso-
+ciation between the study factors and place of delivery. 
+Despite these limitations, our study provides updated con-
+textual evidence on key determinants of home delivery in 
+the Philippines, which is one of the countries that accounts 
+for 80% of child deaths worldwide.2 In addition, to our 
+knowledge, no other study in the country has conducted 
+disaggregated analyses to compare the prevalence and 
+determinants of home delivery in urban and rural commu-
+nities. Poor access to services, and high neonatal and 
+maternal mortality rates reflect a weak primary care sys-
+tem. In our study, more women in rural areas continue to 
+deliver at home despite policies and strategies that pro-
+mote facility births, and there is evidence that unequal 
+access to services result in unnecessary deaths.56 Our arti-
+cle therefore provides quantitative data that can be used to 
+improve current approaches that will reduce urban–rural 
+disparities among women.
+Conclusion
+The use of institutional childbirth services remains subop-
+timal in the Philippines with significant disparities between 
+urban and rural communities. Our findings showed that 
+there are shared determinants among the urban and rural 
+populations, but with a relatively greater effect observed 
+for the rural population in most of the proximal factors 
+considered. Current strategies therefore need to adopt a 
+multi-sectoral approach to address the complex factors 
+influencing women’s decision to deliver at home. In addi-
+tion, these should be revisited to narrow the gap in health 
+care access and utilization between urban and rural women. 
+Innovative interventions targeting women with specific 
+characteristics as reported in our study are needed and 
+should be considered as the country transitions to Universal 
+Health Care that aims equitable access for all Filipinos. 
+Efforts should also be made to contextualize and co-create 
+health care services and solutions that will motivate 
+women to deliver in health facilities. Our study points to 
+several recommendations that could encourage women 
+to choose an institutional childbirth: (a) empower women 
+to make informed health care decisions by making health 
+information accessible, but at the same time targeting and 
+involving their partners and close networks; (b) encourage 
+women to pursue formal education with the necessary 
+support needed from the government; (c) allow cultural 
+birthing procedures as long as these do not conflict with 
+scientific medical practice (e.g. massages); (d) effectively 
+implement local ordinances prohibiting home birthing 
+without a skilled birth attendant; (e) establish additional 
+health facilities with other services such as transport 
+(e.g. ambulance) as these expenditures further burden the 
+mother and discourage her from seeking care; (f) encour-
+age positive experiences in the health facility. With the 
+ongoing COVID-19 pandemic, it will be equally important 
+to identify areas for improvement in the continuum of 
+women’s health care from pregnancy to childbirth. 
+Providing women with the support they need and engaging 
+them in a discussion on their choice of place of birth is 
+critical in establishing trust in the health care system, espe-
+cially at a time when health services are not easily acces-
+sible and risk-free to women in disadvantaged communities. 
+Further studies could explore these themes in-depth using 
+a mixed methods approach or qualitative study design to 
+complement our findings.
+Declarations
+Ethics approval and consent to participate
+This study received ethics approval from the Ateneo de Manila 
+University Research Ethics Committee (Protocol ID: SMPH 
+DATA 2020). Since the study involved secondary analysis of 
+publicly available data, consent to participate in this study was 
+not needed. Furthermore, data from the NDHS are not individu-
+ally identifiable and therefore their analysis does not constitute 
+human subjects research. The Code of Federal Regulations 
+(CFR) 45 CFR 46.102(f) defines human subjects as living indi-
+viduals about whom an investigator obtains identifiable private 
+information for research purposes.
+Consent for publication
+Not applicable.
+Author contributions
+Arianna Maever L. Amit: Conceptualization; Data curation; 
+Formal analysis; Investigation; Methodology; Writing – original 
+draft; Writing – review & editing.
+Veincent Christian F. Pepito: Conceptualization; Data cura-
+tion; Formal analysis; Funding acquisition; Investigation; 
+Methodology; Project administration; Resources; Supervision; 
+Validation; Writing – review & editing.
+Sarah J. De los Reyes: Conceptualization; Investigation; 
+Writing – review & editing.
+Clinton S. Tang: Conceptualization; Investigation; Writing – 
+review & editing.
+Neil Andrew Kiamco Aliazas: Conceptualization; Investigation; 
+Writing – review & editing.
+Lourdes Sumpaico-Tanchanco: Conceptualization; Funding 
+acquisition; Investigation; Methodology; Project administration; 
+Resources; Supervision; Writing – review & editing.
+Acknowledgements
+We thank Jeanne Christine C. Peralta, Edward Joshua M. Nuguid, 
+and the rest of the Data Analysis Project Working Group for 
+Home Birthing for their support and insights.
+Funding
+The author(s) disclosed receipt of the following financial support 
+for the research, authorship, and/or publication of this article: 
+This study is supported by the Ateneo de Manila University 
+Research Council Standard Grant (Grant No. 2020-01).
+
+12	
+Women’s Health ﻿
+Competing interests
+The author(s) declared the following potential conflicts of inter-
+est with respect to the research, authorship, and/or publication 
+of this article: We have read the journal’s policy and the authors 
+of this manuscript have the following competing interests: 
+A.M.L.A. and V.C.F.P. receive funding from Sanofi to conduct 
+research on self-care. A.M.L.A. and V.C.F.P. also received 
+funding from the International Initiative for Impact Evaluation 
+to propose a study on programs designed by the Philippine 
+Health Insurance Corporation.
+Availability of data and materials
+The 2017 Philippine National Demographic and Health datasets 
+and questionnaires are available from the Demographic and 
+Health Surveys Program Website (https://www.dhsprogram.
+com/methodology/survey/survey-display-510.cfm.
+ORCID iDs
+Arianna Maever L. Amit 
+ https://orcid.org/0000-0003-4571- 
+400X
+Neil Andrew Kiamco Aliazas 
+ https://orcid.org/0000-0002- 
+0682-679X
+References
+	 1.	 Alkema L, Chou D, Hogan D, et al. Global, regional, and 
+national levels and trends in maternal mortality between 
+1990 and 2015, with scenario-based projections to 2030: a 
+systematic analysis by the UN maternal mortality estimation 
+inter-agency group. Lancet 2016; 387: 462–474.
+	 2.	 Wang H, Liddell CA, Coates MM, et al. Global, regional, 
+and national levels of neonatal, infant, and under-5 mor-
+tality during 1990–2013: a systematic analysis for the 
+Global Burden of Disease Study 2013. Lancet 2014; 384: 
+957–979.
+	 3.	 United Nations Assembly. United Nations Millennium 
+Declaration, 2000, http://undocs.org/A/RES/55/2
+	 4.	 Countdown to 2015, Health Metrics Network. Monitoring 
+maternal, newborn and child health: understanding key 
+progress indicators, 2011, https://apps.who.int/iris/han-
+dle/10665/44770
+	 5.	 Cagayan MaSFS, Ricarte JA, Ang-Bon RM and Llamas-
+Clark E. Insights on maternal health in the Philippines from 
+national health surveys and maternal health policies. Philip 
+J Health Res Develop 2018; 22: 252.
+	 6.	 United Nations Assembly. Transforming our world: 
+the 2030 Agenda for Sustainable Development, 2015, 
+http://www.un.org/ga/search/view_doc.asp?symbol=A/
+RES/70/1&Lang=E
+	 7.	 World Health Organization. WHO recommendations: 
+intrapartum care for a positive childbirth experience, 2018, 
+https://www.who.int/reproductivehealth/publications/intra-
+partum-care-guidelines/en/
+	 8.	 Campbell OMR and Graham WJ. Strategies for reducing 
+maternal mortality: getting on with what works. Lancet 
+2006; 368: 1284–1299.
+	 9.	 Department of Health. The MNCHN Manual of 
+Operations, 2011, https://doh.gov.ph/sites/default/files/
+publications/MNCHNMOPMay4withECJ.pdf (accessed 
+25 April 2021).
+	10.	 Philippine Statistics Authority. Sustainable Development 
+Goal, 2020, https://psa.gov.ph/sdg/Philippines/baseline 
+data/3%20Good%20Health%20and%20Well-being 
+(accessed May 1, 2021)
+	11.	 Department of Health. Implementing rules and regulations 
+of the Universal Health Care Act (Republic Act No. 11223), 
+2019, https://www.philhealth.gov.ph/about_us/UHC-IRR_
+Signed.pdf
+	12.	 Dayrit M, Lagrada L, Picazo O, et al. The Philippines health 
+system review. Health Syst Trans 2018; 8, https://apps.who.
+int/iris/bitstream/handle/10665/274579/9789290226734-
+eng.pdf?sequence=1&isAllowed=y
+	13.	 Flores ELL, Manahan EMR, Lacanilao MPB, et  al. 
+Factors affecting retention in the Philippine National Rural 
+Physician Deployment Program from 2012 to 2019: a mixed 
+methods study. BMC Health Serv Res 2021; 21: 1201.
+	14.	 The World Bank. Maternal mortality ratio (modeled estimate, 
+per 100,000 live births)—Philippines, 2017, https://data.
+worldbank.org/indicator/SH.STA.MMRT?locations=PH
+	15.	 Philippine Statistics Authority, ICF International. National 
+Demographic and Health Survey 2013, 2014, https://dhspro-
+gram.com/pubs/pdf/fr293/fr293.pdf
+	16.	 The World Bank. Project appraisal document on a proposed 
+loan in the amount of US$ 16.0 million to the Republic 
+of the Philippines for a second Women’s Health & Safe 
+Motherhood Project (Report 3145; 6-PH) 2005, http://
+www-wds.worldbank.org/external/default/main?pagePK=6
+4193027&piPK=64187937&theSitePK=523679&menuPK
+=64187510&searchMenuPK=64187282&theSitePK=5236
+79&entityID=000090341_20050405090650&searchMenu
+PK=64187282&theSitePK=523679
+	17.	 RTI International. Luzon health—integrated maternal, 
+neonatal, child health and nutrition/family planning in the 
+Philippines, 2016, https://www.rti.org/impact/luzonhealth-
+maternal-neonatal-child-health-nutrition-family-planning
+	18.	 Kanamori S, Bonhaon MD and Molon MP. Negative incen-
+tives for noninstitutional births are associated with a higher 
+rate of facility-based births in the Eastern Visaya region, 
+Philippines. Global Health Sci Pract 2021; 9: 565–574.
+	19.	 Gabrysch S and Campbell OM. Still too far to walk: lit-
+erature review of the determinants of delivery service use. 
+BMC Preg Childbirth 2009; 9: 34.
+	20.	 Lee RB, Abellera M, Triunfante CC, et  al. Utilization of 
+maternal health care services among low-income Filipino 
+Women, with Special Reference to Bicol Region, https://
+www.academia.edu/4361640/Utilization_of_maternal_
+health_care_services_among_low_income_Filipino_women
+	21.	 Hodge A, Firth S, Bermejo R, et al. Utilisation of health ser-
+vices and the poor: deconstructing wealth-based differences 
+in facility-based delivery in the Philippines. BMC Public 
+Health 2016; 16: 523.
+	22.	 Yamashita T, Reyes Tuliao MT, Concel Meana M, et al. 
+Utilization of healthcare services in postpartum women in 
+the Philippines who delivered at home and the effects on 
+their health: a cross-sectional analytical study. Int J Womens 
+Health 2017; 9: 695–700.
+	23.	 Shimazaki A, Honda S, Dulnuan MM, et al. Factors asso-
+ciated with facility-based delivery in Mayoyao, Ifugao 
+Province, Philippines. Asia Pac Fam Med 2013; 12: 5.
+	24.	 Kraft AD, Nguyen KH, Jimenez-Soto E, et  al. Stagnant 
+neonatal mortality and persistent health inequality in 
+
+Amit et al.	
+13
+middle-income countries: a case study of the Philippines. 
+PLoS ONE 2013; 8(1): e53696.
+	25.	 Gouda HN, Hodge A, Bermejo R 3rd, et  al. The impact 
+of healthcare insurance on the utilisation of facility-based 
+delivery for childbirth in the Philippines. PLoS ONE 2016; 
+11(12): e0167268.
+	26.	 Cagayan MSFS, Pepito VCF, Bon RMA, et al. Experiences 
+and satisfaction of high-risk mothers who gave birth in 
+select facilities in Legazpi City, Philippines. Int J Public 
+Health Sci 2020; 9: 137.
+	27.	 Molina HF, Nakamura K, Kizuki M, et al. Reduction in ine-
+quality in antenatal-care use and persistence of inequality 
+in skilled birth attendance in the Philippines from 1993 to 
+2008. BMJ Open 2013; 3: e002507.
+	28.	 Saaka M and Akuamoah-Boateng J. Prevalence and deter-
+minants of rural-urban utilization of skilled delivery ser-
+vices in Northern Ghana. Scientifica 2020; 2020: 9373476.
+	29.	 Dewau R, Angaw DA, Kassa GM, et al. Urban-rural dispari-
+ties in institutional delivery among women in East Africa: a 
+decomposition analysis. PLoS ONE 2021; 16: e0255094.
+	30.	 Shehu CE, Ibrahim MTO, Oche MO, et al. Determinants 
+of place of delivery: a comparison between an urban and 
+a rural community in Nigeria. J Public Health Epidemiol 
+2016; 8: 91–101.
+	31.	 Rocca-Ihenacho L and Alonso C. Where do women 
+birth during a pandemic? Changing perspectives on Safe 
+Motherhood during the COVID-19 pandemic. J Glob 
+Health Sci 2020; 2: e4.
+	32.	 Philippine Statistics Authority, ICF International. Philippine 
+National Demographic and Health Survey 2017, 2018, 
+https://psa.gov.ph/sites/default/files/PHILIPPINE%20
+NATIONAL%20DEMOGRAPHIC%20AND%20
+HEALTH%20SURVEY%202017_new.pdf (accessed 22 
+February 2021).
+	33.	 Ngowi AF, Kamazima SR, Kibusi S, et al. Women’s determi-
+nant factors for preferred place of delivery in Dodoma region 
+Tanzania: a cross sectional study. Reprod Health 2017; 14: 
+112.
+	34.	 Hailu D and Berhe H. Determinants of institutional child-
+birth service utilisation among women of childbearing 
+age in urban and rural areas of Tsegedie district, Ethiopia. 
+Midwifery 2014; 30(11): 1109–1117.
+	35.	 Fekadu M and Regassa N. Skilled delivery care service 
+utilization in Ethiopia: analysis of rural-urban differentials 
+based on National Demographic and Health Survey (DHS) 
+data. Afr H Sci 2015; 14: 974.
+	36.	 Swain PK, Singh P and Priyadarshini S. Determinants of 
+home deliveries—findings from India DLHS 4 analysis. J 
+Family Med Prim Care 2020; 9(9): 4723–4728.
+	37.	 Devkota B, Maskey J, Pandey AR, et  al. Determinants 
+of home delivery in Nepal—a disaggregated analysis of 
+marginalised and non-marginalised women from the 2016 
+Nepal demographic and health survey. PLoS ONE 2020; 
+15(1): e0228440.
+	38.	 Abubakar S, Adamu D, Hamza RB, et al. Determinants of 
+home delivery among women attending antenatal care in 
+Bagwai Town, Kano Nigeria. Afr J Reprod Health 2017; 21: 
+73–79.
+	39.	 Edmonds JK, Paul M and Sibley L. Determinants of place of 
+birth decisions in uncomplicated childbirth in Bangladesh: 
+an empirical study. Midwifery 2012; 28(5): 554–560.
+	40.	 Kusuma YS, Kaushal S, Garg R, et al. Birth preparedness 
+and determinants of birth place among migrants living in 
+slums and slum-like pockets in Delhi, India. Sex Reprod 
+Healthc 2018; 16: 160–166.
+	41.	 Moshi FV and Mbotwa CH. Determinants for choice of 
+home birth over health facility birth among women of repro-
+ductive age in Tanzania: an analysis of data from the 2015-
+16 Tanzania demographic and health survey and malaria 
+indicator survey. BMC Preg Childbirth 2020; 20: 561.
+	42.	 Sobel HL, Oliveros YE and Nyunt-U S. Secondary analysis 
+of a national health survey on factors influencing women 
+in the Philippines to deliver at home and unattended by a 
+healthcare professional. Int J Gynaecol Obstet 2010; 111(2): 
+157–160.
+	43.	 Guilbert JJ. The World Health Report 2002—reducing 
+risks, promoting healthy life. Educ Health 2003; 16(2): 
+230–230.
+	44.	 StataCorp. Stata 14.0 IC. College Station, TX: StataCorp, 
+2015.
+	45.	 Paredes KPP. Inequality in the use of maternal and child 
+health services in the Philippines: do pro-poor health poli-
+cies result in more equitable use of services? Int J Equity 
+Health 2016; 15: 181.
+	46.	 Women about to give birth may avail themselves of PhilHealth 
+benefits, 
+https://www.philhealth.gov.ph/news/2016/preg-
+nancy_benefits.html (accessed 18 April 2022).
+	47.	 Ansariadi A and Manderson L. Antenatal care and women’s 
+birthing decisions in an Indonesian setting: does location 
+matter? Rural Remote Health 2015; 15: 2959.
+	48.	 Srivastava A, Avan BI, Rajbangshi P, et al. Determinants of 
+women’s satisfaction with maternal health care: a review of 
+literature from developing countries. BMC Preg Childbirth 
+2015; 15: 97.
+	49.	 Mistry R, Galal O and Lu M. Women’s autonomy and preg-
+nancy care in rural India: a contextual analysis. Soc Sci Med 
+2009; 69(6): 926–933.
+	50.	 Woldemicael G and Tenkorang EY. Women’s autonomy 
+and maternal health-seeking behavior in Ethiopia. Matern 
+Child Health J 2010; 14(6): 988–998.
+	51.	 Sychareun V, Hansana V, Somphet V, et al. Reasons rural 
+Laotians choose home deliveries over delivery at health 
+facilities: a qualitative study. BMC Preg Childbirth 2012; 
+12: 86.
+	52.	 Fotso J-C, Ezeh AC and Essendi H. Maternal health in 
+resource-poor urban settings: how does women’s autonomy 
+influence the utilization of obstetric care services? Reprod 
+Health 2009; 6: 9.
+	53.	 Chukwuma A, Mbachu C, McConnell M, et  al. The 
+impact of monetary incentives on referrals by traditional 
+birth attendants for postnatal care in Nigeria. BMC Preg 
+Childbirth 2019; 19: 150.
+	54.	 Al-Shaikh GK, Ibrahim GH, Fayed AA, et al. Grand mul-
+tiparity and the possible risk of adverse maternal and neo-
+natal outcomes: a dilemma to be deciphered. BMC Preg 
+Childbirth 2017; 17: 310.
+	55.	 Delgado-Rodriguez M and Llorca J. Bias. J Epidemiol 
+Commun Health 2004; 58: 635–641.
+	56.	 Wulandari RD, Laksono AD and Rohmah N. Urban-rural 
+disparities of antenatal care in South East Asia: a case study 
+in the Philippines and Indonesia. BMC Public Health 2021; 
+21: 1221.

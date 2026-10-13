@@ -1,0 +1,1055 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+SOSE Affiliate: Manila Observatory 
+School of Science and Engineering Research 
+Centers 
+10-9-2025 
+Day-Night Shifts in Water-Soluble Ions of Size-Resolved Aerosols 
+Day-Night Shifts in Water-Soluble Ions of Size-Resolved Aerosols 
+before and after the COVID-19 Lockdown in a Coastal Megacity: 
+before and after the COVID-19 Lockdown in a Coastal Megacity: 
+Metro Manila, Philippines 
+Metro Manila, Philippines 
+Grace Betito 
+University of Arizona, Ateneo de Manila University 
+Paola Angela Bañaga 
+Manila Observatory, Ateneo de Manila University 
+Rachel A. Braun 
+Arizona State University 
+Maria Obiminda Cambaliza 
+Manila Observatory, Ateneo de Manila University 
+Melliza Templonuevo Cruz 
+Manila Observatory, Ateneo de Manila University 
+See next page for additional authors 
+Follow this and additional works at: https://archium.ateneo.edu/manila-observatory 
+ Part of the Analytical Chemistry Commons, Environmental Chemistry Commons, Environmental 
+Engineering Commons, Environmental Health Commons, Environmental Sciences Commons, and the 
+Oceanography and Atmospheric Sciences and Meteorology Commons 
+Custom Citation 
+Custom Citation 
+Day-Night Shifts in Water-Soluble Ions of Size-Resolved Aerosols before and after the COVID-19 
+Lockdown in a Coastal Megacity: Metro Manila, Philippines Grace Betito, Paola Angela Bañaga, Rachel A. 
+Braun, Maria Obiminda Cambaliza, Melliza Templonuevo Cruz, Alexander B. MacDonald, James Bernard 
+Simpas, Connor Stahl, and Armin Sorooshian ACS Earth and Space Chemistry 2025 9 (11), 2643-2650 
+DOI: 10.1021/acsearthspacechem.5c00192 
+This Article is brought to you for free and open access by the School of Science and Engineering Research Centers 
+at Archīum Ateneo. It has been accepted for inclusion in SOSE Affiliate: Manila Observatory by an authorized 
+administrator of Archīum Ateneo. For more information, please contact oadrcw.ls@ateneo.edu. 
+
+Authors 
+Authors 
+Grace Betito, Paola Angela Bañaga, Rachel A. Braun, Maria Obiminda Cambaliza, Melliza Templonuevo 
+Cruz, Alexander B. MacDonald, James Bernard Simpas, Connor Stahl, and Armin Sooroshian 
+This article is available at Archīum Ateneo: https://archium.ateneo.edu/manila-observatory/26 
+
+Day-Night Shifts in Water-Soluble Ions of Size-Resolved Aerosols
+before and after the COVID-19 Lockdown in a Coastal Megacity:
+Metro Manila, Philippines
+Grace Betito, Paola Angela Bañaga, Rachel A. Braun, Maria Obiminda Cambaliza,
+Melliza Templonuevo Cruz, Alexander B. MacDonald, James Bernard Simpas, Connor Stahl,
+and Armin Sorooshian*
+Cite This: ACS Earth Space Chem. 2025, 9, 2643−2650
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+*
+sı
+Supporting Information
+ABSTRACT: The COVID-19 pandemic-driven lockdowns offer a
+unique opportunity to examine how reductions in anthropogenic
+emissions impacted atmospheric aerosol composition in urban
+environments. This study investigates the day-night variability of
+size-resolved water-soluble ions in ambient particulate matter (PM)
+collected in Metro Manila before (November 2019−February
+2020) and after (November 2020−February 2021) lockdown
+implementation. Using tandem Micro-Orifice Uniform Deposit
+Impactors (MOUDIs), aerosol samples were collected during
+daytime (06:00−18:00) and nighttime (18:00−06:00) periods and
+analyzed for key ionic species (sulfate, ammonium, nitrate, oxalate,
+sodium, chloride, calcium, and magnesium) via ion chromatog-
+raphy. Submicrometer water-soluble mass declined post-lockdown,
+particularly during daytime, reflecting suppressed secondary formation under reduced anthropogenic activity, with substantial
+reductions in sulfate and ammonium. In contrast, concentrations in the supermicrometer range increased due to naturally higher sea
+salt levels. Chemical ratios reveal notable features post-lockdown and during daytime due to especially reduced sulfate levels:
+reduced chloride depletion (on percent basis), higher ammonium-to-sulfate ratios pointing to more excess ammonia available for
+reactions beyond neutralizing sulfate, and support for aqueous-phase processing preferentially forming more oxalate relative to
+sulfate. These findings underscore how both photochemistry and changes in anthropogenic activity influence aerosol composition,
+with implications for air quality and atmospheric processing in coastal urban cities.
+KEYWORDS: Metro Manila, size-segregated water-soluble ions, diurnal variation, chloride depletion, COVID-19
+1. INTRODUCTION
+Water-soluble aerosol species, which include both inorganic
+and organic ions, constitute a substantial fraction of particulate
+matter (PM) mass.1,2 These species play a critical role in
+shaping aerosol properties and have wide-ranging impacts on
+air quality,3 human health,4 and climate through their influence
+on hygroscopicity, acidity, and radiative effects.5
+The diurnal variability of water-soluble species depends on
+their chemical formation mechanisms as well as atmospheric
+conditions and sources that differ between daytime and
+nighttime. In urban environments, meteorological conditions
+and anthropogenic activities differ markedly over the course of
+the day.6 Daytime is typically characterized by enhanced solar
+radiation that drives photochemical reactions that facilitate the
+oxidation of precursor gases (e.g., SO2, NOx, and VOCs),
+promoting the formation of secondary aerosol species.6,7 In
+contrast, nighttime processes are influenced by shallower
+boundary layers, reduced photochemical activity, and alter-
+native oxidation pathways such as reactions involving nitrate
+radicals.8,9 Because these processes influence particles of
+different sizes in different ways, size-resolved measurements
+are essential to understand their atmospheric transformation,
+transport, and fate.10,11
+The 2019 novel coronavirus disease (COVID-19) pandemic
+led to widespread reductions in anthropogenic emissions due
+to strict lockdown measures implemented globally. These
+changes, such as decreased vehicular traffic and reduced
+industrial activity, resulted in notable declines in air pollutants,
+including PM and NOx, in many urban regions, e.g.,12−14
+Received:
+July 14, 2025
+Revised:
+September 26, 2025
+Accepted:
+October 6, 2025
+Published: October 9, 2025
+Article
+http://pubs.acs.org/journal/aesccq
+© 2025 American Chemical Society
+2643
+https://doi.org/10.1021/acsearthspacechem.5c00192
+ACS Earth Space Chem. 2025, 9, 2643−2650
+Downloaded via ATENEO DE MANILA UNIV on December 1, 2025 at 09:00:31 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+including those within the Asian Monsoon regions.15 However,
+the extent and duration of these reductions varied regionally
+due to differences in lockdown stringency and emission
+sources, e.g.,.16,17 In Metro Manila, stringent restrictions
+beginning in March 2020 led to a decline in vehicular traffic
+and industrial operations, resulting in lower PM2.5 levels
+compared to pre-lockdown conditions. As restrictions
+gradually eased, PM2.5 concentration rebounded but still
+remained lower than pre-lockdown levels.15 While most
+studies have focused on concentrations of broad classes of
+pollutants, fewer have examined how lockdown-related
+emission changes affected aerosol chemical composition,
+particularly size-resolved water-soluble species in coastal
+megacities such as Metro Manila.
+Few studies have examined how potential compositional
+changes vary diurnally, highlighting the need to assess diurnal
+patterns in context of Metro Manila’s complex air quality,
+which is primarily driven by anthropogenic sources such as
+vehicular traffic, industrial activities, and waste processing,
+along with other contributors including sea salt, aged aerosols,
+and biomass burning, e.g.,.18−21 Prior studies at the same
+sampling site used in this work have characterized the size-
+resolved water-soluble ionic composition of PM using 48-h
+bulk samples. Aged aerosol and sea salt were identified as some
+of major sources of ionic PM in the region, with aged aerosol
+dominated by sulfate and ammonium.20 Further work has
+shown that chloride depletion varies with pollutant type,22 and
+that water-soluble species, particularly sulfate and ammonium,
+are more sensitive to rainfall events lasting more than an
+hour.23 Variations in water-soluble species have also been
+associated with changes in aerosol composition linked to long-
+range transport and local emissions.21
+Leveraging daytime and nighttime sampling across pre- and
+post-lockdown during COVID-19 pandemic, this study
+investigates the variability of size-resolved ionic species and
+gravimetric mass in Metro Manila, Philippines. The objective is
+to assess how water-soluble ions vary between both daytime
+and nighttime and also between pre-lockdown and post-
+lockdown periods. In doing so, special attention is given to a
+few ratios of interest related to sea salt reactivity and secondary
+formation mechanisms. Findings from this work provide
+insights into diurnal variability and pandemic-driven changes
+in aerosol composition, with broader implications for under-
+standing atmospheric processing in coastal urban environ-
+ments.
+2. EXPERIMENTAL METHODS
+2.1. Aerosol Sampling and Chemical Analysis. This
+study builds upon a previous measurement campaign
+conducted as part of the Cloud, Aerosol, and Monsoon
+Processes Philippines Experiment (CAMP2Ex) weatHEr and
+CompoSition Monitoring (CHECSM) at the Manila Observ-
+atory (MO) site in Quezon City, Philippines (14.64° N,
+121.08° E), which also employed Micro-Orifice Uniform
+Deposit Impactors (MOUDIs) to collect size-segregated
+aerosol samples over continuous 48-h periods.24 The MOUDIs
+operated at ∼30 L/min with aerodynamic cut-point diameters
+(Dp) of 0.056, 0.10, 0.18, 0.32, 0.56, 1.0, 1.8, 3.2, 5.6, 10, and
+18 μm.25 In the present study, two MOUDIs worked in
+tandem with one sampling during daytime (06:00−18:00 local
+time) and the other at nighttime (18:00−06:00) to capture
+diurnal variability over three consecutive days, with total
+runtimes of 33−35 h per sample set. On selected days, the two
+MOUDIs were simultaneously used with one allocated for
+chemical analysis and the other for gravimetric analysis. For
+these sets, daytime filters were swapped out with nighttime
+filters when the nighttime period began and vice versa as soon
+as the daytime period started again the next day. The daytime
+period captures typical traffic rush hours, which occur from
+07:00−09:00 and 16:00−18:00 local time.26
+Sampling initially began in November 2019 and continued
+through February 2020. It was temporarily suspended due to
+the COVID-19 pandemic, then resumed in November 2020 as
+restrictions eased (Table S1), continuing until February 2021.
+The start and end dates for each MOUDI set are summarized
+in Table S2. In total, 36 sets (18 pairs of daytime and
+nighttime samples) were collected for ion chromatography
+(IC) analysis, and 12 sets (6 pairs) for gravimetric analysis.
+The Teflon substrates were precleaned by soaking each side
+in Milli-Q water for at least 12 h, then dried and stored in
+methanol-cleaned Petrislides, and sealed with Parafilm to
+prevent contamination from particles or gases. Mass
+concentrations for each size range were determined by pre-
+and post-weighing the filters using a Sartorius ME5-F
+microbalance with a sensitivity of ±1 μg in a temperature
+and humidity controlled room. Each substrate designated for
+IC analysis was divided in half using ceramic scissors that were
+cleaned with methanol before and after each cut to avoid heavy
+metal contamination.24 One half was extracted using 8 mL of
+Milli-Q water (18.2 MΩ·cm), followed by sonication and
+subsequent analysis for ionic species (Na+, NH4
++, Mg2+, Ca2+,
+oxalate, Cl−, NO3
+−, SO4
+2−) using IC (Thermo Scientific
+Dionex ICS-2100 system). The other halves were preserved for
+future analyses. A more detailed discussion of the sampling
+procedures and analytical methods is provided in Stahl et al.24
+2.2. Calculations and Data Analysis. The nonsea-salt
+fraction of sulfate (nssSO4
+2−) is determined using eqs 1−5,
+where SO4
+2−represents the total sulfate concentration. Both
+the ammonium-to-sulfate molar ratio and the oxalate-to-sulfate
+mass ratio, as well as the scatterplot shown in Figure 3 (Section
+3.4), are based on nssSO4
+2−.The sea-salt sodium (ssNa+)
+component is attributed to sea spray, and the constant 0.253
+represents the SO4
+2−:Na+ ratio characteristic of seawater.27
+Chloride depletion was calculated using eq 6, where 1.81 is the
+typical mass ratio of Cl:Na in seawater.28 The mass
+concentration of lost Cl−was quantified using eq 7.29
+=
++
++
++
+ssNa
+Na
+nssNa
+(1)
+=
+×
+=
++
++
++
++
++
++
+i
+k
+jjjj
+y
+{
+zzzz
+i
+k
+jjjj
+y
+{
+zzzz
+nssNa
+nssCa
+Ca
+Na
+; where Ca
+Na
+1.78
+2
+2
+crust
+2
+crust
+(2)
+=
++
++
++
+nssCa
+Ca
+ssCa
+2
+2
+2
+(3)
+=
+×
+=
++
++
++
++
++
++
+i
+k
+jjjj
+y
+{
+zzzz
+i
+k
+jjjj
+y
+{
+zzzz
+ssCa
+ssNa
+Ca
+Na
+; where Ca
+Na
+0.038
+2
+2
+seawater
+2
+seawater
+(4)
+=
+×
++
+nssSO
+SO
+(0.253
+ssNa )
+4
+2
+4
+2
+(5)
+=
+× [
+]
+[
+]
+× [
+]
+×
++
++
+%Cl depletion
+(1.81
+Na
+Cl )
+(1.81
+Na
+)
+100%
+(6)
+ACS Earth and Space Chemistry
+http://pubs.acs.org/journal/aesccq
+Article
+https://doi.org/10.1021/acsearthspacechem.5c00192
+ACS Earth Space Chem. 2025, 9, 2643−2650
+2644
+
+=
+×
++
++
+i
+k
+jjj
+y
+{
+zzz
+lost Cl
+ssNa
+Cl
+Na
+Cl
+ss
+(7)
+Daytime and nighttime samples were further categorized
+into two groups: pre-lockdown and post-lockdown. Pre-
+lockdown refers to samples collected before the onset of the
+COVID-19 pandemic (November 2019−February 2020),
+while post-lockdown refers to samples collected after lockdown
+restrictions were lifted but still during the pandemic period
+(November 2020−February 2021). During the pandemic,
+three different types of community quarantines were imposed
+depending on the COVID-19 risk levels.30 Our post-lockdown
+period measurement fell under the General Community
+Quarantine (GCQ) classification (Table S1). Although public
+transport was already permitted during this period, most
+classes remained online, and remote work continued in some
+institutions (Table S1). As a result, anthropogenic emissions
+such as from vehicular transport, especially near the campus
+where sampling was conducted, were expected to be reduced
+due to continued remote arrangements. Additionally, because
+MOUDI set (MO5) was strategically conducted in a way to
+sample emissions from New Year’s Eve celebrations, it was
+excluded from bulk analyses presented in Sections 3.2−3.4, but
+included in the overview discussion in Section 3.1.
+3. RESULTS AND DISCUSSION
+3.1. Cumulative Water-Soluble Ionic Composition.
+The total water-soluble mass concentration results are
+summarized in Table S2 ranging from 1.4−12.9 μg m−3
+during daytime and 2.2−10.2 μg m−3 during nighttime. For
+the select sets when gravimetric analysis was conducted, the
+total bulk mass ranged from 7.4−25.6 μg m−3 during the day
+and 19.1−38.9 μg m−3 at night. During pre-lockdown, when
+comparing the contribution of water-soluble species to bulk
+mass across six gravimetric sets (3 daytime, 3 nighttime), the
+pre-lockdown period showed contributions ranging from
+18.9−23.2% during daytime and 11.0−23.7% during nighttime.
+The elevated nighttime contribution of 23.7% was observed
+during a sampling period influenced by New Year’s Eve
+celebrations (MO5-N), reflecting enhanced emissions of
+firework-related species that are ionic such as sulfate, nitrate,
+and chloride.31 One of the lowest percentage contributions,
+11.0% (MO4-N) was recorded during a period impacted by
+Typhoon Phanfone (category 2), which landed on 25
+December 2019 and brought high amounts of rainfall (44.4
+mm), and stronger winds compared to the other sets (Table
+S2). During the post-lockdown period, six gravimetric sets
+were also collected (3 daytime and 3 nighttime). The sums of
+water-soluble species accounted for 22.0−32.0% of the total
+gravimetric mass during daytime and 14.8−29.3% during
+nighttime, both of which were higher than their respective pre-
+lockdown values. For comparison, the water-soluble fraction
+was 33.4% of the total PM mass at the same sampling site
+between July−October 2018 using bulk 48-h sampling.20
+3.2. Diurnal Variability. Figure 1 and Table S3 present the
+mean concentrations of water-soluble ions across different size
+fractions (0.056−1.0, 1.0−18.0, 0.056−18.0 μm) for both pre-
+lockdown and post-lockdown periods, separated into daytime
+and nighttime sampling. In the submicrometer range, sulfate
+was the most dominant species, followed by ammonium.
+During the pre-lockdown daytime, sulfate reached a mean
+concentration of 2.01 μg m−3, which significantly decreased to
+0.83 μg m−3 post-lockdown. A similar trend was observed at
+night, with sulfate levels declining from 1.74 to 1.11 μg m−3.
+These reductions are consistent with decreased SO2 emissions
+from vehicles and industrial activities during the COVID-19
+pandemic. Ammonium also showed notable reductions from
+pre- to post-lockdown during the daytime (1.42 to
+Figure 1. Mass size distributions of total water-soluble species (colored bars) for (a) daytime and (b) nighttime MOUDI sets. The hatched bars
+(i.e., always on the right of the pair of bars at same diameter bin) correspond to samples collected during COVID post-lockdown. The far-right
+panel in each subplot shows the mean mass size distribution profile of the total water-soluble species, with shading indicating the 25th to 75th
+percentile range.
+ACS Earth and Space Chemistry
+http://pubs.acs.org/journal/aesccq
+Article
+https://doi.org/10.1021/acsearthspacechem.5c00192
+ACS Earth Space Chem. 2025, 9, 2643−2650
+2645
+
+0.96 μg m−3) with much less difference between nighttime
+levels (0.92 to 0.87 μg m−3).
+A higher NH4
++:SO4
+2−molar ratio was observed post-
+lockdown (day/night = 6.12:3.71) compared to pre-lockdown
+levels (day/night = 3.41:2.21), indicating a relative increase in
+available ammonium compared to sulfate in the former period
+and especially during the daytime. This shift suggests more
+efficient neutralization of acidic aerosols and less acidic aerosol
+conditions, consistent with the reduced availability of strong
+acid precursors such as SO2 and NOx.32 A previous study using
+48-h MOUDI measurement at the same sampling site between
+July−October 2018 reported a mean NH4
++:SO4
+2−ratio of 2.34
+± 0.52 for the submicrometer range.20 Oxalate, which is a
+secondarily produced species from volatile organic carbon
+(VOC) precursor species (e.g., toluene, ethene, isoprene)33,34
+exhibited post-lockdown reductions in the submicrometer
+range as daytime concentrations decreased from 0.06 to
+0.04 μg m−3, while nighttime levels dropped from 0.05 to
+0.03 μg m−3. Oxalate is influenced by sources such as biomass
+burning,35 combustion exhaust,36,37 and biogenic sources.36 A
+prior study at the same sampling site using 48-h bulk
+measurement further indicated contributions from crustal
+material and waste processing.38
+In the supermicrometer range (1.0−18.0 μm), nitrate was
+the dominant species, followed by sulfate, calcium, sodium,
+and chloride. Nitrate showed no notable decrease in daytime
+levels post-lockdown, remaining nearly constant from 0.49 to
+0.48 μg m−3, whereas nighttime levels decreased only slightly
+more from 0.40 to 0.34 μg m−3. Calcium decreased only
+slightly post-lockdown, with a reduction during daytime from
+0.42 to 0.37 μg m−3 and at night from 0.38 to 0.36 μg m−3.
+Magnesium showed no difference between daytime and
+nighttime during pre- and post-lockdown (0.03−0.04
+μg m−3). In contrast, sodium and chloride both increased
+during the post-lockdown period. Daytime sodium concen-
+trations increased from 0.22 to 0.40 μg m−3, while nighttime
+levels increased slightly from 0.32 to 0.33 μg m−3. Chloride
+concentrations increased more substantially, from 0.10 to 0.36
+μg m−3 during the day and from 0.25 to 0.39 μg m−3 at night. A
+potential explanation for these increases are discussed further
+in the next section.
+Daytime and nighttime differences in ionic concentrations
+were evaluated using the coefficient of divergence (CD)39,40
+and Wilcoxon signed-rank tests for each species and size
+fraction (Section S2). CD values above 0.2 indicated notable
+day-night heterogeneity during the pre-lockdown period for
+ammonium (both sub- and supermicrometer), chloride (both
+sub- and supermicrometer), and sodium (supermicrometer)
+(Table S4). Correspondingly, statistically significant day-night
+differences (p < 0.05) were observed pre-lockdown for sodium
+and chloride in the supermicrometer range and for chloride,
+magnesium, and ammonium in the submicrometer fraction.
+During post-lockdown period, only sulfate in the submicrom-
+eter range showed statistically significant day-night differences
+(Table S4).
+Finally, the total water-soluble mass distributions shown in
+the right-hand panels of Figure 1 reveal a distinct post-
+lockdown decline in water-soluble aerosol mass, particularly
+within the submicrometer range. This reduction is especially
+pronounced during daytime periods, highlighting the sensi-
+tivity of secondary aerosol formation to local anthropogenic
+emissions and photochemical activity,7,41 which is enhanced by
+high solar radiation, elevated temperatures, higher wind speed,
+and deeper boundary layer heights (Figure S1 and Section S1).
+In contrast, an enhancement in the supermicrometer range
+(1.8−5.6 μm), mainly attributed to increases in sodium and
+chloride concentrations, was observed post-lockdown, as
+indicated by a more distinct bimodal distribution during
+both daytime and nighttime.
+3.3. Chloride’s Anomalous Behavior. The previous
+section showed that, post-lockdown, only sodium and chloride
+increased in mass concentration, with chloride exhibiting the
+most substantial enhancement. As sea salt is the predominant
+documented source of these species in the study,20,22 sea salt
+reactivity may explain the lower chloride concentrations pre-
+lockdown. This is because reduced anthropogenic emissions
+would result in depressed concentrations of acidic ions that
+would otherwise deplete more chloride in sea salt particles.
+Referred to as chloride depletion, this topic was previously
+examined at the same site using 48-h continuous MOUDI
+measurements by AzadiAghdam et al.22 Building on that work,
+chloride depletion was quantified for samples collected
+specifically during daytime and nighttime, allowing for a
+more detailed investigation of temporal variations (Figure 2) as
+there are limited reports of how this process varies diurnally
+and especially when comparing pre- and post-lockdown
+periods in any region.
+Chloride concentrations exhibited a clear peak in the coarse
+mode (1.0−5.6 μm) during both daytime and nighttime across
+the pre- and post-lockdown periods. Notably, nighttime Cl−
+levels in the supermicrometer range were elevated post-
+lockdown compared to pre-lockdown (e.g., increasing from
+Figure 2. Average size distributions for Cl−, Cl−loss, and % Cl−depletion during pre-lockdown and post-lockdown periods for (a) daytime and (b)
+nighttime samples. Error bars for % Cl−depletion represent one standard deviation.
+ACS Earth and Space Chemistry
+http://pubs.acs.org/journal/aesccq
+Article
+https://doi.org/10.1021/acsearthspacechem.5c00192
+ACS Earth Space Chem. 2025, 9, 2643−2650
+2646
+
+0.25 to 0.39 μg m−3), suggesting either enhanced contributions
+from primary sea salt or reduced displacement of Cl−by acidic
+species. Chloride depletion, which was most pronounced in the
+submicrometer range (0.056−1.0 μm), exceeded 80.0% across
+both periods, indicative of acid displacement reactions, such as
+those involving HNO3 or H2SO4.22,42 In contrast, depletion
+decreased with increasing particle size and was lower during
+the post-lockdown period, particularly at night, where values
+fell below 70.0% in the supermicrometer range (Table 1). This
+shift most likely reflects a reduction in atmospheric acidity
+post-lockdown due to decreased precursor emissions (e.g.,
+NOx and SO2). Statistical analysis using the Wilcoxon signed-
+rank test revealed that the diurnal differences in Cl−depletion
+were statistically significant only in the supermicrometer range
+during the post-lockdown period. However, when comparing
+pre- and post-lockdown, no statistically significant differences
+were observed.
+While percent depletion is useful to report, it is just as
+important to quantify the absolute amount of Cl−loss.29 The
+submicrometer fraction showed relatively low values (<0.03 μg
+m−3), with no significant day-night variability between pre- and
+post-lockdown periods. On the other hand, the super-
+micrometer range exhibited higher Cl−mass loss, especially
+during the post-lockdown daytime (0.17 ± 0.17 μg m−3), with
+values nearly double those observed in the daytime pre-
+lockdown period. This indicates that although depletion
+percentages were lower in the supermicrometer range, the
+absolute mass loss was more substantial. The reason that the
+absolute Cl−loss is higher post-lockdown in the super-
+micrometer range even though the percent depletion was lower
+is that there were higher sodium (and thus sea salt) levels post-
+lockdown.
+Overall, during the pre-lockdown period, Cl−depletion was
+more pronounced during the day, while absolute mass loss was
+greater at night. In the post-lockdown period, both depletion
+percentages and mass loss were higher during daytime. While
+many past studies have reported reductions in various
+pollutants in urban areas due to changes in pandemic
+emissions rates, this study reports a change in sea salt
+reactivity and composition, with implications for sea salt’s
+optical and hygroscopic properties.
+3.4. Oxalate:Sulfate Ratio. Another chemical ratio of
+interest in this study is that between oxalate and sulfate
+(OXL:SO4
+2−), which is an indicator of aqueous-phase
+processing.43,44 Hilario et al.45 indicated that mass-based ratios
+between ∼0.015−0.03 are suggestive of air masses having
+undergone aqueous processing, while ratios greater than 0.3
+are classified as high-OXL populations (e.g., coarse aerosol
+influence). In our data set, the OXL:SO4
+2−ratio did not exceed
+0.3 on average, and the submicrometer range values were
+below 0.1 (Figure 3a). OXL:SO4
+2−ratios peaked in the
+supermicrometer range, indicating potential gas-particle
+partitioning of oxalate or its precursors onto coarse particles,
+consistent with previous observations at the same site using 48-
+h MOUDI sampling.38,45 Additionally, linear correlations
+between oxalate and sulfate mass concentrations in the
+submicrometer range (Figure 3b) were strong across all
+periods (R = 0.85−0.97), indicating similarity in their
+formation pathways,46 and most likely linked to aqueous
+processing.34,47
+Table 1. Mean and Standard Deviation of Cl−Depletion (%) and Cl−Loss (μg m−3) for All Size Range (0.056−18.0 μm),
+Submicrometer (0.056−1.0 μm), and Supermicrometer (1.0−18.0 μm)
+diameter range (μm)
+pre-lockdown (D)
+pre-lockdown (N)
+post-lockdown (D)
+post-lockdown (N)
+(a) Cl−Depletion (%)
+0.056−18.0
+75.8 ± 22.4
+73.2 ± 23.8
+70.7 ± 24.1
+63.1 ± 29.9
+0.056−1.0
+85.8 ± 19.2
+87.2 ± 11.6
+87.5 ± 9.1
+84.0 ± 21.6
+1.0−18.0
+66.7 ± 21.3
+60.4 ± 24.8
+56.6 ± 23.6
+43.2 ± 22.1
+(b) Cl−Lost (μg m−3)
+0.056−18.0
+0.05 ± 0.09
+0.07 ± 0.10
+0.10 ± 0.15
+0.09 ± 0.12
+0.056−1.0
+0.01 ± 0.01
+0.01 ± 0.01
+0.02 ± 0.02
+0.02 ± 0.03
+1.0−18.0
+0.10 ± 0.12
+0.13 ± 0.12
+0.17 ± 0.17
+0.16 ± 0.14
+Figure 3. (a) Oxalate:SO4
+2−mass ratio as a function of particle cut-point diameter, and (b) linear regressions of oxalate and SO4
+2−mass
+concentrations in the submicrometer range (0.056−1.0 μm). Error bars in (a) represent one standard deviation. Only size bins with enough data
+points in the pre-lockdown (4−7 samples), and post-lockdown (7−10 samples) are shown in (a).
+ACS Earth and Space Chemistry
+http://pubs.acs.org/journal/aesccq
+Article
+https://doi.org/10.1021/acsearthspacechem.5c00192
+ACS Earth Space Chem. 2025, 9, 2643−2650
+2647
+
+Table 2 shows numerical differences in this ratio between
+day and night and before and after lockdown periods. During
+both the pre- and post-lockdown periods, the submicrometer
+ratio is higher during the day compared to nighttime (pre: 0.04
+vs 0.03; post: 0.05 vs 0.04), while there are higher overall ratios
+in the post-lockdown period due to systematically less sulfate
+as compared to oxalate (Table S3). This is because the
+predominant precursor to sulfate is anthropogenically derived
+SO2, which was reduced post-lockdown, whereas oxalate is
+derived from VOCs that stem from more diverse sources
+including natural ones unaffected by the lockdown. The higher
+daytime ratios are suggestive of more favorable production of
+oxalate relative to sulfate, which warrants further investigation
+as more statistics from this and other regions would be
+beneficial.
+For the supermicrometer range between 1.0−18.0 μm, only
+slight day-night difference was observed during pre-lockdown
+period (0.11 vs 0.12). In contrast, post-lockdown values show a
+higher daytime ratio compared to nighttime (0.11 vs 0.07),
+although nighttime value is lower than the pre-lockdown level.
+Thus, the partitioning behavior of these acids to coarse aerosol
+surfaces does not vary as much diurnally or between pre- and
+post-lockdown in contrast to their relative formation
+mechanisms in the submicrometer range.
+4. CONCLUSIONS
+This study provides new insights into the diurnal variability
+and pandemic-driven shifts in the chemical compositions of
+size-resolved aerosols in a Southeast Asian megacity. Water-
+soluble species contributed 18.9−23.2% to total gravimetric
+mass (<18 μm) during daytime and 11.0−23.7% during
+nighttime in the pre-lockdown period, increasing post-
+lockdown to 22.0−32.0 and 14.8−29.3%, respectively. A
+distinct decline in total water-soluble aerosol mass was
+observed post-lockdown for the submicrometer range,
+especially during the day, emphasizing the sensitivity of
+secondary aerosol formation to anthropogenic emissions and
+photochemistry. This decline was driven in part by reductions
+in sulfate and ammonium, likely due to decreased emissions of
+precursor gases from anthropogenic sources. The depressed
+levels of sulfate post-lockdown (especially daytime) resulted in
+shifts in aerosol composition in the form of reduced chloride
+depletion (on percent basis) and higher ammonium-to-sulfate
+ratios and thus more available ammonia for reactions such as
+neutralizing nitric acid. Also, while oxalate and sulfate were
+strongly correlated in the submicrometer range pointing to
+aqueous-phase formation, the oxalate-to-sulfate ratio was
+higher post-lockdown and especially daytime due to reduced
+sulfate precursors.
+In contrast, there was an enhancement in water-soluble mass
+post-lockdown in the supermicrometer range driven by
+naturally higher sea salt levels (e.g., sodium and chloride).
+Although the percentage of chloride depletion decreased post-
+lockdown due to reduced acid levels, the absolute Cl−mass
+loss increased, driven by higher sodium levels. Nitrate, calcium,
+and magnesium showed minimal changes, reflecting their
+stronger association with natural sources less affected by shifts
+in human activity.
+Collectively, the results highlight the importance of
+considering both particle size and time of day when evaluating
+aerosol composition and atmospheric reactivity, particularly in
+regions with pronounced diurnal differences in human activity.
+These findings also demonstrate how large-scale societal
+disruptions, such as the COVID-19 pandemic, offer unique
+opportunities to investigate the sensitivity of aerosol
+composition to emission changes. Future studies with
+concurrent measurements of precursor gases and higher time
+resolution aerosol chemical composition are recommended to
+better understand the mechanisms driving aerosol changes in
+response to both emission reductions and meteorological
+variability.
+■ASSOCIATED CONTENT
+*
+sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acsearthspace-
+chem.5c00192.
+Summary of meteorological parameters and a brief
+discussion of their daytime and nighttime profiles
+(Section S1 and Figure S1); coefficient of divergence
+(CD) calculation (Section S2); daytime and nighttime
+wind rose plots and HYSPLIT back trajectories (Figure
+S2); Metro Manila quarantine classifications (Table S1);
+summary of operating parameters and meteorological
+conditions for the MOUDI sample sets (Table S2);
+concentrations of water-soluble ions across different size
+ranges (Table S3); and summary of CD and Wilcoxon
+signed-rank test results (Table S4) (PDF)
+■AUTHOR INFORMATION
+Corresponding Author
+Armin Sorooshian −Department of Hydrology and
+Atmospheric Sciences, University of Arizona, Tucson, Arizona
+85721, United States; Department of Chemical and
+Environmental Engineering, University of Arizona, Tucson,
+Arizona 85721, United States;
+orcid.org/0000-0002-
+2243-2264; Email: armin@arizona.edu
+Authors
+Grace Betito −Department of Hydrology and Atmospheric
+Sciences, University of Arizona, Tucson, Arizona 85721,
+United States; Manila Observatory, Quezon City 1101,
+Philippines;
+orcid.org/0000-0003-1332-658X
+Paola Angela Bañaga −Manila Observatory, Quezon City
+1101, Philippines
+Rachel A. Braun −School of Sustainable Engineering and the
+Built Environment, Arizona State University, Tempe, Arizona
+85281, United States
+Maria Obiminda Cambaliza −Manila Observatory, Quezon
+City 1101, Philippines; Department of Physics, School of
+Table 2. Mean and Standard Deviation of Oxalate:SO4
+2−Mass-Based Ratios for the Full Size Range (0.056−18.0 μm) and
+Submicrometer (0.056−1.0 μm) and Supermicrometer (1.0−18.0 μm) Ranges
+diameter range (μm)
+pre-lockdown (D)
+pre-lockdown (N)
+post-lockdown (D)
+post-lockdown (N)
+0.056−18.0
+0.05 ± 0.01
+0.04 ± 0.01
+0.06 ± 0.03
+0.04 ± 0.02
+0.056−1.0
+0.04 ± 0.01
+0.03 ± 0.00
+0.05 ± 0.02
+0.04 ± 0.02
+1.0−18.0
+0.11 ± 0.04
+0.12 ± 0.04
+0.11 ± 0.07
+0.07 ± 0.02
+ACS Earth and Space Chemistry
+http://pubs.acs.org/journal/aesccq
+Article
+https://doi.org/10.1021/acsearthspacechem.5c00192
+ACS Earth Space Chem. 2025, 9, 2643−2650
+2648
+
+Science and Engineering, Ateneo de Manila University,
+Quezon City 1108, Philippines
+Melliza Templonuevo Cruz −Manila Observatory, Quezon
+City 1101, Philippines
+Alexander B. MacDonald −Department of Environmental
+Sciences, University of California Riverside, Riverside,
+California 92521, United States
+James Bernard Simpas −Manila Observatory, Quezon City
+1101, Philippines; Department of Physics, School of Science
+and Engineering, Ateneo de Manila University, Quezon City
+1108, Philippines
+Connor Stahl −Department of Chemical and Environmental
+Engineering, University of Arizona, Tucson, Arizona 85721,
+United States
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acsearthspacechem.5c00192
+Author Contributions
+Data analysis was conducted by G.B. Writing of the original
+draft was performed by G.B. and A.S. All other authors
+contributed in part to the data collection, and the review and
+editing of the manuscript. All authors have approved the final
+version of the manuscript.
+Notes
+The authors declare no competing financial interest.
+■ACKNOWLEDGMENTS
+This research was funded by NASA grant 80NSSC18K0148.
+The authors acknowledge the NOAA Air Resources Labo-
+ratory (ARL) for the provision of the HYSPLIT transport and
+dispersion model and READY website (http://ready.arl.noaa.
+gov) used in this work. We also acknowledge the Manila
+Observatory for providing the ground-based meteorological
+data.
+■REFERENCES
+(1) Huy, D. H.; Thanh, L. T.; Hien, T. T.; Takenaka, N.
+Comparative study on water-soluble inorganic ions in PM(2.5)
+from two distinct climate regions and air quality. J. Environ. Sci. 2020,
+88, 349−360.
+(2) Hu, G.; Zhang, Y.; Sun, J.; Zhang, L.; Shen, X.; Lin, W.; Yang, Y.
+Variability, formation and acidity of water-soluble ions in PM2.5 in
+Beijing based on the semi-continuous observations. Atmos. Res. 2014,
+145−146, 1−11.
+(3) Zhang, R.; Sun, X.; Shi, A.; Huang, Y.; Yan, J.; Nie, T.; Yan, X.;
+Li, X. Secondary inorganic aerosols formation during haze episodes at
+an urban site in Beijing, China. Atmos. Environ. 2018, 177, 275−282.
+(4) Park, S.; Ku, J.; Lee, S. M.; Hwang, H.; Lee, N.; Kim, H.; Yoon,
+K. J.; Kim, Y.; Choi, S. Q. Potential toxicity of inorganic ions in
+particulate matter: Ion permeation in lung and disruption of cell
+metabolism. Sci. Total Environ. 2022, 824, No. 153818.
+(5) Harrison, R. M.; Yin, J. Particulate matter in the atmosphere:
+which particle properties are important for its effects on health. Sci.
+Total Environ. 2000, 249, 85−101.
+(6) Galindo, N.; Yubero, E. Day-night variability of water-soluble
+ions in PM(10) samples collected at a traffic site in southeastern
+Spain. Environ. Sci. Pollut. Res. Int. 2017, 24 (1), 805−812.
+(7) Ram, K.; Sarin, M. M. Day−night variability of EC, OC, WSOC
+and inorganic ions in urban environment of Indo-Gangetic Plain:
+Implications to secondary aerosol formation. Atmos. Environ. 2011, 45
+(2), 460−468.
+(8) Ng, N. L.; Brown, S. S.; Archibald, A. T.; Atlas, E.; Cohen, R. C.;
+Crowley, J. N.; Day, D. A.; Donahue, N. M.; Fry, J. L.; Fuchs, H.; et al.
+Nitrate radicals and biogenic volatile organic compounds: oxidation,
+mechanisms, and organic aerosol. Atmos. Chem. Phys. 2017, 17 (3),
+2103−2162.
+(9) Parworth, C. L.; Young, D. E.; Kim, H.; Zhang, X.; Cappa, C. D.;
+Collier, S.; Zhang, Q. Wintertime water-soluble aerosol composition
+and particle water content in Fresno, California. J. Geophys. Res.:
+Atmos. 2017, 122 (5), 3155−3170.
+(10) Liu, Z.; Xie, Y.; Hu, B.; Wen, T.; Xin, J.; Li, X.; Wang, Y. Size-
+resolved aerosol water-soluble ions during the summer and winter
+seasons in Beijing: Formation mechanisms of secondary inorganic
+aerosols. Chemosphere 2017, 183, 119−131.
+(11) Yao, X.; Lau, A. P. S.; Fang, M.; Chan, C. K.; Hu, M. Size
+distributions and formation of ionic species in atmospheric particulate
+pollutants in Beijing, China: 1inorganic ions. Atmos. Environ. 2003,
+37 (21), 2991−3000.
+(12) Bauwens, M.; Compernolle, S.; Stavrakou, T.; Muller, J. F.; van
+Gent, J.; Eskes, H.; Levelt, P. F.; van der, A. R.; Veefkind, J. P.;
+Vlietinck, J.; et al. Impact of Coronavirus Outbreak on NO(2)
+Pollution Assessed Using TROPOMI and OMI Observations.
+Geophys. Res. Lett. 2020, 47 (11), No. e2020GL087978.
+(13) Le, T.; Wang, Y.; Liu, L.; Yang, J.; Yung, Y. L.; Li, G.; Seinfeld,
+J. H. Unexpected Air Pollution with Marked Emission Reductions
+during the COVID-19 Outbreak in China. Science 2020, 369, 702−
+706.
+(14) Mahato, S.; Pal, S.; Ghosh, K. G. Effect of lockdown amid
+COVID-19 pandemic on air quality of the megacity Delhi, India. Sci.
+Total Environ. 2020, 730, No. 139086.
+(15) Latif, M. T.; Purhanudin, N.; Afandi, N. Z. M.; Cambaliza, M.
+O. L.; Halim, N. D. A.; Hawari, N.; Hien, T. T.; Hlaing, O. M. T.;
+Jansz, W.; Khokhar, M. F.; et al. In-depth analysis of ambient air
+pollution changes due to the COVID-19 pandemic in the Asian
+Monsoon region. Sci. Total Environ. 2024, 941, No. 173145.
+(16) Muhammad, S.; Long, X.; Salman, M. COVID-19 pandemic
+and environmental pollution: A blessing in disguise. Sci. Total Environ.
+2020, 728, No. 138820.
+(17) Venter, Z. S.; Aunan, K.; Chowdhury, S.; Lelieveld, J. COVID-
+19 lockdowns cause global air pollution declines. Proc. Natl. Acad. Sci.
+U.S.A. 2020, 117 (32), 18984−18990.
+(18) Cohen, D. D.; Stelcer, E.; Santos, F. L.; Prior, M.; Thompson,
+C.; Pabroa, P. C. B. Fingerprinting and source apportionment of fine
+particle pollution in Manila by IBA and PMF techniques: A 7-year
+study. X-Ray Spectrom. 2009, 38 (1), 18−25.
+(19) Oanh, N. T. K.; Upadhyay, N.; Zhuang, Y. H.; Hao, Z. P.;
+Murthy, D. V. S.; Lestari, P.; Villarin, J. T.; Chengchua, K.; Co, H. X.;
+Dung, N. T. Particulate air pollution in six Asian cities: Spatial and
+temporal distributions, and associated sources. Atmos. Environ. 2006,
+40 (18), 3367−3380.
+(20) Cruz, M. T.; Bañaga, P. A.; Betito, G.; Braun, R. A.; Stahl, C.;
+Aghdam, M. A.; Cambaliza, M. O.; Dadashazar, H.; Hilario, M. R.;
+Lorenzo, G. R.; et al. Size-resolved composition and morphology of
+particulate matter during the southwest monsoon in Metro Manila,
+Philippines. Atmos. Chem. Phys. 2019, 19 (16), 10675−10696.
+(21) Braun, R. A.; Aghdam, M. A.; Bañaga, P. A.; Betito, G.;
+Cambaliza, M. O.; Cruz, M. T.; Lorenzo, G. R.; MacDonald, A. B.;
+Simpas, J. B.; Stahl, C.; Sorooshian, A. Long-range aerosol transport
+and impacts on size-resolved aerosol composition in Metro Manila,
+Philippines. Atmos. Chem. Phys. 2020, 20 (4), 2387−2405.
+(22) AzadiAghdam, M.; Braun, R. A.; Edwards, E.-L.; Bañaga, P. A.;
+Cruz, M. T.; Betito, G.; Cambaliza, M. O.; Dadashazar, H.; Lorenzo,
+G. R.; Ma, L.; et al. On the nature of sea salt aerosol at a coastal
+megacity: Insights from Manila, Philippines in Southeast Asia. Atmos.
+Environ. 2019, 216, No. 116922.
+(23) Hilario, M. R. A.; Bañaga, P. A.; Betito, G.; Braun, R. A.;
+Cambaliza, M. O.; Cruz, M. T.; Lorenzo, G. R.; MacDonald, A. B.;
+Pabroa, P. C.; Simpas, J. B.; et al. Stubborn aerosol: why particulate
+mass concentrations do not drop during the wet season in Metro
+Manila, Philippines. Environ. Sci.: Atmos. 2022, 2 (6), 1428−1437.
+(24) Stahl, C.; Cruz, M. T.; Banaga, P. A.; Betito, G.; Braun, R. A.;
+Aghdam, M. A.; Cambaliza, M. O.; Lorenzo, G. R.; MacDonald, A. B.;
+Pabroa, P. C.; et al. An annual time series of weekly size-resolved
+ACS Earth and Space Chemistry
+http://pubs.acs.org/journal/aesccq
+Article
+https://doi.org/10.1021/acsearthspacechem.5c00192
+ACS Earth Space Chem. 2025, 9, 2643−2650
+2649
+
+aerosol properties in the megacity of Metro Manila, Philippines. Sci.
+Data 2020, 7 (1), No. 128.
+(25) Marple, V.; Olson, B.; Romay, F.; Hudak, G.; Geerts, S. M.;
+Lundgren, D. Second Generation Micro-Orifice Uniform Deposit
+Impactor, 120 MOUDI-II: Design, Evaluation, and Application to
+Long-Term Ambient Sampling. Aerosol Sci. Technol. 2014, 48 (4),
+427−433.
+(26) Collado, J. T.; Abalos, J. G.; de los Reyes, I.; Cruz, M. T.;
+Leung, G. F.; Abenojar, K.; Manalo, C. R.; Go, B.; Chan, C. L.;
+Gonzales, C. K. G.; et al. Spatiotemporal Assessment of PM2.5
+Exposure of a High-risk Occupational Group in a Southeast Asian
+Megacity. Aerosol Air Qual. Res. 2023, 23 (1), No. 220134.
+(27) Farren, N. J.; Dunmore, R. E.; Mead, M. I.; Mohd Nadzir, M.
+S.; Samah, A. A.; Phang, S.-M.; Bandy, B. J.; Sturges, W. T.; Hamilton,
+J. F. Chemical characterisation of water-soluble ions in atmospheric
+particulate matter on the east coast of Peninsular Malaysia. Atmos.
+Chem. Phys. 2019, 19 (3), 1537−1553.
+(28) Zhao, Y.; Gao, Y. Acidic species and chloride depletion in
+coarse aerosol particles in the US east coast. Sci. Total Environ. 2008,
+407 (1), 541−547.
+(29) Edwards, E.-L.; Choi, Y.; Crosbie, E. C.; DiGangi, J. P.; Diskin,
+G. S.; Robinson, C. E.; Shook, M. A.; Winstead, E. L.; Ziemba, L. D.;
+Sorooshian, A. Sea salt reactivity over the northwest Atlantic: an in-
+depth look using the airborne ACTIVATE dataset. Atmos. Chem. Phys.
+2024, 24 (5), 3349−3378.
+(30) Roy, S.; Saha, M.; Dhar, B.; Pandit, S.; Nasrin, R. Geospatial
+analysis of COVID-19 lockdown effects on air quality in the South
+and Southeast Asian region. Sci. Total Environ. 2021, 756,
+No. 144009.
+(31) Lorenzo, G. R.; Bañaga, P. A.; Cambaliza, M. O.; Cruz, M. T.;
+AzadiAghdam, M.; Arellano, A.; Betito, G.; Braun, R.; Corral, A. F.;
+Dadashazar, H.; et al. Measurement report: Firework impacts on air
+quality in Metro Manila, Philippines, during the 2019 New Year
+revelry. Atmos. Chem. Phys. 2021, 21 (8), 6155−6173.
+(32) Li, Q.; Yang, Z.; Li, X.; Ding, S.; Du, F. Seasonal Characteristics
+of Sulfate and Nitrate in Size-segregated Particles in Ammonia-poor
+and -rich Atmospheres in Chengdu, Southwest China. Aerosol Air
+Qual. Res. 2019, 9 (12), 2697−2706.
+(33) Kerminen, V.-M.; Teinilä, K.; Hillamo, R.; Mäkelä, T. Size-
+segregated chemistry of particulate dicarboxylic acids in the Arctic
+atmosphere. Atmos. Environ. 1999, 33, 2089−2100.
+(34) Sorooshian, A.; Varutbangkul, V.; Brechtel, F. J.; Ervens, B.;
+Feingold, G.; Bahreini, R.; Murphy, S. M.; Holloway, J. S.; Atlas, E. L.;
+Buzorius, G.et al. Oxalic acid in clear and cloudy atmospheres:
+Analysis of data from International Consortium for Atmospheric
+Research on Transport and Transformation 2004 J. Geophys. Res.:
+Atmos. 2006; Vol. 111 D23.
+(35) Xu, J.; Tian, Y.; Cheng, C.; Wang, C.; Lin, Q.; Li, M.; Wang, X.;
+Shi, G. Characteristics and source apportionment of ambient single
+particles in Tianjin, China: The close association between oxalic acid
+and biomass burning. Atmos. Res. 2020, 237, No. 104843.
+(36) Kawamura, K.; Kaplan, I. R. Motor exhaust emissions as a
+primary source for dicarboxylic acids in Los Angeles ambient air.
+Environ. Sci. Technol. 1987, 21 (1), 105−110.
+(37) Wang, G.; Xie, M.; Hu, S.; Gao, S.; Tachibana, E.; Kawamura,
+K. Dicarboxylic acids, metals and isotopic compositions of C and N in
+atmospheric aerosols from inland China: implications for dust and
+coal burning emission and secondary aerosol formation. Atmos. Chem.
+Phys. 2010, 10 (13), 6087−6096.
+(38) Stahl, C.; Cruz, M. T.; Bañaga, P. A.; Betito, G.; Braun, R. A.;
+Aghdam, M. A.; Cambaliza, M. O.; Lorenzo, G. R.; MacDonald, A. B.;
+Hilario, M. R. A.; et al. Sources and characteristics of size-resolved
+particulate organic acids and methanesulfonate in a coastal megacity:
+Manila, Philippines. Atmos. Chem. Phys. 2020, 20 (24), 15907−15935.
+(39) Zhang, Q.; Li, Z.; Wei, P.; Wang, Q.; Tian, J.; Wang, P.; Shen,
+Z.; Li, J.; Xu, H.; Zhao, Y.; et al. Insights into the day-night sources
+and optical properties of coastal organic aerosols in southern China.
+Sci. Total Environ. 2022, 830, No. 154663.
+(40) Do, T. V.; Vuong, Q. T.; Choi, S.-D. Day−night variation and
+size distribution of water-soluble inorganic ions in particulate matter
+in Ulsan, South Korea. Atmos. Res. 2021, 247, No. 105145.
+(41) Sun, K.; Liu, X.; Gu, J.; Li, Y.; Qu, Y.; An, J.; Wang, J.; Zhang,
+Y.; Hu, M.; Zhang, F. Chemical characterization of size-resolved
+aerosols in four seasons and hazy days in the megacity Beijing of
+China. J. Environ. Sci. 2015, 32, 155−167.
+(42) Taiwo, A. M.; Beddows, D. C.; Shi, Z.; Harrison, R. M. Mass
+and number size distributions of particulate matter components:
+comparison of an industrial site and an urban background site. Sci.
+Total Environ. 2014, 475, 29−38.
+(43) Sorooshian, A.; Lu, M.-L.; Brechtel, F. J.; Jonsson, H.; Feingold,
+G.; Flagan, R. C.; Seinfeld, J. H. On the source of organic acid aerosol
+layers above clouds. Environ. Sci. Technol. 2007, 41, 4647−4654.
+(44) Ervens, B.; Sorooshian, A.; Lim, Y. B.; Turpin, B. J. Key
+parameters controlling OH-initiated formation of secondary organic
+aerosol in the aqueous phase (aqSOA). J. Geophys. Res.: Atmos. 2014,
+119 (7), 3997−4016.
+(45) Hilario, M. R. A.; Crosbie, E.; Banaga, P. A.; Betito, G.; Braun,
+R. A.; Cambaliza, M. O.; Corral, A. F.; Cruz, M. T.; Dibb, J. E.;
+Lorenzo, G. R.; et al. Particulate Oxalate-To-Sulfate Ratio as an
+Aqueous Processing Marker: Similarity Across Field Campaigns and
+Limitations. Geophys. Res. Lett. 2021, 48 (23), No. e2021GL096520.
+(46) Zhou, Y.; Huang, X. H.; Bian, Q.; Griffith, S. M.; Louie, P. K.
+K.; Yu, J. Z. Sources and atmospheric processes impacting oxalate at a
+suburban coastal site in Hong Kong: Insights inferred from 1 year
+hourly measurements. J. Geophys. Res.: Atmos. 2015, 120 (18), 9772−
+9788.
+(47) Yu, J. Z.; Huang, X.-F.; Xu, J.; Hu, M. When Aerosol Sulfate
+Goes Up, So Does Oxalate: Implication for the Formation
+Mechanisms of Oxalate. Environ. Sci. Technol. 2005, 39, 128−133.
+ACS Earth and Space Chemistry
+http://pubs.acs.org/journal/aesccq
+Article
+https://doi.org/10.1021/acsearthspacechem.5c00192
+ACS Earth Space Chem. 2025, 9, 2643−2650
+2650

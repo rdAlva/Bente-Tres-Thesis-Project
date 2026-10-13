@@ -1,0 +1,604 @@
+Ateneo de Manila University 
+Ateneo de Manila University 
+Archīum Ateneo 
+Arch um Ateneo 
+Ateneo School of Medicine and Public Health 
+Publications 
+Ateneo School of Medicine and Public Health 
+6-2020 
+Experiences and Satisfaction of High-Risk Mothers Who Gave 
+Experiences and Satisfaction of High-Risk Mothers Who Gave 
+Birth in Select Facilities in Legazpi City, Philippines 
+Birth in Select Facilities in Legazpi City, Philippines 
+Maria Stephanie Fay S. Cagayan 
+University of the Philippines Manila 
+Veincent Christian F. Pepito 
+Ateneo School of Medicine and Public Health, Ateneo de Manila University, vpepito@ateneo.edu 
+Rita Mae Ang-Bon 
+Department of Health, Philippines 
+Erlidia F. Llamas-Clark 
+Department of Health, Philippines 
+Follow this and additional works at: https://archium.ateneo.edu/asmph-pubs 
+ Part of the Health Services Administration Commons, and the Maternal and Child Health Commons 
+Custom Citation 
+Custom Citation 
+Ang-Bon, R., Cagayan, M., Llamas-Clark, E., & Pepito, V. (2020). Experiences and satisfaction of high-risk 
+mothers who gave birth in select facilities in Legazpi City, Philippines. International Journal of Public 
+Health Science, 9(2), 137-144. 
+This Article is brought to you for free and open access by the Ateneo School of Medicine and Public Health at 
+Archīum Ateneo. It has been accepted for inclusion in Ateneo School of Medicine and Public Health Publications by 
+an authorized administrator of Archīum Ateneo. For more information, please contact research@ateneo.edu. 
+
+International Journal of Public Health Science (IJPHS) 
+Vol. 9, No. 2, June 2020, pp. 137~144 
+ISSN: 2252-8806, DOI: 10.11591/ijphs.v9i2.20381 
+     137 
+ 
+ 
+Journal homepage: http://ijphs.iaescore.com 
+Experiences and satisfaction of high-risk mothers who gave 
+birth in select facilities in Legazpi City, Philippines  
+ 
+ 
+Maria Stephanie Fay S. Cagayan1, Veincent Christian F. Pepito2, Rita Mae Ang-Bon3,  
+Erlidia F. Llamas-Clark4 
+1,2,4College of Medicine, University of the Philippines Manila, Philippines 
+2School of Medicine and Public Health, Ateneo de Manila University, Philippines 
+3,4Regional Office V, Department of Health, Philippines 
+ 
+ 
+Article Info 
+ 
+ABSTRACT 
+Article history: 
+Received Nov 8, 2019 
+Revised Mar 10 , 2020 
+Accepted Apr 24, 2020 
+ 
+ 
+Among the 
+interventions 
+implemented to 
+curb 
+maternal 
+mortality  
+in the Philippines, service delivery networks (SDNs) have been one of the most 
+important. However, due to their recent implementation, frameworks to assess 
+the quality of care they provide have not yet been established.  
+To address this need, we had formulated the Integrated Patient-Centered 
+Health Service Framework and used it to explore the satisfaction of mothers 
+who gave birth in select facilities Legazpi City Philippines. We conducted  
+key-informant interviews with 14 mothers. We found out that they were 
+satisfied with the quality of care during pre-pregnancy, pregnancy,  
+and post-partum; however, the quality of care during labor and delivery, 
+adherence to referral protocols, and respect for patient‟s autonomy can still  
+be improved. The framework should be used by program managers to have  
+a qualitative measure of quality of care provided by SDNs, as well as to ensure 
+that referral protocols were implemented. 
+Keywords: 
+Childbirth 
+Patient satisfaction 
+Pregnancy 
+Quality of care 
+Service delivery networks 
+ 
+This is an open access article under the CC BY-SA license. 
+ 
+Corresponding Author: 
+Maria Stephanie Fay S. Cagayan, 
+College of Medicine, 
+University of the Philippines Manila, 
+Pedro Gil St., Ermita, 1000 Manila, Philippines. 
+Email: mscagayan@up.edu.ph 
+ 
+ 
+1. 
+INTRODUCTION 
+Several low and middle-income countries have failed to meet their millennium development goals 
+(MDG) targets for the reduction of maternal mortality [1], including the Philippines. As of 2015,  
+the country‟s maternal mortality ratio (MMR) still stands at 114 per 100,000 live births, which demonstrated 
+a slow reduction from the 1990 baseline of 152 per 100,000 live births [2]. This is despite the multitude  
+of public health programs and policies that were implemented from the national to the local level to address 
+this problem [3-7]. However, a cursory look at the implementation dates of these policies reveal that such 
+interventions were not implemented sooner for it to contribute significantly in decreasing maternal mortality.  
+Poor quality of and the inadequacy of the continuity of care across the health system are among  
+the key contributors to the burden of maternal mortality in the Philippines [8, 9]. To address this problem, 
+service delivery networks (SDNs), defined as “a network of health facilities and providers within province  
+or city-wide health system, offering core packages of reproductive healthcare services in an integrated and 
+coordinated manner” were implemented across the country. SDNs contain formal agreements between 
+different stakeholders in a local health system that would detail their roles to be played for every possible 
+situation that could arise during family planning, pregnancy, childbirth, and postpartum. These agreements 
+
+      
+  
+ 
+              ISSN: 2252-8806 
+ Int. J. Public Health Sci, Vol. 9, No. 2, June 2020:  138 – 144 
+138
+include, but are not limited to: Empowering local government units (LGUs) to establish their own city-wide 
+or province-wide SDNs by inviting and overseeing a comprehensive referral system involving primary care, 
+secondary care and tertiary care facilities, as well as both private and public (government) facilities,  
+and; Establishing a local community-based transport and communication system [10].  
+SDNs were only rolled-out on 2014 [10], with varying extents of implementation. As a result,  
+there is paucity of literature assessing how this intervention influence maternal outcomes and the quality of care 
+that they provide. This, in turn, may stem from the absence of a framework that could be used to assess  
+the provision of care by these SDNs. Notwithstanding, this emphasis on quality of care, especially in recent 
+years, is due to an ongoing paradigm shift in the measurement of pregnancy outcomes from a purely 
+biomedical approach to a more inclusive one that considers the experiences of mothers themselves [11]. This entails 
+the need for a holistic framework that also considers the quality of care being received while the mother progresses 
+from pre-pregnancy, to pregnancy, to labor and delivery, and to postpartum. To this end, the Person-Centered 
+Care Framework for Reproductive Health Equity [12] has been proposed. However, this framework did not 
+emphasize enough the roles being played by SDNs, and the interconnectedness of primary, secondary,  
+and tertiary care throughout the continuum of care for pregnant women. Furthermore, they considered  
+the attainment of person-centered outcomes as an end in itself, rather than as a means to attain  
+the Sustainable Development Goals by improving quality of care. Thus, building on their framework, 
+together with other established frameworks such as the eight principles of patient-centered care proposed  
+by the Picker Institute [13], we are proposing the integrated patient-centered health service framework for 
+maternal health shown in Figure 1. 
+ 
+ 
+ 
+ 
+Figure 1. Integrated patient-centered health service framework for maternal health 
+ 
+ 
+The integrated patient-centered health service framework for maternal health shows how  
+the different principles of patient-centered care interact with one another throughout the continuum of care 
+for pregnancy. The eight main principles of patient-centered care can be combined into three overlapping 
+themes: shared decision-making, which emphasizes the need for both healthcare provider and patient to play  
+an active role in making decisions regarding the health of the latter; supportive environment, which highlights 
+the role being played by caregivers, family, and community; and service delivery, which underscores access and 
+continuity of quality care from primary to tertiary care, and throughout the continuum of care for pregnancy. 
+This framework also shows the interaction of these principles as an output as a result of inputs to improve  
+the various SDN components. Most importantly, this framework emphasizes that a patient-centered perspective 
+is a means to improve the quality of care and patient satisfaction of pregnant mothers, which would translate  
+to decreasing maternal morbidity and mortality. The social determinants of health are seen to affect every aspect 
+of the continuum of care. 
+Using this framework as the theoretical lens, this study aims to document and explore  
+the satisfaction of high-risk mothers who gave birth in select facilities in Legazpi City, Philippines. 
+Specifically, this study aims to describe the experiences and satisfaction of the mothers with the quality  
+of care provided by the SDNs in terms of the three main themes of patient-centered care according  
+to the Framework: shared decision making, supportive environment, and service delivery. By doing so,  
+a baseline, qualitative assessment of the quality of care provided by these SDNs will be obtained. This can  
+be used for setting standards for quality of care in these SDNs, especially in other low and middle income 
+countries, which would translate to better maternal outcomes in these settings. 
+
+Int. J. Public Health Sci 
+ISSN: 2252-8806 
+ 
+ 
+Experiences and satisfaction of high-risk mothers who gave birth in… (Maria Stephanie Fay S. Cagayan) 
+139
+2. 
+RESEARCH METHOD 
+The study utilized a qualitative phenomenological design to explore the experiences and assess  
+the satisfaction of mothers to the quality of care provided to them with the integrated patient-centered health 
+service framework for maternal health as the theoretical framework.  
+ 
+2.1.  Study design  
+The study population is purposively-sampled high-risk mothers who gave birth at select facilities  
+in Legazpi City, Philippines from January to June 2018 who consented to participate in this study. For this 
+study, „high-risk‟ is defined as having had the following medical conditions and/or complications during their 
+last pregnancy that will indicate these mothers for referral to a facility with specialist or subspecialist 
+services: hypertension and diabetes (both chronic and gestational); obstetric hemorrhage; sepsis; endometritis; 
+heart disease; diabetes mellitus; delivering pre-term; having respiratory distress; infections (e.g. teratogenic infections, 
+sexually-transmitted infections, etc.); eclampsia and pre-eclampsia, and mothers giving birth for the first time. 
+ 
+2.2.  Study site 
+The study was carried out in Legazpi City, Philippines. It is the capital city of the province of Albay, 
+and is the largest city in Bicol Region. The city has a population of 196,639 as of the 2015 Philippine Census [14]. 
+For the same year, the region has registered a maternal mortality ratio (MMR) of 123.5 per 100,000 live births; 
+however, the MMR for Legazpi City during the same time period is only 6.1 per 100,000 live births [15]. Despite its 
+low MMR, Legazpi City was chosen as the study site due to the presence of operational SDNs in the city, and because 
+the largest secondary and tertiary hospitals in the region are located there. The city also has four barangay health 
+centers with birthing stations, 12 private lying in-clinics, and five secondary and/or tertiary hospitals.  
+This would give a clear picture of the health system in a region with high MMR. Furthermore, it will also show 
+the satisfaction of patients with the obstetric services they receive as they move from primary to secondary  
+or tertiary care. 
+The interviews were conducted predominantly on the health centers or lying-in clinics where these 
+mothers usually consult, although interviews were carried out in the residences of the mothers when they 
+cannot come to the health center. When interviews are being conducted in the health center, the attending 
+midwife or her colleagues, or their other patients, may have been present. If conducted at home, the children, 
+as well as the partners of the respondent mothers, may have been present.  
+ 
+2.3.  Data collection 
+Using a semi structured interview guide, we performed key-informant interviews in Filipino,  
+the national language, with the women who gave informed consent to participate in the study. Socio-demographic 
+and other pertinent characteristics such as age, address, gravidity and parity, educational attainment,  
+healthcare provider who initially attended to them during delivery, time from home to center, indication for 
+referral, mode of transportation from their home to the center, destination facility, outcome of pregnancy,  
+and whether or not they were given a discharge summary (i.e., tagubilin) at the time of their last pregnancy were 
+obtained. Participants were also asked to describe their experiences during pre-natal check-ups, labor,  
+and postpartum during their previous pregnancies. The highlight of the interview was the narration of their 
+satisfaction with the care and services they received every step of the continuum of care from pregnancy  
+to post-partum for the latest pregnancy. The proceedings of these key-informant interviews were audio-recorded. 
+ 
+2.4.  Data analysis 
+The audio recordings were transcribed and anonymized. After this, the transcriptions were translated  
+to English. The translated transcriptions were then analyzed thematically to identify parts of the mothers‟ 
+narratives that describe their experiences and satisfaction of the quality of care provided to them according  
+to the following main themes: shared decision-making, supportive environment, and service delivery.  
+Parts of their narratives which would describe instances where their opinion as a patient was considered in their 
+health choices, or lack thereof, would be categorized under Shared Decision-Making. Segments of their stories 
+which would describe involvement and support by their spouses, families, and caretakers towards provision  
+of care would be coded under Supportive Environment. Descriptions of the access, continuity, and quality  
+of medical care to include availability of infrastructure, skilled health personnel, and protocols as well  
+as respectful maternity care were coded under Service Delivery. We independently coded all the transcripts,  
+and any disputes were resolved through discussion. Coding was carried out in NVivo 12 [16]. 
+ 
+2.5.  Ethics 
+This study received ethical clearance from the University of the Philippines Manila Research Ethics 
+Board (UPM REB 2018-010-01). 
+
+      
+  
+ 
+              ISSN: 2252-8806 
+ Int. J. Public Health Sci, Vol. 9, No. 2, June 2020:  138 – 144 
+140
+3. 
+RESULTS AND ANALYSIS  
+Fourteen high-risk mothers were invited to participate in the study, and all of them agreed  
+to be interviewed. The travel time from their home to the nearest health center ranged from 10 to 30 minutes. 
+All were initially attended by a midwife. A summary of their profile is shown in Table 1. 
+ 
+ 
+Table 1. Profile of respondents (n=14) 
+Age 
+Range: 24-43 years old 
+Mean: 32 years old 
+Gravidity 
+Primigravida: 2 (14%) 
+Multigravida: 12 (86%) 
+Parity 
+Nullipara: 2 (14%) 
+Primipara: 4 (29%) 
+Multipara: 8 (57%) 
+Highest educational attainment 
+Secondary level: 9 (65%) 
+College level: 3 (21%) 
+College graduate: 2 (14%) 
+Receiving facility 
+Public tertiary care facility: 12 (86%) 
+Private secondary care facility: 2 (14%) 
+Indication for referral 
+Hypertension: 4 (29%) 
+Prolonged labor: 3 (21%) 
+Big baby: 2 (14%) 
+Breech presentation: 1 (7%) 
+Nausea and vomiting: 1 (7%) 
+Threatened abortion: 1 (7%) 
+Tuberculosis with malnutrition: 1 (7%) 
+Intrauterine fetal death: 1 (7%) 
+Outcome 
+Vaginal delivery: 9 (65%) 
+Caesarean section: 3 (21%) 
+Partial breech extraction: 1 (7%) 
+Intrauterine fetal death: 1 (7%) 
+ 
+ 
+3.1.  Shared decision making 
+Previous positive experience with the attending health professional is one of the consistently-mentioned 
+factors that influence choice of health professional that will be consulted for the current pregnancy.  
+ 
+“I decided to continue with my current lying-in (clinic) because I had my previous delivery there. 
+ I already know the midwife… There are nearer lying-in (clinics), but I already know the midwife 
+in this center and she is kind.”  
+ 
+Since mothers usually approach healthcare providers who are already familiar with them, they try  
+to adhere with the advice given to them by having regular prenatal check-ups, taking medications  
+and/or micronutrient supplements religiously, and attending buntis classes (i.e., information and education 
+campaign for pregnant mothers). However, some barriers exist, such as familial obligations or lack of funds, 
+which could prevent the mother from receiving optimum care. Another mother mentioned an incident where 
+she was not consulted as to where she would like to be referred, and its consequences: 
+ 
+“I was monitored at the private lying in for four hours where I remained at 7 cm. I was told that  
+I needed to be brought to the hospital because my labor was not progressing. I was brought  
+to a private hospital by the private midwife in their car. Their doctor requested for me to be 
+admitted to their charity service and it is nearer than the public hospital. I waited for a bit before  
+I was admitted but not too long. I was monitored for around 1 ½ hours while I was being prepared 
+for caesarean section. My cervix was stuck at 7-8 cm. The bag of water ruptured early while I was 
+still at home and I am afraid I will have dry labor. I was not asked where I wanted to go. I was 
+just brought there, but I was in the charity ward. I spent less than PhP 10,000 because we have 
+PhilHealth. I did not expect to deliver via caesarean section. I was not prepared. We had to 
+borrow money from different people to come up with the amount. Up to now, we are still in debt.”  
+ 
+3.2.  Supportive environment 
+The support of the partner or spouse, together with other members of the community, for the mother‟s 
+pregnancy is seen to contribute to positive maternal outcomes. This is especially apparent in the formulation  
+of a birth plan: 
+
+Int. J. Public Health Sci 
+ISSN: 2252-8806 
+ 
+ 
+Experiences and satisfaction of high-risk mothers who gave birth in… (Maria Stephanie Fay S. Cagayan) 
+141
+“This is why I decided to deliver my youngest baby here. My midwife and I discussed my birth 
+plan along with my husband. He usually accompanies me to my check-ups unless he has errands. 
+He drives a tricycle.”  
+ 
+Despite this, circumstances may prevent the implementation of a birth plan and the mother may have 
+to rely on the support of other people: 
+ 
+“I have a birth plan but I was not able to follow it because my husband was out when I had labor. 
+My mother-in-law accompanied me. My husband just followed.” 
+ 
+Another anecdote shows that partners or spouses are not always supportive with the wishes of the mother: 
+ 
+“My husband initially consented to doing BTL (Bilateral Tubal Ligation), but changed his mind. 
+We will just do condom and withdrawal because we do not have contact regularly. He usually 
+defers to my wishes, but he is not sure that BTL is good for us.”   
+ 
+3.3.  Service delivery 
+The mothers have had a generally positive experience with the quality of care provided to them  
+by the midwives who have seen them during their pregnancy. They consistently mentioned that the midwives 
+remind them regularly regarding their birth plan and check-ups. One mother compared her latest experience 
+in Legazpi with her previous pregnancy experience in Manila, the capital of the Philippines: 
+ 
+“The barangay health workers here are diligent in going around in reminding patients to have 
+their check-ups and their vitamins and supplements. I did not experience that in Manila.” 
+ 
+One mother narrated that there are times that continuity of care is not often achieved due  
+to financial constraints: 
+ 
+“I had check-ups with this pregnancy; I think six. I had check-ups with a private doctor, but her 
+professional fee for delivery was high so I decided to try doing it in a lying-in center. I had  
+pre-natal check-ups at two different lying-in clinics.” 
+ 
+For those who delivered at the public tertiary facility, satisfaction ranged from satisfied to highly dissatisfied: 
+ 
+“The doctors in the public tertiary hospital are good. But there are so many patients there.  
+All patients from the whole of Bicol (Region) go there. I wish there are more hospitals here  
+in Legazpi, but only the tertiary hospital has enough blood. There are private hospitals but most 
+people here cannot afford to deliver there.” 
+ 
+Many mothers reported negative experiences: 
+ 
+“I was accompanied by the midwife. I stayed in the tertiary facility for nine hours before I finally 
+delivered. The doctors were rude to the midwife and me. They remarked that „it was good that 
+nothing wrong happened to your baby‟. It is really difficult in the tertiary facility because there 
+are so many patients. 
+ 
+Due to these experiences, some mothers remarked that it would have been better if they had just 
+given birth at the local centers or lying-in clinics than in the tertiary hospital. This is especially highlighted 
+by one mother, who compared her postpartum experience with her experiences during pregnancy and labor: 
+ 
+“We had the tagubilin once we were discharged, but I went back to the lying-in clinic for my 
+postpartum and new born care. I prefer to go to the lying-in because the midwives are nice. And it is 
+near my home.” 
+ 
+The tagubilin is given to the mothers when they are discharged after giving birth. They are asked  
+to give it to the facility that referred them for documentation and management during post-partum.  
+However, mothers do not frequently return this. When probed why, they refused to give answers.  
+One mother, who is privy to the workings of the local health system, remarked: 
+ 
+
+      
+  
+ 
+              ISSN: 2252-8806 
+ Int. J. Public Health Sci, Vol. 9, No. 2, June 2020:  138 – 144 
+142
+“We have new government lying-in facilities. But more patients are going to the private facilities. 
+They are given free food there. Sometimes, we are also given incentives as health workers to bring 
+patients to the private lying-in. Even the tricycle drivers are paid around PhP 300-500 per patient. 
+The government facilities are wasted because women opt to deliver in private lying-in clinics 
+because of the perks.”  
+ 
+3.4.  Discussion 
+In general, mothers have expressed satisfaction with the patient-centeredness of the care they have 
+received during their latest pregnancy. Healthcare decisions were often shared by the healthcare provider,  
+the mother, and her immediate family. The mothers were supported by their spouses and other family 
+members throughout the course of their pregnancy. Mothers were highly satisfied with the quality of care 
+they have received during pregnancy and post-partum in primary care settings, but were mostly dissatisfied 
+during labor in secondary and tertiary care facilities. Cost, patient disempowerment, negative attitudes  
+of healthcare providers, inadequate staffing and health infrastructure were mentioned to prevent mothers 
+from receiving optimum levels of patient-centered care. Perks afforded by private care facilities that may lead 
+to undue influence in the decision to seek care were also noted.  
+Similar findings were encountered in other low- and middle-income settings. In a similar study 
+conducted in Malawi, quality of care was satisfactory during antenatal care at primary care facilities,  
+but declined during actual labor and delivery at tertiary facilities due to lack of hospital infrastructure [17]. 
+Another study in Tanzania recounts overcrowding and lack of equipment and inadequate manpower, but also 
+emphasizes the role of family in improving birth experience and bettering quality of care [18]. A separate 
+study in Nigeria also found that while competent personnel and adequate equipment are present in public, 
+tertiary hospitals, they are often inadequate and costly for the number of mothers giving birth at any point  
+in time. However, some patients in the said study recounted that healthcare providers often take the extra 
+effort to improve the non-medical aspects of care that is provided to them [19]. Lastly, problematic childbirth 
+experiences did not seem to be present only in low- and middle-income countries. A study among UK first-time 
+mothers recounted that they felt dehumanized on the first time they gave birth, indicating low quality of care [20]. 
+A common theme from the results and from the literature to which the results are compared is that 
+the quality of care being provided during labor and delivery is mostly poor. However, in an era where 
+outcomes are measured in terms of patient satisfaction of the quality of care provided, it becomes imperative 
+that a patient-centered perspective to providing care would be the mindset adapted by healthcare providers [11, 21]. 
+This would lead to a more responsive, participative, and accessible healthcare system that could provide quality care 
+in a timely and cost-effective manner. However, having this mindset would entail investments in health 
+infrastructure and manpower to ensure that everybody receives an optimal level of care. In addition, these 
+investments, should be coupled with improving how healthcare providers care for their patients [12, 22]. 
+While healthcare providers often have a vision of what patient-centered care is, it may not be according  
+to what is the standard definition [23]. This suggests that assessments of healthcare provider knowledge may 
+be in order. Other strategies, such as regular audits, must be conducted to ensure that infrastructure, supplies, 
+and manpower complement are always adequate, and protocols and guidelines are implemented [24].  
+At an organizational level, implementing agencies (i.e., Philippine Department of Health) should consider  
+the adoption of the framework used in this study to assess its SDNs as it strives for the attainment of SDG 
+targets and other program-and country-level objectives. 
+Having a systems approach to assessing quality of care allowed for a thorough review of adherence 
+to referral protocols as stipulated in the guidelines. While most protocols were implemented well, there were 
+several that these were not followed. The most apparent of these is the non-endorsement of the tagubilin  
+to the referring facility. In the referral guidelines, it was emphasized that this should be returned  
+by the mother to the referring center once she consults for postpartum and neonatal care.  
+However, this is not strictly observed in practice. This may be due to the perception of both mothers and 
+health workers that everything is fine once the mother has been discharged from the tertiary hospital. 
+However, this would lead to incomplete records as this document might contain pertinent information 
+regarding the patients‟ delivery and postpartum care. More importantly, instructions for postpartum and 
+neonatal care written in the tagubilin may have been missed by the primary care facility, resulting to lower 
+quality of care. These deficiencies show the necessity of training healthcare providers in adhering  
+to protocols and guidelines to ensure better quality of care for both mother and new born child. 
+There may also be a need to investigate the practice of private facilities of giving dole-outs and 
+perks to tricycle drivers and healthcare providers from public settings. On one side, such practices do not 
+break any laws, provides extra income to these stakeholders, and prevents the mother from being hungry. On the other 
+hand, they put undue influence on the patient to consult only private facilities, which would entail higher cost  
+as compared to going to a public facility. It is also hypothesized that some private primary care facilities 
+
+Int. J. Public Health Sci 
+ISSN: 2252-8806 
+ 
+ 
+Experiences and satisfaction of high-risk mothers who gave birth in… (Maria Stephanie Fay S. Cagayan) 
+143
+might have an agreement to send patients only to private hospitals. These areas of flexible legislation are 
+perceived as opportunities in which undue influence and corruption can take root [25]. With these practices, 
+patients are placed with a greater financial burden as compared to when they are referred to public hospitals, 
+where services are cheaper or even free. In addition, this shows disempowerment in pursuing health-related 
+choices, which results to dissatisfaction with quality of care.  
+In interpreting these conclusions, however, certain limitations should be noted. Due to our focus  
+on the satisfaction of mothers, we were unable to corroborate our findings with other stakeholders. As such,  
+we could only hypothesize regarding the misses of the healthcare provider in relation to their failure  
+to collect tagubilin or whether or not private facilities had agreements with private hospitals in the area. 
+Furthermore, the satisfactory remarks of patients regarding their antenatal care visits may be influenced  
+by the fact that it was mostly conducted in the centre where they usually consult. They may be afraid to give 
+unsatisfactory remarks in the presence of the people who attended to them, and other patients who may 
+overhear their remarks during the interview. This has been identified as a possibility for explaining positive 
+results in one previous study [26]. In subsequent studies, these may be remedied by interviewing them  
+in more neutral locations so that mothers are not afraid to speak their mind.  
+Further research should build on the findings and the weaknesses of this study. A quantitative study 
+may be done to describe how satisfied mothers are with the patient-centeredness of care they receive as they 
+progress from pregnancy to postpartum, building on the findings of this study and other quantitative tools. 
+Interviews should also be conducted with healthcare providers to triangulate what the mothers have said. 
+These could then serve as major components, together with the aforementioned audits, of a monitoring and 
+evaluation study to assess the implementation of this framework in SDNs. By adopting a patient-centered 
+framework, the quality of care provided by SDNs to pregnant mothers will hopefully improve. This is seen  
+to improve maternal outcomes at the patient and the population level, and hopefully contribute to attain SDG 
+targets in a patient-centered manner at the time of universal healthcare. 
+ 
+ 
+4. 
+CONCLUSION 
+The integrated patient-centered health service framework for maternal health can be used to assess  
+the quality of care provided by SDNs. In this particular context, mothers were particularly satisfied with  
+the quality of antenatal and postnatal care, but were less satisfied with the quality of care during labor and 
+delivery, especially in tertiary centers. Factors that affected their overall experience include active participation 
+in decision-making, supportive family and community, and provider attributes such as adherence to referral and 
+management guidelines, respectful maternity care, physical comfort in the facility, and cost of care. 
+Recommended strategies for improvement include training of healthcare providers regarding referral procedures 
+and reorientation towards a patient-centered approach to care. 
+ 
+ 
+ACKNOWLEDGEMENTS 
+We would like to thank the mothers and healthcare providers that allowed this study to be conducted 
+successfully. We would also like to express our sincerest gratitude to Cathy Banwell of the Australian 
+National University, as well as to the editors and referees for their valuable inputs and comments to this manuscript. 
+ 
+ 
+REFERENCES 
+[1] 
+Kassebaum N. J., Barber R. M., Bhutta Z. A., Dandona L., Gething P. W., Hay S. I., et al., “Global, regional,  
+and national levels of maternal mortality, 1990-2015: a systematic analysis for the Global Burden of Disease Study 
+2015,” The Lancet, vol. 388, no. 10053, pp. 1775-1812, 2016.  
+[2] 
+Cagayan Ma S. F. S., Ricarte J. A., Ang-Bon R. M., Llamas-Clark E., “Insights on Maternal Health  
+in the Philippines from National Health Surveys and Maternal Health Policies,” Philippine Journal of Health 
+Research and Development, vol. 22, no. 4, pp. 45-52, 2018.  
+[3] 
+15th Congress of the Philippines, “Responsible Parenthood and Reproductive Health Act,” 2012. [Online]. 
+Available: https://www.lawphil.net/statutes/repacts/ra2012/ra_10354_2012.html. 
+[4] 
+Department of Health (Philippines), “Department of Health MNCHN Strategy Manual of Operations” 2011. 
+[Online]. Available: https://www.doh.gov.ph/sites/default/files/publications/MNCHNMOPMay4withECJ.pdf. 
+[5] 
+Department of Health (Philippines), “National Strategy towards Reducing Unmet Need for Modern Family 
+Planning 
+as 
+a 
+means 
+to 
+achieving 
+MDGs 
+on 
+Maternal 
+Health,” 
+2012. 
+[Online]. 
+Available: 
+https://ais.doh.gov.ph/uploads/aopdf/ao2012-0009.pdf. 
+[6] 
+Department of Health (Philippines), “Provision of Blood Services under the Maternal, Neonatal, and Child Health 
+and Nutrition (MNCHN) Strategy,” 2010. [Online]. Available: https://ais.doh.gov.ph/uploads/dcpdf/dc2010-0181.pdf. 
+ 
+
+      
+  
+ 
+              ISSN: 2252-8806 
+ Int. J. Public Health Sci, Vol. 9, No. 2, June 2020:  138 – 144 
+144
+[7] 
+Sangguniang Panlungsod (Council) of the City of Legazpi, “An ordinance establishing and adopting the commodity 
+self-reliance (CSR) maternal newborn child health and nutrition (MNCHN) strategy for the effective and efficient 
+implementation 
+in 
+the 
+City 
+of 
+Legazpi,” 
+0011–2014 
+2014 
+[Online]. 
+Available: 
+http://www.splegazpicity.com/ordinances_and_resolutions.  
+[8] 
+World Health Organization, “Maternal mortality,” 2018. [Online]. Available: https://www.who.int/news-room/fact-
+sheets/detail/maternal-mortality. 
+[9] 
+Nieve, R, Jr. (2017). An analysis of maternal deaths in Camarines Norte: Points for action (PB 2017-03), [Online]. 
+Available: 
+https://zuelligfoundation.org/wp-content/uploads/2018/01/PB_Maternal-Death-Review-in-Camarines-
+Norte_v4.pdf 
+[10] Department of Health (Philippines), “Guidelines in Establishing Service Delivery Network,” [Online]. Available: 
+https://www.doh.gov.ph/sites/default/files/publications/Guidelines%20EstablishingSDN.pdf 
+[11] Kennedy H. P., Cheyney M., Dahlen H. G., Downe S., Foureur M. J., Homer C. S. E., et al., “Asking different questions:  
+A call to action for research to improve the quality of care for every woman,” Birth, vol. 45, no. 3, pp. 222-231, 2018.  
+[12] Sudhinaraset M., Afulani P., Diamond-Smith N., Bhattacharyya S., Donnay F., Montagu D., “Advancing  
+a conceptual model to improve maternal health quality: The Person-Centered Care Framework for Reproductive 
+Health Equity.,” 2017. [Online]. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5764229/. 
+[13] Gerteis M., Edgman-Levitan S., Daley J., Delbanco T. L., “Through the patient‟s eyes: Understanding and promoting  
+patient-centered care,” Jossey-Bass, 1993.  
+[14] Philippine Statistics Authority [Philippines], “2015 Census of Population-Region V,” 2015. [Online]. Available: 
+https://www.psa.gov.ph/sites/default/files/attachments/hsd/pressrelease/R05.xlsx 
+[15] Cagayan, S., Ang-Bon, R., Salonga, R., Garcia, F.Jr., et.al., “ Analysis of trends in maternal mortalities in Bicol 
+region using national health surveys and maternal death reviews,” Philippine Journal of Obstetrics and 
+Gynecology, vol.43, no.6, pp.39-48, 2019.  
+[16] NVivo 
+12. 
+Melbourne, 
+Australia: 
+QSR 
+International; 
+2018. 
+[Online]. 
+Available: 
+https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/home 
+[17] Machira K., Palamuleni M., “Women‟s perspectives on quality of maternal health care services in Malawi,” 
+International Journal of Womens Health, vol. 10, pp. 25-34, 2018.  
+[18] Shimpuku Y., Patil C. L., Norr K. F., Hill P. D., “Women‟s Perceptions of Childbirth Experience at a Hospital  
+in Rural Tanzania,” Health Care for Women International, vol. 34, no. 6, pp. 461-481, 2013.  
+[19] Wright K., Banke-Thomas A., Sonoiki O., Ajayi B., Ilozumba O., Akinola O., “Opinion of women on emergency 
+obstetric care provided in public facilities in Lagos, Nigeria: A qualitative study,” Health Care for Women 
+International, vol. 38, no. 6, pp. 527-534, 2017.  
+[20] Murphy H., Strong J., “Just another ordinary bad birth? A narrative analysis of first time mothers‟ traumatic birth 
+experiences,” Health Care for Women International, vol. 39, no. 6, pp. 619-634, 2018.  
+[21] Mead N., Bower P., “Patient-centredness: a conceptual framework and review of the empirical literature,” 
+Social Science and Medicine, vol. 51, no. 7, pp. 1087-1110, 2000.  
+[22] World Health Organization, “WHO|WHO Framework on integrated people-centred health services,” 2019. 
+[Online]. Available: http://www.who.int/servicedeliverysafety/areas/people-centred-care/en/. 
+[23] Adams T., Sarnak D., Lewis J., Convissar J., Young S. S., “What Do Clinicians Who Deliver Maternity Services 
+Think Patient-Centered Care Is and How Is That Different for Vulnerable Women? A Qualitative Study,” 2018. 
+[Online]. Available: https://www.hindawi.com/journals/jp/2018/5853235/. 
+[24] Saxena M., Srivastava A., Dwivedi P., Bhattacharyya S., “Is quality of care during childbirth consistent from 
+admission to discharge? A qualitative study of delivery care in Uttar Pradesh, India,” PLOS ONE, vol. 13, no. 9, 2018.  
+[25] Hernández-Aguado I., Chilet-Rosell E., “Pathways of undue influence in health policy-making: a main actor‟s 
+perspective,” Journal of Epidemiol and Community Health, vol. 72, no. 2, pp. 154-159, 2018.  
+[26] Grigoryan R., Thompson M. E., Crape B., Hekimian K., “Explaining Women‟s High Satisfaction with Objectively 
+Poor Quality Childbirth Services: Armenia as a Case Study,” Health Care for Women International, vol. 36, no. 1, 
+pp. 121-134, 2015. 
+ 

@@ -1,0 +1,50 @@
+Rafael Allan D. Alvarado 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   July 11, 2025 
+CS-302  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   2126-6IMSOFTENG 
+ 
+Based on your Software Engineering project proposal, provide information on the following: 
+1. Describe in detail 3-5 main functions that your proposed system must perform. 
+Vendwise is our proposed system, which includes three main functions: a Point of Sale (POS) 
+system, an inventory management module, and a sales reporting dashboard. Firstly, the POS 
+system enables users to record transactions more effectively than with traditional manual methods. 
+This ensures that every transaction is accurately accounted for, enhancing the efficiency of the 
+business's sales processing. Secondly, the inventory management module allows users to track 
+their inventory more efficiently, facilitating better management of stock levels for their products. 
+It also features alerts for products that have low stock levels. Lastly, the sales reporting dashboard 
+provides users with a summary of their sales on a daily, weekly, or monthly basis. This 
+information is presented in graphical charts, enabling users to identify their best-selling products, 
+observe sales trends, and calculate total revenue. This proposed application will be mobile-
+friendly and include offline functionality for added convenience. 
+1. List 3-5 different types of users (admin, end-user, students, customers, etc.) and their expertise 
+level. Describe in detail how they will interact with the system. 
+ 
+The administrator possesses a high level of skill, as they are responsible for managing system 
+settings, user accounts, and overall security. The store manager possesses a moderate level of 
+expertise with the system, as they use it to monitor sales and manage inventory. The cashier or 
+front desk staff have a low to mid-level of expertise, as their primary tasks include taking orders, 
+processing transactions, and applying discounts. 
+ 
+2. Describe the hardware, software, and network environment required to run the system. 
+The Vendwise Application is specifically designed for mobile devices, ensuring both accessibility 
+and mobility. It is compatible with most devices, particularly those in the low to mid-range 
+categories. The application's front end is developed using Flutter, while the back end is built with 
+Java. For data storage, it utilizes SQLite. A key feature of the Vendwise Application is its offline 
+usability. We recognize that network connectivity can be unreliable, so this feature allows users to 
+operate the app without an internet connection. This means that even if the network goes down, 
+you can continue to use the application without worrying about disruptions to your business. 

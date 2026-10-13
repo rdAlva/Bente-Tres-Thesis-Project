@@ -1,0 +1,2715 @@
+{% extends "base.html" %}
+
+{% block title %}Admin Panel — HAUdemicCheck{% endblock %}
+
+{% block content %}
+
+<div class="admin-panel">
+
+    <!-- Header Section -->
+    <div class="admin-header">
+        <div class="admin-title-section">
+            <h1 class="admin-title">ADMIN PANEL</h1>
+            <p class="admin-subtitle">
+                Manage users, similarity settings, repository, and system health.
+            </p>
+        </div>
+
+        <button id="refreshBtn" class="btn-refresh" title="Refresh statistics">
+            <span class="refresh-icon">↻</span>
+            Refresh
+        </button>
+    </div>
+
+    <!-- Temporary feedback banner used by showMessage() -->
+    <div id="thresholdMessage" class="threshold-message" role="status" aria-live="polite"></div>
+
+    <!-- Top Statistics Cards -->
+    <div class="stats-grid">
+
+        <div class="stat-card">
+            <div class="stat-label">TOTAL USERS</div>
+            <div class="stat-value" id="totalUsers">—</div>
+            <div class="stat-sublabel">
+                <span id="activeUsers">—</span> active
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-label">REPOSITORY DOCUMENTS</div>
+            <div class="stat-value" id="repoDocuments">—</div>
+            <div class="stat-sublabel">
+                <span id="reviewDocuments">—</span> in review
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-label">FLAGGED DOCUMENTS</div>
+
+            <div class="stat-value" id="flaggedDocuments">
+                —
+            </div>
+
+            <div class="stat-sublabel">
+                Awaiting review
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-label">REPOSITORY HEALTH</div>
+            <div class="stat-value">
+                <span id="healthValue">—</span>/<span id="healthTotal">—</span>
+            </div>
+            <div class="stat-sublabel">
+                <span id="healthStatus">—</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Repository Health -->
+    <div class="admin-section">
+
+        <h2 class="section-title">REPOSITORY HEALTH</h2>
+
+        <div class="health-content">
+
+            <div class="health-metrics">
+
+                <div class="metric-item">
+                    <div class="metric-label">Promoted Documents</div>
+                    <div class="metric-value" id="promotedCount">—</div>
+                </div>
+
+                <div class="metric-item">
+                    <div class="metric-label">Persistent Processed Copies</div>
+                    <div class="metric-value" id="processedCount">—</div>
+                </div>
+
+                <div class="metric-item">
+                    <div class="metric-label">Missing Processed Copies</div>
+                    <div class="metric-value" id="missingCount">—</div>
+                </div>
+
+            </div>
+
+            <div class="health-status-box" id="healthStatusBox">
+                <span class="status-indicator">✓</span>
+                <span id="healthStatusText">Repository Synchronized</span>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Repository Documents -->
+    <div class="admin-section">
+
+        <h2 class="section-title">REPOSITORY DOCUMENTS</h2>
+
+        <div class="repo-content">
+
+            <div class="repo-header">
+
+                <div class="repo-count" id="repoDocCount">
+                    0 documents
+                </div>
+
+                <div class="repo-search">
+
+                    <div class="search-input-wrapper">
+
+                        <i class="bi bi-search search-icon" aria-hidden="true"></i>
+
+                        <input type="text" id="repoSearchInput" class="search-input"
+                            placeholder="Search repository documents...">
+
+                        <button id="clearSearchBtn" class="btn-clear-search" style="display: none;"
+                            aria-label="Clear search" type="button">
+                            ✕
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="repo-table-container">
+
+                <table class="repo-table">
+
+                    <thead class="table-head">
+                        <tr>
+                            <th>DOCUMENT</th>
+                            <th>ADDED BY</th>
+                            <th>ADDED</th>
+                            <th class="text-end">ACTION</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="repoTableBody" class="table-body">
+
+                        <tr class="table-loading">
+                            <td colspan="4">
+                                Loading documents...
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <div id="noResultsMessage" class="no-results" style="display: none;">
+                <i class="bi bi-folder2-open"></i>
+                <p>No matching documents found.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Flagged Documents -->
+    <div class="admin-section">
+
+        <h2 class="section-title">FLAGGED DOCUMENTS</h2>
+
+        <div class="repo-content">
+
+            <div class="repo-header">
+
+                <div class="repo-count" id="flaggedDocCount">
+                    0 documents
+                </div>
+
+                <div class="repo-search">
+
+                    <div class="search-input-wrapper">
+
+                        <i class="bi bi-search search-icon" aria-hidden="true">
+                        </i>
+
+                        <input type="text" id="flaggedSearchInput" class="search-input"
+                            placeholder="Search flagged documents...">
+
+                        <button id="clearFlaggedSearchBtn" class="btn-clear-search" style="display: none;"
+                            aria-label="Clear search" type="button">
+                            ✕
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="repo-table-container">
+
+                <table class="repo-table">
+
+                    <thead class="table-head">
+
+                        <tr>
+                            <th>DOCUMENT</th>
+                            <th>ADDED BY</th>
+                            <th>FLAGGED</th>
+                            <th class="text-end">ACTION</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="flaggedTableBody" class="table-body">
+
+                        <tr class="table-loading">
+
+                            <td colspan="4">
+                                Loading flagged documents...
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <div id="flaggedNoResultsMessage" class="no-results" style="display: none;">
+
+                <i class="bi bi-flag"></i>
+
+                <p>
+                    No matching flagged documents found.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- User Management Section -->
+    <div class="admin-section">
+        <h2 class="section-title">USER MANAGEMENT</h2>
+
+        <div class="user-content">
+            <div class="user-header">
+                <div id="userCount" class="user-count">0 users</div>
+
+                <button id="addUserBtn" class="btn-add-user" title="Add a new user">
+                    <i class="bi bi-plus"></i> Add User
+                </button>
+            </div>
+
+            <div class="user-table-container">
+                <table class="user-table">
+                    <thead class="table-head">
+                        <tr>
+                            <th>USER</th>
+                            <th>ROLE</th>
+                            <th class="text-end">ACTION</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="userTableBody" class="table-body">
+                        <tr class="table-loading">
+                            <td colspan="3">Loading users...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Confirmation Modal -->
+<div id="confirmModal" class="modal" style="display: none;" role="alertdialog" aria-modal="true"
+    aria-labelledby="confirmTitle" aria-describedby="confirmMessage">
+
+    <div class="modal-content">
+
+        <div class="modal-header">
+            <h3 id="confirmTitle">Confirm Action</h3>
+        </div>
+
+        <div class="modal-body">
+            <p id="confirmMessage"></p>
+        </div>
+
+        <div class="modal-footer">
+            <button id="confirmCancel" class="btn-secondary" type="button">
+                Cancel
+            </button>
+
+            <button id="confirmOk" class="btn-danger" type="button">
+                Confirm
+            </button>
+        </div>
+
+    </div>
+</div>
+
+<!-- Add User Modal -->
+<div id="addUserModal" class="modal" style="display: none;" role="dialog" aria-modal="true"
+    aria-labelledby="addUserModalTitle">
+
+    <div class="modal-content">
+
+        <div class="modal-header">
+
+            <h3 id="addUserModalTitle">
+                Add New User
+            </h3>
+
+            <button class="modal-close" type="button" aria-label="Close">
+                &times;
+            </button>
+
+        </div>
+
+        <form id="addUserForm" class="modal-form">
+
+            <div class="modal-body">
+
+                <div class="form-group">
+                    <label for="addUserEmail">Email:</label>
+
+                    <input type="email" id="addUserEmail" name="email" autocomplete="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="addUserPassword">Password:</label>
+
+                    <input type="password" id="addUserPassword" name="password" autocomplete="new-password" required>
+
+                    <small class="form-hint">
+                        Minimum 8 characters, include uppercase, lowercase,
+                        and numbers.
+                    </small>
+                </div>
+
+                <div class="form-group">
+                    <label for="addUserRole">Role:</label>
+
+                    <select id="addUserRole" name="role" required>
+                        <option value="">Select a role</option>
+                        <option value="instructor">Instructor</option>
+                        <option value="admin">Admin</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+
+                <button type="button" class="btn-secondary modal-close-btn">
+                    Cancel
+                </button>
+
+                <button type="submit" class="btn-primary">
+                    Create User
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+</div>
+
+<!-- ==================== EDIT USER MODAL ==================== -->
+<div id="editUserModal" class="modal" style="display: none;" role="dialog" aria-modal="true"
+    aria-labelledby="editUserModalTitle">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 id="editUserModalTitle">Edit User</h3>
+            <button class="modal-close" type="button" aria-label="Close">&times;</button>
+        </div>
+
+        <form id="editUserForm" class="modal-form">
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="editUserEmail">Email:</label>
+                    <input type="email" id="editUserEmail" name="email" autocomplete="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="editUserRole">Role:</label>
+                    <select id="editUserRole" name="role" required>
+                        <option value="instructor">Instructor</option>
+                        <option value="admin">Admin</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn-secondary modal-close-btn">Cancel</button>
+                <button type="submit" class="btn-primary">Update User</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<style>
+    /* =========================================================
+   HAUdemicCheck Admin Panel - Styles (unchanged)
+   ========================================================= */
+
+    :root {
+        --hau-maroon: #6B0F1A;
+        --hau-maroon-dark: #4A0A12;
+        --hau-maroon-light: #8A1B27;
+        --hau-gold: #C5A028;
+        --hau-gold-light: #E0C468;
+        --hau-cream: #FAF6EC;
+        --hau-text: #2A2321;
+        --hau-text-muted: #6B5F5B;
+        --card-bg: #FFFFFF;
+        --border-color: rgba(107, 15, 26, 0.15);
+        --border-color-subtle: rgba(0, 0, 0, 0.06);
+        --success-color: #1E8E3E;
+        --success-bg: #E8F5E9;
+        --warning-color: #A66A00;
+        --warning-bg: #FFF3CD;
+        --error-color: #B3261E;
+        --error-bg: #FFEBEE;
+        --shadow-sm: 0 1px 3px rgba(107, 15, 26, 0.08);
+        --shadow-md: 0 4px 12px rgba(107, 15, 26, 0.1);
+        --shadow-lg: 0 8px 24px rgba(107, 15, 26, 0.15);
+        --radius-sm: 6px;
+        --radius-md: 10px;
+        --radius-lg: 16px;
+        --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        --font-main: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    body,
+    .admin-panel {
+        font-family: var(--font-main);
+        color: var(--hau-text);
+        background-color: var(--hau-cream);
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .admin-panel {
+        min-height: 100vh;
+        padding: 2.5rem 1.5rem;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    /* Header */
+    .admin-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2.5rem;
+        flex-wrap: wrap;
+        gap: 1.25rem;
+    }
+
+    .admin-title {
+        font-size: 2.25rem;
+        font-weight: 800;
+        color: var(--hau-maroon);
+        margin: 0;
+        letter-spacing: -0.5px;
+    }
+
+    .admin-subtitle {
+        font-size: 0.95rem;
+        color: var(--hau-text-muted);
+        margin: 0.35rem 0 0;
+    }
+
+    .btn-refresh {
+        background-color: var(--hau-maroon);
+        color: #fff;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: var(--radius-sm);
+        cursor: pointer;
+        font-size: 0.9rem;
+        font-weight: 600;
+        transition: var(--transition);
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .btn-refresh:hover {
+        background-color: var(--hau-maroon-dark);
+        transform: translateY(-1px);
+        box-shadow: var(--shadow-sm);
+    }
+
+    .btn-refresh:active {
+        transform: translateY(0);
+    }
+
+    /* Statistics */
+    .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .stat-card {
+        background-color: var(--card-bg);
+        border-left: 4px solid var(--hau-maroon);
+        border-radius: var(--radius-md);
+        padding: 1.5rem;
+        box-shadow: var(--shadow-sm);
+        transition: var(--transition);
+    }
+
+    .stat-card:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-md);
+    }
+
+    .stat-label {
+        font-size: 0.75rem;
+        font-weight: 700;
+        color: var(--hau-text-muted);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin-bottom: 0.5rem;
+    }
+
+    .stat-value {
+        font-size: 2.25rem;
+        font-weight: 800;
+        color: var(--hau-maroon);
+        line-height: 1.1;
+        margin-bottom: 0.35rem;
+    }
+
+    .stat-sublabel {
+        font-size: 0.85rem;
+        color: var(--hau-text-muted);
+    }
+
+    /* Sections */
+    .admin-section {
+        background-color: var(--card-bg);
+        border: 1px solid var(--border-color);
+        border-radius: var(--radius-md);
+        padding: 1.75rem;
+        margin-bottom: 2rem;
+        box-shadow: var(--shadow-sm);
+    }
+
+    .section-title {
+        font-size: 1.05rem;
+        font-weight: 700;
+        color: var(--hau-maroon);
+        margin: 0 0 1.25rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 2px solid var(--hau-gold);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    /* Configuration */
+    .config-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .threshold-display {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.25rem;
+        background: var(--hau-cream);
+        border-radius: var(--radius-sm);
+    }
+
+    .threshold-label {
+        font-weight: 600;
+    }
+
+    .threshold-current {
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: var(--hau-maroon);
+    }
+
+    .slider-container {
+        width: 100%;
+    }
+
+    .slider-labels {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.4rem;
+    }
+
+    .threshold-slider {
+        width: 100%;
+        accent-color: var(--hau-maroon);
+        cursor: pointer;
+        height: 6px;
+    }
+
+    .threshold-slider:focus-visible {
+        outline: 2px solid var(--hau-gold);
+        outline-offset: 4px;
+    }
+
+    .slider-labels-reference {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0.5rem;
+        font-size: 0.75rem;
+        color: var(--hau-text-muted);
+    }
+
+    .threshold-descriptions {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 1rem;
+    }
+
+    .threshold-desc-item {
+        background: #FAF9F6;
+        border-left: 3px solid var(--hau-maroon);
+        padding: 1rem;
+        border-radius: var(--radius-sm);
+    }
+
+    .desc-value {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--hau-maroon);
+    }
+
+    .desc-title {
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 0.25rem;
+    }
+
+    .desc-text {
+        font-size: 0.8rem;
+        color: var(--hau-text-muted);
+        margin-top: 0.25rem;
+    }
+
+    .threshold-status {
+        background: var(--hau-cream);
+        padding: 0.85rem;
+        border-radius: var(--radius-sm);
+        font-size: 0.9rem;
+    }
+
+    /* Floating feedback toast (used by showMessage()) */
+    .threshold-message {
+        position: fixed;
+        top: 1.25rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1100;
+        display: none;
+        max-width: min(92vw, 420px);
+        padding: 0.85rem 1.25rem;
+        border: 1px solid transparent;
+        border-radius: var(--radius-sm);
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-align: center;
+        box-shadow: var(--shadow-lg);
+    }
+
+    @keyframes adminToastIn {
+        from {
+            opacity: 0;
+            transform: translate(-50%, -0.5rem);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate(-50%, 0);
+        }
+    }
+
+    .threshold-message.success {
+        display: block;
+        background: var(--success-bg);
+        color: var(--success-color);
+        border-color: var(--success-color);
+        animation: adminToastIn 0.25s ease-out;
+    }
+
+    .threshold-message.error {
+        display: block;
+        background: var(--error-bg);
+        color: var(--error-color);
+        border-color: var(--error-color);
+        animation: adminToastIn 0.25s ease-out;
+    }
+
+    /* Algorithm */
+    .algorithm-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .algorithm-formula {
+        background: #FAF9F6;
+        border-left: 4px solid var(--hau-gold);
+        padding: 1.25rem;
+        border-radius: var(--radius-sm);
+    }
+
+    .formula-title {
+        font-weight: 700;
+        color: var(--hau-maroon);
+        margin-bottom: 0.5rem;
+    }
+
+    .formula-math {
+        font-family: var(--font-mono);
+        background: #fff;
+        padding: 0.85rem 1rem;
+        border-radius: var(--radius-sm);
+        border: 1px solid var(--border-color-subtle);
+        overflow-x: auto;
+    }
+
+    .formula-line {
+        font-size: 0.95rem;
+    }
+
+    .algorithm-components {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 0.75rem;
+    }
+
+    .component {
+        background: #FAF9F6;
+        padding: 0.85rem;
+        border-left: 3px solid var(--hau-maroon);
+        border-radius: var(--radius-sm);
+        font-size: 0.85rem;
+    }
+
+    .algorithm-explanation {
+        color: var(--hau-text-muted);
+    }
+
+    .decision-rule {
+        background: rgba(197, 160, 40, 0.15);
+        border-left: 4px solid var(--hau-gold);
+        padding: 1.25rem;
+        border-radius: var(--radius-sm);
+    }
+
+    .rule-title {
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        color: var(--hau-maroon-dark);
+    }
+
+    .rule-condition {
+        margin: 0.5rem 0;
+    }
+
+    /* Badges */
+    .status-pill {
+        font-weight: 600;
+        font-size: 0.75rem;
+        padding: 0.35em 0.85em;
+        display: inline-flex;
+        align-items: center;
+        border-radius: 9999px;
+    }
+
+    .status-flagged {
+        background-color: var(--error-color);
+        color: #fff;
+    }
+
+    .status-clear {
+        background-color: var(--success-color);
+        color: #fff;
+    }
+
+    /* Health */
+    .health-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .health-metrics {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 1rem;
+    }
+
+    .metric-item {
+        background: #FAF9F6;
+        text-align: center;
+        padding: 1.25rem 1rem;
+        border-radius: var(--radius-sm);
+        border: 1px solid var(--border-color-subtle);
+    }
+
+    .metric-label {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: var(--hau-text-muted);
+        margin-bottom: 0.5rem;
+    }
+
+    .metric-value {
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: var(--hau-maroon);
+    }
+
+    .health-status-box {
+        background: var(--success-bg);
+        border-left: 4px solid var(--success-color);
+        padding: 0.85rem 1rem;
+        border-radius: var(--radius-sm);
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-weight: 500;
+    }
+
+    .health-status-box.warning {
+        background: var(--warning-bg);
+        border-left-color: var(--warning-color);
+    }
+
+    .health-status-box.error {
+        background: var(--error-bg);
+        border-left-color: var(--error-color);
+    }
+
+    /* Tables */
+    .repo-header,
+    .user-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .repo-count,
+    .user-count {
+        font-weight: 600;
+        color: var(--hau-text-muted);
+        font-size: 0.9rem;
+    }
+
+    .repo-search {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .search-input-wrapper {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .search-icon {
+        position: absolute;
+        left: 0.85rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--hau-text-muted);
+        pointer-events: none;
+    }
+
+    .search-input {
+        width: 100%;
+        padding: 0.65rem 2.5rem 0.65rem 2.4rem;
+        border: 1px solid var(--border-color);
+        border-radius: var(--radius-sm);
+        font-size: 0.9rem;
+        background: #fff;
+    }
+
+    .search-input:focus {
+        outline: none;
+        border-color: var(--hau-maroon);
+        box-shadow: 0 0 0 3px rgba(107, 15, 26, 0.12);
+    }
+
+    .btn-clear-search {
+        position: absolute;
+        right: 0.5rem;
+        top: 50%;
+        transform: translateY(-50%);
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        color: var(--hau-text-muted);
+    }
+
+    .repo-table-container,
+    .user-table-container {
+        overflow: auto;
+        border: 1px solid var(--border-color);
+        border-radius: var(--radius-sm);
+    }
+
+    .repo-table-container {
+        max-height: 400px;
+    }
+
+    .user-table-container {
+        max-height: 320px;
+    }
+
+    .repo-table,
+    .user-table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+    }
+
+    /* Keep repo/flagged tables inside their container: wrap long
+       filenames and email addresses instead of widening the table. */
+    .repo-table {
+        table-layout: fixed;
+    }
+
+    .repo-table .doc-info {
+        min-width: 0;
+    }
+
+    .repo-table .doc-info span {
+        min-width: 0;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
+    .repo-table .date-added {
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
+    .repo-table th:nth-child(1),
+    .repo-table td:nth-child(1) {
+        width: 46%;
+    }
+
+    .repo-table th:nth-child(2),
+    .repo-table td:nth-child(2) {
+        width: 28%;
+    }
+
+    .repo-table th:nth-child(4),
+    .repo-table td:nth-child(4) {
+        width: 12%;
+    }
+
+    .table-head th {
+        background: #F4F1EA;
+        position: sticky;
+        top: 0;
+        z-index: 5;
+        padding: 0.85rem 1rem;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        color: var(--hau-text-muted);
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .table-body td {
+        padding: 0.85rem 1rem;
+        border-bottom: 1px solid var(--border-color-subtle);
+        font-size: 0.9rem;
+    }
+
+    .table-body tr:hover {
+        background-color: rgba(107, 15, 26, 0.02);
+    }
+
+    .text-end {
+        text-align: right;
+    }
+
+    .doc-info,
+    .user-info {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .doc-icon {
+        font-size: 1.25rem;
+        color: var(--hau-maroon);
+    }
+
+    .date-added {
+        font-size: 0.85rem;
+        color: var(--hau-text-muted);
+    }
+
+    .table-empty {
+        text-align: center;
+        color: var(--hau-text-muted);
+    }
+
+    .table-empty td {
+        padding: 3rem 1rem;
+    }
+
+    .table-empty i {
+        font-size: 2.5rem;
+        display: block;
+        margin-bottom: 0.5rem;
+        opacity: 0.4;
+    }
+
+    /* Buttons */
+    .btn-icon {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 1.1rem;
+        padding: 0.35rem 0.5rem;
+        border-radius: var(--radius-sm);
+        transition: var(--transition);
+    }
+
+    .btn-remove,
+    .btn-delete {
+        color: var(--error-color);
+    }
+
+    .btn-remove:hover,
+    .btn-delete:hover {
+        background-color: var(--error-bg);
+    }
+
+    .btn-edit {
+        color: var(--hau-text-muted);
+    }
+
+    .btn-edit:hover {
+        background-color: #EFEFEF;
+    }
+
+    .btn-add-user {
+        background-color: var(--hau-maroon);
+        color: #fff;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: var(--radius-sm);
+        font-weight: 600;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+    }
+
+    .btn-add-user:hover {
+        background-color: var(--hau-maroon-dark);
+    }
+
+    .btn-primary,
+    .btn-secondary,
+    .btn-danger {
+        padding: 0.6rem 1.25rem;
+        border: none;
+        border-radius: var(--radius-sm);
+        font-weight: 600;
+        font-size: 0.9rem;
+        cursor: pointer;
+    }
+
+    .btn-primary {
+        background: var(--hau-maroon);
+        color: #fff;
+    }
+
+    .btn-primary:hover {
+        background: var(--hau-maroon-dark);
+    }
+
+    .btn-secondary {
+        background: #6C757D;
+        color: #fff;
+    }
+
+    .btn-secondary:hover {
+        background: #5A6268;
+    }
+
+    .btn-danger {
+        background: var(--error-color);
+        color: #fff;
+    }
+
+    .btn-danger:hover {
+        background: #961F18;
+    }
+
+    /* Users */
+    .user-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+
+    .user-avatar {
+        width: 36px;
+        height: 36px;
+        background-color: var(--hau-maroon);
+        color: #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        flex-shrink: 0;
+    }
+
+    .user-name {
+        display: block;
+        font-weight: 600;
+    }
+
+    .user-email {
+        display: block;
+        font-size: 0.8rem;
+        color: var(--hau-text-muted);
+    }
+
+    .role-badge {
+        font-size: 0.75rem;
+        font-weight: 700;
+        padding: 0.3em 0.8em;
+        border-radius: 9999px;
+    }
+
+    .role-admin {
+        background-color: var(--hau-maroon);
+        color: #fff;
+    }
+
+    .role-instructor {
+        background-color: var(--hau-gold-light);
+        color: var(--hau-maroon-dark);
+    }
+
+    /* Modals */
+    .modal {
+        position: fixed;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(42, 35, 33, 0.6);
+        backdrop-filter: blur(4px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        padding: 1rem;
+    }
+
+    .modal-content {
+        background: #fff;
+        border-radius: var(--radius-md);
+        max-width: 500px;
+        width: 100%;
+        max-height: 90vh;
+        overflow-y: auto;
+        box-shadow: var(--shadow-lg);
+    }
+
+    .modal-header {
+        padding: 1.25rem 1.5rem;
+        border-bottom: 1px solid var(--border-color-subtle);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .modal-header h3 {
+        margin: 0;
+        color: var(--hau-maroon);
+    }
+
+    .modal-close {
+        background: transparent;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: var(--hau-text-muted);
+    }
+
+    .modal-body {
+        padding: 1.5rem;
+    }
+
+    .form-group {
+        margin-bottom: 1.25rem;
+    }
+
+    .form-group:last-child {
+        margin-bottom: 0;
+    }
+
+    .form-group label {
+        display: block;
+        font-weight: 600;
+        font-size: 0.85rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .form-group input,
+    .form-group select {
+        width: 100%;
+        padding: 0.65rem 0.85rem;
+        border: 1px solid var(--border-color);
+        border-radius: 6px;
+        font-size: 0.9rem;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus {
+        outline: none;
+        border-color: var(--hau-maroon);
+        box-shadow: 0 0 0 3px rgba(107, 15, 26, 0.1);
+    }
+
+    .form-hint {
+        display: block;
+        font-size: 0.75rem;
+        color: var(--hau-text-muted);
+        margin-top: 0.35rem;
+    }
+
+    .modal-footer {
+        padding: 1rem 1.5rem;
+        border-top: 1px solid var(--border-color);
+        display: flex;
+        justify-content: flex-end;
+        gap: 0.75rem;
+        background-color: #FAF9F6;
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+        .admin-panel {
+            padding: 1.25rem 0.85rem;
+        }
+
+        .admin-title {
+            font-size: 1.8rem;
+        }
+
+        .stat-value {
+            font-size: 1.85rem;
+        }
+
+        .repo-header,
+        .user-header {
+            align-items: stretch;
+        }
+
+        .repo-search {
+            justify-content: stretch;
+        }
+
+        .search-input-wrapper {
+            max-width: none;
+        }
+
+        .admin-section {
+            padding: 1.25rem;
+        }
+    }
+</style>
+
+
+<script>
+    // ============================================================
+    // All JavaScript – corrected and enhanced with Edit User modal
+    // ============================================================
+
+    document.addEventListener("DOMContentLoaded", function () {
+        initializeAdminPanel();
+    });
+
+    function initializeAdminPanel() {
+
+        loadStats();
+        loadRepositoryFiles();
+        loadFlaggedFiles();
+        loadUsers();
+
+        document
+            .getElementById("refreshBtn")
+            .addEventListener("click", refreshAll);
+
+        document
+            .getElementById("repoSearchInput")
+            .addEventListener("input", debounce(searchRepository, 300));
+
+        document
+            .getElementById("clearSearchBtn")
+            .addEventListener("click", clearSearch);
+
+        document
+            .getElementById("addUserBtn")
+            .addEventListener("click", openAddUserModal);
+
+        document
+            .querySelectorAll("#addUserModal .modal-close, #addUserModal .modal-close-btn")
+            .forEach(function (btn) {
+                btn.addEventListener("click", closeAddUserModal);
+            });
+
+        document
+            .getElementById("flaggedSearchInput")
+            .addEventListener(
+                "input",
+                debounce(searchFlaggedDocuments, 300)
+            );
+
+        document
+            .getElementById("clearFlaggedSearchBtn")
+            .addEventListener(
+                "click",
+                clearFlaggedSearch
+            );
+
+        document
+            .getElementById("addUserModal")
+            .addEventListener("click", function (event) {
+                if (event.target === this) {
+                    closeAddUserModal();
+                }
+            });
+
+        // SINGLE submit handler for the add-user form (fixed)
+        document
+            .getElementById("addUserForm")
+            .addEventListener("submit", submitAddUser);
+
+        // ========== NEW: Edit User form handler ==========
+        document.getElementById("editUserForm").addEventListener("submit", submitEditUser);
+
+        // Modal close handlers for Edit User
+        document.querySelectorAll("#editUserModal .modal-close, #editUserModal .modal-close-btn")
+            .forEach(function (btn) {
+                btn.addEventListener("click", closeEditUserModal);
+            });
+
+        document.getElementById("editUserModal").addEventListener("click", function (event) {
+            if (event.target === this) {
+                closeEditUserModal();
+            }
+        });
+
+        // Global Escape key handler – close both modals
+        document.addEventListener("keydown", function (event) {
+            if (event.key !== "Escape") return;
+
+            const addModal = document.getElementById("addUserModal");
+            const editModal = document.getElementById("editUserModal");
+            const confirmModal = document.getElementById("confirmModal");
+
+            if (addModal.style.display === "flex") closeAddUserModal();
+            if (editModal.style.display === "flex") closeEditUserModal();
+            if (confirmModal.style.display === "flex") confirmModal.style.display = "none";
+        });
+    }
+
+
+    /* =========================================================
+       Statistics
+       ========================================================= */
+
+    function loadStats() {
+
+        fetch("/api/admin/stats")
+            .then(handleResponse)
+            .then(function (data) {
+
+                const totalUsers =
+                    Number(data.total_users) || 0;
+
+                const activeUsers =
+                    Number(data.active_users) || 0;
+
+                const repositoryDocuments =
+                    Number(data.repository_documents) || 0;
+
+                const reviewDocuments =
+                    Number(data.review_documents) || 0;
+
+                const promotedCopies =
+                    Number(data.promoted_copies) || 0;
+
+                const processedCopies =
+                    Number(data.processed_copies) || 0;
+
+                const missingCopies =
+                    Number(data.missing_copies) || 0;
+
+                const flaggedDocuments =
+                    Number(data.flagged_documents) || 0;
+
+                document.getElementById("totalUsers").textContent =
+                    totalUsers;
+
+                document.getElementById("activeUsers").textContent =
+                    activeUsers;
+
+                document.getElementById("repoDocuments").textContent =
+                    repositoryDocuments;
+
+                document.getElementById("reviewDocuments").textContent =
+                    reviewDocuments;
+
+                document.getElementById("promotedCount").textContent =
+                    promotedCopies;
+
+                document.getElementById("processedCount").textContent =
+                    processedCopies;
+
+                document.getElementById("missingCount").textContent =
+                    missingCopies;
+
+                document.getElementById("healthValue").textContent =
+                    processedCopies;
+
+                document.getElementById("healthTotal").textContent =
+                    promotedCopies;
+
+                document.getElementById("flaggedDocuments").textContent =
+                    flaggedDocuments;
+
+
+                updateHealthStatus(missingCopies);
+            })
+            .catch(function (error) {
+                console.error("Stats error:", error);
+            });
+    }
+
+
+    function updateHealthStatus(missingCopies) {
+
+        const healthBox =
+            document.getElementById("healthStatusBox");
+
+        const healthText =
+            document.getElementById("healthStatusText");
+
+        const healthStatus =
+            document.getElementById("healthStatus");
+
+        if (missingCopies > 0) {
+
+            healthBox.className =
+                "health-status-box warning";
+
+            healthText.textContent =
+                missingCopies + " processed copies missing";
+
+            healthStatus.textContent =
+                "Warning";
+
+        } else {
+
+            healthBox.className =
+                "health-status-box";
+
+            healthText.textContent =
+                "Repository Synchronized";
+
+            healthStatus.textContent =
+                "Healthy";
+        }
+    }
+
+
+    /* =========================================================
+       Repository
+       ========================================================= */
+
+    function loadRepositoryFiles() {
+
+        fetch("/api/admin/repository")
+            .then(handleResponse)
+            .then(function (files) {
+
+                if (!Array.isArray(files)) {
+                    files = [];
+                }
+
+                displayRepositoryFiles(files);
+
+                updateRepositoryCount(files.length);
+            })
+
+            .catch(function (error) {
+
+                console.error("Repository error:", error);
+
+                document.getElementById("repoTableBody").innerHTML = `
+                <tr class="table-empty">
+                    <td colspan="4">
+                        <i class="bi bi-exclamation-circle"></i>
+                        <p>Error loading repository.</p>
+                    </td>
+                </tr>
+            `;
+            });
+    }
+
+
+    function updateRepositoryCount(count) {
+
+        document.getElementById("repoDocCount").textContent =
+            count + " document" + (count !== 1 ? "s" : "");
+    }
+
+
+    function displayRepositoryFiles(files) {
+
+        const tbody =
+            document.getElementById("repoTableBody");
+
+        const noResults =
+            document.getElementById("noResultsMessage");
+
+        tbody.innerHTML = "";
+
+        if (!files || files.length === 0) {
+
+            tbody.innerHTML = `
+            <tr class="table-empty">
+                <td colspan="4">
+                    <i class="bi bi-folder2-open"></i>
+                    <p>No documents in repository</p>
+                </td>
+            </tr>
+        `;
+
+            return;
+        }
+
+        noResults.style.display = "none";
+
+        files.forEach(function (file) {
+
+            const row =
+                document.createElement("tr");
+
+            const filename =
+                String(file.filename || "Unknown");
+            const documentId = String(file.document_id || "");
+            const legacyFilename = String(file.legacy_filename || "");
+
+            const date =
+                file.date_added
+                    ? new Date(file.date_added).toLocaleDateString()
+                    : "Unknown";
+
+            row.innerHTML = `
+            <td>
+                <div class="doc-info">
+                    <i class="bi bi-file-earmark-pdf doc-icon"></i>
+                    <span>${escapeHtml(filename)}</span>
+                </div>
+            </td>
+
+            <td>
+                <span class="date-added">
+                    ${escapeHtml(file.added_by || "SYSTEM")}
+                </span>
+            </td>
+
+            <td>
+                <span class="date-added">
+                    ${escapeHtml(date)}
+                </span>
+            </td>
+
+            <td class="text-end">
+                <button
+                    class="btn-icon btn-remove"
+                    type="button"
+                    title="Remove document"
+                    data-filename="${escapeHtml(filename)}"
+                >
+                    <i class="bi bi-trash"></i>
+                </button>
+            </td>
+        `;
+
+            const deleteButton =
+                row.querySelector(".btn-remove");
+
+            deleteButton.addEventListener(
+                "click",
+                function () {
+                    const documentRef = documentId || legacyFilename;
+                    if (documentRef) deleteDocument(documentRef, filename, row);
+                }
+            );
+
+            tbody.appendChild(row);
+        });
+    }
+
+
+    function deleteDocument(documentId, filename, row) {
+
+        showConfirmDialog(
+            'Remove document "' +
+            filename +
+            '" from the repository? This action cannot be undone.',
+
+            function () {
+
+                fetch(
+                    "/api/admin/repository/" +
+                    encodeURIComponent(documentId),
+                    {
+                        method: "DELETE"
+                    }
+                )
+
+                    .then(handleResponse)
+
+                    .then(function (data) {
+
+                        if (data.error) {
+                            throw new Error(data.error);
+                        }
+
+                        // Immediate feedback: drop the row, update the
+                        // visible count from the displayed list, and
+                        // reset the repository search state.
+                        if (row && row.parentNode) {
+                            row.remove();
+                        }
+
+                        const remainingRows = document
+                            .getElementById("repoTableBody")
+                            .querySelectorAll("tr:not(.table-empty)")
+                            .length;
+
+                        updateRepositoryCount(remainingRows);
+
+                        document.getElementById("repoSearchInput").value = "";
+                        document.getElementById("clearSearchBtn").style.display = "none";
+                        document.getElementById("noResultsMessage").style.display = "none";
+
+                        showMessage(
+                            "Document removed successfully.",
+                            "success"
+                        );
+
+                        // Background refresh reconciles with backend state.
+                        loadRepositoryFiles();
+                        loadStats();
+                    })
+
+                    .catch(function (error) {
+
+                        console.error(
+                            "Delete document error:",
+                            error
+                        );
+
+                        showMessage(
+                            error.message ||
+                            "Error removing document.",
+                            "error"
+                        );
+                    });
+            }
+        );
+    }
+
+    /* =========================================================
+       Repository Search
+       ========================================================= */
+
+    function searchRepository() {
+
+        const query =
+            document
+                .getElementById("repoSearchInput")
+                .value
+                .trim();
+
+        const clearButton =
+            document.getElementById("clearSearchBtn");
+
+        const noResults =
+            document.getElementById("noResultsMessage");
+
+        if (!query) {
+
+            clearSearch();
+
+            return;
+        }
+
+        clearButton.style.display = "block";
+
+        fetch(
+            "/api/admin/repository/search?q=" +
+            encodeURIComponent(query)
+        )
+
+            .then(handleResponse)
+
+            .then(function (files) {
+
+                // Ignore stale responses (e.g. search cleared after a
+                // successful delete) so old results are never shown.
+                const currentQuery =
+                    document
+                        .getElementById("repoSearchInput")
+                        .value
+                        .trim();
+
+                if (!currentQuery || currentQuery !== query) {
+                    return;
+                }
+
+                if (!Array.isArray(files)) {
+                    files = [];
+                }
+
+                if (files.length === 0) {
+
+                    document.getElementById(
+                        "repoTableBody"
+                    ).innerHTML = "";
+
+                    noResults.style.display = "block";
+
+                } else {
+
+                    noResults.style.display = "none";
+
+                    displayRepositoryFiles(files);
+                }
+
+                document.getElementById(
+                    "repoDocCount"
+                ).textContent =
+                    "Showing " +
+                    files.length +
+                    " result(s)";
+            })
+
+            .catch(function (error) {
+
+                console.error(
+                    "Repository search error:",
+                    error
+                );
+            });
+    }
+
+
+    function clearSearch() {
+
+        document.getElementById(
+            "repoSearchInput"
+        ).value = "";
+
+        document.getElementById(
+            "clearSearchBtn"
+        ).style.display = "none";
+
+        document.getElementById(
+            "noResultsMessage"
+        ).style.display = "none";
+
+        loadRepositoryFiles();
+    }
+
+    /* =========================================================
+    Flagged Documents
+    ========================================================= */
+
+    function loadFlaggedFiles() {
+
+        fetch("/api/admin/flagged")
+
+            .then(handleResponse)
+
+            .then(function (files) {
+
+                if (!Array.isArray(files)) {
+                    files = [];
+                }
+
+                displayFlaggedFiles(files);
+
+                updateFlaggedCount(files.length);
+            })
+
+            .catch(function (error) {
+
+                console.error(
+                    "Flagged documents error:",
+                    error
+                );
+
+                document.getElementById(
+                    "flaggedTableBody"
+                ).innerHTML = `
+                    <tr class="table-empty">
+                        <td colspan="4">
+                            <i class="bi bi-exclamation-circle"></i>
+                            <p>Error loading flagged documents.</p>
+                        </td>
+                    </tr>
+                `;
+            });
+    }
+
+
+    function updateFlaggedCount(count) {
+
+        document.getElementById(
+            "flaggedDocCount"
+        ).textContent =
+            count +
+            " document" +
+            (count !== 1 ? "s" : "");
+    }
+
+
+    function displayFlaggedFiles(files) {
+
+        const tbody =
+            document.getElementById(
+                "flaggedTableBody"
+            );
+
+        const noResults =
+            document.getElementById(
+                "flaggedNoResultsMessage"
+            );
+
+        tbody.innerHTML = "";
+
+        if (!files || files.length === 0) {
+
+            tbody.innerHTML = `
+                <tr class="table-empty">
+                    <td colspan="4">
+
+                        <i class="bi bi-flag"></i>
+
+                        <p>
+                            No flagged documents
+                        </p>
+
+                    </td>
+                </tr>
+            `;
+
+            noResults.style.display = "none";
+
+            return;
+        }
+
+        noResults.style.display = "none";
+
+        files.forEach(function (file) {
+
+            const row =
+                document.createElement("tr");
+
+            const filename =
+                String(
+                    file.filename ||
+                    "Unknown"
+                );
+            const documentId = String(file.document_id || "");
+
+            const date =
+                file.date_added
+                    ? new Date(
+                        file.date_added
+                    ).toLocaleDateString()
+                    : "Unknown";
+
+            row.innerHTML = `
+                <td>
+
+                    <div class="doc-info">
+
+                        <i
+                            class="bi bi-file-earmark-pdf doc-icon">
+                        </i>
+
+                        <span>
+                            ${escapeHtml(filename)}
+                        </span>
+
+                    </div>
+
+                </td>
+
+                <td>
+
+                    <span class="date-added">
+                        ${escapeHtml(file.added_by || "SYSTEM")}
+                    </span>
+
+                </td>
+
+                <td>
+
+                    <span class="date-added">
+                        ${escapeHtml(date)}
+                    </span>
+
+                </td>
+
+                <td class="text-end">
+
+                    <button
+                        class="btn-icon btn-remove"
+                        type="button"
+                        title="Delete flagged document">
+
+                        <i class="bi bi-trash"></i>
+
+                    </button>
+
+                </td>
+            `;
+
+            const deleteButton =
+                row.querySelector(".btn-remove");
+
+            deleteButton.addEventListener(
+                "click",
+                function () {
+
+                    if (documentId) deleteFlaggedDocument(documentId, filename, row);
+
+                }
+            );
+
+            tbody.appendChild(row);
+        });
+    }
+
+    function deleteFlaggedDocument(documentId, filename, row) {
+
+        showConfirmDialog(
+
+            'Delete flagged document "' +
+            filename +
+            '"? This action cannot be undone.',
+
+            function () {
+
+                fetch(
+                    "/api/admin/flagged/" +
+                    encodeURIComponent(documentId),
+                    {
+                        method: "DELETE"
+                    }
+                )
+
+                    .then(handleResponse)
+
+                    .then(function (data) {
+
+                        if (data.error) {
+                            throw new Error(
+                                data.error
+                            );
+                        }
+
+                        // Immediate feedback: drop the row, update the
+                        // visible count from the displayed list, and
+                        // reset the flagged search state.
+                        if (row && row.parentNode) {
+                            row.remove();
+                        }
+
+                        const remainingRows = document
+                            .getElementById("flaggedTableBody")
+                            .querySelectorAll("tr:not(.table-empty)")
+                            .length;
+
+                        updateFlaggedCount(remainingRows);
+
+                        document.getElementById("flaggedSearchInput").value = "";
+                        document.getElementById("clearFlaggedSearchBtn").style.display = "none";
+                        document.getElementById("flaggedNoResultsMessage").style.display = "none";
+
+                        showMessage(
+                            "Flagged document deleted successfully.",
+                            "success"
+                        );
+
+                        // Background refresh reconciles with backend state.
+                        loadFlaggedFiles();
+                        loadStats();
+                    })
+
+                    .catch(function (error) {
+
+                        console.error(
+                            "Delete flagged document error:",
+                            error
+                        );
+
+                        showMessage(
+                            error.message ||
+                            "Error deleting flagged document.",
+                            "error"
+                        );
+                    });
+            }
+        );
+    }
+
+    function searchFlaggedDocuments() {
+
+        const query =
+            document
+                .getElementById(
+                    "flaggedSearchInput"
+                )
+                .value
+                .trim();
+
+        const clearButton =
+            document.getElementById(
+                "clearFlaggedSearchBtn"
+            );
+
+        const noResults =
+            document.getElementById(
+                "flaggedNoResultsMessage"
+            );
+
+        if (!query) {
+
+            clearFlaggedSearch();
+
+            return;
+        }
+
+        clearButton.style.display = "block";
+
+        fetch(
+            "/api/admin/flagged/search?q=" +
+            encodeURIComponent(query)
+        )
+
+            .then(handleResponse)
+
+            .then(function (files) {
+
+                // Ignore stale responses (e.g. search cleared after a
+                // successful delete) so old results are never shown.
+                const currentQuery =
+                    document
+                        .getElementById(
+                            "flaggedSearchInput"
+                        )
+                        .value
+                        .trim();
+
+                if (!currentQuery || currentQuery !== query) {
+                    return;
+                }
+
+                if (!Array.isArray(files)) {
+                    files = [];
+                }
+
+                if (files.length === 0) {
+
+                    document.getElementById(
+                        "flaggedTableBody"
+                    ).innerHTML = "";
+
+                    noResults.style.display =
+                        "block";
+
+                } else {
+
+                    noResults.style.display =
+                        "none";
+
+                    displayFlaggedFiles(files);
+                }
+
+                document.getElementById(
+                    "flaggedDocCount"
+                ).textContent =
+                    "Showing " +
+                    files.length +
+                    " result(s)";
+            })
+
+            .catch(function (error) {
+
+                console.error(
+                    "Flagged search error:",
+                    error
+                );
+            });
+    }
+
+
+    function clearFlaggedSearch() {
+
+        document.getElementById(
+            "flaggedSearchInput"
+        ).value = "";
+
+        document.getElementById(
+            "clearFlaggedSearchBtn"
+        ).style.display = "none";
+
+        document.getElementById(
+            "flaggedNoResultsMessage"
+        ).style.display = "none";
+
+        loadFlaggedFiles();
+    }
+
+    /* =========================================================
+       Users
+       ========================================================= */
+
+    function loadUsers() {
+        fetch("/api/admin/users")
+            .then(handleResponse)
+            .then(function (data) {
+                const users = Array.isArray(data) ? data : [];
+                const tbody = document.getElementById("userTableBody");
+                tbody.innerHTML = "";
+                document.getElementById("userCount").textContent = users.length + " user" + (users.length !== 1 ? "s" : "");
+
+                if (users.length === 0) {
+                    tbody.innerHTML = `
+                    <tr class="table-empty">
+                        <td colspan="3">
+                            <i class="bi bi-people"></i>
+                            <p>No users found</p>
+                        </td>
+                    </tr>
+                `;
+                    return;
+                }
+
+                users.forEach(function (user) {
+                    const name = user.name || user.email || "Unknown";
+                    const email = user.email || "";
+                    const role = user.role || "instructor";
+                    const initials = name.charAt(0).toUpperCase();
+                    const roleClass = role === "admin" ? "role-admin" : "role-instructor";
+
+                    const row = document.createElement("tr");
+                    row.innerHTML = `
+                    <td>
+                        <div class="user-info">
+                            <span class="user-avatar">${escapeHtml(initials)}</span>
+                            <div>
+                                <span class="user-name">${escapeHtml(name)}</span>
+                                <span class="user-email">${escapeHtml(email)}</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td><span class="role-badge ${roleClass}">${escapeHtml(role)}</span></td>
+                    <td class="text-end">
+                        <button class="btn-icon btn-edit" type="button" title="Edit user"
+                                data-userid="${escapeHtml(user.id)}"
+                                data-email="${escapeHtml(email)}"
+                                data-role="${escapeHtml(role)}">
+                            <i class="bi bi-pencil"></i>
+                        </button>
+                        <button class="btn-icon btn-delete" type="button" title="Delete user"
+                                data-userid="${escapeHtml(user.id)}"
+                                data-username="${escapeHtml(name)}">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </td>
+                `;
+
+                    // Edit button event
+                    const editBtn = row.querySelector(".btn-edit");
+                    editBtn.addEventListener("click", function () {
+                        const uid = this.dataset.userid;
+                        const email = this.dataset.email;
+                        const role = this.dataset.role;
+                        openEditUserModal(uid, email, role);
+                    });
+
+                    // Delete button event
+                    const deleteBtn = row.querySelector(".btn-delete");
+                    deleteBtn.addEventListener("click", function () {
+                        const uid = this.dataset.userid;
+                        const name = this.dataset.username;
+                        deleteUser(uid, name);
+                    });
+
+                    tbody.appendChild(row);
+                });
+            })
+            .catch(function (error) {
+                console.error("Users error:", error);
+                document.getElementById("userTableBody").innerHTML = `
+                <tr class="table-loading">
+                    <td colspan="3">Error loading users.</td>
+                </tr>
+            `;
+                document.getElementById("userCount").textContent = "0 users";
+            });
+    }
+
+
+    /* =========================================================
+       Edit User – Modal functions
+       ========================================================= */
+
+    var currentEditUserId = null;
+
+    function openEditUserModal(userId, email, role) {
+        currentEditUserId = userId;
+        document.getElementById("editUserEmail").value = email;
+        document.getElementById("editUserRole").value = role;
+        document.getElementById("editUserModal").style.display = "flex";
+        document.getElementById("editUserEmail").focus();
+    }
+
+    function closeEditUserModal() {
+        document.getElementById("editUserModal").style.display = "none";
+        document.getElementById("editUserForm").reset();
+        currentEditUserId = null;
+    }
+
+    function submitEditUser(event) {
+        event.preventDefault();
+
+        const userId = currentEditUserId;
+        if (!userId) {
+            showMessage("No user selected for editing.", "error");
+            return;
+        }
+
+        const email = document.getElementById("editUserEmail").value.trim();
+        const role = document.getElementById("editUserRole").value;
+
+        if (!email) {
+            showMessage("Email is required.", "error");
+            return;
+        }
+
+        // --- CLOSE the edit modal FIRST ---
+        closeEditUserModal();
+
+        // Now show the confirmation dialog (it will appear on top)
+        showConfirmDialog(
+            "Update user " + email + "?",
+            function () {
+                fetch("/api/admin/users/" + encodeURIComponent(userId), {
+                    method: "PATCH",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ email: email, role: role })
+                })
+                    .then(handleResponse)
+                    .then(function (data) {
+                        if (!data.success) {
+                            throw new Error(data.error || "Unable to update user.");
+                        }
+                        showMessage("User updated successfully.", "success");
+                        // No need to close edit modal again (already closed)
+                        loadUsers();
+                        loadStats();
+                    })
+                    .catch(function (error) {
+                        console.error("Edit user error:", error);
+                        showMessage(error.message || "Error updating user.", "error");
+                    });
+            }
+        );
+    }
+
+
+    /* =========================================================
+       Delete User
+       ========================================================= */
+
+    function deleteUser(userId, userName) {
+
+        showConfirmDialog(
+            'Delete user "' +
+            userName +
+            '"? This action cannot be undone.',
+
+            function () {
+
+                fetch(
+                    "/api/admin/users/" +
+                    encodeURIComponent(userId),
+                    {
+                        method: "DELETE"
+                    }
+                )
+
+                    .then(handleResponse)
+
+                    .then(function (data) {
+
+                        if (data.error) {
+                            throw new Error(data.error);
+                        }
+
+                        showMessage(
+                            "User deleted successfully.",
+                            "success"
+                        );
+
+                        loadUsers();
+                        loadStats();
+                    })
+
+                    .catch(function (error) {
+
+                        console.error(
+                            "Delete user error:",
+                            error
+                        );
+
+                        showMessage(
+                            error.message ||
+                            "Error deleting user.",
+                            "error"
+                        );
+                    });
+            }
+        );
+    }
+
+
+    /* =========================================================
+       Add User Modal
+       ========================================================= */
+
+    function openAddUserModal() {
+
+        const modal =
+            document.getElementById(
+                "addUserModal"
+            );
+
+        modal.style.display = "flex";
+
+        document.getElementById(
+            "addUserEmail"
+        ).focus();
+    }
+
+
+    function closeAddUserModal() {
+
+        const modal =
+            document.getElementById(
+                "addUserModal"
+            );
+
+        modal.style.display = "none";
+
+        document.getElementById(
+            "addUserForm"
+        ).reset();
+
+        document.getElementById(
+            "addUserBtn"
+        ).focus();
+    }
+
+
+    /* =========================================================
+       Create User - FIXED (no 'name' field)
+       ========================================================= */
+
+    function submitAddUser(event) {
+
+        event.preventDefault();
+
+        const email =
+            document.getElementById(
+                "addUserEmail"
+            ).value.trim();
+
+        const password =
+            document.getElementById(
+                "addUserPassword"
+            ).value;
+
+        const role =
+            document.getElementById(
+                "addUserRole"
+            ).value;
+
+        if (!email || !password || !role) {
+
+            showMessage(
+                "All fields are required.",
+                "error"
+            );
+
+            return;
+        }
+
+        if (password.length < 8) {
+
+            showMessage(
+                "Password must be at least 8 characters.",
+                "error"
+            );
+
+            return;
+        }
+
+        if (
+            !/[A-Z]/.test(password) ||
+            !/[a-z]/.test(password) ||
+            !/[0-9]/.test(password)
+        ) {
+
+            showMessage(
+                "Password must include uppercase, lowercase, and numbers.",
+                "error"
+            );
+
+            return;
+        }
+
+        showConfirmDialog(
+            "Create new " +
+            role +
+            " account for " +
+            email +
+            "?",
+
+            function () {
+
+                fetch("/api/admin/users", {
+
+                    method: "POST",
+
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+
+                    body: JSON.stringify({
+                        email: email,
+                        password: password,
+                        role: role
+                    })
+
+                })
+
+                    .then(handleResponse)
+
+                    .then(function (data) {
+
+                        if (!data.success) {
+
+                            throw new Error(
+                                data.error ||
+                                "Unable to create user."
+                            );
+                        }
+
+                        showMessage(
+                            "User created successfully.",
+                            "success"
+                        );
+
+                        closeAddUserModal();
+
+                        loadUsers();
+                        loadStats();
+                    })
+
+                    .catch(function (error) {
+
+                        console.error(
+                            "Create user error:",
+                            error
+                        );
+
+                        showMessage(
+                            error.message ||
+                            "Error creating user.",
+                            "error"
+                        );
+                    });
+            }
+        );
+    }
+
+
+    /* =========================================================
+       Confirmation Dialog
+       ========================================================= */
+
+    function showConfirmDialog(
+        message,
+        onConfirm
+    ) {
+
+        const modal =
+            document.getElementById(
+                "confirmModal"
+            );
+
+        document.getElementById(
+            "confirmMessage"
+        ).textContent = message;
+
+        modal.style.display = "flex";
+
+        const confirmButton =
+            document.getElementById(
+                "confirmOk"
+            );
+
+        const cancelButton =
+            document.getElementById(
+                "confirmCancel"
+            );
+
+        confirmButton.focus();
+
+        confirmButton.onclick = function () {
+
+            modal.style.display = "none";
+
+            if (typeof onConfirm === "function") {
+                onConfirm();
+            }
+        };
+
+        cancelButton.onclick = function () {
+
+            modal.style.display = "none";
+        };
+
+        modal.onclick = function (event) {
+
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        };
+    }
+
+
+    /* =========================================================
+       Messages
+       ========================================================= */
+
+    function showMessage(message, type) {
+
+        const element =
+            document.getElementById(
+                "thresholdMessage"
+            );
+
+        element.textContent = message;
+
+        element.className =
+            "threshold-message " +
+            (type === "success"
+                ? "success"
+                : "error");
+
+        clearTimeout(
+            showMessage.timeout
+        );
+
+        showMessage.timeout =
+            setTimeout(function () {
+
+                element.textContent = "";
+
+                element.className =
+                    "threshold-message";
+
+            }, 4000);
+    }
+
+
+    /* =========================================================
+       Refresh
+       ========================================================= */
+
+    function refreshAll() {
+
+        loadStats();
+        loadRepositoryFiles();
+        loadFlaggedFiles();
+        loadUsers();
+    }
+
+
+    /* =========================================================
+       Utilities
+       ========================================================= */
+
+    function handleResponse(response) {
+
+        if (!response.ok) {
+
+            return response
+                .json()
+                .catch(function () {
+                    return {};
+                })
+                .then(function (data) {
+
+                    throw new Error(
+                        data.error ||
+                        "Request failed with status " +
+                        response.status
+                    );
+                });
+        }
+
+        return response.json();
+    }
+
+
+    function escapeHtml(value) {
+
+        const div =
+            document.createElement("div");
+
+        div.textContent =
+            value == null
+                ? ""
+                : String(value);
+
+        return div.innerHTML;
+    }
+
+
+    function debounce(func, delay) {
+
+        let timeout;
+
+        return function () {
+
+            const context = this;
+            const args = arguments;
+
+            clearTimeout(timeout);
+
+            timeout = setTimeout(
+                function () {
+                    func.apply(context, args);
+                },
+                delay
+            );
+        };
+    }
+</script>
+
+{% endblock %}

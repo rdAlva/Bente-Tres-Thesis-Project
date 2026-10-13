@@ -1,0 +1,853 @@
+Prescribing Patterns in a Primary Care Service
+in a Rural Site in the Philippines from
+April 2019 to March 2020 – A Cross-sectional Study
+Nicole Andrea C. Lanip, MD,1 Leonila F. Dans, MD,1,2 Carol Stephanie C. Tan-Lim, MD,3 
+Ma. Liza Antoinette M. Gonzales, MD,1 Cara Lois T. Galingana,2 Josephine T. Sanchez, RN,2 
+Maria Rhodora N. Aquino, RN,2 Arianna Maever Loreche,4,5 Mia P. Rey, PhD,2 
+Janelle Micaela S. Panganiban2 and Antonio L. Dans, MD2,6
+1Department of Pediatrics, Philippine General Hospital, University of the Philippines Manila
+2Philippine Primary Care Studies, Center for Integrative and Development Studies, University of the Philippines Diliman
+3Department of Clinical Epidemiology, College of Medicine, University of the Philippines Manila
+4National Clinical Trials and Translation Center, National Institutes of Health, University of the Philippines Manila
+5Center for Research and Innovation, School of Medicine and Public Health, Ateneo de Manila University
+6Institute of Clinical Epidemiology, National Institutes of Health, University of the Philippines Manila
+ABSTRACT
+Background. Appropriate use of medication is an important indicator of quality healthcare delivery among children. 
+Previously published studies on drug utilization involved Filipino households in general and were conducted in the 
+1990s. No recent Philippine studies have been conducted that focus on drug utilization in children. 
+Objective. To describe the current prescribing patterns in one primary care service in a rural site in the Philippines 
+using the World Health Organization (WHO) prescribing indicators. 
+Methods. A cross-sectional study was conducted by review of electronic medical records of patients seen at the 
+primary care facility under the Philippine Primary Care Studies (PPCS) rural site from April 2019 to March 2020. 
+Out of 9,930 total encounters, 623 patient encounters with prescriptions for pediatric patients were included in the 
+study through systematic sampling. The average number of drugs per encounter, percentage of drugs prescribed by 
+their generic names, percentage of encounters with prescribed antibiotics, percentage of encounters with prescribed 
+injections, and percentage of drugs prescribed from the Philippine Drug Formulary were calculated. Values were 
+compared to the cut-offs considered “good practice” 
+for outpatient care in the WHO manual: (1) an average 
+number of less than two drugs per encounter; (2) less 
+than 30% of encounters are prescribed with antibiotics; 
+(3) less than 20% of encounters are prescribed with 
+injections; (4) 100% of drugs are prescribed by generic 
+name; and (5) 100% of drugs are from the formulary.
+Results. On the average, three drugs were prescribed per 
+encounter. Most patient encounters (80.9%) involved 
+antibiotics prescription — higher than the WHO standard 
+value of 30%. All drugs were prescribed by generic name 
+and were prescribed from the formulary. Only 0.5% of 
+encounters were prescribed injections, all of which 
+were administered through the intramuscular route. Of 
+the 1,962 prescriptions generated, antibiotics was the 
+most prescribed medication (25.7%). The most common 
+diagnosis was infectious in nature (88.8%). 
+Conclusion. The primary care service achieved the WHO 
+standard values in terms of prescribing by injections and 
+Paper presentation – PGH Department of Pediatrics Visual 
+Abstract Contest, October 5, 2022, Philippine General Hospital.
+eISSN 2094-9278 (Online)
+Published: October 31, 2024
+https://doi.org/10.47895/amp.vi0.8668
+Copyright: The Author(s) 2024
+Corresponding author: Carol Stephanie C. Tan-Lim, MD
+Department of Clinical Epidemiology
+College of Medicine
+University of the Philippines Manila
+Pedro Gil St., Ermita, Manila 1000, Philippines
+Email: cctan7@up.edu.ph
+ORCiD: https://orcid.org/0000-0001-8815-4191
+VOL. 58 NO. 19 2024
+93
+ORIGINAL ARTICLE
+
+by generic names. There was a high rate of antibiotic 
+prescriptions at 83%, and a high average number of 
+drugs prescribed per encounter, exceeding the WHO 
+standard value.
+Keywords: prescription patterns, drug prescribing indicators, 
+irrational drug use, primary care 
+INTRODUCTION
+Appropriate use of medications is of utmost importance 
+in delivering quality healthcare among children. If not used 
+appropriately, medications can lead to adverse consequences 
+such as increased morbidity and mortality, reduced resource 
+availability, increased cost, and psychosocial issues.1
+The use of drugs is said to be rational if appropriate drugs 
+are prescribed for appropriate indications to appropriate 
+patients who are well-informed and appropriately monitored.1 
+“Irrational drug prescribing” is defined as “prescribing that 
+fails to conform to good standards of treatment.”2 According 
+to studies, over 50% of medications are prescribed or supplied 
+wrongly worldwide.3 A World Health Organization (WHO) 
+survey revealed that in developing countries, less than 40% 
+of primary care patients in public health institutions and 
+40% in the private sector are treated according to established 
+treatment standards.4 Polypharmacy (use of five or more 
+prescriptions), insufficient dosage, improper indications, 
+excessive use of injections when oral treatments would be 
+more appropriate, and self-medication are a few factors that 
+contribute to the problem of irrational drug prescribing.2 
+Negative effects from drug misuse include rising 
+antibiotic resistance, an increase in blood-borne infections, 
+and increased adverse drug reactions (ADRs). Drug misuse 
+significantly contributes to unnecessary medical expenses. 
+In low- and middle-income countries (LMICs), 70 to 75 
+percent of all healthcare costs are related to medications. 
+According to the WHO, 50 to 70 percent of these drug 
+prescriptions are unnecessary.4 
+Children are particularly susceptible to the negative 
+effects of medications due to their unique pharmacokinetics 
+and pharmacodynamics.5 In a review of 80 studies reporting 
+ADRs in children, Smyth et al. observed that the incidence 
+of an ADR leading to hospital admission ranged from 0.4% 
+to 10.3%.6 According to another study, 71% of ADRs in 
+children necessitated hospital admission, accounting for 
+4% of all admissions in a major children's hospital in the 
+United Kingdom.7 
+Underprescribing includes non-prescription of necessary 
+medications, prescription of insufficient dosages, or inadequate 
+treatment duration. On the other hand, overprescribing 
+describes situations in which a medication that is not 
+recommended is prescribed; if it is indicated, the course of 
+treatment is prolonged, or the dosage is inappropriately high. 
+Examples of overprescribing in children include provision 
+of antibiotics for 21 days for a minor infection that should 
+be treated for 7 days only, or prescription of antibiotics for 
+viral infections.1 Both under- and over-prescription of drugs 
+has a particularly negative impact on children.
+Due to the growing public health concern of drug 
+misuse, the WHO created prescribing indicators detailed 
+in the WHO manual to support good medical practice.8 
+WHO prescribing indicators considered “good practice” for 
+outpatient care include: (1) an average number of less than 
+two drugs per encounter; (2) less than 30% of encounters are 
+prescribed with antibiotics; (3) less than 20% of encounters are 
+prescribed with injections; (4) 100% of drugs are prescribed by 
+generic name; and (5) 100% of drugs are from the formulary.2 
+Several studies have evaluated the prescribing patterns 
+in children using these WHO indicators. A February 2022 
+cross-sectional study done in outpatient clinics in Lebanon 
+uncovered several good prescribing practices: an ideal generic 
+prescribing pattern (100%) and quantity of medications 
+(average of 1.8) prescribed to children per visit. A study by 
+Aldabagh in 2022 showed good clinical practice in terms 
+of prescription of antibiotics: 19.5% of encounters had 
+antibiotics prescribed. However, there was subpar use of drugs 
+in the formulary (47.7%), and overuse of injectables (44.8%) 
+especially in endocrine clinics.2 A study in an Indian pediatric 
+outpatient clinic reported similar results of over-prescription 
+of antibiotics (60%). The study noted inadequate labeling 
+(almost 50% used brand names), with an average of 3.4 drugs 
+prescribed per encounter. Prescribing from the formulary 
+for children was assessed as fair, while use of injections was 
+low.9 One 2006 retrospective study from Nepal evaluated 
+prescribing patterns among hospitalized patients. Results 
+showed a trend towards polypharmacy, with an average of 4.5 
+drugs prescribed per admission. Almost 70% of admissions 
+were prescribed antibiotics.6 Across these studies, there is 
+consistent evidence to suggest that the prescribing practices 
+of healthcare professionals in children need improvement in 
+the five areas as defined by the WHO indicators. 
+Previously published Philippine studies on drug 
+utilization involve households in general and were conducted 
+in the 1990s.10 No recent Philippine studies have been 
+conducted focusing on drug utilization in children. The 
+Philippine Primary Care Studies (PPCS) was established in 
+2016 to investigate how certain interventions can improve 
+primary care delivery system to address the issues that cause 
+healthcare access disparities. The main goal of this program is 
+to identify the healthcare effects of an outpatient primary care 
+system through pilot studies in a rural, remote (Geographically 
+Isolated and Disadvantaged Areas), and urban setting. In the 
+rural site, the primary care system was established through 
+a service delivery network (SDN) composed of the rural 
+health unit (RHU) and 14 barangay health stations (BHS). 
+The primary care facility was supported by a robust electronic 
+medical record system (EMR) that tracked patient visits 
+and provider workloads, diseases, management, and health 
+expenditures. 
+VOL. 58 NO. 19 2024
+94
+Prescribing Patterns in a Primary Care Service
+
+One of the program’s outcome measures is quality of care 
+which can be measured by how medications are prescribed. 
+This paper evaluates the prescribing patterns of healthcare 
+professionals for pediatric patients in a primary care service 
+in a rural site from April 2019 to March 2020. The duration 
+of the study was one year, as recommended in the WHO 
+Manual, to minimize bias brought by seasonal variations or 
+interruptions in the drug supply cycle. A primary care service 
+was selected as the study unit, as recommended by the WHO. 
+The prescribing indicators are more useful in outpatient 
+settings and in primary care facilities where the drug use 
+patterns are less complex, compared to inpatient and referral 
+hospital settings.
+The present study is significant as it assessed the 
+prescribing patterns of a primary care facility in the Philippines 
+using the WHO prescribing indicators. The study can offer 
+baseline data on prescribing practices and assess whether 
+the facility's performance satisfies the standards established 
+by the WHO. Interventions can be directed towards specific 
+areas of drug prescription practices where performance 
+is found to be subpar. The same WHO drug prescription 
+indicators can be used to gauge the success of an intervention 
+after implementation. This study also demonstrated how the 
+EMR can be used to track healthcare quality, measured as 
+prescribing patterns, in a primary care.
+The primary objective of the study was to describe the 
+current prescribing patterns using the WHO prescribing 
+indicators in one rural primary care facility using data 
+gathered from its EMR from April 2019 to March 2020. 
+Secondary objectives were: (1) to identify the most prescribed 
+medications in pediatric outpatients; (2) to determine the 
+most common diagnoses, both infectious and non-infectious; 
+and (3) to identify areas that need improvement with regard 
+to the rational use of medicines among pediatric patients 
+in one primary care service in a rural site.
+METHODS
+Study Design
+A cross-sectional study was conducted through review 
+of the EMR. Using all encounters with prescriptions for 
+pediatric patients (aged less than 19 years) seen in the 
+rural primary care facility from April 2019 to March 2020 
+as a sampling frame, systematic sampling was done. The 
+systematic sampling technique was recommended in the 
+WHO Manual for drug utilization studies.8 
+The rural primary care facility was in Samal, Bataan, 
+a fourth-class municipality with approximately 36,000 
+residents across 14 barangays. This facility provided 
+healthcare services through one Rural Health Unit (RHU) 
+and 14 barangay health stations (BHS). Doctors, nurses, and 
+midwives provided services in the RHU; nurses and midwives 
+primarily handled the BHS.
+An encounter is defined in this study as a clinical 
+encounter where a patient is diagnosed and prescribed 
+with medications. Sampling was done using the following 
+steps: (1) identification of total number of encounters over 
+the study; and (2) total number of encounters was divided 
+by the desired sample size to obtain the sampling interval. 
+A minimum of 600 encounters was recommended by the 
+WHO with the goal of estimating percentage indicators 
+that summarize values for the sample as a whole with 95% 
+confidence interval ±7.5%. The sampling interval in this study 
+was computed as 9,930 / 600 = 16. 
+The sampling list was sorted chronologically. The starting 
+point was the first encounter recorded in the EMR. Every 
+16th encounter from the starting record was selected. This 
+sampling procedure was controlled for seasonal effects and 
+different timings of consult in a day. All records identified 
+through systematic sampling were included in the study; 
+there was no exclusion criteria.
+Study Procedure
+Data was collected from the EMR by the data manager 
+of the PPCS team using Microsoft Excel. The data manager 
+and PPCS team members were oriented beforehand by 
+the primary investigator to ensure research objectives were 
+well-communicated. Data collected include anonymized 
+patient ID, encounter ID, visit number, birthdate, age, sex, 
+consultation time, diagnosis, and medications. 
+Data extraction was done by the primary investigator and 
+the PPCS data management team following the sample data 
+collection form recommended in the WHO manual. Any 
+missing data was to be encoded as “not reported.” Data was 
+analyzed by the primary investigator. Antibiotics are defined 
+in this study as all drugs listed in the National Antibiotic 
+Guidelines 2018 Manual prepared by the Department of 
+Health (DOH). Generics name is defined in this study as 
+product names listed in the Philippine Drug Formulary 8th 
+edition prepared by the DOH in 2017. Diagnosis is defined in 
+this study as the disease listed via ICD-10 codes. Diagnoses 
+were classified as infectious and non-infectious. Non-
+infectious diagnoses were further categorized into respiratory, 
+nephrology, cardiology, gastroenterology, hematology-
+oncology, dermatology, trauma, pregnancy-related, and 
+others. Each clinical encounter was assigned a sequence 
+number to ensure confidentiality. The data was stored in the 
+data encoders’ laptops which were secured by a password 
+accessible to them only.
+Data Analysis
+Categorical data such as sex, diagnosis, and types of 
+drugs were presented using frequencies and percentages. 
+Continuous data were presented using mean and standard 
+deviation (SD). The WHO indicators were calculated based 
+on the WHO Manual, as shown in Figure 1. 
+Ethical Considerations
+The University of the Philippines Manila Research 
+Ethics Board (UPMREB) granted ethical clearance for the 
+VOL. 58 NO. 19 2024
+95
+Prescribing Patterns in a Primary Care Service
+
+Philippine Primary Care Studies with study protocol code 
+UPMREB 20-15-489-01. Anonymity was guaranteed by 
+using arbitrary alphanumeric identifiers. Names and contact 
+details were excluded from the data collection.
+RESULTS
+This study included 623 encounters with prescriptions 
+for pediatric patients. A total of 1,962 prescriptions were 
+generated from the 623 patient encounters, since there were 
+encounters with more than one prescription (Figure 2). There 
+was no missing data in this study. The data collected from the 
+EMR all came from “required” fields, meaning these fields 
+are needed to be answered to close the record.
+Among the 623 encounters, almost half involved male 
+patients (52.8%, n=329). The mean age was 5.4 years old 
+(SD 4.5), with 296 encounters (47.5%) involving patients 
+aged 1 to 4 years. Table 1 shows the sociodemographic 
+characteristics of pediatric patients.
+Among the 623 encounters, 553 (88.8%) were diagnosed 
+to have an infectious condition. Among the non-infectious 
+diagnoses, allergy and gastrointestinal concerns were the 
+most common. Table 2 shows the distribution of all diagnoses 
+seen in the study.
+Table 2.	Frequency Distribution of Diag-
+noses Seen in a Primary Care 
+Service at a Rural Site (N=623)
+Diagnosis
+N (%)
+Infectious 
+553 (88.8)
+Non-infectious 
+70 (11.2)
+Allergy
+16 (2.6)
+Gastrointestinal 
+16 (2.6)
+Respiratory
+11 (1.8)
+Trauma
+6 (1.0)
+Pregnancy-related
+6 (1.0)
+Others
+5 (0.8)
+Hematology Oncology 
+4 (0.6)
+Dermatology
+3 (0.5)
+Nephrology
+2 (0.3)
+Endocrinology
+1 (0.2)
+Table 3.	Frequency Distribution of the 
+Prescribed Medications (N=1962 
+prescriptions)
+Drug Name
+N (%)
+Antibiotics
+504 (25.7)
+Antihistamine
+344 (17.5)
+Analgesics
+332 (17.0)
+Multivitamins 
+317 (16.3)
+Lagundi
+138 (7.0)
+Ascorbic acid
+130 (6.6)
+Bronchodilator
+124 (6.3)
+Dicycloverine
+23 (1.2)
+Oral Rehydration Solutions
+19 (1.0)
+Ferrous salt
+14 (0.7)
+Calamine lotion
+7 (0.3)
+Vaccines
+4 (0.2)
+Topical Corticosteroids
+3 (0.15)
+Table 1.	Sociodemographic Characte-
+ristics of Pediatric Patients In- 
+cluded in the Study (N=623)
+Parameter
+N (%)
+Sex
+Male
+329 (52.8)
+Female
+294 (47.2)
+Age
+Less than 1 year old
+39 (6.3)
+1 to 4 years old
+296 (47.5)
+5 to 9 years old 
+176 (28.3)
+10 to 14 years old
+78 (12.5)
+15 to 18 years old
+34 (5.4)
+Figure 2. Study flow diagram.
+623 pediatric encounters
+9,930 pediatric encounters
+1,962 prescriptions
+Systematic 
+sampling
+Figure 1. Formula used in calculating the WHO indicators as written in the WHO manual.
+4. The percentage of encounters with an injection in prescription
+Number of patient encounters during which an injection is prescribed
+Total number of patient encounters
+x 100
+% encounters with an 
+injection prescription =
+3. The percentage of drugs by generic name
+Number of drugs prescribed by generic name
+Total number of drugs prescribed
+x 100
+% drugs by generic name =
+2. The percentage of encounters with antibiotics prescribed
+Number of patient encounters during which an antibiotic is prescribed
+Total number of patient encounters
+x 100
+% encounters with 
+antibiotics prescribed =
+1. Average number of drugs per encounter
+Total number of drug products
+Total number of patient encounters
+Average number of 
+drugs per encounter =
+5. The percentage of drugs in prescription from the formulary
+Number of products in the prescription from the essential drug list
+Total number of drugs prescribed
+x 100
+=
+% of drugs in prescription 
+from the essential drug list
+VOL. 58 NO. 19 2024
+96
+Prescribing Patterns in a Primary Care Service
+
+Of the 1,962 prescriptions generated, antibiotics were the 
+most prescribed (25.7%), followed by antihistamines (17.5%), 
+analgesics (17%), and multivitamins (16.3%). Table 3 shows 
+the frequency distribution of the prescribed medications 
+among the 1,962 prescriptions. Out of the 623 patient 
+encounters, 504 (80.9%) involved antibiotics prescription. 
+Table 4 shows the frequency distribution of the number 
+of drugs prescribed per encounter. All encounters resulted 
+in at least 1 drug prescribed. The most common number of 
+drugs prescribed per encounter was 3 drugs (35.8%), followed 
+by 2 drugs (22.6%) and 4 drugs (21.5%). Polypharmacy 
+(prescription of 5 or more drugs) was noted in 13.5% of 
+encounters. The average number of drugs per encounter was 
+three.
+Only 3 encounters (0.5%) involved prescription of 
+injections, all of which were administered through the 
+intramuscular route (i.e., tetanus vaccine is given via intra-
+muscular route for cases of animal scratch and/or bites). 
+All drugs were prescribed by generic name. All drugs were 
+prescribed from the formulary. Table 5 shows the calculated 
+value per prescribing indicator for the primary care service 
+compared to the standard value set by the WHO. Two 
+prescribing indicators did not meet the WHO standard 
+value. The average number of drugs per encounter was greater 
+than 2, and the percentage of encounters with antibiotics 
+was greater than 30%. 
+DISCUSSION
+This study evaluated the prescribing patterns of physicians 
+in one primary care service based in a Philippines rural site. 
+The primary care service was able to achieve the WHO 
+standard values for three drug prescribing indicators, namely: 
+percentage of encounters with injection, percentage of drugs 
+from the formulary, and percentage of drugs prescribed by 
+generic name. The WHO standard values for two indicators, 
+average number of drugs per encounter less than 2 and 
+encounters prescribed with antibiotics less than 30%, were 
+not met. These two areas may benefit from interventions such 
+as capacity-building activities of healthcare providers, and 
+patient and parent health education strategies to improve 
+rational use of medications among pediatric patients. 
+In this study, the encounters most commonly involved 
+children aged 1 to 4 years (47.5%). This is similar to results 
+of Sharma’s study in 2016 where 66.1% of prescriptions were 
+for the said age group.11 This may be due to the fact that 
+these age groups are more vulnerable to injury and acquiring 
+infections.
+Antibiotics were the most frequently prescribed 
+medications in this study. They were also the most frequently 
+prescribed in a study on patients aged <5 to >64 conducted 
+in Ethiopia last 2015.12 A prospective observational study in 
+India conducted among 62 children in 2021 also reported 
+that antibiotics were the drug classes most frequently 
+administered.13 A cross-sectional study conducted in Sierra 
+Leone among pediatric patients in 2015 showed that the 
+most prescribed medicines were vitamins (85.4%). This was 
+closely followed by antibiotics (83.0%), nonsteroidal anti-
+inflammatory drugs (NSAIDS) (79.6%), and antimalarials 
+(79.6%).14 In contrast, a 2016 study in India among children 
+reported that antibiotics ranked as 4th most prescribed medi-
+cation. The most prescribed drug was paracetamol, followed 
+by chlorpheniramine maleate, and oral rehydration salts.5 
+The frequent prescription of antibiotics in the pediatric 
+population may be because acute respiratory tract infections 
+and nose infections are the most frequent conditions 
+affecting children.15 In this study, majority of the diagnoses 
+(88.8%) were infectious in nature. This finding is similar to 
+the prospective study carried out in an outpatient clinic in 
+India last 2016, which reported that most pediatric patients 
+had respiratory tract infections, followed by diarrhea, viral 
+pyrexia, epilepsy, and folliculitis.5 
+First WHO indicator: Average number of drugs 
+per encounter
+In this study, an average of three medicines were pre-
+scribed per patient encounter. This is similar to other studies 
+reporting the average number of drugs per prescription 
+at 3.77, 3.3, and 3.32.14,16,17 In contrast, some studies have 
+reported lower average number of medicines per prescription 
+at 2.55, 2.4, and 2.6.18-20 
+The average number of three drugs per clinical 
+encounter is above the recommended value set by the 
+WHO. The availability of unnecessary and irrational drug 
+combinations, aggressive drug promotion, and aggressive 
+Table 5.	Drug Core Prescribing Indicators
+Parameter
+Study Sample 
+Value
+WHO 
+Standard Value
+Standard 
+Achieved?
+Average number of drugs per encounter
+3
+<2.0
+No
+Percentage of encounters with antibiotics
+80.9%
+<30%
+No
+Percentage of encounters with injection
+0.5%
+<20%
+Yes
+Percentage of drugs prescribed by generic name
+100%
+100%
+Yes
+Percentage of drugs from the formulary
+100%
+100%
+Yes
+Table 4.	Frequency Distribution of 
+Number of Drugs Prescribed 
+per Encounter (N=623)
+Number of drugs 
+per encounter
+N (%)
+0
+0
+1
+41 (6.6)
+2
+141 (22.6)
+3
+223 (35.8)
+4
+134 (21.5)
+5 and above
+84 (13.5)
+VOL. 58 NO. 19 2024
+97
+Prescribing Patterns in a Primary Care Service
+
+marketing strategies of pharmaceutical companies may be 
+some factors that contribute to increased drug prescriptions. 
+Other factors include patients' unrealistic expectations and 
+demands for immediate relief. There were no encounters 
+where a drug was not prescribed, which may be due to some 
+patient’s expectations that when they see a doctor, they will 
+always get a prescription to relieve symptoms or resolve their 
+disease. Polypharmacy has a negative impact on treatment 
+outcomes. It also diminishes compliance and inflates the 
+cost of medicines; thereby, causing a burden on patients and 
+the country's healthcare system. It is crucial to institute local 
+rules and practices into place to rationalize the use of drugs.
+Second WHO indicator: Percentage of encounters 
+with antibiotics
+The percentage of encounters with antibiotics was 
+83%, much higher than the recommended value of 30% by 
+the WHO. The high percentage of antibiotic prescription 
+is consistent with the leading diagnosis, since infection 
+constituted majority of the consults. However, it is important 
+to consider that most of the pediatric infections are viral 
+in nature and do not need antibiotics.
+This percentage is comparable to the values obtained 
+in earlier research on drug usage. A 2015 study in Ethiopia 
+among patients aged <5 and >64 years reported that 46% to 
+85% of prescriptions were antibiotics.12 Similar antibiotic 
+prescription rates among children were also reported in 
+other LMICs such as Sudan (81.3%), India (81.1%), and 
+Nigeria (71.1%). In higher-income nations, the antibiotic 
+prescription rates among children varied widely from 18.5% 
+in Saudi Arabia, 44.6% in the United Arab Emirates, and 
+85% in Jordan.11 
+Third WHO indicator: Percentage of encounters 
+with injections
+This study shows that 0.48% of encounters have 
+prescribed injections which are all intramuscular in nature. 
+Improper prescription of injections may cause unnecessary 
+pain among pediatric patients. Overuse of injections rather 
+than available, suitable oral dose forms also raises healthcare 
+expenses and increases the risk of iatrogenic infections.
+The low prescription of injections in this study is 
+comparable to a 2016 study conducted in Pakistan.21 This 
+may be because injectable medicines are more commonly 
+reserved for emergency cases, and therefore prescribed by the 
+emergency department. In contrast, other studies report that 
+injections were prescribed at an average of 61% of patient 
+encounters.22
+Fourth WHO indicator: Percentage of drugs 
+prescribed by generic name
+Using the generic name helps in establishing better 
+communication among healthcare workers. In this study, all 
+prescriptions were written in generic names, which meets 
+the WHO standard value of 100%. The WHO Drug Use 
+Indicators Manual prerequisite in computing the percentage 
+of drugs prescribed by generic name is that investigators must 
+be able to observe the actual names used in the prescription. 
+In the EMR used in the primary care facility, drug products 
+are listed using the generic name. The prescriptions would 
+then be automatically generated and reach pharmacies 
+through the SDN. This is one distinct advantage of using the 
+EMR, since all prescriptions generated from the EMR would 
+contain the generic name. 
+In other studies, the percentage of medications pre-
+scribed by generic name was 49.3% in Sudan, 68.9% in 
+Nigeria, and 95.8% in Ethiopia.23 The wide variation among 
+these countries is reflective of the laws governing prescription 
+writing. The 100% use of generics name in this study complies 
+with Republic Act No. 6675 or the “Generics Act of 1988,” 
+which states the importance “to promote, encourage and 
+require the use of generic terminology in the importation, 
+manufacture, distribution, marketing, advertising and 
+promotion, prescription and dispensing of drugs.” On the 
+other hand, Sudan has no legal provisions in place to prescribe 
+by generic name in the public or private sector.24 Likewise, 
+Nigeria is yet to institutionalize the generic medicine 
+prescribing even though legislation exists.25
+Fifth WHO indicator: Percentage of drugs from 
+the formulary
+This study exhibited the acceptable value of 100% pre-
+scription of drugs from the formulary. This value is higher 
+than those observed in other countries such as India (24%).11 
+Prescribing drugs from the national formulary encourages 
+the selection of medicines that are affordable and appropriate 
+for local patterns of illness prevalence and drug resistance; 
+thus, promoting rational prescribing. It promotes the use 
+of well-known and affordable medications, resulting in a 
+fair and sustainable access to goods, improved long-term 
+pharmaceutical supply, and quality health care. In the 
+EMR used, only drugs that belong to the Philippine Drug 
+Formulary are listed in the system. Healthcare providers who 
+choose drugs that do not belong to the formulary need to 
+input these manually. The cost of this non-formulary drug 
+would not be covered by the health package and would be 
+shouldered by the patients. Thus, this study demonstrates that 
+incorporating only formulary drugs in the EMR successfully 
+resulted in the achievement of the WHO standard of 100% 
+prescription of formulary drugs.
+Limitations
+The result of this study was based on and limited to the 
+EMR in one primary care facility in a rural site. The results are 
+dependent on the accuracy of reporting and documentation in 
+the said registry. Moreover, since the setting of the study was a 
+single health facility, its conclusions may not be applicable to 
+the other primary care facilities. The research only measured 
+drug use at a certain time frame and did not evaluate the 
+quality of diagnosis.
+VOL. 58 NO. 19 2024
+98
+Prescribing Patterns in a Primary Care Service
+
+CONCLUSION
+The drug-prescribing patterns of the primary care service 
+in this study generally fared well compared to the WHO 
+standard. The primary care service achieved the WHO 
+standard values for percentage of encounters with injection 
+(<20%), percentage of drugs from the formulary (100%), 
+and percentage of drugs prescribed by generic name (100%). 
+The most common prescribed drug was antibiotics, and the 
+most common diagnosis was infectious in nature. The average 
+number of antibiotics encountered per prescription in this 
+study was high at 83% versus the WHO standard value of 
+30%. The average number of drugs per encounter was also 
+high. Improvement in these two areas (rational prescription 
+of antibiotics and prescription of appropriate number of 
+drugs) is needed. 
+Recommendations
+This study contributes to the local and international 
+literature by evaluating medicine use in the context of primary 
+care service—a point of first contact with the health system. 
+The results of the study can be used to initiate discussions 
+with the public about the benefits and risk of medicines. 
+They may also contribute to the training of medical students 
+on rational drug use. The results can also guide the local 
+government in ensuring proper budget allocation for the 
+most prescribed medications in the area where the study was 
+conducted. The information gathered in the present study 
+can also aid healthcare professionals who are responsible for 
+supervising the quality of medical care provided. Overall, the 
+present study can serve as a foundation for future strategies 
+aimed at ensuring safe and effective drugs for use in sick 
+infants, children, and adolescents.
+Disclaimer
+Views expressed by the authors in the submitted article 
+are their own and not an official position of the institution 
+or funder.
+Statement of Authorship
+All authors certified fulfillment of ICMJE authorship 
+criteria.
+Author Disclosure 
+All authors have no conflicts of interest to declare.
+Funding Source
+The study was funded by the Philippine Department of 
+Health (DOH), Philippine Health Insurance Corporation 
+(PhilHealth), Emerging Interdisciplinary Research Program 
+(EIDR), Center for Integrative and Development Studies 
+(CIDS), and Philippine Council on Health Research and 
+Development (PCHRD).
+REFERENCES
+1.	
+Ofori-Asenso R, Brhlikova P, Pollock AM. Prescribing indicators 
+at primary health care centers within the WHO African region: 
+a systematic analysis (1995-2015). BMC Public Health. 2016 
+Aug;16:724. doi: 10.1186/s12889-016-3428-8. PMID: 27545670; 
+PMCID: PMC4993007.
+2.	
+Aldabagh A, Abu Farha R, Karout S, Itani R, Abu Hammour K, 
+Alefishat E. Evaluation of drug use pattern in pediatric outpatient 
+clinics in a tertiary teaching hospital using WHO drug-prescribing 
+indicators. J Multidiscip Healthc. 2022 May;15:1143-51. doi: 10.2147/
+JMDH.S362172. PMID: 35611000; PMCID: PMC9124472. 
+3.	
+Akl OA, El Mahalli AA, Elkahky AA, Salem AM. WHO/INRUD 
+drug use indicators at primary healthcare centers in Alexandria, 
+Egypt. J Taibah Univ Med Sci. 2014 Mar;9(1):54–64. doi:10.1016/ 
+j.jtumed.2013.06.002.
+4.	
+Liu H, Li H, Teuwen DE, Sylvia S, Shi H, Rozelle S, et al. Irrational 
+use of medicine in the treatment of presumptive asthma among rural 
+primary care providers in Southwestern China. Front Pharmacol. 2022 
+Feb;13:767917. doi: 10.3389/fphar.2022.767917. PMID: 35242030; 
+PMCID: PMC8885990.
+5.	
+Kagitapu S, Nune A, Devulapally H, Adla N. Prescribing patterns of 
+drugs in pediatrics outpatient department in tertiary care hospital. 
+IOSR J Dent Med Sci. 2016 Oct;15(10):92–5. doi: 10.9790/0853-
+1510019295. 
+6.	
+Smyth RM, Gargon E, Kirkham J, Cresswell L, Golder S, Smyth 
+R, et al. Adverse drug reactions in children--a systematic review. 
+PLoS One. 2012;7(3):e24061. doi: 10.1371/journal.pone.0024061. 
+PMID: 22403604; PMCID: PMC3293884.
+7.	
+Meyers RS, Thackray J, Matson KL, McPherson C, Lubsch L, Hellinga 
+RC, et al. Key Potentially Inappropriate Drugs in pediatrics: The KIDs 
+List. J Pediatr Pharmacol Ther. 2020;25(3):175-91. doi: 10.5863/ 
+1551-6776-25.3.175. PMID: 32265601; PMCID: PMC7134587.
+8.	
+World Health Organization. Action Programme on Essential Drugs, 
+Vaccines. How to investigate drug use in health facilities: selected drug 
+use indicators [Internet]. 1993 [cited 2022 Sep 6]. Available from: 
+https://apps.who.int/iris/handle/10665/60519. 
+9.	
+Pise HN, Padwal SL, Jadhav RR, Deshmukh VS, Jadhav AD, Kolhe 
+AM. Drug prescribing and dispensing pattern in pediatrics outpatient 
+clinic of a rural tertiary-care teaching hospital. Natl J Physiol Pharm 
+Pharmacol. 2015;5(4):313-7. doi: 10.5455/njppp.2015.5.0902201546. 
+10.	
+Philippine Institute for Development Studies. Determinants and 
+Policy Implications of Drug Utilization in the Philippines [Internet]. 
+1992 [cited 2022 Sep 6]. Available from: https://www.pids.gov.ph/
+publication/working-papers/determinants-and-policy-implications-
+of-drug-utilization-in-the-philippines.
+11.	
+Sharma A, Shweta O. Assessment of drug prescription pattern in 
+children: A descriptive study. Natl J Physiol Pharm Pharmacol. 
+2016;6(1):74-80. doi: 10.5455/njppp.2015.5.1110201581. 
+12.	
+Summoro TS, Gidebo KD, Kanche ZZ, Woticha EW. Evaluation 
+of trends of drug-prescribing patterns based on WHO prescribing 
+indicators at outpatient departments of four hospitals in southern 
+Ethiopia. Drug Des Devel Ther. 2015 Aug;9:4551-7. doi: 10.2147/
+DDDT.S83588. PMID: 26309400; PMCID: PMC4539081. 
+13.	
+Sabbu R, Devathi S, Hiremath D. Study of drug prescribing pattern 
+in pediatric outpatient department at a tertiary care teaching hospital. 
+J Drug Deliv Ther. 2021;11(5):23-6. doi:10.22270/jddt.v11i5.4996. 
+14.	
+Cole CP, James PB, Kargbo AT. An evaluation of the prescribing 
+patterns for under-five patients at a tertiary paediatric hospital in 
+Sierra Leone. J Basic Clin Pharm. 2015 Sep;6(4):109-14. doi: 10.4103/ 
+0976-0105.168051. PMID: 26692736; PMCID: PMC4660481. 
+15.	
+Karinauske E, Kasciuskeviciute S, Morkuniene V, Garuoliene K, 
+Kadusevicius E. Antibiotic prescribing trends in a pediatric population 
+in Lithuania in 2003-2012: Observational study. Medicine (Baltimore). 
+2019 Nov;98(46):e17220. doi: 10.1097/MD.0000000000017220. 
+PMID: 31725600; PMCID: PMC6867790. 
+VOL. 58 NO. 19 2024
+99
+Prescribing Patterns in a Primary Care Service
+
+16.	
+Otoom S, Culligan K, Al-Assoomi B, Al-Ansari T. Analysis of drug 
+prescriptions in primary health care centres in Bahrain. East Mediterr 
+Health J. 2010 May;16(5):511-5. PMID: 20799550.
+17.	
+Bassoum O, Ba MF, Sougou NM, Fall D, Faye A. Evaluation of 
+prescribing indicators in a paediatric population seen in an outpatient 
+consultation at the Gaspard Kamara Health Centre in 2019 (Senegal). 
+Pharmacy (Basel). 2021 Jun;9(2):113. doi: 10.3390/pharmacy9020113. 
+PMID: 34204194; PMCID: PMC8293318.
+18.	
+Yousif BME, Supakankunti S. General practitioners' prescribing 
+patterns at primary healthcare centers in National Health Insurance, 
+Gezira, Sudan. Drugs Real World Outcomes. 2016 Sep;3(3):327-
+32. doi: 10.1007/s40801-016-0087-0. PMID: 27747832; PMCID: 
+PMC5042943. 
+19.	
+El Mahalli AA. WHO/INRUD drug prescribing indicators at primary 
+health care centres in Eastern province, Saudi Arabia. East Mediterr 
+Health J. 2012 Nov;18(11):1091-6. doi: 10.26719/2012.18.11.1091. 
+PMID: 23301369. 
+20.	
+Fadare J, Olatunya O, Oluwayemi O, Ogundare O. Drug prescribing 
+pattern for under-fives in a paediatric clinic in South-Western 
+Nigeria. Ethiop J Health Sci. 2015 Jan;25(1):73-8. doi: 10.4314/ejhs.
+v25i1.10. PMID: 25733787; PMCID: PMC4337085. 
+21.	
+Atif M, Azeem M, Sarwar MR, Shahid S, Javaid S, Ikram H, et al. 
+WHO/INRUD prescribing indicators and prescribing trends of 
+antibiotics in the Accident and Emergency Department of Bahawal 
+Victoria Hospital, Pakistan. Springerplus. 2016 Nov;5(1):1928. 
+doi: 10.1186/s40064-016-3615-1. PMID: 27933228; PMCID: 
+PMC5099312. 
+22.	
+Kasabi GS, Subramanian T, Allam RR, Grace CA, Reddy S, Murhekar 
+MV. Prescription practices & use of essential medicines in the primary 
+health care system, Shimoga district, Karnataka, India. Indian J 
+Med Res. 2015 Aug;142(2):216-9. doi: 10.4103/0971-5916.164261. 
+PMID: 26354220; PMCID: PMC4613444.
+23.	
+Jahan S, Al-Saigul AM, Hamdelsseed SA. Primary health care 
+physicians' prescribing patterns for children under five in Qassim, Saudi 
+Arabia. Prim Health Care Res Dev. 2019 Jun;20:e89. doi: 10.1017/
+S1463423619000148. PMID: 32799981; PMCID: PMC8060844. 
+24.	
+Musa Mohammed Y. Medicine Prices, Availability and Affordability 
+in Sudan. Thailand [Internet]. 2013 [cited 2022 Sept 6]. Available 
+from: 
+https://haiweb.org/wp-content/uploads/2015/07/Sudan-
+Report-Pricing-Surveys.pdf
+25.	
+Auta A, Bala ET, Shalkur D. Generic medicine substitution: a cross-
+sectional survey of the perception of pharmacists in North-Central, 
+Nigeria. Med Princ Pract. 2014;23(1):53-8. doi: 10.1159/000355473. 
+PMID: 24217185; PMCID: PMC5586836.
+VOL. 58 NO. 19 2024
+100
+Prescribing Patterns in a Primary Care Service

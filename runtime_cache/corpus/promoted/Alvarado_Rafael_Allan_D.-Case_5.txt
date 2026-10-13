@@ -1,0 +1,14 @@
+Rafael Allan D. Alvarado 
+CS-102 
+ 
+ 
+I believe that Comelec has no authority to release the source code of the PCOS machine without the 
+knowledge of Smartmatic. Smartmatic has the copyright of the said source code because it 
+commissioned Dominion Voting System, a US-based company. If Comelec decides to release the source 
+code of the machine, Smartmatic can sue Comelec for its breach of the copyright law of the Philippines. I 
+believe that Smartmatic holds ownership of the source code for the PCOS machine because I believe that 
+Smartmatic and Dominion Voting System have an employee and employer relationship. With regards to 
+copyright law, if there is an employer and employee relationship, the employer holds the ownership 
+based on their contract. I believe that Comelec has little to no rights to the source code of the machines 
+because it is owned by Smartmatic, and it was only leased to Comelec. If Comelec wishes to present the 
+source code to a group of IT experts, they should ask permission from Smartmatic. 
