@@ -1,0 +1,82 @@
+# =============================================================================
+# HAUdemicCheck .dockerignore
+#
+# Keep secrets, VCS metadata, virtual environments and Python caches out of the
+# image WITHOUT changing application behavior. See the note at the bottom for
+# the corpus / runtime-cache / log decision.
+# =============================================================================
+
+# --- Version control ---------------------------------------------------------
+.git
+.gitignore
+.gitattributes
+
+# --- Secrets and local configuration (never copied into the image) -----------
+.env
+.env.*
+!.env.example
+
+# --- Virtual environments ----------------------------------------------------
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Python bytecode / caches / build artifacts ------------------------------
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyre/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# --- IDE / editor metadata ---------------------------------------------------
+.vscode/
+.idea/
+.spyproject
+.spyderproject
+
+# --- Non-runtime project material -------------------------------------------
+# tests/ (threshold_sweep.py) and evaluation/ (ground_truth.csv) are standalone
+# and are not imported by the running app.
+screenshots/
+docs/
+tests/
+evaluation/
+
+# --- Runtime-generated logs --------------------------------------------------
+# Recreated empty by the Dockerfile. Excluding them avoids baking stale review
+# CSVs and large pairwise CSVs into the image. logs/.gitkeep is kept so the
+# directory still exists after COPY.
+logs/*.log
+logs/*.csv
+logs/*.txt
+
+# =============================================================================
+# Intentionally NOT excluded (do not break local storage / review behavior):
+#
+#   corpus/                     local promoted/processed/review mirror; also
+#                               the fallback for services/review.py and the
+#                               source of dashboard counts
+#   runtime_cache/              local working corpus synced from Supabase
+#   app/static/file/            upload staging
+#   app/utils/txtFileUpload/    extracted-text staging
+#
+# These are copied so the container's local layout matches the project. They
+# are regenerable from Supabase Storage, so a later stage MAY exclude or bind
+# mount them once the persistence/volume strategy is approved. Excluding them
+# now would change local-fallback and dashboard behavior.
+# =============================================================================
