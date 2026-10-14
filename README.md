@@ -77,8 +77,10 @@ There is no verified standalone database seed command in the project materials. 
 Access the link for public access:
 https://haudemiccheck.com/
 
-Use this credentials:
+Use this credentials: 
+
 User: instructorbentetres@gmail.com
+
 Password: instructorpassword23
 
 OR Access it through local means:
