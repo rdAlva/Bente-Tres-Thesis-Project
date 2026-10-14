@@ -77,6 +77,10 @@ There is no verified standalone database seed command in the project materials. 
 Access the link for public access:
 https://haudemiccheck.com/
 
+Use this credentials:
+User: instructorbentetres@gmail.com
+Password: instructorpassword23
+
 OR Access it through local means:
 
 ```bash
@@ -101,6 +105,25 @@ http://127.0.0.1:5000
 Open the displayed address in a modern web browser.
 
 Unauthenticated users are directed to the HAUdemicCheck login page. After successful authentication, authorized users can access the application's document similarity detection workflow.
+
+### For Docker Setup
+For first time install
+- Collect .env file from researchers
+- Place .env file in folder
+- Press the navbar of that folder and type powershell
+- enter `docker pull gabluigi/haudemicheck:latest`
+- then `docker run -d --name haudemicheck-app --env-file .env -p 5000:5000 gabluigi/haudemicheck:latest`
+- enter `docker ps`
+- then visit http://localhost:5000
+- enter this to stop `docker stop haudemicheck-app`
+
+For running after first install
+- Open folder where the .env is located
+- Press the navbar of that folder and type powershell
+- enter this to start `docker start haudemicheck-app`
+- then visit http://localhost:5000
+- enter this to stop `docker stop haudemicheck-app`
+
 
 ## 4. Features and usage
 
